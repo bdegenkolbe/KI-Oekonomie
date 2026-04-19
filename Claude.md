@@ -28,6 +28,10 @@ Das Papier steht unter der Creative-Commons-Lizenz CC BY 4.0.
 | `Validierung-Ergebnisse.md` | Historisches Protokoll aller Validierungen |
 | `Formatvorlage.md` | Gestaltungsrichtlinie für PDF- und Word-Export |
 | `Claude.md` | Dieses Dokument — Projektanweisung für Claude |
+| `build_pdf.py` | PDF-Export (reportlab) — setzt `Formatvorlage.md` um |
+| `build_docx.py` | Word-Export (python-docx) — setzt `Formatvorlage.md` um |
+| `Arbeitspapier_KI_Robotik_Besteuerung.pdf` | Generierter PDF-Export (aus `build_pdf.py`) |
+| `Arbeitspapier_KI_Robotik_Besteuerung.docx` | Generierter Word-Export (aus `build_docx.py`) |
 
 ---
 
@@ -87,9 +91,8 @@ Das Papier steht unter der Creative-Commons-Lizenz CC BY 4.0.
 - Nach jeder abgeschlossenen Validierung: PDF und Word neu erstellen
 - Versionsnummer wird hochgezählt (Dokumentkopf, Abschlusshinweis, `README.md`, `Validierung-Ergebnisse.md`)
 - Exports:
-  - `python3 build_pdf.py` (sobald Build-Skript vorhanden) oder ersatzweise
-  - `pandoc Arbeitspapier_KI_Robotik_Besteuerung.md -o Arbeitspapier_KI_Robotik_Besteuerung.pdf --from markdown --pdf-engine=xelatex --toc --toc-depth=3`
-  - `pandoc Arbeitspapier_KI_Robotik_Besteuerung.md -o Arbeitspapier_KI_Robotik_Besteuerung.docx --from markdown --to docx --toc --toc-depth=3`
+  - `python3 build_pdf.py` → `Arbeitspapier_KI_Robotik_Besteuerung.pdf` (reportlab, setzt `Formatvorlage.md` um)
+  - `python3 build_docx.py` → `Arbeitspapier_KI_Robotik_Besteuerung.docx` (python-docx, setzt `Formatvorlage.md` um)
 
 ### 4.5 Was nicht ohne Rückfrage geändert werden darf
 
@@ -103,28 +106,22 @@ Das Papier steht unter der Creative-Commons-Lizenz CC BY 4.0.
 
 ## 5. Build-Pipeline
 
-Das Projekt enthält im Ausgangszustand keine eigenen Build-Skripte. Der Export erfolgt über `pandoc`:
+Das Projekt enthält zwei dedizierte Build-Skripte, die die Vorgaben aus `Formatvorlage.md` umsetzen (A4, Navy/Stahlblau, Header/Footer, Akzentlinien vor Kapiteln, Sonderformat für den Thesen-Block in § 8.5). Keine pandoc-/xelatex-Abhängigkeit.
 
 ```bash
-# PDF
-pandoc Arbeitspapier_KI_Robotik_Besteuerung.md \
-  -o Arbeitspapier_KI_Robotik_Besteuerung.pdf \
-  --from markdown --pdf-engine=xelatex \
-  --toc --toc-depth=3 \
-  --metadata title="Die Besteuerung von Künstlicher Intelligenz und Robotik als Ersatz menschlicher Arbeit" \
-  --metadata author="Björn Degenkolbe, HIGL – Health Innovators Group Leipzig" \
-  --metadata date="April 2026"
+# Python-Abhängigkeiten (einmalig)
+pip install reportlab python-docx
 
-# Word (.docx)
-pandoc Arbeitspapier_KI_Robotik_Besteuerung.md \
-  -o Arbeitspapier_KI_Robotik_Besteuerung.docx \
-  --from markdown --to docx \
-  --toc --toc-depth=3 \
-  --metadata title="Die Besteuerung von Künstlicher Intelligenz und Robotik als Ersatz menschlicher Arbeit" \
-  --metadata author="Björn Degenkolbe, HIGL – Health Innovators Group Leipzig"
+# PDF (reportlab)
+python3 build_pdf.py
+# → Arbeitspapier_KI_Robotik_Besteuerung.pdf
+
+# Word (python-docx)
+python3 build_docx.py
+# → Arbeitspapier_KI_Robotik_Besteuerung.docx
 ```
 
-Falls später dedizierte Build-Skripte (`build_pdf.py`, `validate.py` o. ä.) entstehen, sind sie in dieser Tabelle zu ergänzen.
+Beide Skripte lesen das Hauptdokument, übernehmen H2/H3/H4-Hierarchie, Blockquotes (inkl. Thesen-Sonderfall), Aufzählungen und Tabellen und schreiben das Ergebnis direkt ins Repo-Root.
 
 ---
 
