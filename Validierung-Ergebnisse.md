@@ -83,3 +83,62 @@ Im selben Validierungslauf wurden ergänzend folgende Schritte durchgeführt:
 - URL-Stichprobe (§ 2.4.4) nachgeholt (siehe Prüftabelle oben).
 
 Damit sind alle Prüfschritte inklusive der anfangs als n/a markierten 2.4.4 und des Exportschritts abgeschlossen.
+
+---
+
+## Validierung 19. April 2026 — Version 2.0 → Version 3.0
+
+### Anlass
+
+Externe fachliche Kritik an Version 2.0 (Kurzgutachten, ChatGPT als Reviewer) mit vier substanziellen Punkten: (a) Wertschöpfungsabgabe konzeptionell klar, operativ unterbestimmt; (b) „KI als dritter Produktionsfaktor" ist analytische Position, nicht Konsens — sollte entsprechend gerahmt werden; (c) Staatsfonds-Logik unterschätzt, wie der Staat bei privat-globaler KI-Wertschöpfung überhaupt an Renditen kommt; (d) Geschwindigkeit der Disruption unterbestimmt — makroökonomische Literatur (Acemoglu 2024) sieht eher moderate Aggregateffekte. Zusätzlich fehlt ein konkreter Implementationspfad (national → EU → OECD). Die Einwände betreffen keine faktischen Fehler, sondern Präzisierungs- und Operationalisierungsbedarf.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Zwei neue Unterabschnitte ergänzt: „Operationalisierung — offene Gestaltungsfragen" in § 5.1 (eingebettet, kein eigenes H4) und neuer H3 § 9.5 „Implementationspfad: national, europäisch, international". 11-Kapitel-Struktur unverändert. |
+| 2.1.2 Nummerierung | OK | § 9 jetzt mit 9.1 – 9.5 (vorher 9.1 – 9.4), lückenlos. |
+| 2.1.3 Querverweise | OK | Neue Verweise aus § 8.3 auf § 5.1, aus § 3.5 auf Kapitel 8, aus § 9.5 auf Generationenkapital-Initiative (bereits in § 8.6 erwähnt). Keine gebrochenen Verweise. |
+| 2.1.4 Roter Faden | OK | Ergänzungen verstärken die Progression Literatur (Kap. 3) → Instrument (Kap. 5) → These (Kap. 8) → Umsetzung (Kap. 9) ohne die bestehende Architektur zu stören. |
+| 2.1.5 Formatierung | OK | Neue Bullet-Listen einheitlich mit Lead-In-Fettung; keine doppelten Trennlinien. |
+| 2.2.1 Sachliche Richtigkeit | OK | Neue Aussagen belegbar: Acemoglu 2024 Makro-Effekte (0,9 – 1,1 % BIP, 0,53 – 0,66 % TFP) direkt aus NBER WP 32487; IRAP als Operationalisierungsvorbild in § 5.1 bereits in § 6.2 belegt; Digital-Services-Tax-Verweise in § 9.5 konsistent mit § 4.4. |
+| 2.2.2 Redundanzprüfung | OK | Überlappungen zwischen § 5.1 (Operationalisierung) und § 8.3 (Staatsfonds-Zugang) bewusst als Verweise gestaltet; § 9.5 rekombiniert bestehende Instrumente aus § 5.1, § 8.3 und § 10.2 zu einem Stufenplan, ohne Inhalte zu duplizieren. |
+| 2.2.3 Argumentation | OK | „Dritter Produktionsfaktor" jetzt klar als analytische Position markiert; Drei-Hebel-Modell bleibt konsistent; Implementationspfad ergänzt sichtbar die fiskalische Logik des Modells. |
+| 2.2.4 Ausgewogenheit | OK | Acemoglu 2024 liefert das moderate Makro-Gegengewicht zu den Disruptionsnarrativen; § 8.1 benennt den fehlenden Konsens zur Drei-Faktor-Modellierung explizit. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobenartig keine Auffälligkeiten. |
+| 2.3.2 Terminologie | OK | Neue Begriffe (Substitutionsvariante / Additionsvariante; Reverse-Charge-ähnlich; Generationenkapital-Initiative) im Kontext erklärt; keine Abkürzungs-Erstnennung ohne Auflösung. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Acemoglu 2024 in § 11.1 ergänzt. „Evolving the Productivity Equation" (arXiv, 2025) als Absicherung in § 8.1 genannt, wird bei der nächsten Validierung auf Aufnahme ins Literaturverzeichnis geprüft, sobald eine stabile Publikationsform verfügbar ist (aktuell Preprint). |
+| 2.4.2 Formale Einheitlichkeit | OK | Acemoglu-2024-Eintrag im APA-Stil, Journal-Angabe „forthcoming". |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Acemoglu 2024 ist die aktuelle Makro-Referenz; die anderen Ergänzungen greifen auf bereits belegtes Material zurück. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Keine neuen URLs im Hauptdokument; OpenAI-PDF bleibt Referenzpunkt und war in Validierung 1.0 → 2.0 erreichbar. |
+| 2.4.5 Zitatgenauigkeit | OK | Acemoglu-Werte (0,9 – 1,1 % / 0,53 – 0,66 %) entsprechen dem Hauptergebnis der NBER-Kalibrierung. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Markierungen für de la Feria et al. 2022 und Sanders Oktober 2025 unverändert erhalten. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionsnummer 3.0 in Dokumentkopf, Zitiervorschlag `README.md`, Build-Skripten und Protokoll-Eintrag einheitlich. Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine dedizierten Skripte im Projekt; die manuellen Stichproben ersetzen den automatisierten Teil. |
+
+### Gefundene Kritikpunkte (aus externem Review) und Bereinigungen
+
+| # | Kritikpunkt | Maßnahme | Stelle | Erledigt |
+|---|---|---|---|---|
+| 1 | Wertschöpfungsabgabe operativ unterbestimmt | § 5.1 um Operationalisierungs-Block ergänzt: Bemessungsgrundlage (Bruttowertschöpfung / Umsatz minus Vorleistungen), Behandlung importierter KI-/Cloud-Vorleistungen, Substitutions- vs. Additionsvariante, Einführungspfad (1 Pp./Jahr über 5–10 Jahre), KMU-Schwelle. | § 5.1 | Ja |
+| 2 | „KI als dritter Produktionsfaktor" zu absolut | § 8.1 um Hedging-Absatz ergänzt: Modellierung als analytische Position, nicht als Konsens; Verweis auf Standardökonomik-Framing und den aktuellen Diskussionsstand (u. a. „Evolving the Productivity Equation", arXiv 2025). | § 8.1 | Ja |
+| 3 | Staatsfonds-Zugang zur KI-Wertschöpfung unterbestimmt | § 8.3 um Block „Wie greift der Staat überhaupt auf KI-Wertschöpfung zu?" ergänzt: Vier realistische Zugriffspfade (Wertschöpfungsabgabe-Komponente, Unternehmensbesteuerung mit Pillar-2-Anschluss, Digitalabgaben auf importierte KI-Dienste, Plattform- und Datenrenten) — ohne Verstaatlichungslogik. | § 8.3 | Ja |
+| 4 | Geschwindigkeit der Disruption zu stark impliziert | § 3.5 um abschließenden Absatz zu makroökonomischer Unsicherheit erweitert: Acemoglu 2024 mit moderaten Aggregateffekten (0,9 – 1,1 % BIP / 0,53 – 0,66 % TFP), Plädoyer für szenariorobuste Instrumente. Literatureintrag in § 11.1 ergänzt. | § 3.5, § 11.1 | Ja |
+| 5 | Fehlender Implementationspfad | Neuer Unterabschnitt § 9.5 „Implementationspfad: national, europäisch, international" mit Stufenplan 0–3 / 2–5 / 3–7 Jahre und konkreten Elementen pro Stufe. | § 9.5 | Ja |
+
+### Nachprüfung
+
+- 2.1.1, 2.1.2, 2.1.3, 2.1.4 nach Bereinigung: OK (Struktur/Nummerierung/Querverweise stimmen, Roter Faden intakt)
+- 2.2.3 Argumentation nach Bereinigung: OK (Position zu Drei-Faktor-Modell klar als analytisch gerahmt)
+- 2.4.1 Vollständigkeit nach Bereinigung: OK (Acemoglu 2024 im Literaturverzeichnis)
+- 2.5 Versionskonsistenz nach Bereinigung: OK (3.0 durchgängig)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Kritikpunkte adressiert: Ja
+- Neue Version: 3.0
+- PDF erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.pdf`, 25 Seiten, `build_pdf.py`)
+- Word erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.docx`, `build_docx.py`)
+
+**Hinweis:** Die Erweiterung bleibt konservativ — die Grundarchitektur (11 Kapitel, Drei-Hebel-These, Deutschland-Fokus) ist unverändert; ergänzt werden ausschließlich Operationalisierungs-, Unsicherheits- und Umsetzungsdimensionen. Zukünftige Iterationen sollten, wenn verfügbar, empirische Abschätzungen zur deutschen Lohnquoten-Entwicklung 2025/26 sowie eine vertiefte sektorale Analyse (Gesundheit, Industrie, öffentliche Verwaltung) aufnehmen.
