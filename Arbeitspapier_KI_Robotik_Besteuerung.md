@@ -9,7 +9,7 @@
 **Autor:** Björn Degenkolbe
 **Organisation:** HIGL – Health Innovators Group Leipzig
 **Stand:** April 2026
-**Version:** 3.0
+**Version:** 4.0
 
 ---
 
@@ -419,6 +419,8 @@ Für die Debatte um die Besteuerung von KI hat das drei Implikationen:
 **Drittens** stützt dieses Argument die in Abschnitt 8.3 entwickelten Teilhabemechanismen nicht nur verteilungspolitisch, sondern ordnungspolitisch. Die Wertschöpfungsabgabe, die Kapitalbeteiligung über einen Staatsfonds und die Aufwertung komplementärer bezahlter Arbeit sind nicht optionale Zusätze, sondern Voraussetzungen dafür, dass die Transformation innerhalb demokratischer Institutionen bewältigt werden kann.
 
 Das OpenAI-Papier selbst greift diese Linie implizit auf, wenn es formuliert, dass „die Institutionen und sozialen Sicherungen, die diesen Übergang bewältigen müssen, zurückbleiben könnten", wenn die Politik nicht mithält. Aus deutscher Perspektive ist das weniger eine neue Einsicht als eine Wiederentdeckung Bismarckscher Staatsräson unter modernen Vorzeichen.
+
+**Policy-Design ist Vertrauens-Design.** Daraus folgt eine praktische Konsequenz für die in Kapitel 10 entwickelten Empfehlungen: Die vorgeschlagenen Instrumente — Wertschöpfungsabgabe, Teilhabefonds, Umstellung der Sozialstaatsfinanzierung — müssen nicht nur fiskalisch funktionieren, sondern **sichtbar, verständlich und spürbar** sein. Eine technokratisch korrekte Reform, deren Wirkung für die Bevölkerung nicht nachvollziehbar wird, verfehlt ihr wichtigstes Ziel: die Wiederherstellung des institutionellen Vertrauens, auf dem demokratische Steuerungsfähigkeit beruht. Konkret heißt das: eine jährliche, individuell zuordenbare Ausweisung der Staatsfonds-Erträge je Bürger; eine transparente Aufschlüsselung der Sozialversicherungsfinanzierung nach Lohn- und Wertschöpfungsanteil; eine klare Zusage, dass Reformerträge bei den Bürgern landen und nicht in neuen Verwaltungsebenen. Wo der psychologische Grundvertrag zwischen Bürger und Institution bereits erodiert ist, reicht fiskalische Korrektheit nicht aus — die Reform muss erfahrbar werden, sonst wird sie als weiterer Zug im Hütchenspiel gelesen und verstärkt den Vertrauensverlust, den sie eigentlich heilen soll.
 
 ### 8.5 Zusammenführung: Die These
 
