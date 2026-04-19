@@ -33,7 +33,7 @@ DOC_TITLE = "Die Besteuerung von Künstlicher Intelligenz und Robotik als Ersatz
 DOC_SHORT_TITLE = "Arbeitspapier — Besteuerung von KI und Robotik"
 DOC_ORG = "HIGL — Health Innovators Group Leipzig"
 DOC_AUTHOR = "Björn Degenkolbe"
-DOC_VERSION = "Version 3.0 — April 2026 — CC BY 4.0"
+DOC_VERSION = "Version 4.0 — April 2026 — CC BY 4.0"
 
 _INLINE_BOLD = re.compile(r"\*\*(.+?)\*\*")
 _INLINE_ITALIC = re.compile(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)")
@@ -274,7 +274,7 @@ def build_cover(doc: Document) -> None:
     for _ in range(8):
         doc.add_paragraph()
 
-    for label in (DOC_AUTHOR, DOC_ORG, "Stand: April 2026", "Version 3.0",
+    for label in (DOC_AUTHOR, DOC_ORG, "Stand: April 2026", "Version 4.0",
                    "Lizenz: Creative Commons CC BY 4.0"):
         p = doc.add_paragraph()
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER

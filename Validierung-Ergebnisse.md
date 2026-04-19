@@ -142,3 +142,42 @@ Externe fachliche Kritik an Version 2.0 (Kurzgutachten, ChatGPT als Reviewer) mi
 - Word erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.docx`, `build_docx.py`)
 
 **Hinweis:** Die Erweiterung bleibt konservativ — die Grundarchitektur (11 Kapitel, Drei-Hebel-These, Deutschland-Fokus) ist unverändert; ergänzt werden ausschließlich Operationalisierungs-, Unsicherheits- und Umsetzungsdimensionen. Zukünftige Iterationen sollten, wenn verfügbar, empirische Abschätzungen zur deutschen Lohnquoten-Entwicklung 2025/26 sowie eine vertiefte sektorale Analyse (Gesundheit, Industrie, öffentliche Verwaltung) aufnehmen.
+
+---
+
+## Validierung 19. April 2026 — Version 3.0 → Version 4.0
+
+### Anlass
+
+Anschluss an eine externe (polemisch formulierte) Kritik an staatlichem Vertrauensverlust. Das Argument deckt sich inhaltlich mit § 8.4, adressiert aber eine Dimension, die im Papier bislang nur implizit lag: dass die ökonomisch richtige Reform politisch wirkungslos bleibt, wenn ihre Wirkung für die Bürger nicht erfahrbar wird. Diese Verbindung zwischen fiskalischem Instrument und kommunikativer Ausgestaltung wird nun explizit gemacht.
+
+### Durchgeführte Änderung
+
+| # | Stelle | Maßnahme |
+|---|---|---|
+| 1 | § 8.4 (Systemstabilität), Ende | Neuer Absatz „Policy-Design ist Vertrauens-Design" mit drei konkreten Sichtbarkeits-Anforderungen (individuelle Ausweisung Staatsfonds-Erträge, transparente Aufschlüsselung der Sozialversicherungsfinanzierung, klare Zusage Bürger-statt-Verwaltungs-Verbleib). Verbindet § 8.4 mit den Empfehlungen in Kapitel 10. |
+| 2 | Dokumentkopf, `README.md`, Zitiervorschlag, `build_pdf.py`, `build_docx.py` | Version 3.0 → 4.0 |
+
+### Prüfergebnis (Fokus-Validierung)
+
+| Prüfschritt | Ergebnis | Anmerkung |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Neuer Absatz bleibt innerhalb § 8.4, keine neue Nummerierungsebene. |
+| 2.1.3 Querverweise | OK | Verweis auf Kapitel 10 korrekt, Wertschöpfungsabgabe/Teilhabefonds-Begriffe konsistent mit § 5.1/§ 5.4/§ 8.3. |
+| 2.1.4 Roter Faden | OK | Der neue Absatz fungiert als Scharnier zwischen § 8.4 (Diagnose) und Kapitel 10 (Empfehlungen); er ergänzt, wiederholt nicht. |
+| 2.2.2 Redundanz | OK | Keine Überlappung mit bestehenden Passagen; der Sichtbarkeits-Gedanke wird erstmals eingeführt. |
+| 2.2.3 Argumentation | OK | „Policy-Design ist Vertrauens-Design" schließt die Lücke zwischen dem Systemstabilitätsargument und den konkreten Instrumenten. |
+| 2.3.2 Terminologie | OK | „Hütchenspiel" als bewusst umgangssprachliche Pointe am Absatz-Ende; sonst fachlicher Register. |
+| 2.5 Versionskonsistenz | OK | 4.0 in Hauptdokument, README, Zitiervorschlag, Build-Skripten, Protokoll. |
+
+### Nachprüfung
+
+- Struktur- und Querverweisprüfung nach der Einfügung: OK (keine neuen Ankerkollisionen)
+- PDF und Word neu gebaut: 25 Seiten PDF, neuer Absatz auf Seite 18 sichtbar
+
+### Abschluss
+
+- Änderung eingearbeitet: Ja
+- Neue Version: 4.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
