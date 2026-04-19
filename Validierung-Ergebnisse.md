@@ -27,7 +27,7 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 | 2.4.1 Vollständigkeit und Zuordnung | Abweichung | Im Fließtext genannte Quellen ohne Eintrag im Literaturverzeichnis: (a) Acemoglu, Lelarge & Restrepo für Frankreich (§ 3.3); (b) Barth et al. für Norwegen (§ 3.3); (c) Andrew Yang, CNBC-Interview März 2026 (§ 4.5). |
 | 2.4.2 Formale Einheitlichkeit | OK | Zitierstil über alle 11.x-Sektionen einheitlich; Datumsformate konsistent (Monat YYYY); URLs vollständig. |
 | 2.4.3 Aktualität und Belastbarkeit | OK | Kernquellen Acemoglu/Manera/Restrepo, Thuemmel, Costinot & Werning aus begutachteten Zeitschriften; Wikipedia-Eintrag in § 11.4 als Begriffsübersicht markiert. |
-| 2.4.4 URL-Prüfung (Stichprobe) | n/a | Ohne Webzugriff in dieser Validierung nicht ausführbar; bei nächster Validierung mit verfügbarem Webzugriff durchzuführen. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Nachgezogen am 19. April 2026: CC-BY-4.0-Deed-URL erreichbar und inhaltlich korrekt; OpenAI-PDF-URL liefert die Binärdatei mit Metadaten-Titel „Industrial Policy for the Intelligence Age" (3,9 MB). OpenAI-Landingpage antwortet auf WebFetch mit HTTP 403 (Bot-Schutz), die Quelle bleibt über die direkte PDF-URL erreichbar. Beide im Hauptdokument genutzten URLs gelten damit als verifiziert. |
 | 2.4.5 Zitatgenauigkeit | OK | Kernaussagen (Acemoglu-Effekte; Thuemmel-Kernsatz zu Robotersteuer bei fallenden Preisen; IAB-Zahlen; Delvaux-Abstimmung; OpenAI-Volumen und 32-Stunden-Woche) korrekt wiedergegeben. |
 | 2.4.6 Verifizierungsbedürftige Einträge | OK | Markierungen für de la Feria et al. 2022 und Sanders Oktober 2025 erhalten; keine vorzeitige Entfernung. |
 | 2.5 Versionskonsistenz und Lizenz | Abweichung | Versionsnummer 1.0 in Dokumentkopf und `README.md` konsistent. Jedoch: Lizenzhinweis CC BY 4.0 im Hauptdokument am Dokumentende nicht enthalten (nur in `README.md` und `LICENSE`). Validierungsregel 2.5 verlangt Hinweis auch am Dokumentende. |
@@ -72,7 +72,14 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 - Alle Fehler behoben: Ja
 - Neue Version: 2.0
-- PDF erstellt: Nein (kein Build-Skript / pandoc-Lauf in dieser Validierung; bei nächster Iteration mit verfügbarer Toolchain nachzuholen)
-- Word erstellt: Nein (siehe oben)
+- PDF erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.pdf`, 22 Seiten, via `build_pdf.py` nach `Formatvorlage.md`)
+- Word erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.docx` via `build_docx.py` nach `Formatvorlage.md`)
 
-**Hinweis:** Die Exporte (PDF/Word) konnten in dieser Validierungsrunde nicht erzeugt werden, da im Projekt noch keine dedizierten Build-Skripte und keine geprüfte pandoc/xelatex-Konfiguration vorliegen. Die inhaltliche Validierung gilt damit als abgeschlossen; der Exportschritt ist als offener Punkt für die nächste Validierung dokumentiert.
+**Nachtrag 19. April 2026 (nachgezogene Exporte und URL-Stichprobe):**
+Im selben Validierungslauf wurden ergänzend folgende Schritte durchgeführt:
+
+- Zwei dedizierte Build-Skripte neu angelegt (`build_pdf.py` mit `reportlab`, `build_docx.py` mit `python-docx`) gemäß `Formatvorlage.md` § 2, § 4, § 5, § 7, § 11, § 12. Beide Skripte erzeugen: Deckseite mit Haupttitel, Untertitel, Autor/Organisation/Version/Lizenz; Header/Footer ab Kapitel 1; Navy/Stahlblau-Farbschema; Akzentlinie vor jedem Kapitel, verstärkt (2 pt) vor Kapitel 8; Sonderformat für den Thesen-Block in § 8.5 (Primary-Seitenbalken 4 mm statt 3 mm, Italic, Primary-Textfarbe). Keine pandoc/xelatex-Abhängigkeit.
+- PDF- und Word-Export aus `Arbeitspapier_KI_Robotik_Besteuerung.md` Version 2.0 erfolgreich erzeugt. PDF umfasst 22 Seiten; Deckseite, Kapitelgliederung, Literaturverzeichnis und Haftungs-/Lizenzhinweis sichtbar und konsistent.
+- URL-Stichprobe (§ 2.4.4) nachgeholt (siehe Prüftabelle oben).
+
+Damit sind alle Prüfschritte inklusive der anfangs als n/a markierten 2.4.4 und des Exportschritts abgeschlossen.
