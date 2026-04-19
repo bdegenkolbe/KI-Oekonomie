@@ -7,7 +7,7 @@
 
 Wer bezahlt Rente, Krankenkasse und Pflege, wenn KI die Arbeit macht?
 
-Ich habe mich mit dem OpenAI-Paper „Industrial Policy for the Intelligence Age" vom 6. April beschäftigt und das Thema mit Claude durchgearbeitet: https://openai.com/index/industrial-policy-for-the-intelligence-age/
+Ich habe mich mit dem OpenAI-Paper „Industrial Policy for the Intelligence Age" (https://openai.com/index/industrial-policy-for-the-intelligence-age) vom 6. April beschäftigt und das Thema gemeinsam mit Claude in einem Arbeitspapier aufgearbeitet:
 
 Zentrale Vorschläge: ein öffentlicher Wohlstandsfonds nach norwegischem Vorbild, Pilotmodelle für eine 32-Stunden-/Vier-Tage-Woche ohne Lohnausfall, Verschiebung der Steuerbasis von Lohn auf Kapitalerträge und Unternehmensgewinne — inklusive der Frage, ob Abgaben auf „automatisierte Arbeit" sinnvoll sein könnten. OpenAI beschreibt das als Ausgangspunkt einer Debatte.
 
