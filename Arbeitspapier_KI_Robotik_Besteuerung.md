@@ -9,7 +9,7 @@
 **Autor:** Björn Degenkolbe
 **Organisation:** HIGL – Health Innovators Group Leipzig
 **Stand:** April 2026
-**Version:** 1.0
+**Version:** 2.0
 
 ---
 
@@ -33,10 +33,10 @@ Das Papier argumentiert darüber hinaus, dass die Frage der KI-Besteuerung nicht
 2. [Begriffsklärung und Typologie](#2-begriffsklärung-und-typologie)
 3. [Ökonomische Perspektive: Forschungsstand](#3-ökonomische-perspektive-forschungsstand)
 4. [Rechtliche und steuerpolitische Perspektive (DE/EU)](#4-rechtliche-und-steuerpolitische-perspektive-deeu)
-5. [Alternative Finanzierungsmodelle: Wertschöpfungsabgabe und Bürgerversicherung](#5-alternative-finanzierungsmodelle)
+5. [Alternative Finanzierungsmodelle](#5-alternative-finanzierungsmodelle)
 6. [Internationale Praxis und Fallbeispiele](#6-internationale-praxis-und-fallbeispiele)
 7. [Sektorspezifische Perspektive: Gesundheitswesen](#7-sektorspezifische-perspektive-gesundheitswesen)
-8. [Deutschland-These: KI als dritter Produktionsfaktor und globaler Rohstoff](#8-deutschland-these)
+8. [Deutschland-These: KI als dritter Produktionsfaktor und globaler Rohstoff](#8-deutschland-these-ki-als-dritter-produktionsfaktor-und-globaler-rohstoff)
 9. [Praktische Umsetzungsfragen](#9-praktische-umsetzungsfragen)
 10. [Bewertung und Empfehlungen](#10-bewertung-und-empfehlungen)
 11. [Literaturverzeichnis](#11-literaturverzeichnis)
@@ -63,7 +63,7 @@ Das vorliegende Papier strukturiert die Debatte in drei Dimensionen:
 
 ### 1.3 Vorgehen und Quellen
 
-Das Papier wertet die aktuelle wissenschaftliche Literatur (insbesondere Brookings, NBER, JEEA), Stellungnahmen von Institutionen (EU-Parlament, IAB, IW Köln, BMAS, Gabler Wirtschaftslexikon, bpb) sowie jüngste Politikpapiere (OpenAI April 2026, Sanders-Report Oktober 2025) aus. Die Recherche hat einen Stand von April 2026. Ein Schwerpunkt liegt auf der Einordnung für den deutschen Kontext — insbesondere mit Blick auf die Finanzierung der sozialen Sicherungssysteme und die Situation im Gesundheitswesen.
+Das Papier wertet die aktuelle wissenschaftliche Literatur (insbesondere Brookings, NBER — National Bureau of Economic Research, JEEA — Journal of the European Economic Association), Stellungnahmen von Institutionen (EU-Parlament, IAB, IW Köln, BMAS — Bundesministerium für Arbeit und Soziales, Gabler Wirtschaftslexikon, bpb — Bundeszentrale für politische Bildung) sowie jüngste Politikpapiere (OpenAI April 2026, Sanders-Report Oktober 2025) aus. Die Recherche hat einen Stand von April 2026. Ein Schwerpunkt liegt auf der Einordnung für den deutschen Kontext — insbesondere mit Blick auf die Finanzierung der sozialen Sicherungssysteme und die Situation im Gesundheitswesen.
 
 ---
 
@@ -95,7 +95,7 @@ Die EU-Parlamentarierin Mady Delvaux hatte 2017 in ihrem Bericht Roboter definie
 
 - Ist ein vollautomatisierter Webstuhl aus dem 19. Jahrhundert ein Roboter?
 - Ist eine Spracherkennungssoftware in einem Call-Center ein Roboter?
-- Ist ein SaaS-basierter KI-Chatbot ein Roboter?
+- Ist ein SaaS-basierter (Software-as-a-Service) KI-Chatbot ein Roboter?
 - Ist ein Large-Language-Model-API-Endpoint, der in einer betrieblichen Anwendung integriert ist, ein Roboter?
 
 Die Deutsche Bank weist in einer Analyse von März 2026 darauf hin, dass die Berechnungsgrundlage statisch sein müsste — denn eigentlich sinke der Wert und damit auch das Gehalt einer Arbeit, wenn sie zu deutlich günstigeren Konditionen verrichtet werden könne. Ein starrer Wert bilde aber keine Produktivitätszuwächse ab, die auch eine Maschine beispielsweise durch Upgrades erreichen könne.
@@ -141,7 +141,7 @@ Für die politische Debatte ist das eine wichtige Einsicht: Selbst wenn man theo
 
 **Guerreiro, Rebelo & Teles (2022):** Untersuchen in „Should Robots be Taxed?" (Review of Economic Studies) optimale Besteuerung in einem Modell mit automatisierbaren Tasks und heterogenen Arbeitern. Ergebnis: Bei unvollständiger Umverteilung durch andere Instrumente kann eine Robotersteuer zweiter Ordnung optimal sein.
 
-**Gasteiger & Prettner (2022):** In „Automation, Stagnation, And The Implications Of A Robot Tax" (Macroeconomic Dynamics) untersuchen sie in einem OLG-Modell die makroökonomischen Folgen einer Robotersteuer. Zentrale Erkenntnis: Eine Robotersteuer kann in bestimmten Konstellationen säkulare Stagnation verschärfen.
+**Gasteiger & Prettner (2022):** In „Automation, Stagnation, And The Implications Of A Robot Tax" (Macroeconomic Dynamics) untersuchen sie in einem OLG-Modell (Overlapping-Generations-Modell) die makroökonomischen Folgen einer Robotersteuer. Zentrale Erkenntnis: Eine Robotersteuer kann in bestimmten Konstellationen säkulare Stagnation verschärfen.
 
 **Nakatani (2024):** „Optimal Taxation in the Automated Era" erweitert den Ansatz auf fiskalpolitische Nachhaltigkeit in automatisierten Ökonomien.
 
@@ -205,7 +205,7 @@ Eine spezifische Robotersteuer wirft in Deutschland eine Reihe verfassungsrechtl
 
 Eine effektive Besteuerung von KI-Diensten setzt europäische Koordination voraus. Die Erfahrung mit der Digital Services Tax zeigt, wie schwierig die Abstimmung zwischen Mitgliedstaaten ist. Einzelne Staaten (Frankreich, Österreich, Italien, Spanien) haben nationale Digitalsteuern eingeführt, die auf EU-Ebene jedoch bislang nicht einheitlich geregelt sind.
 
-Die OECD-Two-Pillar-Reform (Pillar 1 zur Umverteilung von Besteuerungsrechten, Pillar 2 zur globalen Mindestbesteuerung von 15 %) schafft einen Rahmen, in dem große digitale Konzerne stärker besteuert werden können — allerdings nicht spezifisch für KI-Leistungen.
+Die Two-Pillar-Reform der OECD (Organisation für wirtschaftliche Zusammenarbeit und Entwicklung; Pillar 1 zur Umverteilung von Besteuerungsrechten, Pillar 2 zur globalen Mindestbesteuerung von 15 %) schafft einen Rahmen, in dem große digitale Konzerne stärker besteuert werden können — allerdings nicht spezifisch für KI-Leistungen.
 
 Die Deutsche Bank weist darauf hin, dass manche die Digital Services Tax der EU, die statt einer traditionellen Robotersteuer eingeführt worden sei, zu den Automatisierungssteuern zählten. Dies ist eine funktionale, aber keine rechtlich präzise Einordnung.
 
@@ -373,7 +373,7 @@ Die klassische Antwort lautet: über Löhne aus Erwerbsarbeit. Diese Antwort ble
 
 **Teilhabe durch verbreiterte Sozialstaatsfinanzierung:** Die in Kapitel 5 diskutierte Wertschöpfungsabgabe oder eine Bürgerversicherung würde die Finanzierungsbasis des Sozialstaats von der reinen Lohnbasis auf die breitere Wertschöpfung verlagern. Damit profitieren die Bürger indirekt von der automatisierungsinduzierten Produktivitätssteigerung — über Gesundheits-, Renten- und Bildungsleistungen, die nicht mehr ausschließlich durch Arbeitnehmer- und Arbeitgeberbeiträge auf Lohn finanziert werden.
 
-**Teilhabe durch Kapital- und Fondsbeteiligung:** Die weitestgehende Antwort liegt in einer direkten Beteiligung der Bürger an der KI-Wertschöpfung. Norwegische Erfahrungen mit dem Statens pensjonsfond utland — einem Staatsfonds, der mit Einnahmen aus der Ölförderung gespeist wird und mittlerweile ein Vermögen von weit über einer Billion Euro angelegt hat — zeigen, dass große institutionelle Vehikel zur Umverteilung von Rohstoffrenten auf die Bevölkerung funktionieren können. Der in Kapitel 5.4 bereits kurz referierte OpenAI-Vorschlag greift diese Idee in modernisierter Form auf und überträgt sie auf KI-induzierte Produktivitätsgewinne. Die Deutschland-These nimmt das auf und integriert die Fondslogik in ein breiteres Drei-Säulen-Modell.
+**Teilhabe durch Kapital- und Fondsbeteiligung:** Die weitestgehende Antwort liegt in einer direkten Beteiligung der Bürger an der KI-Wertschöpfung. Norwegische Erfahrungen mit dem Statens pensjonsfond utland — einem Staatsfonds, der mit Einnahmen aus der Ölförderung gespeist wird und mittlerweile ein Vermögen von weit über einer Billion Euro angelegt hat — zeigen, dass große institutionelle Vehikel zur Umverteilung von Rohstoffrenten auf die Bevölkerung funktionieren können. Der in Kapitel 5.4 bereits kurz referierte OpenAI-Vorschlag greift diese Idee in modernisierter Form auf und überträgt sie auf KI-induzierte Produktivitätsgewinne. Die Deutschland-These nimmt das auf und integriert die Fondslogik in ein breiteres Drei-Hebel-Modell.
 
 Für Deutschland böte sich ein solcher Fonds als strukturelles Komplement zur klassischen Sozialversicherung an — gespeist aus einem Anteil der Kapitalerträge besonders KI-intensiver Wertschöpfung, möglicherweise über eine zweckgebundene Komponente der Wertschöpfungsabgabe. Aus den Fondserträgen könnten langfristig Beiträge zur Altersvorsorge, zur Gesundheitsversorgung oder zu Bildungsinvestitionen finanziert werden.
 
@@ -518,6 +518,10 @@ Acemoglu, D., & Restrepo, P. (2019). Automation and new tasks: how technology di
 
 Acemoglu, D., & Restrepo, P. (2020). Robots and Jobs: Evidence from US Labor Markets. *Journal of Political Economy*, 128(6), 2188-2244.
 
+Acemoglu, D., Lelarge, C., & Restrepo, P. (2020). Competing with Robots: Firm-Level Evidence from France. *AEA Papers and Proceedings*, 110, 383-388.
+
+Barth, E., Roed, M., Schøne, P., & Umblijs, J. (2020). How Robots Change Within-Firm Wage Inequality. IZA Discussion Paper 13605.
+
 Costinot, A., & Werning, I. (2023). Robots, Trade, and Luddism: A Sufficient Statistic Approach to Optimal Technology Regulation. *Review of Economic Studies*, 90(5), 2261-2291.
 
 Dauth, W., Findeisen, S., Suedekum, J., & Woessner, N. (2021). The Adjustment of Labor Markets to Robots. *Journal of the European Economic Association*, 19(6), 3104-3153.
@@ -586,8 +590,12 @@ Robotik und Produktion. (Dezember 2023). Keine Steuererklärung für Roboter.
 
 Euractiv. (2017). Robotik-Bericht: Nein zum bedingungslosen Grundeinkommen.
 
+Yang, A. (März 2026). Interview zur KI-Besteuerung. CNBC.
+
 ---
 
 **Hinweis zur Aktualität:** Dieses Arbeitspapier gibt den Stand April 2026 wieder. Die Debatte entwickelt sich dynamisch, insbesondere im Zuge der OpenAI-Strategiepapiere und der laufenden EU-Regulierungsarbeit zum AI Act. Eine regelmäßige Aktualisierung ist vorgesehen.
 
 **Haftungshinweis:** Dieses Papier dient der Information und Debatte. Es stellt keine steuerrechtliche Beratung dar. Konkrete steuerliche Fragen bedürfen der individuellen Beratung durch qualifizierte Fachleute.
+
+**Lizenz:** Dieses Arbeitspapier steht unter der Creative-Commons-Lizenz CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.de). Teilen und Bearbeiten sind erlaubt, auch kommerziell, sofern die Urheberschaft genannt wird.
