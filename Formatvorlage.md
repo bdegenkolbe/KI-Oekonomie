@@ -166,12 +166,11 @@ Empfohlene Elemente auf der ersten Seite (Deckblatt):
 
 ## 12. Erstellungsskripte
 
-Im Projekt sind im Ausgangszustand keine dedizierten Build-Skripte enthalten. Der Export erfolgt zunächst über `pandoc`:
+| Export | Werkzeug | Skript | Aufruf |
+|---|---|---|---|
+| PDF (.pdf) | reportlab | `build_pdf.py` | `python3 build_pdf.py` |
+| Word (.docx) | python-docx | `build_docx.py` | `python3 build_docx.py` |
 
-| Export | Werkzeug | Anmerkungen |
-|---|---|---|
-| PDF (.pdf) | pandoc + xelatex | vgl. `Claude.md` § 5 |
-| Word (.docx) | pandoc | vgl. `Claude.md` § 5 |
-| PDF (alternativ) | `build_pdf.py` (reportlab) | falls später ergänzt — muss die hier beschriebene Formatvorlage umsetzen |
+Beide Skripte lesen `Arbeitspapier_KI_Robotik_Besteuerung.md` und setzen diese Formatvorlage um: A4, Seitenränder, Schriftfamilie/-größen und Farben nach § 1–3, Header/Footer nach § 4, Akzentlinie vor jedem Kapitel (verstärkt vor Kapitel 8) nach § 5, Tabellen nach § 6, Blockquotes inklusive Thesen-Sonderfall in § 8.5 nach § 7, Aufzählungen nach § 9, Literaturverzeichnis nach § 10 und Deckseite nach § 11.
 
-Bei Ergänzung eines `build_pdf.py` muss das Skript Farben, Schriftgrößen, Blockquote-Sonderfall (§ 7), Kapitel-Akzentlinien und die Header/Footer-Struktur aus dieser Formatvorlage übernehmen. Bei Änderungen an der Formatvorlage sind alle Exportwege entsprechend anzupassen.
+Bei Änderungen an der Formatvorlage sind beide Skripte entsprechend anzupassen. Die erzeugten Dateien (`Arbeitspapier_KI_Robotik_Besteuerung.pdf`, `Arbeitspapier_KI_Robotik_Besteuerung.docx`) werden direkt im Repo-Root abgelegt.
