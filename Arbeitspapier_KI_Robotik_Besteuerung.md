@@ -9,7 +9,7 @@
 **Autor:** Björn Degenkolbe
 **Organisation:** HIGL – Health Innovators Group Leipzig
 **Stand:** April 2026
-**Version:** 2.0
+**Version:** 3.0
 
 ---
 
@@ -161,6 +161,8 @@ Die theoretischen Modelle stützen mehrheitlich die These, dass das gegenwärtig
 
 Die praktischen Umsetzungsprobleme (Definition, Abgrenzung, internationale Steuerarbitrage) werden auch in den theoretischen Papieren anerkannt und führen meist zur Empfehlung, die ersten Schritte auf der Ebene der Einkommen- und Kapitalbesteuerung zu gehen.
 
+Offen ist die Frage nach der gesamtwirtschaftlichen Größenordnung KI-induzierter Verschiebungen. Acemoglu schätzt in „The Simple Macroeconomics of AI" (NBER Working Paper 32487, 2024) die BIP- und TFP-Effekte generativer KI über einen Zeithorizont von zehn Jahren auf einen moderaten Bereich (BIP-Effekt rund 0,9 – 1,1 %; TFP-Steigerung 0,53 – 0,66 %). Auch andere makroökonomische Kalibrierungen liegen deutlich unter den expliziten oder impliziten Erwartungen populärer Disruptionsnarrative. Das bedeutet nicht, dass die Finanzierungsfrage des Sozialstaats damit entschärft wäre — sektorale Verschiebungen können trotz moderater aggregierter Effekte erheblich sein —, es spricht aber dafür, das steuerpolitische Instrumentarium **szenariorobust** auszulegen: Ein Pfad, der sowohl bei langsamer (gradueller Substitution und anhaltender Beschäftigungsnachfrage) als auch bei schneller Adoption (breitere kognitive Substitution innerhalb weniger Jahre) plausibel bleibt, ist vorzuziehen. Der in Kapitel 8 entwickelten Deutschland-These entspricht dieser Eigenschaft, weil sie nicht auf einem bestimmten Tempo-Szenario beruht.
+
 ---
 
 ## 4. Rechtliche und steuerpolitische Perspektive (DE/EU)
@@ -240,6 +242,16 @@ Die Logik schließt direkt an das Automatisierungsargument an: Wenn die Lohnquot
 **Internationaler Vergleich:** In Italien wurde 1999 unter Ministerpräsident Prodi eine Form der Wertschöpfungsabgabe eingeführt — die Imposta regionale sulle attività produttive (IRAP). Sie ist eine Regionalsteuer mit breiter Bemessungsgrundlage, die Wertschöpfung umfasst. Die IRAP wird in der Literatur als funktionales Äquivalent einer Maschinensteuer diskutiert.
 
 **Kritik:** Die österreichische Industriellenvereinigung argumentiert, dass mit einer Wertschöpfungsabgabe Investitionen und Produktivitätssteigerungen besteuert würden. Gegner bezeichnen sie als „Maschinensteuer" und warnen vor Investitionshemmung.
+
+**Operationalisierung — offene Gestaltungsfragen:** Die Wertschöpfungsabgabe ist konzeptionell klar, in der konkreten Ausgestaltung sind jedoch mehrere Parameter zu klären, bevor sie umsetzungsfähig wird:
+
+- **Bemessungsgrundlage:** Vorzugsweise die handelsrechtlich bereits ermittelbare Bruttowertschöpfung (Umsatz minus Vorleistungen minus Abschreibungen) oder eine vereinfachte Variante (Umsatz minus Vorleistungen). Die italienische IRAP nutzt eine vergleichbare Basis und zeigt, dass das praktisch erhebbar ist.
+- **Behandlung importierter KI-/Cloud-Vorleistungen:** Werden grenzüberschreitend bezogene KI-Dienste (API-Leistungen globaler Anbieter) als Vorleistung abgezogen, fließt ein wesentlicher Teil der KI-Wertschöpfung aus der Bemessungsgrundlage ab. Alternativen: keine Abzugsfähigkeit für solche Vorleistungen, Reverse-Charge-ähnliche Nachveredelungslogik, oder gesonderter Tatbestand auf den inländischen Bezug von KI-Diensten (funktional verwandt mit Digital-Services-Tax-Ansätzen).
+- **Satz und Beitragsersatz:** Zwei Grundvarianten sind denkbar — (a) eine **Substitutionsvariante**, bei der die Arbeitgeberanteile der Sozialversicherung anteilig von der Lohnsumme auf die Wertschöpfung umgestellt werden (aufkommensneutrale Einführung), und (b) eine **Additionsvariante**, bei der die Wertschöpfungsabgabe zusätzlich erhoben wird und ihr Aufkommen gezielt in Schwachstellen des Sicherungssystems oder einen Teilhabefonds fließt. Für den deutschen Kontext ist die Substitutionsvariante politisch tragfähiger, weil sie keine Mehrbelastung, sondern eine Umverteilung der Finanzierungslast bedeutet.
+- **Einführungspfad:** Stufenweise Ersetzung der lohnbasierten Arbeitgeberbeiträge um einen Prozentpunkt je Jahr über fünf bis zehn Jahre, kombiniert mit einem Beobachtungs- und Korrekturmechanismus. Eine sektoral differenzierte Einführung (zunächst stark automatisierte Branchen) ist rechtlich aufwendig und wird deshalb in der Regel abgelehnt.
+- **KMU-Schwelle:** Zur Abfederung kleinerer und arbeitsintensiver Betriebe kann eine Freibetragsgrenze vorgesehen werden — analog zu bestehenden Regeln im Gewerbesteuerrecht.
+
+Diese Parameter stehen nicht im Zentrum der vorliegenden Diskussion, sie definieren aber den Raum, in dem eine ernsthafte politische Umsetzung sich bewegen müsste.
 
 ### 5.2 Bürgerversicherung
 
@@ -348,7 +360,9 @@ Die klassische Produktionsfunktion Y = f(K, L) unterstellt Kapital und Arbeit al
 
 **Drittens — Eigentums- und Kontrollstruktur:** Klassisches Kapital ist typischerweise breit verteilt — im Eigentum von Unternehmen, Haushalten und institutionellen Anlegern. Die Basismodelle moderner KI konzentrieren sich dagegen auf eine sehr kleine Zahl globaler Anbieter (OpenAI, Anthropic, Google, Meta, Microsoft, xAI, wenige chinesische Akteure). Das ist strukturell näher an einer Rohstofflage als an einer Kapitalverteilung.
 
-Diese drei Eigenschaften rechtfertigen die Modellierung von KI als eigenständigem dritten Produktionsfaktor: Y = f(K, L, AI). Damit wird KI nicht mehr nur als Unterkategorie von K behandelt, sondern als Faktor mit eigener Produktivität, eigener Skalierungsdynamik und eigenen Eigentumsstrukturen. Für die steuerpolitische Debatte ist diese Differenzierung relevant, weil die klassischen Argumente zur Besteuerung von Kapital und Arbeit nicht unverändert auf KI übertragbar sind.
+Diese drei Eigenschaften legen nahe, KI analytisch als eigenständigen, dritten Produktionsfaktor zu behandeln: Y = f(K, L, AI). Damit wird KI nicht mehr nur als Unterkategorie von K modelliert, sondern als Faktor mit eigener Produktivität, eigener Skalierungsdynamik und eigenen Eigentumsstrukturen.
+
+Diese Modellierung ist bewusst als **analytische Position** formuliert, nicht als etablierte Lehrmeinung: Die Standardökonomik behandelt KI überwiegend als Technologie, Kapitalgut oder produktivitätssteigernden Faktor innerhalb bestehender Faktorkategorien; die Diskussion über „digital labor" oder „automation capital" als eigenen Faktor ist neu und nicht abgeschlossen (vgl. etwa „Evolving the Productivity Equation", 2025, arXiv-Preprint). Die hier entwickelte Drei-Faktor-Sicht ist daher als **sinnvolle modellierende Vereinfachung** für die steuerpolitische Diskussion zu verstehen — sie ist nicht empirisch zwingend, sondern heuristisch wertvoll, weil sie sichtbar macht, warum die klassischen Argumente zur Besteuerung von Kapital und Arbeit nicht unverändert auf KI übertragbar sind.
 
 ### 8.2 KI als neuer globaler Rohstoff
 
@@ -376,6 +390,15 @@ Die klassische Antwort lautet: über Löhne aus Erwerbsarbeit. Diese Antwort ble
 **Teilhabe durch Kapital- und Fondsbeteiligung:** Die weitestgehende Antwort liegt in einer direkten Beteiligung der Bürger an der KI-Wertschöpfung. Norwegische Erfahrungen mit dem Statens pensjonsfond utland — einem Staatsfonds, der mit Einnahmen aus der Ölförderung gespeist wird und mittlerweile ein Vermögen von weit über einer Billion Euro angelegt hat — zeigen, dass große institutionelle Vehikel zur Umverteilung von Rohstoffrenten auf die Bevölkerung funktionieren können. Der in Kapitel 5.4 bereits kurz referierte OpenAI-Vorschlag greift diese Idee in modernisierter Form auf und überträgt sie auf KI-induzierte Produktivitätsgewinne. Die Deutschland-These nimmt das auf und integriert die Fondslogik in ein breiteres Drei-Hebel-Modell.
 
 Für Deutschland böte sich ein solcher Fonds als strukturelles Komplement zur klassischen Sozialversicherung an — gespeist aus einem Anteil der Kapitalerträge besonders KI-intensiver Wertschöpfung, möglicherweise über eine zweckgebundene Komponente der Wertschöpfungsabgabe. Aus den Fondserträgen könnten langfristig Beiträge zur Altersvorsorge, zur Gesundheitsversorgung oder zu Bildungsinvestitionen finanziert werden.
+
+**Wie greift der Staat überhaupt auf KI-Wertschöpfung zu?** Der zentrale Unterschied zum norwegischen Modell liegt darin, dass KI-Wertschöpfung nicht wie Öl im staatlichen Eigentum steht, sondern bei einer kleinen Zahl globaler privater Anbieter konzentriert ist. Eine direkte Beteiligung des Staates an diesen Unternehmen ist politisch hochproblematisch und international kaum durchsetzbar. Realistische Zugriffspfade sind daher mittelbar:
+
+- **Fiskalische Abschöpfung inländischer KI-Nutzung:** Eine zweckgebundene Komponente der Wertschöpfungsabgabe (§ 5.1) oder ein auf KI-Dienste zugeschnittener Zuschlag erfasst die KI-induzierte Wertschöpfung dort, wo sie in inländische Prozesse einfließt. Das ist operativ einfacher als der Zugriff auf Anbieter-Gewinne, weil die inländische Nutzung messbar ist.
+- **Anteil an der Unternehmensbesteuerung:** Eine erhöhte effektive Steuerlast auf Unternehmensgewinne (im Einklang mit OECD Pillar 2) kann so ausgestaltet werden, dass ein definierter Anteil dediziert in den Fonds fließt. Das funktioniert ohne Eigentumsbeteiligung, setzt aber internationale Koordination voraus.
+- **Digitalabgaben auf importierte KI-Dienste:** Funktional verwandt mit den bestehenden Digital-Services-Tax-Ansätzen in Frankreich, Österreich und Spanien. Konstruktiver als Einzelländer-Alleingänge wäre eine EU-weit koordinierte Regelung.
+- **Plattform- und Datenrenten:** Dort, wo die Wertschöpfung auf Daten beruht, die in Deutschland entstehen (Gesundheitsdaten, Industrie-Sensorik, Mobilitätsdaten), lässt sich über Datenzugangsrechte und -nutzungsentgelte eine zusätzliche Teilhabe-Komponente konstruieren.
+
+Keiner dieser Pfade ist für sich allein hinreichend; ihre Kombination macht den Teilhabefonds fiskalisch tragfähig, ohne die problematische Eigentums-/Verstaatlichungslogik zu bemühen.
 
 ### 8.4 Systemstabilität: Die historische Dimension
 
@@ -458,6 +481,18 @@ Jede Steuer generiert Anreize zu Umgehungsstrategien. Für KI-spezifische Steuer
 
 Eine breit angelegte Wertschöpfungs- oder Unternehmensbesteuerung ist gegenüber solchen Strategien robuster als eine spezifische Robotersteuer.
 
+### 9.5 Implementationspfad: national, europäisch, international
+
+Jede der hier diskutierten Antworten — Wertschöpfungsabgabe, Korrektur der relativen Steuerlast, Teilhabefonds — hat eine andere Reichweite, ein anderes Koordinationsniveau und ein anderes Zeitfenster. Ein realistischer Umsetzungsplan kombiniert die Ebenen stufenweise:
+
+**Stufe 1 — National (0 – 3 Jahre):** Vorbereitende Reformen, die in nationaler Kompetenz liegen. Dazu gehören (a) eine BMAS-geführte Pilotmodellierung einer Wertschöpfungsabgabe als Substitution eines Teils der Arbeitgeberbeiträge (aufkommensneutral), (b) die Einbettung einer zweckgebundenen Komponente in die Generationenkapital-Initiative als Grundstein für einen Teilhabefonds, (c) steuerliche Gleichstellung von Eigen- und Fremdautomatisierung (Abschreibungsregeln für Cloud-/SaaS-bezogene KI-Dienste) und (d) eine systematische Erfassung des KI-Dienste-Imports in der Unternehmens­steuer­erklärung als Datenbasis für spätere Reformen.
+
+**Stufe 2 — Europäisch (2 – 5 Jahre):** Koordination, die nur auf EU-Ebene tragfähig ist. Dazu gehören (a) eine EU-weit einheitliche Behandlung grenzüberschreitender KI-Dienste (Weiterentwicklung der Digital Services Tax bzw. Integration in die Umsatzsteuerlogik), (b) eine einheitliche Definition der Bemessungsgrundlage für wertschöpfungsbasierte Sozialabgaben, um Binnenmarkt-Verzerrungen zu vermeiden, und (c) die Verknüpfung mit bestehenden Regulierungsregimen (AI Act, Data Governance Act, EHDS), so dass steuerliche und regulatorische Anreize in dieselbe Richtung wirken.
+
+**Stufe 3 — International (3 – 7 Jahre):** Elemente, die erst auf OECD-Ebene stabil werden. Dazu gehören (a) eine Weiterentwicklung von OECD Pillar 2 in Richtung KI-spezifischer Anknüpfungspunkte (inländische Nutzung statt nur Sitz), (b) ein koordinierter Anti-Verlagerungs-Mechanismus, der die Verschiebung von Rechenzentren und Modell-IP in Niedrigsteuergebiete fiskalisch neutralisiert, und (c) eine Erweiterung der OECD-Wohlstands- und Ungleichheitsstatistik, um KI-induzierte Verteilungseffekte sichtbar zu machen.
+
+Die Staffelung ist bewusst: Stufe 1 schafft Erfahrungs- und Datenbasis, ohne auf internationale Einigung zu warten. Stufen 2 und 3 sind nicht optional, aber längerfristig. Wer nur auf die internationale Lösung setzt, riskiert eine Lähmung, wie sie in der Digitalsteuer-Debatte seit 2018 zu beobachten war.
+
 ---
 
 ## 10. Bewertung und Empfehlungen
@@ -519,6 +554,8 @@ Acemoglu, D., & Restrepo, P. (2019). Automation and new tasks: how technology di
 Acemoglu, D., & Restrepo, P. (2020). Robots and Jobs: Evidence from US Labor Markets. *Journal of Political Economy*, 128(6), 2188-2244.
 
 Acemoglu, D., Lelarge, C., & Restrepo, P. (2020). Competing with Robots: Firm-Level Evidence from France. *AEA Papers and Proceedings*, 110, 383-388.
+
+Acemoglu, D. (2024). The Simple Macroeconomics of AI. NBER Working Paper 32487. *Economic Policy*, forthcoming.
 
 Barth, E., Roed, M., Schøne, P., & Umblijs, J. (2020). How Robots Change Within-Firm Wage Inequality. IZA Discussion Paper 13605.
 
