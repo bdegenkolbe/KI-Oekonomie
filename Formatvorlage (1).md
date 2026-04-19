@@ -1,6 +1,6 @@
 # Formatvorlage.md — Gestaltungsrichtlinie für PDF- und Word-Export
 
-**Gilt für:** Alle PDF- und Word-Exporte des Hauptdokuments.
+**Gilt für:** Alle PDF- und Word-Exporte des Hauptdokuments `Arbeitspapier_KI_Robotik_Besteuerung.md` (Projekt „Besteuerung von KI und Robotik", HIGL – Health Innovators Group Leipzig).
 
 ---
 
@@ -19,9 +19,10 @@
 
 | Element | Schrift | Größe | Gewicht | Farbe |
 |---|---|---|---|---|
-| Dokumenttitel (H1) | Arial / Helvetica | 22 pt | Bold | #1B3A5C |
-| Untertitel | Arial / Helvetica | 11 pt | Regular | #2E75B6 |
-| Metadaten (Autor, Version etc.) | Arial / Helvetica | 9 pt | Regular | #666666 |
+| Dokumenttitel (H1, „Arbeitspapier") | Arial / Helvetica | 22 pt | Bold | #1B3A5C |
+| Haupttitel-Zeile („Die Besteuerung von KI und Robotik …") | Arial / Helvetica | 16 pt | Bold | #1B3A5C |
+| Untertitel („Ökonomische, rechtliche und sozialpolitische Perspektiven") | Arial / Helvetica | 11 pt | Regular | #2E75B6 |
+| Metadaten (Autor, Organisation, Stand, Version) | Arial / Helvetica | 9 pt | Regular | #666666 |
 | Kapitelüberschrift (H2) | Arial / Helvetica | 14 pt | Bold | #1B3A5C |
 | Abschnittsüberschrift (H3) | Arial / Helvetica | 12 pt | Bold | #2E75B6 |
 | Unterabschnitt (H4) | Arial / Helvetica | 10,5 pt | Bold | #333333 |
@@ -29,12 +30,15 @@
 | Tabellenkopf | Arial / Helvetica | 7,5 pt | Bold | #FFFFFF |
 | Tabellenzelle | Arial / Helvetica | 7,5 pt | Regular | #000000 |
 | Code | Consolas / Courier | 7,5 pt | Regular | #333333 |
-| Blockquote | Arial / Helvetica | 9 pt | Italic | #333333 |
+| Blockquote (u. a. These in § 8.5) | Arial / Helvetica | 9 pt | Italic | #333333 |
+| Literaturverzeichnis (Kap. 11) | Arial / Helvetica | 9 pt | Regular | #000000 |
 | Header/Footer | Arial / Helvetica | 7,5 pt | Regular | #999999 |
 
-Zeilenabstand Fließtext: 1,15 (ca. 13 pt Leading bei 9,5 pt Schrift).  
-Absatzabstand: 1 mm vor, 2 mm nach.  
+Zeilenabstand Fließtext: 1,15 (ca. 13 pt Leading bei 9,5 pt Schrift).
+Absatzabstand: 1 mm vor, 2 mm nach.
 Textausrichtung Fließtext: Blocksatz.
+
+Im Literaturverzeichnis jeder Eintrag als eigener Absatz mit hängendem Einzug (4 mm) zur optischen Trennung der bibliographischen Angaben.
 
 ---
 
@@ -43,7 +47,7 @@ Textausrichtung Fließtext: Blocksatz.
 | Verwendung | Hex-Wert | Beschreibung |
 |---|---|---|
 | Primary | #1B3A5C | Dunkles Navy — Titel, H2 |
-| Accent | #2E75B6 | Stahlblau — H3, Links, Trennlinien |
+| Accent | #2E75B6 | Stahlblau — H3, Links, Trennlinien, These-Balken |
 | Tabellenkopf Hintergrund | #1B3A5C | Navy |
 | Tabellenkopf Text | #FFFFFF | Weiß |
 | Tabelle alternierende Zeile | #F2F7FB | Hellblau |
@@ -59,17 +63,19 @@ Textausrichtung Fließtext: Blocksatz.
 
 ## 4. Header und Footer
 
-**Header (jede Seite):**
+**Header (jede Seite ab Kapitel 1):**
 
-- Links: Dokumenttitel ("US CLOUD Act & Deutsche Datensouveränität")
-- Rechts: Organisation ("4K Analytics GmbH / HIGL")
+- Links: Dokument-Kurztitel („Arbeitspapier — Besteuerung von KI und Robotik")
+- Rechts: Organisation („HIGL — Health Innovators Group Leipzig")
 - Trennlinie darunter (0,5 pt, #CCCCCC)
 
-**Footer (jede Seite):**
+**Footer (jede Seite ab Kapitel 1):**
 
-- Links: Version und Vertraulichkeitshinweis ("Version X.0 — April 2026 — Vertraulich")
-- Rechts: Seitenzahl ("Seite X")
+- Links: Version, Stand und Lizenzhinweis („Version X.0 — April 2026 — CC BY 4.0")
+- Rechts: Seitenzahl („Seite X von N")
 - Trennlinie darüber (0,5 pt, #CCCCCC)
+
+Deckseite und Zusammenfassung (Executive Summary) erhalten weder Header noch Footer oder tragen nur die Seitenzahl.
 
 ---
 
@@ -77,14 +83,15 @@ Textausrichtung Fließtext: Blocksatz.
 
 - Jedes H2-Kapitel beginnt auf einer neuen Seite (Seitenumbruch vor H2)
 - Über jeder H2-Überschrift eine Akzentlinie (1,5 pt, #2E75B6, volle Breite)
-- Ausnahme: Das erste H2 im Dokument hat keinen Seitenumbruch davor
+- Ausnahme: Das erste H2 im Dokument („Zusammenfassung") direkt nach der Titelseite hat keinen Seitenumbruch davor
+- Kapitel 8 („Deutschland-These") wird durch ein leicht verstärktes Akzentelement markiert (Akzentlinie 2 pt statt 1,5 pt), da es den Positionierungskern des Papiers trägt
 
 ---
 
 ## 6. Tabellen
 
 - Volle Inhaltsbreite
-- Spaltenbreiten gleichmäßig verteilt (außer bei Tabellen mit definierter Gewichtung)
+- Spaltenbreiten gleichmäßig verteilt (außer bei Tabellen mit definierter Gewichtung, z. B. Typ-Übersicht in § 2.1, Kapitelstruktur in `Claude.md`)
 - Kopfzeile: Navy-Hintergrund (#1B3A5C), weißer Text, Bold
 - Datenzeilen: Abwechselnd weiß und hellblau (#F2F7FB)
 - Rahmen: 0,5 pt, #B0C4DE
@@ -94,7 +101,7 @@ Textausrichtung Fließtext: Blocksatz.
 
 ---
 
-## 7. Blockquotes
+## 7. Blockquotes und zentrale Thesen-Hervorhebung
 
 - Eingerückt (8 mm links)
 - Hintergrund #F0F5FA
@@ -102,11 +109,21 @@ Textausrichtung Fließtext: Blocksatz.
 - Schrift: Italic, 9 pt
 - Innenabstand: 4 mm (oben/unten/links/rechts im Inhaltsbereich)
 
-**Hinweis zur PDF-Implementierung:** Blockquotes werden als verschachtelte Tabelle realisiert — eine äußere Tabelle (8 mm Einzug-Spalte + Box-Spalte) und eine innere Tabelle (3 mm Balken-Spalte + Inhalts-Spalte mit #F0F5FA-Hintergrund). Innere Aufzählungspunkte (`> -`) werden als separate Bullet-Absätze im Inhaltsbereich dargestellt. Kein `borderPadding` in `ParagraphStyle` verwenden — ReportLab bezieht diesen Wert nicht in die Höhenberechnung ein, was zu Überlappungen mit benachbarten Elementen führt.
+**Sonderfall „Deutschland-These" (§ 8.5):**
+Der in Kapitel 8.5 zusammengeführte Thesen-Block (beginnend mit „KI ist als eigenständiger dritter Produktionsfaktor …") wird als verstärkter Blockquote gesetzt:
+- Seitenbalken 4 mm (statt 3 mm) in #1B3A5C (Primary statt Accent)
+- Hintergrund #F0F5FA
+- Schrift 9,5 pt Italic, #1B3A5C
+
+**Hinweis zur PDF-Implementierung (reportlab, sofern eingesetzt):** Blockquotes werden als verschachtelte Tabelle realisiert — eine äußere Tabelle (8 mm Einzug-Spalte + Box-Spalte) und eine innere Tabelle (Balken-Spalte + Inhalts-Spalte mit #F0F5FA-Hintergrund). Innere Aufzählungspunkte als separate Bullet-Absätze im Inhaltsbereich. Kein `borderPadding` in `ParagraphStyle` verwenden — reportlab bezieht diesen Wert nicht in die Höhenberechnung ein, was zu Überlappungen mit benachbarten Elementen führt.
+
+Bei Export über `pandoc` werden Blockquotes standardmäßig korrekt übernommen; die Deutschland-These in § 8.5 darf nicht als zusätzliche Überschrift verlinkt werden, sondern bleibt als Zitatblock erhalten.
 
 ---
 
 ## 8. Codeblöcke
+
+Codeblöcke kommen im Arbeitspapier nicht vor. Die Regel bleibt für den Fall erhalten, dass in künftigen Versionen Beispielrechnungen oder Pandoc-Aufrufe eingebettet werden:
 
 - Eingerückt (6 mm links)
 - Hintergrund #F5F5F5
@@ -121,14 +138,40 @@ Textausrichtung Fließtext: Blocksatz.
 - Eingerückt (10 mm links, 4 mm hängend)
 - Aufzählungszeichen: Bullet (•)
 - Zeilenabstand wie Fließtext
+- Fett gesetzte Lead-Ins in Aufzählungen (z. B. die fünf Typen in § 2.1, die Produktionsfaktor-Argumente in § 8.1) bleiben in der Auszeichnung erhalten
 
 ---
 
-## 10. Erstellungsskripte
+## 10. Literaturverzeichnis (Kapitel 11)
 
-| Export | Skript | Bibliothek |
+- Sektionen 11.1 – 11.5 erscheinen als H3-Überschriften
+- Jeder Literatureintrag als eigener Absatz, hängender Einzug 4 mm
+- Zitierstil angelehnt an APA: Autor, Jahr, Titel (kursiv für Monographien und Journale), Band(Heft), Seiten, ggf. URL
+- URLs in #2E75B6 (Accent), unterstrichen
+- Verifizierungsbedürftige Einträge werden in Klammern mit dem Hinweis „(Bibliographische Angaben verifizierungsbedürftig)" bzw. „Vollständige Titelangabe zu verifizieren" markiert — diese Markierung bleibt auch im Export sichtbar
+
+---
+
+## 11. Deckseite
+
+Empfohlene Elemente auf der ersten Seite (Deckblatt):
+
+- Oben zentriert: Logo-Platzhalter oder dezente Akzentlinie (#2E75B6, 2 pt, 6 cm Breite)
+- Haupttitel („Die Besteuerung von Künstlicher Intelligenz und Robotik als Ersatz menschlicher Arbeit"), #1B3A5C, 22 pt
+- Untertitel („Ökonomische, rechtliche und sozialpolitische Perspektiven"), #2E75B6, 13 pt
+- Metadatenblock (Autor, Organisation, Stand, Version, Lizenz CC BY 4.0), 10 pt, #666666
+- Unten: Zitiervorschlag aus `README.md`, 8 pt, #666666
+
+---
+
+## 12. Erstellungsskripte
+
+Im Projekt sind im Ausgangszustand keine dedizierten Build-Skripte enthalten. Der Export erfolgt zunächst über `pandoc`:
+
+| Export | Werkzeug | Anmerkungen |
 |---|---|---|
-| Word (.docx) | `build_docx.js` | docx (npm) |
-| PDF (.pdf) | `build_pdf.py` | reportlab (pip) |
+| PDF (.pdf) | pandoc + xelatex | vgl. `Claude.md` § 5 |
+| Word (.docx) | pandoc | vgl. `Claude.md` § 5 |
+| PDF (alternativ) | `build_pdf.py` (reportlab) | falls später ergänzt — muss die hier beschriebene Formatvorlage umsetzen |
 
-Beide Skripte lesen das Hauptdokument (`Wolkenfrei.md`) und erzeugen den Export gemäß dieser Formatvorlage. Bei Änderungen an der Formatvorlage müssen beide Skripte entsprechend angepasst werden.
+Bei Ergänzung eines `build_pdf.py` muss das Skript Farben, Schriftgrößen, Blockquote-Sonderfall (§ 7), Kapitel-Akzentlinien und die Header/Footer-Struktur aus dieser Formatvorlage übernehmen. Bei Änderungen an der Formatvorlage sind alle Exportwege entsprechend anzupassen.
