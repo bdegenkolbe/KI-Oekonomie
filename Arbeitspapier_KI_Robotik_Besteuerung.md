@@ -9,7 +9,7 @@
 **Autor:** Björn Degenkolbe
 **Organisation:** HIGL – Health Innovators Group Leipzig
 **Stand:** April 2026
-**Version:** 4.0
+**Version:** 5.0
 
 ---
 
@@ -47,7 +47,7 @@ Das Papier argumentiert darüber hinaus, dass die Frage der KI-Besteuerung nicht
 
 ### 1.1 Ausgangslage
 
-Der Einsatz von KI-Systemen und Robotik in produktiven und dienstleistenden Tätigkeiten beschleunigt sich. Zwei parallele Entwicklungen erzeugen politischen Handlungsdruck: Einerseits warnen Studien vor erheblichen Verschiebungen auf dem Arbeitsmarkt — das IAB (Institut für Arbeitsmarkt- und Berufsforschung) rechnet im KI-Szenario für Deutschland mit einem Wegfall oder Neuentstehen von rund 1,6 Millionen Stellen in den nächsten 15 Jahren bei gleichzeitigem Wertschöpfungszuwachs von 4,5 Billionen Euro. Andererseits steht die Finanzierung der sozialen Sicherungssysteme — insbesondere der paritätisch über Löhne finanzierten Zweige Kranken-, Pflege-, Renten- und Arbeitslosenversicherung — vor strukturellen Herausforderungen durch den demografischen Wandel.
+Der Einsatz von KI-Systemen und Robotik in produktiven und dienstleistenden Tätigkeiten beschleunigt sich. Zwei parallele Entwicklungen erzeugen politischen Handlungsdruck: Einerseits warnen Studien vor erheblichen Verschiebungen auf dem Arbeitsmarkt — das IAB (Institut für Arbeitsmarkt- und Berufsforschung) rechnet im KI-Szenario für Deutschland mit einem Wegfall oder Neuentstehen von rund 1,6 Millionen Stellen in den nächsten 15 Jahren bei gleichzeitigem Wertschöpfungszuwachs von 4,5 Billionen Euro; kurzfristig erwartet das IAB in seiner Prognose für 2025/2026 einen leichten Rückgang der Erwerbstätigkeit um etwa 20.000 Personen und in dreizehn der sechzehn Bundesländer einen weiteren Anstieg der Arbeitslosigkeit. Andererseits steht die Finanzierung der sozialen Sicherungssysteme — insbesondere der paritätisch über Löhne finanzierten Zweige Kranken-, Pflege-, Renten- und Arbeitslosenversicherung — vor strukturellen Herausforderungen durch den demografischen Wandel.
 
 Die Frage, ob und wie KI und Robotik besteuert werden sollten, wenn sie menschliche Arbeit substituieren, verbindet mehrere Politikfelder: Steuerpolitik, Sozialpolitik, Industriepolitik, Technologieregulierung und Verteilungspolitik. Sie ist weder rein ökonomisch noch rein rechtlich zu beantworten, sondern betrifft fundamentale Annahmen darüber, wie produktive Tätigkeit in einer teilautomatisierten Gesellschaft organisiert und wie die Früchte dieser Tätigkeit verteilt werden sollen.
 
@@ -145,6 +145,8 @@ Für die politische Debatte ist das eine wichtige Einsicht: Selbst wenn man theo
 
 **Nakatani (2024):** „Optimal Taxation in the Automated Era" erweitert den Ansatz auf fiskalpolitische Nachhaltigkeit in automatisierten Ökonomien.
 
+**Falk & Tsoukalas (2026):** Brett Hemenway Falk (University of Pennsylvania) und Gerry Tsoukalas (Boston University) führen in „The AI Layoff Trap" (arXiv 2603.20617, März 2026) ein aufgabenbasiertes Wettbewerbsmodell ein, in dem KI-bedingte Nachfrage-Externalitäten rationale Firmen in ein Automatisierungs-Wettrüsten treiben: Jede Entlassungsrunde erodiert die Kaufkraft, auf die sämtliche Firmen angewiesen sind. Die Autoren zeigen formal, dass weder Kapitalertragssteuern noch Arbeitnehmerbeteiligung, bedingungsloses Grundeinkommen oder Umschulung das Gleichgewicht heben, sondern ausschließlich eine **Pigou-Steuer auf Automatisierung**, deren Höhe dem nicht-internalisierten Nachfrageverlust je Task entspricht. Das Aufkommen kann Umschulung und Einkommensersatz finanzieren, wodurch die Steuer langfristig potentiell selbst-limitierend wirkt. Das Ergebnis ist methodisch komplementär zur Thuemmel-Argumentation (allgemeine Gleichgewichtseffekte auf Löhne) und hebt die Nachfrageseite als zweite Kanalvariable hervor.
+
 **Empirische Forschung:** Graetz & Michaels (Restat 2018) für 17 Länder, Dauth et al. für Deutschland, Acemoglu, Lelarge & Restrepo für Frankreich und Barth et al. für Norwegen liefern Mikrodaten zu den Arbeitsmarkteffekten von Industrierobotern.
 
 ### 3.4 Gegenposition: „Taxing Robots" (de la Feria et al. 2022)
@@ -157,7 +159,7 @@ Die Argumentation stützt sich auf Erkenntnisse aus den Verhaltenswissenschaften
 
 Der Stand der Forschung lässt sich wie folgt zusammenfassen:
 
-Die theoretischen Modelle stützen mehrheitlich die These, dass das gegenwärtige Steuersystem vieler OECD-Staaten zu einer suboptimalen Verzerrung zugunsten von Kapital (einschließlich Automatisierungskapital) führt. Die zentrale Politikempfehlung lautet jedoch nicht „Robotersteuer einführen", sondern „relative Besteuerung von Arbeit und Kapital korrigieren". Eine spezifische Robotersteuer bringe nur dann zusätzliche Wohlfahrtsgewinne, wenn Roboterkapital empirisch stärkere Displacement-Effekte erzeugt als anderes Kapital — was empirisch zwar plausibel, aber nicht abschließend gesichert ist.
+Die theoretischen Modelle stützen mehrheitlich die These, dass das gegenwärtige Steuersystem vieler OECD-Staaten zu einer suboptimalen Verzerrung zugunsten von Kapital (einschließlich Automatisierungskapital) führt. Die zentrale Politikempfehlung lautet jedoch nicht „Robotersteuer einführen", sondern „relative Besteuerung von Arbeit und Kapital korrigieren". Eine spezifische Robotersteuer bringe nur dann zusätzliche Wohlfahrtsgewinne, wenn Roboterkapital empirisch stärkere Displacement-Effekte erzeugt als anderes Kapital — was empirisch zwar plausibel, aber nicht abschließend gesichert ist. Das 2026 veröffentlichte Modell von Falk & Tsoukalas fügt dieser Debatte eine Nachfrageseiten-Perspektive hinzu: Wenn der Löhne-Konsum-Zyklus durch kumulierte Automatisierung abgeschnitten wird, kann eine Pigou-Steuer unter bestimmten Annahmen das einzig funktionierende Instrument sein. Dies widerspricht Thuemmel nicht, verschiebt aber den Schwerpunkt von Lohnstruktur- auf Kaufkrafteffekte — und ist damit für die Diskussion um Sozialstaatsfinanzierung in alternden Volkswirtschaften besonders relevant.
 
 Die praktischen Umsetzungsprobleme (Definition, Abgrenzung, internationale Steuerarbitrage) werden auch in den theoretischen Papieren anerkannt und führen meist zur Empfehlung, die ersten Schritte auf der Ebene der Einkommen- und Kapitalbesteuerung zu gehen.
 
@@ -201,7 +203,7 @@ Eine spezifische Robotersteuer wirft in Deutschland eine Reihe verfassungsrechtl
 
 **Bundesstaatliche Kompetenzen (Art. 105 GG):** Eine neue Steuer bedarf der Kompetenzzuweisung. Eine Steuer auf Maschinen oder KI-Systeme müsste als neue Verbrauchsteuer oder als neue Unternehmensteuer eingeordnet werden — beides mit Unsicherheiten.
 
-**Europarechtliche Vorgaben:** Eine rein nationale Lösung kann mit der Warenverkehrsfreiheit, der Dienstleistungsfreiheit und der Niederlassungsfreiheit in Konflikt geraten. Eine Regelung, die nur inländische Roboterbetreiber trifft, während grenzüberschreitende KI-Dienstleistungen unbesteuert bleiben, wäre diskriminierungsrechtlich problematisch und praktisch kaum durchsetzbar.
+**Europarechtliche Vorgaben:** Eine rein nationale Lösung kann mit der Warenverkehrsfreiheit, der Dienstleistungsfreiheit und der Niederlassungsfreiheit in Konflikt geraten. Eine Regelung, die nur inländische Roboterbetreiber trifft, während grenzüberschreitende KI-Dienstleistungen unbesteuert bleiben, wäre diskriminierungsrechtlich problematisch und praktisch kaum durchsetzbar. Der EU AI Act (Verordnung 2024/1689) schafft ab dem 2. August 2026 einen unionsweit einheitlichen Regulierungsrahmen für KI-Systeme (Hochrisiko-Systeme gemäß Anhang III, Transparenzpflichten nach Art. 50, Durchsetzungsregime); dies legt einen einheitlichen Definitionsrahmen, der steuerpolitische Anknüpfungen an KI-Systemklassen mittelfristig erleichtern kann, ohne selbst steuerrechtliche Wirkung zu entfalten.
 
 ### 4.4 Europäisches Sekundärrecht und Harmonisierungsbedarf
 
@@ -213,7 +215,7 @@ Die Deutsche Bank weist darauf hin, dass manche die Digital Services Tax der EU,
 
 ### 4.5 Jüngste politische Initiativen
 
-**Sanders-Report (Oktober 2025):** US-Senator Bernie Sanders, ranghöchstes Mitglied im HELP-Ausschuss des US-Senats, veröffentlichte einen Bericht, der eine „Robotersteuer" für Unternehmen forderte, die KI einsetzen, um Arbeitsplätze zu ersetzen. Dies ist der bislang konkreteste politische Vorstoß auf US-Bundesebene.
+**Sanders-Report (Oktober 2025):** US-Senator Bernie Sanders, ranghöchstes Mitglied im HELP-Ausschuss des US-Senats, veröffentlichte am 6. Oktober 2025 den Bericht „The Big Tech Oligarchs' War Against Workers: AI and Automation Could Destroy Nearly 100 Million U.S. Jobs in a Decade". Darin fordert er eine „Robotersteuer" — konzipiert als direkte Verbrauchsteuer auf automatisierende Technologie — für Großunternehmen, die Arbeit durch KI oder Robotik ersetzen; das Aufkommen soll an verdrängte Arbeitskräfte umverteilt werden. Flankiert wird die Robotersteuer durch eine 32-Stunden-Woche ohne Lohnausgleich-Senkung, eine verpflichtende Gewinnbeteiligung, Mitbestimmung im Aufsichtsrat, ein nationales Employee Ownership Bank-Modell, ein Verbot von Aktienrückkäufen und eine Wiederbelebung leistungsdefinierter Rentenpläne. Der Bericht ist der bislang konkreteste politische Vorstoß auf US-Bundesebene.
 
 **OpenAI-Strategiepapier (April 2026):** Unter dem Titel „Industrial Policy for the Intelligence Age: Ideas to Keep People First" veröffentlichte OpenAI am 6. April 2026 ein 13-seitiges Strategiepapier. Es ist zweigeteilt in Vorschläge zum Aufbau einer offenen Wirtschaft und zum Aufbau einer widerstandsfähigen Gesellschaft. Relevant für die Besteuerungsdebatte sind vor allem drei der insgesamt zwanzig Vorschläge: eine Modernisierung der Steuerbasis mit expliziter Verlagerung von Lohn- auf Kapital- und Unternehmensbesteuerung sowie „Steuern im Zusammenhang mit automatisierter Arbeit", ein öffentlicher Wohlstandsfonds nach norwegischem Vorbild, der jedem Bürger einen Anteil am KI-getriebenen Wachstum verschaffen soll, und eine „Effizienzdividende", die Produktivitätsgewinne über Leistungspakete und eine 32-Stunden-Woche an Beschäftigte weitergibt.
 
@@ -420,6 +422,8 @@ Für die Debatte um die Besteuerung von KI hat das drei Implikationen:
 
 Das OpenAI-Papier selbst greift diese Linie implizit auf, wenn es formuliert, dass „die Institutionen und sozialen Sicherungen, die diesen Übergang bewältigen müssen, zurückbleiben könnten", wenn die Politik nicht mithält. Aus deutscher Perspektive ist das weniger eine neue Einsicht als eine Wiederentdeckung Bismarckscher Staatsräson unter modernen Vorzeichen.
 
+Dass dieses Argument keinen rein akademischen Status hat, zeigt ein Vorfall wenige Tage nach der OpenAI-Veröffentlichung: In der Nacht zum 10. April 2026 griff ein mutmaßlicher Einzeltäter das Haus des OpenAI-Vorstandsvorsitzenden Sam Altman in San Francisco mit einem Molotowcocktail an und steuerte anschließend die OpenAI-Zentrale an; der Tatverdächtige wurde mit Schriften aufgegriffen, die sich auf befürchtete KI-bedingte Arbeitsplatzverluste und eine „drohende Auslöschung" bezogen. Der Anschlag ist als Einzeltat kein Beleg für eine breite Bewegung, er illustriert aber, wie nah die Debatte um Automatisierung und soziale Sicherung inzwischen an Emotionen gerückt ist, die historisch Transformationskonflikte begleitet haben — und damit den Preis, den ausgebliebene politische Antworten auch in stabilen Demokratien kosten können.
+
 **Policy-Design ist Vertrauens-Design.** Daraus folgt eine praktische Konsequenz für die in Kapitel 10 entwickelten Empfehlungen: Die vorgeschlagenen Instrumente — Wertschöpfungsabgabe, Teilhabefonds, Umstellung der Sozialstaatsfinanzierung — müssen nicht nur fiskalisch funktionieren, sondern **sichtbar, verständlich und spürbar** sein. Eine technokratisch korrekte Reform, deren Wirkung für die Bevölkerung nicht nachvollziehbar wird, verfehlt ihr wichtigstes Ziel: die Wiederherstellung des institutionellen Vertrauens, auf dem demokratische Steuerungsfähigkeit beruht. Konkret heißt das: eine jährliche, individuell zuordenbare Ausweisung der Staatsfonds-Erträge je Bürger; eine transparente Aufschlüsselung der Sozialversicherungsfinanzierung nach Lohn- und Wertschöpfungsanteil; eine klare Zusage, dass Reformerträge bei den Bürgern landen und nicht in neuen Verwaltungsebenen. Wo der psychologische Grundvertrag zwischen Bürger und Institution bereits erodiert ist, reicht fiskalische Korrektheit nicht aus — die Reform muss erfahrbar werden, sonst wird sie als weiterer Zug im Hütchenspiel gelesen und verstärkt den Vertrauensverlust, den sie eigentlich heilen soll.
 
 ### 8.5 Zusammenführung: Die These
@@ -436,7 +440,7 @@ Die These hat eine Reihe konkreter Implikationen für die Politikgestaltung:
 
 **Für die Industriepolitik:** Die Veredelungsstrategie verlangt massive Investitionen in Datenqualität, Dateninfrastruktur und domänenspezifische KI-Entwicklung. Deutsche Stärken — Ingenieurkompetenz, vertikale Branchenexpertise, Datenbestände in regulierten Sektoren wie Gesundheit, Mobilität, Industrieproduktion — müssen systematisch in Wert gesetzt werden. Die EU-weite Datensouveränitätsdebatte und regulatorische Rahmen wie der AI Act werden dabei zu strategischen Standortfaktoren.
 
-**Für die Sozialpolitik:** Die Teilhabekomponente erfordert eine politische Kraftanstrengung, die über die bisherige Reformdebatte hinausgeht. Ein deutscher oder europäischer Staatsfonds nach norwegischem Vorbild ist institutionell nicht vorhanden; seine Konstruktion würde Jahre beanspruchen. Übergangsweise kommen hybride Modelle in Betracht — etwa eine zweckgebundene Kapitalkomponente in der gesetzlichen Rentenversicherung, die bereits 2024 in Deutschland mit der „Generationenkapital"-Initiative angelegt wurde.
+**Für die Sozialpolitik:** Die Teilhabekomponente erfordert eine politische Kraftanstrengung, die über die bisherige Reformdebatte hinausgeht. Ein deutscher oder europäischer Staatsfonds nach norwegischem Vorbild ist institutionell nicht vorhanden; seine Konstruktion würde Jahre beanspruchen. Übergangsweise kommen hybride Modelle in Betracht — etwa eine zweckgebundene Kapitalkomponente in der gesetzlichen Rentenversicherung, die in Deutschland 2024 mit der „Generationenkapital"-Initiative angelegt und im Januar 2026 mit einer ersten Einzahlung von rund zehn Milliarden Euro operativ gestartet wurde. Jährliche Bundesdarlehen in Höhe von zwölf Milliarden Euro, jeweils um drei Prozent fortgeschrieben, sollen den Kapitalstock bis Mitte der 2030er-Jahre auf mindestens 200 Milliarden Euro bringen; im Start­jahr hat das Vehikel nach Angaben der verwaltenden Stiftung eine Rendite von rund 7,2 % erzielt. Diese Architektur ließe sich um eine KI-spezifische Zweckbindung erweitern, ohne eine neue Institution aufbauen zu müssen.
 
 **Für die Bildungs- und Arbeitsmarktpolitik:** Die Veredelungsstrategie setzt eine Workforce voraus, die mit KI produktiv umgehen kann. Die Umbrüche, die das IAB für die nächsten 15 Jahre prognostiziert, erfordern eine Re-Qualifizierungsoffensive in Größenordnungen, die über den bisherigen Weiterbildungsstand hinausgehen.
 
@@ -559,6 +563,8 @@ Acemoglu, D., Lelarge, C., & Restrepo, P. (2020). Competing with Robots: Firm-Le
 
 Acemoglu, D. (2024). The Simple Macroeconomics of AI. NBER Working Paper 32487. *Economic Policy*, forthcoming.
 
+Falk, B. H., & Tsoukalas, G. (2026). *The AI Layoff Trap.* arXiv Preprint 2603.20617, 21. März 2026. https://arxiv.org/abs/2603.20617
+
 Barth, E., Roed, M., Schøne, P., & Umblijs, J. (2020). How Robots Change Within-Firm Wage Inequality. IZA Discussion Paper 13605.
 
 Costinot, A., & Werning, I. (2023). Robots, Trade, and Luddism: A Sufficient Statistic Approach to Optimal Technology Regulation. *Review of Economic Studies*, 90(5), 2261-2291.
@@ -601,11 +607,17 @@ Europäisches Parlament. (2017). Bericht mit Empfehlungen an die Kommission zu z
 
 IAB, BIBB, GWS. (November 2025). Künstliche Intelligenz: Potenzielle Effekte für den deutschen Arbeitsmarkt. IAB-Forschungsbericht 23/2025.
 
+IAB. (März 2026). *IAB-Prognose 2025/2026: Arbeitsmarkt profitiert von Fiskalpaketen, wird aber durch den demografischen Wandel gebremst.* Presseinformation und Kurzbericht. https://iab.de/presseinfo/iab-prognose-fuer-2025-2026-arbeitsmarkt-profitiert-von-fiskalpaketen-wird-aber-durch-den-demografischen-wandel-gebremst/
+
+Europäische Union. (2024). Verordnung (EU) 2024/1689 des Europäischen Parlaments und des Rates vom 13. Juni 2024 zur Festlegung harmonisierter Vorschriften für künstliche Intelligenz (*AI Act*). Volle Anwendbarkeit der Hauptbestimmungen ab 2. August 2026. Amtsblatt der EU.
+
+Bundesministerium der Finanzen (BMF). (März 2024). *Das Generationenkapital: für eine moderne Rente.* BMF-Monatsbericht. https://www.bundesfinanzministerium.de/Monatsberichte/Ausgabe/2024/03/Inhalte/Kapitel-2-Fokus/generationenkapital.html
+
 Institut der deutschen Wirtschaft (IW) Köln. Sollen Roboter Steuern zahlen? Beitrag von Tobias Hentze.
 
 OpenAI. (6. April 2026). *Industrial Policy for the Intelligence Age: Ideas to Keep People First.* 13 Seiten. Landingpage: https://openai.com/index/industrial-policy-for-the-intelligence-age/ | PDF: https://cdn.openai.com/pdf/561e7512-253e-424b-9734-ef4098440601/Industrial%20Policy%20for%20the%20Intelligence%20Age.pdf
 
-Sanders, B. (Oktober 2025). Bericht zur Robotersteuer / KI-Abgabe. US-Senat, Committee on Health, Education, Labor and Pensions (HELP), Minderheitsbericht. Vollständige Titelangabe zu verifizieren.
+Sanders, B. (6. Oktober 2025). *The Big Tech Oligarchs' War Against Workers: AI and Automation Could Destroy Nearly 100 Million U.S. Jobs in a Decade.* US-Senat, Committee on Health, Education, Labor and Pensions (HELP), Minderheitsbericht. https://www.sanders.senate.gov/wp-content/uploads/10.6.2025-The-Big-Tech-Oligarchs-War-Against-Workers.pdf
 
 Springer Gabler Verlag. Gabler Wirtschaftslexikon, Stichwort: Robotersteuer.
 
@@ -630,6 +642,12 @@ Robotik und Produktion. (Dezember 2023). Keine Steuererklärung für Roboter.
 Euractiv. (2017). Robotik-Bericht: Nein zum bedingungslosen Grundeinkommen.
 
 Yang, A. (März 2026). Interview zur KI-Besteuerung. CNBC.
+
+NPR. (13. April 2026). Man accused in Molotov cocktail attack of OpenAI CEO's home charged with attempted murder.
+
+Washington Post. (13. April 2026). Man charged with attempting to firebomb home of OpenAI CEO Sam Altman.
+
+SF Standard. (12. April 2026). OpenAI published a New Deal for AI. Days later, someone firebombed Sam Altman's house.
 
 ---
 

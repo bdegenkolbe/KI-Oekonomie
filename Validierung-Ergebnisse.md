@@ -181,3 +181,67 @@ Anschluss an eine externe (polemisch formulierte) Kritik an staatlichem Vertraue
 - Neue Version: 4.0
 - PDF erstellt: Ja
 - Word erstellt: Ja
+
+---
+
+## Validierung 20. April 2026 — Version 4.0 → Version 5.0
+
+**Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers; Einarbeitung von sechs belegbaren Neuigkeiten aus dem Zeitraum Oktober 2025 bis April 2026:
+
+1. Verifikation des Sanders-Reports (6. Oktober 2025): vollständiger Titel „The Big Tech Oligarchs' War Against Workers: AI and Automation Could Destroy Nearly 100 Million U.S. Jobs in a Decade"; PDF-Link zum Volltext auf sanders.senate.gov
+2. Neues ökonomisches Paper Falk & Tsoukalas (21. März 2026): „The AI Layoff Trap" (arXiv 2603.20617), Pigouvian-Automation-Tax-Argumentation aus einem wettbewerbsbasierten Task-Modell
+3. EU AI Act: volle Anwendbarkeit der Hauptbestimmungen ab 2. August 2026 (Art. 50 Transparenz, Anhang-III-Hochrisikoregime, Durchsetzung)
+4. Anschlag auf Sam Altman (10. April 2026) — Molotowcocktail-Angriff auf sein Haus, Angriff auf OpenAI-Zentrale; publizistische Rezeption (NPR, Washington Post, SF Standard, Fortune) stellt den Vorfall in zeitliche Nähe zum OpenAI-Strategiepapier
+5. Generationenkapital: operativer Start im Januar 2026 mit ca. 10 Mrd. Euro Startkapital; Rendite im Startjahr rund 7,2 %; Zielgröße mindestens 200 Mrd. Euro bis Mitte 2030er-Jahre
+6. IAB-Prognose 2025/2026: kurzfristiger Rückgang der Erwerbstätigkeit 2026 um ca. 20.000 Personen; Arbeitslosigkeitsanstieg in 13 von 16 Bundesländern
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Inhaltsverzeichnis und Kapitelüberschriften unverändert; Zusammenfassung vor Kapitel 1 erhalten; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | 11 Kapitel lückenlos; Unterabschnitte 1.1–11.5 konsistent; fünf Robotersteuer-Typen, drei Hebel, sieben Empfehlungen mit den jeweiligen Referenzangaben konsistent. |
+| 2.1.3 Querverweise | OK | Verweise aus § 8 auf § 3 (Acemoglu/Thuemmel), § 5 (Wertschöpfungsabgabe, Staatsfonds) und § 4.5 (OpenAI, Sanders) weiterhin korrekt; neue Einfügungen haben keine §-Verweise verschoben. |
+| 2.1.4 Roter Faden | OK | Neue Textstellen ordnen sich stringent ein: Falk & Tsoukalas in § 3.3/3.5 (Optimalsteuer-Literatur), EU AI Act in § 4.3 (verfassungs-/europarechtlicher Rahmen), Sanders-Volltitel in § 4.5, Altman-Anschlag in § 8.4 (Systemstabilität), Generationenkapital-Update in § 8.6 (Implikationen). |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; fett/kursiv konsistent; Tabellen unverändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Alle neuen Zahlen mit Primär-/Sekundärquelle belegt (Sanders-PDF; arXiv-Preprint; IAB-Presseinformation; BMF-Monatsbericht; EU-Verordnung 2024/1689); bestehende Zahlen (IAB 1,6 Mio. / 4,5 Bio. EUR; Acemoglu +4,02 %/+0,78 Pp.; Delvaux 288:302; OpenAI 100.000 USD / 1 Mio. USD) unverändert. |
+| 2.2.2 Redundanzprüfung | OK | Generationenkapital wird nur in § 8.6 substantiell geführt (Kurzverweis in § 5.4); Wertschöpfungsabgabe-Aufgabenteilung (§ 5.1 / § 7.2 / § 8.5 / § 10.2) unverändert; Systemstabilitätsargument bleibt in § 8.4 konzentriert. |
+| 2.2.3 Argumentation | OK | Falk/Tsoukalas ist als komplementär zur Thuemmel-Argumentation eingeführt (Nachfrageseite vs. Lohnstruktur) — Argumentationslinien nicht vermengt; Sanders-Volltitel stellt den Inhalt präziser, ohne die kritische Einordnung zu verändern; Altman-Anschlag ausdrücklich als Einzeltat gekennzeichnet. |
+| 2.2.4 Ausgewogenheit | OK | OpenAI-Papier bleibt inhaltlich und kritisch gewürdigt; Sanders-Positionen vollständiger, aber ohne Übernahme; Altman-Anschlag sachlich referiert, keine Skandalisierung. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe der neuen Absätze ohne Befund. |
+| 2.3.2 Terminologie | OK | Neue Begriffe eingeführt: „Pigou-Steuer", „arXiv-Preprint", „Task", „Nachfrage-Externalität" — jeweils im Kontext erklärbar; Abkürzungen (arXiv, HELP, PDF) nicht erklärungsbedürftig bzw. im Zitat. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neue Literaturnachweise vollständig zugeordnet: Falk & Tsoukalas in § 11.1; Sanders-Volltitel in § 11.3; IAB-Prognose 2025/2026 in § 11.3; EU AI Act in § 11.3; BMF-Generationenkapital in § 11.3; Altman-Anschlag (NPR, WP, SF Standard) in § 11.5. |
+| 2.4.2 Formale Einheitlichkeit | OK | Neue Einträge in APA-Stil; URLs vollständig; Datumsformate einheitlich. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Falk/Tsoukalas als arXiv-Preprint markiert; IAB-Prognose und BMF-Monatsbericht als Primärquellen; Altman-Anschlag mit drei redaktionell unabhängigen Belegen (NPR, WP, SF Standard). |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 20. April 2026: sanders.senate.gov-PDF erreichbar (Volltext); arxiv.org/abs/2603.20617 erreichbar; iab.de-Presseinformation erreichbar; bundesfinanzministerium.de-Monatsbericht erreichbar. OpenAI-PDF-URL aus Validierung 19. April unverändert gültig. |
+| 2.4.5 Zitatgenauigkeit | OK | Sanders-Kernaussage (Robotersteuer als Verbrauchsteuer, Aufkommen für verdrängte Beschäftigte) aus Primärquelle wiedergegeben; Falk/Tsoukalas-Kernsatz („Only a Pigouvian automation tax can") inhaltlich korrekt zusammengefasst; IAB-Kurzfristprognose (−20.000 Erwerbstätige, 13 von 16 Ländern) korrekt. |
+| 2.4.6 Verifizierungsbedürftige Einträge | Abweichung → behoben | Sanders-Titelmarkierung entfernt (Primärquelle verifiziert, Beleg: sanders.senate.gov PDF vom 6. Oktober 2025). de la Feria et al. 2022 bleibt als verifizierungsbedürftig markiert. Claude.md und README.md synchronisiert. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 5.0 in Dokumentkopf, Zitiervorschlag (README), Claude.md und diesem Protokoll identisch. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| 1 | § 11.3 / README.md / Claude.md | Sanders-Report hatte bislang die Markierung „Vollständige Titelangabe zu verifizieren"; mit Version 5.0 liegt die Primärquelle vor. | Gering |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| 1 | Sanders-Titel verifiziert | Volltitel, Datum (6. Oktober 2025) und PDF-URL in § 11.3 gesetzt; Verifikationsmarkierung entfernt; Claude.md und README.md angepasst. | Ja |
+
+### Nachprüfung
+
+- 2.1.1 – 2.1.5 nach Einarbeitung: OK
+- 2.4.1, 2.4.2, 2.4.3 nach Ergänzung um 5 neue Literaturnachweise: OK
+- 2.4.6 nach Bereinigung: OK (einziger verbleibender verifizierungsbedürftiger Eintrag: de la Feria et al. 2022)
+- 2.5 Versionskonsistenz: OK
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 5.0
+- PDF erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.pdf` via `build_pdf.py`)
+- Word erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.docx` via `build_docx.py`)
