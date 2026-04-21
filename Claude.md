@@ -10,7 +10,7 @@
 
 Dieses Projekt pflegt ein Arbeitspapier zum Diskussionsstand rund um die Besteuerung von KI und Robotik, wenn diese menschliche Arbeit substituieren. Das Papier verbindet drei Perspektiven — ökonomisch-wissenschaftlich, rechtlich-steuerpolitisch und sozial-/verteilungspolitisch — und entwickelt in Kapitel 8 mit der Deutschland-These eine eigenständige Position. Es dient als Wissens- und Diskussionsgrundlage und wird regelmäßig aktualisiert, validiert und als PDF und Word-Dokument exportiert.
 
-**Aktueller Stand:** Version 1.0, April 2026, 11 Kapitel, rund 25 Seiten.
+**Aktueller Stand:** Version 5.0, April 2026, 11 Kapitel, rund 26 Seiten.
 
 Das Papier steht unter der Creative-Commons-Lizenz CC BY 4.0.
 
@@ -81,7 +81,7 @@ Das Papier steht unter der Creative-Commons-Lizenz CC BY 4.0.
 - Alle Fakten müssen belegbar sein — keine Behauptungen ohne Quelle
 - Zahlen (z. B. IAB: 1,6 Mio. Stellen / 4,5 Bio. EUR; Acemoglu: +4,02 % Beschäftigung; Südkorea: −2 %-Punkte bei Automatisierungsabzügen) konsistent und mit Quelle angeben
 - Das Arbeitspapier wurde im Dialog mit Claude (Anthropic) erstellt — dieser Hinweis muss in `README.md` stehen bleiben
-- Zwei Literatureinträge sind als verifizierungsbedürftig markiert (de la Feria et al. 2022; Sanders 2025 Titelangabe) — diese Markierung darf nicht entfernt werden, bevor die Verifikation erfolgt ist
+- Ein Literatureintrag ist weiter als verifizierungsbedürftig markiert (de la Feria et al. 2022) — diese Markierung darf nicht entfernt werden, bevor die Verifikation erfolgt ist. Sanders 2025 wurde in Version 5.0 mit Titel „The Big Tech Oligarchs' War Against Workers: AI and Automation" verifiziert.
 - **Keine Redundanzen:** Jeder Sachverhalt hat genau einen Ort im Dokument. Andere Stellen verweisen per §-Querverweis. Beispiel: Der Staatsfonds-Gedanke wird in § 5.4 eingeführt und in § 8.3 eigenständig weitergeführt — keine Dopplung der Grundidee.
 
 ### 4.4 Änderungen am Hauptdokument

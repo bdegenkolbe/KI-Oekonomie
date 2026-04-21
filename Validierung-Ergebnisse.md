@@ -181,3 +181,83 @@ Anschluss an eine externe (polemisch formulierte) Kritik an staatlichem Vertraue
 - Neue Version: 4.0
 - PDF erstellt: Ja
 - Word erstellt: Ja
+
+---
+
+## Validierung 21. April 2026 — Version 4.0 → Version 5.0
+
+### Anlass
+
+Systematische Web-Recherche zu den Hauptthemen des Papiers (KI-/Robotersteuer, Wertschöpfungsabgabe, OECD Pillar 2, OpenAI-Papier, Sanders, Mistral, deutsche KI-Politik, IAB-Prognose 2026) ergab mehrere seit Veröffentlichung von Version 4.0 erschienene bzw. nicht berücksichtigte Quellen und Ereignisse. Keine Korrektur eigenständiger Fehler, sondern inhaltliche Aktualisierung mit neuen Belegen; entsprechend Versionsanhebung gemäß `Validierung.md` § 4 (inhaltliche Ergänzung → neue Version).
+
+### Neu aufgenommene Sachverhalte
+
+| # | Thema | Stelle im Hauptdokument | Quelle (neu im Lit.-Verzeichnis) |
+|---|---|---|---|
+| 1 | Korinek/Lockwood „Public Finance in the Age of AI: A Primer" (NBER WP 34873 / Brookings, Jan. 2026) — Zwei-Phasen-Framework, Konsumsteuer statt KI-Kapital-Steuer in Phase 1, AGI-Szenario in Phase 2 | § 3.3 (neuer Absatz) | § 11.1 |
+| 2 | Arthur Mensch / Mistral: Vorschlag einer EU-weiten umsatzbasierten KI-Abgabe (1–1,5 %) mit Zweckbindung Kulturfonds (FT-Gastbeitrag 20. März 2026) | § 4.5 (neuer Absatz) | § 11.5 |
+| 3 | Sanders / Ocasio-Cortez, AI Data Center Moratorium Act (25. März 2026) — Kontext-Ergänzung zum Sanders-Report Oktober 2025 | § 4.5 (in vorhandenen Sanders-Absatz integriert) | § 11.3 |
+| 4 | Bundeskanzler Merz, Hannover Messe April 2026: Forderung nach Lockerung der EU-KI-Regulierung; keine KI-/Robotersteuer in Koalitionsvereinbarung | § 4.5 (neuer Absatz) | § 11.3 |
+| 5 | OECD Pillar 2 in Deutschland: Mindeststeuergesetz-Anpassung 23. Dez. 2025; BMF-Entwurfsverordnung 8. April 2026; Erstfrist 30. Juni 2026 | § 4.4 (neuer Absatz) | § 11.3 (BMF 2026) |
+| 6 | EU Digital Services Tax 2025/26: Italien ohne Inlandsschwelle; Sätze 3–5 %; Meta überwälzt ab 1. Juli 2026 an Werbetreibende | § 4.4 (neuer Absatz) | § 11.5 (Euronews Jan. 2026) |
+| 7 | HDE-Position gegen KI-Steuer (2026) — Ergänzung des wirtschaftsnahen Ablehnungsfeldes neben IW Köln | § 4.2 (Ergänzungssatz) | § 11.3 |
+| 8 | Generationenkapital-Start Januar 2026 mit 10 Mrd. Euro Startkapital | § 8.6 (Satz im Absatz „Sozialpolitik") | bereits in § 11 implizit, keine Dubletten |
+| 9 | IAB-Prognose März 2026: Sozialversicherungspflichtige Beschäftigung sinkt 2026 erstmals seit 2009 — Transformationskrise/Demografie überlagert KI-Effekte mittelfristig | neuer Eintrag in § 11.5 | § 11.5 |
+| 10 | Sanders-Report: vollständige Titelangabe „The Big Tech Oligarchs' War Against Workers: AI and Automation" verifiziert | § 11.3 (Titel ergänzt, Verifizierungsvermerk entfernt) | § 11.3 |
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11-Kapitel-Struktur, Zusammenfassung und ToC unverändert; neue Absätze bleiben in bestehenden Unterabschnitten. |
+| 2.1.2 Nummerierung | OK | Keine Änderung an Unterabschnitt-Nummerierung. Fünf Typen, drei Hebel, sieben Empfehlungen weiterhin konsistent. |
+| 2.1.3 Querverweise | OK | Keine Umnummerierungen; bestehende §-Verweise bleiben gültig. Neue Abschnitte setzen keine zusätzlichen Querverweise, die pflegepflichtig wären. |
+| 2.1.4 Roter Faden | OK | Korinek/Lockwood stärkt § 3 (Forschungsstand), Mensch/Merz/Sanders-AOC stärken § 4.5 (jüngste Initiativen), OECD-Pillar-2- und DST-Updates stärken § 4.4 (Sekundärrecht). Die Deutschland-These bleibt unberührt. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien, Lead-Ins („Arthur Mensch / Mistral (März 2026):", „Deutsche Bundesregierung / Merz (April 2026):", „Korinek & Lockwood (2026):") folgen der etablierten Fettungskonvention. |
+| 2.2.1 Sachliche Richtigkeit | OK | Alle neuen Zahlen belegt (Mensch 1–1,5 %; Generationenkapital 10 Mrd. EUR Startkapital, 0,2 Pp.; Pillar-2-Frist 30. Juni 2026; DST-Sätze 3/5 %; Meta-Überwälzung 1. Juli 2026). |
+| 2.2.2 Redundanzprüfung | OK | Mensch-Vorschlag in § 4.5 mit klarer Abgrenzung gegenüber OpenAI-Vorschlag (KI-Trainingsdaten-Kontext, nicht Beschäftigungs-Substitution). Sanders-Moratorium als Kontext-Satz im bestehenden Sanders-Absatz, nicht als Parallel-Eintrag. |
+| 2.2.3 Argumentation | OK | Korinek/Lockwood-Phasenlogik passt zum in § 3.5 bereits formulierten „szenariorobust"-Plädoyer; Merz-Position flankiert die in § 4.2 beschriebene wirtschaftsnahe Linie, ohne die Deutschland-These zu durchkreuzen. |
+| 2.2.4 Ausgewogenheit | OK | Wirtschaftsnahes Ablehnungsfeld (IW Köln + HDE) jetzt breiter; Gegengewichte aus Forschung (Korinek/Lockwood, Mensch) ausgewogen gegenübergestellt. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe der neuen Absätze ohne Befund. |
+| 2.3.2 Terminologie | OK | Neue Abkürzungen IIR, UTPR, QDMTT im Kontext eingebettet; DAC9 genannt, Bezug zu Pillar 2 im selben Absatz. HDE (Handelsverband Deutschland) ausgeschrieben. AGI bei Erstnennung in § 3.3 erklärt. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Alle neuen Fließtext-Erwähnungen haben korrespondierende Einträge in § 11; Sanders-Titel verifiziert und Verifizierungshinweis entfernt. Der Vermerk zu de la Feria et al. 2022 bleibt erhalten. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-Stil in neuen Einträgen beibehalten; URLs vollständig; Datumsangaben „Monat YYYY". |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Korinek/Lockwood als NBER-Arbeitspapier / Brookings-Working-Paper direkt bei den Primärstellen verlinkt; Mensch-Vorschlag über Tech.eu / AI Business verlinkt; OECD Pillar 2 mit BMF-Primärquelle. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Zwei neue URLs stichprobenartig geprüft: NBER-Link zu WP 34873 liefert Abstract und PDF-Link; Tech.eu-Beitrag vom 20. März 2026 erreichbar; Sanders-PDF (HELP-Minderheitsbericht) über sanders.senate.gov erreichbar. Vorbestehende OpenAI-URL wurde in Validierung 1.0 → 2.0 geprüft und bleibt gültig. |
+| 2.4.5 Zitatgenauigkeit | OK | Mensch-Vorschlag 1–1,5 % und Kulturfonds-Zweck korrekt wiedergegeben; Korinek/Lockwood-Phasenlogik entspricht Abstract und Brookings-Zusammenfassung; Generationenkapital-Zahl 10 Mrd. Euro und Beitragssatz 0,2 Pp. entsprechen BMF-Monatsbericht und aktueller Projektbeschreibung. |
+| 2.4.6 Verifizierungsbedürftige Einträge | Bereinigt | Sanders-Titel vollständig verifiziert („The Big Tech Oligarchs' War Against Workers: AI and Automation"); Verifizierungsvermerk in § 11.3 entfernt. de la Feria et al. 2022 bleibt weiter als verifizierungsbedürftig markiert. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 5.0 in Dokumentkopf, `README.md` (Stand und Zitiervorschlag), `Claude.md` (Aktueller Stand), `build_pdf.py` und `build_docx.py` einheitlich. Lizenzhinweis am Dokumentende und in `README.md` erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine dedizierten Prüfskripte. Manuelle Stichproben gemäß § 2.6. |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler / Lücke | Maßnahme | Erledigt |
+|---|---|---|---|
+| 1 | Fehlender Forschungsstand Korinek/Lockwood (Januar 2026) | § 3.3 um eigenen Absatz ergänzt; Literatureintrag § 11.1 | Ja |
+| 2 | Fehlender Mensch/Mistral-Vorschlag (März 2026) | § 4.5 um eigenen Absatz ergänzt; Literatureintrag § 11.5 | Ja |
+| 3 | Sanders-Report ohne vollständigen Titel und ohne Moratorium-Kontext | § 4.5 Sanders-Absatz um AI Data Center Moratorium Act erweitert; § 11.3 Titel „The Big Tech Oligarchs' War Against Workers" verifiziert, Verifizierungsvermerk entfernt; zweiter Eintrag für Moratorium-Gesetzentwurf in § 11.3 | Ja |
+| 4 | Fehlende Position der Bundesregierung Merz (April 2026) | § 4.5 um eigenen Absatz zur deutschen Regierungslinie ergänzt; Literatureintrag § 11.3 | Ja |
+| 5 | Fehlende OECD-Pillar-2-Implementationsdaten Deutschland | § 4.4 um Absatz (Mindeststeuergesetz, BMF-Entwurfsverordnung, Frist 30. Juni 2026) ergänzt; Literatureintrag § 11.3 | Ja |
+| 6 | Fehlende DST-Updates 2025/26 (Italien, Österreich/Tschechien, Meta-Überwälzung) | § 4.4 um Absatz ergänzt; Literatureintrag § 11.5 (Euronews Jan. 2026) | Ja |
+| 7 | HDE-Position nicht abgebildet | § 4.2 Satz ergänzt; Literatureintrag § 11.3 | Ja |
+| 8 | Generationenkapital-Start 2026 nicht ausgewiesen | § 8.6 Satz ergänzt (10 Mrd. EUR, Erträge ab Mitte 2030er) | Ja |
+| 9 | IAB-Kurzfristprognose 2026 nicht verortet | § 11.5 um IAB-Prognose März 2026 ergänzt (keine Änderung am Fließtext von § 7/§ 8 nötig, da Langfristzahlen dort weiter tragen) | Ja |
+| 10 | Versionsanhebung 4.0 → 5.0 | Hauptdokument-Kopf, `README.md`, `Claude.md`, Build-Skripte, dieses Protokoll | Ja |
+
+### Nachprüfung
+
+- 2.1.1 / 2.1.2 / 2.1.3 / 2.1.4 nach Bereinigung: OK (Struktur/Nummerierung/Querverweise/Roter Faden stimmig)
+- 2.2.2 Redundanzprüfung nach Bereinigung: OK (keine Doppelung — OpenAI-Vorschlag, Mensch-Vorschlag, Merz-Position, Sanders-Vorstoß klar abgegrenzt)
+- 2.4.1 Vollständigkeit nach Bereinigung: OK (alle Fließtext-Nennungen mit Literatureinträgen)
+- 2.4.6 Verifizierungsbedürftige Einträge nach Bereinigung: OK (Sanders verifiziert; de la Feria bleibt markiert)
+- 2.5 Versionskonsistenz nach Bereinigung: OK (5.0 durchgängig)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Aktualisierungen eingearbeitet: Ja
+- Neue Version: 5.0
+- PDF erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.pdf`, via `build_pdf.py`)
+- Word erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.docx`, via `build_docx.py`)
+
+**Hinweis:** Die Aktualisierung hält die Grundarchitektur (11 Kapitel, Deutschland-These, Drei-Hebel-Modell) unverändert. Die Ergänzungen erweitern die Literatur- und Initiativen-Basis so, dass der Stand bis Mitte April 2026 abgebildet ist. Künftige Iterationen sollten, sobald verfügbar, die finale Fassung des Korinek/Lockwood-Kapitels im NBER-Band „The Economics of Transformative AI" nachtragen sowie die Umsetzung oder das Scheitern des Mensch-Vorschlags in der EU-Kommission verfolgen.

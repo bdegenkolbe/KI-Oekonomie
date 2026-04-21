@@ -9,7 +9,7 @@
 **Autor:** Björn Degenkolbe
 **Organisation:** HIGL – Health Innovators Group Leipzig
 **Stand:** April 2026
-**Version:** 4.0
+**Version:** 5.0
 
 ---
 
@@ -145,6 +145,8 @@ Für die politische Debatte ist das eine wichtige Einsicht: Selbst wenn man theo
 
 **Nakatani (2024):** „Optimal Taxation in the Automated Era" erweitert den Ansatz auf fiskalpolitische Nachhaltigkeit in automatisierten Ökonomien.
 
+**Korinek & Lockwood (2026):** Die bislang umfassendste Weiterentwicklung der Debatte über die Finanzierung des Staates in einer KI-geprägten Ökonomie liefern Anton Korinek und Lee M. Lockwood in „Public Finance in the Age of AI: A Primer" (NBER Working Paper 34873, Brookings-Arbeitspapier Januar 2026). Die Autoren unterscheiden zwei Phasen: In Phase 1 verdrängt KI zunehmend menschliche Arbeit, Menschen bleiben aber die primären Konsumenten — hier argumentieren sie für eine Verlagerung hin zur Konsumsteuer und warnen explizit davor, KI-Kapital in der Frühphase zu besteuern, weil dies den Infrastrukturaufbau verzerre. In Phase 2 (transformative AI / AGI-Szenarien) sinkt der Anteil menschlichen Konsums am Gesamtprodukt so weit ab, dass Konsumsteuern nicht mehr ausreichen; eine Besteuerung autonomer KI-Systeme wird dann als Optimierungsproblem formuliert, dessen Lösung von der intertemporalen Diskontierung der Gesellschaft abhängt. Staatsfonds und Windfall Clauses werden explizit als Instrumente diskutiert. Für die hier geführte Debatte ist das Papier relevant, weil es die Argumentation der Acemoglu-Linie (Kapital- und Konsumbesteuerung statt Arbeitsbesteuerung) mit einer expliziten Phasenlogik untermauert und zugleich die Grenzen spezifischer Roboter-/KI-Steuern im heutigen Stadium markiert.
+
 **Empirische Forschung:** Graetz & Michaels (Restat 2018) für 17 Länder, Dauth et al. für Deutschland, Acemoglu, Lelarge & Restrepo für Frankreich und Barth et al. für Norwegen liefern Mikrodaten zu den Arbeitsmarkteffekten von Industrierobotern.
 
 ### 3.4 Gegenposition: „Taxing Robots" (de la Feria et al. 2022)
@@ -189,7 +191,7 @@ In der deutschen Rechtsordnung gibt es gegenwärtig keine spezifische Steuer auf
 
 Ein strukturelles Problem: Die Abgabenlast auf menschliche Arbeit ist in Deutschland vergleichsweise hoch. Das IW Köln argumentiert, statt Kapitalinvestitionen stärker zu belasten, solle die Politik lieber den Faktor Arbeit entlasten — geringere Steuern und Abgaben schützten Arbeitsplätze in einer internationalen Wirtschaftswelt deutlich besser und langfristiger als eine Robotersteuer. Und wenn mehr Menschen Arbeit hätten und gut verdienten, erhalte der Staat höhere Steuereinnahmen.
 
-Diese Argumentation ist nicht unumstritten, weist aber auf ein reales Dilemma hin: Eine zusätzliche Belastung von Kapital in einer offenen Volkswirtschaft kann zu Kapitalabfluss und Verlagerung von Investitionen führen.
+Diese Argumentation ist nicht unumstritten, weist aber auf ein reales Dilemma hin: Eine zusätzliche Belastung von Kapital in einer offenen Volkswirtschaft kann zu Kapitalabfluss und Verlagerung von Investitionen führen. Auch Branchenverbände schließen sich dieser Linie an: Der Handelsverband Deutschland (HDE) warnt in einer Stellungnahme, eine KI-Steuer drohe technologische Innovationen auszubremsen und den Wirtschaftsstandort Deutschland zurückzuwerfen, statt den Einsatz künstlicher Intelligenz zu fördern. Im Zusammenspiel mit der IW-Köln-Position ergibt sich damit ein breites wirtschaftsnahes Ablehnungsfeld für eine spezifische KI- oder Robotersteuer im engeren Sinne — unabhängig davon, wie die strukturelle Finanzierungsfrage des Sozialstaats beantwortet wird.
 
 ### 4.3 Verfassungsrechtliche Fragen
 
@@ -207,13 +209,15 @@ Eine spezifische Robotersteuer wirft in Deutschland eine Reihe verfassungsrechtl
 
 Eine effektive Besteuerung von KI-Diensten setzt europäische Koordination voraus. Die Erfahrung mit der Digital Services Tax zeigt, wie schwierig die Abstimmung zwischen Mitgliedstaaten ist. Einzelne Staaten (Frankreich, Österreich, Italien, Spanien) haben nationale Digitalsteuern eingeführt, die auf EU-Ebene jedoch bislang nicht einheitlich geregelt sind.
 
-Die Two-Pillar-Reform der OECD (Organisation für wirtschaftliche Zusammenarbeit und Entwicklung; Pillar 1 zur Umverteilung von Besteuerungsrechten, Pillar 2 zur globalen Mindestbesteuerung von 15 %) schafft einen Rahmen, in dem große digitale Konzerne stärker besteuert werden können — allerdings nicht spezifisch für KI-Leistungen.
+Die Two-Pillar-Reform der OECD (Organisation für wirtschaftliche Zusammenarbeit und Entwicklung; Pillar 1 zur Umverteilung von Besteuerungsrechten, Pillar 2 zur globalen Mindestbesteuerung von 15 %) schafft einen Rahmen, in dem große digitale Konzerne stärker besteuert werden können — allerdings nicht spezifisch für KI-Leistungen. Deutschland hat mit dem am 23. Dezember 2025 verabschiedeten Gesetz zur Anpassung des Mindeststeuergesetzes den Administrative-Guidance-Stand vom Januar 2025 und die DAC9-Änderungen in nationales Recht übernommen; am 8. April 2026 veröffentlichte das Bundesfinanzministerium eine Entwurfsverordnung mit der Liste der Jurisdiktionen mit qualifizierendem Status für IIR, UTPR und QDMTT. Die erste Frist für Pillar-2-Erklärungen betroffener Konzerne in Deutschland ist der 30. Juni 2026. Damit verschiebt sich die internationale Koordinationsebene von einer zunehmend nur noch politisch-programmatischen auf eine operativ wirksame Stufe — mit Konsequenzen auch für die strategische Frage, ob ergänzende nationale Abgaben sinnvoll an diese Infrastruktur andocken oder sie stören würden.
+
+Innerhalb der EU-Digitalsteuern hat sich 2025/26 das Bild weiter differenziert: Italien hat zum Januar 2025 seine inländische Umsatzschwelle abgeschafft, sodass seither alle Unternehmen oberhalb der globalen Schwelle erfasst werden; Frankreich, Italien, Belgien, Lettland und Spanien erheben einen Satz von 3 %, Österreich und Tschechien einen Satz von 5 %. Meta hat angekündigt, ab dem 1. Juli 2026 länderspezifische Zuschläge von 2 bis 5 % auf Rechnungen an Werbetreibende in Großbritannien, Frankreich, Italien, Spanien, Österreich und der Türkei zu überwälzen — ein praxisrelevantes Beispiel dafür, dass Digitalabgaben ökonomisch schnell die Marktgegenseite erreichen, wenn das Instrument einseitig national gesetzt wird.
 
 Die Deutsche Bank weist darauf hin, dass manche die Digital Services Tax der EU, die statt einer traditionellen Robotersteuer eingeführt worden sei, zu den Automatisierungssteuern zählten. Dies ist eine funktionale, aber keine rechtlich präzise Einordnung.
 
 ### 4.5 Jüngste politische Initiativen
 
-**Sanders-Report (Oktober 2025):** US-Senator Bernie Sanders, ranghöchstes Mitglied im HELP-Ausschuss des US-Senats, veröffentlichte einen Bericht, der eine „Robotersteuer" für Unternehmen forderte, die KI einsetzen, um Arbeitsplätze zu ersetzen. Dies ist der bislang konkreteste politische Vorstoß auf US-Bundesebene.
+**Sanders-Report (Oktober 2025) und AI Data Center Moratorium Act (März 2026):** US-Senator Bernie Sanders, ranghöchstes Mitglied im HELP-Ausschuss des US-Senats, veröffentlichte einen Bericht, der eine „Robotersteuer" für Unternehmen forderte, die KI einsetzen, um Arbeitsplätze zu ersetzen. Dies ist der bislang konkreteste politische Vorstoß auf US-Bundesebene. Am 25. März 2026 legten Sanders und Rep. Alexandria Ocasio-Cortez den AI Data Center Moratorium Act vor, der ein befristetes Moratorium auf neue und modernisierte KI-Rechenzentren oberhalb definierter Stromlastschwellen vorsieht, solange keine bundesweiten Sicherheits- und Schutzregeln in Kraft sind. Der Entwurf gilt im Kongress derzeit als wenig aussichtsreich, verdeutlicht aber, dass die Debatte auf dem linken Flügel der Demokraten von der Steuerfrage auf eine breitere Infrastruktur- und Regulierungsfrage ausgeweitet wird.
 
 **OpenAI-Strategiepapier (April 2026):** Unter dem Titel „Industrial Policy for the Intelligence Age: Ideas to Keep People First" veröffentlichte OpenAI am 6. April 2026 ein 13-seitiges Strategiepapier. Es ist zweigeteilt in Vorschläge zum Aufbau einer offenen Wirtschaft und zum Aufbau einer widerstandsfähigen Gesellschaft. Relevant für die Besteuerungsdebatte sind vor allem drei der insgesamt zwanzig Vorschläge: eine Modernisierung der Steuerbasis mit expliziter Verlagerung von Lohn- auf Kapital- und Unternehmensbesteuerung sowie „Steuern im Zusammenhang mit automatisierter Arbeit", ein öffentlicher Wohlstandsfonds nach norwegischem Vorbild, der jedem Bürger einen Anteil am KI-getriebenen Wachstum verschaffen soll, und eine „Effizienzdividende", die Produktivitätsgewinne über Leistungspakete und eine 32-Stunden-Woche an Beschäftigte weitergibt.
 
@@ -222,6 +226,10 @@ OpenAI begründet diese Vorschläge historisch mit dem Verweis auf Progressive E
 Das Papier ist bemerkenswert, weil hier ein führender KI-Anbieter selbst die steuerliche Abschöpfung seines eigenen Geschäftsmodells zur Diskussion stellt. Es ist aber auch als Agenda-Setting-Instrument zu lesen: Eine Million Dollar API-Credits für Forschung an „diesen und verwandten politischen Ideen" schafft Pfadabhängigkeiten in der akademischen Debatte. Kritiker haben das Papier als „Regulatory Nihilism" bezeichnet, weil es großzügig klinge, aber keine konkreten Selbstverpflichtungen des Absenders enthalte — die Robotersteuer zahlten „Unternehmen, die Arbeit automatisieren", nicht spezifisch OpenAI selbst. Europa kommt in dem Papier weder als Partner noch als Modell vor; der Entwurf konzentriert sich explizit auf die USA.
 
 **Andrew Yang (CNBC-Interview, März 2026):** Yang argumentierte, wenn KI-Systeme menschliche Aufgaben ersetzen, solle man Arbeit nicht mehr besteuern. Stattdessen sollten Kapitalerträge und Unternehmensgewinne stärker belastet werden.
+
+**Arthur Mensch / Mistral (März 2026):** Bemerkenswert ist, dass der Vorstoß für eine europäische Abgabe erstmals aus der KI-Industrie selbst kommt: Arthur Mensch, Mitgründer und CEO des französischen KI-Anbieters Mistral, forderte in einem Gastbeitrag in der Financial Times vom 20. März 2026 eine EU-weite umsatzbasierte Abgabe auf kommerzielle KI-Anbieter. Vorgeschlagen wird ein Satz von 1 bis 1,5 Prozent auf die EU-Umsätze aller Anbieter, die KI-Modelle in Europa in Verkehr bringen — unabhängig vom Sitz des Anbieters. Das Aufkommen solle in einen europäischen Kulturfonds fließen, der Urheber und Inhalte-Produzenten entschädigt, deren Material zum Training der Modelle genutzt wurde. Die Konstruktion ist enger als eine Robotersteuer (sie knüpft an der Trainingsdaten-Problematik an, nicht an der Beschäftigungs-Substitution), demonstriert aber, dass die Logik einer KI-spezifischen Umsatzabgabe jenseits der OpenAI-Linie in der Branche diskutiert wird. Für die deutsche Debatte ist der Vorschlag vor allem als Hinweis relevant, dass eine EU-weite Abgabe auf KI-Dienste technisch als umsatzbasierter Zuschlag gedacht werden kann, der nicht an die Definition von „Robotern" oder „Ersatz menschlicher Arbeit" anknüpfen muss.
+
+**Deutsche Bundesregierung / Merz (April 2026):** Auf deutscher Seite setzt die im Mai 2025 angetretene Bundesregierung unter Bundeskanzler Friedrich Merz bei KI primär auf einen industriepolitischen Entlastungskurs. In seiner Eröffnungsrede zur Hannover Messe im April 2026 forderte Merz, europäische Regeln für industrielle KI-Anwendungen zu lockern und industrielle KI aus dem „zu engen Korsett" der EU-Regulierung herauszulösen. Eine spezifische KI- oder Robotersteuer ist in der Koalitionsvereinbarung nicht vorgesehen; Deutschland soll stattdessen zur „führenden KI-Nation" werden. Für die steuerpolitische Debatte bedeutet das: Der Impuls kommt in Deutschland auf absehbare Zeit nicht aus der Regierungskoalition, sondern aus der wissenschaftlichen, sozialstaatlichen und europäischen Debatte.
 
 ---
 
@@ -436,7 +444,7 @@ Die These hat eine Reihe konkreter Implikationen für die Politikgestaltung:
 
 **Für die Industriepolitik:** Die Veredelungsstrategie verlangt massive Investitionen in Datenqualität, Dateninfrastruktur und domänenspezifische KI-Entwicklung. Deutsche Stärken — Ingenieurkompetenz, vertikale Branchenexpertise, Datenbestände in regulierten Sektoren wie Gesundheit, Mobilität, Industrieproduktion — müssen systematisch in Wert gesetzt werden. Die EU-weite Datensouveränitätsdebatte und regulatorische Rahmen wie der AI Act werden dabei zu strategischen Standortfaktoren.
 
-**Für die Sozialpolitik:** Die Teilhabekomponente erfordert eine politische Kraftanstrengung, die über die bisherige Reformdebatte hinausgeht. Ein deutscher oder europäischer Staatsfonds nach norwegischem Vorbild ist institutionell nicht vorhanden; seine Konstruktion würde Jahre beanspruchen. Übergangsweise kommen hybride Modelle in Betracht — etwa eine zweckgebundene Kapitalkomponente in der gesetzlichen Rentenversicherung, die bereits 2024 in Deutschland mit der „Generationenkapital"-Initiative angelegt wurde.
+**Für die Sozialpolitik:** Die Teilhabekomponente erfordert eine politische Kraftanstrengung, die über die bisherige Reformdebatte hinausgeht. Ein deutscher oder europäischer Staatsfonds nach norwegischem Vorbild ist institutionell nicht vorhanden; seine Konstruktion würde Jahre beanspruchen. Übergangsweise kommen hybride Modelle in Betracht — etwa eine zweckgebundene Kapitalkomponente in der gesetzlichen Rentenversicherung, die bereits 2024 in Deutschland mit der „Generationenkapital"-Initiative angelegt und zum Januar 2026 mit einem ersten Kapitalstock von 10 Mrd. Euro aus Bundesmitteln operativ gestartet wurde; Erträge sollen ab etwa Mitte der 2030er-Jahre zur Stabilisierung des Rentenbeitragssatzes beitragen. Diese Konstruktion ist kein KI-spezifischer Teilhabefonds, aber der institutionelle Anknüpfungspunkt, an den eine KI-bezogene Zweckkomponente später andocken könnte.
 
 **Für die Bildungs- und Arbeitsmarktpolitik:** Die Veredelungsstrategie setzt eine Workforce voraus, die mit KI produktiv umgehen kann. Die Umbrüche, die das IAB für die nächsten 15 Jahre prognostiziert, erfordern eine Re-Qualifizierungsoffensive in Größenordnungen, die über den bisherigen Weiterbildungsstand hinausgehen.
 
@@ -571,6 +579,8 @@ Graetz, G., & Michaels, G. (2018). Robots at Work. *Review of Economics and Stat
 
 Guerreiro, J., Rebelo, S., & Teles, P. (2022). Should Robots be Taxed? *Review of Economic Studies*, 89(1), 279-311.
 
+Korinek, A., & Lockwood, L. M. (Januar 2026). *Public Finance in the Age of AI: A Primer.* NBER Working Paper 34873; zugleich Brookings Working Paper. Forthcoming in: The Economics of Transformative AI (NBER Volume). https://www.nber.org/papers/w34873 | https://www.brookings.edu/articles/public-finance-age-ai-primer/
+
 Nakatani, R. (2024). Optimal Taxation in the Automated Era. MPRA Paper 121347, University Library of Munich.
 
 Thuemmel, U. (2023). Optimal Taxation of Robots. *Journal of the European Economic Association*, 21(3), 1154-1190.
@@ -605,7 +615,15 @@ Institut der deutschen Wirtschaft (IW) Köln. Sollen Roboter Steuern zahlen? Bei
 
 OpenAI. (6. April 2026). *Industrial Policy for the Intelligence Age: Ideas to Keep People First.* 13 Seiten. Landingpage: https://openai.com/index/industrial-policy-for-the-intelligence-age/ | PDF: https://cdn.openai.com/pdf/561e7512-253e-424b-9734-ef4098440601/Industrial%20Policy%20for%20the%20Intelligence%20Age.pdf
 
-Sanders, B. (Oktober 2025). Bericht zur Robotersteuer / KI-Abgabe. US-Senat, Committee on Health, Education, Labor and Pensions (HELP), Minderheitsbericht. Vollständige Titelangabe zu verifizieren.
+Sanders, B. (Oktober 2025). *The Big Tech Oligarchs' War Against Workers: AI and Automation.* US-Senat, Committee on Health, Education, Labor and Pensions (HELP), Minderheitsbericht. https://www.sanders.senate.gov/wp-content/uploads/10.6.2025-The-Big-Tech-Oligarchs-War-Against-Workers.pdf
+
+Sanders, B., & Ocasio-Cortez, A. (25. März 2026). *AI Data Center Moratorium Act.* Pressemitteilung und Gesetzentwurf. https://www.sanders.senate.gov/press-releases/news-sanders-ocasio-cortez-announce-ai-data-center-moratorium-act/
+
+Bundeskanzler Friedrich Merz. (April 2026). Eröffnungsrede zur Hannover Messe. Positionierung zu europäischer KI-Regulierung und industrieller KI. Bundesregierung / Pressemitteilung.
+
+Bundesministerium der Finanzen (BMF). (8. April 2026). Entwurfsverordnung zu Jurisdiktionen mit qualifizierendem Status für IIR, UTPR und QDMTT nach dem Mindeststeuergesetz.
+
+Handelsverband Deutschland (HDE). (2026). Stellungnahme zur KI-Steuer: Neue Technologien nicht ausbremsen, sondern fördern.
 
 Springer Gabler Verlag. Gabler Wirtschaftslexikon, Stichwort: Robotersteuer.
 
@@ -630,6 +648,16 @@ Robotik und Produktion. (Dezember 2023). Keine Steuererklärung für Roboter.
 Euractiv. (2017). Robotik-Bericht: Nein zum bedingungslosen Grundeinkommen.
 
 Yang, A. (März 2026). Interview zur KI-Besteuerung. CNBC.
+
+Mensch, A. (20. März 2026). Gastbeitrag zur europäischen KI-Abgabe. *Financial Times*; Zusammenfassungen u. a. Tech.eu, AI Business, IT Pro, April 2026. https://tech.eu/2026/03/20/ai-model-giants-should-pay-a-levy-to-operate-in-europe-says-mistral-boss/
+
+Fortune. (April 2026). How people are reacting to OpenAI's 13-page policy paper on AI superintelligence — Kritik „Regulatory Nihilism". https://fortune.com/2026/04/06/sam-altman-says-ai-superintelligence-is-so-big-that-we-need-a-new-deal-critics-say-openais-policy-ideas-are-a-cover-for-regulatory-nihilism/
+
+Tech Policy Press. (April 2026). OpenAI's New „Industrial Policy for the Intelligence Age" is a Policymercial. https://www.techpolicy.press/openais-new-industrial-policy-for-the-intelligence-age-is-a-policymercial/
+
+Euronews. (27. Januar 2026). Taxing tech: How do digital services levies differ across Europe?
+
+IAB. (März 2026). Prognose für 2026: Sozialversicherungspflichtige Beschäftigung schrumpft erstmals seit 2009 leicht; Transformationskrise und Demografie überlagern KI-Effekte. https://iab.de/presseinfo/iab-prognose-fuer-2026-fiskalpolitischer-rueckenwind-trifft-auf-geopolitischen-gegenwind/
 
 ---
 
