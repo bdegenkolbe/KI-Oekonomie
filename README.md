@@ -4,7 +4,7 @@
 
 Autor: Björn Degenkolbe
 Stand: April 2026
-Version: 4.0
+Version: 5.0
 
 ---
 
@@ -33,7 +33,7 @@ Dieses Arbeitspapier steht unter der [Creative-Commons-Lizenz CC BY 4.0](https:/
 
 ## Entstehung und KI-Offenlegung
 
-These, Struktur, Bewertungen und politische Positionierung stammen vom Autor. Die Recherche- und Schreibarbeit entstand im Dialog mit **Claude (Anthropic)**. Quellen sind im Literaturverzeichnis (Kapitel 11) dokumentiert; zwei Literatureinträge sind als verifizierungsbedürftig markiert.
+These, Struktur, Bewertungen und politische Positionierung stammen vom Autor. Die Recherche- und Schreibarbeit entstand im Dialog mit **Claude (Anthropic)**. Quellen sind im Literaturverzeichnis (Kapitel 11) dokumentiert. Die Titelangabe des Sanders-Reports (Oktober 2025) wurde mit Version 5.0 vollständig verifiziert; eine Einzelangabe (de la Feria et al. 2022) bleibt als verifizierungsbedürftig markiert.
 
 ## Aktualisierung
 
@@ -41,7 +41,7 @@ Das Papier gibt den Stand April 2026 wieder. Für Anmerkungen, Korrekturen oder 
 
 ## Zitiervorschlag
 
-> Degenkolbe, B. (2026). *Die Besteuerung von Künstlicher Intelligenz und Robotik als Ersatz menschlicher Arbeit — Ökonomische, rechtliche und sozialpolitische Perspektiven.* Arbeitspapier, Version 4.0, April 2026.
+> Degenkolbe, B. (2026). *Die Besteuerung von Künstlicher Intelligenz und Robotik als Ersatz menschlicher Arbeit — Ökonomische, rechtliche und sozialpolitische Perspektiven.* Arbeitspapier, Version 5.0, April 2026.
 
 ---
 
