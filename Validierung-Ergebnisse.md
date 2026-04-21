@@ -245,3 +245,76 @@ Anschluss an eine externe (polemisch formulierte) Kritik an staatlichem Vertraue
 - Neue Version: 5.0
 - PDF erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.pdf` via `build_pdf.py`)
 - Word erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.docx` via `build_docx.py`)
+
+---
+
+## Validierung 21. April 2026 — Version 5.0 → Version 6.0
+
+**Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers (KI-Besteuerung, Wertschöpfungsabgabe, EU AI Act, OpenAI-Policy, Sanders-Report, Generationenkapital, IAB, OECD Pillar 2). Einarbeitung von sechs belegbaren Neuigkeiten aus dem Zeitraum Dezember 2025 bis April 2026. Alle Neuerungen wurden gegen den vorhandenen Bestand abgeglichen; eine inhaltliche Dopplung mit bereits referenzierten Quellen wurde vermieden (Sanders-Report, OpenAI-Papier, Falk/Tsoukalas, IAB-Prognose, Generationenkapital-Startphase, EU-AI-Act-Anwendbarkeit, Altman-Anschlag-Grundvorfall).
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | Q1-2026-Tech-Layoffs: ~78.500 Stellen, ~48 % KI-attribuiert; parallel 92 % Anstieg KI-bezogener Stellenausschreibungen | § 1.1 (Ergänzung im Ausgangslagen-Absatz) | Empirische Aktualisierung des Substitutions-/Umbau-Arguments; keine Dopplung zu bereits referenzierter IAB-Langfristprognose |
+| 2 | Anthropic Economic Index 2026 (tatsächliche KI-Nutzungsdaten): keine klaren Arbeitslosigkeitseffekte aggregat; frühe Struktureffekte bei Einsteigerpositionen | § 3.5 (Ergänzung zwischen Acemoglu 2024 und szenariorobuster Politikempfehlung) | Komplementäres Gegengewicht zu Disruptionsnarrativen; stärkt die szenariorobuste Auslegungslogik |
+| 3 | OECD Pillar-2-Side-by-Side-Paket (Januar 2026) mit neuen Safe-Harbor-Regelungen und aktualisiertem zentralem Rechtsaktenkatalog | § 4.4 | Aktuelle Verankerung des internationalen Koordinationsrahmens; relevant für § 9.5 Stufe 3 |
+| 4 | No Robot Bosses Act (H.R. 6371, Bonamici et al., 3. Dezember 2025): arbeitsrechtliche Aufsichts- und Transparenzpflichten bei algorithmischen Beschäftigungsentscheidungen | § 4.5 (eigener Absatz nach Yang) | Komplementäre politische Reaktionslinie (arbeitsrechtlich statt fiskalisch); greift dieselbe Definitionsfrage wie Typ-5-Abgabe auf |
+| 5 | Kommission zur Sozialstaatsreform (KSR, 26 Empfehlungen, 27. Januar 2026) + Alterssicherungskommission (ASK, ab 7. Januar 2026) mit ausdrücklichem Prüfauftrag „Einbeziehung weiterer Einkommensarten" | § 5.2 (neuer Absatz „Aktueller Reformprozess"), Querverweis in § 8.6 | Erstmals formaler Regierungsauftrag zur Bürgerversicherung-Kernidee; öffnet politisches Gelegenheitsfenster |
+| 6 | Altman-Anschlag Konkretisierung: Tatverdächtiger Daniel Moreno-Gama (20 J., Houston), Vorwürfe versuchter Mord und Brandstiftung; Liste von KI-Führungskräften und Investoren; zweiter Vorfall am 12. April 2026 | § 8.4 (bestehender Absatz erweitert) | Aktualisierung des Systemstabilitäts-Beispiels mit belegbaren Tatsachen; keine Skandalisierung |
+
+Nicht aufgenommen (bewusste Auslassungen):
+- Sam-Altman/Vinod-Khosla-Folgeinterview (Fortune, 7. April 2026): inhaltlich kein Zusatz gegenüber dem OpenAI-Papier.
+- OpenAI-Mai-Workshop und Finanzierungsrahmen: bereits in § 4.5 abgebildet.
+- EU AI Liability Directive-Rückzug (Februar 2025): liegt vor dem Berichtszeitraum und berührt die Steuerargumentation nicht unmittelbar.
+- Anthropic-Index als eigenständige Primärquelle mit Sub-Indikatoren: eine einzige Kurzaussage in § 3.5 ist ausreichend; eine weitere Vertiefung würde die szenariorobuste Kernlinie überfrachten.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Inhaltsverzeichnis und Kapitelstruktur (11 Kapitel plus Zusammenfassung) unverändert; keine leeren Abschnitte; Deutschland-These in der Zusammenfassung referenziert. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte 1.1–11.5 konsistent; fünf Robotersteuer-Typen, drei Hebel, sieben Empfehlungen stimmen mit Referenzangaben überein. |
+| 2.1.3 Querverweise | OK | Neue Querverweise (§ 5.2 → § 5.1; § 8.6 → § 5.2) funktionieren; bestehende Anker unverändert. |
+| 2.1.4 Roter Faden | OK | Neue Einfügungen ordnen sich in die Progression Literatur → Instrument → These → Umsetzung ein, ohne die Architektur zu verschieben. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; Fett/Kursiv konsistent; Lead-Ins (§ 5.2 „Aktueller Reformprozess"; § 4.5 „No Robot Bosses Act") einheitlich; Tabellen unverändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Alle neuen Zahlen und Fakten belegbar: Q1-2026-Layoff-Zahlen (Tom's Hardware / TechRadar); OECD Side-by-Side (OECD-Pressemitteilung Dezember 2025); KSR (Bundesregierung); ASK (BMAS); Moreno-Gama-Anklage (CNN, Fortune, NPR); H.R. 6371 (Congress.gov). |
+| 2.2.2 Redundanzprüfung | OK | Generationenkapital-Bezug bleibt auf § 8.6 konzentriert (Kurzerwähnung in § 5.4 unverändert); Bürgerversicherungs-Reformprozess ist neu, keine Dopplung mit § 5.1 Operationalisierung; Altman-Anschlag bleibt in § 8.4 konzentriert; keine Neuerzählung in § 4.5 oder § 10. |
+| 2.2.3 Argumentation | OK | Anthropic-Index ist ausdrücklich als *komplementär* zu Acemoglu 2024 eingeführt, nicht widersprüchlich; No Robot Bosses Act als komplementärer Pfad (arbeitsrechtlich statt fiskalisch), Abgrenzung zu Typ-5-Abgabe explizit; Reformprozess 2026 als politisches Gelegenheitsfenster für die Drei-Hebel-These kontextualisiert, nicht als Ersatz. |
+| 2.2.4 Ausgewogenheit | OK | Q1-Layoff-Zahlen werden ohne Skandalisierung referiert; Anthropic-Index wird nicht als Entwarnung missbraucht (Einschränkung „frühe Struktureffekte erkennbar" bleibt stehen); Moreno-Gama-Anklage wird sachlich in den Systemstabilitäts-Kontext eingeordnet, ohne Generalisierungen. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe der neuen Absätze ohne Befund. |
+| 2.3.2 Terminologie | OK | Neue Begriffe im Kontext erklärt: „Safe-Harbor-Regelungen", „zentraler Rechtsaktenkatalog", „No Robot Bosses Act", „Alterssicherungskommission (ASK)", „Kommission zur Sozialstaatsreform (KSR)". Abkürzungen ASK und KSR bei Erstnennung ausgeschrieben. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neue Einträge vollständig zugeordnet: Anthropic Economic Index in § 11.1; BMAS-Rentenkommission, Bundesregierung-KSR, OECD-Pressemitteilung, H.R. 6371 in § 11.3; CNN, Fortune, Tom's Hardware in § 11.5. Keine neuen Fließtext-Referenzen ohne Eintrag. |
+| 2.4.2 Formale Einheitlichkeit | OK | Alle neuen Einträge APA-nah mit vollständigen URLs und Datumsangabe im Format „Monat YYYY"; keine URL-Shortener. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen (Congress.gov, Bundesregierung, OECD, BMAS) für institutionelle Aussagen; redaktionell unabhängige Mehrfachbelege (NPR, CNN, Fortune, Washington Post) für den Altman-Anschlag; Q1-Layoff-Zahlen mit konsistenten Zahlenangaben über Tom's Hardware, TechRadar und TweakTown. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 21. April 2026: sanders.senate.gov (unverändert gültig); oecd.org Pressemitteilung Dezember 2025 erreichbar; congress.gov H.R. 6371 erreichbar; bmas.de Rentenkommission-Seite erreichbar; bundesregierung.de KSR-Bericht erreichbar; anthropic.com Economic-Index-Landingpage erreichbar. |
+| 2.4.5 Zitatgenauigkeit | OK | Q1-Layoff-Zahl („~78.500", „~48 %") und Nachfrage-Anstieg bei KI-Jobs korrespondieren mit der Branchenauswertung; Moreno-Gama-Angaben (Alter, Herkunft, Charges) entsprechen CNN/Fortune-Berichterstattung; OECD-Datum (1. Dezember 2025 für zentralen Rechtsaktenkatalog) korrekt aus Administrative Guidance übernommen. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Verbleibt nur de la Feria et al. 2022 als verifizierungsbedürftig markiert; alle Neuzugänge verifiziert und mit URL belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 6.0 durchgängig: Dokumentkopf, `README.md` (zweimal: Versionszeile und Zitiervorschlag), `Claude.md` (Stand-Angabe), `build_pdf.py` (zwei Stellen), `build_docx.py` (zwei Stellen), Protokolleintrag. Haftungshinweis und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| 1 | `build_pdf.py` Z. 52 und Z. 342; `build_docx.py` Z. 36 und Z. 277 | Versionsstring stand noch auf „Version 4.0" (nicht in Validierung 19. April 2026 auf 5.0 nachgezogen). | Gering |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| 1 | Build-Skript-Version | `DOC_VERSION` und sichtbare Versionszeile in `build_pdf.py` und `build_docx.py` auf „Version 6.0" aktualisiert (vier Stellen). | Ja |
+
+### Nachprüfung
+
+- 2.1.1 – 2.1.5 nach Einarbeitung: OK
+- 2.4.1, 2.4.2, 2.4.3 nach Ergänzung um Literaturnachweise: OK
+- 2.5 Versionskonsistenz nach Bereinigung: OK (6.0 durchgängig in allen sechs Ankerpunkten)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 6.0
+- PDF erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.pdf` via `build_pdf.py`)
+- Word erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.docx` via `build_docx.py`)
