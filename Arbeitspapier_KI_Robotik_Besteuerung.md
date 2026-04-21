@@ -9,7 +9,7 @@
 **Autor:** Björn Degenkolbe
 **Organisation:** HIGL – Health Innovators Group Leipzig
 **Stand:** April 2026
-**Version:** 4.0
+**Version:** 5.0
 
 ---
 
@@ -63,7 +63,7 @@ Das vorliegende Papier strukturiert die Debatte in drei Dimensionen:
 
 ### 1.3 Vorgehen und Quellen
 
-Das Papier wertet die aktuelle wissenschaftliche Literatur (insbesondere Brookings, NBER — National Bureau of Economic Research, JEEA — Journal of the European Economic Association), Stellungnahmen von Institutionen (EU-Parlament, IAB, IW Köln, BMAS — Bundesministerium für Arbeit und Soziales, Gabler Wirtschaftslexikon, bpb — Bundeszentrale für politische Bildung) sowie jüngste Politikpapiere (OpenAI April 2026, Sanders-Report Oktober 2025) aus. Die Recherche hat einen Stand von April 2026. Ein Schwerpunkt liegt auf der Einordnung für den deutschen Kontext — insbesondere mit Blick auf die Finanzierung der sozialen Sicherungssysteme und die Situation im Gesundheitswesen.
+Das Papier wertet die aktuelle wissenschaftliche Literatur (insbesondere Brookings, NBER — National Bureau of Economic Research, JEEA — Journal of the European Economic Association), Stellungnahmen von Institutionen (EU-Parlament, IAB, IW Köln, BMAS — Bundesministerium für Arbeit und Soziales, Gabler Wirtschaftslexikon, bpb — Bundeszentrale für politische Bildung, Wissenschaftliche Dienste des Deutschen Bundestages) sowie jüngste Politikpapiere (OpenAI April 2026, Sanders-Report Oktober 2025, OECD Pillar-Two-„Side-by-Side"-Guidance Januar 2026) aus. Die Recherche hat einen Stand von April 2026. Ein Schwerpunkt liegt auf der Einordnung für den deutschen Kontext — insbesondere mit Blick auf die Finanzierung der sozialen Sicherungssysteme und die Situation im Gesundheitswesen.
 
 ---
 
@@ -191,6 +191,8 @@ Ein strukturelles Problem: Die Abgabenlast auf menschliche Arbeit ist in Deutsch
 
 Diese Argumentation ist nicht unumstritten, weist aber auf ein reales Dilemma hin: Eine zusätzliche Belastung von Kapital in einer offenen Volkswirtschaft kann zu Kapitalabfluss und Verlagerung von Investitionen führen.
 
+Die Wissenschaftlichen Dienste des Deutschen Bundestages haben den aktuellen Diskussionsstand in einer Kurzinformation (WD 4 – 3000 – 040/25, 4. September 2025) aufgearbeitet: „Aspekte einer Wertschöpfungsabgabe bzw. -steuer, die über die Finanzierung der Sozialversicherungssysteme hinausgehen". Das Papier skizziert verschiedene denkbare Bemessungsgrundlagen für eine Robotersteuer — darunter ein fiktiv zugerechneter Lohn für die von einer Maschine verrichtete Arbeit analog zu einem menschlichen Beschäftigten sowie eine objekt- oder besitzbezogene Steuer auf Roboter — und diskutiert sie im Zusammenhang mit der Wertschöpfungsabgabe und den OECD-Reforminitiativen. Die Ausarbeitung ist politisch neutral angelegt, dokumentiert aber, dass die Idee im parlamentarischen Betrieb wieder ernsthaft referenziert wird.
+
 ### 4.3 Verfassungsrechtliche Fragen
 
 Eine spezifische Robotersteuer wirft in Deutschland eine Reihe verfassungsrechtlicher Fragen auf:
@@ -207,19 +209,21 @@ Eine spezifische Robotersteuer wirft in Deutschland eine Reihe verfassungsrechtl
 
 Eine effektive Besteuerung von KI-Diensten setzt europäische Koordination voraus. Die Erfahrung mit der Digital Services Tax zeigt, wie schwierig die Abstimmung zwischen Mitgliedstaaten ist. Einzelne Staaten (Frankreich, Österreich, Italien, Spanien) haben nationale Digitalsteuern eingeführt, die auf EU-Ebene jedoch bislang nicht einheitlich geregelt sind.
 
-Die Two-Pillar-Reform der OECD (Organisation für wirtschaftliche Zusammenarbeit und Entwicklung; Pillar 1 zur Umverteilung von Besteuerungsrechten, Pillar 2 zur globalen Mindestbesteuerung von 15 %) schafft einen Rahmen, in dem große digitale Konzerne stärker besteuert werden können — allerdings nicht spezifisch für KI-Leistungen.
+Die Two-Pillar-Reform der OECD (Organisation für wirtschaftliche Zusammenarbeit und Entwicklung; Pillar 1 zur Umverteilung von Besteuerungsrechten, Pillar 2 zur globalen Mindestbesteuerung von 15 %) schafft einen Rahmen, in dem große digitale Konzerne stärker besteuert werden können — allerdings nicht spezifisch für KI-Leistungen. Am 5. Januar 2026 hat die OECD im Inclusive Framework ein ergänzendes „Side-by-Side"-Paket veröffentlicht, nach dem US-gemutterte multinationale Konzerne unter bestimmten Voraussetzungen von der Undertaxed Profits Rule (UTPR) und der Income Inclusion Rule (IIR) des Pillar 2 ausgenommen werden; Qualifizierte inländische Mindeststeuern (Qualified Domestic Minimum Top-Up Taxes, QDMTT) bleiben dagegen anwendbar. Die USA waren zum Stand April 2026 die bislang einzige Jurisdiktion, die das OECD-Sekretariat auf der sogenannten Central-Record-Liste geführt hat. Für die europäische KI-Besteuerungsdebatte bedeutet dieser Schritt eine spürbare Verengung des fiskalischen Zugriffs auf die US-dominierten Anbieter von KI-Basismodellen — das in Kapitel 8 diskutierte Rohstoff-Analogon wird damit sichtbarer, nicht schwächer.
+
+Auf der regulatorischen Seite tritt die EU-KI-Verordnung (AI Act) am 2. August 2026 in wesentlichen Teilen in vollen Wirkbetrieb: Die Pflichten für Hochrisiko-KI-Systeme gemäß Anhang III, die Transparenz- und Kennzeichnungspflichten für generative Systeme sowie die nationalen Aufsichtsstrukturen werden ab diesem Datum verbindlich. Für Anbieter von General-Purpose-AI-Modellen, die bereits seit 2. August 2025 regulatorische Pflichten haben, wurden Bestandsmodelle mit einer Übergangsfrist bis 2. August 2027 versehen. Der AI Act ist kein Steuerinstrument, bildet aber zusammen mit dem Data Governance Act, dem European Health Data Space (EHDS) und der Digital Services Tax das regulatorische Ökosystem, in das sich eine KI-bezogene Abgabelogik einpassen müsste.
 
 Die Deutsche Bank weist darauf hin, dass manche die Digital Services Tax der EU, die statt einer traditionellen Robotersteuer eingeführt worden sei, zu den Automatisierungssteuern zählten. Dies ist eine funktionale, aber keine rechtlich präzise Einordnung.
 
 ### 4.5 Jüngste politische Initiativen
 
-**Sanders-Report (Oktober 2025):** US-Senator Bernie Sanders, ranghöchstes Mitglied im HELP-Ausschuss des US-Senats, veröffentlichte einen Bericht, der eine „Robotersteuer" für Unternehmen forderte, die KI einsetzen, um Arbeitsplätze zu ersetzen. Dies ist der bislang konkreteste politische Vorstoß auf US-Bundesebene.
+**Sanders-Report „The Big Tech Oligarchs' War Against Workers" (6. Oktober 2025):** US-Senator Bernie Sanders, ranghöchstes Mitglied im HELP-Ausschuss (Committee on Health, Education, Labor and Pensions) des US-Senats, veröffentlichte gemeinsam mit dem Minderheitsstab des Ausschusses einen 30-seitigen Bericht, der eine „Robotersteuer" für Unternehmen fordert, die KI einsetzen, um Arbeitsplätze zu ersetzen. Der Bericht stützt sich auf eine ChatGPT-gestützte Modellrechnung und kommt zu dem Ergebnis, dass KI und Automatisierung in den kommenden zehn Jahren bis zu rund 97 Millionen US-Arbeitsplätze substituieren könnten; als besonders betroffen werden u. a. 89 % der Fast-Food- und Counter-Beschäftigten, 64 % der Buchhalter und 47 % der Fernfahrer genannt. Ergänzend fordert der Bericht eine 32-Stunden-Woche bei vollem Lohnausgleich, einen bundesstaatlichen Mindestlohn von 17 US-Dollar, eine Beteiligung der Beschäftigten an automatisierten Unternehmen und ein Verbot von Aktienrückkäufen. Dies ist der bislang konkreteste politische Vorstoß auf US-Bundesebene. Die Methodik ist in der Fachpresse (u. a. Tax Notes vom 20. Oktober 2025, American Enterprise Institute) kritisch kommentiert worden: Kritiker bemängelten die ChatGPT-basierte Schätzung als nicht belastbar und die Definition eines „Roboters" als zu unscharf, um eine operationalisierbare Bemessungsgrundlage zu stützen. Die substanzielle politische Forderung — Verschiebung der Steuerlast von Arbeit auf automatisierendes Kapital — bleibt davon unberührt.
 
 **OpenAI-Strategiepapier (April 2026):** Unter dem Titel „Industrial Policy for the Intelligence Age: Ideas to Keep People First" veröffentlichte OpenAI am 6. April 2026 ein 13-seitiges Strategiepapier. Es ist zweigeteilt in Vorschläge zum Aufbau einer offenen Wirtschaft und zum Aufbau einer widerstandsfähigen Gesellschaft. Relevant für die Besteuerungsdebatte sind vor allem drei der insgesamt zwanzig Vorschläge: eine Modernisierung der Steuerbasis mit expliziter Verlagerung von Lohn- auf Kapital- und Unternehmensbesteuerung sowie „Steuern im Zusammenhang mit automatisierter Arbeit", ein öffentlicher Wohlstandsfonds nach norwegischem Vorbild, der jedem Bürger einen Anteil am KI-getriebenen Wachstum verschaffen soll, und eine „Effizienzdividende", die Produktivitätsgewinne über Leistungspakete und eine 32-Stunden-Woche an Beschäftigte weitergibt.
 
 OpenAI begründet diese Vorschläge historisch mit dem Verweis auf Progressive Era und New Deal und formuliert explizit, dass „die Institutionen und sozialen Sicherungen, die diesen Übergang bewältigen müssen", ohne aktive Politikgestaltung „zurückbleiben" könnten. Zur Umsetzung kündigt OpenAI bis zu 100.000 US-Dollar Forschungsstipendien und bis zu 1 Million US-Dollar API-Credits für politiknahe Forschung an, ergänzt um einen Workshop im Mai 2026 und ein neues OpenAI-Büro in Washington, D.C.
 
-Das Papier ist bemerkenswert, weil hier ein führender KI-Anbieter selbst die steuerliche Abschöpfung seines eigenen Geschäftsmodells zur Diskussion stellt. Es ist aber auch als Agenda-Setting-Instrument zu lesen: Eine Million Dollar API-Credits für Forschung an „diesen und verwandten politischen Ideen" schafft Pfadabhängigkeiten in der akademischen Debatte. Kritiker haben das Papier als „Regulatory Nihilism" bezeichnet, weil es großzügig klinge, aber keine konkreten Selbstverpflichtungen des Absenders enthalte — die Robotersteuer zahlten „Unternehmen, die Arbeit automatisieren", nicht spezifisch OpenAI selbst. Europa kommt in dem Papier weder als Partner noch als Modell vor; der Entwurf konzentriert sich explizit auf die USA.
+Das Papier ist bemerkenswert, weil hier ein führender KI-Anbieter selbst die steuerliche Abschöpfung seines eigenen Geschäftsmodells zur Diskussion stellt. Es ist aber auch als Agenda-Setting-Instrument zu lesen: Eine Million Dollar API-Credits für Forschung an „diesen und verwandten politischen Ideen" schafft Pfadabhängigkeiten in der akademischen Debatte. Kritiker haben das Papier als „Regulatory Nihilism" bezeichnet, weil es großzügig klinge, aber keine konkreten Selbstverpflichtungen des Absenders enthalte — die Robotersteuer zahlten „Unternehmen, die Arbeit automatisieren", nicht spezifisch OpenAI selbst. Eryk Salvaggio hat das Dokument in Tech Policy Press als „Policymercial" bezeichnet — Marketingtext in Gestalt eines Politikvorschlags — und darauf hingewiesen, dass OpenAI in anderen Kontexten (EU AI Act, kalifornische SB 1047) aktiv gegen vergleichbare Regulierung lobbyiert hat. Anton Leicht ergänzte in einer Fortune-Analyse vom 6. April 2026, die vorgeschlagenen Reformen seien politisch so voraussetzungsreich, dass sie eher an ein „Silicon-Valley-Gedankenexperiment" als an umsetzungsfähige Gesetzgebung erinnerten. Europa kommt in dem Papier weder als Partner noch als Modell vor; der Entwurf konzentriert sich explizit auf die USA.
 
 **Andrew Yang (CNBC-Interview, März 2026):** Yang argumentierte, wenn KI-Systeme menschliche Aufgaben ersetzen, solle man Arbeit nicht mehr besteuern. Stattdessen sollten Kapitalerträge und Unternehmensgewinne stärker belastet werden.
 
@@ -237,7 +241,7 @@ Das in Deutschland und Österreich am längsten diskutierte Alternativkonzept is
 
 Die Logik schließt direkt an das Automatisierungsargument an: Wenn die Lohnquote (Anteil der Arbeitnehmerentgelte am Volkseinkommen) sinkt, steigt der Anteil der Kapitalquote — und damit sinkt die Basis einer rein lohnbasierten Sozialversicherungsfinanzierung. Eine Wertschöpfungsabgabe würde diesen Effekt neutralisieren, weil der größer werdende Kapitalanteil ebenfalls zur Finanzierung herangezogen würde.
 
-**BMAS-Kurzexpertise:** Das Bundesministerium für Arbeit und Soziales hat eine Kurzexpertise veröffentlicht (Forschungsbericht 489), die untersucht, ob eine Wertschöpfungsabgabe in Deutschland als ein möglicher (zusätzlicher) Finanzierungsbaustein für soziale Sicherung dienen könne. Die Expertise ist im politischen Diskurs bislang wenig prominent geworden.
+**BMAS-Kurzexpertise:** Das Bundesministerium für Arbeit und Soziales hat eine Kurzexpertise veröffentlicht (Forschungsbericht 489), die untersucht, ob eine Wertschöpfungsabgabe in Deutschland als ein möglicher (zusätzlicher) Finanzierungsbaustein für soziale Sicherung dienen könne. Die Expertise ist im politischen Diskurs bislang wenig prominent geworden. Parallel dazu haben die Wissenschaftlichen Dienste des Deutschen Bundestages im September 2025 (WD 4 – 3000 – 040/25) weitergehende Einsatzfelder einer Wertschöpfungsabgabe jenseits der Sozialversicherungsfinanzierung beschrieben — unter anderem die Finanzierung kommunaler Aufgaben sowie die Anschlussfähigkeit an die OECD-Reforminitiativen — und damit die fiskalpolitische Diskussionsbasis im parlamentarischen Raum verbreitert (vgl. § 4.2).
 
 **Internationaler Vergleich:** In Italien wurde 1999 unter Ministerpräsident Prodi eine Form der Wertschöpfungsabgabe eingeführt — die Imposta regionale sulle attività produttive (IRAP). Sie ist eine Regionalsteuer mit breiter Bemessungsgrundlage, die Wertschöpfung umfasst. Die IRAP wird in der Literatur als funktionales Äquivalent einer Maschinensteuer diskutiert.
 
@@ -436,7 +440,7 @@ Die These hat eine Reihe konkreter Implikationen für die Politikgestaltung:
 
 **Für die Industriepolitik:** Die Veredelungsstrategie verlangt massive Investitionen in Datenqualität, Dateninfrastruktur und domänenspezifische KI-Entwicklung. Deutsche Stärken — Ingenieurkompetenz, vertikale Branchenexpertise, Datenbestände in regulierten Sektoren wie Gesundheit, Mobilität, Industrieproduktion — müssen systematisch in Wert gesetzt werden. Die EU-weite Datensouveränitätsdebatte und regulatorische Rahmen wie der AI Act werden dabei zu strategischen Standortfaktoren.
 
-**Für die Sozialpolitik:** Die Teilhabekomponente erfordert eine politische Kraftanstrengung, die über die bisherige Reformdebatte hinausgeht. Ein deutscher oder europäischer Staatsfonds nach norwegischem Vorbild ist institutionell nicht vorhanden; seine Konstruktion würde Jahre beanspruchen. Übergangsweise kommen hybride Modelle in Betracht — etwa eine zweckgebundene Kapitalkomponente in der gesetzlichen Rentenversicherung, die bereits 2024 in Deutschland mit der „Generationenkapital"-Initiative angelegt wurde.
+**Für die Sozialpolitik:** Die Teilhabekomponente erfordert eine politische Kraftanstrengung, die über die bisherige Reformdebatte hinausgeht. Ein deutscher oder europäischer Staatsfonds nach norwegischem Vorbild ist institutionell nicht vorhanden; seine Konstruktion würde Jahre beanspruchen. Übergangsweise kommen hybride Modelle in Betracht — etwa eine zweckgebundene Kapitalkomponente in der gesetzlichen Rentenversicherung, die bereits 2024 in Deutschland mit der „Generationenkapital"-Initiative angelegt wurde und die im Jahr 2026 um zwei komplementäre Bausteine erweitert wurde: das vom Bundestag am 27. März 2026 beschlossene Altersvorsorgedepot (kapitalmarktbasierte Nachfolgelösung für die Riester-Rente, Inkrafttreten 1. Januar 2027) und die zum 1. Januar 2026 in Kraft getretene Aktivrente (steuerlich privilegierter Zuverdienst bis 2.000 Euro monatlich für Regelaltersrentnerinnen und -rentner). Diese Instrumente schaffen keinen Staatsfonds im engeren Sinne, bauen aber erstmals eine breitere Kultur kapitalgedeckter Altersvorsorge in Deutschland auf, an die ein späterer Teilhabefonds institutionell anknüpfen könnte.
 
 **Für die Bildungs- und Arbeitsmarktpolitik:** Die Veredelungsstrategie setzt eine Workforce voraus, die mit KI produktiv umgehen kann. Die Umbrüche, die das IAB für die nächsten 15 Jahre prognostiziert, erfordern eine Re-Qualifizierungsoffensive in Größenordnungen, die über den bisherigen Weiterbildungsstand hinausgehen.
 
@@ -493,7 +497,9 @@ Jede der hier diskutierten Antworten — Wertschöpfungsabgabe, Korrektur der re
 
 **Stufe 3 — International (3 – 7 Jahre):** Elemente, die erst auf OECD-Ebene stabil werden. Dazu gehören (a) eine Weiterentwicklung von OECD Pillar 2 in Richtung KI-spezifischer Anknüpfungspunkte (inländische Nutzung statt nur Sitz), (b) ein koordinierter Anti-Verlagerungs-Mechanismus, der die Verschiebung von Rechenzentren und Modell-IP in Niedrigsteuergebiete fiskalisch neutralisiert, und (c) eine Erweiterung der OECD-Wohlstands- und Ungleichheitsstatistik, um KI-induzierte Verteilungseffekte sichtbar zu machen.
 
-Die Staffelung ist bewusst: Stufe 1 schafft Erfahrungs- und Datenbasis, ohne auf internationale Einigung zu warten. Stufen 2 und 3 sind nicht optional, aber längerfristig. Wer nur auf die internationale Lösung setzt, riskiert eine Lähmung, wie sie in der Digitalsteuer-Debatte seit 2018 zu beobachten war.
+Für die internationale Stufe ist das OECD-„Side-by-Side"-Paket vom 5. Januar 2026 zu berücksichtigen: Es reduziert die praktische Durchgriffswirkung von Pillar 2 auf US-gemutterte Konzerne (UTPR/IIR-Ausnahme bei Anerkennung des US-Steuerregimes; QDMTT bleibt) und verändert damit die Ausgangslage für KI-spezifische Anknüpfungspunkte erheblich. Für die europäische Strategie bedeutet das, dass qualifizierte inländische Mindeststeuern und EU-weit harmonisierte Anknüpfungen an die Nutzungsseite (Digital-Services-Logik, importierte KI-Dienste) an Bedeutung gewinnen, während globale Top-up-Mechanismen bei den größten US-Anbietern an Reichweite verlieren.
+
+Die Staffelung ist bewusst: Stufe 1 schafft Erfahrungs- und Datenbasis, ohne auf internationale Einigung zu warten. Stufen 2 und 3 sind nicht optional, aber längerfristig. Wer nur auf die internationale Lösung setzt, riskiert eine Lähmung, wie sie in der Digitalsteuer-Debatte seit 2018 zu beobachten war und die sich durch das Side-by-Side-Paket für den Pillar-2-Pfad weiter akzentuiert hat.
 
 ---
 
@@ -555,6 +561,8 @@ Acemoglu, D., & Restrepo, P. (2019). Automation and new tasks: how technology di
 
 Acemoglu, D., & Restrepo, P. (2020). Robots and Jobs: Evidence from US Labor Markets. *Journal of Political Economy*, 128(6), 2188-2244.
 
+Acemoglu, D., Autor, D., Hazell, J., & Restrepo, P. (2022). Artificial Intelligence and Jobs: Evidence from Online Vacancies. *Journal of Labor Economics*, 40(S1), S293-S340.
+
 Acemoglu, D., Lelarge, C., & Restrepo, P. (2020). Competing with Robots: Firm-Level Evidence from France. *AEA Papers and Proceedings*, 110, 383-388.
 
 Acemoglu, D. (2024). The Simple Macroeconomics of AI. NBER Working Paper 32487. *Economic Policy*, forthcoming.
@@ -593,21 +601,31 @@ Mann, R. (2019). I Robot: U Tax? Considering the Tax Policy Implications of Auto
 
 Bundesministerium für Arbeit und Soziales (BMAS). Die Wertschöpfungsabgabe als ein möglicher Finanzierungsbaustein der sozialen Sicherung in Deutschland. Forschungsbericht 489.
 
+Bundestag, Wissenschaftliche Dienste. (4. September 2025). *Aspekte einer Wertschöpfungsabgabe bzw. -steuer, die über die Finanzierung der Sozialversicherungssysteme hinausgehen.* Ausarbeitung WD 4 – 3000 – 040/25, Fachbereich Haushalt und Finanzen. URL: https://www.bundestag.de/resource/blob/1113012/WD-4-040-25.pdf
+
+Deutscher Bundestag. (27. März 2026). *Beschluss des Bundestages zur Reform der steuerlich geförderten privaten Altersvorsorge („Altersvorsorgedepot").* Plenarprotokoll/Textarchiv KW 13/2026. URL: https://www.bundestag.de/dokumente/textarchiv/2026/kw13-de-altersvorsorge-1156798
+
 Bundeszentrale für politische Bildung (bpb). Pro und Contra zur Robotersteuer. Dossier „Zukunft der Arbeit".
 
 Deutsche Bank. (März 2026). Soll die KI jetzt Steuern zahlen? results FinanzWissen.
 
+Europäische Kommission. (2024/2026). *Artificial Intelligence Act – Regulatory Framework and Implementation Timeline.* Shaping Europe's digital future. URL: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+
 Europäisches Parlament. (2017). Bericht mit Empfehlungen an die Kommission zu zivilrechtlichen Regelungen im Bereich Robotik (A8-0005/2017). Berichterstatterin: Mady Delvaux.
 
-IAB, BIBB, GWS. (November 2025). Künstliche Intelligenz: Potenzielle Effekte für den deutschen Arbeitsmarkt. IAB-Forschungsbericht 23/2025.
+IAB, BIBB, GWS. (November 2025). Künstliche Intelligenz: Potenzielle Effekte für den deutschen Arbeitsmarkt. IAB-Forschungsbericht 23/2025. URL: https://doku.iab.de/forschungsbericht/2025/fb2325.pdf
 
 Institut der deutschen Wirtschaft (IW) Köln. Sollen Roboter Steuern zahlen? Beitrag von Tobias Hentze.
 
+OECD/G20 Inclusive Framework on BEPS. (5. Januar 2026). *Administrative Guidance under the GloBE Rules: Pillar Two – Central Record and „Side-by-Side"-Arrangement.* URL: https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/global-minimum-tax/administrative-guidance-globe-rules-pillar-two-central-record-legislation-transitional-qualified-status.pdf
+
 OpenAI. (6. April 2026). *Industrial Policy for the Intelligence Age: Ideas to Keep People First.* 13 Seiten. Landingpage: https://openai.com/index/industrial-policy-for-the-intelligence-age/ | PDF: https://cdn.openai.com/pdf/561e7512-253e-424b-9734-ef4098440601/Industrial%20Policy%20for%20the%20Intelligence%20Age.pdf
 
-Sanders, B. (Oktober 2025). Bericht zur Robotersteuer / KI-Abgabe. US-Senat, Committee on Health, Education, Labor and Pensions (HELP), Minderheitsbericht. Vollständige Titelangabe zu verifizieren.
+Sanders, B. (6. Oktober 2025). *The Big Tech Oligarchs' War Against Workers: AI and Automation's Coming Impact on American Workers.* US-Senat, Committee on Health, Education, Labor and Pensions (HELP), Minderheitsbericht (Democratic Staff), 30 Seiten. URL: https://www.sanders.senate.gov/wp-content/uploads/10.6.2025-The-Big-Tech-Oligarchs-War-Against-Workers.pdf
 
 Springer Gabler Verlag. Gabler Wirtschaftslexikon, Stichwort: Robotersteuer.
+
+US Department of the Treasury. (Januar 2026). *Agreement to Exempt U.S.-Headquartered Companies from Pillar Two Global Minimum Tax Rules („Side-by-Side"-Package).* Pressemitteilung. URL: https://home.treasury.gov/news/press-releases/sb0350
 
 ### 11.4 Quellen zur Wertschöpfungsabgabe
 
@@ -623,9 +641,15 @@ BornCity. (April 2026). OpenAI fordert Robotersteuer und 32-Stunden-Woche.
 
 Business Insider. (März 2026). KI-Steuer statt Lohnsteuer: Tech-Konzerne sollten statt Mitarbeiter zahlen.
 
-Euronews. (April 2026). Robotersteuer und Vier-Tage-Woche: So will OpenAI die KI-Wirtschaft gestalten.
+Euronews. (April 2026). Robotersteuer und Vier-Tage-Woche: So will OpenAI die KI-Wirtschaft gestalten. URL: https://de.euronews.com/next/2026/04/07/robotersteuer-und-vier-tage-woche-so-will-openai-die-ki-wirtschaft-gestalten
+
+Fortune. (6. April 2026). How people are reacting to OpenAI's 13-page policy paper on AI superintelligence (Beiträge u. a. von Anton Leicht). URL: https://fortune.com/2026/04/06/sam-altman-says-ai-superintelligence-is-so-big-that-we-need-a-new-deal-critics-say-openais-policy-ideas-are-a-cover-for-regulatory-nihilism/
 
 Robotik und Produktion. (Dezember 2023). Keine Steuererklärung für Roboter.
+
+Salvaggio, E. (April 2026). OpenAI's New ‚Industrial Policy for the Intelligence Age' is a Policymercial. Tech Policy Press. URL: https://www.techpolicy.press/openais-new-industrial-policy-for-the-intelligence-age-is-a-policymercial/
+
+Tax Notes. (20. Oktober 2025). ‚Robot Tax' Proposal Sparks Skepticism Over Its Practicality.
 
 Euractiv. (2017). Robotik-Bericht: Nein zum bedingungslosen Grundeinkommen.
 
@@ -633,7 +657,7 @@ Yang, A. (März 2026). Interview zur KI-Besteuerung. CNBC.
 
 ---
 
-**Hinweis zur Aktualität:** Dieses Arbeitspapier gibt den Stand April 2026 wieder. Die Debatte entwickelt sich dynamisch, insbesondere im Zuge der OpenAI-Strategiepapiere und der laufenden EU-Regulierungsarbeit zum AI Act. Eine regelmäßige Aktualisierung ist vorgesehen.
+**Hinweis zur Aktualität:** Dieses Arbeitspapier gibt den Stand April 2026 wieder. Die Debatte entwickelt sich dynamisch, insbesondere im Zuge der OpenAI-Strategiepapiere, der Sanders-Initiative im US-Senat, der Bundestags-Ausarbeitung vom September 2025 sowie der laufenden EU-Regulierungsarbeit zum AI Act (vollständige Anwendbarkeit zum 2. August 2026) und der OECD-„Side-by-Side"-Anpassung von Pillar 2 (Januar 2026). Eine regelmäßige Aktualisierung ist vorgesehen.
 
 **Haftungshinweis:** Dieses Papier dient der Information und Debatte. Es stellt keine steuerrechtliche Beratung dar. Konkrete steuerliche Fragen bedürfen der individuellen Beratung durch qualifizierte Fachleute.
 

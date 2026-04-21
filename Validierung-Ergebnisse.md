@@ -181,3 +181,78 @@ Anschluss an eine externe (polemisch formulierte) Kritik an staatlichem Vertraue
 - Neue Version: 4.0
 - PDF erstellt: Ja
 - Word erstellt: Ja
+
+---
+
+## Validierung 21. April 2026 — Version 4.0 → Version 5.0
+
+### Anlass
+
+Systematische Web-Recherche zu den Hauptthemen des Arbeitspapiers (OpenAI-Papier, Sanders-Report, Robotersteuer-Debatte DE, Wertschöpfungsabgabe, OECD Pillar 2, AI Act, IAB-Prognose, Generationenkapital). Die Recherche hat sechs substanzielle Neuigkeiten seit Version 4.0 identifiziert, die noch nicht im Dokument enthalten waren:
+
+1. **Bundestag, Wissenschaftliche Dienste — Ausarbeitung WD 4 – 3000 – 040/25** (4. September 2025): „Aspekte einer Wertschöpfungsabgabe bzw. -steuer, die über die Finanzierung der Sozialversicherungssysteme hinausgehen". Zentrale parlamentarische Kurzinformation mit expliziter Diskussion fiktiver Lohnzurechnung, Objektsteuer auf Roboter und Einordnung in OECD-Reform.
+2. **Sanders-Report Vollständiger Titel + konkrete Quantifizierung** (6. Oktober 2025): „The Big Tech Oligarchs' War Against Workers: AI and Automation's Coming Impact on American Workers". ChatGPT-gestützte Modellrechnung mit 97 Mio. gefährdeten Arbeitsplätzen, sektoralen Risikoquoten (89 % Fast Food, 64 % Buchhaltung, 47 % Fernfahrer).
+3. **OECD-„Side-by-Side"-Package** (5. Januar 2026): Ausnahme US-gemutterter Konzerne von UTPR/IIR bei Pillar 2; QDMTT bleibt. Materielle Einschränkung der bisherigen Pillar-2-Logik.
+4. **EU AI Act vollständige Anwendbarkeit** zum 2. August 2026 (Hochrisiko-Pflichten, Transparenzpflichten, Bestandsmodell-Übergangsfrist bis 2. August 2027).
+5. **Altersvorsorgedepot** (Bundestag-Beschluss 27. März 2026, Start 1. Januar 2027) und **Aktivrente** (seit 1. Januar 2026) als 2026-Ergänzungen der Generationenkapital-Initiative.
+6. **Zusätzliche kritische Einordnung des OpenAI-Papiers**: „Policymercial"-Label (Eryk Salvaggio, Tech Policy Press); Fortune-Analyse mit Anton Leicht; Tax-Notes-Skepsis zum Sanders-Vorschlag.
+
+### Durchgeführte Änderungen am Hauptdokument
+
+| # | Stelle | Maßnahme |
+|---|---|---|
+| 1 | § 1.3 | Quellenübersicht um „Wissenschaftliche Dienste des Deutschen Bundestages" und „OECD Pillar-Two-Side-by-Side-Guidance Januar 2026" erweitert. |
+| 2 | § 4.2 | Absatz zur Bundestag-Ausarbeitung WD 4 – 3000 – 040/25 (4. September 2025) ergänzt — zwei Bemessungsvarianten (fiktiver Lohn, Objektsteuer) explizit benannt. |
+| 3 | § 4.4 | Neuer Absatz zum OECD-„Side-by-Side"-Paket (5. Januar 2026, UTPR/IIR-Ausnahme, QDMTT bleibt) eingefügt; Absatz zum AI Act (vollständige Anwendbarkeit 2. August 2026, GPAI-Bestandsfrist bis 2. August 2027) ergänzt. |
+| 4 | § 4.5 | Sanders-Eintrag um vollständigen Titel, konkrete Modellzahlen (97 Mio. Arbeitsplätze, 89 %/64 %/47 %), Methodenkritik (Tax Notes, AEI) und Gesamt-Policy-Paket erweitert. OpenAI-Kritik um „Policymercial"-Label (Salvaggio, Tech Policy Press) und Anton-Leicht-Einordnung (Fortune) ergänzt. |
+| 5 | § 5.1 | Hinweis auf Bundestag WD 4 – 3000 – 040/25 als Erweiterung der BMAS-Expertise eingefügt, mit Querverweis auf § 4.2. |
+| 6 | § 8.6 | Bausteinbeschreibung der deutschen Alters­vorsorge­reform 2026 (Altersvorsorgedepot, Aktivrente) als Ergänzung der Generationenkapital-Referenz. |
+| 7 | § 9.5 | Neuer Absatz: Side-by-Side-Paket reduziert Pillar-2-Durchgriff auf US-Konzerne; Konsequenz: EU-weit harmonisierte Nutzungsseite-Anknüpfungen gewinnen relativ an Bedeutung. |
+| 8 | § 11.1 | Literatureintrag Acemoglu, Autor, Hazell, Restrepo (2022) „Artificial Intelligence and Jobs: Evidence from Online Vacancies" (*Journal of Labor Economics*) ergänzt. |
+| 9 | § 11.3 | Fünf neue Einträge: Bundestag WD 4 – 3000 – 040/25; Bundestag-Beschluss Altersvorsorgedepot 27. März 2026; Europäische Kommission AI-Act-Seite; OECD-Side-by-Side-Guidance; US Treasury Pressemitteilung. Sanders-Eintrag durch vollständige Titelangabe und URL ersetzt; Verifizierungshinweis entfernt (Verifikation dokumentiert). |
+| 10 | § 11.5 | Drei neue journalistische Einträge: Fortune (6. April 2026), Salvaggio/Tech Policy Press, Tax Notes (20. Oktober 2025). Euronews-URL ergänzt. |
+| 11 | „Hinweis zur Aktualität" | Aufzählung aktueller Entwicklungen (Sanders, Bundestag, AI Act, Side-by-Side) ergänzt. |
+| 12 | Dokumentkopf, README, Zitiervorschlag, Claude.md, `build_pdf.py`, `build_docx.py` | Version 4.0 → 5.0. README-Verifizierungshinweis von „zwei" auf „ein" Literatureintrag reduziert (de la Feria verbleibt; Sanders entfernt). Claude.md-Regel zu Markierungsstand nachgezogen. |
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Zusammenfassung unverändert; 8.1 – 8.7, 9.1 – 9.5, 11.1 – 11.5 lückenlos; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1 – 11 lückenlos; fünf Robotersteuer-Typen, drei Hebel (Deutschland-These), sieben Empfehlungen in § 10.2 unverändert. |
+| 2.1.3 Querverweise | OK | Neue Verweise aus § 5.1 auf § 4.2 und aus § 4.4 auf Kapitel 8 (Rohstoff-Argument) korrekt aufgelöst. Keine gebrochenen Anker. |
+| 2.1.4 Roter Faden | OK | Ergänzungen verstärken die Progression Literatur (Kap. 3) → Recht/EU (Kap. 4) → Instrument (Kap. 5) → These (Kap. 8) → Umsetzung (Kap. 9) und ändern die Architektur nicht. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; fettgesetzte Lead-Ins einheitlich; neue Absätze ordentlich eingegliedert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Alle neuen Zahlen und Daten (WD-Nr. 040/25, 4. September 2025; Sanders 6. Oktober 2025; Side-by-Side 5. Januar 2026; AI Act 2. August 2026; Altersvorsorgedepot 27. März 2026) durch jeweils mindestens zwei Primär- oder gleichrangige Quellen belegt. Sanders-Zahlen 97 Mio. / 89 % / 64 % / 47 % stammen aus der offiziellen Senate-HELP-Pressemitteilung. |
+| 2.2.2 Redundanzprüfung | OK | Bundestag-WD in § 4.2 primär eingeführt, in § 5.1 nur als Querverweis; Side-by-Side in § 4.4 eingeführt, in § 9.5 nur als Implementationsimplikation; Sanders-Details nur einmal (§ 4.5) mit Literatureintrag in § 11.3; Salvaggio/„Policymercial" einmal in § 4.5 mit Literatureintrag in § 11.5. |
+| 2.2.3 Argumentation | OK | Fünf Typen, Acemoglu vs. Thuemmel, Deutschland-These unverändert. Neue Erkenntnisse stützen die Drei-Hebel-Logik (Side-by-Side schwächt Pillar-2-Durchgriff → relative Bedeutung von Wertschöpfungsabgabe und Nutzungsseite steigt). |
+| 2.2.4 Ausgewogenheit | OK | Sanders-Bericht mit Methodenkritik (Tax Notes, AEI) flankiert; OpenAI-Papier mit zwei zusätzlichen kritischen Stimmen (Salvaggio, Leicht). |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobenartig keine Auffälligkeiten. |
+| 2.3.2 Terminologie | OK | Neue Abkürzungen bei Erstnennung erklärt: UTPR (Undertaxed Profits Rule), IIR (Income Inclusion Rule), QDMTT (Qualified Domestic Minimum Top-Up Taxes), EHDS (European Health Data Space). HELP-Ausschuss an bekannter Stelle explizit aufgelöst. „Robotersteuer" weiterhin in Anführungszeichen, wo populärer Oberbegriff gemeint ist. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Alle im Fließtext neu genannten Quellen (Bundestag WD 4 – 040/25; Sanders-Bericht mit neuer Titelangabe; OECD Side-by-Side; US Treasury; AI-Act-Seite der Kommission; Acemoglu et al. 2022; Salvaggio; Tax Notes; Fortune; Altersvorsorgedepot-Beschluss) mit passenden Einträgen in § 11.1, § 11.3 und § 11.5 versehen. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-nahe Form durchgehalten; Datumsangaben (Tag. Monat Jahr) konsistent; URLs vollständig. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Fünf der sechs neuen Sachverhalte durch Primärquellen belegt (Bundestags-PDF, Senate-HELP-PDF, OECD-PDF, Treasury-Pressemitteilung, Bundestag-Textarchiv). Journalistische Quellen ergänzend und als solche in § 11.5 geführt. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 21. April 2026: Bundestag-PDF WD 4 – 040/25 über WebFetch erreichbar, Inhalt passt; Senate-HELP-Pressemitteilung erreichbar; Euronews-Artikel, Tech-Policy-Press-Artikel, Fortune-Artikel und Treasury-Pressemitteilung über WebSearch bestätigt. OpenAI-PDF unverändert. |
+| 2.4.5 Zitatgenauigkeit | OK | Sanders-Zahlen (97 Mio., 89 %, 64 %, 47 %) aus der offiziellen Pressemitteilung; Side-by-Side-Details (UTPR/IIR-Ausnahme, QDMTT bleibt) aus Treasury- und Kanzlei-Alerts; Bundestags-Ausarbeitung mit Titel und Datum aus PDF-Metadaten. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Sanders-Markierung entfernt, Verifikation in diesem Protokoll dokumentiert (Senate-HELP-URL). de-la-Feria-Markierung erhalten — keine neue Verifikation vorliegend. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 5.0 einheitlich in Dokumentkopf, Abschlusshinweis, README, Zitiervorschlag, Claude.md, `build_pdf.py`, `build_docx.py`, diesem Protokoll. Lizenzhinweis CC BY 4.0 am Dokumentende und in README erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine dedizierten Skripte; manuelle Stichproben ersetzen den automatisierten Teil. |
+
+### Nachprüfung
+
+- Struktur- und Querverweisprüfung (2.1.1 – 2.1.3) nach Einfügung: OK
+- Redundanzprüfung (2.2.2) nach Einfügung: OK (klare Aufgabenteilung Haupteinführung/Querverweis)
+- Terminologie (2.3.2) nach Einfügung: OK (UTPR, IIR, QDMTT, EHDS neu aufgelöst)
+- Vollständigkeit (2.4.1) nach Einfügung: OK (11 neue Literatureinträge, alle im Fließtext verankert)
+- Versionskonsistenz (2.5) nach Einfügung: OK (5.0 durchgängig)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle identifizierten Neuigkeiten eingearbeitet: Ja
+- Alle Änderungen validiert: Ja
+- Neue Version: 5.0
+- PDF erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.pdf`, `build_pdf.py`)
+- Word erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.docx`, `build_docx.py`)
+
+**Hinweis:** Die Version 5.0 bleibt in der Grundarchitektur (11 Kapitel, Drei-Hebel-These, Deutschland-Fokus) unverändert. Ergänzt wurden ausschließlich aktualisierende Sachstände, zusätzliche Primärquellen und verstärkte Gegenstimmen. Die Einschätzung, dass das Side-by-Side-Paket den Pillar-2-Pfad für US-Konzerne entwertet und damit die wertschöpfungs- und nutzungsseitigen Instrumente relativ aufwertet, ist die einzige neue argumentative Zuspitzung und in § 4.4 und § 9.5 klar als Folgerung aus belegter Rechtslage markiert.
