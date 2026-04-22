@@ -318,3 +318,73 @@ Nicht aufgenommen (bewusste Auslassungen):
 - Neue Version: 6.0
 - PDF erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.pdf` via `build_pdf.py`)
 - Word erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.docx` via `build_docx.py`)
+
+---
+
+## Validierung 22. April 2026 — Version 6.0 → Version 7.0
+
+**Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers (EU AI Act und Digital Omnibus, Sanders-Nachfolgeinitiative April 2026, Altman-Anschlag-Gerichtsverfahren, OECD Pillar 2, Q1-2026-Tech-Layoffs, Bürgerversicherungs-Reformprozess, IAB-Prognose). Vergleich gegen Bestand von Version 6.0. Vier neue belegbare Entwicklungen identifiziert; bereits vorhandene Inhalte (OECD Pillar-Two-Side-by-Side-Paket, KSR/ASK, No Robot Bosses Act, Q1-Layoff-Grunddaten, Anthropic Economic Index, Generationenkapital-Startphase) wurden nicht erneut aufgenommen.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | Digital Omnibus on AI (19. November 2025): Kommissionsvorschlag zur Verschiebung der Hochrisiko-Pflichten bis max. 2. Dezember 2027 bzw. 2. August 2028; MEP-Zustimmung am 16./23. März 2026; Verlängerung der Art.-50-Kennzeichnungspflicht bis 2. November 2026; GPAI-Durchsetzung unverändert ab 2. August 2026 | § 4.3 (Ergänzung im Absatz „Europarechtliche Vorgaben") | Verändert den zeitlichen Vorlauf, in dem AI-Act-Definitionen als Anknüpfung für Steuertatbestände verfügbar werden |
+| 2 | Sanders-Op-Ed vom 16. April 2026 und angekündigte Folge-Gesetzgebung (bundesweites Moratorium für neue KI-Rechenzentren bis Schutzmaßnahmen in Kraft) | § 4.5 (Erweiterung des Sanders-Absatzes um Nachtrag April 2026) | Aktualisiert den konkretesten politischen Vorstoß auf US-Bundesebene; zeigt Fortschreibung der Linie aus dem Oktober-2025-Report |
+| 3 | Altman-Anschlag Gerichtsverfahren: Bundes-Anklagepunkte (versuchte Sprengmittel-Sachbeschädigung, nicht registrierte Feuerwaffe); mögliche Terror-Anklage; Verteidigungslinie Autismus und psychische Ausnahmesituation; Arraignment 5. Mai 2026 | § 8.4 (bestehender Absatz erweitert) | Konkretisierung eines bereits belegten Systemstabilitäts-Beispiels; keine neue Geschichte, sondern Vertiefung |
+| 4 | Zweiter Altman-Vorfall (12. April 2026): Entlassung der beiden kurzzeitig festgenommenen Personen ohne Anklageerhebung am 16. April 2026 | § 8.4 (bestehender Absatz erweitert) | Vervollständigt die Darstellung des zweiten Vorfalls; verhindert Fehldeutung als zweite Straftat |
+
+Nicht aufgenommen (bewusste Auslassungen):
+- IAB-Prognose April 2026: Kernzahlen bereits in Version 6.0 vollständig abgebildet (Erwerbstätigenrückgang 20.000; Zuwachs bei öffentlichen Dienstleistern/Erziehung/Gesundheit; Umbruch-statt-Einbruch-Einordnung).
+- OECD Pillar-Two-Einzel-Jurisdiktions-Aktionen im April 2026 (Deutschland-Draft, Türkei-Formulare, NL-Knowledge-Group): operative Einzeldetails ohne Auswirkung auf die Argumentationslinie.
+- Sam-Altman/Vinod-Khosla-Folgeinterview Fortune: redaktioneller Kommentar, keine neue Quelle.
+- Anthropic Economic Index 2026 Q2-Update: keine neue aggregierte Erkenntnis gegenüber der bereits referenzierten Index-Stelle in § 3.5.
+- Microsoft/Amazon/Oracle Einzelunternehmens-Nennungen zu Q1-Layoffs: Gesamtzahl (~78.500) und Anteil (~48 %) sind ausreichend, Einzelnennungen erhöhen nicht die Aussagekraft.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine leeren Abschnitte; Deutschland-These in Zusammenfassung referenziert. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte unverändert (1.1–11.5); fünf Robotersteuer-Typen, drei Hebel, sieben Empfehlungen stimmen. |
+| 2.1.3 Querverweise | OK | Keine Querverweise hinzugefügt oder verändert. Bestehende §-Referenzen (2.1, 5.1, 5.2; Kapitel 3/5/5.4/8/10; Abschnitt 8.3/8.4) weiterhin gültig. |
+| 2.1.4 Roter Faden | OK | Neue Einfügungen ordnen sich in die bestehende Rechts- (§ 4.3/4.5) und Systemstabilitäts-Argumentation (§ 8.4) ein; keine Architekturverschiebung. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; Fett/Kursiv konsistent; Lead-Ins nicht verändert; Tabellen unverändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Neue Fakten belegbar: Digital-Omnibus-Vorschlag (EK-Pressemitteilung, EP-Legislative-Train, EP-Pressemitteilung 23. März 2026); Sanders-Op-Ed (WFMD); Moreno-Gama-Verfahren (CNBC, CNN, NPR, Fortune); zweiter Vorfall/Entlassung (SF Standard). |
+| 2.2.2 Redundanzprüfung | OK | Digital-Omnibus ist genau einmal im Dokument platziert (§ 4.3), AI-Act-Grundinformation bleibt an derselben Stelle; Sanders-Nachtrag verlängert den bestehenden Sanders-Block ohne neue Dopplung in Kapitel 8 oder 10; Altman-Vorfall bleibt in § 8.4 konzentriert. |
+| 2.2.3 Argumentation | OK | Digital-Omnibus-Passage bleibt im Konjunktiv (Parlamentsposition, noch nicht endgültiges Inkrafttreten); Sanders-Nachtrag klar als angekündigt/flankierend markiert; Moreno-Gama-Passage sachlich, Unschuldsvermutung erhalten (Arraignment-Termin, Verteidigungslinie). |
+| 2.2.4 Ausgewogenheit | OK | Moratorium-Vorschlag wird nicht bewertet, nur referiert; Verteidigungslinie Autismus/psychische Ausnahmesituation wird ohne Instrumentalisierung wiedergegeben; Entlassung des zweiten Paars ohne Anklage explizit festgehalten, um Fehldeutung zu vermeiden. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe der neuen Textstellen ohne Befund. |
+| 2.3.2 Terminologie | OK | Neue Begriffe im Kontext erklärt: „Digital Omnibus on AI", „GPAI" (Allzweck-KI-Modelle), „Arraignment". Abkürzung GPAI bei Erstnennung aufgelöst. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neue Einträge zugeordnet: Europäische Kommission Digital Omnibus und EP-Pressemitteilung in § 11.3; Sanders-Op-Ed in § 11.3; CNBC-Arraignment-Bericht und SF-Standard-Entlassungs-Meldung in § 11.5. Keine neuen Fließtext-Referenzen ohne Eintrag. |
+| 2.4.2 Formale Einheitlichkeit | OK | Alle neuen Einträge APA-nah, Datumsangaben im Format „Monat YYYY" bzw. präzise Tagesdaten; vollständige URLs; keine URL-Shortener. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen (europa.eu-Legislative-Train, sanders.senate.gov-Content) für institutionelle Aussagen; unabhängige Mehrfachbelege für das Strafverfahren (CNN, CNBC, NPR, Fortune, SF Standard). |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 22. April 2026: europarl.europa.eu Pressemitteilung 23. März 2026 erreichbar; digital-strategy.ec.europa.eu Digital-Omnibus-Landingpage erreichbar; cnbc.com 14.-April-Bericht erreichbar; sfstandard.com 16.-April-Bericht erreichbar. |
+| 2.4.5 Zitatgenauigkeit | OK | Postponement-Fristen (2. Dezember 2027 bzw. 2. August 2028 max.; Kennzeichnungspflicht-Verschiebung auf 2. November 2026) und Daten (16./23. März 2026 Ausschuss/Plenum) korrekt übernommen; Arraignment-Datum 5. Mai 2026, Anklagepunkte, Entlassungsdatum 16. April 2026 korrekt wiedergegeben. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Verbleibt nur de la Feria et al. 2022 als verifizierungsbedürftig; alle Neuzugänge verifiziert und mit URL belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 7.0 durchgängig: Dokumentkopf, `README.md` (Versionszeile und Zitiervorschlag), `Claude.md` (Stand-Angabe), `build_pdf.py` (zwei Stellen: `DOC_VERSION` und sichtbare Metazeile), `build_docx.py` (zwei Stellen), Protokolleintrag. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+Keine Fehler gefunden; die Version 6.0 war konsistent und nur um neue Sachstände zu ergänzen.
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine Bereinigung erforderlich; ausschließlich Ergänzungen neuer Sachstände. | — |
+
+### Nachprüfung
+
+- 2.1.1 – 2.1.5 nach Einarbeitung: OK
+- 2.4.1 – 2.4.5 nach Ergänzung der Literaturnachweise: OK
+- 2.5 Versionskonsistenz: OK (7.0 durchgängig in allen sechs Ankerpunkten)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine gefunden)
+- Neue Version: 7.0
+- PDF erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.pdf` via `build_pdf.py`)
+- Word erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.docx` via `build_docx.py`)
