@@ -4,7 +4,7 @@
 
 Autor: Björn Degenkolbe
 Stand: April 2026
-Version: 7.0
+Version: 8.0
 
 ---
 
@@ -33,7 +33,7 @@ Dieses Arbeitspapier steht unter der [Creative-Commons-Lizenz CC BY 4.0](https:/
 
 ## Entstehung und KI-Offenlegung
 
-These, Struktur, Bewertungen und politische Positionierung stammen vom Autor. Die Recherche- und Schreibarbeit entstand im Dialog mit **Claude (Anthropic)**. Quellen sind im Literaturverzeichnis (Kapitel 11) dokumentiert. Die Titelangabe des Sanders-Reports (Oktober 2025) wurde mit Version 5.0 vollständig verifiziert; eine Einzelangabe (de la Feria et al. 2022) bleibt als verifizierungsbedürftig markiert. Version 6.0 ergänzte sechs belegbare Neuigkeiten aus dem Zeitraum Dezember 2025 – April 2026 (u. a. OECD Pillar-Two-Side-by-Side-Paket, Kommission zur Sozialstaatsreform, Alterssicherungskommission 2026, No Robot Bosses Act, Q1-2026-Tech-Layoff-Daten, Konkretisierung des Altman-Anschlags). Version 7.0 ergänzt vier weitere belegbare Entwicklungen aus dem Zeitraum November 2025 – April 2026: den Digital-Omnibus-Vorschlag zum AI Act mit Verschiebung der Hochrisiko-Pflichten (Kommission November 2025, Plenar-Unterstützung März 2026), die Sanders-Folgeinitiative vom April 2026 mit geplantem bundesweitem KI-Rechenzentren-Moratorium sowie prozessuale Konkretisierungen zu den beiden Altman-Vorfällen (Arraignment-Termin 5. Mai 2026, Verteidigungslinie; Entlassung des zweiten Personenpaars ohne Anklage).
+These, Struktur, Bewertungen und politische Positionierung stammen vom Autor. Die Recherche- und Schreibarbeit entstand im Dialog mit **Claude (Anthropic)**. Quellen sind im Literaturverzeichnis (Kapitel 11) dokumentiert. Die Titelangabe des Sanders-Reports (Oktober 2025) wurde mit Version 5.0 vollständig verifiziert; eine Einzelangabe (de la Feria et al. 2022) bleibt als verifizierungsbedürftig markiert. Version 6.0 ergänzte sechs belegbare Neuigkeiten aus dem Zeitraum Dezember 2025 – April 2026 (u. a. OECD Pillar-Two-Side-by-Side-Paket, Kommission zur Sozialstaatsreform, Alterssicherungskommission 2026, No Robot Bosses Act, Q1-2026-Tech-Layoff-Daten, Konkretisierung des Altman-Anschlags). Version 7.0 ergänzte vier weitere belegbare Entwicklungen aus dem Zeitraum November 2025 – April 2026: den Digital-Omnibus-Vorschlag zum AI Act mit Verschiebung der Hochrisiko-Pflichten (Kommission November 2025, Plenar-Unterstützung März 2026), die Sanders-Folgeinitiative vom April 2026 mit geplantem bundesweitem KI-Rechenzentren-Moratorium sowie prozessuale Konkretisierungen zu den beiden Altman-Vorfällen (Arraignment-Termin 5. Mai 2026, Verteidigungslinie; Entlassung des zweiten Personenpaars ohne Anklage). Version 8.0 ergänzt fünf belegbare Entwicklungen aus März / April 2026: die Einbringung des *Artificial Intelligence Data Center Moratorium Act* (S. 4214 durch Sanders und Ocasio-Cortez, 25. März 2026), das landesweite Rechenzentren-Moratorium in Maine (April 2026, Unterzeichnungsfrist bis 25. April 2026), den Trilog-Verhandlungsstand zum Digital Omnibus on AI mit geplantem zweiten Trilog am 28. April 2026, die Anthropic-Economic-Index-Befunde vom März 2026 (Verdoppelung der API-Workflows in Business Sales/Outreach und Automated Trading zwischen November 2025 und Februar 2026) sowie den Rahmen von Trumps *America's AI Action Plan* (Juli 2025) mit dem im November 2025 eingerichteten *AI Workforce Research Hub* des US-Arbeitsministeriums.
 
 ## Aktualisierung
 
@@ -41,7 +41,7 @@ Das Papier gibt den Stand April 2026 wieder. Für Anmerkungen, Korrekturen oder 
 
 ## Zitiervorschlag
 
-> Degenkolbe, B. (2026). *Die Besteuerung von Künstlicher Intelligenz und Robotik als Ersatz menschlicher Arbeit — Ökonomische, rechtliche und sozialpolitische Perspektiven.* Arbeitspapier, Version 7.0, April 2026.
+> Degenkolbe, B. (2026). *Die Besteuerung von Künstlicher Intelligenz und Robotik als Ersatz menschlicher Arbeit — Ökonomische, rechtliche und sozialpolitische Perspektiven.* Arbeitspapier, Version 8.0, April 2026.
 
 ---
 
