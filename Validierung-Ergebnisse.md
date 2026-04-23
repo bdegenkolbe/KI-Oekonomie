@@ -388,3 +388,76 @@ Keine Fehler gefunden; die Version 6.0 war konsistent und nur um neue Sachständ
 - Neue Version: 7.0
 - PDF erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.pdf` via `build_pdf.py`)
 - Word erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.docx` via `build_docx.py`)
+
+---
+
+## Validierung 23. April 2026 — Version 7.0 → Version 8.0
+
+**Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers (Sanders/AOC-Gesetzgebung, EU AI Act/Digital Omnibus, OECD Pillar 2, Anthropic Economic Index, IAB-Prognose, Generationenkapital, Altman-Verfahren, Maine-Moratorium, Trump-AI-Action-Plan). Fünf neue belegbare Entwicklungen identifiziert und eingearbeitet; bereits in Version 7.0 enthaltene Informationen wurden nicht dupliziert.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *Artificial Intelligence Data Center Moratorium Act* (S. 4214 vom 25. März 2026; Sanders und Ocasio-Cortez): Bundesweites Moratorium für KI-Rechenzentren oberhalb definierter Stromschwellen, mit explizitem Teilhabebezug für Beschäftigte | § 4.5 (präzisierter Sanders-Block mit korrekter Datierung März 2026 statt April-Nachtrag; Nennung AOC; Gesetzesnummer; Begründungskontur) | Konkretisiert den bislang eher allgemein skizzierten „Gesetzespaket-Nachtrag" um Datum, Gesetzesnummer, Co-Einbringerin und zentrale Formulierung des Entwurfs — damit erstmals belastbar zitierfähig |
+| 2 | Maine-Rechenzentren-Moratorium (Legislatur April 2026, Gouverneurin Mills Entscheidung bis 25. April 2026): erstes landesweites Moratorium in den USA, inkl. Maine Data Center Coordination Council | § 4.5 (neuer Unterblock „Sub-föderale Parallele — Maine") | Zeigt sub-föderale regulatorische Dynamik, die für KI-spezifische steuerliche Anknüpfungspunkte (Nutzungs-/Standortsabgaben) einen Präzedenzraum schafft |
+| 3 | Trilog-Verhandlungsstand zum Digital Omnibus on AI: Aufnahme der Trilogverhandlungen, zweiter Trilog am 28. April 2026 anvisiert, Einigung vor 2. August 2026 Voraussetzung für rechtswirksame Verschiebung | § 4.3 (Ergänzung im bestehenden Digital-Omnibus-Absatz) | Präzisiert die Rechtsunsicherheit: Ohne rechtzeitige Einigung greifen die ursprünglichen Hochrisiko-Pflichten — relevant für Stufe-2-Umsetzung in § 9.5 |
+| 4 | Anthropic Economic Index März 2026: theoretische KI-Abdeckung in Computer/Mathematik und Business/Finance je rund 94 %; Verdoppelung der API-Workflows in Business Sales/Outreach und Automated Trading zwischen November 2025 und Februar 2026 | § 3.5 (vertiefender Satz im bestehenden Anthropic-Index-Absatz) | Schärft die Szenariorobustheits-Argumentation; weist darauf hin, dass die nächste Substitutionswelle kaufmännische und handelsnahe Tätigkeiten treffen kann |
+| 5 | Trump *America's AI Action Plan* (23. Juli 2025) und Einrichtung des *AI Workforce Research Hub* beim US-Arbeitsministerium (November 2025): Deregulierung, Infrastrukturausbau, Umschulung — keine fiskalische Umverteilungskomponente | § 4.5 (neuer Unterblock „Gegenmodell Bundesregierung") | Kontextualisiert die US-Bundesebene als fiskalisch stillen Pol gegenüber der Sanders/AOC-Agenda; erklärt die engen Handlungsspielräume in der laufenden Legislatur und den begrenzten Fortschritt auf OECD-Ebene |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- OECD-Pillar-Two-Einzel-Jurisdiktions-Aktionen vom April 2026 (Deutschland-Draft, Italien-GloBE-Formulare, Niederlande-Knowledge-Group, Schweiz-Communications, Türkei-Draft-Returns, Brasilien-Konsultation): operative Umsetzungsdetails ohne Veränderung der Argumentationslinie; die bereits aufgenommene OECD-Side-by-Side-Package-Referenz bleibt ausreichend.
+- Generationenkapital-Startphase und Rendite 7,2 %: bereits in § 8.6 der Version 6.0/7.0 dokumentiert; keine Aktualisierung notwendig.
+- IAB-Prognose 2026 Einzelzahlen (GDP +0,8 %, sozialversicherungspflichtig Beschäftigte −30.000 auf 34,93 Mio., Erwerbstätige −90.000 auf 45,89 Mio.): Kernaussage „leichter Rückgang" ist in § 1.1 abgebildet; detaillierte Einzelwerte würden keine Argumentationsverschiebung bewirken.
+- Rentenkommission-Zwischenstand März 2026: Arbeitsfortschritt ohne Zwischenbericht mit konkreten Empfehlungen — bestehende Darstellung in § 5.2 bleibt korrekt.
+- Altman-Verfahren-Update: keine neuen prozessualen Fakten seit Version 7.0 (Arraignment weiterhin 5. Mai 2026).
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine leeren Abschnitte; Deutschland-These in Zusammenfassung referenziert. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte unverändert; fünf Robotersteuer-Typen, drei Hebel, sieben Empfehlungen stimmen. |
+| 2.1.3 Querverweise | OK | Keine Querverweise entfernt; bestehende §-Referenzen (§ 2.1, 4.3, 4.5, 5.1, 5.4, 8.3, 8.4, 8.5, 9.5, 10.2) unverändert gültig. |
+| 2.1.4 Roter Faden | OK | Neue Einfügungen ordnen sich in die rechtliche Perspektive (§ 4.3/4.5) und den ökonomischen Szenariorobustheits-Absatz (§ 3.5) ein; keine Architekturverschiebung. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; Fett-Lead-Ins („Sub-föderale Parallele", „Gegenmodell Bundesregierung") einheitlich formatiert; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Neue Fakten mehrfach belegbar: S.4214 (congress.gov, sanders.senate.gov, Roll Call, Axios, Al Jazeera, Hill); Maine-Moratorium (Spectrum News, Maine Morning Star, The Hill, WBUR, NBC); Trilog-Status (Legislative Train Schedule, CIO, OneTrust); Anthropic-Index (anthropic.com, Euronews, Built In); AI Action Plan (whitehouse.gov, dol.gov, Stanford HAI, CSIS). |
+| 2.2.2 Redundanzprüfung | OK | S.4214 ersetzt die bisher vage „Folgeinitiative"-Formulierung, keine Dopplung; Maine separat als Sub-föderale Parallele; Trump AI Action Plan als Gegenmodell-Block neben Sanders/AOC, keine Redundanz; Anthropic-Index bleibt als einmaliger Absatz in § 3.5. |
+| 2.2.3 Argumentation | OK | S.4214 wird im Konjunktiv referiert (Entwurf, geringe Annahmechancen); Maine-Vorgang mit laufender Gouverneurs-Entscheidung; Trump-Plan sachlich mit Kennzeichnung der Lücken; Anthropic-Index als empirische Beobachtung mit expliziter Unterscheidung theoretische vs. beobachtete Exposure. |
+| 2.2.4 Ausgewogenheit | OK | Sanders/AOC-Moratorium wird nicht bewertet, sondern referiert; Mills-Prüfungsbedarf korrekt mit industriepolitischer Jay-Ausnahme; Trump-Plan sachlich, inkl. Hinweis auf Gewerkschaftskritik implizit durch „keine fiskalische Umverteilungskomponente". |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | Neue Begriffe im Kontext erklärt: „S. 4214", „AI Workforce Research Hub", „observed exposure" implizit durch „beobachtete" Nutzung; „Maine Data Center Coordination Council" eigenständig; Abkürzungen in Klammern geführt. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neue Quellen in § 11.3 ergänzt: S.4214 (congress.gov), Sanders/AOC-Pressemitteilung (sanders.senate.gov), Whitehouse AI Action Plan, DOL-Blog, Maine-Legislature-Gesetzentwurf, EP-Legislative-Train für Trilog. Anthropic-Index-März-2026-Report in § 11.1 ergänzt. Keine Fließtext-Referenz ohne Nachweis. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil, vollständige URLs ohne Shortener, Datumsangaben „DD. Monat YYYY" bzw. „Monat YYYY"; Entwürfe als solche gekennzeichnet. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen (congress.gov für S.4214; sanders.senate.gov für Section-by-Section; whitehouse.gov für AI Action Plan; europa.eu Legislative Train); Mainstream-Belege für Maine-Verfahren (The Hill, Maine Morning Star, WBUR). |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 23. April 2026: congress.gov S.4214 erreichbar; sanders.senate.gov Pressemitteilung erreichbar; whitehouse.gov AI Action Plan PDF erreichbar; europarl.europa.eu Legislative Train Schedule erreichbar; anthropic.com Economic Index Januar-2026-Report erreichbar. |
+| 2.4.5 Zitatgenauigkeit | OK | S.4214-Kernformulierung („economic gains […] benefit workers, not just the wealthy owners of Big Tech companies") korrekt übersetzt; Maine-Moratorium-Schwelle 20 MW und Endzeitpunkt 1. November 2027 korrekt; Anthropic 94 % theoretische Abdeckung in Computer/Mathematik und Business/Finance korrekt; Trilog-Datum 28. April 2026 korrekt. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge vollständig belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 8.0 durchgängig: Dokumentkopf, `README.md` (Versionszeile und Zitiervorschlag und KI-Offenlegung), `Claude.md` (Stand-Angabe), `build_pdf.py` (DOC_VERSION + sichtbare Metazeile), `build_docx.py` (DOC_VERSION + sichtbare Metazeile), Protokolleintrag. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| 1 | § 4.5 (vor Bereinigung) | Version 7.0 verortete die bundesweite Moratoriums-Initiative unpräzise als „im April 2026 angekündigtes Gesetzespaket", während die formale Einbringung tatsächlich am 25. März 2026 durch Sanders und Ocasio-Cortez erfolgte (S. 4214). | Mittel |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| 1 | Sanders-Moratorium-Datierung und Zuschreibung | Präzisierung im Sanders-Absatz: korrektes Einbringungsdatum 25. März 2026, Gesetzesnummer S. 4214, Nennung AOC als Co-Einbringerin, zentrale Entwurfsformulierung; April-Op-Ed als Re-Up belassen. | Ja |
+
+### Nachprüfung
+
+- 2.1.1 – 2.1.5 nach Einarbeitung: OK
+- 2.2.1 / 2.4.1 / 2.4.2 / 2.4.3 / 2.4.5 nach Ergänzung der Literaturnachweise und Präzisierung: OK
+- 2.5 Versionskonsistenz: OK (8.0 in Dokumentkopf, `README.md` × 2, `Claude.md`, `build_pdf.py` × 2, `build_docx.py` × 2, diesem Protokoll)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 8.0
+- PDF erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.pdf` via `build_pdf.py`)
+- Word erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.docx` via `build_docx.py`)
