@@ -461,3 +461,78 @@ Keine Fehler gefunden; die Version 6.0 war konsistent und nur um neue Sachständ
 - Neue Version: 8.0
 - PDF erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.pdf` via `build_pdf.py`)
 - Word erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.docx` via `build_docx.py`)
+
+---
+
+## Validierung 24. April 2026 — Version 8.0 → Version 9.0
+
+**Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers (Optimalsteuer-Literatur, Trump-AI-Policy, EU-AI-Act-/Digital-Omnibus, OECD Pillar 2, IAB-Arbeitsmarkt, Generationenkapital, Digitalabgaben, Tech-Layoffs). Sieben neue belegbare Entwicklungen identifiziert und eingearbeitet; bereits in Version 8.0 enthaltene Informationen wurden nicht dupliziert.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | Korinek, A., & Lockwood, L. M. (8. Januar 2026): „Public Finance in the Age of AI: A Primer" (Brookings-Arbeitspapier; zugleich NBER Working Paper 34873). Zwei-Phasen-Framework; Ablehnung direkter Robotersteuer zugunsten verbreiterter Konsumbesteuerung und Output-Besteuerung automatisierter Dienstleistungen. | § 3.3 (neuer Literaturabsatz) + § 3.5 (vertiefender Satz in der Zusammenfassung) + § 11.1 (Literatureintrag) | Schließt die größte bisher offene Lücke in der Literaturrezeption: ein öffentlich-finanzielles Framework, das Acemoglu/Thuemmel auf die Einnahmenseite verlängert und konzeptionell mit der europäischen Wertschöpfungsabgaben-Tradition anschlussfähig ist. |
+| 2 | The White House (20. März 2026): *A National Policy Framework for Artificial Intelligence* — Sieben-Felder-Agenda mit Federal-Preemption von State-AI-Laws; flankierende DOL-Initiativen *AI Literacy Framework* (13. Februar 2026) und *Make America AI-Ready* (24. März 2026). | § 4.5 (Erweiterung des Trump-Blocks um Framework + DOL-Initiativen; Hinweis auf Blackburn-Diskussionsentwurf) + § 11.3 (drei neue Einträge) | Konkretisiert den bundes­politischen Gegenpol zur Sanders/AOC-Agenda und erfasst die juristische Herausforderung sub-föderaler Initiativen (Maine, Kalifornien). |
+| 3 | US-Treasury (Januar 2026): Rückzug US-geführter Konzerne aus OECD Pillar 2. | § 4.4 (Ergänzung im OECD-Pillar-2-Absatz) + § 11.3 (Eintrag unter US Department of the Treasury) | Materielle Korrektur für die internationale Koordinationslinie; erhöht das Gewicht unilateraler europäischer Maßnahmen, ohne multilaterale Koordination zu ersetzen. |
+| 4 | Wolfram Weimer / Bundesregierung (Februar–April 2026): Vorschlag einer nationalen Plattform-Digitalabgabe von rund 10 % auf die Werbeerlöse großer Online-Plattformen (Referenz: österreichisches 5 %-Modell); Koalitionsverhandlung mit SPD/CDU vs. CSU. | § 4.4 (neuer Unterblock „Neue nationale Initiative Deutschland") + § 11.3 (Eintrag Kulturstaatsminister) + § 11.5 (Sammelbeleg Meedia / Business Insider / Beck-Aktuell) | Zeigt, dass sich ein deutscher Anknüpfungspunkt bei digitalen Wertschöpfungsflüssen politisch bewegt; methodisch für eine spätere Erweiterung auf KI-Umsätze anschlussfähig an § 5.1. |
+| 5 | IAB-Prognose 2025/2026 Aktualisierung (24. März 2026): BIP-Wachstum +0,8 %; Erwerbspersonenpotenzial sinkt um 40.000 auf 48,62 Millionen Personen. | § 1.1 (Ergänzung der bestehenden IAB-Referenz) + § 11.3 (Datumsnotiz im IAB-Eintrag) | Präzisiert die strukturelle Kenngröße hinter dem Finanzierungsproblem der lohnbasierten Sozialversicherung — unabhängig von KI-Effekten. |
+| 6 | Q2-2026-Layoff-Welle: Oracle 20.000 – 30.000 Stellen (AI-Rechenzentrumsinfrastruktur), Meta ~8.000 Stellen ab 20. Mai 2026, Amazon ~16.000 Stellen; kumuliert > 150.000 Tech-Stellen in 2026 bis Mitte April. | § 1.1 (Ergänzung im bestehenden Tech-Layoff-Satz) + § 11.5 (neuer Sammelbeleg Channeliam / News9live / Entrepreneur News Network) | Verlängert die Q1-Datenreihe und verdichtet den empirischen Druck auf den Substitutionsargumenten. |
+| 7 | Axios-Bericht zum Sanders/AOC-Moratoriumsentwurf (25. März 2026). | § 11.3 (ergänzender Tageszeitungsbeleg zur bestehenden Primärquelle) | Erhöht die Belastbarkeit der Quellenbasis zur S.4214-Einbringung. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- Generationenkapital-Rendite 7,2 % im ersten Jahr 2026: bereits in § 8.6 seit Version 7.0 dokumentiert — keine Doppelung.
+- Anthropic Economic Index „Learning Curves"-Report März 2026: Kernbefunde (Claude Code 79 % Automatisierungsrate, Coding 35 % der Claude.ai-Konversationen) ergänzen das bestehende Bild methodisch, aber nicht argumentativ — die in Version 8.0 aufgenommenen Kennzahlen (94 % theoretische Abdeckung, Verdoppelung der API-Workflows) sind für die steuerpolitische Linie ausreichend.
+- Grundsicherungsreform 2026 (13. SGB-II-Änderungsgesetz, 5. März 2026): arbeitsmarktpolitisch relevant, aber nicht im engeren Sinne KI-/Robotik-steuerbezogen — keine Änderung an § 5.2 vorgenommen.
+- Alterssicherungskommission-Zwischenstand März 2026: substanzielle Arbeit läuft, keine konkreten Empfehlungen veröffentlicht — bestehende Darstellung in § 5.2 bleibt korrekt.
+- Altman-Verfahren-Update: keine neuen prozessualen Fakten seit Version 8.0 (Arraignment weiterhin 5. Mai 2026).
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine leeren Abschnitte; Deutschland-These in Zusammenfassung referenziert. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte 1.1 – 11.5 unverändert; fünf Robotersteuer-Typen, drei Hebel, sieben Empfehlungen stimmen. |
+| 2.1.3 Querverweise | OK | Keine Querverweise entfernt; Weimer-Absatz verweist kontrolliert auf § 5.1; Korinek-Lockwood-Absatz auf § 5.1 und § 3.5. |
+| 2.1.4 Roter Faden | OK | Neue Einfügungen ordnen sich in die ökonomische Forschungslinie (§ 3.3/3.5), die rechtliche Perspektive (§ 4.4/4.5) und die Arbeitsmarkt-Ausgangslage (§ 1.1) ein; keine Architekturverschiebung. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; Fett-Lead-Ins (Korinek & Lockwood, Neue nationale Initiative Deutschland) einheitlich formatiert; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Korinek-Lockwood-Datum 8. Januar 2026 und NBER-Working-Paper-Nummer 34873 doppelt belegbar (brookings.edu, nber.org, ssrn.com); Trump-Framework 20. März 2026 (whitehouse.gov, Sullivan & Cromwell, Mayer Brown, Morrison Foerster); US-Treasury Januar 2026 (taxnews.ey.com, aoshearman.com); Weimer-Abgabe (bundestag.de, meedia.de, kulturstaatsminister.de, beck-aktuell.de); IAB +0,8 % / −40.000 (iab.de, wirtschaftsticker.com, Aachener Zeitung); Q2-Layoffs (channeliam, news9live, entrepreneur news network). |
+| 2.2.2 Redundanzprüfung | OK | Korinek-Lockwood ist neues Paper (keine Vorversion im Dokument); Trump-Framework 20. März 2026 ergänzt, nicht ersetzt den bestehenden Juli-2025-Block; Weimer-Abgabe ist erstmals im Dokument, keine Dopplung zu Digital Services Tax-Erwähnungen (diese bleiben als EU-weites funktionales Äquivalent referenziert). |
+| 2.2.3 Argumentation | OK | Korinek-Lockwood sauber als Einnahmenseiten-Ergänzung zu Acemoglu/Thuemmel eingeordnet, nicht als Ersetzung; Trump-Framework im Konjunktiv (Entwurf, Blackburn-Diskussionsentwurf); Weimer-Abgabe klar vom KI-Steuergegenstand abgegrenzt. |
+| 2.2.4 Ausgewogenheit | OK | Korinek-Lockwood-Ablehnung direkter Robotersteuern transparent wiedergegeben; Weimer-Abgabe mit expliziter Nennung der CSU-Ablehnung und SPD-Steuermodell-Präferenz; Trump-Framework sachlich, inkl. Hinweis auf bipartisane Preemption-Gegnerschaft. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „Output-Besteuerung", „Federal Preemption", „Plattform-Digitalabgabe", „Erwerbspersonenpotenzial" werden im Kontext erklärt; Abkürzungen in Klammern geführt. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neue Quellen: § 11.1 +1 (Korinek & Lockwood); § 11.3 +6 (White House Framework, DOL 13.02./24.03., US Treasury, Kulturstaatsminister Weimer); § 11.5 +4 (Channeliam, Axios, Globalgovernmentfinance, Mintz/Akin/Sullivan, Meedia/Business Insider/Beck). Jede Fließtext-Referenz hat einen Eintrag; keine Karteileichen. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil, vollständige URLs ohne Shortener, Datumsangaben „DD. Monat YYYY" bzw. „Monat YYYY"; Working-Paper-Kennzeichnung (NBER 34873) korrekt. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen (brookings.edu, nber.org, whitehouse.gov, dol.gov, iab.de, bundestag.de, kulturstaatsminister.de); Mainstream-Belege für Weimer-Verhandlung (meedia, business insider) und Layoffs (tom's hardware, channeliam, news9live). |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 24. April 2026 über WebSearch-Trefferanzeigen: brookings.edu Korinek-Lockwood-Landingpage listed; bundestag.de Digitalabgabe-Textarchiv listed; whitehouse.gov Framework-Landingpage gelistet; dol.gov ETA/OSEC-Releases gelistet; iab.de Prognose-URL unverändert zu Version 8.0. |
+| 2.4.5 Zitatgenauigkeit | OK | Korinek-Lockwood-Kernpositionen (Zwei-Phasen-Framework, Ablehnung direkter Robotersteuer, Konsum- und Output-Besteuerung) korrekt paraphrasiert; Trump-Framework-Sieben-Felder (Kinderschutz, Gemeinwohlschutz, IP, Meinungsfreiheit, Innovation, Workforce, Preemption) korrekt; Weimer-Satz rund 10 % auf Werbeerlöse mit 5 %-Österreich-Referenz korrekt; IAB +0,8 % / −40.000 / 48,62 Mio. korrekt. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge vollständig belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 9.0 durchgängig: Dokumentkopf, `README.md` (Versionszeile und Zitiervorschlag und KI-Offenlegung), `Claude.md` (Stand-Angabe), `build_pdf.py`, `build_docx.py`, diesem Protokoll. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltliche Ergänzung hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Nur inhaltliche Ergänzung; keine Bereinigung bestehender Fehler erforderlich. | — |
+
+### Nachprüfung
+
+- 2.1.1 – 2.1.5 nach Einarbeitung: OK
+- 2.2.1 / 2.4.1 / 2.4.2 / 2.4.3 / 2.4.5 nach Ergänzung der Literaturnachweise: OK
+- 2.5 Versionskonsistenz: OK (9.0 in Dokumentkopf, `README.md` × 2, `Claude.md`, `build_pdf.py`, `build_docx.py`, diesem Protokoll)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine identifiziert)
+- Neue Version: 9.0
+- PDF erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.pdf` via `build_pdf.py`)
+- Word erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.docx` via `build_docx.py`)
