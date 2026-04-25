@@ -7,6 +7,82 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 25. April 2026 — Version 9.0 → Version 10.0
+
+**Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers (Maine-Moratorium, EU AI Act / Digital Omnibus, Sam-Altman-Anschlag, OpenAI-Industriepolitik-Papier, Sanders/AOC S. 4214, deutsche Plattform-Digitalabgabe, Alterssicherungskommission, Generationenkapital, Tech-Layoffs, IAB-Prognose, Anthropic Economic Index). Vier neue belegbare Entwicklungen identifiziert und eingearbeitet; alle übrigen recherchierten Themen waren in Version 9.0 bereits abgedeckt und wurden nicht dupliziert.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | Maine-Veto LD 307 (24. April 2026): Gouverneurin Janet Mills hat das landesweite Moratorium für große KI-Rechenzentren mit ihrem Veto blockiert; Carve-out für 550-Mio.-USD-Standort Jay im Repräsentantenhaus mit 115 zu 29 Stimmen abgelehnt. Veto-Override (Zwei-Drittel-Mehrheit) gilt als unwahrscheinlich. | § 4.5 (Maine-Absatz vollständig aktualisiert: aus „Frist bis 25. April 2026" wurde das tatsächliche Veto am 24. April; Carve-out-Begründung, Override-Hürde, Status „kein wirksames Moratorium etabliert"). § 11.3 (zwei neue Einträge: Office of the Governor of Maine; Sammelbeleg Bangor Daily News / Washington Post / Maine Morning Star unter § 11.5). | Schließt das in Version 9.0 noch offene Frist-Ende mit dem tatsächlichen Ergebnis ab und korrigiert die zentrale sub-föderale Referenz für KI-spezifische steuerliche Anknüpfungspunkte. |
+| 2 | Microsoft-Buyout-Welle (24. April 2026): rund sieben Prozent der länger beschäftigten US-Belegschaft erhalten Buyout-Angebote; CNBC ordnet die parallel bestätigten Meta-Streichungen erstmals als „AI-driven labor crisis" ein. | § 1.1 (Ergänzung im bestehenden Tech-Layoff-Satz; ein neuer Satz mit Microsoft + CNBC-Framing). § 11.5 (zwei neue Einträge: CNBC „AI labor crisis"; Yahoo Finance / Fast Company-Sammelbeleg). | Konkretisiert die Eskalationsstufe innerhalb des bereits dokumentierten Trends; das CNBC-Framing ist ein begriffliches Update — der Übergang von Einzelfällen zu einer kumulativen Branchenerzählung. |
+| 3 | Status der deutschen Plattform-Digitalabgabe vom 22./23. April 2026: Onvista-Bericht „Koalition ringt weiter um Digitalabgabe" (22.04.); Weimer kündigt auf den Medientagen Mitteldeutschland (23.04.) ein Eckpunktepapier an, das Ende April aber noch nicht beschlossen ist. | § 4.4 (Weimer-Block präzisiert: aus „berichtete über breite parlamentarische Mehrheit" wurde der dialektische Stand mit Eckpunktepapier-Ankündigung und Onvista-Realismus). § 11.5 (neuer Onvista-Eintrag). | Korrigiert eine in Version 9.0 zu optimistische Darstellung; spiegelt die fortbestehende Koalitionsspannung (SPD-Steuermodell vs. CSU-Ablehnung) wahrheitsgemäß. |
+| 4 | Tech-Policy-Press-Analyse vom 6. April 2026: OpenAI-Strategiepapier zusätzlich als „Policymercial" eingeordnet — eine Werbebotschaft im Politikgewand. | § 4.5 (OpenAI-Kritik-Satz erweitert: „Regulatory Nihilism" + „Policymercial"). § 11.5 (neuer Tech-Policy-Press-Eintrag). | Erhöht die argumentative Tiefe der bereits vorhandenen Kritik, ohne ihre Quellenstruktur zu doppeln. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- EU Digital Omnibus / Trilog 28. April 2026 mit Verschiebungs-Daten 2. Dezember 2027 / 2. August 2028: bereits in Version 7.0/8.0 vollständig in § 4.4 eingearbeitet — keine Doppelung.
+- Sam-Altman-Anschlag, Arraignment-Termin 5. Mai 2026, Inhaftierung ohne Kaution: bereits in Version 8.0 in § 8.4 dokumentiert — keine neuen prozessualen Fakten seit dem 14. April 2026.
+- OpenAI-Workshop Washington Mai 2026 und Washington-Office: bereits in Version 8.0 in § 4.5 dokumentiert — keine Doppelung.
+- Sanders/AOC S. 4214: in Version 8.0 vollständig in § 4.5 eingearbeitet; im April 2026 keine Anhörung im Committee on Commerce, Science, and Transportation öffentlich angekündigt.
+- Alterssicherungskommission (ASK) Zwischenstand April 2026: keine substanziell neuen Empfehlungen veröffentlicht; Reformpaket bis Mitte 2026 erwartet — bestehende Darstellung in § 5.2 bleibt korrekt.
+- Generationenkapital Q1-2026-Quartalsdaten: über die seit Version 7.0 dokumentierte 7,2-Prozent-Anlaufrendite hinaus keine separat ausgewiesenen Q1-Werte verfügbar.
+- IAB-Prognose-Aktualisierung über den 24. März 2026 hinaus: keine neue Hauptprognose seit Version 9.0 erschienen.
+- Anthropic Economic Index April-2026-Report: kein neuer Report nach „Learning curves" vom 24. März 2026.
+- Meta 8.000 Stellen ab 20. Mai 2026: in Version 9.0 bereits exakt mit Datum dokumentiert; die 24.-April-Berichterstattung bestätigt, ergänzt aber nicht.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine leeren Abschnitte; Deutschland-These in Zusammenfassung referenziert. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte unverändert; fünf Robotersteuer-Typen, drei Hebel und sieben Empfehlungen stimmen. |
+| 2.1.3 Querverweise | OK | Keine Querverweise entfernt oder verschoben; Maine-Update bleibt im bestehenden § 4.5-Kontext, Microsoft-Ergänzung in § 1.1, Weimer in § 4.4, Tech-Policy-Press in § 4.5. |
+| 2.1.4 Roter Faden | OK | Maine-Veto und Microsoft-Buyouts ordnen sich in die Arbeitsmarkt- und Regulierungslinie ein; Weimer-Präzisierung und „Policymercial"-Ergänzung sind argumentative Schärfungen ohne Architekturverschiebung. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; Fett-Lead-Ins (Sub-föderale Parallele — Maine) unverändert; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Maine-Veto 24.04.2026 belegt durch Office of the Governor (maine.gov), Bangor Daily News, Washington Post, Maine Morning Star; Carve-out-Abstimmungsergebnis 115:29 belegt; Microsoft-Buyouts 7 % via CNBC und Yahoo Finance / Fast Company belegt; Onvista 22.04.2026 zur Weimer-Verhandlung; Tech Policy Press 06.04.2026 als Originalanalyse zum OpenAI-Papier. |
+| 2.2.2 Redundanzprüfung | OK | Maine-Aktualisierung ersetzt die offene Frist-Formulierung statt sie zu duplizieren; Microsoft-Ergänzung schließt an den bestehenden Q1/April-Layoff-Satz an, nicht ein neuer Absatz; Weimer-Update überschreibt den optimistischeren Vorgängersatz; OpenAI-Kritik wird im selben Satz erweitert. |
+| 2.2.3 Argumentation | OK | Maine als „Präzedenzraum trotz Veto" sauber argumentiert; Microsoft im bestehenden Substitutionsargument verortet; Weimer mit dialektischem Verhandlungsstand statt einseitiger Mehrheitsbehauptung; Policymercial parallel zu „Regulatory Nihilism" als zweite Kritiklinie. |
+| 2.2.4 Ausgewogenheit | OK | Maine: Veto-Begründung (industriepolitische Erwägung Jay) sachlich wiedergegeben; Microsoft / Meta-Welle ohne dramatisierende Sprache, CNBC-Begriff in Anführungszeichen; Weimer beidseitig (Mehrheit-Behauptung + Onvista-Realismus); OpenAI-Kritik bleibt bei sachlich belegbaren Begriffen. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „Buyout-Programme", „Carve-out", „Veto-Überschreibung", „Policymercial" beim ersten Auftreten erklärt; Anführungszeichen für Begriff­übernahmen aus Quellen einheitlich gesetzt. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neue Quellen: § 11.3 +1 (Office of the Governor of Maine); § 11.5 +5 (CNBC; Yahoo Finance / Fast Company; Onvista; Bangor Daily News / Washington Post / Maine Morning Star; Tech Policy Press). Jede Fließtext-Referenz hat einen Eintrag; keine Karteileichen. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil, vollständige URLs ohne Shortener, Datumsangaben „DD. Monat YYYY"; Sammelbelege durch Pipe-Zeichen getrennt wie bereits in Version 9.0 etabliert. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen (maine.gov für das Veto); etablierte Mainstream-Belege (CNBC, Washington Post, Bangor Daily News, Onvista) für die kurzfristigen Layoff- und Politikvorgänge; Tech Policy Press als anerkannte Fachpublikation für die OpenAI-Kritik. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 25. April 2026 über die WebSearch-Trefferanzeigen: maine.gov-Pressemitteilung zum LD-307-Veto gelistet; bangordailynews.com Veto-Story gelistet; cnbc.com „AI labor crisis"-Artikel gelistet; onvista.de Weimer-Bericht gelistet; techpolicy.press „policymercial"-Analyse gelistet. |
+| 2.4.5 Zitatgenauigkeit | OK | Maine-Veto: Datum, LD-Nummer, Carve-out-Abstimmung 115:29, Veto-Override-Hürde korrekt; Microsoft 7 %-Buyouts und CNBC-Framing „AI-driven labor crisis" in direkter Anführung; Onvista-Schlagzeile „Koalition ringt weiter um Digitalabgabe" wörtlich übernommen; „Policymercial" als Originalbegriff aus Tech Policy Press gekennzeichnet. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge vollständig belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 10.0 durchgängig: Dokumentkopf, `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung), `Claude.md` (Stand-Angabe), `build_pdf.py` (DOC_VERSION + Titelseiten-Label), `build_docx.py` (DOC_VERSION + Titelseiten-Label), diesem Protokoll. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltliche Ergänzung hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Nur inhaltliche Ergänzung; keine Bereinigung bestehender Fehler erforderlich. | — |
+
+### Nachprüfung
+
+- 2.1.1 – 2.1.5 nach Einarbeitung: OK
+- 2.2.1 / 2.4.1 / 2.4.2 / 2.4.3 / 2.4.5 nach Ergänzung der Literaturnachweise: OK
+- 2.5 Versionskonsistenz: OK (10.0 in Dokumentkopf, `README.md` × 2, `Claude.md`, `build_pdf.py` × 2, `build_docx.py` × 2, diesem Protokoll)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine identifiziert)
+- Neue Version: 10.0
+- PDF erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.pdf` via `build_pdf.py`)
+- Word erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.docx` via `build_docx.py`)
+
+---
+
 ## Validierung 19. April 2026 — Version 1.0 → Version 2.0
 
 ### Prüfergebnis

@@ -10,7 +10,7 @@
 
 Dieses Projekt pflegt ein Arbeitspapier zum Diskussionsstand rund um die Besteuerung von KI und Robotik, wenn diese menschliche Arbeit substituieren. Das Papier verbindet drei Perspektiven — ökonomisch-wissenschaftlich, rechtlich-steuerpolitisch und sozial-/verteilungspolitisch — und entwickelt in Kapitel 8 mit der Deutschland-These eine eigenständige Position. Es dient als Wissens- und Diskussionsgrundlage und wird regelmäßig aktualisiert, validiert und als PDF und Word-Dokument exportiert.
 
-**Aktueller Stand:** Version 9.0, April 2026, 11 Kapitel, rund 27 Seiten.
+**Aktueller Stand:** Version 10.0, April 2026, 11 Kapitel, rund 27 Seiten.
 
 Das Papier steht unter der Creative-Commons-Lizenz CC BY 4.0.
 
