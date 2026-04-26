@@ -7,6 +7,84 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 26. April 2026 — Version 10.0 → Version 11.0
+
+**Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers (Robotersteuer / Wertschöpfungsabgabe in Deutschland, EU AI Act und Digital Omnibus, Maine-Moratorium und Veto-Override, Sanders/AOC S. 4214, OpenAI Industrial Policy, Tech-Layoffs Microsoft / Meta / Amazon, OECD Pillar 2, Generationenkapital, Alterssicherungskommission, Anthropic Economic Index, Korinek/Lockwood, Falk/Tsoukalas). Fünf neue belegbare Entwicklungen identifiziert und eingearbeitet; alle übrigen recherchierten Themen waren in Version 10.0 bereits enthalten und wurden nicht dupliziert.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | Wissenschaftliche Dienste des Deutschen Bundestages, Sachstand WD 4 - 3000 - 040/25 (4. September 2025): *Aspekte einer Wertschöpfungsabgabe beziehungsweise einer Robotersteuer über die Finanzierung der sozialen Sicherungssysteme hinaus*. Verknüpft Wertschöpfungsabgabe, kommunale Finanzierung, OECD Two-Pillar-Modell und Robotersteuer als komplementäre Antworten auf die Erosion der klassischen Steuerbasen. | § 5.1 (neuer Block „Aktuelle Sachstandsanalyse des Bundestages"). § 11.3 (neuer Eintrag mit Direkt-URL). | Erste parlamentarische Bestandsaufnahme, die in Deutschland Wertschöpfungsabgabe und Robotersteuer zusammen denkt; bestätigt die Typologie aus § 2.1 aus parlamentarischer Perspektive und macht den OECD-Diskussionsstrang (§ 4.4) anschlussfähig. |
+| 2 | Connecticut *Raised Bill 515* / SB 2 (April 2026): *„workforce and productivity gap"-Zuschlag* mit Bemessungsformel des Office of Policy and Management bis 1. Januar 2027; Aufkommen fließt in den *Workforce and Economic Stability Account*; Ausnahme für „augmented productivity" (Wertschöpfung pro Beschäftigtem ohne Personalabbau). Senatsabstimmung über das umfassendere SB 2 am 21./24. April 2026 (32 zu 4). | § 4.5 (neuer Block „Sub-föderale Parallele — Connecticut"). § 11.3 (zwei neue Einträge). § 11.5 (drei neue Einträge: CT Mirror × 2, Hartford Business Journal). | Erste US-bundesstaatliche Konkretisierung einer Typ-5-Logik (zielgerichtete Ersatzabgabe nach § 2.1) — überführt die in § 9.1 diskutierten Mess- und Umgehungsprobleme in Gesetzestext und ergänzt Maine als zweiter sub-föderaler Strang. |
+| 3 | Polen — *ulga na robotyzację* (Robotisierungs-Steuerentlastung, 2022 – Ende des Steuerjahres 2026): 50 % zusätzlicher Abzug für Investitionen in neue Industrieroboter, funktional zugehörige Maschinen, Steuerungssoftware und Schulungs-/Implementierungskosten; befristete Robotersubvention auslaufend mit dem Steuerjahr 2026. | § 6 (neuer Abschnitt § 6.3 „Polen: Gegenmodell — Robotisierungs-Steuerentlastung mit Sunset 2026"; bisheriges § 6.3 zu „Weitere Ansätze" wird zu § 6.4). § 11.3 (neuer Eintrag). | Empirischer Anker für Thuemmels Subventions-/Besteuerungsschwelle aus § 3.2 — dritter Punkt auf dem Spektrum Subvention (Polen) → Reduktion (Südkorea) → Wertschöpfungsabgabe (IRAP). Ergänzt die internationale Vergleichsbasis ohne Doppelung. |
+| 4 | Microsoft-Buyout-Konkretisierung (TechCrunch 23. April 2026 / GeekWire 24. April 2026): Eligibility = Lebensalter + Betriebszugehörigkeit ≥ 70; bei rund 125.000 US-Beschäftigten mögliche Austritte bis ~ 8.750; Notification 7. Mai 2026 mit 30-Tage-Annahmefenster. Branchen-Tracker weisen kumuliert über 92.000 Tech-Stellenstreichungen für 2026 (Stand 24./25. April 2026) aus; Amazon-Reduktion seit Oktober 2025 bei ≥ 30.000 Stellen. | § 1.1 (Microsoft-Satz präzisiert: Voluntary-Retirement-Konstrukt, Eligibility-Formel, Größenordnung; aktualisierter Tech-Layoff-Bestand 2026 ≥ 92.000; Amazon-Halbjahresangabe). § 11.5 (zwei neue Einträge: GeekWire / TechCrunch und TrueUp / Fast Company). | Konkretisiert die in Version 10.0 angerissene Microsoft-Buyout-Welle mit primärseitig dokumentierten Strukturparametern und ersetzt den bisherigen Q1-Bestand (78.500) durch den neuen kumulierten Wert (92.000). |
+| 5 | GKV-Reform-Grobkonzept Bundesgesundheitsministerin Nina Warken (CDU) vom 14. April 2026: Einsparziel rund 20 Milliarden Euro für 2027 zur Vermeidung eines Defizits von rund 15 Milliarden Euro 2027 / bis 40 Milliarden Euro 2030. | § 5.2 (Reformprozess-Block ergänzt um Leistungsseiten-Dimension; Verknüpfung zur in § 5.1 / § 1.1 angerissenen Doppelbelastung der lohnbasierten Sicherungszweige). § 11.3 (neuer BMG-Eintrag). | Belegt die parallele finanzpolitische Spannung der lohnbasierten Sicherungszweige unabhängig vom KI-Diskurs und stützt das Argument für eine wertschöpfungsbasierte Verbreiterung der Bemessungsgrundlage. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- EU AI Act / Digital Omnibus: Trilog-Konvergenzpunkte (Verschiebung 2. Dezember 2027 für Annex III, 2. August 2028 für Annex I) bereits in § 4.3 / § 4.4 vollständig dokumentiert; Trilogtermin 28. April 2026 noch nicht abgeschlossen — Stand bleibt aktuell.
+- OECD Pillar 2 / US-Treasury-Side-by-Side: in Version 9.0 in § 4.4 dokumentiert — die jüngsten Bestätigungen aus April 2026 (z. B. International Tax Review, Grant Thornton) ergänzen den Sachverhalt nicht über das bereits Belegte hinaus.
+- Anthropic Economic Index: kein neuer Report nach „Learning curves" (24. März 2026) — Stand bleibt aktuell.
+- Korinek & Lockwood / Falk & Tsoukalas: in Version 9.0 / 10.0 vollständig in § 3.3 und § 11.1 dokumentiert; April 2026 keine substanzielle Folgepublikation.
+- Generationenkapital: über die seit Version 7.0 dokumentierte 7,2-Prozent-Anlaufrendite hinaus keine neuen ausgewiesenen Q1-Werte verfügbar.
+- Alterssicherungskommission: kein offizieller Zwischenbericht im April 2026 — Reformpaket bis Mitte 2026 erwartet; Darstellung in § 5.2 bleibt korrekt.
+- Sanders-HELP-Anhörung im April 2026: in Version 9.0 / 10.0 in § 4.5 belegt; keine neuen prozessualen Schritte am 25./26. April 2026.
+- Weimer-Digitalabgabe: Verhandlungsstand 22./23. April 2026 in Version 10.0 vollständig in § 4.4 dokumentiert; kein Eckpunktepapier am 25./26. April 2026 beschlossen.
+- Maine-Veto LD 307: in Version 10.0 vollständig in § 4.5 dokumentiert; keine Override-Schritte zwischen 24. und 26. April 2026.
+- Connecticut SB 2 als selbstständige AI-Regulierung: Kerngegenstand (Frontier-Modelle, Sandbox, Beratungsstruktur) ist nicht steuerpolitisch — knappe Erwähnung im § 4.5-Connecticut-Block reicht; keine eigene Sektion im Hauptdokument.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; Kapitel 6 erhält durch das neue § 6.3 (Polen) eine zusätzliche Unterüberschrift, das bisherige § 6.3 wandert konsistent zu § 6.4; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte in Kapitel 6 von § 6.1 bis § 6.4 fortlaufend; alle übrigen Unterabschnittsnummern unverändert; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Keine bestehenden §-Querverweise zeigen auf das alte § 6.3 (geprüft: alle bisherigen Verweise auf Kapitel 6 zeigen auf 6.1 / 6.2 oder „Kapitel 6" als Ganzes). Neue Verweise im Connecticut-Block (§ 2.1, § 9.1, § 5.1), im Polen-Block (§ 3.2, § 6.1, § 6.2) und im GKV-Block (§ 5.1, § 1.1) zeigen jeweils auf existierende Stellen. |
+| 2.1.4 Roter Faden | OK | Polen ergänzt Südkorea/IRAP als drittes Spektrum-Beispiel und schließt an § 3.2 (Thuemmel-Subventions-/Besteuerungsschwelle) an; Connecticut konkretisiert die Typ-5-Logik aus § 2.1 und § 9.1; Bundestag-Sachstand verbindet § 5.1 mit § 4.4 (OECD); GKV-Reform stützt § 5.1 / § 5.2 auf der Leistungsseite; Microsoft-Buyout-Update bleibt in der bestehenden Arbeitsmarkt-Linie. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; Fett-Lead-Ins in § 4.5 („Sub-föderale Parallele — Connecticut") konsistent zur Maine-Konstruktion; § 6.3-Überschrift im selben Stil wie § 6.1 / § 6.2; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Bundestag WD 4 - 040/25 mit Datum 4. September 2025 und URL belegt; Connecticut Raised Bill 515 (Productivity-Gap-Zuschlag, OPM-Frist 1. Januar 2027) und SB 2 (Senatsvotum 32 zu 4 am 21./24. April 2026) belegt durch CT Mirror und Hartford Business Journal; polnische *ulga na robotyzację* (50 % Zusatzabzug, Befristung Steuerjahr 2026) belegt durch RSM Poland und PwC Tax Summaries; Microsoft-Buyout-Eligibility (Alter + Betriebszugehörigkeit ≥ 70), Notification 7. Mai 2026 und 30-Tage-Annahmefrist belegt durch GeekWire und TechCrunch; Tech-Layoff-Bestand 2026 ≥ 92.000 belegt durch CNBC und TrueUp; GKV-Einsparziel 20 Mrd. EUR / Defizit-Hochrechnung 15 → 40 Mrd. EUR belegt durch BMG-Berichterstattung. |
+| 2.2.2 Redundanzprüfung | OK | Connecticut wird nicht als zweite Maine-Variante doppelt dargestellt, sondern als eigener Mechanismus (Output statt Standort); Polen-Abschnitt referenziert Südkorea und IRAP per Querverweis statt sie zu wiederholen; Bundestag-Block referenziert OECD-Strang aus § 4.4 und Typologie aus § 2.1 statt sie zu duplizieren; GKV-Block referenziert Wertschöpfungslogik aus § 5.1 statt sie zu wiederholen. |
+| 2.2.3 Argumentation | OK | Connecticut bleibt sachlich als Typ-5-Konkretisierung mit offenen Mess- und Verabschiedungsfragen verortet; Polen wird argumentativ als negativer Spiegel zur Robotersteuer-Debatte eingeführt, ohne als steuerpolitisches Vorbild präsentiert zu werden; Bundestag-Sachstand wird auftragsgemäß als deskriptive Bestandsaufnahme markiert; GKV-Reform wird auf der Leistungsseite verortet, ohne kausal an KI-Effekte gekoppelt zu werden. |
+| 2.2.4 Ausgewogenheit | OK | Connecticut: Befürworterperspektive (Workforce Stability) und CT-Mirror-Kritik („wrong signal") beide referenziert; Polen: Mechanik beschrieben, ohne polemisch gegen Robotersteuer-Forderungen gewendet zu werden; Microsoft-Buyout: Strukturparameter sachlich, kein dramatisierender Ton; GKV: Einspar- und Defizitwerte nüchtern aus der Berichterstattung übernommen. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „Workforce-and-Productivity-Gap-Zuschlag", „augmented productivity", „ulga na robotyzację", „Voluntary-Retirement-Programm" beim ersten Auftreten erklärt; Anführungszeichen für Begriffsübernahmen aus Quellen einheitlich gesetzt. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neue Einträge: § 11.3 +5 (Bundestag WD 4 - 040/25; Connecticut Raised Bill 515; Connecticut SB 2; BMG / Warken; Polen *ulga na robotyzację*); § 11.5 +5 (CT Mirror Productivity-Gap; CT Mirror SB 2; Hartford Business Journal; GeekWire / TechCrunch; TrueUp / Fast Company). Jede Fließtext-Referenz hat einen Eintrag; keine Karteileichen. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil, Datumsangaben „DD. Monat YYYY", Sammelbelege durch Pipe-Zeichen getrennt; URLs vollständig ohne Shortener. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen für die zentralen Aussagen: bundestag.de für WD 4 - 040/25; cga.ct.gov und legiscan.com für CT-Bills; bundesgesundheitsministerium.de für GKV-Grobkonzept. Mainstream-Belege (CT Mirror, Hartford Business Journal, GeekWire, TechCrunch, CNBC, Fast Company, TrueUp) für die journalistischen Layoff- und Politikvorgänge; etablierte Steuerberatungsplattformen (RSM Poland, PwC Tax Summaries) für das polnische Robotisierungsregime. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 26. April 2026 über die WebSearch-Trefferanzeigen: bundestag.de WD-4-040-25.pdf gelistet; ctmirror.org Productivity-Gap-Analyse gelistet; legiscan.com SB 2 Eintrag gelistet; hartfordbusiness.com Productivity-Gain-Surcharge-Bericht gelistet; geekwire.com Microsoft-Voluntary-Retirement-Story gelistet; techcrunch.com Microsoft-Buyout-Story gelistet; trueup.io Layoff-Tracker gelistet; rsm.global Polen-Robotisierung gelistet. |
+| 2.4.5 Zitatgenauigkeit | OK | Bundestag-WD-Titel und Aktenzeichen wörtlich; Connecticut Raised Bill 515 (Productivity-Gap-Zuschlag, Workforce-and-Economic-Stability-Account) und SB 2 (Senatsvotum 32 zu 4) wörtlich; Microsoft Eligibility-Formel (Alter + Betriebszugehörigkeit ≥ 70) und Notification-Datum 7. Mai 2026 wörtlich; polnischer Begriff *ulga na robotyzację* in Originalschreibweise; GKV-Einsparziel 20 Mrd. EUR, Defizit-Hochrechnung 15 → 40 Mrd. EUR aus den Berichten exakt übernommen. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge vollständig belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 11.0 durchgängig: Dokumentkopf, `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung), `Claude.md` (Stand-Angabe), `build_pdf.py` (DOC_VERSION + Titelseiten-Label), `build_docx.py` (DOC_VERSION + Titelseiten-Label), diesem Protokoll. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung (Kapitel 6 Renumbering 6.3 → 6.4 verifiziert), Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltliche Ergänzung hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Nur inhaltliche Ergänzung; keine Bereinigung bestehender Fehler erforderlich. | — |
+
+### Nachprüfung
+
+- 2.1.1 – 2.1.5 nach Einarbeitung: OK (insbesondere Kapitel-6-Renumbering geprüft — keine externen Referenzen auf altes § 6.3)
+- 2.2.1 / 2.4.1 / 2.4.2 / 2.4.3 / 2.4.5 nach Ergänzung der Literaturnachweise: OK
+- 2.5 Versionskonsistenz: OK (11.0 in Dokumentkopf, `README.md` × 2, `Claude.md`, `build_pdf.py` × 2, `build_docx.py` × 2, diesem Protokoll)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine identifiziert)
+- Neue Version: 11.0
+- PDF erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.pdf` via `build_pdf.py`)
+- Word erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.docx` via `build_docx.py`)
+
+---
+
 ## Validierung 25. April 2026 — Version 9.0 → Version 10.0
 
 **Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers (Maine-Moratorium, EU AI Act / Digital Omnibus, Sam-Altman-Anschlag, OpenAI-Industriepolitik-Papier, Sanders/AOC S. 4214, deutsche Plattform-Digitalabgabe, Alterssicherungskommission, Generationenkapital, Tech-Layoffs, IAB-Prognose, Anthropic Economic Index). Vier neue belegbare Entwicklungen identifiziert und eingearbeitet; alle übrigen recherchierten Themen waren in Version 9.0 bereits abgedeckt und wurden nicht dupliziert.
