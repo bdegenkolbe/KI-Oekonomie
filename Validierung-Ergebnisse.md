@@ -7,6 +7,83 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 1. Mai 2026 — Version 11.0 → Version 12.0
+
+**Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers (Robotersteuer / Wertschöpfungsabgabe, OpenAI Industrial Policy, Sanders / AOC S. 4214, EU AI Act / Digital Omnibus on AI, Tech-Layoffs Microsoft / Meta / Amazon, Maine-Veto LD 307 und Veto-Override, Connecticut Raised Bill 515, OECD Pillar 2, GKV-Reform, Generationenkapital, Alterssicherungskommission, IAB-Prognose, Sam-Altman-Anschlag, Korinek/Lockwood, Falk/Tsoukalas, Weimer-Digitalabgabe). Vier neue belegbare Entwicklungen identifiziert und eingearbeitet; alle übrigen recherchierten Themen waren in Version 11.0 bereits enthalten und wurden nicht dupliziert.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | Kabinettsbeschluss *GKV-Beitragssatzstabilisierungsgesetz* am 29. April 2026 (Bundesregierung / BMG): aus dem am 14. April 2026 vorgestellten Grobkonzept entwickelter Gesetzentwurf; Sparvolumen im Verlauf der Ressortabstimmung von rund 20 auf rund 16,3 Milliarden Euro für 2027 reduziert; gemeinsame Belastung von Krankenhäusern, pharmazeutischer Industrie, Apotheken, Ärzteschaft, Versicherten, Arbeitgebern und Krankenkassen; Leitsatz „Ausgaben an Einnahmen koppeln". | § 5.2 (bestehender Reformprozess-Block ergänzt um Kabinettsbeschluss, neues Sparvolumen, Leitsatz). § 11.3 (neuer Eintrag mit Direkt-PDF-URL). § 11.5 (neuer Sammeleintrag t-online / ZDFheute / Bundestag HIB). | Konkretisiert die in Version 11.0 ausschließlich auf das Grobkonzept bezogene Darstellung um den ersten formalen Gesetzgebungsschritt; aktualisiertes Sparvolumen verändert die quantitative Aussage. |
+| 2 | Maine House of Representatives — fehlgeschlagene Veto-Überschreibung am 29. April 2026: Abstimmung 72 zu 65 Stimmen für Override; die Zwei-Drittel-Mehrheit klar verfehlt; Mills-Veto bleibt bestehen; Maine etabliert zunächst kein landesweites Rechenzentren-Moratorium. | § 4.5 Maine-Block (Abstimmungsergebnis und Konsequenz präzisiert; redundanter Schluss-Halbsatz „auch wenn Maine selbst zunächst kein wirksames Moratorium etabliert" gestrichen, da nun im Hauptsatz). § 11.3 (neuer Eintrag Maine House of Representatives mit Sammelbelegen). § 11.5 (neuer Sammeleintrag Press Herald / Maine Public / WBUR). | Schließt den in Version 10.0 / 11.0 ausschließlich auf das Veto bezogenen Vorgang prozessual ab und bestätigt die in Version 10.0 prognostizierte Wahrscheinlichkeitseinschätzung mit harten Stimmen. |
+| 3 | Trilog *Digital Omnibus on AI* — zweite Runde am 28. April 2026 ohne Einigung; Streitpunkt insbesondere Verhältnis AI Act / sektorspezifische EU-Regelungen (Anhang I) sowie Rechtsgrundlage für Bias-Daten-Verarbeitung; Konvergenz auf Stichtage 2. Dezember 2027 (Anhang III) und 2. August 2028 (Anhang I); nächste Trilogrunde 13. Mai 2026. | § 4.4 (Trilog-Passus ersetzt: Verhandlungsstand 28. April 2026 ohne Einigung, Konvergenzpunkte auf Stichtage, nächste Runde 13. Mai 2026; Quellenangaben IAPP, A&O Shearman). § 11.3 (Trilog-Eintrag um Verhandlungsstand und IAPP-/A&O-Shearman-Belege erweitert). | Bringt die in Version 11.0 ausschließlich als „vorgesehen" geführte Trilog-Konstellation auf den dokumentierten Verhandlungsstand und stützt die zeitliche Aussage zur AI-Act-Anwendbarkeit. |
+| 4 | Connecticut General Assembly — reguläre Sitzungsperiode endet 6. Mai 2026; Joint Finance Committee hat Raised Bill 515 am 30. März 2026 mit 34 zu 20 Stimmen mit Joint-Favorable-Empfehlung verabschiedet; finale Senatsabstimmung Ende April 2026 noch ausstehend. | § 4.5 Connecticut-Block (Datum 30. März 2026 für Joint Finance Committee, Abstimmungsergebnis 34 zu 20, Sitzungsende 6. Mai 2026 als Deadline ergänzt). | Konkretisiert das in Version 11.0 noch unspezifische „Verabschiedung war Ende April 2026 noch nicht erfolgt" um Datum und Stimmenverhältnis und macht das Zeitfenster für eine Endabstimmung klar nachvollziehbar. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- OpenAI Workshop Mai 2026 / D.C.-Büro: bereits in Version 9.0 / 10.0 in § 4.5 dokumentiert; kein neuer Veröffentlichungsstand.
+- Sanders-HELP-Anhörung: in Version 11.0 vollständig in § 4.5 dokumentiert; keine prozessualen Schritte zwischen 26. April und 1. Mai 2026.
+- Korinek & Lockwood / Falk & Tsoukalas / Anthropic Economic Index: in Version 9.0 / 10.0 / 11.0 vollständig in § 3.3 und § 11.1 dokumentiert; keine neue Folgepublikation.
+- OECD Pillar 2 Implementierungsschritte April / Mai 2026 (Italien, Brasilien, Niederlande, Deutschland, Singapur Registrierungsportal): rein technische Verfahrensschritte ohne KI-spezifische Anknüpfung; das in § 4.4 dokumentierte Side-by-Side-Paket bleibt der maßgebliche steuerpolitische Bezug.
+- Generationenkapital: über die in Version 7.0 / 11.0 dokumentierte 7,2-Prozent-Anlaufrendite und die 200-Mrd.-EUR-Zielgröße hinaus keine neuen Q1-Werte verfügbar.
+- Alterssicherungskommission: kein offizieller Zwischenbericht zum Stichtag 1. Mai 2026; Reformvorschläge bis Mitte 2026 angekündigt; § 5.2-Darstellung bleibt korrekt.
+- Microsoft-Buyout / Meta-Layoff-Welle: in Version 10.0 / 11.0 mit Strukturparametern (Eligibility, Notification-Datum, Tech-Layoff-Bestand) vollständig dokumentiert; kein neuer Stand zwischen 26. April und 1. Mai 2026.
+- Sam-Altman-Anschlag: Hauptanhörung am 5. Mai 2026 terminiert (in Version 7.0 / 11.0 dokumentiert); zum Stichtag 1. Mai 2026 keine neuen prozessualen Schritte.
+- Weimer-Digitalabgabe: Verhandlungsstand 22./23. April 2026 in Version 10.0 vollständig in § 4.5 dokumentiert; kein Eckpunktepapier und keine Koalitionsentscheidung zwischen 26. April und 1. Mai 2026.
+- IAB-Prognose: Update vom 24. März 2026 in Version 9.0 / 11.0 in § 1.1 und § 11.3 belegt; kein Folge-Update zum Stichtag 1. Mai 2026.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften, keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte unverändert; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Keine bestehenden §-Querverweise verändert; neue Querverweise im GKV-Block (§ 5.1) konsistent mit den vorhandenen Verweisen aus Kapitel 5. |
+| 2.1.4 Roter Faden | OK | GKV-Kabinettsbeschluss verlängert die in § 5.2 angelegte Linie; Maine-Override-Ergebnis schließt den in § 4.5 begonnenen Vorgang prozessual ab; Trilog-Update aktualisiert § 4.4; Connecticut-Konkretisierung bleibt im § 4.5-Block der sub-föderalen Parallelen. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; keine neuen Tabellen oder Lead-Ins eingeführt; bestehende Lead-Ins unverändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | GKV-Beitragssatzstabilisierungsgesetz-Kabinettsbeschluss am 29. April 2026 und reduziertes Sparvolumen 16,3 Mrd. EUR durch BMG-Gesetzentwurfs-PDF, t-online und ZDFheute belegt; Maine House Override 72 zu 65 belegt durch Maine Morning Star, Maine Public und TechCrunch; Trilog-Verhandlungsstand 28. April 2026 belegt durch IAPP und A&O Shearman; Konvergenzpunkte 2. Dezember 2027 / 2. August 2028 belegt durch IAPP und OneTrust; Connecticut Raised Bill 515 — Joint Finance Committee 30. März 2026 (34 zu 20) und Sitzungsende 6. Mai 2026 belegt durch LegiScan und Connecticut General Assembly. |
+| 2.2.2 Redundanzprüfung | OK | GKV-Update als Fortschreibung des bestehenden § 5.2-Blocks (kein zusätzlicher Block, sondern eine Ergänzung); Maine-Override im bestehenden Maine-Block (kein neuer Block); Trilog-Update ersetzt den älteren „Trilog-vorgesehen"-Satz; Connecticut-Update ersetzt den älteren „Verabschiedung noch nicht erfolgt"-Halbsatz. Keine doppelten Sachverhaltsdarstellungen entstanden. |
+| 2.2.3 Argumentation | OK | GKV-Reform bleibt auf der Leistungsseite verortet, ohne kausal an KI-Effekte gekoppelt zu werden — die Kopplung erfolgt nur über die in § 5.1 / § 1.1 angerissene Spannung der lohnbasierten Sicherungszweige; Maine-Override sachlich als prozessuales Ergebnis; Trilog-Stand mit Konjunktiv für die noch ausstehende Einigung am 13. Mai 2026; Connecticut bleibt als ausstehendes Verfahren markiert. |
+| 2.2.4 Ausgewogenheit | OK | GKV: Einspar- und Defizitwerte sowie Reduktion des Sparvolumens nüchtern aus der Berichterstattung übernommen; Maine: Override-Verfehlung ohne Wertung; Trilog: beide Streitpunkte (Sektorensplit, Bias-Daten) genannt; Connecticut: Joint Finance Committee mit klarem 34-zu-20-Ergebnis dargestellt, ohne als Vorentscheidung zu interpretieren. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „GKV-Beitragssatzstabilisierungsgesetz" beim ersten Auftreten kursiv; „Joint Favorable" und „Anhang I / Anhang III" beim ersten Auftreten erläutert bzw. im Kontext klar; alle übrigen Begriffe in der bisherigen Schreibweise. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neue Einträge: § 11.3 +2 (BMG / Bundesregierung GKV-Beitragssatzstabilisierungsgesetz; Maine House of Representatives Veto-Override); § 11.5 +2 (t-online / ZDFheute / Bundestag HIB; Press Herald / Maine Public / WBUR); zwei bestehende Einträge erweitert (Trilog-Eintrag um Verhandlungsstand und IAPP/A&O Shearman; Maine Daily News-Sammeleintrag um Override-Coverage). Jede neue Fließtext-Referenz hat einen Eintrag; keine Karteileichen entstanden. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil, Datumsangaben „DD. Monat YYYY", Sammelbelege durch Pipe-Zeichen getrennt; URLs vollständig ohne Shortener. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen für die zentralen Aussagen: bundesgesundheitsministerium.de PDF des Kabinetts-Gesetzentwurfs; europarl.europa.eu Legislative Train Schedule; legiscan.com / cga.ct.gov für Connecticut-Bills; mainepublic.org und mainemorningstar.com für die Maine-Override-Abstimmung. Mainstream- und Fachbelege (IAPP, A&O Shearman, OneTrust, DLA Piper, t-online, ZDFheute, Bundestag HIB, TechCrunch, WBUR, Press Herald) flankieren den Primärnachweis. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 1. Mai 2026 über die WebSearch-Trefferanzeigen: bundesgesundheitsministerium.de Kabinetts-PDF gelistet; mainemorningstar.com Override-Bericht gelistet; mainepublic.org Override-Bericht gelistet; iapp.org Trilog-Analyse gelistet; aoshearman.com Trilog-Analyse gelistet; t-online.de Kabinetts-Bericht gelistet; zdfheute.de Sparplan-Bericht gelistet; bundestag.de HIB-Kurzmeldung gelistet. |
+| 2.4.5 Zitatgenauigkeit | OK | GKV-Sparvolumen 16,3 Mrd. EUR und Leitsatz „Ausgaben an Einnahmen koppeln" wörtlich aus der Berichterstattung; Maine House Override-Ergebnis 72 zu 65 wörtlich; Trilog-Konvergenzpunkte 2. Dezember 2027 (Anhang III) und 2. August 2028 (Anhang I) wörtlich; Connecticut Joint Finance Committee 34 zu 20 wörtlich. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge vollständig belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 12.0 durchgängig: Dokumentkopf, `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung), `Claude.md` (Stand-Angabe), diesem Protokoll. Build-Skripte (`build_pdf.py`, `build_docx.py`) müssen in der Bereinigungsphase ebenfalls auf 12.0 / Mai 2026 gesetzt werden. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| 1 | `build_pdf.py` und `build_docx.py` | Versions- und Stand-Felder müssen für den Export auf 12.0 / Mai 2026 angepasst werden. | Gering |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| 1 | Versions- und Stand-Felder in den Build-Skripten | DOC_VERSION und Titelseiten-/Footer-Label in `build_pdf.py` und `build_docx.py` auf 12.0 / Mai 2026 gesetzt; PDF und DOCX neu erzeugt. | Ja |
+
+### Nachprüfung
+
+- 2.1.1 – 2.1.5 nach Einarbeitung: OK
+- 2.2.1 / 2.4.1 / 2.4.2 / 2.4.3 / 2.4.5 nach Ergänzung der Literaturnachweise: OK
+- 2.5 Versionskonsistenz: OK (12.0 in Dokumentkopf, `README.md` × 2, `Claude.md`, `build_pdf.py`, `build_docx.py`, diesem Protokoll)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 12.0
+- PDF erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.pdf` via `build_pdf.py`)
+- Word erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.docx` via `build_docx.py`)
+
+---
+
 ## Validierung 26. April 2026 — Version 10.0 → Version 11.0
 
 **Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers (Robotersteuer / Wertschöpfungsabgabe in Deutschland, EU AI Act und Digital Omnibus, Maine-Moratorium und Veto-Override, Sanders/AOC S. 4214, OpenAI Industrial Policy, Tech-Layoffs Microsoft / Meta / Amazon, OECD Pillar 2, Generationenkapital, Alterssicherungskommission, Anthropic Economic Index, Korinek/Lockwood, Falk/Tsoukalas). Fünf neue belegbare Entwicklungen identifiziert und eingearbeitet; alle übrigen recherchierten Themen waren in Version 10.0 bereits enthalten und wurden nicht dupliziert.
