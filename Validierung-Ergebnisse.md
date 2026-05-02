@@ -7,6 +7,84 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 2. Mai 2026 — Version 12.0 → Version 13.0
+
+**Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers am 2. Mai 2026 (KI-Steuer / Wertschöpfungsabgabe / Robotersteuer im deutschsprachigen Raum, EU AI Act / Digital Omnibus Trilog 13. Mai 2026, Maine LD 307 Veto-Override, Connecticut Raised Bill 515, Sanders S. 4214, GKV-Beitragssatzstabilisierungsgesetz, Alterssicherungskommission, Tech-Layoffs Microsoft / Meta / Amazon / Oracle, Altman-Arraignment am 5. Mai 2026, OpenAI Industrial Policy / Workshop, Anthropic Economic Index, Korinek & Lockwood, Generationenkapital, Weimer-Digitalabgabe, IAB-Prognose, Washington-Post-Analyse vom 1. Mai 2026). Vier neue belegbare Entwicklungen identifiziert und eingearbeitet; alle übrigen recherchierten Themen waren in Version 12.0 bereits enthalten und wurden nicht dupliziert.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *Washington Post* (1. Mai 2026): „Layoffs at Amazon, Meta and Microsoft aren't all about AI." Differenzierende Analyse, die die in Version 10.0 ff. dokumentierte „AI-driven labor crisis"-Lesart um drei Mit-Treiber ergänzt — Austerity-Logik (Kompensation hoher KI-Investitionen), Korrektur pandemiebedingter Überbeschäftigung und Routine-Restrukturierungen — und damit die Kausalzuschreibung KI ↔ Layoffs relativiert. | § 1.1 (neuer Schlussteil zur Tech-Layoff-Beschreibung mit explizitem Querverweis zu Typ 5 nach § 2.1 und zu § 9.1, weil die Differenzierung die Anknüpfung einer zielgerichteten Ersatzabgabe weiter erschwert). § 11.5 (neuer Eintrag *Washington Post*, 1. Mai 2026, mit Direkt-URL). | Erste belastbare Gegenposition zur monokausalen KI-Layoff-Lesart aus einem Mainstream-Medium; relevant für die Ausgewogenheitsprüfung (§ 2.2.4) und für die Anknüpfungs-/Messbarkeits-Diskussion in § 9.1. |
+| 2 | Tech-Layoff-Tracker — aktualisierter Stand 1. Mai 2026: SkillSyncer 100.443 betroffene Beschäftigte aus 155 erfassten Layoff-Ereignissen; TrueUp 95.878 Personen aus 249 Meldungen; allein April 2026 mehr als 40.000 Stellen (u. a. Oracle, Meta, Snap). | § 1.1 (Aktualisierung des Tracker-Bestands von ≥ 92.000 zum 24./25. April 2026 auf den jüngsten Stand vom 1. Mai 2026 — Methodikspanne mitberichtet, sechsstellige Größenordnung als robustes Niveau festgehalten). § 11.5 (neuer Eintrag SkillSyncer / TrueUp / BusinessToday, Stand 1. Mai 2026). | Aktualisiert die quantitative Aussage zur Tech-Layoff-Welle, ohne die in Version 11.0 / 12.0 entwickelte Erzähllinie aufzugeben; methodisch transparent durch parallele Tracker-Belege. |
+| 3 | GKV-Beitragssatzstabilisierungsgesetz — Mehrjahresperspektive Anfang Mai 2026: BMG-Tabellen weisen Sparvolumen von 19,6 Mrd. EUR für 2027 (gegliedert in 4,9 Mrd. einnahmen­seitig und rund 15 Mrd. ausgaben­seitig) und Anstieg auf 42,8 Mrd. EUR bis 2030 aus; parlamentarische Befassung vor Sommerpause 2026 angekündigt; erste Lesungen im Bundesrat (1. Durchgang) am 2. Mai 2026 und im Bundestag im Verlauf Mai/Juni 2026 vorgesehen. | § 5.2 (bestehender GKV-Block ergänzt um Mehrjahresperspektive bis 2030, Methodik-Diskrepanz zwischen Frühberichterstattung von rund 16,3 Mrd. EUR und BMG-Tabellen mit 19,6 Mrd. EUR transparent gemacht; parlamentarischer Zeitplan ergänzt). § 11.3 (zweiter GKV-Eintrag mit BMG-Pressemeldung, Verfahrensseite und AOK-Fachseite — Sammelbeleg). | Konkretisiert die in Version 12.0 ausschließlich auf den Kabinettsbeschluss bezogene Darstellung um die Mehrjahresperspektive und den parlamentarischen Zeitplan; die Diskrepanz zwischen Frühberichterstattung und BMG-Tabellen wird transparent abgebildet, ohne den vorhandenen 16,3-Mrd.-EUR-Beleg zu ersetzen. |
+| 4 | OpenAI Workshop in Washington, D.C. — Konkretisierung der Eröffnung im Mai 2026: laut OpenAI-Mitteilung wird der Workshop als ständiger Konvent für Regierungen, Unternehmen und Zivilgesellschaft angelegt; Eröffnung im Mai 2026 in Washington, D.C., parallel zum bereits angekündigten OpenAI-Büro. | § 4.5 (OpenAI-Block: bisherige Erwähnung „Workshop im Mai 2026" zu einer konkreten Eröffnungsbeschreibung verdichtet; OpenAI-Quellen unverändert). | Aktualisiert die Funktionsbeschreibung des Workshops von „angekündigt" zu „Eröffnung"; keine neue Quelle nötig, weil das OpenAI-Strategiepapier vom 6. April 2026 bereits zitiert ist und die Konkretisierung aus derselben OpenAI-Quellenkette stammt. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- AI-Act-Trilog 13. Mai 2026 — der Trilog hat zum Stichtag 2. Mai 2026 noch nicht stattgefunden; Erwartungsanalysen (Modulos, Ropes & Gray, IAPP, A&O Shearman) sind in Version 12.0 in § 4.4 dokumentiert; keine prozessualen Schritte zwischen 28. April und 2. Mai 2026.
+- Altman-Arraignment 5. Mai 2026 — der Termin steht nach 2. Mai 2026; in Version 11.0 / 12.0 vollständig in § 8.4 dokumentiert; keine prozessualen Schritte zwischen 26. April und 2. Mai 2026.
+- Connecticut Raised Bill 515 — Sitzungsende der Connecticut General Assembly am 6. Mai 2026 steht noch aus; in Version 12.0 in § 4.5 vollständig dokumentiert; keine endgültige Senatsabstimmung zwischen 26. April und 2. Mai 2026.
+- Sanders S. 4214 / Robot-Tax-Bill — keine prozessualen Schritte zwischen 16./25. April und 2. Mai 2026; in Version 11.0 / 12.0 in § 4.5 vollständig dokumentiert.
+- Anthropic Economic Index — fünfter Bericht („Economic Primitives", Februar 2026 Datenstand) in Version 9.0 / 11.0 in § 3.5 und § 11.1 vollständig dokumentiert; kein Mai-Bericht zum Stichtag 2. Mai 2026.
+- Korinek & Lockwood — in Version 9.0 vollständig in § 3.3 / § 3.5 / § 11.1 und in Version 11.0 in § 11.5 verlinkt; keine Folgepublikation.
+- Weimer-Digitalabgabe — Verhandlungsstand 22./23. April 2026 in Version 10.0 / 12.0 in § 4.4 vollständig dokumentiert; kein Eckpunktepapier und keine Koalitionsentscheidung zwischen 26. April und 2. Mai 2026.
+- IAB-Prognose — Update vom 24. März 2026 in Version 9.0 / 11.0 / 12.0 in § 1.1 und § 11.3 belegt; kein Folge-Update zum Stichtag 2. Mai 2026.
+- Generationenkapital — über die in Version 7.0 / 11.0 / 12.0 dokumentierte 7,2-Prozent-Anlaufrendite und 200-Mrd.-EUR-Zielgröße hinaus keine neuen Q1-Werte verfügbar; widersprüchliche Berichterstattung über die Zukunft des Vehikels unter der schwarz-roten Koalition wurde gesichtet, aber bewusst nicht eingearbeitet, weil die Quellenlage zum Stichtag 2. Mai 2026 nicht eindeutig genug ist.
+- Alterssicherungskommission — Bericht bis Mitte 2026 / Ende Q2 2026 angekündigt; kein Zwischenbericht zum Stichtag 2. Mai 2026 verfügbar; § 5.2-Darstellung bleibt korrekt.
+- Microsoft-Buyout / Meta-Layoff-Welle — Strukturparameter (Eligibility, Notification 7. Mai 2026, 30-Tage-Annahmefrist, Meta-Cuts ab 20. Mai 2026, kumuliert > 100.000 Tech-Stellen) in Version 11.0 / 12.0 vollständig dokumentiert; in Version 13.0 nur die Tracker-Aktualisierung neu (Neuigkeit 2).
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte 1.1–1.3, 2.1–2.3, 3.1–3.5, 4.1–4.5, 5.1–5.4, 6.1–6.4, 7.1–7.3, 8.1–8.7, 9.1–9.5, 10.1–10.3, 11.1–11.5 unverändert; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Neuer Querverweis im § 1.1-Block (auf Typ 5 nach § 2.1 und § 9.1) konsistent mit den vorhandenen Verweisen; keine bestehenden §-Querverweise verändert. |
+| 2.1.4 Roter Faden | OK | Die WaPo-Differenzierung verlängert die in § 1.1 angelegte Layoff-Linie um eine Gegenposition und stützt damit indirekt die in § 9.1 entwickelte Mess-/Anknüpfungskritik; die GKV-Mehrjahresperspektive vertieft die in § 5.1 angelegte fiskalische Linie ohne neue Sachverhaltsverdopplung; der OpenAI-Workshop bleibt als Detailelement im § 4.5-Block der jüngsten politischen Initiativen. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; keine neuen Tabellen oder Lead-Ins; bestehende Lead-Ins unverändert; Versionszeile im Dokumentkopf (12.0 → 13.0) konsistent geändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | WaPo-Schlüsselaussage durch direkten URL-Treffer belegt; SkillSyncer 100.443 / TrueUp 95.878 / BusinessToday > 40.000 in April durch Tracker-Belege gestützt; GKV-Mehrjahresperspektive (19,6 Mrd. EUR / 42,8 Mrd. EUR) durch BMG-Verfahrensseite, BMG-Pressemeldung und AOK-Fachseite belegt; OpenAI-Workshop-Eröffnung durch das OpenAI-Strategiepapier und Folgeberichterstattung gestützt. |
+| 2.2.2 Redundanzprüfung | OK | WaPo-Differenzierung als ergänzender Schlussteil im bestehenden § 1.1-Layoff-Block (kein neuer Abschnitt); Tracker-Update als Aktualisierung des bestehenden „über 92.000"-Satzes (kein zusätzlicher Block); GKV-Mehrjahresperspektive als Erweiterung des bestehenden § 5.2-Blocks (kein zusätzlicher Block); OpenAI-Workshop als Ersatz des knappen „Workshop im Mai 2026"-Zusatzes durch eine konkretere Formulierung. Keine Sachverhaltsverdopplung entstanden. |
+| 2.2.3 Argumentation | OK | WaPo-Differenzierung sachlich als Gegenposition eingeführt, ohne die in § 1.1 dokumentierte CNBC-„AI labor crisis"-Lesart zu verdrängen; Tracker-Spannweite ehrlich dargestellt (SkillSyncer vs. TrueUp); GKV-Mehrjahresperspektive im Konjunktiv für die ausstehenden parlamentarischen Schritte; OpenAI-Workshop bleibt Beschreibung, nicht Bewertung. |
+| 2.2.4 Ausgewogenheit | OK | Neu hinzugefügte WaPo-Quelle stärkt die Ausgewogenheit explizit, weil sie der monokausalen Layoff-Lesart eine analytische Gegenposition zur Seite stellt; Tracker-Update transparent durch parallele Methodiken; GKV: Diskrepanz zwischen 16,3 Mrd. EUR (Frühberichterstattung) und 19,6 Mrd. EUR (BMG-Tabellen) ohne Wertung dargestellt; OpenAI: Workshop als Beschreibung, nicht als Empfehlung. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „Austerity" beim ersten Auftreten im Kontext erläutert; „SkillSyncer" und „TrueUp" beim ersten Auftreten als Tracker-Namen im Kontext klar; alle übrigen Begriffe in der bisherigen Schreibweise. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neue Einträge: § 11.3 +1 (BMG-Sammelbeleg GKV-Beitragssatzstabilisierungsgesetz mit Pressemeldung, Verfahrensseite und AOK-Fachseite); § 11.5 +2 (SkillSyncer / TrueUp / BusinessToday Tracker-Update; *Washington Post*, 1. Mai 2026). Jede neue Fließtext-Referenz hat einen Eintrag; keine Karteileichen entstanden. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil, Datumsangaben „DD. Monat YYYY", Sammelbelege durch Pipe-Zeichen getrennt; URLs vollständig ohne Shortener. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen für die zentralen Aussagen: bundesgesundheitsministerium.de (Pressemeldung und Verfahrensseite) und aok.de (Fachseite mit Tabelle Sparvolumen 2027 / 2030); washingtonpost.com (Mainstream-Mediums-Analyse, redaktionell); skillsyncer.com / trueup.io / businesstoday.in (Tracker und Branchenberichterstattung). |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 2. Mai 2026 über die WebSearch- und WebFetch-Trefferanzeigen: bundesgesundheitsministerium.de Pressemeldung erreichbar (WebFetch-Test); aok.de Fachseite mit Sparvolumen-Tabelle erreichbar (WebFetch-Test mit konkreten Zahlen 19,6 / 42,8 Mrd. EUR); washingtonpost.com gelistet im WebSearch-Treffer (WebFetch lieferte 403, Quelle bleibt aber durch WSWS, deseret und Yahoo-Folgeberichterstattung indirekt gestützt); skillsyncer.com Tracker gelistet; trueup.io Tracker gelistet; businesstoday.in April-Auswertung gelistet. |
+| 2.4.5 Zitatgenauigkeit | OK | WaPo-Titel „Layoffs at Amazon, Meta and Microsoft aren't all about AI" wörtlich; SkillSyncer 100.443 / TrueUp 95.878 wörtlich aus Tracker-Schnitt 1. Mai 2026; April-Layoffs > 40.000 wörtlich aus BusinessToday; GKV-Sparvolumen 19,6 Mrd. EUR (2027) und 42,8 Mrd. EUR (2030) wörtlich aus AOK-Fachseite; OpenAI-Workshop „opening in May in Washington, DC" sinngemäß ins Deutsche übertragen. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge vollständig belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 13.0 durchgängig: Dokumentkopf, `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung), `Claude.md` (Stand-Angabe), `build_pdf.py` (DOC_VERSION, Titelseite), `build_docx.py` (DOC_VERSION, Titelseite), diesem Protokoll. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| 1 | `build_pdf.py` und `build_docx.py` | Versions- und Stand-Felder müssen für den Export auf 13.0 / Mai 2026 angepasst werden. | Gering |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| 1 | Versions- und Stand-Felder in den Build-Skripten | DOC_VERSION und Titelseiten-/Footer-Label in `build_pdf.py` und `build_docx.py` auf 13.0 / Mai 2026 gesetzt; PDF und DOCX neu erzeugt. | Ja |
+
+### Nachprüfung
+
+- 2.1.1 – 2.1.5 nach Einarbeitung: OK
+- 2.2.1 / 2.4.1 / 2.4.2 / 2.4.3 / 2.4.5 nach Ergänzung der Literaturnachweise: OK
+- 2.5 Versionskonsistenz: OK (13.0 in Dokumentkopf, `README.md` × 2, `Claude.md`, `build_pdf.py`, `build_docx.py`, diesem Protokoll)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 13.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 1. Mai 2026 — Version 11.0 → Version 12.0
 
 **Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers (Robotersteuer / Wertschöpfungsabgabe, OpenAI Industrial Policy, Sanders / AOC S. 4214, EU AI Act / Digital Omnibus on AI, Tech-Layoffs Microsoft / Meta / Amazon, Maine-Veto LD 307 und Veto-Override, Connecticut Raised Bill 515, OECD Pillar 2, GKV-Reform, Generationenkapital, Alterssicherungskommission, IAB-Prognose, Sam-Altman-Anschlag, Korinek/Lockwood, Falk/Tsoukalas, Weimer-Digitalabgabe). Vier neue belegbare Entwicklungen identifiziert und eingearbeitet; alle übrigen recherchierten Themen waren in Version 11.0 bereits enthalten und wurden nicht dupliziert.
