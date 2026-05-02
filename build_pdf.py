@@ -49,7 +49,7 @@ DOC_TITLE = "Die Besteuerung von Künstlicher Intelligenz und Robotik als Ersatz
 DOC_SHORT_TITLE = "Arbeitspapier — Besteuerung von KI und Robotik"
 DOC_ORG = "HIGL — Health Innovators Group Leipzig"
 DOC_AUTHOR = "Björn Degenkolbe"
-DOC_VERSION = "Version 12.0 — Mai 2026 — CC BY 4.0"
+DOC_VERSION = "Version 13.0 — Mai 2026 — CC BY 4.0"
 
 LEFT_MARGIN = 2 * cm
 RIGHT_MARGIN = 2 * cm
@@ -339,7 +339,7 @@ def build_story(md_text: str, styles: StyleSet) -> list:
     story.append(Paragraph(DOC_AUTHOR, styles.meta))
     story.append(Paragraph(DOC_ORG, styles.meta))
     story.append(Paragraph("Stand: Mai 2026", styles.meta))
-    story.append(Paragraph("Version 12.0", styles.meta))
+    story.append(Paragraph("Version 13.0", styles.meta))
     story.append(Paragraph("Lizenz: Creative Commons CC BY 4.0", styles.meta))
     story.append(PageBreak())
 
