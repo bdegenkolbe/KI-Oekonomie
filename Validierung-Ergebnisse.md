@@ -7,6 +7,87 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 3. Mai 2026 — Version 13.0 → Version 14.0
+
+**Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers am 3. Mai 2026 (Maine LD 307 / Folgemaßnahmen, EU AI Act / Digital Omnibus Trilog 13. Mai 2026, Connecticut Raised Bill 515, Sanders / Ocasio-Cortez S. 4214, GKV-Beitragssatzstabilisierungsgesetz, Alterssicherungskommission, Tech-Layoffs Microsoft / Meta / Amazon / Oracle, Altman-Arraignment am 5. Mai 2026, OpenAI Industrial Policy / Workshop / Worker Participation Forum, Anthropic Economic Index, Korinek & Lockwood, Generationenkapital, Weimer-Digitalabgabe, IAB-Prognose, Brookings / NBER zur KI-Besteuerung). Fünf neue belegbare Entwicklungen identifiziert und eingearbeitet; alle übrigen recherchierten Themen waren in Version 13.0 bereits enthalten und wurden nicht dupliziert.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | Maine — flankierende exekutive Maßnahmen nach gescheitertem Veto-Override: *Executive Order Nr. 5* von Gouverneurin Janet Mills vom 29. April 2026 zur Einrichtung eines 15-köpfigen *Maine Data Center Advisory Council* mit Vorlagepflicht zum 29. Januar 2027 sowie Direktive an Department of Energy Resources und Public Utilities Commission zum Schutz der Stromtarife; *LD 713* (unterzeichnet 24. April 2026), das Datenzentren ab 1. Juli 2026 von der *Business Equipment Tax Exemption* (BETE) und vom *Dirigo Business Incentives Program* ausschließt; Berichtspflicht des Department of Economic and Community Development bis 4. November 2026. | § 4.5 (Maine-Block: Erweiterung um Executive Order Nr. 5 und LD 713; expliziter Querverweis auf § 6.1 Südkorea-Logik des Subventionsabbaus). § 11.3 (zwei neue Einträge — Executive Order 5 mit Pressemeldung und Direktlink; LD 713 als Maine-State-Legislature-Eintrag). | Schließt die Berichterstattungslücke zwischen dem in Version 12.0 dokumentierten gescheiterten Veto-Override und der jetzt sichtbaren exekutiven Strategie der Maine-Administration. Der LD-713-Befund ist methodisch bedeutsam, weil er erstmals einen US-bundesstaatlichen Subventionsabbau bei Datenzentren in Steueranreizprogrammen umsetzt — funktional verwandt mit der Südkorea-Logik aus § 6.1, was im neuen § 4.5-Querverweis explizit gemacht wird. |
+| 2 | Tech-Layoff-Tracker — aktualisierter Stand 2. Mai 2026: SkillSyncer 113.863 betroffene Beschäftigte aus 179 Layoff-Ereignissen (durchschnittlich 933 Stellen pro Tag); TrueUp 95.878 unverändert. | § 1.1 (Aktualisierung des Tracker-Bestands von 100.443 / 155 zum 1. Mai 2026 auf den jüngsten Stand vom 2. Mai 2026; Methodikspanne mitberichtet). § 11.5 (bestehender Tracker-Eintrag aktualisiert auf Stand 1./2. Mai 2026). | Schreibt die in Version 13.0 dokumentierte Tracker-Linie um einen Tag fort; Spannweite zu TrueUp bleibt erhalten und transparent. |
+| 3 | Goldman-Sachs-Datenpunkt (Anfang April 2026): rund 16.000 KI-bedingte Stellenverluste pro Monat in den USA mit überproportionaler Wirkung auf Berufseinsteiger der Gen Z in routinisierten Bürotätigkeiten. | § 1.1 (eingebettet in den bestehenden Tech-Layoff-Block; expliziter Querverweis auf § 3.5 Anthropic Economic Index, weil beide Befunde sektorale Frühwirkungen bei kognitiven Routinetätigkeiten dokumentieren — bei aggregiert moderatem Befund). § 11.5 (neuer Eintrag Goldman Sachs / Fortune, 6. April 2026). | Liefert eine quantitative Größenordnung für die in § 3.5 referierte qualitative Beobachtung von Frühwirkungen bei Berufseinsteigerinnen und -einsteigern, ohne den aggregiert moderaten Acemoglu-Befund umzukehren. |
+| 4 | GKV-Beitragssatzstabilisierungsgesetz — Präzisierung des Bundesrats-Termins: erster Durchgang am 8. Mai 2026 (statt der in Version 13.0 angenommenen 2. Mai 2026, die als BMG-Frühplanung zurückzuziehen war). | § 5.2 (Korrektur des Datums im bestehenden GKV-Block; alle übrigen GKV-Daten unverändert). Hinweis zur Aktualität am Dokumentende: Bundesrats-Termin angepasst. | Datumkorrektur ohne neue Sachverhaltslinie; verbessert die Sachliche Richtigkeit (§ 2.2.1) im Verfahrensteil des GKV-Gesetzes. |
+| 5 | OpenAI Worker Participation Forum (18. März 2026, Washington, D.C.) — Konkretisierung der Akteure: Konvent mit Randi Weingarten (American Federation of Teachers / AFT) und Sean McGarvey (North America's Building Trades Unions / NABTU); inhaltlicher Vorlauf für den im Mai eröffnenden OpenAI Workshop. | § 4.5 (OpenAI-Block: Erweiterung der Workshop-Beschreibung um den Vorlauf-Konvent vom 18. März 2026 und die beteiligten Gewerkschaftsspitzen). § 11.5 (neuer Eintrag OpenAI Global Affairs / EdTech Innovation Hub mit Direkt-URL). | Konkretisiert die im OpenAI-Strategiepapier angelegte Stakeholder-Architektur um nachprüfbare Akteursnamen, ohne den in § 4.5 dokumentierten Charakter als Agenda-Setting-Vehikel zu verändern. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- AI-Act-Trilog 13. Mai 2026 — der Trilog hat zum Stichtag 3. Mai 2026 noch nicht stattgefunden; in Version 12.0 / 13.0 in § 4.4 vollständig dokumentiert.
+- Altman-Arraignment 5. Mai 2026 — Termin steht nach 3. Mai 2026; in Version 11.0 / 12.0 in § 8.4 vollständig dokumentiert.
+- Connecticut Raised Bill 515 — Sitzungsende der Connecticut General Assembly am 6. Mai 2026 steht aus; in Version 11.0 / 12.0 in § 4.5 und § 11.3 vollständig dokumentiert.
+- Sanders / Ocasio-Cortez S. 4214 — keine prozessualen Schritte zwischen 25./26. April und 3. Mai 2026; in Version 11.0 / 12.0 in § 4.5 vollständig dokumentiert.
+- Anthropic Economic Index — kein neuer Bericht zum Stichtag 3. Mai 2026; in Version 9.0 / 11.0 in § 3.5 und § 11.1 vollständig dokumentiert.
+- Korinek & Lockwood — keine Folgepublikation zum Stichtag 3. Mai 2026; in Version 9.0 / 11.0 in § 3.3 / § 3.5 / § 11.1 / § 11.5 vollständig dokumentiert.
+- Weimer-Digitalabgabe — kein Eckpunktepapier und keine Koalitionsentscheidung zwischen 26. April und 3. Mai 2026; Tagesspiegel- und IT-Journal-Berichterstattung wiederholen nur den vorhandenen Verhandlungsstand; in Version 9.0 / 10.0 / 12.0 in § 4.4 vollständig dokumentiert.
+- IAB-Prognose — kein Folge-Update zum Stichtag 3. Mai 2026; in Version 9.0 / 11.0 / 12.0 in § 1.1 und § 11.3 belegt.
+- Generationenkapital — keine neuen Q1-Werte verfügbar; § 8.6-Darstellung bleibt korrekt.
+- Alterssicherungskommission — Bericht bis Mitte 2026 / Ende Q2 2026 angekündigt; kein Zwischenbericht zum Stichtag 3. Mai 2026 verfügbar; § 5.2-Darstellung bleibt korrekt.
+- Sanders/AOC-Bill-Hearings im Mai 2026 — kein bestätigtes Hearing-Datum zum Stichtag 3. Mai 2026; weiter wie in Version 11.0 / 12.0 dokumentiert.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte 1.1–1.3, 2.1–2.3, 3.1–3.5, 4.1–4.5, 5.1–5.4, 6.1–6.4, 7.1–7.3, 8.1–8.7, 9.1–9.5, 10.1–10.3, 11.1–11.5 unverändert; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Neue Querverweise in § 1.1 (auf § 3.5) und in § 4.5 (auf § 6.1) konsistent mit den vorhandenen Verweisen; keine bestehenden §-Querverweise verändert. |
+| 2.1.4 Roter Faden | OK | Maine-Erweiterung verlängert die in § 4.5 angelegte sub-föderale Linie ohne Sachverhaltsverdopplung mit § 6.1; Tracker- und Goldman-Sachs-Datenpunkte vertiefen die in § 1.1 angelegte Layoff-Linie und verbinden sie mit § 3.5; OpenAI-Worker-Forum bleibt als Detailelement im OpenAI-Block in § 4.5; GKV-Korrektur ist Datumsdetail im bestehenden Block in § 5.2. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; keine neuen Tabellen oder Lead-Ins; bestehende Lead-Ins unverändert; Versionszeile im Dokumentkopf (13.0 → 14.0) konsistent geändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Maine Executive Order 5 und LD 713 durch maine.gov-Pressemeldung und maine.gov-Dokument-URL belegt; SkillSyncer 113.863 / 179 / 933 pro Tag durch SkillSyncer-Tracker-Zwischenstand belegt; Goldman-Sachs-Schätzung 16.000 / Monat durch Fortune-Sammelbericht; Bundesrats-Termin 8. Mai 2026 durch BMG-/Bundesregierungs-Quellen belegt; OpenAI Worker Participation Forum durch EdTech-Innovation-Hub-Bericht belegt. |
+| 2.2.2 Redundanzprüfung | OK | Maine-Erweiterung als Vertiefung des bestehenden § 4.5-Maine-Blocks (kein neuer Abschnitt); Tracker-Update als 1-Tage-Fortschreibung des bestehenden 1.-Mai-Bestands (kein zusätzlicher Block); Goldman-Sachs-Datenpunkt als Einbettung in den bestehenden Tech-Layoff-Block (kein zusätzlicher Block); GKV-Korrektur als Datumsanpassung im bestehenden Verfahrenssatz; OpenAI-Forum als Vorlauf-Beschreibung im bestehenden Workshop-Satz. Keine Sachverhaltsverdopplung entstanden. |
+| 2.2.3 Argumentation | OK | Maine: Subventionsabbau als bestätigender Empiriebeleg für Thuemmel-Schwelle (§ 3.2) ohne Verlassen des Konjunktivs zu Gestaltungsaussagen; Tracker-Update mit transparent gemachter Methodikspanne; Goldman-Sachs als Schätzung gekennzeichnet; OpenAI-Forum als Beschreibung, nicht als Bewertung; GKV-Datumkorrektur ohne Argumentationsänderung. |
+| 2.2.4 Ausgewogenheit | OK | Maine: gleichgewichtige Darstellung als regulatorischer Subventionsabbau (kein Pro-Argument für eine spezifische KI-Steuer); Tracker und Goldman-Sachs durch parallele Methodiken transparent; OpenAI-Forum bleibt deskriptiv. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „Business Equipment Tax Exemption (BETE)" und „Dirigo Business Incentives Program" beim ersten Auftreten ausgeschrieben; „American Federation of Teachers (AFT)" und „North America's Building Trades Unions (NABTU)" bei der ersten Erwähnung mit englischem Originalnamen; „Gen Z" als gängige Generationsbezeichnung im Kontext klar; „Worker Participation Forum" / „Participation Economy Forum" als OpenAI-Eigennamen kursiv markiert. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neue Einträge: § 11.3 +2 (Maine Executive Order 5; LD 713); § 11.5 +2 (Goldman Sachs / Fortune; OpenAI Global Affairs / EdTech Innovation Hub). Bestehender Tracker-Eintrag in § 11.5 auf Stand 1./2. Mai 2026 fortgeschrieben. Jede neue Fließtext-Referenz hat einen Eintrag; keine Karteileichen entstanden. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil, Datumsangaben „DD. Monat YYYY", Sammelbelege durch Pipe-Zeichen getrennt; URLs vollständig ohne Shortener. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen für die zentralen Aussagen: maine.gov (Pressemeldung und Direkt-URL Executive Order 5); skillsyncer.com / trueup.io (Tracker); fortune.com (Mainstream-Mediums-Analyse Goldman Sachs); bundesgesundheitsministerium.de (Verfahrensseite GKV-Gesetz, Bundesrats-Zeitplan); edtechinnovationhub.com / openai.com (Workshop-Vorlauf). |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 3. Mai 2026 über die WebSearch-Treffer: maine.gov-Executive-Order-Direkt-URL erreichbar; maine.gov-Pressemitteilung erreichbar; LD 713 als Maine-Legislature-Datensatz indirekt belegt; fortune.com Goldman-Sachs-Direkt-URL erreichbar; skillsyncer.com / trueup.io Tracker erreichbar; edtechinnovationhub.com OpenAI-Forum-Direkt-URL erreichbar. |
+| 2.4.5 Zitatgenauigkeit | OK | Maine Executive Order 5 mit „15-person council" / „policy recommendations and strategies … by January 29, 2027" wörtlich aus maine.gov; LD 713 BETE / Dirigo-Ausschluss ab 1. Juli 2026 wörtlich aus Pressemeldung; Goldman-Sachs „16,000 jobs a month" wörtlich aus Fortune-Schlagzeile; OpenAI-Forum-Akteure wörtlich aus EdTech-Innovation-Hub-Bericht. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge vollständig belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 14.0 durchgängig: Dokumentkopf, `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung), `Claude.md` (Stand-Angabe), `build_pdf.py` (DOC_VERSION, Titelseite), `build_docx.py` (DOC_VERSION, Titelseite), diesem Protokoll. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| 1 | § 5.2 | GKV-Bundesrats-Termin in Version 13.0 als „2. Mai 2026" — laut BMG-Zeitplan und Pressemeldung tatsächlich „8. Mai 2026". | Gering |
+| 2 | `build_pdf.py` und `build_docx.py` | Versions- und Stand-Felder müssen für den Export auf 14.0 / Mai 2026 angepasst werden. | Gering |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| 1 | Falscher Bundesrats-Termin in § 5.2 | Termin auf 8. Mai 2026 korrigiert; Hinweis zur Aktualität am Dokumentende entsprechend angepasst. | Ja |
+| 2 | Versions- und Stand-Felder in den Build-Skripten | DOC_VERSION und Titelseiten-/Footer-Label in `build_pdf.py` und `build_docx.py` auf 14.0 / Mai 2026 gesetzt; PDF und DOCX neu erzeugt. | Ja |
+
+### Nachprüfung
+
+- 2.1.1 – 2.1.5 nach Einarbeitung: OK
+- 2.2.1 / 2.4.1 / 2.4.2 / 2.4.3 / 2.4.5 nach Ergänzung der Literaturnachweise: OK
+- 2.5 Versionskonsistenz: OK (14.0 in Dokumentkopf, `README.md` × 2, `Claude.md`, `build_pdf.py`, `build_docx.py`, diesem Protokoll)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 14.0
+- PDF erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.pdf`)
+- Word erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.docx`)
+
+---
+
 ## Validierung 2. Mai 2026 — Version 12.0 → Version 13.0
 
 **Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers am 2. Mai 2026 (KI-Steuer / Wertschöpfungsabgabe / Robotersteuer im deutschsprachigen Raum, EU AI Act / Digital Omnibus Trilog 13. Mai 2026, Maine LD 307 Veto-Override, Connecticut Raised Bill 515, Sanders S. 4214, GKV-Beitragssatzstabilisierungsgesetz, Alterssicherungskommission, Tech-Layoffs Microsoft / Meta / Amazon / Oracle, Altman-Arraignment am 5. Mai 2026, OpenAI Industrial Policy / Workshop, Anthropic Economic Index, Korinek & Lockwood, Generationenkapital, Weimer-Digitalabgabe, IAB-Prognose, Washington-Post-Analyse vom 1. Mai 2026). Vier neue belegbare Entwicklungen identifiziert und eingearbeitet; alle übrigen recherchierten Themen waren in Version 12.0 bereits enthalten und wurden nicht dupliziert.
