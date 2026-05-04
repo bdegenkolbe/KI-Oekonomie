@@ -7,6 +7,89 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 4. Mai 2026 — Version 14.0 → Version 15.0
+
+**Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers am 4. Mai 2026 (KI-Steuer / Wertschöpfungsabgabe / Robotersteuer im deutschsprachigen Raum, EU AI Act / Digital Omnibus Trilog 13. Mai 2026, Maine LD 307 / Executive Order 5 / LD 713, Connecticut Raised Bill 515 und SB 5, Sanders / Ocasio-Cortez S. 4214, GKV-Beitragssatzstabilisierungsgesetz, Alterssicherungskommission, Tech-Layoffs Microsoft / Meta / Amazon / Oracle, Altman-Arraignment am 5. Mai 2026, OpenAI Industrial Policy / Workshop / Worker Participation Forum, Anthropic Economic Index, Korinek & Lockwood, Generationenkapital, Weimer-Digitalabgabe, IAB-Prognose, Brookings / NBER zur KI-Besteuerung, Frühjahrsgutachten 2026, OECD Pillar 2). Zwei neue belegbare Entwicklungen identifiziert und eingearbeitet; alle übrigen recherchierten Themen waren in Version 14.0 bereits enthalten und wurden nicht dupliziert.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | Connecticut General Assembly — Hausabstimmung am 1. Mai 2026 über *SB 5 (2026) — Connecticut Artificial Intelligence Responsibility and Transparency Act* mit 131 zu 17 Stimmen; Gouverneur Ned Lamont hat seine Unterzeichnung angekündigt. Inhaltlich umfasst der Entwurf neben Frontier-Modell-Aufsicht, AI-Sandbox und Whistleblower-Schutz erstmals US-bundesstaatlich kodifizierte Disclosure-Pflichten für KI-bezogene Beschäftigungsentscheidungen und KI-bedingte Stellenstreichungen. Zugleich Korrektur der bisherigen Bezeichnung „SB 2" auf den korrekten Bill-Namen *SB 5* (Senate Bill 5 (2026), nicht zu verwechseln mit SB 2 aus 2025). | § 4.5 Connecticut-Block (umnummeriert SB 2 → SB 5; Hausabstimmung 1. Mai 2026 ergänzt; Lamont-Unterzeichnungsankündigung; Disclosure-Pflicht-Komponente mit explizitem Querverweis zu Typ 5 § 2.1 und § 9.1). § 11.3 (bestehender Connecticut-AI-Eintrag aktualisiert auf SB 5 mit beiden Abstimmungsdaten und korrekter Legiscan-URL). § 11.5 +2 (CT Mirror 1./2. Mai 2026; Pluribus News 1. Mai 2026). | Erste US-bundesstaatliche Kodifizierung einer Disclosure-Pflicht für KI-bezogene Layoffs ist methodisch hochrelevant für die in § 9.1 diskutierte Mess- und Anknüpfungsproblematik einer Typ-5-Ersatzabgabe; die Korrektur der Bill-Nummer (SB 2 → SB 5) verbessert die Sachliche Richtigkeit (§ 2.2.1) und Zitatgenauigkeit (§ 2.4.5). |
+| 2 | IAB-Frühjahrsprognose vom 24. März 2026 *„Fiskalpolitischer Rückenwind trifft auf geopolitischen Gegenwind"* — gegenüber dem IAB-Kurzbericht 19/2025 vom 24. September 2025 deutlich nach unten revidierte Zahlen: Erwerbstätigkeit −90.000 (statt −20.000) auf 45,89 Mio., sozialversicherungspflichtige Beschäftigung −30.000 auf 34,93 Mio. (erstmals seit Finanzkrise 2009 nicht wachsend), BIP +0,8 % bei 0,2 bis 0,3 Pp. Dämpfung durch Iran-Krieg, Sektoral Industrie −140.000 / öffentliche Dienste/Erziehung/Gesundheit +180.000. Querverweis auf die parallele IAB-Regionalprognose 2026 (Kurzbericht 6/2026). | § 1.1 (Korrektur der IAB-Zahlen und expliziter Verweis auf die Iran-Krieg-Revision; Sektoral-Aufspaltung ergänzt; Querverweis Regionalprognose). § 11.3 (alten IAB-Eintrag inhaltlich auf den 24. September 2025 korrekt zugeordnet; zwei neue Einträge ergänzt: IAB-Prognose 24. März 2026 und IAB-Regionalprognose 2026). | In Version 14.0 standen unter dem Datum „Fassung vom 24. März 2026" noch die Zahlen des älteren IAB-Kurzberichts 19/2025 (24. September 2025); die neue Frühjahrsprognose vom 24. März 2026 reflektiert die Iran-Krieg-bedingte BIP-Korrektur und verschärft das Finanzierungsproblem der lohnbasierten Sozialversicherung um eine Größenordnung. Die Korrektur ist methodisch bedeutsam, weil sie die in Kapitel 5 / Kapitel 8 entwickelte Wertschöpfungsabgaben-Argumentation empirisch stützt. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- AI-Act-Trilog 13. Mai 2026 — der Trilog hat zum Stichtag 4. Mai 2026 noch nicht stattgefunden; in Version 12.0 / 13.0 / 14.0 in § 4.4 vollständig dokumentiert.
+- Altman-Arraignment 5. Mai 2026 — Termin steht nach 4. Mai 2026; in Version 11.0 / 12.0 / 14.0 in § 8.4 vollständig dokumentiert.
+- Connecticut Raised Bill 515 — Sitzungsende der Connecticut General Assembly am 6. Mai 2026 steht aus; in Version 11.0 / 12.0 / 14.0 in § 4.5 und § 11.3 vollständig dokumentiert.
+- Sanders / Ocasio-Cortez S. 4214 — keine prozessualen Schritte zwischen 25./26. April und 4. Mai 2026; in Version 11.0 / 12.0 / 14.0 in § 4.5 vollständig dokumentiert.
+- Anthropic Economic Index — kein neuer Bericht zum Stichtag 4. Mai 2026 (zuletzt März-2026-Bericht); in Version 9.0 / 11.0 / 14.0 in § 3.5 und § 11.1 vollständig dokumentiert.
+- Korinek & Lockwood — keine Folgepublikation zum Stichtag 4. Mai 2026 (8. Januar 2026 Brookings-/NBER-Arbeitspapier weiter aktuell); in Version 9.0 / 11.0 / 14.0 in § 3.3 / § 3.5 / § 11.1 / § 11.5 vollständig dokumentiert.
+- Weimer-Digitalabgabe — kein Eckpunktepapier und keine Koalitionsentscheidung zwischen 26. April und 4. Mai 2026; jüngste Berichterstattung wiederholt Verhandlungsstand vom 22./23. April 2026; in Version 9.0 / 10.0 / 12.0 / 14.0 in § 4.4 vollständig dokumentiert.
+- GKV-Beitragssatzstabilisierungsgesetz / Bundesrats-Termin 8. Mai 2026 — Termin steht nach 4. Mai 2026; in Version 14.0 in § 5.2 mit korrektem Termin dokumentiert; keine neuen prozessualen Schritte.
+- OECD Pillar 2 (Italien GloBE-Returns 8. April 2026, Brasilien-Konsultation 17. April 2026, Niederlande-Joint-Venture-Position 9./10. April 2026, Singapur-Registrierungsportal Mai 2026) — rein technische Implementierungs­schritte ohne KI-spezifische Anknüpfung; das in § 4.4 dokumentierte Side-by-Side-Paket bleibt der maßgebliche Bezug.
+- Frühjahrsgutachten 2026 (Sachverständigenrat) — Veröffentlichung am 27. Mai 2026 angekündigt; zum Stichtag 4. Mai 2026 nicht verfügbar.
+- Generationenkapital — keine neuen Q1-2026-Werte verfügbar; § 8.6-Darstellung bleibt korrekt.
+- Alterssicherungskommission — Bericht bis Mitte 2026 / Ende Q2 2026 angekündigt; kein Zwischenbericht zum Stichtag 4. Mai 2026 verfügbar; § 5.2-Darstellung bleibt korrekt.
+- Tech-Layoff-Tracker — SkillSyncer-Stand 113.863 Beschäftigte aus 179 Layoff-Ereignissen und TrueUp 95.878 Personen aus 249 Meldungen unverändert gegenüber 2. Mai 2026; in Version 14.0 in § 1.1 und § 11.5 belegt; keine Folge-Aktualisierung.
+- Maine Data Center Advisory Council — kein erstes Sitzungsdatum zum Stichtag 4. Mai 2026 verfügbar; Bericht ist bis 29. Januar 2027 angekündigt; in Version 14.0 in § 4.5 vollständig dokumentiert.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte 1.1–1.3, 2.1–2.3, 3.1–3.5, 4.1–4.5, 5.1–5.4, 6.1–6.4, 7.1–7.3, 8.1–8.7, 9.1–9.5, 10.1–10.3, 11.1–11.5 unverändert; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Neuer Querverweis im § 4.5-Connecticut-Block (auf Typ 5 nach § 2.1 und § 9.1) konsistent mit den vorhandenen Verweisen; keine bestehenden §-Querverweise verändert. |
+| 2.1.4 Roter Faden | OK | Connecticut-Erweiterung verlängert die in § 4.5 angelegte sub-föderale Linie und verzahnt sie über die Disclosure-Pflicht-Linie mit der Mess-/Anknüpfungskritik in § 9.1; die IAB-Korrektur stärkt den in § 1.1 angelegten Zusammenhang zwischen demografischem Druck, geopolitischer Lage und KI-induzierter Beschäftigungsverschiebung, ohne den argumentativen Aufbau zu verändern. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; keine neuen Tabellen oder Lead-Ins; bestehende Lead-Ins unverändert; Versionszeile im Dokumentkopf (14.0 → 15.0) konsistent geändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Connecticut-Hausabstimmung 1. Mai 2026 (131 zu 17), Senatsabstimmung 21. April 2026 (32 zu 4), Lamont-Unterzeichnungsankündigung und Disclosure-Pflicht durch CT-Mirror- und Pluribus-News-Berichterstattung sowie Connecticut-General-Assembly-Bill-Status belegt; IAB-Frühjahrsprognose vom 24. März 2026 mit den Zahlen Erwerbstätigkeit −90.000, sozialversicherungspflichtige Beschäftigung −30.000, Iran-Krieg-Dämpfung 0,2 bis 0,3 Pp. und sektoraler Aufspaltung Industrie −140.000 / öffentliche Dienste +180.000 durch IAB-Pressemitteilung und IAB-Forum belegt; IAB-Regionalprognose 2026 (Kurzbericht 6/2026) durch IAB-Pressemitteilung belegt. Korrektur der bisherigen falschen Bill-Bezeichnung „SB 2" zu „SB 5". |
+| 2.2.2 Redundanzprüfung | OK | Connecticut-Erweiterung als Vertiefung des bestehenden § 4.5-Connecticut-Blocks (kein neuer Abschnitt); IAB-Korrektur ersetzt den bestehenden Satz in § 1.1 ohne neuen Block; alte und neue IAB-Quellen sind in § 11.3 als historische und aktuelle Fassung sauber differenziert. Keine Sachverhaltsverdopplung entstanden. |
+| 2.2.3 Argumentation | OK | Connecticut SB 5: Disclosure-Pflicht als methodische Vorbereitung der Typ-5-Logik gekennzeichnet, ohne sie als Empfehlung darzustellen; IAB-Revision als belastbare Aktualisierung mit transparent ausgewiesener Iran-Krieg-Komponente. |
+| 2.2.4 Ausgewogenheit | OK | Connecticut SB 5 wird als sub-föderale Initiative beschrieben, ohne sie pauschal als Pro-Argument für eine spezifische KI-Steuer zu vereinnahmen; die Disclosure-Linie wird im selben Atemzug auf die Mess-/Umgehungsproblematik in § 9.1 zurückgeführt. Die IAB-Revision wird ohne politische Wertung referiert. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „Connecticut Artificial Intelligence Responsibility and Transparency Act" beim ersten Auftreten mit deutschem Anschluss-Kontext eingeführt; „Disclosure-Pflicht" beim ersten Auftreten als KI-Layoff-Offenlegungspflicht im Kontext klar; „Iran-Krieg" als geopolitischer Verweis auf die in der IAB-Pressemitteilung selbst verwendete Begrifflichkeit. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neue/aktualisierte Einträge: § 11.3 modifiziert (1× CT-AI-Bill korrigiert SB 2 → SB 5; 1× IAB-Eintrag inhaltlich auf 24.09.2025 korrekt zugeordnet; 2× neue IAB-Einträge für 24.03.2026 und Regionalprognose 6/2026); § 11.5 +2 (CT Mirror 1./2. Mai 2026; Pluribus News 1. Mai 2026). Jede neue Fließtext-Referenz hat einen Eintrag; keine Karteileichen entstanden. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil, Datumsangaben „DD. Monat YYYY", Sammelbelege durch Pipe-Zeichen getrennt; URLs vollständig ohne Shortener. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen für die zentralen Aussagen: ctmirror.org (Hausabstimmungs-Bericht 1. Mai 2026), pluribusnews.com (Detail-Coverage), cga.ct.gov (Bill-Status), iab.de (Pressemitteilung 24. März 2026), iab-forum.de (Interview zur Frühjahrsprognose), doku.iab.de (Kurzbericht 6/2026 Regionalprognose). |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 4. Mai 2026 über die WebSearch-/WebFetch-Treffer: ctmirror.org-Direkt-URL erreichbar (WebFetch-Test); pluribusnews.com erreichbar (WebFetch-Test); iab.de-Pressemitteilungs-URLs erreichbar (WebFetch-Test); doku.iab.de Regionalprognose-PDF erreichbar; cga.ct.gov-Bill-Status-Seite punktuell 503 (Server-Last; Bill-Inhalt durch parallele Quellen abgedeckt). |
+| 2.4.5 Zitatgenauigkeit | OK | Connecticut-Hausabstimmung „131-17" wörtlich aus CT Mirror; Senatsabstimmung „32-4" wörtlich aus CT Mirror und Pluribus News; Lamont „looks forward to signing SB 5 into law" sinngemäß ins Deutsche übertragen; IAB Erwerbstätigkeit „−90.000 auf 45,89 Millionen" und sozialversicherungspflichtige Beschäftigung „−30.000 auf 34,93 Millionen" wörtlich aus IAB-Pressemitteilung; Iran-Krieg „0,2 bis 0,3 Prozentpunkte" wörtlich aus IAB-Pressemitteilung. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge vollständig belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 15.0 durchgängig: Dokumentkopf, `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung), `Claude.md` (Stand-Angabe), `build_pdf.py` (DOC_VERSION, Titelseite), `build_docx.py` (DOC_VERSION, Titelseite), diesem Protokoll. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| 1 | § 4.5 (Connecticut-Block) und § 11.3 (Connecticut-Eintrag) | Bisherige Bezeichnung „SB 2" entspricht nicht dem korrekten Bill-Namen — die Connecticut General Assembly führt den Entwurf 2026 als *Senate Bill 5*. | Mittel |
+| 2 | § 1.1 | Datum „Fassung vom 24. März 2026" stand in Version 14.0 mit den Zahlen aus dem älteren IAB-Kurzbericht 19/2025 (24. September 2025: −20.000 Erwerbstätigkeit) zusammen; die tatsächliche IAB-Pressemitteilung vom 24. März 2026 weist −90.000 aus. | Mittel |
+| 3 | `build_pdf.py` und `build_docx.py` | Versions- und Stand-Felder müssen für den Export auf 15.0 / Mai 2026 angepasst werden. | Gering |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| 1 | Falsche Bill-Bezeichnung „SB 2" in § 4.5 und § 11.3 | Auf *Senate Bill 5 (2026) — Connecticut Artificial Intelligence Responsibility and Transparency Act* korrigiert; Senats- und Hausabstimmung mit korrekten Daten und Stimmenverhältnissen ergänzt; Legiscan-URL aktualisiert. | Ja |
+| 2 | Falsche IAB-Zahlen unter dem Datum 24. März 2026 | § 1.1-Satz auf die tatsächlichen IAB-Zahlen vom 24. März 2026 aktualisiert (Erwerbstätigkeit −90.000, sozialversicherungspflichtige Beschäftigung −30.000, BIP +0,8 % mit Iran-Krieg-Dämpfung 0,2 bis 0,3 Pp., Sektoral Industrie −140.000 / öffentliche Dienste +180.000); alten IAB-Kurzbericht 19/2025 in § 11.3 separat als historische Quelle gehalten; neue IAB-Einträge für die Frühjahrsprognose 24. März 2026 und für die Regionalprognose 6/2026 in § 11.3 ergänzt. | Ja |
+| 3 | Versions- und Stand-Felder in den Build-Skripten | DOC_VERSION und Titelseiten-/Footer-Label in `build_pdf.py` und `build_docx.py` auf 15.0 / Mai 2026 gesetzt; PDF und DOCX neu erzeugt. | Ja |
+
+### Nachprüfung
+
+- 2.1.1 – 2.1.5 nach Einarbeitung: OK
+- 2.2.1 / 2.4.1 / 2.4.2 / 2.4.3 / 2.4.5 nach Ergänzung der Literaturnachweise: OK
+- 2.5 Versionskonsistenz: OK (15.0 in Dokumentkopf, `README.md` × 2, `Claude.md`, `build_pdf.py` × 2, `build_docx.py` × 2, diesem Protokoll)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 15.0
+- PDF erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.pdf`)
+- Word erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.docx`)
+
+---
+
 ## Validierung 3. Mai 2026 — Version 13.0 → Version 14.0
 
 **Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers am 3. Mai 2026 (Maine LD 307 / Folgemaßnahmen, EU AI Act / Digital Omnibus Trilog 13. Mai 2026, Connecticut Raised Bill 515, Sanders / Ocasio-Cortez S. 4214, GKV-Beitragssatzstabilisierungsgesetz, Alterssicherungskommission, Tech-Layoffs Microsoft / Meta / Amazon / Oracle, Altman-Arraignment am 5. Mai 2026, OpenAI Industrial Policy / Workshop / Worker Participation Forum, Anthropic Economic Index, Korinek & Lockwood, Generationenkapital, Weimer-Digitalabgabe, IAB-Prognose, Brookings / NBER zur KI-Besteuerung). Fünf neue belegbare Entwicklungen identifiziert und eingearbeitet; alle übrigen recherchierten Themen waren in Version 13.0 bereits enthalten und wurden nicht dupliziert.
