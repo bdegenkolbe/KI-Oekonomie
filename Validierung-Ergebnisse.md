@@ -7,6 +7,92 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 5. Mai 2026 — Version 15.0 → Version 16.0
+
+**Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers am 5. Mai 2026 (Sam-Altman-Arraignment, GKV-Beitragssatzstabilisierungsgesetz / Bundesrats-Erstdurchgang, Connecticut SB 5 / Lamont-Unterzeichnung, Digital Omnibus on AI, Tech-Layoff-Tracker, OpenAI Workshop / Industrial Policy, Robotersteuer / Wertschöpfungsabgabe Deutschland, Connecticut Raised Bill 515, IAB-Bundesländer-Prognose, Maine LD 307, Sanders / Ocasio-Cortez S. 4214, OECD Pillar 2, Anthropic Economic Index, Acemoglu AI tax policy paper, EU AI Act August-Deadline-Diskussion, ulga na robotyzację Verlängerung). Fünf neue belegbare Entwicklungen identifiziert und eingearbeitet; alle übrigen recherchierten Themen waren in Version 15.0 bereits enthalten und wurden nicht dupliziert.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | Acemoglu, Autor & Johnson (Februar 2026): *Building Pro-Worker Artificial Intelligence* (Hamilton Project / Brookings / MIT) — Fortschreibung der Acemoglu-Manera-Restrepo-Linie auf die KI-Phase mit der Kernforderung, marginale Steuersätze für Hiring/Training und für Equipment/Software anzugleichen und KI-Förderung gezielt auf arbeitsergänzende Anwendungen zu lenken. | § 3.3 Weitere zentrale Beiträge (neuer Absatz mit Querverweis zur Acemoglu-Manera-Restrepo-Argumentation und zur in Kapitel 8 entwickelten Veredelungslogik). § 11.1 (neuer Literatureintrag mit MIT-PDF-URL). | Schließt eine Lücke in der Optimalsteuer-Rezeption: Bisher wurde Acemoglu nur in der 2020er-Form (Tax Code) und in der 2024er-Makroform (Simple Macroeconomics) geführt; das Hamilton-Project-Papier ist die erste explizite KI-Phasen-Fortschreibung mit industriepolitischer Komponente. |
+| 2 | Anthropic Economic Index — *Learning Curves Report* (24. März 2026): Auswertung der Februar-2026-Nutzung; rund 49 % der Berufe mit ≥ 25 % Claude-Tasks; geografische Konzentration der Top-5-US-Bundesstaaten von 30 auf 24 % gesunken, Konvergenzpfad jetzt 5–9 Jahre statt 2–5 Jahre; Diversifizierung des Anwendungsmix; Augmentationsanteil leicht steigend. | § 3.5 (neuer Folgeabsatz nach dem bestehenden Index-Block; Korrektur des bisherigen Datums „im März 2026 publiziert" auf „im Januar 2026 publiziert" für den Economic-Primitives-Bericht). § 11.1 (neuer Literatureintrag *Learning Curves*; Korrektur des bisherigen März-2026-Eintrags auf Januar 2026). | Liefert die nächste empirische Zwischenbilanz zur KI-Adoption und stützt die in Kapitel 8 entwickelte szenariorobuste Linie (schnelle Adoption ohne klar messbare aggregierte Beschäftigungseinbrüche, aber mit erkennbaren sektoralen und altersspezifischen Frühwirkungen). |
+| 3 | Polnischer Sejm — Abgeordnetenentwurf zur Verlängerung und Aufstockung der *ulga na robotyzację* auf 100 % Zusatzabzug bei zugleich ablehnender Position des Finanzministeriums. | § 6.3 Polen-Block (zweiter Absatz ergänzt mit Sejm-Entwurf, MoF-Position und Bezug zu Thuemmels Subventions-/Besteuerungsschwelle). § 11.3 (neuer Literatureintrag mit drei Berichts-/Kommentar-URLs). | Macht den Wendepunkt von Subvention zu Besteuerung in einem realen Politikfeld empirisch beobachtbar und vertieft die Polen-/Thuemmel-Verzahnung; ist gleichzeitig ein internationaler Datenpunkt zur in § 9.3 diskutierten Steuerarbitrage. |
+| 4 | Bundesrat — 1065. Sitzung am 8. Mai 2026: 79 Tagesordnungspunkte mit Erstdurchgang für 15 vom Bundestag beschlossene Gesetze sowie eine Thüringer Entschließung zum Bürokratieabbau in der gesetzlichen Krankenversicherung. | § 5.2 (Erstdurchgangs-Satz präzisiert um „1065. Sitzung; 79 Tagesordnungspunkte; flankierende Thüringer Entschließung zur GKV-Bürokratieentlastung"). § 11.3 (neuer Bundesrats-Literatureintrag mit Tagesordnungs- und Ausblicks-URLs). | Konkretisiert den in § 5.2 angelegten Bezug zwischen GKV-Reform und Wertschöpfungsabgaben-Logik durch belastbare Verfahrensdaten und ordnet die GKV-Befassung in den breiteren Bundesrats-Kontext ein. |
+| 5 | EU Digital Omnibus on AI — Konkretisierung des Trilog-Knackpunkts: Einigung auf neue Stichtage 2027/2028 ist breit getragen, der Streit konzentriert sich auf die Konformitätsbewertungs-Architektur für Anhang I (sektorale EU-Produktsicherheitsregelungen, nicht der Aufschub der Hochrisiko-Pflichten). | Abschluss-/Aktualitätshinweis am Dokumentende präzisiert (statt „Streitpunkt Verhältnis AI Act / sektorspezifische EU-Regelungen" jetzt „Knackpunkt ist nicht die Verschiebung der Hochrisiko-Pflichten, sondern die Konformitätsbewertungs-Architektur für Anhang I"). | Verbessert die Zitatgenauigkeit (§ 2.4.5) und ist methodisch relevant, weil sie das Risiko fehlerhafter Zuschreibungen (das Plenum streite über die Verschiebung) korrigiert. |
+
+**Zusätzliche Ergänzungen Literaturverzeichnis:**
+- Deutsche Bundesbank (12. März 2026): *Stellungnahme zur Alterssicherungskommission* — verstärkt die in § 5.2 referenzierte Reform-Belegkette.
+- Bundesrechnungshof (2026): *Rentenversicherung: Reform zwingend notwendig* — analoge Begründung.
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- Sam-Altman-Arraignment 5. Mai 2026 — Verfahrensschritt liegt am Stichtag, Inhalt der Verhandlung steht noch nicht fest; bestehender § 8.4-Block bleibt korrekt.
+- AI-Act-Trilog 13. Mai 2026 — Trilog hat zum Stichtag 5. Mai 2026 noch nicht stattgefunden; der präzisierte Aktualitätshinweis bleibt der maßgebliche Bezug.
+- Connecticut Raised Bill 515 — bis Sitzungsende der Connecticut General Assembly am 6. Mai 2026 keine endgültige Senatsabstimmung dokumentiert; § 4.5 / § 11.3 bleiben korrekt.
+- GKV-Beitragssatzstabilisierungsgesetz / Bundesrats-Termin 8. Mai 2026 — Termin liegt nach 5. Mai 2026; § 5.2 jetzt mit Bundesrats-Sitzungsnummer (1065.) und Tagesordnungsvolumen (79 Punkte) präzisiert.
+- Tech-Layoff-Tracker — SkillSyncer und TrueUp Stand 2. Mai 2026 unverändert; § 1.1 und § 11.5 bleiben korrekt.
+- Microsoft-Buyout — Notification 7. Mai 2026 steht aus; § 1.1-Darstellung bleibt korrekt.
+- OpenAI Workshop Washington — Eröffnung im Mai 2026 angekündigt; kein konkretes Eröffnungsdatum oder Inhalt zum Stichtag 5. Mai 2026 verfügbar; § 4.5 und Aktualitätshinweis bleiben korrekt.
+- OECD Pillar 2 — keine neuen KI-spezifischen Anknüpfungspunkte zwischen 4. und 5. Mai 2026; bestehender § 4.4 / § 4.5 / § 11.3-Block bleibt maßgeblich.
+- IAB-Regionalprognose 2026 — keine neue Datenfreigabe zwischen 4. und 5. Mai 2026; § 1.1 und § 11.3 bleiben korrekt.
+- Alterssicherungskommission — Bericht bis Mitte 2026 / Ende Q2 2026 angekündigt; ergänzt um Bundesbank- und Bundesrechnungshof-Stellungnahmen im Literaturverzeichnis (§ 11.3) ohne Eingriff in den § 5.2-Fließtext, weil die Kommission selbst noch keinen Zwischenbericht vorgelegt hat.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte 1.1–1.3, 2.1–2.3, 3.1–3.5, 4.1–4.5, 5.1–5.4, 6.1–6.4, 7.1–7.3, 8.1–8.7, 9.1–9.5, 10.1–10.3, 11.1–11.5 unverändert; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Neue Querverweise (Acemoglu/Autor/Johnson zur Veredelungslogik in Kapitel 8; Polen-Sejm-Entwurf zu Thuemmel und § 9.3) konsistent mit den vorhandenen Verweisen; keine bestehenden §-Querverweise verändert. |
+| 2.1.4 Roter Faden | OK | Acemoglu-Erweiterung verlängert die in § 3.1 / § 3.3 angelegte Optimalsteuer-Linie; Anthropic-Folgebericht stärkt die in § 3.5 angelegte szenariorobuste Linie; Polen-Vertiefung verzahnt § 6.3 noch enger mit § 3.2 (Thuemmel) und § 9.3 (internationale Steuerarbitrage); Bundesrats-Präzisierung und Bundesbank-/Bundesrechnungshof-Belegkette verstärken den in § 5.2 angelegten Reformprozess-Strang. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; keine neuen Tabellen oder Lead-Ins; bestehende Lead-Ins unverändert; Versionszeile im Dokumentkopf (15.0 → 16.0) konsistent geändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Acemoglu/Autor/Johnson durch MIT-Hosting-PDF (Hamilton Project) belegt; Anthropic-Learning-Curves-Bericht durch Anthropic-Direktquelle und IAPP/Built-In-Berichterstattung belegt; polnischer Sejm-Entwurf durch Crido und Euro-Funding belegt; Bundesrats-Sitzungsnummer 1065 und 79 Tagesordnungspunkte durch bundesrat.de belegt; Digital-Omnibus-Knackpunkt-Korrektur durch IAPP- und A&O-Shearman-Analyse belegt. |
+| 2.2.2 Redundanzprüfung | OK | Acemoglu/Autor/Johnson-Absatz in § 3.3 ohne Dopplung zum bestehenden Acemoglu-Manera-Restrepo-Block in § 3.1 (klare Trennung 2020er-Tax-Code-Argumentation vs. 2026er-KI-Phasen-Fortschreibung); Anthropic-Folgebericht ohne Dopplung zum bestehenden Januar-2026-Block (deutliche Datums- und Inhaltsabgrenzung); Polen-Erweiterung ohne Dopplung zum bestehenden 50-%-Block (Befristungsdruck-Logik); Bundesrats-Erweiterung als Präzisierung des bestehenden 8.-Mai-Termins (kein neuer Block); Digital-Omnibus-Korrektur als Ersatz, nicht als Zusatz. |
+| 2.2.3 Argumentation | OK | Hamilton-Project-Papier wird als analytische Position wiedergegeben, nicht als politische Empfehlung; Anthropic-Befunde werden als beobachtete Indikatoren ohne Kausalanspruch dargestellt; polnischer Sejm-Entwurf wird mit ablehnender MoF-Position ausgewogen referiert. |
+| 2.2.4 Ausgewogenheit | OK | Polen-Sejm-Entwurf nicht als Beleg für Förderung, sondern als empirisch beobachtbarer Wendepunkt eingeordnet; Anthropic-Befunde mit beibehaltenem Augmentations-/Substitutions-Kontrast wiedergegeben; Acemoglu/Autor/Johnson nicht als Konsens-Position dargestellt. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „Hamilton Project" beim ersten Auftreten mit Brookings-Anschluss eingeführt; „Augmentation" als Anthropic-eigene Begrifflichkeit zitiert; „Konformitätsbewertungs-Architektur" als terminologisch saubere Übersetzung von „conformity assessment architecture". |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neue/aktualisierte Einträge: § 11.1 +2 (Acemoglu/Autor/Johnson; Anthropic Learning Curves) und 1× Korrektur (Anthropic Economic Primitives auf Januar 2026); § 11.3 +4 (Bundesrat 1065. Sitzung; Deutsche Bundesbank 12.03.2026; Bundesrechnungshof 2026; polnischer Sejm-Entwurf). Jede neue Fließtext-Referenz hat einen Eintrag; keine Karteileichen entstanden. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil, Datumsangaben „DD. Monat YYYY" bzw. „Monat YYYY", Sammelbelege durch Pipe-Zeichen getrennt; URLs vollständig ohne Shortener. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen für die zentralen Aussagen: economics.mit.edu (Hamilton-Project-PDF); anthropic.com (Learning-Curves-Bericht); crido.pl und euro-funding.com (polnischer Sejm-Entwurf und MoF-Gegenposition); bundesrat.de (Sitzungs-Tagesordnung); bundesbank.de (Bundesbank-Stellungnahme); bundesrechnungshof.de (Bundesrechnungshof-Stellungnahme). |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 5. Mai 2026 über die WebSearch-Treffer: economics.mit.edu Hamilton-PDF erreichbar; anthropic.com Learning-Curves-Direkt-URL erreichbar; crido.pl und euro-funding.com erreichbar; bundesrat.de 1065-Sitzungs-URL erreichbar; bundesbank.de Stellungnahme erreichbar; bundesrechnungshof.de Kurzmeldung erreichbar. Keine 404; keine Paywalls. |
+| 2.4.5 Zitatgenauigkeit | OK | Anthropic „rund 49 % aller Berufe mit mindestens einem Viertel Claude-Tasks" sinngemäß aus dem Bericht; „Top-5-Bundesstaaten 30 → 24 %" wörtlich; „Konvergenzpfad 5–9 Jahre statt 2–5 Jahre" wörtlich. Polen-Sejm-Entwurf „Anhebung auf 100 % und Streichung des Auslaufdatums" wörtlich aus Crido-Analyse. Digital Omnibus „Konformitätsbewertungs-Architektur für Anhang I" sinngemäße Übersetzung des englischen Originals. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge vollständig belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 16.0 durchgängig: Dokumentkopf, `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung), `Claude.md` (Stand-Angabe), `build_pdf.py` (DOC_VERSION, Titelseite), `build_docx.py` (DOC_VERSION, Titelseite), diesem Protokoll. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| 1 | § 3.5 und § 11.1 (Anthropic-Eintrag) | Bisher unter „März 2026" geführter Bericht ist tatsächlich der Januar-2026-Bericht *Economic Primitives*; der echte März-2026-Bericht *Learning Curves* fehlte. | Mittel |
+| 2 | Aktualitätshinweis am Dokumentende | Trilog-Streitpunkt war bisher zu allgemein als „Verhältnis AI Act / sektorspezifische EU-Regelungen" beschrieben; präziser ist die Konformitätsbewertungs-Architektur für Anhang I bei Konsens auf die Stichtag-Verschiebung. | Gering |
+| 3 | `build_pdf.py` und `build_docx.py` | Versions- und Stand-Felder müssen für den Export auf 16.0 / Mai 2026 angepasst werden. | Gering |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| 1 | Falsche Datierung des Anthropic-Berichts | § 3.5-Datum auf „im Januar 2026 publiziert" korrigiert; § 11.1 Anthropic-Eintrag auf „Januar 2026" korrigiert; neuer März-2026-Eintrag *Learning Curves* in § 11.1 ergänzt; § 3.5 um Folgeabsatz mit den Learning-Curves-Befunden erweitert. | Ja |
+| 2 | Unpräziser Trilog-Streitpunkt im Aktualitätshinweis | Aktualitätshinweis am Dokumentende präzisiert: Konsens auf neue Stichtage 2027/2028 unverändert; Streit konzentriert sich auf die Konformitätsbewertungs-Architektur für Anhang I (nicht den Aufschub der Hochrisiko-Pflichten). | Ja |
+| 3 | Versions- und Stand-Felder in den Build-Skripten | DOC_VERSION und Titelseiten-/Footer-Label in `build_pdf.py` und `build_docx.py` auf 16.0 / Mai 2026 gesetzt; PDF und DOCX neu erzeugt. | Ja |
+
+### Nachprüfung
+
+- 2.1.1 – 2.1.5 nach Einarbeitung: OK
+- 2.2.1 / 2.4.1 / 2.4.2 / 2.4.3 / 2.4.5 nach Ergänzung der Literaturnachweise: OK
+- 2.5 Versionskonsistenz: OK (16.0 in Dokumentkopf, `README.md` × 2, `Claude.md`, `build_pdf.py` × 2, `build_docx.py` × 2, diesem Protokoll)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 16.0
+- PDF erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.pdf`)
+- Word erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.docx`)
+
+---
+
 ## Validierung 4. Mai 2026 — Version 14.0 → Version 15.0
 
 **Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers am 4. Mai 2026 (KI-Steuer / Wertschöpfungsabgabe / Robotersteuer im deutschsprachigen Raum, EU AI Act / Digital Omnibus Trilog 13. Mai 2026, Maine LD 307 / Executive Order 5 / LD 713, Connecticut Raised Bill 515 und SB 5, Sanders / Ocasio-Cortez S. 4214, GKV-Beitragssatzstabilisierungsgesetz, Alterssicherungskommission, Tech-Layoffs Microsoft / Meta / Amazon / Oracle, Altman-Arraignment am 5. Mai 2026, OpenAI Industrial Policy / Workshop / Worker Participation Forum, Anthropic Economic Index, Korinek & Lockwood, Generationenkapital, Weimer-Digitalabgabe, IAB-Prognose, Brookings / NBER zur KI-Besteuerung, Frühjahrsgutachten 2026, OECD Pillar 2). Zwei neue belegbare Entwicklungen identifiziert und eingearbeitet; alle übrigen recherchierten Themen waren in Version 14.0 bereits enthalten und wurden nicht dupliziert.
