@@ -7,6 +7,92 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 6. Mai 2026 — Version 16.0 → Version 17.0
+
+**Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers am 6. Mai 2026 (Bundesrat 1065. Sitzung / GKV-Beitragssatzstabilisierungsgesetz, OpenAI Workshop Washington, EU AI Act Digital Omnibus Trilog 13. Mai 2026, Sam-Altman-Arraignment, Connecticut SB 5 Lamont-Unterzeichnung, Tech-Layoff-Tracker, OpenAI Robotersteuer / Wertschöpfungsabgabe Deutschland, Sanders / Ocasio-Cortez Data Center Moratorium Act, Maine LD 307 / LD 713, Anthropic Economic Index, Massenkoff & McCrory *Labor market impacts of AI*, Big-Tech AI Capex Q1 2026, Korinek/Lockwood, Polen ulga na robotyzację, Acemoglu/Autor/Johnson Pro-Worker AI). Fünf neue belegbare Entwicklungen identifiziert und eingearbeitet; alle übrigen recherchierten Themen waren in Version 16.0 bereits enthalten und wurden nicht dupliziert.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | Massenkoff & McCrory (5. März 2026): *Labor market impacts of AI: A new measure and early evidence* (Anthropic) — Anwendung des Konzepts der *observed exposure* auf den US-Arbeitsmarkt; Computer-Programmierer 74,5 %, Customer-Service 70,1 %, Dateneingabe 67,1 %; keine systematische Arbeitslosigkeitserhöhung für hoch exponierte Beschäftigte seit Ende 2022, tentative Hire-Verlangsamung Altersgruppe 22–25 in exponierten Berufen. | § 3.5 (neuer Folgeabsatz nach dem Learning-Curves-Block; Anschluss an die Goldman-Sachs-Beobachtung in § 1.1). § 11.1 (neuer Literatureintrag). | Schließt die empirische Lücke zwischen aggregierten Index-Befunden (Economic-Index-Reihe) und der in § 1.1 referierten Goldman-Sachs-Beobachtung zu Gen-Z-Berufseinsteigern; bestätigt die in Kapitel 8 entwickelte szenariorobuste Linie auf Mikroebene. |
+| 2 | Anthropic Economic Index Survey (22. April 2026): Start eines monatlichen qualitativen Survey-Formats über *Anthropic Interviewer*; randomisierte Stichprobe von Claude-Nutzerinnen und -Nutzern zu Aufgabendelegation, Produktivitätserwartung, Hire-/Fire-Wahrnehmung; Veröffentlichung in Folge-Index-Berichten vorgesehen. | § 3.5 (Schlussfolgesatz nach dem Massenkoff/McCrory-Absatz). § 11.1 (neuer Literatureintrag). | Ergänzt die nutzungsdatenbasierte Index-Reihe um eine subjektive Erlebniskomponente; methodisch relevant für die in § 9.1 / § 9.4 diskutierten Mess-/Umgehungsprobleme einer Displacement-basierten Anknüpfung. |
+| 3 | Sam-Altman-Arraignment (5. Mai 2026): Moreno-Gama plädiert auf nicht schuldig; Gericht ordnet psychiatrische Begutachtung an; Folgetermin im Mai 2026. | § 8.4 (Aktualisierung des bestehenden Altman-Blocks, ersetzt den bisherigen Termin-Hinweis durch das tatsächliche Verhandlungsergebnis). § 11.5 (neuer Sammelbeleg AP-Berichterstattung 5. Mai 2026). | Ersetzt einen prospektiven Verfahrensschritt (Termin) durch ein retrospektives Faktum (Plädoyer und Mental-Health-Anordnung); verbessert die Zitatgenauigkeit (§ 2.4.5) und verhindert eine in einer späteren Validierung notwendig werdende Korrektur. |
+| 4 | Tech-Layoff-Tracker Stand 6. Mai 2026: TrueUp 119.721 Personen aus 265 Layoff-Meldungen (rund 958 Stellen pro Tag); SkillSyncer weitgehend unverändert bei 113.863 Personen aus 179 Ereignissen. Dazu Big-Tech-AI-Capex-Kontext (Q1 2026 rund 130,65 Mrd. USD; Konsens 2026: 660–700 Mrd. USD; Wall-Street-Erwartung 2027: > 1 Bio. USD). | § 1.1 (neuer Folgesatz nach dem 2.-Mai-Trackerstand; Verzahnung mit der in § 5.1 / § 8.3 angelegten Logik der Anknüpfung am Maschinenkapital). § 11.5 (zwei neue Sammelbelege: SkillSyncer/TrueUp Stand 6. Mai 2026; Fortune/Investor's Business Daily/Futurum zum AI-Capex). | Aktualisiert die in Vorgängerversionen referierten Zahlen ohne den 2.-Mai-Stand zu löschen (Historizität bleibt erhalten); kontrastiert die Personalreduktion mit dem parallelen Infrastrukturausbau und schärft damit die fiskalpolitische Pointe. |
+| 5 | EU Digital Omnibus on AI — zypriotische Ratspräsidentschaft strebt Abschluss des Dossiers vor Ende ihrer Amtszeit am 30. Juni 2026 an; bei Verfehlung Übernahme durch die irische Präsidentschaft im zweiten Halbjahr 2026. | § 4.3 (neuer Satz im bestehenden Trilog-Block, vor dem 2.-August-2026-Stichtag). Aktualitätshinweis am Dokumentende ergänzt. | Konkretisiert die institutionelle Zeitachse zwischen der nächsten Trilogrunde (13. Mai 2026) und dem Stichtag 2. August 2026; relevant für die in § 4.3 / § 4.4 diskutierte Anschlussfähigkeit steuerlicher Tatbestände an AI-Act-Kategorien. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- Bundesrat 1065. Sitzung 8. Mai 2026 / GKV-Beschluss — Sitzung liegt nach dem Stichtag 6. Mai 2026; Beschluss-Inhalt nicht verifizierbar; bestehender § 5.2 / § 11.3-Block bleibt korrekt.
+- AI-Act-Trilog 13. Mai 2026 — Trilog hat zum Stichtag 6. Mai 2026 noch nicht stattgefunden; präzisierter Aktualitätshinweis und neue Cypriot-Presidency-Frist sind die maßgeblichen Bezüge.
+- Connecticut SB 5 — Gouverneur Lamont hat öffentlich Unterzeichnung angekündigt; bis 6. Mai 2026 keine Unterzeichnungsbestätigung; bestehender § 4.5-Text korrekt.
+- Connecticut Raised Bill 515 — bis Sitzungsende der Connecticut General Assembly am 6. Mai 2026 keine endgültige Senatsabstimmung dokumentiert; § 4.5 / § 11.3 bleiben korrekt.
+- Microsoft-Buyout-Notification — angekündigter Stichtag 7. Mai 2026 liegt nach dem Validierungstag; § 1.1-Darstellung bleibt korrekt.
+- OpenAI Workshop Washington — Eröffnung im Mai 2026 angekündigt; zum Stichtag 6. Mai 2026 weder Eröffnungsdatum noch Inhalt verfügbar; § 4.5 und Aktualitätshinweis bleiben korrekt.
+- US-Bundesgesetzgebung Sanders/AOC AI Data Center Moratorium Act — keine neuen Bewegungen zwischen 5. und 6. Mai 2026; § 4.5 / § 11.3 bleiben korrekt.
+- Acemoglu/Autor/Johnson — bereits in Version 16.0 aufgenommen; keine zusätzlichen Quellen identifiziert.
+- Korinek & Lockwood — bereits in Version 9.0 aufgenommen; keine Folgepublikation identifiziert.
+- Polen ulga na robotyzację — bereits in Version 11.0 / 16.0 aufgenommen; keine neuen Sejm-Beschlüsse zwischen 5. und 6. Mai 2026.
+- Maine LD 307 / LD 713 — bereits in Version 14.0 aufgenommen; keine neuen Bewegungen zwischen 5. und 6. Mai 2026.
+- IAB-Prognose / Regionalprognose — bereits in Version 14.0 / 15.0 aufgenommen; keine neue Datenfreigabe zwischen 5. und 6. Mai 2026.
+- OpenAI Robotersteuer / Industrial Policy — bereits ausführlich in § 4.5 dargestellt.
+- Plattform-Digitalabgabe Weimer — bereits in Version 9.0 / 10.0 aufgenommen; keine neuen Beschlüsse.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte unverändert; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Neue Querverweise (Massenkoff/McCrory zu Goldman Sachs in § 1.1; Anthropic Economic Index Survey zu Mess-/Umgehungsproblemen § 9.1 / § 9.4; Capex-Kontext zu § 5.1 / § 8.3; Cypriot Presidency zu § 4.3 / § 4.4) konsistent mit den vorhandenen Verweisen; keine bestehenden §-Querverweise verändert. |
+| 2.1.4 Roter Faden | OK | Massenkoff/McCrory verlängert die in § 3.5 angelegte Anthropic-Beleglinie um eine Mikroebene-Verifikation der Goldman-Sachs-Befunde; Survey-Eintrag stützt die in Kapitel 9 angelegte Mess-Architektur; Tech-Layoff-/Capex-Update kontrastiert die in § 5.1 / § 8.3 angelegte Maschinenkapital-Linie; Altman-Update aktualisiert das in § 8.4 angelegte System-stabilitäts-Argument; Cypriot-Frist konkretisiert die in § 4.3 / § 4.4 angelegte Trilog-Linie. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; keine neuen Tabellen oder Lead-Ins; bestehende Lead-Ins unverändert; Versionszeile im Dokumentkopf (16.0 → 17.0) konsistent geändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Massenkoff/McCrory-Befunde durch Anthropic-Direktquelle und Fortune/Nexford-Berichterstattung belegt; Economic-Index-Survey durch Anthropic-Direktquelle belegt; Altman-Arraignment durch AP-Berichterstattung in mehreren Outlets (Washington Times, Boston Globe u. a.) belegt; Tech-Layoff-Tracker durch SkillSyncer und TrueUp belegt; Big-Tech-Capex durch Fortune, CNBC und Futurum belegt; Cypriot-Presidency-Frist durch Bird & Bird und IAPP belegt. |
+| 2.2.2 Redundanzprüfung | OK | Massenkoff/McCrory-Absatz in § 3.5 ohne Dopplung zu den drei Index-Berichten (klare Trennung Methodenpapier vs. Index-Reihe); Survey-Eintrag ohne Dopplung zu den Index-Berichten (qualitative vs. nutzungsdatenbasierte Methode); Altman-Update als Ersatz, nicht als Zusatz; Tech-Layoff-Update als Folgesatz, nicht als Block-Wiederholung; Cypriot-Frist als Präzisierung, nicht als neuer Block. |
+| 2.2.3 Argumentation | OK | Massenkoff/McCrory wird mit explizitem „tentativ"-Hinweis zur 22–25-Hire-Verlangsamung wiedergegeben (kein Kausalanspruch); Capex-Volumen wird ohne Bewertung referiert; Altman-Update bleibt deskriptiv (Plädoyer, Begutachtung, Folgetermin), keine Rückprojektion auf das Argument der § 8.4. |
+| 2.2.4 Ausgewogenheit | OK | Massenkoff/McCrory mit beibehaltenem Hinweis auf „keine systematische Arbeitslosigkeitserhöhung" wiedergegeben (entgegen einer einseitig substitutiven Lesart); Capex-Kontext kontrastiert die Personalreduktion und beugt einer rein layoff-zentrischen Lesart vor; Altman-Update bleibt strafprozessual neutral, ohne den ursprünglichen Argumentationskern (Systemstabilität) anzutasten. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „observed exposure" beim ersten Auftreten in § 3.5 mit deutscher Erläuterung („tatsächlich gemessene KI-Nutzung im Verhältnis zur theoretischen Substitutionsfähigkeit") eingeführt; „Anthropic Interviewer" und „Anthropic Economic Index Survey" als Anthropic-Eigenbegrifflichkeiten beibehalten. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neue/aktualisierte Einträge: § 11.1 +2 (Massenkoff & McCrory; Economic Index Survey); § 11.5 +3 (SkillSyncer/TrueUp Stand 6. Mai 2026; Fortune/CNBC/Futurum AI-Capex; AP-Sammelbeleg Altman-Arraignment 5. Mai 2026). Jede neue Fließtext-Referenz hat einen Eintrag; keine Karteileichen entstanden. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil, Datumsangaben „DD. Monat YYYY" bzw. „Monat YYYY", Sammelbelege durch Pipe-Zeichen getrennt; URLs vollständig ohne Shortener. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen für die zentralen Aussagen: anthropic.com (Massenkoff/McCrory-Bericht und Economic-Index-Survey-Ankündigung); skillsyncer.com / trueup.io (Layoff-Tracker); fortune.com, cnbc.com, futurumgroup.com (Capex-Volumen); washingtontimes.com / bostonglobe.com (AP-Bericht zur Altman-Verhandlung); twobirds.com / iapp.org (Cypriot-Presidency-Frist). |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 6. Mai 2026 über die WebSearch-Treffer: anthropic.com Massenkoff/McCrory-Direkt-URL erreichbar; anthropic.com Economic-Index-Survey-Ankündigung erreichbar; skillsyncer.com und trueup.io Tracker erreichbar; fortune.com Big-Tech-Capex-URL erreichbar; washingtontimes.com Altman-Arraignment-Bericht erreichbar; bostonglobe.com Altman-Bericht erreichbar. Keine 404; keine Paywalls bei den Primärquellen. |
+| 2.4.5 Zitatgenauigkeit | OK | Massenkoff/McCrory: „74,5 % / 70,1 % / 67,1 %" wörtlich aus dem Anthropic-Bericht; „keine systematische Arbeitslosigkeitserhöhung seit Ende 2022" sinngemäße Übersetzung des englischen Originals; „tentative Hinweise auf verlangsamte Einstellung 22–25" wörtlich. AI-Capex: „rund 130,65 Mrd. USD" wörtlich aus heygotrade.com / Q1-Earnings; „660–700 Mrd. USD 2026" Konsens-Spanne korrekt wiedergegeben; „> 1 Bio. USD 2027" durch CNBC belegt. Altman: „pleads not guilty" und „mental health evaluation" wörtlich aus AP-Berichterstattung übersetzt. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge vollständig belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionsnummer 17.0 in Dokumentkopf, Aktualitätshinweis, README.md (Versionszeile, Zitiervorschlag, Versionshistorie) und in diesem Validierungs-Abschluss konsistent gesetzt. Autor (Björn Degenkolbe), Organisation (HIGL – Health Innovators Group Leipzig), Lizenzhinweis (CC BY 4.0) und Haftungshinweis unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Keine dedizierten Prüfskripte vorhanden; manuelle Stichproben gemäß § 2.6 durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| 1 | § 8.4 (Altman-Block) | Termin „Arraignment-Verhandlung 5. Mai 2026 terminiert" war zum Validierungstag (6. Mai 2026) bereits prospektiv überholt. | Gering |
+| 2 | § 4.3 (Trilog-Block) | Fehlende Konkretisierung der zypriotischen Ratspräsidentschafts-Frist (30. Juni 2026) zwischen nächster Trilogrunde (13. Mai 2026) und Stichtag 2. August 2026. | Gering |
+| 3 | § 1.1 (Tech-Layoff-Tracker) | Trackerstand vom 2. Mai 2026 war zum Validierungstag durch neue TrueUp-Zählung überholt; AI-Capex-Kontext (Personalreduktion vs. Infrastrukturausbau) fehlte. | Gering |
+| 4 | § 3.5 (Anthropic-Block) | Mit Massenkoff/McCrory (5. März 2026) und dem Economic Index Survey (22. April 2026) fehlten zwei eigenständige Anthropic-Forschungsbeiträge, die methodisch komplementär zur Index-Reihe sind. | Mittel |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| 1 | Altman-Block prospektiv | Ersetzt durch Beschreibung der tatsächlichen Verhandlung am 5. Mai 2026 (Plädoyer „nicht schuldig", angeordnete psychiatrische Begutachtung, Folgetermin im Mai 2026); AP-Sammelbeleg in § 11.5 ergänzt. | Ja |
+| 2 | Trilog-Block ohne Cypriot-Presidency | Satz mit Cypriot-Presidency-Frist 30. Juni 2026 und irischer Folge-Präsidentschaft eingefügt; Aktualitätshinweis ergänzt. | Ja |
+| 3 | § 1.1 mit veraltetem Tracker-Stand | Folgesatz zum Stand 6. Mai 2026 (TrueUp 119.721 / 265; SkillSyncer 113.863 / 179) eingefügt; Big-Tech-AI-Capex-Kontext ergänzt; zwei neue § 11.5-Belege. | Ja |
+| 4 | § 3.5 ohne Massenkoff/McCrory und Economic Index Survey | Folgeabsatz nach dem Learning-Curves-Block eingefügt; zwei neue § 11.1-Literatureinträge. | Ja |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte (2.1.1, 2.1.2, 2.1.3, 2.1.4, 2.1.5, 2.2.1, 2.2.2, 2.2.3, 2.2.4, 2.3.2, 2.4.1, 2.4.2, 2.4.3, 2.4.5, 2.5) erneut durchlaufen: alle OK.
+- Automatisierte Skripte: n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 17.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 5. Mai 2026 — Version 15.0 → Version 16.0
 
 **Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers am 5. Mai 2026 (Sam-Altman-Arraignment, GKV-Beitragssatzstabilisierungsgesetz / Bundesrats-Erstdurchgang, Connecticut SB 5 / Lamont-Unterzeichnung, Digital Omnibus on AI, Tech-Layoff-Tracker, OpenAI Workshop / Industrial Policy, Robotersteuer / Wertschöpfungsabgabe Deutschland, Connecticut Raised Bill 515, IAB-Bundesländer-Prognose, Maine LD 307, Sanders / Ocasio-Cortez S. 4214, OECD Pillar 2, Anthropic Economic Index, Acemoglu AI tax policy paper, EU AI Act August-Deadline-Diskussion, ulga na robotyzację Verlängerung). Fünf neue belegbare Entwicklungen identifiziert und eingearbeitet; alle übrigen recherchierten Themen waren in Version 15.0 bereits enthalten und wurden nicht dupliziert.
