@@ -1,0 +1,12 @@
+{
+  "email_to": "your.email@example.com",
+  "email_from": "your.sender@example.com",
+  "email_from_name": "Daily-Update Bot",
+  "whatsapp_to": "49XXXXXXXXXXX",
+  "_hinweise": {
+    "email_to": "Empfaenger der taeglichen Aktualisierungs-Mail.",
+    "email_from": "Optional. Absender-Adresse fuer mail_send. Wenn leer, nutzt graph-mcp das Default-Postfach des angemeldeten Users.",
+    "email_from_name": "Optional. Anzeigename des Absenders.",
+    "whatsapp_to": "Empfaenger-Telefonnummer im internationalen Format ohne fuehrendes + und ohne 0 (Beispiel: 491721234567 fuer +49 172 1234567)."
+  }
+}

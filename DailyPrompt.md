@@ -115,10 +115,13 @@ PHASE 5 — Build der abhängigen Dokumente
 PHASE 5b — Benachrichtigung (E-Mail und WhatsApp)
 ================================================================
 Diese Phase versendet die Tagesänderungen per E-Mail und eine
-Kurzzusammenfassung per WhatsApp. Empfänger:
+Kurzzusammenfassung per WhatsApp.
 
-  – E-Mail:    [REDACTED-EMAIL]
-  – WhatsApp:  [REDACTED-PHONE]
+Empfänger werden zur Laufzeit aus der lokalen, gitignorierten Datei
+`notify-config.json` im Repo-Root gelesen (Schema siehe
+`notify-config.example.json`). Pflichtfelder: `email_to`,
+`whatsapp_to`. Wenn die Datei fehlt oder unvollständig ist, gilt das
+als „Versand nicht konfiguriert" (siehe Schritt 3 unten).
 
 1. Aus dem soeben in Phase 4 angelegten Block in
    `Änderungshistorie.md` zwei Texte erzeugen:
@@ -137,7 +140,10 @@ Kurzzusammenfassung per WhatsApp. Empfänger:
         Änderungen (Stelle § + Inhalt in einem halben Satz).
       – Eine Zeile zum Lauf-Status (alle Phasen OK / Stop in Phase X).
 
-2. Versandkanäle ansteuern:
+2. Versandkanäle ansteuern. Empfänger jeweils aus
+   `notify-config.json` (`email_to` und `whatsapp_to`) übernehmen —
+   keine Empfängerdaten im Prompt, im Logbuch, in Commits oder im
+   Abschlussbericht ausschreiben:
 
    a) **E-Mail:** Bevorzugtes Tool ist `mail_send` aus dem MCP-Server
       `graph-mcp` (Microsoft Graph). Sollte dieses nicht erreichbar
@@ -160,14 +166,18 @@ Kurzzusammenfassung per WhatsApp. Empfänger:
 
 3. **Versandfehler sind weich.** Schlägt der eigentliche Versand
    fehl, wird der Fehler im Logbuch unter „Auffälligkeiten"
-   dokumentiert und der Lauf fährt mit Phase 6 fort. Der Merge auf
-   `main` wird durch fehlgeschlagene Benachrichtigung NICHT
-   verhindert — die Aktualisierung des Dokuments ist wichtiger als
-   die Zustellung der Benachrichtigung.
+   dokumentiert (ohne Empfängerdaten zu nennen) und der Lauf fährt
+   mit Phase 6 fort. Der Merge auf `main` wird durch fehlgeschlagene
+   Benachrichtigung NICHT verhindert — die Aktualisierung des
+   Dokuments ist wichtiger als die Zustellung der Benachrichtigung.
+   Fehlt `notify-config.json` ganz, gilt der Versand als „nicht
+   konfiguriert"; in diesem Fall werden weder Tools aufgerufen noch
+   Fallback-Textdateien geschrieben, und der Lauf vermerkt im Logbuch
+   einen entsprechenden Hinweis.
 
-4. Ergebnisse beider Kanäle (versendet / Fallback-Datei / Fehler)
-   im Logbuch unter „Verarbeitungsschritte" als zusätzliche Punkte
-   aufnehmen.
+4. Ergebnisse beider Kanäle (versendet / Fallback-Datei / nicht
+   konfiguriert / Fehler) im Logbuch unter „Verarbeitungsschritte" als
+   zusätzliche Punkte aufnehmen — ohne Empfängerangabe.
 
 ================================================================
 PHASE 6 — Commit, Merge auf main, Branch-Cleanup
