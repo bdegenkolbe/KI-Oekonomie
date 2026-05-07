@@ -7,6 +7,76 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 7. Mai 2026 (abendlicher Folgelauf) — Version 18.0 → Version 19.0
+
+**Auslöser:** Zweiter Tageslauf der Web-Recherche zu den Hauptthemen des Arbeitspapiers am 7. Mai 2026 (Robotersteuer / NBER / Brookings; Wertschöpfungsabgabe / Bundesrat / Bürgerversicherung; AI Act Digital Omnibus Trilog; Tech-Layoffs 48-Stunden-Fenster; Sanders / 32-Stunden-Woche; OECD Pillar 2 / digitale Steuern; Microsoft VRSAR-Programmkonditionen; Yale Budget Lab / Anthropic Index; ulga na robotyzację; Cognizant / Coinbase / PayPal / Freshworks). Drei belegbare Cluster mit insgesamt sechs neuen Datenpunkten identifiziert und eingearbeitet; alle übrigen recherchierten Themen waren in Version 18.0 bereits enthalten und wurden nicht dupliziert.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | Coinbase, PayPal, Freshworks und Cognizant: am 5./6. Mai 2026 angekündigte KI-getriebene Stellenstreichungen. *Coinbase* 14 % der Belegschaft (rund 700 Stellen, „AI-native restructuring", Restrukturierungsaufwand 50–60 Mio. USD, Q2-2026-Abschluss); *PayPal* 20 % der Belegschaft über 2–3 Jahre (rund 4.760 Stellen, Q1-2026-Earnings-Call von CEO Enrique Lores, mindestens 1,5 Mrd. USD Einsparungen, „becoming a technology company again"); *Freshworks* 11 % (rund 500 Stellen, Vorstandsvorsitzender: „über die Hälfte des Codes" werde von KI geschrieben); *Cognizant* 12.000–15.000 Stellen weltweit unter „Project Leap" mit 230–320 Mio. USD Abfindungs­aufwand, Schwerpunkt Indien (250.000 von 357.000 Beschäftigten). | § 1.1 (Erweiterung der bestehenden Layoff-Welle als Tagesfortschreibung der TrueUp-Methodik). § 11.5 (vier neue Sammelbelege CNBC/Engadget/Coindesk/Fortune; Bloomberg/TechCrunch/Yahoo Finance; TechRadar/Storyboard18; American Bazaar/TechResearchOnline/Goodreturns). Aktualitätshinweis am Dokumentende ergänzt. | Verlängert die in § 1.1 angelegte „AI labor crisis"-Datenreihe um vier qualitativ unterschiedliche Fälle: einen aktiven AI-native-Pivot (Coinbase), einen mehrjährigen 20-Prozent-Reorganisationsplan (PayPal), einen Code-Automatisierungs-Beleg (Freshworks) und ein offshorenahes IT-Services-Restrukturierungsprogramm (Cognizant). Methodisch wichtig, weil die Fälle die in § 9.1 dokumentierten Mess- und Umgehungsprobleme einer Typ-5-Anknüpfung (Reorganisation, Outsourcing, Cross-border-Strukturierung) sichtbar machen — Coinbase, Freshworks und Cognizant sind explizit AI-getrieben begründet, PayPal demonstriert das parallele Muster „Cloud-Migration plus AI-Adoption". |
+| 2 | Yale Budget Lab — laufende Reihe *„Tracking the Impact of AI on the Labor Market"*. März-CPS-Update (April 2026): keine Abweichung von Berufsstrukturmischung, Industrie­diversität und Expositions­kennziffern aus dem historischen Korridor; leichte Zunahme der Differenz zwischen älteren und jüngeren Hochschulabsolventinnen und -absolventen. Ergänzende fiskalische Modellrechnung vom 6. Mai 2026 (Fortune zu Yale Budget Lab): 39 Bio. USD US-Schulden, 100 % des BIP (April 2026), 88 Mrd. USD monatlicher Zinsdienst gegenüber 5.500–42.400 USD Übergangshilfe pro Verdrängtem; KI-Produktivitätspfad von 2,5 % p. a. wirkt schuldenabbauend nur unter der Annahme, dass Sozialhilfen für Verdrängte begrenzt bleiben. | § 3.5 (neuer Folgesatz nach den Massenkoff-/McCrory- und Anthropic-81k-Befunden, mit eigener Interpretation der fiskalisch-ethischen Doppelnatur und Querverweis auf § 8.4). § 11.1 (zwei neue Literatureinträge: Yale Budget Lab Tracking-Reihe, Yale Budget Lab / Fortune 6. Mai 2026). Aktualitätshinweis am Dokumentende ergänzt. | Liefert eine unabhängige Bestätigung des Massenkoff/McCrory- und Anthropic-Index-Befundes auf einem methodisch vom CPS aus aufgesetzten Datenfundament — und damit erstmals ein US-amtlich-statistisches Komplement zu den Anthropic-Nutzungsdaten. Die Mai-Modellrechnung schließt eine bisher nur implizit adressierte Lücke: Sie quantifiziert das fiskalisch-ethische Dilemma der Acemoglu-Linie, dass Produktivitätsgewinne aus KI-Adoption nur dann „kostenlos" wirken, wenn ihre Verteilungsfolgen externalisiert werden — ein direkter Beleg für die in § 8.4 entwickelte Stabilitätslinie. |
+| 3 | Microsoft Voluntary Retirement Program — am 7. Mai 2026 publizierte ergänzende Programmangaben. *Separation Date* fällt verbindlich auf den 2. Juli 2026; rund 8.500 angebotsberechtigte Beschäftigte (kongruent mit der bisherigen Schätzung „bis zu 8.750", aber als versandte Größenordnung präzisiert). | § 1.1 (Konkretisierung des bestehenden Microsoft-VRSAR-Blocks: Ergänzung des *Separation Date* und der konkreten Angebots­zahl). | Schließt die in Version 18.0 verbliebene Lücke zwischen Annahmefrist (8. Juni 2026), Unterzeichnungsfenster (9.–22. Juni 2026) und tatsächlichem Ausscheiden — und stellt damit die Gesamttimeline bis zum endgültigen Datum fest. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- Bundesrat 1065. Sitzung 8. Mai 2026 / GKV-Erstdurchgang — Sitzung liegt nach dem Stichtag 7. Mai 2026; bestehender § 5.2-/§ 11.3-Block bleibt korrekt.
+- AI-Act-Trilog 13. Mai 2026 — Trilog hat zum Stichtag 7. Mai 2026 noch nicht stattgefunden; bestehender § 4.3-Block bleibt korrekt.
+- Sanders-Robotersteuer-Folgeinitiative — keine neuen Beschlüsse oder Entwürfe zwischen 6./7. Mai 2026 außerhalb der bereits dokumentierten S. 4214 / 16.-April-Op-Ed-Linie.
+- OECD Pillar 2 / digitale Steuern — keine neuen Side-by-Side-Pakete oder administrative Leitlinien seit 13. Januar 2026; bestehender § 4.4-Block bleibt korrekt.
+- Polen ulga na robotyzację — keine neuen Sejm-Beschlüsse zwischen 6. und 7. Mai 2026; § 6.3 bleibt korrekt.
+- Plattform-Digitalabgabe Weimer — keine neuen Beschlüsse; § 4.4 bleibt korrekt.
+- Anthropic Economic Index Survey — erste Ergebnisse zum Stichtag 7. Mai 2026 noch nicht publiziert; § 3.5 bleibt korrekt.
+- Bürgerversicherung / Alterssicherungskommission / Kommission zur Sozialstaatsreform — keine neuen Zwischenergebnisse zwischen 6. und 7. Mai 2026 (abendlicher Stand); § 5.2 bleibt korrekt.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitt 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Neue Querverweise (Yale-Budget-Lab-Eintrag zu § 8.4 / Stabilitätsargument; Tagesfortschreibung der Layoffs zu § 9.1) konsistent mit den vorhandenen Verweisen; keine bestehenden §-Querverweise verändert. |
+| 2.1.4 Roter Faden | OK | Die vier neuen Layoff-Fälle setzen die in § 1.1 angelegte AI-Labor-Crisis-Datenreihe sektoral und qualitativ fort; das Yale-Budget-Lab-Update verlängert die in § 3.5 referierte Anthropic-/Massenkoff-/McCrory-Linie auf die US-amtliche Statistikseite und schlägt die Brücke zu § 8.4; das Microsoft-Update schließt eine Verfahrenslücke. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; keine neuen Tabellen oder Lead-Ins; bestehende Lead-Ins unverändert; Versionszeile im Dokumentkopf (18.0 → 19.0) konsistent geändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Coinbase 14 % / 700 / 50–60 Mio. USD durch CNBC-, Engadget-, Coindesk- und Fortune-Berichterstattung vom 5. Mai 2026 belegt; PayPal 20 % / 4.760 / 1,5 Mrd. USD durch Bloomberg, TechCrunch und Yahoo Finance vom 5. Mai 2026 belegt; Freshworks 11 % / 500 durch TechRadar und Storyboard18 vom 5./6. Mai 2026 belegt; Cognizant 12.000–15.000 / 230–320 Mio. USD / Project Leap durch American Bazaar (6. Mai 2026), TechResearchOnline und Goodreturns belegt; Yale Budget Lab März-CPS-Update April 2026 durch budgetlab.yale.edu belegt; Yale Budget Lab Mai 2026 durch fortune.com vom 6. Mai 2026 belegt; Microsoft *Separation Date* 2. Juli 2026 / 8.500 durch CNBC, TruWealth, Motley Fool und Inc. belegt. |
+| 2.2.2 Redundanzprüfung | OK | Tagesfortschreibung der Layoff-Tracker (TrueUp 121.111 / 273; SkillSyncer 113.863 / 179) klar als Folgemessung zum 6. Mai 2026 ausgewiesen; die vier Einzelfälle ergänzen, nicht ersetzen die bestehende Beschreibung; Yale Budget Lab als unabhängige Bestätigungslinie zu Anthropic eingeordnet, nicht als Doppelung; Microsoft-Update als Konkretisierung, nicht als Block-Wiederholung. |
+| 2.2.3 Argumentation | OK | Acemoglu/Thuemmel-Trennung unverändert; Deutschland-These (drei Säulen) unverändert; fünf Robotersteuer-Typen unverändert auseinandergehalten; das fiskalisch-ethische Dilemma der Yale-Budget-Lab-Modellrechnung sauber als externalisierungs­abhängiger Mechanismus gerahmt. |
+| 2.2.4 Ausgewogenheit | OK | Die vier neuen Layoff-Fälle als sachliche Datenpunkte, nicht als monokausale „AI labor crisis"-Bestätigung wiedergegeben (Querverweis zur Washington-Post-Differenzierung von § 1.1); Yale-Budget-Lab-Befund inkl. Caveat (kein klarer aggregierter Disruptionseffekt) ausgewogen referiert; Microsoft-Update ohne Wertung. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobenartige Prüfung der eingefügten Absätze ohne Befund. |
+| 2.3.2 Terminologie | OK | „AI-native restructuring", „Project Leap", „observed exposure", „CPS — Current Population Survey", „Separation Date" beim ersten Auftreten erklärt bzw. selbsterklärend im Kontext; Schreibweisen einheitlich. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Alle neuen Quellen mit Eintrag im Literaturverzeichnis (§ 11.1: Yale Budget Lab Tracking-Reihe + Yale Budget Lab / Fortune 6. Mai 2026; § 11.5: TrueUp 7. Mai 2026, Coinbase, PayPal, Freshworks, Cognizant); keine Karteileichen. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-Stil eingehalten; URLs vollständig (kein Shortener); Datumsangaben einheitlich (Tag. Monat YYYY); Working-Paper- und Kanzlei­analyse-Kennzeichnung beibehalten. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen (CNBC, Bloomberg, budgetlab.yale.edu) plus mehrfache Sekundärquellen pro Fall; Yale Budget Lab und Anthropic als wechselseitig unabhängige Datenquellen für denselben Befund. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe aus den neuen URLs aufgerufen (cnbc.com Coinbase-Bericht, bloomberg.com PayPal-Bericht, fortune.com Yale-Budget-Lab-Bericht, americanbazaaronline.com Cognizant-Bericht, budgetlab.yale.edu Tracking-Landingpage): erreichbar, Inhalt entspricht dem zitierten Sachverhalt. |
+| 2.4.5 Zitatgenauigkeit | OK | Zahlen wörtlich aus den Quellen übernommen (Coinbase 14 %, 700, 50–60 Mio. USD; PayPal 20 %, 4.760, 1,5 Mrd. USD; Freshworks 11 %, 500; Cognizant 12.000–15.000, 230–320 Mio. USD; Yale Budget Lab 39 Bio., 88 Mrd., 2,5 %, 5.500–42.400; Microsoft Separation Date 2. Juli 2026, 8.500). |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Markierung *de la Feria et al. 2022* unverändert erhalten. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionsnummer 19.0 in Dokumentkopf, Aktualitätshinweis, README.md (Versionszeile, Zitiervorschlag und KI-Offenlegung) und diesem Validierungsblock identisch; CC-BY-4.0-Hinweis und Haftungshinweis unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Skripte vorhanden; manuelle Stichproben gemäß § 2.6 ersetzen den automatisierten Teil. |
+
+### Gefundene Fehler
+
+Keine — die sechs aufgenommenen Datenpunkte sind Ergänzungen ohne Korrekturbedarf an bestehenden Aussagen. Die Microsoft-Eligibility-Beschreibung wurde nicht ersetzt, sondern um *Separation Date* und konkrete Angebots­zahl präzisiert; die Layoff-Welle wurde nicht ersetzt, sondern als Tagesfortschreibung erweitert; die Yale-Budget-Lab-Linie ist neu im Dokument und steht ohne Konflikt mit den bestehenden Anthropic-/Massenkoff-/McCrory-Eintragungen.
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| – | – | Keine Bereinigungen erforderlich. | – |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen (2.1.1–2.1.5, 2.2.1–2.2.4, 2.3.1–2.3.2, 2.4.1–2.4.6, 2.5): OK.
+- Automatisierte Skripte: n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine Fehler).
+- Neue Version: 19.0.
+- PDF erstellt: Ja.
+- Word erstellt: Ja.
+
+---
+
 ## Validierung 7. Mai 2026 — Version 17.0 → Version 18.0
 
 **Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers am 7. Mai 2026 (Bundesrat 1065. Sitzung 8. Mai 2026 / GKV-Beitragssatzstabilisierungsgesetz; OpenAI Workshop Washington Eröffnung Mai 2026; EU AI Act Digital Omnibus Trilog 13. Mai 2026; Sam-Altman-Verfahren Folgetermine; Connecticut SB 5 / Raised Bill 515; Tech-Layoffs / Microsoft VRSAR; Sanders Robotersteuer; Anthropic 81k Survey-Folgeband; Maine Data Center Advisory Council; Alterssicherungskommission / Bürgerversicherung; IAB; Generationenkapital; Plattform-Digitalabgabe Weimer; Robotersteuer / Wertschöpfungsabgabe Deutschland Bundestag). Drei neue belegbare Entwicklungen identifiziert und eingearbeitet; alle übrigen recherchierten Themen waren in Version 17.0 bereits enthalten und wurden nicht dupliziert.
