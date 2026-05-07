@@ -117,11 +117,22 @@ PHASE 5b — Benachrichtigung (E-Mail und WhatsApp)
 Diese Phase versendet die Tagesänderungen per E-Mail und eine
 Kurzzusammenfassung per WhatsApp.
 
-Empfänger werden zur Laufzeit aus der lokalen, gitignorierten Datei
-`notify-config.json` im Repo-Root gelesen (Schema siehe
-`notify-config.example.json`). Pflichtfelder: `email_to`,
-`whatsapp_to`. Wenn die Datei fehlt oder unvollständig ist, gilt das
-als „Versand nicht konfiguriert" (siehe Schritt 3 unten).
+Empfänger werden in dieser Reihenfolge ermittelt:
+
+  1. **Routine-Anweisung** (bevorzugt). Der Routine-Befehl, der
+     diesen Prompt aufruft, übergibt `email_to=…` und
+     `whatsapp_to=…` als Parameter im Anweisungstext. Diese Werte
+     liegen in der Routine-Konfiguration des Claude-Code-Kontos —
+     nicht im Repository.
+  2. **Lokale Fallback-Datei `notify-config.json`** (für Tests und
+     manuelle Läufe in einer lokalen Claude-Code-Installation;
+     gitignored, Schema siehe `notify-config.example.json`).
+  3. Wenn weder Anweisung noch Datei gültige Werte liefert, gilt
+     der Versand als „nicht konfiguriert" (siehe Schritt 3 unten).
+
+In keinem Fall werden die Empfängerdaten in das Logbuch, in
+Commits, in den Abschlussbericht oder in irgendeine im Repo
+versionierte Datei geschrieben.
 
 1. Aus dem soeben in Phase 4 angelegten Block in
    `Änderungshistorie.md` zwei Texte erzeugen:
@@ -140,10 +151,11 @@ als „Versand nicht konfiguriert" (siehe Schritt 3 unten).
         Änderungen (Stelle § + Inhalt in einem halben Satz).
       – Eine Zeile zum Lauf-Status (alle Phasen OK / Stop in Phase X).
 
-2. Versandkanäle ansteuern. Empfänger jeweils aus
-   `notify-config.json` (`email_to` und `whatsapp_to`) übernehmen —
-   keine Empfängerdaten im Prompt, im Logbuch, in Commits oder im
-   Abschlussbericht ausschreiben:
+2. Versandkanäle ansteuern. Empfänger jeweils nach der oben
+   beschriebenen Reihenfolge auflösen (Routine-Anweisung →
+   `notify-config.json` → nicht konfiguriert). Keine Empfängerdaten
+   im Prompt, im Logbuch, in Commits oder im Abschlussbericht
+   ausschreiben:
 
    a) **E-Mail:** Bevorzugtes Tool ist `mail_send` aus dem MCP-Server
       `graph-mcp` (Microsoft Graph). Sollte dieses nicht erreichbar
