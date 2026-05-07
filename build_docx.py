@@ -33,7 +33,18 @@ DOC_TITLE = "Die Besteuerung von Künstlicher Intelligenz und Robotik als Ersatz
 DOC_SHORT_TITLE = "Arbeitspapier — Besteuerung von KI und Robotik"
 DOC_ORG = "HIGL — Health Innovators Group Leipzig"
 DOC_AUTHOR = "Björn Degenkolbe"
-DOC_VERSION = "Version 16.0 — Mai 2026 — CC BY 4.0"
+
+
+def _extract_version(md_path: Path) -> str:
+    for line in md_path.read_text(encoding="utf-8").splitlines()[:30]:
+        m = re.match(r"\*\*Version:\*\*\s*([0-9.]+)", line.strip())
+        if m:
+            return m.group(1)
+    raise RuntimeError(f"Konnte Version nicht aus {md_path.name} lesen")
+
+
+DOC_VERSION_NUMBER = _extract_version(SOURCE)
+DOC_VERSION = f"Version {DOC_VERSION_NUMBER} — Mai 2026 — CC BY 4.0"
 
 _INLINE_BOLD = re.compile(r"\*\*(.+?)\*\*")
 _INLINE_ITALIC = re.compile(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)")
@@ -274,7 +285,7 @@ def build_cover(doc: Document) -> None:
     for _ in range(8):
         doc.add_paragraph()
 
-    for label in (DOC_AUTHOR, DOC_ORG, "Stand: Mai 2026", "Version 16.0",
+    for label in (DOC_AUTHOR, DOC_ORG, "Stand: Mai 2026", f"Version {DOC_VERSION_NUMBER}",
                    "Lizenz: Creative Commons CC BY 4.0"):
         p = doc.add_paragraph()
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
