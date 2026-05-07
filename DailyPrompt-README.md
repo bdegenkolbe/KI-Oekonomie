@@ -30,7 +30,7 @@ Claude Code liest dann den Inhalt von `DailyPrompt.md` und arbeitet die dort bes
 **Phase 5b — Benachrichtigung:**
 - Versendet die volle „Eingearbeitete Änderungen"-Tabelle per E-Mail und eine ≤ 1.000 Zeichen lange Zusammenfassung per WhatsApp.
 - E-Mail: bevorzugt das Tool `mail_send` aus dem MCP-Server `graph-mcp` (Microsoft Graph).
-- WhatsApp: bevorzugt ein Send-Tool aus dem MCP-Server `whatsapp`.
+- WhatsApp: bevorzugt das Tool `wa_send_message` aus dem MCP-Server `whatsapp`.
 - Voraussetzung: Beide Tools müssen in den MCP-Berechtigungen auf „Always allow" stehen, sonst hängt die Routine an der Berechtigungsabfrage. Bei Status „Ask" muss der Lauf manuell bestätigt werden.
 - Wenn kein passendes Tool erreichbar ist, wird der Inhalt in `daily-mail.txt` bzw. `daily-whatsapp.txt` im Repo-Root geschrieben — die Routine läuft weiter, der Merge auf `main` wird durch Versand-Probleme nicht verhindert.
 
