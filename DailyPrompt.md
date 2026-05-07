@@ -139,19 +139,22 @@ Kurzzusammenfassung per WhatsApp. Empfänger:
 
 2. Versandkanäle ansteuern:
 
-   a) **E-Mail:** Verfügbares MCP-Tool zum Versand einer Outlook-
-      bzw. Microsoft-Graph-E-Mail aufrufen (Tool-Namen-Muster: enthält
-      `send_mail`, `send_message`, `outlook_send` o. ä.). Wenn kein
-      solches Tool in der laufenden Session erreichbar ist, den
-      vorbereiteten E-Mail-Inhalt nach `daily-mail.txt` im Repo-Root
-      schreiben und im Logbuch unter „Auffälligkeiten" vermerken.
+   a) **E-Mail:** Bevorzugtes Tool ist `mail_send` aus dem MCP-Server
+      `graph-mcp` (Microsoft Graph). Sollte dieses nicht erreichbar
+      sein, ein anderes verfügbares Tool zum Versand einer Outlook-/
+      Microsoft-Graph-E-Mail wählen (Tool-Namen-Muster, das *eines*
+      der folgenden enthält: `mail_send`, `send_mail`, `send_message`,
+      `outlook_send`). Wenn kein solches Tool in der laufenden Session
+      erreichbar ist, den vorbereiteten E-Mail-Inhalt nach
+      `daily-mail.txt` im Repo-Root schreiben und im Logbuch unter
+      „Auffälligkeiten" vermerken.
 
-   b) **WhatsApp:** Verfügbares MCP-Tool für WhatsApp-Versand aufrufen
-      (Tool-Namen-Muster: enthält `whatsapp` und eines von
-      `send`, `send_message`, `dispatch`). Wenn kein solches Tool
-      erreichbar ist, die Zusammenfassung nach `daily-whatsapp.txt` im
-      Repo-Root schreiben und im Logbuch unter „Auffälligkeiten"
-      vermerken.
+   b) **WhatsApp:** Bevorzugt ein Tool aus dem MCP-Server `whatsapp`,
+      das Versand erlaubt (Tool-Namen-Muster: enthält `whatsapp` oder
+      stammt aus dem `whatsapp`-Server und enthält eines von `send`,
+      `send_message`, `dispatch`). Wenn kein solches Tool erreichbar
+      ist, die Zusammenfassung nach `daily-whatsapp.txt` im Repo-Root
+      schreiben und im Logbuch unter „Auffälligkeiten" vermerken.
 
 3. **Versandfehler sind weich.** Schlägt der eigentliche Versand
    fehl, wird der Fehler im Logbuch unter „Auffälligkeiten"
