@@ -149,12 +149,14 @@ Kurzzusammenfassung per WhatsApp. Empfänger:
       `daily-mail.txt` im Repo-Root schreiben und im Logbuch unter
       „Auffälligkeiten" vermerken.
 
-   b) **WhatsApp:** Bevorzugt ein Tool aus dem MCP-Server `whatsapp`,
-      das Versand erlaubt (Tool-Namen-Muster: enthält `whatsapp` oder
-      stammt aus dem `whatsapp`-Server und enthält eines von `send`,
-      `send_message`, `dispatch`). Wenn kein solches Tool erreichbar
-      ist, die Zusammenfassung nach `daily-whatsapp.txt` im Repo-Root
-      schreiben und im Logbuch unter „Auffälligkeiten" vermerken.
+   b) **WhatsApp:** Bevorzugtes Tool ist `wa_send_message` aus dem
+      MCP-Server `whatsapp`. Sollte dieses nicht erreichbar sein,
+      ein anderes Tool aus dem `whatsapp`-Server wählen, dessen Name
+      `send` oder `send_message` enthält (z. B. `wa_send_message` für
+      Text, ggf. `wa_send_media` mit Text-Caption als Notlösung).
+      Wenn kein solches Tool erreichbar ist, die Zusammenfassung nach
+      `daily-whatsapp.txt` im Repo-Root schreiben und im Logbuch unter
+      „Auffälligkeiten" vermerken.
 
 3. **Versandfehler sind weich.** Schlägt der eigentliche Versand
    fehl, wird der Fehler im Logbuch unter „Auffälligkeiten"
