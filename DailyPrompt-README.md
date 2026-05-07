@@ -2,13 +2,16 @@
 
 **Zweck:** Diese Datei dokumentiert den täglichen Update-Prompt, der in `DailyPrompt.md` abgelegt ist. `DailyPrompt.md` enthält ausschließlich den ausführbaren Prompt-Text — diese Datei erklärt Zweck, Mechanik und Designentscheidungen.
 
-**Aufruf:** Den Prompt über die Routines-Funktion von Claude Code mit dem Befehl ausführen:
+**Aufruf:** Den Prompt über die Routines-Funktion von Claude Code mit folgendem Befehl ausführen:
 
 ```
 Führe DailyPrompt.md als Prompt aus.
+Phase-5b-Empfänger: email_to=<dein.empfaenger@example.com>, whatsapp_to=<491XXXXXXXX>
 ```
 
-Claude Code liest dann den Inhalt von `DailyPrompt.md` und arbeitet die dort beschriebenen Phasen ab.
+Die Empfängerangaben in Zeile 2 stehen in der **Routine-Konfiguration deines Claude-Code-Kontos** — sie sind nicht im Repository und nicht öffentlich. Telefonnummer im internationalen Format ohne `+` und ohne führende Null (Beispiel: `491721234567` für `+49 172 1234567`).
+
+Claude Code liest dann den Inhalt von `DailyPrompt.md` und arbeitet die dort beschriebenen Phasen ab. Phase 5b verwendet die Empfänger aus der Routine-Anweisung; ohne Anweisung greift sie auf eine lokale `notify-config.json` zurück (sinnvoll für Test-Läufe in einer lokalen Claude-Code-Installation), und ohne beides bleibt die Benachrichtigung aus.
 
 ---
 
@@ -24,7 +27,7 @@ Claude Code liest dann den Inhalt von `DailyPrompt.md` und arbeitet die dort bes
 | 3 | Validierung | Validierungsschritte gemäß `Validierung.md` durchlaufen, Versionssprung |
 | 4 | Logging | Eintrag in `Änderungshistorie.md` (Quellenfluss) |
 | 5 | Build | `build_pdf.py` und `build_docx.py` ausführen |
-| 5b | Benachrichtigung | E-Mail und WhatsApp an die Empfänger aus `notify-config.json` |
+| 5b | Benachrichtigung | E-Mail und WhatsApp an die Empfänger aus der Routine-Anweisung (Fallback: `notify-config.json`) |
 | 6 | Commit, Merge, Cleanup | Push auf Session-Branch, Merge auf `main`, Branch löschen |
 
 **Phase 5b — Benachrichtigung:**
@@ -32,9 +35,10 @@ Claude Code liest dann den Inhalt von `DailyPrompt.md` und arbeitet die dort bes
 - E-Mail: bevorzugt das Tool `mail_send` aus dem MCP-Server `graph-mcp` (Microsoft Graph).
 - WhatsApp: bevorzugt das Tool `wa_send_message` aus dem MCP-Server `whatsapp`.
 - Voraussetzung: Beide Tools müssen in den MCP-Berechtigungen auf „Always allow" stehen, sonst hängt die Routine an der Berechtigungsabfrage. Bei Status „Ask" muss der Lauf manuell bestätigt werden.
-- **Empfängerdaten** (E-Mail-Adresse, Telefonnummer) liegen ausschließlich lokal in `notify-config.json` im Repo-Root. Diese Datei ist gitignored und gehört nicht ins öffentliche Repository. Eine Vorlage mit Platzhaltern liegt als `notify-config.example.json` bei — beim ersten Setup einmal kopieren und mit echten Werten füllen: `cp notify-config.example.json notify-config.json` und dann editieren.
-- Wenn `notify-config.json` fehlt, gilt der Versand als „nicht konfiguriert" — die Routine läuft trotzdem durch, vermerkt es im Logbuch und unterlässt den Versand.
-- Wenn die Datei vorhanden ist, aber kein passendes MCP-Tool erreichbar, wird der Inhalt in `daily-mail.txt` bzw. `daily-whatsapp.txt` im Repo-Root geschrieben — die Routine läuft weiter, der Merge auf `main` wird durch Versand-Probleme nicht verhindert.
+- **Empfängerdaten** (E-Mail-Adresse, Telefonnummer) liegen ausschließlich in der Routine-Konfiguration deines Claude-Code-Kontos. Sie werden über die Aufruf-Zeile (`email_to=…, whatsapp_to=…`) an den Prompt übergeben und kommen nicht ins Repository.
+- Für lokale Test-Läufe (z. B. Claude Code Desktop/CLI auf deinem Rechner) kann zusätzlich eine `notify-config.json` im Repo-Root angelegt werden — gitignored, Schema in `notify-config.example.json`. Diese Datei ist als Fallback gedacht, nicht als primärer Speicherort.
+- Wenn weder Routine-Anweisung noch `notify-config.json` Empfänger liefert, gilt der Versand als „nicht konfiguriert" — die Routine läuft trotzdem durch, vermerkt es im Logbuch und unterlässt den Versand.
+- Wenn Empfänger vorhanden sind, aber kein passendes MCP-Tool erreichbar ist, wird der Inhalt in `daily-mail.txt` bzw. `daily-whatsapp.txt` im Repo-Root geschrieben — die Routine läuft weiter, der Merge auf `main` wird durch Versand-Probleme nicht verhindert.
 
 ---
 
