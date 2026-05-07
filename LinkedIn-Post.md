@@ -25,6 +25,6 @@ Für Deutschland braucht es eine eigene Antwort. Drei Gedanken:
 
 Bismarck 1883, Soziale Marktwirtschaft 1948. Wir haben historisch viel Erfahrung darin, Disruption sozial abzufedern.
 
-Arbeitspapier (CC BY 4.0): https://github.com/bdegenkolbe/KI-Oekonomie/blob/main/Arbeitspapier_KI_Robotik_Besteuerung.pdf
+Arbeitspapier (CC BY 4.0): https://github.com/bdegenkolbe/KI-Oekonomie/blob/main/KI-Ökonomie.pdf
 
 \#KI #Industriepolitik #Sozialstaat #Wertschöpfungsabgabe #Deutschland

@@ -1,19 +1,8 @@
-# DailyPrompt.md — Täglicher Update-Prompt für das Arbeitspapier
-
-**Zweck:** Dieser Prompt wird über die Routines-Funktion von Claude Code täglich aufgerufen. Er führt einen vollständigen Recherche-, Einarbeitungs-, Validierungs-, Build- und Merge-Zyklus für das Arbeitspapier `Arbeitspapier_KI_Robotik_Besteuerung.md` aus.
-
-**Aufruf:** Den nachfolgenden Prompt-Text als Routine-Befehl hinterlegen oder kopieren.
-
----
-
-## Prompt
-
-```
 Du führst den täglichen Update-Lauf für das Arbeitspapier
-„Arbeitspapier_KI_Robotik_Besteuerung.md" durch. Halte dich strikt an die
-folgende Phasenstruktur und an die Regeln aus Claude.md (insbesondere § 4.1
-Stil, § 4.2 Wissenschaftliche Sorgfalt, § 4.3 Inhaltliche Regeln,
-§ 4.5 Was nicht ohne Rückfrage geändert werden darf).
+„KI-Ökonomie.md" durch. Halte dich strikt an die folgende Phasenstruktur
+und an die Regeln aus Claude.md (insbesondere § 4.1 Stil, § 4.2
+Wissenschaftliche Sorgfalt, § 4.3 Inhaltliche Regeln, § 4.5 Was nicht
+ohne Rückfrage geändert werden darf).
 
 ================================================================
 PHASE 0 — Vorbereitung
@@ -27,7 +16,8 @@ PHASE 0 — Vorbereitung
    (falls Remote-Tracking) oder die Basis von `main` ziehen, damit die
    lokale Basis aktuell ist.
 3. Pflichtdateien einlesen: `Claude.md`, `Validierung.md`, das
-   Hauptdokument, `Suchthemen.md` und `Änderungshistorie.md`.
+   Hauptdokument `KI-Ökonomie.md`, `Suchthemen.md` und
+   `Änderungshistorie.md`.
    Wenn `Suchthemen.md` oder `Änderungshistorie.md` auf dem Session-Branch
    fehlen, von `origin/main` nachladen:
      git checkout origin/main -- Suchthemen.md Änderungshistorie.md
@@ -41,10 +31,10 @@ PHASE 0 — Vorbereitung
 ================================================================
 PHASE 1 — Recherche im Korridor von Suchthemen.md
 ================================================================
-1. Cluster A bis H aus `Suchthemen.md` der Reihe nach abarbeiten.
+1. Cluster A bis J aus `Suchthemen.md` der Reihe nach abarbeiten.
 2. Pro Cluster mindestens drei Suchanfragen formulieren, die
    Schlüsselbegriffe × Akteure × Zeitfenster kombinieren. Zeitfenster gemäß
-   `Suchthemen.md` (Standard 7 Tage; Cluster F: 48 Stunden).
+   `Suchthemen.md` (Standard 7 Tage; Cluster F und Cluster I: 48 Stunden).
 3. Trefferfilter anwenden:
    – Datum innerhalb des Zeitfensters,
    – Quelle entspricht der bevorzugten Liste oder vergleichbarem Niveau,
@@ -58,6 +48,9 @@ PHASE 1 — Recherche im Korridor von Suchthemen.md
    einem Satz, Ziel-§ im Hauptdokument.
 5. Wenn ein Cluster keine validen Treffer liefert, im Logbuch vermerken und
    weitermachen.
+6. Breite vor Tiefe: Pro Lauf höchstens zwei Cluster wirklich vertiefen,
+   die übrigen mit knappen Ergänzungen abdecken — das Dokument soll an
+   Breite gewinnen, ohne in einzelnen Themen zu kippen.
 
 ================================================================
 PHASE 2 — Einarbeitung
@@ -112,10 +105,8 @@ PHASE 4 — Logging in Änderungshistorie.md
 ================================================================
 PHASE 5 — Build der abhängigen Dokumente
 ================================================================
-1. `python3 build_pdf.py` ausführen — Ergebnis:
-   `Arbeitspapier_KI_Robotik_Besteuerung.pdf`.
-2. `python3 build_docx.py` ausführen — Ergebnis:
-   `Arbeitspapier_KI_Robotik_Besteuerung.docx`.
+1. `python3 build_pdf.py` ausführen — Ergebnis: `KI-Ökonomie.pdf`.
+2. `python3 build_docx.py` ausführen — Ergebnis: `KI-Ökonomie.docx`.
 3. Bei Fehlern in den Build-Skripten: Ursache prüfen, Build erneut
    ausführen, Ergebnis im Logbuch dokumentieren. Build-Skripte selbst
    nicht ohne Rückfrage anpassen (gehört zu § 4.5 Claude.md).
@@ -124,9 +115,9 @@ PHASE 5 — Build der abhängigen Dokumente
 PHASE 6 — Commit, Merge auf main, Branch-Cleanup
 ================================================================
 1. Geänderte Dateien stagen:
-     git add Arbeitspapier_KI_Robotik_Besteuerung.md \
-             Arbeitspapier_KI_Robotik_Besteuerung.pdf \
-             Arbeitspapier_KI_Robotik_Besteuerung.docx \
+     git add KI-Ökonomie.md \
+             KI-Ökonomie.pdf \
+             KI-Ökonomie.docx \
              Validierung-Ergebnisse.md \
              Änderungshistorie.md \
              README.md \
@@ -178,13 +169,3 @@ Am Ende des Laufs einen Bericht in der Antwort ausgeben mit:
 - Verweis auf den neuen Block in `Änderungshistorie.md` und in
   `Validierung-Ergebnisse.md`,
 - Status von Merge und Branch-Cleanup.
-```
-
----
-
-## Hinweise zum Prompt-Design
-
-- **Recherchekorridor:** Der Prompt sucht ausschließlich entlang der in `Suchthemen.md` definierten Cluster. Wenn neue Themen hinzukommen sollen, ist `Suchthemen.md` zu erweitern — der Prompt selbst bleibt stabil.
-- **Zwei Logbücher:** `Änderungshistorie.md` dokumentiert Recherche- und Quellenfluss, `Validierung-Ergebnisse.md` dokumentiert die fachlich-inhaltliche Prüfung. Beide werden gefüllt.
-- **Drei Sicherheitsanker:** (1) harte Stoppkriterien stoppen den Lauf vor dem Merge auf main, wenn Validierung oder Build fehlschlagen; (2) § 4.5-Themen aus `Claude.md` werden nie ohne Eskalation geändert; (3) verifizierungsbedürftige Quellenmarkierungen bleiben erhalten, bis die Verifikation dokumentiert ist.
-- **Leerlauf:** Tage ohne valide Treffer erzeugen einen Logbucheintrag, aber keinen Versionssprung und keinen Build/Merge — verhindert „Versions-Inflation".

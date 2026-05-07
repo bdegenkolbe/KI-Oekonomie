@@ -1,7 +1,7 @@
 """
 build_pdf.py — PDF-Export gemäß Formatvorlage.md.
 
-Erzeugt aus `Arbeitspapier_KI_Robotik_Besteuerung.md` ein PDF im
+Erzeugt aus `KI-Ökonomie.md` ein PDF im
 Corporate-Layout (A4, Navy/Stahlblau, Header/Footer, Akzentlinien
 über Kapiteln, Sonderformat für die Deutschland-These in § 8.5).
 """
@@ -30,8 +30,8 @@ from reportlab.platypus import (
 )
 
 ROOT = Path(__file__).resolve().parent
-SOURCE = ROOT / "Arbeitspapier_KI_Robotik_Besteuerung.md"
-OUTPUT = ROOT / "Arbeitspapier_KI_Robotik_Besteuerung.pdf"
+SOURCE = ROOT / "KI-Ökonomie.md"
+OUTPUT = ROOT / "KI-Ökonomie.pdf"
 
 PRIMARY = colors.HexColor("#1B3A5C")
 ACCENT = colors.HexColor("#2E75B6")
