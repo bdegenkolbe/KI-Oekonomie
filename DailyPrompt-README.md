@@ -24,7 +24,13 @@ Claude Code liest dann den Inhalt von `DailyPrompt.md` und arbeitet die dort bes
 | 3 | Validierung | Validierungsschritte gemäß `Validierung.md` durchlaufen, Versionssprung |
 | 4 | Logging | Eintrag in `Änderungshistorie.md` (Quellenfluss) |
 | 5 | Build | `build_pdf.py` und `build_docx.py` ausführen |
+| 5b | Benachrichtigung | E-Mail an `[REDACTED-EMAIL]` und WhatsApp an `[REDACTED-PHONE]` |
 | 6 | Commit, Merge, Cleanup | Push auf Session-Branch, Merge auf `main`, Branch löschen |
+
+**Phase 5b — Benachrichtigung:**
+- Sucht zur Laufzeit nach einem MCP-Tool für Outlook-/Graph-Mail-Versand bzw. WhatsApp-Versand.
+- Versendet die volle „Eingearbeitete Änderungen"-Tabelle per E-Mail und eine ≤ 1.000 Zeichen lange Zusammenfassung per WhatsApp.
+- Wenn kein passendes Tool erreichbar ist, wird der Inhalt in `daily-mail.txt` bzw. `daily-whatsapp.txt` im Repo-Root geschrieben — die Routine läuft weiter, der Merge auf `main` wird durch Versand-Probleme nicht verhindert.
 
 ---
 

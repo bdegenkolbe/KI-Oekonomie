@@ -4,3 +4,7 @@ __pycache__/
 .venv/
 venv/
 .DS_Store
+
+# Fallback-Dateien aus Phase 5b (Benachrichtigung), wenn kein Versand-MCP erreichbar
+daily-mail.txt
+daily-whatsapp.txt
