@@ -8,3 +8,6 @@ venv/
 # Fallback-Dateien aus Phase 5b (Benachrichtigung), wenn kein Versand-MCP erreichbar
 daily-mail.txt
 daily-whatsapp.txt
+
+# Lokale Empfaenger-Konfiguration fuer Phase 5b (enthaelt PII, NICHT committen)
+notify-config.json
