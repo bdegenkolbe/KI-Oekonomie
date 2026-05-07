@@ -18,16 +18,24 @@ Stil, § 4.2 Wissenschaftliche Sorgfalt, § 4.3 Inhaltliche Regeln,
 ================================================================
 PHASE 0 — Vorbereitung
 ================================================================
-1. Aktuellen Branch prüfen. Wenn nicht auf
-   `claude/daily-document-prompt-kF8qq`, dann dorthin wechseln (Branch bei
-   Bedarf neu von `main` anlegen).
-2. `git pull origin main` und `git pull origin claude/daily-document-prompt-kF8qq`,
-   damit die lokale Basis aktuell ist.
-3. `Suchthemen.md`, `Claude.md`, `Validierung.md`, das Hauptdokument und
-   `Änderungshistorie.md` lesen. Aus dem letzten Eintrag in
-   `Änderungshistorie.md` die zuletzt gefundenen Quellen merken
-   (Deduplikationsbasis).
-4. Heutiges Datum, aktuelle Versionsnummer und vorgesehene neue
+1. Den aktuellen Session-Branch ermitteln:
+     SESSION_BRANCH=$(git branch --show-current)
+   Auf diesem Branch wird der gesamte Lauf ausgeführt. Wenn der Branch
+   nicht existiert oder leer ist (Detached HEAD), einen frischen Branch
+   `claude/daily-update-YYYY-MM-DD` von `main` anlegen.
+2. `git fetch origin` und anschließend `git pull origin $SESSION_BRANCH`
+   (falls Remote-Tracking) oder die Basis von `main` ziehen, damit die
+   lokale Basis aktuell ist.
+3. Pflichtdateien einlesen: `Claude.md`, `Validierung.md`, das
+   Hauptdokument, `Suchthemen.md` und `Änderungshistorie.md`.
+   Wenn `Suchthemen.md` oder `Änderungshistorie.md` auf dem Session-Branch
+   fehlen, von `origin/main` nachladen:
+     git checkout origin/main -- Suchthemen.md Änderungshistorie.md
+   Wenn die Dateien auch auf `main` fehlen, den Lauf in Phase 0 stoppen
+   und den Status „Stop in Phase 0 — Helper-Dateien fehlen" eintragen.
+4. Aus dem letzten Eintrag in `Änderungshistorie.md` die zuletzt
+   gefundenen Quellen merken (Deduplikationsbasis).
+5. Heutiges Datum, aktuelle Versionsnummer und vorgesehene neue
    Versionsnummer (X.0 → Y.0) festlegen.
 
 ================================================================
@@ -126,19 +134,24 @@ PHASE 6 — Commit, Merge auf main, Branch-Cleanup
 2. Commit-Nachricht im Format:
      „Daily-Update YYYY-MM-DD — Version Y.0 (Cluster: A, B, …)"
    gefolgt von einer kurzen Zusammenfassung der wesentlichen Ergänzungen.
-3. Push auf den Feature-Branch:
-     git push -u origin claude/daily-document-prompt-kF8qq
+3. Push auf den Session-Branch:
+     git push -u origin "$SESSION_BRANCH"
 4. Wenn alle vorigen Phasen ohne Fehler abgeschlossen sind:
    – auf `main` wechseln, `git pull origin main`,
-   – `git merge --no-ff claude/daily-document-prompt-kF8qq`,
+   – `git merge --no-ff "$SESSION_BRANCH"`,
    – `git push origin main`,
-   – lokalen Branch löschen: `git branch -d claude/daily-document-prompt-kF8qq`,
-   – Remote-Branch löschen: `git push origin --delete claude/daily-document-prompt-kF8qq`.
-5. Branch-Status im Logbuch festhalten.
+   – lokalen Branch löschen: `git branch -d "$SESSION_BRANCH"`,
+   – Remote-Branch löschen: `git push origin --delete "$SESSION_BRANCH"`.
+5. Branch-Status (Name des Session-Branches und Cleanup-Ergebnis) im
+   Logbuch festhalten.
 
 ================================================================
 HARTE STOPPKRITERIEN
 ================================================================
+- Wenn `Suchthemen.md` oder `Änderungshistorie.md` weder auf dem
+  Session-Branch noch auf `origin/main` vorhanden sind: Lauf in Phase 0
+  stoppen, KEIN Commit, KEIN Merge, im Logbuch (sobald wieder verfügbar)
+  Status „Stop in Phase 0 — Helper-Dateien fehlen" eintragen.
 - Wenn die Validierung in Phase 3 nicht ohne offene Fehler abgeschlossen
   werden kann: Lauf in Phase 3 stoppen, Stand committen und pushen, Merge
   auf main NICHT ausführen, im Logbuch Status „Stop in Phase 3" eintragen
