@@ -1,6 +1,6 @@
 # Formatvorlage.md — Gestaltungsrichtlinie für PDF- und Word-Export
 
-**Gilt für:** Alle PDF- und Word-Exporte des Hauptdokuments `Arbeitspapier_KI_Robotik_Besteuerung.md` (Projekt „Besteuerung von KI und Robotik", HIGL – Health Innovators Group Leipzig).
+**Gilt für:** Alle PDF- und Word-Exporte des Hauptdokuments `KI-Ökonomie.md` (Projekt „Besteuerung von KI und Robotik", HIGL – Health Innovators Group Leipzig).
 
 ---
 
@@ -171,6 +171,6 @@ Empfohlene Elemente auf der ersten Seite (Deckblatt):
 | PDF (.pdf) | reportlab | `build_pdf.py` | `python3 build_pdf.py` |
 | Word (.docx) | python-docx | `build_docx.py` | `python3 build_docx.py` |
 
-Beide Skripte lesen `Arbeitspapier_KI_Robotik_Besteuerung.md` und setzen diese Formatvorlage um: A4, Seitenränder, Schriftfamilie/-größen und Farben nach § 1–3, Header/Footer nach § 4, Akzentlinie vor jedem Kapitel (verstärkt vor Kapitel 8) nach § 5, Tabellen nach § 6, Blockquotes inklusive Thesen-Sonderfall in § 8.5 nach § 7, Aufzählungen nach § 9, Literaturverzeichnis nach § 10 und Deckseite nach § 11.
+Beide Skripte lesen `KI-Ökonomie.md` und setzen diese Formatvorlage um: A4, Seitenränder, Schriftfamilie/-größen und Farben nach § 1–3, Header/Footer nach § 4, Akzentlinie vor jedem Kapitel (verstärkt vor Kapitel 8) nach § 5, Tabellen nach § 6, Blockquotes inklusive Thesen-Sonderfall in § 8.5 nach § 7, Aufzählungen nach § 9, Literaturverzeichnis nach § 10 und Deckseite nach § 11.
 
-Bei Änderungen an der Formatvorlage sind beide Skripte entsprechend anzupassen. Die erzeugten Dateien (`Arbeitspapier_KI_Robotik_Besteuerung.pdf`, `Arbeitspapier_KI_Robotik_Besteuerung.docx`) werden direkt im Repo-Root abgelegt.
+Bei Änderungen an der Formatvorlage sind beide Skripte entsprechend anzupassen. Die erzeugten Dateien (`KI-Ökonomie.pdf`, `KI-Ökonomie.docx`) werden direkt im Repo-Root abgelegt.

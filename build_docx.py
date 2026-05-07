@@ -1,7 +1,7 @@
 """
 build_docx.py — Word-Export gemäß Formatvorlage.md.
 
-Erzeugt aus `Arbeitspapier_KI_Robotik_Besteuerung.md` ein Word-Dokument
+Erzeugt aus `KI-Ökonomie.md` ein Word-Dokument
 im Corporate-Layout (A4, Navy/Stahlblau, Header/Footer, Akzentlinien
 über Kapiteln, Sonderformat für die Deutschland-These in § 8.5).
 """
@@ -20,8 +20,8 @@ from docx.oxml.ns import qn
 from docx.shared import Cm, Pt, RGBColor
 
 ROOT = Path(__file__).resolve().parent
-SOURCE = ROOT / "Arbeitspapier_KI_Robotik_Besteuerung.md"
-OUTPUT = ROOT / "Arbeitspapier_KI_Robotik_Besteuerung.docx"
+SOURCE = ROOT / "KI-Ökonomie.md"
+OUTPUT = ROOT / "KI-Ökonomie.docx"
 
 PRIMARY = RGBColor(0x1B, 0x3A, 0x5C)
 ACCENT = RGBColor(0x2E, 0x75, 0xB6)

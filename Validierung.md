@@ -1,6 +1,6 @@
 # Validierung.md — Prüfprozess für das Hauptdokument
 
-**Gegenstand:** Arbeitspapier „Die Besteuerung von Künstlicher Intelligenz und Robotik als Ersatz menschlicher Arbeit" (`Arbeitspapier_KI_Robotik_Besteuerung.md`)
+**Gegenstand:** Arbeitspapier „Die Besteuerung von Künstlicher Intelligenz und Robotik als Ersatz menschlicher Arbeit" (`KI-Ökonomie.md`)
 **Geltungsbereich:** Jede inhaltliche oder strukturelle Änderung am Hauptdokument löst eine Validierung aus.
 
 ---
@@ -248,7 +248,7 @@ Jeder Block bleibt dauerhaft stehen. Die Historie wird nicht gelöscht.
 
 | Datei | Zweck |
 |---|---|
-| `Arbeitspapier_KI_Robotik_Besteuerung.md` | Hauptdokument |
+| `KI-Ökonomie.md` | Hauptdokument |
 | `OpenAI_Industriepolitik_Intelligenz-Zeitalter_DE.md` | Referenzübersetzung (Belegquelle für Kapitel 4.5) |
 | `README.md` | Kurzbeschreibung, Deutschland-These, Zitiervorschlag, Lizenz |
 | `LICENSE` | CC BY 4.0 |

@@ -20,7 +20,7 @@ Das Papier steht unter der Creative-Commons-Lizenz CC BY 4.0.
 
 | Datei | Zweck |
 |---|---|
-| `Arbeitspapier_KI_Robotik_Besteuerung.md` | Hauptdokument (Single Source of Truth) |
+| `KI-Ökonomie.md` | Hauptdokument (Single Source of Truth) |
 | `OpenAI_Industriepolitik_Intelligenz-Zeitalter_DE.md` | Arbeitsübersetzung des OpenAI-Strategiepapiers vom April 2026 (Referenzquelle für Kapitel 4.5) |
 | `README.md` | Kurzbeschreibung, Deutschland-These, Zitiervorschlag |
 | `LICENSE` | Lizenztext (CC BY 4.0) |
@@ -30,8 +30,8 @@ Das Papier steht unter der Creative-Commons-Lizenz CC BY 4.0.
 | `Claude.md` | Dieses Dokument — Projektanweisung für Claude |
 | `build_pdf.py` | PDF-Export (reportlab) — setzt `Formatvorlage.md` um |
 | `build_docx.py` | Word-Export (python-docx) — setzt `Formatvorlage.md` um |
-| `Arbeitspapier_KI_Robotik_Besteuerung.pdf` | Generierter PDF-Export (aus `build_pdf.py`) |
-| `Arbeitspapier_KI_Robotik_Besteuerung.docx` | Generierter Word-Export (aus `build_docx.py`) |
+| `KI-Ökonomie.pdf` | Generierter PDF-Export (aus `build_pdf.py`) |
+| `KI-Ökonomie.docx` | Generierter Word-Export (aus `build_docx.py`) |
 
 ---
 
@@ -91,8 +91,8 @@ Das Papier steht unter der Creative-Commons-Lizenz CC BY 4.0.
 - Nach jeder abgeschlossenen Validierung: PDF und Word neu erstellen
 - Versionsnummer wird hochgezählt (Dokumentkopf, Abschlusshinweis, `README.md`, `Validierung-Ergebnisse.md`)
 - Exports:
-  - `python3 build_pdf.py` → `Arbeitspapier_KI_Robotik_Besteuerung.pdf` (reportlab, setzt `Formatvorlage.md` um)
-  - `python3 build_docx.py` → `Arbeitspapier_KI_Robotik_Besteuerung.docx` (python-docx, setzt `Formatvorlage.md` um)
+  - `python3 build_pdf.py` → `KI-Ökonomie.pdf` (reportlab, setzt `Formatvorlage.md` um)
+  - `python3 build_docx.py` → `KI-Ökonomie.docx` (python-docx, setzt `Formatvorlage.md` um)
 
 ### 4.5 Was nicht ohne Rückfrage geändert werden darf
 
@@ -114,11 +114,11 @@ pip install reportlab python-docx
 
 # PDF (reportlab)
 python3 build_pdf.py
-# → Arbeitspapier_KI_Robotik_Besteuerung.pdf
+# → KI-Ökonomie.pdf
 
 # Word (python-docx)
 python3 build_docx.py
-# → Arbeitspapier_KI_Robotik_Besteuerung.docx
+# → KI-Ökonomie.docx
 ```
 
 Beide Skripte lesen das Hauptdokument, übernehmen H2/H3/H4-Hierarchie, Blockquotes (inkl. Thesen-Sonderfall), Aufzählungen und Tabellen und schreiben das Ergebnis direkt ins Repo-Root.
@@ -128,7 +128,7 @@ Beide Skripte lesen das Hauptdokument, übernehmen H2/H3/H4-Hierarchie, Blockquo
 ## 6. Typischer Arbeitsablauf
 
 1. Autor bringt inhaltliche Änderung, neue Quelle oder Positionsschärfung ein
-2. Claude setzt die Änderung in `Arbeitspapier_KI_Robotik_Besteuerung.md` um
+2. Claude setzt die Änderung in `KI-Ökonomie.md` um
 3. Claude führt die Validierung gemäß `Validierung.md` durch (manuelle Prüfschritte; automatisierte Skripte optional)
 4. Ergebnisse werden in `Validierung-Ergebnisse.md` protokolliert
 5. Fehler werden behoben, Nachprüfung durchgeführt
