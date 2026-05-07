@@ -24,7 +24,7 @@ Kern des Papiers ist eine eigenständige Positionierung in Kapitel 8:
 
 ## Dateien
 
-- [`Arbeitspapier_KI_Robotik_Besteuerung.md`](./Arbeitspapier_KI_Robotik_Besteuerung.md) — Das Arbeitspapier
+- [`KI-Ökonomie.md`](./KI-Ökonomie.md) — Das Arbeitspapier
 - [`LICENSE`](./LICENSE) — Lizenztext (CC BY 4.0)
 
 ## Lizenz

@@ -1,9 +1,9 @@
 # Validierung-Ergebnisse.md — Protokoll der Validierungen
 
-**Gegenstand:** `Arbeitspapier_KI_Robotik_Besteuerung.md`
+**Gegenstand:** `KI-Ökonomie.md` (bis Mai 2026 unter dem Dateinamen `Arbeitspapier_KI_Robotik_Besteuerung.md` geführt)
 **Verfahren:** gemäß `Validierung.md`
 
-Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht gelöscht.
+Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht gelöscht. Historische Einträge nennen das Hauptdokument unter seinem damaligen Dateinamen — diese Einträge bleiben unverändert.
 
 ---
 
