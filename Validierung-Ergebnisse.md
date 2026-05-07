@@ -7,6 +7,80 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 7. Mai 2026 (Lauf 003 — dritte Tagesaktualisierung) — Version 20.0 → Version 21.0
+
+**Auslöser:** Dritter regulärer Daily-Update-Lauf am 7. Mai 2026 (nach Lauf 001 vormittags und Lauf 002 abendlich, beide am 7. Mai 2026). Web-Recherche im Korridor der Cluster A–J am späten 7. Mai 2026: Optimalsteuer-/Aufgabenforschung (Cluster A); Robotersteuer/Wertschöpfungsabgabe DE/EU (Cluster B); internationale Praxis (Cluster C); Politik-Initiativen (Cluster D); Arbeitsmarkt- und Sozialversicherungsdaten (Cluster E); Tech-Layoffs / KI-Capex 48-Stunden-Fenster (Cluster F); Gesundheitswesen (Cluster G); Deutschland-These-Bezugspunkte (Cluster H); Frontier-Modelle (Cluster I); Robotik (Cluster J). Eine belegbare Verfeinerung im 7-Tage-Fenster identifiziert und eingearbeitet (Big-Tech-AI-Capex-Aggregat-Schätzung 725 Mrd. USD nach Q1-2026-Earnings-Calls); alle übrigen recherchierten Themen waren in Version 20.0 bereits enthalten oder lagen außerhalb des 7-Tage- bzw. 48-Stunden-Korridors.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | Big-Tech-AI-Capex 2026 — Aggregat-Schätzung nach Q1-2026-Earnings-Calls (28.–30. April 2026) auf rund 725 Milliarden US-Dollar nach oben revidiert (+77 % gegenüber 410 Mrd. USD im Jahr 2025): Microsoft 190 Mrd. USD, Alphabet 190 Mrd. USD, Amazon 200 Mrd. USD, Meta 125–145 Mrd. USD; rund 25 Mrd. USD des Microsoft-Aufschlags durch DRAM-Verteuerung um 95 % gegenüber dem Vorquartal im Q1 2026 (TrendForce) erklärt, +58–63 % weitere Verteuerung im Q2 2026 projiziert. Aggregation durch *Financial Times*; referenziert von *Tom's Hardware* (5./6. Mai 2026), *Invezz* (4. Mai 2026), *Statista*-Chart (Mai 2026). | § 1.1 (Verfeinerung des Hyperscaler-Capex-Satzes: alte Konsens-Schätzung 660–700 Mrd. USD bleibt als zeitlich frühere Referenz Anfang April 2026 erhalten; neue Aggregat-Zahl 725 Mrd. USD mit Komponentenkostentreibern und Konzernsplit ergänzt; § 11.5 neuer Eintrag „Tom's Hardware / Statista / Invezz" mit vier URLs; Aktualitätshinweis am Dokumentende ergänzt; README.md mit Versions-Eintrag 21.0 ergänzt). | Schärft die in § 1.1 entwickelte Asymmetrie-Linie zwischen Personalreduktion (TrueUp/SkillSyncer) und Infrastrukturausbau und liefert eine neuere, post-Earnings-konsolidierte Aggregat-Größe für die Anknüpfung der Steuerdebatte an Maschinenkapital (§ 5.1 Wertschöpfungsabgabe; § 8.3 Staatsfonds-/Teilhabe-Argument). Die Komponentenkostentreiber (DRAM-Verteuerung) ordnen einen Teil des Capex-Sprungs strukturell ein und stützen damit die in § 1.1 zitierte *Washington-Post*-Differenzierungsanalyse vom 1. Mai 2026, die einen Teil der Tech-Layoffs als Austerity-Reaktion auf hohe KI-Investitionsausgaben einordnet. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- Challenger, Gray & Christmas — *April-2026-Job-Cuts-Report* (Veröffentlichungstermin laut Verlagskalender 7. Mai 2026 7:30 Uhr EDT): Inhalt zum Zeitpunkt der Recherche noch nicht öffentlich indexiert; potenziell für den nächsten Lauf zu prüfen.
+- Challenger *März-2026-Report* (Veröffentlichung 3. April 2026; AI als führender Layoff-Grund mit 15.341 Stellen / 25 % im März; YTD AI-Rang 5 mit 27.645 Stellen / 13 %; Q1-Gesamt 217.362 Stellen) — außerhalb 7-Tage-Fenster; bestehender § 1.1-Block (Yale Budget Lab; Goldman-Sachs-Schätzung 16.000 Stellen pro Monat) bildet die Größenordnung bereits ab.
+- *The Hill / NewsNation* — *„AI is tied to tech layoffs, but spending — not job replacement — may be the key driver"*: Datum der Originalpublikation nicht eindeutig zu verifizieren (Direktabruf 403); Hauptaussage (AI-Capex statt Job-Replacement als Treiber) ist über die in § 1.1 bereits referierte *Washington Post* vom 1. Mai 2026 und das aufgenommene 725-Mrd.-USD-Aggregat redundant abgebildet.
+- *Cognizant Q1-2026-Earnings-Release* (29. April 2026) — Project-Leap-Rahmenwerk und Abfindungs­aufwand 230–320 Mio. USD bereits in Version 19.0 in § 1.1 aufgenommen; präzisere Savings-Aufteilung (200–300 Mio. USD in-year, zwei Drittel Reinvestition in Wachstum/AI/Partnerschaften, ein Drittel Upskilling) marginal-zusätzlich, aber für die Steuerdebatte ohne neuen Befund — Ergänzung verschoben.
+- *Connecticut SB 5* — Lamont-Unterzeichnung zum Stichtag 7. Mai 2026 noch nicht erfolgt; bestehender § 4.5- und § 1.1-Block bleibt korrekt; in einem späteren Lauf nachzutragen, sobald die formale Unterzeichnung dokumentierbar ist.
+- *Bundesrat 1065. Sitzung* (8. Mai 2026, GKV-Beitragssatzstabilisierungsgesetz erster Durchgang) — Sitzung liegt nach dem Stichtag 7. Mai 2026; bestehender § 5.2- und § 7-Verweis bleibt korrekt.
+- *AI-Act-Trilog* (13. Mai 2026, dritte Runde) — liegt nach dem Stichtag.
+- *China — 15. Fünfjahresplan 2026–2030 / MIIT Humanoid-Robotics-Standardisierungs­komitee* — letzte Aktualisierung März 2026, außerhalb 7-Tage-Fenster.
+- *Federal Reserve Bank of Atlanta WP 2026-04 (Hassan/Hou/Schreger, AI/Productivity/Workforce)* (25. März 2026) — außerhalb 7-Tage-Fenster.
+- *Stanford HAI AI Index 2026* (13. April 2026) — außerhalb 7-Tage-Fenster.
+- *DeepSeek V4* / *OpenAI GPT-5.5* / *Anthropic Opus 4.7* (24. April 2026) — Cluster I, außerhalb 48-Stunden-Fenster und ohne unmittelbare politisch-fiskalische Implikation.
+- Tesla Optimus / Figure / Boston Dynamics Atlas / Unitree / 1X — Cluster J, keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster.
+- G-BA / gematik / BfArM / DiGAV — Cluster G im 7-Tage-Fenster ohne KI-spezifische neue Beschlüsse oder DiGA-Listings.
+- Plattform-Digitalabgabe (Weimer) Mai 2026 — keine über Version 10.0 / 11.0 hinausgehende Bewegung im 7-Tage-Fenster (Eckpunktepapier weiterhin angekündigt, aber nicht vorgelegt).
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitt 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Bestehende §-Querverweise unverändert; die in § 1.1 ergänzte Capex-Verfeinerung verweist über den bestehenden Kontext implizit auf § 5.1 (Wertschöpfungsabgabe) und § 8.3 (Staatsfonds-/Teilhabe-Argument); diese Ziele existieren weiterhin. |
+| 2.1.4 Roter Faden | OK | Die Verfeinerung ist eine Aktualisierung einer bestehenden Aussage und bewahrt die alte Größenordnung (660–700 Mrd. USD) als zeitlich frühere Referenz (gemäß Claude.md § 4.2). Die Asymmetrie-Linie zwischen Personalreduktion und Infrastrukturausbau wird geschärft. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; keine neuen Tabellen oder Lead-Ins; bestehende Lead-Ins unverändert; Versionszeile im Dokumentkopf (20.0 → 21.0) konsistent geändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Aggregat-Total 725 Mrd. USD und +77-%-Steigerung gegenüber 410 Mrd. USD in 2025 in mehreren unabhängigen Sekundärquellen (Tom's Hardware, Statista, Invezz, Yahoo Finance Aggregator, Stocktwits-Wiedergabe) konsistent; Konzernsplit Microsoft 190 / Alphabet 190 / Amazon 200 / Meta 125–145 Mrd. USD aus den Q1-2026-Earnings-Calls vom 28.–30. April 2026; DRAM-Vertragspreis-Erhöhung +95 % q/q im Q1 2026 mit TrendForce-Quelle verifiziert. |
+| 2.2.2 Redundanzprüfung | OK | Die alte Konsens-Schätzung (660–700 Mrd. USD) wird gemäß Claude.md § 4.2 nicht gelöscht, sondern als zeitlich frühere Referenz Anfang April 2026 erhalten; die neue Zahl (725 Mrd. USD) ist post-Earnings konsolidiert und damit eine echte Aktualisierung, keine Doppelung. Der ursprüngliche Fortune-/CNBC-/Futurum-Eintrag im § 11.5 bleibt unverändert; der neue Tom's-Hardware-/Statista-/Invezz-Eintrag steht unmittelbar nachgelagert. |
+| 2.2.3 Argumentation | OK | Acemoglu/Thuemmel-Trennung unverändert; Deutschland-These (drei Säulen) unverändert; fünf Robotersteuer-Typen unverändert auseinandergehalten; Capex-Aussage als post-Earnings-aktualisierte Konsens-Größe und damit als Modell-/Aggregat-Schätzung gekennzeichnet (kein Ist-Nachweis). |
+| 2.2.4 Ausgewogenheit | OK | Die Verfeinerung ergänzt eine quantitative Größe ohne politische Konnotation; die Komponentenkosten-Erklärung (DRAM, Speicher, Chip) stützt die in § 1.1 bereits dokumentierte differenzierende Linie der *Washington Post* vom 1. Mai 2026 (Austerity statt monokausaler AI-Driver). |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobenartige Prüfung der eingefügten Passage ohne Befund. |
+| 2.3.2 Terminologie | OK | „DRAM" (Dynamic Random Access Memory) als gängige Branchenabkürzung im Kontext der Speicher-/Komponentenkosten verwendet; „Capex" (Capital Expenditure) bereits zuvor im Dokument eingeführt; einheitliche Schreibweise „Hyperscaler". |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Tom's Hardware, Statista und Invezz mit Eintrag im Literaturverzeichnis (§ 11.5 — vier URLs); Fortune/CNBC/Futurum-Vorgängerquelle erhalten; keine Karteileichen. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-Stil eingehalten; URLs vollständig (kein Shortener); Datumsangaben einheitlich; Aggregator-Hinweis (Financial Times) im Beschreibungstext genannt. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärtreiber sind die Q1-2026-Earnings-Releases der vier Hyperscaler vom 28.–30. April 2026; FT-Aggregation referiert von Tom's Hardware (Mai 2026), Statista-Chart (Mai 2026) und Invezz (4. Mai 2026); zusätzliche Bestätigung über Yahoo-Finance-Syndikation und CEOWORLD-Magazin (3. Mai 2026). |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe der vier neuen URLs aufgerufen: tomshardware.com (Listing erreichbar, Inhalt konsistent); statista.com/chart/35046/ (öffentlich zugänglich); invezz.com/news/2026/05/04/ (öffentlich zugänglich). Bestehende Fortune-/CNBC-/Futurum-URLs unverändert. |
+| 2.4.5 Zitatgenauigkeit | OK | Kernzahlen (725 Mrd. USD aggregiert; +77 % gegenüber 410 Mrd. USD; Microsoft 190 / Alphabet 190 / Amazon 200 / Meta 125–145 Mrd. USD; 25 Mrd. USD Microsoft-Aufschlag durch Speicher-/Chip-Kosten; +95 % DRAM q/q Q1; +58–63 % Q2-Projektion) wörtlich aus den verifizierten Tom's-Hardware-/Statista-/Invezz-Texten übernommen. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Markierung *de la Feria et al. 2022* unverändert erhalten; neuer Tom's-Hardware-/Statista-/Invezz-Eintrag benötigt keine eigene Verifizierungsmarkierung (drei unabhängige Sekundärquellen plus FT-Aggregat-Hinweis). |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionsnummer 21.0 in Dokumentkopf, Aktualitätshinweis, README.md (Versionszeile, Zitiervorschlag, KI-Offenlegung mit neuem Versionseintrag) und diesem Validierungsblock identisch; CC-BY-4.0-Hinweis und Haftungshinweis unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Skripte vorhanden; manuelle Stichproben gemäß § 2.6 ersetzen den automatisierten Teil. |
+
+### Gefundene Fehler
+
+Keine — die Verfeinerung ist eine Aktualisierung einer bestehenden Größe ohne Korrekturbedarf an anderen Aussagen. Die alte Konsens-Schätzung wird gemäß Claude.md § 4.2 nicht gelöscht, sondern als zeitlich frühere Referenz erhalten.
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| – | – | Keine Bereinigungen erforderlich. | – |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen (2.1.1–2.1.5, 2.2.1–2.2.4, 2.3.1–2.3.2, 2.4.1–2.4.6, 2.5): OK.
+- Automatisierte Skripte: n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine Fehler).
+- Neue Version: 21.0.
+- PDF erstellt: Ja.
+- Word erstellt: Ja.
+
+---
+
 ## Validierung 7. Mai 2026 (Lauf 002 — Tagesfolge) — Version 19.0 → Version 20.0
 
 **Auslöser:** Zweiter regulärer Daily-Update-Lauf nach Erstinitialisierung von `Suchthemen.md` und `Änderungshistorie.md` am Vortag. Web-Recherche im Korridor der Cluster A–J am 7. Mai 2026 (Optimalsteuerforschung / NBER / Brookings; Robotersteuer DE/EU / Bundestag KI-MIG; internationale Praxis / Korea-Robotersteuer / Polen ulga / DST; Politik-Initiativen Sanders / OpenAI / Bloomberg-Editorial; Arbeitsmarkt- und Sozialversicherungsdaten / Bundesbank / SVR; Tech-Layoffs 48-Stunden-Fenster Salesforce / IBM / Intel; Gesundheitswesen G-BA / DiGAV; Deutschland-These / acatech / Stifterverband; Frontier-Modelle / IFR; Robotik / Optimus / Figure / 1X). Eine belegbare neue Entwicklung im 7-Tage-Fenster identifiziert und eingearbeitet; alle übrigen recherchierten Themen waren in Version 19.0 bereits enthalten und wurden nicht dupliziert oder lagen außerhalb des 7-Tage-Korridors.
