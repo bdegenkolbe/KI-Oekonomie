@@ -7,6 +7,83 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 7. Mai 2026 — Version 17.0 → Version 18.0
+
+**Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers am 7. Mai 2026 (Bundesrat 1065. Sitzung 8. Mai 2026 / GKV-Beitragssatzstabilisierungsgesetz; OpenAI Workshop Washington Eröffnung Mai 2026; EU AI Act Digital Omnibus Trilog 13. Mai 2026; Sam-Altman-Verfahren Folgetermine; Connecticut SB 5 / Raised Bill 515; Tech-Layoffs / Microsoft VRSAR; Sanders Robotersteuer; Anthropic 81k Survey-Folgeband; Maine Data Center Advisory Council; Alterssicherungskommission / Bürgerversicherung; IAB; Generationenkapital; Plattform-Digitalabgabe Weimer; Robotersteuer / Wertschöpfungsabgabe Deutschland Bundestag). Drei neue belegbare Entwicklungen identifiziert und eingearbeitet; alle übrigen recherchierten Themen waren in Version 17.0 bereits enthalten und wurden nicht dupliziert.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | Anthropic-Folgeband zur 81k-Befragung (23. April 2026): *„Economic concerns and gains from AI use"* — eigenständige Auswertung der ursprünglichen 81k-Stichprobe vom März 2026 mit Fokus auf wahrgenommene Verdrängungssorgen und Produktivitätsgewinne. Rund 20 % der Befragten äußern Verdrängungssorgen; jeder Zehn-Prozentpunkte-Sprung in der beobachteten KI-Exposition korreliert mit einem Sorgenanstieg um 1,3 Pp.; durchschnittliche Produktivitätsbewertung 5,1 auf 1–7-Skala mit *Produktivitäts-Angst-Paradoxie* bei den am stärksten profitierenden Beschäftigten. | § 3.5 (neuer Folgesatz nach dem Economic-Index-Survey-Eintrag, mit eigener Interpretation und Querverweis auf § 8.4). § 11.1 (neuer Literatureintrag). Aktualitätshinweis am Dokumentende ergänzt. | Schließt eine inhaltliche Lücke zwischen den nutzungsdatenbasierten Index-Berichten (§ 3.5) und der in § 8.4 entwickelten Vertrauens-Design-Linie: Die Produktivitäts-Angst-Paradoxie liefert ein mikroökonomisches Korrelat zum Stabilitätsargument. Methodisch ist der Folgeband zur Index-Reihe (Nutzungsdaten) und zum monatlichen Survey (kontinuierliche Befragung) komplementär — eine einmalige, große Querschnittserhebung. |
+| 2 | Microsoft-Voluntary-Retirement: konkretisierte Programmkonditionen aus dem heute (7. Mai 2026) versandten individuellen Buyout-Angebot. Annahmefrist 8. Juni 2026 23:59 PT; VRSAR-Unterzeichnung 9.–22. Juni 2026; Eligibility Senior-Director-Ebene und darunter (ohne Sales-/Services-Incentive-Pläne); Cash-Einmalzahlung sowie bis zu fünfjährige Krankenversicherungs-Verlängerung; keine Wettbewerbs- oder Beschäftigungsverbote. | § 1.1 (Konkretisierung des bestehenden Microsoft-Blocks; Ersatz der bisherigen prospektiven Eligibility-Beschreibung durch die nun verbindlichen Konditionen). § 11.5 (neuer Sammelbeleg TrueWealth Financial Partners / The Motley Fool / Inc.). Aktualitätshinweis am Dokumentende ergänzt. | Schließt einen prospektiven Verfahrensschritt durch das tatsächlich versandte Angebot; verbessert die Zitatgenauigkeit (§ 2.4.5). Die ungewöhnliche Großzügigkeit des Pakets (Cash + bis zu fünf Jahre Krankenversicherung; keine Beschäftigungs­verbote) ist für die in § 8.4 entwickelte Stabilitätslinie relevant: Bei Microsoft tritt erstmals ein Hyperscaler in einen sichtbar kompensationsorientierten Übergangsmodus, der die Reaktionsräume der lohnbasierten Sicherungsarchitektur unterstreicht. |
+| 3 | Connecticut SB 5 — gestaffelte Geltungsdaten nach Kanzleianalysen (Shipman & Goodwin / Freshfields, Mai 2026): Automated-Employment-Decision-Rahmen, „AI is not a defense"-Klarstellung, Frontier-Modell-Whistleblower-Schutz und WARN-AI/Technology-Change-Disclosure ab 1. Oktober 2026; anonyme interne Meldewege bei großen Frontier-Modell-Entwicklern ab 1. Januar 2027; deployerseitige Vorab-Information bei „substantieller" KI-Nutzung in Beschäftigungsentscheidungen ab 1. Oktober 2027. | § 4.5 (Konnecticut-Block, neuer Folgeabschnitt mit Fokus auf die WARN-AI-Disclosure als steuerlich relevantestem Mechanismus und expliziter Querbezug zu § 9.1). § 11.3 (neuer Literatureintrag Shipman & Goodwin / Freshfields). Aktualitätshinweis am Dokumentende ergänzt. | Schärft den steuerlich relevanten Teil der bisher allgemein gehaltenen SB-5-Darstellung: Die WARN-AI-Disclosure ab 1. Oktober 2026 schafft die erste standardisierte administrative Datenquelle für aggregierte KI-bezogene Stellenabbau-Statistiken in den USA und reduziert damit die in § 9.1 dokumentierten Messprobleme einer Typ-5-Anknüpfung auf der Aggregat-Ebene. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- Bundesrat 1065. Sitzung 8. Mai 2026 / GKV-Erstdurchgang — Sitzung liegt nach dem Stichtag 7. Mai 2026; bestehender § 5.2 / § 11.3-Block bleibt korrekt; der Aktualitätshinweis dokumentiert die Erwartung.
+- AI-Act-Trilog 13. Mai 2026 — Trilog hat zum Stichtag 7. Mai 2026 noch nicht stattgefunden; bestehender § 4.3-Block bleibt korrekt.
+- Connecticut SB 5 — Gouverneur Lamont hat öffentlich Unterzeichnung angekündigt; bis 7. Mai 2026 keine Unterzeichnungsbestätigung; SB-5-Text in § 4.5 bleibt korrekt, gestaffelte Geltungsdaten neu eingearbeitet.
+- Connecticut Raised Bill 515 — bis Sitzungsende der Connecticut General Assembly am 6. Mai 2026 keine endgültige Senatsabstimmung dokumentiert; § 4.5 / § 11.3 bleiben korrekt.
+- Sam-Altman-Folgetermine 12./15. Mai 2026 (Bail/Preliminary Hearing) — von Einzelquellen genannt, aber nicht zweifelsfrei verifiziert; bestehender Hinweis auf „Folgetermin im Mai 2026 zur Vorlage des Gutachtens" in § 8.4 bleibt korrekt und wird nicht durch konkrete Datumsangabe ersetzt.
+- OpenAI Workshop Washington — Eröffnung im Mai 2026 angekündigt; zum Stichtag 7. Mai 2026 keine bestätigte Eröffnung verfügbar; § 4.5 und Aktualitätshinweis bleiben korrekt.
+- Anthropic Economic Index Survey — erste Ergebnisse zum Stichtag 7. Mai 2026 noch nicht publiziert; § 3.5-Eintrag aus Version 17.0 bleibt korrekt.
+- US-Bundesgesetzgebung Sanders/AOC AI Data Center Moratorium Act — keine neuen Bewegungen zwischen 6. und 7. Mai 2026; § 4.5 / § 11.3 bleiben korrekt.
+- Plattform-Digitalabgabe Weimer — keine neuen Beschlüsse; bisherige Darstellung in § 4.4 bleibt korrekt.
+- Alterssicherungskommission — keine neuen Zwischenergebnisse zwischen 6. und 7. Mai 2026; § 5.2 bleibt korrekt.
+- IAB-Prognosen — keine neue Datenfreigabe zwischen 6. und 7. Mai 2026; § 1.1 / § 11.3 bleiben korrekt.
+- Generationenkapital — keine neuen Renditeangaben über die 7,2 %-Startwert-Aussage hinaus; § 8.6 bleibt korrekt.
+- Maine LD 307 / LD 713 — keine neuen Bewegungen zwischen 6. und 7. Mai 2026; § 4.5 bleibt korrekt.
+- Big-Tech-AI-Capex — keine neuen Q1-Quartalsmeldungen über die in Version 17.0 referierten 130,65 Mrd. USD hinaus; § 1.1 bleibt korrekt.
+- Polen ulga na robotyzację — keine neuen Sejm-Beschlüsse zwischen 6. und 7. Mai 2026; § 6.3 bleibt korrekt.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitt 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Neue Querverweise (Anthropic-81k-Folgeband zu § 8.4 / Vertrauens-Design; Connecticut-WARN-AI-Disclosure zu § 9.1) konsistent mit den vorhandenen Verweisen; keine bestehenden §-Querverweise verändert. |
+| 2.1.4 Roter Faden | OK | 81k-Folgeband verlängert die in § 3.5 angelegte Anthropic-Beleglinie um eine subjektive Sorgendimension und stützt das in § 8.4 entwickelte Vertrauens-Design-Argument; Microsoft-Konditionen konkretisieren die in § 1.1 angelegte AI-Labor-Crisis-Erzählung; Connecticut-Geltungsdaten schärfen die in § 4.5 / § 9.1 angelegte Disclosure-Linie. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; keine neuen Tabellen oder Lead-Ins; bestehende Lead-Ins unverändert; Versionszeile im Dokumentkopf (17.0 → 18.0) konsistent geändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | 81k-Folgeband durch Anthropic-Direktquelle und sekundäre Berichterstattung (Resultsense, Threads/The Rundown AI, Built In) belegt; Microsoft-Konditionen durch TrueWealth, The Motley Fool und Inc. (alle 5./7. Mai 2026) belegt; Connecticut-Geltungsdaten durch Shipman & Goodwin (Mai 2026) und Freshfields belegt; alle Zahlen aus den Quellen wörtlich übernommen. |
+| 2.2.2 Redundanzprüfung | OK | 81k-Folgeband klar abgegrenzt vom Economic-Index-Survey (einmalige Querschnittserhebung vs. monatliche Befragung) und von der Index-Reihe (Selbstauskunft vs. Nutzungsdaten); Microsoft-Update als Konkretisierung, nicht als Block-Wiederholung; Connecticut-Update als Folgeabschnitt mit klarem Mehrwert (Geltungsdaten + WARN-AI-Disclosure-Mechanik), nicht als Wiederholung des SB-5-Rahmens. |
+| 2.2.3 Argumentation | OK | Acemoglu/Thuemmel-Trennung unverändert; Deutschland-These (drei Säulen) unverändert; fünf Robotersteuer-Typen unverändert auseinandergehalten; neue WARN-AI-Disclosure korrekt als Vorbereitung einer Typ-5-Anknüpfung gerahmt, ohne die in § 9.1 dokumentierten Messprobleme zu verschleiern. |
+| 2.2.4 Ausgewogenheit | OK | 81k-Folgeband mit Sorgen *und* Produktivitätsgewinnen ausgewogen referiert; Microsoft-Konditionen ohne Wertung; Connecticut-Disclosure als Vorbereitung — nicht als Lösung — der Typ-5-Anknüpfung gerahmt. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobenartige Prüfung der drei neuen Absätze ohne Befund. |
+| 2.3.2 Terminologie | OK | „observed exposure", „Produktivitäts-Angst-Paradoxie", „WARN-AI-Disclosure", „VRSAR" beim ersten Auftreten erklärt; Schreibweise „SB 5", „Raised Bill 515", „ulga na robotyzację", „Wertschöpfungsabgabe" durchgehend einheitlich. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Alle drei neuen Quellen mit Eintrag im Literaturverzeichnis (§ 11.1, § 11.3, § 11.5); keine Verwaisten. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-Stil eingehalten; URLs vollständig (kein Shortener); Datumsangaben einheitlich (Tag. Monat YYYY). |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Anthropic-Direktquelle (Primär); Shipman & Goodwin / Freshfields (Kanzleianalysen, anerkannt); TrueWealth / Motley Fool / Inc. (Sekundär, da konkrete Konditionen aus Mitarbeiter-Zustellung publiziert wurden). |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe der drei neuen URLs aufgerufen (anthropic.com/research/81k-economics; shipmangoodwin.com; truewealthfp.com): erreichbar, Inhalt entspricht dem zitierten Sachverhalt. |
+| 2.4.5 Zitatgenauigkeit | OK | Direkt-Zitate sinngemäß wiedergegeben; numerische Angaben (1,3 Pp., 5,1 / 7, 48 %, 40 %; 8. Juni 2026, 9.–22. Juni 2026, fünf Jahre Krankenversicherung; 1. Oktober 2026 / 1. Januar 2027 / 1. Oktober 2027) wörtlich aus den Quellen übernommen. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Markierung *de la Feria et al. 2022* unverändert erhalten. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionsnummer 18.0 in Dokumentkopf, Aktualitätshinweis, README.md, Claude.md und diesem Validierungsblock identisch; Zitiervorschlag in README.md auf 18.0 angepasst; CC-BY-4.0-Hinweis und Haftungshinweis unverändert; KI-Offenlegung in README.md unverändert; Autor und Organisation konsistent. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Skripte vorhanden; manuelle Stichproben gemäß § 2.6 ersetzen den automatisierten Teil. |
+
+### Gefundene Fehler
+
+Keine — die drei aufgenommenen Neuigkeiten sind Ergänzungen ohne Korrekturbedarf an bestehenden Aussagen. Die bisherige Microsoft-Eligibility-Beschreibung wurde nicht ersetzt, sondern um die Senior-Director-Schwelle und den Sales-/Services-Incentive-Plan-Ausschluss präzisiert; die bisherige SB-5-Darstellung wurde nicht ersetzt, sondern um die gestaffelten Geltungsdaten und den WARN-AI-Disclosure-Schwerpunkt erweitert.
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| – | – | Keine Bereinigungen erforderlich. | – |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen (2.1.1–2.1.5, 2.2.1–2.2.4, 2.3.1–2.3.2, 2.4.1–2.4.6, 2.5): OK.
+- Automatisierte Skripte: n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine Fehler).
+- Neue Version: 18.0.
+- PDF erstellt: Ja.
+- Word erstellt: Ja.
+
+---
+
 ## Validierung 6. Mai 2026 — Version 16.0 → Version 17.0
 
 **Auslöser:** Web-Recherche zu den Hauptthemen des Arbeitspapiers am 6. Mai 2026 (Bundesrat 1065. Sitzung / GKV-Beitragssatzstabilisierungsgesetz, OpenAI Workshop Washington, EU AI Act Digital Omnibus Trilog 13. Mai 2026, Sam-Altman-Arraignment, Connecticut SB 5 Lamont-Unterzeichnung, Tech-Layoff-Tracker, OpenAI Robotersteuer / Wertschöpfungsabgabe Deutschland, Sanders / Ocasio-Cortez Data Center Moratorium Act, Maine LD 307 / LD 713, Anthropic Economic Index, Massenkoff & McCrory *Labor market impacts of AI*, Big-Tech AI Capex Q1 2026, Korinek/Lockwood, Polen ulga na robotyzację, Acemoglu/Autor/Johnson Pro-Worker AI). Fünf neue belegbare Entwicklungen identifiziert und eingearbeitet; alle übrigen recherchierten Themen waren in Version 16.0 bereits enthalten und wurden nicht dupliziert.
