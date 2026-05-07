@@ -112,6 +112,59 @@ PHASE 5 — Build der abhängigen Dokumente
    nicht ohne Rückfrage anpassen (gehört zu § 4.5 Claude.md).
 
 ================================================================
+PHASE 5b — Benachrichtigung (E-Mail und WhatsApp)
+================================================================
+Diese Phase versendet die Tagesänderungen per E-Mail und eine
+Kurzzusammenfassung per WhatsApp. Empfänger:
+
+  – E-Mail:    [REDACTED-EMAIL]
+  – WhatsApp:  [REDACTED-PHONE]
+
+1. Aus dem soeben in Phase 4 angelegten Block in
+   `Änderungshistorie.md` zwei Texte erzeugen:
+
+   a) **E-Mail-Inhalt** (Plaintext oder leichtes Markdown):
+      – Betreff: „Daily-Update KI-Ökonomie YYYY-MM-DD — Version Y.0"
+      – Body: Datum, Versionssprung X.0 → Y.0, Anzahl geprüfter und
+        übernommener Treffer, vollständige Tabelle „Eingearbeitete
+        Änderungen" (Stelle, Art, Inhalt, Quelle), Status der Phasen
+        (OK / Stop), Verweis auf den Block in `Änderungshistorie.md`.
+      – Maximal 5.000 Zeichen.
+
+   b) **WhatsApp-Zusammenfassung** (Plaintext, ≤ 1.000 Zeichen):
+      – Eine Zeile mit Datum und Versionssprung.
+      – Drei bis fünf Bulletpoints mit den wichtigsten eingearbeiteten
+        Änderungen (Stelle § + Inhalt in einem halben Satz).
+      – Eine Zeile zum Lauf-Status (alle Phasen OK / Stop in Phase X).
+
+2. Versandkanäle ansteuern:
+
+   a) **E-Mail:** Verfügbares MCP-Tool zum Versand einer Outlook-
+      bzw. Microsoft-Graph-E-Mail aufrufen (Tool-Namen-Muster: enthält
+      `send_mail`, `send_message`, `outlook_send` o. ä.). Wenn kein
+      solches Tool in der laufenden Session erreichbar ist, den
+      vorbereiteten E-Mail-Inhalt nach `daily-mail.txt` im Repo-Root
+      schreiben und im Logbuch unter „Auffälligkeiten" vermerken.
+
+   b) **WhatsApp:** Verfügbares MCP-Tool für WhatsApp-Versand aufrufen
+      (Tool-Namen-Muster: enthält `whatsapp` und eines von
+      `send`, `send_message`, `dispatch`). Wenn kein solches Tool
+      erreichbar ist, die Zusammenfassung nach `daily-whatsapp.txt` im
+      Repo-Root schreiben und im Logbuch unter „Auffälligkeiten"
+      vermerken.
+
+3. **Versandfehler sind weich.** Schlägt der eigentliche Versand
+   fehl, wird der Fehler im Logbuch unter „Auffälligkeiten"
+   dokumentiert und der Lauf fährt mit Phase 6 fort. Der Merge auf
+   `main` wird durch fehlgeschlagene Benachrichtigung NICHT
+   verhindert — die Aktualisierung des Dokuments ist wichtiger als
+   die Zustellung der Benachrichtigung.
+
+4. Ergebnisse beider Kanäle (versendet / Fallback-Datei / Fehler)
+   im Logbuch unter „Verarbeitungsschritte" als zusätzliche Punkte
+   aufnehmen.
+
+================================================================
 PHASE 6 — Commit, Merge auf main, Branch-Cleanup
 ================================================================
 1. Geänderte Dateien stagen:
@@ -168,4 +221,6 @@ Am Ende des Laufs einen Bericht in der Antwort ausgeben mit:
 - Status der Phasen (OK / Stop),
 - Verweis auf den neuen Block in `Änderungshistorie.md` und in
   `Validierung-Ergebnisse.md`,
+- Status von E-Mail- und WhatsApp-Versand (versendet / Fallback-Datei
+  geschrieben / Fehler),
 - Status von Merge und Branch-Cleanup.
