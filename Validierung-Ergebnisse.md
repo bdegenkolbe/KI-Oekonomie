@@ -7,6 +7,82 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 7. Mai 2026 (Lauf 002 — Tagesfolge) — Version 19.0 → Version 20.0
+
+**Auslöser:** Zweiter regulärer Daily-Update-Lauf nach Erstinitialisierung von `Suchthemen.md` und `Änderungshistorie.md` am Vortag. Web-Recherche im Korridor der Cluster A–J am 7. Mai 2026 (Optimalsteuerforschung / NBER / Brookings; Robotersteuer DE/EU / Bundestag KI-MIG; internationale Praxis / Korea-Robotersteuer / Polen ulga / DST; Politik-Initiativen Sanders / OpenAI / Bloomberg-Editorial; Arbeitsmarkt- und Sozialversicherungsdaten / Bundesbank / SVR; Tech-Layoffs 48-Stunden-Fenster Salesforce / IBM / Intel; Gesundheitswesen G-BA / DiGAV; Deutschland-These / acatech / Stifterverband; Frontier-Modelle / IFR; Robotik / Optimus / Figure / 1X). Eine belegbare neue Entwicklung im 7-Tage-Fenster identifiziert und eingearbeitet; alle übrigen recherchierten Themen waren in Version 19.0 bereits enthalten und wurden nicht dupliziert oder lagen außerhalb des 7-Tage-Korridors.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *Bloomberg Editorial Board* — Editorial vom 29. April 2026 *„Taxing Artificial Intelligence Would Hurt Innovation and Prosperity"*; syndizierte Fassung *„Taxing Artificial Intelligence Would Be a Big Mistake"* in Advisor Perspectives (2. Mai 2026), RealClearPolitics (4. Mai 2026), West Hawaii Today (5. Mai 2026) und Las Vegas Sun (6. Mai 2026). Hauptargumente: Innovations- und Produktivitätsbremse, internationaler Wettbewerbsnachteil, Unmöglichkeit der Abgrenzung Verdrängung/Augmentation, Prognoseunsicherheit über künftige Qualifikationsbedarfe. Alternativen im Konjunktiv: Lockerung berufsrechtlicher Lizenzschranken, Reform der Arbeitslosenversicherung, Steueranreize für Umschulung, Ausweitung der *Earned Income Tax Credit*. | § 4.5 (neuer Absatz „Bloomberg-Editorial (29. April 2026)" zwischen OpenAI-Block und Andrew-Yang-Block; § 11.5 neuer Eintrag Bloomberg Editorial Board mit vier syndizierten URLs; Aktualitätshinweis am Dokumentende ergänzt). | Liefert eine prominente mainstream-finanzpublizistische Gegenstimme zur Sanders/OpenAI-Linie aus demselben Zeitfenster (April/Mai 2026). Ergänzt § 4.5 um das spiegelbildliche Pendant zu den OpenAI-/Sanders-Vorschlägen und schließt zugleich an die in § 3.3 (de la Feria) und § 3.4 (IW Köln/Hentze) referierten ökonomischen Einwände an. Die alternativen Empfehlungen (Lizenz­schranken, ALV-Reform, Umschulungs­anreize, EITC-Ausweitung) erweitern den Werkzeugkasten der „indirekten" Reformpfade, der bislang im Dokument nur über Sanders / OpenAI / IRAP / Bürgerversicherung abgebildet ist. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- NBER WP 34705 *„How Adaptable Are American Workers to AI-Induced Job Displacement?"* (Manning & Aguirre, Januar 2026) — außerhalb 7-Tage-Fenster; potenziell für späteren Lauf zu prüfen.
+- IMF *„Global Economic and Financial Implications of Artificial Intelligence"* (April 2026) sowie *„AI Meets Fiscal Policy"* (März 2026) und SDN 2026/001 *„Bridging Skill Gaps for the Future"* — außerhalb 7-Tage-Fenster.
+- WEF *Future of Jobs Report 2026* (7. Januar 2026) — außerhalb 7-Tage-Fenster.
+- Stanford HAI *AI Index Report 2026* (13. April 2026) — außerhalb 7-Tage-Fenster.
+- ITIF *„Industries Impacted by a Quasi-Robot Tax in South Korea Reduced Industrial Robot Installations by 28 Percent"* (9. Februar 2026) — außerhalb 7-Tage-Fenster.
+- Kang/Lee/Quach (SSRN 5005128) *„The Welfare Effects of a Robot Tax — Evidence from a Tax Credit for Automation Technologies in Korea"* — Datum unklar / vermutlich außerhalb 7-Tage-Fenster; potenziell für späteren Lauf zu prüfen.
+- Bundestag KI-MIG-Gesetzentwurf (Plenardebatte 20. März 2026; BMDS) — außerhalb 7-Tage-Fenster; bestehender § 4.4-Kontext bleibt korrekt.
+- Welsh founder Charles Radclyffe „minimum wage for robots"-Forderung (5. Mai 2026, resultsense.com) — Quellenniveau zweifelhaft, kleines privates Unternehmen ohne politische oder rechtliche Konsequenz; fällt unter Cluster-B-Negativliste.
+- Connecticut SB 5 (1. Mai 2026, Hausabstimmung 131 zu 17) — Dublette zu Version 18.0 / 19.0, bereits in § 4.5 und im Aktualitätshinweis abgebildet.
+- Sanders-Robotersteuer-Folgeinitiative (Fox Business, Washington Examiner) — Dublette zu Version 5.0 / 8.0; keine neuen Beschlüsse zwischen 6./7. Mai 2026.
+- DiGAV 2.0 (1. Februar 2026) und IRS-AI-Workforce-Training-Initiative (4./5. Mai 2026) — außerhalb Korridor (Verwaltungsinterne Effizienz, ohne Steuer-/Sozialversicherungsbezug).
+- Salesforce, IBM, Intel Layoffs Mai 2026 — keine neue Welle zwischen 6./7. Mai 2026 außerhalb der bereits in § 1.1 dokumentierten Coinbase/PayPal/Freshworks/Cognizant-Linie; Tech-Layoffs-Tagesstand TrueUp 121.111 / 273 unverändert seit Lauf 001.
+- AI-Act-Trilog 13. Mai 2026 — Trilog hat zum Stichtag 7. Mai 2026 noch nicht stattgefunden; bestehender § 4.3-Block bleibt korrekt.
+- Bundesrat 1065. Sitzung 8. Mai 2026 — Sitzung liegt nach dem Stichtag 7. Mai 2026.
+- Cluster G (Gesundheitswesen) — keine belegbaren G-BA-/gematik-/BfArM-Beschlüsse zu KI-Leistungen im 7-Tage-Fenster; Cluster ohne valide Treffer im Logbuch vermerkt.
+- Cluster I (Frontier-Modelle) und Cluster J (Robotik) — keine neuen Releases, IFR-Updates oder Optimus/Figure-/1X-Stückzahlmeldungen mit politisch-fiskalischer Implikation im 48-Stunden-Fenster.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitt 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Neue Querverweise des Bloomberg-Eintrags (auf § 3.3 de la Feria und § 3.4 IW Köln/Hentze) zeigen auf existierende Unterabschnitte; bestehende §-Querverweise unverändert. |
+| 2.1.4 Roter Faden | OK | Der Bloomberg-Block ist als publizistische Gegenstimme konsequent in § 4.5 platziert (zwischen OpenAI-Block und Andrew-Yang-Block) und damit unmittelbar an der für die jüngste US-Politikinitiativen-Debatte vorgesehenen Stelle des Dokuments; die Acemoglu/Thuemmel-Linie und die Deutschland-These sind unberührt. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; keine neuen Tabellen oder Lead-Ins; bestehende Lead-Ins unverändert; Versionszeile im Dokumentkopf (19.0 → 20.0) konsistent geändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Datum 29. April 2026 und Titel des Bloomberg-Editorials sowie die syndizierten Folgeveröffentlichungen (Advisor Perspectives 2. Mai 2026, RealClearPolitics 4. Mai 2026, West Hawaii Today 5. Mai 2026, Las Vegas Sun 6. Mai 2026) durch Direktabruf der Las-Vegas-Sun-Fassung verifiziert; Hauptargumente (Innovations- und Produktivitätsbremse, internationaler Wettbewerbsnachteil, Abgrenzung Automatisierung/Augmentation, Prognoseunsicherheit) sowie Alternativen (Lizenz­schranken, ALV-Reform, Umschulungs-Steueranreize, EITC-Ausweitung) wörtlich aus dem zugänglichen Inhalt der Las-Vegas-Sun-Fassung übernommen. |
+| 2.2.2 Redundanzprüfung | OK | Bloomberg-Editorial steht im § 4.5 als publizistische Gegenstimme komplementär zum bereits dokumentierten OpenAI-Papier und Sanders-Report; keine inhaltliche Doppelung mit § 3.3 de la Feria oder § 3.4 IW Köln/Hentze (dort: ökonomisch-rechtswissenschaftliche bzw. wirtschaftsverbandliche Perspektive — hier: mainstream-finanzpublizistische Editorial-Linie). |
+| 2.2.3 Argumentation | OK | Acemoglu/Thuemmel-Trennung unverändert; Deutschland-These (drei Säulen) unverändert; fünf Robotersteuer-Typen unverändert auseinandergehalten; Bloomberg-Position konsequent im Konjunktiv referiert (vgl. Claude.md § 4.2). |
+| 2.2.4 Ausgewogenheit | OK | Die Aufnahme verbessert die Balance des Dokuments, indem sie den OpenAI-/Sanders-Vorschlägen ein zeitgleich publiziertes mainstream-finanzpublizistisches Gegen-Editorial gegenüberstellt; Ton sachlich, ohne polemische Übernahme. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobenartige Prüfung des eingefügten Absatzes ohne Befund. |
+| 2.3.2 Terminologie | OK | „Earned Income Tax Credit (EITC)" beim ersten Auftreten ausgeschrieben; „Augmentation" und „Verdrängung" aus dem bestehenden § 1.1- bzw. § 3-Wortschatz übernommen; Schreibweisen einheitlich. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Bloomberg Editorial Board mit Eintrag im Literaturverzeichnis (§ 11.5 — vier syndizierte URLs); keine Karteileichen. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-Stil eingehalten; URLs vollständig (kein Shortener); Datumsangaben einheitlich (Tag. Monat YYYY); Editorial-Kennzeichnung beibehalten. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquelle Bloomberg.com (Originalfassung 29. April 2026) plus vier syndizierte Sekundärquellen mit jeweiliger eigener URL; Position als Editorial Board redaktionell zugeschrieben. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe der neuen URLs aufgerufen: lasvegassun.com (6. Mai 2026, Volltext zugänglich, Argumentation und Empfehlungen wörtlich verifiziert); bloomberg.com (Original 29. April 2026, Anriss zugänglich, Paywall ab Hauptteil); news.bloombergtax.com (Editorial-Wiedergabe, Anriss zugänglich, Paywall ab Hauptteil); advisorperspectives.com / realclearpolitics.com / westhawaiitoday.com (Listing erreichbar, Inhalt der syndizierten Fassung gemäß Such- und Anriss-Ergebnissen konsistent). |
+| 2.4.5 Zitatgenauigkeit | OK | Hauptargumente (Innovation raises productivity / accelerating decline relative to leading competitors / Automation and augmentation intersect / unmöglich, künftig benötigte Fähigkeiten zu prognostizieren) und Alternativen (Lockerung Berufslizenz­schranken, ALV-Reform, Umschulungs-Steueranreize, EITC-Ausweitung) aus dem Las-Vegas-Sun-Volltext sinngemäß übernommen; keine direkten Zitate, nur paraphrasierte Wiedergabe. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Markierung *de la Feria et al. 2022* unverändert erhalten; Bloomberg-Editorial benötigt keine eigene Verifizierungsmarkierung (vier unabhängig zugängliche syndizierte Fassungen). |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionsnummer 20.0 in Dokumentkopf, Aktualitätshinweis, README.md (Versionszeile, Zitiervorschlag und KI-Offenlegung) und diesem Validierungsblock identisch; CC-BY-4.0-Hinweis und Haftungshinweis unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Skripte vorhanden; manuelle Stichproben gemäß § 2.6 ersetzen den automatisierten Teil. |
+
+### Gefundene Fehler
+
+Keine — der aufgenommene Datenpunkt ist eine Ergänzung ohne Korrekturbedarf an bestehenden Aussagen. Die OpenAI-/Sanders-Blöcke wurden nicht ersetzt, sondern um eine zeitgleich publizierte Gegenposition ergänzt; die § 11.5-Reihe wurde nicht ersetzt, sondern um den Bloomberg-Editorial-Eintrag verlängert.
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| – | – | Keine Bereinigungen erforderlich. | – |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen (2.1.1–2.1.5, 2.2.1–2.2.4, 2.3.1–2.3.2, 2.4.1–2.4.6, 2.5): OK.
+- Automatisierte Skripte: n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine Fehler).
+- Neue Version: 20.0.
+- PDF erstellt: Ja.
+- Word erstellt: Ja.
+
+---
+
 ## Validierung 7. Mai 2026 (abendlicher Folgelauf) — Version 18.0 → Version 19.0
 
 **Auslöser:** Zweiter Tageslauf der Web-Recherche zu den Hauptthemen des Arbeitspapiers am 7. Mai 2026 (Robotersteuer / NBER / Brookings; Wertschöpfungsabgabe / Bundesrat / Bürgerversicherung; AI Act Digital Omnibus Trilog; Tech-Layoffs 48-Stunden-Fenster; Sanders / 32-Stunden-Woche; OECD Pillar 2 / digitale Steuern; Microsoft VRSAR-Programmkonditionen; Yale Budget Lab / Anthropic Index; ulga na robotyzację; Cognizant / Coinbase / PayPal / Freshworks). Drei belegbare Cluster mit insgesamt sechs neuen Datenpunkten identifiziert und eingearbeitet; alle übrigen recherchierten Themen waren in Version 18.0 bereits enthalten und wurden nicht dupliziert.
