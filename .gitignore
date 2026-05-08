@@ -11,3 +11,7 @@ daily-whatsapp.txt
 
 # Lokale Empfaenger-Konfiguration fuer Phase 5b (enthaelt PII, NICHT committen)
 notify-config.json
+
+# Lokales PowerShell-Skript fuer Windows Task Scheduler (enthaelt PII, NICHT committen)
+daily-update.ps1
+logs/
