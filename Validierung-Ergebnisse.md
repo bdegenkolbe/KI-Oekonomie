@@ -7,6 +7,78 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 8. Mai 2026 (Lauf 001 vom 8. Mai 2026) — Version 21.0 → Version 22.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf am 8. Mai 2026 (nach den drei Tagesaktualisierungen am 7. Mai 2026, die in den Versionen 19.0, 20.0 und 21.0 protokolliert sind). Web-Recherche im Korridor der Cluster A–J am 8. Mai 2026: Optimalsteuer-/Aufgabenforschung (Cluster A); Robotersteuer/Wertschöpfungsabgabe DE/EU (Cluster B); internationale Praxis (Cluster C); Politik-Initiativen (Cluster D); Arbeitsmarkt- und Sozialversicherungsdaten (Cluster E); Tech-Layoffs / KI-Capex 48-Stunden-Fenster (Cluster F); Gesundheitswesen (Cluster G); Deutschland-These-Bezugspunkte (Cluster H); Frontier-Modelle (Cluster I); Robotik (Cluster J). Drei belegbare Treffer im 7-Tage- bzw. 48-Stunden-Fenster identifiziert und eingearbeitet (Cloudflare-Layoff vom 7. Mai 2026; Challenger *April-2026-Job-Cuts-Report* vom 1. Mai 2026; TrueUp-Tagesfortschreibung 8. Mai 2026); alle übrigen recherchierten Themen waren in Version 21.0 bereits enthalten oder lagen außerhalb des 7-Tage- bzw. 48-Stunden-Korridors.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | Cloudflare — Layoff-Ankündigung am 7. Mai 2026: Streichung von rund 1.100 Stellen (etwa 20 % der globalen Belegschaft) parallel zu den Q1-2026-Quartalszahlen (Umsatz +34 % YoY); Memo Vorstandsvorsitzender Matthew Prince und Co-Gründerin Michelle Zatlyn („Building for the future"); Begründung: Übergang zu einem „agentic AI-first operating model" mit AI-Einsatz +600 % im Quartal; Restrukturierungsaufwand 140–150 Mio. USD im Q2 2026; Severance: Grundvergütung bis Ende 2026, US-Krankenversicherung bis Jahresende, Equity-Vesting bis 15. August 2026; Aktienkurs −18 % nach Bekanntgabe. Quellen: CNBC (7. Mai), Bloomberg (7. Mai), AOL (7. Mai), The Register (8. Mai). | § 1.1 (Ergänzung des Layoff-Blocks: Cloudflare wird als zusätzliche Welle nach Coinbase/PayPal/Freshworks/Cognizant beschrieben, mit konkreten Programmkonditionen und Begründungslinie); § 11.5 neuer Sammelbeleg „CNBC / Bloomberg / AOL / The Register" mit vier URLs; Aktualitätshinweis am Dokumentende ergänzt; README.md mit neuem Versionseintrag 22.0. | Cloudflare ist der erste Cloud-Infrastrukturanbieter (im Unterschied zu SaaS-/Fintech-/IT-Services-Akteuren der Vorwoche), der eine konzernweite Restrukturierung explizit am Übergang zu einem „agentic"-Operating-Modell festmacht — und damit eine qualitativ neue Stufe der KI-induzierten Personalanpassung. Die Aussage „strukturell, nicht kostenmotiviert" verschärft die in § 1.1 dokumentierte Asymmetrie-Linie zwischen Personalreduktion und Infrastrukturausbau und liefert den Frontier-Beleg für eine bislang nur in Earnings-Calls angekündigte Strategierichtung. |
+| 2 | Challenger, Gray & Christmas — *April-2026-Job-Cuts-Report* (veröffentlicht zum 1. Mai 2026, in Lauf 003 vom 7. Mai 2026 als „nächster Lauf zu prüfen" markiert): April-Streichungen 83.387 (+38 % gegenüber März; −21 % gegenüber April 2025); KI-bezogene Streichungen 21.490 (26 % der April-Streichungen, zweitens in Folge führender Einzelgrund); Tech 33.361 im April; YTD Tech 85.411 (+33 % gegenüber Vorjahresvergleichszeitraum); KI-bezogen YTD 49.135 (16 % aller bislang im Jahr 2026 angekündigten Streichungen, gestiegen von 13 % zum März-Stand); Gesamtjahr 2026 bislang ca. 300.000 (−50 % gegenüber Vorjahresvergleich). Quellen: Challenger Gray (1. Mai 2026), CBS News, Fast Company. | § 1.1 (Aggregat-Bestätigung der KI-Verdrängungslinie als methodisch unabhängige Sekundärquelle zu TrueUp/SkillSyncer; explizite Verzahnung mit der *Washington-Post*-Differenzierungsanalyse vom 1. Mai 2026); § 11.5 neuer Eintrag „Challenger / CBS News / Fast Company" mit drei URLs; Aktualitätshinweis am Dokumentende ergänzt; README.md mit neuem Versionseintrag 22.0. | Liefert die fehlende Aggregat-Größe (KI-Anteil an allen 2026-Streichungs­plänen 16 %, von 13 % zum März-Stand) aus einer in den USA seit den 1970er-Jahren etablierten Privatdatenquelle — und dokumentiert empirisch die in § 1.1 referierte Beschleunigung der KI-Verdrängungs-Sichtbarkeit, ohne das in § 3.5 (Anthropic / Yale Budget Lab) referierte Ergebnis fehlender aggregierter Arbeitslosigkeitserhöhung umzukehren. |
+| 3 | TrueUp Tracker — Tagesfortschreibung zum 8. Mai 2026: 127.411 Personen aus 283 Layoff-Meldungen (rund 1.003 Stellen pro Tag); Anstieg gegenüber dem 7.-Mai-Stand (121.111 / 273) primär gespeist durch die am 7. Mai 2026 angekündigten Cloudflare-Streichungen. Quelle: InformationWeek (Stand 8. Mai 2026). | § 1.1 (Tagesfortschreibung der Tracker-Reihe in den bestehenden Block 25. April → 2. Mai → 6. Mai → 7. Mai → 8. Mai 2026 eingegliedert); § 11.5 neuer Eintrag „TrueUp / InformationWeek (Stand 8. Mai 2026)"; Aktualitätshinweis am Dokumentende ergänzt; README.md mit neuem Versionseintrag 22.0. | Schließt die Tracker-Reihe an den Tag des Laufs an und bestätigt, dass die kumulativen Tech-Streichungen 2026 erstmals die Schwelle von 1.000 Personen pro Tag übersteigen — ein nominales Niveau, das die in § 8.4 entwickelte Stabilitätslinie quantitativ unterfüttert, ohne den aggregiert moderaten Befund aus § 3.5 (Yale Budget Lab) umzukehren. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- Arctic Wolf — Streichung von rund 250 Stellen (5./6. Mai 2026) im Kontext einer KI-Strategie: zwar im 48-Stunden-Fenster, aber unter der in § 1.1 etablierten Schwelle (500+ Stellen einer Einzelmaßnahme mit AI-Begründung); für die Aggregat-Linie über die TrueUp-/Challenger-Daten bereits abgedeckt.
+- Connecticut SB 5 — Lamont-Unterzeichnung zum Stichtag 8. Mai 2026 noch nicht öffentlich dokumentiert (nur Pressespokesperson „looks forward to signing"); bestehender § 4.5-Block bleibt korrekt; in einem späteren Lauf nachzutragen, sobald die formale Unterzeichnung mit Datum belegt ist.
+- Bundesrat 1065. Sitzung 8. Mai 2026 — Sitzung läuft am Tag der Recherche; verbindliche Beschluss-Texte und Tagungsergebnisse waren zum Recherchezeitpunkt noch nicht öffentlich verfügbar; bestehender § 5.2- und Aktualitätshinweis-Verweis bleibt korrekt; im nächsten Lauf nachzutragen.
+- AI-Act-Trilog 13. Mai 2026 (dritte Runde) — liegt nach dem Stichtag.
+- Plattform-Digitalabgabe (Weimer) — keine Bewegung über Version 10.0/11.0 hinaus zwischen 7. und 8. Mai 2026; Eckpunktepapier weiterhin angekündigt, aber nicht vorgelegt.
+- Anthropic Economic Index — kein neuer Bericht zwischen dem 7. und 8. Mai 2026; bestehender § 3.5-Block bleibt aktuell.
+- New York WARN Act AI-Disclosure-Vorschlag (Hochul) — Vorschlag, kein verabschiedeter Akt; ohne Datumsfixierung im 7-Tage-Fenster nicht trennscharf einordbar; in einem späteren Lauf zu prüfen, sobald die NY DOL einen Implementierungstermin nennt.
+- Generationenkapital — keine neuen Tranchen- oder Renditeangaben zwischen 7. und 8. Mai 2026; bestehender § 8.6-Verweis bleibt aktuell.
+- Cluster G (Gesundheitswesen) — viertes Mal in Folge ohne valide Treffer im 7-Tage-Fenster; Empfehlung für die nächsten Läufe bestehend (gezielter Abruf von g-ba.de Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-Listings).
+- Cluster I (Frontier-Modelle) und Cluster J (Robotik) im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitt 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Bestehende §-Querverweise unverändert; die neue Cloudflare-/Challenger-/Tracker-Passage in § 1.1 verweist über den bestehenden Kontext implizit auf § 5.1, § 8.3, § 8.4 und § 3.5 — diese Ziele existieren weiterhin. |
+| 2.1.4 Roter Faden | OK | Die Ergänzungen sind eine Aktualisierung des bestehenden Layoff-/Tracker-Blocks und der KI-Verdrängungs-Aggregatlinie; der rote Faden Literaturrezeption → Position → Umsetzung bleibt unverändert. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; keine neuen Tabellen oder Lead-Ins; bestehende Lead-Ins unverändert; Versionszeile im Dokumentkopf (21.0 → 22.0) konsistent geändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Cloudflare-Streichungszahl 1.100 (20 %), Memo-Autoren (Prince/Zatlyn), AI-Einsatzanstieg +600 %, Restrukturierungsaufwand 140–150 Mio. USD und Severance-Konditionen in mehreren unabhängigen Quellen (CNBC, Bloomberg, AOL, The Register) konsistent; Challenger-Zahlen (21.490 KI / 26 % April; YTD 49.135 / 16 %; Tech YTD 85.411 / +33 %) wörtlich aus dem Challenger-Originalreport und CBS-News-Wiedergabe; TrueUp-Tagesstand 127.411 / 283 wörtlich aus InformationWeek. |
+| 2.2.2 Redundanzprüfung | OK | Die TrueUp-Reihe wird gemäß Claude.md § 4.2 als Tagesfortschreibung der bisherigen Stände (25. April → 2. Mai → 6. Mai → 7. Mai → 8. Mai 2026) geführt — keine Doppelung. Cloudflare ist eine neue, in keinem Vorlauf erwähnte Layoff-Welle. Challenger-Daten ergänzen die Tracker-Reihe (TrueUp/SkillSyncer) um eine methodisch unabhängige Aggregat-Sicht und sind explizit als „Aggregat-Bestätigung" gekennzeichnet. |
+| 2.2.3 Argumentation | OK | Acemoglu/Thuemmel-Trennung unverändert; Deutschland-These (drei Säulen) unverändert; fünf Robotersteuer-Typen unverändert auseinandergehalten; Cloudflare-Begründung („agentic AI-first operating model") als Memo-Aussage des Konzerns zitiert (kein Autorenkommentar). |
+| 2.2.4 Ausgewogenheit | OK | Die Cloudflare-Aussage „strukturell, nicht kostenmotiviert" wird neutral wiedergegeben; die in § 1.1 etablierte *Washington-Post*-Differenzierung vom 1. Mai 2026 bleibt explizit erhalten und wird durch die Challenger-Aggregat-Bestätigung sogar gestützt (KI-Anteil 16 %, also 84 % nicht KI-bezogen). |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobenartige Prüfung der eingefügten Passagen ohne Befund; Einfügung „Der parallele Lauf" mit korrektem Satzbeginn (Großschreibung nach Punkt) eingefügt. |
+| 2.3.2 Terminologie | OK | „Agentic AI" als zitierter Begriff in Anführungszeichen; bestehende Schreibweisen „TrueUp", „SkillSyncer", „Hyperscaler", „VRSAR" einheitlich; APA-konforme Quellenangabe für alle drei neuen Belegcluster. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Cloudflare-Belegcluster (CNBC/Bloomberg/AOL/The Register) als neuer Eintrag in § 11.5; Challenger-/CBS-News-/Fast-Company-Cluster als neuer Eintrag in § 11.5; TrueUp/InformationWeek-Tagesstand als neuer Eintrag in § 11.5; keine Karteileichen. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-Stil eingehalten; URLs vollständig (kein Shortener); Datumsangaben einheitlich; Sammelbelege mit „/"-Trenner zwischen Quellen. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Cloudflare: Primärquellen sind die Konzern-Pressemitteilung vom 7. Mai 2026 und der CEO-Mitarbeiter­brief, von Bloomberg/CNBC/AOL/The Register als Sekundärquellen referiert. Challenger: Primärquelle ist der Original-Report von Challenger, Gray & Christmas (1. Mai 2026). TrueUp: Primärquelle ist das öffentlich zugängliche Tracker-Dashboard, von InformationWeek (Stand 8. Mai 2026) referiert. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe der neuen URLs aufgerufen: cnbc.com/2026/05/07/cloudflare (öffentlich, Inhalt konsistent); bloomberg.com/news/articles/2026-05-07/cloudflare (Paywall, Headline und Lead-Sätze konsistent); challengergray.com/blog/challenger-report-april-job-cuts (öffentlich, Inhalt konsistent); cbsnews.com/news/ai-layoffs-job-cuts-challenger-report-april-2026/ (öffentlich); informationweek.com/it-staffing-careers/2026-tech-company-layoffs (öffentlich). |
+| 2.4.5 Zitatgenauigkeit | OK | Kernzahlen Cloudflare (1.100 Stellen / 20 %, +600 %, 140–150 Mio. USD, Equity-Vesting 15. August 2026, −18 % Aktienkurs) wörtlich aus den verifizierten Bloomberg-/CNBC-/AOL-/Register-Texten übernommen; Kernzahlen Challenger (21.490 / 26 %, 83.387 / +38 %, 33.361, 85.411 / +33 %, 49.135 / 16 %, von 13 % zum März-Stand, ca. 300.000 / −50 %) wörtlich aus dem Challenger-Originalreport; Kernzahlen TrueUp (127.411 / 283, ca. 1.003 / Tag) wörtlich aus InformationWeek. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Markierung *de la Feria et al. 2022* unverändert erhalten; die drei neuen Sammelbelege benötigen keine eigene Verifizierungsmarkierung (mehrere unabhängige Sekundärquellen, in zwei Fällen Verfügbarkeit der Primärquelle ohne Paywall). |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionsnummer 22.0 in Dokumentkopf, Aktualitätshinweis, README.md (Versionszeile, Zitiervorschlag, KI-Offenlegung mit neuem Versionseintrag) und diesem Validierungsblock identisch; CC-BY-4.0-Hinweis und Haftungshinweis unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Skripte vorhanden; manuelle Stichproben gemäß § 2.6 ersetzen den automatisierten Teil. |
+
+### Gefundene Fehler
+
+Keine — die drei Ergänzungen sind Tagesaktualisierungen einer bestehenden Linie ohne Korrekturbedarf an anderen Aussagen.
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| – | – | Keine Bereinigungen erforderlich. | – |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen (2.1.1–2.1.5, 2.2.1–2.2.4, 2.3.1–2.3.2, 2.4.1–2.4.6, 2.5): OK.
+- Automatisierte Skripte: n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine Fehler).
+- Neue Version: 22.0.
+- PDF erstellt: Ja.
+- Word erstellt: Ja.
+
+---
+
 ## Validierung 7. Mai 2026 (Lauf 003 — dritte Tagesaktualisierung) — Version 20.0 → Version 21.0
 
 **Auslöser:** Dritter regulärer Daily-Update-Lauf am 7. Mai 2026 (nach Lauf 001 vormittags und Lauf 002 abendlich, beide am 7. Mai 2026). Web-Recherche im Korridor der Cluster A–J am späten 7. Mai 2026: Optimalsteuer-/Aufgabenforschung (Cluster A); Robotersteuer/Wertschöpfungsabgabe DE/EU (Cluster B); internationale Praxis (Cluster C); Politik-Initiativen (Cluster D); Arbeitsmarkt- und Sozialversicherungsdaten (Cluster E); Tech-Layoffs / KI-Capex 48-Stunden-Fenster (Cluster F); Gesundheitswesen (Cluster G); Deutschland-These-Bezugspunkte (Cluster H); Frontier-Modelle (Cluster I); Robotik (Cluster J). Eine belegbare Verfeinerung im 7-Tage-Fenster identifiziert und eingearbeitet (Big-Tech-AI-Capex-Aggregat-Schätzung 725 Mrd. USD nach Q1-2026-Earnings-Calls); alle übrigen recherchierten Themen waren in Version 20.0 bereits enthalten oder lagen außerhalb des 7-Tage- bzw. 48-Stunden-Korridors.
