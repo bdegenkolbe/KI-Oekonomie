@@ -129,7 +129,7 @@
 - PDF erstellt (`build_pdf.py`): Ja
 - Word erstellt (`build_docx.py`): Ja
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
-- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- Branch auf main gemerged und gelöscht: lokaler Merge auf main erfolgt (Merge-Commit --no-ff); lokaler Session-Branch gelöscht; `git push origin main` und `git push origin --delete claude/determined-einstein-dnP2J` scheitern in dieser Session mit HTTP 403 — identische Beschränkung zu Lauf 003 vom 7. Mai 2026 und Lauf 001 vom 8. Mai 2026 (vgl. Commit 53d1a31 „Logbuch: Phase-6-Cleanup-Status (Remote-Branch-Loeschung 403)"); Session-Branch ist auf origin gepusht (Commit 1c9c85e) und steht für einen serverseitigen Merge zur Verfügung.
 - E-Mail-Versand (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (kein Versand-MCP-Tool in der laufenden Session erreichbar; Datei gitignored, keine Empfängerangabe in versionierten Dateien)
 - WhatsApp-Versand (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (kein Versand-MCP-Tool in der laufenden Session erreichbar; Datei gitignored, keine Empfängerangabe in versionierten Dateien)
 
