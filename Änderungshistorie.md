@@ -54,6 +54,98 @@
 
 ---
 
+## 2026-05-09 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster G — Gesundheitssektor — fünftes Mal in Folge ohne neue belegbare Treffer im 7-Tage-Fenster; Cluster I/J im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen; Cluster F mit zwei aufgenommenen Treffern; Cluster B mit einem aufgenommenen Treffer von hoher Relevanz).
+- Zeitfenster: 7 Tage (Cluster F: 48 Stunden für Upwork und TrueUp-Tagesfortschreibung; Cluster I: 48 Stunden); EU Digital Omnibus on AI vom 7. Mai 2026 im 48-Stunden-Fenster.
+- Anzahl Suchanfragen: 12 (Web-Suche), 1 (WebFetch — bundesrat.de 1065-node, erfolgreich).
+- Lauf 001 ist der erste reguläre Daily-Update-Lauf am 9. Mai 2026 nach Lauf 001 vom 8. Mai 2026 (Version 22.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B | Rat der Europäischen Union, Pressemitteilung *Artificial intelligence: Council and Parliament agree to simplify and streamline rules*, 7. Mai 2026 | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ | übernommen |
+| 2 | B | Bird & Bird, *Digital Omnibus on AI Provisional Agreement Reached at the May Trilogue*, Mai 2026 | https://www.twobirds.com/en/insights/2026/digital-omnibus-on-ai-provisional-agreement-reached-at-the-may-trilogue | übernommen (Sammelbeleg) |
+| 3 | B | IAPP, *AI Act Omnibus: What just happened and what comes next?*, Mai 2026 | https://iapp.org/news/a/ai-act-omnibus-what-just-happened-and-what-comes-next | übernommen (Sammelbeleg) |
+| 4 | B | NicFab Blog, *Digital Omnibus on AI: the Provisional Agreement of 7 May 2026*, Mai 2026 | https://www.nicfab.eu/en/posts/digital-omnibus-ai-deal/ | übernommen (Sammelbeleg) |
+| 5 | F | Upwork, *A Message from Hayden Brown, Upwork CEO*, 7. Mai 2026 | https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026 | übernommen |
+| 6 | F | Upwork, *Upwork Reports First Quarter 2026 Financial Results*, 7. Mai 2026 | https://www.globenewswire.com/news-release/2026/05/07/3290664/0/en/Upwork-Reports-First-Quarter-2026-Financial-Results.html | übernommen (Sammelbeleg) |
+| 7 | F | Fast Company, *Tech layoffs this week: Cloudflare, Coinbase, Upwork, and others point to AI as they slash jobs*, 7./8. Mai 2026 | https://www.fastcompany.com/91538995/tech-layoffs-due-to-ai-this-week-cloudflare-paypal-coinbase-upwork | übernommen (Sammelbeleg) |
+| 8 | F | GuruFocus, *AI-Driven Layoffs: Companies like Upwork and Cloudflare Restructure Workforce*, Mai 2026 | https://www.gurufocus.com/news/8844404/aidriven-layoffs-companies-like-upwork-and-cloudflare-restructure-workforce | übernommen (Sammelbeleg) |
+| 9 | F | Officechai, *Upwork Lays Off 25% Of Its Workforce, Says AI Will Lead To Smaller Teams*, 7. Mai 2026 | https://officechai.com/ai/upwork-lays-off-25-of-its-workforce-says-ai-will-lead-to-smaller-teams/ | übernommen (Sammelbeleg) |
+| 10 | F | layoffhedge, *Upwork Layoffs 2026 — 145 Jobs Cut, ~24% of Workforce as Stock Falls 19%*, 7. Mai 2026 | https://layoffhedge.com/company/upwork | übernommen (Sammelbeleg) |
+| 11 | F | TrueUp / Yahoo Tech, *Tech layoffs 2026 — 128.270 Personen aus 286 Layoff-Meldungen, ca. 1.002 Stellen pro Tag (Stand 9. Mai 2026)* | https://www.trueup.io/layoffs \| https://tech.yahoo.com/general/article/tech-layoffs-2026-more-than-128000-people-have-been-laid-off-this-year-from-companies-like-paypal-meta-cloudflare-and-more-144545060.html | übernommen |
+| 12 | F | The Register, *Arctic Wolf cuts 250 jobs in AI push*, 6. Mai 2026 | https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213 | verworfen (unter Schwelle 500+ Stellen für Einzelfall in § 1.1; Aggregat-Linie über TrueUp/Challenger abgedeckt; identisch zu Lauf 001 vom 8. Mai 2026) |
+| 13 | F | Ticketmaster — Streichung von rund 350 Stellen, 6. Mai 2026 | über Sekundärberichterstattung (BeInCrypto, Mai 2026) | verworfen (unter Schwelle 500+ Stellen; Aggregat-Linie über TrueUp/Challenger abgedeckt) |
+| 14 | B | Bundesrat 1065. Sitzung 8. Mai 2026 — Sitzungsbericht | https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1065/1065-node.html | verworfen (Sitzung erfolgt; keine Beschlüsse zu KI, Robotersteuer, Wertschöpfungsabgabe oder Massenentlassungen; GKV-Beitragssatzstabilisierungsgesetz auf der Tagesordnung nicht aufgerufen — Aktualitätshinweis entsprechend präzisiert) |
+| 15 | B | Connecticut SB 5 — Lamont-Unterzeichnung Stichtag 9. Mai 2026 | https://www.cga.ct.gov/asp/CGABillStatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB5 | verworfen (Unterzeichnung formal noch nicht datiert dokumentiert; bestehender § 4.5-Block bleibt korrekt — späterer Lauf) |
+| 16 | A | NBER WP 34873 *Public Finance in the Age of AI: A Primer*, Korinek/Lockwood; Brookings *Future of Tax Policy*; Fortune-Anthropic-Interview McCrory | https://www.nber.org/system/files/working_papers/w34873/w34873.pdf \| https://www.brookings.edu/articles/future-tax-policy-a-public-finance-framework-for-the-age-of-ai/ | Dublette (in Version 9.0/15.0 referenziert) |
+| 17 | I | Anthropic Economic Index — kein neuer Bericht 8.–9. Mai 2026 | https://www.anthropic.com/economic-index | verworfen (keine Bewegung im 48-Stunden-Fenster) |
+| 18 | I | Frontier-Modell-Releases (GPT-5.5 / Claude Opus 4.7 / Gemini 3.1) | div. | verworfen (jüngste Releases im April 2026, außerhalb 48-Stunden-Fenster; ohne unmittelbare politisch-fiskalische Implikation) |
+| 19 | E | IAB Mai 2026 — keine neue Veröffentlichung mit KI-Bezug | https://iab.de/ | verworfen (keine Bewegung im 7-Tage-Fenster; bestehender § 1.1-Block bleibt aktuell) |
+| 20 | G | G-BA / gematik / BfArM Mai 2026 — keine KI-spezifischen Beschlüsse | https://www.g-ba.de/ \| https://fachportal.gematik.de/zielgruppen/diga-hersteller | verworfen (fünftes Mal in Folge ohne valide Treffer im 7-Tage-Fenster) |
+| 21 | C/D | OpenAI / Sanders / Yang Folgepublikationen | div. | verworfen (keine Bewegung im 7-Tage-Fenster) |
+| 22 | J | Tesla Optimus / Figure / Boston Dynamics / Unitree | div. | verworfen (keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.4 | Aktualisierung | Trilog-Statussatz aus dem EU-AI-Act-Block durch das tatsächliche Ergebnis ersetzt: vorläufige Einigung am 7. Mai 2026 in der dritten Trilogrunde mit Verschiebung der Hochrisiko-Pflichten auf 2. Dezember 2027 (Anhang III) und 2. August 2028 (Anhang I), Auflösung des Annex-I-Konformitätsbewertungs-Streitpunkts, neuem Art. 5 zum Verbot KI-generierter CSAM/NCII-Inhalte, Festhalten an der Art.-50-Kennzeichnungspflicht zum 2. August 2026 mit Übergangsfrist bis 2. Dezember 2026 für vor diesem Datum bereits in Verkehr befindliche Systeme und Erweiterung der Bias-Erkennungs-Rechtsgrundlage auf nicht-Hochrisiko-KI; Konjunktivpflicht beachtet (vorbehaltlich der formalen Annahme durch beide Institutionen vor 2. August 2026). | 1–4 |
+| 2 | § 11.3 | Aktualisierung | Bestehender Trilog-Eintrag um die Ergebnisse der dritten Runde ergänzt (Stichtage, Annex-I-Konformitätsbewertung, Art. 5, Watermarking-Übergang, Bias-Erkennung), URL-Set um die Pressemitteilung des Rates der EU vom 7. Mai 2026, die Bird-&-Bird-Analyse und den NicFab-Blog erweitert. | 1–4 |
+| 3 | § 1.1 | Ergänzung | Neue Upwork-Layoff-Welle vom 7. Mai 2026 (rund 24 % Belegschaftsreduktion, rund 145–151 von rund 600–630 Vollzeitbeschäftigten; Q1-2026-Earnings: Umsatz 195,5 Mio. USD +1,4 % YoY, KI-bezogenes GSV +40 % YoY und über 300 Mio. USD; CEO-Memo Hayden Brown „Two pizza teams are dead — AI means smaller, differently resourced teams in product and engineering can make a bigger impact than ever"; Restrukturierungsaufwand 16–23 Mio. USD vor Steuern; erwartete Einsparung rund 40 Mio. USD in 2026; Aktienkurs −19 %) parallel zur Cloudflare-Welle als zweite am 7. Mai 2026 angekündigte AI-getriebene Personalreduktion eingearbeitet. | 5–10 |
+| 4 | § 1.1 | Aktualisierung | TrueUp-Tagesfortschreibung Stand 9. Mai 2026 (128.270 Personen aus 286 Layoff-Meldungen, rund 1.002 Stellen pro Tag) als Folgemarker zur Reihe 25. April → 2. Mai → 6. Mai → 7. Mai → 8. Mai → 9. Mai 2026 in den bestehenden Tracker-Block eingegliedert. | 11 |
+| 5 | § 11.5 | Ergänzung | Zwei neue Sammelbelege in Kapitel 11.5: *Upwork / Yahoo Finance / Fast Company / GuruFocus / Officechai / layoffhedge* (7. Mai 2026); *TrueUp / Yahoo Tech* (Stand 9. Mai 2026); bestehende Tracker- und Layoff-Einträge unverändert. | 5–11 |
+| 6 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Lauf 001 vom 9. Mai 2026" geändert; Trilog-Eintrag durch das Ergebnis vom 7. Mai 2026 ersetzt (Verschiebung Hochrisiko-Pflichten 2.12.2027 / 2.8.2028; Annex-I-Konsolidierung; neuer Art. 5; Watermarking-Übergang 2.12.2026; Bias-Erkennung erweitert; formale Annahme ausstehend); GKV-Eintrag von „Erstdurchgangs in der 1065. Bundesratssitzung am 8. Mai 2026" auf „Kabinettsbeschluss vom 29. April 2026; in der 1065. Bundesratssitzung am 8. Mai 2026 noch nicht aufgerufen" präzisiert; Tracker-Reihe um den 9.-Mai-Stand (128.270 / 286) ergänzt; Upwork-Welle (rund 24 %, Memo Hayden Brown, −19 %) im Auflistungstext aufgenommen. | 1–11 |
+| 7 | Dokumentkopf | Aktualisierung | Versionsnummer 22.0 → 23.0. | — |
+| 8 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Versions-Eintrag in der KI-Offenlegung mit den drei aufgenommenen Treffern Trilog-Einigung / Upwork / TrueUp). | — |
+| 9 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 9. Mai 2026 (Lauf 001 vom 9. Mai 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6, einem dokumentierten und behobenen Fehler (GKV-Erstdurchgangs-Erwartung im Aktualitätshinweis) und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | The Register — Arctic Wolf 250 Stellen (6. Mai 2026) | F | Unter Schwelle 500+ Stellen für Einzel-Layoff-Eintrag in § 1.1; Aggregat-Linie über TrueUp/Challenger abgedeckt. |
+| 2 | Ticketmaster — rund 350 Stellen (6. Mai 2026) | F | Unter Schwelle 500+ Stellen für Einzel-Layoff-Eintrag in § 1.1; Aggregat-Linie über TrueUp/Challenger abgedeckt. |
+| 3 | Bundesrat 1065. Sitzung 8. Mai 2026 | B/E | Sitzung erfolgt, jedoch keine Beschlüsse zu KI, Robotersteuer, Wertschöpfungsabgabe oder Massenentlassungen; GKV-Beitragssatzstabilisierungsgesetz auf der Tagesordnung nicht aufgerufen; bisheriger Aktualitätshinweis-Eintrag „Erstdurchgang" entsprechend korrigiert. |
+| 4 | Connecticut SB 5 — Lamont-Unterzeichnung | B | Stichtag 9. Mai 2026 weiterhin nicht formal mit Datum dokumentiert; bestehender § 4.5-Block bleibt korrekt; nächster Lauf zu prüfen. |
+| 5 | NBER WP 34873 / Brookings *Future of Tax Policy* / Fortune-Anthropic-Interview | A | Bereits in Version 9.0 / 15.0 referenziert. |
+| 6 | Anthropic Economic Index — neuer Bericht | I | Keine Bewegung im 48-Stunden-Fenster; bestehender § 3.5-Block bleibt aktuell. |
+| 7 | Frontier-Modell-Releases (GPT-5.5 / Claude Opus 4.7 / Gemini 3.1) | I | Jüngste Releases im April 2026, außerhalb 48-Stunden-Fenster; ohne unmittelbare politisch-fiskalische Implikation. |
+| 8 | IAB Mai 2026 (keine neue KI-bezogene Veröffentlichung) | E | Keine Bewegung im 7-Tage-Fenster; bestehender § 1.1-Block bleibt aktuell. |
+| 9 | G-BA / gematik / BfArM Mai 2026 (Cluster G) | G | Fünftes Mal in Folge ohne KI-spezifische neue Beschlüsse oder DiGA-Listings im 7-Tage-Fenster. |
+| 10 | OpenAI / Sanders / Yang Folgepublikationen | C/D | Keine Bewegung im 7-Tage-Fenster über Version 22.0 hinaus. |
+| 11 | Plattform-Digitalabgabe (Weimer) Mai 2026 | B | Keine Bewegung über Version 10.0/11.0 hinaus zwischen 8. und 9. Mai 2026. |
+| 12 | Tesla Optimus / Figure / Boston Dynamics Atlas / Unitree (Cluster J) | J | Keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 9. Mai 2026 (Lauf 001 vom 9. Mai 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (kein Versand-MCP-Tool in der laufenden Session erreichbar; Datei gitignored, keine Empfängerangabe in versionierten Dateien)
+- WhatsApp-Versand (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (kein Versand-MCP-Tool in der laufenden Session erreichbar; Datei gitignored, keine Empfängerangabe in versionierten Dateien)
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 001 vom 9. Mai 2026 markiert die erste reale Verschiebung der EU-AI-Act-Hochrisiko-Pflichten in einem politischen Verhandlungsergebnis (vorläufige Einigung im dritten Trilog am 7. Mai 2026); für die Steuerdebatte verschiebt sich die in § 4.4 verortete Möglichkeit einer mittelfristigen Anknüpfung steuerlicher Tatbestände an AI-Act-Kategorien um 16 bzw. 24 Monate, sofern die formale Annahme vor dem 2. August 2026 gelingt.
+- Die Upwork-Welle ist die erste vollständig dokumentierte AI-getriebene Personalreduktion einer *Plattform für Freelance-Arbeit*: Plattform reduziert eigenes Personal um knapp ein Viertel, vermittelt aber gleichzeitig stark steigendes KI-bezogenes GSV (+40 % YoY > 300 Mio. USD) — diese qualitativ neue Konstellation ist für die Wertschöpfungs- und Rentenseite der Deutschland-These (§ 8.2, § 8.3) zusätzlich zu beobachten.
+- Bundesrat 1065. Sitzung am 8. Mai 2026: ohne Bezugspunkte für das Arbeitspapier; das *GKV-Beitragssatzstabilisierungsgesetz* war auf der Tagesordnung nicht aufgerufen — der bisherige Aktualitätshinweis-Eintrag wurde von „Erstdurchgang" auf den Kabinettsbeschluss-Stand zurückgenommen (Korrektur einer Erwartungsangabe aus Lauf 001 vom 8. Mai 2026).
+- Connecticut SB 5: Lamont-Unterzeichnung steht zum Stichtag 9. Mai 2026 weiterhin aus (Pressespokesperson „plans to sign"); bei formaler Unterzeichnung im Mai 2026 im nächsten Lauf nachzutragen.
+- Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne valide Treffer im 7-Tage-Fenster; Empfehlung für die nächsten Läufe weiterhin bestehend (gezielter Abruf von g-ba.de Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-Listings).
+- Cluster I (Frontier-Modelle) und Cluster J (Robotik) im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen; Beobachtung beim nächsten Lauf fortsetzen.
+- Branch dieses Laufs: `claude/determined-einstein-dnP2J` (in Phase 0 verifiziert; lokal vorhanden, Remote nach Push neu angelegt).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Der Versand-Tool-Status (`mail_send` / `send_mail` / `send_message` / `outlook_send` aus `graph-mcp`; `wa_send_message` / `send_message` aus dem `whatsapp`-MCP) wird in Phase 5b geprüft; bei fehlender Tool-Verfügbarkeit werden die vorbereiteten Inhalte gemäß Phase-5b-Spezifikation als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben (Dateien stehen in `.gitignore`, werden also nicht versioniert).
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
