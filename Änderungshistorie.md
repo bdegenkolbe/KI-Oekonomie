@@ -114,9 +114,10 @@
 - PDF erstellt (`build_pdf.py`): folgt in Phase 5
 - Word erstellt (`build_docx.py`): folgt in Phase 5
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (alle vier Stellen auf 23.0)
-- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
-- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
-- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- Branch auf main gemerged: lokaler Merge auf main erfolgt (Merge-Commit `edb95ef`); Push auf `origin/main` schlägt mit HTTP 403 fehl (Umgebungs-Permission-Limit, gleiches Muster wie im Vorlauf vom 8. Mai 2026); Session-Branch `claude/determined-einstein-p0Cig` ist auf Remote, von dort kann der Merge übernommen werden.
+- Branch lokal/remote gelöscht: nicht ausgeführt — wegen ausstehenden Remote-Merges bleibt der Session-Branch erhalten.
+- E-Mail-Versand (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (kein `mail_send`/`send_mail`/`send_message`/`outlook_send`-MCP in der laufenden Session erreichbar; das `Microsoft-365`-MCP enthält nur Lese-Tools wie `outlook_email_search` und `read_resource`); Datei steht in `.gitignore` und enthält keine Empfängerangabe.
+- WhatsApp-Versand (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (kein `whatsapp`-MCP in der laufenden Session erreichbar); Datei steht in `.gitignore` und enthält keine Empfängerangabe.
 
 ### Auffälligkeiten / offene Punkte
 
