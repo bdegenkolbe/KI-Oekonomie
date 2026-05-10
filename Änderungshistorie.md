@@ -54,6 +54,82 @@
 
 ---
 
+## 2026-05-10 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster B mit Hauptergebnis Digital-Omnibus-Trilog-Einigung; Cluster D/E mit Bundesrat-Beschluss zum Altersvorsorgedepot; Cluster G — Gesundheitssektor — fünftes Mal in Folge ohne KI-spezifische neue Treffer im 7-Tage-Fenster; Cluster F im 48-Stunden-Fenster ohne neue substantielle Welle; Cluster I/J im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen).
+- Zeitfenster: 7 Tage (Cluster F: 48 Stunden; Cluster I: 48 Stunden); OECD *Global Minimum Tax Implementation Toolkit* (30. April 2026) im erweiterten 12-Tage-Korridor aufgenommen, weil der Toolkit-Beitrag substantiell zum bestehenden Pillar-2-Abschnitt in § 4.4 anschlussfähig ist.
+- Anzahl Suchanfragen: 7 (Web-Suche).
+- Lauf 001 ist der erste reguläre Daily-Update-Lauf am 10. Mai 2026 nach Lauf 001 vom 8. Mai 2026 (Versionssprung 21.0 → 22.0); Lauf-Schritt zwei Tage.
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B | Europäische Kommission, *Daily News 07/05/2026* (Mitteilung über die Trilog-Einigung) | https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1030 | übernommen |
+| 2 | B | Bird & Bird, *Digital Omnibus on AI Provisional Agreement Reached at the May Trilogue*, 7. Mai 2026 | https://www.twobirds.com/en/insights/2026/digital-omnibus-on-ai-provisional-agreement-reached-at-the-may-trilogue | übernommen (Sammelbeleg) |
+| 3 | B | TechPolicy.Press, *What the EU AI Omnibus Deal Changes for the AI Act and What Lies Ahead*, 7. Mai 2026 | https://www.techpolicy.press/what-the-eu-ai-omnibus-deal-changes-for-the-ai-act-and-what-lies-ahead/ | übernommen (Sammelbeleg) |
+| 4 | B | Modulos / NicFab / Timelex / DLA Piper, *EU AI Act Delayed: The Omnibus Deal Closed on 7 May 2026 / Digital Omnibus on AI: the Provisional Agreement of 7 May 2026 / The AI Omnibus deal: what survived the trilogue? / The Digital AI Omnibus: Proposed deferral of high risk AI obligations under the AI Act*, 7./8. Mai 2026 | https://www.modulos.ai/blog/eu-ai-act-omnibus-deal/ \| https://www.nicfab.eu/en/posts/digital-omnibus-ai-deal/ \| https://www.timelex.eu/en/blog/ai-omnibus-deal-what-survived-trilogue \| https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/The-Digital-AI-Omnibus-Proposed-deferral-of-high-risk-AI-obligations-under-the-AI-Act | übernommen (Sammelbeleg) |
+| 5 | D/E | Deutsche Rentenversicherung Bund, *Reform der privaten Altersvorsorge: Bundesrat beschließt Riester-Nachfolge*, 8. Mai 2026 | https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2026/260508-bundesrat-reform-private-altersvorsorge.html | übernommen |
+| 6 | D/E | Bundesregierung, *Fragen und Antworten: Private Altersvorsorge reformiert*, 8. Mai 2026 | https://www.bundesregierung.de/breg-de/aktuelles/reform-private-altersvorsorge-2400072 | übernommen (Sammelbeleg) |
+| 7 | D/E | Deutscher Bundestag (HIB), *Bundestag beschließt das Altersvorsorgedepot*, 27. März 2026 (Bundesrats-Bezug 8. Mai 2026) | https://www.bundestag.de/dokumente/textarchiv/2026/kw13-de-altersvorsorge-1156798 | übernommen (Sammelbeleg) |
+| 8 | C | OECD, *Global Minimum Tax Implementation Toolkit*, 30. April 2026 | https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/global-anti-base-erosion-model-rules-pillar-two.html | übernommen |
+| 9 | E | Bundesgesundheitsministerium / AOK / KBV, *GKV-Beitragssatzstabilisierungsgesetz — Bundesrats-Erstdurchgang in der 1065. Sitzung am 8. Mai 2026* | https://www.bundesgesundheitsministerium.de/service/gesetze-und-verordnungen/detail/gkv-beitragssatzstabilisierungsgesetz | verworfen (Bundesrats-Stellungnahme über das hinaus, was bereits in § 5.2 dokumentiert ist, am 10. Mai 2026 öffentlich nicht ausgewiesen; bestehender § 5.2-Block bleibt korrekt — in einem späteren Lauf nachzutragen) |
+| 10 | B/D | Connecticut SB 5 — Lamont-Unterzeichnung Stichtag 10. Mai 2026 | https://www.troutmanprivacy.com/2026/05/proposed-state-ai-law-update-may-4-2026/ | verworfen (Unterzeichnung weiterhin nicht datumsfest dokumentiert; bestehender § 4.5-Block bleibt korrekt — in einem späteren Lauf nachzutragen) |
+| 11 | F | Yahoo Finance / Marketplace / TheWorkersRights, *Layoffs Accelerate in May 2026 as Firms Restructure Around AI / The tech industry continued shedding jobs in April, citing AI optimization as cause / Meta Layoffs 2026: Is AI Replacing Tech Jobs Faster?* | https://finance.yahoo.com/sectors/technology/articles/layoffs-accelerate-may-2026-firms-040430218.html \| https://www.marketplace.org/story/2026/05/08/the-tech-industry-continued-shedding-jobs-in-april-citing-ai-optimization-as-cause | Dublette (Cloudflare/Coinbase/PayPal/Freshworks/Cognizant in Lauf 001 vom 8. Mai 2026 bzw. Vorlaufläufen vollständig erfasst; Tagesschluss-Tracker-Stand seit 8. Mai 2026 ohne neue Großmeldung mit ≥ 500 Stellen; Aggregat-Linie über TrueUp/Challenger ist auf dem Stand 8. Mai 2026 belastbar) |
+| 12 | A | Anthropic Economic Index — kein neuer Bericht 8.–10. Mai 2026 | https://www.anthropic.com/economic-index | verworfen (keine Bewegung im Fenster; bestehender § 3.5-Block bleibt aktuell) |
+| 13 | E | IAB-Kurzbericht / IAB-Pressemitteilungen Mai 2026 | https://iab.de/ | verworfen (kein neuer Kurzbericht im Fenster; bestehender § 1.1-Block mit Verweis auf Frühjahrsprognose vom 24. März 2026 bleibt korrekt) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.4 | Ergänzung | Neuer Absatz „**EU Digital Omnibus on AI — Trilog-Einigung vom 7. Mai 2026:**" mit Verschiebung der Hochrisiko-Pflichten auf 2. Dezember 2027 (Annex III) und 2. August 2028 (Annex I), neuer Art.-5-Verbotsvorschrift (CSAM und nicht einvernehmliche intime Bilder, Compliance-Frist 2. Dezember 2026), Wiederaufnahme der EU-Datenbank-Eintragungspflicht, Klärung der Konformitätsbewertungs-Architektur für Annex I, Watermarking-Pflicht nach Art. 50 Abs. 2 zum 2. August 2026 mit Übergangsfrist bis 2. Dezember 2026 für Bestandssysteme, KMU-Erleichterungen auf *small mid-caps* ausgeweitet; Verzahnung mit § 4.5 Connecticut SB 5 WARN-Disclosure als transatlantisch komplementäre Mess-Infrastruktur. | 1–4 |
+| 2 | § 4.4 | Ergänzung | OECD-Pillar-2-Absatz um den Hinweis auf das *Global Minimum Tax Implementation Toolkit* vom 30. April 2026 erweitert (Hilfsinstrument, ändert weder GloBE-Modellregeln noch Safe Harbours, sondern bündelt bestehende Leitlinien). | 8 |
+| 3 | § 5.4 | Ergänzung | Neuer Absatz „**Bundesrat-Beschluss Altersvorsorgedepot (8. Mai 2026):**" mit Riester-Nachfolge ab 1. Januar 2027, Aktien/Investmentfonds/ETFs ohne 100-Prozent-Garantie als geförderte Anlageform, gestaffelter Förderung (50 Cent/Euro bis 360 EUR Jahresbeitrag, 25 Cent darüber bis 1.800 EUR; Grundzulagenrahmen rund 540 EUR), Bestandsschutz für Riester-Verträge; Verzahnung mit § 8.3 zur zweistufigen Logik (kollektives Generationenkapital plus individuelles Altersvorsorgedepot). | 5–7 |
+| 4 | § 11.3 | Ergänzung | Drei neue Sammelbelege: (a) *Europäische Kommission / Bird & Bird / TechPolicy.Press / Modulos / NicFab / Timelex / DLA Piper* (Digital Omnibus 7. Mai 2026); (b) *OECD* (Global Minimum Tax Implementation Toolkit 30. April 2026); (c) *Bundesrat / Deutsche Rentenversicherung Bund / Bundesregierung / Bundestag (HIB)* (Altersvorsorgedepot 8. Mai 2026 / 27. März 2026). | 1–8 |
+| 5 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Lauf 001 vom 10. Mai 2026" geändert; Digital-Omnibus-Trilog-Einigung 7. Mai 2026, Altersvorsorgedepot-Bundesratsbeschluss 8. Mai 2026 und OECD Implementation Toolkit 30. April 2026 in den Auflistungstext aufgenommen; bisherige „nächste Runde 13. Mai 2026"-Formulierung durch die tatsächliche Einigung in der Nacht zum 7. Mai 2026 ersetzt. | 1–8 |
+| 6 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Versions-Eintrag in der KI-Offenlegung mit den drei Bündeln Digital Omnibus / Altersvorsorgedepot / OECD Toolkit). | — |
+| 7 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 10. Mai 2026 (Lauf 001 vom 10. Mai 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja (keine Fehler vorhanden)". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | GKV-Beitragssatzstabilisierungsgesetz — Bundesrats-Stellungnahme zum 1. Durchgang | E | Über die in § 5.2 bereits dokumentierten Tagesordnungs- und Stichtagsangaben hinaus zum Stichtag 10. Mai 2026 keine substantielle Bundesrats-Stellungnahme öffentlich ausgewiesen; bestehender § 5.2-Block bleibt korrekt; im nächsten Lauf nachzutragen. |
+| 2 | Connecticut SB 5 — Lamont-Unterzeichnung | B/D | Unterzeichnung zum Stichtag 10. Mai 2026 weiterhin nicht datumsfest dokumentiert (nur Pressespokesperson „looks forward to signing"); bestehender § 4.5-Block bleibt korrekt; in einem späteren Lauf nachzutragen. |
+| 3 | Tech-Layoff-Tracker / Einzelmeldungen 8.–10. Mai 2026 | F | Keine neue Großmeldung mit ≥ 500 Stellen; bestehender § 1.1-Block mit Stand 8. Mai 2026 (TrueUp 127.411 / 283 Meldungen / rund 1.003 pro Tag) bleibt aussagekräftig. |
+| 4 | Anthropic Economic Index | I | Kein neuer Bericht im Fenster; bestehender § 3.5-Block bleibt aktuell. |
+| 5 | IAB-Kurzbericht | E | Kein neuer Kurzbericht im Fenster; bestehende Verweise auf die Frühjahrsprognose vom 24. März 2026 bleiben korrekt. |
+| 6 | Plattform-Digitalabgabe (Weimer) | B | Keine Bewegung zwischen 8. und 10. Mai 2026; Eckpunktepapier weiterhin angekündigt, aber nicht vorgelegt. |
+| 7 | Cluster G (Gesundheitswesen) | G | Fünftes Mal in Folge ohne KI-spezifische neue Treffer im 7-Tage-Fenster. |
+| 8 | Cluster I (Frontier-Modelle) und Cluster J (Robotik) | I/J | Keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 10. Mai 2026 (Lauf 001 vom 10. Mai 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): folgt in Phase 5
+- Word erstellt (`build_docx.py`): folgt in Phase 5
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (alle vier Stellen auf 23.0)
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 001 ist der erste reguläre Daily-Update-Lauf am 10. Mai 2026; im Fenster zwischen Lauf 001 vom 8. Mai 2026 und diesem Lauf liegen drei substantielle politische Ereignisse: die Digital-Omnibus-Trilog-Einigung in der Nacht zum 7. Mai 2026 (zeitlich knapp vor dem letzten Schnitt liegend, aber dort noch als „nächste Runde 13. Mai 2026" geführt), der Bundesrats-Beschluss zum Altersvorsorgedepot vom 8. Mai 2026 (der in Lauf 001 vom 8. Mai 2026 als „Sitzung läuft" markiert war) und das OECD Implementation Toolkit vom 30. April 2026.
+- Cluster B (Digital Omnibus on AI) ist erstmals seit November 2025 mit einem belastbaren Beschlussstand abgebildet; mit dem formalen Beschluss vor 2. August 2026 wird die Verschiebung der Hochrisiko-Pflichten auf 2. Dezember 2027 / 2. August 2028 zur Kalenderankerung für die in § 9.1 diskutierten Mess- und Umgehungsprobleme einer Displacement-basierten Anknüpfung.
+- Cluster D/E (Altersvorsorgedepot): Der Bundesrats-Beschluss verfestigt mit dem 1. Januar 2027 als Inkrafttretensdatum die in § 5.4 entwickelte Linie einer kapitalmarkt-orientierten individuellen Vorsorge-Säule; im Zusammenspiel mit dem 2024 begonnenen kollektiven Generationenkapital entsteht erstmals eine zweistufige Architektur, an die ein späteres KI-Wertschöpfungs- oder Datenrohstoff-Dividendenmodell prozessual anschließen könnte.
+- Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne valide KI-spezifische Treffer im 7-Tage-Fenster; Empfehlung für die nächsten Läufe weiterhin bestehend (gezielter Abruf von g-ba.de Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-Listings).
+- Cluster I (Frontier-Modelle) und Cluster J (Robotik) im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen; Beobachtung beim nächsten Lauf fortsetzen.
+- Branch dieses Laufs: `claude/determined-einstein-p0Cig` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push neu angelegt).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Der Versand-Tool-Status (`mail_send` / `send_mail` / `send_message` / `outlook_send` aus `graph-mcp`; `wa_send_message` / `send_message` aus dem `whatsapp`-MCP) wird in Phase 5b geprüft; bei fehlender Tool-Verfügbarkeit werden die vorbereiteten Inhalte gemäß Phase-5b-Spezifikation als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben (Dateien stehen in `.gitignore`, werden also nicht versioniert).
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor

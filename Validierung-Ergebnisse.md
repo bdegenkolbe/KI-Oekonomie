@@ -7,6 +7,77 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 10. Mai 2026 (Lauf 001 vom 10. Mai 2026) — Version 22.0 → Version 23.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf am 10. Mai 2026 (zwei Tage nach Lauf 001 vom 8. Mai 2026, der Version 22.0 abschloss). Web-Recherche im Korridor der Cluster A–J im 7-Tage-Fenster (Cluster F und I: 48 Stunden). Drei belegbare Treffer im Fenster identifiziert und eingearbeitet: vorläufige Trilog-Einigung über den *Digital Omnibus on AI* in der Nacht zum 7. Mai 2026 (zwei der ursprünglich für die dritte Runde am 13. Mai 2026 noch offenen Streitpunkte wurden in Folge des Mehrfachtrilog-Plans bereits am 7. Mai 2026 mitverhandelt und beigelegt — der Folgetermin entfiel); Bundesrat-Beschluss vom 8. Mai 2026 zum *Altersvorsorgedepot* als Riester-Nachfolge ab 1. Januar 2027; OECD *Global Minimum Tax Implementation Toolkit* vom 30. April 2026 (im 12-Tage-Korridor knapp außerhalb des 7-Tage-Standardfensters, aber relevanzhalber als Annex-Ergänzung zum bestehenden Pillar-2-Abschnitt aufgenommen).
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | EU Digital Omnibus on AI — vorläufige Trilog-Einigung in der Nacht zum 7. Mai 2026: Verschiebung der Hochrisiko-Pflichten auf 2. Dezember 2027 (Annex III) und 2. August 2028 (Annex I); neue Verbotsvorschrift in Art. 5 (CSAM und nicht einvernehmliche intime Bilder, Compliance-Frist 2. Dezember 2026); Wiederaufnahme der Pflicht zur Eintragung in die EU-Datenbank für Hochrisiko-Systeme; Klärung der Konformitätsbewertungs-Architektur für Annex I; Wasserzeichen-Pflicht nach Art. 50 Abs. 2 bleibt zum 2. August 2026 anwendbar mit Übergangsfrist bis 2. Dezember 2026 für Bestandssysteme; einzelne KMU-Erleichterungen auf *small mid-caps* ausgeweitet; formaler Beschluss vor 2. August 2026 vorgesehen. Quellen: Europäische Kommission Daily News 7. Mai 2026; Bird & Bird; TechPolicy.Press; Modulos; NicFab; Timelex; DLA Piper; IAPP. | § 4.4 (neuer eigener Absatz „EU Digital Omnibus on AI — Trilog-Einigung vom 7. Mai 2026" nach dem OECD-Pillar-2-Block; Verzahnung mit § 4.5 Connecticut SB 5 WARN-Disclosure); § 11.3 neuer Eintrag „Europäische Kommission / Bird & Bird / TechPolicy.Press / Modulos / NicFab / Timelex / DLA Piper" mit sechs URLs; Aktualitätshinweis am Dokumentende aktualisiert; README.md mit neuem Versionseintrag 23.0. | Erste vorläufige formelle Einigung im Trilog-Verfahren zum AI Act seit dem Scheitern der zweiten Runde am 28. April 2026; verschiebt den europarechtlichen Ankerpunkt für eine Hochrisiko-Klassifizierung beschäftigungsbezogener KI um rund 16 Monate; verzahnt sich zeitlich mit der für 1. Oktober 2026 vorgesehenen Connecticut-WARN-AI-Disclosure-Erweiterung (§ 4.5) und schafft damit eine transatlantisch komplementäre Mess-Infrastruktur, deren steuerpolitische Nutzbarmachung in beiden Räumen aber weiterhin offen bleibt. |
+| 2 | Bundesrat-Beschluss in der 1065. Sitzung am 8. Mai 2026 zur *Reform der privaten Altersvorsorge* (vom Bundestag am 27. März 2026 verabschiedet): Riester-Rente wird ab 1. Januar 2027 durch ein staatlich gefördertes *Altersvorsorgedepot* ersetzt; geförderte Anlagen umfassen erstmals Aktien, Investmentfonds und ETFs ohne starre 100-Prozent-Garantie; gestaffelte Förderung 50 Cent je eingezahltem Euro bis 360 Euro Jahresbeitrag und 25 Cent darüber bis maximal 1.800 Euro (Grundzulagenrahmen rund 540 Euro pro Jahr); Bestandsschutz für Riester-Verträge. Quellen: Deutsche Rentenversicherung Bund (8. Mai 2026); Bundesregierung; Deutscher Bundestag Textarchiv. | § 5.4 (neuer Absatz „Bundesrat-Beschluss Altersvorsorgedepot (8. Mai 2026)" nach dem bestehenden Staatsfonds-/Dividendenmodell-Abschnitt; Verzahnung mit § 8.3 zur zweistufigen Logik kollektiv (Generationenkapital) plus individuell (Altersvorsorgedepot)); § 11.3 neuer Eintrag „Bundesrat / Deutsche Rentenversicherung Bund / Bundesregierung / Bundestag (HIB)" mit drei URLs; Aktualitätshinweis am Dokumentende aktualisiert; README.md mit neuem Versionseintrag 23.0. | Erste breit angelegte staatlich subventionierte Kapitalmarktbeteiligung in der gesetzlichen Förderlandschaft Deutschlands seit der Riester-Einführung 2002; relevant für die Teilhabefrage in § 8.3, weil die Architektur — Depotpflichtigkeit, Förderlogik, Bestandsschutz — den prozessualen Rahmen liefert, auf den ein späteres KI-Wertschöpfungs- oder Datenrohstoff-Dividendenmodell aufsetzen könnte. Komplementiert das 2024 begonnene kollektive Generationenkapital um eine individuelle Säule und verschiebt damit die OpenAI-Sovereign-Wealth-Vorbild-Linie (kollektiv) in Richtung einer zweistufigen Logik (kollektiv + individuell). |
+| 3 | OECD *Global Minimum Tax Implementation Toolkit* (30. April 2026): Hilfsinstrument für Steuerverwaltungen und Politik; ändert weder die GloBE-Modellregeln noch die Safe Harbours, sondern bündelt bestehende Pillar-2-Leitlinien für Implementierungsjurisdiktionen. Quelle: OECD. | § 4.4 (Ergänzung im OECD-Pillar-2-Absatz nach dem „Side-by-Side Package"-Verweis); § 11.3 neuer Eintrag „OECD (30. April 2026)"; Aktualitätshinweis am Dokumentende aktualisiert. | Bestätigt die in § 4.4 beschriebene Belastbarkeit des internationalen Koordinationsgerüsts und schafft eine zusätzliche Implementierungsstütze, ohne KI-spezifische Anknüpfungspunkte zu ergänzen — die in § 4.4 dokumentierte Schwäche (KI-spezifische Abschöpfung inländischer KI-Nutzung) bleibt damit unverändert. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- Connecticut SB 5 — Lamont-Unterzeichnung zum Stichtag 10. Mai 2026 weiterhin nicht öffentlich dokumentiert (nur Pressespokesperson „looks forward to signing"); bestehender § 4.5-Block bleibt korrekt; in einem späteren Lauf nachzutragen, sobald die formale Unterzeichnung mit Datum belegt ist.
+- GKV-Beitragssatzstabilisierungsgesetz — am 8. Mai 2026 dem Bundesrat im 1. Durchgang zugeleitet; substantielle Bundesrat-Stellungnahme über die Tagesordnungs-Verteilung hinaus zum Stichtag 10. Mai 2026 noch nicht öffentlich dokumentiert; bestehender § 5.2-Block bleibt korrekt.
+- Tech-Layoff-Tracker und Einzelmeldungen 8.–10. Mai 2026 — die in Lauf 001 vom 8. Mai 2026 dokumentierte Reihe (TrueUp 127.411 Personen aus 283 Meldungen, rund 1.003/Tag) ist über das Wochenende ohne neue Großmeldung mit ≥ 500 Stellen geblieben; eine erneute Tagesfortschreibung in § 1.1 erscheint wenig nutzbringend, solange keine substantielle Aggregat-Bewegung vorliegt.
+- Anthropic Economic Index — kein neuer Bericht zwischen dem 8. und 10. Mai 2026; bestehender § 3.5-Block bleibt aktuell.
+- Plattform-Digitalabgabe (Weimer) — keine Bewegung zwischen 8. und 10. Mai 2026; Eckpunktepapier weiterhin angekündigt, aber nicht vorgelegt.
+- Cluster G (Gesundheitswesen) — fünftes Mal in Folge ohne valide KI-spezifische Treffer im 7-Tage-Fenster; Empfehlung für die nächsten Läufe weiterhin bestehend (gezielter Abruf von g-ba.de Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-Listings).
+- Cluster I (Frontier-Modelle) und Cluster J (Robotik) im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitt 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Bestehende §-Querverweise unverändert; die neue Digital-Omnibus-Passage in § 4.4 verweist auf § 4.5 (Connecticut SB 5 WARN-Disclosure), § 9.1 (Messprobleme) und Typ 5 nach § 2.1; die neue Altersvorsorgedepot-Passage in § 5.4 verweist auf § 8.3 (Teilhabe) — alle Ziele existieren. |
+| 2.1.4 Roter Faden | OK | Progression Literaturrezeption → Sektor → eigene Position → Umsetzung erhalten; die EU-Trilog-Verschiebung wird in § 4.4 als regulatorische Architektur eingeordnet, das Altersvorsorgedepot in § 5.4 als komplementäre Säule zum Generationenkapital — beide Ergänzungen schließen an bestehende Linien an, ohne sie zu duplizieren. |
+| 2.1.5 Formatierung | OK | Keine neuen doppelten Trennlinien; fett gesetzte Lead-Ins „**EU Digital Omnibus on AI — Trilog-Einigung vom 7. Mai 2026:**" und „**Bundesrat-Beschluss Altersvorsorgedepot (8. Mai 2026):**" einheitlich mit bestehender Konvention. |
+| 2.2.1 Sachliche Richtigkeit | OK | Trilog-Daten (7. Mai 2026, Stichtage 2. Dezember 2027 und 2. August 2028) durch Bird & Bird, TechPolicy.Press, IAPP und EC Daily News 7. Mai 2026 unabhängig bestätigt; Altersvorsorgedepot-Förderhöhe (50 Cent/Euro bis 360 EUR, 25 Cent darüber bis 1.800 EUR; Inkrafttreten 1. Januar 2027) durch Bundesregierung und Deutsche Rentenversicherung Bund unabhängig bestätigt; OECD-Toolkit-Datum 30. April 2026 durch OECD-Originalseite. |
+| 2.2.2 Redundanzprüfung | OK | Digital-Omnibus-Inhalt erscheint nur in § 4.4 (mit Querverweis auf § 4.5 für Connecticut-WARN-Verzahnung); Altersvorsorgedepot nur in § 5.4 (mit Querverweis auf § 8.3 für Teilhabearchitektur); OECD-Toolkit als kurze Annex-Ergänzung im bestehenden Pillar-2-Absatz. |
+| 2.2.3 Argumentation | OK | Die Verzahnung Digital-Omnibus-Aufschub ↔ Connecticut-WARN-Disclosure macht eine empirisch noch offene These erkennbar (transatlantisch komplementäre Mess-Infrastruktur), bleibt aber im Konjunktiv und vermengt nicht Acemoglu-Manera-Restrepo mit Thuemmel oder mit der Deutschland-These. |
+| 2.2.4 Ausgewogenheit | OK | Konjunktivpflicht für noch nicht beschlossene Regelungen (formaler Beschluss zum Digital Omnibus vor 2. August 2026 vorgesehen) eingehalten; Altersvorsorgedepot nur als beschlossen referiert (Bundestag 27. März, Bundesrat 8. Mai), Inkrafttreten 1. Januar 2027 als Faktum gesetzt. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Fund. |
+| 2.3.2 Terminologie | OK | „Hochrisiko-Pflichten", „Annex I/III", „Konformitätsbewertungs-Architektur", „small mid-cap", „Altersvorsorgedepot", „GloBE-Modellregeln" einheitlich verwendet; Wertschöpfungsabgabe weiterhin nicht mit Wertschöpfungssteuer alterniert; KI/AI im jeweiligen sprachlichen Kontext (deutsch / englisch) eingesetzt. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Drei neue Sammelbelege in § 11.3 (institutionelle und politische Dokumente) eingegliedert — sektionsgerechte Zuordnung, da es sich um EU-/Bundesrats-/OECD-Quellen handelt, nicht um journalistische Berichterstattung. |
+| 2.4.2 Formale Einheitlichkeit | OK | Zitierstil mit Datum, Titel kursiv, vollständigen URLs (Pipe-Trennung bei Mehrfach-URLs) konsistent mit bestehenden Einträgen. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Drei verifizierte Primärbezüge: Europäische Kommission Daily News (Primärquelle); Deutsche Rentenversicherung Bund (Primärquelle); OECD (Primärquelle). Die rechtsanwaltlichen Sekundärquellen (Bird & Bird, DLA Piper, IAPP) gelten als anerkannte Fachkommentierungen. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Sechs neue URLs zum Digital Omnibus, drei zum Altersvorsorgedepot, eine zum OECD-Toolkit; URLs aus Domains europa.eu, twobirds.com, techpolicy.press, modulos.ai, nicfab.eu, timelex.eu, deutsche-rentenversicherung.de, bundesregierung.de, bundestag.de, oecd.org. Stichprobe via Web-Suchergebnissen bestätigt. |
+| 2.4.5 Zitatgenauigkeit | OK | Stichtage 2. Dezember 2027 (Annex III) und 2. August 2028 (Annex I) korrekt; Förderbeträge 50 Cent / 360 Euro / 25 Cent / 1.800 Euro / 540 Euro Grundzulage korrekt; OECD-Toolkit-Datum 30. April 2026 korrekt. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Bestehende Markierung „de la Feria et al. 2022" weiterhin nicht entfernt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 23.0 in `KI-Ökonomie.md` Dokumentkopf, im Aktualitätshinweis am Dokumentende, in `README.md` (Versionszeile und Zitiervorschlag) und in diesem Block einheitlich; CC BY 4.0, Haftungs- und KI-Offenlegungs-Hinweis erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine dedizierten Skripte vorhanden. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über Stichproben festgestellt. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | — | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK (keine Fehler zu bereinigen).
+- Automatisierte Skripte (sofern vorhanden): n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine Fehler vorhanden).
+- Neue Version: 23.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 8. Mai 2026 (Lauf 001 vom 8. Mai 2026) — Version 21.0 → Version 22.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf am 8. Mai 2026 (nach den drei Tagesaktualisierungen am 7. Mai 2026, die in den Versionen 19.0, 20.0 und 21.0 protokolliert sind). Web-Recherche im Korridor der Cluster A–J am 8. Mai 2026: Optimalsteuer-/Aufgabenforschung (Cluster A); Robotersteuer/Wertschöpfungsabgabe DE/EU (Cluster B); internationale Praxis (Cluster C); Politik-Initiativen (Cluster D); Arbeitsmarkt- und Sozialversicherungsdaten (Cluster E); Tech-Layoffs / KI-Capex 48-Stunden-Fenster (Cluster F); Gesundheitswesen (Cluster G); Deutschland-These-Bezugspunkte (Cluster H); Frontier-Modelle (Cluster I); Robotik (Cluster J). Drei belegbare Treffer im 7-Tage- bzw. 48-Stunden-Fenster identifiziert und eingearbeitet (Cloudflare-Layoff vom 7. Mai 2026; Challenger *April-2026-Job-Cuts-Report* vom 1. Mai 2026; TrueUp-Tagesfortschreibung 8. Mai 2026); alle übrigen recherchierten Themen waren in Version 21.0 bereits enthalten oder lagen außerhalb des 7-Tage- bzw. 48-Stunden-Korridors.
