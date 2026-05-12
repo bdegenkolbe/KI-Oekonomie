@@ -54,6 +54,101 @@
 
 ---
 
+## 2026-05-12 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster G — Gesundheitssektor — fünftes Mal in Folge ohne neue belegbare Treffer im 7-Tage-Fenster; Cluster J ohne politisch-fiskalisch relevante Tagesmeldungen).
+- Zeitfenster: 7 Tage (Cluster F und Cluster I: 48 Stunden gemäß `Suchthemen.md`).
+- Anzahl Suchanfragen: 14 (Web-Suche) + 3 (WebFetch — Council-Pressemitteilung, IAB-Pressemitteilung, Bundesrat-Rückblick).
+- Lauf 001 vom 12. Mai 2026 ist der erste reguläre Daily-Update-Lauf seit Lauf 001 vom 8. Mai 2026.
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B | Rat der EU, *Artificial intelligence: Council and Parliament agree to simplify and streamline rules*, 7. Mai 2026 | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ | übernommen |
+| 2 | B | Bird & Bird, *Digital Omnibus on AI Provisional Agreement Reached at the May Trilogue*, Mai 2026 | https://www.twobirds.com/en/insights/2026/digital-omnibus-on-ai-provisional-agreement-reached-at-the-may-trilogue | übernommen (Sammelbeleg) |
+| 3 | B | Hogan Lovells, *EU legislators agree to delay for high-risk AI rules*, Mai 2026 | https://www.hoganlovells.com/en/publications/eu-legislators-agree-to-delay-for-highrisk-ai-rules | übernommen (Sammelbeleg) |
+| 4 | B | IAPP, *EU agrees to amend AI Act, clarifies overlap with machinery rules*, Mai 2026 | https://iapp.org/news/a/eu-agrees-to-amend-ai-act-clarifies-overlap-with-machinery-rules | übernommen (Sammelbeleg) |
+| 5 | B | Table.Media, *KI-Omnibus: Einigung im Trilog*, 7. Mai 2026 | https://table.media/europe/news/ki-omnibus-einigung-im-trilog | übernommen (Sammelbeleg, Einigungs-Uhrzeit 4:39 Uhr) |
+| 6 | B | BVDW, *BVDW Ersteinschätzung zur politischen Einigung in den Verhandlungen zum Digital Omnibus on AI*, Mai 2026 | https://www.bvdw.org/news-und-publikationen/bvdw-ersteinschaetzung-zu-trilog-einigung/ | übernommen (Sammelbeleg) |
+| 7 | B | TechPolicy.Press, *What the EU AI Omnibus Deal Changes for the AI Act and What Lies Ahead*, Mai 2026 | https://www.techpolicy.press/what-the-eu-ai-omnibus-deal-changes-for-the-ai-act-and-what-lies-ahead/ | übernommen (Sammelbeleg) |
+| 8 | E / H | IAB, *Jeder vierte Betrieb in Deutschland nutzt generative KI* (IAB-Kurzbericht 8/2026), 5. Mai 2026 | https://iab.de/presseinfo/jeder-vierte-betrieb-in-deutschland-nutzt-generative-ki/ \| https://doku.iab.de/kurzber/2026/kb2026-08.pdf | übernommen |
+| 9 | F | Yahoo Finance, *Layoffs Accelerate in May 2026 as Firms Restructure Around AI*, Mai 2026 | https://finance.yahoo.com/sectors/technology/articles/layoffs-accelerate-may-2026-firms-040430218.html | übernommen |
+| 10 | F | LayoffHedge, *BILL Holdings Layoffs 2026 — Up to 30 % of Workforce Cut Same Day as $1B Buyback*, Mai 2026 | https://layoffhedge.com/company/bill-holdings | übernommen (Sammelbeleg) |
+| 11 | F | LayoffHedge, *Upwork Layoffs 2026 — 145 Jobs Cut, ~24 % of Workforce as Stock Falls 19 %*, Mai 2026 | https://layoffhedge.com/company/upwork | übernommen (Sammelbeleg) |
+| 12 | F | American Bazaar, *US layoffs in first 10 days of May 2026: Nearly 38,000 jobs cut*, 10. Mai 2026 | https://americanbazaaronline.com/2026/05/10/us-layoffs-in-first-10-days-of-may-2026-nearly-38000-jobs-cut-480502/ | übernommen (Sammelbeleg) |
+| 13 | F | TrueUp Layoff Tracker, *Stand 11./12. Mai 2026: 128.270 Personen aus 286 Layoff-Meldungen (rund 1.002 Personen pro Tag)* | https://www.trueup.io/layoffs | übernommen |
+| 14 | I | CNBC, *Anthropic, SpaceX announce compute deal that includes space development*, 6. Mai 2026 | https://www.cnbc.com/2026/05/06/anthropic-spacex-data-center-capacity.html | übernommen |
+| 15 | I | Axios, *Anthropic will get compute capacity from Elon Musk's SpaceX*, 6. Mai 2026 | https://www.axios.com/2026/05/06/anthropic-spacex-elon-musk-compute | übernommen (Sammelbeleg) |
+| 16 | I | xAI, *New Compute Partnership with Anthropic*, 6. Mai 2026 | https://x.ai/news/anthropic-compute-partnership | übernommen (Sammelbeleg, Primärquelle xAI) |
+| 17 | I | Tom's Hardware, *Musk's SpaceX has rented out access to its supercomputer's 220,000 Nvidia GPUs and 300 megawatts of AI compute power to rival Anthropic*, Mai 2026 | https://www.tomshardware.com/tech-industry/artificial-intelligence/musks-spacex-has-rented-out-access-to-its-supercomputers-220-000-nvidia-gpus-and-300-megawatts-of-ai-compute-power-to-rival-anthropic-musk-says-no-one-set-off-my-evil-detector-antrhropic-also-interested-in-orbital-data-centers | übernommen (Sammelbeleg) |
+| 18 | I | Al Jazeera, *SpaceX backs Anthropic with data centre deal amidst Musk's OpenAI lawsuit*, 6. Mai 2026 | https://www.aljazeera.com/economy/2026/5/6/spacex-backs-anthropic-with-data-centre-deal-amidst-musks-openai-lawsuit | übernommen (Sammelbeleg) |
+| 19 | I | Fortune, *Anthropic grew 80-fold in a single quarter. Now it's renting Elon Musk's data center to cope*, 8. Mai 2026 | https://fortune.com/2026/05/08/anthropic-80fold-growth-quarter-renting-elon-musk-data-center/ | übernommen (Sammelbeleg) |
+| 20 | A | NBER, *Public Finance in the Age of AI: A Primer*, Working Paper 34873 (Korinek & Lockwood, DOI 10.3386/w34873) | https://www.nber.org/papers/w34873 \| https://www.nber.org/system/files/chapters/c15323/c15323.pdf | übernommen (Aktualisierung bestehender Quelle) |
+| 21 | B | Bundesrat, *1065. Sitzung am 8. Mai 2026 — Rückblick "BundesratKOMPAKT"*, 8. Mai 2026 | https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1065/1065-pk.html | übernommen (Verifizierung — GKV-Gesetz nicht auf der Tagesordnung; Korrektur einer früheren Aussage) |
+| 22 | B | Connecticut SB 5 — Lamont-Unterzeichnung (Stichtag 12. Mai 2026, noch nicht datierbar dokumentiert) | https://www.govtech.com/artificial-intelligence/connecticut-ai-bill-clears-statehouse-heads-to-governor | verworfen (Pressespokesperson „looks forward to signing"; bestehender § 4.5-Block bleibt korrekt) |
+| 23 | F | Arctic Wolf — 250 Stellen (6. Mai 2026) | https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213 | Dublette (in Lauf 001 vom 8. Mai 2026 bereits geprüft und verworfen) |
+| 24 | D | Sanders Robot Tax Bill — keine formelle Einbringung im 7-Tage-Fenster | https://www.sanders.senate.gov/ | verworfen (keine neue Aktion; HELP-Anhörung Oktober 2025 unverändert) |
+| 25 | J | IFR World Robotics 2026 Report | https://ifr.org/news | verworfen (Survey läuft; Veröffentlichung Spätsommer/Herbst 2026 erwartet) |
+| 26 | I | Anthropic Economic Index — kein neuer Bericht im 48-Stunden-Fenster | https://www.anthropic.com/economic-index | verworfen (Stand März 2026 unverändert) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.2 | Aktualisierung | Trilog-Status zum *Digital Omnibus on AI* gemäß Claude.md § 4.2 als Zweistufen-Aktualisierung („Stand März 2026 … aktualisiert im Mai 2026 …") überarbeitet: vorläufige politische Einigung in der Nacht zum 7. Mai 2026 (4:39 Uhr) unter zypriotischer Ratspräsidentschaft vor dem ursprünglich für den 13. Mai 2026 angesetzten dritten Trilogtermin; bestätigte Stichtage 2. Dezember 2027 (Anhang III) und 2. August 2028 (Anhang I); Maschinenverordnungs-KI nicht mehr automatisch im Hochrisikobereich; neue Art.-5-Verbote (CSAM/NCII); Watermarking Art. 50 Abs. 2 ab 2. August 2026 mit Übergangsfrist bis 2. Dezember 2026; formelle Annahme durch Rat und Parlament voraussichtlich Juni 2026, Veröffentlichung im Amtsblatt voraussichtlich Ende Juli 2026. | 1–7 |
+| 2 | § 1.1 | Ergänzung | Adoption-Block aus dem IAB-Kurzbericht 8/2026 vom 5. Mai 2026: 25 % der deutschen Betriebe nutzen generative KI (Vervielfachung gegenüber 5 % im Jahr 2023, weitere 9 % geplant); Spanne 48 % bei Großbetrieben ≥ 200 Beschäftigten bis 21 % bei Kleinbetrieben unter zehn Beschäftigten; sektoral IKT 59 %, Finanz/Versicherung 50 %, Unternehmensdienste 37 %, Bildung 34 %; 90 % frei zugängliche Anwendungen, 16 % erworbene Modelle, 6 % Eigenentwicklungen; mehr als ein Viertel mit Schulungen; junge Betriebe (< 5 Jahre) 30 %, lang bestehende Betriebe (≥ 25 Jahre) 21 %; Datenbasis IAB-Betriebspanel mit rund 15.000 Betrieben. | 8 |
+| 3 | § 1.1 | Ergänzung | Layoff-Block um BILL Holdings (rund 700 Stellen, bis zu 30 %, parallel zu 1 Mrd. USD Aktienrückkauf) und Upwork (rund 145 Stellen, 24 %, Aktienkurs −19,3 %) erweitert; TrueUp-Tagesfortschreibung zum 11./12. Mai 2026 (128.270 Personen aus 286 Layoff-Meldungen, rund 1.002 Personen pro Tag); *American-Bazaar*-Aggregat (rund 38.000 US-Stellenstreichungen in den ersten zehn Maitagen 2026). | 9–13 |
+| 4 | § 1.1 | Ergänzung | Anbieterseiten-Block: Anthropic-SpaceX-Compute-Partnerschaft (6. Mai 2026) mit vollständigem Zugriff auf Colossus 1 in Memphis (über 222.000 Nvidia-GPUs — H100, H200, GB200 — und mehr als 300 Megawatt; Interesse an mehreren Gigawatt orbitalem Compute); xAI-Auflösung und Überführung in SpaceX als *SpaceXAI* (Colossus 2 verbleibt dort); Anthropic-Umsatz laut Fortune im Quartal rund 80-fach gestiegen; explizite Marktstruktur-Verknüpfung mit § 8.2 (Rohstoff-Analogie) und § 8.3 (KI-Rentenverteilung). | 14–19 |
+| 5 | § 11.1 | Aktualisierung | Korinek-Lockwood-Eintrag um NBER Working Paper 34873 (DOI 10.3386/w34873) und NBER-Konferenz-Kapitel-PDF c15323.pdf erweitert; Brookings-Erstpublikation vom 8. Januar 2026 bleibt unverändert als zeitlich frühere Referenz. | 20 |
+| 6 | § 11.3 | Aktualisierung | Trilog-Eintrag „Europäisches Parlament / Rat der EU" auf Stand 7. Mai 2026 fortgeschrieben (acht URLs); IAB-Kurzbericht 8/2026 als neuer Eintrag mit zwei URLs. | 1–8 |
+| 7 | § 11.5 | Ergänzung | Drei neue Sammelbelege in § 11.5: *TrueUp / American Bazaar* (Stand 11./12. Mai 2026); *Yahoo Finance / GuruFocus / LayoffHedge* (BILL Holdings / Upwork, 7./8. Mai 2026); *Anthropic / xAI / CNBC / Axios / Tom's Hardware / Al Jazeera / Fortune* (Anthropic-SpaceX, 6.–8. Mai 2026). | 9–19 |
+| 8 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Lauf 001 vom 12. Mai 2026" geändert; AI-Omnibus-Einigung 7. Mai 2026, IAB-Kurzbericht 8/2026, BILL/Upwork, TrueUp 11./12. Mai 2026, Anthropic-SpaceX und NBER WP 34873 in den Auflistungstext aufgenommen. Bereinigung: vorherige Aussage „Erstdurchgang des GKV-Beitragssatzstabilisierungsgesetzes in der 1065. Bundesratssitzung" entfernt und durch korrekte Aussage „in der 1065. Bundesratssitzung am 8. Mai 2026 mit ihren über 80 Tagesordnungspunkten war das Gesetz nicht aufgesetzt" ersetzt. | 1–21 |
+| 9 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Versionseintrag 23.0 in der KI-Offenlegung mit den fünf Treffer-Bündeln AI-Omnibus / GKV-Korrektur / IAB-Kurzbericht 8/2026 / BILL & Upwork & TrueUp / Anthropic-SpaceX und Korinek-Lockwood-Formalisierung). | — |
+| 10 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 12. Mai 2026 (Lauf 001 vom 12. Mai 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1–2.6, einer Korrektur (GKV-Aussage in Aktualitätshinweis) und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Connecticut SB 5 — Lamont-Unterzeichnung | B | Stichtag 12. Mai 2026 noch nicht formal datierbar; Pressespokesperson „looks forward to signing"; bestehender § 4.5-Block bleibt korrekt; nächster Lauf zu prüfen. |
+| 2 | Arctic Wolf — 250 Stellen (6. Mai 2026) | F | Dublette (in Lauf 001 vom 8. Mai 2026 bereits geprüft und verworfen, unter Schwelle 500+ Stellen für Einzel-Layoff-Eintrag in § 1.1). |
+| 3 | Sanders Robot Tax Bill | D | Keine formelle Einbringung im 7-Tage-Fenster; Stand bleibt HELP-Anhörung Oktober 2025 / Mooney-Ankündigung „bald" gegenüber Tax Notes. |
+| 4 | IFR World Robotics 2026 Report | J | Survey läuft; Veröffentlichung im Spätsommer/Herbst 2026 erwartet. |
+| 5 | Anthropic Economic Index — neuer Bericht | I | Keine Bewegung gegenüber dem März-2026-Stand („Learning curves"). |
+| 6 | Plattform-Digitalabgabe (Weimer) Mai 2026 | B | Keine Bewegung über Version 10.0/11.0 hinaus zwischen 8. und 12. Mai 2026. |
+| 7 | Generationenkapital — Stand Mai 2026 | E/H | Keine neuen Tranchen-/Renditeangaben zwischen 8. und 12. Mai 2026. |
+| 8 | Yale Budget Lab — neuer Tracker-Stand | A/F | Keine neue Veröffentlichung über den Stand 6. Mai 2026 hinaus. |
+| 9 | G-BA / gematik / BfArM / DiGAV (Cluster G) | G | Fünftes Mal in Folge ohne KI-spezifische neue Beschlüsse oder DiGA-Listings im 7-Tage-Fenster. |
+| 10 | Tesla Optimus / Figure / Boston Dynamics Atlas / Unitree (Cluster J) | J | Keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster. |
+| 11 | Bundesrat 1065. Sitzung — GKV-Behandlung | B/E | GKV-Beitragssatzstabilisierungsgesetz war nicht auf der Tagesordnung (Verifizierung über BundesratKOMPAKT 1065-pk.html); Verwendung des Recherchebefunds als Korrektur der vorherigen Aussage statt als neue Quelle. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 12. Mai 2026 (Lauf 001 vom 12. Mai 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 001 vom 12. Mai 2026 ist der erste reguläre Daily-Update-Lauf seit Lauf 001 vom 8. Mai 2026 (vier Kalendertage Pause). In dieser Lücke ist die im Vorlauf in Aussicht gestellte Trilog-Entscheidung zum *Digital Omnibus on AI* nicht erst am 13. Mai, sondern bereits in der Nacht zum 7. Mai 2026 (4:39 Uhr) gefallen — eine Lücke in der Recherchedichte, die der heutige Lauf schließt; zugleich Bereinigung einer falschen Tagesordnungs-Annahme zur 1065. Bundesratssitzung am 8. Mai 2026 (GKV-Beitragssatzstabilisierungsgesetz nicht aufgesetzt).
+- Cluster I (Frontier-Modelle / Marktstruktur) liefert mit der Anthropic-SpaceX-Compute-Partnerschaft erstmals seit mehreren Läufen wieder eine politisch-fiskalisch relevante Tagesmeldung; die in § 8.2 entwickelte Rohstoff-Analogie wird damit empirisch um eine konkrete Konzentrationsbewegung an der Spitze der Compute-Architektur ergänzt.
+- Cluster G (Gesundheitswesen) zum fünften Mal in Folge ohne valide Treffer im 7-Tage-Fenster; Empfehlung für nächste Läufe weiter bestehend (gezielter Abruf von g-ba.de Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-Listings).
+- Cluster J (Robotik) im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen; IFR World Robotics 2026 Report-Veröffentlichung im Spätsommer/Herbst 2026 erwartet.
+- Connecticut SB 5 — Lamont-Unterzeichnung weiterhin nicht datierbar; in einem späteren Lauf nachzutragen.
+- Branch dieses Laufs: `claude/determined-einstein-0sDwW` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push neu angelegt).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Versand-Tool-Status wird in Phase 5b geprüft; bei fehlender Tool-Verfügbarkeit werden die vorbereiteten Inhalte gemäß Phase-5b-Spezifikation als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben.
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
