@@ -54,6 +54,104 @@
 
 ---
 
+## 2026-05-13 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster G — Gesundheitswesen — fünftes Mal in Folge ohne neue belegbare Treffer im 7-Tage-Fenster; Cluster I/J im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen; Vertiefungen: Cluster B (EU AI Act Omnibus) und Cluster C/D (Südkorea „National Dividend"); knappe Ergänzungen Cluster F).
+- Zeitfenster: 7 Tage (Cluster F: 48 Stunden zwischen 11. und 13. Mai 2026; Cluster I: 48 Stunden).
+- Anzahl Suchanfragen: 14 Web-Suchen + 4 WebFetch (Bird & Bird, Consilium und Hogan Lovells lieferten 403/402; verifiziert über Modulos, IAPP und techxplore).
+- Lauf 001 vom 13. Mai 2026 ist der erste reguläre Daily-Update-Lauf seit Lauf 001 vom 8. Mai 2026 (fünf Tage Abstand).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B | Rat der EU (Consilium), *Artificial Intelligence: Council and Parliament agree to simplify and streamline rules*, 7. Mai 2026 | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ | übernommen |
+| 2 | B | Modulos, *EU AI Act Delayed: The Omnibus Deal Closed* | https://www.modulos.ai/blog/eu-ai-act-omnibus-deal/ | übernommen (Sammelbeleg) |
+| 3 | B | Hogan Lovells, *EU legislators agree to delay for high-risk AI rules* | https://www.hoganlovells.com/en/publications/eu-legislators-agree-to-delay-for-highrisk-ai-rules | übernommen (Sammelbeleg) |
+| 4 | B | Bird & Bird, *Digital Omnibus on AI Provisional Agreement Reached at the May Trilogue* | https://www.twobirds.com/en/insights/2026/digital-omnibus-on-ai-provisional-agreement-reached-at-the-may-trilogue | übernommen (Sammelbeleg) |
+| 5 | B | Matheson, *Provisional agreement reached on AI Digital Omnibus Regulation* | https://www.matheson.com/insights/eu-legislators-reach-agreement-on-ai-digital-omnibus-regulation/ | übernommen (Sammelbeleg) |
+| 6 | B | Pinsent Masons, *Rules on 'high-risk' AI to be delayed under EU 'omnibus' deal* | https://www.pinsentmasons.com/out-law/news/rules-high-risk-ai-delayed-under-eu-omnibus-deal | übernommen (Sammelbeleg) |
+| 7 | C/D | techxplore, *South Korea floats AI profit social tax as tech giants boom*, 12. Mai 2026 | https://techxplore.com/news/2026-05-south-korea-ai-profit-social.html | übernommen |
+| 8 | C/D | Bloomberg, *Top South Korea Policymaker Floats Paying All Citizens a Share of AI Profits*, 12. Mai 2026 | https://www.bloomberg.com/news/articles/2026-05-12/korea-floats-citizen-dividend-using-ai-profits-samsung-falls | übernommen (Sammelbeleg) |
+| 9 | C/D | AI Commission, *South Korea floats AI profit social tax as tech giants boom*, 12. Mai 2026 | https://aicommission.org/2026/05/south-korea-floats-ai-profit-social-tax-as-tech-giants-boom/ | übernommen (Sammelbeleg) |
+| 10 | F | TechCrunch, *GM just laid off hundreds of IT workers to hire those with stronger AI skills*, 11. Mai 2026 | https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/ | übernommen |
+| 11 | F | CNBC, *GM cutting hundreds of salaried IT workers as it trims costs, evaluates needs*, 11. Mai 2026 | https://www.cnbc.com/2026/05/11/gm-layoffs.html | übernommen (Sammelbeleg) |
+| 12 | F | Bloomberg, *Fidelity to Cut 800 Staffers as It Overhauls Tech, Product Teams*, 7. Mai 2026 | https://www.bloomberg.com/news/articles/2026-05-07/fidelity-to-cut-800-staffers-as-it-overhauls-tech-product-teams | übernommen |
+| 13 | F | Boston Globe, *Fidelity announces job cuts and hiring spree, all at once*, 7. Mai 2026 | https://www.bostonglobe.com/2026/05/07/business/fidelity-hiring-spree-job-cuts-return-to-office/ | übernommen (Sammelbeleg) |
+| 14 | F | Boston.com, *Fidelity reorganizes its workplace with new hires — and a few cuts*, 11. Mai 2026 | https://www.boston.com/news/business/2026/05/11/fidelity-reorganizes-its-workplace-with-new-hires-and-a-few-cuts/ | übernommen (Sammelbeleg) |
+| 15 | F | Citywire, *Fidelity Investments lays off 800, preps hiring spree* | https://citywire.com/selector/news/fidelity-investments-lays-off-800-preps-hiring-spree/a2489565 | übernommen (Sammelbeleg) |
+| 16 | F/B | Strauss Borrelli PLLC, *Cloudflare Inc WARN Act Investigation*, 12. Mai 2026 | https://straussborrelli.com/2026/05/12/cloudflare-inc-warn-act-investigation/ | übernommen |
+| 17 | F | TrueUp Layoffs Tracker (Stand 12. Mai 2026: 128.270 Personen aus 286 Layoff-Meldungen, rund 1.002 / Tag) | https://www.trueup.io/layoffs | übernommen |
+| 18 | F | American Bazaar, *US layoffs in first 10 days of May 2026: Nearly 38,000 jobs cut*, 10. Mai 2026 | https://americanbazaaronline.com/2026/05/10/us-layoffs-in-first-10-days-of-may-2026-nearly-38000-jobs-cut-480502/ | übernommen (Sammelbeleg) |
+| 19 | B | Connecticut SB 5 — Lamont-Unterzeichnung weiterhin nicht mit Datum dokumentiert | https://ctmirror.org/2026/05/01/artificial-intelligence-house-regulation-passage-ct/ | verworfen (bestehender § 4.5-Block bleibt korrekt; in einem späteren Lauf nachzutragen) |
+| 20 | E/B | Bundesrat 1065. Sitzung 8. Mai 2026 — Rückblick listet keinen dezidierten GKV-Beschluss | https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1065/1065-pk.html | verworfen (bestehender Aktualitätshinweis bleibt; im nächsten Lauf zu prüfen) |
+| 21 | D | Sanders robot tax — kein formaler Bill-Text bis 13. Mai 2026 | https://www.washingtonexaminer.com/news/senate/3844942/sanders-plans-robot-tax-legislation/ | verworfen (keine Bewegung seit dem 16. April 2026) |
+| 22 | A | NBER WP 34873 (Korinek/Lockwood); Brookings/Yale Budget Lab — keine neuen Working Papers im 7-Tage-Fenster | https://www.nber.org/papers/w34873 | verworfen (alle bereits in Versionen 9.0/19.0 dokumentiert) |
+| 23 | A | NBER WP 34984 / 35046 — außerhalb 7-Tage-Fenster | https://www.nber.org/system/files/working_papers/w34984/w34984.pdf | verworfen (Datum unklar / vermutlich außerhalb Fenster — gegebenenfalls in einem späteren Lauf zu prüfen) |
+| 24 | E | IAB-Kurzbericht 08/2026 — generative-KI-Adoption 5 % (2023) → 25 % (2025) / 48 % bei Großunternehmen — Hintergrundzahlen | https://doku.iab.de/kurzber/2026/kb2026-08.pdf | verworfen (Stand bereits in Version 18.0 / 22.0 referiert; keine neue belegbare Tagesneuigkeit) |
+| 25 | E/B | GKV-Beitragssatzstabilisierungsgesetz — keine neuen Bundesrat-Beschlüsse im 7-Tage-Fenster | https://www.bundesgesundheitsministerium.de/service/gesetze-und-verordnungen/detail/gkv-beitragssatzstabilisierungsgesetz | verworfen (bestehender § 5.2- und Aktualitätshinweis-Verweis bleibt korrekt) |
+| 26 | H | acatech / Fraunhofer / IW Köln / ZEW — keine neuen Studien im 7-Tage-Fenster mit KI-Steuer-Bezug | — | verworfen (Cluster ohne Treffer) |
+| 27 | I | Frontier-Modell-Releases / Inferenzpreise (Air Street State of AI Mai 2026, LLM-Stats Mai 2026) — Cluster ohne politisch-fiskalisch relevante Tagesmeldung im 48-Stunden-Fenster | https://press.airstreet.com/p/state-of-ai-may-2026 | verworfen (keine Tagesmeldung mit fiskalischer Implikation) |
+| 28 | J | Tesla Optimus / Figure AI — keine Tagesmeldungen im 48-Stunden-Fenster mit politisch-fiskalischer Implikation | — | verworfen (Cluster ohne Treffer) |
+| 29 | G | G-BA / gematik / BfArM / DiGAV — keine KI-spezifischen neuen Beschlüsse im 7-Tage-Fenster | — | verworfen (Cluster fünftes Mal in Folge ohne valide Treffer) |
+| 30 | D | Anthropic Economic Index — kein neuer Bericht seit dem 24. März 2026 / 22. April 2026 / 23. April 2026 | https://www.anthropic.com/economic-index | verworfen (bestehender § 3.5-Block bleibt aktuell) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.4 | Ergänzung | Neuer eigenständiger Block „EU AI Act — provisorische Trilog-Einigung zum Digital Omnibus on AI (7. Mai 2026)" — Anhang III → 2. Dezember 2027, Anhang I → 2. August 2028, Artikel 50 Abs. 2 für Bestandsmodelle → 2. Dezember 2026, neues Artikel-5-Verbot für CSAM-/NCII-generierende Systeme, Anhang VIII Section B als schlanke Registrierungslogik, Maschinenverordnung als Sektor aus direkter AI-Act-Anwendbarkeit herausgenommen (sektorale Pfadtrennung über delegierte Rechtsakte). | 1–6 |
+| 2 | § 6.1 | Ergänzung | Neuer Block „Vorstoß Mai 2026 — ‚National Dividend' auf KI-Übergewinne" — Kim Yong-beom (Senior Presidential Secretary for Policy) schlägt am 12. Mai 2026 eine Übergewinnabgabe auf Samsung Electronics und SK hynix mit zweckgebundener Bürger­auszahlung (Jugend-Gründungs­förderung, Grundeinkommen ländliche/Fischerei­regionen, Künstler­förderung, Renten) vor; Stützung durch Abgeordnete Moon Geum-ju (Demokratische Partei). | 7–9 |
+| 3 | § 1.1 | Ergänzung | Tagesfortschreibung der Layoff-Reihe um GM-IT-Layoffs (11. Mai 2026, rund 600 / >10 %, KI-Skill-Umschichtung mit parallelen Neueinstellungen), Fidelity-Layoffs (7./8. Mai 2026, rund 800 / 80.000, 3.300 Neueinstellungen), Strauss-Borrelli-Cloudflare-WARN-Untersuchung (12. Mai 2026, 224 Beschäftigte San Francisco) und TrueUp-Tagesstand 12. Mai 2026 (128.270 / 286, rund 1.002 / Tag) sowie American-Bazaar-Aggregat (rund 38.000 Stellen in den ersten zehn Tagen Mai 2026). | 10–18 |
+| 4 | § 11.3 | Ergänzung | Drei neue Sammelbelege in § 11.3: Rat der EU (Consilium 7. Mai 2026); Modulos/Hogan Lovells/Bird & Bird/Matheson/Pinsent Masons (Kanzlei-/Beratungs-Analysen); Republik Korea — Office of the President / Kim Yong-beom (12. Mai 2026) mit Bloomberg-, techxplore- und AI-Commission-Wiedergabe. Bestehender Trilog-Eintrag textlich aktualisiert. | 1–9 |
+| 5 | § 11.5 | Ergänzung | Vier neue Sammelbelege in § 11.5: TechCrunch/CNBC (GM-IT-Layoffs 11. Mai 2026); Bloomberg/Boston Globe/Boston.com/Citywire (Fidelity 7./8./11. Mai 2026); Strauss Borrelli PLLC (Cloudflare-WARN-Untersuchung 12. Mai 2026); TrueUp/American Bazaar (Tagesstand 11./12. Mai 2026). | 10–18 |
+| 6 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Mitte Mai 2026 (Schnitt am 13. Mai 2026 — Lauf 001 vom 13. Mai 2026)" geändert; die sechs neuen Entwicklungen (AI Act Omnibus, Südkorea National Dividend, GM, Fidelity, Cloudflare-WARN, TrueUp-Tagesstand) in den Auflistungstext aufgenommen. | 1–18 |
+| 7 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Versionseintrag in der KI-Offenlegung mit den sechs Neuerungen). | — |
+| 8 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 13. Mai 2026 (Lauf 001 vom 13. Mai 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Connecticut SB 5 — Lamont-Unterzeichnung | B | Stichtag weiterhin nicht öffentlich mit Datum dokumentiert; bestehender § 4.5-Block bleibt korrekt — in einem späteren Lauf nachzutragen. |
+| 2 | Bundesrat 1065. Sitzung 8. Mai 2026 — GKV-Beschluss | E/B | Offizielle Rückblicks-Seite (1065-pk.html) listet zum Recherchezeitpunkt keinen dezidierten GKV-Beschluss; im nächsten Lauf zu prüfen. |
+| 3 | Sanders robot tax (formaler Bill-Text) | D | Bis 13. Mai 2026 nicht eingebracht; bestehender § 4.5-Block bleibt korrekt. |
+| 4 | NBER WP 34984 / 35046 (Mai 2026) | A | Datum unklar / vermutlich außerhalb 7-Tage-Fenster — gegebenenfalls in einem späteren Lauf zu prüfen. |
+| 5 | IAB-Kurzbericht 08/2026 | E | Stand bereits in Versionen 18.0 / 22.0 referiert; keine neue belegbare Tagesneuigkeit. |
+| 6 | Anthropic Economic Index — Folgebericht | A/D | Kein neuer Bericht seit dem 24. März / 22. April / 23. April 2026; bestehender § 3.5-Block bleibt aktuell. |
+| 7 | Generationenkapital | E/H | Keine neuen Tranchen- oder Renditeangaben seit dem letzten Lauf. |
+| 8 | Plattform-Digitalabgabe (Weimer) | B | Keine Bewegung seit Eckpunktepapier-Ankündigung; bleibt bei dem in § 4.4 referierten Verhandlungsstand. |
+| 9 | acatech / Fraunhofer / IW Köln / ZEW | H | Keine neuen Studien im 7-Tage-Fenster mit KI-Steuer-Bezug. |
+| 10 | Frontier-Modell-Releases / Inferenzpreise | I | Keine politisch-fiskalisch relevante Tagesmeldung im 48-Stunden-Fenster. |
+| 11 | Tesla Optimus / Figure / Boston Dynamics / Unitree | J | Keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster. |
+| 12 | G-BA / gematik / BfArM / DiGAV | G | Fünftes Mal in Folge ohne KI-spezifische neue Beschlüsse oder DiGA-Listings im 7-Tage-Fenster. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 13. Mai 2026 (Lauf 001 vom 13. Mai 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (22.0 → 23.0)
+- E-Mail-Versand (Phase 5b): Fallback — Inhalt nach `daily-mail.txt` geschrieben (kein MCP-Versandtool in dieser Session erreichbar)
+- WhatsApp-Versand (Phase 5b): Fallback — Inhalt nach `daily-whatsapp.txt` geschrieben (kein MCP-Versandtool in dieser Session erreichbar)
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+
+### Auffälligkeiten / offene Punkte
+
+- Der heutige Lauf vertieft zwei Cluster (B — AI Act Omnibus; C/D — Südkorea National Dividend), die strukturell unmittelbar an die Deutschland-These (§ 8.3, § 8.4) anschlussfähig sind: Die AI-Act-Verschiebung verstärkt die Asymmetrie zwischen Personalreduktion und Infrastrukturausbau; der südkoreanische Vorschlag ist die erste konkret artikulierte Bürger­dividenden-Konstruktion eines hochrangigen Mitglieds einer amtierenden Regierung.
+- Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne valide Treffer im 7-Tage-Fenster — Empfehlung für die nächsten Läufe: Erweiterung des Suchspektrums um EBM-Ziffern für KI-Leistungen, DKG-Stellungnahmen und Sitzungsberichte der Bundesärztekammer; die strukturelle Leere des Clusters in den letzten Wochen sollte in einem Vertiefungslauf einmal explizit als „Befund" dokumentiert werden, statt als wiederholte Auslassung.
+- Cluster I (Frontier-Modelle) und Cluster J (Robotik) im 48-Stunden-Fenster weiter ohne politisch-fiskalisch relevante Tagesmeldungen — die Air-Street-State-of-AI-Mai-Ausgabe wäre für einen Wochenend-/Vertiefungslauf in Cluster I anschlussfähig.
+- Sanders robot tax — formaler Bill-Text weiterhin nicht eingebracht; das in § 4.5 (Sanders-Folgeinitiative) angekündigte Gesetz bleibt im Konjunktiv.
+- Bundesrat 1065. Sitzung 8. Mai 2026: GKV-Beitragssatzstabilisierungsgesetz-Beschluss konnte am Recherchetag (13. Mai 2026) noch nicht auf der offiziellen Rückblicks-Seite (1065-pk.html) verifiziert werden — die Bundesrats-Drucksachen­nummer wird in einem späteren Lauf nachgetragen, sobald sie öffentlich verfügbar ist.
+- Branch dieses Laufs: `claude/determined-einstein-bcJzI` (Session-Branch, lokal angelegt, in Phase 0 dieses Laufs verifiziert).
+- Phase 5b (Benachrichtigung): In der laufenden Session waren weder ein `mail_send`/`send_mail`/`outlook_send`-Tool noch ein `wa_send_message`/`wa_send_media`-Tool eines `whatsapp`-MCP-Servers erreichbar. Empfänger lagen aus der Routine-Anweisung vor; der Versand wurde gemäß § 5b auf Fallback-Textdateien (`daily-mail.txt` 4.828 Zeichen, `daily-whatsapp.txt` 822 Zeichen) umgeleitet, die im Repo-Root liegen, gitignored sind und Empfängerdaten nicht enthalten. Erfolgt erneuter Lauf in einer Session mit verfügbarem Versand-MCP, übernimmt die Routine wieder den tatsächlichen Versand.
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
