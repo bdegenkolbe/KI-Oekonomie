@@ -54,6 +54,95 @@
 
 ---
 
+## 2026-05-14 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster G — Gesundheitssektor — fünftes Mal in Folge ohne neue belegbare Treffer im 7-Tage-Fenster; Cluster I/J im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen; Cluster B mit der EU-Trilog-Einigung sowie Cluster F mit drei Mai-Layoffs und Tagesfortschreibung TrueUp am 13. Mai 2026; Cluster E/H mit dem IAB-Kurzbericht 8/2026 zur Adoption generativer KI).
+- Zeitfenster: 7 Tage (Standard, ab 7. Mai 2026); Cluster F und Cluster I: 48 Stunden (ab 12. Mai 2026); der IAB-Kurzbericht 8/2026 vom 5. Mai 2026 im erweiterten 7-Tage-Fenster, da er für Cluster E/H eine eigenständige Adoptionsperspektive liefert, die im vorherigen Lauf (Lauf 001 vom 8. Mai 2026) noch nicht eingespielt war.
+- Anzahl Suchanfragen: 12 (Web-Suche).
+- Lauf 001 ist der erste reguläre Daily-Update-Lauf seit dem 8. Mai 2026 (Version 22.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B | Bird & Bird, *Digital Omnibus on AI Provisional Agreement Reached at the May Trilogue*, 7. Mai 2026 | https://www.twobirds.com/en/insights/2026/digital-omnibus-on-ai-provisional-agreement-reached-at-the-may-trilogue | übernommen |
+| 2 | B | NicFab Blog, *Digital Omnibus on AI: the Provisional Agreement of 7 May 2026*, 7. Mai 2026 | https://www.nicfab.eu/en/posts/digital-omnibus-ai-deal/ | übernommen (Sammelbeleg) |
+| 3 | B | Timelex, *The AI Omnibus deal: what survived the trilogue?*, Mai 2026 | https://www.timelex.eu/en/blog/ai-omnibus-deal-what-survived-trilogue | übernommen (Sammelbeleg) |
+| 4 | B | Lexology, *EU Digital Omnibus Deal: Simplification of AI Act and Postponed Deadlines*, Mai 2026 | https://www.lexology.com/library/detail.aspx?g=34c6a42f-af33-4189-a32c-dc2e3d7a109f | übernommen (Sammelbeleg) |
+| 5 | F | Reuters / CNBC / Washington Times, *Walmart cuts or relocates about 1,000 corporate workers in tech consolidation*, 12./13. Mai 2026 | https://www.cnbc.com/2026/05/13/walmart-cuts-1000-roles-to-simplify-operations-reports.html \| https://www.washingtontimes.com/news/2026/may/13/walmart-cuts-relocates-1000-corporate-workers-tech-consolidation/ | übernommen |
+| 6 | F | Bloomberg / Reuters / GeekWire / Seattle Times, *Microsoft's LinkedIn is cutting jobs in latest industry cull*, 13. Mai 2026 | https://www.bloomberg.com/news/articles/2026-05-13/microsoft-s-linkedin-is-cutting-jobs-in-latest-industry-cull \| https://www.geekwire.com/2026/report-linkedin-makes-job-cuts-to-position-for-future-success-amid-record-quarterly-revenue/ \| https://www.seattletimes.com/business/microsoft/microsoft-owned-linkedin-cuts-hundreds-of-roles-reports-say/ | übernommen |
+| 7 | F | Reuters / Yahoo Finance / Business Standard / DNYUZ, *Cisco to cut about 4,000 jobs in AI-focused restructuring as orders surge / Read the memo: Cisco to cut about 4,000 jobs in AI-driven restructuring*, 13./14. Mai 2026 | https://finance.yahoo.com/news/cisco-raises-annual-revenue-forecast-200934306.html \| https://www.business-standard.com/world-news/cisco-to-cut-nearly-4-000-jobs-in-ai-focused-restructuring-as-orders-surge-126051400091_1.html \| https://dnyuz.com/2026/05/13/read-the-memo-cisco-to-cut-about-4000-jobs-in-ai-driven-restructuring/ | übernommen |
+| 8 | F | TrueUp / Yahoo Tech, *Tech layoffs 2026 — Tagesfortschreibung Stand 13. Mai 2026 (128.270 Personen aus 286 Layoff-Meldungen, ca. 1.002 pro Tag)* | https://www.trueup.io/layoffs \| https://tech.yahoo.com/general/article/tech-layoffs-2026-more-than-128000-people-have-been-laid-off-this-year-from-companies-like-paypal-meta-cloudflare-and-more-144545060.html | übernommen |
+| 9 | E/H | IAB, *Jeder vierte Betrieb in Deutschland nutzt generative KI* (IAB-Kurzbericht 8/2026), 5. Mai 2026 | https://iab.de/presseinfo/jeder-vierte-betrieb-in-deutschland-nutzt-generative-ki/ \| https://doku.iab.de/kurzber/2026/kb2026-08.pdf | übernommen |
+| 10 | F | Microsoft / weitere Layoff-Berichterstattung (Mai 2026, ohne klaren Tagesbezug) | – | verworfen (Datumszuordnung in den Sekundärquellen widersprüchlich; mehrere Treffer beziehen sich auf den Mai-2025-Vorgang vor einem Jahr) |
+| 11 | B/D | Connecticut SB 5 — Lamont-Unterzeichnung Stichtag 14. Mai 2026 | https://www.jdsupra.com/legalnews/unpacking-sb5-connecticut-s-new-ai-law-9227118/ \| https://www.cbia.com/news/hr-safety/ai-legislation-workplace-impacts | verworfen (Unterzeichnung formal noch nicht datierbar dokumentiert; bestehender § 4.5-Block bleibt korrekt; in späterem Lauf nachzutragen) |
+| 12 | B/E | Bundesrat 1065. Sitzung 8. Mai 2026 — GKV-Beitragssatzstabilisierungsgesetz Erstdurchgang | https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1065/1065-node.html | verworfen (Erstdurchgang erfolgt; verbindliche Beschlusstexte über bestehende § 5.2-Beschreibung hinaus nicht öffentlich verfügbar; gleichzeitig im Bundesrat blockierte 1.000-Euro-Entlastungsprämie ist nicht KI-bezogen) |
+| 13 | A | NBER Working Paper 34873 / Korinek & Lockwood — *Public Finance in the Age of AI: A Primer* | https://www.nber.org/papers/w34873 | Dublette (in Version 9.0 referenziert) |
+| 14 | D | OpenAI Workshop Eröffnung Washington, D.C. (Mai 2026) | https://www.webpronews.com/openai-launches-first-washington-d-c-office-the-workshop-to-influence-ai-regulations-and-counter-china/ | verworfen (Eröffnung angekündigt; exaktes Datum öffentlich nicht trennscharf belegbar) |
+| 15 | I | Anthropic Claude Mythos Preview / OpenAI GPT-5.5-Cyber (April–Mai 2026) | https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html | verworfen (außerhalb 48-Stunden-Fenster; ohne unmittelbare politisch-fiskalische Implikation) |
+| 16 | I | Anthropic Claude Opus 4.7 (24. April 2026) | https://www.anthropic.com/news/claude-opus-4-7 | Dublette (außerhalb 7-Tage-Fenster; in Lauf 003 vom 7. Mai 2026 als „außerhalb 48-Stunden-Fenster" verworfen) |
+| 17 | G | G-BA / gematik / BfArM Mai 2026 — DiGA-Listings, KI-Beschlüsse | https://www.g-ba.de/ \| https://fachportal.gematik.de/zielgruppen/diga-hersteller | verworfen (keine KI-spezifischen Beschlüsse im 7-Tage-Fenster; fünftes Mal in Folge ohne Treffer) |
+| 18 | J | Tesla Optimus / Figure / Boston Dynamics / Unitree (Cluster J) | – | verworfen (keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.3 | Aktualisierung | Trilog-Einigung *Digital Omnibus on AI* am 7. Mai 2026 (dritte Runde, provisorische Einigung): Verschiebung der Hochrisiko-Pflichten auf 2. Dezember 2027 (Anhang III) und 2. August 2028 (Anhang I); Lösung des Anhang-I-Konformitätsstreits; neuer Tatbestand in Art. 5 mit Verbot von KI-Systemen, die CSAM oder NCII generieren; formelle Billigung durch Rat und Parlament „in den kommenden Wochen", in jedem Fall vor 2. August 2026 angekündigt; der zuvor terminierte Trilog am 13. Mai 2026 ist damit obsolet. | 1–4 |
+| 2 | § 1.1 | Ergänzung | Mai-Welle der Tech-Layoffs am 12./13. Mai 2026 — Walmart (rund 1.000 Corporate-Workers, *nicht* KI-begründet); LinkedIn (Microsoft-Tochter, ca. 5 % / ca. 875–1.000 Stellen); Cisco (rund 4.000 Stellen / knapp 5 %; Restrukturierungsaufwand bis 1 Mrd. USD; AI-Aufträge von Hyperscalern bislang 5,3 Mrd. USD, Jahresprognose AI-Aufträge auf 9 Mrd. USD von 5 Mrd. USD angehoben) — in die bestehende Layoff-/Tracker-Reihe eingegliedert. | 5–7 |
+| 3 | § 1.1 | Aktualisierung | TrueUp-Tagesfortschreibung Stand 13. Mai 2026 (128.270 Personen aus 286 Layoff-Meldungen, rund 1.002 Stellen pro Tag) als Folgemarker zur Reihe 25. April → 2. Mai → 6. Mai → 7. Mai → 8. Mai → 13. Mai 2026. | 8 |
+| 4 | § 3.5 | Ergänzung | *IAB-Kurzbericht 8/2026* (5. Mai 2026): Anteil der deutschen Betriebe mit produktivem Einsatz generativer KI von rund 5 % (2023) auf rund 25 % (Anfang 2026) verfünffacht; 9 % planen Einführung; 48 % bei Großbetrieben, 21 % bei Kleinstbetrieben — als komplementäre deutsche Adoptionsperspektive zu Anthropic Economic Index / Yale Budget Lab / Massenkoff & McCrory. | 9 |
+| 5 | § 11.3 | Ergänzung | Neuer Eintrag „Europäisches Parlament / Rat der EU (7. Mai 2026) — provisorische Trilog-Einigung Digital Omnibus on AI" mit fünf URLs (Bird & Bird, NicFab, Timelex, Lexology, Dastra); neuer Eintrag „IAB (5. Mai 2026) — IAB-Kurzbericht 8/2026". | 1–4, 9 |
+| 6 | § 11.5 | Ergänzung | Vier neue Sammelbelege: Reuters/CNBC/Washington Times (Walmart 12./13. Mai); Bloomberg/Reuters/GeekWire/Seattle Times (LinkedIn 13. Mai); Reuters/Yahoo Finance/Business Standard/DNYUZ (Cisco 13./14. Mai); TrueUp/Yahoo Tech (Stand 13. Mai 2026). | 5–8 |
+| 7 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Lauf 001 vom 14. Mai 2026" geändert; Trilog-Einigung 7. Mai 2026, Mai-Layoffs Walmart/LinkedIn/Cisco, TrueUp 13. Mai 2026 (128.270 / 286 / 1.002 pro Tag) und IAB-Kurzbericht 8/2026 in den Auflistungstext aufgenommen. | 1–9 |
+| 8 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Versions-Eintrag in der KI-Offenlegung mit den drei Schwerpunkten Trilog-Einigung / Mai-Layoffs / IAB-Kurzbericht). | — |
+| 9 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 14. Mai 2026 (Lauf 001 vom 14. Mai 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Microsoft Mai-2026-Round-Layoff (ca. 6.000 Stellen) | F | Sekundäre Berichterstattung bezieht sich überwiegend auf den Mai-2025-Vorgang (vor einem Jahr); kein verlässlicher belegbarer Mai-2026-Datumsstempel zusätzlich zum bereits dokumentierten VRSAR-Programm. |
+| 2 | Connecticut SB 5 — Lamont-Unterzeichnung | B/D | Stichtag 14. Mai 2026 weiterhin nicht förmlich mit Datum dokumentiert; in einem späteren Lauf nachzutragen, sobald die Unterzeichnung publiziert ist. |
+| 3 | Bundesrat 1065. Sitzung 8. Mai 2026 / GKV-BStabG Erstdurchgang | B/E | Erstdurchgang erfolgt; bestehende § 5.2-Beschreibung bleibt korrekt; konkrete Bundesratsdrucksache zur Stellungnahme im 7-Tage-Fenster nicht trennscharf zugänglich. |
+| 4 | Bundesrat 8. Mai 2026 — 1.000-Euro-Entlastungsprämie blockiert | — | Nicht KI-bezogen; liegt außerhalb des Recherchekorridors. |
+| 5 | NBER Working Paper Korinek & Lockwood | A | Dublette (in Version 9.0 referenziert). |
+| 6 | OpenAI Workshop Eröffnung in Washington, D.C. | D | Eröffnung angekündigt; exaktes Datum öffentlich nicht trennscharf belegbar. |
+| 7 | Anthropic Claude Mythos / OpenAI GPT-5.5-Cyber | I | Vor dem 7. Mai 2026 publiziert; außerhalb 48-Stunden-Fenster. |
+| 8 | Anthropic Claude Opus 4.7 (24. April 2026) | I | Außerhalb 7-Tage-Fenster (in Lauf 003 vom 7. Mai 2026 als „außerhalb 48-Stunden-Fenster" verworfen). |
+| 9 | G-BA / gematik / BfArM Mai 2026 | G | Keine KI-spezifischen Beschlüsse im 7-Tage-Fenster (fünftes Mal in Folge). |
+| 10 | Tesla Optimus / Figure / Boston Dynamics / Unitree | J | Keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster. |
+| 11 | Sanders/AOC AI Data Center Moratorium Act (Folgeaktivitäten) | D | Sachstand unverändert (Version 8.0 ff.); keine neuen Anhörungs- oder Abstimmungsereignisse im 7-Tage-Fenster. |
+| 12 | Big-Tech-AI-Capex 2026 (725 Mrd. USD) | F/I | Aggregat in Version 21.0 (Lauf 003 vom 7. Mai 2026) eingespielt; keine Bewegung im 7-Tage-Fenster. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 14. Mai 2026 (Lauf 001 vom 14. Mai 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 001 vom 14. Mai 2026 fasst sechs Tage Bewegung im Korridor zusammen. Drei Schwerpunkte: (a) EU-Trilog-Einigung Digital Omnibus on AI am 7. Mai 2026 mit politisch fixierten Hochrisiko-Endstichtagen 2. Dezember 2027 (Anhang III) und 2. August 2028 (Anhang I) — relevant für § 4.3 und mittelbar für § 8 (Veredelungsstrategie); (b) zweite Mai-Welle der Tech-Layoffs (Walmart, LinkedIn, Cisco) am 12./13. Mai 2026 mit konzern­seitig demonstrativem AI-Pivot, in einem Fall (Walmart) ohne KI-Begründung — relevant für § 1.1 und implizit für § 8.2/§ 8.3 sowie für die in § 4.5/§ 9.1 dokumentierten Mess- und Kausalattributions­probleme; (c) IAB-Kurzbericht 8/2026 als komplementäre deutsche Adoptionsperspektive in § 3.5.
+- Cisco markiert nach Cloudflare (7. Mai 2026) den zweiten konzern­seitig demonstrativen Fall, in dem die Anbieterseite der KI-Wertschöpfung — Netzwerk- und Plattform-Anbieter — Personal reduziert und Investitionen demonstrativ in AI-Compute, AI-Chips und AI-Beschleuniger lenkt; für die Steuerdebatte relevant, weil die in § 8.2/§ 8.3 entwickelte Anbieter-/Verarbeiter-Logik dadurch fortlaufend empirisch unterfüttert wird.
+- Walmart liefert das Gegenbeispiel: Ein Nicht-Tech-Konzern restrukturiert im selben Zeitfenster mit ähnlicher Größenordnung seine Tech-Funktionen, ohne KI als Hauptbegründung zu nennen. Das stützt die in § 1.1 zitierte *Washington-Post*-Differenzierung vom 1. Mai 2026 ein weiteres Mal empirisch und ist für die Typ-5-Diskussion (§ 9.1, zielgerichtete Ersatzabgabe) instruktiv.
+- Connecticut SB 5: Lamont-Unterzeichnung steht zum Stichtag 14. Mai 2026 weiterhin aus; bei formaler Unterzeichnung im Mai 2026 im nächsten Lauf nachzutragen.
+- Bundesrat 1065. Sitzung 8. Mai 2026: Erstdurchgang des GKV-Beitragssatzstabilisierungsgesetzes wie geplant erfolgt; konkrete Bundesratsdrucksache zur Stellungnahme war zum Recherchezeitpunkt im 7-Tage-Fenster noch nicht trennscharf öffentlich. Die parallel im Bundesrat blockierte 1.000-Euro-Entlastungsprämie ist nicht KI-bezogen und außerhalb des Recherchekorridors.
+- Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne valide Treffer im 7-Tage-Fenster; Empfehlung für die nächsten Läufe bestehend (gezielter Abruf von g-ba.de Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-Listings).
+- Cluster I (Frontier-Modelle) und Cluster J (Robotik) im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen; Beobachtung beim nächsten Lauf fortsetzen.
+- Branch dieses Laufs: `claude/determined-einstein-oXZFu` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push neu angelegt).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Der Versand-Tool-Status (`mail_send` / `send_mail` / `send_message` / `outlook_send` aus `graph-mcp`; `wa_send_message` / `send_message` aus dem `whatsapp`-MCP) wird in Phase 5b geprüft; bei fehlender Tool-Verfügbarkeit werden die vorbereiteten Inhalte gemäß Phase-5b-Spezifikation als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben.
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
