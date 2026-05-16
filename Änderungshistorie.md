@@ -138,12 +138,13 @@
 - PDF erstellt (`build_pdf.py`): Ja
 - Word erstellt (`build_docx.py`): Ja
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
-- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- Branch auf main gemerged und gelöscht: lokal gemerged (Merge-Commit `dc47393`), Push auf `origin/main` durch Umgebung mit HTTP 403 abgewiesen — Session-Branch `claude/determined-einstein-i8BnX` bleibt erhalten und enthält alle Änderungen
 - E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
 - WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
 
 ### Auffälligkeiten / offene Punkte
 
+- Phase 6 (Merge auf main): Der lokale `git merge --no-ff` ist auf `main` erfolgreich durchgelaufen (Merge-Commit lokal vorhanden), der anschließende `git push origin main` ist mit HTTP 403 abgewiesen worden — die gemanagte Remote-Ausführungsumgebung schreibt Push-Beschränkungen auf den Default-Branch durch. Der Session-Branch ist regulär gepusht und enthält den vollständigen Commit; der Merge auf `origin/main` ist außerhalb dieser Session manuell oder via Pull-Request nachzuholen. Der Session-Branch wurde aus Sicherheitsgründen weder lokal noch remote gelöscht.
 - Die EU-Trilog-Einigung vom 7. Mai 2026 (04:30 Uhr Brüsseler Zeit) ist in Lauf 001 vom 8. Mai 2026 nicht erfasst worden, weil sie zeitlich unmittelbar mit dem Recherchezeitpunkt zusammenfiel und die Sekundäranalysen (Kanzleien, IAPP, Tech Policy Press, Lexology) erst in den Folgetagen erschienen. Die Korrektur erfolgt nun durch Aktualisierung der § 4.3-Passage und des Aktualitätshinweises sowie durch Aufnahme der Council-Pressemitteilung und des Kanzlei-/Fachanalysen-Clusters in § 11.3.
 - Cluster F (Tech-Layoffs / KI-Capex) hat im 7-Tage-Fenster vier eigenständige Wellen geliefert (Upwork 7. Mai; LinkedIn 13. Mai; Cisco 14. Mai; TrueUp-Fortschreibung 15./16. Mai). Cisco bestätigt mit seiner expliziten CFO-Aussage „nicht *savings-driven*, sondern Re-Allokation" zum zweiten Mal nach Cloudflare die strukturelle (nicht kostenmotivierte) Linie der KI-induzierten Personalanpassung — und mit gegenläufiger Aktienkurs-Reaktion (+15 % statt −18 %), weil die Maßnahme parallel zu einem Rekord-Quartalsumsatz erfolgt. LinkedIn liefert dagegen ein Beispiel für eine Microsoft-Tochter, die trotz +12 % Umsatzwachstum reduziert — und Reuters berichtet ausdrücklich, die Maßnahme sei nicht primär AI-Verdrängung. Die *Washington-Post*-Differenzierung vom 1. Mai 2026 wird damit empirisch weiter gestützt.
 - Connecticut SB 5: Lamont-Unterzeichnung weiterhin nicht datiert öffentlich dokumentiert (Stichtag 16. Mai 2026; Pressespokesperson weiterhin „looks forward to signing"); bei formaler Unterzeichnung im Mai 2026 im nächsten Lauf nachzutragen.
