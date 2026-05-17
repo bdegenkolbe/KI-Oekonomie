@@ -54,6 +54,92 @@
 
 ---
 
+## 2026-05-17 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster G — Gesundheitssektor — fünftes Mal in Folge ohne neue belegbare Treffer im 7-Tage-Fenster; Cluster I/J im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen; Cluster F mit drei aufgenommenen Treffern Cisco/LinkedIn/TrueUp-Tagesfortschreibung).
+- Zeitfenster: 7 Tage (10.–17. Mai 2026; Cluster F: 48 Stunden 15.–17. Mai 2026; Cluster I: 48 Stunden); EU Digital Omnibus on AI (7. Mai 2026) im erweiterten Korridor aufgenommen, nachdem die Einigung in Lauf 001 vom 8. Mai 2026 als „AI-Act-Trilog 13. Mai 2026 — nach Stichtag 8. Mai 2026" gekennzeichnet, faktisch aber bereits am 7. Mai 2026 erzielt war.
+- Anzahl Suchanfragen: 12 (Web-Suche), 2 (WebFetch).
+- Lauf 001 ist der erste reguläre Daily-Update-Lauf am 17. Mai 2026 nach Lauf 001 vom 8. Mai 2026 (Version 22.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B | Rat der EU, *Artificial Intelligence: Council and Parliament agree to simplify and streamline rules*, 7. Mai 2026 | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ | übernommen |
+| 2 | B | White & Case, *EU agrees Digital Omnibus deal to simplify AI rules*, Mai 2026 | https://www.whitecase.com/insight-alert/eu-agrees-digital-omnibus-deal-simplify-ai-rules | übernommen (Sammelbeleg) |
+| 3 | B | Bird & Bird, *Digital Omnibus on AI Provisional Agreement Reached at the May Trilogue*, Mai 2026 | https://www.twobirds.com/en/insights/2026/digital-omnibus-on-ai-provisional-agreement-reached-at-the-may-trilogue | übernommen (Sammelbeleg) |
+| 4 | B | Modulos.ai, *EU AI Act Delayed: The Omnibus Deal Closed on 7 May 2026*, Mai 2026 | https://www.modulos.ai/blog/eu-ai-act-omnibus-deal/ | übernommen (Sammelbeleg, WebFetch erfolgreich) |
+| 5 | F | TechCrunch, *Cisco cuts nearly 4,000 jobs to spend more on AI, reports 'record quarterly revenue'*, 14. Mai 2026 | https://techcrunch.com/2026/05/14/cisco-cuts-nearly-4000-jobs-to-spend-more-on-ai-reports-record-quarterly-revenue/ | übernommen |
+| 6 | F | The Tech Portal, *Cisco confirms 4,000 layoffs despite strong Q3 FY2026 earnings and $15.8Bn revenue*, 14. Mai 2026 | https://thetechportal.com/2026/05/14/cisco-confirms-4000-layoffs-despite-strong-q3-fy2026-earnings-and-15-8bn-revenue/ | übernommen (Sammelbeleg) |
+| 7 | F | IBTimes / TechTimes / BusinessToday / Fox Business / TheStreet — Cisco-Belegcluster (14./15. Mai 2026) | https://www.ibtimes.com/cisco-eliminates-4000-jobs-same-day-it-reports-158b-record-revenue-blaming-ai-pivot-3802840 \| https://www.businesstoday.in/technology/story/cisco-laid-off-over-4000-employees-amid-ai-driven-restructuring-531408-2026-05-14 \| https://www.foxbusiness.com/technology/cisco-cut-thousands-jobs-ai-push-accelerates-earnings-beat \| https://www.thestreet.com/employment/cisco-ceo-reveals-real-reason-behind-4000-job-cuts | übernommen (Sammelbeleg) |
+| 8 | F | Engadget, *LinkedIn is reportedly laying off five percent of its workforce*, 13. Mai 2026 | https://www.engadget.com/2172239/linkedin-is-reportedly-laying-off-five-percent-of-its-workforce/ | übernommen |
+| 9 | F | Yahoo Finance / Reuters, *Exclusive-LinkedIn planning to lay off 5% of staff in latest tech-sector cuts*, 13. Mai 2026 | https://finance.yahoo.com/news/exclusive-linkedin-planning-lay-off-140835735.html | übernommen (Sammelbeleg, Reuters-Wiedergabe) |
+| 10 | F | Neowin / Republic World, *Microsoft-owned LinkedIn to layoff 5% of staff / LinkedIn Layoffs 2026: 900 Jobs Cut as Microsoft-Owned Platform Restructures Teams*, 13./14. Mai 2026 | https://www.neowin.net/news/microsoft-owned-linkedin-to-layoff-5-of-staff/ \| https://www.republicworld.com/tech/linkedin-layoffs-2026-900-jobs-cut-as-microsoft-owned-platform-restructures-teams-around-ai-2026-05-14-124183 | übernommen (Sammelbeleg) |
+| 11 | F | TrueUp / Crunchbase / Yahoo Tech, *Tech Layoffs Tracker — 13. Mai 2026 (128.270 Personen aus 286 Meldungen); Wochenmittel 14./15. Mai 2026 (rund 137.547 Personen aus 321 Meldungen, rund 1.004 pro Tag)* | https://www.trueup.io/layoffs \| https://news.crunchbase.com/startups/tech-layoffs/ \| https://tech.yahoo.com/general/article/tech-layoffs-2026-more-than-128000-people-have-been-laid-off-this-year-from-companies-like-paypal-meta-cloudflare-and-more-144545060.html | übernommen |
+| 12 | F | TheNextWeb / Foxbusiness — Meta 8.000 Stellen am 20. Mai 2026 | https://thenextweb.com/news/meta-layoffs-may-2026-ai-restructuring-thousands \| https://www.foxbusiness.com/technology/meta-plans-major-layoffs-next-month-more-cuts-expected-report | verworfen (zum Recherchezeitpunkt 17. Mai 2026 noch nicht erfolgt; bestehende § 1.1-Erwähnung „Meta rund 8.000 Stellen ab 20. Mai 2026" aus Version 19.0 deckt die Ankündigung bereits ab; konkrete Programmkonditionen im nächsten Lauf nachzutragen) |
+| 13 | D | Warren / Sanders Ultra-Millionaire Tax Act of 2026 (S. 4246, Reintroduction) | https://www.warren.senate.gov/imo/media/doc/ultra-millionaire_tax_act_one-pager.pdf \| https://www.quiverquant.com/news/New+Bill:+Senator+Elizabeth+Warren+introduces+S.+4246:+Ultra-Millionaire+Tax+Act+of+2026 | verworfen (Vermögensteuer-Linie; konzeptionell tangential zur KI-/Robotersteuer-Linie; Sanders-Robotersteuer-Vorstoß bleibt in § 4.5 unverändert dokumentiert) |
+| 14 | A | Federal Reserve Bank of Atlanta WP 2026-04 (25. März 2026) | https://www.atlantafed.org/research-and-data/publications/working-papers/2026/03/25/04-artificial-intelligence-productivity-and-the-workforce-evidence-from-corporate-executives | verworfen (außerhalb 7-Tage-Fenster; in Lauf 003 vom 7. Mai 2026 bereits geprüft) |
+| 15 | A | Stanford HAI AI Index Report 2026 (13. April 2026) | https://hai.stanford.edu/ai-index/2026-ai-index-report | verworfen (außerhalb 7-Tage-Fenster; in Lauf 002 vom 7. Mai 2026 bereits geprüft) |
+| 16 | I | Air Street Press, *State of AI: May 2026*; LLM-Stats Mai 2026 | https://press.airstreet.com/p/state-of-ai-may-2026 \| https://llm-stats.com/llm-updates | verworfen (Pipeline-Bestandsaufnahme; kein politisch-fiskalisch relevanter Tagesschritt im 48-Stunden-Fenster) |
+| 17 | G | G-BA / gematik / BfArM Mai 2026 | https://www.g-ba.de/ \| https://fachportal.gematik.de/zielgruppen/diga-hersteller | verworfen (keine KI-spezifischen Beschlüsse im 7-Tage-Fenster — fünftes Mal in Folge) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.3 | Ergänzung / Aktualisierung | Neue Sätze zum 7. Mai 2026: Rat und Parlament haben vor dem für den 13. Mai terminierten dritten Trilog eine vorläufige Einigung („Digital Omnibus on AI") erzielt; Hochrisiko-Pflichten verschoben (Anhang III auf 2. Dezember 2027, Anhang I auf 2. August 2028); Regulatory Sandboxes auf 2. August 2027; Kennzeichnungspflicht (Art. 50 Abs. 2) zum 2. August 2026 in Kraft mit Übergangsfrist bis 2. Dezember 2026 für bestehende Systeme; neuer Art.-5-Verbotstatbestand für KI-CSAM und nicht einvernehmliche intime Bilder; formale Annahme im Juni/Juli 2026 erwartet; alte Sätze zum 28.-April-Stand und zum 13.-Mai-Termin bleiben als historische Referenz erhalten (Claude.md § 4.2.5). | 1–4 |
+| 2 | § 1.1 | Ergänzung | Doppelmeldung der Folgewoche 11.–15. Mai 2026: LinkedIn (Microsoft-Tochter, 13. Mai 2026, rund 5 % / rund 875 Stellen, Memo CEO Daniel Shapero — ausdrücklich nicht KI-getrieben — bei +12 % YoY-Umsatzwachstum; Schließung Standort Graz) und Cisco (14. Mai 2026, rund 4.000 Stellen / knapp 5 % parallel zu Rekordumsatz 15,8 Mrd. USD Q3 FY2026 +12 % YoY; AI-Bestellungen 5,3 Mrd. USD im Geschäftsjahr 2026 mit Ausblick auf rund 9 Mrd. USD; Restrukturierungsaufwand bis 1 Mrd. USD); ausdrückliche Differenzierung Cisco-AI-Begründung vs. LinkedIn-Non-AI-Begründung innerhalb derselben Eigentümerstruktur Microsoft (§ 9.1 Kausalattributionslücke). | 5–10 |
+| 3 | § 1.1 | Aktualisierung | TrueUp-Tagesfortschreibung Stand 13. Mai 2026 (128.270 Personen aus 286 Meldungen) und Wochenmittel 14./15. Mai 2026 (rund 137.547 Personen aus 321 Meldungen, rund 1.004 Stellen pro Tag) in den bestehenden Tracker-Block eingegliedert; verlängert die Linie aus Lauf 001 vom 8. Mai 2026 um rund 10.000 zusätzliche betroffene Personen binnen einer Woche. | 11 |
+| 4 | § 11.3 | Ergänzung | Neuer Eintrag *Rat der EU 7. Mai 2026* mit vier URLs (Council-Pressemitteilung, White & Case, Bird & Bird, Modulos.ai); bestehender EP-/Rat-Trilog-Eintrag (April–Mai 2026, Konvergenz auf 2027/2028) bleibt unverändert. | 1–4 |
+| 5 | § 11.5 | Ergänzung | Vier neue Sammelbelege in Kapitel 11.5: *TrueUp / Crunchbase / Yahoo Tech* (Tagesfortschreibung 13.–15. Mai 2026); *Reuters / Engadget / Yahoo Finance / Neowin / Republic World* (LinkedIn 13./14. Mai 2026); *TechCrunch / The Tech Portal / IBTimes / TechTimes / BusinessToday / Fox Business / TheStreet* (Cisco 14./15. Mai 2026); bestehende Cloudflare- und Tracker-Einträge unverändert. | 5–11 |
+| 6 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Mitte Mai 2026 (Schnitt am 17. Mai 2026 — Lauf vom 17. Mai 2026)" geändert; EU Digital Omnibus on AI (7. Mai 2026, mit allen fünf Stichtagen und neuem Art.-5-Verbot), LinkedIn (13. Mai 2026), Cisco (14. Mai 2026) und TrueUp 13.–15. Mai 2026 in den Auflistungstext aufgenommen; Trilog-Knackpunkt-Satz „Konformitätsbewertungs-Architektur für Anhang I" wird zum 17. Mai 2026 nicht mehr separat referenziert, weil mit der vorläufigen Einigung aufgelöst. | 1–11 |
+| 7 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Versions-Eintrag in der KI-Offenlegung mit den drei Cluster-Bündeln EU Digital Omnibus / LinkedIn / Cisco). | — |
+| 8 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 17. Mai 2026 (Lauf vom 17. Mai 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Meta — Layoff-Welle 20. Mai 2026 (rund 8.000 / 10 %, Streichung von 6.000 offenen Stellen, Wang/Superintelligence-Labs-Reorganisation, 115–135 Mrd. USD AI-Infra) | F | Zum Recherchezeitpunkt 17. Mai 2026 noch nicht erfolgt; bestehende § 1.1-Erwähnung „Meta rund 8.000 Stellen ab 20. Mai 2026" deckt die Ankündigung bereits ab; konkrete Programmkonditionen im nächsten Lauf nachzutragen. |
+| 2 | Bundesrat 1065. Sitzung 8. Mai 2026 — verbindliche Beschlüsse | B/E | Sitzungsergebnisse bringen keinen für die Steuerdebatte neuen Sachstand über den bestehenden Aktualitätshinweis hinaus. |
+| 3 | Ultra-Millionaire Tax Act of 2026 (Warren/Sanders, S. 4246, Reintroduction) | D | Vermögensteuer-Linie konzeptionell tangential zur KI-/Robotersteuer-Linie; Sanders-Robotersteuer-Vorstoß bleibt in § 4.5 unverändert dokumentiert. |
+| 4 | Federal Reserve Bank of Atlanta WP 2026-04 (25. März 2026) | A | Außerhalb 7-Tage-Fenster (in Lauf 003 vom 7. Mai 2026 bereits geprüft). |
+| 5 | Stanford HAI AI Index Report 2026 (13. April 2026) | A | Außerhalb 7-Tage-Fenster (in Lauf 002 vom 7. Mai 2026 bereits geprüft). |
+| 6 | Anthropic Economic Index (Stand) — kein neuer Bericht 8.–17. Mai 2026 | I/A | Keine Bewegung im Korridor; bestehender § 3.5-Block bleibt aktuell. |
+| 7 | Air Street Press / LLM-Stats Mai 2026 — ruhige Modellpipeline | I | Kein politisch-fiskalisch relevanter Tagesschritt im 48-Stunden-Fenster. |
+| 8 | G-BA / gematik / BfArM — Cluster G | G | Keine KI-spezifischen Beschlüsse im 7-Tage-Fenster (fünftes Mal in Folge). |
+| 9 | Plattform-Digitalabgabe (Weimer) — Eckpunktepapier | B | Keine Bewegung über Version 10.0/11.0 hinaus im 7-Tage-Fenster. |
+| 10 | Generationenkapital — Stand Mai 2026 | E/H | Keine neuen Tranchen-/Renditeangaben im 7-Tage-Fenster; bestehender § 8.6-Verweis bleibt aktuell. |
+| 11 | Cluster J (Robotik) — Tesla Optimus / Figure / Boston Dynamics / Unitree | J | Keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster. |
+| 12 | Connecticut SB 5 — Lamont-Unterzeichnung | B | Bestehender § 4.5-Block deckt den Sachstand ab; formale Unterzeichnung weiter nicht datierbar dokumentiert. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 17. Mai 2026 (Lauf vom 17. Mai 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 001 ist der erste reguläre Daily-Update-Lauf am 17. Mai 2026 nach Lauf 001 vom 8. Mai 2026 (Version 22.0); im 7-/48-Stunden-Fenster (10.–17. Mai 2026) wurden zwei großvolumige Cluster-F-Layoff-Wellen (LinkedIn 13. Mai, Cisco 14. Mai) und ein nachzutragender Cluster-B-Beleg (EU Digital Omnibus on AI, faktisch 7. Mai 2026) aufgenommen.
+- Beobachtungslücke aus Lauf 001 vom 8. Mai 2026 geschlossen: Die zum dortigen Recherchezeitpunkt (Vormittag 8. Mai) als „Trilog 13. Mai — nach Stichtag" markierte Entwicklung war bereits am Abend des 7. Mai 2026 mit einer vorläufigen Einigung abgeschlossen; der jetzt eingearbeitete Sachstand korrigiert die Zeithorizontangaben für AI-Act-Kategorien als steuerliche Anknüpfungspunkte (§ 4.3, § 9.5) in den Korridor 2027/2028.
+- Die LinkedIn-/Cisco-Doppelmeldung schärft das Cluster-F-Bild um eine analytische Asymmetrie: Während Cisco AI ausdrücklich als Begründung anführt, bestreitet LinkedIn die KI-Kausalität ausdrücklich — beide Vorgänge fallen jedoch in dieselbe Tracker-Aggregation. Auf der Konzernebene Microsoft (LinkedIn-Eigentümer; zugleich Cisco-AI-Capex-Empfänger über Hyperscaler-Bestellungen) sichtbar.
+- Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne valide Treffer im 7-Tage-Fenster; Empfehlung für die nächsten Läufe weiterhin bestehend (gezielter Abruf von g-ba.de Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-Listings).
+- Meta (Layoff-Welle 20. Mai 2026) zum Recherchezeitpunkt noch nicht erfolgt; bestehende § 1.1-Erwähnung deckt die Ankündigung bereits ab. Konkrete Programmkonditionen (Wang/Superintelligence Labs, Streichung von 6.000 offenen Stellen, 115–135 Mrd. USD AI-Infra-Spending) im nächsten Lauf nach Vollzug nachzutragen.
+- Cluster I (Frontier-Modelle): Air Street Press dokumentiert die ruhige Modellpipeline nach der April-Welle; keine Bewegung im 48-Stunden-Fenster.
+- Branch dieses Laufs: `claude/determined-einstein-W582M` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push neu angelegt).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Es war in der laufenden Session weder ein E-Mail-Versand-Tool (`mail_send` / `send_mail` / `send_message` / `outlook_send` aus `graph-mcp`) noch ein WhatsApp-Versand-Tool (`wa_send_message` / `send_message` aus dem `whatsapp`-MCP) erreichbar; gemäß Phase-5b-Spezifikation wurden die vorbereiteten Inhalte als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben (Dateien stehen in `.gitignore`, werden also nicht versioniert). Der Lauf fährt gemäß Phase-5b-Regel („Versandfehler sind weich") mit Phase 6 fort.
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
