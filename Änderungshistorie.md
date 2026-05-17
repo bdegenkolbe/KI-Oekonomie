@@ -123,9 +123,9 @@
 - PDF erstellt (`build_pdf.py`): Ja
 - Word erstellt (`build_docx.py`): Ja
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
-- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
-- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
-- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- Branch auf main gemerged: lokaler Merge-Commit erstellt (`git merge --no-ff` erfolgreich); der Push auf `origin/main` wurde mit HTTP 403 abgewiesen (vermutlich Branch-Schutz / Hosting-Policy in der Remote-Ausführungsumgebung — analog zu Lauf 003 vom 7. Mai 2026). Der vollständige Inhalt liegt auf dem Session-Branch `claude/determined-einstein-W582M` (origin) und bleibt für eine spätere administrative Übernahme verfügbar. Lokaler Branch nicht gelöscht (Werterhalt).
+- E-Mail-Versand (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (kein `mail_send`/`send_mail`/`send_message`/`outlook_send`-Tool in der laufenden Session erreichbar)
+- WhatsApp-Versand (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (kein `wa_send_message`/`send_message`-Tool des `whatsapp`-MCP in der laufenden Session erreichbar)
 
 ### Auffälligkeiten / offene Punkte
 
