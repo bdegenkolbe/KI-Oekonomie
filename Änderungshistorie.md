@@ -135,9 +135,9 @@
 - PDF erstellt (`build_pdf.py`): Ja
 - Word erstellt (`build_docx.py`): Ja
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
-- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
-- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
-- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- Branch auf main gemerged und gelöscht: Nein — Push auf `origin/main` durch Remote-Branch-Protection mit HTTP 403 abgelehnt (vgl. „Auffälligkeiten"); Session-Branch bleibt lokal und remote bestehen, lokaler main per `git branch -f main origin/main` synchron zur Remote-Spitze zurückgesetzt (keine destruktive Force-Push-Operation).
+- E-Mail-Versand (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (gitignored) — kein Versand-Tool in der Session erreichbar.
+- WhatsApp-Versand (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (gitignored) — kein Versand-Tool in der Session erreichbar.
 
 ### Auffälligkeiten / offene Punkte
 
@@ -148,7 +148,7 @@
 - Connecticut SB 5: Lamont-Unterzeichnung zum Stichtag 18. Mai 2026 weiterhin nicht öffentlich datierbar; im nächsten Lauf nachzutragen, sobald die formale Unterzeichnung mit Datum belegt ist.
 - Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne valide Treffer im 7-Tage-Fenster; Empfehlung für die nächsten Läufe weiterhin bestehend (gezielter Abruf von g-ba.de Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-Listings).
 - Cluster I (Frontier-Modelle) und Cluster J (Robotik) im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen; Beobachtung beim nächsten Lauf fortsetzen.
-- Branch dieses Laufs: `claude/determined-einstein-Wwwa5` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push neu angelegt).
+- Branch dieses Laufs: `claude/determined-einstein-Wwwa5` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push neu angelegt). Der Merge auf main wurde lokal mit `--no-ff` durchgeführt; der anschließende Push auf `origin/main` schlug mit HTTP 403 fehl (Remote-Branch-Protection auf `main`). Der lokale Merge-Commit wurde per `git branch -f main origin/main` wieder auf die Remote-Spitze zurückgesetzt, der Session-Branch bleibt lokal und remote bestehen und enthält den vollständigen Lauf-Commit (`2b9f204`). Es wurde bewusst KEIN Pull Request erstellt (die Daily-Update-Anweisung sieht ausschließlich einen direkten Merge vor, kein PR-Workflow); die Auflösung des Branch-Protection-Konflikts ist eine Aufgabe für eine spätere Lauf-Konfiguration und liegt außerhalb der Reichweite dieses Laufs.
 - Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Der Versand-Tool-Status (`mail_send` / `send_mail` / `send_message` / `outlook_send` aus `graph-mcp`; `wa_send_message` / `send_message` aus dem `whatsapp`-MCP) wird in Phase 5b geprüft; bei fehlender Tool-Verfügbarkeit werden die vorbereiteten Inhalte gemäß Phase-5b-Spezifikation als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben.
 
 ---
