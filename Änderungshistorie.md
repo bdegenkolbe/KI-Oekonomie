@@ -54,6 +54,98 @@
 
 ---
 
+## 2026-05-19 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster F mit fünf aufgenommenen Treffern; Cluster B mit einer Sachverhaltskorrektur und einem nachgeholten Großereignis aus dem erweiterten Fenster; Cluster E mit einem nachgeholten IAB-Primärbeleg; Cluster G — Gesundheitswesen — fünftes Mal in Folge ohne neue belegbare KI-spezifische Treffer; Cluster I/J im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen).
+- Zeitfenster: 7 Tage (12.–19. Mai 2026; Cluster F: 48 Stunden / 17.–19. Mai 2026; Cluster I: 48 Stunden). Erweiterung auf Vorlauf erstmals dokumentiert für (a) die in Lauf 001 vom 8. Mai 2026 verworfene AI-Act-Omnibus-Trilog-Erwartung (Sachverhaltskorrektur: Einigung am 7. Mai 2026 statt am 13. Mai 2026) und (b) den IAB-Kurzbericht 8/2026 vom 5. Mai 2026 (im Vorlauf nicht gefunden, im erweiterten Fenster nachgereicht). Mai-Layoff-Welle Walmart (12. Mai), Cisco (14. Mai) im strikten 7-Tage-Fenster; BILL Holdings und Upwork (beide 7. Mai 2026) im erweiterten Vorlauf-Fenster aufgenommen, da beide Ereignisse in Lauf 001 vom 8. Mai 2026 nicht erfasst waren.
+- Anzahl Suchanfragen: 14 (Web-Suche), 3 (WebFetch — IAB-Presseinfo öffentlich, Council-Pressemitteilung 403, Bundesrat-Kompakt öffentlich).
+- Lauf 001 ist der erste reguläre Daily-Update-Lauf am 19. Mai 2026 (elf Tage Abstand zu Lauf 001 vom 8. Mai 2026).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B | Rat der Europäischen Union, *Artificial Intelligence: Council and Parliament agree to simplify and streamline rules*, 7. Mai 2026 | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ | übernommen (Primärbeleg) |
+| 2 | B | Bird & Bird, *Digital Omnibus on AI Provisional Agreement Reached at the May Trilogue*, Mai 2026 | https://www.twobirds.com/en/insights/2026/digital-omnibus-on-ai-provisional-agreement-reached-at-the-may-trilogue | übernommen (Sammelbeleg) |
+| 3 | B | White & Case, *EU agrees Digital Omnibus deal to simplify AI rules*, Mai 2026 | https://www.whitecase.com/insight-alert/eu-agrees-digital-omnibus-deal-simplify-ai-rules | übernommen (Sammelbeleg) |
+| 4 | B | Bitkom, *Bitkom zu den EU-Trilogverhandlungen zum AI Act* (Susanne Dehmel), 7./8. Mai 2026 | https://www.bitkom.org/Presse/Presseinformation/EU-Trilogverhandlungen-AI-Act | übernommen (Stellungnahme deutsche Wirtschaft) |
+| 5 | B | BDI, *AI Act Omnibus: Trilog-Einigung reduziert Doppelzertifizierungen*, Mai 2026 | https://bdi.eu/de/articles/presse/bdi-zum-ai-act-omnibus-trilog-einigung-reduziert-doppelzertifizierungen | übernommen (Stellungnahme deutsche Wirtschaft) |
+| 6 | B | TÜV-Verband, *Trilog-Verhandlungen: TÜV-Verband bewertet Einigung zum KI-Omnibus ambivalent*, Mai 2026 | https://www.datensicherheit.de/teuv-verband-bewertung-einigung-trilog-verhandlung-ki-omnibus | übernommen (Prüfverband-Stellungnahme) |
+| 7 | B | Table.Briefings, *AI Omnibus: German government approves compromise*, Mai 2026; Tagesspiegel Background, *Trilog-Einigung über „AI Act": EU-Institutionen entschärfen KI-Regulierung*, Mai 2026; CDU/CSU-Fraktion, *AI Act: Einigung im Trilog stärkt deutschen Maschinenbau* | https://table.media/en/europe/news-en/ai-omnibus-german-government-approves-compromise | https://background.tagesspiegel.de/finance/briefing/eu-institutionen-entschaerfen-ki-regulierung | https://www.cducsu.de/presse/ai-act-einigung-im-trilog-staerkt-deutschen-maschinenbau | übernommen (Sammelbeleg deutsche Berichterstattung) |
+| 8 | E/H | IAB, *Jeder vierte Betrieb in Deutschland nutzt generative KI* (IAB-Kurzbericht 8/2026), 5. Mai 2026 | https://iab.de/presseinfo/jeder-vierte-betrieb-in-deutschland-nutzt-generative-ki/ | https://doku.iab.de/kurzber/2026/kb2026-08.pdf | übernommen (Primärbeleg IAB) |
+| 9 | F | PYMNTS / Yahoo Finance / Simply Wall St / Stocktitan, *BILL Plans 30 % Workforce Cut as AI Becomes Top Priority / BILL Stock Jumps / BILL Holdings 8-K — 30 % layoffs and $1B buyback*, 7. Mai 2026 | https://www.pymnts.com/earnings/2026/bill-plans-30-workforce-cut-as-ai-becomes-top-priority/ | https://finance.yahoo.com/news/bill-stock-jumps-major-job-171121656.html | https://www.bill.com/blog/a-message-to-bill-employees-may-2026 | https://www.stocktitan.net/sec-filings/BILL/8-k-bill-holdings-inc-reports-material-event-a30cd671905e.html | übernommen |
+| 10 | F | OfficeChai / Yahoo Finance / Upwork Press, *Upwork Lays Off 25 % Of Its Workforce / Two Pizza Teams Are Dead / Hayden Brown CEO-Memo*, 7. Mai 2026 | https://officechai.com/ai/upwork-lays-off-25-of-its-workforce-says-ai-will-lead-to-smaller-teams/ | https://finance.yahoo.com/news/upwork-stock-plunges-amid-24-203614020.html | https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026 | übernommen |
+| 11 | F | WSJ / GV Wire / Storyboard18 / Quartz / TheTechMarketer, *Walmart Lays off or Relocates About 1,000 Corporate Workers — AI Technology Restructuring*, 12./13. Mai 2026 | https://gvwire.com/2026/05/12/walmart-lays-off-or-relocates-about-1000-corporate-workers-wsj-reports/ | https://www.storyboard18.com/brand-marketing/walmart-layoffs-retail-giant-to-cut-or-relocate-1000-corporate-workers-says-report-97925.htm | https://qz.com/walmart-layoffs-tech-product-jobs-restructuring-051326 | https://thetechmarketer.com/walmart-layoffs-2026-ai-technology-restructuring/ | übernommen |
+| 12 | F | TechCrunch / The Tech Portal / Mirror Review / TechRadar / SEC 8-K, *Cisco cuts nearly 4,000 jobs to spend more on AI / AI Orders Hit $5.3 Billion*, 14. Mai 2026 | https://techcrunch.com/2026/05/14/cisco-cuts-nearly-4000-jobs-to-spend-more-on-ai-reports-record-quarterly-revenue/ | https://thetechportal.com/2026/05/14/cisco-confirms-4000-layoffs-despite-strong-q3-fy2026-earnings-and-15-8bn-revenue/ | https://www.mirrorreview.com/news/cisco-layoffs/ | https://www.techradar.com/pro/we-are-making-clear-strategic-investments-cisco-cuts-4-000-jobs-even-as-ai-orders-surge | https://www.sec.gov/Archives/edgar/data/0000858877/000085887726000075/exhibit991pressrelease-q3f.htm | übernommen |
+| 13 | F | TrueUp / TechTimes / Yahoo Tech, *Tech Layoffs Tracker — 138.837 / 324 / 1.006 pro Tag (19. Mai 2026); Tech Layoffs Surpass 113.000 in 2026 With No Federal Law Requiring AI Disclosure (18. Mai 2026)* | https://www.trueup.io/layoffs | https://www.techtimes.com/articles/316802/20260518/tech-layoffs-surpass-113000-2026-no-federal-law-requiring-ai-disclosure.htm | https://tech.yahoo.com/general/article/tech-layoffs-2026-nearly-136000-people-have-been-laid-off-this-year-from-companies-like-linkedin-cisco-meta-and-more-144545825.html | übernommen |
+| 14 | F | Bloomberg, *Goldman President Says Bank Is Human Assembly Line Facing Automation*, 12. Mai 2026 | https://www.bloomberg.com/news/articles/2026-05-12/goldman-president-says-bank-is-human-assembly-line-facing-automation | übernommen (Ergänzung zur April-Goldman-Schätzung) |
+| 15 | B | Bundesrat, *1065. Sitzung am 8. Mai 2026 — Rückblick auf die Plenarsitzung* (GKV-BSSG *nicht* auf der Tagesordnung) | https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1065/1065-pk.html | übernommen (Sachverhaltskorrektur) |
+| 16 | A | Workers' Incentives and the Optimal Taxation of AI, arXiv-Preprint vom 19. März 2026 | https://arxiv.org/pdf/2603.17898 | verworfen (außerhalb 7-Tage-Fenster; ohne unmittelbaren steuerpolitischen Anschluss an die fünf Typen aus § 2.1) |
+| 17 | D | Wyden/Whitehouse/King — Bill Closing Carried Interest Tax Loophole (16. April 2026) | https://www.finance.senate.gov/ranking-members-news/wyden-whitehouse-king-lead-introduction-of-bill-closing-carried-interest-tax-loophole | verworfen (außerhalb 7-Tage-Fenster; nicht KI-spezifisch) |
+| 18 | G | Warren/Wyden — Seniors Deserve SMARTER Care Act (KI in CMS-WISeR-Modell) | https://www.warren.senate.gov/newsroom/press-releases/icymi-warren-murray-wyden-gillibrand-lead-democrats-in-new-bill-to-halt-medicares-new-ai-approvals-process | verworfen (kein Steuer-Vorgang; passt nicht in den Korridor) |
+| 19 | I | Anthropic Economic Index — kein neuer Bericht zwischen 24. März 2026 und 19. Mai 2026 | https://www.anthropic.com/economic-index | verworfen (keine Bewegung im 48-Stunden-Fenster) |
+| 20 | C | IFR World Robotics Report — letzte Veröffentlichung 2025 (keine neue Statistik im 7-Tage-Fenster) | https://ifr.org/worldrobotics/ | verworfen (außerhalb Zeitfenster) |
+| 21 | B | Connecticut SB 5 — Lamont-Unterzeichnung weiterhin nicht datiert | https://ctmirror.org/2026/05/01/artificial-intelligence-house-regulation-passage-ct/ | verworfen (Datum weiterhin nicht öffentlich; bestehende Formulierung „mit angekündigter Unterzeichnung" bleibt korrekt) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.5 | Ergänzung | Neuer eigener Absatz „EU — Digital Omnibus on AI, vorläufige Einigung am 7. Mai 2026" mit Inhalt (Maschinenverordnung Anhang I A → B, Stichtage 2027/2028, Watermark 2. Dezember 2026, neue Art.-5-Vorschrift), deutscher Wirtschafts- und Prüfverbands-Reaktion, zivilgesellschaftlicher Kritik und Hinweis auf förmliche Annahme „vor 2. August 2026". | 1–7 |
+| 2 | § 1.1 | Ergänzung | Neue Sätze nach dem Cloudflare-Block: BILL Holdings (30 % / 700 Stellen, 1,0-Mrd.-USD-Buyback), Upwork (24 % / 145 / „Two pizza teams are dead"), Walmart (1.000 Konzern-Stellen, 12. Mai 2026, AI im Memo *nicht* als Begründung) und Cisco (4.000 Stellen, 14. Mai 2026, Rekordumsatz 15,8 Mrd. USD, KI-Auftragseingänge 5,3 Mrd. USD YTD); TrueUp-Tagesfortschreibung 138.837 / 324 / 1.006 pro Tag zum 19. Mai 2026. | 9–13 |
+| 3 | § 1.1 | Ergänzung | IAB-Kurzbericht 8/2026 (5. Mai 2026): Generativer KI-Nutzungsanteil 5 → 25 % zwischen 2023 und 2025, 48 % in Großbetrieben, 21 % in Kleinstbetrieben. | 8 |
+| 4 | § 1.1 / § 5.2-Kontext | Korrektur | Sachverhaltskorrektur GKV-BSSG: 8.-Mai-Bundesratssitzung lief mit anderen Schwerpunkten; Stand 19. Mai 2026 vom BMG noch nicht dem Bundestag zugeleitet; Ziel „Verabschiedung vor der Sommerpause 2026" bleibt bestehen. | 15 |
+| 5 | Aktualitätshinweis | Aktualisierung | Schnittangabe auf „19. Mai 2026 — Lauf 001 vom 19. Mai 2026"; AI-Act-Omnibus-Eckpunkte, korrigierter GKV-BSSG-Stand, TrueUp 19. Mai 2026, BILL/Upwork/Walmart/Cisco, IAB-Kurzbericht 8/2026 in den Auflistungstext aufgenommen. | 1–13, 15 |
+| 6 | § 11.1 | Ergänzung | — (keine Aufnahme in § 11.1; Workers' Incentives Preprint außerhalb Fenster und ohne Anschluss verworfen). | — |
+| 7 | § 11.3 | Ergänzung | IAB-Kurzbericht 8/2026 als neuer Eintrag bei den IAB-Quellen; Rats-Pressemitteilung 7. Mai 2026; Sammelbeleg Kanzlei­analysen (Bird & Bird / White & Case / Lexology / Timelex / Modulos); Sammelbeleg Verbände (Bitkom / BDI / TÜV); Sammelbeleg deutsche Berichterstattung (CDU/CSU-Fraktion / Table.Briefings / Tagesspiegel Background). | 1–8 |
+| 8 | § 11.5 | Ergänzung | Sechs neue Sammelbelege: PYMNTS/Yahoo/Simply Wall St/Stocktitan (BILL); OfficeChai/Yahoo/Upwork Press (Upwork); WSJ/GV Wire/Storyboard18/Quartz/TheTechMarketer (Walmart); TechCrunch/TechPortal/MirrorReview/TechRadar/SEC 8-K (Cisco); TrueUp/TechTimes/Yahoo Tech (Tracker-Stand 19. Mai); Bloomberg (Goldman/Waldron). | 9–14 |
+| 9 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Versions-Eintrag in der KI-Offenlegung mit den vier Punkten AI-Act-Omnibus / IAB-Kurzbericht 8/2026 / Mai-Layoff-Welle / GKV-BSSG-Sachverhaltskorrektur). | — |
+| 10 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 19. Mai 2026 (Lauf 001 vom 19. Mai 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6, zwei dokumentierten Fehlern (GKV-BSSG und Trilog-Datum) sowie Bereinigungs- und Nachprüfungsblock. | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Workers' Incentives and the Optimal Taxation of AI (arXiv-Preprint 19. März 2026) | A | Außerhalb 7-Tage-Fenster; ohne unmittelbaren Anschluss an die fünf Typen aus § 2.1 — in einem späteren Lauf zu prüfen, falls die peer-reviewed Veröffentlichung folgt. |
+| 2 | Wyden/Whitehouse/King — Carried-Interest-Bill (16. April 2026) | D | Außerhalb 7-Tage-Fenster; nicht KI-spezifisch. |
+| 3 | Warren/Wyden — Seniors Deserve SMARTER Care Act (CMS-WISeR) | G | Kein Steuer-Vorgang; passt nicht in den Korridor — Cluster G adressiert KI-Versorgungskontext, der Vorgang ist primär leistungsrechtlich. |
+| 4 | Anthropic Economic Index — kein neuer Bericht zwischen 24. März und 19. Mai 2026 | I | Keine Bewegung im 48-Stunden-Fenster; bestehender § 3.5-Block bleibt aktuell. |
+| 5 | IFR World Robotics Report — keine neue Statistik im 7-Tage-Fenster | C/J | Letzte Veröffentlichung 2025; nächste Statistik nach IFR-Kalender Mitte Oktober 2026. |
+| 6 | Connecticut SB 5 — Lamont-Unterzeichnung weiterhin nicht datiert | B | Stand 19. Mai 2026 in der Berichterstattung weiterhin „in den kommenden Wochen erwartet"; bestehende Formulierung in § 4.5 / Aktualitätshinweis bleibt korrekt. |
+| 7 | Goldman Sachs *How Will AI Affect the US Labor Market?* (Goldman-Insights, ohne neues Datum) | A/F | Inhalt seit April 2026 bereits dokumentiert (16.000 Stellen/Monat US-weit); Waldron-Bloomberg-Beleg vom 12. Mai 2026 stattdessen aufgenommen. |
+| 8 | Connecticut General Assembly — reguläres Sitzungsende 6. Mai 2026 / Schicksal von Raised Bill 515 | B | Stand 19. Mai 2026 in den gesichteten Sekundärquellen nicht eindeutig dokumentiert; bestehender Verweis in § 4.5 bleibt korrekt; nächster Lauf zu prüfen, sobald die Connecticut Special-Session-Berichterstattung vorliegt. |
+| 9 | Frontier-Modell-Releases (Cluster I, 48-Stunden-Fenster) | I | Keine politisch-fiskalisch relevanten Tagesmeldungen im 48-Stunden-Fenster 17.–19. Mai 2026. |
+| 10 | G-BA / gematik / BfArM Mai 2026 (Cluster G) | G | Fünftes Mal in Folge ohne KI-spezifische neue Beschlüsse oder DiGA-Listings im 7-Tage-Fenster. |
+| 11 | Bundesbank-Symposium 2026 — KI im Bankwesen | E/H | Symposium thematisiert KI im Zentralbank- und Bankenkontext, ohne neuen quantitativen Befund mit Bezug zur Besteuerungsdebatte. |
+| 12 | LinkedIn — Layoff-Tagesmeldungen Mitte Mai 2026 | F | In der TrueUp-Aggregat-Reihe sowie in den Yahoo-Tech- und TechTimes-Artikeln zum 18./19. Mai 2026 bereits sammelmäßig abgebildet; keine eigenständige Aufnahme in § 1.1, um die Tracker-Linie konsistent zu halten. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 19. Mai 2026 (Lauf 001 vom 19. Mai 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja (Phase 5)
+- Word erstellt (`build_docx.py`): Ja (Phase 5)
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+
+### Auffälligkeiten / offene Punkte
+
+- Erweitertes Recherchefenster für Cluster B/E: Drei Treffer (AI-Act-Omnibus-Einigung vom 7. Mai 2026; Bundesrat-1065-Tagesordnung vom 8. Mai 2026; IAB-Kurzbericht 8/2026 vom 5. Mai 2026) liegen vor dem 7-Tage-Korridor des heutigen Laufs, wurden aber im Lauf 001 vom 8. Mai 2026 nicht erfasst — wir folgen damit dem Präzedenzfall aus Lauf 001 (Aufnahme des *Challenger April-2026-Job-Cuts-Reports* vom 1. Mai 2026 mit dokumentierter Begründung).
+- AI-Act-Omnibus-Einigung 7. Mai 2026: Erstmals ist die Konformitätsbewertungs-Architektur für Anhang I formell entschieden — Maschinenverordnung aus Sektion A in Sektion B verschoben, KI-Verordnungs-Pflichten gelten dort nur übergangsweise bis CEN-CENELEC die Sektor-Normen aktualisiert hat. Für den deutschen Maschinenbau ist das die zentrale Erleichterung; für die in § 1.1 dokumentierte KI-induzierte Arbeitsmarkt-Wirkung in Beschäftigungs- und Bildungs-KI bedeutet die Streckung um zwölf Monate eine Verschärfung der zeitlichen Lücke zur greifenden Regulierung.
+- IAB-Kurzbericht 8/2026 ist der erste IAB-Primärbeleg seit Beginn des Daily-Lauf-Verfahrens, der die innerbetriebliche generative KI-Nutzung in Deutschland quantifiziert (5 → 25 % zwischen 2023 und 2025, 48 % in Großbetrieben). Empfehlung für künftige Läufe: in der nächsten Iteration prüfen, ob das BMAS- oder DGB-Verbandsmaterial zu „KI und Mitbestimmung" mit aufgenommen werden kann (Cluster B / H).
+- GKV-BSSG-Korrektur: Die Erwartung der Versionen 14.0 ff. ist nicht eingetreten. Stand 19. Mai 2026 hat das BMG den Kabinettentwurf weder dem Bundestag zugeleitet noch in der Sitzungswoche eingebracht; ein neuer Bundesrats-Termin ist öffentlich nicht datiert.
+- Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne valide Treffer im 7-Tage-Fenster; Empfehlung bleibt bestehen.
+- Cluster I (Frontier-Modelle) und Cluster J (Robotik) im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen.
+- Branch dieses Laufs: `claude/determined-einstein-1W3kt` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push neu angelegt).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Der Versand-Tool-Status (`mail_send` / `send_mail` / `send_message` / `outlook_send` aus `graph-mcp`; `wa_send_message` / `send_message` aus dem `whatsapp`-MCP) wird in Phase 5b geprüft; bei fehlender Tool-Verfügbarkeit werden die vorbereiteten Inhalte gemäß Phase-5b-Spezifikation als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben (Dateien stehen in `.gitignore`, werden also nicht versioniert).
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
