@@ -129,9 +129,14 @@
 - PDF erstellt (`build_pdf.py`): Ja (Phase 5)
 - Word erstellt (`build_docx.py`): Ja (Phase 5)
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
-- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
-- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
-- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): Fallback nach `daily-mail.txt` (gitignored) — siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): Fallback nach `daily-whatsapp.txt` (gitignored) — siehe „Auffälligkeiten / offene Punkte"
+- Commit auf Session-Branch: Ja (Commit c60073c „Daily-Update 2026-05-19 — Version 23.0 (Cluster: B, E, F)")
+- Push auf Session-Branch: Ja (Branch im Remote nach Push neu angelegt)
+- Local Merge `claude/determined-einstein-1W3kt` → `main` (--no-ff): Ja
+- Push `main` auf Remote: Fehler 403 (Harness-Beschränkung; analog zum dokumentierten 403 in Lauf 001 vom 8. Mai 2026 bei der Remote-Branch-Löschung) — die Änderungen sind auf dem Session-Branch im Remote vollständig verfügbar und können vom Repo-Owner separat in `main` integriert werden.
+- Lokalen Branch gelöscht: Nein (wegen fehlgeschlagenem `main`-Push beibehalten, damit lokaler Stand und Remote-Branch konsistent bleiben).
+- Remote-Branch `claude/determined-einstein-1W3kt` gelöscht: Nein (Fehler 403; analog zum 8.-Mai-Lauf).
 
 ### Auffälligkeiten / offene Punkte
 
