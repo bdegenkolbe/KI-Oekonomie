@@ -7,6 +7,72 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 21. Mai 2026 (Lauf 001 vom 21. Mai 2026) — Version 22.0 → Version 23.0
+
+**Auslöser:** Regulärer Daily-Update-Lauf am 21. Mai 2026 (erster Lauf nach Version 22.0 vom 8. Mai 2026). Web-Recherche im Korridor der Cluster A–J am 21. Mai 2026: Optimalsteuer-/Aufgabenforschung (Cluster A); Robotersteuer/Wertschöpfungsabgabe DE/EU (Cluster B); internationale Praxis (Cluster C); Politik-Initiativen (Cluster D); Arbeitsmarkt- und Sozialversicherungsdaten (Cluster E); Tech-Layoffs / KI-Capex 48-Stunden-Fenster (Cluster F); Gesundheitswesen (Cluster G); Deutschland-These-Bezugspunkte (Cluster H); Frontier-Modelle (Cluster I); Robotik (Cluster J). Vier belegbare Treffer aufgenommen: vorläufige politische Trilog-Einigung zum *Digital Omnibus on AI* in der Nacht zum 7. Mai 2026 (Cluster B; *Korrektur* der in Version 22.0 noch als „nächste Runde 13. Mai 2026" referierten Linie auf Basis der Pressemitteilung Rat der EU 299/26 vom 7. Mai 2026 und der konvergierenden Sekundärberichterstattung von IAPP, Bird & Bird, White & Case und Baker Botts); Meta- und Intuit-Layoff-Ankündigungen vom 20. Mai 2026 (Cluster F, 48-Stunden-Fenster); TrueUp-Tagesfortschreibung zum 21. Mai 2026 (Cluster F, 48-Stunden-Fenster); ITIF-Stellungnahme von Robert D. Atkinson vom 14. Mai 2026 (Cluster A/D, 7-Tage-Fenster).
+
+### Aufgenommene Neuigkeiten
+
+| Stelle | Sachverhalt | Quelle |
+|---|---|---|
+| § 1.1 | Tagesfortschreibung TrueUp 21. Mai 2026 (138.988 / 327 / 993 pro Tag) und Meta- + Intuit-Layoff-Ankündigung 20. Mai 2026 (Meta 8.000 Layoffs + 6.000 gestrichene Stellen, Capex 125–145 Mrd. USD; Intuit 3.000 Layoffs, OpenAI/Anthropic-Modellverträge) | TrueUp; NPR / TechCrunch / Reuters / TheNextWeb / Benzinga / Tom's Hardware (20. Mai 2026); TechCrunch / CNBC / Fast Company / PYMNTS / KTVU (20. Mai 2026) |
+| § 4.3 | Korrektur des Trilog-Stands zum *Digital Omnibus on AI*: vorläufige politische Einigung in der Nacht zum 7. Mai 2026 mit verbindlichen Hochrisiko-Stichtagen 2. Dezember 2027 (Anhang III) und 2. August 2028 (Anhang I), neuer Art. 5-Verbotstatbestand für CSAM/Deepfakes, Regulatory-Sandboxes-Frist 2. August 2027, verkürzte Art. 50-Übergangsfrist (3 Monate, neuer Stichtag 2. Dezember 2026) | Rat der EU (Pressemitteilung 299/26, 7. Mai 2026); IAPP; Bird & Bird; White & Case; Baker Botts |
+| § 4.5 | Ergänzung um die ITIF-Folgestellungnahme von Robert D. Atkinson vom 14. Mai 2026 *„AI Is Not Going to Reduce Labor's Share of Income or Destroy the Tax Base"* als steuerbasentheoretisch argumentierende Folgeposition zum Bloomberg-Editorial vom 29. April 2026 | ITIF / Atkinson (14. Mai 2026) |
+| § 11.3 | Neuer Eintrag Rat der EU (Pressemitteilung 299/26, 7. Mai 2026) und Sammelbeleg IAPP / Bird & Bird / White & Case / Baker Botts; neuer Eintrag ITIF / Atkinson (14. Mai 2026) | s. o. |
+| § 11.5 | Neue Einträge TrueUp 21. Mai 2026; Meta-Sammelbeleg 20. Mai 2026; Intuit-Sammelbeleg 20. Mai 2026 | s. o. |
+| Aktualitätshinweis | Schnittangabe auf „21. Mai 2026 — Lauf 001 vom 21. Mai 2026"; Trilog-Korrektur und 20./21.-Mai-Linie in den Auflistungstext aufgenommen | s. o. |
+| README.md | Versionssprung 22.0 → 23.0; neuer Versionseintrag in der KI-Offenlegung mit den vier Cluster-Bündeln | — |
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine leeren Abschnitte; Deutschland-These referenziert. |
+| 2.1.2 Nummerierung | OK | Lückenlos 1–11; fünf Typen, drei Säulen, sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Neue Inhalte verweisen auf bestehende §§ (§ 4.5/§ 5.1/§ 8.3, § 3.3, § 3.4); keine Umnummerierungen. |
+| 2.1.4 Roter Faden | OK | Trilog-Korrektur, Meta-/Intuit-/TrueUp-Update und ITIF/Atkinson fügen sich in die bestehenden Argumentationslinien; Deutschland-These unverändert eigenständig. |
+| 2.1.5 Formatierung | OK | Tabellenstruktur und Lead-In-Formatierung in § 4.3, § 4.5, § 11.3, § 11.5 konsistent. |
+| 2.2.1 Sachliche Richtigkeit | OK | Datums-, Beschäftigten- und Capex-Angaben mit den Primärquellen (Council, NPR, TechCrunch, CNBC, ITIF, TrueUp) abgeglichen. |
+| 2.2.2 Redundanzprüfung | OK | Meta-Eintrag in § 1.1 ersetzt nicht den bestehenden Verweis auf „rund 8.000 Stellen ab 20. Mai 2026" aus April; er verdichtet die Tagesankündigung und ist mit dem TrueUp-Tracker-Block verschränkt. |
+| 2.2.3 Argumentation | OK | Trilog-Korrektur stärkt die in § 4.3 gezogene Anknüpfungslinie an AI-Act-Definitionen; ITIF/Atkinson schärft das publizistisch-/think-tank-seitige Gegengewicht in § 4.5. |
+| 2.2.4 Ausgewogenheit | OK | Meta- und Intuit-CEO-Statements („Capex-Maßnahme, nicht KI-Produktivität" / „nichts mit KI") explizit aufgenommen und mit Washington-Post-Differenzierung verknüpft. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe der neuen Sätze fehlerfrei. |
+| 2.3.2 Terminologie | OK | „Frontier-Whistleblower", „Konformitätsbewertungs-Architektur", „Regulatory-Sandboxes" einheitlich; keine Vermengung der fünf Robotersteuer-Typen. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Alle neuen Fließtext-Quellen im Literaturverzeichnis abgebildet (§ 11.3 für Council/ITIF; § 11.5 für TrueUp/Meta/Intuit). |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-Stil eingehalten; vollständige URLs ohne Shortener; Datumsangaben einheitlich. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen (Council-Pressemitteilung 299/26, NPR, TechCrunch, CNBC) plus Sekundär-Sammelbelege; ITIF ist eine think-tank-Quelle, als solche kenntlich. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe consilium.europa.eu, npr.org, techcrunch.com, cnbc.com, itif.org, trueup.io erreichbar. |
+| 2.4.5 Zitatgenauigkeit | OK | Meta-Capex-Korridor 115–135 → 125–145 Mrd. USD und Severance 16 + 2 Wochen sowie Intuit 3.000 / 17 % wörtlich aus Primärberichten übernommen; Zuckerberg-Townhall-Zitat in indirekter Rede. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Markierung de la Feria et al. 2022 unverändert; Sanders 2025 Titel weiterhin verifiziert. |
+| 2.5 Versionskonsistenz und Lizenz | OK | 23.0 im Dokumentkopf, Zitiervorschlag, README, diesem Block; CC BY 4.0 und Haftungshinweis unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Keine dedizierten Skripte; manuelle Stichproben ersetzen den automatisierten Teil. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| 1 | § 4.3 und Aktualitätshinweis (Version 22.0) | Trilog-Stand zum Digital Omnibus on AI als „nächste Runde 13. Mai 2026 — Knackpunkt Konformitätsbewertungs-Architektur" referiert, obwohl in der Nacht zum 7. Mai 2026 bereits eine vorläufige politische Einigung erzielt worden war (Pressemitteilung Rat der EU 299/26 vom 7. Mai 2026) | Mittel |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| 1 | Trilog-Stand veraltet | § 4.3 um den vollständigen Inhalt der vorläufigen Einigung vom 7. Mai 2026 ergänzt (Stichtage 2. Dezember 2027 / 2. August 2028, Regulatory Sandboxes 2. August 2027, Art. 50-Frist 2. Dezember 2026, Art. 5-Verbotstatbestand CSAM/Deepfakes); Aktualitätshinweis am Dokumentende entsprechend aktualisiert; § 11.3 um neuen Council-Eintrag erweitert | Ja |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK (§ 2.1.3 Querverweise, § 2.2.1 Sachliche Richtigkeit, § 2.4.1 Vollständigkeit und Zuordnung)
+- Automatisierte Skripte (sofern vorhanden): n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 23.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 8. Mai 2026 (Lauf 001 vom 8. Mai 2026) — Version 21.0 → Version 22.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf am 8. Mai 2026 (nach den drei Tagesaktualisierungen am 7. Mai 2026, die in den Versionen 19.0, 20.0 und 21.0 protokolliert sind). Web-Recherche im Korridor der Cluster A–J am 8. Mai 2026: Optimalsteuer-/Aufgabenforschung (Cluster A); Robotersteuer/Wertschöpfungsabgabe DE/EU (Cluster B); internationale Praxis (Cluster C); Politik-Initiativen (Cluster D); Arbeitsmarkt- und Sozialversicherungsdaten (Cluster E); Tech-Layoffs / KI-Capex 48-Stunden-Fenster (Cluster F); Gesundheitswesen (Cluster G); Deutschland-These-Bezugspunkte (Cluster H); Frontier-Modelle (Cluster I); Robotik (Cluster J). Drei belegbare Treffer im 7-Tage- bzw. 48-Stunden-Fenster identifiziert und eingearbeitet (Cloudflare-Layoff vom 7. Mai 2026; Challenger *April-2026-Job-Cuts-Report* vom 1. Mai 2026; TrueUp-Tagesfortschreibung 8. Mai 2026); alle übrigen recherchierten Themen waren in Version 21.0 bereits enthalten oder lagen außerhalb des 7-Tage- bzw. 48-Stunden-Korridors.
