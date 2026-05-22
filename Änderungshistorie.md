@@ -54,6 +54,86 @@
 
 ---
 
+## 2026-05-22 — Lauf 002 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster G — Gesundheitssektor — fünftes Mal in Folge ohne neue belegbare Treffer im 7-Tage-Fenster; Cluster H ohne neue Studien/Initiativen im Fenster; Cluster I/J im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen; Cluster F mit drei aufgenommenen Treffern, Cluster B/C mit jeweils einer politisch-rechtlichen Klärung, Cluster D mit einer EU-rechtlichen Einigung).
+- Zeitfenster: 7 Tage (Standard) sowie 48 Stunden für Cluster F und Cluster I; ergänzend erweitertes Inter-Lauf-Fenster 9.–22. Mai 2026 zur Schließung der Lücke seit Lauf 001 vom 8. Mai 2026. Drei Einzelereignisse aus dem 30. April / 7. Mai 2026 wurden als Backlog-Nachzug aufgenommen (Digital-Omnibus-Trilogeinigung 7. Mai 2026, Hangzhou-Court-Urteil 30. April 2026, Cisco/Walmart als sekundär erst nach Lauf 001 öffentlich gewordene Vorgänge).
+- Anzahl Suchanfragen: 20 (Web-Suche).
+- Lauf 002 ist der zweite reguläre Daily-Update-Lauf nach Lauf 001 vom 8. Mai 2026. Der zeitliche Abstand von 14 Tagen begründet das erweiterte Inter-Lauf-Fenster.
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B / D | Council of the EU / Europäisches Parlament, *Artificial Intelligence: Council and Parliament agree to simplify and streamline rules — Provisional Agreement on the Digital Omnibus on AI*, 7. Mai 2026 | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ | übernommen |
+| 2 | B / D | White & Case, *EU agrees Digital Omnibus deal to simplify AI rules*, Mai 2026 | https://www.whitecase.com/insight-alert/eu-agrees-digital-omnibus-deal-simplify-ai-rules | übernommen (Sammelbeleg) |
+| 3 | B / D | Bird & Bird, *Digital Omnibus on AI Provisional Agreement Reached at the May Trilogue*, Mai 2026 | https://www.twobirds.com/en/insights/2026/digital-omnibus-on-ai-provisional-agreement-reached-at-the-may-trilogue | übernommen (Sammelbeleg) |
+| 4 | B / D | Hogan Lovells, *EU legislators agree to delay for high-risk AI rules*, Mai 2026 | https://www.hoganlovells.com/en/publications/eu-legislators-agree-to-delay-for-highrisk-ai-rules | übernommen (Sammelbeleg) |
+| 5 | B / D | Taylor Wessing, *The EU Digital Omnibus on AI – What the political deal means*, Mai 2026 | https://www.taylorwessing.com/en/insights-and-events/insights/2026/05/the-eu-digital-omnibus-on-ai-what-the-political-deal-means | übernommen (Sammelbeleg) |
+| 6 | B | Office of Governor Polis / Holland & Knight, *Colorado Governor Signs SB 26-189 — Amending the State's Artificial Intelligence Law*, 14. Mai 2026 | https://www.hklaw.com/en/insights/publications/2026/05/colorado-governor-signs-sb-189 | übernommen |
+| 7 | B | Wilson Sonsini / Morrison Foerster / Troutman Pepper Locke / Consumer Finance Monitor / MLex, *Colorado Legislature Repeals and Replaces Colorado AI Act* (Sammelanalyse SB 26-189), Mai 2026 | https://www.wsgr.com/en/insights/colorado-legislature-repeals-and-replaces-colorado-ai-act-what-sb-189-means-for-your-business.html | übernommen (Sammelbeleg) |
+| 8 | B | Colorado Sun / CBS Colorado / Colorado Public Radio, *Colorado's fierce two-year fight over AI regulation ends with watered-down law / Colorado governor signs new AI regulation bill / Polis says he will sign pared down AI bill*, 11.–14. Mai 2026 | https://coloradosun.com/2026/05/12/colorado-ai-law-rewrite-passes/ \| https://www.cbsnews.com/colorado/news/ai-regulation-colorado-governor-signs-law/ \| https://www.cpr.org/2026/05/12/ai-artificial-intelligence-disclosure-bill-colorado/ | übernommen (Sammelbeleg) |
+| 9 | C | Hangzhou Intermediate People's Court / Caixin Global / Fortune / China.org.cn / NPR, *Chinese Courts Rule Companies Cannot Fire Workers Simply to Replace Them With AI — Berufungsentscheidung im Zhou-Fall*, 30. April 2026 | https://www.caixinglobal.com/2026-04-30/chinese-courts-rule-companies-cannot-fire-workers-simply-to-replace-them-with-ai-102439602.html \| https://fortune.com/2026/05/03/chinese-court-layoffs-workers-ai-replacement-labor-market/ \| http://www.china.org.cn/2026-04-30/c_297486.htm \| https://www.npr.org/2026/05/01/nx-s1-5807131/tech-worker-china-ai | übernommen |
+| 10 | C | Fisher Phillips / L&E Global / HR Executive, *Chinese Court Rules Employer Can't Fire Worker Because AI Took His Job — Kanzleianalysen zur Hangzhou-Berufungsentscheidung*, Mai 2026 | https://www.fisherphillips.com/en/insights/insights/chinese-court-rules-employer-cant-fire-worker-because-ai-took-his-job \| https://leglobal.law/2026/02/02/china-replacing-employees-with-ai-is-an-operational-decision-not-force-majeure-or-material-change-in-circumstances/ \| https://hrexecutive.com/chinas-ai-layoff-ruling-puts-hr-on-notice/ | übernommen (Sammelbeleg) |
+| 11 | F | TheStreet / TechTimes / Republic World / HR Digest, *Cisco — 4.000 Stellen 13./14. Mai 2026 parallel zu Q3-Rekordumsatz 15,8 Mrd. USD (+12 % YoY); Restrukturierungs­aufwand bis 1 Mrd. USD*, 13.–15. Mai 2026 | https://www.thestreet.com/employment/cisco-ceo-reveals-real-reason-behind-4000-job-cuts \| https://www.techtimes.com/articles/316677/20260515/cisco-eliminates-4000-jobs-same-day-it-reports-158b-record-revenue-blaming-ai-pivot.htm \| https://www.republicworld.com/tech/tech-layoffs-cisco-reports-record-growth-then-trims-4000-jobs-to-fuel-ai-pivot-2026-05-14-124173 \| https://www.thehrdigest.com/cisco-layoffs-set-to-affect-4000-roles-as-ai-redefines-operations/ | übernommen |
+| 12 | F | HR Executive / Metaintro / SJV Sun / NBSLA, *Walmart cuts 1,000 corporate roles — Memo Suresh Kumar / Daniel Danker; ausdrücklich NICHT als KI-getriebene Reduktion deklariert*, 12. Mai 2026 | https://hrexecutive.com/walmart-cuts-1000-corporate-roles-as-ai-reorganization-reshapes-tech-teams/ \| https://www.metaintro.com/blog/walmart-layoffs-1000-corporate-roles-cut-ai-not-cited-2026 \| https://sjvsun.com/u-s/walmart-to-lay-off-or-relocate-about-1000-corporate-workers-amid-ai-restructuring/ | übernommen |
+| 13 | F | NPR / Al Jazeera / Quartz / Yahoo Finance / TechJournal / TheNextWeb, *Meta cuts 8,000 jobs as it pivots towards AI — Vollzug am 20. Mai 2026 mit zusätzlicher Streichung von 6.000 offenen Stellenanzeigen; Umverteilung von 7.000 Beschäftigten in AI-zentrische Funktionen; Q1-Umsatz 56,31 Mrd. USD / Nettoergebnis 26,8 Mrd. USD / Capex 125–145 Mrd. USD 2026*, 20. Mai 2026 | https://www.npr.org/2026/05/20/nx-s1-5826917/meta-layoffs-ai-jobs \| https://www.aljazeera.com/economy/2026/5/20/meta-cuts-8000-jobs-in-sweeping-global-layoffs \| https://qz.com/meta-layoffs-8000-jobs-ai-restructuring-052026 \| https://finance.yahoo.com/sectors/technology/articles/meta-layoffs-2026-8-000-114209703.html \| https://techjournal.org/meta-layoffs-begin-8000-jobs-ai-spending \| https://thenextweb.com/news/meta-layoffs-may-2026-ai-restructuring-thousands | übernommen |
+| 14 | F | TrueUp / Yahoo Tech / TechTimes, *Tech Layoffs Tracker — Stand 21. Mai 2026: 142.303 Personen aus 331 Layoff-Meldungen (rund 1.009 pro Tag); Tech Layoffs Surpass 113,000 in 2026 With No Federal Law Requiring AI Disclosure*, 18./21. Mai 2026 | https://www.trueup.io/layoffs \| https://tech.yahoo.com/general/article/tech-layoffs-2026-more-than-128000-people-have-been-laid-off-this-year-from-companies-like-paypal-meta-cloudflare-and-more-144545060.html \| https://www.techtimes.com/articles/316802/20260518/tech-layoffs-surpass-113000-2026-no-federal-law-requiring-ai-disclosure.htm | übernommen |
+| 15 | A | Stanford HAI / DC Median / AI Quinta, *The 2026 AI Index Report — Stanford HAI / Economy Chapter* (Befund Software-Developer 22–25-Jährige −20 % gegenüber 2024; Consumer Surplus 172 Mrd. USD) | https://hai.stanford.edu/ai-index/2026-ai-index-report \| https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_4_economy.pdf | verworfen (außerhalb 7-Tage-Korridor; Befund zur 22–25-Jahre-Hire-Verlangsamung überschneidet sich inhaltlich mit dem in § 1.1/§ 3.5 bereits dokumentierten Anthropic-Massenkoff-McCrory-Befund) |
+| 16 | J | IFR / The Robot Report, *IFR reports robot density increase across Europe, Asia, and the Americas / IFR top 5 global robotics trends of 2026* (Deutschland 449 Einheiten pro 10.000 Beschäftigte) | https://www.therobotreport.com/ifr-reports-robot-density-increase-across-europe-asia-americas/ \| https://www.therobotreport.com/ifr-top-5-global-robotics-trends-of-2026/ | verworfen (Datensatz bezieht sich auf den Veröffentlichungsstand 2025 / Berichtsjahr 2024; für Anrechnung an einen aktuellen Lauf nicht trennscharf — Wartung auf den Folge-Report 2026) |
+| 17 | B | Connecticut General Assembly, *SB 5 — Connecticut Artificial Intelligence Responsibility and Transparency Act — formale Unterzeichnung durch Lamont* | https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB5&which_year=2026 | verworfen (zum Stichtag 22. Mai 2026 noch nicht öffentlich dokumentiert; Quellenlage „Lamont has confirmed he plans to sign"; in einem späteren Lauf nachzutragen) |
+| 18 | I | Anthropic, *Claude Opus 4.6 / Sonnet 4.6 Release* | https://www.anthropic.com/news/claude-opus-4-6 \| https://www.anthropic.com/news/claude-sonnet-4-6 | verworfen (Frontier-Marktstruktur relevant für Cluster I, aber ohne unmittelbare politisch-fiskalische Konsequenz) |
+| 19 | G | Bundesärztekammer / 130. Deutscher Ärztetag, *Auswirkungen von KI-Anwendungen in der Medizin in klinischen Studien überprüfen* | https://www.bundesaerztekammer.de/presse/aktuelles/detail/auswirkungen-von-ki-anwendungen-in-der-medizin-in-klinischen-studien-ueberpruefen | verworfen (Empfehlung an G-BA/BfArM ohne konkretes Beschlussdatum oder fiskalischen Bezug; in einem späteren Lauf zu prüfen, sobald G-BA-Beschluss zu KI-Leistungen vorliegt) |
+| 20 | C / D | Microsoft VRSAR Programmstatus per 22. Mai 2026 (Annahmequote) | https://www.cnbc.com/2026/04/23/microsoft-plans-first-voluntary-retirement-program-for-us-employees | verworfen (keine neuen Annahmedaten zwischen 8. und 22. Mai 2026 öffentlich; Annahmefrist 8. Juni 2026, bisherige Darstellung in § 1.1 bleibt korrekt) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 1.1 | Ergänzung | Inter-Lauf-Block zur Mai-2026-Layoff-Welle: Cisco 13./14. Mai 2026 (rund 4.000 Stellen / Q3-Rekord 15,8 Mrd. USD / Restrukturierung bis 1 Mrd. USD), Walmart 12. Mai 2026 (rund 1.000 Stellen mit ausdrücklicher Nicht-Zuschreibung an KI als Gegen-Erzählung), Meta-Vollzug 20. Mai 2026 (rund 8.000 plus 6.000 gestrichene Stellenanzeigen, rund 14.000 effektiv; Umverteilung 7.000 Beschäftigte in „AI-zentrische" Funktionen; Q1-Umsatz 56,31 Mrd. USD), TrueUp-Stand 21. Mai 2026 (142.303 / 331 / 1.009 pro Tag). | 11, 12, 13, 14 |
+| 2 | § 4.3 | Aktualisierung | Ersetzung der bisherigen Passage „nächste Trilogrunde 13. Mai 2026" durch die tatsächlich am 7. Mai 2026 erreichte politische Einigung zum *Digital Omnibus on AI* mit Detailangaben zu Stichtagen 2. Dezember 2027 / 2. August 2028 (Hochrisiko-Pflichten), neuem Art. 5-Verbotstatbestand (CSAM / non-consensual intimate imagery) ab 2. Dezember 2026, Vorziehung der Watermarking-Übergangsfrist auf 2. Dezember 2026, Erweiterung der Bias-Erkennungs-Rechtsgrundlage und SME-Erleichterungen für Small Mid-Cap Enterprises (SMCs). | 1, 2, 3, 4, 5 |
+| 3 | § 4.5 | Ergänzung | Neuer Absatz „Sub-föderale Parallele — Colorado (Mai 2026)" zwischen Connecticut- und Trump-AI-Action-Plan-Block: Polis unterzeichnet SB 26-189 am 14. Mai 2026 (Repräsentantenhaus 57:6, Senat 34:1); transparenzbasierte Notifikationslogik ersetzt risikobasierte Pflichten; Inkrafttreten verschoben auf 1. Januar 2027 (statt 1. Juni 2026); Bezug auf Acemoglu-Manera-Restrepo-Informationsasymmetrie und § 9.1-Kausalitätsproblematik. | 6, 7, 8 |
+| 4 | § 6.4 | Ergänzung | Neuer abschließender Absatz „Volksrepublik China — Hangzhou-Berufungsentscheidung (April 2026)" zum Zhou-Fall (30. April 2026): KI-Verdrängung erfüllt weder „major change in objective circumstances" noch „operational difficulty" nach Art. 40/41 *Labor Contract Law*; explizite Verbindung zu § 2.1 Typ 5, § 4.5 Connecticut WARN-Disclosure und § 9.1 Messbarkeit. | 9, 10 |
+| 5 | § 11.3 | Ergänzung | Vier neue Einträge: Council of the EU / EP (7. Mai 2026); Colorado General Assembly (SB 26-189); Office of Governor Polis (14. Mai 2026); Hangzhou Intermediate People's Court (30. April 2026). | 1–10 |
+| 6 | § 11.5 | Ergänzung | Vier neue Einträge: TheStreet / TechTimes / Republic World / HR Digest (Cisco); HR Executive / Metaintro / SJV Sun / NBSLA (Walmart); NPR / Al Jazeera / Quartz / Yahoo Finance / TechJournal / TheNextWeb (Meta-Vollzug 20. Mai 2026); TrueUp / Yahoo Tech / TechTimes (Stand 21. Mai 2026). | 11–14 |
+| 7 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Lauf 002 vom 22. Mai 2026" geändert; sechs neue Inter-Lauf-Entwicklungen (Digital Omnibus 7. Mai 2026, Colorado SB 26-189 14. Mai 2026, Hangzhou-Berufung 30. April 2026, Cisco 13./14. Mai 2026, Walmart 12. Mai 2026, Meta-Vollzug 20. Mai 2026, TrueUp 21. Mai 2026) in den Auflistungstext aufgenommen; bestehende Aufzählung der Anfang-Mai-Themen unverändert erhalten. | 1–14 |
+| 8 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Versions-Eintrag in der KI-Offenlegung mit den sechs Inter-Lauf-Entwicklungen). | — |
+| 9 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 22. Mai 2026 (Lauf 002 vom 22. Mai 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja (keine Fehler)". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 15 | Stanford HAI AI Index 2026 | A | Außerhalb 7-Tage-Korridor; Befund zur 22–25-Jahre-Hire-Verlangsamung überschneidet sich inhaltlich mit dem in § 1.1/§ 3.5 bereits dokumentierten Anthropic-Massenkoff-McCrory-Befund. |
+| 16 | IFR robot density Germany 449 / 10.000 | J | Veröffentlichungsstand 2025, Berichtsjahr 2024; nicht trennscharf für aktuellen Lauf — Wartung auf Folge-Report 2026. |
+| 17 | Connecticut SB 5 Lamont-Unterzeichnung | B | Zum Stichtag 22. Mai 2026 noch nicht öffentlich dokumentiert; bestehender § 4.5-Block bleibt korrekt; in späterem Lauf nachzutragen. |
+| 18 | Anthropic Claude Opus/Sonnet 4.6 Release | I | Frontier-Marktstruktur relevant, aber ohne unmittelbare politisch-fiskalische Konsequenz. |
+| 19 | 130. Deutscher Ärztetag / KI-Medizin | G | Empfehlung an G-BA/BfArM ohne konkretes Beschlussdatum oder fiskalischen Bezug; im nächsten Lauf bei G-BA-Beschluss zu prüfen. |
+| 20 | Microsoft VRSAR Annahmequote | F | Keine neuen Annahmedaten zwischen 8. und 22. Mai 2026 öffentlich; Annahmefrist erst 8. Juni 2026. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe „Validierung 22. Mai 2026 (Lauf 002 vom 22. Mai 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: siehe Phase 6 (vgl. Auffälligkeiten)
+- E-Mail-Versand (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (kein `mail_send`/`graph-mcp`-Tool in der Session erreichbar)
+- WhatsApp-Versand (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (kein `whatsapp`-MCP-Server in der Session erreichbar)
+
+### Auffälligkeiten / offene Punkte
+
+- Inter-Lauf-Fenster (9.–22. Mai 2026): Lauf 002 deckt 14 Tage seit Lauf 001 ab. Drei Einzelereignisse aus dem 30. April / 7. Mai 2026 wurden als Backlog-Nachzug aufgenommen (Hangzhou-Court 30. April 2026 und Digital-Omnibus-Einigung 7. Mai 2026 lagen knapp außerhalb des Lauf-001-Schnitts, Cisco/Walmart waren noch nicht öffentlich). Der Zeitraum 9.–14. Mai 2026 war zu keinem Stichtag in einem 7-Tage-Fenster eines regulären Laufs erfasst.
+- Phase 5b — Benachrichtigung: Weder ein Outlook-/Microsoft-Graph-Sendetool (`mail_send` / `send_mail` / `send_message`) noch ein WhatsApp-Sendetool (`wa_send_message`) waren in der laufenden Session erreichbar. Die Inhalte wurden gemäß Phase-5b-Fallback nach `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben; Empfängerdaten wurden nicht in versionierte Dateien aufgenommen.
+- Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne fiskalisch relevante Tagesmeldungen. Empfehlung für die nächsten Läufe weiterhin bestehend: gezielter Abruf von g-ba.de-Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-Listings; bei nächstem G-BA-Beschluss zu KI-Leistungen prüfen, ob § 7 fortgeschrieben werden muss.
+- Connecticut SB 5 (Lamont-Unterzeichnung) und Anthropic Economic Index-Folgebericht bleiben Beobachtungsthemen für Lauf 003.
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
