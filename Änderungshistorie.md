@@ -121,7 +121,8 @@
 - PDF erstellt (`build_pdf.py`): Ja
 - Word erstellt (`build_docx.py`): Ja
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
-- Branch auf main gemerged und gelöscht: siehe Phase 6 (vgl. Auffälligkeiten)
+- Branch auf main gemerged: Lokal Ja (Merge-Commit `--no-ff`); Remote-Push auf `origin/main` durch HTTP 403 abgewiesen (gleicher Permission-Befund wie nach Lauf 001 dokumentiert in Commit `53d1a31`). Session-Branch `claude/determined-einstein-AR4zM` ist vollständig auf `origin` gepusht.
+- Branch-Cleanup: Lokaler Session-Branch behalten (Cleanup-Vorbedingung „push origin main erfolgreich" nicht erfüllt); Remote-Session-Branch nicht gelöscht.
 - E-Mail-Versand (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (kein `mail_send`/`graph-mcp`-Tool in der Session erreichbar)
 - WhatsApp-Versand (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (kein `whatsapp`-MCP-Server in der Session erreichbar)
 
@@ -129,6 +130,7 @@
 
 - Inter-Lauf-Fenster (9.–22. Mai 2026): Lauf 002 deckt 14 Tage seit Lauf 001 ab. Drei Einzelereignisse aus dem 30. April / 7. Mai 2026 wurden als Backlog-Nachzug aufgenommen (Hangzhou-Court 30. April 2026 und Digital-Omnibus-Einigung 7. Mai 2026 lagen knapp außerhalb des Lauf-001-Schnitts, Cisco/Walmart waren noch nicht öffentlich). Der Zeitraum 9.–14. Mai 2026 war zu keinem Stichtag in einem 7-Tage-Fenster eines regulären Laufs erfasst.
 - Phase 5b — Benachrichtigung: Weder ein Outlook-/Microsoft-Graph-Sendetool (`mail_send` / `send_mail` / `send_message`) noch ein WhatsApp-Sendetool (`wa_send_message`) waren in der laufenden Session erreichbar. Die Inhalte wurden gemäß Phase-5b-Fallback nach `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben; Empfängerdaten wurden nicht in versionierte Dateien aufgenommen.
+- Phase 6 — Remote-Push auf `origin/main` durch HTTP 403 abgewiesen. Die Aktualisierung liegt lokal als Merge-Commit auf `main` vor und ist vollständig auf dem Session-Branch `claude/determined-einstein-AR4zM` gepusht; eine Übertragung auf `origin/main` muss von einem berechtigten Account erfolgen (bspw. via Pull Request gegen `main`).
 - Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne fiskalisch relevante Tagesmeldungen. Empfehlung für die nächsten Läufe weiterhin bestehend: gezielter Abruf von g-ba.de-Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-Listings; bei nächstem G-BA-Beschluss zu KI-Leistungen prüfen, ob § 7 fortgeschrieben werden muss.
 - Connecticut SB 5 (Lamont-Unterzeichnung) und Anthropic Economic Index-Folgebericht bleiben Beobachtungsthemen für Lauf 003.
 
