@@ -124,9 +124,12 @@
 - PDF erstellt (`build_pdf.py`): Ja
 - Word erstellt (`build_docx.py`): Ja
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
-- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
-- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
-- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- Session-Branch `claude/determined-einstein-cSfyS` lokal angelegt, committet und auf Remote gepusht: Ja
+- Lokaler Merge `main ← claude/determined-einstein-cSfyS` (No-Fast-Forward): Ja
+- Remote-Push `git push origin main`: Nein (vier Retries mit exponentiellem Backoff 2s/4s/8s/16s laufen alle mit HTTP 403 „RPC failed" auf — Sandboxing-Restriktion des Remotes, kein inhaltlicher Fehler; Session-Branch im Remote enthält den vollständigen Stand)
+- Branch-Cleanup (lokal `git branch -d` und remote `git push origin --delete`): unterlassen, solange `main` auf dem Remote nicht aktualisiert ist; Session-Branch bleibt für die spätere manuelle Synchronisation im Remote stehen
+- E-Mail-Versand (Phase 5b): Fallback-Datei `daily-mail.txt` (gitignored) im Repo-Root geschrieben — siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): Fallback-Datei `daily-whatsapp.txt` (gitignored) im Repo-Root geschrieben — siehe „Auffälligkeiten / offene Punkte"
 
 ### Auffälligkeiten / offene Punkte
 
@@ -137,8 +140,9 @@
 - Connecticut SB 5: Lamont-Unterzeichnung zum Stichtag 23. Mai 2026 weiterhin nicht öffentlich datiert (Gouverneurssprecher 1. Mai 2026: „looks forward to signing"); bei formaler Unterzeichnung im nächsten Lauf nachzutragen.
 - Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne valide Treffer im 7-Tage-Fenster; Empfehlung für den nächsten Lauf: gezielter Abruf von g-ba.de Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-Listings; ggf. Sichtung der Bundesrats-Beschlüsse zum GKV-Beitragssatzstabilisierungsgesetz (zweite Lesung im Bundestag bzw. zweiter Durchgang im Bundesrat).
 - Cluster I (Frontier-Modelle) und Cluster J (Robotik) im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen.
-- Branch dieses Laufs: `claude/determined-einstein-cSfyS` (in Phase 0 verifiziert; lokal vorhanden, Remote nach Push neu anzulegen).
-- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Geprüfte Versand-Tools aus der laufenden Session: kein Tool mit `mail_send`/`send_mail`/`send_message`/`outlook_send`-Muster aus einem `graph-mcp`-Server erreichbar; kein Tool aus einem `whatsapp`-MCP-Server erreichbar. Folge: Phase-5b-Fallback gemäß Spezifikation — Inhalte in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben (Dateien stehen in `.gitignore`, werden also nicht versioniert).
+- Branch dieses Laufs: `claude/determined-einstein-cSfyS` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach erfolgreichem Push angelegt).
+- Phase 6 Auffälligkeit — `git push origin main` schlägt nach vier Retries mit exponentiellem Backoff (2s / 4s / 8s / 16s) konsistent mit HTTP 403 / „RPC failed; HTTP 403" auf; gleiches Muster wie bei der Remote-Branch-Löschung in Lauf 003 vom 7. Mai 2026 und in Lauf 001 vom 8. Mai 2026 dokumentiert (Sandboxing-Restriktion des Remotes, kein inhaltlicher Fehler). Remote `main` verbleibt damit bei Commit `944f2b3` (Daily-Update 2026-05-08 — Version 22.0); der lokale Merge-Commit ist `2d32c22` (Merge branch 'claude/determined-einstein-cSfyS' (Daily-Update 2026-05-23 Lauf 001 — Version 23.0)). Der Session-Branch `claude/determined-einstein-cSfyS` ist auf dem Remote vollständig vorhanden (Commit `147cb04`) und enthält alle Lauf-001-Änderungen, sodass die Synchronisation manuell oder im nächsten Lauf nachgeholt werden kann; ein Branch-Cleanup (lokal/remote) wird daher in diesem Lauf nicht vorgenommen, um den Stand im Remote nicht zu verlieren.
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Geprüfte Versand-Tools aus der laufenden Session: kein Tool mit `mail_send`/`send_mail`/`send_message`/`outlook_send`-Muster aus einem `graph-mcp`-Server erreichbar (verfügbar nur lese-/suchorientierte Microsoft-365-Tools wie `outlook_email_search`); kein Tool aus einem `whatsapp`-MCP-Server erreichbar. Folge: Phase-5b-Fallback gemäß Spezifikation — Inhalte in die gitignored Dateien `daily-mail.txt` (4.598 Zeichen, unter dem Limit von 5.000) und `daily-whatsapp.txt` (975 Zeichen, unter dem Limit von 1.000) im Repo-Root geschrieben.
 
 ---
 
