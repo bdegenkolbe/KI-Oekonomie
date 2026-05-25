@@ -7,6 +7,77 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 25. Mai 2026 (Lauf 001 vom 25. Mai 2026) — Version 22.0 → Version 23.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf am 25. Mai 2026 (17 Tage nach dem zuletzt protokollierten Lauf 001 vom 8. Mai 2026 in Version 22.0). Web-Recherche im Korridor der Cluster A–J am 25. Mai 2026: Optimalsteuer-/Aufgabenforschung (Cluster A); Robotersteuer/Wertschöpfungsabgabe DE/EU (Cluster B); internationale Praxis (Cluster C); Politik-Initiativen (Cluster D); Arbeitsmarkt- und Sozialversicherungsdaten (Cluster E); Tech-Layoffs / KI-Capex 48-Stunden-Fenster, durch Lauflücke ausgedehnt auf das volle Fenster seit dem letzten Lauf (Cluster F); Gesundheitswesen (Cluster G); Deutschland-These-Bezugspunkte (Cluster H); Frontier-Modelle (Cluster I); Robotik (Cluster J). Zwei vertiefte Cluster: Cluster B (EU AI Act — politische Trilogeinigung am 7. Mai 2026) und Cluster F (zweite Welle KI-getriebener Layoffs zwischen 14. und 21. Mai 2026 sowie Tracker-Tagesfortschreibung 25. Mai 2026). Drei belegbare Treffer eingearbeitet; alle übrigen recherchierten Themen lagen außerhalb des Korridors oder waren in Version 22.0 bereits enthalten.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | EU AI Act — *Digital Omnibus on AI*: Politische Einigung im dritten Trilog am 7. Mai 2026 (gemeinsame Pressemitteilung des Rats / des Parlaments; konsolidierter Kompromisstext in Ratsdokument 9247/26 vom 13. Mai 2026). Bestätigung der Verschiebung der Hochrisiko-Pflichten auf 2. Dezember 2027 (Anhang III) bzw. 2. August 2028 (Anhang I); Auflösung des den vorangegangenen Trilog blockierenden Streits über die Konformitätsbewertungs-Architektur für Anhang I; neue Art.-5-Verbotsnorm gegen KI-Systeme zur Erzeugung von Darstellungen sexuellen Missbrauchs von Kindern und nicht-einvernehmlichen intimen Inhalten (anwendbar ab 2. Dezember 2026); Art.-50-Kennzeichnungspflicht bleibt zum 2. August 2026 anwendbar, mit Übergangsfrist für vor diesem Stichtag in Verkehr gebrachte Systeme bis 2. Dezember 2026; legal-linguistische Überarbeitung und förmliche Verabschiedung bis 2. August 2026 angestrebt. Quellen: Rat der EU (Pressemitteilung 7. Mai 2026), Bird & Bird, White & Case, Hogan Lovells, Taylor Wessing. | § 4.3 (Ersetzung des Trilog-Ausblicks vom 13. Mai 2026 durch die nun feststehende Einigung; Beibehaltung der konditionalen Sprache zur förmlichen Verabschiedung); § 11.3 neuer Eintrag „Rat der Europäischen Union (7. Mai 2026)"; § 11.5 neuer Sammelbeleg „Bird & Bird / White & Case / Hogan Lovells / Taylor Wessing"; Aktualitätshinweis am Dokumentende aktualisiert; README.md mit neuem Versionseintrag 23.0. | Die KI-rechtliche Definitionslandschaft des AI Act bekommt durch die Einigung einen verbindlichen Zeitplan; die für steuerliche Anknüpfungen an Systemklassen relevanten Hochrisiko-Definitionen werden frühestens Ende 2027 verbindlich operativ. Dies konkretisiert die in § 4.3 formulierte Vorbehaltsklausel und schließt die in Version 22.0 noch offene Trilog-Frage. |
+| 2 | Zweite Welle KI-getriebener Stellenstreichungen 14.–21. Mai 2026: *Cisco* rund 4.000 Stellen (<5 % der Belegschaft) am 14. Mai 2026 (Restrukturierungsaufwand bis 1 Mrd. USD, Q3-AI-Auftragseingang 1,9 Mrd. USD, Jahresumsatzprognose 62,8–63,0 Mrd. USD); *Meta* rund 8.000 Stellen (10 %) am 20. Mai 2026 zuzüglich 6.000 gestrichener offener Stellen (Reorganisation in „AI-Pods", Transfer von rund 7.000 Beschäftigten in die Applied-AI-Organisation, Capex 2026 115–135 Mrd. USD); *Intuit* rund 3.000 Stellen (17 %) am 20. Mai 2026 (CEO-Memo Sasan Goodarzi, mehrjährige Partnerschaften mit Anthropic und OpenAI); *ClickUp* 22 % der Belegschaft am 21. Mai 2026 (Vergütungsbänder bis 1 Mio. USD und „100x"-Modell mit KI-Agenten zu Beschäftigten im Verhältnis 3:1); *BILL* bis zu 30 % der Belegschaft; *Upwork* rund 24 % der Belegschaft (Restrukturierungsaufwand 16–23 Mio. USD). Quellen: TechCrunch / TechStartups (Cisco), NPR / TheNextWeb / TechStartups / Yahoo Finance (Meta), TechCrunch / CFO Dive / HRD / Mirror Review (Intuit), TheNextWeb / Fast Company / Yahoo Finance (ClickUp / BILL / Upwork). | § 1.1 (Ergänzung des Layoff-Blocks als „zweite Welle" nach der Cloudflare-Welle vom 7. Mai 2026, mit konkreten Programmkonditionen und Begründungslinie je Konzern); § 11.5 vier neue Sammelbelege (Cisco, Meta, Intuit, ClickUp/BILL/Upwork); Aktualitätshinweis am Dokumentende ergänzt; README.md mit neuem Versionseintrag 23.0. | Vier von sechs Konzernen begründen die Streichungen explizit mit dem Übergang zu einer KI-zentrierten Organisationsform, in zwei Fällen mit ausdrücklichen KI-Partnerschaften (Intuit — Anthropic, OpenAI) oder mit einer KI-Agenten-/Beschäftigten-Quote (ClickUp). Die Capex-Erhöhung Meta (+73 % auf 115–135 Mrd. USD) und der Cisco-Q3-AI-Auftragseingang (1,9 Mrd. USD) unterfüttern die in § 1.1 dokumentierte Asymmetrie-Linie zwischen Personalreduktion und Infrastrukturausbau. |
+| 3 | TrueUp Tracker — Tagesfortschreibung zum 25. Mai 2026: 142.985 betroffene Personen aus 339 Layoff-Meldungen (rund 993 Stellen pro Tag); Zunahme um rund 15.500 Personen und 56 Meldungen gegenüber dem Stand vom 8. Mai 2026 (127.411 / 283). Quelle: trueup.io/layoffs. | § 1.1 (Tagesfortschreibung der Tracker-Reihe an die zweite Welle angeschlossen); § 11.5 neuer Eintrag „TrueUp (Stand 25. Mai 2026)"; Aktualitätshinweis am Dokumentende aktualisiert; README.md mit neuem Versionseintrag 23.0. | Schließt die Tracker-Reihe an den Tag des Laufs an. Das Tagesniveau bleibt bei rund 1.000 Tech-Stellen pro Tag, konsistent mit der Anfang-Mai-Beobachtung; die kumulative 142.985-Schwelle entspricht 75 % des in Version 22.0 als Halbjahresprojektion formulierten Niveaus von rund 190.000 Stellen. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- Growiec/Prettner/Szkróbka (arXiv 2603.17898, 18. März 2026, *„Workers' Incentives and the Optimal Taxation of AI"*): außerhalb des 7-Tage-Fensters; potentielle § 3-Ergänzung in einem Wochenend-/Vertiefungslauf.
+- NBER WP 34854 *„Building Pro-Worker Artificial Intelligence"* (Acemoglu, Autor, Johnson): bereits seit Version 16.0 als Hamilton-Project-Februar-2026-Beleg in § 3.3 enthalten.
+- Connecticut SB 5 — Lamont-Unterzeichnung: zum Stichtag 25. Mai 2026 weiterhin nicht öffentlich datierbar dokumentiert (Pressespokesperson „looks forward to signing"); bestehende § 4.5-Darstellung bleibt korrekt.
+- Bundesrat 1066. Sitzung 22. Mai 2026 / Bundestag GKV-Beitragssatzstabilisierungsgesetz erste Lesung: zum Recherchezeitpunkt am 25. Mai 2026 keine verbindlichen Beschlüsse zum BStabG mit Versionsrelevanz für die KI-Steuerdebatte öffentlich verfügbar; bestehender Verweis in § 5.2 / § 7.3 / Aktualitätshinweis bleibt korrekt.
+- IAB-Kurzbericht 5/2026 (zitiert in den Suchergebnissen): keine neue KI-/Robotik-steuerrelevante Aussage über den IAB-Frühjahrsprognose-Stand vom 24. März 2026 hinaus.
+- Anthropic Economic Index: kein neuer Bericht zwischen dem 8. und 25. Mai 2026; bestehender § 3.5-Block bleibt aktuell.
+- Cluster G (Gesundheitswesen): fünftes Mal in Folge ohne valide Treffer im 7-Tage-Fenster.
+- Cluster I (Frontier-Modelle, u. a. Gemini 3.5 Flash am 19. Mai 2026): kein Befund mit unmittelbarer politisch-fiskalischer Implikation oberhalb der seit Version 17.0 dokumentierten Linie der Inferenzpreissenkung.
+- Cluster J (Robotik): keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitt 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Bestehende §-Querverweise unverändert; die in § 4.3 aktualisierte Digital-Omnibus-Passage verweist weiterhin auf die unveränderten Hochrisiko-Anknüpfungspunkte; die § 1.1-Layoff-Erweiterung verweist implizit auf § 5.1 und § 8.3 — diese Ziele existieren weiterhin. |
+| 2.1.4 Roter Faden | OK | Die Ergänzungen sind eine Aktualisierung der EU-rechtlichen Anknüpfungspunkte (§ 4.3) und des bestehenden Layoff-/Tracker-Blocks (§ 1.1); der rote Faden Literaturrezeption → Position → Umsetzung bleibt unverändert. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; keine neuen Tabellen oder Lead-Ins; Versionszeile im Dokumentkopf (22.0 → 23.0) konsistent geändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Digital-Omnibus-Einigung am 7. Mai 2026 in Pressemitteilung des Rats, Bird & Bird, White & Case, Hogan Lovells und Taylor Wessing übereinstimmend belegt; Stichtage 2. Dezember 2027 (Anhang III) und 2. August 2028 (Anhang I) konsistent in allen Sekundärquellen; neue Art.-5-Verbotsnorm anwendbar ab 2. Dezember 2026 in allen vier Kanzleianalysen identisch beschrieben. Layoff-Zahlen Cisco 4.000 (TechCrunch / TechStartups), Meta 8.000 + 6.000 offene Stellen / 10 % (NPR / TheNextWeb / TechStartups / Yahoo Finance), Intuit 3.000 / 17 % (TechCrunch / CFO Dive / HRD / Mirror Review), ClickUp 22 % (TheNextWeb), BILL bis 30 % und Upwork 24 % (Fast Company / Yahoo Finance) konsistent. TrueUp-Tagesstand 142.985 / 339 / 993 pro Tag aus trueup.io/layoffs. |
+| 2.2.2 Redundanzprüfung | OK | Die § 4.3-Aktualisierung ersetzt den überholten Trilog-Ausblick; die § 1.1-Erweiterung führt die Layoff-Reihe als zeitlich vorgelagerten Block fort, ohne die Cloudflare-Passage zu duplizieren. Die Tracker-Reihe wird als Tagesfortschreibung an die bestehenden Stände (8. Mai → 25. Mai 2026) angeschlossen, gemäß Claude.md § 4.2. |
+| 2.2.3 Argumentation | OK | Acemoglu/Thuemmel-Trennung unverändert; Deutschland-These (drei Säulen) unverändert; fünf Robotersteuer-Typen unverändert auseinandergehalten; politische Trilogeinigung im Indikativ wiedergegeben, die noch ausstehende förmliche Verabschiedung im Konjunktiv. |
+| 2.2.4 Ausgewogenheit | OK | Die KI-Begründung der Layoffs wird wie in Version 22.0 neutral wiedergegeben; die in § 1.1 etablierte *Washington-Post*-Differenzierung vom 1. Mai 2026 bleibt explizit erhalten; die § 4.3-Digital-Omnibus-Einigung wird ohne wertende Sprache referiert. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobenartige Prüfung der eingefügten Passagen ohne Befund. |
+| 2.3.2 Terminologie | OK | „Agentic AI", „AI-Pods", „100x-Modell", „Applied AI Engineering" als zitierte Begriffe in Anführungszeichen bzw. Originalformulierung; bestehende Schreibweisen „TrueUp", „Hyperscaler", „VRSAR" einheitlich; APA-konforme Quellenangabe für alle vier neuen Sammelbelege. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Digital-Omnibus-Einigung: § 11.3 neuer Eintrag Rat der EU; § 11.5 neuer Sammelbeleg Bird & Bird / White & Case / Hogan Lovells / Taylor Wessing. Layoff-Welle: § 11.5 vier neue Sammelbelege (Cisco, Meta, Intuit, ClickUp/BILL/Upwork). Tracker: § 11.5 neuer Eintrag TrueUp (Stand 25. Mai 2026). Keine Karteileichen. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-Stil eingehalten; URLs vollständig (kein Shortener); Datumsangaben einheitlich; Sammelbelege mit „/"-Trenner zwischen Quellen. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Digital-Omnibus: Primärquelle ist die gemeinsame Pressemitteilung des Rats vom 7. Mai 2026 (consilium.europa.eu) und das Ratsdokument 9247/26 (13. Mai 2026); ergänzende Kanzleianalysen Bird & Bird, White & Case, Hogan Lovells und Taylor Wessing als sekundäre Mehrfach­bestätigung. Layoff-Belege aus etablierten Tech-/Wirtschaftspublikationen (TechCrunch, NPR, CFO Dive, Yahoo Finance, Fast Company); Tracker primärquellenbasiert (trueup.io). |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 25. Mai 2026 über WebSearch-Trefferanzeigen: consilium.europa.eu/en/press/press-releases/2026/05/07 (öffentlich, Inhalt konsistent); twobirds.com/en/insights/2026/digital-omnibus-on-ai-provisional-agreement (öffentlich); techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees (öffentlich); npr.org/2026/05/20/nx-s1-5826917/meta-layoffs-ai-jobs (öffentlich); techcrunch.com/2026/05/14/cisco-cuts-nearly-4000-jobs (öffentlich); trueup.io/layoffs (öffentlich). |
+| 2.4.5 Zitatgenauigkeit | OK | Kernzahlen Digital Omnibus (Stichtage 2. Dezember 2027 / 2. August 2028; CSAM/NCII-Verbot anwendbar ab 2. Dezember 2026; Art.-50-Übergang bis 2. Dezember 2026; Verabschiedung bis 2. August 2026 angestrebt) wörtlich aus den Kanzleianalysen und der Ratsmitteilung übernommen. Layoff-Kernzahlen (Cisco 4.000 / <5 %; Meta 8.000 + 6.000 / 10 %, Capex 115–135 Mrd. USD; Intuit 3.000 / 17 %; ClickUp 22 % / „100x" / 3:1; BILL bis 30 %; Upwork 24 %; Restrukturierungsaufwand Upwork 16–23 Mio. USD; Severance Meta 16 + 2/Dienstjahr + 18 Mo. Health; Severance Intuit 16 + 2/Dienstjahr) wörtlich aus den verifizierten Quellen übernommen. TrueUp-Kernzahlen (142.985 / 339 / 993 pro Tag) wörtlich aus trueup.io. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Markierung *de la Feria et al. 2022* unverändert erhalten; die neuen Sammelbelege benötigen keine eigene Verifizierungsmarkierung (Primärquelle Rat der EU bzw. unternehmensseitige Pressemitteilungen plus mehrere unabhängige Sekundärquellen). |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionsnummer 23.0 in Dokumentkopf, Aktualitätshinweis, README.md (Versionszeile, Zitiervorschlag, KI-Offenlegung mit neuem Versionseintrag) und diesem Validierungsblock identisch; CC-BY-4.0-Hinweis und Haftungshinweis unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Skripte vorhanden; manuelle Stichproben gemäß § 2.6 ersetzen den automatisierten Teil. |
+
+### Gefundene Fehler
+
+Keine — die drei Ergänzungen sind Aktualisierungen einer bestehenden Linie (§ 4.3, § 1.1, § 11.5) ohne Korrekturbedarf an anderen Aussagen.
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| – | – | Keine Bereinigungen erforderlich. | – |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen (2.1.1–2.1.5, 2.2.1–2.2.4, 2.3.1–2.3.2, 2.4.1–2.4.6, 2.5): OK.
+- Automatisierte Skripte: n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine Fehler).
+- Neue Version: 23.0.
+- PDF erstellt: Ja.
+- Word erstellt: Ja.
+
+---
+
 ## Validierung 8. Mai 2026 (Lauf 001 vom 8. Mai 2026) — Version 21.0 → Version 22.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf am 8. Mai 2026 (nach den drei Tagesaktualisierungen am 7. Mai 2026, die in den Versionen 19.0, 20.0 und 21.0 protokolliert sind). Web-Recherche im Korridor der Cluster A–J am 8. Mai 2026: Optimalsteuer-/Aufgabenforschung (Cluster A); Robotersteuer/Wertschöpfungsabgabe DE/EU (Cluster B); internationale Praxis (Cluster C); Politik-Initiativen (Cluster D); Arbeitsmarkt- und Sozialversicherungsdaten (Cluster E); Tech-Layoffs / KI-Capex 48-Stunden-Fenster (Cluster F); Gesundheitswesen (Cluster G); Deutschland-These-Bezugspunkte (Cluster H); Frontier-Modelle (Cluster I); Robotik (Cluster J). Drei belegbare Treffer im 7-Tage- bzw. 48-Stunden-Fenster identifiziert und eingearbeitet (Cloudflare-Layoff vom 7. Mai 2026; Challenger *April-2026-Job-Cuts-Report* vom 1. Mai 2026; TrueUp-Tagesfortschreibung 8. Mai 2026); alle übrigen recherchierten Themen waren in Version 21.0 bereits enthalten oder lagen außerhalb des 7-Tage- bzw. 48-Stunden-Korridors.
