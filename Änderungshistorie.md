@@ -54,6 +54,95 @@
 
 ---
 
+## 2026-05-26 — Lauf 002 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster G — Gesundheitssektor — fünftes Mal in Folge ohne neue belegbare Treffer im 7-Tage-Fenster; Cluster I/J im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen; Cluster B/F mit vier aufgenommenen Treffern).
+- Zeitfenster: 7 Tage (ab 19. Mai 2026); Cluster F und Cluster I jeweils 48 Stunden (ab 24. Mai 2026); für die Trilog-Einigung *Digital Omnibus on AI* vom 7. Mai 2026 erweitertes 7-Tage-Fenster, da das Ereignis exakt am Tag nach dem Schnitt von Lauf 001 (8. Mai 2026, früher Morgen) eintrat und in Lauf 001 nicht erfasst werden konnte.
+- Anzahl Suchanfragen: 16 (Web-Suche).
+- Lauf 002 ist der zweite reguläre Daily-Update-Lauf nach Lauf 001 vom 8. Mai 2026 (Versionssprung 21.0 → 22.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B | Rat der Europäischen Union, *Artificial Intelligence: Council and Parliament agree to simplify and streamline rules*, Pressemitteilung vom 7. Mai 2026 | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ | übernommen |
+| 2 | B | Bird & Bird, *Digital Omnibus on AI Provisional Agreement Reached at the May Trilogue*, 8. Mai 2026 | https://www.twobirds.com/en/insights/2026/digital-omnibus-on-ai-provisional-agreement-reached-at-the-may-trilogue | übernommen (Sammelbeleg) |
+| 3 | B | Lexology, *EU AI Act Omnibus Deal Reached: Postponed Deadlines, Watermarking Compromise, and the Nudificiation Prohibition*, Mai 2026 | https://www.lexology.com/library/detail.aspx?g=e4fc7b8c-e435-404a-a737-1d16892531e4 | übernommen (Sammelbeleg) |
+| 4 | B | White & Case LLP, *EU agrees Digital Omnibus deal to simplify AI rules*, Mai 2026 | https://www.whitecase.com/insight-alert/eu-agrees-digital-omnibus-deal-simplify-ai-rules | übernommen (Sammelbeleg) |
+| 5 | B | Hogan Lovells, *EU legislators agree to delay for high-risk AI rules*, Mai 2026 | https://www.hoganlovells.com/en/publications/eu-legislators-agree-to-delay-for-highrisk-ai-rules | übernommen (Sammelbeleg) |
+| 6 | B | Modulos, *EU AI Act Delayed: The Omnibus Deal Closed on 7 May 2026*, Mai 2026 | https://www.modulos.ai/blog/eu-ai-act-omnibus-deal/ | übernommen (Sammelbeleg) |
+| 7 | F | TechCrunch, *Cisco cuts nearly 4,000 jobs to spend more on AI, reports „record quarterly revenue"*, 14. Mai 2026 | https://techcrunch.com/2026/05/14/cisco-cuts-nearly-4000-jobs-to-spend-more-on-ai-reports-record-quarterly-revenue/ | übernommen |
+| 8 | F | IndexBox, *Cisco Layoffs 2026: Workforce Cuts Under 5% as Company Pivots to AI and Posts Record Revenue*, 14. Mai 2026 | https://www.indexbox.io/blog/cisco-plans-layoffs-of-under-4000-jobs-to-focus-on-ai/ | übernommen (Sammelbeleg) |
+| 9 | F | The HR Digest, *Cisco Layoffs Set To Affect 4,000 Roles as AI Redefines Operations*, 14. Mai 2026 | https://www.thehrdigest.com/cisco-layoffs-set-to-affect-4000-roles-as-ai-redefines-operations/ | übernommen (Sammelbeleg) |
+| 10 | F | TheStreet, *Cisco CEO reveals real reason behind 4,000 job cuts*, 14. Mai 2026 | https://www.thestreet.com/employment/cisco-ceo-reveals-real-reason-behind-4000-job-cuts | übernommen (Sammelbeleg) |
+| 11 | F | Fox Business, *Cisco to cut thousands of jobs as AI push accelerates after earnings beat*, 14. Mai 2026 | https://www.foxbusiness.com/technology/cisco-cut-thousands-jobs-ai-push-accelerates-earnings-beat | übernommen (Sammelbeleg) |
+| 12 | F | TrueUp, *Tech Layoffs Tracker — Stand 26. Mai 2026 (342 Layoff-Meldungen / 143.985 Personen / rund 993 Personen pro Tag im Jahresdurchschnitt)* | https://www.trueup.io/layoffs | übernommen |
+| 13 | F | SkillSyncer, *2026 Tech Layoffs Tracker — Stand 25. Mai 2026 (212 Ereignisse / 134.603 Personen / rund 928 Personen pro Tag)* | https://skillsyncer.com/layoffs-tracker | übernommen (Sammelbeleg) |
+| 14 | E/G | Bundesgesundheitsministerium, *GKV-Beitragssatzstabilisierungsgesetz — Service-Eintrag und DKG-Stellungnahme vom 8. Mai 2026 / KBV-Stellungnahme*, Mai 2026 | https://www.bundesgesundheitsministerium.de/service/gesetze-und-verordnungen/detail/gkv-beitragssatzstabilisierungsgesetz | übernommen (Verfahrenstand-Präzisierung) |
+| 15 | D | Axios, *Scoop: Trump AI executive order seeks early government access to frontier models* / CNN, *White House postpones executive order on AI*, 20./22. Mai 2026 | https://www.axios.com/2026/05/20/ai-trump-executive-order-white-house-infighting | verworfen (Executive Order verschoben, keine formale Inkraftsetzung im 7-Tage-Fenster) |
+| 16 | A | arXiv-Preprint, *Workers' Incentives and the Optimal Taxation of AI*, 19. März 2026 | https://arxiv.org/pdf/2603.17898 | verworfen (außerhalb 7-Tage-Fenster; Preprint ohne Peer-Review) |
+| 17 | B | Hessen Bundesrat 1065. Sitzung 8. Mai 2026 — Beschlusstexte | https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1065/1065-node.html | Dublette (in Lauf 001 referenziert) |
+| 18 | C/D | Connecticut SB 5 — Lamont-Unterzeichnung Mai 2026 | https://www.cga.ct.gov/asp/CGABillStatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB5 | verworfen (Pressespokesperson „plans to sign", aber keine offizielle „Public Act"-Datum-Ankündigung im 7-Tage-Fenster) |
+| 19 | I | Anthropic Economic Index — Stand Mai 2026 | https://www.anthropic.com/economic-index | verworfen (keine Bewegung im 48-Stunden-Fenster) |
+| 20 | J | IFR World Robotics Report 2026 / Boston Dynamics Atlas / Tesla Optimus Gen-3 / Figure 03 | https://ifr.org/worldrobotics/ | verworfen (Bericht noch nicht erschienen; keine neue Stückzahl-/Pilotkunden-Belege im 48-Stunden-Fenster) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.4 (Europarechtliche Vorgaben) | Aktualisierung | Die in Version 22.0 als „laufend" beschriebene Trilog-Verhandlung zum *Digital Omnibus on AI* wurde am 7. Mai 2026 (frühe Morgenstunden) nach einer rund neunstündigen dritten Trilogrunde unter zypriotischer Ratspräsidentschaft mit provisorischer politischer Einigung abgeschlossen; bestätigt sind die Stichtage 2. Dezember 2027 (Anhang III) und 2. August 2028 (Anhang I), die Kennzeichnungspflicht nach Art. 50 Abs. 2 bleibt ab 2. August 2026 anwendbar mit Übergangsperiode bis 2. Dezember 2026 für bereits in Verkehr gebrachte Systeme, und ein neues Art. 5-Verbot für KI-generierte kinderpornografische Inhalte und nicht einvernehmliche intime Bildaufnahmen wird in drei Konfigurationen eingeführt (Anpassungsfrist bis 2. Dezember 2026); die formelle Annahme durch Rat und Parlament wird vor dem 2. August 2026 angestrebt. | 1–6 |
+| 2 | § 1.1 (Tracker-/Layoff-Block) | Ergänzung | Cisco-Systems-Layoff vom 13. Mai 2026 mit unter 4.000 Stellen (unter 5 % der Belegschaft) bei parallelem Rekord-Q3-FY2026-Umsatz von 15,8 Milliarden US-Dollar und 5,3 Milliarden US-Dollar AI-Infrastruktur-Bestellungen von Hyperscalern (Restrukturierungsaufwand bis zu 1 Mrd. USD, Notification-Beginn 14. Mai 2026) wird nach dem Cloudflare-Block in den bestehenden Layoff-Block eingegliedert; das Muster „Rekord-AI-Umsatz parallel zu Personalabbau" wird explizit benannt und mit den Cloudflare- und Hyperscaler-Daten verzahnt. | 7–11 |
+| 3 | § 1.1 (Tracker-Reihe) | Aktualisierung | TrueUp-Tagesfortschreibung 26. Mai 2026 (143.985 Personen aus 342 Layoff-Meldungen, rund 993 Personen pro Tag im Jahresdurchschnitt) und SkillSyncer-Tagesfortschreibung 25. Mai 2026 (134.603 Personen aus 212 Layoff-Ereignissen, rund 928 Personen pro Tag) als Fortsetzung der Tracker-Reihe Anfang Mai 2026 in den bestehenden Tracker-Block eingegliedert. | 12–13 |
+| 4 | § 11.3 | Aktualisierung | Der bestehende Trilog-Eintrag wird um Datum und Inhalt der Einigung vom 7. Mai 2026 sowie sechs Sekundärquellen (Pressemitteilung des Rates der EU, Bird & Bird, Lexology, White & Case, Hogan Lovells, Modulos) erweitert. | 1–6 |
+| 5 | § 11.5 | Ergänzung | Zwei neue Sammelbelege in Kapitel 11.5: *TechCrunch / IndexBox / The HR Digest / TheStreet / Fox Business* (Cisco 13./14. Mai 2026, fünf URLs); *TrueUp / SkillSyncer* (Stand 25./26. Mai 2026). | 7–13 |
+| 6 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Lauf 002 vom 26. Mai 2026" geändert; Trilog-Stand von „laufend / nächste Runde 13. Mai 2026" auf die abgeschlossene Einigung vom 7. Mai 2026 mit ihren Inhalten umgestellt; Cisco-Layoff (unter 4.000 Stellen, unter 5 %, Q3-FY2026-Umsatz 15,8 Mrd. USD, 5,3 Mrd. USD AI-Bestellungen, bis zu 1 Mrd. USD Restrukturierungsaufwand) und TrueUp-/SkillSyncer-Tagesstand 25./26. Mai 2026 in den Auflistungstext aufgenommen; Präzisierung des GKV-Beitragssatzstabilisierungsgesetz-Verfahrenstands (erste Bundestagslesung auf Mitte Juni 2026 verschoben). | 1–14 |
+| 7 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Versions-Eintrag in der KI-Offenlegung mit den vier Cluster-B/E/F-Bündeln Digital-Omnibus-Trilog / Cisco / TrueUp-SkillSyncer / GKV-Verfahrenstand). | — |
+| 8 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 26. Mai 2026 (Lauf 002 vom 26. Mai 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Trump AI Executive Order (Voluntary AI Model Review Process) — geplante Unterzeichnung Woche 19./20. Mai 2026 | D | Nach Berichterstattung von Axios und CNN vom 20./22. Mai 2026 verschoben; ohne formale Inkraftsetzung kein Übernahmegrund — nächster Lauf zu prüfen. |
+| 2 | *Workers' Incentives and the Optimal Taxation of AI* (arXiv-Preprint, 19. März 2026) | A | Außerhalb 7-Tage-Fenster; Preprint ohne abschließende Peer-Review — bei Veröffentlichung in begutachtetem Journal nachzutragen. |
+| 3 | Connecticut SB 5 — Lamont-Unterzeichnung | C/D | Im 7-Tage-Fenster vor dem 26. Mai 2026 weiterhin nur Pressespokesperson „plans to sign"; keine offizielle „Public Act"-Datum-Ankündigung — bestehender § 4.5-Block bleibt korrekt — nächster Lauf zu prüfen. |
+| 4 | Tesla Optimus Gen-3 / Boston Dynamics Atlas / Figure 03 | J | Berichterstattung zu Produktionsplänen Mai 2026 ohne neue Stückzahl-/Pilotkunden-Belege über den in Version 16.0/17.0 dokumentierten Stand hinaus. |
+| 5 | IFR World Robotics Report 2026 | J | Bericht noch nicht im Frühjahr 2026 erschienen. |
+| 6 | Anthropic Economic Index — Folgebericht | I | Keine Bewegung im 48-Stunden-Fenster vor dem 26. Mai 2026; bestehender § 3.5-Block bleibt aktuell. |
+| 7 | *Plattform-Digitalabgabe* (Weimer) | B/H | Keine Bewegung über Version 10.0/11.0 hinaus zwischen 8. und 26. Mai 2026; Eckpunktepapier weiterhin angekündigt, aber nicht vorgelegt. |
+| 8 | *ulga na robotyzację* — Sejm-Entwurf 100 % | C | Bereits in Version 16.0 dokumentiert; keine neue Entwicklung. |
+| 9 | Generationenkapital — Stand Mai 2026 | E/H | Keine neuen Tranchen-/Renditeangaben zwischen 8. und 26. Mai 2026; bestehender § 8.6-Verweis bleibt aktuell. |
+| 10 | Bundesrat 1065. Sitzung 8. Mai 2026 — Beschlusstexte | B/E | In Lauf 001 referenziert; keine neuen GKV-relevanten Beschlüsse mit Stand 26. Mai 2026, die über die Aktualitätshinweis-Präzisierung hinausgehen würden. |
+| 11 | Cluster G (Gesundheitswesen) | G | Fünftes Mal in Folge ohne KI-spezifische neue Beschlüsse oder DiGA-Listings im 7-Tage-Fenster vor dem 26. Mai 2026. |
+| 12 | Verfassungsblog — KI-Steuerbeitrag Mai 2026 | B | Im 7-Tage-Fenster vor dem 26. Mai 2026 kein neuer einschlägiger Beitrag identifiziert. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 26. Mai 2026 (Lauf 002 vom 26. Mai 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 002 ist der zweite reguläre Daily-Update-Lauf nach Lauf 001 vom 8. Mai 2026; die zentrale Aktualisierung ist die in Lauf 001 als „laufend" beschriebene Trilog-Verhandlung zum *Digital Omnibus on AI*, die in den frühen Morgenstunden des 7. Mai 2026 — also unmittelbar nach dem Schnitt von Lauf 001 — mit provisorischer politischer Einigung abgeschlossen wurde; für die in § 4.4 entwickelte Linie der Anknüpfung steuerlicher Tatbestände an AI-Act-Kategorien ist damit ein verbindlicher Zeitplan (2. Dezember 2027 / 2. August 2028) festgeschrieben.
+- Cisco ist nach Cloudflare der zweite Netzanbieter, der eine konzernweite Restrukturierung explizit am Übergang zu einer KI-zentrierten Wertschöpfungslogik festmacht — und damit den Trend von SaaS/Fintech/IT-Services in den Bereich der KI-Infrastrukturakteure ausdehnt; die Konstellation „Rekord-Umsatz + AI-Capex-Boom + Personalabbau" schärft die in § 1.1 dokumentierte Asymmetrie-Linie.
+- Trump AI Executive Order (Voluntary AI Model Review Process): Stand 26. Mai 2026 weiterhin unsigniert nach Berichterstattung vom 20./22. Mai 2026; bei formaler Inkraftsetzung im nächsten Lauf nachzutragen.
+- Connecticut SB 5: Lamont-Unterzeichnung im Mai 2026 weiterhin ohne datumsgenauen Beleg; in einem späteren Lauf nachzutragen, sobald die offizielle „Public Act"-Ankündigung mit Datum vorliegt.
+- Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne valide Treffer im 7-Tage-Fenster; Empfehlung für die nächsten Läufe weiterhin bestehend (gezielter Abruf von g-ba.de-Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-Listings).
+- Cluster I (Frontier-Modelle) und Cluster J (Robotik) im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen; Beobachtung beim nächsten Lauf fortsetzen.
+- Branch dieses Laufs: `claude/determined-einstein-ac8Kr` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push neu angelegt).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. In der laufenden Session sind weder ein `mail_send`/`send_mail`/`send_message`/`outlook_send`-Tool aus einem `graph-mcp`-Server noch ein `wa_send_message`/`send_message`-Tool aus einem `whatsapp`-MCP-Server erreichbar; die vorbereiteten Inhalte werden gemäß Phase-5b-Spezifikation als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben (Dateien stehen in `.gitignore`, werden also nicht versioniert).
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
