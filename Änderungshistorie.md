@@ -54,6 +54,113 @@
 
 ---
 
+## 2026-05-28 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster G — Gesundheitssektor — fünftes Mal in Folge ohne neue belegbare Treffer im 7-Tage-Fenster; Cluster I/J im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen; Cluster D und F mit den meisten verwertbaren Treffern, Cluster E mit einem zentralen deutschen Frühindikator).
+- Zeitfenster: 7 Tage (21.–28. Mai 2026); Cluster F und I: 48 Stunden (26.–28. Mai 2026); abweichend wurde das *Intuit*-Programm vom 20. Mai 2026 als Aggregat-Bestandteil der SkillSyncer-Tracker-Methodik aufgenommen (Stichtag 27. Mai 2026), ebenso die *Wix*-Ankündigung vom 26. Mai 2026, die innerhalb des 48-Stunden-Fensters bestätigt wurde.
+- Anzahl Suchanfragen: 16 (Web-Suche), 7 (WebFetch).
+- Vorlauf-Lücke gegenüber der letzten Tagesaktualisierung (Lauf 001 vom 8. Mai 2026, Version 22.0): 20 Kalendertage; entsprechend wurde der Treffer-Trichter etwas weiter gespannt, ohne das 7-Tage-Fenster aufzuheben.
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | D | Warren, E. — *Why We Need to Tax AI*, Time-Op-Ed, 27. Mai 2026 | https://time.com/article/2026/05/27/why-we-need-to-tax-ai/ | übernommen |
+| 2 | D | Axios — *Elizabeth Warren: Tax AI companies to benefit all Americans*, 27. Mai 2026 | https://www.axios.com/2026/05/27/elizabeth-warren-tax-ai-companies-benefit-americans | übernommen (Sammelbeleg) |
+| 3 | D | The Hill — *Warren proposes AI tax*, 27. Mai 2026 | https://thehill.com/homenews/senate/5898081-warren-proposes-ai-tax/ | übernommen (Sammelbeleg) |
+| 4 | D | TechTimes — *Warren Proposes AI Data Center Tax to Fund Workers Displaced by Automation*, 27. Mai 2026 | https://www.techtimes.com/articles/317294/20260527/warren-proposes-ai-data-center-tax-fund-workers-displaced-automation.htm | übernommen (Sammelbeleg) |
+| 5 | D | Cryptobriefing — *Elizabeth Warren proposes taxing AI companies to benefit all Americans*, 27. Mai 2026 | https://cryptobriefing.com/elizabeth-warren-ai-tax-proposal/ | übernommen (Sammelbeleg) |
+| 6 | D | U.S. Senate (Warren) — *Senator Warren, Lawmakers Open Investigation into Big Tech Data Centers' Role in Driving Up Families' Utility Costs* | https://www.warren.senate.gov/newsroom/press-releases/senator-warren-lawmakers-open-investigation-into-big-tech-data-centers-role-in-driving-up-families-utility-costs | übernommen (Begleitstrang) |
+| 7 | F | Groupon Inc. — 8-K Material Event (Filing 26. Mai 2026, Vorstandsbeschluss 21. Mai 2026) | https://www.stocktitan.net/sec-filings/GRPN/8-k-groupon-inc-reports-material-event-1ecafd00d145.html | übernommen (Primärquelle) |
+| 8 | F | Crain's Chicago Business — *Groupon is cutting 400 jobs*, 27. Mai 2026 | https://www.chicagobusiness.com/technology/ccb-groupon-layoffs-ai-20260527/ | übernommen (Sammelbeleg) |
+| 9 | F | Fast Company — *Groupon layoffs today: jobs slashed in AI-native pivot, stock rises*, 27. Mai 2026 | https://www.fastcompany.com/91548945/groupon-layoffs-today-jobs-slashed-ai-native-pivot-stock-rises | übernommen (Sammelbeleg) |
+| 10 | F | PYMNTS — *Groupon Cuts 400 Jobs to Fund AI Pivot*, 27. Mai 2026 | https://www.pymnts.com/business/2026/groupon-cuts-400-jobs-to-fund-ai-pivot/ | übernommen (Sammelbeleg) |
+| 11 | F | TipRanks — *Groupon Launches Workforce Restructuring to Support AI Strategy*, 27. Mai 2026 | https://www.tipranks.com/news/company-announcements/groupon-launches-workforce-restructuring-to-support-ai-strategy | übernommen (Sammelbeleg) |
+| 12 | F | Yahoo Finance — *GRPN Stock Rises Premarket: Groupon Is Rebuilding Itself As ‚AI-Native' Company*, 27. Mai 2026 | https://finance.yahoo.com/news/grpn-stock-rises-premarket-groupon-084025738.html | übernommen (Sammelbeleg) |
+| 13 | F | IBTimes UK — *Groupon Cuts 25% Workforce Globally — AI Voice Agents Replacing Human Sales Workers Will Save Up To $25M*, 27. Mai 2026 | https://www.ibtimes.co.uk/groupon-ai-restructuring-job-cuts-1799091 | übernommen (Sammelbeleg) |
+| 14 | F | American Bazaar — *Hundreds of jobs cuts in Groupon's ‚AI-native' pivot*, 27. Mai 2026 | https://americanbazaaronline.com/2026/05/27/hundreds-of-jobs-cuts-in-groupons-ai-native-pivot-481654/ | übernommen (Sammelbeleg) |
+| 15 | F | Layoffhedge — *Groupon Layoffs 2026 — 400 Jobs Cut, ~24% of Workforce, AI Restructuring Under „Project Foundry"* | https://layoffhedge.com/company/groupon | übernommen (Sammelbeleg) |
+| 16 | F | Gigazine — *Wix is set to lay off approximately 1,000 employees, or about 20% of its workforce*, 26. Mai 2026 | https://gigazine.net/gsc_news/en/20260526-wix-layoff/ | übernommen |
+| 17 | F | Times of Israel — *Israeli tech giant Wix said to be cutting some 20% of global workforce in coming months*, 26. Mai 2026 | https://www.timesofisrael.com/liveblog_entry/israeli-tech-giant-wix-said-to-be-cutting-some-20-of-global-workforce-in-coming-months/ | übernommen (Sammelbeleg) |
+| 18 | F | GuruFocus — *WIX Plans Major Layoffs Amid Financial Challenges*, 26. Mai 2026 | https://www.gurufocus.com/news/8881760/wix-plans-major-layoffs-amid-financial-challenges | übernommen (Sammelbeleg) |
+| 19 | F | CoinCentral — *Wix Stock Drops 50% as 1,000 Job Cuts Signal Deeper Trouble after Earnings*, 26. Mai 2026 | https://coincentral.com/wix-stock-drops-50-as-1000-job-cuts-signal-deeper-trouble-after-earnings/ | übernommen (Sammelbeleg) |
+| 20 | F | Seeking Alpha — *Wix After Layoffs And Buyback: Hold For Now*, 26./27. Mai 2026 | https://seekingalpha.com/article/4908761-wix-after-layoffs-and-buyback-hold-for-now | übernommen (Sammelbeleg) |
+| 21 | F | Globes — *AI forces Israeli unicorn BigID to lay off 150*, 26. Mai 2026 | https://en.globes.co.il/en/article-ai-forces-israeli-unicorn-bigid-to-lay-off-150-1001544054 | übernommen |
+| 22 | F | TechCrunch — *Intuit to lay off over 3,000 employees to refocus on AI*, 20. Mai 2026 | https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/ | übernommen (Aggregat-Bestandteil Tracker) |
+| 23 | F | CNBC — *Intuit CEO says company's 17% workforce cut had ‚nothing to do with AI'*, 20. Mai 2026 | https://www.cnbc.com/2026/05/20/intuit-ceo-says-companys-17percent-workforce-cut-had-nothing-to-do-with-ai.html | übernommen (Sammelbeleg, Ausgewogenheit) |
+| 24 | F | Quartz — *Intuit layoffs: company cutting 17% of workforce in AI push*, 20. Mai 2026 | https://qz.com/intuit-layoffs-workforce-reduction-ai-restructuring-052026 | übernommen (Sammelbeleg) |
+| 25 | F | HR Digest — *Intuit Denies 2026 Layoffs Are AI-Driven, as Streamlining Goals Lead the Way*, Mai 2026 | https://www.thehrdigest.com/intuit-denies-2026-layoffs-are-ai-driven-as-streamlining-goals-lead-the-way/ | übernommen (Sammelbeleg) |
+| 26 | F | The Workers Rights — *Intuit Layoffs: CEO Says AI Not Behind 3,000 Job Cuts Global*, Mai 2026 | https://www.theworkersrights.com/intuit-layoffs-ceo-ai-not-behind-3000-job-cuts/ | übernommen (Sammelbeleg) |
+| 27 | F | SkillSyncer / TrueUp — *Tech Layoffs Tracker, Stand 27. Mai 2026 (134.603 / 212 / 916 pro Tag; US-Tech-Arbeitslosenquote 5,8 %)* | https://skillsyncer.com/layoffs-tracker \| https://www.trueup.io/layoffs | übernommen |
+| 28 | E | ifo Institut — *ifo Beschäftigungsbarometer Mai 2026 (93,9 von 91,4; höchster Wert seit Juli 2025)*, 27. Mai 2026 | https://www.ifo.de/en/survey/ifo-employment-barometer | übernommen |
+| 29 | E | Handelsblatt — *Arbeitsmarkt: ifo-Barometer steigt auf höchsten Wert seit zehn Monaten*, 27. Mai 2026 | https://www.handelsblatt.com/politik/deutschland/arbeitsmarkt-ifo-barometer-steigt-auf-hoechsten-wert-seit-zehn-monaten/100227328.html | übernommen (Sammelbeleg) |
+| 30 | E | Onvista — *Ifo: Stellenabbau verlangsamt sich im Mai — schwierige Lage in Industrie*, 27. Mai 2026 | https://www.onvista.de/news/2026/05-27-ifo-stellenabbau-verlangsamt-sich-im-mai-schwierige-lage-in-industrie-0-20-26515694 | übernommen (Sammelbeleg) |
+| 31 | E | t-online — *Ifo: Stellenabbau verlangsamt sich*, 27. Mai 2026 | https://www.t-online.de/finanzen/aktuelles/id_101271050/ifo-stellenabbau-verlangsamt-sich.html | übernommen (Sammelbeleg) |
+| 32 | E | HASEPOST — *ifo-Beschäftigungsbarometer steigt — vorsichtiger Aufwärtstrend am Arbeitsmarkt*, 27. Mai 2026 | https://hasepost.de/ifo-beschaeftigungsbarometer-steigt-vorsichtiger-aufwaertstrend-am-arbeitsmarkt-715971/ | übernommen (Sammelbeleg) |
+| 33 | B | EU-Kommission — *Draft Commission guidelines on the classification of high-risk AI systems*, 19. Mai 2026 | https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems | verworfen (außerhalb 7-Tage-Fenster; Konsultation bis 23. Juni 2026 — im nächsten Lauf nachzutragen, sobald eine Anschluss­publikation oder Stellungnahme im Fenster liegt) |
+| 34 | C/B | Bloomberg / NPR / Fortune — *Chinese court rules firms can't lay off workers on AI grounds* (Hangzhou-Urteil, 30. April / 1.–3. Mai 2026) | https://www.bloomberg.com/news/articles/2026-05-02/chinese-court-rules-firms-can-t-lay-off-workers-on-ai-grounds | verworfen (außerhalb 7-Tage-Fenster; sehr relevant — gezielt im nächsten Lauf nachzutragen, sobald eine eigene Cluster-C-Vertiefung möglich ist) |
+| 35 | B | EU-Kommission / Consilium — Digital Omnibus on AI, politische Einigung 7. Mai 2026 | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ | verworfen (außerhalb 7-Tage-Fenster) |
+| 36 | D | 24/7 Wall St. — *Another Company Trades AI Layoffs For Stock Price*, 27. Mai 2026 | https://247wallst.com/investing/2026/05/27/another-company-trades-ai-layoffs-for-stock-price/ | verworfen (Sammelberichterstattung, Inhalt durch Groupon-Belegcluster #7–15 abgedeckt) |
+| 37 | A | NBER / Anthropic Economic Index Mai 2026 | https://www.anthropic.com/economic-index | verworfen (kein neuer Bericht im 7-Tage-Fenster; bestehender § 3.5-Block bleibt aktuell) |
+| 38 | F | 24/7 Wall St. / Investorplace / Fortune (Capers Workman, Gartner-Studie) — KI-Layoff-Rezeptionsbeiträge 11.–14. Mai 2026 | https://247wallst.com/investing/2026/05/14/ai-causes-another-4000-layoffs/ \| https://fortune.com/2026/05/11/ai-automation-layoffs-gartner-study-roi/ | verworfen (außerhalb 7-Tage-Fenster) |
+| 39 | C | South Korea / Japan / Singapore — keine neuen nationalen AI-Steuer-Initiativen im 7-Tage-Fenster | — | verworfen (keine Treffer) |
+| 40 | G | g-ba.de / gematik / BfArM — keine KI-spezifischen Beschlüsse im 7-Tage-Fenster (fünftes Mal in Folge) | https://www.g-ba.de/ | verworfen (keine Treffer) |
+| 41 | I | NVIDIA / OpenAI / Anthropic — Frontier-Modell-Releases im 48-Stunden-Fenster | — | verworfen (keine politisch-fiskalisch relevanten Tagesmeldungen) |
+| 42 | J | Tesla Optimus / Figure / 1X Stückzahlen Mai 2026 | — | verworfen (keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.5 | Ergänzung | Neuer Absatz „Warren-Vorstoß zur KI-Besteuerung (Time-Op-Ed, 27. Mai 2026)" zwischen Bloomberg-Editorial-Block und Andrew-Yang-Block: zwei flankierende Abgabe-Instrumente (per-kWh-Excise auf Rechenzentren-Stromverbrauch, skaliert nach Operationsumfang; Vermögensteuer auf KI-Sektor-Milliardäre namentlich Bezos/Altman) zur Finanzierung universaler Krankenversicherung, beitragsfreier Hochschulbildung und gestärkter Arbeitslosenversicherung für durch Automatisierung verdrängte Beschäftigte; Verweis auf fünfjährige Strompreissteigerung um rund 267 % in einzelnen US-Gemeinden im Datenzentren-Kontext; Begleitstrang Ultra-Millionaire Tax Act of 2026; konzeptionelle Einordnung als systematische Verschiebung der Robotersteuer-Anknüpfung von der Outputs- (Verdrängung) auf die Inputs-Seite (Energie/Compute). | 1–6 |
+| 2 | § 1.1 | Ergänzung | Neuer Block zur „zweiten Layoff-Welle der Maihälfte 2026" mit Groupon (400 Stellen, „Project Foundry", AI-*Voice Agents*, +10 % Aktienkurs, annualisierte Einsparung 20–25 Mio. USD, EBITDA-Prognose 2026 von 70–75 auf 75–80 Mio. USD angehoben), Wix (1.000 Stellen, 20 %, Base44-Übernahme-Kontext, größte Personalreduktion der Unternehmensgeschichte), BigID (150 Stellen, über 20 %, „AI-first approach in both software development and operations"), Intuit (3.000 Stellen, 17 %, vom Vorstandsvorsitzenden öffentlich nicht als KI-Maßnahme gerahmt — Ausgewogenheits-Anker) und SkillSyncer-Tracker-Tagesfortschreibung auf den 27. Mai 2026 (134.603 / 212 / 916 pro Tag; US-Tech-Arbeitslosenquote 5,8 %, höchster Stand seit Dotcom-Einbruch). | 7–27 |
+| 3 | § 1.1 | Ergänzung | Neuer Satz nach dem IAB-Erwerbspersonenpotenzial-Absatz: ifo Beschäftigungsbarometer Mai 2026 (Anstieg von 91,4 auf 93,9; höchster Wert seit Juli 2025; „Stellenabbau verlangsamt sich"; Industrie/Chemie weiter mit Abbau, Dienstleister erholt; Kommentar Klaus Wohlrabe „nicht mehr ganz so restriktiv") als deutscher Frühindikator parallel zur US-Layoff-Sichtbarkeit. | 28–32 |
+| 4 | § 11.5 | Ergänzung | Neun neue Einträge: Warren-Belegcluster (Time/Axios/The Hill/TechTimes/Cryptobriefing); Warren-Senatsstrang (Begleituntersuchung Datenzentren-Strompreise); Groupon-Belegcluster (Crain's/Fast Company/PYMNTS/TipRanks/Yahoo Finance/Stocktitan-8-K/IBTimes UK/American Bazaar/Layoffhedge); Wix-Belegcluster (Gigazine/Times of Israel/GuruFocus/CoinCentral/Seeking Alpha); BigID (Globes); Intuit-Belegcluster (TechCrunch/CNBC/Quartz/HR Digest/The Workers Rights); SkillSyncer/TrueUp-Tracker (Stand 27. Mai 2026); ifo-Belegcluster (ifo/Handelsblatt/Onvista/t-online/HASEPOST). | 1–32 |
+| 5 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Ende Mai 2026 (Schnitt am 28. Mai 2026 — Lauf 001 vom 28. Mai 2026)" geändert; Warren-Op-Ed, Groupon-/Wix-/BigID-/Intuit-Welle, Tracker-Tagesfortschreibung 27. Mai (134.603 / 212 / 916 pro Tag; Tech-Arbeitslosigkeit 5,8 %) und ifo Beschäftigungsbarometer Mai 2026 in den Auflistungstext aufgenommen. | 1–32 |
+| 6 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Versions-Eintrag in der KI-Offenlegung mit den sechs Bündeln Warren / Groupon / Wix / BigID / Intuit-Tracker / ifo). | — |
+| 7 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 28. Mai 2026 (Lauf 001 vom 28. Mai 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | EU-Kommission *Draft Commission guidelines on the classification of high-risk AI systems* (19. Mai 2026) | B | Außerhalb 7-Tage-Fenster (19. Mai 2026); Konsultation bis 23. Juni 2026 — in einem späteren Lauf mit Stellungnahmen aus dem Konsultationsstrang nachzutragen. |
+| 2 | Bloomberg / NPR / Fortune — Hangzhou-Urteil zur AI-Replacement-Kündigung (30. April / 1.–3. Mai 2026) | C/B | Sehr hohe Relevanz, aber außerhalb 7-Tage-Fenster; im nächsten Lauf als gezielte Cluster-C-Vertiefung nachzutragen, sobald eine Anschluss­entwicklung (MOHRSS-Verlautbarung, weiteres Urteil) im Fenster liegt. |
+| 3 | EU-Kommission / Consilium — Digital Omnibus on AI, politische Einigung 7. Mai 2026 | B | Außerhalb 7-Tage-Fenster; bestehender Aktualitätshinweis bleibt korrekt. |
+| 4 | 24/7 Wall St. *Another Company Trades AI Layoffs For Stock Price* (27. Mai 2026, Groupon) | D | Inhaltlich vom Groupon-Belegcluster #7–15 abgedeckt; keine zusätzlichen Fakten. |
+| 5 | Anthropic Economic Index — kein neuer Bericht zwischen 21. und 28. Mai 2026 | A/I | Bestehender § 3.5-Block bleibt aktuell. |
+| 6 | 24/7 Wall St. / Investorplace / Fortune — KI-Layoff-Rezeptionsbeiträge 11.–14. Mai 2026 | F | Außerhalb 7-Tage-Fenster. |
+| 7 | g-ba.de / gematik / BfArM Mai 2026 | G | Keine KI-spezifischen Beschlüsse im 7-Tage-Fenster (fünftes Mal in Folge). |
+| 8 | Frontier-Modell-Releases im 48-Stunden-Fenster | I | Keine politisch-fiskalisch relevanten Tagesmeldungen. |
+| 9 | Tesla Optimus / Figure / 1X — Stückzahlen Mai 2026 | J | Keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster. |
+| 10 | South Korea / Japan / Singapore — Q2-2026-Aktualisierungen | C | Keine neuen nationalen AI-Steuer-Initiativen im 7-Tage-Fenster. |
+| 11 | Bundesrat / Bundestag — Sozialversicherungs-/KI-Reformschritte 21.–28. Mai 2026 | B/E | Keine im 7-Tage-Fenster verifizierten Gesetzgebungs-Stationen, bestehende § 5.2-/§ 7-Darstellung bleibt korrekt. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 28. Mai 2026 (Lauf 001 vom 28. Mai 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): über Routine-Anweisung adressiert; Versandkanal und Ergebnis siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): über Routine-Anweisung adressiert; Versandkanal und Ergebnis siehe „Auffälligkeiten / offene Punkte"
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 001 vom 28. Mai 2026 ist der erste reguläre Daily-Update-Lauf nach Lauf 001 vom 8. Mai 2026 (Version 22.0); zwischen den beiden Läufen liegen 20 Kalendertage ohne Tagesaktualisierung. Im 7-Tage-Fenster (21.–28. Mai 2026) wurden mit Schwerpunkt auf den Cluster D (Warren) und F (Groupon/Wix/BigID/Intuit/Tracker) sechs belegbare Treffer plus ein deutscher Frühindikator (Cluster E: ifo Beschäftigungsbarometer Mai 2026) aufgenommen — die Trefferdichte ist gegenüber dem auf den 8. Mai 2026 erreichten Stand spürbar gestiegen, primär durch das Bündel von Konzern-Memos in der zweiten Maihälfte 2026.
+- Außerhalb des 7-Tage-Fensters, aber inhaltlich sehr relevant und für den nächsten Lauf gezielt zu prüfen: (a) das *Hangzhou*-Urteil des chinesischen Gerichts vom 30. April 2026, das Kündigungen wegen KI-Ersatz für unzulässig erklärt hat und eine MOHRSS-bezogene Anschlussbewegung im Cluster C nahelegt; (b) die EU-Kommission-*Draft Commission guidelines on the classification of high-risk AI systems* vom 19. Mai 2026 (Konsultationsfrist 23. Juni 2026) — Stellungnahmen aus dem Konsultationsstrang liefern für einen späteren Lauf einen Anschlusspunkt.
+- Cluster G (Gesundheitswesen) erneut ohne valide Treffer im 7-Tage-Fenster (fünftes Mal in Folge); Empfehlung für die nächsten Läufe weiterhin bestehend (gezielter Abruf von g-ba.de Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-Listings, DiGA mit KI-Komponente).
+- Cluster I (Frontier-Modelle) und Cluster J (Robotik) im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen; Beobachtung beim nächsten Lauf fortsetzen.
+- Branch dieses Laufs: `claude/determined-einstein-5AnCy` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push neu angelegt).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Der konkrete Versandkanal-Status (versendet / Fallback-Datei / nicht konfiguriert) wird im Abschlussbericht des Laufs unten ergänzt.
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
