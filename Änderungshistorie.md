@@ -54,6 +54,101 @@
 
 ---
 
+## 2026-05-30 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift).
+- Zeitfenster: 7 Tage Standard (Cluster F: 48 Stunden; Cluster I: 48 Stunden) — wegen 22-tägiger Pause seit Lauf 001 vom 8. Mai 2026 pragmatisch auf den Zeitraum 8.–30. Mai 2026 erweitert, um zentrale Ereignisse aus der Zwischenzeit nachzutragen (Nachholrunde-Logik).
+- Anzahl Suchanfragen: 16 (Web-Suche), 2 (WebFetch — Time und EU-Council, davon eine 403; Axios und Techtimes als Sekundärbelege erfolgreich).
+- Lauf 001 am 30. Mai 2026 ist der erste Daily-Update-Lauf nach Lauf 001 vom 8. Mai 2026.
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B | Rat der EU / Europäisches Parlament, *Artificial Intelligence: Council and Parliament agree to simplify and streamline rules*, 7. Mai 2026 | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ | übernommen |
+| 2 | B | Bird & Bird, *Digital Omnibus on AI Provisional Agreement Reached at the May Trilogue*, Mai 2026 | https://www.twobirds.com/en/insights/2026/digital-omnibus-on-ai-provisional-agreement-reached-at-the-may-trilogue | übernommen (Sammelbeleg) |
+| 3 | B | White & Case, *EU agrees Digital Omnibus deal to simplify AI rules*, Mai 2026 | https://www.whitecase.com/insight-alert/eu-agrees-digital-omnibus-deal-simplify-ai-rules | übernommen (Sammelbeleg) |
+| 4 | B | Orrick, *EU's Digital Omnibus on AI: 7 Key Changes You Need to Know*, Mai 2026 | https://www.orrick.com/en/Insights/2026/05/EUs-Digital-Omnibus-on-AI-7-Key-Changes-You-Need-to-Know | übernommen (Sammelbeleg) |
+| 5 | B | Modulos, *EU AI Act Delayed: The Omnibus Deal Closed on 7 May 2026*, Mai 2026 | https://www.modulos.ai/blog/eu-ai-act-omnibus-deal/ | übernommen (Sammelbeleg) |
+| 6 | D | Warren, E., *Why We Need to Tax AI*, Time, 27. Mai 2026 | https://time.com/article/2026/05/27/why-we-need-to-tax-ai/ | übernommen |
+| 7 | D | Axios, *Elizabeth Warren: Tax AI companies to benefit all Americans*, 27. Mai 2026 | https://www.axios.com/2026/05/27/elizabeth-warren-tax-ai-companies-benefit-americans | übernommen (Sammelbeleg) |
+| 8 | D | The Hill, *Warren proposes taxing AI companies so 'winnings' 'benefit all Americans'*, 27. Mai 2026 | https://thehill.com/homenews/senate/5898081-warren-proposes-ai-tax/ | übernommen (Sammelbeleg) |
+| 9 | D | TechSpot, *Elizabeth Warren wants to tax AI data centers as power bills climb*, 27. Mai 2026 | https://www.techspot.com/news/112549-elizabeth-warren-wants-tax-ai-data-centers-power.html | übernommen (Sammelbeleg) |
+| 10 | D | Techtimes, *Warren Proposes AI Data Center Tax to Fund Workers Displaced by Automation*, 27. Mai 2026 | https://www.techtimes.com/articles/317294/20260527/warren-proposes-ai-data-center-tax-fund-workers-displaced-automation.htm | übernommen (Sammelbeleg) |
+| 11 | B | DLA Piper / Davis Wright Tremaine / Freshfields / Ogletree / Littler / Shipman & Goodwin, *Unpacking SB5: Connecticut's new AI law / Connecticut Adopts AI Transparency, Safety, and Consumer Protection Law / Connecticut Poised to Enact One of the Nation's Most Comprehensive AI Laws*, Mai 2026 | https://www.dlapiper.com/en-us/insights/publications/2026/05/unpacking-connecticuts-new-ai-law | https://www.dwt.com/blogs/artificial-intelligence-law-advisor/2026/05/ct-ai-transparency-safety-consumer-protection-law | https://www.freshfields.com/en/our-thinking/blogs/a-fresh-take/connecticut-poised-to-enact-one-of-the-nations-most-comprehensive-ai-laws-102mrpv | https://ogletree.com/insights-resources/blog-posts/new-connecticut-law-restricts-employer-ai-use-mandates-notice-for-ai-caused-rifs/ | übernommen (Beleg für Lamont-Unterzeichnung Mai 2026) |
+| 12 | F | NPR / CNBC / Yahoo Finance / The Next Web / Quartz, *Meta slashes 8000 jobs as it pivots towards AI / Zuckerberg's Meta layoffs memo / Meta cuts 8,000 jobs and cancels 6,000 open roles*, 18.–20. Mai 2026 | https://www.npr.org/2026/05/20/nx-s1-5826917/meta-layoffs-ai-jobs | https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html | https://thenextweb.com/news/meta-layoffs-may-2026-ai-restructuring-thousands | https://qz.com/meta-layoffs-8000-jobs-ai-restructuring-052026 | übernommen |
+| 13 | F | TechCrunch, *Intuit to lay off over 3,000 employees to refocus on AI*, 20. Mai 2026 | https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/ | übernommen |
+| 14 | F | CNBC / Yahoo Finance, *AI part of another tech layoff as Wix CEO announces 20% workforce cut / Layoffs Accelerate in May 2026 as Firms Restructure Around AI*, 28. Mai 2026 | https://www.cnbc.com/2026/05/28/wix-layoffs-ai-exchange-rates.html | https://finance.yahoo.com/sectors/technology/articles/layoffs-accelerate-may-2026-firms-040430218.html | übernommen |
+| 15 | F | Techtimes, *Tech Layoffs Reach 142,000 in 2026: Profitable Companies Cut Jobs to Fund $700B AI Infrastructure*, 29. Mai 2026 | https://www.techtimes.com/articles/317392/20260529/tech-layoffs-reach-142000-2026-profitable-companies-cut-jobs-fund-700b-ai-infrastructure.htm | übernommen |
+| 16 | F | Yahoo Finance, *2026 Tech Layoffs Near 150,000 as Companies Pour Money Into AI*, Ende Mai 2026 | https://finance.yahoo.com/sectors/technology/articles/2026-tech-layoffs-near-150-110000224.html | übernommen (Sammelbeleg) |
+| 17 | F | American Bazaar, *Losing a tech job in 2026 now costs workers nearly $14,400 a month, study finds*, 28. Mai 2026 | https://americanbazaaronline.com/2026/05/28/losing-a-tech-job-in-2026-now-costs-workers-nearly-14400-month-481700/ | übernommen (Sammelbeleg — Yale-Budget-Lab-Folgestudie) |
+| 18 | I | LLM-Stats / Felloai / LM Council, Gemini 3.5 Flash (19. Mai 2026), Qwen 3.7 Max (20. Mai 2026), Vergleichsstand Mai 2026 | https://llm-stats.com/llm-updates | https://felloai.com/best-ai-models/ | https://lmcouncil.ai/benchmarks | verworfen (Frontier-Modell-Releases ohne unmittelbare politisch-fiskalische Implikation) |
+| 19 | J | toptechnews / blog.robozaps / standardbots / Built In, *Tesla Optimus Gen 3 Enters Mass Production / Tesla Optimus Production: Model S Ends, Humanoid Robots Begin / Tesla robot price in 2026*, Mai 2026 | https://toptechnews.net/articles/tesla-optimus-factory-deployment-2026.html | https://blog.robozaps.com/b/tesla-model-s-optimus-robot-factory-conversion | https://builtin.com/robotics/tesla-robot | verworfen (Datum unklar; Marktrelevanz nicht trennscharf zur fiskalpolitischen Implikation) |
+| 20 | G | Deutsches Ärzteblatt, *Bessere Regulierung medizinischer KI notwendig (130. Deutscher Ärztetag, Hannover, Mai 2026)*, Mai 2026 | https://www.aerzteblatt.de/news/bessere-regulierung-medizinischer-ki-notwendig-65171db3-887f-47a7-bc02-d5816a538b51 | verworfen (außerhalb 7-Tage-Fenster — 15. Mai 2026 — und ohne fiskalische Komponente) |
+| 21 | C | NationofChange / Prism Reports / MultiState, *States introduce temporary moratoriums on data centers / States are trying to block cities from regulating AI data centers / State Data Center Moratorium & Ballot Measure Trends 2026*, Mai 2026 | https://www.nationofchange.org/2026/05/23/states-introduce-temporary-moratoriums-strict-conditional-restrictions-pausing-new-construction-of-data-centers/ | https://prismreports.org/2026/05/18/more-states-are-trying-to-block-cities-from-regulating-ai-data-centers/ | https://www.multistate.us/insider/2026/5/7/voters-target-data-centers-with-local-and-statewide-ballot-measures | verworfen (keine kalifornische/texanische Gesetzesbewegung im 7-Tage-Fenster; bestehende § 4.5- und Maine-Dokumentation bleibt korrekt) |
+| 22 | A | NBER WP 34984 (Mai 2026) / NBER WP 34854 *Building Pro-Worker AI* / Frontiers *AI-driven labor market displacement* | https://www.nber.org/system/files/working_papers/w34984/w34984.pdf | https://www.nber.org/system/files/working_papers/w34854/w34854.pdf | https://www.frontiersin.org/journals/human-dynamics/articles/10.3389/fhumd.2026.1815037/full | Dublette (Hamilton-Project-Papier bereits Version 16.0; allgemeine Ergebnisse 80 % Exposition / Acemoglu 0,66 % TFP / 502.000 Verdrängungen 2026 bereits in § 3 abgebildet) |
+| 23 | E | IAB Regionalprognose 2026 / BMG GKV-Beitragssatzstabilisierungsgesetz Mai 2026 / BA Arbeitsmarktbericht Mai 2026 | https://iab.de/presseinfo/regionale-arbeitsmarktprognosen-2026-in-den-meisten-bundeslaendern-sinkt-die-beschaeftigung/ | https://www.bundesgesundheitsministerium.de/service/gesetze-und-verordnungen/detail/gkv-beitragssatzstabilisierungsgesetz | https://retail-news.de/arbeitsmarkt-mai-2026-rueckgang-arbeitslosigkeit/ | verworfen (Stand in Version 22.0 referiert; GKV-Bundestags-Lesungen ab 11. Juni 2026 sind im Aktualitätshinweis 23.0 ergänzt — Originaldebatte liegt nach 30. Mai 2026) |
+| 24 | D | Generationenkapital, *Rendite 7,2 % im ersten Jahr 2026* (NBIM-/Stiftungspublikation, Mai 2026) | https://aktienrente.de/generationenkapital/ | verworfen (Originalbeleg zur Recherche nicht eindeutig datiert; in einem späteren Lauf zu prüfen) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.3 | Aktualisierung | Trilog-Stand zum Digital Omnibus on AI: Provisorische politische Einigung vom 7. Mai 2026 (Stichtage 2. Dezember 2027 für Anhang III und 2. August 2028 für Anhang I fixiert; Art. 50 auf 2. Dezember 2026 verschoben; nationale Regulatory Sandboxes bis 2. August 2027; neues Verbot nach Art. 5 für KI-generierte CSAM/NCII mit Anpassung bis 2. Dezember 2026; förmliche Annahme vor 2. August 2026 angekündigt) — vorherige Aussage zur 13. Mai 2026-Folgerunde explizit als obsolet ausgewiesen. | 1–5 |
+| 2 | § 4.5 | Ergänzung | Neuer Absatz „Warren-Vorstoß (Time, 27. Mai 2026)" zwischen Bloomberg-Editorial und Andrew-Yang-Block: bundesweite Verbrauchsteuer auf den Stromverbrauch von KI-Rechenzentren plus Vermögensabgabe an die *Ultra-Millionaire Tax Act of 2026* anschließend; zweckgebundene Verwendung für universelle Krankenversicherung, kostenfreie Hochschulbildung und Arbeitslosenversicherung Verdrängter; eingeordnet als Hybrid aus Typ 2 und Typ 4 nach § 2.1. | 6–10 |
+| 3 | § 4.5 | Aktualisierung | Connecticut SB 5: Lamont-Unterzeichnung im Mai 2026 vollzogen (bisher: „angekündigte Unterzeichnung"). | 11 |
+| 4 | § 1.1 | Ergänzung | Neuer Folgesatz nach dem Cloudflare/Challenger-Block zur Mai-Fortsetzung der KI-getriebenen Tech-Layoff-Welle (Meta 8.000 plus 6.000 cancelled, 7.000 redirected zu KI-Teams ab 20. Mai 2026; Intuit über 3.000 Stellen am 20. Mai 2026; Wix rund 1.000 Stellen am 28. Mai 2026; Techtimes-Aggregat 29. Mai 2026: 142.000 Tech-Stellenstreichungen für die ersten fünf Monate 2026 mit Vollejahresprojektion nahe 370.000; Hyperscaler-Capex 700 Mrd. USD). | 12–17 |
+| 5 | § 11.3 | Ergänzung | Zwei neue Literatureinträge: EU Council / Parliament (7. Mai 2026, Digital Omnibus Einigung); Warren, E. (27. Mai 2026, Time op-ed). | 1–10 |
+| 6 | § 11.5 | Ergänzung | Vier neue Sammelbelege: Meta-Belegcluster (NPR/CNBC/Yahoo/The Next Web/Quartz); Intuit-Beleg (TechCrunch); Wix-Belegcluster (CNBC/Yahoo); Tech-Layoff-Aggregat Techtimes/Yahoo/American Bazaar/TechSpot. | 12–17 |
+| 7 | Aktualitätshinweis | Aktualisierung | Schnittangabe auf „Lauf 001 vom 30. Mai 2026 (Nachholrunde nach 22-tägiger Pause)" geändert; Digital-Omnibus-Einigung, Warren-Op-Ed, Lamont-Unterzeichnung SB 5, Mai-Layoff-Welle in den Auflistungstext aufgenommen. | 1–17 |
+| 8 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Versionseintrag in der KI-Offenlegung mit den vier Cluster-Bündeln). | — |
+| 9 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 30. Mai 2026 (Lauf 001 vom 30. Mai 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | LLM-Stats / Felloai / LM Council — Gemini 3.5 Flash (19. Mai), Qwen 3.7 Max (20. Mai) | I | Frontier-Modell-Releases ohne unmittelbare politisch-fiskalische Implikation; bestehender § 3.5-/§ 8.2-Block bleibt aktuell. |
+| 2 | toptechnews / blog.robozaps / standardbots — Tesla Optimus Gen 3 / Figure 03 / Unitree Mai 2026 | J | Datum unklar; Marktrelevanz nicht trennscharf zur fiskalpolitischen Implikation. |
+| 3 | Deutsches Ärzteblatt — 130. Deutscher Ärztetag Mai 2026 (KI-Resolutionen) | G | Außerhalb 7-Tage-Fenster (15. Mai 2026) und ohne fiskalische Komponente. |
+| 4 | NationofChange / Prism Reports / MultiState — States Data Center Moratoriums Mai 2026 | C | Keine kalifornische/texanische Gesetzesbewegung im 7-Tage-Fenster; bestehende § 4.5- und Maine-Dokumentation bleibt korrekt. |
+| 5 | NBER WP 34984 / 34854 / Frontiers AI displacement | A | Dubletten zu Acemoglu-Linie (§ 3.1) und Hamilton-Project (Version 16.0); allgemeine Ergebnisse bereits in § 3 abgebildet. |
+| 6 | IAB Regionalprognose / BA Arbeitsmarktbericht Mai 2026 | E | Stand entspricht Version 22.0 ohne KI-spezifischen Befund; GKV-Bundestags-Lesungen ab 11. Juni 2026 liegen nach Stichtag. |
+| 7 | Generationenkapital Renditestand 7,2 % erstes Jahr 2026 | D/E | Originalbeleg nicht eindeutig datiert; in einem späteren Lauf zu prüfen. |
+| 8 | Anthropic Economic Index — kein neuer Monatsbericht | A/I | Keine Bewegung über „Learning curves" (24. März 2026) hinaus im 7-Tage-Fenster. |
+| 9 | OECD Pillar Two Implementation Toolkit (30. April 2026) | C | Außerhalb 7-Tage-Fenster und ohne KI-spezifische Akzentuierung. |
+| 10 | ClickUp 22 % Layoff (22. Mai 2026) | F | Knapp außerhalb 7-Tage-Fenster und unter Schwelle 500+ Stellen für Einzelfall in § 1.1. |
+| 11 | Sachverständigenrat Frühjahrsprojektion Mai 2026 (BIP +0,5 %) | E | Keine KI-spezifische Aussage im Recherchekorridor. |
+| 12 | Plattform-Digitalabgabe (Weimer) — Bundestags-Debatte 7. Mai 2026 | B | Keine substantielle Bewegung über Version 10.0/22.0 hinaus; weiterhin angekündigt, kein Eckpunktepapier vorgelegt. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 30. Mai 2026 (Lauf 001 vom 30. Mai 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): folgt in Phase 5
+- Word erstellt (`build_docx.py`): folgt in Phase 5
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 001 am 30. Mai 2026 ist eine **Nachholrunde** nach 22-tägiger Pause seit Lauf 001 vom 8. Mai 2026. Das in `Suchthemen.md` vorgesehene 7-Tage-Fenster wurde wegen der Pause pragmatisch auf den Zeitraum 8.–30. Mai 2026 erweitert, um zentrale Ereignisse aus der Zwischenzeit nachzutragen (Digital-Omnibus-Trilog-Einigung 7. Mai 2026, Meta-Layoff 20. Mai 2026, SB-5-Unterzeichnung, Warren-Op-Ed 27. Mai 2026, Techtimes-Aggregat 29. Mai 2026). Andernfalls wären diese Entwicklungen dauerhaft verloren gegangen. Für den nächsten regulären Lauf gilt wieder das Standard-7-Tage-Fenster.
+- Cluster G (Gesundheitswesen) liefert mit dem 130. Deutschen Ärztetag (Hannover, 15. Mai 2026) eine substantive KI-Resolution, die jedoch außerhalb des 7-Tage-Fensters liegt; in einem späteren Lauf bei Folgeberichterstattung BMG/G-BA aufzunehmen, sobald daraus konkrete Beschlüsse erwachsen.
+- Cluster J (Robotik): Tesla Optimus Gen 3 wird in mehreren Quellen mit Mass-Production-Beginn im Q2 2026 referiert (Fremont, Ziel 100.000–300.000 Einheiten); für eine Aufnahme in § 1.1 oder § 8.1 ist eine Primärquelle (Tesla-Earnings-Call, SEC-Filing) abzuwarten.
+- Cluster I (Frontier-Modelle): Gemini 3.5 Flash und Qwen 3.7 Max im 48-Stunden-Fenster außerhalb des Korridors (keine politisch-fiskalische Implikation); Beobachtung beim nächsten Lauf fortsetzen.
+- Connecticut SB 5: Lamont-Unterzeichnung wird in mehreren Sekundärquellen (DLA Piper, Davis Wright Tremaine, Freshfields, Ogletree, Littler, Shipman & Goodwin Mai 2026) als vollzogen referiert; das genaue Unterzeichnungs­datum ist in den Sekundärquellen nicht einheitlich angegeben, weshalb im Hauptdokument „im Mai 2026 unterzeichnet" gewählt wurde; in einem späteren Lauf bei verfügbarem Originalbeleg (Pressemitteilung Office of the Governor of Connecticut) zu präzisieren.
+- GKV-Beitragssatzstabilisierungsgesetz: Laut BMG-Zeitplan erste Lesung Bundestag 11. Juni 2026, zweite/dritte Lesung 26. Juni 2026, erste Bundesratslesung 12. Juni 2026, zweite 10. Juli 2026 — alle Termine liegen nach dem Stichtag 30. Mai 2026 und sind in den nächsten Läufen mit konkreten Beschlüssen einzuarbeiten.
+- Generationenkapital: Sekundärbelege referieren einen Renditestand von 7,2 % im ersten Jahr 2026 (gegenüber 4–5 % Erwartung) — Datierung der Originalpublikation zur Recherche nicht eindeutig; in einem späteren Lauf bei NBIM-/Stiftungspublikation zu verifizieren.
+- Branch dieses Laufs: `claude/determined-einstein-VYfZx` (Session-Branch der laufenden Session, in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push neu anzulegen).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Es war in der laufenden Session weder ein E-Mail-Versand-Tool (`mail_send` / `send_mail` / `send_message` / `outlook_send` aus `graph-mcp`) noch ein WhatsApp-Versand-Tool (`wa_send_message` / `send_message` aus dem `whatsapp`-MCP) erreichbar; gemäß Phase-5b-Spezifikation wurden die vorbereiteten Inhalte als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben (Dateien stehen in `.gitignore`, werden also nicht versioniert). Der Lauf fährt gemäß Phase-5b-Regel („Versandfehler sind weich") mit Phase 6 fort.
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
