@@ -54,6 +54,91 @@
 
 ---
 
+## 2026-05-31 — Lauf 002 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster G — Gesundheitssektor — fünftes Mal in Folge ohne neue belegbare Treffer im 7-Tage-Fenster; Cluster I/J im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen; Cluster B, C, D, F mit verifizierten Treffern).
+- Zeitfenster: 7 Tage (Cluster F: 48 Stunden, mit erweitertem Korridor für den Zwischenraum 9.–30. Mai 2026, da seit Lauf 001 vom 8. Mai 2026 kein Daily-Update stattgefunden hat); für die in Lauf 001 als „nächster Lauf zu prüfen" markierten Ereignisse (Connecticut-Unterzeichnung, Trilog-Folgerunde) wird der Korridor explizit auf den 7. / 11. Mai 2026 ausgedehnt.
+- Anzahl Suchanfragen: 12 (Web-Suche).
+- Lauf 002 ist der zweite reguläre Daily-Update-Lauf nach Lauf 001 vom 8. Mai 2026 (Versionssprung 21.0 → 22.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B | Rat der EU, *Artificial Intelligence: Council and Parliament agree to simplify and streamline rules*, 7. Mai 2026 | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ | übernommen |
+| 2 | B | Bird & Bird / Hogan Lovells / White & Case / Latham & Watkins / Tech Policy Press / Modulos / Mishcon de Reya, Trilog-Einigung Digital Omnibus on AI, 7. Mai 2026 ff. | https://www.twobirds.com/en/insights/2026/digital-omnibus-on-ai-provisional-agreement-reached-at-the-may-trilogue \| https://www.hoganlovells.com/en/publications/eu-legislators-agree-to-delay-for-highrisk-ai-rules | übernommen (Sammelbeleg) |
+| 3 | B/D | Davis Wright Tremaine, *Connecticut Adopts AI Transparency, Safety, and Consumer Protection Law*, Mai 2026; DLA Piper *Unpacking SB5*; FPF *SB 5 in Five*; Inside Global Tech; Ogletree *AI-Caused RIFs*; Akin Gump *Growing Patchwork of State AI Laws* | https://www.dwt.com/blogs/artificial-intelligence-law-advisor/2026/05/ct-ai-transparency-safety-consumer-protection-law \| https://www.dlapiper.com/en-us/insights/publications/2026/05/unpacking-connecticuts-new-ai-law \| https://fpf.org/blog/sb-5-in-five-what-to-know-about-connecticuts-new-ai-law/ | übernommen |
+| 4 | C | Bloomberg, *Chinese Court Bars Companies From Firing Workers Solely for AI Replacement*, 2. Mai 2026 | https://www.bloomberg.com/news/articles/2026-05-02/chinese-court-rules-firms-can-t-lay-off-workers-on-ai-grounds | übernommen |
+| 5 | C | Fortune / NPR / Caixin Global / SCMP / Tom's Hardware / English.scio.gov.cn / Fisher Phillips / AI Certs (Hangzhou-Urteil), 30. April – 3. Mai 2026 | https://fortune.com/2026/05/03/chinese-court-layoffs-workers-ai-replacement-labor-market/ \| https://www.caixinglobal.com/2026-04-30/chinese-courts-rule-companies-cannot-fire-workers-simply-to-replace-them-with-ai-102439602.html \| https://www.scmp.com/tech/tech-trends/article/3352327/ai-cost-cutting-not-legal-excuse-fire-workers-chinese-court-says \| http://english.scio.gov.cn/m/chinavoices/2026-04/30/content_118471189.html | übernommen (Sammelbeleg) |
+| 6 | D/I | Fortune, *Sam Altman and Dario Amodei are both walking back their AI jobs apocalypse prophecies*, 26. Mai 2026; TIME 26. Mai; Euronews 26. Mai; Axios 27. Mai 2026 | https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/ \| https://time.com/article/2026/05/26/sam-altman-ai-job-losses-openAI-/ \| https://www.euronews.com/next/2026/05/26/no-ai-jobs-apocalypse-so-far-says-openais-sam-altman \| https://www.axios.com/2026/05/27/ai-hype-doom-openai-anthropic | übernommen (Sammelbeleg) |
+| 7 | D | Religion News Service, *Inside the unlikely Vatican-Anthropic relationship that's reshaping the AI ethics debate*, 22. Mai 2026; EWTN Vatican, Fortune, Catholic Register, Crypto Briefing (25./26. Mai 2026) | https://religionnews.com/2026/05/22/why-anthropic-is-helping-unveil-the-popes-new-encyclical-on-ai/ \| https://ewtnvatican.com/articles/anthropic-ai-ethics-vatican-magnifica-humanitas \| https://fortune.com/2026/05/26/pope-leo-ai-encyclical-ai-regulation-anthropic/ \| https://www.catholicregister.org/item/3964-anthropics-christopher-olah-urges-global-moral-oversight-of-ai-at-vatican-presentation \| https://cryptobriefing.com/anthropic-olah-vatican-ai-ethics/ | übernommen (Sammelbeleg) |
+| 8 | F | NPR / Quartz / The Next Web / Storyboard18 / Fortune / Android Headlines, Meta-Notification 8.000, 20. Mai 2026 | https://www.npr.org/2026/05/20/nx-s1-5826917/meta-layoffs-ai-jobs \| https://thenextweb.com/news/meta-layoffs-8000-ai-restructuring-may-2026 \| https://qz.com/meta-layoffs-8000-jobs-ai-restructuring-052026 | übernommen (Sammelbeleg) |
+| 9 | F | TechCrunch / CNBC / Quartz / heygotrade, Intuit-Notification 3.000 (17 %), 20. Mai 2026 | https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/ \| https://www.cnbc.com/2026/05/20/intuit-ceo-says-companys-17percent-workforce-cut-had-nothing-to-do-with-ai.html | übernommen (Sammelbeleg) |
+| 10 | F | TrueUp / SkillSyncer / Tech Times (Stand 18./29./30. Mai 2026): 134.603 Personen aus 212 Layoff-Ereignissen, rund 897 Stellen pro Tag; Branchen-Auswertung „142.000 tech layoffs" (Challenger-Methodik) | https://www.trueup.io/layoffs \| https://skillsyncer.com/layoffs-tracker \| https://www.techtimes.com/articles/317392/20260529/tech-layoffs-reach-142000-2026-profitable-companies-cut-jobs-fund-700b-ai-infrastructure.htm | übernommen |
+| 11 | F | The AI Insider, *Oracle's AI-Driven Mass Layoff of 30,000 Draws Backlash Over Severance Terms and Forfeited Stock*, 9. Mai 2026 | https://theaiinsider.tech/2026/05/09/oracles-ai-driven-mass-layoff-of-30000-draws-backlash-over-severance-terms-and-forfeited-stock/ | verworfen (Backlash-Berichterstattung zu Oracle-Layoff vom 31. März 2026; Sachstand bereits in Version 9.0 / 21.0 dokumentiert, kein neuer Befund) |
+| 12 | D | CNN / Axios / Federal News Network, Trump-EO „voluntary AI model review" verschoben, 20./22. Mai 2026 | https://www.cnn.com/2026/05/20/tech/ai-executive-order-trump-white-house \| https://www.axios.com/2026/05/22/ai-executive-order-cancelled-white-house \| https://federalnewsnetwork.com/artificial-intelligence/2026/05/wh-studying-ai-security-executive-order/ | verworfen (Nicht-Unterzeichnung; bestehender § 4.5-Block zum National AI Policy Framework bleibt korrekt; nicht-fiskalisches Ereignis) |
+| 13 | A | NBER Working Paper 34873, Korinek & Lockwood, *Public Finance in the Age of AI: A Primer* | https://www.nber.org/papers/w34873 | Dublette (in Version 9.0 referenziert) |
+| 14 | F | Anthropic / OpenAI Enterprise-JV (Blackstone, TPG, Brookfield, Advent, Bain), 4. Mai 2026 | https://www.metaintro.com/blog/anthropic-openai-enterprise-ai-joint-ventures-workforce-impact | verworfen (kommerzieller Vorgang ohne unmittelbare steuerpolitische Implikation; im Vergleichsraum für künftige Läufe zu beobachten) |
+| 15 | E | IAB-Kurzbericht 5/2026, *Arbeitsmarktentwicklung 2026 — IAB-Prognose 2025/2026* | https://doku.iab.de/kurzber/2026/kb2026-05.pdf \| https://iab.de/presseinfo/iab-prognose-fuer-2025-2026-arbeitsmarkt-profitiert-von-fiskalpaketen-wird-aber-durch-den-demografischen-wandel-gebremst/ | Dublette (in Version 15.0 / 21.0 referenziert) |
+| 16 | G | G-BA / gematik / BfArM Mai 2026 (Cluster G) | https://www.g-ba.de/ \| https://fachportal.gematik.de/zielgruppen/diga-hersteller | verworfen (keine KI-spezifischen Beschlüsse im 7-Tage-Fenster; fünftes Mal in Folge ohne validen Treffer) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.2 (Europarechtliche Vorgaben) | Aktualisierung | Trilog-Stand: Statt der in Lauf 001 antizipierten „nächsten Runde 13. Mai 2026" am 7. Mai 2026 erzielte vorläufige politische Einigung mit Stichtagen 2. Dezember 2027 (Anhang III) / 2. August 2028 (Anhang I), Verkürzung der Übergangsfrist für die Kennzeichnungspflicht nach Art. 50 auf drei Monate (Stichtag 2. Dezember 2026) und neuem Verbotstatbestand für nicht-einvernehmliche intime Inhalte (Stichtag 2. Dezember 2026); förmliche Verabschiedung vor 2. August 2026 angestrebt. | 1–2 |
+| 2 | § 4.5 (Connecticut-Block) | Aktualisierung | Statuswechsel von „Lamont hat seine Unterzeichnung angekündigt" auf „Lamont hat den Entwurf am 11. Mai 2026 unterzeichnet" — erste US-bundesstaatliche breit angelegte KI-Querschnittsgesetzgebung mit *AI-Layoff-Disclosure*. | 3 |
+| 3 | § 6.5 (neuer Unterabschnitt) | Ergänzung | VR China: Arbeitsrechtlicher Schutz vor KI-bedingter Kündigung — Hangzhou-Urteil vom 30. April 2026 (Pseudonym Zhou) stellt klar, dass die Einführung von KI-Systemen allein keinen Kündigungsgrund nach Art. 41 *Labour Contract Law* darstellt; Querverweise auf § 4.5 (Connecticut-Disclosure), § 9.1 (Abgrenzungsprobleme) und § 9.4 (Umgehungsstrategien). | 4–5 |
+| 4 | § 4.5 (neuer Block vor Andrew Yang) | Ergänzung | Diskurs-Verschiebung Ende Mai 2026 — Altman-Revision („I was pretty wrong") und Olah-Gegenposition (Synodenhalle Vatikan, KI-Enzyklika *Magnifica Humanitas*); im Konjunktiv referiert; Verschärfung des Kausalitäts-/Erwartungsproblems aus § 9.1 / § 10.1. | 6–7 |
+| 5 | § 1.1 (Layoff-Block) | Ergänzung | Meta-Notification am 20. Mai 2026 (rund 8.000 Stellen, 10 % der globalen Belegschaft; weitere 6.000 offene Stellen gestrichen, effektive Reduktion ~14.000; rund 7.000 Beschäftigte in KI-Teams umgesetzt) und Intuit-Notification am gleichen Tag (rund 3.000 Stellen, 17 % der Belegschaft; CEO-Aussage „nothing to do with AI" als Beleg der *Washington-Post*-Differenzierungslinie); TrueUp-Tagesfortschreibung 30. Mai 2026 (134.603 Personen aus 212 Layoff-Ereignissen, rund 897 Stellen pro Tag). | 8–10 |
+| 6 | § 11.5 | Ergänzung | Acht neue Sammelbelege: Meta (NPR/Quartz/The Next Web/Storyboard18/Fortune/Android Headlines); Intuit (TechCrunch/CNBC/Quartz/heygotrade); TrueUp 30. Mai 2026 (TrueUp/SkillSyncer/Tech Times); Altman-Revision (Fortune/TIME/Euronews/Axios); Olah/Vatikan (Religion News Service/EWTN Vatican/Fortune/Catholic Register/Crypto Briefing); Hangzhou (Bloomberg/Fortune/NPR/Caixin Global/SCMP/Tom's Hardware/English.scio.gov.cn/The Next Web/Fisher Phillips/AI Certs); Trilog-Einigung 7. Mai 2026 (Council of the EU/Bird & Bird/Hogan Lovells/White & Case/Latham & Watkins/Tech Policy Press/Modulos/Mishcon de Reya); Connecticut-Unterzeichnung (DWT/DLA Piper/FPF/Inside Global Tech/Ogletree/Akin Gump/Let's Data Science). | 1–10 |
+| 7 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Lauf 002 vom 31. Mai 2026" geändert; alle neuen Entwicklungen als vorgereihte Einträge aufgenommen; alte Einträge bleiben als historische Anker erhalten (Claude.md § 4.2). | 1–10 |
+| 8 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, „Stand Ende Mai 2026", neuer Versions-Eintrag in der KI-Offenlegung mit sechs Cluster-Bündeln). | — |
+| 9 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 31. Mai 2026 (Lauf 002 vom 31. Mai 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Oracle-Backlash (The AI Insider, 9. Mai 2026) | F | Backlash-Berichterstattung zu Oracle-Layoff vom 31. März 2026; Sachstand in Version 9.0 / 21.0 bereits dokumentiert, kein neuer Befund. |
+| 2 | Trump-EO „voluntary AI model review" verschoben (CNN, Axios, Federal News Network 20./22. Mai 2026) | D | Nicht-Unterzeichnung; bestehender § 4.5-Block zum National AI Policy Framework bleibt korrekt; nicht-fiskalisches Ereignis. |
+| 3 | NBER WP 34873 Korinek & Lockwood | A | Dublette (in Version 9.0 referenziert). |
+| 4 | Anthropic/OpenAI Enterprise-JV (4. Mai 2026) | F/I | Kommerzieller Vorgang ohne unmittelbare steuerpolitische Implikation. |
+| 5 | IAB-Kurzbericht 5/2026 | E | Dublette (in Version 15.0 / 21.0 referenziert). |
+| 6 | G-BA / gematik / BfArM Mai 2026 | G | Keine KI-spezifischen Beschlüsse im 7-Tage-Fenster (fünftes Mal in Folge ohne validen Treffer). |
+| 7 | Microsoft VRSAR — Annahmequoten | F | Zum Stichtag 31. Mai 2026 noch nicht öffentlich dokumentiert (Annahmefrist 8. Juni 2026); im nächsten Lauf zu prüfen. |
+| 8 | Bundesrat 1066. Sitzung 12. Juni 2026 (GKV-BStabG) | E/B | Liegt nach dem Stichtag. |
+| 9 | Sanders-Robot-Tax-Hearing Mai 2026 | D | Keine spezifische Hearing-Verlautbarung im Web-Index identifiziert. |
+| 10 | Plattform-Digitalabgabe (Weimer) Mai 2026 | B | Keine neuen Bewegungspunkte seit Version 10.0; Eckpunktepapier weiterhin angekündigt, nicht vorgelegt. |
+| 11 | Anthropic Economic Index — neuer Bericht | I | Kein neuer Bericht zwischen 24. März 2026 (*Learning curves*) und 31. Mai 2026; bestehender § 3.5-Block bleibt aktuell. |
+| 12 | Cluster I (Frontier-Modelle) und Cluster J (Robotik) | I/J | Keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 31. Mai 2026 (Lauf 002 vom 31. Mai 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 002 ist der zweite reguläre Daily-Update-Lauf nach Lauf 001 vom 8. Mai 2026; zwischen den beiden Läufen liegen 23 Tage ohne Tagesaktualisierung, wodurch der Recherchekorridor faktisch auf den Zeitraum 9.–30. Mai 2026 erweitert wurde. Zwei Ereignisse, die in Lauf 001 explizit als „nächster Lauf zu prüfen" markiert waren — die Connecticut-Unterzeichnung und die Trilog-Folgerunde — sind dadurch jetzt vollständig dokumentierbar.
+- Cluster C (VR China): Das Hangzhou-Urteil ist der erste explizit unter Cluster C — „AI replacement law" verzeichnete Treffer seit Anlage der Suchthemen.md; die Volksrepublik China rückt damit erstmals mit einem konkreten Fallbeispiel in die Vergleichsmatrix neben Maine, Connecticut, Südkorea, Italien, Polen.
+- Diskurs-Verschiebung Ende Mai 2026: Die Altman-Revision (26. Mai) und die Olah-Vatikan-Rede (25. Mai) erfolgen zeitlich praktisch parallel und werden in der Berichterstattung (Fortune 26. Mai 2026, Axios 27. Mai 2026) explizit gegeneinander gestellt; für die Steuerdebatte ist die Verschiebung relevant, weil die ethische Begründungslinie einer Robotersteuer nun unabhängig von OpenAIs Außendarstellung von einem zweiten Frontier-Labor öffentlich gestützt wird.
+- Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne valide Treffer im 7-Tage-Fenster; Empfehlung für die nächsten Läufe bestehend (gezielter Abruf von g-ba.de Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-Listings, NEJM AI / Lancet Digital Health im April-Mai-2026-Indizes).
+- Microsoft VRSAR — Annahmequoten zum 31. Mai 2026 noch nicht öffentlich; Annahmefrist 8. Juni 2026; in einem späteren Lauf nachzutragen.
+- Branch dieses Laufs: `claude/determined-einstein-WaJYV` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push neu angelegt).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Der Versand-Tool-Status (`mail_send` / `send_mail` / `send_message` / `outlook_send` aus `graph-mcp`; `wa_send_message` / `send_message` aus dem `whatsapp`-MCP) wird in Phase 5b geprüft; bei fehlender Tool-Verfügbarkeit werden die vorbereiteten Inhalte gemäß Phase-5b-Spezifikation als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben (Dateien stehen in `.gitignore`, werden also nicht versioniert).
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
