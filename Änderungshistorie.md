@@ -54,6 +54,94 @@
 
 ---
 
+## 2026-06-01 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster G — Gesundheitssektor — fünftes Mal in Folge ohne neue belegbare Treffer im 7-Tage-Fenster; Cluster I/J im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen; Cluster B und F mit jeweils zwei aufgenommenen Treffern, Cluster E mit einem).
+- Zeitfenster: 7 Tage (25. Mai – 1. Juni 2026); Cluster F: 48 Stunden für tagesaktuelle Layoff-Meldungen, ergänzt um die Mai-Monatsende-Tagesfortschreibung der TrueUp-/Layoffs.fyi-Tracker.
+- Anzahl Suchanfragen: 12 (Web-Suche), 3 (WebFetch — eine 403 bei CNBC-Wix-Artikel, daher Sekundärquellen-Stichproben).
+- Lauf 001 ist der erste reguläre Daily-Update-Lauf am 1. Juni 2026 nach Lauf 001 vom 8. Mai 2026 (Version 22.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | F | CNBC, *AI part of another tech layoff as Wix CEO announces 20% workforce cut*, 28. Mai 2026 | https://www.cnbc.com/2026/05/28/wix-layoffs-ai-exchange-rates.html | übernommen |
+| 2 | F | Times of Israel, *Major Israeli tech firms commence sweeping layoffs as AI revolution roils industry*, 28. Mai 2026 | https://www.timesofisrael.com/major-israeli-tech-firms-commence-sweeping-layoffs-as-ai-revolution-roils-industry/ | übernommen (Sammelbeleg) |
+| 3 | F | Calcalist / Jerusalem Post / TechRadar — Wix-Layoff-Berichterstattung, 28. Mai 2026 | https://www.calcalistech.com/ctechnews/article/rko5kglegx \| https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-897657 | übernommen (Sammelbeleg) |
+| 4 | F | TrueUp / Layoffs.fyi / SkillSyncer — Tracker-Tagesfortschreibung Stand 30./31. Mai 2026 (148.092 / 354 / rund 981 pro Tag) | https://www.trueup.io/layoffs \| https://layoffs.fyi/ \| https://skillsyncer.com/layoffs-tracker | übernommen |
+| 5 | F | Yahoo Finance, *Layoffs Accelerate in May 2026 as Firms Restructure Around AI*, Mai 2026 | https://finance.yahoo.com/sectors/technology/articles/layoffs-accelerate-may-2026-firms-040430218.html | übernommen (Aggregat-Beleg) |
+| 6 | E | IAB-Forum, *Einschätzung des IAB zur wirtschaftlichen Lage Mai 2026*, 29. Mai 2026 | https://iab-forum.de/einschaetzung-des-iab-zur-wirtschaftlichen-lage-mai-2026/ | übernommen |
+| 7 | B/D | Casar, G., *Tax AI to Create Jobs*, The American Prospect, 28. Mai 2026 | https://prospect.org/2026/05/28/tax-ai-to-create-jobs/ | übernommen |
+| 8 | B/D | Casar House Office, *OP-ED: The American Prospect: Tax AI to Create Jobs*, 28. Mai 2026 | https://casar.house.gov/media/press-releases/op-ed-american-prospect-tax-ai-create-jobs | übernommen (Sammelbeleg, Primärbestätigung) |
+| 9 | B/D | Common Dreams / Breitbart / Texas Politics / KTSM — Rezeption Casar-Op-Ed, 28./29. Mai 2026 | https://www.commondreams.org/news/ai-tax-unemployment \| https://www.breitbart.com/tech/2026/05/28/congressional-progressive-caucus-pushes-for-ai-tax-to-fund-jobs-program/ \| https://texaspolitics.com/2026/05/29/greg-casar-proposes-ai-token-tax-to-combat-potential-job-losses/ | übernommen (Sammelbeleg, Rezeption) |
+| 10 | B | Davis Wright Tremaine, *Connecticut Adopts AI Transparency, Safety, and Consumer Protection Law*, Mai 2026 | https://www.dwt.com/blogs/artificial-intelligence-law-advisor/2026/05/ct-ai-transparency-safety-consumer-protection-law | übernommen |
+| 11 | B | DLA Piper, *Unpacking SB 5: Connecticut's new AI law*, Mai 2026 | https://www.dlapiper.com/en-us/insights/publications/2026/05/unpacking-connecticuts-new-ai-law | übernommen (Sammelbeleg) |
+| 12 | B | Littler / Ogletree / FPF / Freshfields — CT SB 5 Lamont-Unterzeichnung 29. Mai 2026 | https://www.littler.com/news-analysis/asap/connecticut-passes-law-significantly-regulating-use-ai-employment \| https://ogletree.com/insights-resources/blog-posts/new-connecticut-law-restricts-employer-ai-use-mandates-notice-for-ai-caused-rifs/ \| https://fpf.org/blog/sb-5-in-five-what-to-know-about-connecticuts-new-ai-law/ \| https://www.freshfields.com/en/our-thinking/blogs/a-fresh-take/connecticut-poised-to-enact-one-of-the-nations-most-comprehensive-ai-laws-102mrpv | übernommen (Sammelbeleg) |
+| 13 | F | NextWeb / Quartz / Storyboard18 — Meta 8.000 Stellen, 20. Mai 2026 | https://thenextweb.com/news/meta-layoffs-may-2026-ai-restructuring-thousands \| https://qz.com/meta-layoffs-8000-jobs-ai-restructuring-052026 | verworfen (außerhalb 7-Tage-Fenster; aggregiert via TrueUp 30./31. Mai 2026 abgedeckt) |
+| 14 | B | EU Consilium / Bird & Bird / White & Case / IAPP / Lexology — Digital Omnibus on AI provisorische Einigung 7. Mai 2026 | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ \| https://www.twobirds.com/en/insights/2026/digital-omnibus-on-ai-provisional-agreement-reached-at-the-may-trilogue | verworfen (außerhalb 7-Tage-Fenster; in nächstem Lauf mit formaler Verabschiedung durch Parlament und Rat vor 2. August 2026 einzuarbeiten) |
+| 15 | A | OECD, *Who will be the workers most affected by AI?*, ursprünglich Oktober 2024 (Mai-2026-Datierung in Suchergebnis ist Indexierungs-Bereinigung) | https://www.oecd.org/en/publications/who-will-be-the-workers-most-affected-by-ai_14dc6f89-en.html | verworfen (außerhalb des Aktualitätskorridors, kein neuer Befund). |
+| 16 | E/H | Generationenkapital Rendite 7,2 % erstes Jahr 2026 (Sekundärquellen) | https://versicherungengenie.de/ratgeber/generationenkapital-aktienrente-2027/ | verworfen (keine offizielle NBIM-/Stiftung-Veröffentlichung im 7-Tage-Fenster) |
+| 17 | I | Anthropic Economic Index — kein neuer Bericht Mai 2026 | https://www.anthropic.com/economic-index | verworfen (keine Bewegung im Zeitfenster) |
+| 18 | J | Tesla Optimus / Figure / Unitree (humanoide Robotik, Mai 2026) | https://restofworld.org/2026/china-humanoid-robots-unitree-agibot-tesla-optimus/ | verworfen (keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 1.1 | Ergänzung | Wix-Layoff vom 28. Mai 2026 (rund 1.000 Stellen / 20 %, Schekel-Aufwertung + „AI-native"-Umbau, größte Reduktion der Unternehmensgeschichte) und Meta-Welle vom 20. Mai 2026 (rund 8.000 Stellen) in die TrueUp-Tagesfortschreibung zum 30./31. Mai 2026 (148.092 Personen aus 354 Layoff-Meldungen, rund 981 Stellen pro Tag im Jahresdurchschnitt) integriert. | 1–5 |
+| 2 | § 1.1 | Ergänzung | IAB-Forum-Einschätzung Mai 2026 (Publikation 29. Mai 2026): IAB-Arbeitsmarktbarometer 99,6 (+0,1, knapp unter Neutralmarke), BIP +0,3 % im Q1 2026, Exporte +3,3 %, April-Inflation 2,9 %, weiterhin keine Trendwende erwartet; als Folgestand der März-2026-Frühjahrsprognose eingegliedert. | 6 |
+| 3 | § 4.5 | Ergänzung | Neuer Block *„Casar-Vorschlag — AI Token Tax und WPA-inspiriertes Jobs-Programm (Mai 2026)"* nach dem No-Robot-Bosses-Act-Absatz; Token-/Compute-Bemessungsgrundlage, WPA-Beschäftigungsprogramm, Verortung als Typ 3 nach § 2.1 (KI/Compute-bezogene Abgabe); Trennung zur Sanders- und OpenAI-Linie konzeptionell skizziert. | 7–9 |
+| 4 | § 4.5 | Aktualisierung | Connecticut-Block: „Gouverneur Ned Lamont hat seine Unterzeichnung angekündigt" auf „hat das Gesetz nach Ankündigung Anfang Mai 2026 am 29. Mai 2026 unterzeichnet" geändert; Hinweis ergänzt, dass Connecticut damit der erste US-Bundesstaat mit kodifizierter AI-Layoff-Disclosure-Architektur ist. | 10–12 |
+| 5 | § 11.3 | Ergänzung | Neue Einträge: *Davis Wright Tremaine / DLA Piper / Littler / Ogletree / Future of Privacy Forum* (Mai 2026, Sammelanalyse zur Lamont-Unterzeichnung); *Casar, G. (28. Mai 2026)*. | 7–8, 10–12 |
+| 6 | § 11.5 | Ergänzung | Neue Sammelbelege: *TrueUp / Layoffs.fyi / SkillSyncer (Stand 30./31. Mai 2026)*; *CNBC / Times of Israel / Calcalist / Jerusalem Post / TechRadar (28. Mai 2026)* zu Wix; *IAB-Forum (29. Mai 2026)*; *Common Dreams / Breitbart / Texas Politics / KTSM (28./29. Mai 2026)* zur Casar-Rezeption; *CT Mirror / Davis Wright Tremaine / Freshfields (29. Mai 2026)* zur Lamont-Unterzeichnung; *Yahoo Finance / TechSpot / The Times (Mai 2026)* zur Mai-Welle. | 1–5, 9, 12 |
+| 7 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnitt auf „1. Juni 2026 — Lauf 001 vom 1. Juni 2026" geändert; Wix, TrueUp Stand 30./31. Mai, IAB Mai 2026, Casar-Op-Ed und Lamont-Unterzeichnung in den Auflistungstext aufgenommen. | 1–12 |
+| 8 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Versions-Eintrag in der KI-Offenlegung mit den fünf Mai-2026-Treffern). | — |
+| 9 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock *„Validierung 1. Juni 2026 (Lauf 001 vom 1. Juni 2026) — Version 22.0 → Version 23.0"* mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Meta Layoff-Welle 20. Mai 2026 (rund 8.000 Stellen) | F | Außerhalb 7-Tage-Fenster (12 Tage vor Stichtag); im TrueUp-Aggregat 30./31. Mai 2026 als Teil-Komponente abgebildet. |
+| 2 | Intuit Layoff-Ankündigung 20. Mai 2026 (rund 3.000 Stellen / 17 %) | F | Außerhalb 7-Tage-Fenster; aggregiert über TrueUp abgedeckt. |
+| 3 | BILL Layoff-Ankündigung Mai 2026 (rund 30 %) | F | Außerhalb 7-Tage-Fenster ohne präzise Datierung. |
+| 4 | Upwork Layoff-Ankündigung Mai 2026 (rund 25 %) | F | Außerhalb 7-Tage-Fenster. |
+| 5 | EU AI Act Digital Omnibus — provisorische Einigung 7. Mai 2026 | B | Außerhalb 7-Tage-Fenster; in nächstem Lauf mit formaler Verabschiedung (vor 2. August 2026) nachzutragen — bestehende Aktualitätshinweis-Formulierung zur Trilog-Verhandlungslinie aus Lauf 001 vom 8. Mai 2026 bleibt aus diesem Grund vorläufig stehen. |
+| 6 | OECD *Who will be the workers most affected by AI?* | A | Originalbericht aus Oktober 2024; Mai-2026-Datierung in den Suchergebnissen bezieht sich auf eine Indexierungs-Bereinigung. |
+| 7 | Generationenkapital Rendite 7,2 % erstes Jahr 2026 | E/H | Keine offizielle NBIM-/Stiftung-Generationenkapital-Veröffentlichung im 7-Tage-Fenster; bestehender § 8.6-Verweis bleibt aktuell. |
+| 8 | Anthropic Economic Index — kein neuer Bericht Mai 2026 | I | Keine Bewegung im Zeitfenster. |
+| 9 | Tesla Optimus / Figure / Unitree (humanoide Robotik) | J | Keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster. |
+| 10 | UBS Global Research — 42 % der Unternehmen erwarten KI-bedingte Hiring-Reduktion (13. Mai 2026) | F | Außerhalb 7-Tage-Fenster; im Sammelbeleg *Yahoo Finance / TechSpot / The Times* als Hintergrundwert mit Datierung referenziert. |
+| 11 | Acemoglu / Restrepo NBER Working Paper *Artificial Intelligence, Automation and Work* (revidierte Fassung 11. Februar 2026) | A | Außerhalb 7-Tage-Fenster; in Version 22.0 bereits als zentrale Acemoglu-Manera-Restrepo-Referenz vertreten. |
+| 12 | Bundesrat 1066. Sitzung (12. Juni 2026) — Tagesordnung und Behandlung GKV-Beitragssatzstabilisierungsgesetz | B/E | Liegt nach dem Stichtag 1. Juni 2026; im nächsten Lauf nachzutragen. |
+| 13 | Cluster G (Gesundheitswesen) — keine KI-spezifischen Beschlüsse von G-BA / gematik / BfArM im Fenster | G | Fünftes Mal in Folge ohne valide Treffer im 7-Tage-Fenster; Empfehlung für die nächsten Läufe weiterhin bestehend. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block *„Validierung 1. Juni 2026 (Lauf 001 vom 1. Juni 2026) — Version 22.0 → Version 23.0"* in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): Fallback-Datei `daily-mail.txt` im Repo-Root geschrieben (gitignored). Kein passendes Versand-Tool (`mail_send` / `send_mail` / `send_message` / `outlook_send` aus `graph-mcp`) in der laufenden Session erreichbar — `Microsoft-365`-MCP bietet ausschließlich Such-/Lese-Tools (`outlook_email_search`, `read_resource`, …), keine Send-Operation. Inhalt 3.739 Zeichen (unter 5.000-Zeichen-Schwelle).
+- WhatsApp-Versand (Phase 5b): Fallback-Datei `daily-whatsapp.txt` im Repo-Root geschrieben (gitignored). Kein `whatsapp`-MCP-Server in der laufenden Session konfiguriert (keine `wa_send_message`-, `send_message`- oder `wa_send_media`-Tools auffindbar). Inhalt 788 Zeichen (unter 1.000-Zeichen-Schwelle).
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 001 vom 1. Juni 2026 ist der erste reguläre Daily-Update-Lauf nach Lauf 001 vom 8. Mai 2026 (24-Tage-Zwischenraum); fünf belegbare Treffer im 7-Tage-Fenster (25. Mai – 1. Juni 2026), davon zwei (Wix, TrueUp-Tagesfortschreibung) in Cluster F, einer (IAB-Forum) in Cluster E, zwei (Casar, CT-SB-5-Unterzeichnung) in Cluster B/D.
+- EU AI Act Digital Omnibus on AI — die provisorische Einigung vom 7. Mai 2026 ist außerhalb des 7-Tage-Fensters dieses Laufs und wird daher in der Aktualitätshinweis-Linie zu den Trilog-Verhandlungen bewusst nicht korrigiert; die formale Verabschiedung durch Parlament und Rat ist vor dem 2. August 2026 angekündigt — diese Bewegung wird im nächsten Lauf erfasst und der Aktualitätshinweis dann konsolidiert.
+- Bundesrat 1066. Sitzung am 12. Juni 2026 mit dem Erstdurchgang des GKV-Beitragssatzstabilisierungsgesetzes liegt nach dem Stichtag dieses Laufs; im nächsten Lauf einzuarbeiten.
+- Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne valide Treffer im 7-Tage-Fenster; Empfehlung für die nächsten Läufe weiterhin bestehend (gezielter Abruf von g-ba.de Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-Listings).
+- Cluster I (Frontier-Modelle) und Cluster J (Robotik) im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen.
+- Branch dieses Laufs: `claude/determined-einstein-S4j3s` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push neu angelegt).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Versand-Tools waren in der laufenden Session nicht erreichbar (Microsoft-365-MCP nur mit Lese-/Suchtools, kein WhatsApp-MCP konfiguriert) — die vorbereiteten Inhalte sind gemäß Phase-5b-Spezifikation als Fallback in `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben (beide Dateien stehen in `.gitignore` und werden nicht versioniert).
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
