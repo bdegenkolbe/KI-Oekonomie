@@ -128,6 +128,7 @@
 - Phase-5b-Empfänger wurden durch die Routine-Anweisung übergeben (E-Mail und WhatsApp); Empfängerdaten werden nicht im Logbuch genannt.
 - Phase 5b — E-Mail: Bevorzugtes Tool `mail_send` aus dem `graph-mcp`-MCP-Server in dieser Session nicht erreichbar; keines der alternativen Tool-Namen-Muster (`mail_send`, `send_mail`, `send_message`, `outlook_send`) verfügbar. Fallback: vorbereiteter E-Mail-Inhalt in `daily-mail.txt` im Repo-Root geschrieben (gitignored).
 - Phase 5b — WhatsApp: Der `whatsapp`-MCP-Server ist in dieser Session nicht verbunden; weder `wa_send_message` noch alternative `send`/`send_message`-Tools aus diesem Server verfügbar. Fallback: vorbereitete Zusammenfassung in `daily-whatsapp.txt` im Repo-Root geschrieben (gitignored).
+- Phase 6 — Push auf `main` schlägt mit HTTP 403 fehl (drei Versuche mit Backoff 2 s / 4 s / 8 s). Identisches Verhalten zu Lauf 001 vom 8. Mai 2026 (vgl. Commit 53d1a31 „Logbuch: Phase-6-Cleanup-Status (Remote-Branch-Loeschung 403)"). Der Session-Branch `claude/determined-einstein-MYVFl` ist mit dem Daily-Update-Commit auf dem Remote, der Merge auf `main` ist lokal abgeschlossen, kann aber nicht auf den Remote gepusht werden. Local-Branch-Cleanup und Remote-Branch-Deletion deshalb übersprungen — der Session-Branch bleibt als zugängliche Quelle für das Update auf dem Remote.
 
 ---
 
