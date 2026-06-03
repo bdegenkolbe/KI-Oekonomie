@@ -54,6 +54,83 @@
 
 ---
 
+## 2026-06-03 — Lauf 002 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster F mit drei aufgenommenen Treffer-Bündeln; Cluster B mit einem aufgenommenen Treffer; Cluster D mit einem aufgenommenen Treffer; Cluster A mit einem aufgenommenen Treffer; Cluster E/G/H/J ohne neue belegbare Treffer im Zeitfenster).
+- Zeitfenster: 7 Tage Standard (27. Mai – 3. Juni 2026); Cluster F/I: 48 Stunden; ausnahmsweise erweitertes Fenster bis 7. Mai 2026 für aggregat-relevante Strukturentwicklungen (EU AI Act Omnibus, Yale-Budget-Lab-Update), weil der vorherige Lauf am 8. Mai 2026 stattfand und ein 26-Tage-Gap aufzuholen war.
+- Anzahl Suchanfragen: 13 (Web-Suche) + 3 (Web-Fetch zur Primärquellen-Verifikation).
+- Lauf 002 ist der erste reguläre Daily-Update-Lauf nach 26 Tagen Pause (vorheriger Lauf 001 vom 8. Mai 2026).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B/I | Council of the EU, *Artificial Intelligence: Council and Parliament agree to simplify and streamline rules*, 7. Mai 2026 | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ | übernommen |
+| 2 | B | Latham & Watkins, *AI Act Update: EU Resolves to Change Rules and Extend Deadlines*, Mai 2026 | https://www.lw.com/en/insights/ai-act-update-eu-resolves-to-change-rules-and-extend-deadlines | übernommen (Kanzleianalyse, Sammelbeleg) |
+| 3 | B | Mishcon de Reya / White & Case / Lewis Silkin / Inside Privacy, *EU AI Act Omnibus*, Mai 2026 | https://www.mishcon.com/news/eu-ai-act-simplified-unpacking-the-ai-omnibus-agreement-of-may-2026 \| https://www.whitecase.com/insight-alert/eu-agrees-digital-omnibus-deal-simplify-ai-rules \| https://www.lewissilkin.com/insights/2026/05/07/the-council-and-parliament-agree-to-slim-down-and-delay-parts-of-the-eu-ai-act-102ms0v \| https://www.insideprivacy.com/artificial-intelligence/eu-ai-act-update-timeline-relief-targeted-simplification-and-new-prohibitions/ | übernommen (Sammelbeleg) |
+| 4 | D | Time, *Sam Altman Says AI „Jobs Apocalypse" Probably Won't Happen*, 26. Mai 2026 | https://time.com/article/2026/05/26/sam-altman-ai-job-losses-openAI-/ | übernommen |
+| 5 | D | Fortune, *Sam Altman and Dario Amodei are both walking back their AI jobs apocalypse prophecies as they eye blockbuster IPOs*, 26. Mai 2026 | https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/ | übernommen |
+| 6 | D | Yahoo Finance / BusinessToday / Breitbart, Sammelberichterstattung Altman-/Amodei-Reversal, 26./27. Mai 2026 | https://finance.yahoo.com/sectors/technology/articles/sam-altman-says-ai-jobs-070000453.html \| https://www.businesstoday.in/technology/artificial-intelligence/story/ai-will-not-replace-human-part-of-employment-says-openai-ceo-sam-altman-533378-2026-05-26 \| https://www.breitbart.com/tech/2026/05/27/openais-sam-altman-and-anthropics-dario-amodei-reverse-predictions-on-ai-job-displacement-as-ipos-loom/ | übernommen (Sammelbeleg) |
+| 7 | F | BusinessToday, *May Mayhem 2026: Nearly 30,000 tech jobs were wiped out*, 28. Mai 2026 | https://www.businesstoday.in/technology/news/story/may-mayhem-2026-nearly-30000-tech-jobs-were-wiped-out-533404-2026-05-28 | übernommen |
+| 8 | F | TechSpot, *Tech layoffs have already passed 100,000 in 2026*, Mai 2026 | https://www.techspot.com/news/112493-tech-layoffs-pass-100000-2026-tracker-points-ai.html | übernommen (Sammelbeleg) |
+| 9 | F | TechTimes, *Tech Layoffs Reach 142,000 in 2026: Profitable Companies Cut Jobs to Fund $700B AI Infrastructure*, 29. Mai 2026 | https://www.techtimes.com/articles/317392/20260529/tech-layoffs-reach-142000-2026-profitable-companies-cut-jobs-fund-700b-ai-infrastructure.htm | übernommen |
+| 10 | F | Yahoo Finance, *2026 Tech Layoffs Near 150,000 as Companies Pour Money Into AI*, Ende Mai 2026 | https://finance.yahoo.com/sectors/technology/articles/2026-tech-layoffs-near-150-110000224.html | übernommen (Sammelbeleg) |
+| 11 | F | Fortune, *CEOs blame AI for layoffs, but an MIT professor says it fits a long-running pattern to find a cover story*, 31. Mai 2026 | https://fortune.com/2026/05/31/tech-companies-ai-washing-layoffs-wix-block-snap-atlassian-disposable-workers/ | übernommen |
+| 12 | A | Yale Budget Lab, *AI Is Probably Not (Yet) the Reason for Labor Market Weakening / Tracking the Impact of AI on the Labor Market*, Stand Mai 2026 | https://budgetlab.yale.edu/research/ai-probably-not-yet-reason-labor-market-weakening \| https://budgetlab.yale.edu/research/tracking-impact-ai-labor-market | übernommen |
+| 13 | A | Fortune, *AI could solve America's $39 trillion debt crisis—but only if Washington abandons displaced workers, Yale Budget Lab warns*, 6. Mai 2026 | https://fortune.com/2026/05/06/39-trillion-national-debt-fix-ai-productivity-yale-budget-lab/ | übernommen |
+| 14 | I | NVIDIA Q1 FY27 Earnings Call (20. Mai 2026, $81,6 Mrd. Umsatz, Sovereign-AI-Umsatz ~$30 Mrd.) | https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-first-quarter-fiscal-fq78amc9h84m.html | verworfen (Dublette zur bereits dokumentierten Capex-/Sovereign-AI-Linie aus § 1.1 / § 8.2; keine eigenständig steuerpolitisch neue Information) |
+| 15 | B | Bundesrat 1066. Sitzung, *Tagesordnung 12. Juni 2026* (KI-MIG, 24 Regierungsentwürfe) | https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1066/1066-pk.html | verworfen (Sitzung liegt nach dem Recherchezeitpunkt; verbindliche Beschlüsse noch nicht ergangen — nächster Lauf) |
+| 16 | C | Stanford HAI, *2026 AI Index Report — sovereign AI compute / 44 state-backed supercomputing clusters*, April 2026 | https://hai.stanford.edu/ai-index/2026-ai-index-report | verworfen (Veröffentlichung außerhalb des 7-Tage-Fensters, April 2026; bestehende AI-Sovereignty-Linie aus § 4.4 / § 8.2 bleibt korrekt) |
+| 17 | C | South Korea quasi-robot tax / Italian IRAP follow-ups | https://itif.org/publications/2026/02/09/industries-impacted-by-quasi-robot-tax-south-korea-reduced-industrial-robot-installations/ | verworfen (außerhalb Zeitfenster; bestehende § 6.1 / § 6.2-Einbindung gilt) |
+| 18 | F | Salesforce / Klarna AI-Layoff-Berichterstattung Mai 2026 | https://www.salesforceben.com/is-ai-an-excuse-why-salesforces-layoffs-tell-a-bigger-picture/ \| https://www.storyboard18.com/brand-marketing/salesforce-reports-third-party-data-breach-plans-4000-layoffs-amid-ai-shift-report-94928.htm | übernommen (Sammelbeleg, Salesforce ~4.000 mit AI-Begründung; in § 1.1-Update mit aufgenommen) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 1.1 | Ergänzung | „May Mayhem 2026"-Aggregat-Update mit den Mai-Großmeldungen (Meta 8.000 ab 20. Mai, Wix rund 1.000 / 20 % am 25. Mai, Cisco rund 4.000, Intuit 3.000 / 17 %, LinkedIn 875, Salesforce rund 4.000) und den nachfolgenden Tracker-Ständen (TechSpot/Yahoo/TechTimes 142.000–150.000 YTD; TrueUp 148.173 aus 355 Meldungen zum 2. Juni 2026 / rund 962/Tag / Hochrechnung ~370.000 für 2026) im Anschluss an den bestehenden Cloudflare-/Coinbase-Block. | 7–11, 18 |
+| 2 | § 1.1 | Ergänzung | Yale-Budget-Lab-Befund vom 6. Mai 2026 *„AI Is Probably Not (Yet) the Reason for Labor Market Weakening"* und fiskalische Modellrechnung 2,5 % p. a. Produktivität vs. 39-Bio.-USD-Schuldenpfad als unabhängige Bestätigung der in § 9.1 dokumentierten Mess-/Kausalitätsprobleme; *Fortune*-„AI washing"-Argument vom 31. Mai 2026 mit MIT-Zitat als Verschärfung der Kausalattributions-Lücke. | 11–13 |
+| 3 | § 4.4 | Ergänzung | Neuer Block *„EU AI Act Omnibus — politische Einigung 7. Mai 2026"* mit verschobenen HRAIS-Fristen (Anhang III: 2. Dezember 2027; Anhang I: 2. August 2028), neuem „Nudification"-/CSAM-Verbot ab 2. Dezember 2026 (Bußgeldrahmen bis 35 Mio. EUR / 7 %), Watermarking-Pflichten ab 2. August 2026 mit Grandfathering bis 2. Dezember 2026 (bis 15 Mio. EUR / 3 %) und erweiterter SME-/SMC-Definition (bis 750 Beschäftigte / 150 Mio. EUR); formelle Annahme bis 2. August 2026 erwartet. | 1–3 |
+| 4 | § 4.5 | Ergänzung | Neuer Block *„Rhetorische Kehrtwende der KI-Vorstandschefs (Mai 2026)"* zum Sam-Altman-„delighted to be wrong" vor der Commonwealth Bank of Australia am 26. Mai 2026, parallelen Walk-back von Dario Amodei (Jevons-Paradox-Argument) und zeitlicher Nähe zu den geplanten OpenAI-/Anthropic-IPOs mit Bewertungen im Bereich je rund 1 Billion US-Dollar; einbettet in den in § 4.5 (Sanders/OpenAI) und § 4.5 (Bloomberg-Editorial) bereits angelegten Befund zu Agenda-Setting-Asymmetrien. | 4–6 |
+| 5 | § 11.5 | Ergänzung | Vier neue Sammelbelege: Council of the EU / Latham & Watkins / Mishcon / White & Case / Lewis Silkin / Inside Privacy (AI Act Omnibus); Time / Fortune / Yahoo Finance / BusinessToday / Breitbart (Altman-/Amodei-Reversal); BusinessToday / TechSpot / TechTimes / Yahoo Finance / Fortune (May Mayhem & AI washing); Yale Budget Lab / Fortune (AI Probably Not Yet & 39-Bio.-USD-Modellrechnung). | 1–13 |
+| 6 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Lauf 002 vom 3. Juni 2026" geändert; EU AI Act Omnibus, Altman-/Amodei-Reversal, May-Mayhem-Aggregat, AI-washing-Differenzierung und Yale-Budget-Lab-Befund in den Auflistungstext aufgenommen. | 1–13 |
+| 7 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Eintrag in der KI-Offenlegung mit den vier Bündeln EU Omnibus / Altman-Amodei / May Mayhem / Yale Budget Lab). | — |
+| 8 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 3. Juni 2026 (Lauf 002 vom 3. Juni 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 14 | NVIDIA Q1 FY27 Earnings (20. Mai 2026) | I | Dublette: Sovereign-AI-/Capex-Linie bereits in § 1.1 und § 8.2 dokumentiert; keine eigenständig steuerpolitisch neue Information jenseits der bestehenden 725-Mrd.-USD-Linie. |
+| 15 | Bundesrat 1066. Sitzung (12. Juni 2026) | B | Außerhalb Zeitfenster (Sitzung nach Recherchedatum 3. Juni 2026); verbindliche Beschlüsse noch nicht ergangen — für nächsten Lauf vorgemerkt. |
+| 16 | Stanford HAI 2026 AI Index Report (April 2026) | C/H/I | Außerhalb 7-Tage-Fenster; AI-Sovereignty-Linie ist in § 4.4 / § 8.2 bereits abgedeckt. |
+| 17 | South Korea quasi-robot tax / Italian IRAP follow-ups | C | Außerhalb Zeitfenster; bestehende § 6.1 / § 6.2-Einbindung bleibt korrekt. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- E-Mail-Versand (Phase 5b): siehe Auffälligkeiten
+- WhatsApp-Versand (Phase 5b): siehe Auffälligkeiten
+- Branch auf main gemerged und gelöscht: siehe Phase-6-Status am Ende des Laufs
+
+### Auffälligkeiten / offene Punkte
+
+- Zeitfenster ausnahmsweise auf bis zu 26 Tage erweitert, weil der vorherige Lauf am 8. Mai 2026 stattfand. Die aggregat-relevanten Strukturentwicklungen (EU AI Act Omnibus 7. Mai 2026; Yale-Budget-Lab-Update 6. Mai 2026) wurden trotz des erweiterten Fensters aufgenommen, weil sie für die in § 4.4 / § 1.1 / § 9.1 geführte Linie unmittelbar relevant sind.
+- Bundesrat 1066. Sitzung (12. Juni 2026) mit KI-MIG auf der Tagesordnung ist als „nächster Lauf nachzutragen" vorgemerkt.
+- Cluster G (Gesundheitswesen) liefert zum fünften Mal in Folge keine im Zeitfenster belegbaren Treffer — die in § 7 verankerte Versorgungsdimension bleibt damit auf dem Stand der Krankenhausreform / GKV-Beitragssatzstabilisierungsgesetz aus Lauf 001 (8. Mai 2026).
+- Phase-5b-Empfänger wurden durch die Routine-Anweisung übergeben (E-Mail und WhatsApp); Empfängerdaten werden nicht im Logbuch genannt.
+- Phase 5b — E-Mail: Bevorzugtes Tool `mail_send` aus dem `graph-mcp`-MCP-Server in dieser Session nicht erreichbar; keines der alternativen Tool-Namen-Muster (`mail_send`, `send_mail`, `send_message`, `outlook_send`) verfügbar. Fallback: vorbereiteter E-Mail-Inhalt in `daily-mail.txt` im Repo-Root geschrieben (gitignored).
+- Phase 5b — WhatsApp: Der `whatsapp`-MCP-Server ist in dieser Session nicht verbunden; weder `wa_send_message` noch alternative `send`/`send_message`-Tools aus diesem Server verfügbar. Fallback: vorbereitete Zusammenfassung in `daily-whatsapp.txt` im Repo-Root geschrieben (gitignored).
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor

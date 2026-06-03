@@ -7,6 +7,67 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 3. Juni 2026 (Lauf 002 vom 3. Juni 2026) — Version 22.0 → Version 23.0
+
+**Auslöser:** Zweiter regulärer Daily-Update-Lauf nach 26 Tagen Pause (vorheriger Lauf 001 vom 8. Mai 2026). Web-Recherche im Korridor der Cluster A–J am 3. Juni 2026 mit 7-Tage-Standardfenster (27. Mai – 3. Juni 2026), 48-Stunden-Fenster für Cluster F/I und ausnahmsweise erweitertem Fenster bis 7. Mai 2026 für aggregat-relevante Strukturentwicklungen wegen des 26-Tage-Gaps. Vier belegbare Themenbündel identifiziert und eingearbeitet: (1) EU AI Act Omnibus — politische Einigung Rat/Parlament am 7. Mai 2026 mit verschobenen HRAIS-Fristen, Nudification-Verbot, Watermarking-Pflichten und erweiterter SME-/SMC-Definition; (2) rhetorische Kehrtwende von Sam Altman (Commonwealth Bank of Australia, Sydney, 26. Mai 2026: „delighted to be wrong") und Dario Amodei (Jevons-Paradox-Argument) im zeitlichen Vorfeld der für 2026 erwarteten OpenAI-/Anthropic-IPOs; (3) „May Mayhem"-Aggregat-Berichterstattung (BusinessToday 28. Mai 2026 ~28.000–30.000 Tech-Streichungen mit Meta, Wix, Cisco, Intuit, LinkedIn, Salesforce) mit nachfolgenden Tracker-Aktualisierungen (TechSpot/Yahoo/TechTimes 142.000–150.000 YTD; TrueUp 148.173 / 355 Meldungen / ~962 pro Tag zum 2. Juni 2026; Jahres-Hochrechnung ~370.000) und Fortune-AI-washing-Differenzierung vom 31. Mai 2026; (4) Yale-Budget-Lab-Befund vom 6. Mai 2026 *„AI Is Probably Not (Yet) the Reason for Labor Market Weakening"* mit fiskalischer Modellrechnung 2,5 % p. a. Produktivität vs. 39-Bio.-USD-US-Schuldenpfad. Alle übrigen recherchierten Themen (Bundesrat 1066. Sitzung 12. Juni 2026, Stanford HAI 2026 AI Index April 2026, NVIDIA Q1 FY27 Earnings 20. Mai 2026, South Korea / Italy IRAP) waren entweder bereits in Version 22.0 enthalten, lagen außerhalb des Zeitfensters oder hatten keinen eigenständigen steuerpolitischen Mehrwert über die bereits dokumentierte Linie hinaus.
+
+### Aufgenommene Neuigkeiten
+
+- **§ 4.4 (Europäisches Sekundärrecht):** Neuer Block *„EU AI Act Omnibus — politische Einigung 7. Mai 2026"* zwischen Rat und Parlament: Verschiebung der Hochrisiko-Pflichten (Anhang III auf 2. Dezember 2027, Anhang I auf 2. August 2028), neues Verbot von „Nudification"-Apps und CSAM-Generatoren ab 2. Dezember 2026 (Bußgeldrahmen bis 35 Mio. EUR / 7 %), Watermarking-Pflichten ab 2. August 2026 mit Grandfathering bis 2. Dezember 2026 (bis 15 Mio. EUR / 3 %), erweiterte SME-/SMC-Definition (bis 750 Beschäftigte / 150 Mio. EUR), Ausnahme für Maschinenverordnungs-Anwendungen, geschärfte AI-Office-Rolle, formelle Annahme bis 2. August 2026 erwartet. Für die Steuerdebatte relevant, weil die regulatorische Klassifikationsfundament — und damit der administrative Anknüpfungspunkt für KI-spezifische Abgaben — auf einen anderen Zeitstrahl gesetzt wird.
+- **§ 4.5 (Jüngste politische Initiativen):** Neuer Block *„Rhetorische Kehrtwende der KI-Vorstandschefs (Mai 2026)"* zum Altman-„delighted to be wrong" vor der Commonwealth Bank of Australia (Sydney, 26. Mai 2026) und zum parallelen Walk-back von Dario Amodei (Anfang Mai 2026, Jevons-Paradox-Argument); Berichterstattung *Fortune* / *Breitbart* / *Bloomberg* markiert zeitliche Nähe zu den geplanten OpenAI-/Anthropic-IPOs mit Bewertungen im Bereich je rund 1 Billion US-Dollar. Eingebettet in den in § 4.5 (Sanders/OpenAI) und § 4.5 (Bloomberg-Editorial) bereits angelegten Agenda-Setting-Befund — der Block löst nicht die in § 1.1 dokumentierte empirische Beobachtung auf, entzieht aber den Befürwortern einer Robotersteuer die rhetorische Spitze „auch die KI-Anbieter sagen, ihre Modelle ersetzten Menschen".
+- **§ 1.1 (Ausgangslage):** Aggregat-Update zur „May Mayhem 2026"-Welle mit Meta (8.000 ab 20. Mai), Wix (rund 1.000 / 20 % am 25. Mai), Cisco (rund 4.000), Intuit (3.000 / 17 %), LinkedIn (875) und Salesforce (rund 4.000 mit Benioff-Begründung „KI-Agenten erledigen 50 % der Kundeninteraktionen"); nachfolgende Tracker-Aktualisierungen (TechSpot, TechTimes 29. Mai, Yahoo Finance: kumuliert 142.000–150.000 YTD); TrueUp 148.173 Personen aus 355 Meldungen zum 2. Juni 2026 (rund 962 pro Tag; +33 % gegenüber Vorjahresvergleich; Hochrechnung auf rund 370.000 Tech-Streichungen 2026). Ergänzt durch Yale-Budget-Lab-Befund vom 6. Mai 2026 (kein systematischer KI-Disruptionseffekt in den US-CPS-Daten bis März 2026; fiskalische Modellrechnung 2,5 % p. a. Produktivität als Hebel auf den 39-Bio.-USD-Schuldenpfad, gebunden an parallele Übergangshilfen-Finanzierung) und durch *Fortune*-Analyse vom 31. Mai 2026 (*„AI washing"*-Argument mit MIT-zitiertem Cover-Narrativ-Befund) — verschärft die in § 9.1 dokumentierten Mess-/Kausalitätsprobleme einer Displacement-basierten Anknüpfung.
+- **Aktualitätshinweis am Dokumentende:** Schnittangabe auf „Lauf 002 vom 3. Juni 2026" geändert; EU AI Act Omnibus, Altman-/Amodei-Reversal, May-Mayhem-Aggregat, AI-washing-Differenzierung und Yale-Budget-Lab-Befund in den Auflistungstext aufgenommen.
+- **README.md:** Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Eintrag in der KI-Offenlegung mit den vier Bündeln EU Omnibus / Altman-Amodei-Reversal / May Mayhem / Yale Budget Lab).
+- **§ 11.5:** Vier neue Sammelbelege.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Inhaltsverzeichnis unverändert (11 Kapitel); Executive Summary referenziert Deutschland-These; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitelnummerierung 1–11 lückenlos; Unterabschnitte erhalten; Zähler (fünf Typen, drei Säulen, sieben Empfehlungen) unverändert. |
+| 2.1.3 Querverweise | OK | Neue §-Verweise konsistent (§ 1.1 → § 9.1; § 4.4 → § 5.1; § 4.5 (Altman-Reversal) → § 4.5 (Sanders/OpenAI/Bloomberg)). Bestehende Verweise unverändert. |
+| 2.1.4 Roter Faden | OK | EU-Omnibus-Block bleibt in § 4.4 (EU-Sekundärrecht); Altman-/Amodei-Reversal in § 4.5 (Politische Initiativen); May-Mayhem-Aggregat in § 1.1 (Ausgangslage); Deutschland-These unverändert. |
+| 2.1.5 Formatierung | OK | Fett-Lead-Ins einheitlich gesetzt; keine doppelten Trennlinien; Tabellen unverändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | EU-Omnibus-Fristen und Bußgeldrahmen aus EU-Rats-Pressemitteilung 7. Mai 2026 und Kanzleianalysen Latham & Watkins / Mishcon / White & Case verifiziert; Altman-Zitat „delighted to be wrong" und Sydney-Kontext aus Time und Fortune verifiziert; Tracker-Stand TrueUp 148.173 aus 355 Meldungen zum 2. Juni 2026 aus TechSpot/Yahoo/TechTimes verifiziert; Yale-Budget-Lab-Quelle direkt verifiziert. |
+| 2.2.2 Redundanzprüfung | OK | Die in § 4.4 neu eingefügte EU-Omnibus-Linie ist nicht redundant mit der in § 4.5 dokumentierten Trilog-Vorgeschichte; die in § 1.1 neu eingefügte May-Mayhem-Linie verknüpft sich mit den bestehenden Cloudflare-/Coinbase-Sätzen, dupliziert aber keine Inhalte. Die Altman-Reversal-Linie ergänzt das OpenAI-Strategiepapier-Narrativ, ohne dessen Inhalt zu wiederholen. |
+| 2.2.3 Argumentation | OK | Acemoglu/Thuemmel-Trennung unverändert; Deutschland-These (drei Säulen) bleibt geschlossen; das in § 4.5 (Altman-Reversal) verankerte Agenda-Setting-Argument ist konsistent mit dem in § 4.5 (Bloomberg-Editorial) und § 4.5 (OpenAI-Strategiepapier) angelegten Befund. |
+| 2.2.4 Ausgewogenheit | OK | Yale-Budget-Lab-Befund stützt die Gegenposition zur KI-zentrischen Verdrängungs-These; *Fortune*-„AI washing"-Differenzierung balanciert die Layoff-Aggregat-Linie; EU-Omnibus-Beschreibung im Konjunktiv (politische Einigung, formelle Annahme erwartet). |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobenartig keine Auffälligkeiten in den neu eingefügten Blöcken. |
+| 2.3.2 Terminologie | OK | „KI" nach Erstnennung konsistent; „Wertschöpfungsabgabe" einheitlich; „Hochrisiko-System" und „HRAIS" beim ersten Auftreten in § 4.4 erklärt; „AI-washing" als englischer Fachterminus in Anführungszeichen geführt. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Alle neu im Fließtext genannten Quellen (Council of the EU, Latham & Watkins, Mishcon, White & Case, Lewis Silkin, Inside Privacy, Time, Fortune, Yahoo, BusinessToday, Breitbart, TechSpot, TechTimes, Yale Budget Lab) im Literaturverzeichnis (Kapitel 11.5) gelistet. |
+| 2.4.2 Formale Einheitlichkeit | OK | Zitierstil angelehnt an APA in Kapitel 11.5 beibehalten; vollständige URLs ohne Shortener oder Redirects. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquelle EU-Rats-Pressemitteilung 7. Mai 2026 verifiziert; Time-Berichterstattung 26. Mai 2026 als datierter Beleg; Tracker-Stände TrueUp/SkillSyncer mit Stand 2. Juni 2026 datiert; Konjunktivpflicht bei politischer Einigung (EU Omnibus, Annahme erwartet) und bei rhetorischer Kehrtwende (Altman/Amodei) gewahrt. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe: Council of the EU URL (HTTP 403 für WebFetch — Inhalt aus mehreren Kanzleianalysen verifiziert), Time URL (HTTP 403 für WebFetch — Inhalt aus Fortune/Yahoo Finance/BusinessToday verifiziert), TechTimes URL und Fortune-URL erfolgreich via WebFetch verifiziert. Die Council-of-the-EU- und Time-URLs sind im Browser erreichbar, antworten aber 403 auf automatisierte Fetcher — Sammelbelege aus mehreren Sekundärquellen sichern die Inhalte ab. |
+| 2.4.5 Zitatgenauigkeit | OK | Altman-Zitat „delighted to be wrong" wörtlich aus Time / Fortune übernommen; Amodei-Jevons-Paradox-Argument als Paraphrase markiert; EU-Omnibus-Fristen und Bußgeldrahmen direkt aus Latham-&-Watkins-Analyse zitiert; Tracker-Zahlen aus TechTimes/TrueUp wörtlich übernommen. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Markierung bei de la Feria et al. 2022 unverändert erhalten; Sanders-Report-Verifikation aus Version 5.0 wirkt fort. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionsnummer 23.0 im Dokumentkopf, im Aktualitätshinweis, in `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung) und in diesem Block einheitlich; Autorname Björn Degenkolbe und Organisation HIGL unverändert; CC-BY-4.0-Lizenzhinweis und Haftungshinweis erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine dedizierten Prüfskripte im Projekt; manuelle Stichproben gemäß § 2.1.2 und § 2.1.3 ersetzen den automatisierten Teil. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine in der Erstprüfung identifizierten Fehler. | — |
+
+### Bereinigung
+
+Keine Bereinigung erforderlich — die Prüfung ergab keine offenen Fehler.
+
+### Nachprüfung
+
+Entfällt, weil keine Bereinigung notwendig war.
+
+### Abschluss
+
+- Validierung abgeschlossen: Ja
+- Alle Fehler behoben: Ja (keine Fehler aufgetreten)
+- Neue Version vergeben: 23.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 8. Mai 2026 (Lauf 001 vom 8. Mai 2026) — Version 21.0 → Version 22.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf am 8. Mai 2026 (nach den drei Tagesaktualisierungen am 7. Mai 2026, die in den Versionen 19.0, 20.0 und 21.0 protokolliert sind). Web-Recherche im Korridor der Cluster A–J am 8. Mai 2026: Optimalsteuer-/Aufgabenforschung (Cluster A); Robotersteuer/Wertschöpfungsabgabe DE/EU (Cluster B); internationale Praxis (Cluster C); Politik-Initiativen (Cluster D); Arbeitsmarkt- und Sozialversicherungsdaten (Cluster E); Tech-Layoffs / KI-Capex 48-Stunden-Fenster (Cluster F); Gesundheitswesen (Cluster G); Deutschland-These-Bezugspunkte (Cluster H); Frontier-Modelle (Cluster I); Robotik (Cluster J). Drei belegbare Treffer im 7-Tage- bzw. 48-Stunden-Fenster identifiziert und eingearbeitet (Cloudflare-Layoff vom 7. Mai 2026; Challenger *April-2026-Job-Cuts-Report* vom 1. Mai 2026; TrueUp-Tagesfortschreibung 8. Mai 2026); alle übrigen recherchierten Themen waren in Version 21.0 bereits enthalten oder lagen außerhalb des 7-Tage- bzw. 48-Stunden-Korridors.
