@@ -54,6 +54,111 @@
 
 ---
 
+## 2026-06-04 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster G — Gesundheitssektor — fünftes Mal in Folge ohne eigenständige neue Treffer im 7-Tage-Fenster, GKV-Reform-Strang über § 5.2 abgedeckt; Cluster I/J im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen).
+- Zeitfenster: erweiterter Korridor 8. Mai – 4. Juni 2026 (nach vier Wochen ohne Lauf), darin Standard-7-Tage für die Schluss-Phase und 48-Stunden für Cluster F/I; Cluster D mit Sanders-Op-Ed vom 2. Juni 2026 und Connecticut-SB-5-Unterzeichnung vom 29. Mai 2026 wirklich vertieft, Cluster F mit Meta-Umsetzung (20. Mai 2026), Oracle-Finalphase (1.–15. Juni 2026) und TrueUp-Stand (1. Juni 2026) als zweiter Vertiefungs-Cluster.
+- Anzahl Suchanfragen: 12 (Web-Suche).
+- Lauf 001 vom 4. Juni 2026 ist der erste reguläre Daily-Update-Lauf nach Version 22.0 (Schnitt 8. Mai 2026); die rund vier Wochen Pause wurden durch den erweiterten Recherchekorridor abgedeckt.
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | D | Senator Bernie Sanders, *The Public Should Own Half of the Big A.I. Companies* (Op-Ed, NYT-Wiedergabe / sanders.senate.gov), 2. Juni 2026 | https://www.sanders.senate.gov/op-eds/the-public-should-own-half-of-the-big-a-i-companies/ | übernommen |
+| 2 | D | Common Dreams, *Sanders Sovereign Wealth Fund Plan Would Give US Public 'Direct Ownership Stake' in AI Giants*, 2./3. Juni 2026 | https://www.commondreams.org/news/bernies-sanders-ai-sovereign-wealth-fund | übernommen (Sammelbeleg) |
+| 3 | D | Newsweek, *Millions Would Get 'Direct Payments' Under Bernie Sanders' Proposed AI Sovereign Wealth Fund*, 3. Juni 2026 | https://www.newsweek.com/direct-payments-ai-sovereign-wealth-fund-bernie-sanders-12021907 | übernommen (Sammelbeleg) |
+| 4 | D | Yahoo Finance, *Bernie Sanders to introduce bill giving the public a 50% stake in top AI companies*, 2. Juni 2026 | https://finance.yahoo.com/economy/policy/articles/bernie-sanders-introduce-bill-giving-135431485.html | übernommen (Sammelbeleg) |
+| 5 | D | The Hill, *Bernie Sanders to propose bill allowing for 50% public stake in AI companies*, 2. Juni 2026 | https://thehill.com/policy/technology/5906140-sanders-ai-ownership-wealth/ | übernommen (Sammelbeleg) |
+| 6 | D | Reason, *Bernie Sanders' AI wealth fund bill shows that he doesn't understand AI or wealth*, 2. Juni 2026 | https://reason.com/2026/06/02/bernie-sanders-ai-wealth-fund-bill-shows-that-he-doesnt-understand-ai-or-wealth/ | übernommen (Sammelbeleg, kritisch) |
+| 7 | D | Truthout, *Sanders Proposes Sovereign Wealth Fund to Harness AI Profits for Public Good*, 2. Juni 2026 | https://truthout.org/articles/sanders-proposes-sovereign-wealth-fund-to-harness-ai-profits-for-public-good/ | übernommen (Sammelbeleg, zustimmend) |
+| 8 | D | Fox Business, *Bernie Sanders unveils plan to take 50% stake in AI companies for government wealth fund*, 2. Juni 2026 | https://www.foxbusiness.com/politics/sanders-unveils-plan-take-50-stake-ai-companies-government-wealth-fund | übernommen (Sammelbeleg) |
+| 9 | B | Holland & Knight, *Connecticut Enacts Comprehensive AI Legislation* (Mandantenanalyse mit Lamont-Unterzeichnung 29. Mai 2026), Juni 2026 | https://www.hklaw.com/en/insights/publications/2026/06/connecticut-enacts-comprehensive-ai-legislation | übernommen |
+| 10 | B | DLA Piper, *Unpacking SB5: Connecticut's new AI law*, Mai 2026 | https://www.dlapiper.com/en-us/insights/publications/2026/05/unpacking-connecticuts-new-ai-law | übernommen (Sammelbeleg) |
+| 11 | B | Ogletree Deakins, *New Connecticut Law Restricts Employer AI Use, Mandates Notice for AI-Caused RIFs*, Mai/Juni 2026 | https://ogletree.com/insights-resources/blog-posts/new-connecticut-law-restricts-employer-ai-use-mandates-notice-for-ai-caused-rifs/ | übernommen (Sammelbeleg) |
+| 12 | B | Future of Privacy Forum (FPF), *SB 5 in Five: What to Know About Connecticut's New AI Law*, Mai/Juni 2026 | https://fpf.org/blog/sb-5-in-five-what-to-know-about-connecticuts-new-ai-law/ | übernommen (Sammelbeleg) |
+| 13 | B | Davis Wright Tremaine, *Connecticut Adopts AI Transparency, Safety, and Consumer Protection Law*, Mai 2026 | https://www.dwt.com/blogs/artificial-intelligence-law-advisor/2026/05/ct-ai-transparency-safety-consumer-protection-law | übernommen (Sammelbeleg) |
+| 14 | B | Rat der Europäischen Union, *Artificial Intelligence: Council and Parliament agree to simplify and streamline rules* (Pressemitteilung zur Trilog-Einigung 7. Mai 2026) | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ | übernommen |
+| 15 | B | Bird & Bird, *Digital Omnibus on AI Provisional Agreement Reached at the May Trilogue*, Mai 2026 | https://www.twobirds.com/en/insights/2026/digital-omnibus-on-ai-provisional-agreement-reached-at-the-may-trilogue | übernommen (Sammelbeleg) |
+| 16 | B | Mishcon de Reya, *EU AI Act simplified? Unpacking the AI Omnibus Agreement of May 2026*, Mai 2026 | https://www.mishcon.com/news/eu-ai-act-simplified-unpacking-the-ai-omnibus-agreement-of-may-2026 | übernommen (Sammelbeleg) |
+| 17 | B | Gibson Dunn, *EU AI Act Omnibus Agreement — Postponed High-Risk Deadlines and Other Key Changes*, Mai 2026 | https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/ | übernommen (Sammelbeleg) |
+| 18 | F | The Next Web, *Meta cuts 8,000 jobs and cancels 6,000 open roles as $135B AI spending reshapes the company from the inside*, 20. Mai 2026 | https://thenextweb.com/news/meta-layoffs-8000-ai-restructuring-may-2026 | übernommen |
+| 19 | F | The Next Web, *Meta to cut 8,000 jobs on 20 May with more layoffs planned for second half of 2026*, 20. Mai 2026 | https://thenextweb.com/news/meta-layoffs-may-2026-ai-restructuring-thousands | übernommen (Sammelbeleg) |
+| 20 | F | Yahoo Finance, *Meta layoffs 2026: 8,000 jobs cut in AI restructuring*, 20. Mai 2026 | https://finance.yahoo.com/sectors/technology/articles/meta-layoffs-2026-8-000-114209703.html | übernommen (Sammelbeleg) |
+| 21 | F | Tech Times, *Oracle's 30,000 Layoffs Enter Final Phase: Sign the Release or Forfeit Severance*, 1. Juni 2026 | https://www.techtimes.com/articles/317527/20260601/oracles-30000-layoffs-enter-final-phase-sign-release-forfeit-severance.htm | übernommen |
+| 22 | F | Goodreturns, *Oracle Layoffs 2026: Up to 30,000 Jobs May Be Cut by June 15*, Juni 2026 | https://www.goodreturns.in/news/oracle-layoffs-2026-up-to-30000-jobs-may-be-cut-by-june-15-as-tech-giant-expands-ai-cloud-investment-1512695.html | übernommen (Sammelbeleg) |
+| 23 | F | The AI Insider, *Oracle's AI-Driven Mass Layoff of 30,000 Draws Backlash Over Severance Terms and Forfeited Stock*, 9. Mai 2026 | https://theaiinsider.tech/2026/05/09/oracles-ai-driven-mass-layoff-of-30000-draws-backlash-over-severance-terms-and-forfeited-stock/ | übernommen (Sammelbeleg) |
+| 24 | F | Tech Times, *Tech Layoffs Reach 142,000 in 2026: Profitable Companies Cut Jobs to Fund $700B AI Infrastructure*, 29. Mai 2026 | https://www.techtimes.com/articles/317392/20260529/tech-layoffs-reach-142000-2026-profitable-companies-cut-jobs-fund-700b-ai-infrastructure.htm | übernommen |
+| 25 | F | Yahoo Finance, *2026 Tech Layoffs Near 150,000 as Companies Pour Money Into AI*, 29. Mai 2026 | https://finance.yahoo.com/sectors/technology/articles/2026-tech-layoffs-near-150-110000224.html | übernommen (Sammelbeleg) |
+| 26 | F | TrueUp, *Layoffs Tracker — All Tech and Startup Layoffs* (Stand 1. Juni 2026: 148.092 / 354 / 981/Tag, 46 % über Niveau 2025) | https://www.trueup.io/layoffs | übernommen |
+| 27 | E | IAB, *IAB-Arbeitsmarktbarometer: Schwächster Beschäftigungsausblick außerhalb der Pandemie* (Mai 2026: 99,6 / +0,1; Beschäftigungskomponente 100,1; europäisches Barometer 100,1) | https://iab.de/presseinfo/iab-arbeitsmarktbarometer-schwaechster-beschaeftigungsausblick-ausserhalb-der-pandemie/ | übernommen |
+| 28 | E | IAB-Forum, *Einschätzung des IAB zur wirtschaftlichen Lage – Mai 2026* (BIP Q1 2026 +0,3 %, Iran-Krieg, SVB-Beschäftigung im März wieder gestiegen) | https://iab-forum.de/einschaetzung-des-iab-zur-wirtschaftlichen-lage-mai-2026/ | übernommen (Sammelbeleg) |
+| 29 | B | Bundesrat, *Rückblick auf die Plenarsitzung am 8. Mai 2026 (1065. Sitzung)*; 14 Gesetze passiert, zwei abgelehnt; Steuerberatungsgesetz mit 1.000-Euro-Entlastungsprämie scheitert | https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1065/1065-pk.html | übernommen |
+| 30 | B | kommunal.de, *Entlastungsprämie vom Tisch: Kein Vermittlungsausschuss für 1.000-Euro-Zahlung*, Mai 2026 | https://kommunal.de/bundesrat-stoppt-entlastungspraemie | übernommen (Sammelbeleg) |
+| 31 | B | ZDFheute, *Bundesrat stoppt 1.000-Euro-Entlastungsprämie für Arbeitnehmer*, 8. Mai 2026 | https://www.zdfheute.de/politik/deutschland/entlastungspraemie-bundesrat-stopp-100.html | übernommen (Sammelbeleg) |
+| 32 | B | Bundesrat, *1066. Sitzung am 12. Juni 2026 — Tagesordnung* (GKV-Beitragssatzstabilisierungsgesetz Erstdurchgang, Luftverkehrssteuer, Apothekenreform, Notfallversorgung) | https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1066/1066-node.html | übernommen (Verfahrenshinweis) |
+| 33 | B | bundesgesundheitsministerium.de, *GKV-Beitragssatzstabilisierungsgesetz* (Verfahrensseite mit Stichtagen Bundesrats-Erstdurchgang 12. Juni 2026 / Bundestag 26. Juni 2026 / Bundesrats-Zweitdurchgang 10. Juli 2026) | https://www.bundesgesundheitsministerium.de/service/gesetze-und-verordnungen/detail/gkv-beitragssatzstabilisierungsgesetz | übernommen (Verfahrenshinweis) |
+| 34 | D | Tax Notes, *'Robot Tax' Proposal Sparks Skepticism Over Its Practicality* (Oktober 2025) | https://www.taxnotes.com/featured-news/robot-tax-proposal-sparks-skepticism-over-its-practicality/2025/10/20/7t67l | verworfen (außerhalb 7-Tage-Fenster; bereits durch § 4.5-Sanders-Block und § 3.4 abgedeckt) |
+| 35 | F | InformationWeek / Crunchbase, *2026 tech company layoffs / Tech Layoffs: US Companies With Job Cuts In 2024, 2025 and 2026* | https://www.informationweek.com/it-staffing-careers/2026-tech-company-layoffs \| https://news.crunchbase.com/startups/tech-layoffs/ | Dublette (in Version 22.0 als TrueUp-/InformationWeek-Tagesfortschreibung abgedeckt) |
+| 36 | I | Anthropic Economic Index — Status zum 4. Juni 2026: kein neuer Bericht nach dem März-2026-Folgebericht „Learning curves" | https://www.anthropic.com/economic-index | verworfen (keine Bewegung im 30-Tage-Fenster) |
+| 37 | J | Humanoid-Robotik (Tesla Optimus, Figure, Unitree) — Stand Mai/Juni 2026 ohne politisch-fiskalisch belastbare Pilotmeldungen mit Sozialpartnerbezug | https://www.therobotreport.com/from-evs-to-robotics-tesla-targets-10m-optimus-units-with-new-texas-plant/ | verworfen (Marktnachrichten ohne fiskalischen Anknüpfungspunkt) |
+| 38 | C | OECD, *Side-by-Side Package on Pillar Two* — Mai 2026 nationale Konsultationen (Australien 1. Mai 2026, Kanada Bill C-31 6. Mai 2026, Schweiz Konsultation) | https://taxnews.ey.com/news/2026-0226-oecd-releases-side-by-side-package-on-pillar-two-global-minimum-tax-detailed-review | verworfen (technische Umsetzungs-/Konsultationsmeldungen ohne neue Substanz zum Verhältnis Pillar 2 ↔ KI-Steuerdebatte) |
+| 39 | B | Weimer — Plattform-Digitalabgabe Mai/Juni 2026 | https://www.dwdl.de/nachrichten/104260/eckpunkte_werden_erarbeitet_rueckt_plattformabgabe_naeher | verworfen (keine neue Entwicklung über Version 22.0 hinaus; Eckpunktepapier weiter angekündigt, nicht vorgelegt) |
+| 40 | F | Microsoft VRP — Annahmequote | https://www.cnbc.com/2026/04/23/microsoft-plans-first-voluntary-retirement-program-for-us-employees.html | verworfen (Annahmefrist 8. Juni 2026, nach dem Schnittdatum; belastbare Übernahmequoten Stand 4. Juni 2026 nicht öffentlich; im nächsten Lauf zu prüfen) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.5 | Ergänzung | Eigener Absatz „Sanders — *American A.I. Sovereign Wealth Fund Act*" nach dem 16.-April-2026-Beitrag eingefügt: einmalige 50-%-Aktienabgabe (OpenAI, Anthropic, xAI), stimmberechtigte Bundesanteile, Aufsichtsratsvertretung, Direktzahlungen, Gesundheits-/Bildungs-/Wohnungsausgaben; Referenzmodelle Norwegen/Alaska; Einordnung als Typ-4-Variante mit Eigentumskomponente und als Gegenentwurf zum Bloomberg-Editorial; Konjunktivpflicht für noch nicht eingebrachten Gesetzestext beachtet. | 1–8 |
+| 2 | § 4.5 | Aktualisierung | Connecticut-SB-5-Block: bisherige Formulierung „Lamont hat seine Unterzeichnung angekündigt" geändert auf „Lamont hat das Gesetz am 29. Mai 2026 unterzeichnet (Inkrafttreten in gestaffelten Stufen ab 1. Oktober 2026)". | 9–13 |
+| 3 | § 4.3 | Aktualisierung | Trilog-Absatz zum Digital Omnibus on AI vollständig auf den Einigungsstand 7. Mai 2026 umgestellt: bestätigte Stichtage 2. Dezember 2027 (Anhang III) und 2. August 2028 (Anhang I); Verschiebung der Transparenz-/Kennzeichnungspflichten auf 2. Dezember 2026; neue Verbotsregel für nicht einvernehmliche intime Darstellungen einschließlich CSAM mit Geltung ab 2. Dezember 2026; SME-Erleichterungen; Klarstellung Rolle AI Office; förmliche Annahme vor 2. August 2026 vorgesehen. Vorheriger Verhandlungsstand 28. April 2026 entfällt. | 14–17 |
+| 4 | § 1.1 | Ergänzung | Neuer Block am Ende des Layoff-Strangs mit (a) TrueUp-Tagesfortschreibung zum 1. Juni 2026 (148.092 / 354 / 981/Tag, 46 % über Niveau 2025); (b) Meta-Umsetzung am 20. Mai 2026 (8.000 Streichungen plus 6.000 unbesetzte Stellen, AI-Pods, AI-Capex-Guidance 125–145 Mrd. USD); (c) Oracle-Finalphase (30.000 Stellen, finale Trennungstermine 1.–15. Juni 2026, Severance-Konditionen und Stock-Vesting-Streit, AI-Infrastruktur 156 Mrd. USD, Schwerpunkt Oracle Health); (d) Connecticut-SB-5-Unterzeichnung 29. Mai 2026 mit Inkrafttreten 1. Oktober 2026 und WARN-AI-Datenquelle; (e) IAB-Arbeitsmarktbarometer Mai 2026 (99,6 / +0,1, Beschäftigungskomponente 100,1, europäisches Barometer 100,1); (f) Microsoft-VRSAR-Annahmefrist-Hinweis (8. Juni 2026). | 18–28 |
+| 5 | § 5.2 | Korrektur und Ergänzung | GKV-Beitragssatzstabilisierungsgesetz-Verfahrensplanung korrigiert: Erster Bundesrats-Durchgang 1066. Sitzung am 12. Juni 2026 (statt 1065. Sitzung am 8. Mai 2026); ergänzt um Ergebnis der 1065. Sitzung (1.000-Euro-Entlastungsprämie aus Steuerberatungsgesetz scheitert, Bundesregierung verfolgt das Vorhaben am 13. Mai 2026 nicht weiter; Hinweis Bundesrats-Finanzausschuss auf 2,8 Milliarden Euro Steuerausfälle); Stichtage 26. Juni 2026 (Bundestag 2./3. Lesung) und 10. Juli 2026 (Bundesrat 2. Durchgang) nachgetragen. | 29–33 |
+| 6 | § 5.4 | Ergänzung | Kurzfassung-Verweis am Ende auf den in § 4.5 ausführlich beschriebenen Sanders-Vorschlag eingefügt; Einordnung als „eigentumspolitische Variante" neben dem fiskalischen Pfad. | 1 |
+| 7 | § 11.3 | Ergänzung | Neue Einträge: Sanders-Op-Ed (2. Juni 2026); Rat der EU (7. Mai 2026); State of Connecticut, Office of the Governor (29. Mai 2026); IAB (Mai 2026, Arbeitsmarktbarometer und Lageeinschätzung); Bundesrat (8. Mai 2026, Rückblick 1065. Sitzung; 12. Juni 2026, Vorschau 1066. Sitzung). | 1, 9–17, 27–32 |
+| 8 | § 11.5 | Ergänzung | Neue Sammelbelege: TrueUp / Tech Times / Yahoo Finance (Stand 1. Juni 2026); The Next Web / Yahoo Finance / Bloomberg / Reuters (20. Mai 2026, Meta-Umsetzung); Tech Times / CNBC / The AI Insider / Goodreturns (März–Juni 2026, Oracle-Finalphase); Reason / Common Dreams / Newsweek / Truthout / Fox Business / The Hill (2./3. Juni 2026, Sanders Sovereign-Wealth-Fund-Berichterstattung pro/contra). | 2–8, 18–26 |
+| 9 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Lauf 001 vom 4. Juni 2026" geändert; neuer Aktualitätsblock mit den sieben Neuigkeiten und den zwei flankierenden deutschen Verfahrensentwicklungen vorangestellt; Vorgänger-Hinweis (Version 22.0) als „Vorgängerhinweis" unverändert erhalten. | 1–33 |
+| 10 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Versions-Eintrag in der KI-Offenlegung mit den sieben Neuigkeiten und den zwei flankierenden deutschen Verfahrensentwicklungen). | — |
+| 11 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 4. Juni 2026 (Lauf 001 vom 4. Juni 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1–2.6, Fehlerbericht (Datums-Korrektur § 5.2) und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 34 | Tax Notes — *„Robot Tax" Proposal Sparks Skepticism Over Its Practicality* (Oktober 2025) | D | außerhalb 7-Tage-Fenster; Inhalt bereits durch § 4.5-Sanders-Block und § 3.4 (Hentze/IW Köln) abgedeckt |
+| 35 | InformationWeek / Crunchbase Tech-Layoff-Übersichten | F | Dublette zur in Version 22.0 als TrueUp-/InformationWeek-Tagesfortschreibung referierten Quelle |
+| 36 | Anthropic Economic Index — Status | I | keine Bewegung; kein neuer Bericht nach März-2026-„Learning curves" |
+| 37 | Humanoid-Robotik (Tesla Optimus, Figure, Unitree) | J | Marktnachrichten ohne politisch-fiskalisch belastbaren Anknüpfungspunkt im 48-Stunden-Fenster |
+| 38 | OECD Pillar Two — Mai-2026-Konsultationen Australien/Kanada/Schweiz | C | technische Umsetzungs-/Konsultationsmeldungen ohne neue Substanz zum Verhältnis Pillar 2 ↔ KI-Steuerdebatte |
+| 39 | Weimer — Plattform-Digitalabgabe Mai/Juni 2026 | B | keine neue Entwicklung über Version 22.0 hinaus; Eckpunktepapier weiter angekündigt, nicht vorgelegt |
+| 40 | Microsoft VRP — Annahmequote | F | Annahmefrist 8. Juni 2026 liegt nach dem Schnittdatum 4. Juni 2026; belastbare Quote öffentlich nicht verfügbar; im nächsten Lauf zu prüfen |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja (TrueUp-Reihe als Tagesfortschreibung gekennzeichnet; Sanders-Block in § 4.5 ergänzt, nicht dupliziert; Connecticut-SB-5-Aktualisierung ersetzt frühere Ankündigung; Trilog-Absatz vollständig umgestellt)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block „Validierung 4. Juni 2026 — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (an allen vier vorgeschriebenen Stellen)
+- E-Mail-Benachrichtigung (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Benachrichtigung (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- Branch auf main gemerged und gelöscht: siehe Phase 6 — wird nach diesem Block durchgeführt
+
+### Auffälligkeiten / offene Punkte
+
+- **Phase 5b — Benachrichtigung:** Empfängerdaten wurden gemäß Routine-Anweisung übergeben (E-Mail und WhatsApp). In der aktuellen Session ist weder ein `mail_send`-/`send_mail`-/`outlook_send`-Tool noch ein `wa_send_message`-Tool aus den verfügbaren MCP-Servern erreichbar (Microsoft-365-Server bietet ausschließlich `*_search`-Tools für Outlook-Kalender/E-Mail/SharePoint-Suche; kein dedizierter WhatsApp-Server angeschlossen). Gemäß Phase 5b Schritt 2 Fallback wurden die vorbereiteten Inhalte in die Repo-Root-Dateien `daily-mail.txt` (E-Mail-Inhalt) und `daily-whatsapp.txt` (WhatsApp-Zusammenfassung) geschrieben. Empfängerdaten erscheinen weder in diesen Dateien noch in diesem Logbuch, in Commits oder im Abschlussbericht.
+- **Phase 6 — Branch-Cleanup:** In früheren Läufen wurde die Remote-Branch-Löschung mit HTTP 403 abgewiesen (siehe Logbuch-Einträge vor diesem Block, vgl. Commit `53d1a31`). Es ist davon auszugehen, dass diese Einschränkung weiterhin gilt; Push auf den Session-Branch und ggf. Merge auf `main` werden versucht, das endgültige Branch-Cleanup ist beim Remote-Delete möglicherweise nicht durchführbar.
+- **Microsoft VRP — Annahmequote** ist Stand 4. Juni 2026 nicht öffentlich; Annahmefrist 8. Juni 2026; im nächsten Lauf nachzutragen.
+- **1066. Bundesrats-Sitzung 12. Juni 2026** — Beschlüsse liegen noch nicht vor; nur Tagesordnungs-Hinweis aufgenommen; im nächsten Lauf nachzutragen.
+- **Cluster G (Gesundheitswesen)** — fünfter Lauf in Folge ohne eigenständige neue Treffer; bestehende GKV-Reform-Verzahnung in § 5.2 reicht aus; Empfehlung für die nächsten Läufe: gezielter Abruf g-ba.de, gematik, BfArM Listings.
+- **Cluster I (Frontier-Modelle) und Cluster J (Robotik)** — keine politisch-fiskalisch relevanten Meldungen im 48-Stunden-Fenster.
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
