@@ -54,6 +54,96 @@
 
 ---
 
+## 2026-06-05 — Lauf 002 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster G — Gesundheitssektor — fünftes Mal in Folge ohne neue belegbare Treffer im 7-Tage-Fenster; Cluster I/J ohne fiskalpolitisch relevante Tagesmeldungen im 48-Stunden-Fenster; Cluster D mit drei vertieften Treffern, Cluster B/F/C mit je zwei Treffern).
+- Zeitfenster: 7 Tage (Cluster F: 48 Stunden; Cluster I: 48 Stunden) — erweitertes Fenster zur Schließung der Lücke seit Lauf 001 vom 8. Mai 2026 (28-Tage-Abstand), Recherche-Stichtag 5. Juni 2026.
+- Anzahl Suchanfragen: 15 (Web-Suche).
+- Lauf 002 ist der nächste reguläre Daily-Update-Lauf nach Lauf 001 vom 8. Mai 2026.
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B/D | Council of the EU, *Artificial Intelligence: Council and Parliament agree to simplify and streamline rules*, 7. Mai 2026 | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ | übernommen |
+| 2 | B/D | White & Case / Lewis Silkin / Mishcon de Reya / Inside Privacy / Global Policy Watch, *EU agrees Digital Omnibus deal to simplify AI rules / The Council and Parliament agree to slim down and delay parts of the EU AI Act / EU AI Act simplified? Unpacking the AI Omnibus Agreement of May 2026 / EU AI Act Update: Timeline Relief, Targeted Simplification, and New Prohibitions*, Mai 2026 | https://www.whitecase.com/insight-alert/eu-agrees-digital-omnibus-deal-simplify-ai-rules \| https://www.lewissilkin.com/insights/2026/05/07/the-council-and-parliament-agree-to-slim-down-and-delay-parts-of-the-eu-ai-act-102ms0v \| https://www.mishcon.com/news/eu-ai-act-simplified-unpacking-the-ai-omnibus-agreement-of-may-2026 \| https://www.insideprivacy.com/artificial-intelligence/eu-ai-act-update-timeline-relief-targeted-simplification-and-new-prohibitions/ | übernommen (Sammelbeleg) |
+| 3 | D | Bloomberg Law / Holland & Knight / Davis Wright Tremaine / Faegre Drinker, *Connecticut's Lamont Signs AI Law With Employer Notice Mandate / Connecticut Enacts Comprehensive AI Legislation / Connecticut Adopts AI Transparency, Safety, and Consumer Protection Law / Connecticut Enacts Comprehensive AI Regulation*, 29. Mai – 2. Juni 2026 | https://news.bloomberglaw.com/daily-labor-report/connecticuts-lamont-signs-ai-law-with-employer-notice-mandate \| https://www.hklaw.com/en/insights/publications/2026/06/connecticut-enacts-comprehensive-ai-legislation \| https://www.dwt.com/blogs/artificial-intelligence-law-advisor/2026/05/ct-ai-transparency-safety-consumer-protection-law \| https://www.faegredrinker.com/en/insights/publications/2026/6/connecticut-enacts-comprehensive-ai-regulation-what-businesses-need-to-know | übernommen (Sammelbeleg) |
+| 4 | D | Sanders, B., *The Public Should Own Half of the Big A.I. Companies* (New York Times Op-Ed), 1./2. Juni 2026 | https://www.sanders.senate.gov/op-eds/the-public-should-own-half-of-the-big-a-i-companies/ | übernommen |
+| 5 | D | Fortune / Foxbusiness / Newsweek / The Hill / Reason, *Bernie Sanders unveils plan / Bernie Sanders wants Americans to own a piece of AI / Bernie Sanders' AI wealth fund bill*, 2.–4. Juni 2026 | https://www.foxbusiness.com/politics/sanders-unveils-plan-take-50-stake-ai-companies-government-wealth-fund \| https://fortune.com/2026/06/03/bernie-sanders-ai-ownership-sovereign-wealth-fund-electrification/ \| https://thehill.com/policy/technology/5906140-sanders-ai-ownership-wealth/ \| https://reason.com/2026/06/02/bernie-sanders-ai-wealth-fund-bill-shows-that-he-doesnt-understand-ai-or-wealth/ | übernommen (Sammelbeleg) |
+| 6 | D/F | Fortune / Time / Breitbart / The Decoder / Memeburn, *Sam Altman and Dario Amodei are both walking back AI jobs apocalypse predictions as they eye IPOs / Sam Altman Says AI „Jobs Apocalypse" Probably Won't Happen*, 26./27. Mai 2026 | https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/ \| https://time.com/article/2026/05/26/sam-altman-ai-job-losses-openAI-/ \| https://www.breitbart.com/tech/2026/05/27/openais-sam-altman-and-anthropics-dario-amodei-reverse-predictions-on-ai-job-displacement-as-ipos-loom/ \| https://the-decoder.com/sam-altman-and-dario-amodei-walk-back-their-ai-job-apocalypse-predictions/ | übernommen (Sammelbeleg) |
+| 7 | F | Challenger, Gray & Christmas, *Challenger Report: May Job Cuts Rise 16 % from April; Highest May Total Since 2020*, 3. Juni 2026 | https://www.challengergray.com/blog/challenger-report-may-job-cuts-rise-16-from-april-highest-may-total-since-2020/ | übernommen |
+| 8 | F | TrueUp, *Tech Layoffs Tracker — Tagesfortschreibung Stand 3. Juni 2026 (149.935 / 363 / 974 pro Tag)*, Juni 2026 | https://www.trueup.io/layoffs | übernommen |
+| 9 | C | Bloomberg / Fortune / NPR / Tom's Hardware, *Chinese Court Bars Companies From Firing Workers Solely for AI Replacement / Chinese court rules firms can't lay off workers on AI grounds / A tech worker in China is laid off and replaced by AI. Is it legal? / Chinese court rules companies can't fire workers just because AI is cheaper*, 1.–3. Mai 2026 | https://www.bloomberg.com/news/articles/2026-05-02/chinese-court-rules-firms-can-t-lay-off-workers-on-ai-grounds \| https://fortune.com/2026/05/03/chinese-court-layoffs-workers-ai-replacement-labor-market/ \| https://www.npr.org/2026/05/01/nx-s1-5807131/tech-worker-china-ai \| https://www.tomshardware.com/tech-industry/artificial-intelligence/chinese-court-rules-companies-cant-fire-workers-just-because-ai-is-cheaper-ruling-says-automation-alone-doesnt-justify-layoffs | übernommen (Sammelbeleg) |
+| 10 | F | Microsoft VRSAR Decision-Close ~6. Juni 2026 (Techrights, Mai 2026) | https://techrights.org/n/2026/05/21/More_Microsoft_Layoffs_on_the_Way_June_and_July_2026.shtml | verworfen (Decision-Close fällt auf Tag nach Stichtag; konkrete Annahmezahlen nach VRSAR-Unterzeichnung 9.–22. Juni 2026 und Separation Date 2. Juli 2026 öffentlich; bestehender § 1.1-Eintrag aus Lauf 001 bleibt korrekt) |
+| 11 | B/E | Bundesrat GKV-Beitragssatzstabilisierungsgesetz — erster Durchgang 12. Juni 2026, zweite Lesung 10. Juli 2026 | https://www.bundesgesundheitsministerium.de/ministerium/meldungen/gkv-beitragssatzstabilisierungsgesetz-kabinett-29-04-26 | verworfen (Termine nach Stichtag; bestehender § 5.2-/§ 7-Verweis bleibt korrekt; im nächsten Lauf nachzutragen) |
+| 12 | E | Bundesagentur für Arbeit, *Arbeitsmarkt im Mai 2026* (2,95 Mio. Arbeitslose, Quote 6,3 %), 28. Mai 2026 | https://www.arbeitsagentur.de/presse/2026-18-arbeitsmarkt-im-mai-2026 | verworfen (allgemeine Konjunkturdaten ohne KI-Konnotation; bestehender § 1.1-IAB-Block hinreichend) |
+| 13 | A | Stanford HAI AI Index 2026 (April 2026) | https://hai.stanford.edu/ai-index/2026-ai-index-report | verworfen (außerhalb 7-Tage-Fenster; bestehende Einbindung in § 3.5 und Vorlaufläufen) |
+| 14 | A | NBER WP 33509 / WP 33777 (Februar–März 2026) | https://www.nber.org/papers/w33509 \| https://www.nber.org/system/files/working_papers/w33777/w33777.pdf | verworfen (außerhalb 7-Tage-Fenster; bestehende Anthropic-Economic-Index-Linie in § 3.5 deckt das Befund-Spektrum) |
+| 15 | I/H | OECD AI in Tax Administration / Pillar 2 Updates | https://www.oecd.org/en/publications/governing-with-artificial-intelligence_795de142-en/full-report/ai-in-tax-administration_30724e43.html | verworfen (kein fiskalischer Anknüpfungspunkt für KI-Steuerdebatte über den in § 4.4 dokumentierten Stand hinaus) |
+| 16 | C/H | Draghi / Letta — Wiederholungsanalysen 2026 | https://en.wikipedia.org/wiki/Draghi_report | Dublette (in Version 18.0 / 19.0 / 20.0 referenziert) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 1.1 | Ergänzung | *Mai-2026-Job-Cuts-Report* von Challenger (97.006 US-Streichungen, KI 38.579 / 40 %, dritter Monat in Folge führender Einzelgrund; YTD KI 87.714 / 22 %, Tech-Branche Mai 38.242, YTD 123.653 / +66 %) und TrueUp-Tagesstand zum 3. Juni 2026 (149.935 / 363 / 974 pro Tag) im Anschluss an den Cloudflare-/Challenger-April-Block aufgenommen. | 7, 8 |
+| 2 | § 4.4 | Ergänzung | Neuer Absatz „EU AI Act — Digital Omnibus (provisorische Einigung Mai 2026)" mit Trilog-Einigung 7. Mai 2026, Verschiebung Annex III auf 2. Dezember 2027, Annex I auf 2. August 2028, Markierungspflicht synthetischer Inhalte auf 2. Dezember 2026, neue Verbote (CSAM, nicht-einvernehmliches intimes Material) und KMU-/SMC-Definitionen. | 1, 2 |
+| 3 | § 4.5 | Aktualisierung | Connecticut-Block: Lamont-Unterzeichnung am 29. Mai 2026 formal datiert; Connecticut als zweiter US-Bundesstaat mit umfassendem KI-Rahmen eingeordnet. | 3 |
+| 4 | § 4.5 | Ergänzung | Neuer Absatz „American A.I. Sovereign Wealth Fund Act" am Ende des Sanders-Blocks: 50 %-Aktienabgabe auf OpenAI/Anthropic/xAI, öffentlicher Staatsfonds mit Stimmrechten und Aufsichtsorgan-Mitbestimmung, universelle Dividenden; konzeptionelle Abgrenzung zu Robotersteuer (Typ 1/Typ 5) und norwegischem Modell als *einmalige Eigentumsabgabe*; kritische Einordnung aus Reason. | 4, 5 |
+| 5 | § 4.5 | Ergänzung | Neuer Absatz „Folgekommunikation Altman/Amodei (Mai 2026)" am Ende des OpenAI-Strategiepapier-Blocks: Altman „pretty wrong" (Comyn-Interview 26. Mai 2026); Amodei Jevons-Paradox-Rahmung; IPO-Vorbereitungen je rund 1 Bio. USD; Implikationen für Typ-5-Ersatzabgabe (geschwächt) und Kapital-/Fondsbeteiligungs-Linie (unverändert tragend). | 6 |
+| 6 | § 5.4 | Ergänzung | Querverweis auf Sanders American A.I. Sovereign Wealth Fund Act als erste Variante (Pflichtbeteiligung) und Abgrenzung zur deutschen ertragsbasierten Variante (Wertschöpfungsabgabe / Pillar-2-Komponente). | 4 |
+| 7 | § 6.4 | Ergänzung | Neuer Absatz „VR China — Arbeitsrechtliche Eindämmung KI-bedingter Kündigungen (Mai 2026)": Hangzhou Intermediate People's Court u. a.; KI-Substitution allein nicht hinreichend für Kündigung nach chinesischem Arbeitsvertragsgesetz; eingebettet in MOHRSS-Ankündigung Januar 2026 und NPC-Vorschlag März 2026. | 9 |
+| 8 | Aktualitätshinweis | Aktualisierung | Schnittangabe auf „Lauf 002 vom 5. Juni 2026" geändert; sieben neue Punkte (Sanders Sovereign Wealth Fund, Altman/Amodei Walk-back, Connecticut-Unterzeichnung, EU Digital Omnibus, Challenger Mai-Report, TrueUp Juni-Stand, chinesische Gerichtsentscheidungen) in den Auflistungstext aufgenommen. | 1–9 |
+| 9 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Versions-Eintrag in der KI-Offenlegung mit sieben Cluster-D/B/C/F-Bündeln). | — |
+| 10 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 5. Juni 2026 (Lauf 002 vom 5. Juni 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Microsoft VRSAR — Decision-Close ~6. Juni 2026 | F | Liegt auf Tag nach Stichtag; konkrete Annahmezahlen erst nach VRSAR-Unterzeichnung 9.–22. Juni 2026 und Separation Date 2. Juli 2026 öffentlich; bestehender § 1.1-Eintrag aus Lauf 001 bleibt korrekt; im nächsten Lauf nachzutragen. |
+| 2 | Bundesrat GKV-Beitragssatzstabilisierungsgesetz — erster Durchgang 12. Juni 2026 | B/E | Termin nach Stichtag; bestehender § 5.2-/§ 7-Verweis und Aktualitätshinweis bleiben korrekt; im nächsten Lauf nachzutragen. |
+| 3 | Bundesagentur für Arbeit — Arbeitsmarkt Mai 2026 | E | Allgemeine Konjunkturdaten ohne KI-Konnotation; im bestehenden § 1.1-IAB-Block hinreichend abgebildet. |
+| 4 | Stanford HAI AI Index 2026 (April 2026) | A | Außerhalb 7-Tage-Fenster; bestehende Einbindung über Anthropic-Economic-Index- und Hamilton-Project-Linie in § 3.5. |
+| 5 | NBER WP 33509 / WP 33777 (Februar–März 2026) | A | Außerhalb 7-Tage-Fenster; bestehende Anthropic-Economic-Index-Linie in § 3.5 deckt das Befund-Spektrum. |
+| 6 | OECD AI in Tax Administration / Pillar 2 (Juni 2026 angekündigt) | I/H | Kein fiskalischer Anknüpfungspunkt für KI-Steuerdebatte über den in § 4.4 dokumentierten Stand hinaus; OECD-Tax-Administration-Framework-Projekt noch nicht publiziert. |
+| 7 | Sejm-Entwurf ulga na robotyzację — keine Bewegung über den in § 6.3 dokumentierten Stand hinaus | C | Finanzministerielle Position weiterhin ablehnend; keine neue Bewegung im 7-Tage-Fenster. |
+| 8 | Generationenkapital | E/H | Keine neuen Tranchen-/Renditeangaben zwischen Mai und Anfang Juni 2026. |
+| 9 | Draghi / Letta — Wiederholungsanalysen 2026 | C/H | In Version 18.0 / 19.0 / 20.0 bereits referenziert. |
+| 10 | IFR Top-5 Trends Robotics 2026 | J | Trendaussagen ohne fiskal- oder steuerpolitischen Anker; bestehender § 8.1-Block bleibt aktuell. |
+| 11 | G-BA / gematik / BfArM / DiGAV (Cluster G) | G | Fünftes Mal in Folge ohne KI-spezifische neue Beschlüsse oder DiGA-Listings im 7-Tage-Fenster. |
+| 12 | Frontier-Modelle / Inferenzpreise (Cluster I) | I | Keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 5. Juni 2026 (Lauf 002 vom 5. Juni 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 002 schließt einen 28-Tage-Abstand zu Lauf 001 vom 8. Mai 2026; das erweiterte Recherchefenster hat sieben belegbare Treffer aus dem Zeitraum 7. Mai – 3. Juni 2026 erschlossen. Der Schwerpunkt liegt mit drei Cluster-D-Treffern (Sanders Sovereign Wealth Fund Act, Altman/Amodei Walk-back, EU Digital Omnibus) auf der Politik- und Frontier-CEO-Linie, mit zwei Cluster-F-Treffern (Challenger Mai-Report, TrueUp Juni-Stand) auf der Layoff-Aggregat-Linie.
+- Sanders American A.I. Sovereign Wealth Fund Act ist der erste US-Bundesentwurf, der die Eigentumsfrage an KI-Wertschöpfung über eine einmalige Aktienabgabe statt über laufende Ertragsabschöpfung adressiert; substanziell relevant für § 5.4 und § 8.3, ohne die Deutschland-These (drei Säulen) zu berühren.
+- Altman/Amodei Walk-back vor IPOs ist relevant für die Frage, mit welchem Vertrauen die anbieterseitige Politikgestaltung („Steuerverlagerung", „Staatsfonds nach norwegischem Vorbild") in die deutsche Debatte zu übernehmen ist; die Re-Interpretation in Richtung Jevons-Paradox schwächt die empirische Grundlage einer Typ-5-Ersatzabgabe, entlastet aber die Kapital-/Fondsbeteiligungs-Linie nicht.
+- EU Digital Omnibus on AI: Provisorische Einigung am 7. Mai 2026 — formale Annahme zwischen Juni und Juli 2026 vorgesehen; im nächsten Lauf nachzutragen, sobald Parlament und Rat das Paket formal angenommen haben und der Veröffentlichungstermin im Amtsblatt festliegt.
+- Connecticut SB 5: Mit Lauf 002 ist die Lamont-Unterzeichnung am 29. Mai 2026 formal datiert; die in Lauf 001 markierte offene Frage ist damit geschlossen.
+- China — Hangzhou Intermediate People's Court u. a.: Die KI-Substitution allein begründet keinen Kündigungsgrund nach chinesischem Arbeitsvertragsgesetz; im Vergleich zu Südkorea (§ 6.1), Italien (§ 6.2) und Polen (§ 6.3) ist das der erste Pfad, der über die Kündigungsschwelle statt über Steuer-/Subventionssystem in das Verhältnis von KI und Arbeit eingreift. Beobachtung beim nächsten Lauf fortsetzen (MOHRSS-Policy-Dokument, NPC-Vorschlag verpflichtende employment impact assessments).
+- Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne valide Treffer im 7-Tage-Fenster; Empfehlung für die nächsten Läufe weiterhin bestehend (gezielter Abruf von g-ba.de Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-Listings).
+- Microsoft VRSAR — Decision-Close-Frist 6. Juni 2026 fällt auf Tag nach diesem Lauf; im nächsten Lauf nachzutragen, sobald Wave-Late-June/July-Daten und tatsächliche Annahmequote öffentlich werden.
+- Bundesrat GKV-Beitragssatzstabilisierungsgesetz: Erstdurchgang am 12. Juni 2026 und zweite Lesung am 10. Juli 2026 angesetzt; in den nächsten Läufen nachzutragen.
+- Branch dieses Laufs: `claude/determined-einstein-EmRLF` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push neu angelegt).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Der Versand-Tool-Status (`mail_send` / `send_mail` / `send_message` / `outlook_send` aus `graph-mcp`; `wa_send_message` / `send_message` aus dem `whatsapp`-MCP) wird in Phase 5b geprüft; bei fehlender Tool-Verfügbarkeit werden die vorbereiteten Inhalte gemäß Phase-5b-Spezifikation als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben (Dateien stehen in `.gitignore`, werden also nicht versioniert).
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
