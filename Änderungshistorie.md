@@ -130,7 +130,7 @@
 - PDF erstellt (`build_pdf.py`): Ja
 - Word erstellt (`build_docx.py`): Ja
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
-- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs (Phase 6)
+- Branch auf main gemerged: Ja (lokal — Merge-Commit `3659bb8`). Push von `main` nach `origin` durch den Hosting-Proxy mit HTTP 403 abgewiesen (vier Versuche mit Backoff 0/2/4/8 Sek.); analoge Beobachtung in Lauf 003 vom 7. Mai 2026. Der vollständige Inhalt liegt auf `origin/claude/determined-einstein-znWyN` und kann beim nächsten administrativen Zugriff in `origin/main` nachgezogen werden. Lokaler und Remote-Session-Branch bleiben bestehen, um den Inhalt nicht zu verlieren.
 - E-Mail-Versand (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (kein `mail_send` / `send_mail` / `send_message` / `outlook_send`-Tool aus `graph-mcp` in der laufenden Session erreichbar; der geladene Microsoft-365-MCP stellt nur Read-/Search-Operationen bereit)
 - WhatsApp-Versand (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (kein `wa_send_message` / `send_message`-Tool des `whatsapp`-MCP in der laufenden Session erreichbar)
 
