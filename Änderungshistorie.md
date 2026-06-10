@@ -125,9 +125,9 @@
 - PDF erstellt (`build_pdf.py`): Ja (siehe Phase 5)
 - Word erstellt (`build_docx.py`): Ja (siehe Phase 5)
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
-- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs (Phase 6)
-- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
-- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- Branch auf main gemerged und gelöscht: Merge lokal erfolgreich (`git merge --no-ff`), Push auf main jedoch viermal mit HTTP 403 fehlgeschlagen (Backoff 2s / 4s / 8s / 16s; `Everything up-to-date` als Server-Antwort trotz `error: RPC failed; HTTP 403`). Session-Branch `claude/determined-einstein-149ogh` ist auf origin gepusht und enthält den vollständigen Update-Lauf; lokaler Branch und Remote-Branch werden nicht gelöscht, damit die Änderungen über den Session-Branch zugänglich bleiben. Die Restriktion betrifft offenkundig die Push-Berechtigung für `main` in dieser Remote-Execution-Umgebung; das Hauptdokument, der Validierungsblock und das Logbuch sind über den Session-Branch dauerhaft persistiert.
+- E-Mail-Versand (Phase 5b): Fallback — `daily-mail.txt` im Repo-Root geschrieben (gitignored, keine Versionierung). Kein Tool der Familie `mail_send` / `send_mail` / `send_message` / `outlook_send` aus dem `graph-mcp`-Server in der Session erreichbar.
+- WhatsApp-Versand (Phase 5b): Fallback — `daily-whatsapp.txt` im Repo-Root geschrieben (gitignored, keine Versionierung). Kein Tool der Familie `wa_send_message` / `send_message` aus einem `whatsapp`-MCP-Server in der Session erreichbar.
 
 ### Auffälligkeiten / offene Punkte
 
