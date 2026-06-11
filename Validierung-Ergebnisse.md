@@ -1550,3 +1550,61 @@ Keine Fehler gefunden; die Version 6.0 war konsistent und nur um neue Sachständ
 - Neue Version: 9.0
 - PDF erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.pdf` via `build_pdf.py`)
 - Word erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.docx` via `build_docx.py`)
+
+---
+
+## Validierung 11. Juni 2026 (Lauf 001 vom 11. Juni 2026) — Version 22.0 → Version 23.0
+
+### Anlass
+
+Daily-Update-Lauf 001 vom 11. Juni 2026 nach 34 Tagen ohne Tagesaktualisierung. Aufnahme der US-„Public-Equity"-Wende der ersten Juni-Hälfte 2026 (Sanders *American A.I. Sovereign Wealth Fund Act* vom 1. Juni 2026 inkl. NYT-Op-Ed, Trump-Exekutivanordnung „Promoting Advanced Artificial Intelligence Innovation and Security" vom 2. Juni 2026, Trump-OpenAI-Equity-Gespräche per CNBC-Berichterstattung 5. Juni 2026, einstündiges Sanders-Altman-Senatsbüro-Gespräch Anfang Juni 2026); Aktualisierung des Tech-Layoff-Bildes durch den *May-2026-Job-Cuts-Report* von *Challenger, Gray & Christmas* vom 4. Juni 2026 sowie den TrueUp-Tagestracker per Anfang Juni 2026 (150.096 Personen / 368 Meldungen / ~950 pro Tag; Wix, Snap, Amdocs mit Streichungen ≥ 1.000 Stellen). Einfügepunkte: § 1.1 (Layoff-Aktualisierung mit Challenger-Mai-Daten und neuen Trackerständen), § 4.5 (neuer Block „Sanders American A.I. Sovereign Wealth Fund Act und US-,Public-Equity'-Wende"), § 5.4 (kompakter Querverweis), § 11.3 (Sanders-Op-Ed, Senatsentwurf, Trump-EO), § 11.5 (Challenger Mai, Sammelbelege Fox/Bloomberg/Quartz/TechSpot, TrueUp Juni, Sanders/Trump/Altman-Sammelberichterstattung).
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; § 4.5 um einen neuen Absatzblock ergänzt (Sanders Sovereign Wealth Fund Act und Public-Equity-Wende); § 5.4 um Querverweisabsatz ergänzt; § 1.1 um Fortschreibungs-Satzkomplex ergänzt; keine Architekturverschiebung. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; fünf Robotersteuer-Typen, drei Hebel, sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Neuer § 4.5-Block verweist sauber auf § 2.1 (Typologie), § 5.1 (Wertschöpfungsabgabe), § 5.4 (Staatsfonds), § 8.3 (Teilhabefonds), § 9.1 (Mess- und Umgehungsprobleme); § 5.4-Querverweis verweist auf § 4.5; § 1.1-Ergänzung verweist auf die Cloudflare-/Connecticut-Stränge und auf § 9.1. |
+| 2.1.4 Roter Faden | OK | Sanders-Bill ordnet sich in die bestehende Sanders-Linie (Oktober 2025 → März/April 2026 → Juni 2026) ein; Trump-EO und Trump-OpenAI-Equity bilden die kooperative Komplementärspur; Challenger-Mai schließt direkt an die Challenger-April-Aggregat-Linie an. Keine Verlagerung der Argumentationsachse. |
+| 2.1.5 Formatierung | OK | Fett-Lead-Ins einheitlich („Sanders American A.I. Sovereign Wealth Fund Act und US-,Public-Equity'-Wende"); keine Tabellen verändert; keine doppelten Trennlinien. |
+| 2.2.1 Sachliche Richtigkeit | OK | Sanders-Op-Ed-Datum 1. Juni 2026, Bill-Bezeichnung *American A.I. Sovereign Wealth Fund Act*, 50-%-Aktien-Mechanik, OpenAI/Anthropic/xAI-Adressaten doppelt belegbar (sanders.senate.gov, Fortune, Yahoo Finance, Fox Business, Law News). Trump-EO-Datum 2. Juni 2026 und Inhalt (AI Cybersecurity Clearinghouse, Ausschluss „mandatory governmental licensing") doppelt belegbar (whitehouse.gov, CNBC, Axios, NPR); 30-Tage-Voraberprüfung in CNBC-Berichterstattung, im White-House-Fact-Sheet nicht explizit ausgesprochen — im Fließtext entsprechend transparent kenntlich gemacht („in der CNBC-Berichterstattung wiedergegeben"). Trump-OpenAI-Equity-Gespräche per CNBC, NOTUS, OpenTools; Anthropic schließt eigene Verhandlungen aus. Sanders-Altman-Gespräch und 50-%-Vorbehalt per Fortune, Washington Times, Boston Globe (6. Juni 2026). Challenger-Mai-Report (97.006 / 38.579 / 38.242 / 87.714 / 123.653) doppelt belegbar (challengergray.com Blog und PDF, Fox Business, Yahoo Finance, Bloomberg). TrueUp-Stand 150.096 / 368 Meldungen / ~950 pro Tag und TrueUp-Projektion 370.000 / Wix / Snap / Amdocs aus TrueUp-Tracker, InformationWeek, Crunchbase. |
+| 2.2.2 Redundanzprüfung | OK | Der Sovereign-Wealth-Fund-Block ist neu im Dokument und nicht in § 5.4 wiederholt — dort nur Kurzfassung mit Querverweis. Trump-EO erweitert die bestehende Trump-Action-Plan-Linie um den Juni-2026-Schritt; keine Dopplung zum Juli-2025-Plan oder zum März-2026-Framework. Sanders-Altman-Begegnung erweitert das Sanders-Narrativ; das im Oktober 2025 / März 2026 / April 2026 dokumentierte Sanders-Material bleibt erhalten. Der Challenger-Mai-Absatz baut auf dem bestehenden April-Absatz auf, ohne April-Inhalte zu verdoppeln. |
+| 2.2.3 Argumentation | OK | Sanders-Bill im Konjunktiv eingeführt („Entwurf sähe vor", „Annahmechancen … gelten weiterhin als gering"); Trump-OpenAI-Equity-Gespräche im Konjunktiv referiert („berichtet", „könnte über eine Aktienspende initiiert werden"); fiskalische Einordnung als Vermögensabgabe (Einmal-Eigenkapital) gegenüber laufenden Steuern (§ 5.1 / OpenAI „Steuern auf automatisierte Arbeit") sauber abgegrenzt; Challenger-Aggregat als Trennschärfegewinn formuliert, ohne die Einzelfall-Kausalitätsproblematik (§ 9.1) aufzulösen. |
+| 2.2.4 Ausgewogenheit | OK | Sanders-Block bringt Annahmehürde (Graham „dead on arrival") und differenzierte Resonanz (Warren prüft, Hawley gesprächsbereit) gleichgewichtig. Trump-EO sachlich referiert (Cybersecurity-Clearinghouse, Voluntary-Review, Ausschluss Lizenzpflicht) ohne Bewertung. Altman bejaht Konzept, lehnt 50 % ab — beide Positionen wiedergegeben. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „Sovereign Wealth Fund", „Public Wealth Fund", „covered frontier models", „mandatory governmental licensing" im Kontext erklärt; „Public-Equity-Wende" in Anführungszeichen geführt; Bill- und EO-Bezeichnungen kursiv gesetzt. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neue Quellen: § 11.3 +3 (Sanders Op-Ed, US Senate Bill American A.I. Sovereign Wealth Fund Act, White House EO/Fact Sheet); § 11.5 +7 (Challenger Mai 2026, Fox/Yahoo/TechStory/OpenTools-Sammelbelege, Bloomberg/Quartz/TechSpot-Sammelbelege Tech-Komponente, TrueUp/InformationWeek/Crunchbase Juni-Stand, Sanders Op-Ed NYT-Spiegel, Yahoo/Fox/Reason/The Hill/Law News Sanders-Erstberichterstattung, CNBC/Axios/NPR Trump-EO, CNBC/NOTUS/OpenTools Trump-OpenAI, Fortune/Washington Times/Boston Globe Sanders-Altman). Jede Fließtext-Referenz hat einen Eintrag; keine Karteileichen. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil, vollständige URLs ohne Shortener, Datumsangaben „DD. Monat YYYY". |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen: sanders.senate.gov (Op-Ed), whitehouse.gov (EO und Fact Sheet), challengergray.com (Blog und Report-PDF); Sekundärbelege jeweils mindestens drei voneinander unabhängige Outlets. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | sanders.senate.gov/op-eds/the-public-should-own-half-of-the-big-a-i-companies/ (WebFetch erfolgreich); whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-promotes-advanced-artificial-intelligence-innovation-and-security/ (WebFetch erfolgreich); challengergray.com/blog/challenger-report-may-job-cuts-rise-16-from-april-highest-may-total-since-2020/ (WebFetch erfolgreich); cnbc.com/2026/06/02/trump-executive-order-ai.html (WebFetch: 403; CNBC-Inhalt über mehrere Sekundärquellen — Axios, NPR — gegengeprüft). |
+| 2.4.5 Zitatgenauigkeit | OK | Sanders-Kernzitate („A.I. is built on our collective intelligence …", „When a public resource generates wealth …") korrekt paraphrasiert; Trump-Zitat „concepts where pieces could be given to the American public, where the American public essentially becomes a partner" korrekt aus Fortune-Quelle übernommen; Challenger-Quartalswerte und Jahresvergleichswerte mit Primärquellen abgeglichen. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge vollständig belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 23.0 durchgängig: Dokumentkopf (Stand Juni 2026), `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung), diesem Protokoll. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltliche Ergänzung hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Nur inhaltliche Ergänzung; keine Bereinigung bestehender Fehler erforderlich. | — |
+
+### Nachprüfung
+
+- 2.1.1 – 2.1.5 nach Einarbeitung: OK
+- 2.2.1 / 2.4.1 / 2.4.2 / 2.4.3 / 2.4.5 nach Ergänzung der Literaturnachweise: OK
+- 2.5 Versionskonsistenz: OK (23.0 in Dokumentkopf, `README.md` × 3, Aktualitätshinweis am Dokumentende, diesem Protokoll)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine identifiziert)
+- Neue Version: 23.0
+- PDF erstellt: Ja (`KI-Ökonomie.pdf` via `build_pdf.py`)
+- Word erstellt: Ja (`KI-Ökonomie.docx` via `build_docx.py`)

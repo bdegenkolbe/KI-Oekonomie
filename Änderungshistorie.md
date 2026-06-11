@@ -396,3 +396,79 @@
 - Cluster G (Gesundheitswesen) ohne neue belegbare Treffer im 7-Tage-Fenster — nächster Lauf sollte gezielt G-BA, gematik und BfArM prüfen.
 
 ---
+
+## 2026-06-11 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Schwerpunkt D und F).
+- Zeitfenster: 7 Tage (Standard); Cluster F und I im 48-Stunden-Fenster wie in `Suchthemen.md` definiert. Anmerkung: Letzter regulärer Daily-Update-Lauf war Lauf 001 vom 8. Mai 2026 — der Recherchekorridor wurde an der Grenze des 7-Tage-Fensters um zwei stark gekoppelte Einzelereignisse vom 1. und 2. Juni 2026 (Sanders Sovereign Wealth Fund Act, Trump-EO) erweitert, weil sie als Anker der Follow-up-Berichterstattung vom 5./6. Juni 2026 dienen.
+- Anzahl Suchanfragen: 13 (Web-Suche) + 4 (gezielte Quellen-Fetches).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | D | Sanders, B., *The Public Should Own Half of the Big A.I. Companies*, NYT-Op-Ed, 1. Juni 2026 | https://www.sanders.senate.gov/op-eds/the-public-should-own-half-of-the-big-a-i-companies/ | übernommen |
+| 2 | D | US Senate, 119th Congress, *American A.I. Sovereign Wealth Fund Act*, 1. Juni 2026 | https://thehill.com/policy/technology/5906140-sanders-ai-ownership-wealth/ \| https://www.lawnews.co.uk/legal-news/sanders-introduces-ai-sovereign-wealth-fund-bill-in-the-senate/ | übernommen |
+| 3 | D | Yahoo Finance / Fox Business / Reason / The Hill / Law News, Sanders-Erstberichterstattung 1.–3. Juni 2026 | https://finance.yahoo.com/economy/policy/articles/bernie-sanders-proposes-shock-50-114500779.html \| https://www.foxbusiness.com/politics/sanders-unveils-plan-take-50-stake-ai-companies-government-wealth-fund \| https://reason.com/2026/06/02/bernie-sanders-ai-wealth-fund-bill-shows-that-he-doesnt-understand-ai-or-wealth/ | übernommen (Sammelbelege) |
+| 4 | D | The White House, *Executive Order — Promoting Advanced Artificial Intelligence Innovation and Security*, 2. Juni 2026 | https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/ \| Fact Sheet: https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-promotes-advanced-artificial-intelligence-innovation-and-security/ | übernommen |
+| 5 | D | CNBC / Axios / NPR, Trump-EO-Berichterstattung 2. Juni 2026 | https://www.cnbc.com/2026/06/02/trump-executive-order-ai.html \| https://www.axios.com/2026/06/02/trump-signs-new-ai-executive-order \| https://www.npr.org/2026/06/02/nx-s1-5844347/ai-safety-trump-executive-order | übernommen (Sammelbelege) |
+| 6 | D | CNBC / NOTUS / OpenTools, Trump-OpenAI-Equity-Gespräche 5. Juni 2026 | https://www.cnbc.com/2026/06/05/trump-open-ai-altman-stake.html \| https://www.notus.org/technology/trump-ai-stake-openai \| https://opentools.ai/news/trump-admin-openai-us-government-equity-stake | übernommen |
+| 7 | D | Fortune / Washington Times / Boston Globe, Sanders-Altman-Senatsbüro-Gespräch 6. Juni 2026 | https://fortune.com/2026/06/06/bernie-sanders-sam-altmans-meeting-public-ownership-of-ai-partnership/ \| https://www.washingtontimes.com/news/2026/jun/6/president-trump-bernie-sanders-sam-altman-talking-public-ownership-ai/ \| https://www.bostonglobe.com/2026/06/06/nation/trump-sanders-and-altman-all-talking-about-public-ownership-in-ai/ | übernommen |
+| 8 | F | Challenger, Gray & Christmas, *May Job Cuts Rise 16 % from April; Highest May Total Since 2020*, 4. Juni 2026 | https://www.challengergray.com/blog/challenger-report-may-job-cuts-rise-16-from-april-highest-may-total-since-2020/ \| PDF: https://www.challengergray.com/wp-content/uploads/2026/06/Challenger-Report-May-2026.pdf | übernommen |
+| 9 | F | Fox Business / Yahoo Finance / TechStory / OpenTools, AI-40 %-Sammelbelege Challenger Mai, 4./5. Juni 2026 | https://www.foxbusiness.com/economy/ai-remains-top-reason-us-job-cuts-third-straight-month-employers-axed-97000-workers-may \| https://finance.yahoo.com/economy/article/layoff-announcements-tick-higher-in-may-with-ai-as-the-leading-cause-093000409.html \| https://techstory.in/us-employers-cut-97000-jobs-in-may-with-ai-leading-the-way/ \| https://opentools.ai/news/ai-drives-40-percent-us-job-cuts-may-97000-positions | übernommen (Sammelbelege) |
+| 10 | F | Bloomberg / Quartz / TechSpot, Tech-Komponente Challenger Mai, 4./5. Juni 2026 | https://www.bloomberg.com/news/articles/2026-06-04/us-tech-sector-announces-most-job-cuts-in-nearly-two-years \| https://qz.com/tech-job-cuts-ai-layoffs-may-2026-060526 \| https://www.techspot.com/news/112493-tech-layoffs-pass-100000-2026-tracker-points-ai.html | übernommen (Sammelbelege) |
+| 11 | F | TrueUp / InformationWeek / Crunchbase, Tech-Layoff-Tracker Stand Juni 2026 (150.096 Personen / 368 Meldungen / ~950 pro Tag; Wix 1.000, Snap 1.000, Amdocs 2.900; Projektion 370.000) | https://www.trueup.io/layoffs \| https://www.informationweek.com/it-staffing-careers/2026-tech-company-layoffs \| https://news.crunchbase.com/startups/tech-layoffs/ | übernommen |
+| 12 | H | Bundesbank-Rede Joachim Nagel, *Structural challenges for the German economy*, 8. Mai 2026 (BOP-F: Anteil Unternehmen mit generativer KI 26 % 2024 → 56 % 2026) | https://www.bundesbank.de/en/press/speeches/structural-challenges-for-the-german-economy-996484 | verworfen |
+| 13 | C | Caixin / NPR / Fortune, Hangzhou-/Beijing-Gerichtsurteile zur KI-Substitution (Anfang Mai 2026) | https://www.caixinglobal.com/2026-04-30/chinese-courts-rule-companies-cannot-fire-workers-simply-to-replace-them-with-ai-102439602.html \| https://www.npr.org/2026/05/01/nx-s1-5807131/tech-worker-china-ai \| https://fortune.com/2026/05/03/chinese-court-layoffs-workers-ai-replacement-labor-market/ | verworfen |
+| 14 | C | EU Council / Stibbe / Latham & Watkins, *Digital Omnibus on AI* Provisional Agreement, 7. Mai 2026 | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ | verworfen |
+| 15 | A | Brookings *Mind the Gap: AI Adoption in Europe and the US* (Bick et al., März 2026) | https://www.brookings.edu/wp-content/uploads/2026/03/6_Bick-et-al_unembargoed.pdf | verworfen |
+| 16 | J | IFR World Robotics, Roboterdichte-Reports und Humanoid-Positionspapier | https://ifr.org/wr-industrial-robots/ | verworfen |
+| 17 | C | OECD *Taxing Wages 2026* | https://www.oecd.org/en/publications/taxing-wages-2026_3a5169ef-en.html | verworfen |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.5 | Ergänzung | Neuer Block „Sanders American A.I. Sovereign Wealth Fund Act und US-,Public-Equity'-Wende (1.–6. Juni 2026)" mit drei Absätzen: Sanders-Bill (NYT-Op-Ed, einmalige 50-%-Aktien-Steuer auf OpenAI/Anthropic/xAI in Staatsfonds mit Universaldividende und Aufsichtsratsrechten), Trump-EO (AI Cybersecurity Clearinghouse, Voraberprüfung Frontier-Modelle, Ausschluss verpflichtender Lizenzierung), Trump-OpenAI-Equity-Gespräche und Sanders-Altman-Senatsbüro-Gespräch; fiskalische Einordnung als Vermögensabgabe gegenüber laufenden Steuern. | 1–7 |
+| 2 | § 5.4 | Ergänzung | Kurzer Querverweisabsatz: Sanders Sovereign Wealth Fund Act als US-bundesgesetzliche Konkretisierung der ersten Staatsfonds-Variante mit Verweis auf § 4.5; Trump-OpenAI-Gesprächsspur als kooperative Komplementärlinie. | 1–7 |
+| 3 | § 1.1 | Ergänzung | Satzkomplex zum *May-2026-Job-Cuts-Report* von Challenger (97.006 / 38.579 / 38.242 / YTD KI 87.714 / YTD Tech 123.653), TrueUp-Tagestracker per Anfang Juni 2026 (150.096 Personen / 368 Meldungen / ~950 pro Tag) und Streichungen ≥ 1.000 Stellen bei Wix, Snap, Amdocs; Projektion 370.000 Tech-Streichungen 2026. | 8–11 |
+| 4 | § 11.3 | Ergänzung | Drei neue institutionelle/politische Belege: Sanders-Op-Ed 1. Juni 2026, US Senate Bill *American A.I. Sovereign Wealth Fund Act* (Sammelbeleg über Sekundärquellen wegen fehlender öffentlicher Bill-URL), White House Executive Order und Fact Sheet 2. Juni 2026. | 1, 2, 4 |
+| 5 | § 11.5 | Ergänzung | Sieben neue journalistische/praxisorientierte Sammelbelege: Challenger Mai 2026 (Direktquelle), Fox/Yahoo/TechStory/OpenTools (AI-40 %-Linie), Bloomberg/Quartz/TechSpot (Tech-Komponente), TrueUp/InformationWeek/Crunchbase (Juni-Stand und Projektion), Sanders Op-Ed-Spiegel, Yahoo/Fox/Reason/The Hill/Law News (Sanders-Erstberichterstattung), CNBC/Axios/NPR (Trump-EO), CNBC/NOTUS/OpenTools (Trump-OpenAI-Equity), Fortune/Washington Times/Boston Globe (Sanders-Altman-Begegnung). | 1, 3, 5, 6, 7, 8, 9, 10, 11 |
+| 6 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Lauf 001 vom 11. Juni 2026" geändert; Schwerpunkt-Linie umgesetzt (Sanders Sovereign Wealth Fund, Trump-EO, Trump-OpenAI-Equity, Sanders-Altman; Challenger-Mai-Report; TrueUp-Stand Juni; Wix/Snap/Amdocs); Mai-Stand-Punkte komprimiert erhalten. | 1–11 |
+| 7 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Stand „Juni 2026", Zitiervorschlag, neuer Versions-Eintrag in der KI-Offenlegung mit beiden Cluster-Schwerpunkten). | — |
+| 8 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 11. Juni 2026 (Lauf 001 vom 11. Juni 2026) — Version 22.0 → Version 23.0" mit vollständiger 2.1.1–2.6-Prüftabelle und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 12 | Bundesbank-Rede Nagel 8. Mai 2026 | H | Außerhalb 7-Tage-Fenster (34 Tage alt); Daten (26 % → 56 %) inhaltlich sehr relevant für § 8.1 — für nächsten Lauf als Recherche-Anker für eine Cluster-H-Vertiefung vorgemerkt. |
+| 13 | Hangzhou-/Beijing-Gerichtsurteile (China AI-Substitution) | C | Außerhalb 7-Tage-Fenster (Anfang Mai 2026); ergibt mit anstehender chinesischer Politik-Drucksache zur KI-Beschäftigungswirkung eine eigene Cluster-C-Vertiefung im nächsten Lauf. |
+| 14 | EU Digital Omnibus on AI — provisorische Einigung 7. Mai 2026 | C | Innerhalb des vorigen Lauf-Fensters (Lauf 001 vom 8. Mai 2026); Trilog-Stand dort bereits dokumentiert (zweite Runde 28. April 2026 ohne Einigung, nächste Runde 13. Mai 2026) — wird in einem späteren Lauf mit Volltext-Beschluss konsolidiert. |
+| 15 | Brookings „Mind the Gap" (Bick et al., März 2026) | A | Außerhalb 7-Tage-Fenster (3 Monate alt); inhaltlich für § 3.5 / § 8.1 relevant, aber nicht zeitkritisch. |
+| 16 | IFR World Robotics — Industrial Robots / Humanoid Position Paper | J | Keine neue Berichts-Ausgabe im 7-Tage-Fenster; Daten (Korea 1.220, Singapore 818) inhaltlich identisch zum aktuellen Index, nicht doppelt aufnehmen. |
+| 17 | OECD *Taxing Wages 2026* | C | Außerhalb 7-Tage-Fenster (Frühjahr 2026); thematisch breit (klassische Lohnsteuer-Brochüre), kein KI-spezifischer Befund. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 11. Juni 2026 (Lauf 001 vom 11. Juni 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- E-Mail-Versand (Phase 5b): Fallback-Datei (`daily-mail.txt` im Repo-Root, gitignored) — kein `mail_send`/`send_mail`/`outlook_send`-MCP-Tool in der laufenden Session erreichbar; Empfängerdaten nicht in die Fallback-Datei aufgenommen.
+- WhatsApp-Versand (Phase 5b): Fallback-Datei (`daily-whatsapp.txt` im Repo-Root, gitignored) — kein `wa_send_message`/`whatsapp`-MCP-Tool in der laufenden Session erreichbar; Empfängerdaten nicht in die Fallback-Datei aufgenommen.
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+
+### Auffälligkeiten / offene Punkte
+
+- Der heutige Lauf ist der erste reguläre Daily-Update-Lauf nach 34-tägiger Pause (letzter Lauf: 8. Mai 2026). Recherchekorridor wurde an der Grenze des 7-Tage-Fensters um zwei stark gekoppelte Einzelereignisse vom 1./2. Juni 2026 erweitert (Sanders Sovereign Wealth Fund Act, Trump-EO) — Begründung: beide sind Anker der Follow-up-Berichterstattung 5./6. Juni 2026 und ohne sie zerfällt der Block zur „Public-Equity"-Wende.
+- Bundesbank-Rede Nagel vom 8. Mai 2026 (Anteil Unternehmen mit generativer KI 26 % → 56 % innerhalb von zwei Jahren) wurde im aktuellen Lauf nicht eingearbeitet, weil außerhalb des 7-Tage-Fensters; für den nächsten Lauf ist eine eigene Cluster-H-Vertiefung mit diesem Datenpunkt als Anker vorgemerkt (Einarbeitungspfad: § 8.1 / § 8.2).
+- Chinesische Gerichtsurteile (Hangzhou/Beijing) zur Unzulässigkeit reiner KI-Substitution als Kündigungsgrund (Ende April / Anfang Mai 2026) wurden ebenfalls außerhalb des Fensters gefunden; für den nächsten Lauf als Cluster-C-Anker vorgemerkt (Einarbeitungspfad: § 6 oder neuer § 6.5).
+- Cluster G (Gesundheitswesen): keine neuen belegbaren Treffer im 7-Tage-Fenster — fünfter Lauf in Folge ohne Cluster-G-Eintrag; nächster Lauf sollte gezielt G-BA, gematik und BfArM prüfen.
+- Phase 5b — Versand: In der laufenden Session war weder ein Microsoft-Graph-Mail-Send-MCP-Tool (`mail_send`/`send_mail`/`send_message`/`outlook_send`) noch ein WhatsApp-Send-MCP-Tool (`wa_send_message`/`whatsapp`) erreichbar — der Microsoft-365-MCP-Server stellt nur Read-Tools (`outlook_email_search`, `read_resource`) bereit; ein WhatsApp-MCP-Server ist in dieser Session nicht angeschlossen. Beide Inhalte wurden gemäß Phase-5b-Schritt-2-Fallback in die gitignorierten Dateien `daily-mail.txt` (vollständige Tabelle, Status, Verweise) und `daily-whatsapp.txt` (Kurzfassung ≤ 1.000 Zeichen) geschrieben; Empfängerdaten aus der Routine-Anweisung wurden ausdrücklich nicht in die Fallback-Dateien aufgenommen.
+
+---
