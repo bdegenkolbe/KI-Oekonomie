@@ -461,7 +461,7 @@
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
 - E-Mail-Versand (Phase 5b): Fallback-Datei (`daily-mail.txt` im Repo-Root, gitignored) — kein `mail_send`/`send_mail`/`outlook_send`-MCP-Tool in der laufenden Session erreichbar; Empfängerdaten nicht in die Fallback-Datei aufgenommen.
 - WhatsApp-Versand (Phase 5b): Fallback-Datei (`daily-whatsapp.txt` im Repo-Root, gitignored) — kein `wa_send_message`/`whatsapp`-MCP-Tool in der laufenden Session erreichbar; Empfängerdaten nicht in die Fallback-Datei aufgenommen.
-- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- Branch auf main gemerged und gelöscht: teilweise — Session-Branch `claude/determined-einstein-1cp24c` gepusht (Remote-Branch angelegt, daily-update-Commit e2d4069 enthalten); lokaler Merge auf `main` mit `git merge --no-ff` durchgeführt (Merge-Commit b5f8098). Push auf `origin main` schlägt mit HTTP 403 fehl — drei Versuche mit exponentiellem Backoff (2 s / 4 s) erfolglos, gleiches Verhalten wie im Lauf 001 vom 8. Mai 2026 (Branch-Schutz auf `main`). Branch-Cleanup nicht ausgeführt (würde die lokal vorhandenen Merge-Commits gegenüber Remote-`main` verlieren). Empfehlung: Main-Aktualisierung manuell oder über CI/CD-Pfad.
 
 ### Auffälligkeiten / offene Punkte
 
