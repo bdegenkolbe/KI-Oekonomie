@@ -54,6 +54,93 @@
 
 ---
 
+## 2026-06-12 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster G — Gesundheitssektor — fünftes Mal in Folge ohne neue belegbare Treffer im 7-Tage-Fenster; Cluster D mit vertieftem Treffer (Sanders Sovereign Wealth Fund Act); Cluster F mit Aggregat-Bestätigung über Challenger Mai-Report).
+- Zeitfenster: Erweitertes Fenster 8. Mai 2026 – 12. Juni 2026 (35 Tage; der reguläre 7-Tage-Standard wurde aufgrund des Zeitabstands seit Lauf 001 vom 8. Mai 2026 ausgeweitet, sonst hätten substanzielle politische Entwicklungen (EU-Trilog-Einigung 7. Mai; Colorado SB 189 14. Mai; Sanders 1. Juni; Lamont 2. Juni; Bundestag 12. Juni) durchgängig außerhalb gefallen). Cluster F-Tagesfortschreibung im 48-Stunden-Fenster.
+- Anzahl Suchanfragen: 12 (Web-Suche).
+- Lauf 001 vom 12. Juni 2026 ist der erste reguläre Daily-Update-Lauf nach Lauf 001 vom 8. Mai 2026 (Version 22.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | D | Reuters / Fox Business / The Hill / Reason / Fortune / sanders.senate.gov, *Sanders Introduces American AI Sovereign Wealth Fund Act / Bernie Sanders unveils plan to take 50 % stake in AI companies / The Public Should Own Half of the Big A.I. Companies*, 1.–3. Juni 2026 | https://thehill.com/policy/technology/5906140-sanders-ai-ownership-wealth/ \| https://www.sanders.senate.gov/op-eds/the-public-should-own-half-of-the-big-a-i-companies/ \| https://fortune.com/2026/06/03/bernie-sanders-ai-ownership-sovereign-wealth-fund-electrification/ | übernommen (vertieft) |
+| 2 | B/D | State of Connecticut / Office of the Governor, *Governor Lamont Signs Legislation — Public Act 26-15 („CART Act")*, 2. Juni 2026 | https://portal.ct.gov/governor/news/press-releases/2026/06-2026/governor-lamont-signs-legislation-establishing-youth-online-safety-protections | übernommen |
+| 3 | B/D | Ropes & Gray / Holland & Knight / Paul Hastings / Hunton / DLA Piper / Freshfields / Future of Privacy Forum, *Connecticut Enacts Sweeping AI Law / Unpacking SB 5*, Juni 2026 | https://www.ropesgray.com/en/insights/alerts/2026/06/connecticut-enacts-sweeping-ai-law-covering-employment-healthcare-and-online-safety \| https://www.hklaw.com/en/insights/publications/2026/06/connecticut-enacts-comprehensive-ai-legislation \| https://fpf.org/blog/sb-5-in-five-what-to-know-about-connecticuts-new-ai-law/ | übernommen (Sammelbeleg) |
+| 4 | B | State of Colorado / Office of the Governor / Hunton / Littler / Law and the Workplace, *Colorado AI Act Amended and Effective Date Delayed (SB 189)*, 14. Mai 2026 | https://www.hunton.com/privacy-and-cybersecurity-law-blog/colorado-ai-act-amended-and-effective-date-delayed \| https://www.littler.com/news-analysis/asap/colorado-amends-its-artificial-intelligence-law-substantially-reducing | übernommen |
+| 5 | B | Council of the EU / European Parliament, *Artificial Intelligence: Council and Parliament agree to simplify and streamline rules — politische Trilog-Einigung*, 7. Mai 2026 | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ \| https://www.whitecase.com/insight-alert/eu-agrees-digital-omnibus-deal-simplify-ai-rules | übernommen |
+| 6 | B | Deutscher Bundestag, *Abstimmung über das Gesetz zur Durchführung der KI-Verordnung (kw24)*, 12. Juni 2026 | https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-ki-1183820 \| https://www.bundestag.de/presse/hib/kurzmeldungen-1184102 | übernommen |
+| 7 | E/B | Deutscher Bundestag, *Erste Lesung des GKV-Beitragssatzstabilisierungsgesetzes (kw24)*, 12. Juni 2026 | https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-gkv-1181958 | übernommen |
+| 8 | F | Challenger, Gray & Christmas, *Challenger Report: May Job Cuts Rise 16 % from April; Highest May Total Since 2020*, 5. Juni 2026 | https://www.challengergray.com/blog/challenger-report-may-job-cuts-rise-16-from-april-highest-may-total-since-2020/ | übernommen (vertieft) |
+| 9 | F | TrueUp / SkillSyncer / TechTimes / TechSpot, *Tech Layoffs Tracker — Stand 11. Juni 2026: 247 Ereignisse, 183.966 Personen, 55 % KI-bezogen (152.415 Personen)* | https://www.trueup.io/layoffs \| https://skillsyncer.com/layoffs-tracker | übernommen |
+| 10 | A | Growiec, J., Prettner, K., & Szkróbka, M., *Workers' Incentives and the Optimal Taxation of AI*, arXiv 2603.17898, 18. März 2026 | https://arxiv.org/abs/2603.17898 | übernommen (ergänzend) |
+| 11 | J | Humanoid Press / RivCut / GrabaRobot — Humanoid Robotics Commercial Deployment June 2026 | https://www.humanoid.press/ | als Marker festgehalten |
+| 12 | I | Anthropic Economic Index — Folgebericht | https://www.anthropic.com/economic-index | verworfen (kein neuer Bericht zwischen März 2026 und 12. Juni 2026) |
+| 13 | F | Microsoft VRSAR — Abschlussstand der angenommenen Buyouts | https://www.geekwire.com/2026/microsoft-will-offer-voluntary-retirement-to-thousands-of-employees-in-a-first-for-tech-giant/ | verworfen (Separation Date 2. Juli 2026 noch ausstehend) |
+| 14 | G | G-BA / gematik / BfArM — KI-Beschlüsse | https://www.g-ba.de/ | verworfen (fünftes Mal in Folge ohne KI-spezifische Beschlüsse) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.5 | Ergänzung | Sanders *American AI Sovereign Wealth Fund Act* (Einbringung Senat 1. Juni 2026, einmalige 50 %-Equity-Übertragung OpenAI/Anthropic/xAI, hälftiges Stimmrecht, gleichberechtigte Vorstandsvertretung, universelle Bürgerdividende) als programmatische Verschiebung vom Verbrauchsteuer- auf das Eigentumsmodell. | 1 |
+| 2 | § 4.5 | Ergänzung | Neuer Absatz „Sub-föderale Parallele — Connecticut (Mai/Juni 2026)" zur Unterzeichnung von SB 5 als *Public Act 26-15 / CART Act* am 2. Juni 2026 mit gestaffelten Geltungsdaten (1. Oktober 2026, 1. Januar 2027, 1. Oktober 2027). | 2–3 |
+| 3 | § 4.5 | Ergänzung | Neuer Absatz „Sub-föderale Parallele — Colorado (Mai 2026)" zur Polis-Unterzeichnung von *SB 189* am 14. Mai 2026 mit Stichtagsverschiebung und Streichung der Duty of Care. | 4 |
+| 4 | § 4.3 | Ergänzung | EU-Trilog-Einigung am 7. Mai 2026: Anhang-III-Hochrisikopflichten ab 2. Dezember 2027, Anhang-I ab 2. August 2028; Watermark-/Nudifier-Pflichten ab 2. Dezember 2026. | 5 |
+| 5 | § 4.3 | Ergänzung | Bundestag-Beschluss am 12. Juni 2026 zum *Gesetz zur Durchführung der KI-Verordnung*; Bundesnetzagentur als zentrale KI-Marktüberwachungsbehörde. | 6 |
+| 6 | § 5.2 | Aktualisierung | Erste Bundestagslesung des *GKV-Beitragssatzstabilisierungsgesetzes* am 12. Juni 2026 (Deckungslücke 15,3 Mrd. EUR für 2027); angekündigte Zuckergetränke-Abgabe ab 2028. | 7 |
+| 7 | § 1.1 | Ergänzung | *Challenger May-2026-Job-Cuts-Report* vom 5. Juni 2026: US-Gesamt 97.006; KI-bezogen 38.579 (40 %); Tech 38.242; YTD KI 87.714 (22 %, > Vorjahresgesamtwert); YTD Tech 123.653 (+66 %). | 8 |
+| 8 | § 1.1 | Aktualisierung | TrueUp-Tagesfortschreibung zum 11. Juni 2026: 247 Layoff-Ereignisse, 183.966 betroffene Beschäftigte, 55 % KI-bezogen (152.415 Personen). | 9 |
+| 9 | § 3.3 | Ergänzung | Growiec, Prettner & Szkróbka (arXiv 2603.17898, 18. März 2026): KI-Besteuerung optimal, wenn kognitiv Beschäftigte beginnen, in manuelle Tätigkeiten auszuweichen; Verlängerung der Thuemmel-Linie. | 10 |
+| 10 | § 11.1 / § 11.3 / § 11.5 | Ergänzung | Zehn neue Literatureinträge in den drei Sektionen entsprechend der Quellentypen. | 1–10 |
+| 11 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Mitte Juni 2026 (Schnitt am 12. Juni 2026 — Lauf 001 vom 12. Juni 2026, Version 23.0)" geändert; zehn Ergänzungen als Übersichts-Vorspann aufgenommen. | 1–10 |
+| 12 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Stand „Juni 2026", Zitiervorschlag, neuer Versions-Eintrag in der KI-Offenlegung). | — |
+| 13 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 12. Juni 2026 (Lauf 001 vom 12. Juni 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Humanoide Robotik — kommerzieller Anlauf (Figure 03, Atlas, Optimus) | J | Als Marker festgehalten; im nächsten Lauf für § 1.1 oder § 8.1 zu vertiefen, sobald belastbare Stückzahlen-/Capex-Zahlen vorliegen. |
+| 2 | Trump *Executive Order „Eliminating State Law Obstruction"* (Dezember 2025) | D | Bereits in § 4.5 dokumentiert; Konsequenz Colorado SB 189 ist eigenständig aufgenommen. |
+| 3 | Anthropic Economic Index — Folgebericht | I | Kein neuer Bericht zwischen März 2026 *„Learning curves"* und 12. Juni 2026. |
+| 4 | IAB-Sommerprognose 2026 | E | Kein neues Update zwischen 24. März 2026 und 12. Juni 2026. |
+| 5 | Microsoft VRSAR — Abschlussstand | F | *Separation Date* 2. Juli 2026 noch ausstehend. |
+| 6 | Sanders/Ocasio-Cortez *AI Data Center Moratorium Act* (S. 4214) | B | Keine Bewegung zwischen 25. März 2026 und 12. Juni 2026. |
+| 7 | G-BA / gematik / BfArM — KI-Beschlüsse | G | Fünftes Mal in Folge ohne KI-spezifische Beschlüsse im Recherchezeitfenster. |
+| 8 | Generationenkapital — neue Tranchen-/Renditeangaben | H | Keine neuen Angaben zwischen 7. Mai 2026 und 12. Juni 2026. |
+| 9 | Weimer Plattform-Digitalabgabe — Eckpunktepapier | B | Keine Bewegung über Version 11.0 hinaus. |
+| 10 | Connecticut *Raised Bill 515* | D | Zum Sitzungsende der CT General Assembly am 6. Mai 2026 nicht zur Endabstimmung gekommen; vertagt. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 12. Juni 2026 (Lauf 001 vom 12. Juni 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 001 vom 12. Juni 2026 erfolgt rund fünf Wochen nach dem letzten Lauf (8. Mai 2026, Version 22.0). Das Recherchefenster wurde pragmatisch auf die letzten 35 Tage erweitert, weil eine strikte Anwendung der 7-Tage-Regel die substanziellen politischen Entwicklungen (EU-Trilog-Einigung 7. Mai; Colorado SB 189 14. Mai; Sanders 1. Juni; Lamont 2. Juni; Bundestag 12. Juni) durchgängig ausgeschlossen hätte. Für künftige Läufe ist die regelmäßige Wochenfrequenz wiederherzustellen.
+- Heute (12. Juni 2026) ist ein dichtes Tagesereignis: Bundestag beschließt das *Gesetz zur Durchführung der KI-Verordnung*, hält die erste Lesung des *GKV-Beitragssatzstabilisierungsgesetzes* ab, und der Bundesrat tagt in seiner 1066. Sitzung.
+- Sanders *American AI Sovereign Wealth Fund Act* (1. Juni 2026): Die programmatische Verschiebung des Sanders-Diskurses vom Verbrauchsteuer- auf das Eigentumsmodell ist substanziell und strukturell nah zur in § 5.4/§ 8.3 entwickelten Staatsfonds-Logik. Eine vertiefte Behandlung in § 8.3 ist im nächsten Lauf zu erwägen.
+- Cluster G fünftes Mal in Folge ohne valide Treffer; Empfehlung weiterhin bestehend (gezielter Abruf von g-ba.de, gematik, BfArM).
+- Microsoft VRSAR (Annahmefrist 8. Juni 2026, Separation Date 2. Juli 2026): Abschlusszahl nicht öffentlich; im nächsten Lauf zu prüfen.
+- Connecticut *Raised Bill 515*: vertagt; das in § 4.5 dokumentierte CT-Vorhaben gilt mit der Unterzeichnung von SB 5 / Public Act 26-15 als realisiert.
+- Cluster J: Kommerzieller Anlauf humanoider Robotik (Figure 03 / BMW Spartanburg, Atlas / Hyundai+DeepMind, Optimus / Fremont) als Marker festgehalten — im nächsten Lauf vertiefen.
+- Branch dieses Laufs: `claude/determined-einstein-rtj2lf` (in Phase 0 verifiziert).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben.
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
