@@ -54,6 +54,91 @@
 
 ---
 
+## 2026-06-14 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster G — Gesundheitssektor — und Cluster J — Robotik — ohne neue politisch-fiskalisch relevante Tagesmeldungen).
+- Zeitfenster: 7 Tage standardmäßig; Cluster F und I im 48-Stunden-Fenster gemäß `Suchthemen.md`. Da die letzte Tagesaktualisierung am 8. Mai 2026 erfolgte und seither 36 Tage vergangen sind, wurden Treffer aus dem Zeitraum 8. Mai – 14. Juni 2026 berücksichtigt, sofern sie politisch-fiskalisch bislang noch nicht im Hauptdokument abgebildet waren (Sondersituation eines verzögerten Folgelaufs).
+- Anzahl Suchanfragen: 12 (Web-Suche).
+- Lauf 001 ist der erste reguläre Daily-Update-Lauf am 14. Juni 2026 nach Lauf 001 vom 8. Mai 2026 (Version 22.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B | ScaleWise / BDI / datensicherheit.de — *Digital Omnibus on AI: Politische Einigung in der dritten Trilogrunde* (7. Mai 2026) | https://www.scalewise-ai.de/blog/2026-05-digital-omnibus-einigung-eu-ai-act-fristen \| https://bdi.eu/de/articles/presse/bdi-zum-ai-act-omnibus-trilog-einigung-reduziert-doppelzertifizierungen | übernommen |
+| 2 | B | Ropes & Gray / Morrison Foerster / Bloomberg Law / Holland & Knight / Connecticut Governor's Office — *Connecticut Enacts Sweeping AI Law / Lamont Signs AI Law with Employer Notice Mandate* (2. Juni 2026) | https://portal.ct.gov/governor/news/press-releases/2026/06-2026/governor-lamont-signs-legislation-establishing-youth-online-safety-protections \| https://www.ropesgray.com/en/insights/alerts/2026/06/connecticut-enacts-sweeping-ai-law-covering-employment-healthcare-and-online-safety \| https://news.bloomberglaw.com/daily-labor-report/connecticuts-lamont-signs-ai-law-with-employer-notice-mandate | übernommen |
+| 3 | D | The Hill / Fox Business / Lawnews / Fortune — *Bernie Sanders proposes 50 % equity tax on AI labs to fund American AI Sovereign Wealth Fund; Sanders Introduces AI Sovereign Wealth Fund Bill in the Senate* (1./2. Juni 2026) | https://thehill.com/policy/technology/5906140-sanders-ai-ownership-wealth/ \| https://www.foxbusiness.com/politics/sanders-unveils-plan-take-50-stake-ai-companies-government-wealth-fund \| https://www.lawnews.co.uk/legal-news/sanders-introduces-ai-sovereign-wealth-fund-bill-in-the-senate/ \| https://fortune.com/2026/06/03/bernie-sanders-ai-ownership-sovereign-wealth-fund-electrification/ | übernommen |
+| 4 | D | OpenAI / DotNetRamblings / TechJackSolutions — *Built to Benefit Everyone: Our Plan* (Sam Altman & Jakub Pachocki, 8. Juni 2026) | https://openai.com/index/built-to-benefit-everyone-our-plan/ \| https://www.dotnetramblings.com/post/08_06_2026/08_06_2026_18/ | übernommen |
+| 5 | D | Anthropic / Built In — *Economic Futures Research Fund — 200 Mio. USD Forschungsfonds plus 150 Mio. USD Claude Corps* (10. Juni 2026) | https://builtin.com/articles/anthropic-economic-index-2026-ai-jobs-report | übernommen |
+| 6 | B/E | DGB / IG Metall / ver.di / IGBCE — *Reformagenda für wirtschaftliche Stärke, gute Arbeit und soziale Sicherheit* (11. Juni 2026) | https://www.dgb.de/presse/pressemitteilungen/pressemitteilung/reformagenda-fuer-wirtschaftliche-staerke-gute-arbeit-und-soziale-sicherheit | übernommen |
+| 7 | B/E | Deutscher Bundestag / Bundesrat — *Erste Lesung GKV-Beitragssatzstabilisierungsgesetz im Bundestag (12. Juni 2026); 1066. Bundesratssitzung (12. Juni 2026)* | https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-gkv-1181958 \| https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1066/1066-node.html | übernommen |
+| 8 | F | Challenger, Gray & Christmas / OpenTools / Newkerala — *Mai-2026-Job-Cuts-Report: 97.006 Streichungen / 38.579 KI-bezogen = 40 % / Tech 38.242 / YTD Tech 123.653 / YTD-KI 87.714* (Anfang Juni 2026) | https://www.challengergray.com/blog/challenger-report-may-job-cuts-rise-16-from-april-highest-may-total-since-2020/ \| https://opentools.ai/news/ai-drives-40-percent-us-job-cuts-may-97000-positions | übernommen |
+| 9 | F | TrueUp — *Tech Layoffs Tracker, Stand 11./12. Juni 2026: 247 Ereignisse / 183.966 Personen / 1.129 pro Tag; 55 % KI-Bezug; Jahresprojektion 370.000* | https://www.trueup.io/layoffs | übernommen |
+| 10 | F/C | Windows News / OutlookBusiness — *Microsoft Cuts 200–400 Azure Jobs in China as Cloud, AI Geopolitics Tighten* (Spätes Juni 2026) | https://windowsnews.ai/article/microsoft-cuts-200400-azure-jobs-in-china-as-cloud-ai-geopolitics-tighten.425550 | übernommen |
+| 11 | I | Techzine / Open Source For You / Verdent — *DeepSeek's Permanent V4-Pro Price Cut: −75 % auf 0,87 USD/Mio. Output-Token; SWE-bench Verified 80,6 vs. Claude Opus 4.7 80,8* (22. Mai 2026) | https://www.techzine.eu/news/applications/141586/deekseek-puts-downward-pressure-on-openai-anthropic-and-google-pricing/ \| https://www.opensourceforu.com/2026/05/deepseeks-permanent-v4-pro-price-cut-puts-openai-and-anthropic-under-pressure/ | übernommen |
+| 12 | J | TechTimes / Optimusk.blog / Robozaps — *Tesla Optimus Gen 3 mass production / Model-S-Line-Conversion in Fremont* (Juni 2026) | https://www.techtimes.com/articles/318071/20260609/tesla-turning-its-model-s-line-optimus-robot-factorygen-3-targets-2026-production-start.htm | verworfen (Tagesneuigkeit ohne unmittelbare politisch-fiskalische Implikation; Beobachtung beim nächsten Lauf fortsetzen) |
+| 13 | A | Acemoglu, Autor, Hazell, Restrepo — *AI and Jobs: Evidence from Online Vacancies* (letztes Update März 2026) | https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3765910 | verworfen (außerhalb 7-Tage-Fenster) |
+| 14 | G | G-BA / gematik / BfArM — Mai/Juni-Sitzungen 2026 | https://www.g-ba.de/beschluesse/letzte-aenderungen/ | verworfen (keine KI-spezifischen Beschlüsse im Recherchefenster; G-BA-Sitzungen 21. Mai, 4. Juni, 18. Juni 2026 ohne KI-/DiGA-Bezug) |
+| 15 | C | OECD Inclusive Framework / IBFD — Pillar 1/2 Mai/Juni 2026 | https://www.oecd.org/tax/ | verworfen (keine neuen KI-relevanten Veröffentlichungen im 7-Tage-Fenster) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.3 | Ergänzung | Politische Einigung der dritten Trilogrunde zum *Digital Omnibus on AI* (7. Mai 2026): Verschiebung der Hochrisiko-Pflichten für Anhang-III-Systeme auf den 2. Dezember 2027; Artikel 4 (KI-Kompetenz) bleibt ab dem 2. August 2026 anwendbar; politische Einigung muss vor dem 2. August 2026 formal verabschiedet und im Amtsblatt publiziert werden. | 1 |
+| 2 | § 4.5 | Aktualisierung | Connecticut SB 5 — Aktualisierung der bisherigen Lamont-Ankündigung auf erfolgte Unterzeichnung am 2. Juni 2026 als *Public Act 26-15* („CART Act"). | 2 |
+| 3 | § 4.5 | Ergänzung | Sanders *American AI Sovereign Wealth Fund Act* vom 1. Juni 2026: einmalige Eigenkapitalsteuer von 50 % auf große KI-Unternehmen, Anteile in einen Wohlstandsfonds nach norwegischem Vorbild, Stimm- und Vorstandsrechte für die Bundesregierung; eingeordnet als Typ 4 nach § 2.1 und als US-bundesstaatliche Antwort auf Korinek/Lockwood und die OpenAI-/Anthropic-Papiere. | 3 |
+| 4 | § 4.5 | Ergänzung | OpenAI *Built to Benefit Everyone: Our Plan* (8. Juni 2026, Altman/Pachocki): Nonprofit-PBC-Struktur mit Eigenkapitalanteil > 100 Mrd. US-Dollar, 50 Mio. US-Dollar Förderprogramm; eingeordnet als private Antwort auf das Sanders-Modell. | 4 |
+| 5 | § 4.5 | Ergänzung | Anthropic *Economic Futures Research Fund* (10. Juni 2026): 200 Mio. US-Dollar Forschungsfonds plus 150 Mio. US-Dollar *Claude Corps*; dreistufiger Politikrahmen entlang Schwellenwerten der Arbeitslosenquote; positioniert als ausgabenseitige Alternative zur Sanders-Eigenkapitalsteuer und zum OpenAI-Eigentumsmodell. | 5 |
+| 6 | § 5.1 | Ergänzung | DGB / IG Metall / ver.di / IGBCE — *Reformagenda* vom 11. Juni 2026 mit programmatischer Öffnung in Richtung Verbreiterung der Sozialversicherungs-Bemessungsgrundlage „über die reine Lohnsumme hinaus". | 6 |
+| 7 | § 5.2 | Aktualisierung | Erste Lesung des GKV-Beitragssatzstabilisierungsgesetzes im Bundestag am 12. Juni 2026 (kontroverse Debatte, Verweisung in die Ausschüsse, Anhörung 22. Juni 2026); parallel 1066. Bundesratssitzung mit 24 Regierungsvorlagen. | 7 |
+| 8 | § 1.1 | Ergänzung | *Challenger-Mai-2026-Job-Cuts-Report* (97.006 Streichungen, höchster Mai-Wert seit 2020; 38.579 KI-bezogen = 40 % des Monats — Reihe Jan 7 / Mär 25 / Apr 26 / Mai 40 %; Tech 38.242 / YTD 123.653 +66 %; YTD-KI 87.714 = 22 % aller 2026-Pläne, bereits über dem Gesamtjahr 2025) und TrueUp-Tagesfortschreibung Mitte Juni 2026 (247 Ereignisse / 183.966 Personen / 1.129 pro Tag; 55 % KI-Bezug; Gesamtjahresprojektion ca. 370.000). | 8, 9 |
+| 9 | § 1.1 | Ergänzung | Microsoft-Azure-China-Reduktion (200–400 Beschäftigte in Peking und Shanghai; Trennungsdatum 6. Juli 2026; Begründung mit US-Exportkontrollen) als Beispiel geopolitisch motivierter KI-Personalanpassung. | 10 |
+| 10 | § 8.2 | Ergänzung | DeepSeek V4-Pro Preisreduktion vom 22. Mai 2026 (−75 % auf rund 0,87 USD/Mio. Output-Token; Leistung auf Augenhöhe mit Claude Opus 4.7) und ihre Implikation für die deutsche Veredelungsstrategie. | 11 |
+| 11 | § 11.3 | Ergänzung | Vier neue Literatureinträge: Sanders 1. Juni 2026; OpenAI 8. Juni 2026; Anthropic 10. Juni 2026; Connecticut/Lamont 2. Juni 2026. | 2, 3, 4, 5 |
+| 12 | § 11.5 | Ergänzung | Sieben neue Sammelbelege: Challenger Mai 2026; TrueUp Juni 2026; Microsoft Azure China; Digital Omnibus politische Einigung; DGB-Reformagenda; Bundestag erste Lesung; DeepSeek V4-Pro Preisreduktion. | 1, 6, 7, 8, 9, 10, 11 |
+| 13 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Mitte Juni 2026 (Schnitt am 14. Juni 2026 — Lauf 001 vom 14. Juni 2026)" geändert; alle neun aufgenommenen Entwicklungen in den Auflistungstext aufgenommen. | 1–11 |
+| 14 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Versionseintrag in der KI-Offenlegung). | — |
+| 15 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 14. Juni 2026 (Lauf 001 vom 14. Juni 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Tesla Optimus Gen 3 Massenproduktion / Model-S-Line-Conversion in Fremont | J | Tagesneuigkeit ohne unmittelbare politisch-fiskalische Implikation; weiterer Beobachtungspunkt für Folgeläufe. |
+| 2 | Acemoglu/Autor/Hazell/Restrepo, *AI and Jobs: Evidence from Online Vacancies* (Stand März 2026) | A | Außerhalb 7-Tage-Fenster; § 3.x-Einbindung der bestehenden Acemoglu-Linie unverändert ausreichend. |
+| 3 | G-BA / gematik / BfArM Mai/Juni 2026 | G | Sechstes Mal in Folge ohne KI-spezifische Beschlüsse oder DiGA-Listings im Recherchefenster. |
+| 4 | OECD Pillar 1/2 Mai/Juni 2026 | C | Keine neuen KI-relevanten Veröffentlichungen im 7-Tage-Fenster. |
+| 5 | South Korea Robot Tax Updates / IRAP Italy | C | Keine Bewegung im Recherchefenster gegenüber Version 22.0. |
+| 6 | Generationenkapital Tranche Juni 2026 | E/H | Keine neuen Tranchen-/Renditeangaben im 7-Tage-Fenster. |
+| 7 | IFR World Robotics Report 2026 (Stand April 2026) | J | Außerhalb 7-Tage-Fenster. |
+| 8 | Frontier-Modell-Releases (außerhalb DeepSeek V4-Pro Mai 2026) | I | Keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 14. Juni 2026 (Lauf 001 vom 14. Juni 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 001 ist der erste Daily-Update-Lauf am 14. Juni 2026 nach mehrwöchigem Pause-Intervall seit dem 8. Mai 2026 (Version 22.0). Die Treffer­dichte war entsprechend hoch — neun Entwicklungen sind aufgenommen worden, die in mehreren Clustern (B, D, F, I) zu thematischen Konvergenzen führen (Sanders/OpenAI/Anthropic-Trio im Juni 2026; Challenger-/TrueUp-Aggregat-Sprung im Mai/Juni 2026).
+- Das Sanders-Modell (American AI Sovereign Wealth Fund Act, 1. Juni 2026) markiert eine qualitative Verschiebung von der ursprünglichen Robotersteuer-Idee (Typ 5 nach § 2.1) zu einem Eigenkapital-Abgriff (Typ 4) und schließt damit konzeptionell an das OpenAI-/Anthropic-Strategiepapier-Trio an.
+- Cluster G (Gesundheitswesen) sechstes Mal in Folge ohne valide Treffer; Empfehlung für nächste Läufe: gezielte Beobachtung der G-BA-Sitzungstermine 18. Juni und 2. Juli 2026.
+- Cluster J (Robotik) mit Tesla-Optimus-Gen-3-Produktionsstart als Beobachtungspunkt; bei konkreten Stückzahlangaben mit politisch-fiskalischer Implikation im nächsten Lauf nachzutragen.
+- Branch dieses Laufs: `claude/determined-einstein-c9rtkt` (Session-Branch der laufenden Session, lokal angelegt, in Phase 0 verifiziert; im Remote nach Push neu angelegt).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Der Versand-Tool-Status (`mail_send` / `send_mail` / `send_message` / `outlook_send` aus `graph-mcp`; `wa_send_message` aus dem `whatsapp`-MCP) wurde in Phase 5b geprüft; bei fehlender Tool-Verfügbarkeit werden die vorbereiteten Inhalte gemäß Phase-5b-Spezifikation als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben.
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor

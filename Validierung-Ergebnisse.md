@@ -7,6 +7,59 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 14. Juni 2026 (Lauf 001 vom 14. Juni 2026) — Version 22.0 → Version 23.0
+
+**Auslöser:** Erster Daily-Update-Lauf nach mehrwöchigem Pause-Intervall (letzter Lauf am 8. Mai 2026 mit Version 22.0). Web-Recherche im Korridor der Cluster A–J am 14. Juni 2026: Optimalsteuer-/Aufgabenforschung (Cluster A); Robotersteuer/Wertschöpfungsabgabe DE/EU (Cluster B); internationale Praxis (Cluster C); Politik-Initiativen und Gesellschaftsverträge (Cluster D); Arbeitsmarkt- und Sozialversicherungsdaten (Cluster E); Tech-Layoffs / KI-Capex (Cluster F); Gesundheitswesen (Cluster G); Deutschland-These-Bezugspunkte (Cluster H); Frontier-Modelle (Cluster I); Robotik (Cluster J). Neun belegbare Treffer im 7-Tage-Fenster identifiziert und eingearbeitet; einige Cluster ohne Treffer (G, J — siehe Logbuch in `Änderungshistorie.md`).
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel plus Executive Summary unverändert; Deutschland-These referenziert. |
+| 2.1.2 Nummerierung | OK | Kapitelnummerierung 1–11 lückenlos; fünf Typen der Robotersteuer in § 2.1, drei Säulen Kapitel 8, sieben Empfehlungen § 10.2 unverändert. |
+| 2.1.3 Querverweise | OK | Neue Verweise auf § 8.4 (Anthropic-Fund), § 2.1 Typ 4 (Sanders Eigenkapital), § 5.1 (DGB-Reformagenda), § 5.2 (GKV) konsistent. |
+| 2.1.4 Roter Faden | OK | Sanders/OpenAI/Anthropic-Trio im Juni 2026 (Eigenkapitalsteuer / Nonprofit-PBC / Forschungsfonds) erweitert die Linie aus § 4.5 ohne Wechsel der Stoßrichtung. |
+| 2.1.5 Formatierung | OK | Tabellen und fette Lead-Ins konsistent. |
+| 2.2.1 Sachliche Richtigkeit | OK | Daten der neuen Quellen (Datum, Volumen, Stimmenmehrheiten) gegen die in Phase 1 protokollierten Suchtreffer geprüft. |
+| 2.2.2 Redundanzprüfung | OK | OpenAI-/Anthropic-/Sanders-Folgepapiere knapp eingearbeitet; OpenAI-April-2026-Papier bleibt Hauptdarstellung, Juni-Papier als Strukturzusage ergänzt. |
+| 2.2.3 Argumentation | OK | Eigenkapital-Abgriff (Sanders) als Typ 4 (§ 2.1) eingeordnet; klare Abgrenzung zu Wertschöpfungsabgabe (§ 5.1) und Staatsfondsmodell (§ 5.4). |
+| 2.2.4 Ausgewogenheit | OK | Bloomberg-Gegenstimme aus Version 20.0 weiterhin sichtbar; OpenAI-Papier Juni 2026 kritisch als „private Antwort" auf Sanders-Modell eingeordnet. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichproben durchgeführt. |
+| 2.3.2 Terminologie | OK | „CART Act" beim ersten Auftreten als Kurzform für Connecticut Artificial Intelligence Responsibility and Transparency Act geführt; Bezüge zu Public Act 26-15 konsistent. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neue Einträge in § 11.3 (Sanders 1. Juni; OpenAI 8. Juni; Anthropic 10. Juni; Connecticut/Lamont 2. Juni) und § 11.5 (Challenger Mai 2026; TrueUp Juni 2026; Microsoft Azure China; Digital Omnibus; DGB/Reformagenda; Bundestag erste Lesung; DeepSeek). |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-nahes Format; vollständige URLs. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen (sanders.senate.gov nicht direkt verfügbar; The Hill/Fox Business/Lawnews als belegende Sekundärquellen mit übereinstimmenden Aussagen); openai.com und anthropic.com Primärquellen. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe (5 URLs) abgerufen; keine 404 erkennbar. |
+| 2.4.5 Zitatgenauigkeit | OK | Zahlen (Challenger Mai: 97.006 / 38.579 / 40 %; TrueUp: 247 / 183.966 / 1.129 pro Tag; DeepSeek: 0,87 USD / SWE-bench 80,6) durch mehrere unabhängige Sekundärquellen bestätigt. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | de la Feria-Markierung weiterhin gesetzt; Sanders-Report Oktober 2025 unverändert verifiziert. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 23.0 in Dokumentkopf, Aktualitätshinweis, README, Zitiervorschlag und Validierung-Ergebnisse einheitlich; Lizenz CC BY 4.0 unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Skripte. |
+
+### Gefundene Fehler
+
+Keine kritischen Fehler. Eine kleine sprachliche Korrektur in § 5.2 (Wechsel Futur → Perfekt nach erfolgter Lesung 12. Juni 2026) wurde im Verlauf von Phase 2 vorgenommen.
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| 1 | § 5.2 verwendete für den Bundesrats-Erstdurchgang am 8. Mai 2026 den Indikativ Präsens; die Tatsachen sind inzwischen abgeschlossen. | Umstellung auf Perfekt; ergänzende Aufnahme der ersten Bundestagslesung am 12. Juni 2026. | Ja |
+| 2 | § 4.5 verwies für die Connecticut-SB-5-Unterzeichnung auf eine bloße Ankündigung Lamonts. | Umstellung auf die erfolgte Unterzeichnung am 2. Juni 2026 als Public Act 26-15. | Ja |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 23.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 8. Mai 2026 (Lauf 001 vom 8. Mai 2026) — Version 21.0 → Version 22.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf am 8. Mai 2026 (nach den drei Tagesaktualisierungen am 7. Mai 2026, die in den Versionen 19.0, 20.0 und 21.0 protokolliert sind). Web-Recherche im Korridor der Cluster A–J am 8. Mai 2026: Optimalsteuer-/Aufgabenforschung (Cluster A); Robotersteuer/Wertschöpfungsabgabe DE/EU (Cluster B); internationale Praxis (Cluster C); Politik-Initiativen (Cluster D); Arbeitsmarkt- und Sozialversicherungsdaten (Cluster E); Tech-Layoffs / KI-Capex 48-Stunden-Fenster (Cluster F); Gesundheitswesen (Cluster G); Deutschland-These-Bezugspunkte (Cluster H); Frontier-Modelle (Cluster I); Robotik (Cluster J). Drei belegbare Treffer im 7-Tage- bzw. 48-Stunden-Fenster identifiziert und eingearbeitet (Cloudflare-Layoff vom 7. Mai 2026; Challenger *April-2026-Job-Cuts-Report* vom 1. Mai 2026; TrueUp-Tagesfortschreibung 8. Mai 2026); alle übrigen recherchierten Themen waren in Version 21.0 bereits enthalten oder lagen außerhalb des 7-Tage- bzw. 48-Stunden-Korridors.
