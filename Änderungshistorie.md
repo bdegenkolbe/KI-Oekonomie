@@ -124,9 +124,9 @@
 - PDF erstellt (`build_pdf.py`): Ja
 - Word erstellt (`build_docx.py`): Ja
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
-- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
-- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
-- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- Branch auf main gemerged und gelöscht: lokal in `main` gemerged (Merge-Commit `6c26c2e` mit `--no-ff`); Push auf `origin/main` mit HTTP 403 abgewiesen (Branch-Schutz / Hosting-Policy, gleicher Befund wie Lauf 003 vom 7. Mai 2026); Löschung des Remote-Branches `claude/determined-einstein-c9rtkt` ebenfalls mit HTTP 403 abgewiesen. Der vollständige Inhalt ist über den Push der Session-Branch in `origin/claude/determined-einstein-c9rtkt` vorhanden und beim nächsten administrativen Zugriff in `main` zu übernehmen.
+- E-Mail-Versand (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (kein Mail-MCP-Tool in der laufenden Session erreichbar)
+- WhatsApp-Versand (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (kein WhatsApp-MCP-Tool in der laufenden Session erreichbar)
 
 ### Auffälligkeiten / offene Punkte
 
