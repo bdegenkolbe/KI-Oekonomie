@@ -54,6 +54,84 @@
 
 ---
 
+## 2026-06-16 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster G — Gesundheitssektor — fünftes Mal in Folge ohne neue belegbare Treffer im 7-Tage-Fenster; Cluster F im 48-Stunden- und erweitertem 7-Tage-Fenster mit hoher Trefferdichte; Cluster D mit dem zentralen Treffer Anthropic Economic Policy Framework).
+- Zeitfenster: 7 Tage (Cluster F und Cluster I: 48 Stunden); zusätzlich erweiterter Korridor 12. Mai bis 14. Juni 2026 für Aggregat-Bestätigungen, weil zwischen Lauf 001 vom 8. Mai 2026 und Lauf 001 vom 16. Juni 2026 ein Monat ohne Recherche-Lauf lag.
+- Anzahl Suchanfragen: 11 (Web-Suche), 1 (WebFetch — Anthropic-PDF erfolgreich).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | D | Anthropic, *Economic Policy Framework — A US policy plan in three tiers, calibrated to the national unemployment rate, for responding to AI's impact on work*, 10. Juni 2026 | https://www-cdn.anthropic.com/files/4zrzovbb/website/9ea607a5dd67c168093829b701f3a0a6d21156d5.pdf | übernommen |
+| 2 | D | Washington Times, *Anthropic pledges $200 million to research AI's economic impact as CEO suggests job loss solutions*, 10. Juni 2026 | https://www.washingtontimes.com/news/2026/jun/10/ceo-suggests-job-loss-solutions-anthropic-pledges-200-million/ | übernommen (Sammelbeleg) |
+| 3 | D | Business Standard, *Anthropic pledges $200 million to study AI's economic impact, job losses*, 11. Juni 2026 | https://www.business-standard.com/technology/tech-news/anthropic-pledges-200-million-to-study-ai-s-economic-impact-job-losses-126061100070_1.html | übernommen (Sammelbeleg) |
+| 4 | D | Gizmodo, *What Happens If AI Causes 25 % Unemployment? Anthropic Has a Concept of a Plan*, Juni 2026 | https://gizmodo.com/what-happens-if-ai-causes-25-unemployment-anthropic-has-a-concept-of-a-plan-2000770289 | übernommen (Sammelbeleg) |
+| 5 | F | Challenger, Gray & Christmas, *Challenger Report: May Job Cuts Rise 16 % from April; Highest May Total Since 2020*, Anfang Juni 2026 | https://www.challengergray.com/wp-content/uploads/2026/06/Challenger-Report-May-2026.pdf | übernommen |
+| 6 | F | Challenger-Blog, *Challenger Report: May Job Cuts Rise 16 % from April; Highest May Total Since 2020*, Juni 2026 | https://www.challengergray.com/blog/challenger-report-may-job-cuts-rise-16-from-april-highest-may-total-since-2020/ | übernommen (Sammelbeleg) |
+| 7 | F | TechJacks Solutions, *AI Is Now the Top Self-Reported Layoff Driver in the U.S., Challenger May 2026 Data Shows*, Juni 2026 | https://techjacksolutions.com/ai-brief/ai-is-now-the-top-self-reported-layoff-driver-in-the-us-chal/ | übernommen (Sammelbeleg) |
+| 8 | F | SkillSyncer / TechTimes / Yahoo Finance, *Tech Layoffs 2026 Hit 149,935 / 2026 Tech Layoffs Tracker*, Stand 5./14. Juni 2026 | https://www.techtimes.com/articles/317848/20260605/tech-layoffs-2026-hit-149935-uber-cuts-hr-days-after-ai-drained-its-coding-budget.htm \| https://skillsyncer.com/layoffs-tracker \| https://finance.yahoo.com/sectors/technology/articles/2026-tech-layoffs-near-150-110000224.html | übernommen |
+| 9 | F | The Next Web, *GitLab cuts 7 % of staff in „agentic era" restructuring*, 12. Mai 2026 | https://thenextweb.com/news/gitlab-cuts-7-of-workforce-and-flattens-management-in-sweeping-agentic-era-restructuring | übernommen |
+| 10 | F | American Bazaar / HR Digest / Metaintro, *GitLab announces layoffs amid major AI overhaul / Agentic AI Ambitions Strike Again*, Mai 2026 | https://americanbazaaronline.com/2026/05/12/gitlab-announces-layoffs-amid-major-ai-overhaul-480613/ \| https://www.thehrdigest.com/agentic-ai-ambitions-strike-again-as-gitlab-announces-layoffs-for-2026/ | übernommen (Sammelbeleg) |
+| 11 | F | Tech Times / IBTimes UK / HR Executive, *Uber Cut 23 % of Its HR Staff / Uber layoffs affect 1/4 of its HR team*, 3.–5. Juni 2026 | https://www.ibtimes.co.uk/uber-ai-budget-job-cuts-1801340 \| https://hrexecutive.com/why-uber-is-cutting-nearly-1-4-of-its-hr-team/ | übernommen |
+| 12 | F | CNBC, *Meta layoffs starting this week stress harsh AI reality inside Zuckerberg's company*, 18. Mai 2026 / DQ India, *Meta layoffs 2026 expose the workforce strain*, 12. Juni 2026 | https://www.cnbc.com/2026/05/18/metas-layoffs-starting-this-week-underscore-zuckerbergs-ai-reality-.html \| https://www.dqindia.com/news/meta-layoffs-2026-ai-restructuring-zuckerberg-mistakes-12038953 | übernommen |
+| 13 | B | EU AI Digital Omnibus — politische Einigung 7. Mai 2026 / Folge-Verhandlungen | https://iapp.org/news/a/ai-act-omnibus-what-just-happened-and-what-comes-next | verworfen (in Version-22.0-Berichterstattung inhaltlich abgedeckt) |
+| 14 | C | Norwegischer Staatsfonds Q1-2026-Rendite −1,9 % | https://businessportal-norwegen.com/2026/04/24/norwegischer-staatsfonds-mit-negativem-ertrag-im-ersten-quartal/ | verworfen (peripher) |
+| 15 | D | Sanders Robotersteuer-Folgeentwurf 2026 (40/60-Verteilungs­schema) | https://www.washingtonexaminer.com/policy/finance-and-economy/3844942/sanders-plans-robot-tax-legislation/ | verworfen (kein formaler Folgeentwurf) |
+| 16 | A | IAB-Kurzbericht 6/2026 (Regionalprognose) | https://doku.iab.de/kurzber/2026/kb2026-06.pdf | verworfen (in Version 14.0/15.0 bereits eingebunden) |
+| 17 | G | G-BA / gematik / BfArM Juni 2026 | https://www.g-ba.de/ | verworfen (fünftes Mal ohne KI-Treffer) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.5 | Ergänzung | Neuer Absatz „Anthropic Economic Policy Framework (10. Juni 2026)" zwischen Bloomberg-Editorial und Andrew-Yang-Block: dreistufiger US-Politikplan kalibriert an der Arbeitslosenquote (Tier 1 pre-distributive Capital Accounts; Tier 2 UI-Erweiterungen / Grundsicherung; Tier 3 Income Floor, AI-Levies, UBI-Option, AI Sovereign Wealth Fund); Förderpaket 350 Mio. USD; Amodei-Essay; mit Agenda-Setting-Kritik im Konjunktiv referiert. | 1–4 |
+| 2 | § 5.4 | Ergänzung | Neuer Satz, der die Anthropic-Tier-1- und Tier-3-Komponenten als pre-distributive Eigentumsrechts-Variante zur Ertragsbesteuerungs-Logik einordnet und an § 8.3 anknüpft. | 1 |
+| 3 | § 1.1 | Ergänzung | Erweiterung des bestehenden Challenger-/Tracker-Blocks um Mai-2026-Job-Cuts-Report (97.006 / +16 %, KI 40 %, Tech 38.242, Tech YTD 123.653, KI YTD 87.714 > Vollwert 2025); GitLab-„agentic era"-Programm 12. Mai 2026; Uber-Streichungen 3. Juni 2026; Meta-Memo 12. Juni 2026; SkillSyncer-Tracker 14. Juni 2026 (149.935 / 363, 247 / 183.966, 55 % KI-Bezug). | 5–12 |
+| 4 | § 11.3 | Ergänzung | Zwei neue Einträge: Anthropic Economic Policy Framework und Advanced AI Framework (beide 10. Juni 2026). | 1 |
+| 5 | § 11.5 | Ergänzung | Sechs neue Sammelbelege für Challenger Mai-Report, SkillSyncer/TechTimes-Tracker, GitLab, Uber, Meta-Memo und Anthropic-Framework-Berichterstattung. | 2–12 |
+| 6 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Lauf 001 vom 16. Juni 2026"; vollständige Liste der wesentlichen Neuerungen seit Version 22.0; alte ausführliche Aufzählung kondensiert. | 1–12 |
+| 7 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Versions-Eintrag in der KI-Offenlegung). | — |
+| 8 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 16. Juni 2026 — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | EU AI Digital Omnibus — politische Einigung 7. Mai 2026 | B | In Version-22.0-Berichterstattung inhaltlich abgedeckt. |
+| 2 | Norwegischer Staatsfonds Q1-2026-Rendite −1,9 % | C | Peripher; § 5.4 bleibt thematisch ausreichend abgedeckt. |
+| 3 | Sanders Robotersteuer-Folgeentwurf 2026 (40/60-Verteilungs­schema) | D | Formaler Folgeentwurf nach S. 4214 noch nicht eingebracht. |
+| 4 | IAB-Kurzbericht 6/2026 (Regionalprognose) | A/E | In Version 14.0/15.0 inhaltlich bereits eingebunden. |
+| 5 | G-BA / gematik / BfArM Juni 2026 | G | Keine KI-spezifischen Beschlüsse im 7-Tage-Fenster (fünftes Mal in Folge). |
+| 6 | Frontier-Modell-Releases / Inferenzpreise (Cluster I) | I | Keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster. |
+| 7 | Tesla Optimus / Figure / 1X Stückzahlen (Cluster J) | J | Keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 16. Juni 2026 (Lauf 001 vom 16. Juni 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 001 am 16. Juni 2026 ist der erste reguläre Daily-Update-Lauf nach einem 39-Tage-Intervall ohne Recherche-Lauf (letzter Lauf: Lauf 001 vom 8. Mai 2026); entsprechend wurde der Korridor in Phase 1 für Aggregat-Bestätigungen auf 12. Mai bis 14. Juni 2026 erweitert, ohne die in `Suchthemen.md` vorgegebenen 7-Tage- bzw. 48-Stunden-Fenster für die Erstrecherche aufzuweichen.
+- Cluster D liefert mit dem *Anthropic Economic Policy Framework* den fachlich wichtigsten Treffer des Laufs — das Framework ist der zweite prominente KI-Anbieter-Vorschlag nach OpenAI April 2026 und führt mit der Tier-1-Komponente *pre-distributive capital accounts* einen Mechanismus ein, der strukturell näher am Teilhabefonds-Gedanken aus § 8.3 (Deutschland-These) liegt als an einer reinen Verbrauchsteuer-Logik. Für eine spätere Vertiefung in Kapitel 8 zu beobachten.
+- Cluster F (Tech-Layoffs / KI-Capex) bestätigt mit dem Challenger-Mai-Report einen qualitativen Wechsel: KI ist erstmals häufiger als „Markt- oder Konjunkturbedingungen" als Streichungsgrund genannt; die WARN-AI-Disclosure aus Connecticut (SB 5, ab 1. Oktober 2026 wirksam) sollte ab Q4 2026 erstmals administrative Statistiken zu KI-bezogenen Massenentlassungen liefern.
+- Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne valide Treffer im 7-Tage-Fenster; Empfehlung für die nächsten Läufe weiterhin bestehend.
+- Branch dieses Laufs: `claude/determined-einstein-glwmxv` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push neu angelegt).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Versand-Tool-Status (`mail_send` / `send_mail` / `send_message` / `outlook_send` aus `graph-mcp`; `wa_send_message` / `send_message` aus `whatsapp`-MCP) wird in Phase 5b geprüft; bei fehlender Tool-Verfügbarkeit Fallback in `daily-mail.txt` und `daily-whatsapp.txt` (beide gitignored).
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
