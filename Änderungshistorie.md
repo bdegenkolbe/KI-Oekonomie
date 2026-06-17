@@ -54,6 +54,98 @@
 
 ---
 
+## 2026-06-17 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster G — Gesundheitssektor — fünftes Mal in Folge ohne neue belegbare Treffer im erweiterten Fenster; Cluster I/J mit Frühserien-Robotik-Update aus Anfang Juni 2026).
+- Zeitfenster: gegenüber Suchthemen.md-Vorgabe (Standard 7 Tage; Cluster F/I 48 Stunden) auf den Zeitraum 8. Mai – 17. Juni 2026 erweitert, um die fünfwöchige Lücke zum letzten Lauf zu schließen (Vorgehen analog zu Lauf 003 vom 7. Mai 2026, in dem das Fenster ebenfalls erweitert wurde, um eine Aggregat-Größe nachzutragen).
+- Anzahl Suchanfragen: 12 (Web-Suche).
+- Lauf 001 ist der erste reguläre Daily-Update-Lauf am 17. Juni 2026, nach Lauf 001 vom 8. Mai 2026.
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | D | Sanders, B. *„The Public Should Own Half of the Big A.I. Companies"* (1. Juni 2026, NYT-Gastbeitrag, parallel sanders.senate.gov) | https://www.sanders.senate.gov/op-eds/the-public-should-own-half-of-the-big-a-i-companies/ | übernommen |
+| 2 | D | The Hill, *Bernie Sanders to propose bill allowing for 50% public stake in AI companies*, Juni 2026 | https://thehill.com/policy/technology/5906140-sanders-ai-ownership-wealth/ | übernommen (Sammelbeleg) |
+| 3 | D | Common Dreams, *Sanders Sovereign Wealth Fund Plan Would Give US Public 'Direct Ownership Stake' in AI Giants*, Juni 2026 | https://www.commondreams.org/news/bernies-sanders-ai-sovereign-wealth-fund | übernommen (Sammelbeleg) |
+| 4 | D | Washington Times, *Sen. Bernie Sanders teases bill to give the public ownership in AI companies*, 2. Juni 2026 | https://www.washingtontimes.com/news/2026/jun/2/sen-bernie-sanders-teases-bill-give-public-ownership-ai-companies/ | übernommen (Sammelbeleg) |
+| 5 | D | Fox Business, *Sanders unveils plan to take 50% stake in AI companies for government wealth fund*, Juni 2026 | https://www.foxbusiness.com/politics/sanders-unveils-plan-take-50-stake-ai-companies-government-wealth-fund | übernommen (Sammelbeleg) |
+| 6 | D | Reason, *Bernie Sanders' AI wealth fund bill shows that he doesn't understand AI or wealth*, 2. Juni 2026 | https://reason.com/2026/06/02/bernie-sanders-ai-wealth-fund-bill-shows-that-he-doesnt-understand-ai-or-wealth/ | übernommen (Kritik) |
+| 7 | D | AEI, *Senator Sanders' AI Report Ignores the Data on AI and Inequality*, Juni 2026 | https://www.aei.org/technology-and-innovation/senator-sanders-ai-report-ignores-the-data-on-ai-and-inequality/ | übernommen (Kritik) |
+| 8 | B | Bird & Bird / Gibson Dunn / DLA Piper / innobu — *Digital Omnibus on AI: vorläufige politische Einigung 6. Mai 2026, Bestätigung Rat 13. Mai 2026; Hochrisiko-Stichtage 2. Dezember 2027 und 2. August 2028; förmlich noch ausstehend* | https://www.twobirds.com/en/insights/2026/germany/digital-omnibus-on-ai-trilogue-stalls-ahead-of-the-ai-act-deadline \| https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/ \| https://www.innobu.com/en/articles/eu-ai-act-high-risk-deadlines-digital-omnibus-2026.html | übernommen |
+| 9 | F | Challenger, Gray & Christmas, *Challenger Report: May Job Cuts Rise 16% from April; Highest May Total Since 2020*, 5./6. Juni 2026 | https://www.challengergray.com/blog/challenger-report-may-job-cuts-rise-16-from-april-highest-may-total-since-2020/ | übernommen |
+| 10 | F | Bloomberg, *US Tech Sector Announces Most Job Cuts in Nearly Two Years*, 4. Juni 2026 | https://www.bloomberg.com/news/articles/2026-06-04/us-tech-sector-announces-most-job-cuts-in-nearly-two-years | übernommen (Sammelbeleg) |
+| 11 | F | Tech Times, *Tech Layoffs Hit 1,115 a Day in 2026: Companies Cite AI but Cuts Fail to Boost Returns*, 16. Juni 2026 | https://www.techtimes.com/articles/318466/20260616/tech-layoffs-hit-1115-day-2026-companies-cite-ai-cuts-fail-boost-returns.htm | übernommen (Sammelbeleg) |
+| 12 | F | Bloomberg, *Xbox Plans Significant Layoffs as It Transforms Under New CEO Asha Sharma*, 10. Juni 2026 | https://www.bloomberg.com/news/articles/2026-06-10/xbox-plans-significant-layoffs-as-it-transforms-under-new-ceo-asha-sharma | übernommen |
+| 13 | F | CNBC, *Uber layoffs: People division cut by nearly a quarter*, 3. Juni 2026 | https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html | übernommen (Gegenbeispiel) |
+| 14 | E/H | IAB-Kurzbericht 8/2026 — Friedrich & Kagerl, *Künstliche Intelligenz in deutschen Betrieben: Jeder vierte Betrieb nutzt mittlerweile generative KI*, Mai 2026 | https://doku.iab.de/kurzber/2026/kb2026-08.pdf \| https://iab.de/kuenstliche-intelligenz-in-deutschen-betrieben-jeder-vierte-betrieb-nutzt-mittlerweile-generative-ki/ | übernommen |
+| 15 | B/E | Bundestag/AOK/Drucksache — *GKV-Beitragssatzstabilisierungsgesetz: Erstlesung Bundestag und Erstdurchgang Bundesrat 12. Juni 2026, Anhörung 22. Juni 2026* | https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-gkv-1181958 \| https://dserver.bundestag.de/brd/2026/0256-26.pdf \| https://dip.bundestag.de/drucksache/entwurf-eines-gesetzes-zur-stabilisierung-der-beitragss%C3%A4tze-in-der-gesetzlichen/287432 \| https://www.aok.de/pp/gesetz/bstabg/ | übernommen |
+| 16 | J | Tech Times / iFactory / Wikipedia, *Tesla Optimus Gen 3 / Fremont conversion / Figure 02 BMW South Carolina / Apptronik / 1X NEO*, Anfang Juni 2026 | https://www.techtimes.com/articles/318071/20260609/tesla-turning-its-model-s-line-optimus-robot-factorygen-3-targets-2026-production-start.htm \| https://ifactoryapp.com/industries/automotive-manufacturing/tesla-optimus-fremont-gen-3-humanoid-2026 | übernommen |
+| 17 | A | Stanford HAI AI Index Report 2026 (13. April 2026) | https://hai.stanford.edu/ai-index/2026-ai-index-report | verworfen (außerhalb erweiterten Korridors; potenziell für vertieften ökonomischen Folgelauf) |
+| 18 | F | Meta-Layoffs (18. Mai 2026, rund 8.000 Stellen) | https://www.cnbc.com/2026/05/18/metas-layoffs-starting-this-week-underscore-zuckerbergs-ai-reality-.html | Dublette (Welle bereits in Version 13.0/14.0 referenziert) |
+| 19 | B | Accounting Today — *States introduce AI tax changes* (11. Juni 2026, Michigan/Indiana/Illinois) | https://www.accountingtoday.com/news/states-introduce-ai-tax-changes | verworfen (Sammelbericht ohne Primärquellen-Konkretisierung; in einem späteren Lauf bei verfügbarer Primärquelle zu prüfen) |
+| 20 | A | NBER / MIT FutureTech — *Crashing Waves vs Rising Tides*, *NBER w33509*, *Johnston & Makridis CESifo* | https://arxiv.org/pdf/2604.01363 | verworfen (außerhalb erweiterten Korridors; potenziell für vertieften Folgelauf in § 3) |
+| 21 | E | Sachverständigenrat Frühjahrsgutachten 2026 — Wiesbaden-Vorstellung 27. Juni 2026 | https://www.sachverstaendigenrat-wirtschaft.de/ | verworfen (nach Stichtag dieses Laufs; im nächsten Lauf zu prüfen) |
+| 22 | G | G-BA / gematik / BfArM (DiGA-KI Beschlüsse) | https://www.g-ba.de/ \| https://fachportal.gematik.de/zielgruppen/diga-hersteller | verworfen (fünfter Lauf in Folge ohne KI-spezifische Beschlüsse im Korridor) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.5 | Ergänzung | Neuer Block „Sanders — American AI Sovereign Wealth Fund Act (Juni 2026)" zwischen dem Sanders-Robotersteuer-/Moratorium-Block und dem Sub-föderale-Parallele-Maine-Block: einmalige Eigenkapital-Abgabe 50 % gegenüber OpenAI/Anthropic/xAI, Übertragung in einen öffentlich-rechtlichen Staatsfonds mit Bundes­stimmrechten und Verwaltungsratssitzen, Erträge über Direktzahlungen und zweckgebundene Mittel für Gesundheit/Bildung/Wohnen; Bill-Einbringung „in den kommenden Wochen" angekündigt, vor dem 17. Juni 2026 noch kein Bill-Text. | 1–7 |
+| 2 | § 4.3 | Aktualisierung | Trilog-Passage entsprechend aktualisiert: bisheriger Ausblick „nächste Runde 13. Mai 2026" durch die dokumentierte vorläufige politische Einigung am 6. Mai 2026 und die Ratsbestätigung am 13. Mai 2026 ersetzt; Hinweis auf ausstehende formale Schritte (EP-Plenarvotum, Ratsannahme, OJ-Veröffentlichung) und auf den weiterhin geltenden Stichtag 2. August 2026 bis zur Veröffentlichung ergänzt. | 8 |
+| 3 | § 1.1 | Ergänzung | Neuer Absatz nach dem bestehenden Cloudflare-/Capex-Block mit (a) der *Challenger*-Mai-Aggregat-Bestätigung (KI #1 mit 38.579 / 40 %; Tech 38.242 / YTD 123.653 / +66 %; YTD KI 87.714 > Vorjahresgesamt 54.836), (b) der IAB-Kurzbericht-8/2026-Innenperspektive (25 % der Betriebe mit generativer KI, sektorale Spitzenwerte), (c) der humanoiden-Robotik-Frühserienkonvergenz (Tesla / Figure / Apptronik / 1X), (d) der Microsoft-Xbox-„Reset"-Ankündigung vom 10. Juni 2026 und (e) der bewusst nicht KI-attribuierten Uber-People-and-Places-Streichung vom 3. Juni 2026. | 9–14, 16 |
+| 4 | § 5.2 | Aktualisierung | GKV-Reform-Block ergänzt um Bundestag-Erstlesung und Bundesrat-Erstdurchgang am 12. Juni 2026 sowie die für 22. Juni 2026 terminierte Anhörung. | 15 |
+| 5 | § 5.4 | Aktualisierung | Staatsfonds-Mechanik-Absatz ergänzt um den Sanders-AI-Sovereign-Wealth-Fund-Vorschlag als konkretes Anwendungsbeispiel der Eigentumsbeteiligungs-Variante mit Querverweis auf § 4.5. | 1 |
+| 6 | § 8.3 | Aktualisierung | Pfadvergleichs-Passage ergänzt um die Sanders-Eigentumsvariante gegenüber der OpenAI-Public-Wealth-Fund-Variante; Bezug zu Art. 14 GG (vgl. § 4.3) und unionsrechtlicher Kapitalverkehrsfreiheit (vgl. § 4.4) explizit gemacht. | 1 |
+| 7 | § 11.1 | Ergänzung | Neuer Eintrag *Friedrich & Kagerl (Mai 2026), IAB-Kurzbericht 8/2026* mit DOI und zwei URLs. | 14 |
+| 8 | § 11.3 | Ergänzung | Drei neue Einträge: *Sanders 1. Juni 2026* mit sieben URLs (Op-Ed + Sekundärquellen + Kritik); *Trilog Mai 2026* mit vier URLs; *GKV 12. Juni 2026* mit vier URLs. | 1–7, 8, 15 |
+| 9 | § 11.5 | Ergänzung | Drei neue Sammelbelege: *Challenger / Bloomberg / Yahoo Finance / Tech Times* (Mai-Report und Bewegungs­interpretation); *CNBC / Bloomberg* (Uber und Microsoft Xbox); *Tech Times / iFactory* (Tesla Optimus Gen 3, Figure 02, Apptronik, 1X). | 9–13, 16 |
+| 10 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Lauf 001 vom 17. Juni 2026 — Mitte Juni 2026" geändert; neue Inhalte (Sanders SWF, Trilog-Einigung, Challenger-Mai-Report, GKV 12. Juni, IAB-Kurzbericht 8/2026, Xbox-Reset, Uber, humanoide Robotik) im vorangestellten Absatz ergänzt; bisheriger ausführlicher Mai-Stand bleibt unverändert. | 1–16 |
+| 11 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0; Versionszeile, Zitiervorschlag und „Stand"-Angabe auf Juni 2026 aktualisiert; neuer Versionseintrag in der KI-Offenlegung mit den sechs Neuigkeiten. | — |
+| 12 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 17. Juni 2026 (Lauf 001 vom 17. Juni 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Stanford HAI AI Index Report 2026 (13. April 2026) | A | Außerhalb des erweiterten Fensters; Kernbefund (Software-Developer 22–25 J. −20 % seit 2024) bereits in Lauf 003 vom 7. Mai 2026 als „außerhalb 7-Tage-Fenster" markiert; für einen vertieften Wochenend-/Quartalslauf vorgemerkt. |
+| 2 | Meta-Layoffs (18. Mai 2026, rund 8.000 Stellen) | F | Welle bereits in Version 13.0 / 14.0 im Tracker-Block referenziert; kein neuer Befund über die in § 1.1 dokumentierte „AI labor crisis"-Lesart hinaus. |
+| 3 | Accounting Today *States introduce AI tax changes* (11. Juni 2026) | B | Sammelbericht ohne Primärquellen-Konkretisierung; in einem späteren Lauf bei verfügbarer Primärquelle (Tax Foundation / Bundesstaaten-Gesetzesblätter) gezielt zu prüfen. |
+| 4 | NBER / MIT FutureTech / CESifo (Johnston & Makridis) — *AI, Output, and Employment* etc. | A | Außerhalb des erweiterten Fensters; für vertieften ökonomischen Folgelauf in § 3 vorgemerkt. |
+| 5 | Sachverständigenrat-Frühjahrsgutachten 2026 — Wiesbaden 27. Juni 2026 | E | Nach Stichtag dieses Laufs; im nächsten Lauf zu prüfen. |
+| 6 | Generationenkapital — keine neuen Tranchen-/Renditeangaben | E/H | Keine Bewegung im erweiterten Fenster; bestehender § 8.6-Verweis bleibt aktuell. |
+| 7 | G-BA / gematik / BfArM (DiGA-KI) | G | Fünfter Lauf in Folge ohne KI-spezifische neue Beschlüsse oder Listings im Korridor. |
+| 8 | Cloudflare / Coinbase / PayPal / Freshworks / Cognizant | F | Bereits in Version 22.0 in § 1.1 aufgenommen. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 17. Juni 2026 (Lauf 001 vom 17. Juni 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 001 vom 17. Juni 2026 ist der erste reguläre Daily-Update-Lauf nach einer Unterbrechung von rund fünf Wochen (letzter Lauf 8. Mai 2026). Das Recherche-Zeitfenster wurde — wie in Lauf 003 vom 7. Mai 2026 dokumentiert — auf den gesamten Lückenzeitraum (8. Mai – 17. Juni 2026) erweitert, damit die Fünf-Wochen-Lücke nicht zu Berichtsausfällen führt; die Aufnahme der Sanders-Sovereign-Wealth-Fund-Initiative, der Trilog-Einigung und der Challenger-Mai-Aggregate wäre bei strikter 7-Tage-Auslegung unterblieben und hätte das Dokument auf einem Mai-Stand stehen lassen.
+- Cluster D (Politik-Initiativen) und Cluster F (Tech-Layoffs / KI-Capex) liefern die beiden vertieften Themen dieses Laufs (Sanders Sovereign Wealth Fund / Challenger-Mai-Report); die übrigen Cluster sind nach dem Suchthemen.md-Leitsatz „Breite vor Tiefe" mit knappen Ergänzungen abgedeckt.
+- Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne valide Treffer im Korridor; Empfehlung für die nächsten Läufe weiterhin bestehend (gezielter Abruf von g-ba.de Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-DiGA-Listings; Beobachtung der DiGAV-2.0-Folgeregulierung).
+- Cluster J (Robotik) liefert nach mehreren Läufen ohne politisch-fiskalisch relevante Tagesmeldungen erstmals eine Frühserien-Konvergenz mehrerer Programme — die fiskal- und steuerpolitische Anschlussfrage (Maschinenkapital-Anknüpfung über § 5.1, § 8.3) ist mit dieser Aktualisierung wieder im Dokument verankert.
+- Cluster I (Frontier-Modelle) im erweiterten Fenster ohne neuen politisch-fiskalisch wirksamen Befund jenseits der bereits in § 8.2 / § 8.3 dokumentierten Linie (Compute-Konzentration, Hyperscaler-Capex). Beobachtung beim nächsten Lauf fortsetzen.
+- Sachverständigenrat-Frühjahrsgutachten 2026 (Wiesbaden 27. Juni 2026) liegt nach dem Stichtag; im nächsten Lauf gezielt zu prüfen.
+- Accounting Today *States introduce AI tax changes* (Michigan/Indiana/Illinois, 11. Juni 2026) liefert einen Sammelbericht ohne Primärquellen-Konkretisierung; im nächsten Lauf bei verfügbarer Primärquelle (Tax Foundation, Bundesstaaten-Gesetzesblätter) gezielt zu prüfen — wäre als Erweiterung des in § 6.4 / § 4.5 dokumentierten US-bundesstaatlichen Strangs relevant.
+- Branch dieses Laufs: `claude/determined-einstein-ikbdwd` (Session-Branch der laufenden Session, vom System für diese Session vorgegeben). Phase-6-Cleanup: Lokaler Branch nach Merge in `main` zu löschen; Remote-Branch-Löschung wurde in Lauf 003 vom 7. Mai 2026 mit HTTP 403 abgewiesen — dasselbe Verhalten ist hier möglich; in diesem Fall bleibt der Remote-Branch ohne offene Änderungen.
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Es war in der laufenden Session weder ein E-Mail-Versand-Tool (`mail_send` / `send_mail` / `send_message` / `outlook_send` aus `graph-mcp`) noch ein WhatsApp-Versand-Tool (`wa_send_message` / `send_message` aus dem `whatsapp`-MCP) erreichbar; gemäß Phase-5b-Spezifikation wurden die vorbereiteten Inhalte als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben (Dateien stehen in `.gitignore`, werden also nicht versioniert). Der Lauf fährt gemäß Phase-5b-Regel („Versandfehler sind weich") mit Phase 6 fort.
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
