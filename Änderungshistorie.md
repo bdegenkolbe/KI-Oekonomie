@@ -129,7 +129,8 @@
 - Chinese-court-Ruling zu AI-Replacement aus Mai 2026 — vermerkt als potenzielle § 6-Ergänzung für einen späteren Lauf.
 - Sanders *American AI Sovereign Wealth Fund Act*: Senatsentwurfsnummer noch nicht final dokumentiert; im nächsten Lauf zu präzisieren.
 - Bundesratszustimmung zum KI-MIG steht zum Stichtag 18. Juni 2026 noch aus; im nächsten Lauf nachzutragen.
-- Branch dieses Laufs: `claude/determined-einstein-k6gchb` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push neu anzulegen).
+- Branch dieses Laufs: `claude/determined-einstein-k6gchb` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push am 18. Juni 2026 neu angelegt).
+- Phase-6-Status: Session-Branch erfolgreich gepusht (Commit `e4ce3de`); lokaler Merge in `main` erfolgt; der Push von `main` auf `origin/main` wurde — wie in den Vorläufen seit 6. Juni 2026 — mit HTTP 403 (Branch-Protection-Policy) abgewiesen. Der vollständige Lauf-Inhalt liegt damit auf dem Session-Branch im Remote und kann beim nächsten administrativen Zugriff in `main` übernommen werden. Lokaler Session-Branch nicht gelöscht (Cleanup übersprungen).
 - Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. In der laufenden Session sind weder `mail_send`/`send_mail`/`send_message`/`outlook_send`-Tools aus `graph-mcp` noch `wa_send_message`/`send_message`-Tools aus dem `whatsapp`-MCP erreichbar; gemäß Phase-5b-Spezifikation werden die vorbereiteten Inhalte als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben. Der Lauf fährt gemäß Phase-5b-Regel („Versandfehler sind weich") mit Phase 6 fort.
 
 ---
