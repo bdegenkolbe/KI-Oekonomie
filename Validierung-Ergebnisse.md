@@ -7,6 +7,56 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 18. Juni 2026 (Daily-Update 2026-06-18) — Version 22.0 → Version 23.0
+
+**Auslöser:** Daily-Update-Lauf am 18. Juni 2026 (Routine-Aufruf des DailyPrompt.md). Web-Recherche im Korridor der Cluster A–J am 18. Juni 2026. Fünf belegbare Treffer im 7-Tage- bzw. 48-Stunden-Fenster identifiziert und eingearbeitet: Anthropic-Doppelrahmenwerk *„Policy on the AI Exponential"* (10. Juni 2026); Andrew Yang CNBC-Squawk-Box (4. Juni 2026, 3-%-Token-Steuer-Konkretisierung); Sanders *American AI Sovereign Wealth Fund Act* (Anfang Juni 2026); Bundestagsbeschluss *KI-MIG* (11. Juni 2026); TrueUp-Tagesstand 17. Juni 2026 mit GitLab-„Agentic-Era"-Restrukturierung (3. Juni 2026).
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; fünf Robotersteuer-Typen, drei Säulen Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Neuer Anthropic-Block in § 4.5 verweist auf § 5.4 (Staatsfonds) und Kapitel 8 — beide Ziele existieren. Bundestagsbeschluss verweist auf § 9.1 — existiert. Token-Steuer-Konkretisierung verweist auf § 5.1, § 9.1, § 4.5 — alle Ziele existieren. |
+| 2.1.4 Roter Faden | OK | Ergänzungen aktualisieren bestehende Linien (Tracker-Reihe, Policy-Initiativen, deutsche Rechtslage); roter Faden Literaturrezeption → Position → Umsetzung unverändert. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; bestehende Lead-Ins-Schema („Begriff:" fett) für die drei neuen § 4.5-Blöcke eingehalten; Versionszeile (22.0 → 23.0) und Stand-Zeile (Mai → Juni 2026) im Dokumentkopf konsistent geändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Anthropic-Schwelle 10²⁵ FLOPs / 500 Mio. USD / 1 Mrd. USD, Eskalationsleiter 5 %/10 %/beispiellos, Finanzpaket 350 Mio. (200 + 150) konsistent aus Fortune, TechTimes, VentureBeat, Anthropic-PDF. Yang 3 %-Token-Steuer auf KI-Inferenz konsistent aus CNBC-Videoeintrag, AOL, 24/7 Wall St. Sanders-Entwurf (50 % in Anteilen, OpenAI/Anthropic/xAI) konsistent aus Yahoo Finance, Fox Business, Reason, Fortune. Bundestag-KI-MIG Drucksachen 21/4594/21/6407 konsistent aus bundestag.de und bundesregierung.de. TrueUp 185.894 / 267 / 1.107 und 53 % KI-zuschreibend konsistent aus TechTimes und Yahoo Finance. GitLab 14 % / ~350 Personen / 22 Länder konsistent aus TechCrunch, TheNextWeb, TheStack, HR Digest. |
+| 2.2.2 Redundanzprüfung | OK | Anthropic-Block ergänzt § 4.5 strukturell neben dem OpenAI- und Bloomberg-Editorial-Block — als zweites unternehmensseitig getragenes Policy-Doppelrahmenwerk eigenständig. Sanders-Folgeentwurf ergänzt den bestehenden Sanders-Report-Block (Oktober 2025) und das Data-Center-Moratorium (März 2026) als dritten Schritt einer chronologischen Linie. Yang-Konkretisierung wird unmittelbar vor dem alten Yang-Block (März 2026) eingefügt, um die zeitliche Folge erkennbar zu halten. Bundestag-KI-MIG ist eine bislang im Dokument nicht erwähnte deutsche Bundesgesetzgebung. |
+| 2.2.3 Argumentation | OK | Anthropic-/OpenAI-Divergenz wird neutral berichtet, ohne Wertung. Token-Steuer-Vorschlag wird als „output-/nutzungsbasierte Anknüpfung" charakterisiert und damit gegen die Wertschöpfungsabgabe (§ 5.1) und gegen Connecticut Bill 515 (§ 4.5) abgegrenzt — Acemoglu/Thuemmel/Costinot-Werning-Trennung bleibt unverändert. Drei Säulen Deutschland-These unverändert. |
+| 2.2.4 Ausgewogenheit | OK | Anthropic-Aufruf „tax us, please" wird ohne Endorsement zitiert; gegenläufige OpenAI-Linie (Altman „Jobs-Apokalypse eher unwahrscheinlich") explizit benannt. Sanders-Entwurf wird als „politisch hochproblematische Pflicht­beteiligungs-Variante" markiert und Aussicht auf Annahme als gering eingeordnet. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobenartige Prüfung der eingefügten Passagen ohne Befund. |
+| 2.3.2 Terminologie | OK | „Advanced AI Framework", „Economic Policy Framework", „Token-Steuer", „American AI Sovereign Wealth Fund Act", „KI-MIG", „agentic era" als zitierte/feststehende Begriffe in Kursivschrift bzw. Anführungszeichen; APA-konforme Quellenangaben. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Drei neue § 11.3-Einträge (Anthropic-Policy 10. Juni; Sanders-Sovereign-Fund-Act Anfang Juni; Bundestag KI-MIG 11. Juni); vier neue § 11.5-Einträge (TrueUp 17. Juni; GitLab 3. Juni; Yang CNBC 4. Juni; Sekundärberichterstattung Anthropic). Alle im Fließtext genannten Quellen sind im Literaturverzeichnis aufgeführt. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-Stil; vollständige URLs ohne Shortener; einheitliche Datumsangaben („10. Juni 2026", „4. Juni 2026"); Sammelbelege mit „/"-Trenner. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Anthropic: Primärquelle ist die anthropic.com-Landingpage und das offizielle PDF; Sekundärquellen Fortune/Gizmodo/TechTimes/VentureBeat. Yang: Primärquelle ist die CNBC-Videoseite; Sekundärquellen AOL, 24/7 Wall St., Hoodline. Sanders: Sekundärquellen Yahoo Finance, Fox Business, Fortune, Reason; Primärquelle (Senatsentwurfsnummer) wird im nächsten Lauf nachgetragen, sobald die Einbringung formal datiert ist. Bundestag: Primärquelle ist bundestag.de-Pressemitteilung und Drucksache 21/4594. TrueUp/GitLab: Primärquelle ist trueup.io-Dashboard bzw. GitLab-Earnings-Call-Statement. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe: bundestag.de/dokumente/textarchiv/2026/kw24-de-ki-1183820 (erreichbar); anthropic.com/policy-on-the-ai-exponential/epf (erreichbar, Inhalt mit Sekundärberichterstattung konsistent); cnbc.com/video/2026/06/04/andrew-yang (erreichbar); fortune.com/2026/06/11/anthropic-dario-amodei-ai-jobs-tax-displacement-fund (erreichbar, Inhalt konsistent); techcrunch.com/2026/06/03/gitlab-cuts-14 (erreichbar). |
+| 2.4.5 Zitatgenauigkeit | OK | Anthropic-Schwellenwerte (10²⁵ FLOPs, 500 Mio. USD, 1 Mrd. USD), Finanzpaket-Aufteilung (200 + 150 = 350 Mio. USD) und Eskalationsleiter (5 %/10 %/beispiellos) wörtlich aus Anthropic-Dokumenten und Fortune übernommen. Yang 3-%-Token-Steuer und Amodei-Zitat „tax us, please" wörtlich aus CNBC-Berichterstattung. Sanders 50-%-in-Anteilen-Mechanismus und Zielfirmen wörtlich aus Yahoo Finance/Fox Business. Bundestag-Mehrheit (CDU/CSU + SPD; gegen AfD/Grüne/Linke) wörtlich aus bundestag.de. TrueUp 185.894/267/1.107 und 53 %-Anteil wörtlich aus TechTimes. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Markierung *de la Feria et al. 2022* unverändert erhalten; die neuen Belege benötigen keine eigene Verifizierungsmarkierung. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionsnummer 23.0 in Dokumentkopf, Aktualitätshinweis, README.md (Versionszeile, Zitiervorschlag, KI-Offenlegung mit neuem Versionseintrag) und diesem Validierungsblock identisch; CC-BY-4.0-Hinweis und Haftungshinweis unverändert; Autor und Organisation unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Skripte vorhanden; manuelle Stichproben ersetzen den automatisierten Teil. |
+
+### Gefundene Fehler
+
+Keine.
+
+### Durchgeführte Bereinigungen
+
+Keine.
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK (Stichprobe 2.1.2/2.1.3/2.4.1/2.5).
+- Automatisierte Skripte: n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine gefunden).
+- Neue Version: 23.0.
+- PDF erstellt: Ja (Phase 5).
+- Word erstellt: Ja (Phase 5).
+
+---
+
 ## Validierung 8. Mai 2026 (Lauf 001 vom 8. Mai 2026) — Version 21.0 → Version 22.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf am 8. Mai 2026 (nach den drei Tagesaktualisierungen am 7. Mai 2026, die in den Versionen 19.0, 20.0 und 21.0 protokolliert sind). Web-Recherche im Korridor der Cluster A–J am 8. Mai 2026: Optimalsteuer-/Aufgabenforschung (Cluster A); Robotersteuer/Wertschöpfungsabgabe DE/EU (Cluster B); internationale Praxis (Cluster C); Politik-Initiativen (Cluster D); Arbeitsmarkt- und Sozialversicherungsdaten (Cluster E); Tech-Layoffs / KI-Capex 48-Stunden-Fenster (Cluster F); Gesundheitswesen (Cluster G); Deutschland-These-Bezugspunkte (Cluster H); Frontier-Modelle (Cluster I); Robotik (Cluster J). Drei belegbare Treffer im 7-Tage- bzw. 48-Stunden-Fenster identifiziert und eingearbeitet (Cloudflare-Layoff vom 7. Mai 2026; Challenger *April-2026-Job-Cuts-Report* vom 1. Mai 2026; TrueUp-Tagesfortschreibung 8. Mai 2026); alle übrigen recherchierten Themen waren in Version 21.0 bereits enthalten oder lagen außerhalb des 7-Tage- bzw. 48-Stunden-Korridors.

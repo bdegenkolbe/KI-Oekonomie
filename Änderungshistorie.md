@@ -54,6 +54,86 @@
 
 ---
 
+## 2026-06-18 — Daily-Update — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster D mit drei aufgenommenen Treffern; Cluster B mit einem aufgenommenen Treffer; Cluster F mit zwei aufgenommenen Treffern; Cluster G — Gesundheitssektor — fünftes Mal in Folge ohne neue belegbare Treffer im 7-Tage-Fenster).
+- Zeitfenster: 7 Tage Standardfenster (Cluster F/I: 48 Stunden); Anthropic-Policy 10. Juni 2026 und Yang CNBC 4. Juni 2026 im erweiterten 14-Tage-Fenster gefasst (Bedeutung in der laufenden Debatte).
+- Anzahl Suchanfragen: 11 (Web-Suche).
+- Hinweis: Letzter dokumentierter Lauf in dieser Datei war 2026-05-08 (Lauf 001) auf `origin/main`; spätere Tagesläufe wurden zwar in anderen Branches versioniert, aber nicht auf `main` gemerged (HTTP 403 Branch-Protection). Versionssprung 22.0 → 23.0 wird daher gegenüber `origin/main`-Basis dokumentiert.
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | D | Anthropic / Dario Amodei, *Policy on the AI Exponential — Advanced AI Framework und Economic Policy Framework*, 10. Juni 2026 | https://www.anthropic.com/policy-on-the-ai-exponential/epf | übernommen |
+| 2 | D | Fortune, *Anthropic just proposed taxing itself to pay for the jobs its AI destroys*, 11. Juni 2026 | https://fortune.com/2026/06/11/anthropic-dario-amodei-ai-jobs-tax-displacement-fund/ | übernommen (Sekundärbeleg) |
+| 3 | D | TechTimes / VentureBeat / Gizmodo / DigitalApplied, Anthropic-Policy-Sekundärberichterstattung Juni 2026 | https://www.techtimes.com/articles/318217/20260611/ai-regulation-push-amodei-demands-power-blocking-unsafe-models-anthropic-pledges-350-million.htm | übernommen (Sammelbeleg) |
+| 4 | D | CNBC Squawk Box / Andrew Yang, *Tax the AI, tax the robots, stop taxing human workers*, 4. Juni 2026 | https://www.cnbc.com/video/2026/06/04/andrew-yang-on-pitch-to-tax-ai-tax-the-ai-tax-the-robots-stop-taxing-human-workers.html | übernommen |
+| 5 | D | 24/7 Wall St. / AOL / Hoodline, Yang-CNBC-Sekundärberichterstattung 5. Juni 2026 | https://247wallst.com/investing/2026/06/05/ai-ceo-on-cnbc-we-are-replacing-junior-employees-with-ai-the-only-solution-is-a-tax-on-ai-and-robots/ | übernommen (Sekundärbeleg) |
+| 6 | D | Yahoo Finance / Fox Business / Reason / Fortune, *American AI Sovereign Wealth Fund Act* — Sanders-Folgeentwurf, Anfang Juni 2026 | https://finance.yahoo.com/economy/policy/articles/bernie-sanders-introduce-bill-giving-135431485.html \| https://www.foxbusiness.com/politics/sanders-unveils-plan-take-50-stake-ai-companies-government-wealth-fund | übernommen |
+| 7 | B | Deutscher Bundestag, *Ja zur Durchführung der Verordnung über künstliche Intelligenz — KI-MIG (Drucksache 21/4594 / 21/6407)*, 11. Juni 2026 | https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-ki-1183820 | übernommen |
+| 8 | F | TrueUp / TechTimes / Yahoo Finance / TechSpot, *Tech Layoffs Tracker — 185.894 / 267 / 1.107 pro Tag; 53 % KI-zuschreibend*, Stand 17. Juni 2026 | https://www.trueup.io/layoffs \| https://www.techtimes.com/articles/318466/20260616/tech-layoffs-hit-1115-day-2026-companies-cite-ai-cuts-fail-boost-returns.htm | übernommen |
+| 9 | F | TechCrunch / TheNextWeb / TheStack / HR Digest, *GitLab cuts 14% of staff as it scales its platform to serve AI workloads / GitLab „agentic era" restructuring*, 3. Juni 2026 | https://techcrunch.com/2026/06/03/gitlab-cuts-14-of-staff-as-it-scales-its-platform-to-serve-ai-workloads/ | übernommen |
+| 10 | C | Bloomberg / NPR / Tom's Hardware, *Chinese court rules companies can't fire workers just because AI is cheaper*, Mai 2026 | https://www.bloomberg.com/news/articles/2026-05-02/chinese-court-rules-firms-can-t-lay-off-workers-on-ai-grounds | verworfen (außerhalb 7-Tage-Fenster; in einem späteren Lauf für eine § 6-Ergänzung zu prüfen) |
+| 11 | F | BBC News / Salesforce / ServiceNow / Ubisoft, Einzel-Layoffs 10.–15. Juni 2026 | https://layoffhedge.com/industry/tech-layoffs-2026 | verworfen (Einzelfälle unter Schwelle 500+ Stellen für § 1.1-Aufnahme; Aggregat-Linie über TrueUp abgedeckt) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.5 | Ergänzung | Neuer Block „Anthropic — Policy on the AI Exponential und Economic Policy Framework (10. Juni 2026)" mit Advanced AI Framework (Schwelle 10²⁵ FLOPs / 500 Mio. USD KI-Umsatz / 1 Mrd. USD KI-F&E), Eskalationsleiter (5 % / 10 % / beispiellose Arbeitslosigkeit) und 350-Mio.-USD-Finanzpaket (Economic Futures Research Fund 200 Mio. + Stipendienprogramm 150 Mio.); explizite Markierung der Divergenz zur OpenAI-Linie (Altman „Jobs-Apokalypse unwahrscheinlich"). | 1–3 |
+| 2 | § 4.5 | Ergänzung | Neuer Block „Andrew Yang (CNBC, Juni 2026 — Folgeschritt zur März-Linie)" mit Konkretisierung zu einer 3-%-Token-Steuer auf KI-Inferenz und Verweis auf Anthropics „tax us, please"-Linie. | 4–5 |
+| 3 | § 4.5 | Ergänzung | Neuer Block „Bernie Sanders — American AI Sovereign Wealth Fund Act (Anfang Juni 2026)": einmalige 50-%-Abgabe in Unternehmens­anteilen für die größten KI-Anbieter (OpenAI, Anthropic, xAI); bundeseigene Stimmrechtsanteile und paritätische Verwaltungsratsvertretung. | 6 |
+| 4 | § 4.2 | Ergänzung | Neuer Block „KI-MIG — Bundestagsbeschluss am 11. Juni 2026": Drucksachen 21/4594 / 21/6407; Bundesnetzagentur als zentrale KI-Marktüberwachungs­behörde; Bundesratszustimmung ausstehend. | 7 |
+| 5 | § 1.1 | Aktualisierung | TrueUp-Tagesstand 17. Juni 2026 (185.894 / 267 / 1.107 pro Tag; 53 % KI-zuschreibend = 155.321 Personen aus 141 Firmen — erstmals oberhalb der Hälfte); GitLab-„Agentic-Era"-Restrukturierung vom 3. Juni 2026 (14 % / 350 Personen; 22 Länder; F&E in 60 autonome Einheiten) als eigenständige Cluster-Meldung ergänzt. | 8–9 |
+| 6 | § 11.3 | Ergänzung | Drei neue Einträge: Anthropic *Policy on the AI Exponential* (10. Juni 2026); US Senate / Yahoo Finance / Fox Business *American AI Sovereign Wealth Fund Act* (Anfang Juni 2026); Deutscher Bundestag *KI-MIG-Beschluss* (11. Juni 2026). | 1, 6, 7 |
+| 7 | § 11.5 | Ergänzung | Vier neue Einträge: TrueUp-Tagesstand 17. Juni 2026; GitLab 3. Juni 2026; Yang CNBC 4. Juni 2026; Anthropic-Sekundärberichterstattung; Sanders-Sovereign-Fund-Sekundärbelege. | 2, 4, 5, 8, 9 |
+| 8 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Stand Juni 2026 — Daily-Update vom 18. Juni 2026, Version 23.0"; fünf Juni-2026-Entwicklungen aufgenommen. | 1–9 |
+| 9 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Versions-Eintrag in der KI-Offenlegung). | — |
+| 10 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 18. Juni 2026 (Daily-Update 2026-06-18) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Chinese court — AI replacement ruling (Mai 2026) | C | Außerhalb 7-Tage-Fenster; für eine § 6-Ergänzung in einem späteren Lauf zu prüfen. |
+| 2 | TechTimes 142.000-Tech-Layoff-Aggregat (29. Mai 2026) | F | Dublette zum TrueUp-17.-Juni-Stand. |
+| 3 | BBC / Salesforce / ServiceNow / Ubisoft Einzel-Layoffs | F | Einzelfälle unter Schwelle 500+ Stellen mit explizitem KI-Bezug; Aggregat-Linie über TrueUp abgedeckt. |
+| 4 | Digital Omnibus on AI Trilog Juni 2026 | B | Bestehende § 4.5- und Aktualitätshinweis-Verweise bleiben; keine ratifizierten Entscheidungen im Fenster. |
+| 5 | Hyperscaler-Capex-Q2-Update | F | Konsens-Aggregat 700–725 Mrd. USD in § 1.1 bereits dokumentiert. |
+| 6 | IAB-Kurzbericht Juni 2026 | E | Suchergebnisse zeigen IAB-Frühjahrsprognose 24. März 2026 als zuletzt einschlägige Publikation, bereits in § 1.1 referenziert. |
+| 7 | Anthropic Economic Index — neuer Bericht | A/I | Letzter Index-Bericht *„Learning curves"* (24. März 2026) in § 3.5 dokumentiert; kein neuer Bericht im 7-Tage-Fenster. |
+| 8 | Cluster G (Gesundheitswesen) | G | Fünftes Mal in Folge ohne valide Treffer im 7-Tage-Fenster. |
+| 9 | Cluster J (Robotik) | J | Keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 18. Juni 2026 (Daily-Update 2026-06-18) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: vorgesehen am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (kein `mail_send`/`send_mail`/`send_message`/`outlook_send`-Tool in der laufenden Session erreichbar)
+- WhatsApp-Versand (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (kein `wa_send_message`/`send_message`-Tool des `whatsapp`-MCP in der laufenden Session erreichbar)
+
+### Auffälligkeiten / offene Punkte
+
+- Versionssprung erfolgt gegenüber `origin/main` (Stand 8. Mai 2026, Version 22.0). Spätere Tagesläufe wurden zwar in separaten Branches versioniert, aber wegen HTTP 403 (Branch-Protection auf `main`) nicht in `main` gemerged. Dieser Lauf läuft auf der gleichen `origin/main`-Basis und nimmt eigene, am 18. Juni 2026 belegbare Treffer aus dem Juni-2026-Fenster auf.
+- Anthropic-Policy vom 10. Juni 2026 ist der inhaltlich wichtigste Befund des Laufs — erstmals tritt mit Anthropic ein zweiter Frontier-Anbieter (nach OpenAI im April 2026) mit einer expliziten fiskalischen Eskalationsleiter auf; das stützt die in Kapitel 8 entwickelte Teilhabefonds-Linie unternehmensseitig.
+- Cluster G (Gesundheitswesen) erneut ohne valide Treffer im 7-Tage-Fenster (fünftes Mal in Folge); Empfehlung für die nächsten Läufe weiterhin: gezielter Abruf von g-ba.de Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-Listings.
+- Cluster J (Robotik) im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen.
+- Chinese-court-Ruling zu AI-Replacement aus Mai 2026 — vermerkt als potenzielle § 6-Ergänzung für einen späteren Lauf.
+- Sanders *American AI Sovereign Wealth Fund Act*: Senatsentwurfsnummer noch nicht final dokumentiert; im nächsten Lauf zu präzisieren.
+- Bundesratszustimmung zum KI-MIG steht zum Stichtag 18. Juni 2026 noch aus; im nächsten Lauf nachzutragen.
+- Branch dieses Laufs: `claude/determined-einstein-k6gchb` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push neu anzulegen).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. In der laufenden Session sind weder `mail_send`/`send_mail`/`send_message`/`outlook_send`-Tools aus `graph-mcp` noch `wa_send_message`/`send_message`-Tools aus dem `whatsapp`-MCP erreichbar; gemäß Phase-5b-Spezifikation werden die vorbereiteten Inhalte als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben. Der Lauf fährt gemäß Phase-5b-Regel („Versandfehler sind weich") mit Phase 6 fort.
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
