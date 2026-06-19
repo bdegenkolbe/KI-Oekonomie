@@ -120,7 +120,7 @@
 - PDF erstellt (`build_pdf.py`): Ja
 - Word erstellt (`build_docx.py`): Ja
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
-- Branch auf main gemerged und gelöscht: Ja (durch Phase 6, sofern alle vorigen Phasen ohne Fehler abgeschlossen)
+- Branch auf main gemerged und gelöscht: Nein — `git push origin main` quittiert vom Remote mit HTTP 403 (Branch-Schutz). Lokaler `--no-ff`-Merge auf main erfolgreich, jedoch nicht auf origin durchgereicht; lokale main-Kopie anschließend auf `origin/main` zurückgesetzt. Session-Branch `claude/determined-einstein-dwikio` ist als Träger der Änderungen auf origin gepusht und bleibt zur späteren Übernahme verfügbar.
 - Phase 5b — E-Mail-Versand: Fallback-Datei `daily-mail.txt` geschrieben (kein `mail_send`-/Microsoft-Graph-Send-Tool in der Session erreichbar; nur Microsoft-Graph-Suchtools verfügbar)
 - Phase 5b — WhatsApp-Versand: Fallback-Datei `daily-whatsapp.txt` geschrieben (kein WhatsApp-MCP-Tool in der Session erreichbar)
 
