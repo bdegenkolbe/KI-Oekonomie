@@ -124,9 +124,10 @@
 - PDF erstellt (`build_pdf.py`): Ja
 - Word erstellt (`build_docx.py`): Ja
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
-- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
-- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
-- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- Branch auf main gemerged: Lokal Ja (`git merge --no-ff` erfolgreich, Merge-Commit auf lokalem `main`); Push auf `origin main` wurde mit HTTP 403 abgewiesen (Branch-Schutz / Hosting-Policy, identisch zum Cleanup-Verhalten aus Lauf 003 vom 7. Mai 2026). Der vollständige Inhalt des Laufs liegt im Push der Session-Branch `claude/determined-einstein-ruvfgl` (Commit `976cdd1`); eine administrative oder PR-basierte Übernahme nach `origin/main` ist erforderlich.
+- Branch-Cleanup: Lokaler und Remote-Session-Branch nicht gelöscht (Remote-`main` enthält die Änderungen noch nicht; bis zur administrativen Übernahme bleibt der Session-Branch die einzige Remote-Quelle des Laufs).
+- E-Mail-Versand (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (kein `mail_send`/`send_mail`/`send_message`/`outlook_send`-Tool des `graph-mcp` in der laufenden Session erreichbar; nur Read-Tools des Microsoft-365-MCP wie `outlook_email_search`, `outlook_calendar_search` und `read_resource` sind verfügbar).
+- WhatsApp-Versand (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (kein `wa_send_message`/`send_message`-Tool eines `whatsapp`-MCP in der laufenden Session erreichbar).
 
 ### Auffälligkeiten / offene Punkte
 
