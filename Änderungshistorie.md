@@ -54,6 +54,94 @@
 
 ---
 
+## 2026-06-21 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster G — Gesundheitssektor — fünftes Mal in Folge ohne valide Treffer im Lauf-Fenster; Cluster I/J im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen; Cluster D mit drei aufgenommenen Treffern; Cluster B mit einem aufgenommenen Treffer; Cluster F mit einem aufgenommenen Treffer).
+- Zeitfenster: 7 Tage Standard; wegen des sechswöchigen Abstands zum letzten Lauf (8. Mai 2026) wurden die Cluster A–E und G–J auf das erweiterte Fenster seit dem 8. Mai 2026 ausgedehnt; das 48-Stunden-Fenster der Cluster F und I wurde beibehalten.
+- Anzahl Suchanfragen: 11 (Web-Suche), 1 (WebFetch — Anthropic-Seite, ergab den Vorgänger-Bericht vom Oktober 2025 und bestätigte die Existenz des Juni-2026-EPF).
+- Lauf 001 ist der erste reguläre Daily-Update-Lauf am 21. Juni 2026 nach Lauf 001 vom 8. Mai 2026 (Versions-Schnitt 22.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | D | Anthropic, *Economic Policy Framework — Policy on the AI Exponential*, 10. Juni 2026 | https://www.anthropic.com/policy-on-the-ai-exponential/epf \| https://www-cdn.anthropic.com/files/4zrzovbb/website/9ea607a5dd67c168093829b701f3a0a6d21156d5.pdf | übernommen |
+| 2 | D | Amodei, D., *Policy on the AI Exponential*, 10. Juni 2026 | https://darioamodei.com/post/policy-on-the-ai-exponential | übernommen (Sammelbeleg) |
+| 3 | D | Fortune, *Anthropic just proposed taxing itself to pay for the jobs its AI destroys*, 11. Juni 2026 | https://fortune.com/2026/06/11/anthropic-dario-amodei-ai-jobs-tax-displacement-fund/ | übernommen (Sammelbeleg) |
+| 4 | D | Washington Times / ABC News, *Anthropic pledges $200 million to research AI's economic impact as CEO suggests job loss solutions*, 10. Juni 2026 | https://www.washingtontimes.com/news/2026/jun/10/ceo-suggests-job-loss-solutions-anthropic-pledges-200-million/ \| https://abcnews.com/Politics/wireStory/anthropic-pledges-200-million-research-ais-economic-impact-133763972 | übernommen (Sammelbeleg) |
+| 5 | D | Bloomberg Tax, *Anthropic CEO Floats Tax on AI Firms to Fund Universal Income*, Juni 2026 | https://news.bloombergtax.com/daily-tax-report-international/anthropic-ceo-floats-tax-on-ai-firms-to-fund-universal-income | übernommen (Sammelbeleg) |
+| 6 | D | US Senate / sanders.senate.gov, *American AI Sovereign Wealth Fund Act* (Bernie Sanders), 18. Juni 2026 | https://www.sanders.senate.gov/press-releases/news-sanders-introduces-legislation-to-create-7-trillion-ai-sovereign-wealth-fund/ | übernommen |
+| 7 | D | Sanders, B., Op-ed *The Public Should Own Half of the Big A.I. Companies*, Juni 2026 | https://www.sanders.senate.gov/op-eds/the-public-should-own-half-of-the-big-a-i-companies/ | übernommen (Sammelbeleg) |
+| 8 | D | Fortune / The Hill / Roll Call / Fox Business / Interesting Engineering / NPR / Reason, Sammelberichterstattung Sanders AI SWF Act, Juni 2026 | https://fortune.com/2026/06/03/bernie-sanders-ai-ownership-sovereign-wealth-fund-electrification/ \| https://thehill.com/policy/technology/5906140-sanders-ai-ownership-wealth/ \| https://rollcall.com/2026/06/18/sovereign-wealth-fund-tax-on-ai-companies-unveiled-by-sanders/ | übernommen (Sammelbeleg) |
+| 9 | D | Warren, E., *Why We Need to Tax AI*, Time, 27. Mai 2026 | https://time.com/article/2026/05/27/why-we-need-to-tax-ai/ \| https://www.warren.senate.gov/newsroom/press-releases/warren-for-time-tax-ai-and-invest-in-people | übernommen |
+| 10 | D | Axios / The Hill / TechSpot / TechTimes / Crypto Briefing / TheStreet, Sammelberichterstattung Warren AI Tax, 27. Mai 2026 ff. | https://www.axios.com/2026/05/27/elizabeth-warren-tax-ai-companies-benefit-americans \| https://thehill.com/homenews/senate/5898081-warren-proposes-ai-tax/ \| https://www.techspot.com/news/112549-elizabeth-warren-wants-tax-ai-data-centers-power.html | übernommen (Sammelbeleg) |
+| 11 | B | Rat der EU, *Artificial Intelligence: Council and Parliament agree to simplify and streamline rules*, 7. Mai 2026 | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ | übernommen |
+| 12 | B | Gibson Dunn / DLA Piper / White & Case / Covington / Hogan Lovells / Mishcon / Verifywise, Kanzleianalysen Digital Omnibus on AI, Mai/Juni 2026 | https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/ \| https://www.whitecase.com/insight-alert/eu-agrees-digital-omnibus-deal-simplify-ai-rules \| https://www.globalpolicywatch.com/2026/06/eu-ai-act-update-timeline-relief-targeted-simplification-and-new-prohibitions-2/ | übernommen (Sammelbeleg) |
+| 13 | F | TechCrunch, *GitLab cuts 14% of staff as it scales its platform to serve AI workloads*, 3. Juni 2026; GitLab Blog *GitLab Act 2*; The Register / American Bazaar / The Next Web Mai/Juni 2026 | https://techcrunch.com/2026/06/03/gitlab-cuts-14-of-staff-as-it-scales-its-platform-to-serve-ai-workloads/ \| https://about.gitlab.com/blog/gitlab-act-2/ \| https://www.theregister.com/devops/2026/05/12/gitlab-promises-a-different-kind-of-layoff-as-biz-pivots-toward-ai/5238422 \| https://americanbazaaronline.com/2026/05/12/gitlab-announces-layoffs-amid-major-ai-overhaul-480613/ \| https://thenextweb.com/news/gitlab-layoffs-agentic-era-devops-ai | übernommen |
+| 14 | F | NowBen / HRKatha, *ServiceNow Lays Off Hundreds of Employees in Restructuring Effort / ServiceNow cuts hundreds of jobs as company cites AI efficiencies*, Juni 2026 | https://nowben.com/exclusive-servicenow-lays-off-hundreds-of-employees-in-restructuring-effort/ \| https://www.hrkatha.com/news/servicenow-cuts-hundreds-of-jobs-as-company-cites-ai-efficiencies/ | übernommen (Sammelbeleg) |
+| 15 | E | IAB Forschungsbericht 23/2025 / IAB-Forum *„Es geht nicht darum, was KI uns wegnehmen könnte"* | https://iab.de/en/topics/special-topics/the-labour-market-and-artificial-intelligence/publications-on-the-topic-the-labour-market-and-artificial-intelligence/ | verworfen (außerhalb des Lauf-Fensters; bereits in Version 22.0 zitiert) |
+| 16 | C | Kang/Lee/Quach (SSRN 5005128), *Welfare Effects of a Robot Tax — Korea*; ITIF (9. Februar 2026) | https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5005128 \| https://itif.org/publications/2026/02/09/industries-impacted-by-quasi-robot-tax-south-korea-reduced-industrial-robot-installations/ | verworfen (außerhalb erweiterten 7-Tage-Korridors; nächster Vertiefungslauf zu prüfen) |
+| 17 | E/B | Bundesrat Plenum 12. Juni 2026 / Bundestag 26. Juni 2026 — GKV-Beitragssatzstabilisierungsgesetz | https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-gkv-1181958 \| https://www.bundesgesundheitsministerium.de/service/gesetze-und-verordnungen/detail/gkv-beitragssatzstabilisierungsgesetz | verworfen (Schlussabstimmung 26. Juni 2026 liegt nach dem Lauf-Stichtag; im nächsten Lauf nachzutragen) |
+| 18 | J | Figure 02 / Tesla Optimus / Boston Dynamics Atlas / Unitree — Humanoide Robotik Mai/Juni 2026 | https://www.vaasblock.com/news/humanoid-robotics-figure-tesla-optimus-commercial-reality-2026/ | verworfen (keine politisch-fiskalisch relevante Tagesmeldung im 48-Stunden-Fenster) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.5 | Ergänzung | Neuer Absatz „Anthropic — *Economic Policy Framework* (10. Juni 2026)" zwischen Sanders-SWF-Act-Block und Andrew-Yang-Block: drei an US-Arbeitslosenquote-Schwellen (≈ 5 %, ≈ 10 %, jenseits historischer Höchstwerte) orientierte Politikstufen mit universal capital accounts, automatischer UI-Verlängerung, gemeinsamem Einkommensboden, KI-Nutzungsabgaben und AI Sovereign Wealth Fund; drei Fundamente; 350-Mio.-USD-Selbstverpflichtung; Einordnung als institutionelle Stütze für § 8.3 (Teilhabefonds). | 1–5 |
+| 2 | § 4.5 | Ergänzung | Neuer Absatz „Sanders — *American AI Sovereign Wealth Fund Act* (18. Juni 2026)" zwischen Warren-Block und Anthropic-Block: einmalige 50-%-Aktiensteuer auf KI-Unternehmen ≥ 200 Mio. USD Bruttoeinnahmen; Independent Commission for Democratic AI; ~ 7 Bio. USD Fondsvolumen; ~ 1.000 USD jährliche Dividende; Einordnung als Hybrid-Konstruktion zwischen Eigentumsabgabe und Vermögensteuer-Schließung. | 6–8 |
+| 3 | § 4.5 | Ergänzung | Neuer Absatz „Warren-Op-ed in Time (27. Mai 2026)" zwischen Bloomberg-Editorial-Block und Sanders-SWF-Act-Block: Verbrauchsteuer auf Rechenzentrums-Stromverbrauch mit Größenstaffelung, Vermögensteuer auf KI-Milliardäre, höhere Körperschaft- und Kapitalertragsteuer; Aufkommen für Gesundheits-, Bildungs- und UI-Ausweitung; Einordnung als Pigou-Verschiebung der Anknüpfungslogik auf den Energie-Input. | 9–10 |
+| 4 | § 4.4 | Ergänzung | Neuer Absatz „Digital Omnibus on AI — Provisorische Einigung 7. Mai 2026" am Ende von § 4.4 vor § 4.5: Verschiebung der Anhang-III-Hochrisiko-Pflichten vom 2. August 2026 auf den 2. Dezember 2027 und der Anhang-I-Pflichten vom 2. August 2027 auf den 2. August 2028; KMU-/SMC-Definitionen; Artikel-5-Prohibition (nicht-einvernehmliche realistische sexuelle Darstellungen) ab 2. Dezember 2026; Einordnung als Vergrößerung des relativen Spielraums für unilaterale Mitgliedstaaten-Anknüpfungen. | 11–12 |
+| 5 | § 1.1 | Ergänzung | Brücke in den Layoff-Block zwischen Cloudflare-Cluster und Goldman-Sachs-Passage: GitLab kündigt am 3. Juni 2026 die Streichung von rund 350 Stellen (14 %) bei Rückzug aus 22 Ländern und R&D-Reorganisation in rund 60 Teams an („GitLab Act 2"-Blog); ServiceNow streicht ab 12. Juni 2026 mehrere hundert Stellen in Solution Consulting, Sales, Product Marketing und L&D mit „KI-Effizienzen"-Begründung; Verlängerung der Linie Cloudflare → Coinbase → PayPal → Freshworks → Cognizant → GitLab → ServiceNow. | 13–14 |
+| 6 | § 11.3 | Ergänzung | Sieben neue institutionelle Einträge: Anthropic-Webseite und Anthropic-PDF (10. Juni 2026), darioamodei.com-Essay (10. Juni 2026), US Senate Pressemitteilung (18. Juni 2026), Sanders-Op-ed (Juni 2026), Time-Op-ed (27. Mai 2026), Rat der EU (7. Mai 2026), Kanzlei- und Praxisanalysen-Cluster. | 1, 2, 6, 7, 9, 11, 12 |
+| 7 | § 11.5 | Ergänzung | Fünf neue Sammelbelege in § 11.5: Fortune / Bloomberg Tax / Washington Times / ABC News / Gizmodo (Anthropic EPF, 10./11. Juni 2026); Fortune / The Hill / Roll Call / Fox Business / Interesting Engineering / NPR / Reason (Sanders SWF Act, Juni 2026); Axios / The Hill / TechSpot / TechTimes / Crypto Briefing / TheStreet (Warren, 27. Mai 2026 ff.); TechCrunch / American Bazaar / The Register / The Next Web / GitLab Blog (GitLab, Mai/Juni 2026); NowBen / HRKatha (ServiceNow, Juni 2026). | 3, 4, 5, 8, 10, 13, 14 |
+| 8 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Mitte Juni 2026 (Schnitt am 21. Juni 2026 — Lauf 001 vom 21. Juni 2026)" geändert; Anthropic EPF, Sanders SWF Act, Warren-Op-ed, Digital-Omnibus-Einigung und GitLab/ServiceNow in den Auflistungstext aufgenommen; Verweis auf den vorherigen Schnitt 8. Mai 2026 erhalten. | 1–14 |
+| 9 | Dokumentkopf | Aktualisierung | Stand: Juni 2026; Version: 23.0. | — |
+| 10 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Versionseintrag in der KI-Offenlegung mit den fünf eingearbeiteten Neuigkeiten). | — |
+| 11 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 21. Juni 2026 (Lauf 001 vom 21. Juni 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | IAB Forschungsbericht 23/2025 / IAB-Forum | A/E | In Version 22.0 bereits referenziert; keine neuen Kurzberichte im erweiterten 7-Tage-Fenster. |
+| 2 | Kang/Lee/Quach (SSRN 5005128); ITIF Quasi-Robot Tax (9. Februar 2026) | C | Außerhalb des erweiterten 7-Tage-Korridors; potenziell für Wochenend-/Vertiefungslauf zu prüfen. |
+| 3 | GKV-Beitragssatzstabilisierungsgesetz — Bundesrats-Erstdurchgang 12. Juni 2026 / Bundestags-Schlussabstimmung 26. Juni 2026 | B/E | Schlussabstimmung 26. Juni 2026 liegt nach dem Lauf-Stichtag; bestehender § 5.2-Block bleibt korrekt; im nächsten Lauf nachzutragen. |
+| 4 | Anthropic Economic Index — kein neuer Folgebericht 8. Mai – 21. Juni 2026 | A/I | Letzte Veröffentlichung *Learning curves* (März 2026) bereits in Version 18.0 ff. erfasst; bestehender § 3.5-Block bleibt aktuell. |
+| 5 | Plattform-Digitalabgabe (Weimer) — keine Bewegung über Version 10.0/11.0 hinaus | B | Eckpunktepapier weiterhin angekündigt, aber nicht vorgelegt; bestehender § 4.4-Block bleibt aktuell. |
+| 6 | Figure 02 / Tesla Optimus / Boston Dynamics Atlas / Unitree | J | Keine politisch-fiskalisch relevante Tagesmeldung im 48-Stunden-Fenster; Berichterstattung zu BMW-Spartanburg-Produktion ist kein neuer fiskalischer Sachverhalt. |
+| 7 | G-BA / gematik / BfArM — Cluster G | G | Fünftes Mal in Folge ohne KI-spezifische neue Beschlüsse oder DiGA-Listings im Lauf-Fenster. |
+| 8 | DeepSeek / OpenAI Frontier-Modell-Releases | I | Keine politisch-fiskalisch relevante Tagesmeldung im 48-Stunden-Fenster. |
+| 9 | Connecticut SB 5 — Lamont-Unterzeichnung | B | Lamont-Unterzeichnung weiterhin nicht öffentlich datiert; bestehender § 4.5-Block bleibt korrekt; nächster Lauf zu prüfen. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 21. Juni 2026 (Lauf 001 vom 21. Juni 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 001 ist der erste reguläre Daily-Update-Lauf nach einer sechswöchigen Pause (letzter Lauf am 8. Mai 2026, Version 22.0); die Trefferdichte ist erwartungsgemäß höher als in einem normalen Tageslauf — fünf belegbare Treffer wurden aufgenommen. Drei davon (Anthropic EPF, Sanders SWF Act, Warren-Op-ed) bilden eine stark verdichtete US-Politik­ebene im Mai/Juni 2026 und schärfen § 4.5 in seinem Kerncharakter („jüngste politische Initiativen").
+- Cluster D liefert in diesem Lauf die größte Bewegung; Anthropic positioniert sich erstmals mit einem eigenständigen Politikrahmen neben OpenAI. Die strukturelle Distanz zwischen Empfehlungs- und Zahlungsadressat (vgl. § 4.5 zu OpenAI „Policymercial") bleibt auch bei Anthropic bestehen — die 350-Mio.-USD-Selbstverpflichtung gilt Forschung und Nachwuchsförderung, nicht der eigenen Besteuerung.
+- Cluster B/E: Das GKV-Beitragssatzstabilisierungsgesetz hat im Lauf-Zeitraum den Erstdurchgang im Bundesrat (12. Juni 2026) und die zweite/dritte Bundestagslesung (Juni 2026) durchlaufen; die abschließende Bundesrats-Befassung ist auf den 26. Juni 2026 datiert und liegt nach dem Lauf-Stichtag. Beim nächsten Lauf einzuarbeiten, sobald das Gesetz Bundestag und Bundesrat passiert hat.
+- Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne valide Treffer; Empfehlung für die nächsten Läufe bestehend (gezielter Abruf von g-ba.de Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-Listings).
+- Cluster I (Frontier-Modelle) und Cluster J (Robotik) im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen; Beobachtung beim nächsten Lauf fortsetzen.
+- Connecticut SB 5: Lamont-Unterzeichnung weiterhin nicht datiert; in einem späteren Lauf nachzutragen.
+- Korea / Kang/Lee/Quach (SSRN 5005128) und Federal Reserve Bank of Atlanta WP 2026-04 bleiben als Wochenend-/Vertiefungslauf-Kandidaten markiert.
+- Branch dieses Laufs: `claude/determined-einstein-ruvfgl` (in Phase 0 als Session-Branch verifiziert).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten werden weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Der Versand-Tool-Status (`mail_send` / `send_mail` / `send_message` / `outlook_send` aus `graph-mcp`; `wa_send_message` / `send_message` aus dem `whatsapp`-MCP) wird in Phase 5b geprüft; bei fehlender Tool-Verfügbarkeit werden die vorbereiteten Inhalte gemäß Phase-5b-Spezifikation als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben (Dateien stehen in `.gitignore`, werden also nicht versioniert).
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
