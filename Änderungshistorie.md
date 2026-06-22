@@ -121,9 +121,9 @@
 - PDF erstellt (`build_pdf.py`): Ja
 - Word erstellt (`build_docx.py`): Ja
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
-- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
-- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
-- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- Branch auf main gemerged und gelöscht: Lokal gemerged (Merge-Commit auf `main`); der Push auf `origin/main` wurde vom Remote mit HTTP 403 zurückgewiesen (vier Wiederholungen mit Backoff 2 s / 4 s / 8 s / 16 s ohne Erfolg). Der Session-Branch `claude/determined-einstein-ce0o16` ist erfolgreich gepusht und enthält den vollständigen Lauf-Stand. Lokaler und Remote-Branch wurden NICHT gelöscht, weil der Merge auf das Remote nicht zustande kam.
+- E-Mail-Versand (Phase 5b): Fallback-Datei `daily-mail.txt` im Repo-Root geschrieben (kein MCP-Versandtool in der Session verfügbar; Datei steht in `.gitignore`, wird nicht versioniert).
+- WhatsApp-Versand (Phase 5b): Fallback-Datei `daily-whatsapp.txt` im Repo-Root geschrieben (kein MCP-Versandtool in der Session verfügbar; Datei steht in `.gitignore`, wird nicht versioniert).
 
 ### Auffälligkeiten / offene Punkte
 
