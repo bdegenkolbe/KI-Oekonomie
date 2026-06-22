@@ -54,6 +54,90 @@
 
 ---
 
+## 2026-06-22 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; wegen Sechs-Wochen-Lücke zum letzten Lauf vom 8. Mai 2026 wurde der Recherche-Horizont auf „seit letztem Lauf" erweitert; Cluster F mit drei aufgenommenen Treffern; Cluster D mit zwei zentralen Politik-Treffern; Cluster G — Gesundheitssektor — fünftes Mal in Folge ohne neue belegbare Treffer; Cluster I/J ohne politisch-fiskalisch relevante Tagesmeldungen im 48-Stunden-Fenster).
+- Zeitfenster: erweitert auf „seit Lauf 001 vom 8. Mai 2026" (rund sechs Wochen), Standard-7-Tage-Fenster (Cluster F: 48 Stunden) wurde wegen der Lücke pragmatisch ergänzt um Mai-/Anfang-Juni-Folgewerte etablierter Reihen (Challenger Mai-Report 5. Juni 2026; OECD Economic Outlook 3. Juni 2026); Cluster I/J unverändert im 48-Stunden-Fenster.
+- Anzahl Suchanfragen: 12 (Web-Suche).
+- Lauf 001 vom 22. Juni 2026 ist der erste reguläre Daily-Update-Lauf nach Lauf 001 vom 8. Mai 2026 (rund sechs Wochen Lücke; die Routine-Anweisung wurde mit Empfänger­parametern für Phase 5b versehen — siehe Auffälligkeiten).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | D | Senator Bernie Sanders, *News: Sanders Introduces Legislation to Create $7 Trillion AI Sovereign Wealth Fund*, 18. Juni 2026 | https://www.sanders.senate.gov/press-releases/news-sanders-introduces-legislation-to-create-7-trillion-ai-sovereign-wealth-fund/ | übernommen |
+| 2 | D | Senator Bernie Sanders, *American AI Sovereign Wealth Fund Act — Summary*, 18. Juni 2026 | https://www.sanders.senate.gov/wp-content/uploads/AmericanAISovereignWealthFundActSummary.pdf | übernommen (Primärquelle) |
+| 3 | D | NPR, *Sen. Sanders wants Americans to have a say — and stake — in the future of AI*, 18. Juni 2026 | https://www.npr.org/2026/06/18/nx-s1-5861862/sen-sanders-wants-americans-to-have-a-say-and-stake-in-the-future-of-ai | übernommen (Sammelbeleg) |
+| 4 | D | Roll Call, *Sovereign wealth fund tax on AI companies unveiled by Sanders*, 18. Juni 2026 | https://rollcall.com/2026/06/18/sovereign-wealth-fund-tax-on-ai-companies-unveiled-by-sanders/ | übernommen (Sammelbeleg) |
+| 5 | D | The Hill / Fox Business / Reason / RedState / Interesting Engineering, *Sanders-Bill Sekundärberichterstattung*, 18.–20. Juni 2026 | https://thehill.com/policy/technology/5930035-sanders-ai-wealth-fund/ \| https://www.foxbusiness.com/politics/sanders-unveils-plan-take-50-stake-ai-companies-government-wealth-fund \| https://reason.com/2026/06/19/bernie-sanders-proposes-ai-tax-to-give-everyone-1000-a-month-his-bill-would-do-a-lot-more-than-that/ \| https://redstate.com/wardclark/2026/06/20/feel-the-bern-fail-sanders-bill-would-seize-50-percent-of-ai-stock-n2203547 | übernommen (Sammelbeleg) |
+| 6 | D / H | Anthropic, *Economic Policy Framework: AI, Jobs, and the US Economy*, Juni 2026 | https://www-cdn.anthropic.com/files/4zrzovbb/website/9ea607a5dd67c168093829b701f3a0a6d21156d5.pdf \| https://www.anthropic.com/policy-on-the-ai-exponential/epf | übernommen (Primärquelle) |
+| 7 | F | Challenger, Gray & Christmas, *Challenger Report: May Job Cuts Rise 16 % from April; Highest May Total Since 2020*, 5. Juni 2026 | https://www.challengergray.com/blog/challenger-report-may-job-cuts-rise-16-from-april-highest-may-total-since-2020/ \| https://www.challengergray.com/wp-content/uploads/2026/06/Challenger-Report-May-2026.pdf | übernommen |
+| 8 | F | Yahoo Finance / Programs.com / TrueUp, *2026 Tech Layoffs Near 150,000 as Companies Pour Money Into AI / List of Companies Announcing AI-Driven Layoffs / Tracker Stand Juni 2026 (rund 153.608 / 399 / 909 pro Tag)* | https://finance.yahoo.com/sectors/technology/articles/2026-tech-layoffs-near-150-110000224.html \| https://www.trueup.io/layoffs \| https://programs.com/resources/ai-layoffs/ | übernommen |
+| 9 | F | Salesforce Ben / KORE1, *ServiceNow Lays Off Hundreds of Staff and Hails „Real AI Efficiencies"*, Juni 2026 | https://www.salesforceben.com/servicenow-lays-off-hundreds-of-staff-and-hails-real-ai-efficiencies-within-business/ \| https://www.kore1.com/servicenow-layoffs-2026/ | übernommen |
+| 10 | A / E | OECD / Fortune, *OECD Economic Outlook Juni 2026 — keine Anzeichen breiter KI-induzierter Verdrängung auf Branchen­ebene*, 3. Juni 2026 | https://fortune.com/2026/06/03/oecd-economic-outlook-scarring-effects-recession-ai-labour-displacement/ | übernommen (analytische Gegenstimme) |
+| 11 | C | NPR / Caixin / Bloomberg / China.org.cn / Friends of Socialist China, *Chinese Courts Rule Companies Cannot Fire Workers Simply to Replace Them With AI*, April–Juni 2026 (Folgeberichterstattung 4. Juni 2026) | https://socialistchina.org/2026/06/04/chinas-courts-draw-a-line-in-the-sand-ai-cannot-be-an-excuse-to-fire-workers/ \| https://www.bloomberg.com/news/articles/2026-05-02/chinese-court-rules-firms-can-t-lay-off-workers-on-ai-grounds | verworfen (Erstberichterstattung außerhalb des erweiterten Fensters; thematisch hochrelevant, im nächsten Lauf bei MOHRSS-Richtlinie nachzutragen) |
+| 12 | J | RivCut / Humanoid Press / New Market Pitch / Wikipedia (Optimus), *Humanoid Robots 2026: Tesla Optimus, Figure 02 / 03, Apptronik Apollo cross to limited production Q2 2026; BMW Spartanburg-Pilot Figure 02 abgeschlossen* | https://www.rivcut.com/manufacturing-news/humanoid-robot-factories-2026/ \| https://newmarketpitch.com/blogs/news/humanoid-robotics-optimus-deployment-tracker | verworfen (Cluster J im 48-Stunden-Fenster ohne fiskalisch-politische Implikation) |
+| 13 | A | Brookings / arXiv / NBER, *Future tax challenges in an AI-driven economy / Token Taxes / Robot tax is no Longer a Joke*, Januar – März 2026 | https://cepr.org/voxeu/columns/future-tax-challenges-ai-driven-economy \| https://arxiv.org/pdf/2603.04555 \| https://economy.ac/review/2026/01/202601286696 | verworfen (außerhalb 7-Tage-Fenster; bestehende § 3- und § 4.5-Einbindung gilt) |
+| 14 | I | Anthropic Economic Index (Stand) — kein neuer Bericht zwischen 8. Mai und 22. Juni 2026 | https://www.anthropic.com/economic-index | verworfen (keine Bewegung; das Anthropic Economic Policy Framework Juni 2026 wurde separat aufgenommen) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.5 | Ergänzung | Neuer Absatz „Sanders — American AI Sovereign Wealth Fund Act (18. Juni 2026)" eingefügt vor dem Maine-Block: einmalige 50-%-Steuer auf das Aktienkapital von KI-Unternehmen mit ≥ 200 Mio. USD jährlichem KI-bezogenem Umsatz; geschätztes Fondsvolumen rund 7 Bio. USD; rund 5 % Jahresdividende (> 1.000 USD pro Person/Jahr); Anwendungsbereich AI data centers, computing infrastructure, AI services, advanced robotics; Verwaltung durch eine *Independent Commission for Democratic AI*; im Konjunktiv referiert; Querverweise auf § 5.4, § 8.3, § 8.6, § 4.3, § 4.4. | 1–5 |
+| 2 | § 4.5 | Ergänzung | Neuer Absatz „Anthropic — Economic Policy Framework (Juni 2026)" eingefügt: dreistufige Eskalationsleiter (5 % / 10 % / unprecedented) mit universellen Kapitalkonten, Aufstockung der Arbeitslosenversicherung sowie expliziter Nennung von „sovereign wealth models / equity-sharing mechanisms / basic income" in Stufe 3; flankierende Investitionszusage 200 Mio. USD; im Konjunktiv referiert; Konvergenz mit OpenAI-Linie hervorgehoben; Querverweise auf § 5.4, § 8.3, § 8.6. | 6 |
+| 3 | § 1.1 | Ergänzung | Sechs-Wochen-Aktualisierungssatz im Anschluss an den bestehenden 8.-Mai-Stand: TrueUp-Tagesstand rund 153.608 / 399 / 909 pro Tag; Challenger-Mai-Report (97.006 / +16 % / höchster Mai seit 2020; KI 38.579 / 40 % historischer Monats-Höchstwert; YTD KI 87.714 / 22 %; Tech 38.242); ServiceNow Mitte Juni 2026 („real AI efficiencies"); Salesforce 86 Stellen 13. Juni 2026; OECD-Gegenstimme vom 3. Juni 2026 explizit als analytische Konstrastlinie zur KI-zentrischen Lesart. | 7–10 |
+| 4 | § 5.4 | Ergänzung | Ergänzungsabsatz: Sanders-Bill als Maximalvariante der ersten Pfadoption (Pflichtbeteiligung) und Anthropic-Framework als zweite externe Referenz für sovereign wealth / equity-sharing; Hinweis auf die EU-rechtliche/verfassungs­rechtliche Grenze direkter Eigentumsbeteiligung (§ 4.3, § 4.4) und die fiskalische Anschlussfähigkeit der Deutschland-These (§ 8.3). | 1–6 |
+| 5 | § 11.3 | Ergänzung | Zwei neue institutionelle Einträge: (a) Sanders American AI Sovereign Wealth Fund Act mit Pressemitteilung und Summary-PDF; (b) Anthropic Economic Policy Framework mit PDF-URL und Policy-Seite. | 1–2, 6 |
+| 6 | § 11.5 | Ergänzung | Fünf neue Sammelbelege: (a) NPR / Roll Call / The Hill / Fox Business / Reason / RedState (Sanders-Bill Sammelberichterstattung); (b) Challenger Mai-Report mit Blog und PDF; (c) TrueUp / Yahoo Finance / Programs.com (Tracker Stand Juni 2026); (d) Salesforce Ben / KORE1 (ServiceNow); (e) OECD / Fortune (OECD Economic Outlook Juni 2026). | 3–5, 7–10 |
+| 7 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Lauf 001 vom 22. Juni 2026" geändert; Sanders-Bill, Anthropic-Framework, TrueUp/Challenger/ServiceNow/Salesforce-Werte und OECD-Gegenstimme in den Aktualitätstext aufgenommen; alte Mai-Stände als zeitlich frühere Referenzen erhalten (Claude.md § 4.2). | 1–10 |
+| 8 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Stand-Zeile, Zitiervorschlag, neuer Versions-Eintrag in der KI-Offenlegung mit Sanders-Bill / Anthropic-Framework / Indikatoren-Aktualisierung). | 1–10 |
+| 9 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 22. Juni 2026 (Lauf 001 vom 22. Juni 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Chinesische Gerichtsentscheide (Hangzhou / Beijing) — Folgeberichterstattung 4. Juni 2026 | C | Erstberichterstattung außerhalb des erweiterten Sechs-Wochen-Fensters (30. April / 2. Mai 2026); thematisch hochrelevant; im nächsten Lauf bei deutschsprachigem Sekundärbeleg oder MOHRSS-Richtlinie nachzutragen. |
+| 2 | Humanoid-Robotik Q2 2026 (Tesla Optimus, Figure 02/03, Apptronik Apollo, BMW Spartanburg) | J | Im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldung; im nächsten Lauf bei IFR-Update mit Steuerbezug oder konkreter Stückzahlen-Meldung mit fiskalischer Implikation zu prüfen. |
+| 3 | Brookings / arXiv / NBER Working Papers zur Robotersteuer (Januar – März 2026) | A | Außerhalb 7-Tage-Fenster; bestehende § 3- und § 4.5-Einbindung gilt. |
+| 4 | EU AI Act Digital Omnibus formale Adoption | B | Politische Einigung im Mai 2026 ist in Version 22.0 dokumentiert; keine neue formale Adoption zwischen 8. Mai und 22. Juni 2026 belegbar; im nächsten Lauf nachzutragen. |
+| 5 | Connecticut SB 5 — Lamont-Unterzeichnung | B | Stand 22. Juni 2026 keine zwischen 8. Mai und 22. Juni 2026 datierbare Unterzeichnungsmeldung im Recherchefenster ermittelt; bestehender § 4.5-Block bleibt korrekt; nächster Lauf zu prüfen. |
+| 6 | GKV-Beitragssatzstabilisierungsgesetz — Bundestagsverabschiedung | B / E | Parlamentarische Befassung war für Mai/Juni 2026 angekündigt; Stand 22. Juni 2026 keine identifizierbare Verabschiedung im Recherchefenster; § 5.2 bleibt korrekt. |
+| 7 | Weimer Plattform-Digitalabgabe — Eckpunktepapier | B | Eckpunktepapier weiterhin angekündigt, ohne neue Bewegung über Lauf 001 vom 8. Mai 2026 hinaus. |
+| 8 | Anthropic Economic Index — neuer Bericht | I | Keine Bewegung zwischen 8. Mai und 22. Juni 2026; das Anthropic Economic Policy Framework Juni 2026 (eigenständige Veröffentlichung) wurde getrennt aufgenommen. |
+| 9 | Generationenkapital / KENFO — Tranchen-/Renditeangaben | E / H | Keine neuen Stände zwischen 8. Mai und 22. Juni 2026; bestehender § 8.6-Verweis bleibt aktuell. |
+| 10 | IAB-Folgeprognose | E | Kein im Recherchefenster identifizierter Folgeband zur Frühjahrsprognose vom 24. März 2026; bestehender § 1.1- und § 11.3-Eintrag bleibt aktuell. |
+| 11 | Cluster G (Gesundheitswesen) | G | Fünftes Mal in Folge ohne KI-spezifische neue Beschlüsse oder DiGA-Listings im Recherchefenster (G-BA, gematik, BfArM). |
+| 12 | Frontier-Modelle / Inferenzpreise (Cluster I) | I | Im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldung. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 22. Juni 2026 (Lauf 001 vom 22. Juni 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 001 vom 22. Juni 2026 ist der erste reguläre Daily-Update-Lauf nach Lauf 001 vom 8. Mai 2026 — die Lücke von sechs Wochen erlaubte erstmals einen weiterreichenden „Seit-letztem-Lauf"-Horizont, der die Sanders-Bill (18. Juni 2026), das Anthropic Economic Policy Framework (Juni 2026), den Challenger Mai-Report (5. Juni 2026) und den OECD Economic Outlook (3. Juni 2026) zusammen erfassen ließ.
+- Die Sanders American AI Sovereign Wealth Fund Bill ist die bislang konkreteste US-Vorlage einer *eigentumsrechtlichen* (nicht rein fiskalischen) Beteiligungsmechanik an KI-Wertschöpfung; sie wandert die Sanders-Linie von Sanders-Report (Oktober 2025) und S. 4214 (März 2026) auf eine Konstruktion, die strukturell näher an § 5.4 und § 8.3 heranrückt. Für die deutsche Übertragung bleibt die EU-rechtliche / verfassungsrechtliche Grenze (§ 4.3, § 4.4) zentral — die Deutschland-These bleibt im fiskalisch-mittelbaren Pfad.
+- Das Anthropic Economic Policy Framework Juni 2026 ist das erste konkurrierende Frontier-Modell-Anbieter-Papier zum OpenAI-Strategiepapier (April 2026) und stützt die in § 8.3 entwickelte Teilhabe-Logik durch die Konvergenz zweier konkurrierender Anbieter auf Fonds-/Kapitalkontenmodelle.
+- Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne valide Treffer; gezielte Beobachtung der g-ba.de-Sitzungsergebnisse, gematik-Pressemitteilungen und BfArM-Listings für die nächsten Läufe weiterhin offen.
+- Chinesische Gerichtsentscheide (Hangzhou/Beijing) zur Unzulässigkeit KI-bedingter Kündigungen wurden im Mai 2026 erstberichtet und sind für Cluster C / § 6.4 / § 9.5 hochrelevant; sie wurden in diesem Lauf nicht aufgenommen, weil die Erstberichterstattung vor dem letzten Lauf vom 8. Mai 2026 lag — in einem späteren Lauf bei MOHRSS-Folgerichtlinie oder deutschsprachiger Sekundärquelle nachzutragen.
+- Humanoid-Robotik Q2 2026 (Tesla, Figure, Apptronik) hat im Juni 2026 mehrere Programme von Prototyp zu limitierter Produktion übergeführt (BMW Spartanburg Figure-02-Pilot abgeschlossen); thematisch im § 8.1 / § 1.1 / § 2.2 vorbereitet, aber ohne unmittelbare fiskalische Anknüpfung; im nächsten Lauf bei IFR-Update oder konkreten Stückzahlen mit Steuerbezug zu prüfen.
+- Branch dieses Laufs: `claude/determined-einstein-ce0o16` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push neu angelegt).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Geprüft wurden über ToolSearch die Tool-Muster für E-Mail (`mail_send`, `send_mail`, `send_message`, `outlook_send` u. ä.) und WhatsApp (`wa_send_message`, `send_message` aus dem `whatsapp`-MCP). In dieser Session war kein für den Versand geeignetes Tool verfügbar (das Microsoft-365-MCP exponiert ausschließlich Lese-Operationen wie `outlook_email_search` und `chat_message_search`; ein WhatsApp-MCP ist in der Session nicht aktiv). Gemäß Phase-5b-Spezifikation wurden die vorbereiteten Inhalte daher als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben (Dateien werden nicht versioniert).
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
