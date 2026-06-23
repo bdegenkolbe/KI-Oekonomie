@@ -54,6 +54,117 @@
 
 ---
 
+## 2026-06-23 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster F mit zwei aufgenommenen Treffern; Cluster D mit zwei aufgenommenen Treffern; Cluster B mit zwei aufgenommenen Treffern; Cluster G — Gesundheitssektor — fünftes Mal in Folge ohne neue belegbare Treffer; Cluster I/J im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen).
+- Zeitfenster: 7 Tage Standard, 48 Stunden für Cluster F und I; aufgrund der sechswöchigen Pause seit Lauf 001 vom 8. Mai 2026 wurde der Schwerpunkt auf belegbare Endpunkte im Zeitraum 2. – 22. Juni 2026 gelegt, zwischenzeitliche Vorgänge sind über die genannten Belege als Tagesfortschreibung integriert.
+- Anzahl Suchanfragen: 14 (Web-Suche).
+- Lauf 001 ist der erste Daily-Update-Lauf am 23. Juni 2026; der vorhergehende Lauf war Lauf 001 vom 8. Mai 2026.
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | D | Senator Bernie Sanders, *NEWS: Sanders Introduces Legislation to Create $7 Trillion AI Sovereign Wealth Fund*, 18. Juni 2026 | https://www.sanders.senate.gov/press-releases/news-sanders-introduces-legislation-to-create-7-trillion-ai-sovereign-wealth-fund/ | übernommen |
+| 2 | D | Axios, *Bernie Sanders unveils AI „tax" plan*, 18. Juni 2026 | https://www.axios.com/2026/06/18/bernie-sanders-ai-openai-anthropic | übernommen (Sammelbeleg) |
+| 3 | D | Fortune, *„Make AI work for ordinary people": Bernie Sanders wants to pay you $1,000 every year from a government stake in AI companies*, 18. Juni 2026 | https://fortune.com/2026/06/18/bernie-sanders-ai-fund-bill-sam-altman-1000-payments/ | übernommen (Sammelbeleg) |
+| 4 | D | Roll Call, *Sovereign wealth fund tax on AI companies unveiled by Sanders*, 18. Juni 2026 | https://rollcall.com/2026/06/18/sovereign-wealth-fund-tax-on-ai-companies-unveiled-by-sanders/ | übernommen (Sammelbeleg) |
+| 5 | D | Reason, *Bernie Sanders proposes AI tax to give everyone $1,000 a month. His bill would do a lot more than that.*, 19. Juni 2026 | https://reason.com/2026/06/19/bernie-sanders-proposes-ai-tax-to-give-everyone-1000-a-month-his-bill-would-do-a-lot-more-than-that/ | übernommen (Sammelbeleg) |
+| 6 | B | Office of the Governor of Connecticut, *Governor Lamont Signs Legislation Establishing Youth Online Safety Protections, Regulations Over Artificial Intelligence, and Initiatives to Upskill Connecticut's Workforce*, 2. Juni 2026 | https://portal.ct.gov/governor/news/press-releases/2026/06-2026/governor-lamont-signs-legislation-establishing-youth-online-safety-protections | übernommen |
+| 7 | B | Holland & Knight / Morrison Foerster / Ropes & Gray / FPF — Kanzlei- und Fachanalysen zu Public Act 26-15 (Juni 2026) | https://www.hklaw.com/en/insights/publications/2026/06/connecticut-enacts-comprehensive-ai-legislation \| https://www.mofo.com/resources/insights/260608-connecticut-enacts-sweeping-ai-law \| https://www.ropesgray.com/en/insights/alerts/2026/06/connecticut-enacts-sweeping-ai-law-covering-employment-healthcare-and-online-safety \| https://fpf.org/blog/sb-5-in-five-what-to-know-about-connecticuts-new-ai-law/ | übernommen (Sammelbeleg) |
+| 8 | B | Deutscher Bundestag, *Ja zur Durchführung der Verordnung über künstliche Intelligenz*, 11. Juni 2026 (Textarchiv) | https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-ki-1183820 | übernommen |
+| 9 | B | Bundesregierung, *KI-Verordnung beschlossen*, 11. Juni 2026 | https://www.bundesregierung.de/breg-de/aktuelles/umsetzung-ki-verordnung-2406638 | übernommen (Sammelbeleg) |
+| 10 | B | BMDS / Rechtsanwalt Ferner / activeMind.legal / Betriebs-Berater — Fachanalysen zum KI-MIG (Juni 2026) | https://bmds.bund.de/service/gesetzgebungsverfahren/gesetz-zur-durchfuehrung-der-ki-verordnung \| https://www.activemind.legal/de/guides/ki-mig/ \| https://www.ferner-alsdorf.de/deutschland-bekommt-ein-ki-gesetz-buendelung-der-nationalen-ki-aufsicht-bei-der-bundesnetzagentur/ | übernommen (Sammelbeleg) |
+| 11 | D | OpenAI, *A blueprint for democratic governance of frontier AI*, 2. Juni 2026 | https://openai.com/index/frontier-safety-blueprint/ \| https://cdn.openai.com/pdf/25752ecb-0e5c-47f9-b9e4-c0f4d76f8d3d/a-blueprint-for-a-federal-framework.pdf | übernommen |
+| 12 | D | SiliconANGLE / Resultsense / Don't Worry About the Vase — Einordnungen zum OpenAI-Folgepapier (Juni 2026) | https://siliconangle.com/2026/06/03/policy-paper-openai-diverges-white-house-ai-safety/ \| https://www.resultsense.com/insights/2026-06-04-openai-frontier-ai-federal-framework-uk-implications/ \| https://thezvi.wordpress.com/2026/06/05/openai-offers-a-new-policy-blueprint/ | übernommen (Sammelbeleg) |
+| 13 | B | Rat der EU, *Artificial Intelligence: Council and Parliament agree to simplify and streamline rules*, 7. Mai 2026 | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ | übernommen |
+| 14 | B | Global Policy Watch, *EU AI Act Update: Timeline Relief, Targeted Simplification, and New Prohibitions*, Juni 2026 | https://www.globalpolicywatch.com/2026/06/eu-ai-act-update-timeline-relief-targeted-simplification-and-new-prohibitions-2/ | übernommen (Sammelbeleg zur EP-Plenarbilligung 16. Juni 2026) |
+| 15 | F | Challenger, Gray & Christmas, *Challenger Report: May Job Cuts Rise 16 % from April; Highest May Total Since 2020*, 4. Juni 2026 | https://www.challengergray.com/blog/challenger-report-may-job-cuts-rise-16-from-april-highest-may-total-since-2020/ \| https://www.challengergray.com/wp-content/uploads/2026/06/Challenger-Report-May-2026.pdf | übernommen |
+| 16 | F | CNBC, *„AI is now the leading reason companies give for cutting jobs," says new report — what that means for workers*, 5. Juni 2026 | https://www.cnbc.com/2026/06/05/ai-is-now-the-leading-reason-companies-give-for-cutting-jobs-says-new-report-what-that-means-for-workers.html | übernommen (Sammelbeleg) |
+| 17 | F | Bloomberg, *US Tech Sector Announces Most Job Cuts in Nearly Two Years*, 4. Juni 2026 | https://www.bloomberg.com/news/articles/2026-06-04/us-tech-sector-announces-most-job-cuts-in-nearly-two-years | übernommen (Sammelbeleg) |
+| 18 | F | Bloomberg, *Oracle Layoffs Fueled by AI, Reduces Workforce by 21,000*, 22. Juni 2026 | https://www.bloomberg.com/news/articles/2026-06-22/oracle-layoffs-fueled-by-ai-reduces-workforce-by-21-000 | übernommen |
+| 19 | F | Oracle Corp., *Form 10-K Annual Report FY2026*, SEC Filing 22. Juni 2026 | https://www.sec.gov/Archives/edgar/data/0001341439/000119312526277521/orcl-ex32_01.htm | übernommen |
+| 20 | F | Goldman Sachs / Fortune, *Gen Z is losing the most in the AI economy — and Goldman warns it's about to get worse*, 1. Juni 2026 | https://fortune.com/2026/06/01/how-many-jobs-is-ai-destroying-goldman-sachs-11000-per-month-gen-z-economy/ | übernommen |
+| 21 | F | GitLab — Layoffs Juni 2026 (350 Stellen, 14 %, AI-Begründung) | über TechCrunch / SkillSyncer Tracker referiert | verworfen (unter Einzelmaßnahme-Schwelle 500+ für § 1.1; Aggregat über Challenger/Tracker abgedeckt) |
+| 22 | F | ServiceNow Layoffs (12. Juni 2026, „hundreds"); Salesforce 86 (13. Juni 2026) | TheLayoff.com / TechCrunch | verworfen (unter Schwelle; Aggregat über Challenger/Tracker abgedeckt) |
+| 23 | F | Microsoft Layoffs Juni 2026 (rund 300 Stellen, mehrere Standorte) | Techrights / Blind-Posts / Bloomberg (Xbox-Restrukturierung 10. Juni 2026) | verworfen (unter Einzelmaßnahme-Schwelle; bestehender VRSAR-Beleg aus Lauf 001 vom 8. Mai 2026 bleibt der bestimmende Microsoft-Beleg; angedeutete Juli-Welle ohne Datumsfixierung im 7-Tage-Fenster nicht trennscharf einordbar) |
+| 24 | A | NBER WP 33777 Humlum/Vestergaard *Still Waters, Rapid Currents* / WP 34836 Yotzov/Barrero *Firm Data on AI* | https://www.nber.org/system/files/working_papers/w33777/w33777.pdf | verworfen (Veröffentlichung außerhalb 7-Tage-Fenster; in späterem Lauf bei Update zu prüfen) |
+| 25 | A | Brookings/Korinek-Lockwood *Public finance in the age of AI* (8. Januar 2026) | https://www.brookings.edu/articles/public-finance-age-ai-primer/ | Dublette (in Lauf 001 vom 8. Mai 2026 als außerhalb-Fenster geprüft; bestehender § 11.5-Verweis bleibt aktuell) |
+| 26 | I | Anthropic Economic Index — kein neuer Bericht zwischen Mai und Juni 2026 | https://www.anthropic.com/economic-index | verworfen (keine Bewegung im 48-Stunden-Fenster) |
+| 27 | C | China — Hangzhou/Beijing-Gerichtsurteile zu AI-Replacement (April/Mai 2026) | https://thenextweb.com/news/china-court-ai-layoffs-illegal-labor-law | verworfen (außerhalb 7-Tage-Fenster) |
+| 28 | A | Stanford HAI AI Index 2026 (13. April 2026) | https://hai.stanford.edu/ai-index/2026-ai-index-report | verworfen (außerhalb 7-Tage-Fenster; in Lauf 003 vom 7. Mai 2026 bereits geprüft) |
+| 29 | B | BMF Referentenentwurf Jahressteuergesetz 2026 (26. Mai 2026) | https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/21_Legislaturperiode/2026-05-19-JStG2026/0-Gesetz.html | verworfen (AI-Bezug auf verfahrensrechtliche Anpassungen beschränkt; keine fiskalische Anknüpfung an KI-Wertschöpfung) |
+| 30 | E | Bundestag GKV-Beitragssatzstabilisierungsgesetz Erstdurchgang (12. Juni 2026) | https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-gkv-1181958 | verworfen (Verfahrensstufe; materielle Inhalte bereits in Version 22.0 abgebildet) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.5 | Ergänzung | Sanders *American AI Sovereign Wealth Fund Act* (18. Juni 2026) — 50 % Aktienabgabe für KI-Unternehmen ab 200 Mio. USD; 7-köpfige Independent Commission for Democratic AI; rund 7 Bio. USD Fondsvolumen; 5 % Jahresdividende (≥ 1.000 USD pro Bürger) — als eigener Absatz nach dem 16.-April-2026-Namensbeitrag eingefügt; konzeptionelle Eskalation gegenüber dem Oktober-2025-Report markiert. | 1–5 |
+| 2 | § 4.5 | Korrektur | Connecticut SB 5: „angekündigte Unterzeichnung" durch „am 2. Juni 2026 als Public Act 26-15 unterzeichnet" ersetzt. | 6, 7 |
+| 3 | § 4.2 | Ergänzung | Neuer Absatz „Nationale Vollzugsarchitektur für den AI Act — KI-MIG (Juni 2026)" mit Bundestags-Beschluss am 11. Juni 2026, Bundesnetzagentur als zentrale Marktüberwachungsbehörde, KI-Marktüberwachungskammer nach § 4 KI-MIG. | 8–10 |
+| 4 | § 4.5 | Ergänzung | Neuer Absatz „OpenAI-Folgepapier (Juni 2026)" zum *Democratic Governance of Frontier AI* (2. Juni 2026) mit CAISI-Bewertung, jährlichen dritten Audits, Cybersecurity für Modellgewichte, Whistleblower-Schutz; ausdrückliche Markierung, dass die fiskalische Komponente des Aprilpapiers nicht fortgeschrieben wird. | 11, 12 |
+| 5 | § 4.3 | Ergänzung | Bestehender Digital-Omnibus-Absatz um die Trilog-Einigung 7. Mai 2026, die EP-Plenarbilligung 16. Juni 2026 und die konkreten Stichtagsverschiebungen (Anhang III auf 2. Dezember 2027, Sandbox auf 2. August 2027, Nudifier-Verbot ab 2. Dezember 2026) erweitert. | 13, 14 |
+| 6 | § 1.1 | Ergänzung | Challenger *Mai-2026-Job-Cuts-Report* (4. Juni 2026): 97.006 Streichungen (+16 %, höchste Mai-Zahl seit 2020); KI 38.579 (40 %, drittes Mal in Folge führend, erstmals vor Markt-/Konjunkturbedingungen); Tech 38.242 (höchster Monatswert seit August 2024); YTD-KI 87.714 (22 %), YTD-Tech 123.653 (+66 %); Methodikhinweis Selbst-Zuordnung. | 15–17 |
+| 7 | § 1.1 | Ergänzung | Oracle *Form 10-K FY2026* (22. Juni 2026): Belegschaft −13 % von 162.000 auf 141.000 (−21.000); 1,84 Mrd. USD Restrukturierung; ausdrückliche KI-Begründung im SEC-Pflichtdokument; parallel 3,7 Mrd. USD Quartals-Net-Income (+27 % YoY) und 553 Mrd. USD RPO (+325 %). | 18, 19 |
+| 8 | § 1.1 | Aktualisierung | Goldman-Sachs-*AI-Adoption-Tracker*-Revision (1. Juni 2026): Netto-Verdrängung 11.000 statt 16.000 Stellen pro Monat im Basisszenario; projizierter Anstieg auf 22.000–28.000 zum Q4 2026. | 20 |
+| 9 | Dokumentkopf | Aktualisierung | Stand „Juni 2026", Version 23.0. | — |
+| 10 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Lauf 001 vom 23. Juni 2026" geändert; alle sieben neuen Entwicklungen in die Auflistung aufgenommen. | 1–20 |
+| 11 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Stand, Zitiervorschlag, KI-Offenlegung mit neuem Versionseintrag). | — |
+| 12 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 23. Juni 2026 (Lauf 001 vom 23. Juni 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+| 13 | § 11.3 | Ergänzung | Vier neue Einträge: Sanders 18. Juni 2026; OpenAI 2. Juni 2026; Connecticut Public Act 26-15 (Lamont 2. Juni 2026); Deutscher Bundestag KI-MIG 11. Juni 2026; EP/Rat Digital Omnibus 7. Mai / 16. Juni 2026. | 1, 6, 8, 11, 13, 14 |
+| 14 | § 11.5 | Ergänzung | Sieben neue Sammelbelege: Axios/Fortune/Roll Call/Reason (Sanders); Holland & Knight/Morrison Foerster/Ropes & Gray/FPF (Connecticut); Rechtsanwalt Ferner/activeMind.legal/BMDS/Betriebs-Berater (KI-MIG); SiliconANGLE/Resultsense/Don't Worry About the Vase (OpenAI Juni); Challenger/CNBC/Bloomberg (Mai-Report); Oracle/Bloomberg/SEC (10-K); Goldman Sachs/Fortune (Tracker-Revision). | 2–5, 7, 10, 12, 15–20 |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | GitLab Layoffs Juni 2026 (350 Stellen, 14 %, AI-Begründung) | F | Unter Einzelmaßnahme-Schwelle 500+ für § 1.1; Aggregat-Linie über Challenger-Mai-Report und Tech-Tracker bereits abgedeckt. |
+| 2 | ServiceNow ~hundert Stellen 12. Juni 2026 / Salesforce 86 Stellen 13. Juni 2026 | F | Unter Schwelle; Aggregat über Challenger/Tracker. |
+| 3 | Microsoft Layoffs Juni 2026 (rund 300 zusätzliche Stellen) | F | Unter Einzelmaßnahme-Schwelle; bestehender Microsoft-VRSAR-Beleg aus Lauf 001 vom 8. Mai 2026 bleibt bestimmend; angedeutete Juli-Welle ohne Datumsfixierung im 7-Tage-Fenster nicht trennscharf einordbar; in späterem Lauf bei formaler Ankündigung zu prüfen. |
+| 4 | NBER WP 33777 Humlum/Vestergaard / WP 34836 Yotzov/Barrero | A | Veröffentlichung außerhalb 7-Tage-Fenster; in späterem Lauf bei verfügbarem Update aufzunehmen. |
+| 5 | Brookings/Korinek-Lockwood (8. Januar 2026) | A | In Lauf 001 vom 8. Mai 2026 als außerhalb-Fenster geprüft; bestehender Verweis bleibt aktuell. |
+| 6 | Anthropic Economic Index — kein neuer Bericht | I | Keine Bewegung im 48-Stunden-Fenster. |
+| 7 | China — Hangzhou/Beijing-Urteile zu AI-Replacement (April/Mai 2026) | C | Außerhalb 7-Tage-Fenster; in späterem Lauf bei verfügbarer Folgeentscheidung aufzunehmen. |
+| 8 | Stanford HAI AI Index 2026 (13. April 2026) | A | Außerhalb 7-Tage-Fenster; in Lauf 003 vom 7. Mai 2026 bereits geprüft. |
+| 9 | BMF Referentenentwurf Jahressteuergesetz 2026 (26. Mai 2026) | B | AI-Bezug auf verfahrensrechtliche Anpassungen beschränkt (Datenverarbeitung durch automatisierte Verfahren der Finanzverwaltung gemäß AI Act); keine fiskalische Anknüpfung an KI-Wertschöpfung; in späterem Lauf bei substantieller fiskalischer Erweiterung zu prüfen. |
+| 10 | Bundestag GKV-Beitragssatzstabilisierungsgesetz Erstdurchgang (12. Juni 2026) | E | Verfahrensstufe; materielle Inhalte bereits in Version 22.0 abgebildet. |
+| 11 | Tesla Optimus Gen 3 Produktionsstart 2026 | J | Keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster. |
+| 12 | G-BA / gematik / BfArM Mai/Juni 2026 (DiGA, e-Verordnung KI-Komponenten) | G | Fünftes Mal in Folge ohne KI-spezifische Beschlüsse im 7-Tage-Fenster. |
+| 13 | BCG AI Radar 2026 / McKinsey State of AI 2026 — Praxis-Berichte | A | Außerhalb 7-Tage-Fenster (Erstveröffentlichung früher 2026); keine neue fiskalische Implikation. |
+| 14 | Frontier-Modelle / Inferenzpreise (Cluster I) | I | Keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 23. Juni 2026 (Lauf 001 vom 23. Juni 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 001 vom 23. Juni 2026 ist der erste reguläre Daily-Update-Lauf seit dem 8. Mai 2026 (Lauf 001). Die sechswöchige Pause führt zu einer überdurchschnittlich hohen Trefferdichte; die Auswahl konzentriert sich auf belegbare Endpunkte im Zeitraum 2. – 22. Juni 2026, ohne den Lauf in die Tiefe zu vertiefen (gemäß *Breite vor Tiefe*, Phase 1 Schritt 6).
+- Mit Sanders' *American AI Sovereign Wealth Fund Act* vom 18. Juni 2026 liegt erstmals ein formeller US-Senatsentwurf vor, der die in § 5.4 und § 8.3 entwickelte Teilhabe-Fonds-Linie in einen Gesetzestext überführt. Konzeptionell ist die Eskalation von einer Verbrauchsteuer (Oktober-2025-Report) zu einer Aktienkomponente am KI-Wertschöpfungskern bemerkenswert; verfassungsrechtliche Hürden in EU- und deutschem Recht (§ 4.3) sind ausdrücklich benannt.
+- Connecticut SB 5 / Public Act 26-15: Der seit Lauf 001 vom 8. Mai 2026 offen geführte Beobachtungspunkt zur Lamont-Unterzeichnung ist geschlossen; die WARN-AI-Disclosure-Pflicht ab 1. Oktober 2026 bleibt der für die Steuerdebatte zentrale Mechanismus.
+- KI-MIG (Bundestag 11. Juni 2026): Erste deutsche Vollzugsarchitektur für den AI Act; Bundesrats-Zustimmung steht aus und ist im nächsten Lauf zu prüfen.
+- Digital Omnibus on AI: Die Trilog-Einigung vom 7. Mai 2026 und die EP-Plenarbilligung vom 16. Juni 2026 verschieben die Anhang-III-Hochrisiko-Pflichten für KI in Beschäftigungsentscheidungen auf den 2. Dezember 2027 — die in § 9.1 diskutierten Messprobleme einer Displacement-basierten Anknüpfung verschärfen sich tendenziell. Förmliche Annahme durch den Rat steht aus.
+- OpenAI-Folgepapier *Democratic Governance of Frontier AI* (2. Juni 2026): Auffällig ist, dass die fiskalische Komponente des Aprilpapiers nicht fortgeschrieben wird — institutionelle Arbeitsteilung zwischen Safety-Governance (OpenAI) und Verteilungspolitik (Sanders) wird im neuen Papier strukturell sichtbar.
+- Oracle *Form 10-K FY2026* (22. Juni 2026): Erste Konzernoffenlegung in einem SEC-Pflichtdokument mit ausdrücklicher KI-Begründung für Belegschaftsreduktion — methodisch belastbarer als die Earnings-Call-Aussagen früherer Quartale.
+- Challenger *Mai-2026-Report* (4. Juni 2026): Drittes Mal in Folge KI als führender Einzelgrund — und erstmals vor Markt- und Konjunkturbedingungen. Methodische Selbst-Zuordnungs-Erinnerung wurde im Fließtext explizit aufgenommen, um die Aussagekraft der Aggregat-Zahlen einzuordnen.
+- Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne valide Treffer im 7-Tage-Fenster; Empfehlung für die nächsten Läufe weiterhin bestehend (gezielter Abruf von g-ba.de, gematik, BfArM).
+- Cluster I (Frontier-Modelle) und Cluster J (Robotik) im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldungen; Beobachtung beim nächsten Lauf fortsetzen.
+- Branch dieses Laufs: `claude/determined-einstein-4q3i5b` (in Phase 0 verifiziert; lokal vorhanden, im Remote noch nicht angelegt — wird mit Push erzeugt).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Tool-Verfügbarkeit in der laufenden Session geprüft: Microsoft-Graph-MCP exponiert nur Lesezugriff (`outlook_email_search`, `read_resource` etc.) — kein `mail_send`/`send_mail`/`send_message`/`outlook_send`; kein `whatsapp`-MCP-Server in der Session erreichbar (kein `wa_send_message`, kein `send_message` im `whatsapp`-Namensraum). Konsequenz gemäß Phase-5b-Spezifikation: Fallback-Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root angelegt (beide stehen in `.gitignore`, werden also nicht versioniert).
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
