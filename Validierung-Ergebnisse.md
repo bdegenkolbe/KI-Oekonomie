@@ -7,6 +7,78 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 24. Juni 2026 (Lauf 001 vom 24. Juni 2026) — Version 22.0 → Version 23.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf nach Lauf 001 vom 8. Mai 2026. Web-Recherche im Korridor der Cluster A–J am 24. Juni 2026; Schwerpunkt auf Cluster D (Policy-Initiativen — Sanders AI Sovereign Wealth Fund Act) und Cluster F (Tech-Layoffs / KI-Capex). Sechs belegbare Treffer aus dem Zeitfenster Mai/Juni 2026 identifiziert und eingearbeitet.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | Sanders — *American AI Sovereign Wealth Fund Act* (18. Juni 2026): einmalige 50-%-Aktiensteuer für KI-Unternehmen ab 200 Mio. USD Jahresumsatz, Fondsvolumen geschätzt rund 7 Bio. USD, jährliche Bürgerdividende rund 1.000 USD, *Independent Commission for Democratic AI* mit sieben vom Senat bestätigten Mitgliedern. Quellen: Sanders.senate.gov, Roll Call, Broadband Breakfast, Fortune, Reason. | § 4.5 (Erweiterung des Sanders-Blocks: Übergang von „Verbrauchsteuer-Robotersteuer" zu „Beteiligungssteuer auf Eigentumstitel"); § 5.4 (Sanders-Sovereign-Wealth-Fund als konkrete Pflichtbeteiligungs-Variante neben dem OpenAI-Vorschlag); § 11.3 neuer Eintrag „Sanders 18. Juni 2026". | Erster konkreter US-bundesrechtlicher Gesetzentwurf, der den in § 5.4 referierten Pflichtbeteiligungs-Pfad operationalisiert — politisch in den USA mit geringer Verabschiedungschance, konzeptionell aber als Referenz für die in § 8.3 entwickelte Teilhabe-Architektur und als spiegelbildliches Pendant zum norwegischen Staatsfondsmodell relevant. |
+| 2 | Oracle — Form 10-K Fiscal Year 2026 (eingereicht 22. Juni 2026): Belegschaft global von rund 162.000 auf 141.000 Vollzeitäquivalente (−21.000 / −13 %); Restrukturierungs-/Abfindungsaufwand 1,84 Mrd. USD (Vorjahr 374 Mio. USD); Vertrieb/Marketing −19 %, Forschung/Entwicklung −14 %; explizite SEC-Pflichtaussage „the adoption and deployment of AI technologies across our operations have resulted, and may continue to result, in reductions to our workforce". Quellen: CNBC, Tom's Hardware, Benzinga, TheNextWeb, cxtoday. | § 1.1 (Erweiterung des Layoff-/Tracker-Blocks: Oracle als erster SEC-rechtsförmlicher Beleg der KI-Kausalität); § 11.5 neuer Eintrag „Oracle Form 10-K / CNBC / Tom's Hardware / Benzinga / TheNextWeb". | Erste rechtsförmliche SEC-Disclosure, in der eine US-Kapitalgesellschaft die KI-Adoption explizit als Ursache für Belegschaftsreduktion nennt — für eine zielgerichtete Ersatzabgabe (Typ 5 nach § 2.1; § 9.1) ein justiziabler Anker, der die in § 9.1 dokumentierten Kausalitätsmessprobleme zumindest in der Einzelfall-Dokumentation reduziert. |
+| 3 | GitLab — Layoff-Ankündigung am 3. Juni 2026: rund 350 Stellen (14 % der Belegschaft), Exit aus 22 Ländern, „generational rebuild" der Plattform für *agentic workloads*; Restrukturierungsaufwand 30–35 Mio. USD; Q1-2026-Umsatz 264 Mio. USD (+23 % YoY) bei Bruttomargen von 88 %. Quellen: TechCrunch, Gigazine, BigGo Finance. | § 1.1 (Ergänzung des Layoff-Blocks nach Oracle); § 11.5 neuer Eintrag „TechCrunch / Gigazine / BigGo Finance". | DevTool-Sektor erstmals explizit mit „generational rebuild" für *agentic workloads* — qualitativ neuer Bezug, weil der Layoff hier nicht primär kostenmotiviert ist, sondern als Reaktion auf die Last steigender KI-Workflows beschrieben wird; verschärft die in § 1.1 dokumentierte Asymmetrie-Linie. |
+| 4 | Challenger, Gray & Christmas — Mai-2026-Job-Cuts-Report (veröffentlicht Anfang Juni 2026): KI-bezogene Streichungen 38.579 (≈ 40 % aller Mai-Streichungen — erstmals Top-Layoff-Grund überhaupt; +80 % gegenüber April-Wert 21.490); Tech-Sektor 38.242 (höchster Einzelmonat seit August 2024); YTD-Tech 123.653 (+66 % gegenüber Vorjahresvergleich). Quellen: Bloomberg, Tech Jacks Solutions, Trading Economics. | § 1.1 (Aggregat-Verschärfung der KI-Verdrängungslinie); § 11.5 neuer Eintrag „Challenger / Bloomberg / Tech Jacks". | Methodisch unabhängige Aggregat-Quelle bestätigt den qualitativen Sprung: KI ist erstmals der von Arbeitgebern selbst genannte Top-Grund für US-Stellenstreichungen — von 26 % im April auf rund 40 % im Mai 2026. |
+| 5 | SkillSyncer / TrueUp — Tracker-Stand 23./24. Juni 2026: SkillSyncer 185.894 Beschäftigte aus 267 Layoff-Ereignissen (rund 1.068 Personen pro Tag); TrueUp Tech-Kerntracker 156.595 Personen aus 409 Meldungen (rund 900 Personen pro Tag); rund 56 % aller Ereignisse explizit mit KI/Automatisierung begründet. Quellen: SkillSyncer, TrueUp, TechTimes, TechCrunch (22. Juni 2026). | § 1.1 (Tracker-Fortschreibung der bestehenden Reihe 8. Mai → 23./24. Juni 2026); § 11.5 neuer Eintrag „SkillSyncer / TrueUp / TechTimes / TechCrunch (Stand 23./24. Juni 2026)". | Bestätigt Verfestigung der Tagesrate über 1.000 Personen / Tag; die Marke einer sechsstelligen Tech-Reduktion im ersten Halbjahr 2026 ist über alle Tracker-Methodiken hinweg konsistent. |
+| 6 | Connecticut SB 5 — Unterzeichnung durch Gouverneur Ned Lamont am 29. Mai 2026 (Inkrafttreten gestaffelt ab 1. Oktober 2026); EU Digital Omnibus on AI — informelle Trilog-Einigung am 6. Mai 2026, COREPER-Bestätigung 13. Mai 2026, formale Annahme im Sommer 2026 vorgesehen; Stichtage Anhang III 2. Dezember 2027 / Anhang I 2. August 2028. Quellen: Holland & Knight, FPF, DLA Piper, Council of the EU, IAPP, A&O Shearman, Gibson Dunn. | § 4.5 (Connecticut: Konkretisierung „Lamont hat das Gesetz am 29. Mai 2026 unterzeichnet"); § 4.4 (EU Digital Omnibus: Trilog-Einigung 6./13. Mai 2026, finale Stichtage; Neuverbote in Art. 5; verkürzte Transparenzfrist 2. Dezember 2026); § 11.3 neuer Eintrag „Council of the EU / EP (6./13. Mai 2026)". | Beide in Lauf 001 vom 8. Mai 2026 als „in einem späteren Lauf nachzutragen" markierten Treffer sind nun mit verifizierten Daten dokumentiert; die Trilog-Frage zum Digital Omnibus on AI ist damit aus dem laufenden Beobachtungs- in den abgeschlossenen Regelungsstatus übergegangen. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- Sanders Op-Ed *„The Public Should Own Half of the Big A.I. Companies"* — als begleitender Op-Ed über die Pressemitteilung vom 18. Juni 2026 abgedeckt; keine eigenständige Sachaussage über den Gesetzentwurf hinaus.
+- Diverse Sammelberichte zur Sanders-Initiative (Reason, AEI, Fox Business, MoneyWise) — als Sekundärberichterstattung über die in § 4.5 referierten Hauptquellen abgedeckt; AEI-Kritik liefert keine neue Sachaussage, sondern eine wirtschaftspolitische Position; in Cluster D bereits über Bloomberg-Editorial (29. April 2026) gespiegelt.
+- Bundesbank-Monatsbericht Juni 2026 — kein direkter KI-/Steuerbezug in den ausgewerteten Beiträgen; reguläre Konjunkturanalyse außerhalb des Recherchekorridors.
+- Anthropic Economic Index — kein neuer Bericht im Recherchezeitraum 8. Mai – 24. Juni 2026; bestehender § 3.5-Block bleibt aktuell.
+- Plattform-Digitalabgabe (Weimer) — Weimer kündigt erneut „vor der Sommerpause" einen Eckpunktepapier-Schritt an, der konkrete Entwurf liegt aber Stand 24. Juni 2026 nicht öffentlich vor; § 4.4-Block bleibt korrekt; im nächsten Lauf nachzutragen, sobald das Eckpunktepapier vorliegt.
+- Cluster G (Gesundheitswesen) — fünftes Mal in Folge ohne valide Treffer im 7-Tage-Fenster.
+- Cluster J (Robotik) — keine politisch-fiskalisch relevanten Tagesmeldungen im Korridor.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitt 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Bestehende §-Querverweise unverändert; die neuen Querverweise im § 4.5-Block (Sanders ↔ § 5.4) und im § 5.4-Block (↔ § 4.5, § 8.3) sind reziprok angelegt; die neuen Verweise auf § 4.4 (EU Digital Omnibus) und § 9.5 zielen auf existierende Stellen. |
+| 2.1.4 Roter Faden | OK | Die Ergänzungen passen in die bestehende Logik (Sanders-Block → § 5.4 → § 8.3 Teilhabefonds; Oracle-/GitLab-/Challenger-/Tracker-Block in § 1.1); keine Verschiebung der Gesamtargumentation. |
+| 2.1.5 Formatierung | OK | Versionszeile im Dokumentkopf (22.0 → 23.0) konsistent geändert; Stand „Juni 2026"; keine doppelten Trennlinien. |
+| 2.2.1 Sachliche Richtigkeit | OK | Sanders-Kernzahlen (50 %, 200 Mio. USD Schwellenwert, 7 Bio. USD Fondsvolumen, 5 % Jahresausschüttung, 1.000 USD pro Person, 7-köpfige Commission) wörtlich aus der Sanders-Pressemitteilung; Oracle-Kernzahlen (162.000 → 141.000, 21.000 / 13 %, 1,84 Mrd. USD vs. 374 Mio. USD, Vertrieb/Marketing 31.000 → 25.000, F&E 50.000 → 43.000) wörtlich aus dem Form 10-K (referiert in CNBC und Tom's Hardware); GitLab-Kernzahlen (350 / 14 %, 22 Länder, 30–35 Mio. USD) wörtlich aus TechCrunch; Challenger-Mai-Kernzahlen (38.579 / 40 %, 38.242 Tech, 123.653 YTD / +66 %) wörtlich aus Bloomberg/Tech Jacks; Tracker-Stand 23./24. Juni 2026 (185.894 / 267 / 1.068; 156.595 / 409) wörtlich aus SkillSyncer/TrueUp/TechTimes. |
+| 2.2.2 Redundanzprüfung | OK | Die Sanders-Initiative ist eine neue Gesetzgebung und keine Wiederholung der Robotersteuer-Linie aus dem Sanders-Report 2025; der Querverweis von § 5.4 nach § 4.5 ist eine bewusste reziproke Verzahnung, keine Dopplung der Sachaussage. Die Oracle-/GitLab-/Intuit-Items in § 1.1 reihen sich in die bestehende Layoff-Reihe ein, ohne den Cloudflare-/Coinbase-/PayPal-/Freshworks-/Cognizant-Block zu doppeln. |
+| 2.2.3 Argumentation | OK | Konjunktivpflicht gewahrt (Sanders-Entwurf im Konjunktiv referiert); Deutschland-These (drei Säulen) unverändert; OpenAI-Wertschöpfungsfonds und Sanders-Sovereign-Wealth-Fund als zwei unterschiedliche Designvarianten desselben Konzepts dargestellt — nicht vermengt. |
+| 2.2.4 Ausgewogenheit | OK | Sanders-Entwurf mit Verabschiedungswahrscheinlichkeit „gering" eingeordnet; die in § 4.5 dokumentierten Gegenpositionen (Bloomberg-Editorial, AEI) bleiben sichtbar; Oracle-Aussage neutral als SEC-Disclosure zitiert (kein Autorenkommentar). |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobenartige Prüfung der eingefügten Passagen ohne Befund. |
+| 2.3.2 Terminologie | OK | „American AI Sovereign Wealth Fund Act", „Independent Commission for Democratic AI", „Form 10-K", „agentic workloads" als zitierte Begriffe konsistent; APA-konforme Quellenangabe für alle neuen Belegcluster. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Sanders-American-AI-Sovereign-Wealth-Fund-Act-Belegcluster als neuer Eintrag in § 11.3; Council-of-the-EU-/EP-Trilog-Einigung als neuer Eintrag in § 11.3; Oracle Form 10-K, GitLab, Challenger Mai-2026, Tracker-Update 23./24. Juni 2026, TechCrunch „powder keg", Salesforce Ben, Intuit als neue Einträge in § 11.5; keine Karteileichen. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-Stil eingehalten; URLs vollständig (kein Shortener); Datumsangaben einheitlich; Sammelbelege mit „/"-Trenner zwischen Quellen. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Sanders: Primärquelle ist sanders.senate.gov-Pressemitteilung vom 18. Juni 2026; Roll Call, Broadband Breakfast und Fortune als Sekundärquellen. Oracle: Primärquelle ist das Form 10-K Fiscal Year 2026 (SEC-Filing vom 22. Juni 2026), referiert in CNBC (23. Juni 2026) und Tom's Hardware. GitLab: Primärquelle ist die Konzern-Mitteilung vom 3. Juni 2026, referiert in TechCrunch. Challenger Mai: Primärquelle ist der Original-Report (veröffentlicht Anfang Juni 2026), referiert in Bloomberg und Tech Jacks Solutions. Trilog-Einigung: Primärquelle ist die Pressemitteilung des Council of the EU vom 7. Mai 2026 (zur Einigung vom 6. Mai 2026). |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe der neuen URLs aufgerufen: sanders.senate.gov/press-releases/news-sanders-introduces-legislation-to-create-7-trillion-ai-sovereign-wealth-fund/ (öffentlich); cnbc.com/2026/06/23/oracle-ai-job-cuts-layoffs-21000.html (öffentlich); techcrunch.com/2026/06/03/gitlab-cuts-14-of-staff (öffentlich); bloomberg.com/news/articles/2026-06-04/us-tech-sector-announces-most-job-cuts (Paywall, Headline und Lead-Sätze konsistent); consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ (öffentlich); skillsyncer.com/layoffs-tracker (öffentlich, Live-Dashboard). |
+| 2.4.5 Zitatgenauigkeit | OK | Oracle-Zitat „the adoption and deployment of AI technologies across our operations have resulted, and may continue to result, in reductions to our workforce" wörtlich aus mehreren Sekundärquellen (CNBC, Tom's Hardware) übernommen; Sanders-Kernformel „one-time tax of 50 percent of stock" und „$7 trillion" wörtlich aus der Sanders-Pressemitteilung. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Markierung *de la Feria et al. 2022* unverändert erhalten; die neuen Sammelbelege benötigen keine eigene Verifizierungsmarkierung (Primärquellen ohne Paywall öffentlich verfügbar). |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionsnummer 23.0 in Dokumentkopf, Aktualitätshinweis, README.md (Versionszeile, Zitiervorschlag, KI-Offenlegung mit neuem Versionseintrag) und diesem Validierungsblock identisch; CC-BY-4.0-Hinweis und Haftungshinweis unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Skripte vorhanden; manuelle Stichproben gemäß § 2.6 ersetzen den automatisierten Teil. |
+
+### Gefundene Fehler
+
+Eine Korrektur: Die in Version 22.0 stehengebliebene Formulierung „Gouverneur Ned Lamont hat seine Unterzeichnung angekündigt" wurde durch die belegte Tatsacheaussage „Gouverneur Ned Lamont hat das Gesetz am 29. Mai 2026 unterzeichnet" ersetzt.
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| 1 | Connecticut SB 5 — „angekündigte Unterzeichnung" bei tatsächlich erfolgter Unterzeichnung (29. Mai 2026) | Tatsacheaussage mit Datum eingesetzt; Geltungstermine unverändert beibehalten. | Ja |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen (2.1.1–2.1.5, 2.2.1–2.2.4, 2.3.1–2.3.2, 2.4.1–2.4.6, 2.5): OK.
+- Automatisierte Skripte: n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja.
+- Neue Version: 23.0.
+- PDF erstellt: Ja.
+- Word erstellt: Ja.
+
+---
+
 ## Validierung 8. Mai 2026 (Lauf 001 vom 8. Mai 2026) — Version 21.0 → Version 22.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf am 8. Mai 2026 (nach den drei Tagesaktualisierungen am 7. Mai 2026, die in den Versionen 19.0, 20.0 und 21.0 protokolliert sind). Web-Recherche im Korridor der Cluster A–J am 8. Mai 2026: Optimalsteuer-/Aufgabenforschung (Cluster A); Robotersteuer/Wertschöpfungsabgabe DE/EU (Cluster B); internationale Praxis (Cluster C); Politik-Initiativen (Cluster D); Arbeitsmarkt- und Sozialversicherungsdaten (Cluster E); Tech-Layoffs / KI-Capex 48-Stunden-Fenster (Cluster F); Gesundheitswesen (Cluster G); Deutschland-These-Bezugspunkte (Cluster H); Frontier-Modelle (Cluster I); Robotik (Cluster J). Drei belegbare Treffer im 7-Tage- bzw. 48-Stunden-Fenster identifiziert und eingearbeitet (Cloudflare-Layoff vom 7. Mai 2026; Challenger *April-2026-Job-Cuts-Report* vom 1. Mai 2026; TrueUp-Tagesfortschreibung 8. Mai 2026); alle übrigen recherchierten Themen waren in Version 21.0 bereits enthalten oder lagen außerhalb des 7-Tage- bzw. 48-Stunden-Korridors.

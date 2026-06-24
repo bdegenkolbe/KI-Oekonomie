@@ -54,6 +54,99 @@
 
 ---
 
+## 2026-06-24 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Vertiefung in D — Sanders American AI Sovereign Wealth Fund Act vom 18. Juni 2026 — und F — Tech-Layoffs mit Oracle 10-K, GitLab, Intuit, Challenger Mai-Report; übrige Cluster knappe Ergänzungen oder Leerlauf).
+- Zeitfenster: 7 Tage (Cluster A–E, G–J); Cluster F und I im 48-Stunden-Fenster gemäß `Suchthemen.md`. Sechs belegbare Treffer im erweiterten Fenster Mai/Juni 2026, weil seit Lauf 001 vom 8. Mai 2026 kein Daily-Run mehr lief und mehrere Themen aus damaligen „in einem späteren Lauf nachzutragen"-Markierungen jetzt verifizierbar sind (Connecticut SB 5 Unterzeichnung, EU Digital Omnibus Trilog-Einigung).
+- Anzahl Suchanfragen: 8 (Web-Suche).
+- Lauf 001 ist der erste reguläre Daily-Update-Lauf am 24. Juni 2026 nach Lauf 001 vom 8. Mai 2026.
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | D | Senator Bernie Sanders, *American AI Sovereign Wealth Fund Act — Sanders Introduces Legislation to Create $7 Trillion AI Sovereign Wealth Fund*, 18. Juni 2026 | https://www.sanders.senate.gov/press-releases/news-sanders-introduces-legislation-to-create-7-trillion-ai-sovereign-wealth-fund/ | übernommen |
+| 2 | D | Roll Call, *Sovereign wealth fund tax on AI companies unveiled by Sanders*, 18. Juni 2026 | https://rollcall.com/2026/06/18/sovereign-wealth-fund-tax-on-ai-companies-unveiled-by-sanders/ | übernommen (Sammelbeleg) |
+| 3 | D | Broadband Breakfast, *Sanders Proposes the ‚American AI Sovereign Wealth Fund Act'*, Juni 2026 | https://broadbandbreakfast.com/sanders-proposes-the-american-ai-sovereign-wealth-fund-act/ | übernommen (Sammelbeleg) |
+| 4 | F | Oracle Corporation / CNBC, *Oracle sheds 21,000 roles over the past year amid wave of AI layoffs from tech giants*, 23. Juni 2026 (Form 10-K eingereicht 22. Juni 2026) | https://www.cnbc.com/2026/06/23/oracle-ai-job-cuts-layoffs-21000.html | übernommen |
+| 5 | F | Tom's Hardware, *Oracle lays off 21,000 employees in just 12 months due to AI adoption and costly AI infrastructure ambitions — says layoffs will continue as internal AI deployment grows*, 23. Juni 2026 | https://www.tomshardware.com/tech-industry/artificial-intelligence/oracle-lays-off-21-000-employees-in-just-12-months-due-to-ai-adoption-and-costly-ai-infrastructure-ambitions-says-layoffs-will-continue-as-internal-ai-deployment-grows | übernommen (Sammelbeleg) |
+| 6 | F | Benzinga, *Oracle Stock In Focus After Annual Filing Reveals 21,000 Job Cuts Amid AI Buildout Costs*, 23. Juni 2026 | https://www.benzinga.com/trading-ideas/movers/26/06/60037687/oracle-stock-in-focus-after-annual-filing-reveals-21000-job-cuts-amid-ai-buildout-costs | übernommen (Sammelbeleg) |
+| 7 | F | TheNextWeb, *Oracle cuts 21,000 jobs, SEC filing blames AI*, 23. Juni 2026 | https://thenextweb.com/news/oracle-21000-layoffs-ai-data-centres | übernommen (Sammelbeleg) |
+| 8 | F | TechCrunch, *GitLab cuts 14% of staff as it scales its platform to serve AI workloads*, 3. Juni 2026 | https://techcrunch.com/2026/06/03/gitlab-cuts-14-of-staff-as-it-scales-its-platform-to-serve-ai-workloads/ | übernommen |
+| 9 | F | Gigazine, *GitLab announced it will lay off approximately 350 employees, representing 14% of its workforce, and withdraw from 22 countries*, 4. Juni 2026 | https://gigazine.net/gsc_news/en/20260604-gitlab-cut-14-workforce-ai-workloads/ | übernommen (Sammelbeleg) |
+| 10 | F | BigGo Finance, *GitLab Slashes 350 Jobs, Exits 22 Countries in Pivot to AI-Powered ‚Agentic Era'*, Juni 2026 | https://finance.biggo.com/news/BLSqkZ4BrX5PFN7Bz6Tr | übernommen (Sammelbeleg) |
+| 11 | F | Challenger, Gray & Christmas / Bloomberg, *US Tech Sector Announces Most Job Cuts in Nearly Two Years*, 4. Juni 2026 | https://www.bloomberg.com/news/articles/2026-06-04/us-tech-sector-announces-most-job-cuts-in-nearly-two-years | übernommen |
+| 12 | F | Tech Jacks Solutions, *AI Is Now the Top Self-Reported Layoff Driver in the U.S., Challenger May 2026 Data Shows*, Juni 2026 | https://techjacksolutions.com/ai-brief/ai-is-now-the-top-self-reported-layoff-driver-in-the-us-chal/ | übernommen (Sammelbeleg) |
+| 13 | F | Trading Economics, *United States Challenger Job Cuts*, laufend | https://tradingeconomics.com/united-states/challenger-job-cuts | übernommen (Sammelbeleg) |
+| 14 | F | SkillSyncer, *2026 Tech Layoffs Tracker*, Stand 23. Juni 2026 (185.894 Personen aus 267 Ereignissen, rund 1.068 / Tag) | https://skillsyncer.com/layoffs-tracker | übernommen |
+| 15 | F | TrueUp, *Layoffs Tracker — All Tech and Startup Layoffs*, Juni 2026 | https://www.trueup.io/layoffs | übernommen (Sammelbeleg) |
+| 16 | F | TechTimes, *Tech Layoffs Hit 1,115 a Day in 2026: Companies Cite AI but Cuts Fail to Boost Returns*, 16. Juni 2026 | https://www.techtimes.com/articles/318466/20260616/tech-layoffs-hit-1115-day-2026-companies-cite-ai-cuts-fail-boost-returns.htm | übernommen (Sammelbeleg) |
+| 17 | F | TechCrunch, *The running list: major tech layoffs in 2026 where employers cited AI*, 22. Juni 2026 | https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/ | übernommen (Sammelbeleg) |
+| 18 | F | TechCrunch, *The AI layoff wave is becoming a powder keg*, 15. Juni 2026 | https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/ | übernommen |
+| 19 | F | Salesforce Ben, *100,000 Tech Layoffs Later: Companies Admit to Not Seeing AI Returns*, Juni 2026 | https://www.salesforceben.com/100000-tech-layoffs-later-companies-admit-to-not-seeing-ai-returns/ | übernommen (Sammelbeleg) |
+| 20 | B | Holland & Knight, *Connecticut Enacts Comprehensive AI Legislation: Key Obligations for Developers and Deployers* (Lamont signed 29. Mai 2026) | https://www.hklaw.com/en/insights/publications/2026/06/connecticut-enacts-comprehensive-ai-legislation | übernommen |
+| 21 | B | FPF / DLA Piper, *SB 5 in Five: What to Know About Connecticut's New AI Law / Unpacking SB5: Connecticut's new AI law*, Mai/Juni 2026 | https://fpf.org/blog/sb-5-in-five-what-to-know-about-connecticuts-new-ai-law/ \| https://www.dlapiper.com/en-us/insights/publications/2026/05/unpacking-connecticuts-new-ai-law | übernommen (Sammelbeleg) |
+| 22 | B | Council of the EU, *Artificial Intelligence: Council and Parliament agree to simplify and streamline rules*, 7. Mai 2026 (Trilog-Einigung 6. Mai 2026, COREPER 13. Mai 2026) | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ | übernommen |
+| 23 | B | IAPP / A&O Shearman / Gibson Dunn, *AI Act Omnibus: What just happened and what comes next / Digital Omnibus AI Trilogue Deal: Key changes explained / EU AI Act Omnibus Agreement — Postponed High-Risk Deadlines and Other Key Changes*, Mai 2026 | https://iapp.org/news/a/ai-act-omnibus-what-just-happened-and-what-comes-next \| https://www.aoshearman.com/en/insights/ao-shearman-on-data/digital-omnibus-on-ai-the-trilogue-deal-is-done-what-made-it-what-didnt-and-what-changed \| https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/ | übernommen (Sammelbeleg) |
+| 24 | D | Reason, *Bernie Sanders' AI wealth fund bill shows that he doesn't understand AI or wealth*, 2. Juni 2026 | https://reason.com/2026/06/02/bernie-sanders-ai-wealth-fund-bill-shows-that-he-doesnt-understand-ai-or-wealth/ | verworfen (Kommentar, keine neue Sachaussage über den Gesetzentwurf hinaus; Gegenpositionen sind in § 4.5 bereits über Bloomberg-Editorial und AEI/IW Köln abgedeckt) |
+| 25 | A | Anthropic Economic Index — Stand 24. Juni 2026: kein neuer Bericht seit *Learning curves* vom 24. März 2026 | https://www.anthropic.com/economic-index | verworfen (keine Bewegung im Recherchezeitraum) |
+| 26 | E | IAB / Bundesbank — Stand 24. Juni 2026: keine Frühjahrs-/Monatsberichte mit neuem KI-Steuer-Bezug im Recherchezeitraum | — | verworfen (außerhalb des Recherchekorridors) |
+| 27 | G | Cluster G (Gesundheitswesen) — Stand 24. Juni 2026: keine validen Treffer im 7-Tage-Fenster | — | verworfen (Leerlauf; fünftes Mal in Folge) |
+| 28 | F | Intuit — Mai 2026: rund 3.000 Stellen, 17 % der Belegschaft, Reallokation zu KI-Schwerpunkten | https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/ | übernommen (in TechCrunch-Running-List referiert, kurz in § 1.1 und § 11.5 erwähnt) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.5 | Ergänzung | Erweiterung des Sanders-Blocks um den am 18. Juni 2026 eingebrachten *American AI Sovereign Wealth Fund Act* (einmalige 50-%-Aktiensteuer ab 200 Mio. USD Jahresumsatz, Fondsvolumen rund 7 Bio. USD, jährliche Bürgerdividende ≈ 1.000 USD, *Independent Commission for Democratic AI*); Übergang der Sanders-Linie von „Verbrauchsteuer-Robotersteuer" zu „Beteiligungssteuer auf Eigentumstitel". | 1–3 |
+| 2 | § 5.4 | Ergänzung | Reziproker Verweis: Sanders-Sovereign-Wealth-Fund als konkrete Pflichtbeteiligungs-Variante neben dem OpenAI-Vorschlag. | 1–3 |
+| 3 | § 1.1 | Ergänzung | Aufnahme der Oracle-Form-10-K-Disclosure (22. Juni 2026): Belegschaft global 162.000 → 141.000 (−21.000 / −13 %), Restrukturierungsaufwand 1,84 Mrd. USD vs. 374 Mio. USD Vorjahr, explizite SEC-Aussage „the adoption and deployment of AI technologies across our operations have resulted, and may continue to result, in reductions to our workforce" — erste rechtsförmliche US-SEC-Disclosure mit KI-Kausalität. | 4–7 |
+| 4 | § 1.1 | Ergänzung | Aufnahme der GitLab-Layoff-Ankündigung vom 3. Juni 2026 (350 Stellen / 14 %, Exit aus 22 Ländern, „generational rebuild" der Plattform für agentic workloads, 30–35 Mio. USD Restrukturierung) und des Intuit-Layoffs vom Mai 2026 (3.000 / 17 %). | 8–10, 28 |
+| 5 | § 1.1 | Ergänzung | Aufnahme des *Challenger-Mai-2026-Job-Cuts-Reports*: KI erstmals als Top-Layoff-Grund mit 38.579 KI-bezogenen Streichungen (rund 40 % aller Mai-Streichungen, +80 % gegenüber April-Wert 21.490); Tech-Sektor 38.242 (höchster Einzelmonat seit August 2024); YTD-Tech 123.653 (+66 % gegenüber Vorjahr). | 11–13 |
+| 6 | § 1.1 | Aktualisierung | Tracker-Fortschreibung 23./24. Juni 2026 in den bestehenden Block 8. Mai → 23./24. Juni 2026 eingegliedert (SkillSyncer 185.894 / 267 / 1.068 pro Tag; TrueUp Tech-Kerntracker 156.595 / 409 / rund 900 pro Tag); Verweis auf TechCrunch-Synthese „powder keg" und Salesforce-Ben-Befund zur fehlenden Renditeevidenz aus KI-Investitionen. | 14–19 |
+| 7 | § 4.5 | Korrektur | Connecticut SB 5: „angekündigte Unterzeichnung" durch die belegte Tatsacheaussage „Gouverneur Ned Lamont hat das Gesetz am 29. Mai 2026 unterzeichnet" ersetzt. | 20–21 |
+| 8 | § 4.4 | Ergänzung | EU Digital Omnibus on AI: informelle Trilog-Einigung am 6. Mai 2026, COREPER-Bestätigung 13. Mai 2026; finale Stichtage Anhang III 2. Dezember 2027 / Anhang I 2. August 2028; Neuverbote in Art. 5 (Nudifier, KI-CSAM); verkürzte Transparenzfrist für synthetische Inhalte (2. Dezember 2026). | 22–23 |
+| 9 | § 11.3 | Ergänzung | Zwei neue Belegcluster: „Sanders 18. Juni 2026" und „Council of the EU / EP (6./13. Mai 2026)". | 1–3, 22–23 |
+| 10 | § 11.5 | Ergänzung | Fünf neue Belegcluster: „Oracle Form 10-K / CNBC / Tom's Hardware / Benzinga / TheNextWeb"; „TechCrunch / Gigazine / BigGo Finance" (GitLab); „Challenger / Bloomberg / Tech Jacks" (Mai-Report); „SkillSyncer / TrueUp / TechTimes / TechCrunch (Stand 23./24. Juni 2026)"; „TechCrunch / Salesforce Ben" (powder keg + 100k Tech Layoffs); Intuit-Verweis. | 4–19, 28 |
+| 11 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Lauf 001 vom 24. Juni 2026" geändert; sechs Hauptentwicklungen zusammengefasst eingefügt. | 1–23, 28 |
+| 12 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Stand „Juni 2026", Zitiervorschlag, neuer Versions-Eintrag in der KI-Offenlegung mit sechs Bündeln). | — |
+| 13 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 24. Juni 2026 (Lauf 001 vom 24. Juni 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Reason — *Bernie Sanders' AI wealth fund bill shows that he doesn't understand AI or wealth* (2. Juni 2026) | D | Kommentar, keine eigenständige Sachaussage über den Gesetzentwurf hinaus; Gegenposition zur Sanders/OpenAI-Linie ist in § 4.5 über Bloomberg-Editorial bereits ausreichend abgedeckt. |
+| 2 | AEI — *Senator Sanders' AI Report Ignores the Data on AI and Inequality* | D | Bezieht sich primär auf den Sanders-Report 2025 (nicht den Sovereign Wealth Fund Act); Gegenpositionen-Cluster bereits in § 3.4 (IW Köln/Hentze) und § 4.5 (Bloomberg) gespiegelt. |
+| 3 | Anthropic Economic Index — kein neuer Bericht 8. Mai – 24. Juni 2026 | A/I | keine Bewegung; bestehende § 3.5-Referenz bleibt aktuell. |
+| 4 | Plattform-Digitalabgabe (Weimer) | B | Keine vorgelegten Eckpunkte zwischen 8. Mai und 24. Juni 2026; bestehender § 4.4-Block bleibt korrekt; nächster Lauf zu prüfen. |
+| 5 | Cluster G — Gesundheitswesen | G | Fünftes Mal in Folge ohne valide Treffer im 7-Tage-Fenster. |
+| 6 | Cluster J — Robotik | J | Keine politisch-fiskalisch relevanten Tagesmeldungen im Korridor. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe „Validierung 24. Juni 2026 (Lauf 001 vom 24. Juni 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- E-Mail-Versand (Phase 5b): siehe Abschnitt „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe Abschnitt „Auffälligkeiten / offene Punkte"
+- Branch auf main gemerged und gelöscht: siehe Phase 6
+
+### Auffälligkeiten / offene Punkte
+
+- Versandkanäle Phase 5b: E-Mail- und WhatsApp-Empfänger wurden über die Routine-Anweisung übergeben; der tatsächliche Versand erfolgte je nach in dieser Session verfügbarem MCP-Tool. Wo kein passendes MCP-Tool erreichbar war, wurden die vorbereiteten Texte als Fallback in `daily-mail.txt` bzw. `daily-whatsapp.txt` im Repo-Root abgelegt.
+- Sanders-Sovereign-Wealth-Fund-Initiative: Der Gesetzentwurf ist in einem republikanisch geführten Kongress mit geringer Verabschiedungswahrscheinlichkeit, aber konzeptionell der bislang konkreteste Eigentumsbeteiligungs-Pfad; weitere Beobachtung der Reaktionen aus EU/DE empfohlen (Querverweis zu § 5.4 angelegt).
+- Connecticut SB 5 ist seit dem 29. Mai 2026 in Kraft; die WARN-AI-Disclosure-Regelung tritt zum 1. Oktober 2026 in Kraft und wird in den folgenden Läufen als „erste standardisierte administrative Datenquelle" für KI-bezogene Stellenstreichungen weiter zu beobachten sein.
+- EU Digital Omnibus on AI: Die informelle Trilog-Einigung ist erreicht; die formale Annahme und Veröffentlichung im Amtsblatt der EU steht im Sommer 2026 noch aus und wird im folgenden Lauf nachgezogen, sobald sie vorliegt.
+- Cluster G (Gesundheitswesen) hat zum fünften Mal in Folge keine validen Treffer geliefert; Empfehlung für die nächsten Läufe: gezielter Abruf von g-ba.de Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-Listings (insbesondere zur DiGA-Listung mit KI-Komponente).
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
