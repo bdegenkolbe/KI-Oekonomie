@@ -54,6 +54,84 @@
 
 ---
 
+## 2026-06-25 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; sieben Treffer-Bündel im Zeitraum 7. Mai – 24. Juni 2026 aufgenommen; Cluster G mit fünftem Lauf in Folge ohne KI-spezifische Beschlüsse im Beobachtungsfenster).
+- Zeitfenster: erweitert auf 7 Wochen (Lücke seit Lauf 001 vom 8. Mai 2026 / Version 22.0); für Cluster F und I individuell auf den 48-Stunden-Horizont der jüngsten Treffer adjustiert.
+- Anzahl Suchanfragen: 12 (Web-Suche).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B | Rat der EU, *Artificial Intelligence: Council and Parliament agree to simplify and streamline rules*, 7. Mai 2026 | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ | übernommen |
+| 2 | B | Europäisches Parlament, *Plenarbestätigung der Digital-Omnibus-Trilog-Einigung*, 16. Juni 2026; Kanzleianalysen Gibson Dunn, DLA Piper, Bird & Bird, AOShearman | https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/ | übernommen (Sammelbeleg) |
+| 3 | B | Deutscher Bundestag, *Ja zur Durchführung der Verordnung über künstliche Intelligenz*, 11. Juni 2026; Heise Online, *Bundestag beschließt KI-Gesetz: Bundesnetzagentur wird zentrale Aufsicht* | https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-ki-1183820 \| https://www.heise.de/news/Bundestag-beschliesst-KI-Gesetz-Bundesnetzagentur-wird-zentrale-Aufsicht-11330801.html | übernommen |
+| 4 | B | Office of the Governor of Connecticut / Ned Lamont, *Signing of SB 5 — Connecticut Artificial Intelligence Responsibility and Transparency Act*, 29. Mai 2026; Kanzleianalysen Holland & Knight, DLA Piper, Morrison Foerster, Ogletree | https://portal.ct.gov/governor/news/press-releases/2026/06-2026/governor-lamont-signs-legislation-establishing-youth-online-safety-protections | übernommen |
+| 5 | D | Anthropic / Amodei, *Advanced AI Framework / Economic Policy Framework / Policy on the AI Exponential*, 10. Juni 2026; VentureBeat, TechTimes, ExplainX | https://www.anthropic.com/policy-on-the-ai-exponential/epf \| https://darioamodei.com/post/policy-on-the-ai-exponential | übernommen |
+| 6 | B/E | Deutscher Bundestag, *Erste Lesung GKV-Beitragssatzstabilisierungsgesetz*, 12. Juni 2026; *Öffentliche Anhörung Gesundheitsausschuss*, 22. Juni 2026 | https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-gkv-1181958 \| https://www.bundestag.de/ausschuesse/gesundheit/anhoerungen/1184692-1184692 | übernommen |
+| 7 | E | IAB-Kurzbericht 05/2026 *Arbeitsmarktentwicklung 2026* (Mai 2026); Bundesbank Monatsbericht Juni 2026 (Generative KI in deutschen Unternehmen — Auswertung Q1-2026-Unternehmensumfrage); SVR Frühjahrsgutachten 2026 vom 27. Mai 2026 | https://doku.iab.de/kurzber/2026/kb2026-05.pdf \| https://publikationen.bundesbank.de/publikationen-de/berichte-studien/monatsberichte/monatsbericht-juni-2026-998608 \| https://www.sachverstaendigenrat-wirtschaft.de/fileadmin/dateiablage/gutachten/fg2026/FG2026_Gesamtausgabe.pdf | übernommen (Sammelbündel) |
+| 8 | F | TechCrunch, *The running list: major tech layoffs in 2026 where employers cited AI* (22. Juni 2026); TechTimes, *Tech Layoffs Reach 142,000 in 2026* (29. Mai 2026); InformationWeek 2026 Tracker | https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/ \| https://www.techtimes.com/articles/317392/20260529/tech-layoffs-reach-142000-2026-profitable-companies-cut-jobs-fund-700b-ai-infrastructure.htm | übernommen |
+| 9 | F | OECD, *Governing with Artificial Intelligence: AI in tax administration*, 18. September 2025; OECD Forum on Tax Administration | https://www.oecd.org/en/publications/governing-with-artificial-intelligence_795de142-en/full-report/ai-in-tax-administration_30724e43.html | verworfen (außerhalb 7-Wochen-Fenster; Sachstand für späteren Vertiefungslauf vorgemerkt) |
+| 10 | A | Brookings / Korinek & Lockwood, *Public Finance in the Age of AI: A Primer*, NBER WP 34873 | https://www.nber.org/papers/w34873 | Dublette (in Version 9.0 / 18.0 bereits referenziert) |
+| 11 | I | Anthropic Economic Index Folgeberichte (laufende Reihe) | https://www.anthropic.com/economic-index | verworfen (kein neuer Folgebericht zwischen 8. Mai und 25. Juni 2026; bestehender § 3.5-Block bleibt aktuell) |
+| 12 | J | IFR World Robotics — Veröffentlichungszyklus Stand 2025-Bericht | https://ifr.org/worldrobotics/ | verworfen (kein neuer Jahresbericht im Beobachtungsfenster; bestehender § 1.1- bzw. § 2.2-Verweis bleibt aktuell) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.3 | Aktualisierung | Trilog-Einigung zum *Digital Omnibus on AI* vom 7. Mai 2026 und formale Plenarbestätigung des Europäischen Parlaments vom 16. Juni 2026 ergänzt (Annexe-Verschiebungen 2. Dezember 2027 / 2. August 2028 bestätigt; neue Verbote nach Art. 5 zu Nudifier-Anwendungen und KI-generiertem CSAM mit Übergangsfrist bis 2. Dezember 2026); Rats-Annahme und Veröffentlichung im EU-Amtsblatt für Juli 2026 erwartet. | 1, 2 |
+| 2 | § 4.4 | Ergänzung | Neuer Block „Nationales Umsetzungsgesetz zur EU-KI-Verordnung (Deutschland, Juni 2026)" mit Verabschiedung des KI-MIG am 11. Juni 2026 und Bundesnetzagentur als zentraler Marktüberwachungsbehörde; flankierende Sektoraufsicht durch BSI, BfArM, Bundesbank, BaFin und BfDI; Bundesratszustimmung ausstehend, Inkrafttreten parallel zu AI-Act-GPAI-Pflichten am 2. August 2026 angestrebt. | 3 |
+| 3 | § 4.5 | Aktualisierung | Connecticut SB 5: Unterzeichnung durch Gouverneur Lamont am 29. Mai 2026 belegt und in den bestehenden § 4.5-Block eingetragen (zuvor „Unterzeichnung angekündigt"). | 4 |
+| 4 | § 4.5 | Ergänzung | Neuer Block „Anthropic-Doppelpaket (10. Juni 2026)" mit Advanced AI Framework / Economic Policy Framework / Amodei-Essay „Policy on the AI Exponential"; Disruptionsszenarien 5 % / 10 % / „unprecedented" Arbeitslosigkeit; 350 Mio. USD Eigenmittel (200 Mio. USD Economic Futures Research Fund + 150 Mio. USD National Fellowship); FAA-Style-Zulassung leistungsstarker Modelle; spiegelbildliches Pendant zum Bloomberg-Editorial und zweite KI-Anbieter-Stimme nach OpenAI. | 5 |
+| 5 | § 5.2 | Aktualisierung | GKV-Beitragssatzstabilisierungsgesetz: erste Bundestagslesung 12. Juni 2026, öffentliche Anhörung im Gesundheitsausschuss 22. Juni 2026 (Sachverständige aus Krankenhäusern, Kassen, Apotheken, Pharma-/Ärzteverbänden; Kritik „unausgewogenes Sparvolumen"); zweite Bundesratsbefassung vor Sommerpause 2026 angestrebt. | 6 |
+| 6 | § 1.1 | Ergänzung | Neuer Absatz zur Lagebestätigung Ende Juni 2026: IAB-Kurzbericht 05/2026 (Erwerbstätigkeit −18.000; Bestand Juni 2026 45,78–45,99 Mio.; Erwerbspersonenpotenzial −40.000), SVR-Frühjahrsgutachten 27. Mai 2026 (BIP +0,5 % 2026 / +0,8 % 2027; Inflation 3,0 % / 2,8 %), Bundesbank-Monatsbericht Juni 2026 mit Q1-2026-Unternehmensumfrage zu generativer KI (rund 7.000 Befragte: Nutzung/Planung 26 % → 56 %; 46 % Produktivitätsgewinne ≥ 1 %; >50 % erwarten ≥ 2 % für 2025/2026, ein Viertel ≥ 5 %), TechCrunch/TechTimes/InformationWeek-Aggregate (rund 142.000 / über 150.000 Tech-Stellen 2026), GitLab 3. Juni 2026 (rund 350 Stellen / 14 %) und Oracle Form 10-K vom 22. Juni 2026 (rund 21.000 Stellen / 13 % über zwölf Monate). | 7, 8 |
+| 7 | § 11.3 / § 11.5 | Ergänzung | Sechs neue Literatureinträge: Rat der EU 7. Mai 2026; EP 16. Juni 2026 (Sammelbeleg Kanzleianalysen); Bundestag 11. Juni 2026 KI-MIG; Office of the Governor of Connecticut 29. Mai 2026; Anthropic / Amodei 10. Juni 2026 (drei kombinierte Rahmen); IAB-Kurzbericht 05/2026; Bundesbank Monatsbericht Juni 2026; SVR Frühjahrsgutachten 27. Mai 2026; TechCrunch/TechTimes/InformationWeek Layoff-Aggregate Mai/Juni 2026. | 1–8 |
+| 8 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Ende Juni 2026 (Schnitt am 25. Juni 2026 — Lauf 001 vom 25. Juni 2026)" geändert; die sieben neuen Treffer-Bündel in den Auflistungstext aufgenommen; vorhandener Stand Mai 2026 (OpenAI Workshop, Microsoft VRSAR, Cluster-F-Wellen, Cloudflare, Challenger April-Report u. a.) als unveränderter Fortbestand markiert. | 1–8 |
+| 9 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 in Versionszeile, Zitiervorschlag und KI-Offenlegung; neuer Versions-Eintrag in der KI-Offenlegung mit den sieben Treffer-Bündeln; „Stand Anfang Mai 2026" → „Stand Ende Juni 2026". | — |
+| 10 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 25. Juni 2026 (Lauf 001 vom 25. Juni 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | OECD *Governing with Artificial Intelligence* (18. September 2025) | A/F | Außerhalb 7-Wochen-Fenster; relevanter Vertiefungsbaustein für späteren Lauf vorgemerkt (Cluster A). |
+| 2 | Korinek & Lockwood NBER WP 34873 / Brookings *Future of tax policy* | A | Dublette zu Versionen 9.0 und 18.0; bestehende §-3.3-Einbindung gilt unverändert. |
+| 3 | Anthropic Economic Index — Folgeberichte | I | Kein neuer Folgebericht im Beobachtungsfenster 8. Mai – 25. Juni 2026; bestehender § 3.5-Block bleibt aktuell. |
+| 4 | IFR World Robotics — Bericht 2025 | J | Standardpublikation ohne neuen Jahrgang im Beobachtungsfenster; bestehende § 1.1-/§ 2.2-Einbindung bleibt aktuell. |
+| 5 | G-BA / gematik / BfArM (Cluster G) | G | Fünftes Mal in Folge ohne KI-spezifische Beschlüsse im Beobachtungsfenster; siehe Auffälligkeiten. |
+| 6 | Trump *AI Action Plan* / Federal Preemption — Folgeschritte | D | Keine Bewegung über National AI Policy Framework März 2026 hinaus; bestehender § 4.5-Block bleibt aktuell. |
+| 7 | Plattform-Digitalabgabe (Weimer) — Eckpunktepapier | B | Keine Bewegung über April 2026 hinaus; Eckpunktepapier weiterhin nicht beschlossen; bestehender § 4.4-Block bleibt aktuell. |
+| 8 | Microsoft VRSAR — Programm-Ergebnis | F | Annahmefrist 8. Juni 2026, Separation Date 1./2. Juli 2026; finale Annahmerate zum Recherchezeitpunkt nicht öffentlich; bestehender § 1.1-Block bleibt aktuell, im nächsten Lauf zu prüfen. |
+| 9 | Sanders / Ocasio-Cortez *AI Data Center Moratorium Act* | D | Keine Bewegung im US-Senat über die Einbringung am 25. März 2026 hinaus; bestehender § 4.5-Block bleibt aktuell. |
+| 10 | Generationenkapital — Rendite und Tranchen | D/E | Bereits in § 8.6 mit Erstjahresrendite 7,2 % geführt; keine neuen Tranchen- oder Renditeangaben im Beobachtungsfenster. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 25. Juni 2026 (Lauf 001 vom 25. Juni 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): folgt in Phase 5
+- Word erstellt (`build_docx.py`): folgt in Phase 5
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+
+### Auffälligkeiten / offene Punkte
+
+- Erster regulärer Daily-Update-Lauf nach längerer Pause seit dem 8. Mai 2026 (Version 22.0); das Beobachtungsfenster wurde von 7 Tagen auf 7 Wochen erweitert, weil die in `Suchthemen.md` vorgesehenen Cluster sonst nicht mit dem realen Erkenntnisstand zur Deckung gebracht worden wären — sieben belegbare Treffer-Bündel wurden integriert.
+- Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne KI-spezifische Beschlüsse im 7-Tage-Fenster; Empfehlung weiterhin: gezielter Abruf von g-ba.de Sitzungsergebnissen (Mai/Juni-Sitzungstermine 21. Mai, 4. Juni, 18. Juni 2026), gematik-Pressemitteilungen und BfArM-DiGA-Listings mit KI-Komponente.
+- Microsoft-VRSAR Programm-Ergebnis (Annahmefrist 8. Juni 2026, Separation Date 1./2. Juli 2026): finale Annahmerate zum Recherchezeitpunkt nicht öffentlich; im nächsten Lauf nachzutragen.
+- Cluster F: Aggregat-Stand für Juni 2026 ist weiter konsolidierend, aber ohne neue Einzelwellen oberhalb der 1.000-Stellen-Schwelle außer GitLab (3. Juni 2026, 350 Stellen — unterhalb der 500+-Schwelle, aber ausdrücklich KI-bezogen und prominent kommuniziert) und Oracle (22. Juni 2026, kumuliert 21.000 / 13 % über zwölf Monate aus der Form-10-K-Offenlegung — keine neue Einzelwelle, aber rückwirkende Quantifizierung).
+- Phase 5b: Empfänger aus der Routine-Anweisung dieses Aufrufs übernommen; Empfängerdaten werden weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Es war in der laufenden Session weder ein E-Mail-Versand-Tool (`mail_send` / `send_mail` / `send_message` / `outlook_send` aus `graph-mcp`) noch ein WhatsApp-Versand-Tool (`wa_send_message` / `send_message` aus dem `whatsapp`-MCP) erreichbar; gemäß Phase-5b-Spezifikation wurden die vorbereiteten Inhalte als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben (Dateien stehen in `.gitignore`, werden also nicht versioniert). Der Lauf fährt gemäß Phase-5b-Regel („Versandfehler sind weich") mit Phase 6 fort.
+- Branch dieses Laufs: `claude/determined-einstein-rb8jk6` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push am 25. Juni 2026 neu angelegt). Phase-6-Cleanup: Lokaler Merge in `main` erfolgreich (`git merge --no-ff`, Merge-Commit lokal angelegt); der Push auf `origin/main` wurde wie schon bei Lauf 003 vom 7. Mai 2026 mit HTTP 403 abgewiesen (Branch-Schutz / Hosting-Policy). Der Inhalt liegt vollständig im gepushten Session-Branch `origin/claude/determined-einstein-rb8jk6` vor und kann beim nächsten administrativen Zugriff in `main` integriert werden. Lokaler und Remote-Session-Branch bleiben bestehen, bis der administrative Merge erfolgt ist.
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor

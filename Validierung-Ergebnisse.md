@@ -7,6 +7,60 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 25. Juni 2026 (Lauf 001 vom 25. Juni 2026) — Version 22.0 → Version 23.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf nach längerer Pause seit dem 8. Mai 2026 (Version 22.0). Web-Recherche im Korridor der Cluster A–J am 25. Juni 2026: Optimalsteuer-/Aufgabenforschung (Cluster A), Robotersteuer / Wertschöpfungsabgabe / EU- und nationale Regulierung (Cluster B), internationale Praxis (Cluster C), Politik-Initiativen / Anbieter-Politikpapiere (Cluster D), Arbeitsmarkt- und Sozialversicherungsdaten (Cluster E), Tech-Layoffs / KI-Capex 48-Stunden-Fenster (Cluster F), Gesundheitswesen (Cluster G), Deutschland-These-Bezugspunkte (Cluster H), Frontier-Modelle (Cluster I), Robotik (Cluster J). Sieben belegbare Treffer-Bündel im Zeitraum 7. Mai – 24. Juni 2026 identifiziert und eingearbeitet: Digital Omnibus on AI (Trilog-Einigung 7. Mai 2026 / EP-Plenar 16. Juni 2026); Bundestags-Verabschiedung des KI-Durchführungsgesetzes am 11. Juni 2026 mit BNetzA als Marktaufsicht; Lamont-Unterzeichnung von SB 5 am 29. Mai 2026; Anthropic-Doppelpaket vom 10. Juni 2026 (Advanced AI Framework + Economic Policy Framework + Amodei-Essay „Policy on the AI Exponential" mit 350 Mio. USD Eigenmitteln); GKV-Beitragssatzstabilisierungsgesetz (Bundestag 1. Lesung 12. Juni 2026; Anhörung 22. Juni 2026); IAB-Kurzbericht 05/2026, SVR-Frühjahrsgutachten 27. Mai 2026, Bundesbank-Monatsbericht Juni 2026 mit Q1-2026-Unternehmensumfrage zu generativer KI (rund 7.000 Befragte); Tech-Layoff-Fortschreibung (rund 142.000 / 150.000+; GitLab 3. Juni 2026; Oracle 22. Juni 2026 21.000 / 13 %).
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Keine. |
+| 2.1.2 Nummerierung | OK | Keine. |
+| 2.1.3 Querverweise | OK | Keine. |
+| 2.1.4 Roter Faden | OK | Keine. |
+| 2.1.5 Formatierung | OK | Keine. |
+| 2.2.1 Sachliche Richtigkeit | OK | Keine. |
+| 2.2.2 Redundanzprüfung | OK | Anthropic-Doppelpaket § 4.5 mit Querverweis auf § 4.5 Bloomberg-Editorial und § 4.5 OpenAI; keine inhaltliche Dopplung. |
+| 2.2.3 Argumentation | OK | Keine. |
+| 2.2.4 Ausgewogenheit | OK | Anthropic-Empfehlung im Konjunktiv referiert; gegenläufige Bloomberg-Linie weiterhin sichtbar. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | Keine. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neue Quellen in 11.3 (institutionell) und 11.5 (journalistisch/praxisnah) korrekt zugeordnet. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-Stil eingehalten. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Sieben Treffer-Bündel mit Datierung Mai/Juni 2026 und Primär- oder mindestens sekundär verlässlichen Quellen. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobenartig: bundestag.de/kw24-de-ki-1183820, consilium.europa.eu/press/26/05/07, portal.ct.gov, anthropic.com/policy-on-the-ai-exponential, publikationen.bundesbank.de/monatsbericht-juni-2026 — alle erreichbar oder über Subdomain-Path verifiziert. |
+| 2.4.5 Zitatgenauigkeit | OK | Anthropic-Frameworks und Amodei-Essay-Inhalte gemäß publizierter Texte; Bundesbank-Befunde gemäß Monatsbericht Juni 2026; SVR-BIP-Werte 0,5 / 0,8 % gemäß Frühjahrsgutachten 27. Mai 2026. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | de la Feria 2022 weiterhin markiert; Sanders-Report Oktober 2025 weiterhin verifiziert. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 23.0 in Dokumentkopf, Abschlusshinweis (Aktualitätshinweis), README, Validierung-Ergebnisse identisch; CC BY 4.0 und Haftungshinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine dedizierten Prüfskripte vorhanden. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine kritischen Fehler identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine Bereinigung erforderlich. | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 23.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 8. Mai 2026 (Lauf 001 vom 8. Mai 2026) — Version 21.0 → Version 22.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf am 8. Mai 2026 (nach den drei Tagesaktualisierungen am 7. Mai 2026, die in den Versionen 19.0, 20.0 und 21.0 protokolliert sind). Web-Recherche im Korridor der Cluster A–J am 8. Mai 2026: Optimalsteuer-/Aufgabenforschung (Cluster A); Robotersteuer/Wertschöpfungsabgabe DE/EU (Cluster B); internationale Praxis (Cluster C); Politik-Initiativen (Cluster D); Arbeitsmarkt- und Sozialversicherungsdaten (Cluster E); Tech-Layoffs / KI-Capex 48-Stunden-Fenster (Cluster F); Gesundheitswesen (Cluster G); Deutschland-These-Bezugspunkte (Cluster H); Frontier-Modelle (Cluster I); Robotik (Cluster J). Drei belegbare Treffer im 7-Tage- bzw. 48-Stunden-Fenster identifiziert und eingearbeitet (Cloudflare-Layoff vom 7. Mai 2026; Challenger *April-2026-Job-Cuts-Report* vom 1. Mai 2026; TrueUp-Tagesfortschreibung 8. Mai 2026); alle übrigen recherchierten Themen waren in Version 21.0 bereits enthalten oder lagen außerhalb des 7-Tage- bzw. 48-Stunden-Korridors.
