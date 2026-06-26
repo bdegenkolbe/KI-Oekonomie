@@ -1550,3 +1550,60 @@ Keine Fehler gefunden; die Version 6.0 war konsistent und nur um neue Sachständ
 - Neue Version: 9.0
 - PDF erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.pdf` via `build_pdf.py`)
 - Word erstellt: Ja (`Arbeitspapier_KI_Robotik_Besteuerung.docx` via `build_docx.py`)
+
+
+---
+
+## Validierung 26. Juni 2026 (Lauf 002 vom 26. Juni 2026) — Version 22.0 → Version 23.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf nach 7-wöchiger Pause seit Lauf 001 vom 8. Mai 2026. Recherchekorridor 9. Mai – 26. Juni 2026 (erweitertes Zeitfenster, da der Standard-7-Tage-Filter den Gap zwischen den Läufen nicht abbildet). Sechs belegbare Entwicklungen identifiziert und eingearbeitet; Vertiefung in Cluster D (Anthropic Economic Policy Framework, Sanders American AI Sovereign Wealth Fund Act) und Cluster F (Challenger Mai-Report, TrueUp-Tracker-Stand 24. Juni 2026); knappe Ergänzungen in B (Digital Omnibus on AI Trilog-Einigung / EP-Bestätigung), C (OECD Pillar 2 GIR-Frist 30. Juni 2026), E (GKV-Bundestags-Anhörung 22. Juni 2026).
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; Deutschland-These weiterhin Zentrum von Kapitel 8. |
+| 2.1.2 Nummerierung | OK | Kapitel- und Unterabschnitts-Nummerierung lückenlos; fünf Robotersteuer-Typen, drei Hebel, sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Anthropic-EPF-Block referenziert § 8.6 (Teilhabefonds), § 5.4 (OpenAI-Vorschlag), § 2.1 Typ 5, § 9.1 (Messprobleme), § 3.3 (Falk & Tsoukalas); Sanders-SWF verweist auf § 8.6, § 5.4; Challenger-Mai-Linie verweist auf § 9.1. |
+| 2.1.4 Roter Faden | OK | Neue Befunde ordnen sich in bestehende argumentative Linien ein: Cluster F verschärft die in § 1.1 entwickelte KI-Selbstattributions-Linie und schließt an die in § 9.1 dokumentierten Mess-/Umgehungsprobleme an; Cluster D verfestigt die in § 4.5 entwickelte Konvergenz auf eine Eigenkapital-/Staatsfonds-Architektur. |
+| 2.1.5 Formatierung | OK | Fett-Lead-Ins (Anthropic Economic Policy Framework, American AI Sovereign Wealth Fund Act) einheitlich; keine doppelten Trennlinien. |
+| 2.2.1 Sachliche Richtigkeit | OK | Challenger Mai-2026-Report 38.579 KI-Stellen / 40 % Monatsanteil / YTD 87.714 (challengergray.com, inc.com, techjacksolutions.com); Sanders SWF Act 50 % Aktien-Abgabe / Schwellenwert 200 Mio. USD (tax.thomsonreuters.com, fortune.com, reason.com); Anthropic EPF dreistufig / 350 Mio. USD (anthropic.com EPF-PDF, fortune.com, gizmodo.com, hrdive.com); EU AI Omnibus Trilog 7. Mai / EP 16. Juni 2026 (twobirds.com, table.media, aoshearman.com); OECD GIR 30. Juni 2026 / Common Understanding 18. Mai 2026 (oecd.org, taxnews.ey.com); GKV-Lesung 12. Juni 2026 / Anhörung 22. Juni 2026 (bundestag.de). |
+| 2.2.2 Redundanzprüfung | OK | Anthropic EPF erstmals im Dokument (keine Vorversion); Sanders SWF Act ist Fortschreibung des bisherigen Sanders-Robotersteuer-Vorschlags, nicht Dopplung — beide Vorschläge bleiben sichtbar nebeneinander; Challenger Mai-Daten sind nicht in den April-Daten enthalten. |
+| 2.2.3 Argumentation | OK | Sanders-SWF und Anthropic-EPF im Konjunktiv (Gesetzentwurf bzw. Policy-Vorschlag); GKV-Befund (40 Mrd. EUR Lücke bis 2030) als bestätigend referenziert, nicht als Beweis; AI Omnibus mit konkreten Stichtagen bei klarer Status-Angabe (Trilog-Einigung, EP-Bestätigung, noch ausstehende Rats-Annahme). |
+| 2.2.4 Ausgewogenheit | OK | Anthropic-EPF in Kontext der Konkurrenzanbieter-Linie OpenAI eingeordnet; Sanders-SWF mit Aussichts­einschätzung (republikanischer Kongress); Challenger-Selbstattribution mit Caveat der fehlenden Produktivitätsnachweise (TechCrunch 24. Juni / Salesforce Ben). |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „Universal Capital Accounts", „American AI Sovereign Wealth Fund Act", „AI trades or businesses", „GloBE Information Return (GIR)" jeweils im Kontext erklärt; APA-konforme Datumsformate. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neue Quellen: § 11.3 +5 (Sanders/Thomson Reuters/Fortune/Reason; Anthropic EPF/Fortune/Gizmodo/HR Dive/Boston25; EP/Bird&Bird/Table.Briefings/A&O Shearman; Bundestag/BMG; OECD Inclusive Framework/EY/Grant Thornton); § 11.5 +2 (Challenger Mai-Report 4. Juni 2026 / Inc. / Tech Jacks; TrueUp 24. Juni 2026 / Outsource Accelerator / TechCrunch / Salesforce Ben). |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil, vollständige URLs ohne Shortener. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen (anthropic.com EPF-PDF, sanders.senate.gov, oecd.org, bundestag.de, europarl.europa.eu legislative-train); Sekundärbelege durchweg etablierte Mainstream-/Fachkanäle (Fortune, Bloomberg, Reuters/Thomson Reuters Tax, Reason, Gizmodo, HR Dive, Boston25, Bird & Bird, Table.Briefings, A&O Shearman, EY, Grant Thornton, Challenger Gray & Christmas, Inc., TechCrunch, Outsource Accelerator). |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 26. Juni 2026: anthropic.com/policy-on-the-ai-exponential/epf gelistet; oecd.org Pillar-Two-Landingpage stabil; bundestag.de Anhörungs-URL strukturkonform (1184692-1184692); europarl.europa.eu legislative-train Digital-Omnibus-Eintrag aktiv. |
+| 2.4.5 Zitatgenauigkeit | OK | Anthropic-EPF-Stufen (5 %/10 %/unprecedented), Capital Accounts, $350 M Aufteilung 200+150 korrekt paraphrasiert; Sanders-Schwellenwert 200 Mio. USD und 50-%-Aktienabgabe korrekt; Challenger 38.579 / 40 % / 87.714 korrekt; AI Omnibus Stichtage 2. Dez. 2027 / 2. Aug. 2028 / 2. Nov. 2026 / 2. Aug. 2026 korrekt. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 23.0 durchgängig: Dokumentkopf, `README.md` (Versionszeile, Stand, Zitiervorschlag, KI-Offenlegung), `Validierung-Ergebnisse.md` (dieser Block), Aktualitätshinweis am Dokumentende. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltliche Ergänzung hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Nur inhaltliche Ergänzung; keine Bereinigung bestehender Fehler erforderlich. | — |
+
+### Nachprüfung
+
+- 2.1.1 – 2.1.5 nach Einarbeitung: OK
+- 2.2.1 / 2.4.1 / 2.4.2 / 2.4.3 / 2.4.5 nach Ergänzung der Literaturnachweise: OK
+- 2.5 Versionskonsistenz: OK (23.0 in Dokumentkopf, `README.md` × 2 — Versionszeile und Zitiervorschlag —, diesem Protokoll, Aktualitätshinweis am Dokumentende)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine identifiziert)
+- Neue Version: 23.0
+- PDF erstellt: Ja (`KI-Ökonomie.pdf` via `build_pdf.py`)
+- Word erstellt: Ja (`KI-Ökonomie.docx` via `build_docx.py`)
