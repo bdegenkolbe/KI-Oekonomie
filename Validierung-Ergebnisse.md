@@ -7,6 +7,79 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 27. Juni 2026 (Lauf 002 vom 27. Juni 2026) — Version 22.0 → Version 23.0
+
+**Auslöser:** Zweiter regulärer Daily-Update-Lauf nach Lauf 001 vom 8. Mai 2026; Zeitabstand 50 Tage. Web-Recherche im Korridor der Cluster A–J mit Zeitfenstern gemäß `Suchthemen.md` (Standard 7 Tage; Cluster F und I: 48 Stunden). Im 7-Tage-Fenster (20.–27. Juni 2026) und ergänzend im 48-Stunden-Fenster wurden sieben belegbare Treffer mit unmittelbarem Bezug zur Steuer- und Sozialstaatsdebatte identifiziert und eingearbeitet: Connecticut SB 5 als *Public Act 26-15* (Unterzeichnung 2. Juni 2026); EP-Plenarbestätigung des Digital Omnibus on AI (16. Juni 2026); Anthropic *Economic Policy Framework* / *Policy on the AI Exponential* / *Advanced AI Framework* mit 350-Mio-USD-Finanzierung (10. Juni 2026); Sanders *American AI Sovereign Wealth Fund Act* (18. Juni 2026); IAB-Kurzbericht 08/2026 zur generativen KI-Nutzung in deutschen Betrieben (Juni 2026); Anthropic Economic Index *„Cadences"* (10. Juni 2026); Acemoglu, Gitmez & Shadmehr *„Automation and Repression"* (NBER WP 35336, Juni 2026). Flankierend wurde die Tracker-Tagesfortschreibung zum 26. Juni 2026 sowie die Cognizant-Project-Leap-Konkretisierung dokumentiert.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | Connecticut Public Act 26-15 (CART Act) — Unterzeichnung durch Gouverneur Ned Lamont am 2. Juni 2026; gestaffeltes Inkrafttreten ab 1. Oktober 2026 (Automated Employment Decision Technology, „AI is not a defense", Frontier-Whistleblower, WARN-AI-Disclosure), 1. Januar 2027 (anonyme Meldewege Frontier-Entwickler) und 1. Oktober 2027 (Deployer-Vorab-Information). | § 4.5 Connecticut-Block aktualisiert (Stand der Unterzeichnung); § 11.3 neuer Eintrag „Public Act 26-15" mit fünf Kanzlei-/Analyse-URLs (Ropes & Gray, Holland & Knight, DLA Piper, Freshfields, FPF). | Schließt die in Version 18.0–22.0 dokumentierte Hängepartie ab; macht aus einer angekündigten Unterzeichnung den geltenden Rechtsstand und damit eine US-bundesstaatliche Referenz für jede künftige Typ-5-Diskussion (zielgerichtete Ersatzabgabe). |
+| 2 | EU Digital Omnibus on AI — provisorische Trilog-Einigung 7. Mai 2026; förmliche EP-Plenarbestätigung am 16. Juni 2026; Ratsannahme und OJ-Veröffentlichung vor 2. August 2026 erwartet. | § 4.3 ergänzt um den Trilog-Schritt und die EP-Plenarbestätigung; § 11.3 neuer Eintrag „EP/Rat (7. Mai / 16. Juni 2026)" mit drei URLs. | Schließt die in Version 18.0/22.0 als offen dokumentierte Trilog-Linie; bestätigt die in § 4.3 angelegte zeitliche Architektur (Anhang III 2. Dezember 2027, Anhang I 2. August 2028) und liefert den Rechtsrahmen, an den steuerliche Anknüpfungstatbestände nach 2027 zuverlässig anschließen können. |
+| 3 | Anthropic *Economic Policy Framework* + *Policy on the AI Exponential* (Amodei) + *Advanced AI Framework* (10. Juni 2026); 350 Mio. USD Finanzierung (200 Mio. *Economic Futures Research Fund*, 150 Mio. National Fellowship); gestufte fiskalpolitische Reaktionsleiter (5 %, 10 %, „unprecedented"). | Neuer Block in § 4.5 mit Aufbau (drei Dokumente, fünf Politikfelder, FAA-analoge Sicherheitsregulierung, Finanzierungsumfang); § 11.1 drei neue Einträge (Economic Index Cadences, Economic Policy Framework PDF, Amodei-Aufsatz); § 11.5 ein Sammelbeleg mit fünf URLs (ABC News, US News, Crypto Briefing, Built In, AI Weekly). | Erster Frontier-Anbieter mit formaler szenario-gestufter fiskalpolitischer Reaktionsleiter; verbindet sich konzeptionell mit § 5.4 (Staatsfonds) und § 8.3 (Teilhabefonds), erweitert OpenAI-Vorschlag April 2026 um konditionale Eskalation. |
+| 4 | Sanders *American AI Sovereign Wealth Fund Act* (18. Juni 2026); 50 % Equity-Einmalsteuer auf US-Unternehmen mit KI-Jahresumsatz ≥ 200 Mio. USD; geschätztes Fondsvolumen rund 7 Bio. USD; 5 % jährliche Bürger­dividende ≈ 1.000 USD/Person und Jahr; *Independent Commission for Democratic AI*. | Neuer Block in § 4.5 (im Anschluss an Sanders-Robotersteuer und vor Anthropic-Block); § 11.3 zwei neue Einträge (Sanders-Bill-Einbringung mit Pressemitteilung und Begleit-Op-Ed); § 11.5 ein Sammelbeleg mit fünf URLs (Axios, NPR, Fortune, Common Dreams, Tom's Hardware). | Erster ausformulierter Gesetzesentwurf zur Equity-Beteiligung der Allgemeinheit an der KI-Wertschöpfung; konzeptionell näher an § 8.3 Teilhabefonds als an klassischer Robotersteuer; konkretisiert die in § 5.4 angelegte Logik mit Schwellenwert und Beteiligungsquote. |
+| 5 | IAB-Kurzbericht 08/2026 (Friedrich & Kagerl, Juni 2026) — generative KI in deutschen Betrieben: 25 % Nutzungsanteil 2025 gegenüber 5 % 2023 (fünffach); 48 % bei Betrieben ≥ 200 Beschäftigte; 21 % bei Betrieben < 10; 59 % im Sektor Information und Kommunikation. | § 1.1 neuer Absatz zur Adoptionsseite mit Querverweis auf § 3.5 und § 8; § 11.3 neuer IAB-Eintrag. | Erste belastbare deutsche Betriebsperspektive zur generativen KI-Adoption; ordnet die Anthropic-Index-Befunde (Adoptionsbreite) für DE empirisch ein; stützt die in § 8 entwickelte Linie einer breit angelegten Anknüpfung statt punktueller Verdrängungsmessung. |
+| 6 | Anthropic Economic Index *„Cadences"* (10. Juni 2026); Tasks aus höher entlohnten Berufsgruppen binden bis zu 2,07-mal so viele Token; 93 % der Konversationen mit konkretem Ergebnis; ergänzende Auswertung *Anthropic Economic Index Survey* (rund 9.700 Antworten, Mai–Juni 2026). | § 3.5 Verlängerung mit zwei Befunden (Token-Skalierung mit Wertschöpfungsgehalt; Deliverable-Quote); § 11.1 neuer Eintrag. | Setzt die Index-Reihe (Cadences nach Primitives, Learning curves) konsistent fort; quantitative Brücke zwischen Lohnstruktur und KI-Nutzungsintensität, relevant für die in § 8.4 dokumentierte Stabilitäts­linie (Sichtbarkeit produktiver Gewinne). |
+| 7 | Acemoglu, Gitmez & Shadmehr *„Automation and Repression"* (NBER WP 35336, Juni 2026); Komplementarität Automatisierung-Repression; Demokratie-Autoritarismus-Pfad als endogenes Ergebnis. | § 3.3 neuer Block (vor Korinek & Lockwood); § 11.1 neuer Eintrag. | Erweitert Optimalsteuer-Linie um ordnungspolitische Dimension; modelltheoretische Stützung des § 8.4-Stabilitäts­arguments — fehlende fiskal-/sozialpolitische Federung erhöht politische Kostenrendite repressiver Strategien. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- Bundestag KI-Verordnungs-Durchführungsgesetz (Drucksache 21/4594) — am 11. Juni 2026 verabschiedet; behandelt nationale Durchführung des AI Act, ohne fiskalische Komponente; im 7-Tage-Fenster, aber inhaltlich für die Steuerdebatte nur mittelbar relevant.
+- South Korea — *Restriction of Special Taxation Act* (RSTA), Verlängerung des integrierten Beschäftigungssteuer­kredits bis 31. Dezember 2028 und AI-Trainingsdaten-Tatbestand ab 27. Februar 2026: außerhalb des 7-Tage-Fensters; bestehender § 6.1-Block bleibt korrekt.
+- Bundesbank Monatsbericht Juni 2026 / SVR — keine spezifischen KI-Arbeitsmarkt-Befunde im Fenster, die über die bestehenden § 1.1- und § 5.2-Aussagen hinausgingen; im nächsten Lauf gezielt zu beobachten.
+- Humanoide Robotik (Cluster J) — Tesla Optimus Gen 3 (1.000+ interne Einheiten), Figure 03 (1/h Produktionsrate, 55+ pro Woche), Unitree (5.500+ 2025) und TrendForce-Prognose 50.000 globale Stückzahl in 2026: außerhalb der politisch-fiskalischen Tagesrelevanz; Markteinordnung in § 1.1 und § 8.1 bleibt korrekt.
+- Bundesrat / GKV-Beitragssatzstabilisierungsgesetz — keine Bewegungen im 7-Tage-Fenster (Vorlauf zum 2. Durchgang); bestehender § 5.2-Block bleibt aktuell.
+- Cluster G (Gesundheitswesen) — DiGA-Verzeichnis weiter wachsend (59 zugelassene Anwendungen), e-Verordnung ab 1. Juni 2026 in Praxen, ePA mit 130 Mio. Dokumenten, gematik TI-2.0-Übergang: zwar im Fenster, aber ohne spezifische KI-Komponente mit fiskal-/sozialstaatlicher Relevanz; bestehender § 7-Block bleibt korrekt.
+- Cluster I (Frontier-Modelle) — im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldung; OpenAI/Anthropic Effizienz-Verschiebung („tokenmaxxing"-Diskussion, CNBC 26. Juni 2026) inhaltlich relevant, aber als Markt-/Produktstrategie kein Steueranknüpfungspunkt — als Beobachtungsmarker im nächsten Lauf zu prüfen.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. Zwei neue Absätze in § 1.1 und § 3.5; je ein neuer Block in § 3.3, § 4.3, § 4.5 (Sanders) und § 4.5 (Anthropic). |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These, sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Neue §-Querverweise auf § 5.1, § 5.4, § 8.3, § 8.4, § 9.1, § 3.5 — alle Ziele existieren weiterhin. |
+| 2.1.4 Roter Faden | OK | Progression Literaturrezeption → Position → Umsetzung unverändert; die Sanders-/Anthropic-Erweiterungen in § 4.5 bleiben in der Rezeptionsschicht, ohne die Deutschland-These in Kapitel 8 zu überlagern. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; bestehende Lead-Ins unverändert; Versionszeile im Dokumentkopf (22.0 → 23.0) und im README konsistent geändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Sanders-Eckwerte (50 % Einmalsteuer, 200 Mio. USD Schwelle, 7 Bio. USD Fonds, 5 % Dividende ≈ 1.000 USD, 7 Kommissarinnen/Kommissare) wörtlich aus sanders.senate.gov und Begleit-Hintergrundpapier; Anthropic-Eckwerte (350 Mio. USD = 200 + 150) wörtlich aus Anthropic-Pressetext und ABC News; IAB-Zahlen (25 %, 9 %, 48 %, 21 %, 59 %) wörtlich aus dem IAB-Pressetext zum Kurzbericht 08/2026; Cadences-Befund (× 2,07 Token, 93 % Deliverable, 9.700 Survey) wörtlich aus dem Anthropic-Bericht und Built In; Acemoglu/Gitmez/Shadmehr-Kernaussage wörtlich aus dem NBER-Abstract; Connecticut Public Act 26-15 und Datum 2. Juni 2026 aus Ropes & Gray und Holland & Knight; EP-Datum 16. Juni 2026 aus A&O Shearman und Table.Briefings. |
+| 2.2.2 Redundanzprüfung | OK | Sanders Sovereign Wealth Fund Act ist gegenüber Sanders-Robotersteuer-Vorschlag Oktober 2025 inhaltlich neu (Equity-Einmalsteuer vs. laufende Verdrängungs­abgabe); Anthropic Cadences ist Folgebericht der Index-Reihe (Primitives Januar, Learning Curves März); IAB-Kurzbericht 08/2026 ist neue Adoptionsperspektive — keine Doppelung. Die in § 1.1 ergänzte Tracker-Tagesfortschreibung führt die Reihe 25. April → 2. Mai → 6. Mai → 7. Mai → 8. Mai → 26. Juni 2026 fort. |
+| 2.2.3 Argumentation | OK | Acemoglu/Thuemmel-Trennung unverändert; Sanders-Vorschlag wird im Konjunktiv referiert (Gesetzentwurf, nicht Gesetz); Anthropic-Framework als Politikvorschlag eines Unternehmens markiert; Acemoglu/Gitmez/Shadmehr als Modellergebnis unter definierten Annahmen referiert. |
+| 2.2.4 Ausgewogenheit | OK | Beim Sanders-Vorschlag werden kritische Stimmen (Reason, AEI) und unterstützende Stimmen (Fortune zur Trump-Administration) ausdrücklich erwähnt; beim Anthropic-Vorschlag wird die Eskalationslogik nicht als alternativlos dargestellt; bei Acemoglu/Gitmez/Shadmehr werden die Modellannahmen genannt. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobenartige Prüfung der eingefügten Passagen ohne Befund. |
+| 2.3.2 Terminologie | OK | „Sovereign Wealth Fund" als zitierter Begriff einheitlich; „Economic Futures Research Fund" mit Originalbezeichnung; „Cadences" als Berichtstitel kursiv; „CART Act" als Berater-Kurzform deklariert. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Sanders-Bill, Anthropic-Framework, Connecticut Public Act 26-15, EP-Trilog-Bestätigung, IAB 08/2026 jeweils in § 11.3 ergänzt; Anthropic Cadences, Economic Policy Framework PDF, Amodei-Aufsatz, Acemoglu/Gitmez/Shadmehr in § 11.1 ergänzt; Tracker-Stand-Juni-2026, Cognizant-Konkretisierung, Sanders-Berichterstattungs-Cluster, Anthropic-Berichterstattungs-Cluster in § 11.5 ergänzt. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-Stil; URLs vollständig (kein Shortener); Datumsangaben einheitlich; Sammelbelege mit „/"-Trenner zwischen Quellen. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen Sanders: sanders.senate.gov und Begleit-Hintergrundpapier; Primärquelle Anthropic: anthropic.com/research/economic-index-june-2026-report und Economic Policy Framework PDF; Primärquelle Connecticut: cga.ct.gov SB 5 Status mit Public Act 26-15; Primärquelle EU: europarl.europa.eu/legislative-train; Primärquelle IAB: iab.de Pressetext; Primärquelle NBER: nber.org/papers/w35336. Sekundärquellen flankierend. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe der neuen URLs aufgerufen: sanders.senate.gov/press-releases/news-sanders-introduces-legislation (öffentlich, konsistent), www.anthropic.com/research/economic-index-june-2026-report (öffentlich, konsistent), www.nber.org/papers/w35336 (öffentlich, Datum und Autorinnen/Autoren konsistent), www.hklaw.com (öffentlich), www.aoshearman.com (öffentlich), iab.de/presseinfo/jeder-vierte-betrieb-in-deutschland-nutzt-generative-ki/ (öffentlich, konsistent). |
+| 2.4.5 Zitatgenauigkeit | OK | Sanders-Eckwerte, Anthropic-Eckwerte, IAB-Anteile, Cadences-Befunde, Acemoglu/Gitmez/Shadmehr-Kernaussage und Connecticut-Daten wörtlich übernommen. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Markierung *de la Feria et al. 2022* unverändert erhalten; die neuen Quellen (Sanders Bill, Anthropic Pressetext, IAB Pressetext, NBER Abstract, Connecticut Public Act) benötigen keine eigene Verifizierungsmarkierung (Primärquellen verfügbar). |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionsnummer 23.0 in Dokumentkopf, Aktualitätshinweis, README.md (Versionszeile, Zitiervorschlag, KI-Offenlegung mit Versionseintrag 23.0) und diesem Validierungsblock identisch; CC-BY-4.0-Hinweis und Haftungshinweis unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Skripte vorhanden; manuelle Stichproben gemäß § 2.6 ersetzen den automatisierten Teil. |
+
+### Gefundene Fehler
+
+Keine — die sieben Ergänzungen sind belegbare Neuigkeiten ohne Korrekturbedarf an bestehenden Aussagen.
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| – | – | Keine Bereinigungen erforderlich. | – |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen (2.1.1–2.1.5, 2.2.1–2.2.4, 2.3.1–2.3.2, 2.4.1–2.4.6, 2.5): OK.
+- Automatisierte Skripte: n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine Fehler).
+- Neue Version: 23.0.
+- PDF erstellt: Ja.
+- Word erstellt: Ja.
+
+---
+
 ## Validierung 8. Mai 2026 (Lauf 001 vom 8. Mai 2026) — Version 21.0 → Version 22.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf am 8. Mai 2026 (nach den drei Tagesaktualisierungen am 7. Mai 2026, die in den Versionen 19.0, 20.0 und 21.0 protokolliert sind). Web-Recherche im Korridor der Cluster A–J am 8. Mai 2026: Optimalsteuer-/Aufgabenforschung (Cluster A); Robotersteuer/Wertschöpfungsabgabe DE/EU (Cluster B); internationale Praxis (Cluster C); Politik-Initiativen (Cluster D); Arbeitsmarkt- und Sozialversicherungsdaten (Cluster E); Tech-Layoffs / KI-Capex 48-Stunden-Fenster (Cluster F); Gesundheitswesen (Cluster G); Deutschland-These-Bezugspunkte (Cluster H); Frontier-Modelle (Cluster I); Robotik (Cluster J). Drei belegbare Treffer im 7-Tage- bzw. 48-Stunden-Fenster identifiziert und eingearbeitet (Cloudflare-Layoff vom 7. Mai 2026; Challenger *April-2026-Job-Cuts-Report* vom 1. Mai 2026; TrueUp-Tagesfortschreibung 8. Mai 2026); alle übrigen recherchierten Themen waren in Version 21.0 bereits enthalten oder lagen außerhalb des 7-Tage- bzw. 48-Stunden-Korridors.

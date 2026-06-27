@@ -54,6 +54,92 @@
 
 ---
 
+## 2026-06-27 — Lauf 002 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster F und I im 48-Stunden-Fenster, übrige Cluster im 7-Tage-Fenster).
+- Zeitfenster: 20.–27. Juni 2026 (Standard 7 Tage), Cluster F/I 25.–27. Juni 2026 (48 Stunden); ergänzende Erfassung von Ereignissen 2.–22. Juni 2026, soweit zum Recherchezeitpunkt (27. Juni 2026) erstmals belegbar konsolidiert.
+- Anzahl Suchanfragen: 12 (Web-Suche), 1 (WebFetch — NBER Abstract w35336).
+- Lauf 002 ist der zweite reguläre Daily-Update-Lauf nach Lauf 001 vom 8. Mai 2026 (Zeitabstand 50 Tage).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B | Connecticut General Assembly / Office of the Governor, *Public Act 26-15 — Connecticut Artificial Intelligence Responsibility and Transparency Act (CART Act)*, Unterzeichnung 2. Juni 2026 | https://www.cga.ct.gov/asp/CGABillStatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB5 | übernommen |
+| 2 | B | Ropes & Gray, *Connecticut Enacts Sweeping AI Law Covering Employment, Healthcare, and Online Safety*, Juni 2026 | https://www.ropesgray.com/en/insights/alerts/2026/06/connecticut-enacts-sweeping-ai-law-covering-employment-healthcare-and-online-safety | übernommen (Sammelbeleg) |
+| 3 | B | Holland & Knight, *Connecticut Enacts Comprehensive AI Legislation*, Juni 2026 | https://www.hklaw.com/en/insights/publications/2026/06/connecticut-enacts-comprehensive-ai-legislation | übernommen (Sammelbeleg) |
+| 4 | B | Europäisches Parlament / A&O Shearman / Bird & Bird / *Table.Briefings*, *Digital Omnibus on AI Trilogue Deal* (7. Mai / 16. Juni 2026) | https://www.aoshearman.com/en/insights/ao-shearman-on-data/digital-omnibus-on-ai-the-trilogue-deal-is-done-what-made-it-what-didnt-and-what-changed | übernommen |
+| 5 | D | Anthropic, *Economic Policy Framework* + *Policy on the AI Exponential* (Amodei) + *Advanced AI Framework*, 10. Juni 2026 | https://www-cdn.anthropic.com/files/4zrzovbb/website/9ea607a5dd67c168093829b701f3a0a6d21156d5.pdf \| https://www.anthropic.com/policy-on-the-ai-exponential | übernommen |
+| 6 | D | ABC News / US News / Crypto Briefing / Built In / AI Weekly, *Anthropic pledges $200 million to research AI's economic impact*, 10. Juni 2026 | https://abcnews.com/Politics/wireStory/anthropic-pledges-200-million-research-ais-economic-impact-133763972 \| https://aiweekly.co/node/2863 | übernommen (Sammelbeleg) |
+| 7 | D | US Senate / Bernie Sanders, *American AI Sovereign Wealth Fund Act*, 18. Juni 2026 | https://www.sanders.senate.gov/press-releases/news-sanders-introduces-legislation-to-create-7-trillion-ai-sovereign-wealth-fund/ | übernommen |
+| 8 | D | Axios / NPR / Fortune / Common Dreams / Tom's Hardware, Sanders Sovereign Wealth Fund Berichterstattung, 3.–18. Juni 2026 | https://www.axios.com/2026/06/18/bernie-sanders-ai-openai-anthropic \| https://www.npr.org/2026/06/18/nx-s1-5861862/sen-sanders-wants-americans-to-have-a-say-and-stake-in-the-future-of-ai \| https://fortune.com/2026/06/03/bernie-sanders-ai-ownership-sovereign-wealth-fund-electrification/ | übernommen (Sammelbeleg) |
+| 9 | E | IAB (Friedrich & Kagerl), *Künstliche Intelligenz in deutschen Betrieben: Jeder vierte Betrieb nutzt mittlerweile generative KI* (IAB-Kurzbericht 08/2026), Juni 2026 | https://iab.de/presseinfo/jeder-vierte-betrieb-in-deutschland-nutzt-generative-ki/ | übernommen |
+| 10 | A | Anthropic, *Anthropic Economic Index Report — Cadences*, 10. Juni 2026 | https://www.anthropic.com/research/economic-index-june-2026-report | übernommen |
+| 11 | A | Acemoglu, D., Gitmez, A. A., & Shadmehr, M., *Automation and Repression* (NBER Working Paper 35336), Juni 2026 | https://www.nber.org/papers/w35336 | übernommen |
+| 12 | F | TrueUp / SkillSyncer / eWeek / TechSpot / TechCrunch, *Layoffs Tracker — Stand 22./26. Juni 2026* | https://www.trueup.io/layoffs \| https://www.eweek.com/news/tech-layoffs-ai-investment-2026/ \| https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/ | übernommen |
+| 13 | F | Mumbaiker / DQIndia / People Matters / Deccan Herald — Cognizant *Project Leap* Konkretisierung, Mai/Juni 2026 | https://www.mumbaiker.com/latest-news/cognizant-project-leap-layoffs-why-15000-indian-it-jobs-are-at-risk-and-what-it-means-for-the-industry/ \| https://www.dqindia.com/news/cognizant-layoff-news-it-company-may-cut-up-to-15000-jobs-under-project-leap-11812518 | übernommen (Sammelbeleg) |
+| 14 | B | Deutscher Bundestag, *Drucksache 21/4594 — Durchführungsgesetz zur EU-KI-Verordnung*, Plenarverabschiedung 11. Juni 2026 | https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-ki-1183820 | verworfen (nationale AI-Act-Umsetzung ohne fiskalische Komponente) |
+| 15 | C | South Korea — *Restriction of Special Taxation Act* (RSTA), Verlängerung Beschäftigungssteuer­kredit, AI-Trainingsdaten-Tatbestand ab 27. Februar 2026 | https://taxsummaries.pwc.com/republic-of-korea/corporate/tax-credits-and-incentives | verworfen (außerhalb 7-Tage-Fenster) |
+| 16 | E | Bundesbank Monatsbericht Juni 2026 / SVR Jahresgutachten 2025/2026 | https://publikationen.bundesbank.de/publikationen-de/berichte-studien/monatsberichte/aktuelle-monatsberichte-922214 | verworfen (kein neuer KI-Arbeitsmarkt-Befund im Fenster) |
+| 17 | G | BfArM DiGA-Verzeichnis / e-Verordnung ab 1. Juni 2026 / ePA 130 Mio. Dokumente / gematik TI 2.0 | https://diga.bfarm.de/de | verworfen (keine KI-spezifischen Beschlüsse mit fiskal-/sozialstaatlicher Relevanz im Fenster) |
+| 18 | J | Tesla Optimus Gen 3 (1.000+ interne Einheiten), Figure 03 (1/h, 55+ pro Woche), Unitree (5.500+ 2025), TrendForce 50.000 globale Stückzahl 2026 | https://www.humanoid.press/ \| https://blog.robozaps.com/b/tesla-model-s-optimus-robot-factory-conversion | verworfen (kein Tagesereignis mit politisch-fiskalischer Implikation) |
+| 19 | I | OpenAI/Anthropic Effizienz-Verschiebung („tokenmaxxing"-Diskussion), CNBC 26. Juni 2026 | https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html | verworfen (Markt-/Produktstrategie ohne unmittelbaren Steueranknüpfungspunkt; als Beobachtungsmarker für den nächsten Lauf vermerkt) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 1.1 | Ergänzung | Neuer Absatz „Tagesfortschreibung Juni 2026" mit TrueUp (157.807 / 420 / 892 pro Tag, 2026-Projektion 370.000), SkillSyncer/eWeek (185.894 / 267 / 1.050 pro Tag), 56 %-KI-Anteil (156.270 / 150 Unternehmen), Cognizant *Project Leap*-Konkretisierung (4.000–15.000 / 256.900 Indien) und Microsoft VRSAR-Pfad (Annahmefrist 8. Juni 2026, Separation 2. Juli 2026). | 12, 13 |
+| 2 | § 1.1 | Ergänzung | Neuer Absatz „Adoptionsseite" mit IAB-Kurzbericht 08/2026 (25 % 2025 vs. 5 % 2023; 48 % bei Betrieben ≥ 200 Beschäftigte; 21 % < 10; 59 % Information und Kommunikation), Querverweis § 3.5 und § 8. | 9 |
+| 3 | § 3.3 | Ergänzung | Neuer Block *Acemoglu, Gitmez & Shadmehr (Juni 2026) — „Automation and Repression"* vor Korinek & Lockwood; Komplementarität Automatisierung-Repression; Demokratie-Autoritarismus-Pfad; Querverweis § 8.4 (Stabilitäts­argument). | 11 |
+| 4 | § 3.5 | Ergänzung | Verlängerung um den *Anthropic Economic Index*-Folgebericht *„Cadences"* vom 10. Juni 2026 (Token × 2,07 bei höher entlohnten Berufsgruppen; 93 % Deliverable-Quote) und um die parallele *Anthropic Economic Index Survey*-Auswertung mit rund 9.700 Antworten (Mai–Juni 2026); Verweis auf *Produktivitäts-Angst-Paradoxie* aus der April-2026-81k-Befragung. | 10 |
+| 5 | § 4.3 | Aktualisierung | Provisorische Trilog-Einigung 7. Mai 2026 und EP-Plenarbestätigung am 16. Juni 2026 zum *Digital Omnibus on AI* ergänzt; verbleibend formale Ratsannahme und OJ-Veröffentlichung vor 2. August 2026 erwartet; zypriotische Ratspräsidentschaft als Träger des Abschlusses vor 30. Juni 2026 benannt. | 4 |
+| 6 | § 4.5 | Aktualisierung | Connecticut SB 5 als *Public Act 26-15* — Unterzeichnung durch Gouverneur Ned Lamont am 2. Juni 2026 in den bestehenden Connecticut-Block eingearbeitet; *CART Act* als Berater-Kurzform vermerkt. | 1, 2, 3 |
+| 7 | § 4.5 | Ergänzung | Neuer Block *Sanders American AI Sovereign Wealth Fund Act (18. Juni 2026)*: 50 % Equity-Einmalsteuer auf US-Unternehmen mit KI-Jahresumsatz ≥ 200 Mio. USD; 7 Bio. USD Fonds; 5 % Dividende ≈ 1.000 USD pro Person und Jahr; *Independent Commission for Democratic AI*; konzeptionelle Anschlüsse zu § 5.4, § 8.3, § 9.1. | 7, 8 |
+| 8 | § 4.5 | Ergänzung | Neuer Block *Anthropic Economic Policy Framework und Policy on the AI Exponential (10. Juni 2026)*: dreiteiliges Paket; gestufte fiskalpolitische Reaktionsleiter (5 %, 10 %, „unprecedented"); 350 Mio. USD Finanzierung (200 Mio. *Economic Futures Research Fund*, 150 Mio. National Fellowship); konzeptionelle Brücke zu OpenAI April 2026 und Sanders 18. Juni 2026. | 5, 6 |
+| 9 | § 11.1 | Ergänzung | Vier neue Einträge: Acemoglu/Gitmez/Shadmehr (NBER 35336); Anthropic Economic Index Cadences (10. Juni 2026); Anthropic Economic Policy Framework (PDF); Amodei *Policy on the AI Exponential*. | 5, 10, 11 |
+| 10 | § 11.3 | Ergänzung | Sechs neue Einträge: US Senate *American AI Sovereign Wealth Fund Act* (Sanders, 18. Juni 2026) mit Begleit-Hintergrundpapier; Sanders Op-Ed; Connecticut Public Act 26-15 mit fünf Kanzlei-/Analyse-URLs; EP/Rat Trilog 7. Mai / EP-Plenarbestätigung 16. Juni 2026; IAB-Kurzbericht 08/2026. | 1–4, 7, 9 |
+| 11 | § 11.5 | Ergänzung | Vier neue Sammelbelege: TrueUp/SkillSyncer/eWeek/TechSpot/TechCrunch-Tracker-Stand Juni 2026; Mumbaiker/DQIndia/People Matters/Deccan Herald Cognizant Project Leap-Konkretisierung; Axios/NPR/Fortune/Common Dreams/Tom's Hardware Sanders-Berichterstattung; ABC News/US News/Crypto Briefing/Built In/AI Weekly Anthropic-Berichterstattung. | 6, 8, 12, 13 |
+| 12 | Aktualitätshinweis | Aktualisierung | Schnittangabe auf „Ende Juni 2026 (Schnitt am 27. Juni 2026 — Lauf 002 vom 27. Juni 2026)" geändert; sieben Juni-2026-Entwicklungen und Tracker-Stand Juni 2026 in den Auflistungstext aufgenommen. | 1–13 |
+| 13 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Versionseintrag 23.0 in der KI-Offenlegung mit den sieben Juni-2026-Entwicklungen und der Tracker-Tagesfortschreibung). | — |
+| 14 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 27. Juni 2026 (Lauf 002 vom 27. Juni 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Bundestag Drucksache 21/4594 — Durchführungsgesetz zur EU-KI-Verordnung (11. Juni 2026) | B | Nationale AI-Act-Umsetzung ohne fiskalische Komponente; für die Steuerdebatte nur mittelbar relevant. |
+| 2 | South Korea RSTA-Verlängerung / AI-Trainingsdaten-Tatbestand (27. Februar 2026) | C | Außerhalb 7-Tage-Fenster; § 6.1-Block bleibt korrekt. |
+| 3 | Bundesbank Monatsbericht Juni 2026 / SVR Jahresgutachten 2025/2026 | E | Kein neuer KI-Arbeitsmarkt-Befund im Fenster; § 1.1 und § 5.2 bleiben aktuell. |
+| 4 | BfArM DiGA-Verzeichnis / e-Verordnung / ePA / gematik TI 2.0 | G | Keine KI-spezifischen Beschlüsse mit fiskal-/sozialstaatlicher Relevanz im Fenster — siebtes Mal in Folge ohne Treffer in Cluster G. |
+| 5 | Tesla Optimus Gen 3 / Figure 03 / Unitree / TrendForce | J | Kein Tagesereignis mit politisch-fiskalischer Implikation; § 1.1 und § 8.1 bleiben korrekt. |
+| 6 | CNBC „tokenmaxxing"-Diskussion 26. Juni 2026 | I | Markt-/Produktstrategie ohne Steueranknüpfungspunkt; im nächsten Lauf gezielt zu prüfen. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 27. Juni 2026 (Lauf 002 vom 27. Juni 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 002 schließt einen Zeitabstand von 50 Tagen zu Lauf 001 (8. Mai 2026); die Trefferdichte im erweiterten Beobachtungsfenster ist entsprechend hoch — sieben belegbare Entwicklungen mit unmittelbarem Bezug zur Steuer-/Sozialstaatsdebatte sind in den Wochen seit Lauf 001 aufgelaufen. Schwerpunkt liegt thematisch in Cluster D (Sanders American AI Sovereign Wealth Fund Act, Anthropic Economic Policy Framework) und Cluster B (Connecticut Public Act 26-15, EU Digital Omnibus Trilog-Bestätigung), ergänzt durch Cluster A (Acemoglu/Gitmez/Shadmehr; Anthropic Index Cadences) und Cluster E (IAB-Kurzbericht 08/2026 zur generativen KI-Adoption).
+- Sanders-Bill und Anthropic-Framework verlaufen nahezu parallel — beide adressieren Equity-/Teilhabe-Modelle für die KI-Wertschöpfung, unterscheiden sich aber in Auslösebedingung (Sanders unmittelbar bei Marktstellung; Anthropic gestuft mit Verdrängungs­schwelle). Für die Deutschland-These (Kapitel 8) liefert beides eine in beide Richtungen anschluss­fähige internationale Referenzlinie.
+- Cluster G (Gesundheitswesen) bereits zum siebten Mal in Folge ohne valide Treffer im 7-Tage-Fenster — Empfehlung für die nächsten Läufe weiterhin bestehend (gezielter Abruf von g-ba.de Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-Listings mit KI-Komponente). Eine Erwägung wäre, das Standard-Zeitfenster für Cluster G versuchsweise auf 14 oder 30 Tage zu erweitern, um die strukturelle Latenz dieses Politikfelds besser abzubilden.
+- Cluster I („tokenmaxxing"-Verschiebung in der Frontier-Modell-Marktstruktur, CNBC 26. Juni 2026) wurde im 48-Stunden-Fenster identifiziert, aber als Markt-/Produktstrategie ohne unmittelbaren Steueranknüpfungspunkt nicht aufgenommen — als Beobachtungsmarker für den nächsten Lauf vermerkt, weil eine Verschiebung der Erlösarchitektur (Effizienz-Token statt Volumen-Token) mittelfristig die Bemessungsgrundlage einer KI-spezifischen Abgabe (vgl. § 4.4 Plattform-Digitalabgabe, § 5.1 Wertschöpfungsabgabe) beeinflussen könnte.
+- Branch dieses Laufs: `claude/determined-einstein-xa6gdu` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push neu angelegt).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Der Versand-Tool-Status (`mail_send` / `send_mail` / `send_message` / `outlook_send` aus `graph-mcp`; `wa_send_message` / `send_message` aus dem `whatsapp`-MCP) wird in Phase 5b geprüft; bei fehlender Tool-Verfügbarkeit werden die vorbereiteten Inhalte gemäß Phase-5b-Spezifikation als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben.
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
