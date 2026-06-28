@@ -7,6 +7,75 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 28. Juni 2026 (Lauf 001 vom 28. Juni 2026) — Version 22.0 → Version 23.0
+
+**Auslöser:** Erster Daily-Update-Lauf nach rund siebenwöchiger Pause (vorhergehender Lauf 001 am 8. Mai 2026, Version 22.0). Recherchekorridor strikt 7-Tage-Fenster (21.–28. Juni 2026; Cluster F/I 48 Stunden) ergänzt um eine *einmalige* Aufnahme zentraler Items zwischen 9. Mai und 20. Juni 2026, die in der gesamten Pause kein Lauf erfasst hat (im Logbuch und im Aktualitätshinweis explizit dokumentiert; Vorgehen analog zur Lauf-003-Präzedenz vom 7. Mai 2026 für das Bloomberg-Editorial vom 29. April 2026, hier nur skaliert auf die Pausenlücke). Fünf belegbare Treffer eingearbeitet: (i) Oracle-Form-10-K vom 22. Juni 2026 (Cluster F, im strikten Fenster); (ii) *American AI Sovereign Wealth Fund Act* von Senator Sanders vom 18. Juni 2026 (Cluster D, Pausenlücke); (iii) *Anthropic Economic Policy Framework* und *Economic Index — Cadences*-Report vom 11. bzw. Juni 2026 (Cluster D/I, Pausenlücke); (iv) EU AI Act *Digital Omnibus on AI* — EP-Schlussabstimmung 16. Juni 2026 und erwartete Council-Annahme 29. Juni 2026 (Cluster B, Pausenlücke / Stichtag im Fenster); (v) *Mai-2026-Job-Cuts-Report* von *Challenger, Gray & Christmas* vom 4. Juni 2026 sowie Tracker-Tagesfortschreibung Stand 27. Juni 2026 (Cluster F, Pausenlücke / strikt im Fenster).
+
+### Aufgenommene Neuigkeiten
+
+| # | Stelle | Inhalt | Quelle |
+|---|---|---|---|
+| 1 | § 1.1 | Neues Update-Absatz nach demografischem-Wandel-Satz; Oracle-Form-10-K-Disclosure 22. Juni 2026 (Belegschaft −21.000, Restrukturierungsaufwand 1,84 Mrd. USD, KI-Begründung im SEC-Wortlaut), Challenger Mai-Report (KI 38.579 / 40 %, YTD 87.714 / 22 %, Tech 38.242 Mai / 123.653 YTD), Tracker 27. Juni 2026 (185.894 / 1.044 pro Tag, 56 % KI-Bezug), Bloomberg US Tech 4. Juni 2026 | Bloomberg / CNBC / Fast Company / HR Director / Challenger / SkillSyncer / TrueUp / TechCrunch (siehe § 11.5) |
+| 2 | § 4.4 | EU AI Act Digital Omnibus: EP-Schlussabstimmung 16. Juni 2026, Council-Annahme erwartet 29. Juni 2026; Verschiebung Hochrisiko-Pflichten 2. Dezember 2027 / 2. August 2028; CSAM-/NCII-Verbot ab 2. Dezember 2026; Art.-50-Watermarking verschoben auf 2. Dezember 2026 | Rat der EU 7. Mai 2026; Sidley Data Matters 22. Juni 2026; Dastra; iubenda (siehe § 11.3) |
+| 3 | § 4.5 | Sanders-Block ergänzt um *American AI Sovereign Wealth Fund Act* (18. Juni 2026): 50 % Equity-Transfer, 7-Bio.-USD-Fonds, rund 1.045 USD Pro-Kopf-Auszahlung; strukturelle Schwächen (kein Veräußerungsrecht, keine Dividenden) im Konjunktiv | sanders.senate.gov 18. Juni 2026; Roll Call; Fortune; Tech Times (siehe § 11.5) |
+| 4 | § 4.5 | Neuer Anthropic-Block zwischen OpenAI- und Bloomberg-Block; Drei-Tier-Plan; Kandidaten-Steuern (Kapitalertrag, Konsum, Tokens/Compute/Umsatz, „Digital Dividends"); 200 Mio. USD Research Fund + 150 Mio. USD Fellowship; Amodei-Selbstverpflichtung rund 3 % AI-Revenue für *Displacement Fund*; *Cadences*-Report 9.700 Survey-Antworten | Anthropic 11. Juni 2026; Fortune 11. Juni 2026 (siehe § 11.3 / § 11.5) |
+| 5 | § 5.4 | Staatsfonds-Block ergänzt um Querverweis auf Sanders-SWF-Act (50 %-Equity-Anknüpfung) und Anthropic-3-%-Revenue-Verpflichtung (Bemessungsgrößen-Korridor zwischen Equity und Revenue) | § 4.5; sanders.senate.gov; Anthropic 11. Juni 2026 |
+| 6 | § 11.3 | Neue Einträge: Sanders 18. Juni 2026; Anthropic *Economic Policy Framework* 11. Juni 2026; Anthropic Economic Index *Cadences* Juni 2026; Rat der EU 7. Mai 2026; EP 16. Juni 2026 — Digital Omnibus on AI Schlussabstimmung | — |
+| 7 | § 11.5 | Neue Einträge: Bloomberg/CNBC/Fast Company/HR Director Oracle 22./23. Juni 2026; Challenger / Bloomberg / Tech Jacks / Outsource Accelerator Mai-Report 4. Juni 2026; Sanders/Roll Call/Fortune/Business Report/Tech Times SWF Act 3./18. Juni 2026; Fortune/Anthropic/Pebblous/Go-to-Agency 11. Juni 2026; TechCrunch / SkillSyncer / TrueUp / InformationWeek Tracker 22./27. Juni 2026 | — |
+| 8 | Aktualitätshinweis | Schnitt auf 28. Juni 2026 (Lauf 001 vom 28. Juni 2026) aktualisiert; alle fünf neuen Items als Kurzfassung in den Auflistungstext aufgenommen; vorhergehende Aktualitätsanker (Mai 2026) bleiben im hinteren Teil des Hinweises erhalten | — |
+| 9 | Dokumentkopf | Stand „Mai 2026" → „Juni 2026"; Version „22.0" → „23.0" | — |
+| 10 | README.md | Versionssprung 22.0 → 23.0 mit neuem Versionseintrag in der KI-Offenlegung; Zitiervorschlag aktualisiert; Aktualisierungs­satz aktualisiert | — |
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterabschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitelnummerierung 1–11 lückenlos; § 4.4, § 4.5, § 5.4 erweitert ohne Nummerierungseingriff; fünf Typen / drei Säulen / sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Neue Querverweise von § 4.5 (Anthropic-Block) auf § 5.4 und § 8.3 sowie von § 5.4 zurück auf § 4.5 stimmig; Verweise auf § 9.1 und § 8.2 erhalten. |
+| 2.1.4 Roter Faden | OK | Update bleibt im bestehenden Fluss „Faktenlage (§ 1.1) → Rechtsraum (§ 4) → Alternativen (§ 5) → Deutschland-These (§ 8) → Bewertung (§ 10)". |
+| 2.1.5 Formatierung | OK | Keine doppelten `---`; einheitliche Fett-/Kursivformatierung; Tabelle in diesem Validierungsblock konsistent. |
+| 2.2.1 Sachliche Richtigkeit | OK | Zahlen mit Primärquellen (SEC-Filing, sanders.senate.gov, Anthropic-PDF, Challenger-PDF) belegt; Konjunktiv für Vorschläge und projizierte Council-Annahme eingehalten. |
+| 2.2.2 Redundanzprüfung | OK | Staatsfonds-Linie in § 5.4 nur ergänzt (Equity vs. Revenue), kein Themen-Doppel zu § 8.3. Anthropic-Block ergänzt OpenAI-Block, dupliziert nicht. |
+| 2.2.3 Argumentation | OK | Sanders-SWF erkennbar als Equity-Variante, OpenAI/Anthropic als Revenue-/Token-Variante; keine Vermengung mit Acemoglu/Thuemmel. |
+| 2.2.4 Ausgewogenheit | OK | Kritische Limitierungen explizit referiert (Sanders-Bill „dividend trap", Anthropic „Policymercial"-Anknüpfung, AI-Washing-Vorbehalt). |
+| 2.3.1 Tippfehler/Grammatik | OK | Stichprobenprüfung im neuen Inhalt; keine Auffälligkeiten. |
+| 2.3.2 Terminologie | OK | „Sovereign Wealth Fund" / „Staatsfonds" konsistent; „Wertschöpfungsabgabe" einheitlich; KI/AI bei Erstnennung. |
+| 2.4.1 Vollständigkeit/Zuordnung | OK | Alle neuen im Fließtext genannten Quellen in § 11.3 (Anthropic, Sanders-Bill, EU-Institutionen) und § 11.5 (Bloomberg/CNBC/Fortune/Challenger/TechCrunch) aufgenommen. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil eingehalten; vollständige URLs angegeben. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen (Pressemitteilungen sanders.senate.gov, Anthropic-Whitepaper, SEC-Filing Oracle 10-K, Rat der EU Pressemitteilung) ergänzt durch journalistische Sammelbelege. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichproben: anthropic.com/policy-on-the-ai-exponential/epf, sanders.senate.gov/press-releases/news-sanders-introduces-legislation-to-create-7-trillion-ai-sovereign-wealth-fund/, consilium.europa.eu/.../2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/, sec.gov/Archives/edgar/.../orcl-ex32_01.htm. |
+| 2.4.5 Zitatgenauigkeit | OK | Oracle-Wortlaut „adoption and deployment of AI technologies … resulted, and may continue to result, in reductions to our workforce" wörtlich aus 10-K-Originalfassung übernommen; Sanders-Bill-Eckwerte ($7 Bio. / 5 % / $1.045) gegen Roll Call und Tech Times geprüft; Anthropic-3-%-Selbstverpflichtung gegen *Fortune* vom 11. Juni 2026 geprüft. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | de la Feria et al. 2022 bleibt markiert; keine Entfernung. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 23.0 in Dokumentkopf, Aktualitätshinweis, README, diesem Validierungsblock; Haftungs- und Lizenzhinweis erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte vorhanden; manuelle Stichproben gemäß § 2.1.2 / § 2.1.3 / § 2.4.1 durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | — | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine Fehler gefunden)
+- Neue Version: 23.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 8. Mai 2026 (Lauf 001 vom 8. Mai 2026) — Version 21.0 → Version 22.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf am 8. Mai 2026 (nach den drei Tagesaktualisierungen am 7. Mai 2026, die in den Versionen 19.0, 20.0 und 21.0 protokolliert sind). Web-Recherche im Korridor der Cluster A–J am 8. Mai 2026: Optimalsteuer-/Aufgabenforschung (Cluster A); Robotersteuer/Wertschöpfungsabgabe DE/EU (Cluster B); internationale Praxis (Cluster C); Politik-Initiativen (Cluster D); Arbeitsmarkt- und Sozialversicherungsdaten (Cluster E); Tech-Layoffs / KI-Capex 48-Stunden-Fenster (Cluster F); Gesundheitswesen (Cluster G); Deutschland-These-Bezugspunkte (Cluster H); Frontier-Modelle (Cluster I); Robotik (Cluster J). Drei belegbare Treffer im 7-Tage- bzw. 48-Stunden-Fenster identifiziert und eingearbeitet (Cloudflare-Layoff vom 7. Mai 2026; Challenger *April-2026-Job-Cuts-Report* vom 1. Mai 2026; TrueUp-Tagesfortschreibung 8. Mai 2026); alle übrigen recherchierten Themen waren in Version 21.0 bereits enthalten oder lagen außerhalb des 7-Tage- bzw. 48-Stunden-Korridors.
