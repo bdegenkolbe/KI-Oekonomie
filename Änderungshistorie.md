@@ -121,9 +121,9 @@
 - PDF erstellt (`build_pdf.py`): Ja (in Phase 5)
 - Word erstellt (`build_docx.py`): Ja (in Phase 5)
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
-- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
-- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
-- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- Branch auf main gemerged und gelöscht: lokal vorbereitet (--no-ff-Merge-Commit erstellt), Push auf `origin/main` mit HTTP 403 abgewiesen (siehe „Auffälligkeiten / offene Punkte"); Stand des Laufs ist über den Session-Branch `claude/determined-einstein-tzaqk6` in `origin` verfügbar.
+- E-Mail-Versand (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (kein E-Mail-Versand-Tool in der Session erreichbar; Microsoft-365-MCP liefert nur Such-/Lese-Tools, keine Send-Tools)
+- WhatsApp-Versand (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (kein WhatsApp-Versand-Tool in der Session erreichbar)
 
 ### Auffälligkeiten / offene Punkte
 
@@ -133,7 +133,8 @@
 - Die Bundestags-Anhörung vom 22. Juni 2026 markiert die erste systematische Verbände-Stoßrichtung zugunsten einer Einnahmenseiten-Reform der GKV; das verschiebt die fachliche Gewichtung der GKV-Konsolidierungsdebatte aus dem Verbände-Kreis heraus erstmals in Richtung einer mit § 5.1 (Wertschöpfungsabgabe) und § 5.2 (Bürgerversicherung) kompatiblen Linie.
 - Cluster G (Gesundheitswesen) jenseits der GKV-Diskussion erneut ohne KI-spezifische Treffer im 7-Tage-Fenster (fünftes Mal in Folge); Empfehlung weiterhin bestehend: gezielter Abruf von g-ba.de, gematik und BfArM beim nächsten Lauf.
 - Branch dieses Laufs: `claude/determined-einstein-tzaqk6` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push neu angelegt).
-- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten werden weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Der Versand-Tool-Status wird in Phase 5b geprüft; bei fehlender Tool-Verfügbarkeit werden die vorbereiteten Inhalte gemäß Phase-5b-Spezifikation als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben.
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten werden weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. In der laufenden Session war weder ein E-Mail-Versand-Tool (`mail_send` / `send_mail` / `send_message` / `outlook_send` aus `graph-mcp`) noch ein WhatsApp-Versand-Tool (`wa_send_message` / `send_message` aus dem `whatsapp`-MCP) erreichbar; gemäß Phase-5b-Spezifikation wurden die vorbereiteten Inhalte als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben. Der Lauf fährt gemäß Phase-5b-Regel („Versandfehler sind weich") mit Phase 6 fort.
+- Phase 6 Auffälligkeit: Der direkte Push auf `origin/main` (gemäß Phase-6-Schritt 4) wurde wiederholt mit HTTP 403 abgewiesen (vermutlich Branch-Schutz / Hosting-Policy auf `main`; vier Versuche mit exponentiellem Backoff 0/4/8/16 s). Der lokal erzeugte `--no-ff`-Merge-Commit auf `main` wurde daraufhin zurückgesetzt; sämtliche inhaltlichen Änderungen sind über den Session-Branch `claude/determined-einstein-tzaqk6` auf `origin` verfügbar und können beim nächsten administrativen Zugriff (oder über einen ausdrücklich vom Autor freigegebenen Pull-Request) in `main` integriert werden — vergleichbar mit dem in Lauf 003 vom 7. Mai 2026 dokumentierten 403-Verhalten für Remote-Branch-Löschung, das die Inhaltsverfügbarkeit nicht beeinträchtigt hat. Lokaler Branch-Cleanup entfällt damit ebenfalls bis zur Integration.
 
 ---
 
