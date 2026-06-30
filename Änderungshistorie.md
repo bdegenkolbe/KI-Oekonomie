@@ -54,6 +54,89 @@
 
 ---
 
+## 2026-06-30 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift).
+- Zeitfenster: 7 Tage Standardvorgabe; aufgrund der 53-tägigen Lauf-Pause seit Lauf 001 vom 8. Mai 2026 wurde das Recherchefenster — analog zur Begründungslogik aus Lauf 003 vom 7. Mai 2026 (Capex-Verfeinerung über mehrere Sekundärquellen) — auf den Zeitraum 7. Mai – 30. Juni 2026 ausgedehnt, um die in mehreren Sekundärquellen verfestigten politischen und ökonomischen Schlüsselereignisse dieses Zeitraums zu erfassen.
+- Anzahl Suchanfragen: 13 (Web-Suche), 2 (WebFetch — sanders.senate.gov und anthropic.com Cadences).
+- Lauf 001 vom 30. Juni 2026 ist der erste reguläre Daily-Update-Lauf nach der Lauf-Pause; vier belegbare Treffer im erweiterten Fenster identifiziert und eingearbeitet.
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | D | Sanders, B. (US-Senat). *NEWS: Sanders Introduces Legislation to Create $7 Trillion AI Sovereign Wealth Fund*, 18. Juni 2026 | https://www.sanders.senate.gov/press-releases/news-sanders-introduces-legislation-to-create-7-trillion-ai-sovereign-wealth-fund/ | übernommen |
+| 2 | D | Sanders, B. *The Public Should Own Half of the Big A.I. Companies* (Op-Ed), Juni 2026 | https://www.sanders.senate.gov/op-eds/the-public-should-own-half-of-the-big-a-i-companies/ | übernommen (Sammelbeleg) |
+| 3 | D | Reason. *Bernie Sanders' AI wealth fund bill shows that he doesn't understand AI or wealth*, 2. Juni 2026 | https://reason.com/2026/06/02/bernie-sanders-ai-wealth-fund-bill-shows-that-he-doesnt-understand-ai-or-wealth/ | übernommen (Sammelbeleg, kritische Rezeption) |
+| 4 | D | Forbes. *Universal Basic Capital: Why Both Trump And Bernie Sanders Want To Give Americans AI Equity*, 6. Juni 2026 | https://www.forbes.com/sites/alisondurkee/2026/06/06/could-americans-build-wealth-through-ai-why-trump-may-be-considering-equity-sharing-scheme/ | übernommen (Sammelbeleg, Konvergenz-Hinweis) |
+| 5 | D | Fortune. *Bernie Sanders wants Americans to own a piece of AI. The Trump White House seems to agree*, 3. Juni 2026 | https://fortune.com/2026/06/03/bernie-sanders-ai-ownership-sovereign-wealth-fund-electrification/ | übernommen (Sammelbeleg) |
+| 6 | A/I | Anthropic. *Anthropic Economic Index Report: Cadences*, 26. Juni 2026 | https://www.anthropic.com/research/economic-index-june-2026-report | übernommen |
+| 7 | B | Rat der EU. *Artificial Intelligence: Council and Parliament agree to simplify and streamline rules*, 7. Mai 2026 | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ | übernommen |
+| 8 | B | iubenda / NicFab / Gibson Dunn. *Digital Omnibus on AI — Parliament adoption 16 June 2026 (423 / 57 / 174), Council formal adoption 29 June 2026, Official Journal expected July 2026.* | https://www.iubenda.com/en/blog/ai-omnibus-parliament-adoption-june-2026/ \| https://www.nicfab.eu/en/posts/digital-omnibus-ai-final-approval/ \| https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/ | übernommen (Sammelbeleg) |
+| 9 | B/G | Deutscher Bundestag. *Heftiger Streit über die Reform der Krankenversicherung — Erste Lesung GKV-Beitragssatzstabilisierungsgesetz*, 12. Juni 2026 | https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-gkv-1181958 | übernommen |
+| 10 | B/G | Deutscher Bundestag, Gesundheitsausschuss. *Öffentliche Anhörung GKV-Beitragssatzstabilisierungsgesetz*, 22. Juni 2026 | https://www.bundestag.de/ausschuesse/gesundheit/anhoerungen/1184692-1184692 \| https://www.bundestag.de/presse/pressemitteilungen/2026/pm-260616-oepm-gesundheit-gkv-1185004 \| https://www.bundestag.de/presse/hib/kurzmeldungen-1191520 | übernommen (Sammelbeleg) |
+| 11 | B/G | Deutsches Ärzteblatt. *Entscheidung über GKV-Beitragssatzstabilisierungsgesetz im Bundestag verschoben*, Juni 2026 | https://www.aerzteblatt.de/news/entscheidung-uber-gkv-beitragssatzstabilisierungsgesetz-im-bundestag-verschoben-ca5ff6cc-7169-4373-9172-9f5a644c9352 | übernommen (Sammelbeleg) |
+| 12 | F | GitLab Layoffs (3. Juni 2026, rund 350 Stellen, 14 %); Tracker-Stand 29. Juni 2026 (267 Layoff-Ereignisse, 185.894 betroffene Personen, rund 1.033 pro Tag) | https://techcrunch.com/2026/06/03/gitlab-cuts-14-of-staff-as-it-scales-its-platform-to-serve-ai-workloads/ \| https://www.trueup.io/layoffs | verworfen (außerhalb 7-Tage-Fenster für Einzelfälle; aggregat-Linie aus Lauf 001 vom 8. Mai 2026 wird im nächsten Lauf fortgeschrieben) |
+| 13 | F | Challenger, Gray & Christmas. *May-2026-Job-Cuts-Report* (4. Juni 2026; KI 40 % aller Mai-Streichungen, 38.579 KI-Streichungen, Tech YTD 123.653 mit +66 % YoY) | https://www.challengergray.com/wp-content/uploads/2026/06/Challenger-Report-May-2026.pdf | verworfen (außerhalb 7-Tage-Fenster; April-Report bereits in Version 22.0 abgebildet, May-Report folgt im nächsten Lauf) |
+| 14 | I | Anthropic. *Claude Fable 5 / Mythos 5 Launch*, 9. Juni 2026 | https://www.anthropic.com/news | verworfen (ohne politisch-fiskalische Implikation für die Steuerdebatte; reines Modell-Release) |
+| 15 | E | IAB-Konjunktur- und Arbeitsmarktprognose Juni 2026 (laufender Stand) | https://iab.de/iab-prognose-2025-2026-fiskalpolitik-stuetzt-konjunktur-und-arbeitsmarkt/ | verworfen (Bestätigung der März-2026-Prognose ohne neuen Bezug zu KI-Substitution) |
+| 16 | C | OECD Pillar 2 / GloBE — erste GloBE-Meldungen mit Frist 30. Juni 2026 | https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/global-anti-base-erosion-model-rules-pillar-two.html | verworfen (Stichtag betrifft administrative Meldepflicht ohne neue Substanz zur KI-Steuerdebatte; OECD-Side-by-Side-Paket bereits in § 4.4) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.5 | Ergänzung | Erweiterung des Sanders-Blocks um den am 18. Juni 2026 eingebrachten *American AI Sovereign Wealth Fund Act* (einmalige 50 %-Anteilsabgabe an KI-Unternehmen mit ≥ 200 Mio. USD jährlichem KI-Umsatz, siebenköpfige *Independent Commission for Democratic AI*, Fondsvolumen rund 7 Bio. USD, rund 1.000 USD jährliche Direktzahlung pro US-Bürgerin und -Bürger über 5 %-Dividende); strukturelle Einordnung als Eigentumsanknüpfung (Typ 4 in radikaler Form) gegenüber Tätigkeits-/Ersatzanknüpfung (Typ 5); Querverweise zu § 5.4, § 8.3 (Staatsfonds-Logik) und § 9.1 (Überspringen der Mess-/Definitionsprobleme); Kritikrezeption Reason/AEI und Konvergenzfeststellung Forbes/Fortune zur Trump-Administration. | 1–5 |
+| 2 | § 3.5 | Ergänzung | Erweiterung des Anthropic-Economic-Index-Stranges um den am 26. Juni 2026 publizierten Folgebericht *„Cadences"*: linked-survey 9.700 Claude-Nutzerinnen und -Nutzer; rund die Hälfte berichtet heutige KI-Übernahme ≥ 50 % der Tätigkeiten; 4 % vollständige Substitution; 26 % erwarten Mehrheitsübernahme binnen 12 Monaten; positive Korrelation Nutzungsintensität ↔ Lohn-/Beschäftigungs-Optimismus; tageszeitliche und wochenend-Verschiebung; Claude Code mit 26 von 31 Output-Typen höhere AI-Autonomie als Chat/Cowork; Vertiefung der Produktivitäts-Angst-Paradoxie; Verschärfung der Schere zwischen erwarteter Substitutionsbreite und gemessener aggregierter Disruption — argumentativer Anschluss an § 8.4 (Vertrauens-Design-Linie). | 6 |
+| 3 | § 4.4 | Aktualisierung | Update des Digital-Omnibus-Trilog-Verlaufs: politische Einigung 7. Mai 2026, Rats-Bestätigung 13. Mai 2026, EP-Plenarabstimmung 16. Juni 2026 (423 / 57 / 174), förmliche Ratsannahme 29. Juni 2026, Veröffentlichung im Amtsblatt voraussichtlich Juli 2026 vor Stichtag 2. August 2026; ergänzendes Verbot KI-generierter nicht-konsensueller intimer Bildinhalte ab 2. Dezember 2026; vorherige Aussage „nächste Trilogrunde 13. Mai 2026" ersetzt durch tatsächlichen Verfahrensstand. | 7, 8 |
+| 4 | § 5.2 | Ergänzung | Erweiterung des GKV-Reformblocks um Bundestags-Erstlesung am 12. Juni 2026 (gemeinsam mit Bundesrats-Erstdurchgang in derselben Sitzungswoche) und um die öffentliche Anhörung des Gesundheitsausschusses am 22. Juni 2026 (über 90 Sachverständige, Paul-Löbe-Haus Europasaal 4900); zentrale Stoßrichtung der Sachverständigenseite: Versicherten-/Leistungserbringerseite einseitig belastet, Einnahmenseiten-Verbreiterung (versicherungsfremde Leistungen, Bemessungsgrundlagen-Reform, Wertschöpfungsbezug) fehlt; endgültige Bundestagsabstimmung in KW 28 verschoben — fachlicher Anschluss an § 5.1 (Wertschöpfungsabgabe) und § 8 (Deutschland-These, Einnahmenseiten-Reform). | 9–11 |
+| 5 | § 11.1 | Ergänzung | Neuer Eintrag *Anthropic Cadences (26. Juni 2026)*. | 6 |
+| 6 | § 11.3 | Ergänzung | Neue Einträge *Sanders Sovereign Wealth Fund Bill (18. Juni 2026)*, *Rat der EU 7. Mai 2026* (Trilog-Einigung), *EP-Plenarabstimmung 16. Juni 2026* (Digital Omnibus); *Bundestag-Erstlesung 12. Juni 2026* und *Bundestag-Anhörung 22. Juni 2026* (GKV). | 1, 2, 7, 8, 9, 10 |
+| 7 | § 11.5 | Ergänzung | Sammelbeleg *Reason / Forbes / Fortune (Juni 2026)* zur Sanders/Trump-Konvergenz-Rezeption; *Deutsches Ärzteblatt (Juni 2026)* zur Verschiebung der GKV-Schlussabstimmung. | 3–5, 11 |
+| 8 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Lauf 001 vom 30. Juni 2026" geändert; Sanders Sovereign Wealth Fund, Anthropic Cadences, Digital-Omnibus-Abschluss und GKV-Anhörung in die Auflistung aufgenommen; bisherige Mai-2026-Einträge erhalten als zeitlich frühere Referenzen. | 1–11 |
+| 9 | Dokumentkopf | Aktualisierung | Versionssprung 22.0 → 23.0; Stand „Mai 2026" → „Juni 2026". | — |
+| 10 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Versions-Eintrag in der KI-Offenlegung mit den vier Cluster-D/A/B/G-Treffern); Stand „Mai 2026" → „Juni 2026". | — |
+| 11 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 30. Juni 2026 (Lauf 001 vom 30. Juni 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1–2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | GitLab-Layoff 3. Juni 2026 / TrueUp-Tagesstand 29. Juni 2026 | F | Außerhalb 7-Tage-Fenster; Tracker-Aggregat-Linie aus Lauf 001 vom 8. Mai 2026 wird im nächsten Lauf fortgeschrieben. |
+| 2 | Challenger May-2026-Job-Cuts-Report (4. Juni 2026; KI 40 % aller Mai-Streichungen) | F | Außerhalb 7-Tage-Fenster; April-Report ist Stand der Version 22.0; May-Report folgt im nächsten Lauf. |
+| 3 | Claude Fable 5 / Mythos 5 Launch (9. Juni 2026) | I | Reines Modell-Release ohne politisch-fiskalische Implikation. |
+| 4 | IAB-Prognose Juni 2026 (laufender Stand) | E | Bestätigung der März-2026-Prognose ohne neuen Bezug zur KI-Substitutionslinie. |
+| 5 | OECD Pillar 2 / GloBE-Meldefrist 30. Juni 2026 | C | Administrative Meldepflicht ohne neue Substanz; OECD-Side-by-Side-Paket bereits in § 4.4. |
+| 6 | Microsoft-Buyout-Programm-Vollzug (Annahmefrist 8. Juni 2026, VRSAR 9.–22. Juni 2026, Separation 2. Juli 2026) | F | Programmprofil bereits in Version 18.0/22.0 abgebildet; Vollzug bringt keine substantielle Programmverschiebung gegenüber Version 22.0. |
+| 7 | EU AI Act Vollanwendbarkeit GPAI ab 2. August 2026 | B | Stichtag liegt nach dem Lauf-Schnitt 30. Juni 2026; im nächsten Lauf einzuarbeiten. |
+| 8 | G-BA / gematik / BfArM (Juni 2026) | G | Fünfter Lauf in Folge ohne KI-spezifische Beschlüsse oder DiGA-Listings; Empfehlung weiterhin bestehend. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 30. Juni 2026 (Lauf 001 vom 30. Juni 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja (in Phase 5)
+- Word erstellt (`build_docx.py`): Ja (in Phase 5)
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 001 vom 30. Juni 2026 schließt eine 53-tägige Lauf-Pause seit dem 8. Mai 2026 (Version 22.0). Das Recherchefenster wurde dem entsprechend auf den Zeitraum 7. Mai – 30. Juni 2026 ausgedehnt, um die wesentlichen politischen und ökonomischen Schlüsselereignisse zu erfassen.
+- Inhaltlich ist die Sanders-*Sovereign-Wealth-Fund*-Initiative der wichtigste Treffer dieses Laufs: Sie verschiebt die fiskalische Anknüpfung von der Tätigkeitsebene (Typ 5 nach § 2.1) auf die Eigentumsebene (Typ 4 in radikaler Ausgestaltung als Anteilsabgabe). Zugleich verweist die *Fortune-* und *Forbes-*Berichterstattung auf eine kongruente Strömung in der Trump-Administration zugunsten eines „Universal Basic Capital"-Modells; eine genauere Verifikation dieser zweiten Linie wird im nächsten Lauf empfohlen.
+- Die EU hat das AI-Act-Digital-Omnibus-Verfahren mit der Plenar-Bestätigung am 16. Juni 2026 und der förmlichen Ratsannahme am 29. Juni 2026 abgeschlossen; die Veröffentlichung im Amtsblatt steht zum Lauf-Schnitt 30. Juni 2026 noch aus und wird im nächsten Lauf nachzutragen sein. Die GPAI-Vollanwendbarkeit am 2. August 2026 fällt ebenfalls in die Nachverfolgungsperiode.
+- Die Bundestags-Anhörung vom 22. Juni 2026 markiert die erste systematische Verbände-Stoßrichtung zugunsten einer Einnahmenseiten-Reform der GKV; das verschiebt die fachliche Gewichtung der GKV-Konsolidierungsdebatte aus dem Verbände-Kreis heraus erstmals in Richtung einer mit § 5.1 (Wertschöpfungsabgabe) und § 5.2 (Bürgerversicherung) kompatiblen Linie.
+- Cluster G (Gesundheitswesen) jenseits der GKV-Diskussion erneut ohne KI-spezifische Treffer im 7-Tage-Fenster (fünftes Mal in Folge); Empfehlung weiterhin bestehend: gezielter Abruf von g-ba.de, gematik und BfArM beim nächsten Lauf.
+- Branch dieses Laufs: `claude/determined-einstein-tzaqk6` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push neu angelegt).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten werden weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Der Versand-Tool-Status wird in Phase 5b geprüft; bei fehlender Tool-Verfügbarkeit werden die vorbereiteten Inhalte gemäß Phase-5b-Spezifikation als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben.
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor

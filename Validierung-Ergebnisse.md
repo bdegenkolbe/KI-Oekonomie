@@ -7,6 +7,67 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 30. Juni 2026 (Lauf 001 vom 30. Juni 2026) — Version 22.0 → Version 23.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf nach 53 Tagen Pause seit Lauf 001 vom 8. Mai 2026 (Version 22.0). Web-Recherche im Korridor der Cluster A–J am 30. Juni 2026: Optimalsteuer-/Aufgabenforschung (Cluster A); Robotersteuer/Wertschöpfungsabgabe DE/EU (Cluster B); internationale Praxis (Cluster C); Politik-Initiativen (Cluster D); Arbeitsmarkt- und Sozialversicherungsdaten (Cluster E); Tech-Layoffs / KI-Capex (Cluster F); Gesundheitswesen (Cluster G); Deutschland-These-Bezugspunkte (Cluster H); Frontier-Modelle (Cluster I); Robotik (Cluster J). Angesichts der 53-tägigen Lauf-Pause wurde das Recherchefenster — analog zur Begründungslogik aus Lauf 003 vom 7. Mai 2026 — über das standardmäßige 7-Tage- (bzw. 48-Stunden-) Fenster hinaus auf den Zeitraum 7. Mai – 30. Juni 2026 ausgedehnt, um die wesentlichen, in mehreren Sekundärquellen verfestigten Entwicklungen zu erfassen. Vier belegbare Treffer wurden identifiziert und eingearbeitet (Anthropic Economic Index *„Cadences"* vom 26. Juni 2026; Sanders *American AI Sovereign Wealth Fund Act* vom 18. Juni 2026; EU *Digital Omnibus on AI* — Plenarbestätigung 16. Juni 2026, förmliche Ratsannahme 29. Juni 2026; GKV-Beitragssatzstabilisierungsgesetz — Bundestags-Erstlesung 12. Juni 2026, öffentliche Anhörung 22. Juni 2026).
+
+### Aufgenommene Neuigkeiten
+
+- **Anthropic Economic Index *„Cadences"* (26. Juni 2026):** Linked-survey-Folgebericht mit rund 9.700 Claude-Nutzerinnen und -Nutzern; etwa die Hälfte berichtet eine KI-Fähigkeit von ≥ 50 % der eigenen Tätigkeiten heute, mehr als ein Drittel erwartet binnen zwölf Monaten KI-Übernahme „der meisten oder fast aller" Aufgaben; *berichtete* Exposition über *beobachteter* Exposition; positive Korrelation zwischen Nutzungsintensität und Lohn-/Beschäftigungs-Optimismus; Verschärfung der *Produktivitäts-Angst-Paradoxie* — eingearbeitet als Erweiterung des Anthropic-Index-Stranges in § 3.5 und als neuer Eintrag in § 11.1.
+- **Sanders *American AI Sovereign Wealth Fund Act* (18. Juni 2026):** Erstmals als Gesetzentwurf eingebrachter Senatsvorschlag mit einmaliger 50 %-Anteilsabgabe an KI-Unternehmen mit jährlichen KI-Umsätzen ab 200 Mio. USD; siebenköpfige *Independent Commission for Democratic AI*; Fondsvolumen rund 7 Bio. USD; 5 %-Jahresdividende implizierte rund 1.000 USD/Jahr pro US-Bürgerin und -Bürger — eingearbeitet als Erweiterung des Sanders-Blocks in § 4.5 und als neuer Eintrag in § 11.3 (Sanders 18. Juni 2026; Rezeption Reason/Forbes/Fortune).
+- **EU *Digital Omnibus on AI* — Plenarbestätigung 16. Juni 2026 (423 zu 57, 174 Enthaltungen) und förmliche Ratsannahme 29. Juni 2026:** Aktualisierung des in § 4.4 dokumentierten Trilog-Standes; Bestätigung der Stichtage 2. Dezember 2027 (Anhang III) und 2. August 2028 (Anhang I); ergänzendes Verbot KI-generierter nicht-konsensueller intimer Bildinhalte ab 2. Dezember 2026 — eingearbeitet in § 4.4 und als neuer Eintrag in § 11.3 (Consilium 7. Mai 2026; EP-Plenarabstimmung 16. Juni 2026).
+- **GKV-Beitragssatzstabilisierungsgesetz — Bundestags-Erstlesung 12. Juni 2026 und Anhörung 22. Juni 2026:** Über 90 geladene Sachverständige und Verbände; gemeinsame Stoßrichtung: einseitige Belastung der Versicherten- und Leistungserbringerseite, fehlende Verbreiterung der Einnahmenseite (versicherungsfremde Leistungen, Bemessungsgrundlagen-Reform, Wertschöpfungsbezug); endgültige Bundestagsabstimmung in KW 28 verschoben — eingearbeitet in § 5.2 (Erweiterung des bestehenden GKV-Reformblocks) und als neuer Eintrag in § 11.3 (Bundestag-Anhörung 22. Juni 2026; Bundestag-Erstlesung 12. Juni 2026; Deutsches Ärzteblatt zur Verschiebung).
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Zusammenfassung + Inhaltsverzeichnis unverändert. Zusammenfassung referenziert die Deutschland-These weiterhin explizit. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos. Fünf Typen der Robotersteuer (§ 2.1) auf fünf Belege überprüft; drei Säulen der Deutschland-These (§ 8) und sieben Empfehlungen (§ 10.2) unverändert. |
+| 2.1.3 Querverweise | OK | Neue Querverweise: § 3.5 → § 8.4 (Cadences-Bericht und Vertrauens-Design-Argument); § 4.5 → § 5.4 und § 8.3 (Sanders-Sovereign-Wealth-Fund und Staatsfonds-Logik); § 4.5 → § 9.1 (Eigentumsebene überspringt Mess-/Definitionsprobleme); § 5.2 → § 5.1 und § 8 (Anhörungs-Stoßrichtung Einnahmenseite). |
+| 2.1.4 Roter Faden | OK | Progression Literaturrezeption → Sektoranwendung → Deutschland-These → Umsetzung weiterhin nachvollziehbar; die Sanders-Sovereign-Wealth-Fund-Erweiterung liegt strukturell auf der Anknüpfungsebene (Eigentum statt Tätigkeit) und ergänzt § 4.5 ohne Duplizierung der Staatsfonds-Argumentation in § 5.4 / § 8.3. |
+| 2.1.5 Formatierung | OK | Keine zusätzlichen Trennlinien oder Lead-In-Unregelmäßigkeiten eingeführt. |
+| 2.2.1 Sachliche Richtigkeit | OK | Daten (18. Juni 2026 Senatsentwurf; 16. Juni 2026 EP-Abstimmung mit 423 / 57 / 174; 29. Juni 2026 förmliche Ratsannahme; 22. Juni 2026 Bundestags-Anhörung 14:15–16:45; 26. Juni 2026 Anthropic-Folgebericht) gegen Pressemitteilungen Senat/Council/EP/Bundestag, gegen Anthropic-Eigenpublikation und gegen Sekundärquellen (Reason, Forbes, Fortune, iubenda, Gibson Dunn, NicFab, Bundestag-Pressedienst, Deutsches Ärzteblatt) abgeglichen. |
+| 2.2.2 Redundanzprüfung | OK | Die Sovereign-Wealth-Fund-Logik wird in § 4.5 als neuer US-Pfad (Eigentumsanknüpfung) eingeführt und nicht in § 5.4 / § 8.3 dupliziert; dort steht weiterhin die deutsche Staatsfonds-Argumentation, beide Stellen verweisen wechselseitig. |
+| 2.2.3 Argumentation | OK | Acemoglu/Thuemmel/Anthropic-Linien werden nicht vermengt; die Cadences-Befunde sind als Vertiefung der Produktivitäts-Angst-Paradoxie aus dem 81k-Folgeband ausgewiesen, nicht als Widerlegung des Yale-Budget-Lab-Aggregatbefundes. |
+| 2.2.4 Ausgewogenheit | OK | Sanders-Sovereign-Wealth-Fund wird mit Kritikrezeption (Reason, AEI) und Konvergenzfeststellung (Forbes/Fortune zur Trump-Administration-Linie) eingebettet; Bloomberg-/IW-Köln-Einwände bleiben in § 4.5 sichtbar. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichproben in den neuen Passagen ohne Auffälligkeiten. |
+| 2.3.2 Terminologie | OK | „Anthropic Economic Index", „American AI Sovereign Wealth Fund Act", „Digital Omnibus on AI", „GKV-Beitragssatzstabilisierungsgesetz" durchgängig einheitlich; „Wertschöpfungsabgabe" konsequent nicht als „Wertschöpfungssteuer". |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Alle neu eingeführten Quellen in § 11 zugeordnet: § 11.1 (Anthropic Cadences); § 11.3 (Sanders Sovereign Wealth Fund, EP-Plenarabstimmung, Consilium-Pressemitteilung, Bundestag-Anhörung / -Erstlesung); § 11.5 (Reason/Forbes/Fortune-Rezeption, Deutsches Ärzteblatt). |
+| 2.4.2 Formale Einheitlichkeit | OK | Zitierstil (Autor/Institution, Datum, Titel, URL) eingehalten; bei mehreren URLs Trennung mit Pipe-Zeichen analog zu bestehenden Einträgen. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen für Sanders (sanders.senate.gov), Consilium und EP, Bundestag und Bundesrat, Anthropic; Sekundäranalysen ergänzend. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobenartiger Aufruf der vier wichtigsten neuen URLs (Sanders-Pressemitteilung, Consilium-Pressemitteilung, Anthropic-Cadences-Bericht, Bundestag-Anhörungsseite) im Recherchelauf abgesichert. |
+| 2.4.5 Zitatgenauigkeit | OK | Schlüsselzahlen (50 %-Anteilsabgabe, 200 Mio. USD-Schwelle, 7 Bio. USD Fondsvolumen, 1.000 USD/Jahr Dividende; EP-Abstimmungsergebnis 423/57/174; Anthropic 9.700-Befragten-Sample, 4 %-vollständige-Substitution, 26 % erwarten Mehrheits-Übernahme in 12 Monaten) gegen Primärquellen abgeglichen. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Markierung de la Feria et al. 2022 bleibt erhalten; Sanders-Report (Oktober 2025) ist seit Version 5.0 vollständig verifiziert (Primärquelle sanders.senate.gov); Sanders Sovereign Wealth Fund (18. Juni 2026) ist durch eigene Pressemitteilung primärquellenmäßig belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionsnummer 23.0 in Dokumentkopf (Zeile 12), Aktualitätshinweis am Dokumentende, README.md (Versionszeile, Zitiervorschlag) und im Validierungsabschluss konsistent eingetragen; Haftungshinweis am Dokumentende und CC-BY-4.0-Lizenz in README unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Keine dedizierten Skripte vorhanden; manuelle Stichproben gemäß § 2.1.2, § 2.1.3 und § 2.4.1 durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler festgestellt. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine Bereinigung erforderlich. | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK (keine Bereinigung erforderlich)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine Fehler festgestellt)
+- Neue Version: 23.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 8. Mai 2026 (Lauf 001 vom 8. Mai 2026) — Version 21.0 → Version 22.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf am 8. Mai 2026 (nach den drei Tagesaktualisierungen am 7. Mai 2026, die in den Versionen 19.0, 20.0 und 21.0 protokolliert sind). Web-Recherche im Korridor der Cluster A–J am 8. Mai 2026: Optimalsteuer-/Aufgabenforschung (Cluster A); Robotersteuer/Wertschöpfungsabgabe DE/EU (Cluster B); internationale Praxis (Cluster C); Politik-Initiativen (Cluster D); Arbeitsmarkt- und Sozialversicherungsdaten (Cluster E); Tech-Layoffs / KI-Capex 48-Stunden-Fenster (Cluster F); Gesundheitswesen (Cluster G); Deutschland-These-Bezugspunkte (Cluster H); Frontier-Modelle (Cluster I); Robotik (Cluster J). Drei belegbare Treffer im 7-Tage- bzw. 48-Stunden-Fenster identifiziert und eingearbeitet (Cloudflare-Layoff vom 7. Mai 2026; Challenger *April-2026-Job-Cuts-Report* vom 1. Mai 2026; TrueUp-Tagesfortschreibung 8. Mai 2026); alle übrigen recherchierten Themen waren in Version 21.0 bereits enthalten oder lagen außerhalb des 7-Tage- bzw. 48-Stunden-Korridors.
