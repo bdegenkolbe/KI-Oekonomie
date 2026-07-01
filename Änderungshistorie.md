@@ -54,6 +54,95 @@
 
 ---
 
+## 2026-07-01 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster G — Gesundheitssektor — fünftes Mal in Folge ohne belegbare Neuigkeit im 7-Tage-Fenster; Cluster J im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldung; Cluster A/B/D/F mit mehreren belegbaren Treffern im erweiterten Zeitraum).
+- Zeitfenster: 7 Tage (24. Juni – 1. Juli 2026); Cluster F/I 48 Stunden (29. Juni – 1. Juli 2026). Der Zeitraum seit dem letzten Lauf (8. Mai 2026) beträgt mehr als 50 Tage; ergänzend wurden belegbare Entwicklungen aus dem erweiterten Zeitraum 9. Mai – 1. Juli 2026 in den Blick genommen, um die dokumentarische Kontinuität zu wahren.
+- Anzahl Suchanfragen: 10 (Web-Suche, parallelisiert).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B | Rat der EU, *Artificial intelligence: Council gives final green light to simplify the EU's AI rules under Omnibus VII*, 29. Juni 2026 | https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/ | übernommen |
+| 2 | B | Europäische Kommission Press Corner, *EU agrees to simplify AI rules — Omnibus VII*, 29. Juni 2026 | https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1024 | übernommen (Sammelbeleg) |
+| 3 | B | Gibson Dunn, *EU AI Act Omnibus Agreement — Postponed High-Risk Deadlines and Other Key Changes*, Juni 2026 | https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/ | übernommen (Sammelbeleg) |
+| 4 | B | A&O Shearman, *Digital Omnibus on AI: The trilogue deal is done — What made it, what didn't and what changed*, Juni 2026 | https://www.aoshearman.com/en/insights/ao-shearman-on-data/digital-omnibus-on-ai-the-trilogue-deal-is-done-what-made-it-what-didnt-and-what-changed | übernommen (Sammelbeleg) |
+| 5 | B | Deutscher Bundestag, *Ja zur Durchführung der Verordnung über künstliche Intelligenz*, 11. Juni 2026 | https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-ki-1183820 | übernommen |
+| 6 | B | Bundesregierung / BMDS, *KI-Verordnung beschlossen* / Verfahrensseite zum Gesetz zur Durchführung der KI-Verordnung | https://www.bundesregierung.de/breg-de/aktuelles/umsetzung-ki-verordnung-2406638 \| https://bmds.bund.de/service/gesetzgebungsverfahren/gesetz-zur-durchfuehrung-der-ki-verordnung | übernommen (Sammelbeleg) |
+| 7 | B | Ropes & Gray / Holland & Knight / WilmerHale / Forbes / FPF, *Connecticut Enacts Sweeping AI Law — Public Act 26-15 (SB 5)*, 2. Juni 2026 | https://www.ropesgray.com/en/insights/alerts/2026/06/connecticut-enacts-sweeping-ai-law-covering-employment-healthcare-and-online-safety \| https://www.hklaw.com/en/insights/publications/2026/06/connecticut-enacts-comprehensive-ai-legislation \| https://www.forbes.com/sites/alonzomartinez/2026/05/29/connecticuts-ai-law-signals-a-new-phase-of-employment-ai-regulation/ \| https://fpf.org/blog/sb-5-in-five-what-to-know-about-connecticuts-new-ai-law/ | übernommen |
+| 8 | D | Fortune / Bloomberg Tax / Memeburn / TechTimes, *Anthropic just proposed taxing itself to pay for the jobs its AI destroys — Amodei policy essay and $350M commitment*, 11. Juni 2026 | https://fortune.com/2026/06/11/anthropic-dario-amodei-ai-jobs-tax-displacement-fund/ \| https://news.bloombergtax.com/daily-tax-report-international/anthropic-ceo-floats-tax-on-ai-firms-to-fund-universal-income \| https://memeburn.com/anthropic-backs-ai-tax-proposal-with-350m-worker-fund/ \| https://www.techtimes.com/articles/318217/20260611/ai-regulation-push-amodei-demands-power-blocking-unsafe-models-anthropic-pledges-350-million.htm | übernommen |
+| 9 | A/I | Anthropic Research, *Anthropic Economic Index report: Cadences*, 26. Juni 2026 | https://www.anthropic.com/research/economic-index-june-2026-report | übernommen |
+| 10 | F | Challenger, Gray & Christmas, *Challenger Report — May 2026: Job Cuts Rise 16 % from April; AI Emerges as Leading Cause*, 4. Juni 2026 | https://www.challengergray.com/wp-content/uploads/2026/06/Challenger-Report-May-2026.pdf | übernommen |
+| 11 | F | CNBC, *„AI is now the leading reason companies give for cutting jobs" — new report*, 5. Juni 2026 | https://www.cnbc.com/2026/06/05/ai-is-now-the-leading-reason-companies-give-for-cutting-jobs-says-new-report-what-that-means-for-workers.html | übernommen (Sammelbeleg) |
+| 12 | F | Yahoo Finance, *Layoff announcements tick higher in May, with AI as the leading cause*, Juni 2026 | https://finance.yahoo.com/economy/article/layoff-announcements-tick-higher-in-may-with-ai-as-the-leading-cause-093000409.html | übernommen (Sammelbeleg) |
+| 13 | F | TechCrunch, *The running list: major tech layoffs in 2026 where employers cited AI*, 22. Juni 2026 | https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/ | übernommen |
+| 14 | E | Deutscher Bundestag, *GKV-Beitragssatzstabilisierungsgesetz — 1. Lesung 12. Juni 2026 / Anhörung 22. Juni 2026 / geplante 2./3. Lesung 10. Juli 2026* | https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-gkv-1181958 \| https://www.bundestag.de/presse/pressemitteilungen/2026/pm-260616-oepm-gesundheit-gkv-1185004 \| https://www.bundestag.de/dokumente/textarchiv/2026/kw28-de-gkv-1184352 | übernommen |
+| 15 | E | Bundesregierung, *Rentenanpassung 2026 — Renten steigen zum 1. Juli 2026 um 4,24 %* | https://www.bundesregierung.de/breg-de/aktuelles/rentenanpassung-2026-2337000 | verworfen (außerhalb KI-/Automatisierungs-Korridors — Randinformation ohne Substitutionsbezug) |
+| 16 | C | OECD, *GIR XML Schema Guidance for the first GloBE filing and exchange cycle*, 8. Juni 2026; erste GIR-Filing-Deadline 30. Juni 2026 | https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/global-anti-base-erosion-model-rules-pillar-two.html | verworfen (Verwaltungsimplementierung; ändert die in § 4.4 dokumentierte Grundarchitektur nicht) |
+| 17 | C | Bloomberg / Fortune, *Chinese court rules firms can't lay off workers on AI grounds — Hangzhou/Beijing rulings*, 2./3. Mai 2026 | https://www.bloomberg.com/news/articles/2026-05-02/chinese-court-rules-firms-can-t-lay-off-workers-on-ai-grounds \| https://fortune.com/2026/05/03/chinese-court-layoffs-workers-ai-replacement-labor-market/ | verworfen (außerhalb 7-Tage-Fensters; wiederholt das Beijing-Präzedens aus Dezember 2025 auf einer weiteren Instanz — in einem späteren Vertiefungslauf für § 6.4 zu prüfen) |
+| 18 | J | Figure AI / Tesla / Boston Dynamics, Serienproduktion humanoide Robotik (Figure: 1 Roboter/Stunde bei BotQ; 1.250+ Betriebsstunden bei BMW Spartanburg; Optimus Gen 3 Fremont) | https://www.humanoid.press/ \| https://newmarketpitch.com/blogs/news/humanoid-robotics-optimus-deployment-tracker | verworfen (keine Tagesmeldung mit politisch-fiskalischer Implikation im 48-Stunden-Fenster) |
+| 19 | G | G-BA / gematik / BfArM (Juni 2026) | https://www.g-ba.de/ | verworfen (fünftes Mal in Folge ohne KI-spezifische Beschlüsse im 7-Tage-Fenster) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.3 | Ergänzung | Finale Verabschiedung des *Digital Omnibus on AI* durch den Rat der EU im *Omnibus VII*-Paket am 29. Juni 2026 (nach EP-Endorsement 16. Juni 2026 und COREPER-Bestätigung 13. Mai 2026) mit Hochrisiko-Anwendungsdaten (Anhang III 2. Dezember 2027; Anhang I 2. August 2028), neuer Verbotsklausel für nicht-einvernehmliche intime Inhalte, verkürzter Transparenz-Übergangsfrist und Sandbox-Verschiebung; ergänzend dazu Beschluss des *KI-MIG-Gesetzes* durch den Bundestag am 11. Juni 2026 mit Zentralisierung der KI-Aufsicht bei der Bundesnetzagentur. | 1–6 |
+| 2 | § 4.5 | Aktualisierung | Connecticut *SB 5* durch Gouverneur Lamont am 2. Juni 2026 als *Public Act 26-15* unterzeichnet — Nachtrag zur Vorlauf-Notiz aus Lauf 001 vom 8. Mai 2026. | 7 |
+| 3 | § 4.5 | Ergänzung | Neuer eigenständiger Block *Anthropic-Amodei-Vorstoß (11. Juni 2026)* vor dem Bloomberg-Editorial-Block: Umsatzabgabe von rund 3 % relevanter Unternehmen zur UBI-Finanzierung, Prognose 50 % Substitution der Einstiegs-Weißkragen-Positionen in fünf Jahren, Selbstverpflichtungspaket 350 Mio. USD (Economic Futures Research Fund 200 Mio. USD, Claude Corps Fellowship 150 Mio. USD). | 8 |
+| 4 | § 3.5 | Ergänzung | Sechster *Anthropic-Economic-Index*-Bericht *„Cadences"* vom 26. Juni 2026 als methodische Weiterentwicklung: stündliche Telemetrie, Artifact-Classifier (~93 % Artefakt-Anteil), Panel-Befragung 9.700 Nutzer mit dem Befund positiver Wirkungserwartung bei höherem Automatisierungsanteil — Verzahnung mit der Produktivitäts-Angst-Paradoxie und der Deutschland-These § 8.3. | 9 |
+| 5 | § 1.1 | Aktualisierung | *Challenger*-Mai-2026-Job-Cuts-Report vom 4. Juni 2026 als neuer Block: 97.006 Streichungen im Mai 2026 (+16 % gegenüber April 2026, Rekord-Mai seit 2020); KI-bezogen 38.579 (rund 40 % — erstmals meistgenannter Einzelgrund); Tech 38.242 (heftigster Monat seit August 2024); YTD KI-bezogen 87.714 (übertrifft bereits Ganzjahr 2025); explizit mit der Altman-Warnung zur KI-Zuschreibungs­heuristik versehen. | 10–13 |
+| 6 | § 5.2 | Aktualisierung | Fortschreitender parlamentarischer Weg des *GKV-Beitragssatzstabilisierungsgesetzes*: Bundestag 1. Lesung 12. Juni 2026, öffentliche Anhörung des Gesundheitsausschusses 22. Juni 2026 mit rund 90 Fach- und Sozialverbänden, 2./3. Lesung angesetzt 10. Juli 2026; parlamentarisch weiterhin ausschließlich ausgabenseitig bearbeitet. | 14 |
+| 7 | § 11.1 | Ergänzung | Neuer Eintrag *Anthropic (26. Juni 2026) — Cadences* im Literaturverzeichnis. | 9 |
+| 8 | § 11.3 | Ergänzung | Fünf neue Einträge: *Europäisches Parlament / Rat der EU / COREPER (Omnibus VII)*, *Deutscher Bundestag (KI-MIG-Gesetz, 11. Juni 2026)*, *Connecticut / Governor Ned Lamont (PA 26-15)*, *Anthropic / Dario Amodei (11. Juni 2026)*, *Deutscher Bundestag (GKV-BStabG Juni 2026)*. | 1–8, 14 |
+| 9 | § 11.5 | Ergänzung | Zwei neue Sammelbelege: *Challenger, Gray & Christmas / CNBC / Yahoo Finance (4./5. Juni 2026)* zum Mai-Report und *TechCrunch (22. Juni 2026)* zur running-list-Aufstellung. | 10–13 |
+| 10 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnitt-Angabe auf „Anfang Juli 2026 (Schnitt am 1. Juli 2026 — Lauf 001 vom 1. Juli 2026)" umgestellt; Vorspann zur Version-23.0-Rezeption ergänzt (sechs Blöcke). | 1–14 |
+| 11 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Versionseintrag in der KI-Offenlegung mit sechs Neuzugängen). | — |
+| 12 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 1. Juli 2026 (Lauf 001 vom 1. Juli 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1 – 2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Rentenanpassung 2026 (+4,24 %, 1. Juli 2026) | E | Außerhalb des KI-/Automatisierungs-Korridors — Randinformation ohne Substitutionsbezug; die im Papier bearbeitete Wertschöpfungsabgaben-Logik wird nicht berührt. |
+| 2 | OECD GIR XML Schema Guidance (8. Juni 2026) + erste GIR-Filing-Deadline (30. Juni 2026) | C | Verwaltungsimplementierung des Pillar-2-Rahmens; verändert die in § 4.4 dokumentierte Grundarchitektur nicht. |
+| 3 | Chinesische Gerichtsurteile Hangzhou/Beijing (Mai 2026) zu KI-Ersatz-Kündigungen | C | Außerhalb 7-Tage-Fenster; wiederholt das Beijing-Präzedens aus Dezember 2025 auf einer weiteren Instanz; in späterem Vertiefungslauf für § 6.4 zu prüfen. |
+| 4 | Humanoide Robotik (Figure BotQ 1 Roboter/Stunde; BMW Spartanburg 1.250 Betriebsstunden; Optimus Gen 3) | J | Fortschritt in Serienproduktion, aber ohne politisch-fiskalisch relevante Tagesmeldung im 48-Stunden-Fenster. |
+| 5 | Bundesrat GKV-BStabG (2. Durchgang) | E | Noch nicht terminiert zum Stichtag 1. Juli 2026; über den Bundestagsanhörungs-Block in § 5.2 mittelbar abgedeckt. |
+| 6 | Bundestag KI-MIG-Gesetz — Bundesrats-Zustimmung | B | Zum Stichtag 1. Juli 2026 nicht dokumentiert; in einem späteren Lauf nachzutragen. |
+| 7 | G-BA / gematik / BfArM (Juni 2026) | G | Fünftes Mal in Folge ohne KI-spezifische Beschlüsse im 7-Tage-Fenster. |
+| 8 | Bundesbank / SVR (Juni 2026) | E | Keine neuen KI-arbeitsmarktbezogenen Stellungnahmen im 7-Tage-Fenster. |
+| 9 | Frontier-Modelle / Inferenzpreise (Cluster I) | I | Keine politisch-fiskalisch relevante Tagesmeldung im 48-Stunden-Fenster. |
+| 10 | Trump National AI Framework — Folge-Executive-Orders (Juni 2026) | D | Keine gesetzgeberisch verbindliche neue Maßnahme im 7-Tage-Fenster über den in § 4.5 bereits dokumentierten Rahmen hinaus. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 1. Juli 2026 (Lauf 001 vom 1. Juli 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): folgt in Phase 5
+- Word erstellt (`build_docx.py`): folgt in Phase 5
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 001 ist der erste reguläre Daily-Update-Lauf nach dem 8. Mai 2026; der Zeitraum seit dem letzten Lauf beträgt mehr als 50 Tage. Um die dokumentarische Kontinuität zu wahren, wurden neben den Treffern im strengen 7-Tage-Fenster (24. Juni – 1. Juli 2026) auch belegbare Entwicklungen aus dem erweiterten Zeitraum 9. Mai – 1. Juli 2026 in den Blick genommen — insbesondere: EU-AI-Act-Omnibus-VII-Verabschiedung (finaler Rat 29. Juni 2026), Bundestag-KI-MIG-Beschluss (11. Juni 2026), Connecticut PA 26-15 (Unterzeichnung 2. Juni 2026), Anthropic-Amodei-Vorstoß (11. Juni 2026), Anthropic Economic Index „Cadences" (26. Juni 2026), Challenger Mai-2026-Report (4. Juni 2026), GKV-BStabG-Bundestagsanhörung (22. Juni 2026).
+- Der EU-Rat-Beschluss vom 29. Juni 2026 schließt die zentrale offene Frage aus Version 22.0 (Trilog-Ergebnis vor 30. Juni 2026?): Der Digital Omnibus on AI ist als *Omnibus VII* verabschiedet, das Vorhaben tritt nach Veröffentlichung im Amtsblatt am dritten Tag danach in Kraft.
+- Der Bundestag hat mit dem *KI-MIG-Gesetz* die deutsche Umsetzung der EU-KI-VO beschlossen; die Zustimmung des Bundesrats steht zum Stichtag 1. Juli 2026 noch aus.
+- Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne valide Treffer im 7-Tage-Fenster; Empfehlung für die nächsten Läufe weiterhin bestehend (gezielter Abruf von g-ba.de Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-Listings). Der GKV-BStabG-Weg wird zwar in § 5.2 dokumentiert, betrifft aber die Ausgabenseite und nicht die KI-spezifische Leistungserbringung.
+- Cluster I/J bleiben im 48-Stunden-Fenster ohne politisch-fiskalisch relevante Tagesmeldung; die Serienreife der humanoiden Robotik (Figure BotQ, BMW Spartanburg 1.250 Betriebsstunden, Optimus Gen 3 Fremont-Vorbereitung) ist zwar in unabhängigen Trackern belegt, wird aber ohne unmittelbare fiskalische Anknüpfung nicht aufgenommen.
+- Chinesische Gerichtsurteile (Hangzhou/Beijing, Mai 2026) zu KI-Ersatz-Kündigungen sind außerhalb des 7-Tage-Fensters und wiederholen das Beijing-Präzedens vom Dezember 2025 auf einer weiteren Instanz; sie werden für einen späteren Vertiefungslauf zu § 6.4 (China) vorgemerkt.
+- Branch dieses Laufs: `claude/determined-einstein-mfrpor` (in Phase 0 verifiziert; lokal vorhanden, Remote nach Push neu angelegt).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. In der laufenden Session ist kein E-Mail-Versand-Tool (`mail_send` / `send_mail` / `send_message` / `outlook_send` aus `graph-mcp`) und kein WhatsApp-Versand-Tool (`wa_send_message` / `send_message` aus dem `whatsapp`-MCP) erreichbar; nur `Microsoft-365`-Such-Tools sind verfügbar. Gemäß Phase-5b-Spezifikation werden die vorbereiteten Inhalte als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben; der Lauf fährt gemäß Phase-5b-Regel („Versandfehler sind weich") mit Phase 6 fort.
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
