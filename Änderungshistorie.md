@@ -123,16 +123,18 @@
 - Recherche abgeschlossen: Ja
 - Deduplikation gegen Hauptdokument: Ja
 - Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 1. Juli 2026 (Lauf 001 vom 1. Juli 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
-- PDF erstellt (`build_pdf.py`): folgt in Phase 5
-- Word erstellt (`build_docx.py`): folgt in Phase 5
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
-- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
-- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
-- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- Branch auf main gemerged: lokal Ja (Merge-Commit `cb783ed`, No-Fast-Forward); Push auf `origin/main` mit HTTP 403 abgewiesen (Branch-Protection). Der Session-Branch wurde erfolgreich gepusht und enthält alle Änderungen; die administrative Übernahme in `origin/main` erfolgt außerhalb dieses Laufs (analog Lauf 003 vom 7. Mai 2026, bei dem die Remote-Branch-Löschung mit 403 abgewiesen wurde).
+- Lokaler Branch-Cleanup: nicht durchgeführt (Session-Branch bleibt erhalten, damit die administrative Übernahme möglich bleibt).
+- E-Mail-Versand (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (kein Versand-MCP in der laufenden Session erreichbar).
+- WhatsApp-Versand (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (kein WhatsApp-MCP in der laufenden Session erreichbar).
 
 ### Auffälligkeiten / offene Punkte
 
 - Lauf 001 ist der erste reguläre Daily-Update-Lauf nach dem 8. Mai 2026; der Zeitraum seit dem letzten Lauf beträgt mehr als 50 Tage. Um die dokumentarische Kontinuität zu wahren, wurden neben den Treffern im strengen 7-Tage-Fenster (24. Juni – 1. Juli 2026) auch belegbare Entwicklungen aus dem erweiterten Zeitraum 9. Mai – 1. Juli 2026 in den Blick genommen — insbesondere: EU-AI-Act-Omnibus-VII-Verabschiedung (finaler Rat 29. Juni 2026), Bundestag-KI-MIG-Beschluss (11. Juni 2026), Connecticut PA 26-15 (Unterzeichnung 2. Juni 2026), Anthropic-Amodei-Vorstoß (11. Juni 2026), Anthropic Economic Index „Cadences" (26. Juni 2026), Challenger Mai-2026-Report (4. Juni 2026), GKV-BStabG-Bundestagsanhörung (22. Juni 2026).
+- Phase-6-Push auf `origin/main` mit HTTP 403 abgewiesen (Branch-Protection); Retry-Versuche mit 2s- und 4s-Backoff blieben ohne Erfolg. Der Merge-Commit `cb783ed` liegt lokal auf `main` vor; die vollständigen Inhalte (Commit `cdc46b1`) sind auf dem Remote-Session-Branch `claude/determined-einstein-mfrpor` gespeichert. Die administrative Übernahme in `origin/main` sollte über einen Pull Request auf GitHub oder eine bevorrechtigte Push-Operation erfolgen.
 - Der EU-Rat-Beschluss vom 29. Juni 2026 schließt die zentrale offene Frage aus Version 22.0 (Trilog-Ergebnis vor 30. Juni 2026?): Der Digital Omnibus on AI ist als *Omnibus VII* verabschiedet, das Vorhaben tritt nach Veröffentlichung im Amtsblatt am dritten Tag danach in Kraft.
 - Der Bundestag hat mit dem *KI-MIG-Gesetz* die deutsche Umsetzung der EU-KI-VO beschlossen; die Zustimmung des Bundesrats steht zum Stichtag 1. Juli 2026 noch aus.
 - Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne valide Treffer im 7-Tage-Fenster; Empfehlung für die nächsten Läufe weiterhin bestehend (gezielter Abruf von g-ba.de Sitzungsergebnissen, gematik-Pressemitteilungen, BfArM-Listings). Der GKV-BStabG-Weg wird zwar in § 5.2 dokumentiert, betrifft aber die Ausgabenseite und nicht die KI-spezifische Leistungserbringung.
