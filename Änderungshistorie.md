@@ -123,10 +123,10 @@
 - Recherche abgeschlossen: Ja
 - Deduplikation gegen Hauptdokument: Ja
 - Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 2. Juli 2026 (Lauf 001 vom 2. Juli 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
-- PDF erstellt (`build_pdf.py`): (Phase 5)
-- Word erstellt (`build_docx.py`): (Phase 5)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
-- Branch auf main gemerged und gelöscht: (Phase 6)
+- Branch auf main gemerged und gelöscht: lokaler Merge (`git merge --no-ff`) auf `main` erfolgreich; `git push origin main` scheitert reproduzierbar mit HTTP 403 (auch nach vier Wiederholungen mit 2/4/8/16-Sekunden-Backoff). Dieselbe Berechtigungsschranke war bereits im Lauf vom 8. Mai 2026 bei der Remote-Branch-Löschung dokumentiert. Der Session-Branch bleibt lokal und im Remote erhalten; Session-Branch-Löschung wird nicht ausgeführt, weil die Merge-Historie noch nicht in `origin/main` sichtbar ist.
 - E-Mail-Versand (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (kein `mail_send`/`send_mail`/`send_message`/`outlook_send`-Tool im `graph-mcp`/Microsoft-365-MCP dieses Laufs erreichbar; nur Read-Only-Suchtools verfügbar).
 - WhatsApp-Versand (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (kein `whatsapp`-MCP-Server in diesem Lauf angebunden).
 
