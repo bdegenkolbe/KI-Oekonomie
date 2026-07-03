@@ -54,6 +54,97 @@
 
 ---
 
+## 2026-07-03 — Lauf 001 — Version 22.0 → Version 23.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster G ohne belegbare Treffer im 7-Tage-Fenster — fünftes Mal in Folge).
+- Zeitfenster: 7 Tage (Standard); Cluster D (Politik-Initiativen) und Cluster B (EU-Regelsetzung) wegen achtwöchiger Update-Lücke im *ausnahmsweise* erweiterten 4-Wochen-Fenster gefahren, um die zwei substantiellen Meilensteine Sanders-*American A.I. Sovereign Wealth Fund Act* (18. Juni 2026) und *Digital Omnibus on AI* / *Omnibus VII* (EP-Plenum 16. Juni 2026; Rat 29. Juni 2026) aufnehmen zu können; alle übrigen Cluster im Standard-7-Tage- bzw. 48-Stunden-Fenster.
+- Anzahl Suchanfragen: 13 (Web-Suche).
+- Lauf 001 ist der erste reguläre Daily-Update-Lauf seit Lauf 001 vom 8. Mai 2026 (Version 21.0 → 22.0). Die achtwöchige Update-Lücke ist als Auffälligkeit vermerkt.
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | D | Bernie Sanders (US-Senat), *NEWS: Sanders Introduces Legislation to Create $7 Trillion AI Sovereign Wealth Fund*, 18. Juni 2026 | https://www.sanders.senate.gov/press-releases/news-sanders-introduces-legislation-to-create-7-trillion-ai-sovereign-wealth-fund/ | übernommen (erweitertes 4-Wochen-Fenster) |
+| 2 | D | Roll Call, *Sovereign wealth fund tax on AI companies unveiled by Sanders*, 18. Juni 2026 | https://rollcall.com/2026/06/18/sovereign-wealth-fund-tax-on-ai-companies-unveiled-by-sanders/ | übernommen (Sammelbeleg) |
+| 3 | D | Fortune, *Bernie Sanders wants Americans to own a piece of AI. The Trump White House seems to agree*, 3. Juni 2026 | https://fortune.com/2026/06/03/bernie-sanders-ai-ownership-sovereign-wealth-fund-electrification/ | übernommen (Sammelbeleg) |
+| 4 | A/I | Anthropic, *Anthropic Economic Index Report — Cadences*, 26. Juni 2026 | https://www.anthropic.com/research/economic-index-june-2026-report | übernommen |
+| 5 | A | TechTimes, *Anthropic Survey of 9,700 Workers: Half Say AI Already Handles Most Job Tasks*, 28. Juni 2026 | https://www.techtimes.com/articles/319232/20260628/anthropic-survey-9700-workers-half-say-ai-already-handles-most-job-tasks.htm | übernommen (Sammelbeleg) |
+| 6 | B | Rat der EU, *Artificial Intelligence: Council gives final green light to simplify and streamline rules*, 29. Juni 2026 | https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/ | übernommen (erweitertes 4-Wochen-Fenster) |
+| 7 | B | Rat der EU, *Artificial Intelligence: Council and Parliament agree to simplify and streamline rules*, 7. Mai 2026 | https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ | übernommen (Sammelbeleg) |
+| 8 | B | Europäisches Parlament, *Plenary vote — Digital Omnibus on AI*, 16. Juni 2026 | https://www.europarl.europa.eu/legislative-train/package-digital-package/file-digital-omnibus-on-ai | übernommen (Sammelbeleg) |
+| 9 | F | Challenger, Gray & Christmas, *Challenger Report: May Job Cuts Rise 16 % from April; Highest May Total Since 2020*, 2. Juni 2026 | https://www.challengergray.com/blog/challenger-report-may-job-cuts-rise-16-from-april-highest-may-total-since-2020/ | übernommen |
+| 10 | F | Challenger, Gray & Christmas, *Challenger Report: June Layoffs Cool to 45,849, Down 53 % From May; AI Leads Reasons for Fourth Consecutive Month*, 2. Juli 2026 | https://www.challengergray.com/blog/challenger-report-june-layoffs-cool-to-45849-down-53-from-may-ai-leads-reasons-for-fourth-consecutive-month/ | übernommen |
+| 11 | F | Tech Startups, *Microsoft plans to lay off thousands as AI spending reshapes its workforce*, 1. Juli 2026 | https://techstartups.com/2026/07/01/microsoft-plans-to-lay-off-thousands-as-ai-spending-reshapes-its-workforce/ | übernommen |
+| 12 | F | iCharles, *Microsoft Cuts ~9,000 Jobs in July 2026 Round*, 2. Juli 2026 | https://icharles.com/articles/microsoft-layoffs-9000-july-2026 | übernommen (Sammelbeleg) |
+| 13 | F | BusinessToday, *Microsoft to layoff over 5,000 employees across teams*, 1. Juli 2026 | https://www.businesstoday.in/technology/news/story/microsoft-to-layoff-over-5000-employees-across-teams-540239-2026-07-01 | übernommen (Sammelbeleg) |
+| 14 | D | Axios, *Elizabeth Warren: Tax AI companies to benefit all Americans*, 27. Mai 2026 | https://www.axios.com/2026/05/27/elizabeth-warren-tax-ai-companies-benefit-americans | verworfen (außerhalb 4-Wochen-Fenster; Sanders-SWF-Act deckt fiskalischen Vektor bereits ab) |
+| 15 | C | Fortune / Tom's Hardware, *Chinese court rules firms can't lay off workers on AI grounds*, 3. Mai 2026 | https://fortune.com/2026/05/03/chinese-court-layoffs-workers-ai-replacement-labor-market/ | verworfen (außerhalb 4-Wochen-Fenster; für späteren Lauf zu prüfen, sobald zweites Urteil vorliegt) |
+| 16 | B | Governor Lamont / DLA Piper / Holland & Knight, *Governor Lamont Signs Legislation ... AI Responsibility and Transparency Act*, 27. Mai / 2. Juni 2026 | https://portal.ct.gov/governor/news/press-releases/2026/06-2026/governor-lamont-signs-legislation-establishing-youth-online-safety-protections | verworfen (außerhalb 4-Wochen-Fenster; SB 5 in § 4.5 bereits mit angekündigter Unterzeichnung vermerkt) |
+| 17 | E | Bundestag / Bundesrat 1066. Sitzung, *Bundestag AI-Umsetzung 11. Juni 2026, Bundesrat 12. Juni 2026*, Juni 2026 | https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-ki-1183820 | verworfen (außerhalb 4-Wochen-Fenster) |
+| 18 | E | IAB-Forum, *Einschätzung des IAB zur wirtschaftlichen Lage — Juni 2026* | https://iab-forum.de/einschaetzung-des-iab-zur-wirtschaftlichen-lage-juni-2026/ | verworfen (außerhalb 4-Wochen-Fenster) |
+| 19 | A | Yale Budget Lab, *AI Is Probably Not (Yet) the Reason for Labor Market Weakening*, 15. Juni 2026 | https://budgetlab.yale.edu/research/ai-probably-not-yet-reason-labor-market-weakening | verworfen (außerhalb 4-Wochen-Fenster; § 3.5-Basisdarstellung bleibt aktuell) |
+| 20 | J | Tesla Optimus / Figure 03 / Boston Dynamics (Juni 2026) | https://www.tradingkey.com/analysis/stocks/us-stocks/261814739-tesla-third-generation-humanoid-robot-debut-mid-year-tradingkey | verworfen (keine politisch-fiskalische Tagesmeldung im 48-Stunden-Fenster) |
+| 21 | I | Anthropic Claude Sonnet 5 (30. Juni 2026) / OpenAI GPT-5.6 Gated Preview (26. Juni 2026) | https://llm-stats.com/llm-updates | verworfen (keine unmittelbare politisch-fiskalische Implikation) |
+| 22 | G | G-BA / gematik / BfArM Juni 2026 | https://www.g-ba.de/ | verworfen (keine KI-spezifischen Beschlüsse im 7-Tage-Fenster; 5. Mal in Folge) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.5 | Ergänzung | Neuer Absatz zwischen Sanders-Bestand und Trump-AI-Action-Plan: *American A.I. Sovereign Wealth Fund Act* (18. Juni 2026) mit einmaliger 50-%-Aktien-Abgabe an AI-Unternehmen ab 200 Mio. USD KI-Umsatz, rund 7 Bio. USD Fondsvolumen, *Independent Commission for Democratic AI* und jährlicher 5-%-Dividende (≈ 1.000 USD pro Person) als bestandsorientierte Umverteilungsantwort; explizite Einordnung als Vergleichspunkt zur Deutschland-These (§ 5.4 / § 8.3) im Konjunktiv. | 1–3 |
+| 2 | § 3.5 | Ergänzung | Fortschreibung der Anthropic-Reihe um den sechsten Bericht *„Cadences"* vom 26. Juni 2026 mit erster verlinkter ~9.700-Personen-Stichprobe (rund 50 % erwarten KI könne ≥ 50 % ihrer Aufgaben übernehmen, nur ~10 % Verlust­erwartung; sechs positive Wirkungsdimensionen bei höherem Delegationsanteil; Wochenend-Anstieg persönliche Nutzung; 0,26 Punkte Autonomie-Delta Claude Code vs. Chat). | 4, 5 |
+| 3 | § 4.3 | Ergänzung | Abschluss der Trilog-Passage: Dritte Trilogrunde 7. Mai 2026, EP-Plenum 16. Juni 2026, Rat 29. Juni 2026 (Endbilligung); verbindliche Hochrisiko-Anwendungsdaten 2. Dezember 2027 (Anhang III) / 2. August 2028 (Anhang I); Sandbox-Frist 2. August 2027; verkürzte Transparenz-Übergangsfrist Art. 50; neue Erweiterung Art. 5 um Verbot nicht-einvernehmlicher intimer KI-Inhalte und CSAM; GPAI-Durchsetzungsbefugnisse ab 2. August 2026 wie vorgesehen. | 6–8 |
+| 4 | § 1.1 | Ergänzung | Fortsetzung der Challenger-Aggregat-Linie um Mai-Report (97.006 US-Streichungen +16 % gegenüber April; KI 38.579 = 40 %, Rekord; Tech 38.242) und Juni-Report (45.849 −53 % gegenüber Mai; KI 14.029 = 31 %, YTD-KI 101.743 = 23 %); Ergänzung Microsoft-Fiskaljahresstart-Layoff am 2. Juli 2026 mit rund 9.000 Streichungen und Auflösung des VRSAR-Pfades. | 9–13 |
+| 5 | § 11.1, § 11.3, § 11.5 | Ergänzung | Neue Literatureinträge: Anthropic Cadences (§ 11.1); Sanders SWF-Pressemitteilung, Rat der EU 7. Mai / 29. Juni 2026, EP 16. Juni 2026 (§ 11.3); Challenger Mai- und Juni-Reports, Microsoft-Sammelbeleg (§ 11.5). | 1–13 |
+| 6 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe auf „Lauf 001 vom 3. Juli 2026" geändert; alle fünf Einarbeitungen in den Auflistungstext aufgenommen. | 1–13 |
+| 7 | README.md | Aktualisierung | Versionssprung 22.0 → 23.0 (Versionszeile, Zitiervorschlag, neuer Versions-Eintrag in der KI-Offenlegung mit den fünf Cluster-Bündeln). | — |
+| 8 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 3. Juli 2026 (Lauf 001 vom 3. Juli 2026) — Version 22.0 → Version 23.0" mit Prüftabelle 2.1.1–2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Warren AI-Wealth-Tax-Vorschlag (Axios 27. Mai 2026) | D | Außerhalb 4-Wochen-Fenster; Sanders-SWF-Act (18. Juni 2026, in Aufnahme) deckt den relevanten fiskalischen Vektor bereits ab. |
+| 2 | Chinesisches Arbeitsgerichtsurteil zu KI-Kündigung (Fortune 3. Mai 2026) | C | Außerhalb 4-Wochen-Fenster; für § 6.4 markiert, sobald zweites vergleichbares Urteil vorliegt. |
+| 3 | Connecticut SB 5 — Unterzeichnung durch Gouverneur Lamont (27. Mai / 2. Juni 2026) | B | Außerhalb 4-Wochen-Fenster; § 4.5 dokumentiert bereits die angekündigte Unterzeichnung. |
+| 4 | Bundestag AI-Umsetzungsgesetz 11. Juni 2026 / Bundesrat 1066. Sitzung 12. Juni 2026 | E | Außerhalb 4-Wochen-Fenster. |
+| 5 | IAB-Einschätzung Juni 2026 | E | Außerhalb 4-Wochen-Fenster; der in § 1.1 dokumentierte IAB-Stand vom 24. März 2026 bleibt aktuell. |
+| 6 | Yale Budget Lab — Juli-CPS-Update (15. Juni 2026) | A | Außerhalb 4-Wochen-Fenster; § 3.5-Basisdarstellung bleibt aktuell. |
+| 7 | Tesla Optimus V3 / Figure 03 (Juni 2026) | J | Keine politisch-fiskalische Tagesmeldung im 48-Stunden-Fenster. |
+| 8 | Claude Sonnet 5 (30. Juni 2026) / GPT-5.6 Gated Preview (26. Juni 2026) | I | Keine unmittelbare politisch-fiskalische Implikation; Preis-/Compute-Entwicklung bleibt für nächsten Lauf beobachtenswert. |
+| 9 | Cluster G (Gesundheitswesen) — G-BA/gematik/BfArM Juni 2026 | G | Fünftes Mal in Folge ohne KI-spezifische Beschlüsse im 7-Tage-Fenster. |
+| 10 | Sachverständigenrat / Bundesbank / SVR KI-Materialien 2026 | E/H | Keine neuen Sachstände im 7-Tage-Fenster; bestehende § 3.x-Einbindung gilt. |
+| 11 | Big-Tech-Capex Q2 2026 Update (Juni 2026 Nachtermin-Kommentare) | F | Keine neuen Aggregat-Zahlen über die in § 1.1 dokumentierten 725 Mrd. USD hinaus im 7-Tage-Fenster. |
+| 12 | Bundestag Grüne/Linke-Anträge Steuerentlastung (25. Juni 2026) | E/D | Außerhalb 4-Wochen-Fenster. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 3. Juli 2026 (Lauf 001 vom 3. Juli 2026) — Version 22.0 → Version 23.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+
+### Auffälligkeiten / offene Punkte
+
+- Achtwöchige Update-Lücke: Lauf 001 vom 3. Juli 2026 ist der erste reguläre Daily-Update-Lauf seit dem 8. Mai 2026. Um die zwei substantiellsten Meilensteine (Sanders-SWF-Act 18. Juni 2026; EU-AI-Act-Endbeschluss 16./29. Juni 2026) aufnehmen zu können, wurde das Zeitfenster in Cluster D und Cluster B ausnahmsweise auf 4 Wochen erweitert; alle übrigen Cluster im Standard-7-Tage- bzw. 48-Stunden-Fenster. Die Erweiterung ist bewusst schlank gehalten (nur zwei Ausnahmefälle) und im Aktualitätshinweis am Dokumentende transparent gekennzeichnet.
+- Cluster G (Gesundheitswesen) fünftes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster; Empfehlung für den nächsten Lauf: gezielter Abruf der G-BA-Sitzungsordnung Juli 2026, aktueller gematik-Pressemitteilungen und BfArM-DiGA-Listings mit KI-Komponente.
+- Yale Budget Lab hat am 15. Juni 2026 ein neues CPS-Update publiziert (*„AI Is Probably Not (Yet) the Reason for Labor Market Weakening"*), das außerhalb des 4-Wochen-Fensters liegt — für den nächsten Lauf zur Prüfung markiert (Fortschreibung der § 3.5-Yale-Reihe).
+- Chinesische Rechtsprechungslinie („AI-Ersetzung als illegaler Kündigungsgrund", Fortune / Tom's Hardware Mai 2026) außerhalb des Fensters — für § 6.4 (Internationale Praxis / China) markiert, sobald ein zweites vergleichbares Urteil die Linie bestätigt.
+- Warren-AI-Wealth-Tax-Vorschlag (27. Mai 2026) außerhalb des Fensters; Sanders-SWF-Act deckt den relevanten fiskalischen Vektor bereits ab, sodass der Warren-Vorschlag ohne Verlust an Substanz für einen späteren Lauf zurückgestellt werden kann.
+- Bundestag AI-Umsetzungsgesetz (11. Juni 2026 im Plenum angenommen) und Bundesrat 1066. Sitzung (12. Juni 2026) außerhalb des Fensters — für den nächsten Lauf zur Prüfung markiert.
+- Branch dieses Laufs: `claude/determined-einstein-3j4dlf` (in Phase 0 verifiziert; lokal vorhanden, im Remote nach Push neu angelegt).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. In der laufenden Session war weder ein E-Mail-Versand-Tool (`mail_send` / `send_mail` / `send_message` / `outlook_send` aus `graph-mcp`) noch ein WhatsApp-Versand-Tool (`wa_send_message` / `send_message` aus dem `whatsapp`-MCP) erreichbar; gemäß Phase-5b-Spezifikation wurden die vorbereiteten Inhalte als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben (Dateien stehen in `.gitignore`, werden nicht versioniert). Der Lauf fährt gemäß Phase-5b-Regel („Versandfehler sind weich") mit Phase 6 fort.
+
+---
+
 ## 2026-05-08 — Lauf 001 — Version 21.0 → Version 22.0
 
 ### Recherchekorridor
