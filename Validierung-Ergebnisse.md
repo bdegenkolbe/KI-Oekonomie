@@ -7,6 +7,80 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 4. Juli 2026 (Lauf 002 vom 4. Juli 2026) — Version 23.0 → Version 24.0
+
+**Auslöser:** Zweiter regulärer Daily-Update-Lauf nach Lauf 001 vom 3. Juli 2026. Web-Recherche im Korridor der Cluster A–J am 4. Juli 2026 im Standard-7-Tage-Fenster (27. Juni – 4. Juli 2026), Cluster F und I im Standard-48-Stunden-Fenster. Drei belegbare Fortschreibungen aus dem 7-Tage-Fenster identifiziert; keine Fenstererweiterung, da Lauf 001 vom Vortag bereits die Zwei-Monats-Lücke aufgeholt hat.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *American A.I. Sovereign Wealth Fund Act* — Bill-Nummer präzisiert: *S. 4825* (119. Kongress). Quelle: Quiver Quantitative (New Bill Registry, Anfang Juli 2026). Ergänzt den in Lauf 001 aufgenommenen Sanders-SWF-Act-Block um die offizielle Bill-Nummer. | § 4.5 (Bill-Nummer in Klammer beim bestehenden Sanders-Absatz eingefügt); § 11.3 (Bill-Nummer und Quiver-Quantitative-Sekundärquelle im Sanders-Eintrag ergänzt); Aktualitätshinweis am Dokumentende ergänzt; README.md 24.0. | Präzisierung eines in Lauf 001 aufgenommenen Vorschlags: Bill-Nummer verankert den fiskalischen Baustein rechtsverbindlich im Kongressregister und erleichtert die Nachverfolgung des Gesetzgebungsstatus in Folgeläufen. |
+| 2 | *Microsoft-Layoff-Größenordnung Anfang Juli 2026* — Präzisierung: TechRepublic und Yahoo Finance berichten Anfang Juli 2026, dass die reine Layoff-Komponente jenseits der bereits angenommenen VRSAR-Austritte voraussichtlich weniger als 5.500 Beschäftigte beziehungsweise unter 2,5 % der weltweiten Belegschaft trifft; Fox Business ergänzt: „another wave of layoffs that could hit 5,000 workers next week". Kontext: rund 9.000 VRSAR-Angebotsberechtigte, davon etwa ein Drittel angenommen. Quellen: TechRepublic (Juli 2026), Yahoo Finance, Fox Business. | § 1.1 (Präzisierungssatz nach dem bestehenden 9.000-Aggregat, gemäß Claude.md § 4.2: alte Zahl nicht ersetzt, sondern nachgelagert präzisiert); § 11.5 (neuer Sammelbeleg TechRepublic / Yahoo Finance / Fox Business); Aktualitätshinweis am Dokumentende ergänzt; README.md 24.0. | Fortschreibung des in Lauf 001 aufgenommenen Microsoft-Blocks: Die aggregierte 9.000-Zahl umfasst offenbar sowohl VRSAR-Austritte als auch reine Layoffs; die Präzisierung ordnet den Layoff-Anteil auf < 5.500 ein und stützt damit die in § 1.1 dokumentierte Interaktion zwischen Voluntary-Retirement-Instrument und regulärer Fiskaljahres-Restrukturierung empirisch nachvollziehbarer. |
+| 3 | *Claude Sonnet 5 — Preisstruktur* (Anthropic, 30. Juni 2026): Neue Frontier-Modellstufe zu einem Einführungspreis von 2 US-Dollar pro Million Input-Token und 10 US-Dollar pro Million Output-Token bis 31. August 2026, Standardpreis ab 1. September 2026 bei 3 beziehungsweise 15 US-Dollar; ergänzende Rabattstrukturen bis 90 % via Prompt-Caching und 50 % via Batch-Processing. Quellen: Anthropic Product Announcement, TechCrunch, Thurrott, PYMNTS. | § 8.2 (neuer Absatz nach den Rohstoff-Bullet-Points zur deflationären Preisdynamik bei Frontier-Inferenz mit Sonnet-5-Preisstruktur als Beleg, einschließlich der Doppelwirkung auf inländische Anwendungsbasis und Steueranknüpfung); § 11.5 (neuer Sammelbeleg Anthropic / TechCrunch / Thurrott / PYMNTS); Aktualitätshinweis am Dokumentende ergänzt; README.md 24.0. | Erste dokumentierte Preisstruktur einer Frontier-Modellstufe unterhalb der Vorgängersätze im hier laufenden Papier — direkter Beleg für die im Cluster-I-Kontext bereits qualitativ angesprochene deflationäre Dynamik der Inferenzpreise. Für die Steuerdebatte relevant, weil sie die konzeptionelle Bevorzugung einer Wertschöpfungs- gegenüber einer Umsatzanknüpfung (§ 8.3) zusätzlich stützt. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- IAB-Kurzbericht 8/2026 (Friedrich & Kagerl, Mai 2026, „Künstliche Intelligenz in deutschen Betrieben: Jeder vierte Betrieb nutzt mittlerweile generative KI") — außerhalb 7-Tage-Fenster; empirisch wertvoll (jedes vierte deutsche Unternehmen nutzt generative KI; nur 6 % im Recruiting/HR); für den nächsten Lauf zur Prüfung markiert, insbesondere als Ergänzung zu § 3.5 (Anthropic-Reihe) und § 1.1 (IAB-Frühjahrsprognose).
+- Yale Budget Lab — CPS-Update vom 15. Juni 2026 („AI Is Probably Not (Yet) the Reason for Labor Market Weakening") — außerhalb 7-Tage-Fenster; § 3.5-Basisdarstellung und der in Lauf 001 mitgeführte Yale-Budget-Lab-Stand bleiben aktuell; im nächsten Lauf zu prüfen.
+- NVIDIA Vera Rubin — Q3-2026-Release / Q4-Volume-Ramp — Ankündigung auf CES 2026; keine unmittelbare politisch-fiskalische Implikation im 48-Stunden-Fenster; für einen späteren Lauf zur Prüfung markiert, sobald erste tatsächliche Auslieferungen oder Hyperscaler-Vertragsvolumina belegt werden.
+- Bundesrat 1067. Sitzung (10. Juli 2026, geplante Zustimmung/Vermittlungsausschuss zum Gesetz zur Durchführung der KI-Verordnung) — zukünftiges Ereignis, für den nächsten Lauf zur Aufnahme in § 4.4 markiert, sobald Beschlussstand vorliegt.
+- Digital Omnibus on AI — Publikation im Amtsblatt der EU (erwartet spätestens Juli 2026) — noch keine Amtsblatt-Nummer bekannt; für den nächsten Lauf zur Aufnahme in § 4.3 markiert, sobald OJ-Referenz vorliegt.
+- Chinese Court Ruling Hangzhou (Anfang Mai 2026, AI-Ersetzung als illegaler Kündigungsgrund) — außerhalb 7-Tage-Fenster; für § 6.4 markiert, sobald ein zweites vergleichbares Urteil die Linie bestätigt (Position unverändert gegenüber Lauf 001).
+- Anthropic Economic Index — Juli-2026-Bericht: kein neuer Bericht seit „Cadences" (26. Juni 2026, in Lauf 001 aufgenommen); der bestehende Stand bleibt korrekt.
+- Cluster G (Gesundheitswesen) — sechstes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitt 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Keine Querverweise entfernt; der neue § 8.2-Absatz verweist kontrolliert auf § 8.3; die Microsoft-Präzisierung in § 1.1 belässt den bestehenden Querverweis auf § 5.1 und § 8.3. |
+| 2.1.4 Roter Faden | OK | Sanders-Bill-Nummer in § 4.5, Microsoft-Präzisierung in § 1.1 und Sonnet-5-Preisstruktur in § 8.2 fügen sich jeweils in bestehende Argumentationslinien ein; keine Architekturverschiebung. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; keine unausgeglichenen Fettungen; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | S. 4825 doppelt belegbar (Quiver Quantitative Bill Registry; Sanders Senate Press Release); Microsoft-Präzisierung (TechRepublic, Yahoo Finance, Fox Business) durch mehrere unabhängige Finanzmedien belegt; Sonnet-5-Preisstruktur direkt aus Anthropic-Ankündigung (30. Juni 2026), gestützt durch TechCrunch, Thurrott und PYMNTS. |
+| 2.2.2 Redundanzprüfung | OK | Alle drei Ergänzungen sind Präzisierungen bestehender Blöcke: Sanders-SWF (§ 4.5), Microsoft-Layoff (§ 1.1), Frontier-Modell-Preise (§ 8.2 als neue Facette der Rohstoff-Analogie). Keine Redundanz zu anderen Kapiteln. |
+| 2.2.3 Argumentation | OK | S. 4825 als Präzisierung; Microsoft-Präzisierung als weiche Aktualisierung („voraussichtlich"); Sonnet-5-Preisstruktur im Konjunktiv als Belegquelle für die deflationäre Preisdynamik. Konsistent mit § 4.2 Konjunktivpflicht. |
+| 2.2.4 Ausgewogenheit | OK | Sonnet-5-Preisdynamik wird sowohl in ihrer Doppelwirkung (Verbreiterung Anwendungsbasis / Erschwerung Umsatzanknüpfung) diskutiert als auch klar an die in § 8.3 skizzierten Zugriffspfade rückgebunden. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „Frontier-Inferenz", „Prompt-Caching", „Batch-Processing", „Token-Preis" werden im Kontext erklärt beziehungsweise als Fachbegriffe geführt; Abkürzungen (VRSAR) unverändert. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neue Quellen: § 11.3 +1 Referenz-Erweiterung (Sanders-Eintrag um Bill-Nummer und Quiver-Quantitative); § 11.5 +2 neue Sammelbelege (TechRepublic / Yahoo Finance / Fox Business zur Microsoft-Präzisierung; Anthropic / TechCrunch / Thurrott / PYMNTS zu Sonnet 5). Jede Fließtext-Referenz hat einen Eintrag. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil, vollständige URLs ohne Shortener, Datumsangaben „Anfang Juli 2026" und „30. Juni 2026" einheitlich. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen (anthropic.com, sanders.senate.gov); Mainstream-Belege für Präzisierungen (TechRepublic, Yahoo Finance, Fox Business, TechCrunch, Thurrott, PYMNTS). |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 4. Juli 2026 über WebSearch-Trefferanzeigen: anthropic.com/news/claude-sonnet-5 gelistet; techrepublic.com/article/news-microsoft-layoffs-ai-spending-2026/ gelistet; quiverquant.com S. 4825 Registry-Eintrag gelistet; techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/ gelistet. |
+| 2.4.5 Zitatgenauigkeit | OK | S. 4825 als Bill-Nummer verifiziert (119. Kongress); Sonnet-5-Preise 2/10 USD Einführungspreis und 3/15 USD Standardpreis inklusive Prompt-Caching- und Batch-Rabatten korrekt wiedergegeben; Microsoft-Präzisierung („fewer than 5,500 employees" / „unter 2,5 % Belegschaft") korrekt aus TechRepublic / Yahoo Finance übernommen. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge vollständig belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 24.0 durchgängig: Dokumentkopf, `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung mit Versions-Eintrag 24.0), diesem Protokoll. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltliche Ergänzung hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Nur inhaltliche Ergänzung; keine Bereinigung bestehender Fehler erforderlich. | — |
+
+### Nachprüfung
+
+- 2.1.1 – 2.1.5 nach Einarbeitung: OK
+- 2.2.1 / 2.4.1 / 2.4.2 / 2.4.3 / 2.4.5 nach Ergänzung der Literaturnachweise: OK
+- 2.5 Versionskonsistenz: OK (24.0 in Dokumentkopf, `README.md` × 2, diesem Protokoll; PDF/Word nach Neubuild Version 24.0)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine identifiziert)
+- Neue Version: 24.0
+- PDF erstellt: Ja (`KI-Ökonomie.pdf` via `build_pdf.py`)
+- Word erstellt: Ja (`KI-Ökonomie.docx` via `build_docx.py`)
+
+---
+
 ## Validierung 3. Juli 2026 (Lauf 001 vom 3. Juli 2026) — Version 22.0 → Version 23.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf seit dem 8. Mai 2026 (rund achtwöchige Update-Lücke). Web-Recherche im Korridor der Cluster A–J am 3. Juli 2026: Optimalsteuer-/Aufgabenforschung (Cluster A), Robotersteuer/Wertschöpfungsabgabe DE/EU (Cluster B), internationale Praxis (Cluster C), Politik-Initiativen (Cluster D), Arbeitsmarkt- und Sozialversicherungsdaten (Cluster E), Tech-Layoffs / KI-Capex (Cluster F), Gesundheitswesen (Cluster G), Deutschland-These-Bezugspunkte (Cluster H), Frontier-Modelle (Cluster I), Robotik (Cluster J). Wegen der zweimonatigen Update-Lücke wurde das Zeitfenster in Cluster D (Politik-Initiativen) und Cluster B (EU-Regelsetzung) auf die letzten vier Wochen erweitert, um zwei Meilensteine (Sanders-SWF-Act 18. Juni 2026; EP-/Rat-Endbeschluss AI-Act-Vereinfachung 16./29. Juni 2026) aufnehmen zu können, deren Auslassung die inhaltliche Progression des Dokuments gefährdet hätte; alle übrigen Cluster wurden im Standard-7-Tage-Fenster gefahren.
