@@ -54,6 +54,84 @@
 
 ---
 
+## 2026-07-04 — Lauf 002 — Version 23.0 → Version 24.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster G ohne belegbare Treffer im 7-Tage-Fenster — sechstes Mal in Folge).
+- Zeitfenster: Standard 7 Tage (27. Juni – 4. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (2.–4. Juli 2026). Keine Fenstererweiterung, da Lauf 001 vom 3. Juli 2026 die zwei-monatige Update-Lücke bereits aufgeholt hat.
+- Anzahl Suchanfragen: 10 (Web-Suche).
+- Lauf 002 ist der Folgelauf zu Lauf 001 vom 3. Juli 2026 (Version 22.0 → 23.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | D | Quiver Quantitative, *New Bill: Senator Bernard Sanders introduces S. 4825: American A.I. Sovereign Wealth Fund Act*, Anfang Juli 2026 | https://www.quiverquant.com/news/New+Bill:+Senator+Bernard+Sanders+introduces+S.+4825:+American+A.I.+Sovereign+Wealth+Fund+Act | übernommen (Präzisierung der Bill-Nummer zum Lauf-001-Eintrag) |
+| 2 | F | TechRepublic, *Microsoft Layoffs Could Hit Thousands as AI Spending Climbs*, Anfang Juli 2026 | https://www.techrepublic.com/article/news-microsoft-layoffs-ai-spending-2026/ | übernommen |
+| 3 | F | Yahoo Finance, *Microsoft layoffs 2026: cuts hitting sales, consulting, and Xbox*, Anfang Juli 2026 | https://finance.yahoo.com/markets/stocks/articles/microsoft-layoffs-2026-cuts-hitting-144856068.html | übernommen (Sammelbeleg) |
+| 4 | F | Fox Business, *Microsoft eyes another wave of layoffs that could hit 5,000 workers next week*, Anfang Juli 2026 | https://www.foxbusiness.com/economy/microsoft-eyes-another-wave-layoffs-hit-5000-workers-next-week | übernommen (Sammelbeleg) |
+| 5 | I | Anthropic, *Introducing Claude Sonnet 5*, 30. Juni 2026 | https://www.anthropic.com/news/claude-sonnet-5 | übernommen |
+| 6 | I | TechCrunch, *Anthropic launches Claude Sonnet 5 as a cheaper way to run agents*, 30. Juni 2026 | https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/ | übernommen (Sammelbeleg) |
+| 7 | I | Thurrott, *Anthropic Launches Claude Sonnet 5*, 30. Juni / 1. Juli 2026 | https://www.thurrott.com/a-i/anthropic/338184/anthropic-launches-claude-sonnet-5 | übernommen (Sammelbeleg) |
+| 8 | I | PYMNTS, *Anthropic Cuts AI Agent Costs With Claude Sonnet 5 Rollout*, 30. Juni / 1. Juli 2026 | https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-cuts-ai-agent-costs-with-claude-sonnet-5-rollout/ | übernommen (Sammelbeleg) |
+| 9 | E | IAB-Kurzbericht 8/2026 (Friedrich & Kagerl), *Künstliche Intelligenz in deutschen Betrieben: Jeder vierte Betrieb nutzt mittlerweile generative KI*, Mai 2026 | https://doku.iab.de/kurzber/2026/kb2026-08.pdf | verworfen (außerhalb 7-Tage-Fenster; für nächsten Lauf zur Prüfung markiert) |
+| 10 | A | Yale Budget Lab, *AI Is Probably Not (Yet) the Reason for Labor Market Weakening*, 15. Juni 2026 | https://budgetlab.yale.edu/research/ai-probably-not-yet-reason-labor-market-weakening | verworfen (außerhalb 7-Tage-Fenster; § 3.5-Basisdarstellung bleibt aktuell) |
+| 11 | I | NVIDIA / wccftech / Introl, *NVIDIA Confirms Vera Rubin Launch In Q3 With Volume Ramp by Q4*, CES-2026-Ankündigung / Juli 2026 | https://wccftech.com/nvidia-confirms-vera-rubin-launch-in-q3-volume-ramp-q4-blackwell-continues-to-see-massive-demand/ | verworfen (keine unmittelbare politisch-fiskalische Implikation im 48-Stunden-Fenster) |
+| 12 | B | Bundesrat 1067. Sitzung (10. Juli 2026, geplante Zustimmung / Vermittlungsausschuss zum Gesetz zur Durchführung der KI-Verordnung) | https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1067/1067-pk.html | verworfen (zukünftiges Ereignis; im nächsten Lauf zu prüfen) |
+| 13 | B | Digital Omnibus on AI — erwartete Publikation im Amtsblatt der EU (Juli 2026) | https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/ | verworfen (noch keine OJ-Referenz bekannt; im nächsten Lauf zu prüfen) |
+| 14 | C | Chinese Court Ruling Hangzhou (Anfang Mai 2026, AI-Ersetzung als illegaler Kündigungsgrund) | https://fortune.com/2026/05/03/chinese-court-layoffs-workers-ai-replacement-labor-market/ | verworfen (außerhalb 7-Tage-Fenster; für § 6.4 markiert, sobald zweites vergleichbares Urteil vorliegt — Position unverändert gegenüber Lauf 001) |
+| 15 | G | G-BA / gematik / BfArM Juli 2026 | https://www.g-ba.de/ | verworfen (sechstes Mal in Folge ohne KI-spezifische Beschlüsse im 7-Tage-Fenster) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.5 | Präzisierung | Bill-Nummer *S. 4825* (119. Kongress) in den bestehenden Sanders-SWF-Act-Absatz eingefügt. | 1 |
+| 2 | § 1.1 | Präzisierung | Nach dem Vortag-Eintrag zu Microsoft (rund 9.000 Fiskaljahresstart-Streichungen) neuer Präzisierungssatz: reine Layoff-Komponente jenseits der bereits angenommenen VRSAR-Austritte voraussichtlich weniger als 5.500 Beschäftigte beziehungsweise unter 2,5 % der weltweiten Belegschaft (TechRepublic, Yahoo Finance). Alte 9.000-Zahl bleibt gemäß Claude.md § 4.2 als zeitlich frühere Aggregat-Referenz erhalten. | 2–4 |
+| 3 | § 8.2 | Ergänzung | Neuer Absatz nach den Rohstoff-Bullet-Points zur deflationären Preisdynamik bei Frontier-Inferenz: Claude Sonnet 5 (30. Juni 2026) zu 2/10 US-Dollar Einführungspreis, ab 1. September 2026 3/15 US-Dollar, bis 90 % Rabatt via Prompt-Caching und 50 % via Batch-Processing; Doppelwirkung auf inländische Anwendungsbasis (Verbreiterung) und Steueranknüpfung (Erschwerung umsatzbasierter Modelle → Verstärkung der Wertschöpfungsabgabe-Logik aus § 8.3). | 5–8 |
+| 4 | § 11.3 | Aktualisierung | Sanders-Eintrag um Bill-Nummer S. 4825 und um Quiver-Quantitative-Sekundärquelle erweitert. | 1 |
+| 5 | § 11.5 | Ergänzung | Zwei neue Sammelbelege: TechRepublic / Yahoo Finance / Fox Business (Microsoft-Präzisierung) und Anthropic / TechCrunch / Thurrott / PYMNTS (Sonnet-5-Preisstruktur). | 2–8 |
+| 6 | Aktualitätshinweis am Dokumentende | Aktualisierung | Schnittangabe von „Lauf 001 vom 3. Juli 2026" auf „Lauf 002 vom 4. Juli 2026" geändert; drei Lauf-002-Ergänzungen (S. 4825, Microsoft-Präzisierung, Sonnet-5-Preisstruktur) in den Auflistungstext aufgenommen. | 1–8 |
+| 7 | README.md | Aktualisierung | Versionssprung 23.0 → 24.0 (Versionszeile, Zitiervorschlag, neuer Versions-Eintrag in der KI-Offenlegung mit den drei Lauf-002-Ergänzungen). | — |
+| 8 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 4. Juli 2026 (Lauf 002 vom 4. Juli 2026) — Version 23.0 → Version 24.0" mit Prüftabelle 2.1.1–2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | IAB-Kurzbericht 8/2026 (Friedrich & Kagerl, Mai 2026) | E | Außerhalb 7-Tage-Fenster; für nächsten Lauf zur Prüfung markiert — enthält den empirisch wertvollen Befund „jedes vierte deutsche Unternehmen nutzt generative KI" mit 6 %-Anteil im HR/Recruiting. |
+| 2 | Yale Budget Lab — CPS-Update 15. Juni 2026 | A | Außerhalb 7-Tage-Fenster; § 3.5-Basisdarstellung bleibt aktuell; im nächsten Lauf zu prüfen. |
+| 3 | NVIDIA Vera Rubin — Q3/Q4-2026-Release | I | Keine unmittelbare politisch-fiskalische Implikation im 48-Stunden-Fenster; für späteren Lauf markiert, sobald erste Auslieferungen oder Hyperscaler-Vertragsvolumina belegt werden. |
+| 4 | Bundesrat 1067. Sitzung 10. Juli 2026 | B | Zukünftiges Ereignis; für nächsten Lauf markiert, sobald Beschluss- oder Vermittlungsausschussstand zum Gesetz zur Durchführung der KI-Verordnung vorliegt. |
+| 5 | Digital Omnibus on AI — OJ-Publikation | B | Erwartet spätestens Juli 2026; noch keine Amtsblatt-Nummer bekannt; im nächsten Lauf zu prüfen. |
+| 6 | Chinese Court Ruling Hangzhou (Anfang Mai 2026) | C | Außerhalb 7-Tage-Fenster; für § 6.4 markiert, sobald zweites vergleichbares Urteil die Linie bestätigt — Position unverändert gegenüber Lauf 001. |
+| 7 | Cluster G (Gesundheitswesen) — G-BA/gematik/BfArM Juli 2026 | G | Sechstes Mal in Folge ohne KI-spezifische Beschlüsse im 7-Tage-Fenster; Empfehlung für nächsten Lauf: gezielter Abruf der G-BA-Sitzungsordnung Juli 2026 und BfArM-DiGA-Listings mit KI-Komponente. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 4. Juli 2026 (Lauf 002 vom 4. Juli 2026) — Version 23.0 → Version 24.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja (in Phase 5 dieses Laufs)
+- Word erstellt (`build_docx.py`): Ja (in Phase 5 dieses Laufs)
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+- WhatsApp-Versand (Phase 5b): siehe „Auffälligkeiten / offene Punkte"
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 002 folgt Lauf 001 vom Vortag und ist bewusst schmal: das reguläre 7-Tage-Fenster liegt weitgehend unter der Lauf-001-Recherche. Aufgenommen sind ausschließlich Fortschreibungen bereits in Lauf 001 dokumentierter Blöcke (Sanders-SWF-Act → Bill-Nummer S. 4825; Microsoft-Layoff → Präzisierung < 5.500 zusätzlich zu VRSAR) sowie ein neuer Fortschreibungspunkt zur deflationären Frontier-Modell-Preisdynamik (Claude Sonnet 5 → § 8.2), der die in Lauf 001 als „beobachtenswert" markierte Preis-/Compute-Entwicklung nun mit belastbaren Zahlen ins Papier bringt.
+- Cluster G (Gesundheitswesen) sechstes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster; Empfehlung für den nächsten Lauf: gezielter Abruf der G-BA-Sitzungsordnung Juli 2026 sowie BfArM-DiGA-Listings mit KI-Komponente.
+- IAB-Kurzbericht 8/2026 (Friedrich & Kagerl, Mai 2026) enthält den für § 3.5 wertvollen Befund „jedes vierte deutsche Unternehmen nutzt generative KI" — außerhalb des Fensters, für nächsten Lauf markiert.
+- Yale Budget Lab CPS-Update (15. Juni 2026) und Chinese Court Ruling Hangzhou (Mai 2026) bleiben wie in Lauf 001 vermerkt außerhalb des Fensters; keine Zweitreferenz für die China-Linie im 7-Tage-Fenster gefunden.
+- Bundesrat 1067. Sitzung (10. Juli 2026, KI-Umsetzungsgesetz) und Digital-Omnibus-OJ-Publikation für den nächsten Lauf markiert.
+- Branch dieses Laufs: `claude/determined-einstein-ovt98o` (in Phase 0 verifiziert; lokal vorhanden, im Remote noch nicht angelegt — Push in Phase 6).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. In der laufenden Session war weder ein E-Mail-Versand-Tool (`mail_send` / `send_mail` / `send_message` / `outlook_send` aus `graph-mcp`) noch ein WhatsApp-Versand-Tool (`wa_send_message` / `send_message` aus dem `whatsapp`-MCP) erreichbar; gemäß Phase-5b-Spezifikation wurden die vorbereiteten Inhalte als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben (Dateien stehen in `.gitignore`, werden nicht versioniert). Der Lauf fährt gemäß Phase-5b-Regel („Versandfehler sind weich") mit Phase 6 fort.
+
+---
+
 ## 2026-07-03 — Lauf 001 — Version 22.0 → Version 23.0
 
 ### Recherchekorridor
