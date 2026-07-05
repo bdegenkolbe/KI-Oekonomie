@@ -10,7 +10,7 @@
 
 Dieses Projekt pflegt ein Arbeitspapier zum Diskussionsstand rund um die Besteuerung von KI und Robotik, wenn diese menschliche Arbeit substituieren. Das Papier verbindet drei Perspektiven — ökonomisch-wissenschaftlich, rechtlich-steuerpolitisch und sozial-/verteilungspolitisch — und entwickelt in Kapitel 8 mit der Deutschland-These eine eigenständige Position. Es dient als Wissens- und Diskussionsgrundlage und wird regelmäßig aktualisiert, validiert und als PDF und Word-Dokument exportiert.
 
-**Aktueller Stand:** Version 26.0, Juli 2026, 11 Kapitel plus quantitativer Anhang (`Statistik.md`).
+**Aktueller Stand:** Version 27.0, Juli 2026, 11 Kapitel plus quantitativer Anhang (`Statistik.md`).
 
 Das Papier steht unter der Creative-Commons-Lizenz CC BY 4.0.
 
@@ -29,6 +29,7 @@ Das Papier steht unter der Creative-Commons-Lizenz CC BY 4.0.
 | `Validierung-Ergebnisse.md` | Historisches Protokoll aller Validierungen |
 | `Formatvorlage.md` | Gestaltungsrichtlinie für PDF- und Word-Export |
 | `Claude.md` | Dieses Dokument — Projektanweisung für Claude |
+| `validate.py` | Automatisierte Prüfschritte gemäß `Validierung.md` § 2.6 (Nummerierung, Querverweise, Versionskonsistenz, Absatzlängen-Wächter) |
 | `build_pdf.py` | PDF-Export (reportlab) — setzt `Formatvorlage.md` um |
 | `build_docx.py` | Word-Export (python-docx) — setzt `Formatvorlage.md` um |
 | `KI-Ökonomie.pdf` | Generierter PDF-Export (aus `build_pdf.py`) |
@@ -82,7 +83,7 @@ Das Papier steht unter der Creative-Commons-Lizenz CC BY 4.0.
 - Alle Fakten müssen belegbar sein — keine Behauptungen ohne Quelle
 - Zahlen (z. B. IAB: 1,6 Mio. Stellen / 4,5 Bio. EUR; Acemoglu: +4,02 % Beschäftigung; Südkorea: −2 %-Punkte bei Automatisierungsabzügen) konsistent und mit Quelle angeben
 - Das Arbeitspapier wurde im Dialog mit Claude (Anthropic) erstellt — dieser Hinweis muss in `README.md` stehen bleiben
-- Ein Literatureintrag ist als verifizierungsbedürftig markiert (de la Feria et al. 2022) — diese Markierung darf nicht entfernt werden, bevor die Verifikation erfolgt ist. Der Sanders-Report (Oktober 2025) ist mit Version 5.0 vollständig verifiziert (Primärquelle: sanders.senate.gov).
+- Verifizierungsbedürftig markierte Literatureinträge dürfen erst nach dokumentierter Verifikation bereinigt werden. Aktuell sind keine Einträge offen: Der Sanders-Report (Oktober 2025) ist mit Version 5.0 verifiziert (Primärquelle: sanders.senate.gov); de la Feria & Grau Ruiz (2022) ist mit Version 27.0 verifiziert (Springer, DOI 10.1007/978-3-031-04305-5_16).
 - **Keine Redundanzen:** Jeder Sachverhalt hat genau einen Ort im Dokument. Andere Stellen verweisen per §-Querverweis. Beispiel: Der Staatsfonds-Gedanke wird in § 5.4 eingeführt und in § 8.3 eigenständig weitergeführt — keine Dopplung der Grundidee.
 
 ### 4.4 Änderungen am Hauptdokument

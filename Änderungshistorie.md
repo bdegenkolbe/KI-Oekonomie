@@ -54,6 +54,51 @@
 
 ---
 
+## 2026-07-05 — Struktur-Review Teil 2 (kein Recherche-Lauf) — Version 26.0 → Version 27.0
+
+Fortsetzung des Konzept-Reviews auf Freigabe des Autors. Für die Quellen-Deduplikation künftiger Läufe gilt weiterhin der Eintrag „Lauf 001 vom 5. Juli 2026" (die einzige Web-Recherche dieses Laufs diente der Verifikation eines bestehenden Literatureintrags, nicht der Neuaufnahme).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | — (Verifikation) | Springer Nature Link, *Taxing Robots* (de la Feria & Grau Ruiz, 2022, INBOTS 2021, Biosystems & Biorobotics Bd. 30) | https://link.springer.com/chapter/10.1007/978-3-031-04305-5_16 | übernommen (Verifikationsbeleg, keine neue Quelle) |
+| 2 | — (Verifikation) | SSRN, *Taxing Robots by Rita De La Feria, Maria Amparo Grau Ruiz* | https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4045532 | übernommen (Korroboration) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 3.5 | Verdichtung | Schlussabsatz (Anthropic-Index-/Yale-Komplex) von 10.270 Zeichen auf vier thematische Absätze verdichtet; Detailkennzahlen an `Statistik.md` Tabelle 7 delegiert; alle Quellen und Kernbefunde erhalten. | — |
+| 2 | § 4.5 | Korrektur | Vertauschte Querverweise der Bloomberg-Editorial-Passage berichtigt (de la Feria → § 3.4; IW Köln/Hentze → § 4.2). | — |
+| 3 | § 3.4 / Kapitel 11 | Korrektur | Literatureintrag de la Feria & Grau Ruiz (2022) vollständig verifiziert (Springer, DOI 10.1007/978-3-031-04305-5_16), bibliographisch vervollständigt, Verifizierungs-Marker regelkonform aufgelöst. | 1–2 |
+| 4 | `validate.py` (neu) / `Validierung.md` § 2.6 | Prozessänderung | Automatisiertes Prüfskript eingeführt (Nummerierung, Inhaltsverzeichnis, Querverweise, Zähler, Versionskonsistenz, Pflichtbestandteile, Absatzlängen-Wächter) und als Pflichtschritt jeder Validierung registriert. | — |
+| 5 | `Suchthemen.md` | Prozessänderung | Cluster-Routing E, F, J auf `Statistik.md` (Zahlen) plus argumentative Zielkapitel umgestellt. | — |
+| 6 | README.md / Claude.md | Aktualisierung | Seitenangabe entfernt, Verifikationsstatus aktualisiert, `validate.py` ins Datei-Inventar, Version 27.0. | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| — | — | — | Keine Themen-Recherche in diesem Lauf. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: n/a (nur Verifikations-Recherche)
+- Deduplikation gegen Hauptdokument: n/a
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 5. Juli 2026 (Struktur-Review, Teil 2) — Version 26.0 → Version 27.0"; erstmals inkl. `validate.py`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: Nein (Arbeit auf `claude/ai-changes-concept-review-n3w7pb`; Merge nach Freigabe durch den Autor)
+
+### Auffälligkeiten / offene Punkte
+
+- Erstmals keine verifizierungsbedürftigen Literatureinträge mehr offen.
+- Verbleibende Kandidaten aus dem Konzept-Review (nach Autorenentscheidung): Entschlackung der § 11.5-Annotationen (~31 % Dokumentanteil des Literaturverzeichnisses) und optionales `build_charts.py` für Diagramme aus `Statistik.md`.
+
+---
+
 ## 2026-07-05 — Struktur-Review (kein Recherche-Lauf) — Version 25.0 → Version 26.0
 
 Vom Autor beauftragtes und freigegebenes Konzept-Review statt eines regulären Daily-Update-Laufs. Für die Quellen-Deduplikation künftiger Läufe gilt weiterhin der Eintrag „Lauf 001 vom 5. Juli 2026" (keine neuen Quellen in diesem Lauf).

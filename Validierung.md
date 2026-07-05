@@ -61,7 +61,7 @@ Eine Validierung gilt erst als abgeschlossen, wenn alle Prüfschritte durchlaufe
 
 - Sind alle genannten Gesetze, Verordnungen und Paragraphen korrekt referenziert (Art. 3, 14, 105 GG; EU-AI-Act; SGB-Bezüge; ISO 8373)?
 - Sind alle Zahlen (IAB-Prognose 1,6 Mio. Stellen / 4,5 Bio. EUR; Acemoglu-Effekte +4,02 % Beschäftigung / +0,78 Pp. Arbeitsanteil; Südkorea −2 %-Punkte Automatisierungsabzug; OpenAI-Stipendien bis 100.000 USD / 1 Mio. USD API-Credits) aktuell und belegbar?
-- Werden Autorinnen und Autoren korrekt zitiert (Acemoglu / Manera / Restrepo 2020; Thuemmel 2023; Costinot & Werning 2023; Guerreiro / Rebelo / Teles 2022; Gasteiger & Prettner 2022; de la Feria et al. 2022; Delvaux 2017; Kallas 2017; Yang 2026)?
+- Werden Autorinnen und Autoren korrekt zitiert (Acemoglu / Manera / Restrepo 2020; Thuemmel 2023; Costinot & Werning 2023; Guerreiro / Rebelo / Teles 2022; Gasteiger & Prettner 2022; de la Feria & Grau Ruiz 2022; Delvaux 2017; Kallas 2017; Yang 2026)?
 - Hat sich der Sachstand seit der letzten Version geändert (z. B. neue EU-Richtlinien, neue nationale Digitalsteuern, neue Forschungspapiere)?
 
 #### 2.2.2 Redundanzprüfung
@@ -143,7 +143,7 @@ Eine Validierung gilt erst als abgeschlossen, wenn alle Prüfschritte durchlaufe
 
 #### 2.4.6 Verifizierungsbedürftige Einträge
 
-- Die im Literaturverzeichnis mit einem entsprechenden Hinweis markierten Einträge (z. B. de la Feria et al. 2022; Sanders 2025 Titelangabe) bleiben markiert, bis die vollständige Verifikation vorliegt.
+- Die im Literaturverzeichnis mit einem entsprechenden Hinweis markierten Einträge bleiben markiert, bis die vollständige Verifikation vorliegt (historische Beispiele: Sanders 2025 — verifiziert mit Version 5.0; de la Feria & Grau Ruiz 2022 — verifiziert mit Version 27.0).
 - Für jede erfolgte Verifikation wird in `Validierung-Ergebnisse.md` der Beleg hinterlegt; erst dann darf der Markierungshinweis entfernt werden.
 
 ### 2.5 Versionskonsistenz und Lizenz
@@ -156,9 +156,17 @@ Eine Validierung gilt erst als abgeschlossen, wenn alle Prüfschritte durchlaufe
 
 ### 2.6 Automatisierte Prüfung
 
-Das Projekt enthält im Ausgangszustand keine dedizierten Prüfskripte. Wenn später Skripte ergänzt werden (z. B. `validate.py` für Nummerierungs-, Querverweis- und Quellenkonsistenz-Checks), sind sie hier aufzunehmen und in jeder Validierung auszuführen.
+Das Projekt enthält das Prüfskript `validate.py`. Es ist in **jeder Validierung** auszuführen (`python3 validate.py`) und prüft automatisiert:
 
-Solange keine Skripte existieren, ersetzen manuelle Stichproben zu Nummerierung (§ 2.1.2), Querverweisen (§ 2.1.3) und Quellenzuordnung (§ 2.4.1) den automatisierten Teil.
+- Kapitelnummerierung 1–11 und lückenlose Unterabschnitt-Nummerierung (§ 2.1.2)
+- Abdeckung des Inhaltsverzeichnisses (§ 2.1.1)
+- alle `§X.Y`- und `Kapitel X`-Querverweise auf existierende Ziele (§ 2.1.3)
+- Zähler „fünf Typen" in § 2.1 (§ 2.1.2)
+- Versionskonsistenz über Dokumentkopf, Aktualitätshinweis, `README.md` (Versionszeile + Zitiervorschlag) und `Claude.md` (§ 2.5)
+- Haftungs-, Lizenz- und KI-Offenlegungshinweise sowie Existenz und Verweis auf `Statistik.md` (§ 2.5)
+- **Absatzlängen-Wächter:** Warnung bei Fließtext-Absätzen über 5.000 Zeichen und bei § 1.1 über 8.000 Zeichen — Fortschreibungsketten gehören nach `Statistik.md`, nicht in den Fließtext
+
+FEHLER des Skripts blockieren den Abschluss der Validierung; WARNUNGEN sind im Validierungsprotokoll zu bewerten (beheben oder begründen). Manuelle Stichproben zu Quellenzuordnung (§ 2.4.1) und Zitatgenauigkeit (§ 2.4.5) bleiben zusätzlich erforderlich, da sie nicht automatisierbar sind.
 
 ---
 

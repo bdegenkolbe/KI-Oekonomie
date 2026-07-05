@@ -4,13 +4,13 @@
 
 Autor: Björn Degenkolbe
 Stand: Juli 2026
-Version: 26.0
+Version: 27.0
 
 ---
 
 ## Worum geht es
 
-Ein ausführliches Arbeitspapier (ca. 25 Seiten) zum Diskussionsstand rund um die Besteuerung von KI und Robotik, wenn diese menschliche Arbeit substituieren. Das Papier verbindet drei Perspektiven:
+Ein ausführliches Arbeitspapier zum Diskussionsstand rund um die Besteuerung von KI und Robotik, wenn diese menschliche Arbeit substituieren. Das Papier verbindet drei Perspektiven:
 
 1. **Ökonomisch-wissenschaftlich** — Rezeption der aktuellen Optimalsteuer-Literatur (Acemoglu/Manera/Restrepo, Thuemmel, Costinot & Werning u. a.)
 2. **Rechtlich-steuerpolitisch** — Einordnung für Deutschland und die EU, inkl. verfassungsrechtlicher Fragen und der Delvaux-Debatte 2017
@@ -34,7 +34,7 @@ Dieses Arbeitspapier steht unter der [Creative-Commons-Lizenz CC BY 4.0](https:/
 
 ## Entstehung und KI-Offenlegung
 
-These, Struktur, Bewertungen und politische Positionierung stammen vom Autor. Die Recherche- und Schreibarbeit entstand im Dialog mit **Claude (Anthropic)**. Quellen sind im Literaturverzeichnis (Kapitel 11) dokumentiert; eine Einzelangabe (de la Feria et al. 2022) bleibt als verifizierungsbedürftig markiert. Die vollständige Versions- und Änderungshistorie aller Update-Läufe ist in [`Änderungshistorie.md`](./Änderungshistorie.md) und [`Validierung-Ergebnisse.md`](./Validierung-Ergebnisse.md) dokumentiert; die quantitativen Kennzahlen des Papiers werden in [`Statistik.md`](./Statistik.md) als Zeitreihen fortgeschrieben.
+These, Struktur, Bewertungen und politische Positionierung stammen vom Autor. Die Recherche- und Schreibarbeit entstand im Dialog mit **Claude (Anthropic)**. Quellen sind im Literaturverzeichnis (Kapitel 11) dokumentiert und vollständig verifiziert. Die vollständige Versions- und Änderungshistorie aller Update-Läufe ist in [`Änderungshistorie.md`](./Änderungshistorie.md) und [`Validierung-Ergebnisse.md`](./Validierung-Ergebnisse.md) dokumentiert; die quantitativen Kennzahlen des Papiers werden in [`Statistik.md`](./Statistik.md) als Zeitreihen fortgeschrieben.
 
 ## Aktualisierung
 
@@ -42,7 +42,7 @@ Das Papier gibt den Stand Anfang Juli 2026 wieder. Für Anmerkungen, Korrekturen
 
 ## Zitiervorschlag
 
-> Degenkolbe, B. (2026). *Die Besteuerung von Künstlicher Intelligenz und Robotik als Ersatz menschlicher Arbeit — Ökonomische, rechtliche und sozialpolitische Perspektiven.* Arbeitspapier, Version 26.0, Juli 2026.
+> Degenkolbe, B. (2026). *Die Besteuerung von Künstlicher Intelligenz und Robotik als Ersatz menschlicher Arbeit — Ökonomische, rechtliche und sozialpolitische Perspektiven.* Arbeitspapier, Version 27.0, Juli 2026.
 
 ---
 

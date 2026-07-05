@@ -72,7 +72,7 @@
 
 ---
 
-## Cluster E — Arbeitsmarkt-, Konjunktur- und Sozialversicherungsdaten (→ Kap. 1.1, 5)
+## Cluster E — Arbeitsmarkt-, Konjunktur- und Sozialversicherungsdaten (→ Zahlen: `Statistik.md` Tab. 6; argumentativ Kap. 1.1, 5)
 
 **Schlüsselbegriffe:** IAB-Kurzbericht, IAB-Regionalprognose, Erwerbspersonenpotenzial, sozialversicherungspflichtige Beschäftigung, Arbeitslosenquote, Übergangsstatistik, demografischer Wandel, Lohnquote, Lohnnebenkosten, GKV-Beitragssatz, RV-Beitragssatz, BIP-Prognose Deutschland, BIP-Prognose Eurozone, Skills-Gap, Re-Skilling-Programme.
 
@@ -86,7 +86,7 @@
 
 ---
 
-## Cluster F — Tech-Layoffs, Voluntary-Retirement-Programme und KI-Capex (→ Kap. 1.1, 8.3)
+## Cluster F — Tech-Layoffs, Voluntary-Retirement-Programme und KI-Capex (→ Zahlen: `Statistik.md` Tab. 1–5; argumentativ Kap. 1.1, 8.3)
 
 **Schlüsselbegriffe:** AI-driven layoffs, voluntary retirement program (VRSAR), hyperscaler capex, AI infrastructure spending, Tech-Stellenstreichungen, Restrukturierung, Buyout-Programm, Massenentlassungsanzeige, Layoff-Tracker, Hiring Freeze, RIF (reduction in force).
 
@@ -142,7 +142,7 @@
 
 ---
 
-## Cluster J — Robotik und physische Automatisierung (→ Kap. 1.1, 2.2, 8.1)
+## Cluster J — Robotik und physische Automatisierung (→ Zahlen: `Statistik.md`; argumentativ Kap. 2.2, 8.1)
 
 **Schlüsselbegriffe:** humanoide Robotik, General-Purpose Robots, Embodied AI, Robotik-Capex, autonome Logistik, Lagerautomatisierung, Manufacturing Robotics, Pflegerobotik, Service Robotics, Robotik-Adoption, Industrieroboter-Dichte, Roboter-pro-Mitarbeiter-Quote, ISO 8373, RIA-Klassifikation, IFR-Statistik.
 

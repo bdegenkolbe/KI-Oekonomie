@@ -7,6 +7,64 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 5. Juli 2026 (Struktur-Review, Teil 2) — Version 26.0 → Version 27.0
+
+**Auslöser:** Fortsetzung des Konzept-Reviews auf Freigabe des Autors („Weiter…"). Vier Maßnahmen: (1) § 3.5-Schlussabsatz (Anthropic-Index-/Yale-Komplex) von 10.270 Zeichen auf vier Absätze (~7.000 Zeichen gesamt für § 3.5) verdichtet — alle benannten Quellen und Kernbefunde erhalten, Detailkennzahlen an `Statistik.md` Tabelle 7 delegiert. (2) Prüfskript `validate.py` eingeführt und in `Validierung.md` § 2.6 als Pflichtschritt registriert (Nummerierung, Inhaltsverzeichnis, Querverweise, Zähler, Versionskonsistenz, Pflichtbestandteile, Absatzlängen-Wächter > 5.000 Zeichen bzw. § 1.1 > 8.000 Zeichen). (3) `Suchthemen.md`-Routing der Cluster E, F, J auf `Statistik.md` (Zahlen) plus argumentative Zielkapitel umgestellt. (4) Verifikation des seit Version 1.0 offenen Literatureintrags de la Feria et al. (2022) — siehe 2.4.6.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel plus Zusammenfassung; § 3.1–3.5 erhalten (skriptgeprüft). |
+| 2.1.2 Nummerierung | OK | Kapitel- und Unterabschnitt-Nummerierung lückenlos; fünf Typen unverändert (skriptgeprüft). |
+| 2.1.3 Querverweise | Abweichung → behoben | **Gefundener Altfehler:** Die Bloomberg-Editorial-Passage in § 4.5 referenzierte „§ 3.3 (de la Feria) und § 3.4 (IW Köln/Hentze)" — tatsächlich steht de la Feria in § 3.4 und die IW-Köln-/Hentze-Position in § 4.2. Korrigiert auf „§ 3.4 (de la Feria) und § 4.2 (IW Köln/Hentze)". Alle übrigen Verweise skriptgeprüft OK. |
+| 2.1.4 Roter Faden | OK | § 3.5 trägt wieder die Funktion „Zusammenfassung der ökonomischen Literatur" in vier thematischen Absätzen (Makro-Größenordnung → Nutzungsdaten-Empirie → subjektive Ebene → fiskalische Dimension und szenariorobuste Schlussfolgerung). |
+| 2.1.5 Formatierung | OK | Skript- und Stichprobenprüfung ohne Befund. |
+| 2.2.1 Sachliche Richtigkeit | OK | Alle im verdichteten § 3.5 verbliebenen Zahlen (Acemoglu 0,9–1,1 % / 0,53–0,66 %; 94 %; 49 %; 74,5 %; 33 Monate; 5,1; ~9.700; ~50 %/~10 %; 39 Bio. USD; 5.500–42.400 USD) stimmen mit Version 26.0 und `Statistik.md` Tabelle 7 überein; keine neuen Fakten. |
+| 2.2.2 Redundanzprüfung | OK | Detailkennzahlen der Index-Berichtsreihe jetzt nur noch tabellarisch in `Statistik.md`; § 3.5 verweist. |
+| 2.2.3 Argumentation | OK | Szenariorobustheits-Schluss und § 8.4-Anbindung (Stabilitätslinie, Verteilungs- vor Ersatzfrage) vollständig erhalten. |
+| 2.2.4 Ausgewogenheit | OK | Moderate Aggregat-Befunde und Frühwirkungs-Hinweise weiterhin beide dargestellt. |
+| 2.3.1 Tippfehler und Grammatik | OK | Neuer Text stichprobengeprüft. |
+| 2.3.2 Terminologie | OK | *observed exposure* und *Produktivitäts-Angst-Paradoxie* weiterhin bei Erstnennung erläutert. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Alle in § 3.5 benannten Quellen (Acemoglu 2024, Anthropic Economic Index, Massenkoff & McCrory, Yale Budget Lab) im Literaturverzeichnis; keine Quelle gelöscht. |
+| 2.4.2 Formale Einheitlichkeit | OK | Neuer de-la-Feria-Eintrag im APA-nahen Stil mit vollständiger DOI-URL. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Verifikation über Primärquelle (link.springer.com) mit SSRN-Korroboration. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Springer-Kapitel-URL (DOI 10.1007/978-3-031-04305-5_16) und SSRN-Eintrag (abstract_id=4045532) über Web-Recherche am 5. Juli 2026 als erreichbar bestätigt. |
+| 2.4.5 Zitatgenauigkeit | OK | Massenkoff/McCrory-Kernzitat („keine systematische Erhöhung der Arbeitslosigkeit…") wörtlich beibehalten; Acemoglu-Bandbreiten unverändert. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK — Marker aufgelöst | **Verifikation dokumentiert:** de la Feria, R., & Grau Ruiz, M. A. (2022). Taxing Robots. In M. A. Grau Ruiz (Hrsg.), *Interactive Robotics: Legal, Ethical, Social and Economic Aspects* (INBOTS 2021; Biosystems & Biorobotics, Bd. 30). Springer, Cham. DOI 10.1007/978-3-031-04305-5_16. Belege: link.springer.com/chapter/10.1007/978-3-031-04305-5_16; papers.ssrn.com/sol3/papers.cfm?abstract_id=4045532 (Web-Recherche 5. Juli 2026). Literatureintrag vervollständigt, „et al." auf „& Grau Ruiz" präzisiert (§ 3.4-Überschrift, Kapitel 11); Marker in Hauptdokument, `Claude.md` § 4.3, `Validierung.md` § 2.4.6 und `README.md` regelkonform aufgelöst. Damit sind erstmals keine verifizierungsbedürftigen Einträge mehr offen. |
+| 2.5 Versionskonsistenz und Lizenz | OK | 27.0 durchgängig (Dokumentkopf, Aktualitätshinweis, `README.md` × 2, `Claude.md`, dieses Protokoll); Haftungs-, Lizenz- und Offenlegungshinweise erhalten (skriptgeprüft). |
+| 2.6 Automatisierte Prüfung | OK | `validate.py` eingeführt und ausgeführt: „Alle automatisierten Prüfschritte OK", keine Warnungen. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| 1 | § 4.5, Bloomberg-Editorial-Passage | Querverweise vertauscht: „§ 3.3 (de la Feria) und § 3.4 (IW Köln/Hentze)" statt korrekt § 3.4 bzw. § 4.2. | Mittel |
+| 2 | Kapitel 11 / § 3.4 | Unvollständige bibliographische Angabe de la Feria et al. (2022) mit Verifizierungsbedarfs-Marker; „et al." bei nur zwei Autorinnen unpräzise. | Gering |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| 1 | Vertauschte Querverweise | Korrektur auf „§ 3.4 (de la Feria) und § 4.2 (IW Köln/Hentze)". | Ja |
+| 2 | Unvollständiger Literatureintrag | Vollständige Angabe mit Herausgeberin, Reihe, Verlag und DOI eingetragen; Autorinnennennung präzisiert; Marker nach dokumentierter Verifikation aufgelöst. | Ja |
+
+### Nachprüfung
+
+- 2.1.3 nach Querverweis-Korrektur erneut durchlaufen: OK (`validate.py` fehlerfrei)
+- 2.4.1/2.4.2 nach Literatureintrag-Vervollständigung: OK
+- 2.5 Versionskonsistenz: OK (27.0 durchgängig)
+- Automatisierte Skripte: OK (`validate.py`, Exit-Code 0, keine Warnungen)
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 27.0
+- PDF erstellt: Ja (`KI-Ökonomie.pdf` via `build_pdf.py`)
+- Word erstellt: Ja (`KI-Ökonomie.docx` via `build_docx.py`)
+
+---
+
 ## Validierung 5. Juli 2026 (Struktur-Review) — Version 25.0 → Version 26.0
 
 **Auslöser:** Vom Autor beauftragtes Konzept-Review („Sammlung von Umstrukturierungen und Quellen — kann man aus den Zahlen eine Statistik bauen?"). Kein Recherche-Lauf. Drei genehmigte Struktur-Maßnahmen: (1) § 1.1 von 17.900 auf rund 5.600 Zeichen verdichtet (fünf Absätze: IAB-Lage, Layoff-Pfad, Capex-Asymmetrie, Kausal-Vorsicht/Rebound, Sozialversicherung) mit Verweis auf den neuen quantitativen Anhang `Statistik.md`; ebenso der Aktualitätshinweis am Dokumentende von rund 10.100 Zeichen auf einen Absatz kompaktiert. (2) `DailyPrompt.md` umgestellt: Zahlen-Fortschreibungen künftig ausschließlich als Tabellenzeilen in `Statistik.md`, ins Hauptdokument nur Argument-Änderungen; Fortschreibungsketten im Fließtext nicht mehr zulässig. (3) README-KI-Offenlegung auf einen Absatz mit Verweis auf `Änderungshistorie.md`/`Validierung-Ergebnisse.md` verdichtet. Alle entfallenen Zahlenstände sind vollständig in `Statistik.md` (Tabellen 1–8) sowie in der Git-Historie erhalten; das Literaturverzeichnis blieb unangetastet.
