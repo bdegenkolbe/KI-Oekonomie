@@ -7,6 +7,62 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 5. Juli 2026 (Struktur-Review) — Version 25.0 → Version 26.0
+
+**Auslöser:** Vom Autor beauftragtes Konzept-Review („Sammlung von Umstrukturierungen und Quellen — kann man aus den Zahlen eine Statistik bauen?"). Kein Recherche-Lauf. Drei genehmigte Struktur-Maßnahmen: (1) § 1.1 von 17.900 auf rund 5.600 Zeichen verdichtet (fünf Absätze: IAB-Lage, Layoff-Pfad, Capex-Asymmetrie, Kausal-Vorsicht/Rebound, Sozialversicherung) mit Verweis auf den neuen quantitativen Anhang `Statistik.md`; ebenso der Aktualitätshinweis am Dokumentende von rund 10.100 Zeichen auf einen Absatz kompaktiert. (2) `DailyPrompt.md` umgestellt: Zahlen-Fortschreibungen künftig ausschließlich als Tabellenzeilen in `Statistik.md`, ins Hauptdokument nur Argument-Änderungen; Fortschreibungsketten im Fließtext nicht mehr zulässig. (3) README-KI-Offenlegung auf einen Absatz mit Verweis auf `Änderungshistorie.md`/`Validierung-Ergebnisse.md` verdichtet. Alle entfallenen Zahlenstände sind vollständig in `Statistik.md` (Tabellen 1–8) sowie in der Git-Historie erhalten; das Literaturverzeichnis blieb unangetastet.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel plus Zusammenfassung unverändert; § 1.1–1.3 erhalten; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos (skriptgeprüft); fünf Typen in § 2.1 unverändert; Zähler nicht berührt. |
+| 2.1.3 Querverweise | OK | Alle Verweise des neuen § 1.1 (§ 2.1, § 3.4, § 3.5, § 5.1, § 8.3, § 9.1) skriptgeprüft auf existierende Unterabschnitte. |
+| 2.1.4 Roter Faden | OK | § 1.1 trägt wieder die Funktion „Ausgangslage" statt Nachrichtenchronik; Detailzahlen an `Statistik.md` delegiert; Argumentationslinien (Asymmetrie → § 5.1/8.3, Kausalunschärfe → § 9.1/3.4) erhalten. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; Tabellen unberührt. |
+| 2.2.1 Sachliche Richtigkeit | OK | Alle im verdichteten § 1.1 verbliebenen Zahlen (IAB −90.000/−140.000/+180.000; Tracker 164.971/185.894; Challenger 101.743 = 23 %/+86 %; Oracle ~21.000/13 %; Capex ~725 Mrd. USD/+77 %; Orgvue 55 %; Robert Half 32 %; Goldman Sachs ~16.000/Monat) stimmen mit Version 25.0 und `Statistik.md` überein; keine neuen Fakten eingeführt. |
+| 2.2.2 Redundanzprüfung | OK | Dreifach-Dokumentation (§ 1.1 / § 11.5 / Aktualitätshinweis) aufgelöst: Zahlen leben tabellarisch in `Statistik.md`, § 11.5-Annotationen bleiben als Quellenbelege. |
+| 2.2.3 Argumentation | OK | Fünf Typen weiterhin auseinandergehalten; Typ-5-Kausalitätskritik und § 3.4-Warnung im verdichteten Text erhalten. |
+| 2.2.4 Ausgewogenheit | OK | Washington-Post-Differenzierung und Rebound-Empirie als explizite Gegenbefunde im verdichteten § 1.1 erhalten. |
+| 2.3.1 Tippfehler und Grammatik | OK | Neuer Text stichprobengeprüft. |
+| 2.3.2 Terminologie | OK | IAB bei Erstnennung ausgeschrieben; Typ-Verweis gemäß § 2.1 beibehalten. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Alle 23 im neuen § 1.1 genannten Quellen/Institutionen skriptgeprüft im Literaturverzeichnis vorhanden; keine Quelle gelöscht. |
+| 2.4.2 Formale Einheitlichkeit | OK | Literaturverzeichnis unverändert. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Keine inhaltliche Aktualisierung; Stand 5. Juli 2026 unverändert. |
+| 2.4.4 URL-Prüfung (Stichprobe) | n/a | Keine URLs geändert oder ergänzt. |
+| 2.4.5 Zitatgenauigkeit | OK | Verdichtete Wiedergaben (Orgvue, Robert Half, Ford, Yale/Massenkoff & McCrory, Challenger) gegen Version 25.0 abgeglichen; keine sinnentstellende Verkürzung. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | de-la-Feria-Markierung unverändert. |
+| 2.5 Versionskonsistenz und Lizenz | OK | 26.0 in Dokumentkopf, Aktualitätshinweis, `README.md` (Versionszeile + Zitiervorschlag), `Claude.md` (Stand-Angabe), diesem Protokoll; Haftungshinweis, Lizenz und KI-Offenlegung erhalten. |
+| 2.6 Automatisierte Prüfung | OK | Skriptgestützte Checks (Kapitelnummerierung, §-Querverweise, Quellenabdeckung, Versionskonsistenz) im Rahmen dieses Reviews ausgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler; strukturelle Verdichtung ohne inhaltliche Korrekturen. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Nur strukturelle Verdichtung gemäß Autorenfreigabe; keine Fehlerbereinigung erforderlich. | — |
+
+### Nachprüfung
+
+- 2.1.1–2.1.5 nach Verdichtung erneut durchlaufen: OK
+- 2.4.1 nach Verdichtung erneut durchlaufen: OK (alle Fließtext-Quellen belegt)
+- 2.5 Versionskonsistenz: OK (26.0 durchgängig)
+- Automatisierte Skripte: OK (Inline-Prüfskript, siehe Auslöser)
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine identifiziert)
+- Neue Version: 26.0
+- PDF erstellt: Ja (`KI-Ökonomie.pdf` via `build_pdf.py`)
+- Word erstellt: Ja (`KI-Ökonomie.docx` via `build_docx.py`)
+
+---
+
 ## Validierung 5. Juli 2026 (Lauf 001 vom 5. Juli 2026) — Version 24.0 → Version 25.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf des Tages, Folgelauf zu Lauf 002 vom 4. Juli 2026. Web-Recherche im Korridor der Cluster A–J am 5. Juli 2026 im Standard-7-Tage-Fenster (28. Juni – 5. Juli 2026), Cluster F und I im Standard-48-Stunden-Fenster (3.–5. Juli 2026). Vier belegbare Fortschreibungen aus dem 7-Tage-Fenster identifiziert und synthetisch verdichtet auf zwei Cluster (F/A mit Rebound-Wave; F mit Tracker- und Oracle-Aktualisierungen).

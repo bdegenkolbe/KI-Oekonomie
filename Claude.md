@@ -10,7 +10,7 @@
 
 Dieses Projekt pflegt ein Arbeitspapier zum Diskussionsstand rund um die Besteuerung von KI und Robotik, wenn diese menschliche Arbeit substituieren. Das Papier verbindet drei Perspektiven — ökonomisch-wissenschaftlich, rechtlich-steuerpolitisch und sozial-/verteilungspolitisch — und entwickelt in Kapitel 8 mit der Deutschland-These eine eigenständige Position. Es dient als Wissens- und Diskussionsgrundlage und wird regelmäßig aktualisiert, validiert und als PDF und Word-Dokument exportiert.
 
-**Aktueller Stand:** Version 18.0, Mai 2026, 11 Kapitel, rund 28 Seiten.
+**Aktueller Stand:** Version 26.0, Juli 2026, 11 Kapitel plus quantitativer Anhang (`Statistik.md`).
 
 Das Papier steht unter der Creative-Commons-Lizenz CC BY 4.0.
 
@@ -24,7 +24,7 @@ Das Papier steht unter der Creative-Commons-Lizenz CC BY 4.0.
 | `OpenAI_Industriepolitik_Intelligenz-Zeitalter_DE.md` | Arbeitsübersetzung des OpenAI-Strategiepapiers vom April 2026 (Referenzquelle für Kapitel 4.5) |
 | `README.md` | Kurzbeschreibung, Deutschland-These, Zitiervorschlag |
 | `LICENSE` | Lizenztext (CC BY 4.0) |
-| `Statistik.md` | Quantitativer Anhang — führt die im Hauptdokument verstreuten Zahlen als Zeitreihen und Tabellen zusammen (Stand v25.0; noch nicht Teil des Daily-Update-Laufs) |
+| `Statistik.md` | Quantitativer Anhang — alle Kennzahlen des Papiers als Zeitreihen und Tabellen; wird vom Daily-Update-Lauf fortgeschrieben (Zahlen-Fortschreibungen nur hier, nicht im Fließtext) |
 | `Validierung.md` | Prüfprozess — regelt Ablauf, Prüfschritte und Versionierung |
 | `Validierung-Ergebnisse.md` | Historisches Protokoll aller Validierungen |
 | `Formatvorlage.md` | Gestaltungsrichtlinie für PDF- und Word-Export |

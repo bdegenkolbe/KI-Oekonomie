@@ -16,8 +16,8 @@ PHASE 0 — Vorbereitung
    (falls Remote-Tracking) oder die Basis von `main` ziehen, damit die
    lokale Basis aktuell ist.
 3. Pflichtdateien einlesen: `Claude.md`, `Validierung.md`, das
-   Hauptdokument `KI-Ökonomie.md`, `Suchthemen.md` und
-   `Änderungshistorie.md`.
+   Hauptdokument `KI-Ökonomie.md`, der quantitative Anhang
+   `Statistik.md`, `Suchthemen.md` und `Änderungshistorie.md`.
    Wenn `Suchthemen.md` oder `Änderungshistorie.md` auf dem Session-Branch
    fehlen, von `origin/main` nachladen:
      git checkout origin/main -- Suchthemen.md Änderungshistorie.md
@@ -55,8 +55,21 @@ PHASE 1 — Recherche im Korridor von Suchthemen.md
 ================================================================
 PHASE 2 — Einarbeitung
 ================================================================
-1. Für jeden gültigen Treffer den passenden Abschnitt im Hauptdokument
-   identifizieren (vgl. § 3 Dokumentstruktur in `Claude.md`).
+1. Zuerst je Treffer entscheiden: Zahlen-Fortschreibung oder
+   Argument-Änderung?
+   – **Zahlen-Fortschreibung** (aktualisierte Tracker-Stände,
+     Challenger-Monatsreports, Layoff-/Buyout-Einzelmeldungen,
+     AI-Capex-Stände, IAB-/GKV-Fortschreibungen und vergleichbare
+     Kennzahlen-Updates): AUSSCHLIESSLICH als neue Tabellenzeile in
+     die passende Tabelle von `Statistik.md` einpflegen (plus
+     Quelleneintrag in Kapitel 11 des Hauptdokuments). Das
+     Hauptdokument wird dafür NICHT angefasst.
+   – **Argument-Änderung** (neue Argumentationslinie, Richtungswechsel
+     im Befund, strukturell neue Quelle, neues Politikinstrument):
+     in den passenden Abschnitt des Hauptdokuments einarbeiten
+     (vgl. § 3 Dokumentstruktur in `Claude.md`).
+   § 1.1 bleibt kompakt (Zielgröße: rund eine Seite); dort werden
+   keine Einzelmeldungen mehr chronologisch angereiht.
 2. Inhalt knapp einarbeiten: ein Satz Sachverhalt + Quelle + Datum;
    keine Redundanzen zu bereits dokumentierten Inhalten erzeugen.
 3. Aussagen aus Policy-Papieren, Working Papers, Gesetzentwürfen oder
@@ -67,9 +80,19 @@ PHASE 2 — Einarbeitung
    11.3 Institutionelle/politische Dokumente, 11.4 Wertschöpfungsabgabe,
    11.5 Journalistische und praxisorientierte Quellen.
    Zitierstil angelehnt an APA, vollständige URL.
-5. Wenn eine bestehende Aussage durch eine neuere Zahl/Quelle ersetzt wird:
-   alte Quelle nicht löschen, sondern nachgelagert als zeitlich frühere
-   Referenz erhalten („Stand März 2026: …, aktualisiert im Mai 2026: …").
+5. Wenn eine bestehende Aussage durch eine neuere Zahl/Quelle ersetzt
+   wird: Im Fließtext des Hauptdokuments steht nur der jeweils aktuelle
+   Stand; der bisherige Stand bleibt als Zeile in der Zeitreihen-Tabelle
+   von `Statistik.md` erhalten (dort entsteht die vollständige Kette).
+   Alte Quellen werden nie aus dem Literaturverzeichnis gelöscht.
+   Fortschreibungsketten im Fließtext („Stand März: …, aktualisiert im
+   Mai: …") sind nicht mehr zulässig.
+5a. Der Aktualitätshinweis am Dokumentende wird nicht kumulativ
+   erweitert, sondern nur auf das neue Schnitt-Datum und die neue
+   Versionsnummer aktualisiert (maximal ein Absatz); Details gehören
+   in `Änderungshistorie.md` und `Statistik.md`. Gleiches gilt für die
+   KI-Offenlegung in `README.md`: keine Versions-Einträge mehr
+   anhängen, nur Versionszeile und Zitiervorschlag aktualisieren.
 6. Verifizierungsbedürftige Markierungen (de la Feria et al. 2022) nicht
    ohne dokumentierte Verifikation entfernen.
 7. Inhaltsverzeichnis, Querverweise und alle Zähler („fünf Typen", „drei
@@ -198,6 +221,7 @@ PHASE 6 — Commit, Merge auf main, Branch-Cleanup
      git add KI-Ökonomie.md \
              KI-Ökonomie.pdf \
              KI-Ökonomie.docx \
+             Statistik.md \
              Validierung-Ergebnisse.md \
              Änderungshistorie.md \
              README.md \

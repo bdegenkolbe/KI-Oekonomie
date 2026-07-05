@@ -1,8 +1,8 @@
 # Statistik.md — Quantitativer Anhang zum Arbeitspapier
 
-**Datengrundlage:** `KI-Ökonomie.md`, Version 25.0 (Stand 5. Juli 2026).
-**Zweck:** Diese Datei führt alle im Hauptdokument verstreuten Zahlenangaben als strukturierte Statistik zusammen — Zeitreihen statt Fließtext-Fortschreibungen. Jede Zahl ist im Hauptdokument belegt (Fundstelle in der Spalte §); die Quellenangaben stehen dort in Kapitel 11.
-**Hinweis:** Die Datei wird derzeit **nicht** automatisch vom Daily-Update-Lauf gepflegt. Bei Übernahme in den Regelprozess ist `DailyPrompt.md` Phase 2 entsprechend zu erweitern.
+**Datengrundlage:** `KI-Ökonomie.md`, ab Version 26.0 (Erstextraktion aus Version 25.0, Stand 5. Juli 2026).
+**Zweck:** Diese Datei führt alle quantitativen Kennzahlen des Arbeitspapiers als strukturierte Statistik — Zeitreihen statt Fließtext-Fortschreibungen. Die Quellenangaben stehen im Literaturverzeichnis des Hauptdokuments (Kapitel 11); die Spalte § nennt den argumentativen Bezugsort.
+**Pflege:** Die Datei wird vom Daily-Update-Lauf fortgeschrieben (`DailyPrompt.md` Phase 2): Reine Zahlen-Fortschreibungen kommen als neue Tabellenzeilen hierher; in das Hauptdokument kommt nur, was die Argumentation verändert.
 
 ---
 

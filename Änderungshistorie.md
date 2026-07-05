@@ -54,6 +54,50 @@
 
 ---
 
+## 2026-07-05 — Struktur-Review (kein Recherche-Lauf) — Version 25.0 → Version 26.0
+
+Vom Autor beauftragtes und freigegebenes Konzept-Review statt eines regulären Daily-Update-Laufs. Für die Quellen-Deduplikation künftiger Läufe gilt weiterhin der Eintrag „Lauf 001 vom 5. Juli 2026" (keine neuen Quellen in diesem Lauf).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| — | — | Keine Recherche in diesem Lauf. | — | — |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | `Statistik.md` (neu) | Ergänzung | Quantitativer Anhang mit acht Tabellenblöcken (Layoff-Tracker-Zeitreihe, Challenger-Monatsreihe, Unternehmens-Einzelmeldungen, Rebound-Empirie, AI-Capex, IAB-/GKV-Ketten, Modellkennzahlen, Methodik) aus allen Zahlenangaben der Version 25.0. | — |
+| 2 | § 1.1 | Verdichtung | Von 17.900 auf rund 5.600 Zeichen in fünf Absätzen restrukturiert; Fortschreibungsketten und Einzelmeldungs-Chronik in `Statistik.md` überführt; alle Kernbefunde und Querverweise erhalten. | — |
+| 3 | Dokumentende | Verdichtung | Aktualitätshinweis von rund 10.100 Zeichen auf einen Absatz mit Verweisen auf `Statistik.md` und `Änderungshistorie.md` kompaktiert. | — |
+| 4 | `DailyPrompt.md` | Prozessänderung | Phase 0 (Pflichtdatei `Statistik.md`), Phase 2 (Zahlen-Fortschreibung nur noch in `Statistik.md`; § 1.1 bleibt kompakt; Aktualitätshinweis und README-Offenlegung nicht mehr kumulativ) und Phase 6 (Staging-Liste) angepasst. | — |
+| 5 | README.md | Verdichtung | KI-Offenlegung auf einen Absatz mit Verweis auf `Änderungshistorie.md`/`Validierung-Ergebnisse.md` reduziert; `Statistik.md` in Dateiliste; Version 26.0. | — |
+| 6 | Claude.md | Aktualisierung | Datei-Inventar um `Statistik.md` ergänzt; Stand-Angabe auf Version 26.0 aktualisiert. | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| — | — | — | Keine Recherche in diesem Lauf. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: n/a (Struktur-Review)
+- Deduplikation gegen Hauptdokument: n/a
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 5. Juli 2026 (Struktur-Review) — Version 25.0 → Version 26.0")
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: Nein (Arbeit auf `claude/ai-changes-concept-review-n3w7pb`; Merge nach Freigabe durch den Autor)
+
+### Auffälligkeiten / offene Punkte
+
+- Inhaltlich entfällt nichts: Alle aus § 1.1 und dem Aktualitätshinweis entfernten Zahlenstände sind vollständig in `Statistik.md` bzw. der Git-Historie erhalten; das Literaturverzeichnis blieb unangetastet.
+- Künftige Läufe pflegen Zahlen-Fortschreibungen gemäß neuem `DailyPrompt.md` Phase 2 ausschließlich in `Statistik.md`.
+
+---
+
 ## 2026-07-05 — Lauf 001 — Version 24.0 → Version 25.0
 
 ### Recherchekorridor
