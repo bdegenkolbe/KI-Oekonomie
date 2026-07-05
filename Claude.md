@@ -24,6 +24,7 @@ Das Papier steht unter der Creative-Commons-Lizenz CC BY 4.0.
 | `OpenAI_Industriepolitik_Intelligenz-Zeitalter_DE.md` | Arbeitsübersetzung des OpenAI-Strategiepapiers vom April 2026 (Referenzquelle für Kapitel 4.5) |
 | `README.md` | Kurzbeschreibung, Deutschland-These, Zitiervorschlag |
 | `LICENSE` | Lizenztext (CC BY 4.0) |
+| `Statistik.md` | Quantitativer Anhang — führt die im Hauptdokument verstreuten Zahlen als Zeitreihen und Tabellen zusammen (Stand v25.0; noch nicht Teil des Daily-Update-Laufs) |
 | `Validierung.md` | Prüfprozess — regelt Ablauf, Prüfschritte und Versionierung |
 | `Validierung-Ergebnisse.md` | Historisches Protokoll aller Validierungen |
 | `Formatvorlage.md` | Gestaltungsrichtlinie für PDF- und Word-Export |
