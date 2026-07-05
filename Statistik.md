@@ -2,7 +2,7 @@
 
 **Datengrundlage:** `KI-Ökonomie.md`, ab Version 26.0 (Erstextraktion aus Version 25.0, Stand 5. Juli 2026).
 **Zweck:** Diese Datei führt alle quantitativen Kennzahlen des Arbeitspapiers als strukturierte Statistik — Zeitreihen statt Fließtext-Fortschreibungen. Die Quellenangaben stehen im Literaturverzeichnis des Hauptdokuments (Kapitel 11); die Spalte § nennt den argumentativen Bezugsort.
-**Pflege:** Die Datei wird vom Daily-Update-Lauf fortgeschrieben (`DailyPrompt.md` Phase 2): Reine Zahlen-Fortschreibungen kommen als neue Tabellenzeilen hierher; in das Hauptdokument kommt nur, was die Argumentation verändert.
+**Pflege:** Die Datei wird vom Daily-Update-Lauf fortgeschrieben (`DailyPrompt.md` Phase 2): Reine Zahlen-Fortschreibungen kommen als neue Tabellenzeilen hierher; in das Hauptdokument kommt nur, was die Argumentation verändert. Die Diagramme unter `charts/` werden mit `python3 build_charts.py` aus den Tabellen 1, 2 und 5 erzeugt.
 
 ---
 
@@ -21,6 +21,8 @@ Kumulierte Stände der beiden im Papier fortgeschriebenen Tracker (Methodikunter
 | 05. Jul 2026 (Jahresmitte) | 164.971 | 435 | ~887 | 185.894 | 267 | ~999 | 1.1 |
 | **Vergleich: Gesamtjahr 2025** | **245.953** | **783** | **~674** | — | — | — | 1.1 |
 
+![Tech-Layoffs 2026 — kumulierte Tracker-Stände](charts/layoff-tracker-2026.png)
+
 **Lesart:** 2026 liegt kumuliert zur Jahresmitte unter dem Gesamtvolumen 2025, die **tägliche Rate liegt aber rund 30–50 % über dem Vorjahr** (TrueUp: 887 vs. 674 pro Tag). Zwischen dem 8. Mai und dem 5. Juli 2026 kamen nach TrueUp-Methodik rund 37.500 Personen hinzu (~640/Tag), nach SkillSyncer rund 58.500 gegenüber dem 2.-Mai-Stand.
 
 ---
@@ -33,6 +35,8 @@ Kumulierte Stände der beiden im Papier fortgeschriebenen Tracker (Methodikunter
 | April | 83.387 | 21.490 | 26 % | 33.361 | 49.135 | ~16 % | 1.1 |
 | Mai | 97.006 (+16 % ggü. Apr; höchster Mai seit 2020) | 38.579 (Rekord seit Kategorisierung 2023) | 40 % | 38.242 (höchster Wert seit Aug 2024) | 87.714 | 22 % | 1.1 |
 | Juni | 45.849 (−53 % ggü. Mai) | 14.029 (4. Monat in Folge Grund Nr. 1) | 31 % | — | 101.743 | ~23 % | 1.1 |
+
+![US-Stellenstreichungen 2026 nach Monat — KI als Einzelgrund](charts/challenger-ki-anteil-2026.png)
 
 **Vergleichswerte:** KI-begründete Streichungen Gesamtjahr 2025: **54.836** — das erste Halbjahr 2026 (101.743) übertrifft das komplette Vorjahr bereits um **~86 %**. Tech YTD per April 2026: 85.411 (+33 % ggü. Vorjahresstand). Gesamtwirtschaftlich lagen die US-Streichungen per April 2026 zugleich ~50 % **unter** dem Vorjahresvergleich — der KI-Anteil steigt also in einem insgesamt ruhigeren Layoff-Umfeld.
 
@@ -84,6 +88,8 @@ Kumulierte Stände der beiden im Papier fortgeschriebenen Tracker (Methodikunter
 | je Unternehmen 2026 | Microsoft 190 · Alphabet 190 · Amazon 200 · Meta 125–145 Mrd. USD | Mai 2026 | 1.1 |
 | DRAM-Vertragspreise | +95 % q/q (Q1); +58–63 % projiziert (Q2) | TrendForce | 1.1 |
 | Ausblick 2027 | > 1 Bio. USD | Wall-Street-Konsens | 1.1 |
+
+![AI-Capex der Hyperscaler](charts/ai-capex-hyperscaler.png)
 
 **Asymmetrie-Kennzahl:** ~73.000–76.000 einzeln dokumentierte KI-begründete Stellenstreichungen stehen ~725 Mrd. USD Jahres-Capex gegenüber — der Kern des Arguments in § 5.1/§ 8.3 (Anknüpfung an Maschinenkapital statt an Arbeitsplätze).
 

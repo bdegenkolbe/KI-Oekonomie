@@ -54,6 +54,49 @@
 
 ---
 
+## 2026-07-05 — Struktur-Review Teil 3 (kein Recherche-Lauf) — Version 27.0 → Version 28.0
+
+Abschluss des Konzept-Reviews auf Freigabe des Autors. Für die Quellen-Deduplikation künftiger Läufe gilt weiterhin der Eintrag „Lauf 001 vom 5. Juli 2026".
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| — | — | Keine Recherche in diesem Lauf. | — | — |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 11.5 | Verdichtung | 41 von 62 Einträgen auf den bibliografischen Kern reduziert (8.244 Zeichen Annotationstext entfernt, keine Quelle und keine URL gelöscht; Zahlen-Annotationen leben in `Statistik.md`); 39 Interpunktions-Artefakte bereinigt. | — |
+| 2 | `build_charts.py` (neu) + `charts/` | Ergänzung | Drei validierte Diagramme aus den Tabellen 1/2/5 von `Statistik.md` (Layoff-Tracker-Zeitreihe, Challenger-Monatsbalken mit KI-Segment, AI-Capex-Balken); in `Statistik.md` eingebettet. | — |
+| 3 | `DailyPrompt.md` | Prozessänderung | Phase 5 um Chart-Build (2a) ergänzt, `charts/` in die Staging-Liste aufgenommen, veraltetes de-la-Feria-Beispiel in Phase 2 Nr. 6 generisch gefasst. | — |
+| 4 | Claude.md / README.md | Aktualisierung | `build_charts.py` ins Datei-Inventar; Version 28.0. | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| — | — | — | Keine Recherche in diesem Lauf. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: n/a (Struktur-Review)
+- Deduplikation gegen Hauptdokument: n/a
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 5. Juli 2026 (Struktur-Review, Teil 3) — Version 27.0 → Version 28.0"; inkl. `validate.py` und Farbpaletten-Validator)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Diagramme erstellt (`build_charts.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: Nein (Arbeit auf `claude/ai-changes-concept-review-n3w7pb`; Merge nach Freigabe durch den Autor)
+
+### Auffälligkeiten / offene Punkte
+
+- Damit sind alle sechs Pakete des Konzept-Reviews vom 5. Juli 2026 umgesetzt (Statistik-Anhang, § 1.1- und § 3.5-Verdichtung, Prozessumstellung, validate.py, Verifikation, § 11.5-Entschlackung, Diagramme).
+- Hauptdokument seit Version 25.0 von 204.331 auf 169.187 Zeichen reduziert (−17 %) bei vollständigem Erhalt aller Quellen und Kennzahlen (in `Statistik.md`).
+
+---
+
 ## 2026-07-05 — Struktur-Review Teil 2 (kein Recherche-Lauf) — Version 26.0 → Version 27.0
 
 Fortsetzung des Konzept-Reviews auf Freigabe des Autors. Für die Quellen-Deduplikation künftiger Läufe gilt weiterhin der Eintrag „Lauf 001 vom 5. Juli 2026" (die einzige Web-Recherche dieses Laufs diente der Verifikation eines bestehenden Literatureintrags, nicht der Neuaufnahme).

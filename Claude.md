@@ -10,7 +10,7 @@
 
 Dieses Projekt pflegt ein Arbeitspapier zum Diskussionsstand rund um die Besteuerung von KI und Robotik, wenn diese menschliche Arbeit substituieren. Das Papier verbindet drei Perspektiven — ökonomisch-wissenschaftlich, rechtlich-steuerpolitisch und sozial-/verteilungspolitisch — und entwickelt in Kapitel 8 mit der Deutschland-These eine eigenständige Position. Es dient als Wissens- und Diskussionsgrundlage und wird regelmäßig aktualisiert, validiert und als PDF und Word-Dokument exportiert.
 
-**Aktueller Stand:** Version 27.0, Juli 2026, 11 Kapitel plus quantitativer Anhang (`Statistik.md`).
+**Aktueller Stand:** Version 28.0, Juli 2026, 11 Kapitel plus quantitativer Anhang (`Statistik.md`).
 
 Das Papier steht unter der Creative-Commons-Lizenz CC BY 4.0.
 
@@ -30,6 +30,7 @@ Das Papier steht unter der Creative-Commons-Lizenz CC BY 4.0.
 | `Formatvorlage.md` | Gestaltungsrichtlinie für PDF- und Word-Export |
 | `Claude.md` | Dieses Dokument — Projektanweisung für Claude |
 | `validate.py` | Automatisierte Prüfschritte gemäß `Validierung.md` § 2.6 (Nummerierung, Querverweise, Versionskonsistenz, Absatzlängen-Wächter) |
+| `build_charts.py` | Diagramm-Export (matplotlib) — erzeugt `charts/*.png` aus den Tabellen in `Statistik.md` |
 | `build_pdf.py` | PDF-Export (reportlab) — setzt `Formatvorlage.md` um |
 | `build_docx.py` | Word-Export (python-docx) — setzt `Formatvorlage.md` um |
 | `KI-Ökonomie.pdf` | Generierter PDF-Export (aus `build_pdf.py`) |

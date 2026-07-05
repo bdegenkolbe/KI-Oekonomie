@@ -93,8 +93,9 @@ PHASE 2 — Einarbeitung
    in `Änderungshistorie.md` und `Statistik.md`. Gleiches gilt für die
    KI-Offenlegung in `README.md`: keine Versions-Einträge mehr
    anhängen, nur Versionszeile und Zitiervorschlag aktualisieren.
-6. Verifizierungsbedürftige Markierungen (de la Feria et al. 2022) nicht
-   ohne dokumentierte Verifikation entfernen.
+6. Verifizierungsbedürftig markierte Literatureinträge nicht ohne
+   dokumentierte Verifikation bereinigen (Stand Version 28.0: keine
+   offenen Markierungen).
 7. Inhaltsverzeichnis, Querverweise und alle Zähler („fünf Typen", „drei
    Säulen", „sieben Empfehlungen") nach Bedarf nachziehen.
 
@@ -130,6 +131,9 @@ PHASE 5 — Build der abhängigen Dokumente
 ================================================================
 1. `python3 build_pdf.py` ausführen — Ergebnis: `KI-Ökonomie.pdf`.
 2. `python3 build_docx.py` ausführen — Ergebnis: `KI-Ökonomie.docx`.
+2a. Wenn in diesem Lauf `Statistik.md` geändert wurde:
+   `python3 build_charts.py` ausführen — Ergebnis: aktualisierte
+   Diagramme unter `charts/`.
 3. Bei Fehlern in den Build-Skripten: Ursache prüfen, Build erneut
    ausführen, Ergebnis im Logbuch dokumentieren. Build-Skripte selbst
    nicht ohne Rückfrage anpassen (gehört zu § 4.5 Claude.md).
@@ -222,6 +226,7 @@ PHASE 6 — Commit, Merge auf main, Branch-Cleanup
              KI-Ökonomie.pdf \
              KI-Ökonomie.docx \
              Statistik.md \
+             charts/ \
              Validierung-Ergebnisse.md \
              Änderungshistorie.md \
              README.md \

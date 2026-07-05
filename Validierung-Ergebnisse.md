@@ -7,6 +7,62 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 5. Juli 2026 (Struktur-Review, Teil 3) — Version 27.0 → Version 28.0
+
+**Auslöser:** Fortsetzung des Konzept-Reviews auf Freigabe des Autors („Weiter"). Zwei Maßnahmen: (1) Entschlackung der Quellen-Annotationen in § 11.5 — 41 von 62 Einträgen auf den bibliografischen Kern (Autor/Institution, Datum, Titel, vollständige URLs) reduziert, 8.244 Zeichen Beschreibungstext entfernt; **keine Quelle gelöscht** (regelkonform mit Claude.md § 4.5), die entfernten Zahlen-Annotationen sind vollständig in `Statistik.md` dokumentiert; Sammelbelege mit mehreren syndizierten Titeln behalten alle Titel. Literaturverzeichnis von 57.290 auf 49.127 Zeichen (31,4 % → 29,0 % Dokumentanteil), Hauptdokument von 177.471 auf 169.187 Zeichen. (2) Neues Skript `build_charts.py` erzeugt drei Diagramme aus den Tabellen 1, 2 und 5 von `Statistik.md` nach `charts/` (Layoff-Tracker-Zeitreihe, Challenger-Monatsbalken mit KI-Segment, AI-Capex-Balken mit Projektions-Schraffur); Diagramme in `Statistik.md` eingebettet, Chart-Build als Phase 5 (2a) in `DailyPrompt.md` verankert. Datenfarben validiert (Stahlblau #2E75B6 aus `Formatvorlage.md` + #245A92; Lightness-Band, Chroma-Floor und Kontrast bestanden; CVD-Abstand 11,4 im zulässigen Floor-Band, abgesichert durch Sekundärcodierung über Marker, Strichelung und Direktbeschriftung).
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Struktur unverändert (skriptgeprüft). |
+| 2.1.2 Nummerierung | OK | Skriptgeprüft. |
+| 2.1.3 Querverweise | OK | Skriptgeprüft; § 11.5-Umbau berührt keine Verweise. |
+| 2.1.4 Roter Faden | OK | Kapitel 11 wieder reines Quellenverzeichnis; beschreibende Inhalte leben in `Statistik.md` bzw. im Fließtext. |
+| 2.1.5 Formatierung | OK | 39 Interpunktions-Artefakte („.*.") aus der Entschlackung bereinigt; Stichprobe danach ohne Befund. |
+| 2.2.1 Sachliche Richtigkeit | OK | Keine inhaltlichen Aussagen geändert; nur Annotationstext entfernt. |
+| 2.2.2 Redundanzprüfung | OK | Dreifach-Dokumentation vollständig aufgelöst: Zahlen jetzt ausschließlich in `Statistik.md` (tabellarisch + grafisch), § 11.5 rein bibliografisch. |
+| 2.2.3 Argumentation | OK | Unberührt. |
+| 2.2.4 Ausgewogenheit | OK | Unberührt. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe der 41 entschlackten Einträge ohne Befund. |
+| 2.3.2 Terminologie | OK | Unberührt. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Alle 62 § 11.5-Einträge erhalten; Autor, Datum, Titel und sämtliche URLs unangetastet. |
+| 2.4.2 Formale Einheitlichkeit | OK | Einträge folgen jetzt durchgängig dem Muster „Autor. (Datum). *Titel.* URL(s)". |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Unberührt. |
+| 2.4.4 URL-Prüfung (Stichprobe) | n/a | Keine URLs geändert. |
+| 2.4.5 Zitatgenauigkeit | OK | Diagramm-Werte stichprobengeprüft gegen `Statistik.md` Tabellen 1/2/5 (Sichtprüfung aller drei PNGs). |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Keine offenen Markierungen (seit Version 27.0); veraltetes Beispiel in `DailyPrompt.md` Phase 2 Nr. 6 generisch gefasst. |
+| 2.5 Versionskonsistenz und Lizenz | OK | 28.0 durchgängig (skriptgeprüft); Lizenz- und Haftungshinweise erhalten. |
+| 2.6 Automatisierte Prüfung | OK | `validate.py`: „Alle automatisierten Prüfschritte OK", keine Warnungen. Farbpalette der Diagramme per Validator-Skript geprüft (siehe Auslöser). |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| 1 | § 11.5 (41 Einträge) | Entschlackungs-Artefakt „.*." (doppelte Interpunktion nach kursivem Titel). | Gering |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| 1 | Interpunktions-Artefakt | 39 Vorkommen von „.*. http" auf „.* http" korrigiert. | Ja |
+
+### Nachprüfung
+
+- 2.1.5 / 2.4.1 / 2.4.2 nach Bereinigung erneut durchlaufen: OK
+- 2.5 Versionskonsistenz: OK (28.0 durchgängig)
+- Automatisierte Skripte: OK (`validate.py`, Exit-Code 0)
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 28.0
+- PDF erstellt: Ja (`KI-Ökonomie.pdf` via `build_pdf.py`)
+- Word erstellt: Ja (`KI-Ökonomie.docx` via `build_docx.py`)
+- Diagramme erstellt: Ja (`charts/layoff-tracker-2026.png`, `charts/challenger-ki-anteil-2026.png`, `charts/ai-capex-hyperscaler.png` via `build_charts.py`)
+
+---
+
 ## Validierung 5. Juli 2026 (Struktur-Review, Teil 2) — Version 26.0 → Version 27.0
 
 **Auslöser:** Fortsetzung des Konzept-Reviews auf Freigabe des Autors („Weiter…"). Vier Maßnahmen: (1) § 3.5-Schlussabsatz (Anthropic-Index-/Yale-Komplex) von 10.270 Zeichen auf vier Absätze (~7.000 Zeichen gesamt für § 3.5) verdichtet — alle benannten Quellen und Kernbefunde erhalten, Detailkennzahlen an `Statistik.md` Tabelle 7 delegiert. (2) Prüfskript `validate.py` eingeführt und in `Validierung.md` § 2.6 als Pflichtschritt registriert (Nummerierung, Inhaltsverzeichnis, Querverweise, Zähler, Versionskonsistenz, Pflichtbestandteile, Absatzlängen-Wächter > 5.000 Zeichen bzw. § 1.1 > 8.000 Zeichen). (3) `Suchthemen.md`-Routing der Cluster E, F, J auf `Statistik.md` (Zahlen) plus argumentative Zielkapitel umgestellt. (4) Verifikation des seit Version 1.0 offenen Literatureintrags de la Feria et al. (2022) — siehe 2.4.6.
