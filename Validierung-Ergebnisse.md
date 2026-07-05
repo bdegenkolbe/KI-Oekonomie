@@ -7,6 +7,79 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 5. Juli 2026 (Lauf 001 vom 5. Juli 2026) — Version 24.0 → Version 25.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf des Tages, Folgelauf zu Lauf 002 vom 4. Juli 2026. Web-Recherche im Korridor der Cluster A–J am 5. Juli 2026 im Standard-7-Tage-Fenster (28. Juni – 5. Juli 2026), Cluster F und I im Standard-48-Stunden-Fenster (3.–5. Juli 2026). Vier belegbare Fortschreibungen aus dem 7-Tage-Fenster identifiziert und synthetisch verdichtet auf zwei Cluster (F/A mit Rebound-Wave; F mit Tracker- und Oracle-Aktualisierungen).
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *AI-Rebound / Rehiring-Wave* (CNBC, 1. Juli 2026 sowie Sammelberichterstattung Ford / IBM / Commonwealth Bank of Australia): Prominente Unternehmen revidieren KI-getriebene Personalreduktionen offen als Fehleinschätzung und stellen wieder ein. Ford holt über drei Jahre rund 350 „Gray-Beard"-Ingenieure zurück, erzielt daraufhin Platz 1 in der *JD Power 2026 U.S. Initial Quality Study* (152 Probleme pro 100 Fahrzeugen, erste Platzierung seit 2010, erwartete Jahres-Kostenersparnis rund 1 Mrd. USD; Zitat Ford VP Vehicle Hardware Engineering Charles Poon zur menschlichen Führung des Werkzeugs). IBM verdreifacht 2026 die Berufseinsteiger-Einstellungen nach dem Ausfall der KI-basierten Personalabteilung bei 6 % ethischer Dilemmata. Commonwealth Bank of Australia baut > 40 Kundenservicestellen nach AI-Voicebot-Ausfall wieder auf. Quellen: CNBC (1. Juli 2026), Quartz, TheNextWeb, Fox Business, Motor1. | § 1.1 (neuer synthetischer Absatz nach dem Washington-Post-Differenzierungsblock und vor „Andererseits steht die Finanzierung…"); § 11.5 (neuer Sammelbeleg CNBC / Quartz / TheNextWeb / Fox Business / Motor1); Aktualitätshinweis am Dokumentende ergänzt; README.md 25.0. | Erste breit rezipierte, mit konkreten Firmen und Zahlen belegte Rebound-Bewegung — direkter Beleg für die in § 3.4 referierte Warnung vor voreiligen Automatisierungssteuern und für die in § 9.1 dokumentierte Kausalattributionsproblematik einer Typ-5-Ersatzabgabe (§ 2.1). |
+| 2 | *Orgvue-Vitreous-World-Erhebung* (Feb.–März 2025 mit Rezeption Juni/Juli 2026): 1.163 Senior Decision-Makers in Organisationen ab 500 / 2.000 Beschäftigten in USA, Kanada, UK, Irland, Australien, Hongkong, Malaysia und Singapur. 39 % KI-bedingte Personalreduktionen; davon 55 % im Nachhinein bereuend; 23 % ohne rollenbezogene Analyse entschieden. Plus *Robert-Half*-Erhebung Frühjahr 2026: 32 % der US-Hiring-Manager mussten primär KI-bedingt gestrichene Rollen wiederbesetzen (Finance 44 %, HR 35 %, Technology 32 %). Quellen: Orgvue Press Release, HR Dive, IBTimes UK, HRTech Edge. | § 1.1 (in denselben synthetischen Rebound-Absatz aufgenommen, mit Methodik und Sample-Angaben); § 11.5 (zwei neue Sammelbelege: Orgvue / Vitreous World; IBTimes UK / HR Dive / HRTech Edge / Robert Half). | Empirische Grundlage für die einzelnen Firmen-Rebound-Fälle; erste peer-strukturierte Ex-post-Bewertung KI-bedingter Personalentscheidungen mit international vergleichbarem Sample. Stützt die Kausalattributions-Kritik gegen eine Typ-5-Ersatzabgabe (§ 9.1) empirisch nachvollziehbar. |
+| 3 | *Tech-Layoff-Trackerstände zum 5. Juli 2026*: SkillSyncer 185.894 betroffene Beschäftigte aus 267 Layoff-Ereignissen (rund 999 Stellen pro Tag; +58.483 gegenüber dem 8. Mai 2026); TrueUp 164.971 Personen aus 435 Layoff-Meldungen (rund 887 pro Tag). Vergleichsbasis 2025 gesamt: 783 Meldungen mit 245.953 Personen (rund 674 pro Tag). Quellen: SkillSyncer Tracker, TrueUp Tracker. | § 1.1 (Fortschreibungssatz nach der Microsoft-Präzisierung Anfang Juli 2026; keine Löschung des Vorstands 8. Mai 2026); § 11.5 (SkillSyncer- und TrueUp-Einträge separat mit Datumsangabe 5. Juli 2026 bzw. Jahresmitte 2026); Aktualitätshinweis am Dokumentende ergänzt; README.md 25.0. | Systematische Fortschreibung der Layoff-Basisdaten; 2026 kumuliert niedriger als 2025, tägliche Rate deutlich darüber — belegt die Verstetigung des KI-getriebenen Restrukturierungspfads über das erste Halbjahr hinaus, ohne die in § 3.5 referierte Aggregat-Stabilität am Arbeitsmarkt zu widerlegen. |
+| 4 | *Oracle FY2026 SEC-8-K* (Juni 2026): Jahresbezogener Personalabbau rund 21.000 Stellen (ca. 13 % der Konzernbelegschaft, von 162.000 im Mai 2025 auf 141.000 im Mai 2026). Restrukturierungsaufwand steigt von 374 Mio. USD (FY2025) auf rund 1,8 Mrd. USD (FY2026); flankierendes KI-/Cloud-Investitionsvolumen rund 50 Mrd. USD im Fiskaljahr. Quellen: Oracle Corp. SEC-8-K (FY2026), Bloomberg (22. Juni 2026), CNBC (23. Juni 2026), Forbes (23. Juni 2026). | § 1.1 (in denselben Fortschreibungssatz aufgenommen wie die Trackerstände; präzisiert die zuvor mit „Oracle 20.000 – 30.000 Stellen" geführte Größenordnung durch die publizierte Konzern-Aggregatzahl); § 11.5 (neuer Sammelbeleg Oracle SEC-8-K / Bloomberg / CNBC). | Erste primäre Konzernangabe (SEC-8-K) zur Oracle-FY2026-Aggregat-Reduktion; präzisiert die bisherige Sekundärquellen-Bandbreite und schärft das Asymmetrie-Argument (Personalreduktion vs. KI-Capex 50 Mrd. USD) in § 1.1, § 5.1 und § 8.3. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- PwC 2026 Global AI Jobs Barometer (Veröffentlichung 15. Juni 2026) — außerhalb 7-Tage-Fenster; für den nächsten Lauf zur Prüfung markiert (Zwei-Wege-Arbeitsmarkt: „professionalisierte" vs. „demokratisierte" Rollen; Wage-Premium 62 % für KI-Skills; Produktivitätswachstum +34 % vs. +24 % in KI-exponierten Sektoren).
+- KI-MIG (Bundestagsbeschluss 11. Juni 2026, geplanter Bundesrat 10. Juli 2026) — Bundestag-Beschluss außerhalb 7-Tage-Fenster; der bevorstehende Bundesrat-Termin ist zukünftig und wird im nächsten Lauf zur Aufnahme in § 4.2 / § 4.4 markiert, sobald ein Zustimmungs- oder Vermittlungsergebnis vorliegt.
+- OECD Employment Outlook 2026 („Geographic Disparities in Jobs and Incomes") — Publikation planmäßig am 7. Juli 2026, damit noch außerhalb Sichtfenster; für den unmittelbar folgenden Lauf zur Aufnahme in § 3.5 und § 6.4 markiert.
+- Tesla Optimus V3 Massenproduktion (angekündigt für Juli/August 2026) — Cluster J; Musk-Prognose ohne belastbare Auslieferungsdaten; keine unmittelbare politisch-fiskalische Implikation im 48-Stunden-Fenster; für einen späteren Lauf zur Prüfung markiert, sobald erste Stückzahlen und Pilotkunden belegt sind.
+- Salesforce Q2-Runde (86 Stellen Agentforce/MuleSoft/Marketing Cloud, Juni 2026) — außerhalb 7-Tage-Fenster; kleinvolumig; für Cluster-F-Sammelaggregation im nächsten Lauf markiert.
+- OpenAI-Folgepublikation zum Strategiepapier — keine neue Publikation im 7-Tage-Fenster.
+- Anthropic Economic Index — kein neuer Bericht seit „Cadences" (26. Juni 2026, in Lauf 001 vom 3. Juli 2026 aufgenommen); der bestehende Stand bleibt korrekt.
+- Cluster G (Gesundheitswesen) — siebtes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitt 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Keine Querverweise entfernt; der neu ergänzte Rebound-Absatz in § 1.1 verweist kontrolliert auf § 2.1, § 3.4 und § 9.1; die Tracker- und Oracle-Aktualisierung fügt sich in bestehende Verweisstruktur ein. |
+| 2.1.4 Roter Faden | OK | Rebound-Wave in § 1.1 fügt sich in die bestehende Argumentationskette „AI-driven labor crisis" → Washington-Post-Differenzierung → Kausalattributionsproblem ein; Tracker- und Oracle-Aktualisierung als reine Datenfortschreibung. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; keine unausgeglichenen Fettungen; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | CNBC-Artikel und Firmen-Rebound-Details (Ford 350 / JD Power 2026 IQS Platz 1 / 152 IQS-Score / ~1 Mrd. USD Ersparnis; IBM-HR-Ausfall 6 %; Commonwealth Bank > 40 Stellen) durch mehrere Fach- und Wirtschaftsmedien belegt; Orgvue-Sample (1.163) und Methodik (Vitreous World, Feb.–März 2025) durch Orgvue-Pressemeldung dokumentiert; Robert-Half-Prozentsätze (32 % / Finance 44 % / HR 35 % / Tech 32 %) durch HR Dive, IBTimes UK und HRTech Edge belegt; Trackerzahlen (SkillSyncer 185.894 / 267 Ereignisse; TrueUp 164.971 / 435 Meldungen) über SkillSyncer- und TrueUp-Dashboards nachvollziehbar; Oracle FY2026 21.000-Aggregatzahl und Restrukturierungsaufwand 1,8 Mrd. USD durch SEC-8-K und Bloomberg/CNBC-Berichterstattung Ende Juni 2026 belegt. |
+| 2.2.2 Redundanzprüfung | OK | Alle vier Ergänzungen sind Fortschreibungen bestehender Blöcke (§ 1.1 Layoff-/Tracker-/Rebound-Linie); die Rebound-Ergänzung fungiert als empirischer Anker für die bereits in § 3.4 und § 9.1 geführten Argumentationslinien — keine unbeabsichtigte Doppelung in Kapitel 8 oder 10. |
+| 2.2.3 Argumentation | OK | Rebound-Passage benennt Ford, IBM und Commonwealth Bank als Einzelfälle und Orgvue/Robert Half als repräsentative Grundlage; Formulierung bleibt vorsichtig („mehrere prominente Unternehmen", „empirische Grundlage"); Konsistenz mit § 4.2 Konjunktivpflicht gewahrt (Poon-Quote sinngemäß, keine Kernzahl als Modellprognose deklariert). |
+| 2.2.4 Ausgewogenheit | OK | Rebound-Ergänzung stützt weder eine steuer-positive noch eine steuer-negative Position monokausal; sie schärft vielmehr die Kausalattributions-Kritik (§ 9.1) und die Warnung von de la Feria (§ 3.4). Bestehende Sanders/OpenAI-Linie und Bloomberg-Gegenstimme (§ 4.5) unverändert. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund; Anführungszeichen einheitlich; „Gray-Beard"-Ingenieure in Anführungszeichen als übernommene Fachpresse-Bezeichnung. |
+| 2.3.2 Terminologie | OK | „Rebound-Wave", „AI-Voicebot" und „JD Power 2026 U.S. Initial Quality Study" als Fachbegriffe im Kontext erklärt beziehungsweise als Eigennamen unverändert übernommen; „Senior Decision-Makers" mit deutschen Kategorien (Vorstände, C-Level, Senior-Manager) ergänzt. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | § 11.5 um sechs neue Referenzen ergänzt: CNBC/Quartz/TheNextWeb/Fox Business/Motor1-Sammelbeleg (Rebound), Orgvue/Vitreous World (Empirie), IBTimes UK/HR Dive/HRTech Edge/Robert Half (Rückholrate), SkillSyncer (Trackerstand 5. Juli 2026), TrueUp (Jahresmitte 2026), Oracle SEC-8-K/Bloomberg/CNBC (Oracle FY2026). Jede Fließtextreferenz hat einen Literatur-Eintrag. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil, vollständige URLs, Datumsangaben („1. Juli 2026", „Juni 2026", „Erhebung Feb.–März 2025") einheitlich. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primär- und Sekundärquellen kombiniert; Rebound-Empirie stützt sich auf Orgvue-Pressemeldung und Robert-Half-Analytik; Tracker-Aktualisierungen auf SkillSyncer- und TrueUp-Dashboards; Oracle-Aggregat auf SEC-8-K. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 5. Juli 2026 über WebSearch-Trefferanzeigen: cnbc.com/2026/07/01/employers-who-laid-off-workers-for-ai-are-reversing-their-decisions.html gelistet; orgvue.com/news/55-of-businesses-admit-wrong-decisions-... gelistet (503-Cache umgangen über PressRelease-Cache); skillsyncer.com/layoffs-tracker gelistet; trueup.io/layoffs gelistet; sec.gov/Archives/edgar/data/0001341439/…/orcl-ex99_1.htm gelistet; thenextweb.com/news/ford-rehired-350-engineers-ai-quality-jd-power gelistet. |
+| 2.4.5 Zitatgenauigkeit | OK | Ford-„It's Only As Good As The People Using It" sinngemäß über Charles Poon wiedergegeben (kein direktes Zitat im Fließtext); Orgvue-Prozentsätze (39/55/23) direkt aus Pressemeldung übernommen; Robert-Half-Prozentsätze (32/44/35/32) direkt aus IBTimes UK / HR Dive; Trackerzahlen und Oracle-Konzernangaben quellengetreu. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge vollständig belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 25.0 durchgängig: Dokumentkopf, `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung mit Versions-Eintrag 25.0), diesem Protokoll. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltlichen Ergänzungen hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine korrigierenden Bereinigungen erforderlich; Ergänzungen sind additive Fortschreibungen. | Ja |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen (2.1.3 Querverweise, 2.1.4 Roter Faden, 2.4.1 Vollständigkeit, 2.5 Versionskonsistenz): OK.
+- Automatisierte Skripte: n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine Fehler festgestellt)
+- Neue Version: 25.0
+- PDF erstellt: Ja (Phase 5 des Daily-Update-Prompts)
+- Word erstellt: Ja (Phase 5 des Daily-Update-Prompts)
+
+---
+
 ## Validierung 4. Juli 2026 (Lauf 002 vom 4. Juli 2026) — Version 23.0 → Version 24.0
 
 **Auslöser:** Zweiter regulärer Daily-Update-Lauf nach Lauf 001 vom 3. Juli 2026. Web-Recherche im Korridor der Cluster A–J am 4. Juli 2026 im Standard-7-Tage-Fenster (27. Juni – 4. Juli 2026), Cluster F und I im Standard-48-Stunden-Fenster. Drei belegbare Fortschreibungen aus dem 7-Tage-Fenster identifiziert; keine Fenstererweiterung, da Lauf 001 vom Vortag bereits die Zwei-Monats-Lücke aufgeholt hat.

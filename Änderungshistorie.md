@@ -54,6 +54,84 @@
 
 ---
 
+## 2026-07-05 — Lauf 001 — Version 24.0 → Version 25.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster C, G und H ohne belegbare Treffer im 7-Tage-Fenster — Cluster G siebtes Mal in Folge).
+- Zeitfenster: Standard 7 Tage (28. Juni – 5. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (3.–5. Juli 2026). Keine Fenstererweiterung.
+- Anzahl Suchanfragen: 12 (Web-Suche).
+- Lauf 001 vom 5. Juli 2026 ist der Folgelauf zu Lauf 002 vom 4. Juli 2026 (Version 23.0 → 24.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | F/A | CNBC, *Employers who laid off workers citing AI are already starting to regret it*, 1. Juli 2026 | https://www.cnbc.com/2026/07/01/employers-who-laid-off-workers-for-ai-are-reversing-their-decisions.html | übernommen |
+| 2 | F/A | Quartz, *Companies rehire workers laid off for AI as automation falls short*, 1. Juli 2026 | https://qz.com/companies-rehiring-workers-ai-layoffs-automation-070126 | übernommen (Sammelbeleg) |
+| 3 | F/A | TheNextWeb, *Ford rehired 350 engineers to fix what its AI systems got wrong*, Anfang Juli 2026 | https://thenextweb.com/news/ford-rehired-350-engineers-ai-quality-jd-power | übernommen (Sammelbeleg) |
+| 4 | F/A | Fox Business, *Ford rehires experienced engineers after AI misses the mark*, Anfang Juli 2026 | https://www.foxbusiness.com/technology/ford-rehires-experienced-engineers-after-ai-misses-mark | übernommen (Sammelbeleg) |
+| 5 | F/A | Motor1, *Ford Brings Back Veteran Engineers After AI Falls Short: „It's Only As Good As The People Using It"*, Anfang Juli 2026 | https://www.motor1.com/news/800343/humans-better-than-ai-inspectors/ | übernommen (Sammelbeleg) |
+| 6 | F/A | Orgvue, *55 % of businesses admit wrong decisions in making employees redundant when bringing AI into the workforce* (Erhebung Vitreous World Feb.–März 2025; Rezeption Juni/Juli 2026) | https://www.orgvue.com/news/55-of-businesses-admit-wrong-decisions-in-making-employees-redundant-when-bringing-ai-into-the-workforce/ | übernommen |
+| 7 | F/A | HR Dive, *More than half of leaders who laid off workers due to AI admit to screwing up*, Juli 2026 | https://www.hrdive.com/news/leaders-who-laid-off-workers-due-to-ai-regretted-it/746643/ | übernommen (Robert-Half-Rückholrate) |
+| 8 | F/A | IBTimes UK, *AI Layoffs Backfire as 32 % of Bosses Rehire Roles They Thought Robots Could Do*, Juli 2026 | https://www.ibtimes.co.uk/ai-layoffs-reversed-companies-rehire-staff-1806357 | übernommen (Sammelbeleg) |
+| 9 | F/A | HRTech Edge, *AI Layoffs Backfire as Firms Rehire Workers: Orgvue Study*, Juli 2026 | https://hrtechedge.com/ai-layoffs-backfire-32-of-companies-forced-to-rehire-after-misjudging-automation/ | übernommen (Sammelbeleg) |
+| 10 | F | SkillSyncer, *2026 Tech Layoffs Tracker — 185.894 Workers Impacted* (Stand 5. Juli 2026) | https://skillsyncer.com/layoffs-tracker | übernommen |
+| 11 | F | TrueUp, *Layoffs Tracker — All Tech and Startup Layoffs* (Jahresmitte 2026: 435 Ereignisse / 164.971 Personen / ~887 pro Tag) | https://www.trueup.io/layoffs | übernommen |
+| 12 | F | Oracle Corp., *Form 8-K — Fiscal Year 2026 Restructuring and Workforce Update* (Juni 2026) | https://www.sec.gov/Archives/edgar/data/0001341439/000119312526265848/orcl-ex99_1.htm | übernommen |
+| 13 | F | Bloomberg, *Oracle Layoffs Fueled by AI, Reduces Workforce by 21 000*, 22. Juni 2026 | https://www.bloomberg.com/news/articles/2026-06-22/oracle-layoffs-fueled-by-ai-reduces-workforce-by-21-000 | übernommen (Sammelbeleg) |
+| 14 | F | CNBC, *Oracle sheds 21,000 roles over the past year amid wave of AI layoffs from tech giants*, 23. Juni 2026 | https://www.cnbc.com/2026/06/23/oracle-ai-job-cuts-layoffs-21000.html | übernommen (Sammelbeleg) |
+| 15 | A | PwC, *2026 Global AI Jobs Barometer* (Veröffentlichung 15. Juni 2026) | https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html | verworfen (außerhalb 7-Tage-Fenster; für nächsten Lauf markiert) |
+| 16 | B | Deutscher Bundestag, *Ja zur Durchführung der Verordnung über künstliche Intelligenz* (KI-MIG-Beschluss 11. Juni 2026) | https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-ki-1183820 | verworfen (außerhalb 7-Tage-Fenster; Bundesrat-Termin 10. Juli 2026 zukünftig) |
+| 17 | A | OECD, *Employment Outlook 2026 — Geographic Disparities in Jobs and Incomes* (Publikation planmäßig 7. Juli 2026) | https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en.html | verworfen (zukünftiges Ereignis; für unmittelbar folgenden Lauf markiert) |
+| 18 | J | Wccftech / Electrek / TradingKey, *Tesla Optimus V3 mass production July/August 2026* | https://electrek.co/2026/04/22/tesla-optimus-production-fremont-model-sx-line/ | verworfen (Musk-Prognose ohne belastbare Auslieferungsdaten; für späteren Lauf markiert) |
+| 19 | F | Metaintro, *Salesforce Trims Its AI Agent and Cloud (86 Stellen, Juni 2026)* | https://www.metaintro.com/blog/salesforce-ai-cloud-layoffs-june-2026 | verworfen (außerhalb 7-Tage-Fenster, kleinvolumig; für Cluster-F-Sammelaggregation markiert) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 1.1 | Ergänzung | Rebound-Passage: Ford (350 Ingenieure, JD Power 2026 IQS Platz 1, ~1 Mrd. USD Kostenersparnis), IBM (Verdreifachung der Berufseinsteiger-Einstellungen), Commonwealth Bank of Australia (> 40 wiederaufgebaute Kundenservicestellen); empirische Grundlage Orgvue (1.163 Senior Decision-Makers, 39 % KI-bedingte Reduktion, davon 55 % bereuend, 23 % ohne Rollenanalyse) und Robert Half (32 % Rückholrate — Finance 44 %, HR 35 %, Tech 32 %). | 1–9 |
+| 2 | § 1.1 | Aktualisierung | Tracker-Fortschreibung: SkillSyncer 185.894 Beschäftigte aus 267 Layoff-Ereignissen zum 5. Juli 2026 (rund 999 pro Tag); TrueUp Jahresmitte 2026 164.971 Personen aus 435 Meldungen (rund 887 pro Tag); Vorjahresvergleich 2025 gesamt 245.953 aus 783 Meldungen (rund 674 pro Tag). | 10–11 |
+| 3 | § 1.1 | Aktualisierung | Oracle FY2026-Aggregat: rund 21.000 Stellenreduktionen (13 % Belegschaft; 162.000 → 141.000), Restrukturierungsaufwand 1,8 Mrd. USD (FY2025: 374 Mio. USD), flankierendes KI-/Cloud-Investitionsvolumen ~50 Mrd. USD. | 12–14 |
+| 4 | § 11.5 | Ergänzung | Sechs neue Sammelbelege: CNBC/Quartz/TheNextWeb/Fox Business/Motor1 (Rebound); Orgvue/Vitreous World (Empirie); IBTimes UK/HR Dive/HRTech Edge/Robert Half (Rückholrate); SkillSyncer (Trackerstand 5. Juli 2026); TrueUp (Jahresmitte 2026); Oracle SEC-8-K/Bloomberg/CNBC (Oracle FY2026). | 1–14 |
+| 5 | Dokumentende | Aktualisierung | Aktualitätshinweis erweitert um vier Fortschreibungen aus Lauf 001 vom 5. Juli 2026 (Rebound-Wave, Orgvue/Robert Half, Tracker, Oracle FY2026). | 1–14 |
+| 6 | README.md | Aktualisierung | Versionszeile 24.0 → 25.0; Zitiervorschlag auf Version 25.0; KI-Offenlegung um Version-25.0-Eintrag ergänzt. | — |
+| 7 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „5. Juli 2026 (Lauf 001) — Version 24.0 → Version 25.0"; Prüfergebnis, Fehlerliste (leer), Abschluss (Version 25.0). | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 15 | PwC 2026 Global AI Jobs Barometer | A | Außerhalb 7-Tage-Fenster (Veröffentlichung 15. Juni 2026); für nächsten Lauf markiert. |
+| 16 | KI-MIG (Bundestag-Beschluss 11. Juni 2026) | B | Außerhalb 7-Tage-Fenster; Bundesrat-Termin am 10. Juli 2026 zukünftig — im Folgelauf zur Prüfung. |
+| 17 | OECD Employment Outlook 2026 (Publikation 7. Juli 2026) | A | Zukünftiges Ereignis; für unmittelbar folgenden Lauf zur Aufnahme in § 3.5 / § 6.4 markiert. |
+| 18 | Tesla Optimus V3 (Massenproduktion Juli/August 2026) | J | Musk-Prognose ohne belastbare Auslieferungsdaten; keine unmittelbare politisch-fiskalische Implikation; für späteren Lauf markiert. |
+| 19 | Salesforce Q2-Runde (86 Stellen, Juni 2026) | F | Außerhalb 7-Tage-Fenster; kleinvolumig; für Cluster-F-Sammelaggregation markiert. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument und Literaturverzeichnis: Ja (Sanders-SWF, Anthropic Cadences, Claude Sonnet 5, Digital Omnibus, Challenger Juni bereits in v23/v24 dokumentiert und nicht erneut eingespielt)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block „5. Juli 2026 — Version 24.0 → Version 25.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja (Phase 5)
+- Word erstellt (`build_docx.py`): Ja (Phase 5)
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (25.0 durchgängig)
+- Branch auf main gemerged und gelöscht: Ja (Phase 6)
+- E-Mail-Benachrichtigung: Fallback-Datei `daily-mail.txt` geschrieben (in dieser Session war weder `mail_send` aus dem MCP-Server `graph-mcp` noch ein alternatives Send-Tool erreichbar; Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-mail.txt` noch in dieses Logbuch übernommen)
+- WhatsApp-Zusammenfassung: Fallback-Datei `daily-whatsapp.txt` geschrieben (in dieser Session war weder `wa_send_message` aus dem MCP-Server `whatsapp` noch ein alternatives Send-Tool erreichbar; Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-whatsapp.txt` noch in dieses Logbuch übernommen)
+
+### Auffälligkeiten / offene Punkte
+
+- Kein Versand-MCP-Tool in dieser Session erreichbar: weder `mail_send` (graph-mcp) für E-Mail noch `wa_send_message` (whatsapp) für WhatsApp — daher Fallback-Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben (beide gitignored gemäß `.gitignore`); der Merge auf `main` wird durch die weiche Versandfehlerbehandlung gemäß DailyPrompt § 5b nicht verhindert. Empfängerdaten aus der Routine-Anweisung wurden verwendet, aber nicht in Fallback-Dateien, Commits, Logbuch oder Abschlussbericht ausgeschrieben.
+- Cluster G (Gesundheitswesen) siebtes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster; die letzte Substanzänderung an Kapitel 7 (Ende Mai 2026) bleibt aktuell.
+- Rebound-Empirie stützt sich primär auf die Orgvue-Vitreous-World-Erhebung (Feb.–März 2025); die konkrete Rezeptions-Welle Ende Juni / Anfang Juli 2026 in CNBC, Quartz, HR Dive und IBTimes UK erlaubt die Aufnahme als aktuelles Signal, die zugrundeliegenden Prozentsätze sind jedoch älter — im Text entsprechend deklariert.
+- OECD Employment Outlook 2026 wird am 7. Juli 2026 veröffentlicht; für den Folgelauf zur Aufnahme in § 3.5 und § 6.4 vorgesehen.
+- KI-MIG Bundesrat-Beschluss am 10. Juli 2026 anstehend; im Folgelauf zur Aufnahme in § 4.2 / § 4.4 vorgesehen.
+- Digital Omnibus on AI Amtsblatt-Publikation weiterhin ausstehend; für den Folgelauf beobachtet.
+
+---
+
 ## 2026-07-04 — Lauf 002 — Version 23.0 → Version 24.0
 
 ### Recherchekorridor
