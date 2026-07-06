@@ -54,6 +54,87 @@
 
 ---
 
+## 2026-07-06 — Lauf 001 — Version 25.0 → Version 26.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster C, D, E, G, H, J ohne belegbare Treffer im 7-Tage-Fenster — Cluster G achtes Mal in Folge).
+- Zeitfenster: Standard 7 Tage (29. Juni – 6. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (4.–6. Juli 2026). Keine Fenstererweiterung.
+- Anzahl Suchanfragen: 12 (Web-Suche) + 3 gezielte Fetches (Bundesrat 1067. Sitzung, Yahoo Finance Microsoft/Xbox, TradingKey NVIDIA Vera Rubin).
+- Lauf 001 vom 6. Juli 2026 ist der Folgelauf zu Lauf 001 vom 5. Juli 2026 (Version 24.0 → 25.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B | Bundesrat, *Ausblick 1067. Sitzung — Zur KI-Verordnung* (Ausschussempfehlung Ausschuss für Digitalisierung und Staatsmodernisierung vom 30. Juni 2026: Anrufung Vermittlungsausschuss; Plenarentscheidung 10. Juli 2026) | https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1067/1067-pk.html | übernommen |
+| 2 | B | Bundesrat, *1067. Sitzung am 10. Juli 2026* (Startseite mit TOP-Übersicht) | https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1067/1067-node.html | übernommen (Sammelbeleg) |
+| 3 | B | Deutscher Bundestag, *Ja zur Durchführung der Verordnung über künstliche Intelligenz* (Kurzmeldung zur Verabschiedung am 11. Juni 2026 — dokumentarisch für den zeitlichen Ablauf des KI-MIG-Verfahrens) | https://www.bundestag.de/dokumente/textarchiv/2026/kw24-de-ki-1183820 | übernommen (Sammelbeleg; Bundestag-Beschluss außerhalb 7-Tage-Fenster, aber dokumentarisch für die aktuelle Bundesratsberatung eingebunden) |
+| 4 | B | BMDS, *Gesetz zur Durchführung der KI-Verordnung* (Verfahrensseite) | https://bmds.bund.de/service/gesetzgebungsverfahren/gesetz-zur-durchfuehrung-der-ki-verordnung | übernommen (Sammelbeleg) |
+| 5 | F | Yahoo Finance, *Microsoft layoffs 2026: cuts hitting sales, consulting, and Xbox* (1. Juli 2026, Inhalt des internen Xbox-Memos von CEO Asha Sharma und Content-Chef Matt Booty) | https://finance.yahoo.com/markets/stocks/articles/microsoft-layoffs-2026-cuts-hitting-144856068.html | übernommen |
+| 6 | F | GeekWire, *Microsoft set for new round of job cuts next week, spanning Xbox, sales and consulting* | https://www.geekwire.com/2026/microsoft-set-to-cut-thousands-of-jobs-next-week-spanning-xbox-sales-and-consulting/ | übernommen (Sammelbeleg) |
+| 7 | F | TechTimes, *Xbox July Layoffs Confirmed as CEO Sharma Eyes Affordable Console Tier* (12. Juni 2026) | https://www.techtimes.com/articles/318288/20260612/xbox-july-layoffs-confirmed-ceo-sharma-eyes-affordable-console-tier.htm | übernommen (Sammelbeleg) |
+| 8 | F | Gamerant, *Xbox Reportedly Planning „Significant" Layoffs in July 2026* | https://gamerant.com/xbox-layoffs-june-2026/ | übernommen (Sammelbeleg) |
+| 9 | I | Wccftech, *NVIDIA Squashes Vera Rubin Rumors, First Shipments Rolling Out In July To Major AI Customers With Mass Production In 2H 26* | https://wccftech.com/nvidia-squashes-vera-rubin-rumors-first-shipments-rolling-out-in-july-to-ai-customers/ | übernommen (Primärüberschrift zum ersten Auslieferungsfenster; WebFetch 403 durch Cloudflare-Schutz, Inhalt durch Suchsnippet und Sekundärquellen bestätigt) |
+| 10 | I | TradingKey, *Nvidia Vera Rubin Mass Production Finalized, July Delivery to North American Tech Giants* | https://www.tradingkey.com/analysis/stocks/us-stocks/261879616-nvidia-vera-rubin-mass-production-confirmed-tradingkey | übernommen (Sekundärquelle mit Konkretisierung der fünf Hyperscaler und Manufacturing-Partner) |
+| 11 | I | TechPowerUp, *First Shipments of NVIDIA „Vera Rubin" AI Servers Expected Around Late Summer* | https://www.techpowerup.com/345358/first-shipments-of-nvidia-vera-rubin-ai-servers-expected-around-late-summer | übernommen (Sammelbeleg) |
+| 12 | I | Introl, *NVIDIA Rubin Enters Full Production* (Blog-Zusammenfassung der GTC-Taipei-Ankündigung, 1. Juni 2026) | https://introl.com/blog/nvidia-rubin-full-production-ces-2026-ai-infrastructure | übernommen (Sammelbeleg) |
+| 13 | A | PwC, *2026 Global AI Jobs Barometer* (Publikation 15. Juni 2026) | https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html | verworfen (außerhalb 7-Tage-Fenster; im Vorlauf bereits für nächsten Lauf markiert — hier weiterhin ausgeschlossen, weil Fensterdisziplin gewahrt bleibt) |
+| 14 | A | OECD, *Employment Outlook 2026 — Geographic Disparities in Jobs and Incomes* (Publikation planmäßig 7. Juli 2026) | https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en.html | verworfen (zukünftiges Ereignis; für unmittelbaren Folgelauf markiert) |
+| 15 | B | Rat der EU, *Digital Omnibus on AI — Amtsblatt-Veröffentlichung* | (noch nicht veröffentlicht) | verworfen (OJ-Nummer und Datum offen; für Folgelauf markiert) |
+| 16 | J | Tesla / Wccftech, *Tesla Optimus V3 mass production July/August 2026* | https://electrek.co/2026/04/22/tesla-optimus-production-fremont-model-sx-line/ | verworfen (Musk-Prognose ohne belastbare Auslieferungsdaten; für späteren Lauf markiert) |
+| 17 | C | Fortune, *Chinese court rules firms can't lay off workers on AI grounds* (3. Mai 2026) | https://fortune.com/2026/05/03/chinese-court-layoffs-workers-ai-replacement-labor-market/ | verworfen (außerhalb 7-Tage-Fenster; unverändert für § 6.4 markiert, sobald zweites Urteil die Linie bestätigt) |
+| 18 | G | G-BA / gematik / BfArM Juli 2026 | https://www.g-ba.de/ | verworfen (achtes Mal in Folge ohne KI-spezifische Beschlüsse im 7-Tage-Fenster) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.4 | Ergänzung | Neuer Absatz „Deutsches Umsetzungsgesetz zur KI-Verordnung (KI-MIG, Juli 2026)": Bundestag 11. Juni 2026, Bundesrat 1067. Sitzung 10. Juli 2026, Ausschussempfehlung 30. Juni 2026 zur Anrufung des Vermittlungsausschusses wegen zersplitterter Marktüberwachung; mittelbare Relevanz für spätere steuerliche Anknüpfungen an AI-Act-Kategorien. | 1–4 |
+| 2 | § 1.1 | Präzisierung | Ergänzungssatz zur Xbox-Komponente des Microsoft-Fiskaljahresstart-Layoffs: internes Memo von CEO Asha Sharma und Content-Chef Matt Booty (> 20 Mrd. USD Investment über 5 Jahre bei jährlichem Umsatzrückgang ~500 Mio. USD; Q1-2026 Gaming −7 %, Hardware −33 %, Content und Services −5 %); Xbox-Anteil als strategische Restrukturierung, nicht als reine KI-Substitution — schärft § 9.1-Kausalattributionsproblem. | 5–8 |
+| 3 | § 8.2 | Ergänzung | Neuer Absatz zur NVIDIA-Vera-Rubin-Architektur: Full-Production-Freigabe GTC Taipei 1. Juni 2026, erste Auslieferungen Juli 2026 an Microsoft/Google/Amazon/Meta/Oracle, Volumen-Shipments Q3/Q4 2026, Trainingsleistung 3,5× Blackwell, produktiver Erst-Rack bei Microsoft Azure; Beleg für die geografische Konzentration der Compute-Erzeugung. | 9–12 |
+| 4 | § 11.3 | Ergänzung | Zwei neue Literatureinträge: Bundesrat 1067. Sitzung (10. Juli 2026 mit Ausschussempfehlung 30. Juni 2026) und Bundestag KI-MIG-Kurzmeldung (11. Juni 2026). | 1–4 |
+| 5 | § 11.5 | Ergänzung | Zwei neue Sammelbelege: Yahoo Finance / GeekWire / TechTimes / Gamerant (Xbox-Memo-Präzisierung) und Wccftech / TradingKey / TechPowerUp / Introl (NVIDIA Vera Rubin). | 5–12 |
+| 6 | Dokumentende | Aktualisierung | Aktualitätshinweis auf „Schnitt am 6. Juli 2026 — Lauf 001 vom 6. Juli 2026" gesetzt; drei Lauf-001-Fortschreibungen (KI-MIG, Xbox-Memo, Vera Rubin) in den Auflistungstext aufgenommen. | 1–12 |
+| 7 | README.md | Aktualisierung | Versionssprung 25.0 → 26.0 (Versionszeile, Zitiervorschlag, KI-Offenlegung um Versions-Eintrag 26.0 ergänzt). | — |
+| 8 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 6. Juli 2026 (Lauf 001 vom 6. Juli 2026) — Version 25.0 → Version 26.0" mit Prüftabelle 2.1.1–2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | PwC 2026 Global AI Jobs Barometer (15. Juni 2026) | A | Außerhalb 7-Tage-Fenster; im Vorlauf bereits als „für nächsten Lauf markiert" geführt — Fensterdisziplin gewahrt, damit erneut ausgeschlossen. |
+| 2 | OECD Employment Outlook 2026 (Publikation 7. Juli 2026) | A | Zukünftiges Ereignis; für unmittelbaren Folgelauf markiert (§ 3.5 / § 6.4). |
+| 3 | Digital Omnibus on AI OJ-Publikation | B | Noch nicht im Amtsblatt der EU veröffentlicht; im Folgelauf zu ergänzen, sobald Datum und OJ-Nummer bekannt. |
+| 4 | Tesla Optimus V3 / humanoide Robotik (Musk-Prognose für Juli/August 2026) | J | Keine belastbaren Auslieferungs- oder Stückzahl-Daten; für späteren Lauf markiert. |
+| 5 | Chinesisches Arbeitsgerichtsurteil zu KI-Kündigung (Mai 2026) | C | Außerhalb 7-Tage-Fenster; unverändert für § 6.4 markiert, sobald zweites Urteil die Linie bestätigt. |
+| 6 | G-BA / gematik / BfArM Juli 2026 | G | Achtes Mal in Folge ohne KI-spezifische Beschlüsse im 7-Tage-Fenster; Empfehlung für nächsten Lauf: gezielter Abruf G-BA-Sitzungsplan und BfArM-DiGA-Verzeichnis. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument und Literaturverzeichnis: Ja (Sanders-SWF, Anthropic Cadences, Claude Sonnet 5, Digital Omnibus Rat-Beschluss 29. Juni 2026, Microsoft-Layoff-Aggregat, Ford/IBM/CBA-Rebound, Orgvue/Robert Half, SkillSyncer/TrueUp-Stände, Oracle FY2026 bereits in v23/v24/v25 dokumentiert und nicht erneut eingespielt)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block „6. Juli 2026 — Version 25.0 → Version 26.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja (Phase 5)
+- Word erstellt (`build_docx.py`): Ja (Phase 5)
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (26.0 durchgängig)
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs (Phase 6)
+- E-Mail-Benachrichtigung (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (in dieser Session war weder `mail_send` aus dem MCP-Server `graph-mcp` noch ein alternatives Send-Tool erreichbar; die im Microsoft-365-MCP verfügbaren Tools sind ausschließlich Read-/Search-Werkzeuge — `outlook_email_search`, `outlook_calendar_search`, `outlook_find_available_time`, `read_resource`, `get_me`; kein Draft-/Send-Tool; Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-mail.txt` noch in dieses Logbuch übernommen)
+- WhatsApp-Zusammenfassung (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (in dieser Session war der `whatsapp`-MCP-Server nicht verbunden — `wa_send_message` und Alternativen nicht erreichbar; Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-whatsapp.txt` noch in dieses Logbuch übernommen)
+
+### Auffälligkeiten / offene Punkte
+
+- Kein Versand-MCP-Tool in dieser Session erreichbar: weder `mail_send`/`send_mail`/`send_message`/`outlook_send` (graph-mcp) noch `wa_send_message` (whatsapp) — daher Fallback-Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben (beide gitignored gemäß `.gitignore`); der Merge auf `main` wird durch die weiche Versandfehlerbehandlung gemäß DailyPrompt § 5b nicht verhindert. Der in dieser Session angebundene Microsoft-365-MCP stellt ausschließlich Read/Search-Tools bereit (`outlook_email_search`, `outlook_calendar_search`, `outlook_find_available_time`, `read_resource`, `get_me`) — kein Draft-/Send-Endpunkt. Empfängerdaten aus der Routine-Anweisung wurden verwendet, aber nicht in Fallback-Dateien, Commits, Logbuch oder Abschlussbericht ausgeschrieben.
+- Cluster G (Gesundheitswesen) achtes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster. Für den nächsten Lauf gezielter Abruf: G-BA-Sitzungsplan Juli 2026 sowie BfArM-DiGA-Verzeichnis mit KI-Komponente ab 1. Juli 2026 (Q3/Q4-2026-AbEM-Datenerhebung startet planmäßig).
+- Bundesratsergebnis 1067. Sitzung 10. Juli 2026 zum KI-MIG bleibt offen; für den Folgelauf zur Aufnahme in § 4.4 markiert (Zustimmung, Vermittlungsausschuss oder alternative Beschlussfassung).
+- Digital-Omnibus-on-AI-Publikation im Amtsblatt der EU steht aus (Rat-Beschluss 29. Juni 2026 in v23 bereits dokumentiert); im Folgelauf zu ergänzen, sobald OJ-Nummer bekannt.
+- OECD Employment Outlook 2026 wird am 7. Juli 2026 veröffentlicht — für den unmittelbar folgenden Lauf zur Aufnahme in § 3.5 und § 6.4 vorgesehen.
+- PwC 2026 Global AI Jobs Barometer (15. Juni 2026) bleibt außerhalb des Fensters — im nächsten Lauf ist zu entscheiden, ob eine bewusste Fensterlockerung für diesen Cluster-A-Baustein gerechtfertigt ist oder ob der Barometer ohne aktuelles Anlassdatum inhaltlich veraltet, bevor er Eingang finden könnte.
+- Branch dieses Laufs: `claude/determined-einstein-weyuaq` (in Phase 0 verifiziert; lokal vorhanden, im Remote noch nicht angelegt — Push in Phase 6).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Ergebnis der Send-Tool-Prüfung wird nach dem Versuch in Phase 5b hier ergänzt.
+
+---
+
 ## 2026-07-05 — Lauf 001 — Version 24.0 → Version 25.0
 
 ### Recherchekorridor
