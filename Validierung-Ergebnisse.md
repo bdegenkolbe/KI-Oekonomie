@@ -7,6 +7,77 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 6. Juli 2026 (Lauf 001 vom 6. Juli 2026) — Version 25.0 → Version 26.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf des Tages, Folgelauf zu Lauf 001 vom 5. Juli 2026. Web-Recherche im Korridor der Cluster A–J am 6. Juli 2026 im Standard-7-Tage-Fenster (29. Juni – 6. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (4.–6. Juli 2026). Drei belegbare Fortschreibungen aus dem 7-Tage-Fenster identifiziert (Cluster B, F, I).
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *KI-MIG-Bundesratsberatung — Ausschussempfehlung 30. Juni 2026* (Cluster B): Der Bundestag hat am 11. Juni 2026 das *Gesetz zur Durchführung der KI-Verordnung* (KI-MIG) beschlossen; der *Ausschuss für Digitalisierung und Staatsmodernisierung* des Bundesrates hat am 30. Juni 2026 empfohlen, den *Vermittlungsausschuss* anzurufen und das Gesetz „grundlegend zu überarbeiten". Kritikpunkt: Marktüberwachung durch die Bundesnetzagentur nur für den Bundes-Bereich vorgesehen, während KI-Anwendungen in Länder- und Kommunalverwaltungen den Ländern überlassen bleiben — Zersplitterungs- und Interpretationsrisiken. Der Bundesrat entscheidet am 10. Juli 2026 (1067. Sitzung). Quellen: Bundesrat 1067. Sitzung — Ausblick zur Plenarsitzung; Ausschussempfehlung BR 33/1/26 (Digital-Omnibus-KI); Bundestag-Kurzmeldung 11. Juni 2026; BMDS-Gesetzgebungsverfahren KI-MIG. | § 4.4 (neuer Absatz „Deutsches Umsetzungsgesetz zur KI-Verordnung (KI-MIG, Juli 2026):" vor dem Plattform-Digitalabgabe-Block); § 11.3 (neue Einträge Bundesrat 1067. Sitzung und Bundestag KI-MIG); Aktualitätshinweis am Dokumentende ergänzt; README.md 26.0. | Erste substantive Rückmeldung des Bundesrates zur nationalen KI-Act-Umsetzung; für die Steuerdebatte mittelbar relevant, weil die AI-Act-Kategorien über die Marktüberwachungsstellen operationalisiert werden — eine spätere steuerliche Anknüpfung an Anhang-I/III- oder GPAI-Klassen setzt eine harmonisierte Definitions- und Prüfarchitektur voraus. |
+| 2 | *Xbox-Präzisierung des Microsoft-Fiskaljahresstart-Layoffs* (Cluster F): Yahoo Finance und GeekWire (1. Juli 2026) veröffentlichen den Inhalt eines internen Xbox-Memos von CEO Asha Sharma und Content-Chef Matt Booty: > 20 Mrd. USD Investitionen in Content, Plattform und Hardware-Subventionen über fünf Jahre bei jährlichem Umsatzrückgang rund 500 Mio. USD; Q1-2026 Gaming-Umsatz −7 % auf 5,3 Mrd. USD, Hardware-Verkäufe −33 %, Content und Services −5 %; die Formulierung „cannot continue on its current trajectory" begründet die Xbox-Anteile am Fiskaljahresstart-Layoff als strategisch angetriebene Restrukturierung, nicht als reine KI-Substitution. Zusätzliche Berichterstattung: TechTimes (12. Juni 2026: Xbox-CEO Sharma bestätigt Juli-Layoffs und günstigere Konsolen-Tier), Gamerant (Juni 2026). | § 1.1 (Ergänzungssatz direkt nach der TechRepublic-/Yahoo-Präzisierung „weniger als 5.500 Beschäftigte"); § 11.5 (neuer Sammelbeleg Yahoo Finance / GeekWire / TechTimes / Gamerant). | Präzisierung der bereits in § 1.1 dokumentierten 9.000-Aggregat­zahl; Xbox-Komponente zeigt exemplarisch, wie sich innerhalb desselben Konzerns KI-Substitution, Austerity- und Restrukturierungslogik überlagern — schärft die in § 9.1 diskutierte Kausalattributions­problematik einer Typ-5-Ersatzabgabe (§ 2.1). |
+| 3 | *NVIDIA Vera Rubin — erste Auslieferungen im Juli 2026* (Cluster I): NVIDIA hat den GTC Taipei am 1. Juni 2026 zur Vollproduktions­freigabe der *Vera-Rubin*-Architektur genutzt (Trainingsleistung nach Herstellerangaben rund 3,5-fach gegenüber Blackwell). Nach übereinstimmender Fachberichterstattung (Wccftech, TradingKey, TechPowerUp, Introl) beginnen die ersten Auslieferungen im Juli 2026 an fünf nordamerikanische Hyperscaler — Microsoft, Google, Amazon, Meta, Oracle. Volumen-Auslieferungen sind für Q3/Q4 2026 vorgesehen; Rack-Fertigung durch Foxconn, Quanta und Wistron; ein erster Vera-Rubin-Rack läuft nach Angaben von Jensen Huang produktiv bei Microsoft Azure. | § 8.2 (neuer Absatz nach dem deflationäre-Preisdynamik-Absatz, vor „Deutschland hat in dieser Ordnung strukturell dieselbe Position…"); § 11.5 (neuer Sammelbeleg Wccftech / TradingKey / TechPowerUp / Introl); Aktualitätshinweis am Dokumentende. | Fortschreibung der Rohstoff-Analogie auf die neue Hardware-Generation; verdichtet die in § 1.1 dokumentierte Asymmetrie zwischen Personalreduktion und Capex-Ausbau und stützt die Anknüpfung der Steuerdebatte an Maschinenkapital (§ 5.1, § 8.3). |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- PwC 2026 Global AI Jobs Barometer (Veröffentlichung 15. Juni 2026) — außerhalb des 7-Tage-Fensters; bereits im Lauf 001 vom 5. Juli 2026 für den nächsten Lauf zur Prüfung markiert. Zwei-Wege-Arbeitsmarkt-Befund (Wage Premium 62 %, +34 % Produktivität in KI-exponierten Sektoren, junior AI-assisted roles 7× häufiger Anforderung an menschliche Skills) inhaltlich weiterhin für § 3.5 vormerkbar; das Fenster bleibt jedoch bewusst gewahrt.
+- OECD Employment Outlook 2026 („Geographic Disparities in Jobs and Incomes") — Publikation planmäßig 7. Juli 2026 (morgen), damit noch zukünftig; im unmittelbar folgenden Lauf zur Aufnahme in § 3.5 und § 6.4 zu prüfen.
+- Ergebnis der Bundesratssitzung am 10. Juli 2026 zum KI-MIG — zukünftig; die Ausschussempfehlung vom 30. Juni 2026 wird als aktueller Stand aufgenommen, der Ausgang der Plenarabstimmung ist im Folgelauf zu ergänzen.
+- Digital-Omnibus-on-AI-Publikation im Amtsblatt der Europäischen Union — noch nicht veröffentlicht (Rat 29. Juni 2026 hat die Vorlage final gebilligt, Amtsblatt-Nummer und Datum noch offen); im Folgelauf zu ergänzen.
+- Tesla Optimus V3 Massenproduktion (Ankündigung für Ende Juli / August 2026) — keine belastbaren Auslieferungsdaten im 48-Stunden-Fenster; unverändert für späteren Lauf markiert.
+- Anthropic Economic Index — kein neuer Bericht seit „Cadences" (26. Juni 2026, in Lauf 001 vom 3. Juli 2026 aufgenommen); Stand bleibt korrekt.
+- Cluster G (Gesundheitswesen) — achtes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster. Empfehlung für den nächsten Lauf: gezielter Abruf von G-BA-Sitzungsplan und BfArM-DiGA-Verzeichnis mit KI-Komponente ab 1. Juli 2026.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitt 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Der KI-MIG-Absatz in § 4.4 verweist kontrolliert auf § 8.3; die Xbox-Ergänzung in § 1.1 verweist auf § 9.1; die Vera-Rubin-Ergänzung in § 8.2 verweist auf § 1.1, § 5.1, § 8.3. Alle Ziele existieren. |
+| 2.1.4 Roter Faden | OK | Die drei Ergänzungen fügen sich in bestehende Argumentationsketten ein: KI-MIG in die AI-Act-Umsetzungslinie (§ 4.3/§ 4.4), Xbox in die AI-labor-crisis- und Kausalattributions-Linie (§ 1.1/§ 9.1), Vera Rubin in die Rohstoff-Analogie und Capex-Asymmetrie (§ 8.2/§ 1.1). |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; Fettungen einheitlich; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | KI-MIG-Text: Bundesrats-Ausblick 1067. Sitzung und Bundestag-Kurzmeldung 11. Juni 2026 belegen Ausschussempfehlung vom 30. Juni 2026 wörtlich. Xbox-Kennzahlen (> 20 Mrd. USD; ~500 Mio. USD Umsatzrückgang; Q1-2026 −7 %/−33 %/−5 %) durch Yahoo Finance und GeekWire mit Verweis auf internes Memo. Vera-Rubin-Details (GTC Taipei 1. Juni 2026, Full Production, 3,5× Blackwell, Rack-Fertigung Foxconn/Quanta/Wistron, erster Rack bei Microsoft Azure) über mehrere Fachquellen (Wccftech, TradingKey, TechPowerUp, Introl) konsistent. |
+| 2.2.2 Redundanzprüfung | OK | KI-MIG ergänzt § 4.4 als deutsche Sekundärrechts-Umsetzung neben der EU-Digital-Omnibus-Passage in § 4.3 — keine Dopplung (§ 4.3 = EU-Ebene, § 4.4 = nationale Umsetzung). Xbox ist Präzisierung des bestehenden Microsoft-Blocks in § 1.1, keine Doppelung. Vera Rubin schließt an bestehende Rohstoff-Bullets und Capex-Linie an, ohne die Cloudflare-/Oracle-/Meta-Details zu wiederholen. |
+| 2.2.3 Argumentation | OK | KI-MIG-Passage bleibt im Konjunktiv („kann… mittelbar relevant sein", „setzt voraus", „ist offen") — vermeidet Vorwegnahme des Bundesratsergebnisses; Xbox-Ergänzung schärft die Kausalattributions-Kritik ohne monokausale Zuspitzung; Vera-Rubin-Passage referiert Herstellerangaben („nach Herstellerangaben", „nach Angaben von Jensen Huang"). |
+| 2.2.4 Ausgewogenheit | OK | Alle drei Ergänzungen sind neutral formuliert und ändern die Gewichtung zwischen steuer-positiver (Sanders/OpenAI) und steuer-negativer (Bloomberg, IW Köln, de la Feria) Position nicht; Xbox-Passage stärkt sogar die Vorsichtsseite (Restrukturierung ≠ reine KI-Substitution). |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund; Anführungszeichen einheitlich; Fremdworte („Full Production", „agentic AI-first operating model" in Vorbestand) unverändert. |
+| 2.3.2 Terminologie | OK | „KI-MIG" wird im Fließtext ausgeschrieben (Gesetz zur Durchführung der KI-Verordnung); „Vermittlungsausschuss" und „Marktüberwachung" als etablierte Rechtsbegriffe; „Full-Production-Freigabe" als NVIDIA-Fachbegriff eingeführt; „Hyperscaler" als etablierter Cluster-I-Begriff. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | § 11.3 um zwei neue Einträge (Bundesrat 1067. Sitzung / Bundestag KI-MIG) ergänzt; § 11.5 um zwei neue Einträge (Yahoo Finance/GeekWire/TechTimes/Gamerant zu Xbox; Wccftech/TradingKey/TechPowerUp/Introl zu Vera Rubin) ergänzt. Jede Fließtextreferenz hat einen Literatur-Eintrag. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil, vollständige URLs, Datumsangaben („11. Juni 2026", „30. Juni 2026", „10. Juli 2026", „1. Juli 2026", „Juli 2026") einheitlich. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | KI-MIG: offizielle Bundesrats- und Bundestagsseiten (Primärquellen); Xbox: Wirtschafts- und Fachpresse mit direkter Memo-Referenz; Vera Rubin: Fach- und Analystenmedien mit Bezug auf NVIDIA-Konzernangaben (Herstellerbriefing GTC Taipei 1. Juni 2026). |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 6. Juli 2026 über WebSearch-Trefferanzeigen und Fetch-Zugriff: bundesrat.de/DE/plenum/bundesrat-kompakt/26/1067/1067-pk.html direkt abgerufen und Inhalt bestätigt; bundestag.de/dokumente/textarchiv/2026/kw24-de-ki-1183820 gelistet; finance.yahoo.com/markets/stocks/articles/microsoft-layoffs-2026-cuts-hitting-144856068.html direkt abgerufen und Inhalt bestätigt (Xbox-Memo, Q1-Kennzahlen); wccftech.com/nvidia-squashes-vera-rubin-rumors-first-shipments-rolling-out-in-july-to-ai-customers/ gelistet (WebFetch 403, Inhalt aber über Suchsnippet und TradingKey-Sekundärquelle verifiziert); tradingkey.com/analysis/…/261879616-nvidia-vera-rubin-mass-production-confirmed-tradingkey direkt abgerufen und Inhalt bestätigt. |
+| 2.4.5 Zitatgenauigkeit | OK | Ausschussempfehlung-Wortlaut „grundlegend zu überarbeiten" direkt aus Bundesrats-Ausblick; Xbox-„cannot continue on its current trajectory" sinngemäß aus dem Memo (nicht als direktes Zitat im Fließtext); Vera-Rubin-Zahlen (3,5-fach) als Herstellerangabe deklariert. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge vollständig belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 26.0 durchgängig: Dokumentkopf (KI-Ökonomie.md), `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung mit Versions-Eintrag 26.0) und dieser Protokoll-Block. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltlichen Ergänzungen hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine korrigierenden Bereinigungen erforderlich; Ergänzungen sind additive Fortschreibungen. | Ja |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen (2.1.3 Querverweise, 2.1.4 Roter Faden, 2.4.1 Vollständigkeit, 2.5 Versionskonsistenz): OK.
+- Automatisierte Skripte: n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine Fehler festgestellt)
+- Neue Version: 26.0
+- PDF erstellt: Ja (Phase 5 des Daily-Update-Prompts)
+- Word erstellt: Ja (Phase 5 des Daily-Update-Prompts)
+
+---
+
 ## Validierung 5. Juli 2026 (Lauf 001 vom 5. Juli 2026) — Version 24.0 → Version 25.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf des Tages, Folgelauf zu Lauf 002 vom 4. Juli 2026. Web-Recherche im Korridor der Cluster A–J am 5. Juli 2026 im Standard-7-Tage-Fenster (28. Juni – 5. Juli 2026), Cluster F und I im Standard-48-Stunden-Fenster (3.–5. Juli 2026). Vier belegbare Fortschreibungen aus dem 7-Tage-Fenster identifiziert und synthetisch verdichtet auf zwei Cluster (F/A mit Rebound-Wave; F mit Tracker- und Oracle-Aktualisierungen).
