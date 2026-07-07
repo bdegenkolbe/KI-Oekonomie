@@ -54,6 +54,84 @@
 
 ---
 
+## 2026-07-07 — Lauf 001 — Version 26.0 → Version 27.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster B, C, D, G, H, J ohne belegbare Treffer im 7-Tage-Fenster — Cluster G neuntes Mal in Folge).
+- Zeitfenster: Standard 7 Tage (30. Juni – 7. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (5.–7. Juli 2026). Keine Fenstererweiterung.
+- Anzahl Suchanfragen: 11 (Web-Suche) + 2 gezielte Fetches (OECD Media Advisory, TechCrunch Layoff-Tracker).
+- Lauf 001 vom 7. Juli 2026 ist der Folgelauf zu Lauf 001 vom 6. Juli 2026 (Version 25.0 → 26.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | A/E | OECD, *OECD Employment Outlook 2026 — Geographic Disparities in Jobs and Incomes* (7. Juli 2026, 392 Seiten; Publikation durch Generalsekretär Mathias Cormann und Acting Director Mark Pearson) | https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en.html | übernommen |
+| 2 | A/E | OECD, *Launch of the OECD Employment Outlook 2026 — Tuesday 7 July* (Medien-Advisory) | https://www.oecd.org/en/about/news/media-advisories/2026/07/launch-of-the-oecd-employment-outlook-2026-tuesday-7-july.html | übernommen (Sammelbeleg) |
+| 3 | A/E | OECD, *Launch of OECD Employment Outlook 2026* (Launch-Event-Seite) | https://www.oecd.org/en/events/2026/07/launch-of-oecd-employment-outlook-2026.html | übernommen (Sammelbeleg) |
+| 4 | F | CNBC, *Microsoft cuts 4,800 jobs, as Xbox unit downsizes and plans to spin off four gaming studios* (6. Juli 2026) | https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html | übernommen |
+| 5 | F | GeekWire, *Microsoft cuts 4,800 jobs, about 2 % globally, revamps Salesforce and launches massive Xbox overhaul* (6. Juli 2026) | https://www.geekwire.com/2026/microsoft-cuts-4800-jobs-about-2-globally-revamps-salesforce-and-launches-massive-xbox-overhaul/ | übernommen (Sammelbeleg) |
+| 6 | F | NBC News, *Microsoft to cut 4,800 jobs, joining the wave of AI-driven tech layoffs* (6. Juli 2026) | https://www.nbcnews.com/business/consumer/microsoft-layoffs-xbox-gaming-rcna353019 | übernommen (Sammelbeleg) |
+| 7 | F | Thurrott, *Microsoft Announces 4,800 Job Cuts, Including 3,200 at its Xbox Division* (6. Juli 2026) | https://www.thurrott.com/microsoft/338449/microsoft-announces-4800-job-cuts-including-3200-at-its-xbox-division | übernommen (Sammelbeleg) |
+| 8 | F | Republic World, *Microsoft Cuts 4,800 Jobs to Prioritise AI Growth, Xbox Hit Hardest* (6. Juli 2026) | https://www.republicworld.com/tech/microsoft-cuts-4800-jobs-to-prioritise-ai-growth-xbox-hit-hardest-2026-07-06-131442 | übernommen (Sammelbeleg) |
+| 9 | F | TechCrunch, *Every major tech layoff in 2026 that has name-checked AI* (6. Juli 2026, laufende Liste) | https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/ | übernommen (Sammelbeleg) |
+| 10 | A | PwC, *2026 Global AI Jobs Barometer* (15. Juni 2026) | https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html | verworfen (außerhalb 7-Tage-Fenster; unverändert für spätere Fensterlockerungs­diskussion markiert) |
+| 11 | B | Bundesrat, *1067. Sitzung — Ergebnis der Bundesratsberatung KI-MIG am 10. Juli 2026* | https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1067/1067-node.html | verworfen (zukünftiges Ereignis; für Folgelauf markiert) |
+| 12 | B | Rat der EU, *Digital Omnibus on AI — Amtsblatt-Veröffentlichung* | (noch nicht veröffentlicht) | verworfen (OJ-Nummer und Datum offen; für Folgelauf markiert) |
+| 13 | B | Europäische Kommission, *Draft Commission Guidelines on Classification of High-Risk AI Systems under Article 6 AI Act* (19. Mai 2026; Feedback-Frist 23. Juli 2026) | https://digital-strategy.ec.europa.eu/en/library/draft-commission-guidelines-classification-high-risk-ai-systems | verworfen (außerhalb 7-Tage-Fenster; für Aufnahme nach Ende der Feedback-Frist am 23. Juli 2026 markiert) |
+| 14 | B | US Senate, *No Robot Bosses Act — Sen. Markey with Sanders/Warren et al.* (18. Juni 2026) | https://www.markey.senate.gov/news/press-releases/senators-markey-schatz-introduce-legislation-to-halt-automating-workplace-decisions-worker-surveillance | verworfen (außerhalb 7-Tage-Fenster; H.R. 6371-Version bereits in § 11.3 referenziert; Senatsversion für Folgelauf zu prüfen sobald Bill-Nummer verfügbar) |
+| 15 | G | G-BA / gematik / BfArM Juli 2026 | https://www.g-ba.de/ | verworfen (neuntes Mal in Folge ohne KI-spezifische Beschlüsse im 7-Tage-Fenster) |
+| 16 | J | Tesla / Wccftech, *Tesla Optimus V3 mass production July/August 2026* | https://electrek.co/2026/04/22/tesla-optimus-production-fremont-model-sx-line/ | verworfen (Musk-Prognose ohne belastbare Auslieferungsdaten; für späteren Lauf markiert) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 1.1 | Präzisierung | Ergänzungssatz zur Microsoft-Layoff-Runde vom 6. Juli 2026: 4.800 unmittelbare Streichungen (2,1 % einer weltweiten Belegschaft von rund 220.000), davon 1.600 Xbox und 600 in Washington State; Xbox-FY-2026-Gesamtreduktion rund 3.200 (~20 % der globalen Xbox-Belegschaft); Ausgliederung von vier Gaming-Studios; VRSAR-Annahmequote rund 30 % von rund 8.750 US-Angebotsberechtigten; Konzernbegründung „AI is changing how work gets done" bei zugleich Statement, die betroffenen Rollen würden nicht durch KI ersetzt — schärft § 9.1-Kausalattributionsproblem. | 4–9 |
+| 2 | § 3.5 | Ergänzung | Neuer Absatz am Kapitelende zum *OECD Employment Outlook 2026 — Geographic Disparities in Jobs and Incomes*: regional asymmetrische Anpassung an KI-/Technologie- und Handelsschocks (Anpassung überwiegend über Weg in vorübergehende Arbeitslosigkeit und neue Einstiegskohorten mit dauerhaften Einkommensnachteilen); Non-Compete-Klauseln bis zu ein Viertel der Beschäftigten in einigen OECD-Mitgliedsländern und zunehmend in niedrig vergüteten Tätigkeiten; erwerbsfähige Bevölkerung OECD-weit −8 % bis 2060 als Anlass verstärkter Qualifikationspolitik; ortsbezogene, integrierte Politik gefordert. | 1–3 |
+| 3 | § 11.3 | Ergänzung | Neuer Literatureintrag OECD Employment Outlook 2026 (Publikation 7. Juli 2026, 392 Seiten, Country Notes für elf Mitgliedsländer inkl. Deutschland). | 1–3 |
+| 4 | § 11.5 | Ergänzung | Neuer Sammelbeleg CNBC / GeekWire / NBC News / Thurrott / Republic World / TechCrunch (6. Juli 2026) zur konkreten Microsoft-Layoff-Runde. | 4–9 |
+| 5 | Dokumentende | Aktualisierung | Aktualitätshinweis auf „Schnitt am 7. Juli 2026 — Lauf 001 vom 7. Juli 2026" gesetzt; zwei Lauf-001-Fortschreibungen (Microsoft-Layoff-Runde vom 6. Juli 2026, OECD Employment Outlook 2026) in Auflistungstext aufgenommen. | 1–9 |
+| 6 | README.md | Aktualisierung | Versionssprung 26.0 → 27.0 (Versionszeile, Zitiervorschlag, KI-Offenlegung um Versions-Eintrag 27.0 ergänzt). | — |
+| 7 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 7. Juli 2026 (Lauf 001 vom 7. Juli 2026) — Version 26.0 → Version 27.0" mit Prüftabelle 2.1.1–2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 10 | PwC 2026 Global AI Jobs Barometer (15. Juni 2026) | A | Außerhalb 7-Tage-Fenster; unverändert für spätere Fensterlockerungs­diskussion markiert. |
+| 11 | Bundesratsergebnis 1067. Sitzung zum KI-MIG (10. Juli 2026) | B | Zukünftiges Ereignis; für Folgelauf markiert. |
+| 12 | Digital-Omnibus-on-AI-Publikation im OJ | B | Amtsblatt-Nummer und Datum noch offen; für Folgelauf markiert. |
+| 13 | Draft Commission Guidelines on High-Risk AI Systems (19. Mai 2026) | B | Außerhalb 7-Tage-Fenster; für Aufnahme nach Ende der Feedback-Frist am 23. Juli 2026 markiert. |
+| 14 | No Robot Bosses Act (Markey/Sanders/Warren, 18. Juni 2026) | B | Außerhalb 7-Tage-Fenster; H.R. 6371-Version bereits in § 11.3; Senatsversion für Folgelauf zu prüfen. |
+| 15 | G-BA / gematik / BfArM Juli 2026 | G | Neuntes Mal in Folge ohne KI-spezifische Beschlüsse im 7-Tage-Fenster. |
+| 16 | Tesla Optimus V3 / humanoide Robotik | J | Musk-Prognose ohne belastbare Auslieferungsdaten; für späteren Lauf markiert. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument und Literaturverzeichnis: Ja (Challenger H1-2026 mit 101.743 KI-bezogenen YTD-Streichungen bereits in v23 dokumentiert; Bundesrat 1067. Sitzung/KI-MIG in v26 dokumentiert; IAB-Regionalprognose in v8 dokumentiert; No Robot Bosses Act H.R. 6371 in v6 dokumentiert; keine erneute Einspielung)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block „7. Juli 2026 — Version 26.0 → Version 27.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja (Phase 5)
+- Word erstellt (`build_docx.py`): Ja (Phase 5)
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (27.0 durchgängig)
+- Branch auf main gemerged und gelöscht: (wird in Phase 6 protokolliert)
+- E-Mail-Benachrichtigung (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (in dieser Session war weder `mail_send` aus dem MCP-Server `graph-mcp` noch ein alternatives Send-Tool erreichbar; die im Microsoft-365-MCP verfügbaren Tools sind ausschließlich Read-/Search-Werkzeuge — `outlook_email_search`, `outlook_calendar_search`, `outlook_find_available_time`, `read_resource`, `get_me`, `chat_message_search`, `sharepoint_search`, `sharepoint_folder_search`, `outlook_find_available_time`; kein Draft-/Send-Tool; Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-mail.txt` noch in dieses Logbuch übernommen)
+- WhatsApp-Zusammenfassung (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (in dieser Session war der `whatsapp`-MCP-Server nicht verbunden — `wa_send_message` und Alternativen nicht erreichbar; Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-whatsapp.txt` noch in dieses Logbuch übernommen)
+
+### Auffälligkeiten / offene Punkte
+
+- Cluster G (Gesundheitswesen) neuntes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster. Für den nächsten Lauf gezielter Abruf: G-BA-Sitzungsplan Juli 2026 sowie BfArM-DiGA-Verzeichnis mit KI-Komponente ab 1. Juli 2026.
+- Bundesratsergebnis 1067. Sitzung 10. Juli 2026 zum KI-MIG bleibt offen; für den Folgelauf zur Aufnahme in § 4.4 markiert.
+- Digital-Omnibus-on-AI-Publikation im Amtsblatt der EU steht aus; im Folgelauf zu ergänzen, sobald OJ-Nummer bekannt.
+- Draft Commission Guidelines on High-Risk AI Systems: Feedback-Frist 23. Juli 2026 — im Folgelauf nach Fristende Aufnahme in § 4.4 prüfen.
+- PwC 2026 Global AI Jobs Barometer (15. Juni 2026) bleibt weiter außerhalb des Fensters — im nächsten Lauf ist zu entscheiden, ob eine bewusste Fensterlockerung für diesen Cluster-A-Baustein gerechtfertigt ist.
+- Branch dieses Laufs: `claude/determined-einstein-gtb3f0` (wurde in Phase 0 auf `origin/main` zurückgesetzt, da der vorherige Session-Branch bereits in `main` gemerged war).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Kein Versand-MCP-Tool in dieser Session erreichbar: weder `mail_send`/`send_mail`/`send_message`/`outlook_send` (graph-mcp) noch `wa_send_message` (whatsapp) — daher Fallback-Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben (beide gitignored gemäß `.gitignore`). Der Merge auf `main` wird durch die weiche Versandfehlerbehandlung gemäß DailyPrompt § 5b nicht verhindert.
+
+---
+
 ## 2026-07-06 — Lauf 001 — Version 25.0 → Version 26.0
 
 ### Recherchekorridor
