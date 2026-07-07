@@ -7,6 +7,77 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 7. Juli 2026 (Lauf 001 vom 7. Juli 2026) — Version 26.0 → Version 27.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf des Tages, Folgelauf zu Lauf 001 vom 6. Juli 2026. Web-Recherche im Korridor der Cluster A–J am 7. Juli 2026 im Standard-7-Tage-Fenster (30. Juni – 7. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (5.–7. Juli 2026). Zwei belegbare Fortschreibungen aus dem 7-Tage-Fenster identifiziert (Cluster F, Cluster A/E).
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *Microsoft-Layoff-Runde vom 6. Juli 2026 — konkrete Größe und Xbox-Studio-Spin-Off* (Cluster F): Microsoft hat am 6. Juli 2026 die eigentliche Layoff-Runde konkret angekündigt: rund 4.800 unmittelbare Streichungen (2,1 % einer weltweiten Belegschaft von rund 220.000), davon rund 1.600 in der Xbox-Sparte und rund 600 im US-Bundesstaat Washington. Die Xbox-Reduktionen im laufenden Fiskaljahr 2026 summieren sich nach Konzernangaben auf rund 3.200 (etwa 20 % der globalen Xbox-Belegschaft); vier Gaming-Studios werden aus dem Microsoft-Verbund ausgegliedert. Zusätzlich bestätigt Microsoft die tatsächliche Annahmequote des Voluntary-Retirement-Programms (VRSAR) mit rund 30 % von rund 8.750 angebotsberechtigten US-Beschäftigten. Konzernbegründung: „AI is changing how work gets done"; betroffene Rollen würden jedoch „not being replaced by AI". Quellen: CNBC, GeekWire, NBC News, Thurrott, Republic World, TechCrunch (6. Juli 2026). | § 1.1 (Ergänzungssatz direkt nach der TechRepublic-/Yahoo-Präzisierung „weniger als 5.500 Beschäftigte"); § 11.5 (neuer Sammelbeleg CNBC / GeekWire / NBC News / Thurrott / Republic World / TechCrunch). | Präzisierung der bereits in § 1.1 dokumentierten 9.000-Aggregat­zahl aus Lauf 001 vom 3. Juli 2026 (Sales/Consulting/Xbox); die konkreten 4.800 unmittelbaren Streichungen bestätigen die Schätzung „unter 5.500" aus Lauf 002 vom 4. Juli 2026; die VRSAR-Annahmequote von 30 % bestätigt die bislang als „rund ein Drittel" referierte Vorwegnahme; die Ausgliederung von vier Gaming-Studios ist eine strukturelle Neuigkeit, die die in § 9.1 diskutierte Kausalattributionsproblematik einer Typ-5-Ersatzabgabe (§ 2.1) weiter illustriert (Restrukturierung überlagert KI-Substitution). |
+| 2 | *OECD Employment Outlook 2026 — Geographic Disparities in Jobs and Incomes* (Cluster A/E): Publikation durch OECD-Generalsekretär Mathias Cormann und Acting Director Employment, Labour and Social Affairs Mark Pearson am 7. Juli 2026, 392 Seiten. Kernbotschaften: Große und beharrliche Beschäftigungs-, Arbeitslosigkeits- und Einkommensunterschiede innerhalb einzelner Mitgliedsländer; asymmetrische Umbrüche lokaler Arbeitsmärkte durch Handels- und Technologieschocks (einschließlich KI) mit Regionen, die Industrie-Arbeitsplätze verlieren, und anderen, die im nicht-routinisierten Dienstleistungssegment aufbauen; Anpassung überwiegend nicht über sektorale Wechsel bestehender Beschäftigter, sondern über den Weg in vorübergehende Arbeitslosigkeit und über neue Einstiegskohorten mit dauerhaften Einkommensnachteilen für Verdrängte („lasting scars"); ortsbezogene, integrierte Politik erforderlich (Regional-, Industrie- und aktive Arbeitsmarktpolitik). Non-Compete-Klauseln inzwischen bis zu ein Viertel der Beschäftigten in einigen OECD-Mitgliedsländern und zunehmend auch in niedrig vergüteten Tätigkeiten — hemmend für Arbeitsmobilität, Innovation, Löhne und Produktivität. Erwerbsfähige Bevölkerung OECD-weit −8 % bis 2060 als Anlass verstärkter Qualifikationspolitik. Country Notes für Australien, Kanada, Frankreich, Deutschland, Italien, Japan, Korea, Mexiko, Spanien, Vereinigtes Königreich und Vereinigte Staaten. Quellen: OECD-Publikationsseite, OECD-Medienunterlage vom 7. Juli 2026, Launch-Event-Seite. | § 3.5 (neuer Absatz am Ende des Kapitels nach dem Cadences-Block); § 11.3 (neuer Eintrag OECD Employment Outlook 2026); Aktualitätshinweis am Dokumentende ergänzt; README.md 27.0. | OECD Employment Outlook ist die jährliche Referenzpublikation der Wirtschaftsschule zu Arbeitsmarkt und Beschäftigung; der 2026er Fokus auf regionale Anpassungsasymmetrien und den Weg in temporäre Arbeitslosigkeit statt sektoraler Umschichtung stützt (a) die szenariorobuste Auslegung des steuerpolitischen Instrumentariums (§ 8.4) und (b) die in § 9.1 dokumentierte Grenze einer rein arbeitsmarktbezogenen Kausalattribution für eine Typ-5-Ersatzabgabe. Non-Compete-Befund ist mittelbar für die Debatte um Qualifikationsmobilität und Wertschöpfungsteilhabe (§ 5.1, § 8.3) relevant. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- PwC 2026 Global AI Jobs Barometer (Veröffentlichung 15. Juni 2026) — weiterhin außerhalb des 7-Tage-Fensters; unverändert für spätere Fensterlockerungsdiskussion markiert.
+- Bundesratsergebnis zum KI-MIG am 10. Juli 2026 (1067. Sitzung) — zukünftiges Ereignis; im unmittelbar folgenden Lauf zur Aufnahme in § 4.4 zu prüfen.
+- Digital-Omnibus-on-AI-Publikation im Amtsblatt der Europäischen Union — noch nicht veröffentlicht; im Folgelauf zu ergänzen.
+- IAB-Regionalprognose 2026 (Publikation 10. April 2026) — außerhalb 7-Tage-Fenster; bereits in Vorlauf-Version 8.0 aufgenommen.
+- No Robot Bosses Act (Markey/Sanders/Warren, 18. Juni 2026) — außerhalb 7-Tage-Fenster; im Vorbestand über den H.R. 6371-Eintrag (Bonamici et al., 3. Dezember 2025) bereits in § 11.3 referenziert; Senatsversion zusätzlich für Folgelauf zu prüfen, sobald Bill-Nummer verfügbar ist.
+- Draft Commission Guidelines on Classification of High-Risk AI Systems unter Article 6 AI Act (Publikation 19. Mai 2026, Feedback-Frist 23. Juli 2026) — außerhalb 7-Tage-Fenster; im Folgelauf zur Aufnahme in § 4.4 nach Ende der Feedback-Frist markierbar.
+- IZA Policy Paper Bastani/Waldenström zu AI, Automation and Taxation — Erstveröffentlichung 2024, kein neuer Fortschreibungsanlass innerhalb des Fensters.
+- Cluster G (Gesundheitswesen) — neunter Lauf in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitt 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Der Microsoft-Präzisierungsabsatz in § 1.1 verweist kontrolliert auf § 9.1; der OECD-Absatz in § 3.5 verweist auf § 8.4, § 9.1, § 2.1. Alle Ziele existieren. |
+| 2.1.4 Roter Faden | OK | Microsoft-Präzisierung fügt sich in die bestehende AI-labor-crisis- und Kausalattributions-Linie ein (§ 1.1 → § 9.1); OECD-Outlook ergänzt die szenariorobuste Auslegung um eine regionale Anpassungsdimension (§ 3.5 → § 8.4). |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; Fettungen einheitlich; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Microsoft-Kennzahlen (4.800 = 2,1 %; ~220.000 Belegschaft; 1.600 Xbox; ~3.200 Xbox FY26; ~600 Washington State; 30 % von ~8.750 VRSAR-Berechtigten) durch CNBC, GeekWire, NBC News, Thurrott, Republic World (jeweils 6. Juli 2026) konsistent. OECD-Publikationsdatum (7. Juli 2026, 14:00 CEST / 12:00 GMT), Seitenzahl (392) und Kernbotschaften über OECD-Publikations-, Medienunterlage- und Launch-Event-Seite belegt. |
+| 2.2.2 Redundanzprüfung | OK | Microsoft-Präzisierung ist echte Fortschreibung des bestehenden § 1.1-Blocks (kein Textduplikat mit der zwei Sätze vorher stehenden 9.000/5.500-Zahlenreihe, weil sie neue Substanz — 4.800 konkret, Studio-Spin-Off, VRSAR-Quote 30 % — trägt). OECD-Absatz ergänzt die Cadences-/Yale-Budget-Lab-Linie in § 3.5 um eine bisher fehlende regionalökonomische Perspektive. |
+| 2.2.3 Argumentation | OK | Microsoft-Passage referiert Konzernangaben („nach Konzernangaben") und zitiert die Formulierung „AI is changing how work gets done" bzw. „not being replaced by AI" als Widerspruch, ohne monokausale Zuspitzung; OECD-Passage bleibt im Konjunktiv („nach OECD-Ausweis", „sei", „könnten") — vermeidet Vorwegnahme von Modellergebnissen. |
+| 2.2.4 Ausgewogenheit | OK | Beide Ergänzungen sind neutral formuliert. Die Microsoft-Passage stärkt die Vorsichtsseite gegen monokausale KI-Attributionen; die OECD-Passage bringt die Institution in ihrer eigenen Formulierung und ohne interpretatorische Zuspitzung. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund; Anführungszeichen einheitlich; „Voluntary-Retirement-Programm" und „Voluntary Retirement Separation Agreement (VRSAR)" wie im Vorbestand. |
+| 2.3.2 Terminologie | OK | „Xbox-Sparte", „Studio-Spin-Off", „Country Notes", „Non-Compete-Klauseln" als eingeführte Fachbegriffe; „lasting scars" als OECD-Originalwendung in Anführungszeichen. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | § 11.3 um einen neuen Eintrag ergänzt (OECD Employment Outlook 2026); § 11.5 um einen neuen Sammelbeleg ergänzt (CNBC / GeekWire / NBC News / Thurrott / Republic World / TechCrunch, 6. Juli 2026). Jede Fließtextreferenz hat einen Literatur-Eintrag. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil, vollständige URLs, Datumsangaben („6. Juli 2026", „7. Juli 2026") einheitlich; Formatierung des OECD-Eintrags wie andere OECD-/EU-Einträge in § 11.3. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Microsoft: Konzern-Pressemitteilung und Bloomberg-/CNBC-/NBC-Berichterstattung als Primär- und aggregierende Sekundärquellen; OECD: offizielle Publikationsseite, Medienunterlage und Launch-Event-Seite als Primärquellen. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 7. Juli 2026: OECD-Publikationsseite (oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en.html) und Medienunterlage (oecd.org/en/about/news/media-advisories/2026/07/launch-of-the-oecd-employment-outlook-2026-tuesday-7-july.html) über WebSearch-Trefferanzeigen gelistet und Inhalt bestätigt (WebFetch 403 durch OECD-Cloudflare-Schutz, Inhalt über Suchsnippets verifiziert); techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/ direkt abgerufen und Microsoft-Passage bestätigt; cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html gelistet und über Suchsnippet inhaltlich bestätigt. |
+| 2.4.5 Zitatgenauigkeit | OK | „AI is changing how work gets done" und „not being replaced by AI" direkt aus Konzernkommunikation via TechCrunch; OECD-Wendung „lasting scars" aus OECD-Medienunterlage. Zahlenangaben (4.800, 2,1 %, 1.600, 3.200, 600, 8.750, 30 %) über mehrere Quellen konsistent. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge vollständig belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 27.0 durchgängig: Dokumentkopf (KI-Ökonomie.md), `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung mit Versions-Eintrag 27.0) und dieser Protokoll-Block. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltlichen Ergänzungen hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine korrigierenden Bereinigungen erforderlich; Ergänzungen sind additive Fortschreibungen. | Ja |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen (2.1.3 Querverweise, 2.1.4 Roter Faden, 2.4.1 Vollständigkeit, 2.5 Versionskonsistenz): OK.
+- Automatisierte Skripte: n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine Fehler festgestellt)
+- Neue Version: 27.0
+- PDF erstellt: Ja (Phase 5 des Daily-Update-Prompts)
+- Word erstellt: Ja (Phase 5 des Daily-Update-Prompts)
+
+---
+
 ## Validierung 6. Juli 2026 (Lauf 001 vom 6. Juli 2026) — Version 25.0 → Version 26.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf des Tages, Folgelauf zu Lauf 001 vom 5. Juli 2026. Web-Recherche im Korridor der Cluster A–J am 6. Juli 2026 im Standard-7-Tage-Fenster (29. Juni – 6. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (4.–6. Juli 2026). Drei belegbare Fortschreibungen aus dem 7-Tage-Fenster identifiziert (Cluster B, F, I).
