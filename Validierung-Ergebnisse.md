@@ -7,6 +7,79 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 8. Juli 2026 (Lauf 001 vom 8. Juli 2026) — Version 27.0 → Version 28.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf des Tages, Folgelauf zu Lauf 001 vom 7. Juli 2026. Web-Recherche im Korridor der Cluster A–J am 8. Juli 2026 im Standard-7-Tage-Fenster (1.–8. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (6.–8. Juli 2026). Zwei belegbare Fortschreibungen aus den Fenstern identifiziert (Cluster I; Cluster A/E).
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *NVIDIA Kyber Rack für Rubin Ultra verschoben auf 2028* (Cluster I, 48-Stunden-Fenster): Die Analystenfirma *SemiAnalysis* hat am 6. Juli 2026 (aufgegriffen von CNBC, Tom's Hardware, The Next Web und Seeking Alpha) berichtet, dass das für die 2027 vorgesehenen *Rubin-Ultra*-Chips geplante Rack-System *Kyber* (NVL144, 144 GPUs pro Rack als Scale-Up-Baustein) sich um mehr als zwölf Monate auf 2028 verschiebt. Ursache: PCB-Midplane mit 78 Lagen, Toleranzen unter 25 μm und Impedanz-Toleranz 5 % für 448-Gb/s-Signalisierung; die Fertigbarkeit bleibt nach SemiAnalysis „challenging". Ein Notfallplan, zwei Racks der aktuellen Generation zusammenzuschalten, wurde nach ablehnender Rückmeldung der Cloud-Kunden ebenfalls gestrichen. NVIDIA hat damit vorerst „no proven solution" für die Skalierung von Rubin Ultra über den Rack-Verbund hinaus, wodurch AMD (MI455X mit CDNA-5-Architektur, 2 nm, 432 GB Speicher, 40 PFLOPS NVFP4 im späteren Verlauf von 2026) und Google (TPU-Reihe) am oberen Marktende eine technische Öffnung erhalten. Die aktuellen *Oberon*- und *Rubin*-Racks der laufenden Generation bleiben unverändert für die Herbst-Auslieferung an AWS, Microsoft Azure und Google Cloud vorgesehen. Quellen: CNBC (6. Juli 2026); Tom's Hardware (6. Juli 2026); The Next Web (6. Juli 2026); Seeking Alpha (6. Juli 2026). | § 8.2 (Ergänzungssatz-Block an den bestehenden Vera-Rubin-Absatz angefügt); § 11.5 (neuer Sammelbeleg CNBC / Tom's Hardware / The Next Web / Seeking Alpha, 6. Juli 2026); Aktualitätshinweis am Dokumentende ergänzt; README.md 28.0. | Erste substantielle Verzögerung einer NVIDIA-Rack-Systemgeneration im laufenden Zyklus; die Nachricht (a) untermauert die These der Rohstoff-Konzentration wegen des Engpasses in einer einzigen Lieferkette (PCB-Midplane), (b) relativiert die Extremposition einer reinen NVIDIA-Rohstoff-Analogie durch das gleichzeitig eröffnete Aufholpotenzial von AMD und Google, und (c) stärkt weiterhin die Anknüpfung der Steuerdebatte an Maschinenkapital und Wertschöpfung (§ 5.1, § 8.3) auf einer weiteren technologischen Generation. |
+| 2 | *OECD Country Note Germany und OECD Non-Compete-Länderdatei zu Deutschland* (Cluster A/E): Ergänzend zum am 7. Juli 2026 vorgelegten *OECD Employment Outlook 2026 — Geographic Disparities in Jobs and Incomes* hat die OECD am selben Datum zwei deutschlandbezogene Begleitdateien publiziert: die 6-seitige Country Note „OECD Employment Outlook 2026 — Germany" mit Diagnose zur deutschen Beschäftigungs- und Einkommensspreizung, demografischen Kontraktion und Qualifikationsbedarf, sowie die 8-seitige Länderdatei „Non-compete and related agreements: Germany", die die aggregierte OECD-Diagnose deutschlandbezogen quantifiziert: In 15 OECD-Ländern seien im Mittel rund 30 % der Beschäftigten durch entsprechende Klauseln oder verwandte Nach-Vertragsbindungen (Kundenschutzabreden, Non-Solicitation-Vereinbarungen) gebunden, was die Verhandlungsposition der Beschäftigten schwäche und das Lohnwachstum bremse. Quellen: OECD-Publikationsseite mit den Länderdatei-Listungen, verfügbar über oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en.html. | § 3.5 (Ergänzungssatz am OECD-Absatz-Ende); § 11.3 (zwei neue Einträge OECD Country Note Germany und OECD Non-compete Germany). | Präzisierung des in Lauf 001 vom 7. Juli 2026 aufgenommenen OECD-Employment-Outlook-Absatzes um deutschlandspezifische Ausgestaltung; die Non-Compete-Quantifizierung (30 % im 15-Länder-Mittel) untermauert das ordnungspolitische Argument für eine Verbreiterung der Sozialstaats-Finanzierungsbasis (§ 5.1), weil die Lohn-Bemessungsgrundlage in einer Ökonomie mit Nachvertragsbindungen und Anpassung über Neueinstellungen tendenziell schmaler wird. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- PwC 2026 Global AI Jobs Barometer (Veröffentlichung 15. Juni 2026) — weiterhin außerhalb des 7-Tage-Fensters; unverändert für spätere Fensterlockerungsdiskussion markiert.
+- Bundesratsergebnis zum KI-MIG am 10. Juli 2026 (1067. Sitzung) — zukünftiges Ereignis; im unmittelbar folgenden Lauf zur Aufnahme in § 4.4 zu prüfen.
+- Digital-Omnibus-on-AI-Publikation im Amtsblatt der Europäischen Union — noch nicht veröffentlicht; im Folgelauf zu ergänzen, sobald OJ-Nummer bekannt.
+- Draft Commission Guidelines on Classification of High-Risk AI Systems unter Article 6 AI Act (Publikation 19. Mai 2026, Feedback-Frist 23. Juli 2026) — außerhalb 7-Tage-Fenster; im Folgelauf nach Fristende Aufnahme in § 4.4 prüfen.
+- GitLab-Layoff (2. Juni 2026, ~350 Stellen / 14 % der Belegschaft) — außerhalb 7-Tage-Fenster; für spätere Vertiefung des Layoff-Blocks in § 1.1 markierbar.
+- Warren AI-Steuervorschlag (Time-Op-Ed, 27. Mai 2026) — außerhalb 7-Tage-Fenster; im Vorlauf noch nicht aufgenommen; zu prüfen, sobald konkreter Gesetzentwurf vorliegt.
+- Sanders American AI Sovereign Wealth Fund Act — bereits in Version 23.0 aufgenommen; keine Neuentwicklung im Fenster.
+- Anthropic Economic Index *„Cadences"* — bereits in Version 23.0; kein neuer Bericht seit 26. Juni 2026.
+- Tesla Optimus V3 Massenproduktion — Musk-Prognose ohne belastbare Auslieferungsdaten; unverändert für späteren Lauf markiert.
+- Cluster G (Gesundheitswesen) — zehnter Lauf in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitt 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Der Kyber-Passus in § 8.2 verweist kontrolliert auf § 5.1 / § 8.3; der Non-Compete-Zusatz in § 3.5 verweist auf § 5.1, § 8.3, § 8.4, § 9.1, § 2.1. Alle Ziele existieren. |
+| 2.1.4 Roter Faden | OK | Kyber-Passus setzt den Vera-Rubin-Absatz konsequent fort und relativiert die Rohstoff-Analogie ohne die argumentative Linie zu brechen (§ 8.2); die Non-Compete-Präzisierung fügt sich in die szenariorobuste Auslegung des OECD-Absatzes ein (§ 3.5 → § 8.4). |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; Fettungen einheitlich; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Kyber/Rubin-Ultra-Delay (Verschiebung >12 Monate auf 2028, PCB-Midplane 78 Lagen, Toleranz 25 μm, 448 Gb/s, Backup-Plan gestrichen, Öffnung für AMD/Google) über CNBC, Tom's Hardware, The Next Web und Seeking Alpha (jeweils 6. Juli 2026) konsistent. OECD Country Note Germany (6 Seiten) und Non-Compete-Länderdatei (8 Seiten, 30 %-Mittelwert im 15-Länder-Sample) über OECD-Publikationsseite belegt. |
+| 2.2.2 Redundanzprüfung | OK | Kyber-Passus ergänzt den Vera-Rubin-Absatz um eine neue Substanz-Ebene (Verzögerung der nachfolgenden Generation, PCB-Ursache, Wettbewerbsöffnung); Non-Compete-Zusatz erweitert die bestehende OECD-Kernbotschaft ohne inhaltliches Doppel. |
+| 2.2.3 Argumentation | OK | Kyber-Passus zitiert SemiAnalysis-Formulierung „no proven solution" als indirekte Rede; behandelt AMD/Google-Öffnung im Konjunktiv („erhielten"); OECD-Zusätze im Konjunktiv („sei", „schwäche"). |
+| 2.2.4 Ausgewogenheit | OK | Kyber-Passus stellt sowohl die Konzentrations-Linie als auch die Diversifizierungs-Öffnung dar; kein monokausaler Framing. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „PCB-Midplane", „Scale-Up-Baustein", „TPU", „NVFP4", „CDNA-5" als Fachbegriffe in Klammern ausgeführt oder im Kontext geklärt; „Non-Compete-Klauseln" bereits eingeführt. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | § 11.3 um zwei OECD-Einträge ergänzt; § 11.5 um einen neuen Sammelbeleg ergänzt (CNBC / Tom's Hardware / The Next Web / Seeking Alpha). Jede Fließtextreferenz hat einen Literatur-Eintrag. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil; vollständige URLs; Datumsangaben („6. Juli 2026", „7. Juli 2026") einheitlich. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | CNBC und The Next Web direkt zugänglich; SemiAnalysis-Primärquelle über Sekundär-Aggregation dokumentiert; OECD über offizielle Publikationsseite (WebFetch 403 durch Cloudflare, Inhalt über WebSearch-Snippets verifiziert). |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 8. Juli 2026: thenextweb.com/news/nvidia-kyber-rack-delay-2028 (WebFetch OK, Inhalt bestätigt); cnbc.com/2026/07/06/nvidia-kyber-rack-system-delays-manufacturing-taiwan-rubin-chips-.html (WebSearch-Listing, Inhalt über Snippet und Sekundärquellen konsistent); tomshardware.com/pc-components/gpus/nvidias-kyber-rack-for-rubin-ultra-slips-to-2028 (WebFetch teilweise über SPA-Overlay, Titel und Struktur konsistent); seekingalpha.com/news/4611538-... (WebFetch 403, Titel über Sekundär-Aggregation bestätigt); oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en.html (WebFetch 403 durch Cloudflare, Country-Note-Listing über WebSearch-Trefferanzeigen mit Angabe „Country note · 6 Pages" bestätigt). |
+| 2.4.5 Zitatgenauigkeit | OK | „no proven solution" als SemiAnalysis-Kernwendung; Zahlenangaben (12 Monate Verzögerung; 78-Lagen-PCB; 25 μm Toleranz; 448 Gb/s; MI455X 432 GB / 40 PFLOPS NVFP4) über mehrere Sekundärquellen konsistent. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 28.0 durchgängig: Dokumentkopf (KI-Ökonomie.md), `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung mit Versions-Eintrag 28.0) und dieser Protokoll-Block. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltlichen Ergänzungen hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine korrigierenden Bereinigungen erforderlich; Ergänzungen sind additive Fortschreibungen. | Ja |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen (2.1.3 Querverweise, 2.1.4 Roter Faden, 2.4.1 Vollständigkeit, 2.5 Versionskonsistenz): OK.
+- Automatisierte Skripte: n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine Fehler festgestellt)
+- Neue Version: 28.0
+- PDF erstellt: Ja (Phase 5 des Daily-Update-Prompts)
+- Word erstellt: Ja (Phase 5 des Daily-Update-Prompts)
+
+---
+
 ## Validierung 7. Juli 2026 (Lauf 001 vom 7. Juli 2026) — Version 26.0 → Version 27.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf des Tages, Folgelauf zu Lauf 001 vom 6. Juli 2026. Web-Recherche im Korridor der Cluster A–J am 7. Juli 2026 im Standard-7-Tage-Fenster (30. Juni – 7. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (5.–7. Juli 2026). Zwei belegbare Fortschreibungen aus dem 7-Tage-Fenster identifiziert (Cluster F, Cluster A/E).
