@@ -54,6 +54,80 @@
 
 ---
 
+## 2026-07-08 — Lauf 001 — Version 27.0 → Version 28.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster B, C, D, E, F, G, H, J ohne belegbare Neuzugänge im 7-Tage-Fenster — Cluster G zehntes Mal in Folge). Fortschreibungen aus Cluster I (48-Stunden-Fenster) und Cluster A/E (7-Tage-Fenster).
+- Zeitfenster: Standard 7 Tage (1.–8. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (6.–8. Juli 2026). Keine Fenstererweiterung.
+- Anzahl Suchanfragen: 10 (Web-Suche) + 3 gezielte Fetches (CNBC-Artikel, TheNextWeb-Artikel, OECD-Publikationsseite; letzte 403 durch Cloudflare-Schutz).
+- Lauf 001 vom 8. Juli 2026 ist der Folgelauf zu Lauf 001 vom 7. Juli 2026 (Version 26.0 → 27.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | I | CNBC / Kif Leswing, *Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says* (6. Juli 2026) | https://www.cnbc.com/2026/07/06/nvidia-kyber-rack-system-delays-manufacturing-taiwan-rubin-chips-.html | übernommen |
+| 2 | I | Tom's Hardware, *Nvidia's Kyber rack for Rubin Ultra reportedly delayed to 2028, stopgap solution also axed due to customer pushback — Analyst firm SemiAnalysis says PCB midplane problems led to the delay [Updated]* (6. Juli 2026) | https://www.tomshardware.com/pc-components/gpus/nvidias-kyber-rack-for-rubin-ultra-slips-to-2028 | übernommen (Sammelbeleg) |
+| 3 | I | The Next Web, *Nvidia's Kyber AI rack is delayed to 2028* (6. Juli 2026) | https://thenextweb.com/news/nvidia-kyber-rack-delay-2028 | übernommen (Sammelbeleg) |
+| 4 | I | Seeking Alpha, *Nvidia next-gen 'Kyber' AI rack delayed to 2028 on manufacturing snags: report* (6. Juli 2026) | https://seekingalpha.com/news/4611538-nvidia-next-gen-kyber-ai-rack-delayed-to-2028-on-manufacturing-snags | übernommen (Sammelbeleg) |
+| 5 | A/E | OECD, *OECD Employment Outlook 2026 — Country Note Germany* (7. Juli 2026, 6 Seiten) | https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en.html | übernommen |
+| 6 | A/E | OECD, *Non-compete and related agreements: Germany* (7. Juli 2026, 8 Seiten) | https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en.html | übernommen |
+| 7 | F | GitLab, *GitLab cuts 14% of staff as it scales its platform to serve AI workloads* (TechCrunch, 3. Juni 2026) | https://techcrunch.com/2026/06/03/gitlab-cuts-14-of-staff-as-it-scales-its-platform-to-serve-ai-workloads/ | verworfen (außerhalb 7-Tage-Fenster; für spätere Vertiefung des Layoff-Blocks in § 1.1 markiert) |
+| 8 | D | Elizabeth Warren, *It's Time to Tax Artificial Intelligence* (Time, 27. Mai 2026) | https://time.com/article/2026/05/27/why-we-need-to-tax-ai/ | verworfen (außerhalb 7-Tage-Fenster; im Folgelauf zu prüfen, sobald konkreter Gesetzentwurf vorliegt) |
+| 9 | B | Bundesrat, *1067. Sitzung — Ergebnis der KI-MIG-Beratung am 10. Juli 2026* | https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1067/1067-node.html | verworfen (zukünftiges Ereignis; für Folgelauf markiert) |
+| 10 | B | Rat der EU, *Digital Omnibus on AI — Amtsblatt-Veröffentlichung* | (noch nicht veröffentlicht) | verworfen (OJ-Nummer und Datum offen; für Folgelauf markiert) |
+| 11 | J | Tesla / Wccftech, *Tesla Optimus V3 mass production July/August 2026* | https://electrek.co/2026/04/22/tesla-optimus-production-fremont-model-sx-line/ | verworfen (Musk-Prognose ohne belastbare Auslieferungsdaten; für späteren Lauf markiert) |
+| 12 | G | G-BA / gematik / BfArM Juli 2026 | https://www.g-ba.de/ | verworfen (zehntes Mal in Folge ohne KI-spezifische Beschlüsse im 7-Tage-Fenster) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 8.2 | Ergänzung | Neuer Passus im Anschluss an den Vera-Rubin-Absatz: SemiAnalysis-Bericht vom 6. Juli 2026 zur Verzögerung des NVIDIA-Kyber-Rack-Systems (NVL144) für Rubin-Ultra-Chips um über zwölf Monate auf 2028 wegen PCB-Midplane-Fertigungsproblemen (78 Lagen, Toleranzen unter 25 μm, 448-Gb/s-Signalisierung); gestrichener Notfall-Doppel-Rack-Plan nach Cloud-Kunden-Ablehnung; NVIDIA hat vorerst „no proven solution" für Rubin-Ultra-Scale-Up; Öffnung am oberen Marktende für AMD (MI455X, CDNA-5, 2 nm, 432 GB, 40 PFLOPS NVFP4) und Google TPUs; laufende Oberon-/Rubin-Racks unverändert für Herbst-Auslieferung an AWS/Azure/Google Cloud. Passus schärft die Rohstoff-Analogie und relativiert die Extremposition einer NVIDIA-only-Konzentration. | 1–4 |
+| 2 | § 3.5 | Ergänzung | Ergänzungssatz-Block am Ende des OECD-Absatzes: OECD-Länderdatei zu Non-Compete-Klauseln vom 7. Juli 2026 quantifiziert die Ausbreitung präziser (30 % der Beschäftigten im 15-Länder-Mittel durch Nach-Vertragsbindungen gebunden); 6-seitige Country Note Germany desselben Datums bezieht die aggregierte OECD-Diagnose auf deutsche Beschäftigungs-, Einkommens- und Demografiestruktur; die deutschlandbezogene Präzisierung untermauert die ordnungspolitische Begründung für eine Verbreiterung der Sozialstaats-Finanzierungsbasis (§ 5.1). | 5, 6 |
+| 3 | § 11.3 | Ergänzung | Zwei neue Literatureinträge: OECD Employment Outlook 2026 — Country Note Germany (6 Seiten) und OECD Non-compete and related agreements: Germany (8 Seiten). | 5, 6 |
+| 4 | § 11.5 | Ergänzung | Neuer Sammelbeleg CNBC / Tom's Hardware / The Next Web / Seeking Alpha (6. Juli 2026) zur Kyber/Rubin-Ultra-Verzögerung inklusive der technischen Kennzahlen (78 Lagen, 25 μm, 448 Gb/s, MI455X 432 GB/40 PFLOPS NVFP4). | 1–4 |
+| 5 | Dokumentende | Aktualisierung | Aktualitätshinweis auf „Schnitt am 8. Juli 2026 — Lauf 001 vom 8. Juli 2026" gesetzt; zwei Lauf-001-Fortschreibungen (Kyber-/Rubin-Ultra-Verzögerung, OECD-Länderdateien Germany) in Auflistungstext aufgenommen. | 1–6 |
+| 6 | README.md | Aktualisierung | Versionssprung 27.0 → 28.0 (Versionszeile, Zitiervorschlag, KI-Offenlegung um Versions-Eintrag 28.0 ergänzt). | — |
+| 7 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 8. Juli 2026 (Lauf 001 vom 8. Juli 2026) — Version 27.0 → Version 28.0" mit Prüftabelle 2.1.1–2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 7 | GitLab-Layoff (3. Juni 2026, ~350 Stellen / 14 %) | F | Außerhalb 7-Tage-Fenster; für spätere Vertiefung des Layoff-Blocks in § 1.1 markiert. |
+| 8 | Warren AI-Steuervorschlag (Time-Op-Ed, 27. Mai 2026) | D | Außerhalb 7-Tage-Fenster; im Folgelauf zu prüfen, sobald konkreter Gesetzentwurf vorliegt. |
+| 9 | Bundesratsergebnis 1067. Sitzung zum KI-MIG (10. Juli 2026) | B | Zukünftiges Ereignis; für Folgelauf markiert. |
+| 10 | Digital-Omnibus-on-AI-Publikation im OJ | B | Amtsblatt-Nummer und Datum noch offen; für Folgelauf markiert. |
+| 11 | Tesla Optimus V3 / humanoide Robotik | J | Musk-Prognose ohne belastbare Auslieferungsdaten; für späteren Lauf markiert. |
+| 12 | G-BA / gematik / BfArM Juli 2026 | G | Zehntes Mal in Folge ohne KI-spezifische Beschlüsse im 7-Tage-Fenster. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument und Literaturverzeichnis: Ja (Vera Rubin, OECD Employment Outlook 2026 Hauptbericht, Sanders SWF, Anthropic Cadences, Digital Omnibus on AI Rat-Beschluss 29. Juni 2026, Microsoft-Layoff-Aggregat 6. Juli 2026 bereits in Vorlauf-Versionen dokumentiert und nicht erneut eingespielt)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block „8. Juli 2026 — Version 27.0 → Version 28.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja (Phase 5)
+- Word erstellt (`build_docx.py`): Ja (Phase 5)
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (28.0 durchgängig)
+- Branch auf main gemerged und gelöscht: Ja (siehe Phase-6-Statuszeilen unten)
+- E-Mail-Benachrichtigung (Phase 5b): Ausgeführt bzw. Fallback (siehe Auffälligkeiten)
+- WhatsApp-Zusammenfassung (Phase 5b): Ausgeführt bzw. Fallback (siehe Auffälligkeiten)
+
+### Auffälligkeiten / offene Punkte
+
+- Cluster G (Gesundheitswesen) zehntes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster. Für den nächsten Lauf gezielter Abruf: G-BA-Sitzungsplan Juli 2026 sowie BfArM-DiGA-Verzeichnis mit KI-Komponente ab 1. Juli 2026 weiterhin auf der Beobachtungsliste.
+- Bundesratsergebnis 1067. Sitzung 10. Juli 2026 zum KI-MIG bleibt offen; für den Folgelauf zur Aufnahme in § 4.4 markiert.
+- Digital-Omnibus-on-AI-Publikation im Amtsblatt der EU steht aus; im Folgelauf zu ergänzen, sobald OJ-Nummer bekannt.
+- GitLab-Layoff (3. Juni 2026): Substanzielle KI-getriebene Restrukturierung eines profitablen SaaS-Anbieters ($264,2 Mio. Q1-Umsatz +23 % YoY, 88 % Bruttomarge; $30–35 Mio. Restrukturierungsaufwand) — für den Folgelauf als Ergänzung des § 1.1-Layoff-Blocks vorzumerken, sofern eine Fensterlockerung diskutiert wird.
+- Warren AI-Steuervorschlag (Time-Op-Ed, 27. Mai 2026): Zweite prominente US-Senatsstimme neben Sanders — im Folgelauf beobachten, ob ein formeller Gesetzentwurf folgt.
+- Kyber/Rubin-Ultra-Delay: Cluster I liefert erstmals ein negatives Signal zur Hyperscaler-Compute-Kadenz; für spätere Läufe die AMD-MI455X- und Google-TPU-Timeline gezielt nachverfolgen.
+- Branch dieses Laufs: `claude/determined-einstein-uaruer` (Fortsetzung des Musters aus vorherigen Läufen).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Versand-Ergebnis in Phase-5b-Zeile oben und Abschlussbericht dokumentiert.
+
+---
+
 ## 2026-07-07 — Lauf 001 — Version 26.0 → Version 27.0
 
 ### Recherchekorridor
