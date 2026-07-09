@@ -7,6 +7,78 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 9. Juli 2026 (Lauf 001 vom 9. Juli 2026) — Version 28.0 → Version 29.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf des Tages, Folgelauf zu Lauf 001 vom 8. Juli 2026. Web-Recherche im Korridor der Cluster A–J am 9. Juli 2026 im Standard-7-Tage-Fenster (2.–9. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (7.–9. Juli 2026). Zwei belegbare Fortschreibungen aus dem 7-Tage-Fenster identifiziert (Cluster I; Cluster F).
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *Google-DeepMind-Talent-Abwanderung und Verschiebung von Gemini 3.5 Pro* (Cluster I): Anfang Juli 2026 wurde in einer Reihe von Fach- und Wirtschaftsmedien (Fortune, BigGo Finance, HackerNoon, Bind AI, The Agent Report) die Verschiebung des für Juni 2026 zugesagten Frontier-Modells *Gemini 3.5 Pro* auf den 17. Juli 2026 konsolidiert. Google DeepMind verwarf die bisherige 2.5-Pro-Basisarchitektur zugunsten eines Vollumbaus; das Kalkül zielt auf Verbesserungen in mathematischem Reasoning, SVG-Generierung und Bildqualität. Alphabet verzeichnete im Zuge der Meldung eine Marktkapitalisierungs­einbuße von rund 225 bis 270 Milliarden US-Dollar. Zeitgleich wechselten binnen einer Woche vier zentrale DeepMind-Forscher zu direkten Wettbewerbern: Noam Shazeer (Transformer-Mitautor, 2024 mit der Character.ai-Übernahme für rund 2,7 Milliarden US-Dollar zu Google zurückgeholt) zu OpenAI; der Nobelpreisträger John Jumper (AlphaFold, Chemie-Nobelpreis 2024), Jonas Adler und Alexander Pritzel zu Anthropic. Quellen: Fortune (23. Juni 2026); BigGo Finance (Anfang Juli 2026); HackerNoon (Anfang Juli 2026); Bind AI (Anfang Juli 2026); The Agent Report (Juli 2026). | § 8.2 (neuer eigenständiger Absatz nach dem Kyber/Rubin-Ultra-Block; verweist auf § 8.3); § 11.5 (neuer Sammelbeleg Fortune / BigGo Finance / HackerNoon / Bind AI / The Agent Report); Aktualitätshinweis am Dokumentende ergänzt; README.md 29.0. | Erste substantielle Talent-Verschiebung zwischen Frontier-Modell-Anbietern im laufenden Zyklus, die zugleich die Marktbewertung des Kernanbieters merklich verschiebt. Die Nachricht (a) ergänzt die Rohstoff-Analogie um die *humane Talent-Bestands­dimension*, (b) liefert ein Volatilitätsargument gegen bestandsorientierte Umverteilungsansätze, die an aktuellen Marktkapitalisierungen einzelner Frontier-Anbieter anknüpfen (Sanders-Fonds), und (c) unterstreicht die transatlantische Zirkulation der Frontier-Talent-Basis mit europäischen Anbietern strukturell unterhalb der US-Kernanbieter. |
+| 2 | *SkillSyncer Layoff-Tracker mit erstmaliger Aggregat-Kausalzuschreibung KI/Automatisierung* (Cluster F, 48-Stunden-Fenster): Der Tracker weist zum Stand 9. Juli 2026 267 Layoff-Ereignisse mit 185.894 betroffenen Beschäftigten aus (rund 978 Stellen pro Tag; SkillSyncer-Gesamtzahl unverändert gegenüber dem 5. Juli 2026). Erstmals im Tracker explizit dokumentiert wird eine Aggregat-Kausalzuschreibung: 150 der 267 Layoff-Ereignisse (56 %) mit rund 156.270 betroffenen Beschäftigten (rund 84 % der Tracker-Gesamtsumme) werden als KI-/Automatisierungs­getrieben klassifiziert. Quelle: SkillSyncer (Stand 9. Juli 2026, https://skillsyncer.com/layoffs-tracker). | § 1.1 (Ergänzungssatz nach dem SkillSyncer-5.-Juli-Stand); § 11.5 (neuer SkillSyncer-Eintrag Stand 9. Juli 2026); Aktualitätshinweis am Dokumentende ergänzt. | Erste im Verlauf der Trackerbeobachtung veröffentlichte KI-Kausalquote auf Ereignis- und Personenebene. Für die Steuerdebatte reduziert diese Aggregat-Kennziffer das in § 9.1 dokumentierte Attributions­problem auf der Aggregat-Ebene teilweise, bleibt aber unterhalb der administrativen Datenqualität einer WARN-AI-Disclosure nach *SB 5* Connecticut. Für die Typ-5-Ersatzabgabe (§ 2.1) ist die Aggregat-Kennziffer nicht als Rechtstatbestand tragfähig, für die Beobachtung von Sektor- und Zeitverläufen aber als robusterer Ersatz für die bisherige Mehrkanal­interpretation nach *Washington Post* (§ 1.1) einsetzbar. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- Roll Call / CPA Practice Advisor „Artificial intelligence becomes ripe target for taxes" (29. Juni 2026) — außerhalb 7-Tage-Fenster; für Folgelauf zur Beobachtung markiert (Casar Token-Steuer, McMorrow, Wyden Wage-Security-Programm, Amodei Zitat).
+- Elizabeth Warren AI-Excise-Tax (Time-Op-Ed, 27. Mai 2026) — außerhalb 7-Tage-Fenster; noch kein formeller Gesetzentwurf; im Folgelauf zu prüfen, sobald Bill-Nummer verfügbar.
+- Bundesratsergebnis 1067. Sitzung zum KI-MIG (10. Juli 2026) — zukünftiges Ereignis; im unmittelbar folgenden Lauf zur Aufnahme in § 4.4 zu prüfen.
+- Digital-Omnibus-on-AI-Publikation im Amtsblatt der Europäischen Union — noch nicht veröffentlicht; im Folgelauf zu ergänzen, sobald OJ-Nummer bekannt.
+- Draft Commission Guidelines on Classification of High-Risk AI Systems (19. Mai 2026, Feedback-Frist 23. Juli 2026) — außerhalb 7-Tage-Fenster; im Folgelauf nach Fristende Aufnahme in § 4.4 prüfen.
+- PwC 2026 Global AI Jobs Barometer (15. Juni 2026) — weiterhin außerhalb des 7-Tage-Fensters; unverändert für spätere Fensterlockerungsdiskussion markiert.
+- Tesla Optimus V3 Massenproduktion — Musk-Prognose ohne belastbare Auslieferungsdaten; unverändert für späteren Lauf markiert.
+- AMD Helios / MI455X Keynote 23. Juli 2026 — zukünftiges Ereignis; für Folgelauf nach Keynote-Datum zur Aufnahme in § 8.2 markiert.
+- Cluster G (Gesundheitswesen) — elftes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitt 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Der Gemini-3.5-Pro/DeepMind-Talent-Passus in § 8.2 verweist kontrolliert auf § 8.3 (Teilhabefrage). Der SkillSyncer-56 %-Zusatz in § 1.1 verweist auf § 9.1 (Attributionsproblem) und § 2.1 (Typ 5). Alle Ziele existieren. |
+| 2.1.4 Roter Faden | OK | Der § 8.2-Absatz erweitert die Rohstoff-Analogie sauber um die Talent-Bestands­dimension, ohne die argumentative Linie zu brechen; der § 1.1-Zusatz fügt sich in die bestehende SkillSyncer-Reihe ein und relativiert (nicht: ersetzt) die Kausalattributionsproblematik. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; Fettungen einheitlich; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Talent-Wechsel Shazeer/Jumper/Adler/Pritzel konsistent über Fortune (23. Juni 2026), Search Engine Journal, Digital Today, Nokia PowerUser und Common Dreams-Reihe. Marktkap-Einbuße Alphabet 225–270 Mrd. USD über HackerNoon, Fortune und Eastern Herald konsistent. Gemini-3.5-Pro-Verschiebung auf 17. Juli 2026 über BigGo Finance, Coursiv, Cryptobriefing, geeky-gadgets, Neuriflux und The Agent Report konsistent. SkillSyncer-Stand 267 Ereignisse / 185.894 Personen / 150 Ereignisse als KI-getrieben / 156.270 Personen über direkte WebFetch-Ausgabe des Trackers am 9. Juli 2026 belegt. |
+| 2.2.2 Redundanzprüfung | OK | Neuer § 8.2-Absatz ergänzt bestehende Kyber-/Rubin-Ultra-Diskussion um eine eigenständige (nicht doppelnde) Talent-Perspektive; SkillSyncer-Zusatz in § 1.1 präzisiert die bestehende Reihe um eine neue Aggregat-Kennziffer. |
+| 2.2.3 Argumentation | OK | Talent-Wechsel als Faktum berichtet; DeepMind-Investmenthintergrund (2,7 Mrd. USD Character.ai-Übernahme 2024) im Konjunktiv „zurückgeholt"; Marktkap-Rückgang als Spanne 225 bis 270 Mrd. USD; Vollumbau-Behauptung durch mehrere Sekundärquellen gestützt; SkillSyncer-Klassifizierung explizit als „vom Tracker klassifiziert" statt als Wirklichkeitsaussage referiert. |
+| 2.2.4 Ausgewogenheit | OK | § 8.2-Absatz stellt sowohl die Konzentrations-Linie (transatlantische Talent-Zirkulation) als auch die Volatilitäts- und Diversifizierungsdimensionen dar; keine monokausale Zuschreibung. § 1.1-Zusatz benennt Grenzen der Tracker-Kausalzuschreibung im Vergleich zu WARN-AI-Disclosure. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | Fachbegriffe („Frontier-Modell", „Basisarchitektur", „Aggregat-Kausalzuschreibung") kontextuell erklärt oder aus vorigen Abschnitten übernommen. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | § 11.5 um zwei neue Einträge ergänzt (Fortune / BigGo Finance / HackerNoon / Bind AI / The Agent Report als Sammelbeleg für DeepMind-Talent-Exodus und Gemini-3.5-Pro-Verschiebung; SkillSyncer Stand 9. Juli 2026). Jede Fließtextreferenz hat einen Literatur-Eintrag. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil; vollständige URLs; Datumsangaben („23. Juni 2026", „Anfang Juli 2026", „9. Juli 2026") einheitlich. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Fortune und Nokia PowerUser direkt erreichbar; BigGo Finance und HackerNoon über Suchsnippets bestätigt; SkillSyncer-Tracker über direkten WebFetch am 9. Juli 2026 mit Kennzahlen 267 / 185.894 / 150 / 156.270 belegt. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 9. Juli 2026: skillsyncer.com/layoffs-tracker (WebFetch OK, Kennzahlen 267 / 185.894 / 56 % / 156.270 bestätigt); fortune.com/2026/06/23/google-deepmind-ai-researcher-departures... (Sekundär-Bestätigung über Search Engine Journal, Digital Today, Nokia PowerUser); finance.biggo.com/news/6f0c6bb2-... (WebSearch-Snippet mit Titel und Kernbotschaft bestätigt); hackernoon.com/google-delays-gemini-35-pro-to-july-17-... (Titel und Kernbotschaft konsistent); the-agent-report.com/2026/07/google-gemini-3-5-pro-delayed-july-2026 (WebSearch-Snippet mit 225-Mrd.-USD-Marktkap-Angabe bestätigt). |
+| 2.4.5 Zitatgenauigkeit | OK | 225 bis 270 Milliarden US-Dollar Marktkap-Einbuße Alphabet als Spanne referiert (Untergrenze BigGo Finance/HackerNoon; Obergrenze Eastern Herald); Character.ai-Übernahmepreis 2,7 Mrd. USD über Fortune und Eastern Herald konsistent; SkillSyncer-Kennzahlen 267 / 185.894 / 56 % / 156.270 direkt aus Tracker-WebFetch. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 29.0 durchgängig: Dokumentkopf (KI-Ökonomie.md), `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung mit Versions-Eintrag 29.0) und dieser Protokoll-Block. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltlichen Ergänzungen hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine korrigierenden Bereinigungen erforderlich; Ergänzungen sind additive Fortschreibungen. | Ja |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen (2.1.3 Querverweise, 2.1.4 Roter Faden, 2.4.1 Vollständigkeit, 2.5 Versionskonsistenz): OK.
+- Automatisierte Skripte: n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine Fehler festgestellt)
+- Neue Version: 29.0
+- PDF erstellt: Ja (Phase 5 des Daily-Update-Prompts)
+- Word erstellt: Ja (Phase 5 des Daily-Update-Prompts)
+
+---
+
 ## Validierung 8. Juli 2026 (Lauf 001 vom 8. Juli 2026) — Version 27.0 → Version 28.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf des Tages, Folgelauf zu Lauf 001 vom 7. Juli 2026. Web-Recherche im Korridor der Cluster A–J am 8. Juli 2026 im Standard-7-Tage-Fenster (1.–8. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (6.–8. Juli 2026). Zwei belegbare Fortschreibungen aus den Fenstern identifiziert (Cluster I; Cluster A/E).
