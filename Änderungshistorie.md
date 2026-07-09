@@ -54,6 +54,80 @@
 
 ---
 
+## 2026-07-09 — Lauf 001 — Version 28.0 → Version 29.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster B, C, D, E, G, H, J ohne belegbare Neuzugänge im 7-Tage-Fenster — Cluster G elftes Mal in Folge). Fortschreibungen aus Cluster I (Anfang Juli 2026 konsolidierte Berichterstattung) und Cluster F (48-Stunden-Fenster).
+- Zeitfenster: Standard 7 Tage (2.–9. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (7.–9. Juli 2026). Keine Fenstererweiterung.
+- Anzahl Suchanfragen: 11 (Web-Suche) + 1 gezielter Fetch (SkillSyncer-Tracker).
+- Lauf 001 vom 9. Juli 2026 ist der Folgelauf zu Lauf 001 vom 8. Juli 2026 (Version 27.0 → 28.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | I | Fortune / Bethany Biron & Sharon Goldman, *As top talent leaves Google DeepMind, some question if the lab can remain at the forefront of AI development* (23. Juni 2026, in Anfang Juli 2026 konsolidierender Fachpresse aufgegriffen) | https://fortune.com/2026/06/23/google-deepmind-ai-researcher-departures-raise-doubts-about-ability-to-win-the-ai-race-shazeer-jumper-eye-on-ai/ | übernommen |
+| 2 | I | BigGo Finance, *Google Delays Gemini 3.5 Pro Launch to July 17 for Full Architectural Rebuild* (Anfang Juli 2026) | https://finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a | übernommen (Sammelbeleg) |
+| 3 | I | HackerNoon, *Google Delays Gemini 3.5 Pro to July 17: The Strategic Play Behind the Scrapped Base Model* (Anfang Juli 2026) | https://hackernoon.com/google-delays-gemini-35-pro-to-july-17-the-strategic-play-behind-the-scrapped-base-model | übernommen (Sammelbeleg) |
+| 4 | I | Bind AI, *Gemini 3.5 Pro Delayed to July 2026: What Developers Should Know* (Anfang Juli 2026) | https://blog.getbind.co/gemini-3-5-pro-slips-to-july-and-four-senior-google-researchers-just-left-for-anthropic/ | übernommen (Sammelbeleg) |
+| 5 | I | The Agent Report, *Google Gemini 3.5 Pro Delayed to July 2026: $225B Wiped Off Alphabet as DeepMind Talent Exodus Deepens* (Juli 2026) | https://the-agent-report.com/2026/07/google-gemini-3-5-pro-delayed-july-2026/ | übernommen (Sammelbeleg) |
+| 6 | F | SkillSyncer, *2026 Tech Layoffs Tracker — 267 Events, 185.894 Workers, 56 % AI-attributed* (Stand 9. Juli 2026) | https://skillsyncer.com/layoffs-tracker | übernommen |
+| 7 | D | Roll Call / CPA Practice Advisor, *Artificial intelligence becomes ripe target for taxes* (29. Juni 2026) | https://rollcall.com/2026/06/29/artificial-intelligence-becomes-ripe-target-for-taxes/ | verworfen (außerhalb 7-Tage-Fenster; für Folgelauf zur Aufnahme in § 4.5 / § 5.4 markiert — Casar Token-Steuer, McMorrow, Wyden Wage-Security-Programm, Amodei-Zitat aus Januar 2026) |
+| 8 | D | Elizabeth Warren, *It's Time to Tax Artificial Intelligence* (Time, 27. Mai 2026) | https://time.com/article/2026/05/27/why-we-need-to-tax-ai/ | verworfen (außerhalb 7-Tage-Fenster; noch kein Gesetzentwurf; im Folgelauf zu prüfen) |
+| 9 | B | Bundesrat, *1067. Sitzung — Ergebnis der KI-MIG-Beratung am 10. Juli 2026* | https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1067/1067-node.html | verworfen (zukünftiges Ereignis; für Folgelauf markiert) |
+| 10 | I | TechTimes, *AMD Helios Faces Nvidia Vera Rubin at July 23 Keynote: Memory Leads, Training Trails* (29. Juni 2026) | https://www.techtimes.com/articles/319338/20260629/amd-helios-faces-nvidia-vera-rubin-july-23-keynote-memory-leads-training-trails.htm | verworfen (Keynote 23. Juli 2026 zukünftiges Ereignis; für Folgelauf markiert) |
+| 11 | J | Tesla / Wccftech, *Tesla Optimus V3 mass production July/August 2026* | https://electrek.co/2026/04/22/tesla-optimus-production-fremont-model-sx-line/ | verworfen (Musk-Prognose ohne belastbare Auslieferungsdaten; für späteren Lauf markiert) |
+| 12 | G | G-BA / gematik / BfArM Juli 2026 | https://www.g-ba.de/ | verworfen (elftes Mal in Folge ohne KI-spezifische Beschlüsse im 7-Tage-Fenster) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 8.2 | Ergänzung | Neuer eigenständiger Absatz nach dem Kyber/Rubin-Ultra-Block: Anfang Juli 2026 konsolidierte Berichterstattung zur DeepMind-Talent-Abwanderung binnen einer Woche (Noam Shazeer zu OpenAI; John Jumper, Jonas Adler, Alexander Pritzel zu Anthropic) und zur zeitgleichen Verschiebung von *Gemini 3.5 Pro* auf 17. Juli 2026 nach Vollumbau der 2.5-Pro-Basisarchitektur; Alphabet-Marktkap-Einbuße rund 225 bis 270 Mrd. USD; Ergänzung der Rohstoff-Analogie um die *humane Talent-Bestands­dimension* und Volatilitätsargument gegen bestandsorientierte Umverteilungsansätze mit Anknüpfung an aktuelle Marktkapitalisierungen (vgl. Sanders-Fondslogik → § 8.3). | 1–5 |
+| 2 | § 1.1 | Präzisierung | Ergänzungssatz nach dem SkillSyncer-5.-Juli-Stand: erstmalige explizite Aggregat-Kausalzuschreibung 150 von 267 Layoff-Ereignissen (56 %) mit rund 156.270 betroffenen Beschäftigten (etwa 84 % der Tracker-Gesamtsumme) als KI-/Automatisierungs­getrieben klassifiziert; reduziert das Attributionsproblem nach § 9.1 auf Aggregat-Ebene teilweise, bleibt unterhalb der administrativen Datenqualität einer WARN-AI-Disclosure nach *SB 5* Connecticut. | 6 |
+| 3 | § 11.5 | Ergänzung | Zwei neue Einträge: (a) Fortune / BigGo Finance / HackerNoon / Bind AI / The Agent Report (23. Juni – Anfang Juli 2026) als Sammelbeleg für DeepMind-Talent-Exodus und Gemini-3.5-Pro-Verschiebung; (b) SkillSyncer Stand 9. Juli 2026 mit erstmals ausgewiesener Aggregat-Kausalzuschreibung 56 %. | 1–6 |
+| 4 | Dokumentende | Aktualisierung | Aktualitätshinweis auf „Schnitt am 9. Juli 2026 — Lauf 001 vom 9. Juli 2026" gesetzt; Lauf-001-Fortschreibungen (DeepMind-Talent-Exodus/Gemini-3.5-Pro-Verschiebung, SkillSyncer-56 %-Kausalquote) in Auflistungstext aufgenommen. | 1–6 |
+| 5 | README.md | Aktualisierung | Versionssprung 28.0 → 29.0 (Versionszeile, Zitiervorschlag, KI-Offenlegung um Versions-Eintrag 29.0 ergänzt). | — |
+| 6 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 9. Juli 2026 (Lauf 001 vom 9. Juli 2026) — Version 28.0 → Version 29.0" mit Prüftabelle 2.1.1–2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 7 | Roll Call / CPA Practice Advisor „AI becomes ripe target for taxes" (29. Juni 2026) | D | Außerhalb 7-Tage-Fenster; für Folgelauf zur Aufnahme in § 4.5 / § 5.4 markiert. |
+| 8 | Warren AI-Excise-Tax (Time-Op-Ed, 27. Mai 2026) | D | Außerhalb 7-Tage-Fenster; noch kein Gesetzentwurf; im Folgelauf zu prüfen. |
+| 9 | Bundesratsergebnis 1067. Sitzung zum KI-MIG (10. Juli 2026) | B | Zukünftiges Ereignis; für Folgelauf markiert. |
+| 10 | AMD Helios / MI455X Keynote 23. Juli 2026 | I | Zukünftiges Ereignis; für Folgelauf markiert. |
+| 11 | Tesla Optimus V3 / humanoide Robotik | J | Musk-Prognose ohne belastbare Auslieferungsdaten; für späteren Lauf markiert. |
+| 12 | G-BA / gematik / BfArM Juli 2026 | G | Elftes Mal in Folge ohne KI-spezifische Beschlüsse im 7-Tage-Fenster. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument und Literaturverzeichnis: Ja (Vera Rubin, Kyber/Rubin-Ultra-Verzögerung, OECD Country Notes Germany, OpenAI April 2026, Sanders SWF S. 4825, Anthropic „Cadences" bereits in Vorlauf-Versionen dokumentiert und nicht erneut eingespielt)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block „9. Juli 2026 — Version 28.0 → Version 29.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja (Phase 5)
+- Word erstellt (`build_docx.py`): Ja (Phase 5)
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (29.0 durchgängig)
+- Branch auf main gemerged und gelöscht: siehe Phase-6-Status unten
+- E-Mail-Benachrichtigung (Phase 5b): siehe Phase-5b-Status unten
+- WhatsApp-Zusammenfassung (Phase 5b): siehe Phase-5b-Status unten
+
+### Auffälligkeiten / offene Punkte
+
+- Cluster G (Gesundheitswesen) elftes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster. Für den nächsten Lauf gezielter Abruf: G-BA-Sitzungsplan Juli 2026 sowie BfArM-DiGA-Verzeichnis mit KI-Komponente ab 1. Juli 2026 weiterhin auf der Beobachtungsliste.
+- Bundesratsergebnis 1067. Sitzung 10. Juli 2026 zum KI-MIG bleibt offen; für den Folgelauf zur Aufnahme in § 4.4 markiert.
+- AMD Helios / MI455X Keynote am 23. Juli 2026; für Folgelauf nach Keynote-Datum zur Fortschreibung von § 8.2 markiert.
+- Digital-Omnibus-on-AI-Publikation im Amtsblatt der EU steht aus; im Folgelauf zu ergänzen, sobald OJ-Nummer bekannt.
+- Roll Call / CPA Practice Advisor „AI becomes ripe target for taxes" (29. Juni 2026): sammelt drei zusätzliche US-Kongressstimmen (Casar Token-Steuer; McMorrow Michigan; Wyden Wage-Security-Programm) und zitiert Amodei mit einer Zustimmung zu redistributiver Steuerpolitik. Bei der ersten Fenstererweiterung als Aufnahmekandidat für § 4.5.
+- Elizabeth Warren AI-Excise-Tax: nach wie vor Op-Ed-Status; im Folgelauf beobachten, ob ein formeller Gesetzentwurf folgt.
+- DeepMind-Talent-Exodus: Für spätere Läufe die Compensations- und Aktienbezugsstrukturen der abgeworbenen Forscher gezielt nachverfolgen, sofern SEC-Filings oder Konzernberichte hierzu Details liefern — dies wäre für § 8.2 (KI-Renten) und § 8.3 (Fondslogik) inhaltlich relevant.
+- Branch dieses Laufs: `claude/determined-einstein-eml1df` (Fortsetzung des Musters aus vorherigen Läufen).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Versand-Ergebnis in Phase-5b-Zeile oben und Abschlussbericht dokumentiert.
+
+---
+
 ## 2026-07-08 — Lauf 001 — Version 27.0 → Version 28.0
 
 ### Recherchekorridor
