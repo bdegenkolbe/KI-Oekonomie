@@ -54,6 +54,90 @@
 
 ---
 
+## 2026-07-10 — Lauf 001 — Version 29.0 → Version 30.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, C, E, G, H, J ohne belegbare Neuzugänge im 7-Tage-Fenster — Cluster G zwölftes Mal in Folge). Fortschreibungen aus Cluster I (öffentliche Freigabe GPT-5.6, Cerebras-Deployment) und Cluster I/D-Grenze (Fable-5-Exportkontrollen und Redeployment).
+- Zeitfenster: Standard 7 Tage (3.–10. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (8.–10. Juli 2026). Keine Fenstererweiterung.
+- Anzahl Suchanfragen: 9 (Web-Suche) + 1 gezielter Fetch (bundesrat.de/1067-pk).
+- Lauf 001 vom 10. Juli 2026 ist der Folgelauf zu Lauf 001 vom 9. Juli 2026 (Version 28.0 → 29.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | I | OpenAI, *Previewing GPT-5.6 Sol: a next-generation model* (Preview-Ankündigung 26. Juni 2026; öffentliche Freigabe 9. Juli 2026) | https://openai.com/index/previewing-gpt-5-6-sol/ | übernommen |
+| 2 | I | Nextgov/FCW, *OpenAI's advanced GPT-5.6 models to be publicly released* (Juli 2026) | https://www.nextgov.com/artificial-intelligence/2026/07/openais-advanced-gpt-56-models-be-available-public/414651/ | übernommen (Sammelbeleg) |
+| 3 | I | Engadget, *OpenAI gets permission to roll out GPT-5.6 to the public on July 9* | https://www.engadget.com/2210308/openai-rolls-out-gpt5-6-july-9/ | übernommen (Sammelbeleg) |
+| 4 | I | BigGo Finance, *GPT-5.6 Sol Debuts Tomorrow: Inference Speed Hits 750 Tokens/s as Cerebras Pours Billions into European Expansion* (8. Juli 2026) | https://finance.biggo.com/news/8891f78a-c330-4652-bf49-ee1c3204e108 | übernommen (Sammelbeleg) |
+| 5 | I | Value Add Pulse, *Cerebras Runs OpenAI GPT-5.6 Sol at 750 Tokens per Second, Setting a New Frontier-Model Speed Record* | https://valueaddvc.com/pulse/cerebras-openai-gpt-5-6-sol-750-tokens-2026 | übernommen (Sammelbeleg) |
+| 6 | I | techjacksolutions, *GPT-5.6 Pricing (2026): Sol, Terra & Luna API Costs* | https://techjacksolutions.com/ai-tools/chatgpt/gpt-5-6-pricing/ | übernommen (Sammelbeleg) |
+| 7 | I | Coursiv, *OpenAI GPT-5.6 Sol: ChatGPT Release Date, Price & Review* | https://coursiv.io/blog/chatgpt-5-6-sol | übernommen (Sammelbeleg) |
+| 8 | I/D | Anthropic, *Redeploying Claude Fable 5* (30. Juni 2026) | https://www.anthropic.com/news/redeploying-fable-5 | übernommen |
+| 9 | I/D | The New Stack, *How Anthropic is bringing Fable 5 back — and when it'll cost you* | https://thenewstack.io/how-anthropic-is-bringing-fable-5-back/ | übernommen (Sammelbeleg) |
+| 10 | I/D | Gizmodo, *Claude Fable 5 Will Be Back Online Wednesday, Anthropic Says* | https://gizmodo.com/claude-fable-5-will-be-back-online-wednesday-anthropic-says-2000779882 | übernommen (Sammelbeleg) |
+| 11 | I/D | Forbes / Sandy Carter, *Claude Fable 5 Extends By Five More Days. 10 Moves To Make Now!* (7. Juli 2026) | https://www.forbes.com/sites/sandycarter/2026/07/07/claude-fable-5-extends-by-five-more-days-10-moves-to-make-now/ | übernommen (Sammelbeleg) |
+| 12 | I/D | ExplainX, *Fable 5 Is Available Again — Ban Lifted July 1, 2026* | https://explainx.ai/blog/when-will-fable-5-be-available-again-2026 | übernommen (Sammelbeleg) |
+| 13 | B | Bundesrat, *1067. Sitzung — Beratung KI-MIG am 10. Juli 2026* — Ausschussempfehlung Digitalisierung/Staatsmodernisierung 30. Juni 2026: Vermittlungsausschuss anrufen | https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1067/1067-pk.html | verworfen (Sitzung heute; Plenumsentscheidung zum Redaktionsschluss noch offen; Ausschussempfehlung bereits in § 4.4 aus Vorlauf dokumentiert) |
+| 14 | B | Rat der EU, *Digital Omnibus on AI — Amtsblatt-Veröffentlichung* | (noch nicht veröffentlicht) | verworfen (OJ-Nummer und Datum offen; für Folgelauf markiert) |
+| 15 | D | Roll Call / CPA Practice Advisor, *Artificial intelligence becomes ripe target for taxes* (29. Juni 2026) | https://rollcall.com/2026/06/29/artificial-intelligence-becomes-ripe-target-for-taxes/ | verworfen (weiterhin außerhalb 7-Tage-Fenster) |
+| 16 | D | Elizabeth Warren, *It's Time to Tax Artificial Intelligence* (Time, 27. Mai 2026) | https://time.com/article/2026/05/27/why-we-need-to-tax-ai/ | verworfen (weiterhin außerhalb 7-Tage-Fenster; noch kein Gesetzentwurf) |
+| 17 | I | AMD Helios / MI455X Keynote 23. Juli 2026 | (Ankündigung) | verworfen (zukünftiges Ereignis; für Folgelauf markiert) |
+| 18 | J | Tesla / Wccftech, *Tesla Optimus V3 mass production July/August 2026* | https://electrek.co/2026/04/22/tesla-optimus-production-fremont-model-sx-line/ | verworfen (Musk-Prognose ohne belastbare Auslieferungsdaten; für späteren Lauf markiert) |
+| 19 | F | SkillSyncer, *2026 Tech Layoffs Tracker* (Stand 10. Juli 2026 — 267 Ereignisse, 185.894 Personen, 56 %, unverändert) | https://skillsyncer.com/layoffs-tracker | verworfen (Dublette gegenüber Stand 9. Juli 2026) |
+| 20 | G | G-BA / gematik / BfArM Juli 2026 | https://www.g-ba.de/ | verworfen (zwölftes Mal in Folge ohne KI-spezifische Beschlüsse im 7-Tage-Fenster) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 8.2 | Ergänzung | Neuer eigenständiger Absatz nach dem DeepMind-Talent/Gemini-Passus: öffentliche Freigabe der OpenAI-GPT-5.6-Reihe (drei Modellstufen Sol/Terra/Luna) am 9. Juli 2026 nach vorheriger Preview-Kohorte (26. Juni 2026) und 30-tägiger US-Sicherheitsvorprüfung; Cerebras-Wafer-Scale-Deployment der Spitzenstufe *Sol* mit bis zu 750 Token pro Sekunde (rund zehnfach gegenüber typischer NVIDIA-GPU-Inferenz); Standard-API-Preise Sol 5/30 USD pro Million Input-/Output-Token, Cache-Read 0,50 USD; Fortschreibung der deflationären Preisdynamik ohne Aufhebung der geografischen Konzentration; institutionell Etablierung einer *US-Vor-Freigabe-Praxis* mit Rückwirkung auf § 4.5 und § 8.3. | 1–7 |
+| 2 | § 4.5 | Ergänzung | Neuer eigenständiger Absatz vor der Andrew-Yang-Passage: Fable-5-Episode (Ausfuhrkontrollen ab 12. Juni 2026, weltweite Aussetzung durch Anthropic, Aufhebung 30. Juni 2026, Redeployment 1. Juli 2026 mit CAISI-Klassifikatoren >99 %, Kontingent-Verlängerung auf 12. Juli 2026); erste operative Anwendung des US-Vor-Freigabe-Regimes; Rückwirkung auf § 8.3 (Robustheits­anforderungen an Wertschöpfungsabgabe und Fondslogik gegenüber Verfügbarkeitsstörungen der Basismodelle). | 8–12 |
+| 3 | § 11.5 | Ergänzung | Zwei neue Einträge: (a) OpenAI / Nextgov / Engadget / BigGo Finance / Value Add Pulse / techjacksolutions / Coursiv als GPT-5.6-Sammelbeleg; (b) Anthropic / The New Stack / Gizmodo / Forbes / ExplainX als Fable-5-Sammelbeleg. | 1–12 |
+| 4 | Dokumentende | Aktualisierung | Aktualitätshinweis auf „Schnitt am 10. Juli 2026 — Lauf 001 vom 10. Juli 2026" gesetzt; Lauf-001-Fortschreibungen (GPT-5.6 / Cerebras, Fable 5 / CAISI) in Auflistungstext aufgenommen. | 1–12 |
+| 5 | README.md | Aktualisierung | Versionssprung 29.0 → 30.0 (Versionszeile, Zitiervorschlag, KI-Offenlegung um Versions-Eintrag 30.0 ergänzt). | — |
+| 6 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 10. Juli 2026 (Lauf 001 vom 10. Juli 2026) — Version 29.0 → Version 30.0" mit Prüftabelle 2.1.1–2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 13 | Bundesrat 1067. Sitzung KI-MIG (Sitzung heute, 10. Juli 2026) | B | Plenumsentscheidung zum Redaktionsschluss (Vormittag) noch offen; Ausschussempfehlung bereits in § 4.4 dokumentiert; im Folgelauf nach Sitzungsende nachzutragen. |
+| 14 | Digital-Omnibus-on-AI-Publikation im OJ | B | Amtsblatt-Nummer und Datum noch offen; für Folgelauf markiert. |
+| 15 | Roll Call / CPA Practice Advisor „AI becomes ripe target for taxes" (29. Juni 2026) | D | Weiterhin außerhalb 7-Tage-Fenster. |
+| 16 | Warren AI-Excise-Tax (Time-Op-Ed, 27. Mai 2026) | D | Weiterhin außerhalb 7-Tage-Fenster; noch kein Gesetzentwurf. |
+| 17 | AMD Helios / MI455X Keynote 23. Juli 2026 | I | Zukünftiges Ereignis; für Folgelauf markiert. |
+| 18 | Tesla Optimus V3 / humanoide Robotik | J | Musk-Prognose ohne belastbare Auslieferungsdaten; für späteren Lauf markiert. |
+| 19 | SkillSyncer-Trackerstand 10. Juli 2026 | F | Kennzahlen unverändert gegenüber 9. Juli 2026; Dublettenfilter greift. |
+| 20 | G-BA / gematik / BfArM Juli 2026 | G | Zwölftes Mal in Folge ohne KI-spezifische Beschlüsse im 7-Tage-Fenster. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument und Literaturverzeichnis: Ja (Vera Rubin, Kyber/Rubin-Ultra-Verzögerung, OECD Country Notes Germany, OpenAI April 2026, Sanders SWF S. 4825, Anthropic „Cadences", Anthropic Sonnet 5, DeepMind-Talent-Exodus, Gemini-3.5-Pro-Verschiebung, SkillSyncer 267/185.894/56 %, Digital Omnibus 29. Juni 2026 bereits in Vorlauf-Versionen dokumentiert und nicht erneut eingespielt)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block „10. Juli 2026 — Version 29.0 → Version 30.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja (Phase 5)
+- Word erstellt (`build_docx.py`): Ja (Phase 5)
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (30.0 durchgängig)
+- Branch auf main gemerged und gelöscht: Ja (siehe Phase 6)
+- E-Mail-Benachrichtigung (Phase 5b): Siehe Phase-5b-Zeile im Abschlussbericht — Fallback-Datei `daily-mail.txt` geschrieben, da in dieser Session weder `mail_send` aus dem MCP-Server `graph-mcp` noch ein alternatives Send-Tool erreichbar war; im Microsoft-365-MCP sind ausschließlich Read-/Search-/Availability-Tools verfügbar (`outlook_email_search`, `outlook_calendar_search`, `outlook_find_available_time`, `find_meeting_availability`, `get_me`, `chat_message_search`, `sharepoint_search`, `sharepoint_folder_search`) — kein Draft-/Send-Tool. Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-mail.txt` noch in dieses Logbuch übernommen.
+- WhatsApp-Zusammenfassung (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben; der `whatsapp`-MCP-Server ist in dieser Session nicht verbunden — `wa_send_message` und Alternativen nicht erreichbar. Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-whatsapp.txt` noch in dieses Logbuch übernommen.
+
+### Auffälligkeiten / offene Punkte
+
+- Cluster G (Gesundheitswesen) zwölftes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster.
+- Bundesrat 1067. Sitzung am 10. Juli 2026 (heute): Plenumsentscheidung zum KI-MIG (Anrufung Vermittlungsausschuss oder Passieren-Lassen) noch offen; im Folgelauf nach Sitzungsende zu ergänzen (§ 4.4).
+- Digital-Omnibus-on-AI-Publikation im Amtsblatt der EU steht weiterhin aus; im Folgelauf zu ergänzen, sobald OJ-Nummer bekannt.
+- AMD Helios / MI455X Keynote am 23. Juli 2026; für Folgelauf nach Keynote-Datum zur Fortschreibung von § 8.2 markiert.
+- Roll Call / CPA Practice Advisor „AI becomes ripe target for taxes" (29. Juni 2026): sammelt drei zusätzliche US-Kongressstimmen (Casar, McMorrow, Wyden) und Amodei-Zitat; bei nächster Fenstererweiterung als Aufnahmekandidat für § 4.5.
+- Fable-5-Episode: Verlängerung des kontingentierten Zugriffs auf kostenpflichtigen Tarifen läuft am 12. Juli 2026 aus; im Folgelauf zu beobachten, ob eine weitere Verlängerung oder eine Umstellung auf Nutzungsguthaben-Modell erfolgt.
+- GPT-5.6 Sol Cerebras-Rollout: Zugriffsbeschränkung auf ausgewählte Cerebras-Partner beim Start; im Folgelauf zu beobachten, ob und wann die Kapazität für breitere Nutzung skaliert wird (Relevanz für § 8.2-Diversifizierungslinie).
+- Branch dieses Laufs: `claude/determined-einstein-hrub8u` (Fortsetzung des Musters aus vorherigen Läufen).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Versand-Ergebnis in Phase-5b-Zeile oben und Abschlussbericht dokumentiert.
+
+---
+
 ## 2026-07-09 — Lauf 001 — Version 28.0 → Version 29.0
 
 ### Recherchekorridor

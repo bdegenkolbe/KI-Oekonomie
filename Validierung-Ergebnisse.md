@@ -7,6 +7,78 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 10. Juli 2026 (Lauf 001 vom 10. Juli 2026) — Version 29.0 → Version 30.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf des Tages, Folgelauf zu Lauf 001 vom 9. Juli 2026. Web-Recherche im Korridor der Cluster A–J am 10. Juli 2026 im Standard-7-Tage-Fenster (3.–10. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (8.–10. Juli 2026). Zwei belegbare Fortschreibungen aus dem 7-Tage-Fenster identifiziert (Cluster I und Cluster D/I-Grenze).
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *Öffentliche Freigabe der OpenAI-GPT-5.6-Reihe und Cerebras-Deployment* (Cluster I): Am 9. Juli 2026 hat OpenAI die zuvor am 26. Juni 2026 zunächst nur einer Preview-Kohorte zugänglich gemachte GPT-5.6-Reihe für die Öffentlichkeit freigegeben; drei Modellstufen *Sol* (Flaggschiff mit Fokus auf Biologie, Chemie, Cybersecurity), *Terra* (rund halber Sol-Satz bei annähernder GPT-5.5-Leistung) und *Luna* (preisgünstigste Stufe). Standard-API-Preise: Sol 5 US-Dollar pro Million Input-Token, 30 US-Dollar pro Million Output-Token; Cache-Read 0,50 US-Dollar. Die Spitzenstufe *Sol* läuft auf Cerebras-Wafer-Scale-Hardware mit bis zu 750 Token pro Sekunde — rund zehnfach gegenüber typischer NVIDIA-GPU-Inferenz produktiver Frontier-Modelle. Die Öffentliche Freigabe war an eine 30-tägige Sicherheitsvor­prüfung durch die US-Bundesregierung nach Maßgabe einer AI-Cybersecurity-Executive-Order (Juni 2026) gebunden. Quellen: OpenAI (Previewing GPT-5.6 Sol); Nextgov (2. Juli 2026); Engadget (Juli 2026); BigGo Finance (8. Juli 2026); Value Add Pulse (Juli 2026); techjacksolutions (Juli 2026); Coursiv (Juli 2026). | § 8.2 (neuer eigenständiger Absatz unmittelbar nach dem DeepMind-Talent/Gemini-Passus; verweist auf § 4.5 und § 8.3); § 11.5 (neuer Sammelbeleg OpenAI / Nextgov / Engadget / BigGo Finance / Value Add Pulse / techjacksolutions / Coursiv); Aktualitätshinweis am Dokumentende ergänzt; README.md 30.0. | Erster großer Frontier-Modell-Release nach dem Fable-5-Redeployment und Vera-Rubin-Auslieferung mit vier neuen strukturellen Punkten: (a) Fortschreibung der deflationären Preisdynamik ohne Aufhebung der geografischen Konzentration; (b) Diversifizierung der Inferenz-Infrastruktur (Cerebras neben NVIDIA); (c) Segmentierung durch drei Modellstufen; (d) US-Vor-Freigabe-Praxis als neue Governance-Ebene neben AI-Act-Konformität. |
+| 2 | *Fable-5-Export-Kontrollen und Redeployment* (Cluster I/D-Grenze): Am 12. Juni 2026 hat die US-Regierung Ausfuhrkontrollen auf *Claude Fable 5* und *Claude Mythos 5* verhängt, nachdem Amazon-Sicherheitsforschende ein Umgehungsverfahren dokumentiert hatten, mit dem sich Fable 5 zur Identifikation und in einem Einzelfall zur exemplarischen Ausnutzung einer Software-Schwachstelle bewegen ließ. Weil die Kontrollen ausländischen Staatsangehörigen den Zugriff untersagten und eine Nationalitätsprüfung in Echtzeit nicht praktikabel war, hat Anthropic beide Modelle weltweit ausgesetzt. Nach Aufhebung der Kontrollen am 30. Juni 2026 wurde *Fable 5* zum 1. Juli 2026 weltweit erneut ausgerollt — mit gemeinsam mit dem US Center for AI Safety Institute (CAISI) trainierten Klassifikatoren (>99 % Blockade der Umgehungsroutine, erhöhte Fehlalarmquote auf regulären Debugging-/Programmier-Prompts); Kontingent-Verlängerung auf kostenpflichtigen Tarifen bis 12. Juli 2026. Quellen: Anthropic (Redeploying Claude Fable 5); The New Stack; Gizmodo; Forbes (7. Juli 2026); ExplainX. | § 4.5 (neuer eigener Abschnitt vor der Andrew-Yang-Passage); § 11.5 (neuer Sammelbeleg Anthropic / The New Stack / Gizmodo / Forbes / ExplainX); Aktualitätshinweis am Dokumentende ergänzt; README.md 30.0. | Erste operative Anwendung des im Juni 2026 durch Executive Order etablierten Vor-Freigabe-Regimes für frontier-nahe KI-Modelle. Illustriert (a) exekutiv-sicherheitspolitische statt steuer-/wettbewerbsrechtliche Vermittlung des Zugriffs auf einen KI-Wertschöpfungsstrang; (b) Rückwirkung auf europäische Nutzerinnen und Nutzer analog zu AI-Act-Konformitätsschritten auf der Angebotsseite; (c) Robustheits­anforderung an Wertschöpfungsabgabe und Fondslogik der Deutschland-These gegen Verfügbarkeits­störungen der Basismodelle (§ 8.3). |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- Bundesratsergebnis 1067. Sitzung zum KI-MIG (Plenarsitzung heute, 10. Juli 2026) — Ausschussempfehlung vom 30. Juni 2026 zur Anrufung des Vermittlungsausschusses bereits in § 4.4 dokumentiert (Fortschreibung aus Lauf 001 vom 6. Juli 2026); Plenarsitzungsentscheidung zum Redaktionsschluss dieses Laufs (Vormittag 10. Juli 2026) noch nicht öffentlich vorliegend; im Folgelauf nach Sitzungsende nachzutragen.
+- Digital-Omnibus-on-AI-Publikation im Amtsblatt der Europäischen Union — noch nicht veröffentlicht (final gebilligt vom Rat am 29. Juni 2026 in § 4.3 dokumentiert); im Folgelauf zu ergänzen, sobald OJ-Nummer bekannt.
+- Roll Call / CPA Practice Advisor „AI becomes ripe target for taxes" (29. Juni 2026) — weiterhin außerhalb 7-Tage-Fenster; für Folgelauf zur Aufnahme in § 4.5 markiert (Casar Token-Steuer, McMorrow, Wyden Wage-Security-Programm, Amodei-Zitat aus Januar 2026).
+- Elizabeth Warren AI-Excise-Tax (Time-Op-Ed, 27. Mai 2026) — weiterhin außerhalb 7-Tage-Fenster; noch kein formeller Gesetzentwurf; im Folgelauf zu prüfen, sobald Bill-Nummer verfügbar.
+- Draft Commission Guidelines on Classification of High-Risk AI Systems (19. Mai 2026, Feedback-Frist 23. Juli 2026) — weiterhin außerhalb 7-Tage-Fenster; im Folgelauf nach Fristende Aufnahme in § 4.4 prüfen.
+- Tesla Optimus V3 Massenproduktion — Musk-Prognose ohne belastbare Auslieferungsdaten; unverändert für späteren Lauf markiert.
+- AMD Helios / MI455X Keynote 23. Juli 2026 — zukünftiges Ereignis; für Folgelauf nach Keynote-Datum zur Fortschreibung von § 8.2 markiert.
+- SkillSyncer-Trackerstand — unveränderte Kennzahlen 267 / 185.894 / 56 % gegenüber dem 9. Juli 2026, keine neue Aggregat-Bewegung; Dublettenfilter greift.
+- Cluster G (Gesundheitswesen) — zwölftes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitt 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Der GPT-5.6-Absatz in § 8.2 verweist kontrolliert auf § 4.5 (Governance-Debatte) und § 8.3 (Deutschland-These Zugriffspfade). Der Fable-5-Passus in § 4.5 verweist auf § 8.3 (Robustheits­anforderungen). Alle Ziele existieren. |
+| 2.1.4 Roter Faden | OK | Der § 8.2-Zusatz fügt sich sauber in die Frontier-Modell-Sequenz (Deflation Sonnet 5 → Kyber/Rubin-Ultra-Delay → DeepMind-Talent-Exodus → GPT-5.6-Release) ein und ergänzt die deflationäre Preisdynamik um eine Kadenz- und Governance-Dimension. Der § 4.5-Fable-5-Absatz sitzt zwischen Trump-Framework und Andrew Yang und passt kontinuierlich zu den USA-Rahmenblöcken. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; Fettungen bei den beiden neuen Absätzen einheitlich (Fable 5 als **-eingeleiteter Sub-Block, GPT-5.6 als Fließtext-Ergänzung ohne eigenen Fettungs-Lead); keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | GPT-5.6-Freigabe 9. Juli 2026 durch Nextgov, Engadget und OpenAI-Preview-Ankündigung bestätigt; Preise Sol 5/30 USD durch techjacksolutions und Coursiv konsistent; Cerebras 750 Token/s durch Value Add Pulse und BigGo Finance konsistent. Fable-5-Sperre 12. Juni 2026 durch Anthropic-Blogpost belegt; Redeployment 1. Juli 2026, CAISI-Klassifikatoren >99 % durch The New Stack und Anthropic-Blogpost konsistent; Kontingent-Verlängerung auf 12. Juli 2026 durch Forbes (7. Juli 2026) und iwoszapar-Blog konsistent. |
+| 2.2.2 Redundanzprüfung | OK | GPT-5.6-Absatz ergänzt die bestehende Sonnet-5- und Vera-Rubin-Diskussion um eine eigenständige (nicht doppelnde) Kadenz-/Governance-Perspektive; Fable-5-Absatz führt eine im Papier bislang nicht behandelte Kategorie (Exportkontrollen frontier-naher Modelle) ein. |
+| 2.2.3 Argumentation | OK | Regulatorische Neuerungen (Executive-Order Juni 2026, CAISI-Zusammenarbeit) im Konjunktiv referiert; Konsequenzen für § 8.3 als Robustheits­forderung klar markiert, ohne die Deutschland-These umzuformulieren. |
+| 2.2.4 Ausgewogenheit | OK | Fable-5-Passus stellt sowohl den Sicherheits-Rationale (Amazon-Umgehungsroutine) als auch die operative Kollateralwirkung (erhöhte Fehlalarmquote auf Debugging-Prompts, weltweite Aussetzung während der Kontrollen) dar. GPT-5.6-Passus benennt die Preisdeflation ebenso wie die andauernde geografische Konzentration. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | Neue Fachbegriffe („US-Vor-Freigabe-Praxis", „AI-Cybersecurity-Executive-Order", „CAISI", „Wafer-Scale-Hardware") kontextuell erklärt bzw. mit Klarnamen ausgeschrieben. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | § 11.5 um zwei neue Einträge ergänzt (OpenAI / Nextgov / Engadget / BigGo Finance / Value Add Pulse / techjacksolutions / Coursiv als GPT-5.6-Sammelbeleg; Anthropic / The New Stack / Gizmodo / Forbes / ExplainX als Fable-5-Sammelbeleg). Jede Fließtextreferenz hat einen Literatur-Eintrag. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil; vollständige URLs; Datumsangaben („9. Juli 2026", „12. Juni 2026", „1. Juli 2026", „Juni 2026") einheitlich. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen (OpenAI Preview-Blog, Anthropic Redeploying-Blog) für die Kernbotschaften vorhanden; Sekundärquellen (Nextgov, Engadget, The New Stack, Forbes, Gizmodo) konsistent. Preise, Freigabedatum und Cerebras-Speed über zwei bis drei unabhängige Quellen abgesichert. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 10. Juli 2026: openai.com/index/previewing-gpt-5-6-sol/ (WebSearch-Snippet mit Titel und Kernbotschaft bestätigt); nextgov.com/artificial-intelligence/2026/07/openais-advanced-gpt-56-models-be-available-public/414651/ (Titel und Freigabedatum bestätigt); anthropic.com/news/redeploying-fable-5 (WebSearch-Snippet mit Titel bestätigt); thenewstack.io/how-anthropic-is-bringing-fable-5-back/ (Titel bestätigt); forbes.com/sites/sandycarter/2026/07/07/claude-fable-5-extends-by-five-more-days-10-moves-to-make-now/ (Kontingent-Verlängerung bestätigt). |
+| 2.4.5 Zitatgenauigkeit | OK | Sol-Preise 5/30 USD in techjacksolutions und Coursiv identisch; Cerebras 750 Token/s in Value Add Pulse und BigGo Finance identisch; 30-Tage-Sicherheitsvor­prüfung als Executive-Order-Element in Nextgov und Engadget identisch; CAISI-Klassifikator >99 % nach Anthropic-Selbstbericht direkt zitiert und als Anbieterangabe kenntlich gemacht. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 30.0 durchgängig: Dokumentkopf (KI-Ökonomie.md), `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung mit Versions-Eintrag 30.0) und dieser Protokoll-Block. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltlichen Ergänzungen hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | — | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK (Struktur, Querverweise, Quellenzuordnung, Versionskonsistenz).
+- Automatisierte Skripte: n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 30.0
+- PDF erstellt: Ja (Phase 5, `build_pdf.py`)
+- Word erstellt: Ja (Phase 5, `build_docx.py`)
+
+---
+
 ## Validierung 9. Juli 2026 (Lauf 001 vom 9. Juli 2026) — Version 28.0 → Version 29.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf des Tages, Folgelauf zu Lauf 001 vom 8. Juli 2026. Web-Recherche im Korridor der Cluster A–J am 9. Juli 2026 im Standard-7-Tage-Fenster (2.–9. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (7.–9. Juli 2026). Zwei belegbare Fortschreibungen aus dem 7-Tage-Fenster identifiziert (Cluster I; Cluster F).
