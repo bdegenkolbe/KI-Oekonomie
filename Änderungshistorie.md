@@ -120,7 +120,7 @@
 - PDF erstellt (`build_pdf.py`): Ja (Phase 5)
 - Word erstellt (`build_docx.py`): Ja (Phase 5)
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (30.0 durchgängig)
-- Branch auf main gemerged und gelöscht: Ja (siehe Phase 6)
+- Branch auf main gemerged und gelöscht: Ja (Merge-Commit b8f7454 auf `main`; lokaler Branch `claude/determined-einstein-hrub8u` gelöscht; Remote-Branch-Löschung durch die Git-Serverkonfiguration mit HTTP 403 abgewiesen — Muster wie in Läufen zuvor, unschädlich, da alle Änderungen auf `main` konsolidiert sind; `git push origin main` selbst wurde trotz „Cannot update this protected ref"-Hinweistext ausgeführt — der Refspec-Report zeigt `7013cf7..b8f7454 main -> main`)
 - E-Mail-Benachrichtigung (Phase 5b): Siehe Phase-5b-Zeile im Abschlussbericht — Fallback-Datei `daily-mail.txt` geschrieben, da in dieser Session weder `mail_send` aus dem MCP-Server `graph-mcp` noch ein alternatives Send-Tool erreichbar war; im Microsoft-365-MCP sind ausschließlich Read-/Search-/Availability-Tools verfügbar (`outlook_email_search`, `outlook_calendar_search`, `outlook_find_available_time`, `find_meeting_availability`, `get_me`, `chat_message_search`, `sharepoint_search`, `sharepoint_folder_search`) — kein Draft-/Send-Tool. Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-mail.txt` noch in dieses Logbuch übernommen.
 - WhatsApp-Zusammenfassung (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben; der `whatsapp`-MCP-Server ist in dieser Session nicht verbunden — `wa_send_message` und Alternativen nicht erreichbar. Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-whatsapp.txt` noch in dieses Logbuch übernommen.
 
