@@ -54,6 +54,95 @@
 
 ---
 
+## 2026-07-11 — Lauf 001 — Version 30.0 → Version 31.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, C, E, G, H, J ohne belegbare Neuzugänge im 7-Tage-Fenster — Cluster G dreizehntes Mal in Folge). Fortschreibungen aus Cluster B (Bundesrat KI-MIG Verabschiedung 10. Juli 2026) und Cluster I (Meta Muse Spark 1.1 Freigabe 9. Juli 2026).
+- Zeitfenster: Standard 7 Tage (4.–11. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (9.–11. Juli 2026). Keine Fenstererweiterung.
+- Anzahl Suchanfragen: 6 (Web-Suche) + 2 gezielte Fetches (bundesrat.de/1067-node, skillsyncer.com/layoffs-tracker).
+- Lauf 001 vom 11. Juli 2026 ist der Folgelauf zu Lauf 001 vom 10. Juli 2026 (Version 29.0 → 30.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B | Bundesrat, *1067. Sitzung des Bundesrates — KI-MIG passiert den Bundesrat* (10. Juli 2026) | https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1067/1067-node.html | übernommen |
+| 2 | B | DATEV magazin, *Länder billigen Gesetz zur KI-Aufsicht in Deutschland* (10. Juli 2026) | https://www.datev-magazin.de/nachrichten-steuern-recht/recht/laender-billigen-gesetz-zur-ki-aufsicht-in-deutschland-147779 | übernommen (Sammelbeleg) |
+| 3 | B | Rechtsanwalt Ferner, *Deutschland bekommt ein KI-Gesetz: Bündelung der nationalen KI-Aufsicht bei der Bundesnetzagentur* | https://www.ferner-alsdorf.de/deutschland-bekommt-ein-ki-gesetz-buendelung-der-nationalen-ki-aufsicht-bei-der-bundesnetzagentur/ | übernommen (Sammelbeleg) |
+| 4 | B | ADVISORI DE, *KI-MIG beschlossen: Was das AI-Act-Durchführungsgesetz für Unternehmen bedeutet* | https://www.advisori.de/blog/ki-mig-ai-act-durchfuehrungsgesetz-unternehmen | übernommen (Sammelbeleg) |
+| 5 | B | Bundesregierung, *KI-Verordnung beschlossen* | https://www.bundesregierung.de/breg-de/aktuelles/umsetzung-ki-verordnung-2406638 | übernommen (Sammelbeleg) |
+| 6 | B | TÜV-Verband / Mittelstand Cafe, *KI-MIG: TÜV-Verband begrüßt gebündelte KI-Aufsicht* | https://www.mittelstandcafe.de/ki-mig-t-v-verband-begr-t-geb-ndelte-ki-aufsicht-2261610.html | übernommen (Sammelbeleg) |
+| 7 | I | Meta, *Introducing Muse Spark 1.1* (Meta Model API, 9. Juli 2026) | https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/ | übernommen |
+| 8 | I | Fortune, *Meta releases latest update of AI model Muse Spark as tech giant accelerates AI push under Alexandr Wang* (9. Juli 2026) | https://fortune.com/2026/07/09/meta-muse-spark-1-1-release-alexandr-wang-superintelligence-labs-mark-zuckerberg/ | übernommen (Sammelbeleg) |
+| 9 | I | CNBC, *Meta jumps into AI coding market in effort to chase Anthropic and OpenAI* (9. Juli 2026) | https://www.cnbc.com/2026/07/09/meta-jumps-into-ai-coding-market-to-chase-anthropic-and-openai.html | übernommen (Sammelbeleg) |
+| 10 | I | TechCrunch, *Meta enters the crowded AI coding battle with Muse Spark 1.1* (9. Juli 2026) | https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/ | übernommen (Sammelbeleg) |
+| 11 | I | TechTimes, *Meta's Muse Spark 1.1 Opens Paid API at One-Quarter of Anthropic, OpenAI Rates* (10. Juli 2026) | https://www.techtimes.com/articles/320088/20260710/metas-muse-spark-11-opens-paid-api-one-quarter-anthropic-openai-rates.htm | übernommen (Sammelbeleg) |
+| 12 | I | Quartz, *Meta launches paid Muse Spark 1.1 API to compete with OpenAI, Anthropic* (9. Juli 2026) | https://qz.com/meta-muse-spark-api-developers-paid-anthropic-openai-070926 | übernommen (Sammelbeleg) |
+| 13 | I | DataCamp, *Muse Spark 1.1: Meta's Agentic Model and API* | https://www.datacamp.com/blog/muse-spark-1-1 | übernommen (Sammelbeleg) |
+| 14 | I | AI Weekly, *Meta prices Muse Spark 1.1 API at $1.25/$4.25 per M tokens* | https://aiweekly.co/alerts/meta-prices-muse-spark-11-api-at-125425-per-m-tokens | übernommen (Sammelbeleg) |
+| 15 | I | Storyboard18, *What is Muse Spark 1.1? Meta's new AI model takes on OpenAI and Anthropic with agentic computing* | https://www.storyboard18.com/digital/what-is-muse-spark-1-1-metas-new-ai-model-takes-on-openai-and-anthropic-with-agentic-computing-103831.htm | übernommen (Sammelbeleg) |
+| 16 | I | cxotoday, *After SpaceX, Meta Now Launches Muse Spark 1.1 Model, to Begin AI Chip Production in Sept* | https://cxotoday.com/big-tech/after-spacex-meta-now-launches-muse-spark-1-1-model-to-begin-ai-chip-production-in-sept/ | übernommen (Sammelbeleg) |
+| 17 | F | SkillSyncer, *2026 Tech Layoffs Tracker* (Stand 11. Juli 2026 — 267 Ereignisse, 185.894 Personen, 56 %, unverändert gegenüber 9./10. Juli 2026) | https://skillsyncer.com/layoffs-tracker | verworfen (Dublette) |
+| 18 | F | Microsoft-Layoff-Runde 4.800 Stellen (6. Juli 2026) | https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html | verworfen (bereits mit Lauf 001 vom 7. Juli 2026 in § 1.1 dokumentiert) |
+| 19 | D | Roll Call / CPA Practice Advisor, *Artificial intelligence becomes ripe target for taxes* (29. Juni 2026) | https://rollcall.com/2026/06/29/artificial-intelligence-becomes-ripe-target-for-taxes/ | verworfen (weiterhin außerhalb 7-Tage-Fenster) |
+| 20 | D | Elizabeth Warren, *It's Time to Tax Artificial Intelligence* (Time, 27. Mai 2026) | https://time.com/article/2026/05/27/why-we-need-to-tax-ai/ | verworfen (weiterhin außerhalb 7-Tage-Fenster; noch kein Gesetzentwurf) |
+| 21 | I | AMD Helios / MI455X Keynote 23. Juli 2026 | (Ankündigung) | verworfen (zukünftiges Ereignis; für Folgelauf markiert) |
+| 22 | I | Google Gemini 3.5 Pro Release 17. Juli 2026 | (Ankündigung) | verworfen (zukünftiges Ereignis; für Folgelauf markiert) |
+| 23 | J | Tesla / Wccftech, *Tesla Optimus V3 mass production July/August 2026* | https://electrek.co/2026/04/22/tesla-optimus-production-fremont-model-sx-line/ | verworfen (Musk-Prognose ohne belastbare Auslieferungsdaten; für späteren Lauf markiert) |
+| 24 | G | G-BA / gematik / BfArM Juli 2026 | https://www.g-ba.de/ | verworfen (dreizehntes Mal in Folge ohne KI-spezifische Beschlüsse im 7-Tage-Fenster) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.4 | Aktualisierung | Bestehender KI-MIG-Absatz aktualisiert: Bundesrat hat das Gesetz am 10. Juli 2026 passieren lassen (Antrag auf Anrufung des Vermittlungsausschusses ohne Mehrheit); Bundesnetzagentur als zentrale Marktüberwachungs- und Anlaufstelle mit Koordinierungs- und Kompetenzzentrum, gebündelter KI-Expertise gegenüber anderen Behörden, zentraler Beschwerdestelle und Auftrag zur Einrichtung mindestens eines KI-*Reallabors* konkretisiert; ausdrückliche Exklusion des KI-Einsatzes öffentlicher Institutionen der Länder und Kommunen; „Redaktionsschluss offen"-Formulierung ersetzt. | 1–6 |
+| 2 | § 8.2 | Ergänzung | Neuer eigenständiger Absatz nach dem GPT-5.6/Cerebras-Passus: öffentliche Freigabe des agentischen Multimodalmodells *Muse Spark 1.1* über die kostenpflichtige *Meta Model API* durch *Meta Superintelligence Labs* (Alexandr Wang) am 9. Juli 2026; Kontextfenster 1 Million Token mit aktivem Kontextmanagement; Einstiegspreis 1,25/4,25 US-Dollar pro Million Input-/Output-Token — rund ein Viertel bis ein Drittel des Anthropic-/OpenAI-Preisniveaus; angekündigte Meta-Chip-Produktion ab September 2026; Bestätigung der Preisdeflation an der Inferenzfront und der Verdichtung der Angebotsseite an der US-Frontier ohne Aufhebung der geografischen Konzentration; Rückwirkung auf § 8.3-Zugriffspfade und § 4.5-Robustheits­anforderungen. | 7–16 |
+| 3 | § 11.3 | Aktualisierung | Bundesrats-Eintrag zur 1067. Sitzung aktualisiert: „Ausblick zur Plenarsitzung" ersetzt durch „passiert den Bundesrat"; Ausschussempfehlung des Ausschusses für Digitalisierung und Staatsmodernisierung ohne Mehrheit im Plenum dokumentiert; Bundesnetzagentur-Rolle konkretisiert (KI-Reallabor-Auftrag, Länderausnahme); ergänzende Sammelbelege DATEV magazin, Ferner, ADVISORI, Bundesregierung, TÜV-Verband. | 1–6 |
+| 4 | § 11.5 | Ergänzung | Neuer Sammelbeleg-Eintrag zu *Meta Muse Spark 1.1*: Meta / Fortune / CNBC / TechCrunch / TechTimes / Quartz / DataCamp / AI Weekly / Storyboard18 / cxotoday. | 7–16 |
+| 5 | Dokumentende | Aktualisierung | Aktualitätshinweis auf „Schnitt am 11. Juli 2026 — Lauf 001 vom 11. Juli 2026" gesetzt; Lauf-001-Fortschreibungen (KI-MIG Bundesrat, Meta Muse Spark 1.1) in Auflistungstext aufgenommen. | 1–16 |
+| 6 | README.md | Aktualisierung | Versionssprung 30.0 → 31.0 (Versionszeile, Zitiervorschlag, KI-Offenlegung um Versions-Eintrag 31.0 ergänzt). | — |
+| 7 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 11. Juli 2026 (Lauf 001 vom 11. Juli 2026) — Version 30.0 → Version 31.0" mit Prüftabelle 2.1.1–2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 17 | SkillSyncer-Trackerstand 11. Juli 2026 | F | Kennzahlen unverändert gegenüber 9./10. Juli 2026 (267 Ereignisse, 185.894 Personen, 56 %); Dublettenfilter greift. |
+| 18 | Microsoft-Layoff-Runde 6. Juli 2026 | F | Bereits mit Lauf 001 vom 7. Juli 2026 in § 1.1 vollständig dokumentiert; kein Neuzugang. |
+| 19 | Roll Call / CPA Practice Advisor „AI becomes ripe target for taxes" (29. Juni 2026) | D | Weiterhin außerhalb 7-Tage-Fenster. |
+| 20 | Warren AI-Excise-Tax (Time-Op-Ed, 27. Mai 2026) | D | Weiterhin außerhalb 7-Tage-Fenster; noch kein Gesetzentwurf. |
+| 21 | AMD Helios / MI455X Keynote 23. Juli 2026 | I | Zukünftiges Ereignis; für Folgelauf markiert. |
+| 22 | Google Gemini 3.5 Pro Release 17. Juli 2026 | I | Zukünftiges Ereignis; für Folgelauf markiert. |
+| 23 | Tesla Optimus V3 / humanoide Robotik | J | Musk-Prognose ohne belastbare Auslieferungsdaten; für späteren Lauf markiert. |
+| 24 | G-BA / gematik / BfArM Juli 2026 | G | Dreizehntes Mal in Folge ohne KI-spezifische Beschlüsse im 7-Tage-Fenster. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument und Literaturverzeichnis: Ja (KI-MIG-Absatz war in § 4.4 mit „Redaktionsschluss offen"-Formulierung dokumentiert und wurde nun um das Sitzungsergebnis präzisiert; die 4.800-Microsoft-Layoff-Runde, GPT-5.6-Freigabe, Fable-5-Redeployment, DeepMind-Talent-Bewegung, NVIDIA-Kyber-Verzögerung, OECD Employment Outlook 2026, Vera-Rubin-Auslieferung, Sanders SWF S. 4825, Cerebras-Sol-Deployment, Digital Omnibus 29. Juni 2026, SkillSyncer 267/185.894/56 % bereits in Vorlauf-Versionen dokumentiert und nicht erneut eingespielt)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block „11. Juli 2026 — Version 30.0 → Version 31.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja (Phase 5)
+- Word erstellt (`build_docx.py`): Ja (Phase 5)
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (31.0 durchgängig)
+- Branch auf main gemerged und gelöscht: Ja (siehe Phase-6-Ergebnisse; Session-Branch-Name im Feld „Auffälligkeiten" unten)
+- E-Mail-Benachrichtigung (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben. Der Microsoft-365-MCP-Server bietet in dieser Session zwar das Tool `mcp__Microsoft-365__outlook_send_mail`, ein Aufruf liefert jedoch einen `permission_error` (Tool ist im aktuellen Berechtigungsprofil nicht freigegeben); alternative Send-Muster (`send_mail`, `send_message`, `outlook_send`) sind ebenfalls entweder gesperrt oder nicht erreichbar. Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-mail.txt` noch in dieses Logbuch, in Commits, den Abschlussbericht oder irgendeine versionierte Datei übernommen.
+- WhatsApp-Zusammenfassung (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben; der `whatsapp`-MCP-Server ist in dieser Session nicht verbunden — `wa_send_message` und Alternativen nicht erreichbar. Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-whatsapp.txt` noch in dieses Logbuch übernommen.
+
+### Auffälligkeiten / offene Punkte
+
+- Cluster G (Gesundheitswesen) dreizehntes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster.
+- Google Gemini 3.5 Pro Release am 17. Juli 2026: für Folgelauf zur Fortschreibung von § 8.2 (Talent-Exodus / Modell-Timeline) markiert.
+- AMD Helios / MI455X Keynote am 23. Juli 2026: für Folgelauf nach Keynote-Datum zur Fortschreibung von § 8.2 markiert.
+- Fable-5-Kontingent auf kostenpflichtigen Tarifen läuft am 12. Juli 2026 aus: im Folgelauf zu beobachten, ob eine Umstellung auf Nutzungsguthaben oder eine weitere Verlängerung erfolgt (§ 4.5).
+- Meta *Muse Spark 1.1*: angekündigte eigene KI-Chip-Produktion ab September 2026 — im Folgelauf zu beobachten, insbesondere Auswirkungen auf die geografische und anbieterseitige Konzentration der Compute-Erzeugung (§ 8.2).
+- KI-MIG: Verkündung im Bundesgesetzblatt und Inkrafttreten stehen noch aus; im Folgelauf zu ergänzen, sobald das Verkündungsdatum bekannt ist (§ 4.4).
+- Roll Call / CPA Practice Advisor „AI becomes ripe target for taxes" (29. Juni 2026): sammelt weiterhin drei US-Kongressstimmen (Casar, McMorrow, Wyden) und Amodei-Zitat; bei nächster Fenstererweiterung als Aufnahmekandidat für § 4.5.
+- Branch dieses Laufs: `claude/determined-einstein-8dr4ao` (Fortsetzung des Musters aus vorherigen Läufen).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Versand-Ergebnis in Phase-5b-Zeile oben und Abschlussbericht dokumentiert. Anders als der Toolkatalog in dieser Session vermuten ließ, ist `mcp__Microsoft-365__outlook_send_mail` bei tatsächlicher Nutzung nicht freigegeben (permission_error); Versand fiel daher wie in den Vorläufen auf die beiden Repo-Fallback-Dateien zurück.
+
+---
+
 ## 2026-07-10 — Lauf 001 — Version 29.0 → Version 30.0
 
 ### Recherchekorridor

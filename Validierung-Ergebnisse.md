@@ -7,6 +7,77 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 11. Juli 2026 (Lauf 001 vom 11. Juli 2026) — Version 30.0 → Version 31.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf des Tages, Folgelauf zu Lauf 001 vom 10. Juli 2026. Web-Recherche im Korridor der Cluster A–J am 11. Juli 2026 im Standard-7-Tage-Fenster (4.–11. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (9.–11. Juli 2026). Zwei belegbare Fortschreibungen aus dem 7-Tage-Fenster identifiziert (Cluster B und Cluster I).
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *KI-MIG passiert den Bundesrat* (Cluster B): In seiner 1067. Sitzung am 10. Juli 2026 hat der Bundesrat das *Gesetz zur Durchführung der KI-Verordnung* (KI-MIG) passieren lassen. Der Antrag auf Anrufung des Vermittlungsausschusses, den der *Ausschuss für Digitalisierung und Staatsmodernisierung* am 30. Juni 2026 empfohlen hatte, fand im Plenum keine Mehrheit. Das Gesetz kann damit ohne weiteres parlamentarisches Verfahren in Kraft treten. Die Bundesnetzagentur übernimmt die Rolle einer zentralen Marktüberwachungs- und Anlaufstelle mit Koordinierungs- und Kompetenzzentrum, gebündelter KI-Expertise gegenüber anderen Behörden, zentraler Beschwerdestelle für Bürgerinnen und Bürger und Auftrag zur Einrichtung mindestens eines KI-*Reallabors* für die beaufsichtigte Erprobung neuer Anwendungen (insbesondere für kleine und mittlere Unternehmen); ausdrücklich ausgenommen bleibt der KI-Einsatz in öffentlichen Institutionen der Länder und Kommunen. Quellen: Bundesrat (1067. Sitzung — Kompakt); DATEV magazin (10. Juli 2026); Rechtsanwalt Ferner; ADVISORI DE; Bundesregierung; TÜV-Verband / Mittelstand Cafe. | § 4.4 (bestehender KI-MIG-Absatz aktualisiert: „berät" ersetzt durch „hat passieren lassen"; Ausschussempfehlung ohne Mehrheit dokumentiert; Bundesnetzagentur-Rolle konkretisiert; „Redaktionsschluss offen"-Formulierung ersetzt); § 11.3 (Bundesrats-Eintrag aktualisiert, Sammelbelege ergänzt); Aktualitätshinweis am Dokumentende ergänzt; README.md 31.0. | Abgeschlossene deutsche Sekundärrechts-Umsetzung des EU-AI-Acts; institutionelle Fixierung der Marktüberwachung bei der Bundesnetzagentur (Bund-Ebene) ist die operative Voraussetzung dafür, dass AI-Act-Kategorien (Anhang I/III, GPAI) in einem späteren Schritt an steuerliche Anknüpfungen (etwa eine inländische KI-Nutzungsabgabe, § 8.3) angebunden werden könnten. Die im Ausschuss kritisierte Zersplitterung zwischen Bund und Ländern bleibt zugleich ein für spätere steuerliche Anknüpfungen offener Reibungspunkt. |
+| 2 | *Meta Muse Spark 1.1 (Meta Model API)* (Cluster I): Am 9. Juli 2026 hat Meta über *Meta Superintelligence Labs* das agentische Multimodalmodell *Muse Spark 1.1* über eine kostenpflichtige *Meta Model API* freigegeben. Kontextfenster 1 Million Token, aktives Kontextmanagement, spezifische Fortschritte in Werkzeug- und Rechnerbedienung, Programmieren und multimodalem Verständnis. Einstiegspreis 1,25 US-Dollar pro Million Input-Token und 4,25 US-Dollar pro Million Output-Token, 20 US-Dollar Startguthaben — rund ein Viertel bis ein Drittel des Anthropic-/OpenAI-Preisniveaus (Anthropic *Claude Sonnet 5* 2/10 US-Dollar Einführungspreis, OpenAI *GPT-5.6 Sol* 5/30 US-Dollar). Meta-Chip-Produktion ab September 2026 angekündigt. Quellen: Meta (Introducing Muse Spark 1.1); Fortune; CNBC; TechCrunch; TechTimes; Quartz; DataCamp; AI Weekly; Storyboard18; cxotoday. | § 8.2 (neuer eigenständiger Absatz nach dem GPT-5.6/Cerebras-Passus mit Rückverweis auf § 8.3 Zugriffspfade und § 4.5 Robustheits­anforderungen); § 11.5 (neuer Sammelbeleg-Eintrag); Aktualitätshinweis am Dokumentende ergänzt; README.md 31.0. | Erster großer Frontier-Modell-Release nach der Anfang Juli 2026 aufgegriffenen GPT-5.6-Freigabe mit drei neuen Punkten: (a) Fortschreibung der deflationären Preisdynamik auf einer weiteren Modellstufe; (b) Verdichtung der Angebotsseite an der US-Frontier ohne Aufhebung der geografischen Konzentration; (c) strukturelle Symmetrie zwischen Meta-Personalabbau (20. Mai 2026, § 1.1) und paralleler Modell-/Compute-Offensive (Chip-Produktion September 2026). |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- SkillSyncer-Trackerstand 11. Juli 2026 — unveränderte Kennzahlen 267 / 185.894 / 56 % gegenüber dem 9./10. Juli 2026, keine neue Aggregat-Bewegung; Dublettenfilter greift.
+- Microsoft-Layoff-Runde 6. Juli 2026 (4.800 unmittelbare Streichungen, 1.600 Xbox) — bereits mit Lauf 001 vom 7. Juli 2026 vollständig in § 1.1 dokumentiert; kein Neuzugang.
+- Roll Call / CPA Practice Advisor „AI becomes ripe target for taxes" (29. Juni 2026) — weiterhin außerhalb 7-Tage-Fenster; für Folgelauf zur Aufnahme in § 4.5 markiert.
+- Elizabeth Warren AI-Excise-Tax (Time-Op-Ed, 27. Mai 2026) — weiterhin außerhalb 7-Tage-Fenster; noch kein formeller Gesetzentwurf.
+- Google Gemini 3.5 Pro Release 17. Juli 2026 — zukünftiges Ereignis; für Folgelauf markiert.
+- AMD Helios / MI455X Keynote 23. Juli 2026 — zukünftiges Ereignis; für Folgelauf nach Keynote-Datum zur Fortschreibung von § 8.2 markiert.
+- Tesla Optimus V3 Massenproduktion — Musk-Prognose ohne belastbare Auslieferungsdaten; unverändert für späteren Lauf markiert.
+- Cluster G (Gesundheitswesen) — dreizehntes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitt 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Der aktualisierte KI-MIG-Absatz in § 4.4 verweist kontrolliert auf § 8.3 (spätere steuerliche Anknüpfung). Der Muse-Spark-Absatz in § 8.2 verweist auf § 1.1 (Meta-Streichungen), § 8.3 (Zugriffspfade) und § 4.5 (Fable-5-Robustheit). Alle Ziele existieren. |
+| 2.1.4 Roter Faden | OK | Der KI-MIG-Zusatz in § 4.4 schließt die zuvor mit „Redaktionsschluss offen" beendete Passage konsistent ab und erhält den Argumentationsbogen zur europäischen Digital-Omnibus-Vereinfachung. Der Muse-Spark-Zusatz fügt sich sauber in die Frontier-Modell-Sequenz (Deflation Sonnet 5 → Kyber/Rubin-Ultra-Delay → DeepMind-Talent-Exodus → GPT-5.6-Release → Muse Spark 1.1) ein. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; Fettungen bei den beiden neuen/aktualisierten Absätzen einheitlich; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | KI-MIG-Bundesratsergebnis durch Bundesrat-Kompakt-Seite (bundesrat.de/DE/plenum/bundesrat-kompakt/26/1067/1067-node.html) direkt bestätigt und durch DATEV magazin, ADVISORI und Bundesregierung sekundärbelegt; Bundesnetzagentur-Rolle mit KI-Reallabor-Auftrag und Länderausnahme durch Rechtsanwalt Ferner konsistent. Muse-Spark-1.1-Freigabe 9. Juli 2026 durch Meta-Blogpost belegt; Preise 1,25/4,25 USD/M in mindestens fünf Sekundärquellen (TechTimes, Quartz, DataCamp, AI Weekly, TechCrunch) konsistent; 1-Million-Token-Kontext durch DataCamp und Storyboard18 konsistent. |
+| 2.2.2 Redundanzprüfung | OK | KI-MIG-Absatz ersetzt die bisherige Passage präzise und dopplungsfrei; der Muse-Spark-Absatz führt eine im Papier bislang nicht behandelte Preisstufe (Meta-Model-API) ein, ohne die Sonnet-5- oder GPT-5.6-Diskussion zu duplizieren. |
+| 2.2.3 Argumentation | OK | Konjunktiv nur mehr bei Anknüpfungspotenzialen (spätere KI-Nutzungsabgabe); vollzogene Rechtsakte im Indikativ referiert. Deutschland-These bleibt unverändert. |
+| 2.2.4 Ausgewogenheit | OK | KI-MIG-Absatz führt sowohl die Passieren-Lassen-Mehrheit als auch die im Ausschuss geübte Zersplitterungs-Kritik weiter; Muse-Spark-Absatz stellt neben der Preisdeflation ausdrücklich die weiterbestehende geografische Konzentration und die Verfügbarkeitsrisiken (Verweis auf Fable-5-Episode) dar. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | Neuer Fachbegriff „KI-Reallabor" beim ersten Auftreten kursiviert und kontextuell erklärt; „Meta Superintelligence Labs" mit Klarname eingeführt. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | § 11.3 (Bundesrat) aktualisiert und um Sekundärquellen ergänzt; § 11.5 um neuen Sammelbeleg zu Meta Muse Spark 1.1 ergänzt. Jede Fließtextreferenz hat einen Literatur-Eintrag. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil; vollständige URLs; Datumsangaben („10. Juli 2026", „9. Juli 2026", „30. Juni 2026") einheitlich. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen (Bundesrat-Kompakt, Meta-Blogpost) für die Kernbotschaften vorhanden; jeweils drei oder mehr unabhängige Sekundärquellen sichern Detailangaben ab. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 11. Juli 2026: bundesrat.de/DE/plenum/bundesrat-kompakt/26/1067/1067-node.html (WebFetch bestätigt Passieren-Lassen und Bundesnetzagentur-Rolle); ai.meta.com/blog/introducing-muse-spark-meta-model-api/ (WebSearch-Snippet mit Titel und Kernbotschaft bestätigt); techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/ (Titel bestätigt); fortune.com/2026/07/09/meta-muse-spark-1-1-release-alexandr-wang-superintelligence-labs-mark-zuckerberg/ (Titel und Datum bestätigt); datev-magazin.de/nachrichten-steuern-recht/recht/laender-billigen-gesetz-zur-ki-aufsicht-in-deutschland-147779 (Titel und Kernbotschaft bestätigt). |
+| 2.4.5 Zitatgenauigkeit | OK | Preise Muse Spark 1.1 1,25/4,25 USD/M in TechTimes, Quartz und AI Weekly identisch; Bundesnetzagentur-Rolle in ADVISORI und Bundesregierung identisch; „no majority"-Aussage zur Vermittlungsausschuss-Anrufung in der Bundesrat-Kompakt-Seite direkt entnommen. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 31.0 durchgängig: Dokumentkopf (KI-Ökonomie.md), `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung mit Versions-Eintrag 31.0) und dieser Protokoll-Block. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltlichen Ergänzungen hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | — | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 31.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 10. Juli 2026 (Lauf 001 vom 10. Juli 2026) — Version 29.0 → Version 30.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf des Tages, Folgelauf zu Lauf 001 vom 9. Juli 2026. Web-Recherche im Korridor der Cluster A–J am 10. Juli 2026 im Standard-7-Tage-Fenster (3.–10. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (8.–10. Juli 2026). Zwei belegbare Fortschreibungen aus dem 7-Tage-Fenster identifiziert (Cluster I und Cluster D/I-Grenze).
