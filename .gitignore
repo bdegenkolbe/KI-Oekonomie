@@ -15,3 +15,6 @@ notify-config.json
 # Lokales PowerShell-Skript fuer Windows Task Scheduler (enthaelt PII, NICHT committen)
 daily-update.ps1
 logs/
+
+# Session-spezifische temporaere Arbeitsdateien
+scratchpad/
