@@ -7,6 +7,79 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 12. Juli 2026 (Lauf 001 vom 12. Juli 2026) — Version 31.0 → Version 32.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf des Tages, Folgelauf zu Lauf 001 vom 11. Juli 2026. Web-Recherche im Korridor der Cluster A–J am 12. Juli 2026 im Standard-7-Tage-Fenster (5.–12. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (10.–12. Juli 2026). Zwei belegbare Fortschreibungen aus dem Umfeld des Fensters identifiziert: (a) Cluster I mit dem termingebundenen Vollzug der Anthropic-*Fable 5*-Umstellung auf Nutzungsguthaben (Kontingent-Frist 12. Juli 2026 23:59:59 PT — im 48-Stunden-Fenster liegend) und (b) Cluster D mit dem am 2./3. Juli 2026 berichteten OpenAI-Gegenvorschlag zum Sanders-SWF-Act (Fenstererweiterung wegen § 4.5-Kohärenz mit bereits eingearbeitetem Sanders SWF Act; Trigger *„OpenAI-/Anthropic-Folgeveröffentlichungen"* aus Cluster D erfüllt; Präzedenzfall Bloomberg-Editorial April 2026 in Version 20.0).
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *Anthropic Claude Fable 5 — Umstellung auf Nutzungsguthaben zum 13. Juli 2026* (Cluster I): Die im Lauf 001 vom 10. Juli 2026 (Version 30.0) dokumentierte Kontingent-Verlängerung ist zum 12. Juli 2026 23:59:59 Pacific Time ausgelaufen; seit dem 13. Juli 2026 wird *Fable 5* in den Abonnementplänen (Pro, Max, Team, ausgewählte Enterprise) nicht mehr auf das wöchentliche Nutzungskontingent angerechnet, sondern über ein gesondert aufgeladenes Nutzungsguthaben abgerechnet. Standardpreis 10 US-Dollar pro Million Input- und 50 US-Dollar pro Million Output-Token; Prompt-Caching senkt Input-Kosten weiterhin um bis zu 90 %; wöchentlicher 50-%-Nutzungsdeckel bleibt bestehen. Die Rate entspricht dem doppelten Standardpreis von *Claude Opus 4.8* (5/25 USD) und markiert die höchste je durch Anthropic öffentlich gelistete Kategorie; Anthropic positioniert die Umstellung als *temporäre Kapazitätsrationierung*. Quellen: Anthropic (Support-Artikel „Claude Fable 5 Promotional Access"); DigitalApplied (Guides zum 7. und 12. Juli 2026); TechTimes (6. Juli 2026); Codersera; AndroidHeadlines („Anthropic's Claude Fable 5 Now Requires Pay-Per-Use — Even for Pro Subscribers"); Webvise. | § 4.5 (bestehender Fable-5-Absatz um Vollzug, Preisstruktur, Interpretation und Rückwirkung auf § 8.2-Preisdynamik ergänzt); § 11.5 (neuer Sammelbeleg-Eintrag); Aktualitätshinweis am Dokumentende ergänzt; README.md 32.0. | Erste dokumentierte Umstellung eines Frontier-Modells von Subscription-included zu Metered-Only-Pricing mit einer über die Workhorse-Klasse hinausgehenden Ratenklasse. Der Vorgang stützt drei bestehende Argumentationslinien: (a) die in § 4.5 dokumentierte exekutiv-sicherheitspolitische Vermittlung des Zugriffs auf Frontier-Modelle wird um eine kommerzielle Rationierungslogik ergänzt; (b) die in § 8.2 dokumentierte Preisdeflation zeigt eine erstmals empirisch belegbare Bifurkation zwischen supply-constrained Frontier-Klasse (aufwärts) und Workhorse-Klasse (abwärts); (c) für die in § 8.3 vorgeschlagene inländische KI-Nutzungsabgabe folgt, dass Bemessungsgrundlage und Tarifstruktur modellklassenspezifisch differenziert werden müssten. |
+| 2 | *OpenAI-Gegenvorschlag — freiwillige 5-%-Equity-Dotierung an einen US-Souveränen KI-Fonds* (Cluster D, Fenstererweiterung): Financial Times am 2. Juli 2026 (aufgegriffen von CNBC, Fortune, Forbes, TechCrunch, Reuters, Technology.org und *TheAIInsider* am 2./3. Juli 2026): OpenAI-CEO Sam Altman schlägt vor, freiwillig 5 % der eigenen Unternehmensanteile (~42,6 Mrd. USD bei einer Bewertung von rund 852 Mrd. USD nach der März-2026-Finanzierungsrunde) an einen zu errichtenden US-Souveränen KI-Beteiligungsfonds abzutreten und andere führende US-Anbieter (Anthropic, Alphabet/Google, Meta, xAI) zu einer spiegelbildlichen 5-%-Beteiligung aufzurufen. Modell: *Alaska Permanent Fund*. Informelle Gespräche mit Präsident Trump, Handelsminister Howard Lutnick und Finanzminister Scott Bessent. Direkter Bezugspunkt zum am 18. Juni 2026 eingebrachten *American A.I. Sovereign Wealth Fund Act* (S. 4825, 119. Kongress, 50 % Zwangsabgabe). | § 4.5 (neuer eigenständiger Absatz direkt nach dem Sanders-SWF-Passus); § 11.5 (neuer Sammelbeleg-Eintrag); Aktualitätshinweis am Dokumentende ergänzt; README.md 32.0. | Direkter industry-seitiger Konter- und Ergänzungsvorschlag zum Sanders-SWF-Act, der die Eigentumsseite der KI-Wertschöpfung nun aus zwei entgegengesetzten Richtungen adressiert (staatliche Zwangsabgabe 50 % vs. freiwillige Dotierung 5 %). Für die Deutschland-These in Kapitel 8 (Teilhabefonds) liefert der Vorstoß einen aktuellen US-Referenzpunkt für eine bestandsorientierte Fondslogik mit freiwilliger Eingangsdotierung. Trigger *„OpenAI-/Anthropic-Folgeveröffentlichungen"* aus Cluster D erfüllt. Fenstererweiterung analog zum Präzedenzfall Bloomberg-Editorial (29. April 2026), das mit Version 20.0 (Lauf 002 vom 7. Mai 2026) außerhalb des Standard-7-Tage-Fensters aufgenommen wurde. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- SkillSyncer-Trackerstand 12. Juli 2026 — keine neuen Ereignisse gegenüber dem 9./10./11. Juli 2026 (267 / 185.894 / 56 % konstant); Dublettenfilter greift.
+- Cisco 4.000-Layoff-Runde (WARN-Termine ab 13. Juli 2026, aber Ankündigung/Board-Beschluss und Konzernaussage bereits am 14. Mai 2026 mit Q3-Earnings) — Ankündigungsdatum außerhalb Cluster-F-48-Stunden-Fensters; für die aggregierte Layoff-Bilanz zum SkillSyncer/TrueUp-Stand ist der Fall bereits im Tracker konsolidiert.
+- Meta 1.400-Layoff-Runde Washington State (Beginn 22. Juli 2026) — Ankündigungsdatum außerhalb Cluster-F-48-Stunden-Fensters.
+- IAB-Kurzbericht 8/2026 „Jeder vierte Betrieb nutzt generative KI" (Friedrich/Kagerl, 5. Mai 2026) — Veröffentlichungsdatum weit außerhalb 7-Tage-Fenster; als Anker für einen späteren strukturellen Absatz zur Verbreitung generativer KI in deutschen Betrieben (§ 1.1 oder § 3.5) für Folgelauf markiert.
+- Roll Call / CPA Practice Advisor „AI becomes ripe target for taxes" (29. Juni 2026) — weiterhin außerhalb 7-Tage-Fenster; für Folgelauf zur Aufnahme in § 4.5 markiert (drei US-Kongressstimmen: Casar, McMorrow, Wyden; Amodei-Zitat).
+- Elizabeth Warren AI-Excise-Tax (Time-Op-Ed, 27. Mai 2026) — weiterhin außerhalb 7-Tage-Fenster; noch kein formeller Gesetzentwurf.
+- Google Gemini 3.5 Pro Release 17. Juli 2026 — zukünftiges Ereignis; für Folgelauf markiert.
+- AMD Helios / MI455X Keynote 23. Juli 2026 — zukünftiges Ereignis; für Folgelauf nach Keynote-Datum zur Fortschreibung von § 8.2 markiert.
+- Tesla Optimus V3 Massenproduktion (Musk-Kommunikation Ende April 2026) — nach wie vor keine belastbaren Auslieferungsdaten; unverändert für späteren Lauf markiert.
+- Cluster G (Gesundheitswesen) — vierzehntes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitt 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Hebel der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Der erweiterte Fable-5-Absatz in § 4.5 verweist kontrolliert auf § 8.2 (Preisdynamik) und § 8.3 (Bemessungsgrundlage/Tarifstruktur). Der neue OpenAI-5-%-Absatz in § 4.5 verweist auf den Sanders SWF Act (§ 4.5), das OpenAI-Strategiepapier April 2026 (§ 4.5) und Kapitel 8 (§ 8.3 Teilhabefonds). Alle Ziele existieren. |
+| 2.1.4 Roter Faden | OK | Der Fable-5-Vollzug schließt die zuvor prospektiv formulierte Umstellungserwartung im Indikativ ab; die Bifurkations-Interpretation ist konsistent zur bestehenden § 8.2-Sequenz (GPT-5.6 → Muse Spark 1.1 → Sonnet 5). Der OpenAI-5-%-Absatz reiht sich argumentativ zwischen den Sanders-Passus (bestandsorientierte Umverteilung mit staatlichem Zwang) und den OpenAI-Strategiepapier-Passus (Wohlstandsfonds nach norwegischem Vorbild) ein und schließt die Debatte um die Eigentumsseite konsequent zu einer bipolaren Anordnung. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; Fettungen bei den beiden neuen/aktualisierten Absätzen einheitlich; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Fable-5-Preisstruktur (10/50 USD/M) durch Anthropic-Support-Artikel und mindestens fünf Sekundärquellen (DigitalApplied, TechTimes, Codersera, AndroidHeadlines, Webvise) konsistent belegt; 90 %-Prompt-Caching-Rabatt und 50-%-Wochendeckel unverändert. OpenAI-5-%-Vorschlag durch Financial Times (2. Juli 2026, unter Berufung auf zwei mit der Sache vertraute Personen) und drei bis fünf mainstream Wirtschafts-/Techmedien (CNBC, Fortune, Forbes, TechCrunch, Reuters, Technology.org, *TheAIInsider*) sekundärbelegt; 852-Mrd.-Bewertung nach OpenAI-März-2026-Finanzierungsrunde in mehreren Quellen konsistent, entsprechender 5-%-Rechenwert 42,6 Mrd. USD in FT, CNBC und Forbes identisch. |
+| 2.2.2 Redundanzprüfung | OK | Die Fable-5-Erweiterung entfaltet die zuvor knapp formulierte Wendung „wurde danach über Nutzungsguthaben abgerechnet" ohne die bisherige Kernaussage zu duplizieren; die Interpretation zur Preisbifurkation ist neu und ergänzt § 8.2 ohne Dopplung. Der OpenAI-5-%-Absatz führt einen bislang im Papier nicht dokumentierten Vorschlag ein; keine Dopplung zum OpenAI-Strategiepapier April 2026 (das keine numerische Selbstverpflichtung enthielt) oder zum Sanders SWF Act (der eine Zwangsabgabe vorsieht). |
+| 2.2.3 Argumentation | OK | Die neue Preisbifurkations-Aussage ist analytisch — nicht politisch — formuliert; der OpenAI-5-%-Absatz referiert den Vorschlag durchgängig im Konjunktiv als Vorschlag („würde", „setzte voraus", „einer Zustimmung des Kongresses"); Deutschland-These bleibt unverändert. |
+| 2.2.4 Ausgewogenheit | OK | Der Fable-5-Absatz nennt sowohl das Anbieter-Framing („temporäre Kapazitätsrationierung") als auch die faktische Doppel-Rate-Rekord-Einordnung. Der OpenAI-5-%-Absatz stellt Dotierung, Trägerlogik und Kontrolle als Differenzen zum Sanders-Entwurf sachlich gegenüber, ohne einen der beiden Vorschläge zu bewerten. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | Fachbegriff „Nutzungsguthaben" durchgehend einheitlich; Preisangaben „US-Dollar pro Million Input-/Output-Token" einheitlich; „Souveräner KI-Beteiligungsfonds" konsistent zum bestehenden Sanders-Passus; „Alaska Permanent Fund" beim ersten Auftreten kursiviert. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | § 11.5 um zwei neue Sammelbelege ergänzt (Fable-5-Nutzungsguthaben; OpenAI-5-%-Gegenvorschlag). Jede Fließtextreferenz hat einen Literatur-Eintrag. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil; vollständige URLs; Datumsangaben („2./3. Juli 2026", „12./13. Juli 2026") einheitlich. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquelle (Anthropic-Support) für die Fable-5-Preisstruktur, Financial-Times-Erstberichterstattung mit Berufung auf zwei mit der Sache vertraute Personen für den OpenAI-5-%-Vorschlag; jeweils drei oder mehr unabhängige Sekundärquellen sichern Detailangaben ab. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 12. Juli 2026: techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/ (Titel bestätigt); cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback.html (Titel bestätigt); www.digitalapplied.com/blog/claude-fable-5-usage-credits-july-7-pricing-guide-2026 (Titel und Preisangaben bestätigt); www.digitalapplied.com/blog/anthropic-fable-5-access-extended-july-12-2026 (Extension-Datum bestätigt); www.techtimes.com/articles/319767/20260706/fable-5-subscription-ends-tomorrow-per-token-costs-who-gets-hit-hardest.htm (Titel und Kernbotschaft bestätigt). |
+| 2.4.5 Zitatgenauigkeit | OK | Preise Fable 5 10/50 USD/M in DigitalApplied, AndroidHeadlines und TechTimes identisch; 90-%-Caching-Rabatt in Anthropic-Support und Sekundärquellen konsistent; 5-%-Vorschlag/42,6-Mrd.-Rechenwert in FT, CNBC und Forbes identisch. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 32.0 durchgängig: Dokumentkopf (KI-Ökonomie.md), `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung mit Versions-Eintrag 32.0) und dieser Protokoll-Block. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltlichen Ergänzungen hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | — | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 32.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 11. Juli 2026 (Lauf 001 vom 11. Juli 2026) — Version 30.0 → Version 31.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf des Tages, Folgelauf zu Lauf 001 vom 10. Juli 2026. Web-Recherche im Korridor der Cluster A–J am 11. Juli 2026 im Standard-7-Tage-Fenster (4.–11. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (9.–11. Juli 2026). Zwei belegbare Fortschreibungen aus dem 7-Tage-Fenster identifiziert (Cluster B und Cluster I).
