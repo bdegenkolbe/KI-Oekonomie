@@ -54,6 +54,94 @@
 
 ---
 
+## 2026-07-12 — Lauf 001 — Version 31.0 → Version 32.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, B, C, E, G, H, J ohne belegbare Neuzugänge im 7-Tage-Fenster — Cluster G vierzehntes Mal in Folge). Fortschreibungen aus Cluster I (48-Stunden-Fenster: Fable-5-Nutzungsguthaben-Vollzug) und Cluster D (Fenstererweiterung wegen § 4.5-Kohärenz: OpenAI 5-%-SWF-Gegenvorschlag).
+- Zeitfenster: Standard 7 Tage (5.–12. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (10.–12. Juli 2026); Cluster D um rund drei Tage zurückerweitert für den OpenAI-5-%-Vorschlag mit ausdrücklicher Begründung durch § 4.5-Kohärenz mit bereits eingearbeitetem Sanders SWF Act (Präzedenzfall Bloomberg-Editorial Version 20.0).
+- Anzahl Suchanfragen: 10 (Web-Suche) + gezielte Einzelchecks für die aufgenommenen Belege.
+- Lauf 001 vom 12. Juli 2026 ist der Folgelauf zu Lauf 001 vom 11. Juli 2026 (Version 30.0 → 31.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | I | Anthropic (Support), *Claude Fable 5 Promotional Access* (Support-Artikel, aktualisiert 7. Juli 2026) | https://support.anthropic.com/ | übernommen (Primärquelle für Preisstruktur/Datum) |
+| 2 | I | DigitalApplied, *Fable 5 Plan Access Extended to July 12: What Changes* | https://www.digitalapplied.com/blog/anthropic-fable-5-access-extended-july-12-2026 | übernommen (Sammelbeleg) |
+| 3 | I | DigitalApplied, *Claude Fable 5 Pricing: The July 7 Usage-Credits Switch* | https://www.digitalapplied.com/blog/claude-fable-5-usage-credits-july-7-pricing-guide-2026 | übernommen (Sammelbeleg) |
+| 4 | I | TechTimes, *Fable 5 Subscription Ends Tomorrow: Per-Token Costs and Who Gets Hit Hardest* (6. Juli 2026) | https://www.techtimes.com/articles/319767/20260706/fable-5-subscription-ends-tomorrow-per-token-costs-who-gets-hit-hardest.htm | übernommen (Sammelbeleg) |
+| 5 | I | Codersera, *Claude Fable 5 Usage Credits: What Changes After July 7, 2026* | https://codersera.com/blog/claude-fable-5-usage-credits-july-2026/ | übernommen (Sammelbeleg) |
+| 6 | I | AndroidHeadlines, *Anthropic's Claude Fable 5 Now Requires Pay-Per-Use — Even for Pro Subscribers* | https://www.androidheadlines.com/2026/07/claude-fable-5-drops-subscriptions-pay-per-use-credits.html | übernommen (Sammelbeleg) |
+| 7 | I | Webvise, *Fable 5 Leaves Claude Subscriptions After July 12: What Usage Credits Cost and How to Adapt* | https://www.webvise.io/blog/fable-5-leaves-subscriptions-usage-credits | übernommen (Sammelbeleg) |
+| 8 | D | Financial Times, *OpenAI proposed donating 5 % of its equity to a US sovereign wealth fund* (2. Juli 2026, Erstberichterstattung; nicht direkt abrufbar/Paywall — sekundär belegt) | (FT-Original) | übernommen (Primärberichterstattung; via Sekundärquellen belegt) |
+| 9 | D | TechCrunch, *OpenAI proposed donating 5 % of its equity to a US sovereign wealth fund* (2. Juli 2026) | https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/ | übernommen (Sammelbeleg) |
+| 10 | D | CNBC, *OpenAI proposes 5 % stake to Trump administration to ease Washington pressure: Report* (2. Juli 2026) | https://www.cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback.html | übernommen (Sammelbeleg) |
+| 11 | D | Forbes / Siladitya Ray, *OpenAI Reportedly Pitches Granting U.S. Government 5 % Stake* (2. Juli 2026) | https://www.forbes.com/sites/siladityaray/2026/07/02/openai-reportedly-pitches-granting-us-government-5-stake/ | übernommen (Sammelbeleg) |
+| 12 | D | Technology.org, *OpenAI Proposes Handing 5 % of Its Equity to a U.S. Sovereign Wealth Fund* (3. Juli 2026) | https://www.technology.org/2026/07/03/openai-5-percent-us-sovereign-wealth-fund/ | übernommen (Sammelbeleg) |
+| 13 | D | TheAIInsider, *OpenAI's Altman Proposes 5 % Equity Stake in U.S. Sovereign Wealth Fund Amid Broader AI Ownership Debate* (3. Juli 2026) | https://theaiinsider.tech/2026/07/03/openais-altman-proposes-5-equity-stake-in-u-s-sovereign-wealth-fund-amid-broader-ai-ownership-debate/ | übernommen (Sammelbeleg) |
+| 14 | F | Cisco Systems / Fox Business / CFO Dive, *Cisco to cut nearly 4,000 jobs as AI shift accelerates* (14. Mai 2026 Q3-Earnings; WARN-Termine ab 13. Juli 2026 in Kalifornien) | https://www.cfodive.com/news/cisco-cut-nearly-4000-jobs-ai-shift-accelerates-layoffs/820302/ | verworfen (Ankündigungsdatum außerhalb 48-Stunden-Fensters) |
+| 15 | F | Meta 1.400 Washington-State-Layoffs ab 22. Juli 2026 | (mehrere Sekundärquellen) | verworfen (Ankündigungsdatum außerhalb 48-Stunden-Fensters) |
+| 16 | E | IAB, *IAB-Kurzbericht 8/2026 — Jeder vierte Betrieb nutzt generative KI* (Friedrich/Kagerl, 5. Mai 2026) | https://doku.iab.de/kurzber/2026/kb2026-08.pdf | verworfen (weit außerhalb 7-Tage-Fenster; für strukturellen Anschluss-Absatz im späteren Lauf markiert) |
+| 17 | F | Challenger, Gray & Christmas, *June 2026 / H1 2026 Tech Layoff Cumulative* (2./3. Juli 2026) — Tech H1 139.156 (+83 % YoY); KI 101.743 YTD (23 %) | https://www.challengergray.com/blog/challenger-report-june-layoffs-cool-to-45849-down-53-from-may-ai-leads-reasons-for-fourth-consecutive-month/ | verworfen (Reports bereits mit Version 23.0 vollständig integriert) |
+| 18 | D | Roll Call / CPA Practice Advisor, *AI becomes ripe target for taxes* (29. Juni 2026) | https://rollcall.com/2026/06/29/artificial-intelligence-becomes-ripe-target-for-taxes/ | verworfen (weiterhin außerhalb 7-Tage-Fenster; die Fenstererweiterung wird nicht für diese Meldung extendiert) |
+| 19 | I | AMD Helios / MI455X Keynote 23. Juli 2026 | (Ankündigung) | verworfen (zukünftiges Ereignis; für Folgelauf markiert) |
+| 20 | I | Google Gemini 3.5 Pro Release 17. Juli 2026 | (Ankündigung) | verworfen (zukünftiges Ereignis; für Folgelauf markiert) |
+| 21 | J | Tesla Optimus V3 Massenproduktion Juli/August 2026 | https://electrek.co/2026/04/22/tesla-optimus-production-fremont-model-sx-line/ | verworfen (Musk-Prognose ohne belastbare Auslieferungsdaten; für späteren Lauf markiert) |
+| 22 | G | G-BA / gematik / BfArM Juli 2026 | https://www.g-ba.de/ | verworfen (vierzehntes Mal in Folge ohne KI-spezifische Beschlüsse) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.5 | Aktualisierung/Ergänzung | Bestehender Fable-5-Absatz um Vollzug der Nutzungsguthaben-Umstellung zum 13. Juli 2026 (Kontingent-Frist 12. Juli 2026 23:59:59 PT ausgelaufen), Preisstruktur (Standardpreis 10 US-Dollar Input / 50 US-Dollar Output pro Million Token — doppelter *Claude-Opus-4.8*-Standardpreis, höchste je durch Anthropic gelistete Kategorie; 90-%-Prompt-Caching-Rabatt; 50-%-Wochendeckel) und Interpretation (Bifurkation der Frontier-Preisdynamik zwischen supply-constrained Spitzenklasse aufwärts und Workhorse-Klasse abwärts; Folge für § 8.3 Bemessungsgrundlage/Tarifstruktur) erweitert. | 1–7 |
+| 2 | § 4.5 | Ergänzung | Neuer eigenständiger Absatz direkt nach dem Sanders-SWF-Act-Passus: OpenAI-CEO Sam Altman schlägt Anfang Juli 2026 freiwillige 5-%-Equity-Dotierung (~42,6 Mrd. USD bei 852 Mrd. USD Bewertung) an einen US-Souveränen KI-Beteiligungsfonds nach *Alaska-Permanent-Fund*-Modell vor und lädt Anthropic, Alphabet/Google, Meta und xAI zu einer spiegelbildlichen 5-%-Beteiligung ein; informelle Gespräche mit Trump, Lutnick und Bessent; Konter- und Ergänzungsvorschlag zum Sanders SWF Act (S. 4825, 50 % Zwangsabgabe) mit strukturellen Differenzen in Dotierung, Trägerlogik und institutioneller Kontrolle. | 8–13 |
+| 3 | § 11.5 | Ergänzung | Zwei neue Sammelbelege: (a) Anthropic (Support) / DigitalApplied / TechTimes / Codersera / AndroidHeadlines / Webvise zum Fable-5-Nutzungsguthaben-Switch; (b) Financial Times / CNBC / Forbes / TechCrunch / Technology.org / TheAIInsider zum OpenAI-5-%-Gegenvorschlag. | 1–13 |
+| 4 | Dokumentende | Aktualisierung | Aktualitätshinweis auf „Schnitt am 12. Juli 2026 — Lauf 001 vom 12. Juli 2026" gesetzt; Lauf-001-Fortschreibungen in Auflistungstext aufgenommen. | 1–13 |
+| 5 | README.md | Aktualisierung | Versionssprung 31.0 → 32.0 (Versionszeile, Zitiervorschlag, KI-Offenlegung um Versions-Eintrag 32.0 ergänzt). | — |
+| 6 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 12. Juli 2026 (Lauf 001 vom 12. Juli 2026) — Version 31.0 → Version 32.0" mit Prüftabelle 2.1.1–2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 14 | Cisco 4.000-Layoff-Runde (WARN-Termine ab 13. Juli 2026) | F | Ankündigungsdatum 14. Mai 2026 außerhalb Cluster-F-48-Stunden-Fensters; im Tracker bereits konsolidiert. |
+| 15 | Meta 1.400 Washington-State-Layoffs ab 22. Juli 2026 | F | Ankündigungsdatum außerhalb Cluster-F-48-Stunden-Fensters. |
+| 16 | IAB-Kurzbericht 8/2026 (5. Mai 2026) | E | Weit außerhalb 7-Tage-Fenster; für strukturellen Anschluss-Absatz im späteren Lauf markiert. |
+| 17 | Challenger H1 2026 Tech Layoff Report | F | Reports bereits mit Version 23.0 vollständig integriert. |
+| 18 | Roll Call / CPA Practice Advisor „AI becomes ripe target for taxes" (29. Juni 2026) | D | Weiterhin außerhalb 7-Tage-Fenster; Fenstererweiterung wird nicht extendiert. |
+| 19 | AMD Helios / MI455X Keynote 23. Juli 2026 | I | Zukünftiges Ereignis; für Folgelauf markiert. |
+| 20 | Google Gemini 3.5 Pro Release 17. Juli 2026 | I | Zukünftiges Ereignis; für Folgelauf markiert. |
+| 21 | Tesla Optimus V3 / humanoide Robotik | J | Musk-Prognose ohne belastbare Auslieferungsdaten. |
+| 22 | G-BA / gematik / BfArM Juli 2026 | G | Vierzehntes Mal in Folge ohne KI-spezifische Beschlüsse. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument und Literaturverzeichnis: Ja (Fable-5-Episode war in § 4.5 mit dem prospektiven „Kontingent-Verlängerung auf kostenpflichtigen Tarifen bis 12. Juli 2026" dokumentiert und wurde nun um Vollzug, Preisstruktur und Interpretation ergänzt; der OpenAI-5-%-Vorschlag ist bislang im Papier nicht dokumentiert und wird erstmals aufgenommen; KI-MIG, Meta Muse Spark 1.1, GPT-5.6-Freigabe, Fable-5-Redeployment, DeepMind-Talent-Bewegung, NVIDIA-Kyber-Verzögerung, OECD Employment Outlook 2026, Vera-Rubin-Auslieferung, Sanders SWF S. 4825, Anthropic „Cadences", Anthropic Sonnet 5, Digital Omnibus 29. Juni 2026, SkillSyncer 267/185.894/56 %, Microsoft-Layoff-Runde 4.800 bereits in Vorlauf-Versionen dokumentiert und nicht erneut eingespielt)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block „12. Juli 2026 — Version 31.0 → Version 32.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja (Phase 5)
+- Word erstellt (`build_docx.py`): Ja (Phase 5)
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (32.0 durchgängig)
+- E-Mail-Benachrichtigung (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben. Wie in den Vorläufen liefert der Aufruf von `mcp__Microsoft-365__outlook_send_mail` in dieser Session einen `permission_error` (Tool ist im aktuellen Berechtigungsprofil nicht freigegeben); alternative Send-Muster (`send_mail`, `send_message`, `outlook_send`) im Microsoft-365-MCP sind ebenfalls entweder gesperrt oder nicht erreichbar. Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-mail.txt` noch in dieses Logbuch, in Commits, den Abschlussbericht oder irgendeine versionierte Datei übernommen. Inhalt der Fallback-Datei: 3.844 Zeichen (< 5.000-Zeichen-Grenze).
+- WhatsApp-Zusammenfassung (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben; der `whatsapp`-MCP-Server ist in dieser Session nicht verbunden — `wa_send_message` und Alternativen nicht erreichbar. Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-whatsapp.txt` noch in dieses Logbuch übernommen. Inhalt der Fallback-Datei: 753 Zeichen (< 1.000-Zeichen-Grenze).
+- Branch auf main gemerged und gelöscht: [Ergebnis wird nach Phase 6 eingesetzt]
+
+### Auffälligkeiten / offene Punkte
+
+- Cluster G (Gesundheitswesen) vierzehntes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster; strukturelles Muster verfestigt sich.
+- Fable-5-Umstellung positioniert Anthropic den *Fable 5*-Preis als *„temporäre Kapazitätsrationierung"* mit dem Signal, dass Included-Access zurückkehren könnte, „sobald Kapazität es zulässt"; für den Folgelauf zu beobachten.
+- OpenAI-5-%-Vorschlag: politische Reaktionen (Trump-Administration, Kongress, andere führende US-Anbieter Anthropic / Alphabet / Meta / xAI) im Folgelauf zu beobachten; insbesondere ob mindestens ein weiterer Anbieter dem Matching-Vorschlag zustimmt oder ihn öffentlich ablehnt.
+- Roll Call / CPA Practice Advisor „AI becomes ripe target for taxes" (29. Juni 2026): sammelt weiterhin drei US-Kongressstimmen (Casar, McMorrow, Wyden) und Amodei-Zitat; bei nächster Fenstererweiterung als Aufnahmekandidat für § 4.5.
+- Google Gemini 3.5 Pro Release am 17. Juli 2026: für Folgelauf zur Fortschreibung von § 8.2 markiert.
+- AMD Helios / MI455X Keynote am 23. Juli 2026: für Folgelauf nach Keynote-Datum zur Fortschreibung von § 8.2 markiert.
+- Fenstererweiterung (Cluster D, OpenAI-5-%-Vorschlag): Präzedenzfall Bloomberg-Editorial (April 2026 → Version 20.0) genutzt; die Erweiterung wurde ausdrücklich mit § 4.5-Kohärenz zum bereits eingearbeiteten Sanders SWF Act und dem Cluster-D-Trigger *„OpenAI-/Anthropic-Folgeveröffentlichungen"* begründet — keine allgemeine Aufweichung der Fensterdisziplin.
+- IAB-Kurzbericht 8/2026 „Jeder vierte Betrieb nutzt generative KI" (5. Mai 2026, Friedrich/Kagerl, 15.000-Betriebe-Panel): 25 % Nutzung 2025 (vs. 5 % 2023); Großbetriebe > 200 Beschäftigte 48 %, Kleinbetriebe < 10 Beschäftigte 21 %; 90 % nutzen frei zugängliche KI; für einen strukturellen Anschluss-Absatz zur Verbreitung generativer KI in deutschen Betrieben in § 1.1 oder § 3.5 im späteren Lauf markiert.
+- Branch dieses Laufs: `claude/determined-einstein-jgl44j`.
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben.
+
+---
+
 ## 2026-07-11 — Lauf 001 — Version 30.0 → Version 31.0
 
 ### Recherchekorridor
