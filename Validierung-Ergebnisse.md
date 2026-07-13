@@ -7,6 +7,80 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 13. Juli 2026 (Lauf 001 vom 13. Juli 2026) — Version 32.0 → Version 33.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 13. Juli 2026 im Standard-7-Tage-Fenster (6.–13. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (11.–13. Juli 2026). Zwei belegbare Fortschreibungen aus dem Fenster identifiziert: (a) Cluster B/E mit der zweiten und dritten Lesung des *GKV-Beitragssatzstabilisierungsgesetzes* im Bundestag am 10. Juli 2026 (namentliche Abstimmung 318 zu 284 Stimmen in Kalenderwoche 28) und (b) Cluster I mit der am 10. Juli 2026 vor dem *United States District Court for the Northern District of California* eingereichten 41-seitigen Klageschrift *Apple Inc. v. OpenAI, OpenAI OpCo LLC & io Products, Inc.* wegen systematischer Aneignung von Trade Secrets.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *GKV-Beitragssatzstabilisierungsgesetz — Bundestagsverabschiedung 10. Juli 2026* (Cluster B/E): Bundestag beschließt in der 28. Kalenderwoche 2026 das Gesetz in namentlicher Abstimmung mit 318 zu 284 Stimmen (2./3. Lesung); erste Lesung war am 12. Juni 2026 im Anschluss an den Kabinettsbeschluss vom 29. April 2026 erfolgt; erster Bundesratsdurchgang am 8. Mai 2026 (1065. Sitzung). Konsolidierungspfad rund 15 bis 19,6 Mrd. Euro für 2027 mit einer Steigerung auf rund 42,8 Mrd. Euro bis 2030 nach BMG-Tabellen. Der zweite Bundesratsdurchgang steht noch aus. Quellen: BMG-Pressemitteilung vom 10. Juli 2026, Bundestag-Textarchiv (kw28-de-gkv), Pharma Deutschland, abgeordnetenwatch, transkript. | § 5.2 (bestehender GKV-Absatz um Bundestagsverabschiedung ergänzt); § 11.3 (neuer Sammelbeleg-Eintrag); Aktualitätshinweis am Dokumentende ergänzt; README.md 33.0. | Erste vollzogene deutsche parlamentarische Verabschiedung auf einem der beiden zentralen Reformpfade der Bismarck-Sicherungszweige (Ausgabenseite). Der Vorgang bestätigt den in § 5.1 und § 5.2 argumentierten strukturellen Handlungsdruck auf die lohnbasierten Sicherungszweige und stützt die These, dass eine Verbreiterung der Bemessungsgrundlage (§ 5.1 Wertschöpfungsabgabe) fiskalisch parallel zu einer ausgabenseitigen Konsolidierung debattiert werden muss; für die Deutschland-These in Kapitel 8 (Umstellung der Sozialstaatsfinanzierung von Lohn auf Wertschöpfung als eine der drei Säulen) ist die Verabschiedung ein aktueller institutioneller Referenzpunkt. |
+| 2 | *Apple Inc. v. OpenAI et al. — Trade-Secret-Klage vom 10. Juli 2026* (Cluster I): 41-seitige Klageschrift vor dem United States District Court for the Northern District of California gegen OpenAI, OpenAI OpCo LLC, dessen Hardware-Tochter *io Products, Inc.*, den *Chief Hardware Officer* Tang Yew Tan (früher Vice President bei Apple) und den früheren *Senior Systems Electrical Engineer* Chang Liu. Vorwurf: systematische Aneignung von Trade Secrets „at every level, from members of technical staff to its Chief Hardware Officer, and in coordination with business partners". Apple gibt an, dass inzwischen über 400 ehemalige Apple-Beschäftigte bei OpenAI arbeiten; Einzelvorwürfe: Show-and-Tell-Interviews mit „actual parts", Fortbestehen eines dienstlich ausgegebenen Apple-Notebooks nach Beschäftigungsende, Zugriff auf über *Dutzend* interne Apple-Dateien nach Wechsel, Weitergabe eines Apple-Offboarding-Dokuments zur Umgehung der Exit-Sicherheitskontrollen. Quellen: Bloomberg (10. Juli 2026), CNBC, Axios, TechCrunch, Engadget, Cybersecurity News. | § 8.2 (neuer Absatz direkt nach dem DeepMind-Talent-Bestands-Passus als *rechtsförmige* Fortschreibung); § 11.5 (neuer Sammelbeleg-Eintrag); Aktualitätshinweis am Dokumentende ergänzt; README.md 33.0. | Erste prominente Trade-Secret-Klage zwischen einem US-Konsumelektronik-Konzern und einem US-Frontier-Anbieter über die Talent-Basis; ergänzt die in Version 29.0 aufgenommene DeepMind-Talent-Bestandsdimension um eine explizit rechtsförmige Ebene und bekräftigt das Volatilitätsargument gegen bestandsorientierte Umverteilungslogiken (§ 8.3), die an aktuellen Marktkapitalisierungen einzelner Frontier-Anbieter anknüpfen. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- Japan sovereign AI + 10 Millionen Roboter bis 2040 (Ankündigung 1. Juli 2026, Konsortium *Noetra* mit SoftBank/NEC/Sony/Honda; bis zu 1 Bio. JPY / 6,1 Mrd. USD über fünf Jahre) — Ankündigungsdatum außerhalb 7-Tage-Fenster; für Folgelauf als Aufnahmekandidat für Kapitel 6 (Internationale Praxis) und § 7.1 (Pflegerobotik) markiert.
+- Meta Compute Cloud-Geschäft (Bloomberg 1. Juli 2026 — *Meta Compute* mit Santosh Janardhan, Daniel Gross, Dina Powell McCormick als Führung; direkter Wettbewerb zu AWS/Azure/GCP; Aktienkurs Meta +8,8 %, CoreWeave −14 %, Nebius −17 %) — Ankündigungsdatum außerhalb 7-Tage-Fenster; für Folgelauf zur Fortschreibung von § 8.2 (Verdichtung der Angebotsseite) markiert.
+- Microsoft AI Deployment Company mit 2,5-Mrd.-USD-Commitment (TechCrunch, 2. Juli 2026) — außerhalb 7-Tage-Fenster; für späteren Lauf markiert.
+- Intuit 3.000 Stellenstreichungen / 17 % Belegschaft (CEO-Memo 20. Mai 2026, Exit 31. Juli 2026) — Ankündigungsdatum außerhalb 7-Tage-Fenster; Konzernkontext (Anthropic- und OpenAI-Kooperationen für Produktintegration) für Folgelauf notiert.
+- SkillSyncer / TrueUp-Trackerstand 12./13. Juli 2026 — keine neuen aggregierten Meldungen gegenüber dem 9. Juli 2026 (267/185.894/56 % konstant); Dublettenfilter greift.
+- OpenAI-IPO-Vorbereitung mit Goldman Sachs / Morgan Stanley (Zieltermin September 2026, Bewertung ~730 Mrd. USD) — vertrauliches Filing, keine belastbare Primärquelle im 7-Tage-Fenster; für Folgelauf nach offiziellem Filing markiert.
+- Anthropic Claude-Corps-Fellowship (Ankündigung Anfang Juli 2026) — nicht steuerbezogen; außerhalb Cluster-Trigger.
+- Google Africa Applied AI Lab (Ankündigung 11./12. Juli 2026) — nicht steuerbezogen; außerhalb Cluster-Trigger.
+- Google Gemini 3.5 Pro Release 17. Juli 2026 — zukünftiges Ereignis; unverändert für Folgelauf markiert.
+- AMD Helios / MI455X Keynote 23. Juli 2026 — zukünftiges Ereignis; unverändert für Folgelauf markiert.
+- Cluster G (Gesundheitswesen) — fünfzehntes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster; strukturelles Muster verfestigt sich.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitt 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Säulen der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Der erweiterte GKV-Absatz in § 5.2 verweist kontrolliert auf § 5.1 (Wertschöpfungsabgabe). Der neue Apple-v.-OpenAI-Absatz in § 8.2 verweist auf § 8.3 (Volatilitätsargument, bestandsorientierte Umverteilung). Alle Ziele existieren. |
+| 2.1.4 Roter Faden | OK | Die GKV-Verabschiedung schließt den prospektiv formulierten Reformpfad im Indikativ ab und wahrt den Ort in § 5.2. Der Apple-v.-OpenAI-Absatz reiht sich argumentativ direkt hinter den DeepMind-Talent-Bestands-Absatz aus Version 29.0 ein und ergänzt dessen ökonomische Dimension um eine rechtsförmige Ebene. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; Fettungen bei den beiden neuen/aktualisierten Absätzen einheitlich; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | GKV-Abstimmungszahlen (318 zu 284) durch BMG-Pressemitteilung, Bundestag-Textarchiv (kw28) und drei Sekundärquellen (Pharma Deutschland, abgeordnetenwatch, transkript) konsistent belegt; Fahrplan Erstlesung 12. Juni 2026 / Kabinettsbeschluss 29. April 2026 / Bundesrat 8. Mai 2026 stimmt mit bestehender Dokumentation überein. Apple-v.-OpenAI-Details durch Bloomberg (Primärberichterstattung 10. Juli 2026) sowie mindestens fünf weitere Wirtschafts- und Tech-Medien (CNBC, Axios, TechCrunch, Engadget, Cybersecurity News) sekundärbelegt; die 41-Seiten-Klageschrift, das Aktenzeichen ND-Cal., die genannten Personen (Tang Yew Tan, Chang Liu), die Zahl von über 400 ehemaligen Apple-Beschäftigten und das direkte Zitat „at every level, from members of technical staff to its Chief Hardware Officer, and in coordination with business partners" sind in allen zitierten Berichten konsistent wiedergegeben. |
+| 2.2.2 Redundanzprüfung | OK | Der GKV-Zusatz in § 5.2 entfaltet die prospektive Formulierung „parlamentarische Behandlung ... vor der Sommerpause 2026" ohne die bisherige Kernaussage zu duplizieren. Der Apple-v.-OpenAI-Absatz führt einen bislang im Papier nicht dokumentierten Sachverhalt ein; keine Dopplung zum DeepMind-Talent-Bestands-Absatz (ökonomische Bewegung ohne Rechtsförmigkeit) oder zum OpenAI-5-%-Vorschlag (Eigentumsseite, nicht Trade-Secret-Ebene). |
+| 2.2.3 Argumentation | OK | Der neue Apple-v.-OpenAI-Absatz referiert den Vorgang durchgängig im Indikativ, wo Faktum („Apple reichte ... eine Klageschrift ein"), und im Konjunktiv, wo Vorwurf/Ausgang offen bleibt („Apple stützt die Klage auf den Vorwurf"). Deutschland-These bleibt unverändert. |
+| 2.2.4 Ausgewogenheit | OK | Der GKV-Absatz behält die ausgewogene Kombination von Betroffenengruppen (Krankenhäuser, pharmazeutische Industrie, Apotheken, Ärzteschaft, Versicherte, Arbeitgeber, Krankenkassen) bei. Der Apple-v.-OpenAI-Absatz nennt sowohl Apples Vorwürfe als auch die formalen Klage-Objekte, ohne den Prozessausgang zu präjudizieren. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „Trade Secret" konsistent, beim ersten Auftreten deutsch mit Erklärung gekoppelt; „Chief Hardware Officer" und „Senior Systems Electrical Engineer" konsistent kursiviert; „*io Products, Inc.*" beim ersten Auftreten kursiviert. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | § 11.3 um Sammelbeleg zur Bundestagsverabschiedung des GKV-Gesetzes ergänzt; § 11.5 um Sammelbeleg zur Apple-v.-OpenAI-Klage ergänzt. Jede Fließtextreferenz hat einen Literatur-Eintrag. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil; vollständige URLs; Datumsangaben („10. Juli 2026") einheitlich; Gerichtsangabe („United States District Court for the Northern District of California") einheitlich. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | BMG-Pressemitteilung als Primärquelle für die Bundestagsverabschiedung; Bundestag-Textarchiv (kw28) als parlamentarische Primärquelle für die namentliche Abstimmung. Bloomberg als führende Wirtschafts-Primärberichterstattung zu Apple v. OpenAI mit Zitat aus der Klageschrift; jeweils drei oder mehr unabhängige Sekundärquellen sichern Detailangaben ab. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 13. Juli 2026: www.bundesgesundheitsministerium.de/ministerium/meldungen/bundestag-beschliesst-gkv-beitragssatzstabilisierunggesetz-pm-10-07-2026 (Titel und Datum bestätigt); www.bundestag.de/dokumente/textarchiv/2026/kw28-de-gkv-1184352 (Abstimmungszahlen 318:284 bestätigt); www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html (Titel und Zitat bestätigt); www.axios.com/2026/07/10/apple-sues-openai-trade-secret-theft (Titel bestätigt); techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/ (Titel und io-Products-Referenz bestätigt). |
+| 2.4.5 Zitatgenauigkeit | OK | Bundestag-Abstimmungszahlen 318:284 in Bundestag-Textarchiv (kw28) und abgeordnetenwatch identisch. Apple-v.-OpenAI-Kernaussage „at every level, from members of technical staff to its Chief Hardware Officer, and in coordination with business partners" in CNBC, Bloomberg und Engadget identisch wiedergegeben; „over 400 former employees" in Bloomberg, CNBC und TechCrunch konsistent. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 33.0 durchgängig: Dokumentkopf (KI-Ökonomie.md), `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung mit Versions-Eintrag 33.0) und dieser Protokoll-Block. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltlichen Ergänzungen hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | — | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 33.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 12. Juli 2026 (Lauf 001 vom 12. Juli 2026) — Version 31.0 → Version 32.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf des Tages, Folgelauf zu Lauf 001 vom 11. Juli 2026. Web-Recherche im Korridor der Cluster A–J am 12. Juli 2026 im Standard-7-Tage-Fenster (5.–12. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (10.–12. Juli 2026). Zwei belegbare Fortschreibungen aus dem Umfeld des Fensters identifiziert: (a) Cluster I mit dem termingebundenen Vollzug der Anthropic-*Fable 5*-Umstellung auf Nutzungsguthaben (Kontingent-Frist 12. Juli 2026 23:59:59 PT — im 48-Stunden-Fenster liegend) und (b) Cluster D mit dem am 2./3. Juli 2026 berichteten OpenAI-Gegenvorschlag zum Sanders-SWF-Act (Fenstererweiterung wegen § 4.5-Kohärenz mit bereits eingearbeitetem Sanders SWF Act; Trigger *„OpenAI-/Anthropic-Folgeveröffentlichungen"* aus Cluster D erfüllt; Präzedenzfall Bloomberg-Editorial April 2026 in Version 20.0).

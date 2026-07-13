@@ -54,6 +54,92 @@
 
 ---
 
+## 2026-07-13 — Lauf 001 — Version 32.0 → Version 33.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, C, F, H, J ohne belegbare Neuzugänge im 7-Tage-Fenster; Cluster G fünfzehntes Mal in Folge). Fortschreibungen aus Cluster B/E (Bundestagsverabschiedung des GKV-Beitragssatzstabilisierungsgesetzes am 10. Juli 2026) und Cluster I (Trade-Secret-Klage Apple v. OpenAI vom 10. Juli 2026).
+- Zeitfenster: Standard 7 Tage (6.–13. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (11.–13. Juli 2026). Der Apple-v.-OpenAI-Vorgang liegt streng genommen einen Tag außerhalb der 48-Stunden-Frist (Klagedatum 10. Juli 2026, 72 Stunden zurück gerechnet vom 13. Juli 2026), wurde aber in Analogie zu den bisherigen Läufen (Aufnahme von Ereignissen mit einer Rest-Berichterstattung im 48-Stunden-Fenster; Präzedenzfall Version 28.0 mit dem SemiAnalysis-Kyber-Bericht vom 6. Juli 2026 im Lauf vom 8. Juli 2026) aufgenommen, weil die Zweit- und Drittberichterstattung (Cybersecurity News, Engadget, Analyseberichte) am 11./12. Juli 2026 innerhalb des Fensters liegt und der Vorgang inhaltlich unmittelbar an die in Version 29.0 aufgenommene DeepMind-Talent-Bestandsdimension anschließt.
+- Anzahl Suchanfragen: 12 (Web-Suche) + gezielte Einzelchecks für die aufgenommenen Belege.
+- Lauf 001 vom 13. Juli 2026 ist der Folgelauf zu Lauf 001 vom 12. Juli 2026 (Version 31.0 → 32.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B/E | Bundesministerium für Gesundheit, *Bundestag beschließt GKV-Beitragssatzstabilisierungsgesetz* (Pressemitteilung, 10. Juli 2026) | https://www.bundesgesundheitsministerium.de/ministerium/meldungen/bundestag-beschliesst-gkv-beitragssatzstabilisierunggesetz-pm-10-07-2026 | übernommen (Primärquelle) |
+| 2 | B/E | Deutscher Bundestag, Textarchiv 28. Kalenderwoche 2026, *Nach hitziger Debatte: Bundestag verabschiedet GKV-Finanzreform* (10. Juli 2026, namentliche Abstimmung 318:284) | https://www.bundestag.de/dokumente/textarchiv/2026/kw28-de-gkv-1184352 | übernommen (parlamentarische Primärquelle) |
+| 3 | B/E | Pharma Deutschland, *GKV-Beitragssatzstabilisierungsgesetz im Bundestag beschlossen* (10. Juli 2026) | https://www.pharmadeutschland.de/newsroom/news/gkv-beitragssatzstabilisierungsgesetz-im-bundestag-beschlossen/ | übernommen (Sammelbeleg) |
+| 4 | B/E | abgeordnetenwatch.de, *GKV-Reform — Namentliche Abstimmung* (10. Juli 2026) | https://www.abgeordnetenwatch.de/bundestag/21/abstimmungen/gkv-reform | übernommen (Sammelbeleg) |
+| 5 | B/E | transkript, *Bundestag beschließt GKV-Beitragssatzstabilisierungsgesetz* (10. Juli 2026) | https://transkript.de/artikel/2026/bundestag-beschliesst-gkv-beitragssatzstabilisierungsgesetz/ | übernommen (Sammelbeleg) |
+| 6 | I | Bloomberg, *Apple Sues OpenAI for Trade Secret Theft Over AI Hardware Designs* (10. Juli 2026) | https://www.bloomberg.com/news/articles/2026-07-10/apple-sues-openai-for-trade-secret-theft-in-blockbuster-case | übernommen (führende Wirtschafts-Primärberichterstattung) |
+| 7 | I | CNBC, *Apple sues OpenAI alleging trade secret theft, says scheme was „at every level"* (10. Juli 2026) | https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html | übernommen (Sammelbeleg) |
+| 8 | I | Axios, *Apple sues OpenAI for trade secret theft* (10. Juli 2026) | https://www.axios.com/2026/07/10/apple-sues-openai-trade-secret-theft | übernommen (Sammelbeleg) |
+| 9 | I | TechCrunch, *Apple sues OpenAI over alleged trade secret theft* (10. Juli 2026) | https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/ | übernommen (Sammelbeleg) |
+| 10 | I | Engadget, *Apple calls OpenAI's hardware business „rotten to its core" in trade secret theft lawsuit* (10. Juli 2026) | https://www.engadget.com/2212759/apple-calls-openais-hardware-business-rotten-to-its-core-in-trade-secret-theft-lawsuit/ | übernommen (Sammelbeleg) |
+| 11 | I | Cybersecurity News, *Apple Sues OpenAI and Former Employees for Alleged Theft of Trade Secrets* (11. Juli 2026) | https://cybersecuritynews.com/apple-sues-openai/ | übernommen (Sammelbeleg) |
+| 12 | D | The Japan Times / Reuters, *Japan plans sovereign AI model, 10 million AI robots* (1. Juli 2026, aufgegriffen ChinaTechNews 7. Juli 2026) | https://www.japantimes.co.jp/news/2026/07/01/japan/japan-ai-plans/ | verworfen (Ankündigungsdatum außerhalb 7-Tage-Fensters; für Folgelauf markiert) |
+| 13 | I | Bloomberg / Tom's Hardware / SemiAnalysis, *Meta Compute — neocloud plans* (1. Juli 2026) | https://www.tomshardware.com/tech-industry/meta-reportedly-plans-to-rent-out-its-ai-compute | verworfen (Ankündigungsdatum außerhalb 7-Tage-Fensters) |
+| 14 | I | TechCrunch, *Microsoft launches its own AI deployment company with $2.5 billion commitment* (2. Juli 2026) | https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/ | verworfen (Ankündigungsdatum außerhalb 7-Tage-Fensters) |
+| 15 | F | TechCrunch, *Intuit to lay off over 3.000 employees to refocus on AI* (20. Mai 2026; Exit 31. Juli 2026) | https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/ | verworfen (Ankündigungsdatum außerhalb Cluster-F-48-Stunden-Fensters) |
+| 16 | I | The Neuron / DesignRush, *OpenAI IPO Confidential Filing with Goldman Sachs / Morgan Stanley, Ziel September 2026, Bewertung ~730 Mrd. USD* (10./11. Juli 2026) | https://www.theneuron.ai/explainer-articles/around-the-horn-digest-everything-that-happened-in-ai-today-friday-july-3-2026/ | verworfen (vertrauliches Filing, keine belastbare Primärquelle) |
+| 17 | I | Anthropic, *Claude Corps Fellowship* (Anfang Juli 2026) | https://www.anthropic.com/news | verworfen (nicht steuerbezogen; außerhalb Cluster-Trigger) |
+| 18 | I | Google, *Google Africa Applied AI Lab in Accra* (11./12. Juli 2026) | https://blog.google/ | verworfen (nicht steuerbezogen; außerhalb Cluster-Trigger) |
+| 19 | G | G-BA / gematik / BfArM, Juli 2026 | https://www.g-ba.de/ | verworfen (fünfzehntes Mal in Folge ohne KI-spezifische Beschlüsse) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 5.2 | Aktualisierung | Bestehender GKV-Reform-Absatz um erste Lesung 12. Juni 2026 und 2./3. Lesung am 10. Juli 2026 mit namentlicher Abstimmung (318:284, Kalenderwoche 28) ergänzt; noch ausstehender zweiter Bundesratsdurchgang notiert. | 1–5 |
+| 2 | § 8.2 | Ergänzung | Neuer eigenständiger Absatz direkt nach dem DeepMind-Talent-Bestands-Passus: Apple reicht am 10. Juli 2026 vor dem United States District Court for the Northern District of California eine 41-seitige Klageschrift gegen OpenAI, dessen Hardware-Tochter io Products, den Chief Hardware Officer Tang Yew Tan und den früheren Senior Systems Electrical Engineer Chang Liu wegen systematischer Aneignung von Trade Secrets ein; über 400 ehemalige Apple-Beschäftigte inzwischen bei OpenAI; ergänzt die DeepMind-Talent-Bestandsdimension aus Version 29.0 um eine rechtsförmige Ebene und stützt das Volatilitätsargument gegen bestandsorientierte Umverteilungslogiken (§ 8.3). | 6–11 |
+| 3 | § 11.3 | Ergänzung | Neuer Sammelbeleg zu Bundestagsverabschiedung des GKV-Beitragssatzstabilisierungsgesetzes (BMG, Bundestag-Textarchiv kw28, Pharma Deutschland, abgeordnetenwatch, transkript). | 1–5 |
+| 4 | § 11.5 | Ergänzung | Neuer Sammelbeleg zur Apple-v.-OpenAI-Klage (Bloomberg, CNBC, Axios, TechCrunch, Engadget, Cybersecurity News). | 6–11 |
+| 5 | Dokumentkopf | Aktualisierung | Version 32.0 → 33.0. | — |
+| 6 | Dokumentende | Aktualisierung | Aktualitätshinweis auf „Mitte Juli 2026 (Schnitt am 13. Juli 2026 — Lauf 001 vom 13. Juli 2026)" gesetzt; Lauf-001-Fortschreibungen in Auflistungstext aufgenommen. | 1–11 |
+| 7 | README.md | Aktualisierung | Versionssprung 32.0 → 33.0 (Versionszeile, Zitiervorschlag, KI-Offenlegung um Versions-Eintrag 33.0 ergänzt). | — |
+| 8 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 13. Juli 2026 (Lauf 001 vom 13. Juli 2026) — Version 32.0 → Version 33.0" mit Prüftabelle 2.1.1–2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 12 | Japan sovereign AI + 10 Mio. Roboter bis 2040 (Ankündigung 1. Juli 2026) | D | Ankündigungsdatum außerhalb 7-Tage-Fensters; für Folgelauf zur Aufnahme in Kapitel 6 (Internationale Praxis) und § 7.1 (Pflegerobotik) markiert. |
+| 13 | Meta Compute Cloud-Geschäft (Bloomberg 1. Juli 2026) | I | Ankündigungsdatum außerhalb 7-Tage-Fensters; für Folgelauf zur Fortschreibung von § 8.2 (Verdichtung der Angebotsseite) markiert. |
+| 14 | Microsoft AI Deployment Company / 2,5 Mrd. USD (TechCrunch 2. Juli 2026) | I | Außerhalb 7-Tage-Fensters. |
+| 15 | Intuit 3.000 Stellenstreichungen / 17 % (20. Mai 2026, Exit 31. Juli 2026) | F | Ankündigungsdatum außerhalb Cluster-F-48-Stunden-Fensters. |
+| 16 | OpenAI-IPO-Vorbereitung (vertrauliches Filing, Ziel September 2026) | I | Vertrauliches Filing, keine belastbare Primärquelle im 7-Tage-Fenster. |
+| 17 | Anthropic Claude Corps Fellowship (Anfang Juli 2026) | I | Nicht steuerbezogen; außerhalb Cluster-Trigger. |
+| 18 | Google Africa Applied AI Lab (11./12. Juli 2026) | I | Nicht steuerbezogen; außerhalb Cluster-Trigger. |
+| 19 | G-BA / gematik / BfArM Juli 2026 | G | Fünfzehntes Mal in Folge ohne KI-spezifische Beschlüsse. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument und Literaturverzeichnis: Ja (GKV-Reformschiene war in § 5.2 mit „parlamentarische Behandlung vor der Sommerpause 2026 angekündigt" prospektiv formuliert und wurde nun um Kabinettsbeschluss 29. April 2026, erste Lesung 12. Juni 2026, erster Bundesratsdurchgang 8. Mai 2026 und Bundestagsverabschiedung am 10. Juli 2026 im Indikativ ergänzt; die Apple-v.-OpenAI-Klage ist bislang im Papier nicht dokumentiert und wird erstmals aufgenommen; Fable-5-Umstellung, OpenAI-5-%-Vorschlag, KI-MIG, Meta Muse Spark 1.1, GPT-5.6-Freigabe, Fable-5-Redeployment, DeepMind-Talent-Bewegung, NVIDIA-Kyber-Verzögerung, OECD Employment Outlook 2026, Vera-Rubin-Auslieferung, Sanders SWF S. 4825, Anthropic „Cadences", Anthropic Sonnet 5, Digital Omnibus 29. Juni 2026, SkillSyncer 267/185.894/56 %, Microsoft-Layoff-Runde 4.800 bereits in Vorlauf-Versionen dokumentiert und nicht erneut eingespielt)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block „13. Juli 2026 — Version 32.0 → Version 33.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja (Phase 5)
+- Word erstellt (`build_docx.py`): Ja (Phase 5)
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (33.0 durchgängig)
+- E-Mail-Benachrichtigung (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (3.245 Zeichen, unter der 5.000-Zeichen-Grenze). In dieser Session sind keine Microsoft-Graph-Send-Tools (`mail_send`, `send_mail`, `send_message`, `outlook_send`) im Microsoft-365-MCP erreichbar — ToolSearch mit dem Muster liefert keine Treffer. Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-mail.txt` noch in dieses Logbuch, in Commits, den Abschlussbericht oder eine andere versionierte Datei übernommen.
+- WhatsApp-Zusammenfassung (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (685 Zeichen, unter der 1.000-Zeichen-Grenze). Der `whatsapp`-MCP-Server ist in dieser Session nicht verbunden — `wa_send_message` und Alternativen mit `send`/`send_message`-Muster nicht erreichbar. Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-whatsapp.txt` noch in dieses Logbuch übernommen.
+- Branch auf main gemerged und gelöscht: Ja (Muster wie in Läufen zuvor; Refspec-Ergebnis in Phase 6 dokumentiert)
+
+### Auffälligkeiten / offene Punkte
+
+- Cluster G (Gesundheitswesen) fünfzehntes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster; strukturelles Muster verfestigt sich.
+- GKV-Reform: Der zweite Bundesratsdurchgang steht noch aus; für den Folgelauf zu verfolgen. Beitragsseite bleibt in der Reform ausdrücklich unberührt — die in § 5.1 vorgeschlagene Verbreiterung der Bemessungsgrundlage bleibt ein von der aktuellen Reform strukturell getrennter Reformpfad.
+- Apple-v.-OpenAI: Prozessuale Nächstschritte (Case Management Conference, mögliche Vorab-Antwort OpenAI innerhalb der üblichen 21-Tage-Frist, mögliche Anordnung eines Preliminary Injunction) im Folgelauf zu beobachten; insbesondere Reaktion OpenAIs auf die im Kern namentlich benannten Personen Tang Yew Tan und Chang Liu.
+- Japan sovereign AI + 10 Mio. Roboter bis 2040 (1. Juli 2026): Aufnahmekandidat für Folgelauf in Kapitel 6 (Internationale Praxis, § 6.4 Weitere Ansätze) und § 7.1 (Pflegerobotik); Cluster-D- und Cluster-J-Trigger klar erfüllt; Fenstererweiterung wird jedoch nicht vorgezogen.
+- Meta Compute (1. Juli 2026): Aufnahmekandidat für Folgelauf zur Fortschreibung von § 8.2 (Verdichtung der Angebotsseite / Direktwettbewerb Meta vs. AWS/Azure/GCP).
+- OpenAI-IPO-Filing (Ziel September 2026): für Folgelauf nach offiziellem SEC-Filing markiert.
+- Google Gemini 3.5 Pro Release 17. Juli 2026: für Folgelauf zur Fortschreibung von § 8.2 unverändert markiert.
+- AMD Helios / MI455X Keynote 23. Juli 2026: für Folgelauf nach Keynote-Datum zur Fortschreibung von § 8.2 unverändert markiert.
+- Branch dieses Laufs: `claude/determined-einstein-10yr54`.
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben.
+
+---
+
 ## 2026-07-12 — Lauf 001 — Version 31.0 → Version 32.0
 
 ### Recherchekorridor
