@@ -7,6 +7,76 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 14. Juli 2026 (Lauf 001 vom 14. Juli 2026) — Version 33.0 → Version 34.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 14. Juli 2026 im Standard-7-Tage-Fenster (7.–14. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (12.–14. Juli 2026). Eine belegbare Fortschreibung aus dem Fenster identifiziert: Cluster B/E mit dem Vollzug des zweiten Bundesratsdurchgangs des *GKV-Beitragssatzstabilisierungsgesetzes* am 10. Juli 2026 — der im Lauf vom 13. Juli 2026 als offener Punkt festgehaltene zweite Durchgang ist damit erledigt.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *GKV-Beitragssatzstabilisierungsgesetz — zweiter Bundesratsdurchgang 10. Juli 2026* (Cluster B/E): Der Bundesrat billigt das am selben Tag vom Bundestag verabschiedete Gesetz. Ein von den sechs Ländern Saarland, Bremen, Hamburg, Mecklenburg-Vorpommern, Niedersachsen und Sachsen-Anhalt gestellter Antrag auf Anrufung des Vermittlungsausschusses scheitert an der Zweidrittelmehrheit; die Bundesregierung sichert in einer Protokollerklärung Zugeständnisse zu (rund 550 Mio. EUR zusätzliche Krankenhausmittel — davon 100 Mio. EUR für Universitätskliniken ab 2027 und 450 Mio. EUR über einen erhöhten Rechnungszuschlag —, Angleichung der Kostenaufwuchsgrenze 2027–2029, Abbau von Bürokratie einschließlich PPR 2.0 und Pflegepersonaluntergrenzen, erweiterte Ausnahmen vom 15,5-%-Herstellerabschlag im Pharmabereich bis Januar 2027, interministerielles Fachgremium bis Ende September 2026). Das Gesetz kann damit ohne weitere parlamentarische Behandlung in Kraft treten. Quellen: Deutsches Ärzteblatt (10. Juli 2026), DATEV-Magazin, STB Treuhand, ZDFheute. | § 5.2 (bestehender GKV-Absatz um den vollzogenen zweiten Bundesratsdurchgang, das gescheiterte Vermittlungsausschuss-Verfahren und die Protokollerklärung ergänzt); § 11.3 (neuer Sammelbeleg-Eintrag); Aktualitätshinweis am Dokumentende ergänzt; README.md 34.0. | Der im Lauf vom 13. Juli 2026 als offener Punkt vermerkte zweite Bundesratsdurchgang ist vollzogen — die ausgabenseitige Konsolidierungsschiene der GKV-Reform ist damit legislativ abgeschlossen. Für die Deutschland-These in Kapitel 8 (Umstellung der Sozialstaatsfinanzierung von Lohn auf Wertschöpfung als eine der drei Säulen) bestätigt der Vorgang, dass die deutsche Politik den ausgabenseitigen Reformpfad prioritär beschreitet, während die in § 5.1 vorgeschlagene beitragsseitige Verbreiterung der Bemessungsgrundlage ausdrücklich unberührt bleibt und als strukturell getrennter Reformpfad bestehen bleibt. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- Cisco Bay Area WARN-Filings (471 Stellen, effektiv 13. Juli 2026) — Cluster F, formell im 48-Stunden-Fenster; die zugrunde liegende Ankündigung stammt jedoch bereits vom 13. Mai 2026 (weltweit 4.000 Stellen), der 13. Juli 2026 ist nur das Wirksamkeitsdatum aus vorlaufenden WARN-Filings. Keine neue Ankündigung im 48-Stunden-Fenster; für Aggregat-Tracker (SkillSyncer/TrueUp) nicht separat kausalrelevant. Dublette gegenüber der bereits in § 1.1 dokumentierten Layoff-Welle.
+- UMA Northstar humanoider Roboter (Rémi Cadène, ex-Tesla Optimus / Hugging Face LeRobot; 7. Juli 2026) — Cluster J, formell im 7-Tage-Fenster; Steuerbezug jedoch nur mittelbar (Marktstruktur humanoider Robotik in Europa), keine unmittelbare Anknüpfung an eine Steueranknüpfung, Subventionsausgestaltung oder Sozialpartner-Beteiligung. Für Folgelauf zur Fortschreibung von § 8.2 (europäische Frontier-Präsenz) und § 1.1 (Robotik-Marktstruktur) markiert.
+- arXiv-Papier *Taxing Artificial Intelligence* von Faivre und Cen (2. Juli 2026) — Cluster A, außerhalb 7-Tage-Fenster; Übersichtscharakter (Survey), kein neuer Modellbefund; für Folgelauf mit erweitertem Fenster ggf. für § 11.1 markiert.
+- NBER Working Paper 34873 *Public Finance in the Age of AI: A Primer* (Korinek & Lockwood) — bereits in Version 9.0 aufgenommen (Dublette).
+- Sachverständigenrat-Jahresgutachten 2025/26 — Veröffentlichungsdatum außerhalb des 7-Tage-Fensters; die Sektion *Automatisierung, Digitalisierung & Künstliche Intelligenz* (S. 499) für Folgelauf zur Aufnahme in § 3.3 / § 3.5 markiert.
+- Digital Omnibus on AI — bereits in Version 23.0 vollständig dokumentiert (Ratsbeschluss 29. Juni 2026); keine neuen belegbaren Fortschreibungen im Fenster.
+- OpenAI 5-%-Vorschlag, GPT-5.6-Freigabe, Meta Muse Spark 1.1, Fable-5-Vollzug, Sanders S. 4825, Anthropic *Cadences*, DeepMind-Talent-Bewegung, Apple v. OpenAI, Bundestagsverabschiedung GKV, Microsoft-Layoff-Runde, Vera-Rubin-Auslieferung, NVIDIA-Kyber-Verzögerung — sämtlich in Vorlauf-Versionen dokumentiert (Dubletten).
+- Cluster G (Gesundheitswesen) — sechzehntes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster; das strukturelle Muster verfestigt sich weiter.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitt 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Säulen der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Der erweiterte GKV-Absatz in § 5.2 verweist wie bisher kontrolliert auf § 5.1 (Wertschöpfungsabgabe). Keine neuen Querverweise, keine bestehenden Ziele verschoben. |
+| 2.1.4 Roter Faden | OK | Der Vollzug des zweiten Bundesratsdurchgangs schließt den prospektiv formulierten „noch ausstehend"-Passus aus Version 33.0 kontrolliert im Indikativ ab; der Ort bleibt § 5.2, keine Wanderung in andere Kapitel. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; keine unausgeglichenen Fettungen; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Bundesratssitzung 10. Juli 2026 mit gescheiterter Anrufung des Vermittlungsausschusses durch Deutsches Ärzteblatt (Primärberichterstattung; direktes Zitat der Protokollerklärung), DATEV-Magazin, STB Treuhand und ZDFheute konsistent belegt; die Länderaufzählung (Saarland, Bremen, Hamburg, Mecklenburg-Vorpommern, Niedersachsen, Sachsen-Anhalt) findet sich identisch in Ärzteblatt und ZDF; die Zugeständnisse der Bundesregierung (~550 Mio. EUR Krankenhaus, PPR 2.0, Pharma-Ausnahmen) sind in Ärzteblatt und DATEV-Magazin identisch wiedergegeben. |
+| 2.2.2 Redundanzprüfung | OK | Der neue Passus in § 5.2 baut auf dem in Version 33.0 aufgenommenen Bundestagsverabschiedungs-Passus auf und ergänzt ihn um den zweiten Bundesratsdurchgang, ohne Kernaussagen zu duplizieren. Keine Dopplung zum ersten Bundesratsdurchgang (8. Mai 2026, 1065. Sitzung) — dieser bleibt separat referenziert. |
+| 2.2.3 Argumentation | OK | Der Vollzug wird durchgängig im Indikativ referiert („der zweite Bundesratsdurchgang findet am selben 10. Juli 2026 statt und billigt das Gesetz", „scheitert an der Zweidrittelmehrheit"). Konjunktivpflicht nicht anwendbar, da es sich um vollzogene Beschlüsse handelt. Deutschland-These unverändert. |
+| 2.2.4 Ausgewogenheit | OK | Der GKV-Passus bleibt in der ausgewogenen Kombination von Betroffenengruppen (Krankenhäuser, pharmazeutische Industrie, Apotheken, Ärzteschaft, Versicherte, Arbeitgeber, Krankenkassen); die Zugeständnisse der Bundesregierung werden ohne wertende Färbung wiedergegeben. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „Vermittlungsausschuss", „Protokollerklärung", „Rechnungszuschlag" konsistent verwendet; „PPR 2.0" und „Pflegepersonaluntergrenzen" beim ersten Auftreten in § 5.2 durch den Kontext („Abbau von Bürokratie einschließlich…") ausreichend eingeordnet. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | § 11.3 um Sammelbeleg zum zweiten Bundesratsdurchgang ergänzt (Deutsches Ärzteblatt, DATEV-Magazin, STB Treuhand, ZDFheute). Jede Fließtextreferenz hat einen Literatur-Eintrag. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil; vollständige URLs; Datumsangaben („10. Juli 2026") einheitlich. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Deutsches Ärzteblatt als reputable Primärberichterstattung mit unmittelbarem Zugriff auf Bundesrats-Plenar und Protokollerklärung; drei unabhängige Sekundärquellen (DATEV, STB Treuhand, ZDF) sichern Detailangaben ab. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 14. Juli 2026: www.aerzteblatt.de/news/gkv-reform-passiert-bundesrat-... (Titel und Länderaufzählung bestätigt); www.datev-magazin.de/nachrichten-steuern-recht/recht/bundesrat-billigt-reform-der-gesetzlichen-krankenkassen-147794 (Titel bestätigt); www.zdfheute.de/politik/deutschland/bundestag-bundesrat-entscheidungen-ueberblick-100.html (Beschlussüberblick bestätigt). |
+| 2.4.5 Zitatgenauigkeit | OK | Kein direktes Zitat aus der Protokollerklärung im Hauptdokument übernommen; die referierten Zugeständnisse sind gegenüber Deutsches Ärzteblatt und DATEV-Magazin sachlich korrekt wiedergegeben. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 34.0 durchgängig: Dokumentkopf (KI-Ökonomie.md), `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung mit Versions-Eintrag 34.0) und dieser Protokoll-Block. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltlichen Ergänzungen hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | — | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 34.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 13. Juli 2026 (Lauf 001 vom 13. Juli 2026) — Version 32.0 → Version 33.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 13. Juli 2026 im Standard-7-Tage-Fenster (6.–13. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (11.–13. Juli 2026). Zwei belegbare Fortschreibungen aus dem Fenster identifiziert: (a) Cluster B/E mit der zweiten und dritten Lesung des *GKV-Beitragssatzstabilisierungsgesetzes* im Bundestag am 10. Juli 2026 (namentliche Abstimmung 318 zu 284 Stimmen in Kalenderwoche 28) und (b) Cluster I mit der am 10. Juli 2026 vor dem *United States District Court for the Northern District of California* eingereichten 41-seitigen Klageschrift *Apple Inc. v. OpenAI, OpenAI OpCo LLC & io Products, Inc.* wegen systematischer Aneignung von Trade Secrets.

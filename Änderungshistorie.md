@@ -54,6 +54,82 @@
 
 ---
 
+## 2026-07-14 — Lauf 001 — Version 33.0 → Version 34.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, C, D, G, H, J ohne belegbare Neuzugänge im 7-Tage-Fenster; Cluster G sechzehntes Mal in Folge). Eine Fortschreibung aus Cluster B/E (zweiter Bundesratsdurchgang des GKV-Beitragssatzstabilisierungsgesetzes am 10. Juli 2026 — Erledigung des im Vorlauf offenen Punktes).
+- Zeitfenster: Standard 7 Tage (7.–14. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (12.–14. Juli 2026).
+- Anzahl Suchanfragen: 10 (Web-Suche) + gezielte Einzelchecks (Deutsches Ärzteblatt-WebFetch zur Verifikation der Protokollerklärung).
+- Lauf 001 vom 14. Juli 2026 ist der Folgelauf zu Lauf 001 vom 13. Juli 2026 (Version 32.0 → 33.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B/E | Deutsches Ärzteblatt, *GKV-Reform passiert Bundesrat, Entlastung für Kliniken und Pharma versprochen* (10. Juli 2026) | https://www.aerzteblatt.de/news/gkv-reform-passiert-bundesrat-entlastung-fur-kliniken-und-pharma-versprochen-9999ba6d-930c-46a0-b239-34417cf620ec | übernommen (Primärberichterstattung mit Zitat der Protokollerklärung und Länderaufzählung) |
+| 2 | B/E | DATEV-Magazin, *Bundesrat billigt Reform der gesetzlichen Krankenkassen* (10. Juli 2026) | https://www.datev-magazin.de/nachrichten-steuern-recht/recht/bundesrat-billigt-reform-der-gesetzlichen-krankenkassen-147794 | übernommen (Sammelbeleg) |
+| 3 | B/E | STB Treuhand, *Bundesrat billigt Reform der gesetzlichen Krankenkassen* (10. Juli 2026) | https://stb-treuhand.de/blog/bundesrat-billigt-reform-der-gesetzlichen-krankenkassen/ | übernommen (Sammelbeleg) |
+| 4 | B/E | ZDFheute, *Beschlüsse aus Berlin: Von Gesundheitsreform bis E-Scooter-Regeln* (10. Juli 2026) | https://www.zdfheute.de/politik/deutschland/bundestag-bundesrat-entscheidungen-ueberblick-100.html | übernommen (Sammelbeleg) |
+| 5 | F | TechTimes, *Cisco Layoffs Hit California As 471 Bay Area Workers Face Job Cuts In AI Era Restructuring* (13. Juli 2026, Wirksamkeitsdatum) | https://www.techtimes.com/articles/319430/20260701/software-engineers-top-ciscos-list-bay-area-warn-notices-hit-471-jobs.htm | verworfen (Ankündigungsdatum 13. Mai 2026 — bereits in Aggregat der Layoff-Welle enthalten; 13. Juli 2026 ist reines Wirksamkeitsdatum) |
+| 6 | J | Electrek, *Ex-Tesla Optimus scientist unveils European humanoid robot startup — UMA Northstar (Rémi Cadène)* (7. Juli 2026) | https://electrek.co/2026/07/07/tesla-optimus-scientist-uma-humanoid-robot/ | verworfen (kein unmittelbarer Steuerbezug; für Folgelauf als Aufnahmekandidat für § 8.2 / § 1.1 markiert) |
+| 7 | A | arXiv, *Taxing Artificial Intelligence* — Faivre & Cen (2. Juli 2026) | https://arxiv.org/abs/2607.02144 | verworfen (außerhalb 7-Tage-Fenster; Survey-Charakter, kein neuer Modellbefund) |
+| 8 | H | Sachverständigenrat 2025/26, *Perspektiven für morgen schaffen — Chancen nicht verspielen* (Sektion Automatisierung/Digitalisierung/KI, S. 499) | https://www.sachverstaendigenrat-wirtschaft.de/fileadmin/dateiablage/gutachten/jg202526/JG202526_Gesamtausgabe.pdf | verworfen (Veröffentlichungsdatum außerhalb 7-Tage-Fensters; für Folgelauf zur Aufnahme in § 3.3 / § 3.5 markiert) |
+| 9 | D | Deloitte Legal, *Germany's Coalition Agreement — 34-Punkte-Reformpaket vom 1./2. Juli 2026* | https://www.deloittelegal.de/dl/en/services/legal/perspectives/koalitionsvertrag-deutschland.html | verworfen (Ankündigungsdatum außerhalb 7-Tage-Fensters; für Folgelauf zur Aufnahme in § 4.4 markiert) |
+| 10 | G | G-BA / gematik / BfArM, Juli 2026 | https://www.g-ba.de/ | verworfen (sechzehntes Mal in Folge ohne KI-spezifische Beschlüsse) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 5.2 | Aktualisierung | Bestehender GKV-Reform-Absatz um den vollzogenen zweiten Bundesratsdurchgang am 10. Juli 2026 mit gescheiterter Anrufung des Vermittlungsausschusses (sechs Länder), Protokollerklärung der Bundesregierung (~550 Mio. EUR zusätzliche Krankenhausmittel — davon 100 Mio. EUR Universitätskliniken ab 2027 und 450 Mio. EUR erhöhter Rechnungszuschlag —, Angleichung der Kostenaufwuchsgrenze 2027–2029, PPR-2.0-/Pflegepersonaluntergrenzen-Abbau, Ausnahmen vom 15,5-%-Herstellerabschlag bis Januar 2027, interministerielles Fachgremium bis Ende September 2026) und Inkrafttretens-Fähigkeit ohne weitere parlamentarische Behandlung ergänzt; der im Vorlauf ausgewiesene Prospektiv-Passus („noch anstehender zweiter Durchgang im Bundesrat") wird im Indikativ geschlossen. | 1–4 |
+| 2 | § 11.3 | Ergänzung | Neuer Sammelbeleg-Eintrag zum zweiten Bundesratsdurchgang des GKV-Beitragssatzstabilisierungsgesetzes (Deutsches Ärzteblatt, DATEV-Magazin, STB Treuhand, ZDFheute). | 1–4 |
+| 3 | Dokumentkopf | Aktualisierung | Version 33.0 → 34.0. | — |
+| 4 | Dokumentende | Aktualisierung | Aktualitätshinweis auf „Mitte Juli 2026 (Schnitt am 14. Juli 2026 — Lauf 001 vom 14. Juli 2026)" gesetzt; Lauf-001-Fortschreibung des GKV-Bundesrats-Vollzugs in den Auflistungstext aufgenommen. | 1–4 |
+| 5 | README.md | Aktualisierung | Versionssprung 33.0 → 34.0 (Versionszeile, Zitiervorschlag, KI-Offenlegung um Versions-Eintrag 34.0 ergänzt). | — |
+| 6 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 14. Juli 2026 (Lauf 001 vom 14. Juli 2026) — Version 33.0 → Version 34.0" mit Prüftabelle 2.1.1–2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 5 | Cisco Bay Area 471 Stellen (Wirksamkeit 13. Juli 2026) | F | Ankündigungsdatum 13. Mai 2026 (weltweit 4.000 Stellen), 13. Juli 2026 ist reines Wirksamkeitsdatum aus WARN-Filings; kein neuer Ereignisstand im 48-Stunden-Fenster, Aggregat-Trackerabbildung bereits in § 1.1 enthalten. |
+| 6 | UMA Northstar / Rémi Cadène (7. Juli 2026) | J | Kein unmittelbarer Steuerbezug; Marktstruktur-Signal für § 8.2 (europäische Frontier-Präsenz humanoider Robotik). Aufnahmekandidat für Folgelauf. |
+| 7 | arXiv 2607.02144 „Taxing Artificial Intelligence" (Faivre & Cen, 2. Juli 2026) | A | Ankündigungsdatum außerhalb 7-Tage-Fenster; Survey-Charakter, kein neuer Modellbefund. |
+| 8 | Sachverständigenrat-Jahresgutachten 2025/26 mit KI-Sektion (S. 499) | H | Veröffentlichungsdatum außerhalb 7-Tage-Fenster; für Folgelauf mit erweitertem Fenster ggf. für § 3.3 / § 3.5 markiert. |
+| 9 | Deutscher Koalitionsausschuss / 34-Punkte-Reformpaket (1./2. Juli 2026) | D | Ankündigungsdatum außerhalb 7-Tage-Fenster; enthält KI-relevante Arbeitsrechts-Erleichterungen (Mitbestimmung bei KI-Einführung) — für Folgelauf zur Aufnahme in § 4.4 markiert. |
+| 10 | G-BA / gematik / BfArM Juli 2026 | G | Sechzehntes Mal in Folge ohne KI-spezifische Beschlüsse. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument und Literaturverzeichnis: Ja (Bundestagsverabschiedung, GPT-5.6-Freigabe, OpenAI-5-%-Vorschlag, Fable-5-Vollzug, Meta Muse Spark 1.1, Sanders SWF Act S. 4825, Anthropic *Cadences*, DeepMind-Talent-Bewegung, Apple v. OpenAI, NVIDIA-Kyber-Verzögerung, Vera-Rubin-Auslieferung, KI-MIG-Bundesrat, Microsoft-Layoff-Runde, Digital Omnibus on AI, OECD Employment Outlook 2026 sowie SkillSyncer 267/185.894/56 % bereits in Vorlauf-Versionen dokumentiert und nicht erneut eingespielt; Cisco Bay Area 471 als Wirksamkeitsdatum einer Ankündigung vom 13. Mai 2026 ebenfalls nicht aufgenommen)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block „14. Juli 2026 — Version 33.0 → Version 34.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja (Phase 5)
+- Word erstellt (`build_docx.py`): Ja (Phase 5)
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (34.0 durchgängig)
+- E-Mail-Benachrichtigung (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (3.356 Zeichen, unter der 5.000-Zeichen-Grenze). In dieser Session sind keine Microsoft-Graph-Send-Tools (`mail_send`, `send_mail`, `send_message`, `outlook_send`) im Microsoft-365-MCP erreichbar — ToolSearch mit dem Muster liefert nur Such- und Lesewerkzeuge. Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-mail.txt` noch in dieses Logbuch, in Commits, den Abschlussbericht oder eine andere versionierte Datei übernommen.
+- WhatsApp-Zusammenfassung (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (879 Zeichen, unter der 1.000-Zeichen-Grenze). Der `whatsapp`-MCP-Server ist in dieser Session nicht verbunden — `wa_send_message` und Alternativen mit `send`/`send_message`-Muster nicht erreichbar. Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-whatsapp.txt` noch in dieses Logbuch übernommen.
+- Branch auf main gemerged und gelöscht: siehe unten
+
+### Auffälligkeiten / offene Punkte
+
+- Cluster G (Gesundheitswesen) sechzehntes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster; strukturelles Muster verfestigt sich weiter.
+- GKV-Reform: Die ausgabenseitige Konsolidierungsschiene ist mit dem zweiten Bundesratsdurchgang legislativ abgeschlossen; die Inkraftsetzung erfolgt nach Ausfertigung und Verkündung. Die in § 5.1 vorgeschlagene beitragsseitige Verbreiterung der Bemessungsgrundlage bleibt ein strukturell getrennter Reformpfad.
+- Deutscher Koalitionsausschuss / 34-Punkte-Reformpaket (1./2. Juli 2026): Aufnahmekandidat für Folgelauf mit KI-relevanter Arbeitsrechts-Erleichterung (Mitbestimmung bei KI-Einführung, Software-Updates ohne Betriebsrat-Vetorecht) für § 4.4; ausserhalb des 7-Tage-Fensters, keine Fenstererweiterung vorgezogen.
+- Sachverständigenrat-Jahresgutachten 2025/26 (Sektion Automatisierung/Digitalisierung/KI, S. 499): Aufnahmekandidat für Folgelauf für § 3.3 / § 3.5.
+- UMA Northstar (Rémi Cadène, 7. Juli 2026): Aufnahmekandidat für Folgelauf zur Fortschreibung von § 8.2 (europäische Frontier-Präsenz humanoider Robotik) und § 1.1 (Robotik-Marktstruktur); Cluster J.
+- Google Gemini 3.5 Pro Release 17. Juli 2026: für Folgelauf zur Fortschreibung von § 8.2 unverändert markiert.
+- AMD Helios / MI455X Keynote 23. Juli 2026: für Folgelauf nach Keynote-Datum zur Fortschreibung von § 8.2 unverändert markiert.
+- Japan sovereign AI + 10 Mio. Roboter bis 2040 (1. Juli 2026): weiter Aufnahmekandidat für Folgelauf in Kapitel 6 und § 7.1; ausserhalb 7-Tage-Fenster.
+- Meta Compute (1. Juli 2026): weiter Aufnahmekandidat für Folgelauf zur Fortschreibung von § 8.2.
+- OpenAI-IPO-Filing (Ziel September 2026): für Folgelauf nach offiziellem SEC-Filing markiert.
+- Apple-v.-OpenAI: Prozessuale Nächstschritte (Case Management Conference, mögliche Vorab-Antwort OpenAI innerhalb der üblichen 21-Tage-Frist, mögliche Anordnung eines Preliminary Injunction) im Folgelauf zu beobachten.
+- Branch dieses Laufs: `claude/determined-einstein-1erhze`.
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben.
+
+---
+
 ## 2026-07-13 — Lauf 001 — Version 32.0 → Version 33.0
 
 ### Recherchekorridor
