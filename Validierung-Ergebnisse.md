@@ -7,6 +7,78 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 15. Juli 2026 (Lauf 001 vom 15. Juli 2026) — Version 34.0 → Version 35.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 15. Juli 2026 im Standard-7-Tage-Fenster (8.–15. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (13.–15. Juli 2026). Zwei belegbare Fortschreibungen aus dem Fenster identifiziert: Cluster D mit der Regierungserklärung Bundeskanzler Merz am 9. Juli 2026 (Zwischenbilanz, Reformpaket, Startup-Zahlen mit KI-Anteil) und Cluster E/H mit der amtlichen Monatspublikation *„Die wirtschaftliche Lage in Deutschland im Juli 2026"* des BMWK vom 14. Juli 2026 (KI als struktureller Faktor und kurzfristiger Handelsstützer).
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *Regierungserklärung Bundeskanzler Merz — Zwischenbilanz und Reformpaket* (9. Juli 2026, Cluster D): In der 89. Sitzung des 21. Bundestages (Kalenderwoche 28) zieht Bundeskanzler Friedrich Merz eine positive Zwischenbilanz der Union-SPD-Koalition nach 14 Monaten und verklammert das im Koalitionsausschuss am 1./2. Juli 2026 beschlossene 34-Punkte-Programm „für Aufschwung und Beschäftigung" mit den in § 5.2 dokumentierten Einzelvorhaben (Steuer, Rente, Gesundheit, Arbeit); die vollständige und zeitnahe Umsetzung der 33 Empfehlungen der Alterssicherungskommission (Bericht 23. Juni 2026) ist im Regierungsprogramm bis Ende 2026 verankert. Wörtlich zitiert Merz Startup-Verband-Zahlen: > 3.000 neue Unternehmen im ersten Halbjahr 2026, nahezu Vorjahres­gesamtwert; > 1/3 davon mit direktem KI-Bezug. Zusätzlich hebt er die Inbetriebnahme der Halbleiterproduktion in Dresden hervor. Quellen: Bundesregierung (Regierungserklärung); Bundestag (Textarchiv, Video); Koalitionsausschuss-Ergebnispapier (Bundeskanzleramt 2. Juli 2026). | § 5.2 (neuer bold-gesetzter Absatz „Regierungserklärung Bundeskanzler Merz zur Zwischenbilanz und Reformpaket (9. Juli 2026)" mit Rückverweis auf § 5.1 (Wertschöpfungs­abgabe) und § 8.2 (Deutschland-These/Veredelungsstrategie)); § 11.3 (drei neue Einträge: Regierungserklärung, Koalitionsausschuss-Papier und BMWK-Monatspublikation); Aktualitätshinweis am Dokumentende ergänzt; README.md 35.0. | Die Regierungserklärung liefert den aktuell reichhaltigsten offiziellen Referenzpunkt für die deutsche Reformarchitektur, in der die in § 5.1 vorgeschlagene wertschöpfungsseitige Verbreiterung der Sozialstaatsfinanzierung und die in § 5.2 dokumentierte Gesamtreform (GKV-BStabG, Alterssicherung, Steuer, Arbeitsmarkt) jetzt in einem koalitionspolitischen Gesamtprogramm verklammert sind. Die zitierten Startup-Verband-Zahlen (Anteil KI-nahe Neugründungen > 1/3) stützen die in § 8.2 entwickelte Veredelungsstrategie-Argumentation und ordnen die deutsche Position im internationalen KI-Ökosystem ein. Eine spezifische KI- oder Robotersteuer bleibt im Regierungsprogramm ausdrücklich nicht angelegt — das flankiert die in Kapitel 10 zu treffende Bewertung. |
+| 2 | *BMWK — „Die wirtschaftliche Lage in Deutschland im Juli 2026"* (14. Juli 2026, Cluster E/H): Die Monatspublikation des Bundesministeriums für Wirtschaft und Energie dokumentiert Erwerbstätigkeit −8.000 im Mai 2026, sozialversicherungspflichtige Beschäftigung −5.000 im April 2026, Arbeitslosigkeit im Juni 2026 stabil und formuliert „noch keine Verbesserung der Arbeitsmarktperspektiven". Erstmals auf amtlicher Ebene wird „die starke Handelsdynamik in Asien im Zusammenhang mit dem KI-Boom" als eigenständiger kurzfristig konjunkturstützender Faktor benannt (Exporte Datenverarbeitungsgeräte +2,3 % im Mai 2026); die „zunehmende Bedeutung künstlicher Intelligenz und den demografischen Wandel" ordnet der Bericht ausdrücklich als strukturelle Herausforderungen ein. Quelle: BMWK (Pressemitteilungen; DATEV-Magazin-Aufbereitung 14. Juli 2026). | § 1.1 (neuer Satz am Ende der Ausgangslage-Passage direkt vor dem abschließenden Verweis auf die Finanzierung der Sozialversicherung); § 11.3 (neuer Eintrag); Aktualitätshinweis am Dokumentende ergänzt. | Die Publikation ist der erste amtliche Standbericht, der KI parallel als strukturelle Herausforderung und als kurzfristig konjunkturstützenden Faktor auf derselben Ebene sichtbar macht. Für die in § 1.1 dokumentierte KI-Lage in Deutschland ergibt sich damit eine bestätigende dritte Datenlinie neben (a) IAB-Prognose und (b) Layoff-Trackern; für die in § 5.1 diskutierte Verbreiterung der Bemessungsgrundlage der Sozialversicherung ist der Befund insofern relevant, als die amtliche Diagnose ausdrücklich die Kombination aus KI und demografischem Wandel benennt — genau jene Doppelspannung, die § 5.1 fiskalpolitisch adressiert. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- xAI/SpaceXAI *Grok 4.5* (Release 8. Juli 2026) — Cluster I, außerhalb 48-Stunden-Fenster (7 Tage zurück); grundsätzlich relevant für die in § 8.2 dokumentierte deflationäre Preisdynamik (2/6 USD gegenüber Claude Opus 4.8 5/25 USD; Musk: „Opus-Class"; xAI-Rebrand zu SpaceXAI). Für Folgelauf zur Aufnahme in § 8.2 markiert.
+- Koalitionsausschuss 34-Punkte-Reformpaket (1./2. Juli 2026) — Ankündigungsdatum außerhalb 7-Tage-Fenster; der Vorgang wird jedoch mittelbar über die Regierungserklärung Merz (Aufnahme # 1) und über den Koalitionsausschuss-Papier-Eintrag im Literaturverzeichnis (§ 11.3) referenziert.
+- Alterssicherungskommission — Bericht 23. Juni 2026 mit 33 Empfehlungen — Berichts­datum außerhalb 7-Tage-Fenster; wird über den bestehenden § 5.2-Passus zur ASK-Arbeit sowie über die neue Merz-Regierungserklärung mittelbar erfasst; explizite Aufnahme des Berichts als Primärquelle für Folgelauf markiert.
+- IAB-Kurzbericht 08/2026 „Jeder vierte Betrieb nutzt generative KI" — Veröffentlichung 5. Mai 2026, außerhalb 7-Tage-Fenster; Aufnahme in § 1.1/§ 3.5 als deutscher Adoptions­befund für Folgelauf markiert.
+- Sachverständigenrat-Jahresgutachten 2025/26 (KI-Sektion S. 499) — Veröffentlichung außerhalb 7-Tage-Fenster; weiterhin für Folgelauf zur Aufnahme in § 3.3 / § 3.5 markiert.
+- Anthropic-CoreWeave-Deal (April 10, 2026) und Meta-CoreWeave-$21B-Deal (April 9, 2026) — beide außerhalb 7-Tage-Fenster; grundsätzlich für § 8.2 relevant; Anthropic-$47B-Umsatzlauf und Q2-2026-Profitabilität nur in Sekundärberichten Mitte Juli 2026, kein Primärquellen-Ankündigungs-Ereignis im Fenster.
+- Digital-Omnibus-Amtsblattveröffentlichung — Rats-Endbeschluss am 29. Juni 2026 bereits in Version 30.0 dokumentiert; Veröffentlichung im Amtsblatt Mitte Juli 2026 in Sekundärberichten avisiert, aber keine amtliche EU-Bestätigung im Fenster.
+- Apple-v.-OpenAI, Fable-5-Umstellung, Muse Spark 1.1, GPT-5.6-Freigabe, KI-MIG-Bundesrat, GKV-BStabG-Bundesrat, OpenAI-5-%-Vorschlag, Sanders S. 4825, DeepMind-Talent-Bewegung, Vera-Rubin-Auslieferung, NVIDIA-Kyber-Verzögerung, OECD Employment Outlook 2026, SkillSyncer 267/185.894/56 % — sämtlich in Vorlauf-Versionen dokumentiert (Dubletten).
+- Cluster G (Gesundheitswesen) — siebzehntes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster; das strukturelle Muster verfestigt sich weiter.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; die zwei neuen Ergänzungen fügen jeweils einen bold-gesetzten Absatz in § 5.2 sowie einen Nachsatz in § 1.1 hinzu, keine neuen Unterüberschriften; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitt 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Säulen der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Der Merz-Absatz in § 5.2 verweist wie im GKV-Passus kontrolliert auf § 5.1 (Wertschöpfungsabgabe) und § 8.2 (Deutschland-These/Veredelungsstrategie); der BMWK-Nachsatz in § 1.1 hält den bestehenden Verweis auf die Finanzierung der Sozialversicherung durch. Keine neuen Querverweis-Ziele verschoben. |
+| 2.1.4 Roter Faden | OK | Die Merz-Erklärung wird konsequent an der § 5.2-Reformprozessschiene angedockt und macht die deutsche Gesamtreform als koalitionspolitische Klammer sichtbar. Die BMWK-Ergänzung erweitert § 1.1 um eine dritte Datenlinie neben IAB-Prognose und Layoff-Trackern; der § 1.1-Aufbau (KI-induzierte Beschäftigungsverschiebung + demografische Doppelspannung) bleibt intakt. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; keine unausgeglichenen Fettungen; keine Tabellen verändert; der neue § 5.2-Lead-In „**Regierungserklärung Bundeskanzler Merz zur Zwischenbilanz und Reformpaket (9. Juli 2026):**" folgt dem in § 5.2 etablierten Muster (vgl. „**Aktueller Reformprozess (2026):**"). |
+| 2.2.1 Sachliche Richtigkeit | OK | Regierungserklärung 9. Juli 2026 durch Bundesregierung, Bundestag-Textarchiv (kw28) und Bundestag-Video parallel belegt; Startup-Verband-Zahl > 3.000 Neugründungen H1 2026 und Anteil > 1/3 mit KI-Bezug direkt aus dem Redetext zitiert; Halbleiterproduktion Dresden explizit in der Rede referenziert. BMWK-Monatspublikation vom 14. Juli 2026 direkt aus der amtlichen HTML-Fassung (BMWK-Pressemitteilung) und DATEV-Magazin-Aufbereitung übernommen; Zahlen Erwerbstätigkeit −8.000, sozialversicherungspflichtige Beschäftigung −5.000 und Exporte Datenverarbeitungsgeräte +2,3 % konsistent belegt. |
+| 2.2.2 Redundanzprüfung | OK | Der Merz-Absatz in § 5.2 baut auf dem bestehenden Reformprozess-Passus (ASK 7. Januar 2026, KSR 27. Januar 2026, GKV-Reform) auf, ohne die Einzelvorhaben zu wiederholen; die neue Bündelung als Regierungserklärung ist inhaltlich neu. Der BMWK-Nachsatz in § 1.1 ergänzt die IAB-Prognose und die Layoff-Tracker-Passagen um eine dritte amtliche Datenlinie ohne Dopplung ihrer Kernaussagen. |
+| 2.2.3 Argumentation | OK | Merz-Erklärung wird durchgängig im Indikativ referiert („Bundeskanzler Merz hat […] eine Regierungserklärung abgegeben"); die von Merz zitierten Startup-Verband-Zahlen sind zurückhaltend attribuiert („zitiert Merz Startup-Verband-Zahlen für das erste Halbjahr 2026"). Der BMWK-Nachsatz gibt Zahlen und Formulierungen des amtlichen Berichts wörtlich beziehungsweise sinngemäß wieder und ordnet KI nach amtlicher Diagnose ein — keine eigene Kausalattribution über die BMWK-Formulierung hinaus. |
+| 2.2.4 Ausgewogenheit | OK | Die Merz-Passage benennt sowohl die positive Zwischenbilanz als auch die Feststellung, dass eine spezifische fiskalische Robotersteuer oder KI-Abgabe im Regierungsprogramm nicht vorgesehen ist. Der BMWK-Nachsatz gibt sowohl die konjunkturstützende Seite (KI-Boom-Handel) als auch die belastende Seite (Arbeitsmarktschwäche, strukturelle Herausforderung KI + Demografie) wieder. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „Regierungserklärung", „Koalitionsausschuss", „Alterssicherungskommission", „Startup-Verband" konsistent verwendet; „BMWK" beim ersten Auftreten in § 1.1 durch den vollen Namen „Bundesministerium für Wirtschaft und Energie" eingeführt; „Halbleiterproduktion" in Merz-Zitat kontextuell klar. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | § 11.3 um drei Einträge ergänzt (Regierungserklärung Bundeskanzler Merz, Koalitionsausschuss-Ergebnispapier und BMWK-Monatspublikation Juli 2026). Jede Fließtextreferenz hat einen Literatur-Eintrag; keine Waisenzitate. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil; vollständige URLs (bundesregierung.de, bundestag.de, bundeskanzler.de PDF-Anker, bundeswirtschaftsministerium.de, datev-magazin.de); Datumsangaben („9. Juli 2026", „14. Juli 2026") einheitlich. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Bundesregierung, Deutscher Bundestag und BMWK sind unmittelbare Primärquellen; Bundestag-Textarchiv (kw28) verweist auf die tatsächliche Rede, das Bundestag-Video bietet den unmittelbaren Wortlaut. Die BMWK-Monatspublikation ist die amtliche Standbericht-Reihe. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 15. Juli 2026: www.bundesregierung.de/breg-de/aktuelles/regierungserklaerung-merz-juli-26-2446298 (Titel und Fokus bestätigt); www.bundestag.de/dokumente/textarchiv/2026/kw28-de-regierungserklaerung-1193984 (Textarchiv-Zusammenfassung bestätigt); www.bundeswirtschaftsministerium.de/Redaktion/DE/Pressemitteilungen/Wirtschaftliche-Lage/2026/20260714-wirt-lage-deutschland-juli-2026.html (Titel und Zahlen bestätigt); www.bundeskanzler.de/.../2026-07-02-koaausschuss-data.pdf (Koalitions­ausschuss-Papier bestätigt). |
+| 2.4.5 Zitatgenauigkeit | OK | Direkte Zitate auf die minimal nötigen Passagen beschränkt („für Aufschwung und Beschäftigung", „substanzielles Paket, das in seiner Größenordnung in den vergangenen Jahren von keiner Bundesregierung so angepackt wurde", „an den Wertschöpfungsketten der Zukunft nicht nur teilnehmen, sondern auch profitieren und gewinnen", „noch keine Verbesserung der Arbeitsmarktperspektiven", „zunehmende Bedeutung künstlicher Intelligenz und demografischer Wandel", „starke Handelsdynamik in Asien im Zusammenhang mit dem KI-Boom"); alle Formulierungen aus der amtlichen Rede- und Berichts­fassung bzw. der amtlichen Aufbereitung übernommen. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 35.0 durchgängig: Dokumentkopf (KI-Ökonomie.md, Zeile 12), Aktualitätshinweis am Dokumentende (Schnitt 15. Juli 2026, Lauf 001), `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung mit Versions-Eintrag 35.0) und dieser Protokoll-Block. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltlichen Ergänzungen hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | — | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte (sofern vorhanden): n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 35.0
+- PDF erstellt: Ja (build_pdf.py)
+- Word erstellt: Ja (build_docx.py)
+
+---
+
 ## Validierung 14. Juli 2026 (Lauf 001 vom 14. Juli 2026) — Version 33.0 → Version 34.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 14. Juli 2026 im Standard-7-Tage-Fenster (7.–14. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (12.–14. Juli 2026). Eine belegbare Fortschreibung aus dem Fenster identifiziert: Cluster B/E mit dem Vollzug des zweiten Bundesratsdurchgangs des *GKV-Beitragssatzstabilisierungsgesetzes* am 10. Juli 2026 — der im Lauf vom 13. Juli 2026 als offener Punkt festgehaltene zweite Durchgang ist damit erledigt.

@@ -54,6 +54,81 @@
 
 ---
 
+## 2026-07-15 — Lauf 001 — Version 34.0 → Version 35.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, B, C, F, G, J ohne belegbare Neuzugänge im 7-Tage-Fenster; Cluster G siebzehntes Mal in Folge). Zwei Fortschreibungen aus Cluster D (Regierungserklärung Bundeskanzler Merz vom 9. Juli 2026) und Cluster E/H (BMWK-Monatspublikation *„Die wirtschaftliche Lage in Deutschland im Juli 2026"* vom 14. Juli 2026).
+- Zeitfenster: Standard 7 Tage (8.–15. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (13.–15. Juli 2026).
+- Anzahl Suchanfragen: 11 (Web-Suche) + gezielter Einzel-Fetch der BMWK-Pressemitteilung zur Verifikation von Titel und Zahlen.
+- Lauf 001 vom 15. Juli 2026 ist der Folgelauf zu Lauf 001 vom 14. Juli 2026 (Version 33.0 → 34.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | D | Bundesregierung, *Regierungserklärung des Bundeskanzlers Friedrich Merz — 9. Juli 2026* | https://www.bundesregierung.de/breg-de/aktuelles/regierungserklaerung-merz-juli-26-2446298 | übernommen (Primärquelle, unmittelbare Meldung der Bundesregierung) |
+| 2 | D | Deutscher Bundestag, *Textarchiv Kalenderwoche 28 — „Bundeskanzler Friedrich Merz zieht positive Zwischenbilanz der Koalition"* (9. Juli 2026) | https://www.bundestag.de/dokumente/textarchiv/2026/kw28-de-regierungserklaerung-1193984 | übernommen (parlamentarische Primärquelle) |
+| 3 | D | Deutscher Bundestag Mediathek, *89. Sitzung vom 09.07.2026, TOP ZP 3: Rede von Friedrich Merz* | https://www.bundestag.de/mediathek/video?videoid=7655462 | übernommen (Wortlaut-Verifikation) |
+| 4 | D | Koalitionsausschuss / Bundeskanzleramt, *„Ein Programm für Aufschwung und Beschäftigung — 34 Reformpunkte"* (1./2. Juli 2026) | https://www.bundeskanzler.de/resource/blob/1832584/2445592/bc8e5e160d879f0bdd593121a96a45d2/2026-07-02-koaausschuss-data.pdf | übernommen (flankierendes Primär-Ergebnispapier) |
+| 5 | E/H | BMWK, *„Die wirtschaftliche Lage in Deutschland im Juli 2026"* (14. Juli 2026) | https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Pressemitteilungen/Wirtschaftliche-Lage/2026/20260714-wirt-lage-deutschland-juli-2026.html | übernommen (amtlicher Standbericht) |
+| 6 | E/H | DATEV-Magazin, *„Die wirtschaftliche Lage in Deutschland im Juli 2026"* (Aufbereitung 14. Juli 2026) | https://www.datev-magazin.de/nachrichten-steuern-recht/wirtschaft/die-wirtschaftliche-lage-in-deutschland-im-juli-2026-147829 | übernommen (Sekundärquelle mit identischer Datenwiedergabe) |
+| 7 | I | TechCrunch / Axios, *SpaceXAI releases Grok 4.5 — „Opus-class model"* (8. Juli 2026) | https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/ | verworfen (außerhalb Cluster-I-48-Stunden-Fenster; für Folgelauf als § 8.2-Fortschreibung markiert) |
+| 8 | D | Cash.online / Alterssicherungskommission (Bericht 23. Juni 2026, 33 Empfehlungen) — Merz und Bas kündigen vollständige Umsetzung an | https://www.cash-online.de/a/rentenreform-merz-und-bas-wollen-alle-33-empfehlungen-vollstaendig-umsetzen-720823/ | verworfen als eigenständige Quelle (Berichts­datum 23. Juni 2026 außerhalb 7-Tage-Fenster; mittelbare Erfassung über Merz-Regierungserklärung und § 5.2-ASK-Passage; Bericht als Aufnahme­kandidat für Folgelauf markiert) |
+| 9 | A | IAB, *Kurzbericht 08/2026 — „Jeder vierte Betrieb nutzt generative KI"* (5. Mai 2026) | https://doku.iab.de/kurzber/2026/kb2026-08.pdf | verworfen (Veröffentlichungs­datum außerhalb 7-Tage-Fensters; als Aufnahme­kandidat für Folgelauf für § 1.1 / § 3.5 markiert) |
+| 10 | I | CoreWeave / Meta $21B-Deal (9. April 2026) und CoreWeave / Anthropic Multi-Year-Deal (10. April 2026) | https://www.coreweave.com/news/coreweave-and-meta-announce-21-billion-expanded-ai-infrastructure-agreement | verworfen (beide Ankündigungs­daten außerhalb 7-Tage-Fenster) |
+| 11 | G | G-BA / gematik / BfArM, Juli 2026 | https://www.g-ba.de/ | verworfen (siebzehntes Mal in Folge ohne KI-spezifische Beschlüsse) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 5.2 | Ergänzung | Neuer bold-gesetzter Absatz „Regierungserklärung Bundeskanzler Merz zur Zwischenbilanz und Reformpaket (9. Juli 2026)" mit Zwischenbilanz nach 14 Monaten, Verklammerung des 34-Punkte-Koalitionsausschuss-Programms vom 1./2. Juli 2026, Startup-Verband-Zahl > 3.000 Neugründungen H1 2026 (> 1/3 mit KI-Bezug), Hinweis auf Halbleiterproduktion Dresden und Zeitplan zur vollständigen Umsetzung der 33 ASK-Empfehlungen bis Ende 2026. | 1–4 |
+| 2 | § 1.1 | Ergänzung | Neuer Nachsatz am Ende der Ausgangslage-Passage: BMWK-Monatspublikation vom 14. Juli 2026 mit Erwerbstätigkeit −8.000 im Mai, sozialversicherungspflichtige Beschäftigung −5.000 im April, „noch keine Verbesserung der Arbeitsmarktperspektiven"; KI-Boom als kurzfristige Handelsstütze (Exporte Datenverarbeitungsgeräte +2,3 % im Mai) und „zunehmende Bedeutung künstlicher Intelligenz und demografischer Wandel" als strukturelle Herausforderungen. | 5, 6 |
+| 3 | § 11.3 | Ergänzung | Drei neue Einträge: BMWK-Monatspublikation Juli 2026, Regierungserklärung Bundeskanzler Merz vom 9. Juli 2026 (Bundesregierung/Bundestag/Video), Koalitionsausschuss-Ergebnispapier vom 1./2. Juli 2026. | 1–6 |
+| 4 | Dokumentkopf | Aktualisierung | Version 34.0 → 35.0. | — |
+| 5 | Dokumentende | Aktualisierung | Aktualitätshinweis auf „Mitte Juli 2026 (Schnitt am 15. Juli 2026 — Lauf 001 vom 15. Juli 2026)" gesetzt; Lauf-001-Fortschreibungen (Merz-Regierungserklärung, BMWK-Monatspublikation) in Auflistungstext aufgenommen. | 1–6 |
+| 6 | README.md | Aktualisierung | Versionssprung 34.0 → 35.0 (Versionszeile, Zitiervorschlag, KI-Offenlegung um Versions-Eintrag 35.0 ergänzt). | — |
+| 7 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 15. Juli 2026 (Lauf 001 vom 15. Juli 2026) — Version 34.0 → Version 35.0" mit Prüftabelle 2.1.1–2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 7 | SpaceXAI *Grok 4.5* (8. Juli 2026) | I | Ankündigungs­datum außerhalb Cluster-I-48-Stunden-Fensters (13.–15. Juli 2026); grundsätzlich relevant für § 8.2-Preisdynamik (2/6 USD, „Opus-Class"); für Folgelauf mit Fenstererweiterung wegen § 8.2-Kohärenz markiert. |
+| 8 | Alterssicherungskommission — Bericht 23. Juni 2026 mit 33 Empfehlungen | D | Berichts­datum außerhalb 7-Tage-Fenster; mittelbare Aufnahme über die Merz-Regierungserklärung und den bestehenden ASK-Passus in § 5.2; als Aufnahme­kandidat für Folgelauf zur direkten Einarbeitung in § 5.2 markiert. |
+| 9 | IAB-Kurzbericht 08/2026 „Jeder vierte Betrieb nutzt generative KI" (5. Mai 2026) | A | Veröffentlichungs­datum außerhalb 7-Tage-Fensters; als deutscher Adoptions­befund (48 % Nutzung in Betrieben ab 200 Beschäftigten) für Folgelauf zur Aufnahme in § 1.1 / § 3.5 markiert. |
+| 10 | CoreWeave-Meta-$21B-Deal (9. April 2026) und CoreWeave-Anthropic-Deal (10. April 2026) | I | Ankündigungs­daten außerhalb 7-Tage-Fenster; kein Ankündigungs-Ereignis im Fenster. |
+| 11 | G-BA / gematik / BfArM Juli 2026 | G | Siebzehntes Mal in Folge ohne KI-spezifische Beschlüsse. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument und Literaturverzeichnis: Ja (KI-MIG-Bundesrat, GKV-BStabG-Bundesrat, GKV-BStabG-Bundestag, Apple v. OpenAI, GPT-5.6-Freigabe, Fable-5-Vollzug, Muse Spark 1.1, OpenAI-5-%-Vorschlag, Sanders S. 4825, Anthropic *Cadences*, DeepMind-Talent-Bewegung, Vera-Rubin-Auslieferung, NVIDIA-Kyber-Verzögerung, OECD Employment Outlook 2026 + Country Note Germany + Non-compete Germany, Microsoft-Layoff-Runde, Digital Omnibus on AI, SkillSyncer-Aggregat-Kausalquote 56 % bereits in Vorlauf-Versionen dokumentiert und nicht erneut eingespielt; IAB-Kurzbericht 08/2026, ASK-Bericht 23. Juni 2026, Grok 4.5 und CoreWeave-Deals als außerhalb des Fensters liegend verworfen)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block „15. Juli 2026 — Version 34.0 → Version 35.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja (Phase 5)
+- Word erstellt (`build_docx.py`): Ja (Phase 5)
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (35.0 durchgängig)
+- E-Mail-Benachrichtigung (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (4.101 Zeichen, unter der 5.000-Zeichen-Grenze). In dieser Session sind keine Microsoft-Graph-Send-Tools (`mail_send`, `send_mail`, `send_message`, `outlook_send`) im Microsoft-365-MCP erreichbar — ToolSearch mit dem Muster liefert ausschließlich Such- und Lesewerkzeuge (Outlook-/SharePoint-Search, Read-Resource, Chat-Message-Search). Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-mail.txt` noch in dieses Logbuch, in Commits, den Abschlussbericht oder eine andere versionierte Datei übernommen.
+- WhatsApp-Zusammenfassung (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (817 Zeichen, unter der 1.000-Zeichen-Grenze). Der `whatsapp`-MCP-Server ist in dieser Session nicht verbunden — `wa_send_message` und Alternativen mit `send`/`send_message`-Muster nicht erreichbar. Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-whatsapp.txt` noch in dieses Logbuch übernommen.
+- Branch auf main gemerged und gelöscht: Ja (siehe Phase 6).
+
+### Auffälligkeiten / offene Punkte
+
+- Cluster G (Gesundheitswesen) siebzehntes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster; strukturelles Muster verfestigt sich weiter.
+- Regierungserklärung Merz und Koalitionsausschuss-Programm: Die legislative Umsetzung der 33 ASK-Empfehlungen und der weiteren Reformbausteine (Steuer, Arbeitsmarkt) ist für Ende 2026 angekündigt — Fortschreibung im Folgelauf nach jeweiligen Kabinetts- und Bundestagsbeschlüssen.
+- Grok 4.5 / SpaceXAI (8. Juli 2026): Aufnahmekandidat für Folgelauf zur Fortschreibung von § 8.2 (Preisdynamik Frontier-Klasse, Rebrand xAI → SpaceXAI).
+- Alterssicherungskommission — Bericht 23. Juni 2026: als direkte Primärquelle für § 5.2 im Folgelauf zur Aufnahme markiert.
+- IAB-Kurzbericht 08/2026 „Jeder vierte Betrieb nutzt generative KI": Aufnahmekandidat für § 1.1 / § 3.5 im Folgelauf.
+- Sachverständigenrat-Jahresgutachten 2025/26 (KI-Sektion S. 499): weiterhin Aufnahmekandidat für Folgelauf.
+- UMA Northstar (Rémi Cadène, 7. Juli 2026): weiterhin Aufnahmekandidat für Folgelauf (§ 8.2/§ 1.1).
+- Google Gemini 3.5 Pro Release 17. Juli 2026, AMD Helios / MI455X Keynote 23. Juli 2026, Japan sovereign AI + 10 Mio. Roboter bis 2040 (1. Juli 2026), Meta Compute (1. Juli 2026), OpenAI-IPO-Filing (Ziel September 2026, konfidentielles S-1 vom 8. Juni 2026), Apple-v.-OpenAI prozessuale Nächstschritte: unverändert weiter zu beobachten.
+- Digital Omnibus on AI: Rats-Endbeschluss 29. Juni 2026 dokumentiert; Amtsblatt-Veröffentlichung erwartet Mitte/Ende Juli 2026 — im Folgelauf zu prüfen.
+- Branch dieses Laufs: `claude/determined-einstein-zylsgm`.
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben.
+
+---
+
 ## 2026-07-14 — Lauf 001 — Version 33.0 → Version 34.0
 
 ### Recherchekorridor
