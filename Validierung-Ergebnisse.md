@@ -7,6 +7,78 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 16. Juli 2026 (Lauf 001 vom 16. Juli 2026) — Version 35.0 → Version 36.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 16. Juli 2026 im Standard-7-Tage-Fenster (9.–16. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (14.–16. Juli 2026). Drei belegbare Fortschreibungen aus dem Fenster identifiziert (mit einer Nachziehung des im Vorlauf explizit markierten Grok-4.5-Kandidaten aus dem 7-Tage-Fenster): Cluster I mit *Grok 4.5*/SpaceXAI und dem TechCrunch-Beitrag zur Open-Weight-Marktverschiebung, Cluster D/§ 8.3 mit der Anthropic-IPO-Vorbereitung sowie Cluster F mit der Intel-Manufacturing-Layoff-Runde in Oregon.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *SpaceXAI Grok 4.5 — Public Release plus Grok-Build-Zwischenfall* (8. bzw. 14. Juli 2026, Cluster I; Nachziehung aus dem Vorlauf): SpaceXAI (Rebrand xAI → SpaceXAI Februar 2026) hat *Grok 4.5* als „Opus-Klasse"-Modell öffentlich freigegeben (Preis 2/6 USD pro M Input/Output-Token, schnelle Variante 4/18 USD, Cache-Read 0,50 USD; Bloomberg, TechCrunch, Axios, MarkTechPost, Memeburn, FourWeekMBA). Am 14. Juli 2026 kommen die Meldung zum Long-Horizon-Terminal-Bench-Platz-1 (Reuters) und der *Grok-Build*-Zwischenfall (unautorisierter Upload ganzer Codebasen — The Register, TechTimes) hinzu. | § 8.2 (neuer Absatz vor der Meta-Muse-Spark-Passage mit Verweisen auf die Preise von GPT-5.6 Sol, Claude Opus 4.8, Muse Spark 1.1 und Claude Sonnet 5 und mit Rückverweis auf § 8.3 zu Robustheits­anforderungen); § 11.5 (neuer Eintrag zu SpaceXAI/Cursor/Bloomberg/TechCrunch/Axios/MarkTechPost/Memeburn/FourWeekMBA sowie separater Eintrag zu The Register/TechTimes/Reuters); Aktualitätshinweis am Dokumentende ergänzt; README.md 36.0. | Erweitert die Angebotsseite an der US-Frontier um einen weiteren Anbieter mit Preispunkten zwischen supply-constrained Frontier-Klasse (Fable 5, Opus 4.8) und Workhorse-Klasse (Muse Spark 1.1, Sonnet 5) und differenziert damit die in § 8.2 aufgenommene deflationäre Preisdynamik. Der Grok-Build-Datenschutzvorfall unterstreicht die Robustheits­anforderungen an importierte Frontier-Modelle (§ 8.3). |
+| 2 | *TechCrunch (Bellan) — Open-Weight-Marktverschiebung* (14. Juli 2026, Cluster I): TechCrunch-Beitrag „The real AI race may no longer be at the frontier" mit strukturell relevanten Zahlen — ca. 41 % der Hugging-Face-Downloads Frühjahr 2026 auf chinesische Open-Weight-Modelle; ca. 33 % der Vercel-KI-Anfragen im Juni 2026 über Open-Weight-Modelle; die Top-6-Modelle auf *OpenRouter* (Tencent, Xiaomi, DeepSeek, MiniMax, Z.ai) sämtlich Open-Weight-basiert, Anthropic Claude Opus 4.7 nur auf Platz 7; drei Millionen öffentlich gelistete Modelle auf Hugging Face. Zitate CEO Clem Delangue (Hugging Face) und Satya Nadella (Microsoft). | § 8.2 (neuer Absatz nach dem Grok-4.5-Absatz vor der Meta-Muse-Spark-Passage mit Rückverweis auf § 4.5/Fable-5-Episode, § 8.3/Zugriffspfade und Veredelungsstrategie); § 11.5 (neuer Eintrag zu TechCrunch/Bellan). | Ergänzt die Rohstoff-Analogie um die Verlagerung der produktiven KI-Nutzung auf Open-Weight-Modelle und stützt damit direkt die Veredelungsstrategie der Deutschland-These (§ 8.3): Nicht der Zugriff auf die Frontier, sondern die branchen- und daten­spezifische Anreicherung offener Basismodelle wird zum operativen Kern einer deutschen KI-Wertschöpfung. Zugleich reduziert die Verschiebung die direkte Abschöpfungs­fläche über Anbieter-Umsätze — mit Rückwirkung auf die in § 5.1/§ 8.3 diskutierten Zugriffspfade. |
+| 3 | *Bloomberg — Anthropic-IPO-Vorbereitung* (15. Juli 2026, Cluster D/§ 8.3): Nach Bloomberg-Bericht plant Anthropic Investoren­meetings-Serie („Anthropic Is Said to Plan IPO Investor Meetings as Listing Nears"); Sekundärmarkt-Bewertung 1,11–1,14 Bio. USD zum 14. Juli 2026 nach 96,5 Mrd. USD im Mai 2026; Prognose­plattform-Wahrscheinlichkeiten Ticker $ANTH 46–48 %, IPO im Q4 2026 rund 78 %, Lead-Underwriter Goldman Sachs 52–55 %, Emissions­volumen > 60 Mrd. USD (Moonberg-Aggregat, Polymarket, GuruFocus). | § 5.4 (neuer bold-gesetzter Absatz „Anthropic-IPO-Vorbereitung (Bloomberg, 15. Juli 2026)"); § 11.5 (neuer Eintrag zu Bloomberg/Moonberg/Polymarket/GuruFocus). | Bloomberg-Meldung ist der aktuelle bestandsorientierte Referenzpunkt zur Ergänzung der bereits eingearbeiteten Sanders-SWF-Act- und Altman-5-%-Vorschläge; die dokumentierte Bewertungs­spreizung binnen Wochen (Mai 96,5 Mrd. → Juli 1,11–1,14 Bio. USD) unterstreicht die in § 8.2 aufgenommene fiskalische Volatilität einer bestands­orientierten Umverteilungs­logik. |
+| 4 | *Intel Manufacturing Layoffs Oregon — WARN-Notice* (Wirksamkeit 15. Juli 2026, Cluster F): 2.392 Beschäftigte an vier Oregon-Standorten (Aloha, Ronler Acres, Hawthorne Farms, Jones Farm); Berufsgruppen 412 Module Equipment Technicians, 307 Module Development Engineers, 148 Module Engineers plus Process Integration Engineers und Manufacturing Technicians; 9 Wochen Abfindung; Restrukturierungs­rahmen CEO Lip-Bu Tan (Personalbestand ~125.000 → unter 100.000; +1 Mrd. USD Betriebskosten­kürzung 2026); Foundry-Verlust ~3 Mrd. USD Q2 2025; AI-Chip-Marktanteil Intel ~1 % vs. NVIDIA ~92 % (KATU, KOIN, KGW, Data Center Dynamics, byteiota). | § 1.1 (neuer Nachsatz am Ende der bestehenden BMWK-Passage direkt vor der abschließenden Sozialversicherungs­einordnung); § 11.5 (neuer Eintrag zu Intel Corp. WARN-Notice und Berichterstatter). | Erweitert das in § 1.1 dokumentierte Layoff-Aggregat um die vorgelagerte Halbleiter­produktionsschicht und illustriert die in § 8.2 dokumentierte Asymmetrie zwischen Hyperscaler-Capex und Personalreduktion auch auf der Hardware-Seite. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- Anthropic Claude Science (Beta-Launch 30. Juni 2026) — außerhalb 7-Tage-Fenster; für Cluster D grundsätzlich relevant (Enterprise-AI-Workbench für Wissenschaft, Pharma-/Biotech-Kontext); Aufnahme in § 7.1 oder § 8.2 für Folgelauf markiert.
+- IAB-Kurzbericht 08/2026 „Jeder vierte Betrieb nutzt generative KI" (5. Mai 2026) — außerhalb 7-Tage-Fensters; als deutscher Adoptions­befund weiter für § 1.1/§ 3.5 markiert.
+- Sachverständigenrat-Jahresgutachten 2025/26 (KI-Sektion S. 499) — außerhalb 7-Tage-Fenster; weiterhin für § 3.3/§ 3.5 markiert.
+- ASK-Bericht 23. Juni 2026 (33 Empfehlungen) — außerhalb 7-Tage-Fenster; wird mittelbar über den bestehenden Merz-Regierungserklärungs-Passus in § 5.2 referenziert.
+- Tesla Optimus Produktionsstart (Ankündigung „late July / August 2026", Fremont) — kein Ereignis im 48h-Fenster; Cluster J; für Folgelauf zur Aufnahme in § 8.2 markiert.
+- Apple v. OpenAI, Fable-5-Umstellung, Muse Spark 1.1, GPT-5.6-Freigabe, KI-MIG-Bundesrat, GKV-BStabG-Bundesrat, OpenAI-5-%-Vorschlag, Sanders S. 4825, Vera-Rubin-Auslieferung, NVIDIA-Kyber-Verzögerung, OECD Employment Outlook 2026, SkillSyncer 267/185.894/56 %, Merz-Regierungserklärung 9. Juli 2026, BMWK-Monatspublikation Juli 2026, Anthropic-Cadences-Bericht — sämtlich in Vorlauf-Versionen dokumentiert (Dubletten).
+- Cluster G (Gesundheitswesen) — achtzehntes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; die vier neuen Ergänzungen fügen drei zusätzliche Absätze in § 8.2, einen bold-gesetzten Absatz in § 5.4 sowie einen Nachsatz in § 1.1 hinzu; keine neuen Unterüberschriften, keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitt 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Säulen der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Die Grok-4.5- und Open-Weight-Ergänzungen in § 8.2 verweisen kontrolliert auf § 4.5 (Fable-5-Episode) und § 8.3 (Zugriffspfade, Veredelungsstrategie); die Anthropic-IPO-Ergänzung in § 5.4 verweist auf § 4.5 (Sanders SWF Act, OpenAI-5-%-Vorschlag) und § 8.2/§ 8.3 (fiskalische Volatilität); der Intel-Nachsatz in § 1.1 hält den bestehenden Verweis auf § 8.2 (Asymmetrie Hyperscaler-Capex/Personalreduktion) durch. Keine Querverweis-Ziele verschoben. |
+| 2.1.4 Roter Faden | OK | Grok-4.5- und Open-Weight-Ergänzungen setzen die Marktstruktur-Argumentation in § 8.2 fort (deflationäre Preisdynamik + Rohstoff-Analogie um humane Talent-Bestands­dimension aus Version 29.0). Anthropic-IPO-Passage schließt an die bereits dokumentierten Sanders-SWF-Act- (Version 23.0) und Altman-5-%-Vorschlag-Passagen (Version 32.0) an. Intel-Nachsatz erweitert die § 1.1-Layoff-Chronologie um die Hardware-Produktionsschicht. Kapitel-8-Deutschland-These bleibt eigenständige Position. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; der neue § 5.4-Lead-In folgt dem etablierten bold-Muster; keine unausgeglichenen Fettungen; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Grok-4.5-Release-Datum (8. Juli 2026), Preise 2/6 USD (Standard) und 4/18 USD (schnell), Cache-Read 0,50 USD parallel bei Bloomberg, TechCrunch, MarkTechPost und Cursor-Announcement belegt; Grok-Build-Zwischenfall (14. Juli 2026) durch The Register und TechTimes gedeckt; Long-Horizon-Terminal-Bench-Meldung 14. Juli 2026 durch Reuters. TechCrunch-Bellan-Beitrag mit direkten Zahlen aus WebFetch verifiziert (41 % / 33 % / OpenRouter Top-6 / Platz 7 / 3 Mio. Modelle). Bloomberg-Anthropic-IPO-Meldung durch Moonberg-Aggregat, Polymarket und GuruFocus bestätigt (Bewertungs­angaben, Ticker-Prognose, IPO-Zielfenster, Konsortialbanken). Intel-WARN-Notice über KATU, KOIN, KGW, Data Center Dynamics und byteiota mit übereinstimmenden Zahlen belegt. |
+| 2.2.2 Redundanzprüfung | OK | Grok-4.5-Absatz bezieht sich auf die bereits dokumentierten GPT-5.6-Sol- (Version 30.0), Muse-Spark-1.1- (Version 31.0) und Claude-Sonnet-5-Preise (Version 24.0) — Vergleich, nicht Dopplung. Open-Weight-Absatz ergänzt die Rohstoff-Analogie ohne Wiederholung der DeepMind-Passage. Anthropic-IPO-Passage in § 5.4 ergänzt den Sanders-SWF-Act- und Altman-5-%-Diskurs — bewusste Erweiterung, keine Dopplung. Intel-Nachsatz nimmt keine bereits dokumentierte Layoff-Runde erneut auf. |
+| 2.2.3 Argumentation | OK | Grok-4.5-Preise und Bench-Führung indikativisch referiert; Grok-Build-Zwischenfall auf berichtete Fakten beschränkt (unautorisierter Upload, Server-Abschaltung, Löschzusage). Open-Weight-Zahlen als beobachtete Marktverschiebung referiert. Anthropic-IPO-Angaben durchgängig im Konjunktiv als „bereite […] vor", „prognostiziert" formuliert. Intel-Passage im Indikativ zu Beschäftigten­zahl, WARN-Notice und Restrukturierungs­rahmen. |
+| 2.2.4 Ausgewogenheit | OK | Grok-4.5-Passage nennt sowohl Preispunkte und Bench-Führung als auch den Grok-Build-Zwischenfall (Robustheits­fragen); Open-Weight-Passage benennt die verminderte Abschöpfungs­fläche neben der robusteren Verfügbarkeit; Anthropic-IPO-Passage stützt gerade die Robustheits­überlegenheit einer wertschöpfungs­bezogenen Zugriffsarchitektur gegenüber bewertungs­bezogenen Ansätzen (Kontra-Argument zur Nachahmung); Intel-Passage kombiniert Layoff-Zahl mit Foundry-Verlust- und AI-Chip-Marktanteil-Kontext. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „SpaceXAI" (Rebrand), „Open-Weight", „Long-Horizon Terminal-Bench", „WARN-Notice", „Module Equipment Technicians", „Module Development Engineers", „Foundry" konsistent eingeführt bzw. verwendet. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | § 11.5 um fünf Einträge ergänzt (SpaceXAI/Cursor/Bloomberg/TechCrunch/Axios/MarkTechPost/Memeburn/FourWeekMBA; The Register/TechTimes/Reuters; TechCrunch-Bellan; Bloomberg/Moonberg/Polymarket/GuruFocus; Intel WARN-Notice/KATU/KOIN/KGW/DCD/byteiota). Jede Fließtextreferenz hat einen Literatur-Eintrag; keine Waisenzitate. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil; vollständige URLs; Datumsangaben („8. Juli 2026", „14. Juli 2026", „15. Juli 2026") einheitlich. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Bloomberg, TechCrunch, Reuters, Cursor-Blog und Intel-WARN-Notice sind unmittelbare Primär- bzw. Erst-Berichterstattungsquellen; MarkTechPost, Moonberg, Polymarket, GuruFocus, KATU/KOIN/KGW/DCD/byteiota sind Aggregat- und Sekundärquellen mit konsistenter Zahlenwiedergabe. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 16. Juli 2026: cursor.com/blog/grok-4-5 (Grok-4.5-Preise und Cursor-Integration bestätigt); techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face/ (Zahlen und Zitate direkt aus WebFetch verifiziert); moonberg.xyz/anthropic/ (Anthropic-IPO-Bewertung und Konsortial­bank-Prognose bestätigt); katu.com/news/local/intel-now-to-lay-off-nearly-2400-employees-in-oregon (2.392 Beschäftigte und Standort­daten bestätigt). |
+| 2.4.5 Zitatgenauigkeit | OK | Direkte Zitate auf die minimal nötigen Passagen beschränkt („The real AI race may no longer be at the frontier", „Opus-Klasse", „Anthropic Is Said to Plan IPO Investor Meetings as Listing Nears"); Delangue- und Nadella-Aussagen sinngemäß referiert. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 36.0 durchgängig: Dokumentkopf (KI-Ökonomie.md, Zeile 12), Aktualitätshinweis am Dokumentende (Schnitt 16. Juli 2026, Lauf 001), `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung mit Versions-Eintrag 36.0) und dieser Protokoll-Block. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltlichen Ergänzungen hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | — | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte (sofern vorhanden): n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 36.0
+- PDF erstellt: Ja (Phase 5 des Daily-Update-Prompts)
+- Word erstellt: Ja (Phase 5 des Daily-Update-Prompts)
+
+---
+
 ## Validierung 15. Juli 2026 (Lauf 001 vom 15. Juli 2026) — Version 34.0 → Version 35.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 15. Juli 2026 im Standard-7-Tage-Fenster (8.–15. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (13.–15. Juli 2026). Zwei belegbare Fortschreibungen aus dem Fenster identifiziert: Cluster D mit der Regierungserklärung Bundeskanzler Merz am 9. Juli 2026 (Zwischenbilanz, Reformpaket, Startup-Zahlen mit KI-Anteil) und Cluster E/H mit der amtlichen Monatspublikation *„Die wirtschaftliche Lage in Deutschland im Juli 2026"* des BMWK vom 14. Juli 2026 (KI als struktureller Faktor und kurzfristiger Handelsstützer).

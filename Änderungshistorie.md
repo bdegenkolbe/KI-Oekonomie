@@ -54,6 +54,81 @@
 
 ---
 
+## 2026-07-16 — Lauf 001 — Version 35.0 → Version 36.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, B, C, E, G, H, J ohne belegbare Neuzugänge im 7-Tage-Fenster; Cluster G achtzehntes Mal in Folge). Drei belegbare Fortschreibungen aus Cluster F/I (Intel-WARN-Layoff Oregon 15. Juli 2026), Cluster I (SpaceXAI *Grok 4.5* öffentlich am 8. Juli 2026 sowie Grok-Build-Zwischenfall und Long-Horizon-Terminal-Bench-Meldung 14. Juli 2026; TechCrunch Bellan zur Open-Weight-Marktverschiebung 14. Juli 2026) und Cluster D/§ 8.3 (Bloomberg zur Anthropic-IPO-Vorbereitung 15. Juli 2026).
+- Zeitfenster: Standard 7 Tage (9.–16. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (14.–16. Juli 2026). Grok-4.5-Kandidat aus dem Vorlauf explizit als Aufnahmekandidat markiert (Fenstererweiterung wegen § 8.2-Kohärenz).
+- Anzahl Suchanfragen: 12 (Web-Suche) plus gezielter Einzel-Fetch (TechCrunch/Bellan zur Verifikation der Open-Weight-Zahlen; Moonberg für Anthropic-IPO-Details; KATU für Intel-Layoff-Standortdaten; byteiota für Berufsgruppen-Aufschlüsselung).
+- Lauf 001 vom 16. Juli 2026 ist der Folgelauf zu Lauf 001 vom 15. Juli 2026 (Version 34.0 → 35.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | I | SpaceXAI / Cursor / Bloomberg / TechCrunch / Axios / MarkTechPost / Memeburn / FourWeekMBA, *Introducing Grok 4.5 · Cursor / SpaceXAI Releases Grok 4.5* (8. Juli 2026) | https://cursor.com/blog/grok-4-5 | übernommen (Nachziehungs­kandidat aus Vorlauf; Fenstererweiterung wegen § 8.2-Kohärenz) |
+| 2 | I | The Register / TechTimes / Reuters, *Musk promises purge after Grok Build caught sending entire repos to the cloud / Grok Build Shipped Entire Codebases to xAI Cloud / Grok 4.5 tops Long-Horizon Terminal-Bench* (14. Juli 2026) | https://www.theregister.com/ai-and-ml/2026/07/14/musk-promises-purge-after-grok-build-caught-sending-entire-repos-to-the-cloud/5271123 | übernommen (48h-Fenster) |
+| 3 | I | TechCrunch (Bellan), *The real AI race may no longer be at the frontier — open-models-hugging-face* (14. Juli 2026) | https://techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face/ | übernommen (48h-Fenster; direkte WebFetch-Verifikation) |
+| 4 | D | Bloomberg / Moonberg / Polymarket / GuruFocus, *Anthropic Is Said to Plan IPO Investor Meetings as Listing Nears / Anthropic stock: valuation & IPO odds 2026 / Anthropic Prepares for Potential IPO, Outpacing OpenAI* (15. Juli 2026) | https://moonberg.xyz/anthropic/ | übernommen (Fenster) |
+| 5 | F | Intel Corp. (WARN-Notice) / KATU / KOIN / KGW / Data Center Dynamics / byteiota, *Intel now to lay off nearly 2,400 employees in Oregon / Fresh Intel layoffs impact almost 2,400 Oregon workers / Intel Layoffs Jump 5x to 2,400 Workers in 2026 Chip Crisis* (Wirksamkeit 15. Juli 2026) | https://katu.com/news/local/intel-now-to-lay-off-nearly-2400-employees-in-oregon | übernommen (48h-Fenster) |
+| 6 | D | Anthropic / STAT News / TechCrunch / MarkTechPost, *Claude Science, an AI workbench for scientists / Anthropic releases Claude Science, a product aimed at researchers, the pharma industry / Anthropic's Claude Science bets on workflow* (30. Juni 2026) | https://www.anthropic.com/news/claude-science-ai-workbench | verworfen (Ankündigungs­datum außerhalb 7-Tage-Fensters; als Aufnahmekandidat für § 7.1/§ 8.2 in Folgelauf markiert) |
+| 7 | J | Tesla Optimus, *Tesla Optimus Production Starts July-August 2026: Fremont Factory Conversion Complete* (Ankündigung im Q1-2026-Earnings-Call, Bericht­erstattung mehrerer Datenpunkte am 22. April 2026 und Anfang Juli 2026) | https://inews.zoombangla.com/tesla-optimus-production-fremont-factory/ | verworfen (kein einzelnes Ankündigungs­ereignis im 48h-Fenster; Ankündigung liegt außerhalb 7-Tage-Fenster; für Folgelauf zur Aufnahme in § 8.2 markiert) |
+| 8 | A | IAB, *Kurzbericht 08/2026 — „Jeder vierte Betrieb nutzt generative KI"* (5. Mai 2026) | https://doku.iab.de/kurzber/2026/kb2026-08.pdf | verworfen (Veröffentlichungs­datum außerhalb 7-Tage-Fensters; weiter als Aufnahmekandidat für § 1.1/§ 3.5 markiert) |
+| 9 | G | G-BA / gematik / BfArM, Juli 2026 | https://www.g-ba.de/ | verworfen (achtzehntes Mal in Folge ohne KI-spezifische Beschlüsse) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 8.2 | Ergänzung | Neuer Absatz zu SpaceXAI *Grok 4.5* (8. Juli 2026) mit Preispunkten 2/6 USD (Standard) und 4/18 USD (schnell), Long-Horizon-Terminal-Bench-Führung 14. Juli 2026 und Grok-Build-Zwischenfall 14. Juli 2026; direkter Preisvergleich zu GPT-5.6 Sol, Claude Opus 4.8, Muse Spark 1.1 und Claude Sonnet 5. | 1, 2 |
+| 2 | § 8.2 | Ergänzung | Neuer Absatz zur TechCrunch-Bellan-Marktstruktur-Beobachtung (14. Juli 2026) — 41 % Hugging-Face-Downloads chinesische Open-Weight-Modelle im Frühjahr 2026; 33 % Vercel-KI-Anfragen im Juni 2026 über Open-Weight; sämtliche Top-6 auf OpenRouter Open-Weight-basiert; Claude Opus 4.7 nur Platz 7; Rückwirkung auf § 8.3 (Veredelungslogik gestützt, direkte Abschöpfungs­fläche vermindert). | 3 |
+| 3 | § 5.4 | Ergänzung | Neuer bold-gesetzter Absatz „Anthropic-IPO-Vorbereitung (Bloomberg, 15. Juli 2026)" mit Sekundärmarkt-Bewertung 1,11–1,14 Bio. USD zum 14. Juli 2026, Ticker-Prognose $ANTH, IPO-Zielfenster Q4 2026 und Emissions­volumen > 60 Mrd. USD; explizites Kontra-Argument gegen bestandsorientierte Umverteilungs­logik zugunsten wertschöpfungs­bezogener Zugriffsarchitektur (§ 8.3). | 4 |
+| 4 | § 1.1 | Ergänzung | Neuer Nachsatz am Ende der bestehenden BMWK-Passage: Intel-Manufacturing-Layoff-Runde mit Wirksamkeit 15. Juli 2026 (2.392 Beschäftigte an vier Oregon-Standorten mit spezifischen Berufsgruppen; Restrukturierungs­rahmen Lip-Bu Tan; Foundry-Verlust ~3 Mrd. USD; AI-Chip-Marktanteil Intel ~1 % vs. NVIDIA ~92 %). | 5 |
+| 5 | § 11.5 | Ergänzung | Fünf neue Einträge (SpaceXAI/Cursor/Bloomberg/TechCrunch/Axios/MarkTechPost/Memeburn/FourWeekMBA; The Register/TechTimes/Reuters; TechCrunch-Bellan; Bloomberg/Moonberg/Polymarket/GuruFocus; Intel WARN-Notice/KATU/KOIN/KGW/DCD/byteiota). | 1–5 |
+| 6 | Dokumentkopf | Aktualisierung | Version 35.0 → 36.0. | — |
+| 7 | Dokumentende | Aktualisierung | Aktualitätshinweis auf „Mitte Juli 2026 (Schnitt am 16. Juli 2026 — Lauf 001 vom 16. Juli 2026)" gesetzt; Lauf-001-Fortschreibungen (Grok 4.5, Open-Weight-Verschiebung, Anthropic-IPO-Vorbereitung, Intel-Layoff) in Auflistungstext aufgenommen. | 1–5 |
+| 8 | README.md | Aktualisierung | Versionssprung 35.0 → 36.0 (Versionszeile, Zitiervorschlag, KI-Offenlegung um Versions-Eintrag 36.0 ergänzt). | — |
+| 9 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 16. Juli 2026 (Lauf 001 vom 16. Juli 2026) — Version 35.0 → Version 36.0" mit Prüftabelle 2.1.1–2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 6 | Anthropic Claude Science (30. Juni 2026) | D | Ankündigungs­datum außerhalb 7-Tage-Fensters; für § 7.1/§ 8.2 in Folgelauf markiert. |
+| 7 | Tesla Optimus Fremont-Produktionsstart (Q1-2026-Earnings-Call + Anfang Juli 2026) | J | Kein einzelnes Ankündigungs­ereignis im 48h-Fenster (14.–16. Juli 2026); Ankündigung liegt außerhalb 7-Tage-Fenster; als Aufnahmekandidat für § 8.2 im Folgelauf markiert. |
+| 8 | IAB-Kurzbericht 08/2026 „Jeder vierte Betrieb nutzt generative KI" (5. Mai 2026) | A | Veröffentlichungs­datum außerhalb 7-Tage-Fensters; weiter als Aufnahmekandidat für § 1.1/§ 3.5. |
+| 9 | G-BA / gematik / BfArM Juli 2026 | G | Achtzehntes Mal in Folge ohne KI-spezifische Beschlüsse. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument und Literaturverzeichnis: Ja (Apple v. OpenAI, Fable-5-Umstellung, Muse Spark 1.1, GPT-5.6-Freigabe, KI-MIG-Bundesrat, GKV-BStabG-Bundesrat, OpenAI-5-%-Vorschlag, Sanders S. 4825, Vera-Rubin-Auslieferung, NVIDIA-Kyber-Verzögerung, OECD Employment Outlook 2026 + Country Note Germany + Non-compete Germany, SkillSyncer 267/185.894/56 %, Merz-Regierungserklärung 9. Juli 2026, BMWK-Monatspublikation Juli 2026, Anthropic-Cadences-Bericht bereits in Vorlauf-Versionen dokumentiert und nicht erneut eingespielt; Anthropic Claude Science, Tesla Optimus Fremont, IAB-Kurzbericht 08/2026 als außerhalb des Fensters liegend verworfen)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block „16. Juli 2026 — Version 35.0 → Version 36.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja (Phase 5)
+- Word erstellt (`build_docx.py`): Ja (Phase 5)
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (36.0 durchgängig)
+- E-Mail-Benachrichtigung (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (4.573 Zeichen, unter der 5.000-Zeichen-Grenze). In dieser Session sind keine Microsoft-Graph-Send-Tools (`mail_send`, `send_mail`, `send_message`, `outlook_send`) im Microsoft-365-MCP erreichbar — ToolSearch mit dem Muster liefert ausschließlich Such- und Lesewerkzeuge (Outlook-/SharePoint-Search, Read-Resource, Chat-Message-Search) sowie den GitHub-`create_or_update_file`-Treffer, kein Send-Tool. Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-mail.txt` noch in dieses Logbuch, in Commits, den Abschlussbericht oder eine andere versionierte Datei übernommen.
+- WhatsApp-Zusammenfassung (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (703 Zeichen, unter der 1.000-Zeichen-Grenze). Der `whatsapp`-MCP-Server ist in dieser Session nicht verbunden — `wa_send_message` und Alternativen mit `send`/`send_message`-Muster nicht erreichbar. Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-whatsapp.txt` noch in dieses Logbuch übernommen.
+- Branch auf main gemerged und gelöscht: Ergebnis siehe „Phase 6-Ausführung im Commit"
+
+### Auffälligkeiten / offene Punkte
+
+- Cluster G (Gesundheitswesen) achtzehntes Mal in Folge ohne belastbaren KI-spezifischen G-BA-/gematik-/BfArM-Beschluss im 7-Tage-Fenster; strukturelles Muster verfestigt sich weiter.
+- Open-Weight-Verschiebung (TechCrunch/Bellan 14. Juli 2026): Für Folgeläufe zur Beobachtung markiert — insbesondere Aufkommen einer eigenständigen europäischen Open-Weight-Strategie und mögliche BMWK-/EU-Reaktionen.
+- Anthropic-IPO: Investoren­meetings-Serie steht bevor; für Folgelauf sind konkrete Termine, Konsortialbank-Bestätigungen und Emissions­volumen-Präzisierung markiert.
+- Grok 4.5 EU-Verfügbarkeit: Bei Release am 8. Juli 2026 zunächst nicht in der EU verfügbar (Mid-Juli 2026 avisiert); Verfügbarkeits­eintritt in der EU für Folgelauf zu prüfen.
+- Anthropic Claude Science (30. Juni 2026): Aufnahmekandidat für § 7.1 (Gesundheitswesen) und § 8.2 (Frontier-Anwendungen) im Folgelauf.
+- Tesla Optimus Fremont-Produktionsstart (late July / August 2026): Aufnahmekandidat für § 8.2 in Folgelauf, sobald das Ereignis dokumentiert ist.
+- Sachverständigenrat-Jahresgutachten 2025/26 (KI-Sektion S. 499): weiterhin Aufnahmekandidat für Folgelauf.
+- IAB-Kurzbericht 08/2026 „Jeder vierte Betrieb nutzt generative KI": Aufnahmekandidat für § 1.1/§ 3.5 im Folgelauf (Fensterüberprüfung).
+- Google Gemini 3.5 Pro Release 17. Juli 2026: Für Folgelauf zur Fortschreibung von § 8.2 markiert.
+- Digital Omnibus on AI: Amtsblatt-Veröffentlichung Mitte/Ende Juli 2026 erwartet — im Folgelauf zu prüfen.
+- Branch dieses Laufs: `claude/determined-einstein-l5bu92`.
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben.
+
+---
+
 ## 2026-07-15 — Lauf 001 — Version 34.0 → Version 35.0
 
 ### Recherchekorridor
