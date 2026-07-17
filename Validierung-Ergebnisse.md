@@ -7,6 +7,78 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 17. Juli 2026 (Lauf 001 vom 17. Juli 2026) — Version 36.0 → Version 37.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 17. Juli 2026 im Standard-7-Tage-Fenster (10.–17. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (15.–17. Juli 2026). Vier belegbare Fortschreibungen identifiziert (mit einer Aufnahme des im Vorlauf explizit als Aufnahmekandidat markierten *Gemini-3.5-Pro*-Release-Zieltermins): Cluster G mit dem *GeDIG*-Kabinettsbeschluss vom 15. Juli 2026, Cluster F mit *Thomson Reuters* (13. Juli 2026) und *Sprout Social* (15. Juli 2026) sowie Cluster I mit *Gemini 3.5 Pro* (Zieltermin 17. Juli 2026).
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *GeDIG-Kabinettsbeschluss* (15. Juli 2026, Cluster G): Das Bundeskabinett hat den Entwurf des *Gesetzes für Daten und digitale Innovation im Gesundheitswesen* (GeDIG) beschlossen — dritter Digitalisierungsbaustein nach DigiG und GDNG. KI-gestützte Angebote der Krankenkassen in der ePA (versichertenverständliche Aufbereitung von Befunden, individualisierte Beipackzettel), zeitlich befristete Reallabore für Krankenkassen, direkte Marktbeschaffung durch die gematik zur Reduktion der Applikationsvielfalt (rund 25 Störungen pro Monat 2025), erweiterte Zuständigkeiten der gematik, Volltextsuche in der ePA ab Anfang 2027, digitale Impfnachweise ab Mitte 2027, verpflichtender TI-Anschluss bis 1. September 2029. Gesamtpaket ~600 Mio. EUR jährliche Entlastung, davon GeDIG ~445 Mio. EUR (BMG-Pressemitteilung, ad-hoc-news). | § 7.3 (neuer bold-gesetzter Absatz „GeDIG-Kabinettsbeschluss vom 15. Juli 2026" am Ende von § 7.3 mit Rückverweisen auf § 4.4 (KI-Reallabor der Bundesnetzagentur) und § 7.2 (Verlagerung KI-Wertschöpfung in ausländische Cloud-Ketten)); § 11.3 (neuer Eintrag zu BMG/Bundesregierung/ad-hoc-news). Aktualitätshinweis am Dokumentende ergänzt; README.md 37.0. | Bricht die über achtzehn Läufe in Folge dokumentierte Serie ohne KI-spezifischen G-BA-/gematik-/BfArM-Beschluss und verankert erstmals konkrete KI-Anwendungspfade im Rahmen der GKV-Regelversorgung. Öffnet die Erstattungs- und Trägerlogik der GKV für KI-gestützte ePA-Anwendungen, bislang jenseits selektivvertraglicher Modelle. Verankert Reallabor-Logik auch in der GKV-Datenverarbeitung — inhaltlich parallel zum in § 4.4 dokumentierten KI-Reallabor-Auftrag der Bundesnetzagentur nach KI-MIG. |
+| 2 | *Thomson Reuters — Engineering Layoffs* (13. Juli 2026, Cluster F): Konzernmitteilung zu einer Reduktion von bis zu 500 Engineering-Stellen (rund 1,8 % der weltweit 27.100 Beschäftigten, rund 5,2 % der 9.400 Beschäftigten in der Operations-and-Technology-Division); explizite Umschichtung „hin zu KI-nativen Rollen"; Q1-FY-2026-Umsatzplus rund 10 %, optimistische Jahresprognose. Reuters, Silicon Republic, US News, The Next Web, Seeking Alpha, GuruFocus. | § 1.1 (Nachsatz zu Intel-Passage vor dem Sozialversicherungs­schlusssatz; gemeinsam mit Sprout Social); § 11.5 (neuer Eintrag zu Thomson Reuters/Reuters/Silicon Republic/US News/The Next Web/Seeking Alpha/GuruFocus). | Erweitert das in § 1.1 dokumentierte Layoff-Aggregat um Legal-/Tax-/Regulatory-Segmentanbieter und zeigt, dass die KI-Restrukturierung 2026 nicht mehr allein Hyperscaler und Halbleiter-Fertiger erreicht. |
+| 3 | *Sprout Social — SEC-8-K Layoffs* (15. Juli 2026, Cluster F): Reduktion rund 260 Positionen (20 % der Belegschaft); Board-Beschluss 8. Juli 2026, Mitarbeitendenmitteilungen ab 15. Juli 2026; Restrukturierungs­aufwand 18–20 Mio. USD (Cash-Abfindungen und Leistungen); Q2-2026-Vorabergebnis am oberen Rand der bisherigen Bandbreite (endgültige Zahlen 6. August 2026); Konzernbegründung: „Ausrichtung der Kostenbasis auf strategische Prioritäten, darunter die laufenden Investitionen in *AI-powered social intelligence*". Crain's Chicago Business, American Bazaar, Investing.com, Stifel, Stocktitan. | § 1.1 (gemeinsam mit Thomson Reuters im selben Nachsatz); § 11.5 (neuer Eintrag zu Sprout Social 8-K/Crain's Chicago Business/American Bazaar/Investing.com/Stocktitan/Stifel). | Enterprise-Software-/SaaS-Beleg für die Ausweitung der KI-Restrukturierung; die im 8-K explizite Umwidmung („AI-powered social intelligence") reduziert die Attributions­unsicherheit der Kausalzuweisung, ohne sie auf WARN-Disclosure-Niveau (§ 9.1) zu heben. |
+| 4 | *Google DeepMind — Gemini 3.5 Pro Release* (Zieltermin 17. Juli 2026, Cluster I): Nach übereinstimmender Bericht­erstattung (TechTimes 13. Juli 2026, BigGo Finance 13. Juli 2026, HackerNoon 13. Juli 2026, Enterprise DNA, ZoomBangla, Memeburn) Freigabe des vollständig neu aufgesetzten *Gemini 3.5 Pro* zum 17. Juli 2026 nach Vollumbau der Gemini-2.5-Pro-Basisarchitektur; Kontextfenster zwei Millionen Token, *Deep-Think-Reasoning-Layer* auf dem *Gemini-Ultra*-Tarif (250 USD/Monat), autonomes Werkzeug- und Coding-Verhalten. Zeitpunkt und Spezifikationen zum Zeitpunkt der Berichterstattung nicht durch offizielle Google-Mitteilung bestätigt. | § 8.2 (neuer Absatz nach der Apple-v.-OpenAI-Passage vor der GPT-5.6-Freigabe-Passage; Konjunktiv nach § 4.2 Claude.md); § 11.5 (neuer Eintrag zu Google DeepMind/TechTimes/BigGo Finance/HackerNoon/Enterprise DNA/ZoomBangla/Memeburn/Coursiv/Developers Digest/Startup Fortune). | Weitere Frontier-Freigabe innerhalb der zehntägigen Juli-2026-Serie (Grok 4.5 8. Juli, GPT-5.6 und Muse Spark 1.1 9. Juli, Gemini 3.5 Pro 17. Juli); illustriert die aufwärts gerichtete Preisspreizung am oberen Ende (Deep-Think-Modus 250 USD/Monat) parallel zur abwärts gerichteten Workhorse-Deflation und stützt damit die in § 8.2 aufgenommene Differenzierung. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- Digital Omnibus on AI Amtsblatt-Veröffentlichung — nach Freshfields-/Council-Berichterstattung noch nicht erfolgt (erwartet 18.–25. Juli 2026); Fortschreibung für Folgelauf.
+- Tesla Optimus V3 Fremont-Produktionsstart — kein spezifisches Ereignisdatum im 48h-Fenster (weiter „late July / August 2026" avisiert); Aufnahmekandidat für Folgelauf.
+- NVIDIA H20 China Exportfreigabe (15. Juli 2025) — Datum außerhalb 7-Tage-Fenster (Jahresvergleich 2025 vs. 2026).
+- Anthropic Claude Science (30. Juni 2026) — außerhalb 7-Tage-Fenster; Aufnahmekandidat für § 7.1/§ 8.2.
+- IAB-Kurzbericht 08/2026 (5. Mai 2026), Sachverständigenrat-Jahresgutachten 2025/26, ASK-Bericht (23. Juni 2026) — außerhalb 7-Tage-Fenster (Aufnahmekandidaten für Folgeläufe).
+- Anthropic-IPO-Präzisierung 15. Juli 2026 (Goldman Sachs, Morgan Stanley, JPMorgan; October-Target) — bereits in § 5.4-Passage aus Vorlauf-Version 36.0 mit identischem Kern (Konsortialbanken, Q4-2026-Zielfenster) dokumentiert; keine erneute Einarbeitung.
+- Cluster A/B/C/D/E/H/J — ohne belegbare Neuzugänge im 7-Tage-Fenster.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; die vier neuen Ergänzungen fügen einen bold-gesetzten Absatz in § 7.3, einen Nachsatz in § 1.1 und einen Absatz in § 8.2 hinzu; keine neuen Unterüberschriften, keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte 7.1–7.3 und 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Säulen der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | GeDIG-Passage in § 7.3 verweist kontrolliert auf § 4.4 (KI-Reallabor Bundesnetzagentur) und § 7.2 (Cloud-Wertschöpfung); Sprout-Social-/Thomson-Reuters-Nachsatz in § 1.1 verweist auf § 3.5 (sektorale Frühwirkungen); Gemini-3.5-Pro-Absatz in § 8.2 verweist auf § 8.3 (Zugriffspfade) und § 4.2 Claude.md (Konjunktivpflicht). Keine Querverweis-Ziele verschoben. |
+| 2.1.4 Roter Faden | OK | GeDIG-Passage schließt an die in § 7 dokumentierte Sektor-Analyse an (Substitutions-/Ergänzungseffekte, Wertschöpfungsstruktur, Konsequenzen für Akteure). Sprout-/Thomson-Reuters-Passage setzt die Layoff-Chronologie in § 1.1 fort. Gemini-3.5-Pro-Passage ergänzt die § 8.2-Frontier-Serie (Grok 4.5, GPT-5.6, Muse Spark 1.1). Kapitel-8-Deutschland-These bleibt eigenständige Position. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; die neuen bold-Lead-Ins folgen dem etablierten Muster; keine unausgeglichenen Fettungen; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | GeDIG-Kabinettsbeschluss (15. Juli 2026), 445 Mio. EUR Entlastung, KI-gestützte Angebote in ePA, gematik-Reform durch BMG-Pressemitteilung und ad-hoc-news bestätigt. Thomson-Reuters-500-Zahl, 27.100-Konzern-Beschäftigten-Zahl, 9.400-Ops-and-Tech-Division und 10 %-Q1-Wachstum durch Silicon Republic verifiziert. Sprout-Social-Zahlen (260 Positionen, 20 %, 18–20 Mio. USD Restrukturierungs­aufwand, Board-Datum 8. Juli 2026, Notifikation 15. Juli 2026) durch SEC-8-K/Stocktitan-Zusammenfassung verifiziert. Gemini-3.5-Pro-Zieltermin 17. Juli 2026, 2M-Kontext und 250-USD-Ultra-Tier durch TechTimes und BigGo Finance parallel bestätigt (allerdings ohne offizielle Google-Mitteilung — Konjunktiv). |
+| 2.2.2 Redundanzprüfung | OK | GeDIG-Passage in § 7.3 wiederholt keine der in § 7.1 dokumentierten Substitutions-/Ergänzungseffekte, sondern führt neuen regulatorischen Trägerpfad ein. Sprout-/Thomson-Reuters-Passage in § 1.1 dokumentiert neue Ereignisse ohne Wiederholung der Cloudflare-/Coinbase-/Freshworks-Passagen. Gemini-3.5-Pro-Absatz greift die bereits in § 8.2 aus Version 29.0 dokumentierte DeepMind-Talent-Bewegung nur als Ausgangspunkt auf und ergänzt den Release-Vollzug. |
+| 2.2.3 Argumentation | OK | GeDIG-Kabinettsbeschluss im Konjunktiv (Inkrafttretens­termin noch nicht bekannt; Bundestag/Bundesrat stehen aus); Thomson-Reuters-500-Zahl mit Präzisierung „bis zu 500" indikativisch; Sprout-Social-Zahlen aus SEC-8-K indikativisch; Gemini-3.5-Pro-Angaben durchgängig im Konjunktiv (Zeitpunkt und Spezifikationen nach Angaben der berichtenden Medien noch nicht durch offizielle Google-Mitteilung bestätigt). |
+| 2.2.4 Ausgewogenheit | OK | GeDIG-Passage benennt sowohl die Öffnung der Erstattungslogik als auch die weiter offene Frage der Verlagerung von KI-Wertschöpfung in ausländische Cloud-Ketten. Sprout-/Thomson-Reuters-Passage nennt sowohl die Konzernbegründung als auch die zugleich positive Umsatzentwicklung. Gemini-3.5-Pro-Passage differenziert die aufwärts (Deep-Think 250 USD/Monat) und abwärts (Workhorse-Deflation) gerichtete Preisspreizung ausdrücklich. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „GeDIG", „ePA", „Reallabore", „Telematikinfrastruktur (TI)", „gematik", „SEC-8-K", „Deep-Think-Reasoning-Layer", „Gemini-Ultra-Tarif" konsistent eingeführt bzw. verwendet. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | § 11.3 um einen Eintrag ergänzt (BMG/Bundesregierung/ad-hoc-news GeDIG), § 11.5 um drei Einträge (Thomson Reuters/Reuters/Silicon Republic/US News/The Next Web/Seeking Alpha/GuruFocus; Sprout Social 8-K/Crain's Chicago Business/American Bazaar/Investing.com/Stocktitan/Stifel; Google DeepMind/TechTimes/BigGo Finance/HackerNoon/Enterprise DNA/ZoomBangla/Memeburn/Coursiv/Developers Digest/Startup Fortune). Jede Fließtextreferenz hat einen Literatur-Eintrag; keine Waisenzitate. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil; vollständige URLs; Datumsangaben („13. Juli 2026", „15. Juli 2026", „17. Juli 2026") einheitlich. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | BMG-Pressemitteilung (Primär), Silicon Republic (Erst-Berichterstattung), SEC-8-K-Filing (Primär), Bloomberg/TechTimes/BigGo Finance (Erst-Berichterstattung) sind unmittelbare Primär- bzw. Erst-Berichterstattungsquellen; alle Aggregat- und Sekundärquellen mit konsistenter Zahlenwiedergabe. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 17. Juli 2026: bundesgesundheitsministerium.de/presse/pressemitteilungen/kabinett-beschliesst-gedig-pm-15-07-2026 (GeDIG-Details und 445-Mio.-EUR-Entlastung bestätigt); siliconrepublic.com/business/reuters-ai-job-cuts-thomson-engineering-technology (500-Zahl und 27.100-Beschäftigte bestätigt); stocktitan.net/sec-filings/SPT/8-k-sprout-social-inc-reports-material-event-9b53701928d6.html (260 Positionen, 18–20 Mio. USD, Board-Datum bestätigt); finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a (17.-Juli-2026-Zieltermin und 2M-Kontext bestätigt, offizielle Google-Bestätigung fehlt). |
+| 2.4.5 Zitatgenauigkeit | OK | Direkte Zitate auf die minimal nötigen Passagen beschränkt („AI-powered social intelligence", „Ausrichtung der Kostenbasis auf strategische Prioritäten"). BMG-Formulierungen sinngemäß referiert. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge belegt. Gemini-3.5-Pro-Passage explizit als *nicht durch offizielle Google-Mitteilung bestätigt* im Konjunktiv referiert (§ 4.2 Claude.md). |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 37.0 durchgängig: Dokumentkopf (KI-Ökonomie.md, Zeile 12), Aktualitätshinweis am Dokumentende (Schnitt 17. Juli 2026, Lauf 001), `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung mit Versions-Eintrag 37.0) und dieser Protokoll-Block. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltlichen Ergänzungen hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | — | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte (sofern vorhanden): n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 37.0
+- PDF erstellt: Ja (Phase 5 des Daily-Update-Prompts)
+- Word erstellt: Ja (Phase 5 des Daily-Update-Prompts)
+
+---
+
 ## Validierung 16. Juli 2026 (Lauf 001 vom 16. Juli 2026) — Version 35.0 → Version 36.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 16. Juli 2026 im Standard-7-Tage-Fenster (9.–16. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (14.–16. Juli 2026). Drei belegbare Fortschreibungen aus dem Fenster identifiziert (mit einer Nachziehung des im Vorlauf explizit markierten Grok-4.5-Kandidaten aus dem 7-Tage-Fenster): Cluster I mit *Grok 4.5*/SpaceXAI und dem TechCrunch-Beitrag zur Open-Weight-Marktverschiebung, Cluster D/§ 8.3 mit der Anthropic-IPO-Vorbereitung sowie Cluster F mit der Intel-Manufacturing-Layoff-Runde in Oregon.

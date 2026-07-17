@@ -54,6 +54,80 @@
 
 ---
 
+## 2026-07-17 — Lauf 001 — Version 36.0 → Version 37.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, B, C, D, E, H, J ohne belegbare Neuzugänge im 7-Tage-Fenster). Vier belegbare Fortschreibungen aus Cluster G (GeDIG-Kabinettsbeschluss 15. Juli 2026 — bricht die 18-läufige Cluster-G-Nullserie), Cluster F (Sprout Social 15. Juli 2026 und Thomson Reuters 13. Juli 2026) sowie Cluster I (Gemini 3.5 Pro Release-Zieltermin 17. Juli 2026 — Aufnahme des im Vorlauf explizit markierten Aufnahmekandidaten).
+- Zeitfenster: Standard 7 Tage (10.–17. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (15.–17. Juli 2026).
+- Anzahl Suchanfragen: 12 (Web-Suche) plus gezielter Einzel-Fetch zur Verifikation (BMG-Pressemitteilung GeDIG; Silicon Republic Thomson Reuters; Stocktitan Sprout Social 8-K; BigGo Finance Gemini 3.5 Pro).
+- Lauf 001 vom 17. Juli 2026 ist der Folgelauf zu Lauf 001 vom 16. Juli 2026 (Version 35.0 → 36.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | G | Bundesministerium für Gesundheit / Bundesregierung / ad-hoc-news, *Kabinett beschließt Gesetz für Daten und digitale Innovation im Gesundheitswesen (GeDIG) — Digitalisierungspaket mit rund 445 Mio. EUR jährlicher Entlastungswirkung* (15. Juli 2026) | https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/kabinett-beschliesst-gedig-pm-15-07-2026 | übernommen (Primärquelle BMG-Pressemitteilung; Aggregat ad-hoc-news mit 600-Mio.-EUR-Gesamtpaket-Kontext) |
+| 2 | F | Thomson Reuters / Reuters / Silicon Republic / US News / The Next Web / Seeking Alpha / GuruFocus, *Thomson Reuters cuts 500 jobs as AI adoption deepens / Thomson Reuters to cut up to 500 engineering roles* (13. Juli 2026) | https://www.siliconrepublic.com/business/reuters-ai-job-cuts-thomson-engineering-technology | übernommen (48h-Fenster; Erst-Berichterstattung + Bestätigung durch Silicon Republic mit 27.100-Beschäftigten- und Divisions­kennzahlen) |
+| 3 | F | Sprout Social, Inc. (SEC-8-K) / Crain's Chicago Business / American Bazaar / Investing.com / Stocktitan / Stifel, *Sprout Social cuts 20 % of workforce in restructuring plan / Sprout Social to cut 260 jobs as AI reshapes software industry* (15. Juli 2026) | https://www.stocktitan.net/sec-filings/SPT/8-k-sprout-social-inc-reports-material-event-9b53701928d6.html | übernommen (48h-Fenster; SEC-8-K-Primärquelle; Konzernbegründung „AI-powered social intelligence") |
+| 4 | I | Google DeepMind / TechTimes / BigGo Finance / HackerNoon / Enterprise DNA / ZoomBangla / Memeburn / Coursiv / Developers Digest / Startup Fortune, *Gemini 3.5 Pro Targets July 17 After Full Rebuild / Google Launches Gemini 3.5 Pro with 2-Million Token Context Window* (13.–17. Juli 2026) | https://finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a | übernommen (Aufnahmekandidat aus Vorlauf; 48h-Fenster; Zeitpunkt und Spezifikationen nicht durch offizielle Google-Mitteilung bestätigt — Konjunktiv nach § 4.2 Claude.md) |
+| 5 | D | Bloomberg / CNBC / Yahoo Finance, *Anthropic plans high-stakes investor meetings ahead of potential October IPO / Anthropic Plans IPO Investor Meetings as Mega-Listing Nears* (15. Juli 2026) | https://www.cnbc.com/2026/07/15/anthropic-ipo-banks-investor-meetings.html | verworfen als Neuzugang (Kernaussagen — Konsortialbanken Goldman Sachs, Morgan Stanley, JPMorgan; Q4-2026-Zielfenster; Emissions­volumen — bereits im § 5.4-Anthropic-IPO-Absatz aus Version 36.0 dokumentiert) |
+| 6 | J | Tesla Optimus V3 Fremont-Produktionsstart (Ankündigung Q1 2026 / erneut Anfang Juli 2026) | https://blog.robozaps.com/b/tesla-model-s-optimus-robot-factory-conversion | verworfen (kein spezifisches Ereignisdatum im 48h-Fenster; „late July / August 2026" weiter avisiert; Aufnahmekandidat für Folgelauf) |
+| 7 | B | Digital Omnibus on AI Amtsblatt-Veröffentlichung EU (erwartet 18.–25. Juli 2026) | https://www.freshfields.com/en/our-thinking/blogs/technology-quotient/eu-ai-act-unpacked-34-the-final-digital-omnibus-on-ai-key-amendments-to-the-a-102nber | verworfen (Amtsblatt-Veröffentlichung zum Schnitttermin 17. Juli 2026 noch nicht erfolgt; Fortschreibung für Folgelauf) |
+| 8 | A | IAB, *Kurzbericht 08/2026 — „Jeder vierte Betrieb nutzt generative KI"* (5. Mai 2026) | https://doku.iab.de/kurzber/2026/kb2026-08.pdf | verworfen (Veröffentlichungs­datum außerhalb 7-Tage-Fensters; weiter Aufnahmekandidat für § 1.1/§ 3.5) |
+| 9 | C | NVIDIA H20 China Exportfreigabe (15. Juli 2025) | https://www.cnbc.com/2025/07/15/nvidia-says-us-government-will-allow-it-to-resume-h20-ai-chip-sales-to-china.html | verworfen (Datum 2025, außerhalb 7-Tage-Fenster; kein neuer Ereignisstand im Juli 2026) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 7.3 | Ergänzung | Neuer bold-gesetzter Absatz „GeDIG-Kabinettsbeschluss vom 15. Juli 2026" mit dritten Digitalisierungsbaustein nach DigiG/GDNG, KI-gestützten Krankenkassen-Angeboten in der ePA (versichertenverständliche Aufbereitung von Befunden, individualisierte Beipackzettel), zeitlich befristeten Reallaboren für Krankenkassen, direkter Marktbeschaffung durch gematik, Volltextsuche in ePA ab Anfang 2027, digitalen Impfnachweisen ab Mitte 2027, verpflichtendem TI-Anschluss bis 1. September 2029, rund 445 Mio. EUR jährliche Entlastungswirkung; Bezug zu § 4.4 (KI-Reallabor Bundesnetzagentur) und § 7.2 (Verlagerung KI-Wertschöpfung); Konjunktiv beim Inkrafttretens­termin. Bricht die über achtzehn Läufe dokumentierte Cluster-G-Nullserie. | 1 |
+| 2 | § 1.1 | Ergänzung | Neuer Nachsatz zu Intel-Passage: Thomson Reuters 500-Engineering-Stellen (13. Juli 2026, rund 1,8 % der 27.100 Beschäftigten, 5,2 % der Ops-and-Tech-Division) mit expliziter „hin zu KI-nativen Rollen"-Umschichtung; Sprout Social SEC-8-K-Meldung (15. Juli 2026) mit 260 Positionen / 20 % / 18–20 Mio. USD Restrukturierungs­aufwand und Konzernbegründung „AI-powered social intelligence". Illustriert die Ausweitung der KI-Restrukturierung auf Enterprise-Software-, Analytics- und Legal-/Tax-/Regulatory-Segmentanbieter (§ 3.5). | 2, 3 |
+| 3 | § 8.2 | Ergänzung | Neuer Absatz zur Freigabe von *Gemini 3.5 Pro* durch Google DeepMind zum 17. Juli 2026 nach Vollumbau der Basisarchitektur; Kontextfenster 2 Mio. Token, Deep-Think-Reasoning-Layer auf Gemini-Ultra-Tarif (250 USD/Monat), autonomes Werkzeug- und Coding-Verhalten; im Konjunktiv wegen fehlender offizieller Google-Bestätigung. Ergänzt die zehntägige Juli-2026-Frontier-Serie (Grok 4.5 8. Juli, GPT-5.6 und Muse Spark 1.1 9. Juli, Gemini 3.5 Pro 17. Juli) und illustriert die aufwärts gerichtete Preisspreizung am oberen Ende. | 4 |
+| 4 | § 11.3 | Ergänzung | Neuer Eintrag zu BMG/Bundesregierung/ad-hoc-news (GeDIG-Kabinettsbeschluss 15. Juli 2026). | 1 |
+| 5 | § 11.5 | Ergänzung | Drei neue Einträge (Thomson Reuters/Reuters/Silicon Republic/US News/The Next Web/Seeking Alpha/GuruFocus; Sprout Social 8-K/Crain's Chicago Business/American Bazaar/Investing.com/Stocktitan/Stifel; Google DeepMind/TechTimes/BigGo Finance/HackerNoon/Enterprise DNA/ZoomBangla/Memeburn/Coursiv/Developers Digest/Startup Fortune). | 2, 3, 4 |
+| 6 | Dokumentkopf | Aktualisierung | Version 36.0 → 37.0. | — |
+| 7 | Dokumentende | Aktualisierung | Aktualitätshinweis auf „Mitte Juli 2026 (Schnitt am 17. Juli 2026 — Lauf 001 vom 17. Juli 2026)" gesetzt; Lauf-001-Fortschreibungen (GeDIG-Kabinettsbeschluss, Thomson Reuters, Sprout Social, Gemini 3.5 Pro) in Auflistungstext aufgenommen. | 1–4 |
+| 8 | README.md | Aktualisierung | Versionssprung 36.0 → 37.0 (Versionszeile, Zitiervorschlag, KI-Offenlegung um Versions-Eintrag 37.0 ergänzt). | — |
+| 9 | Validierung-Ergebnisse.md | Ergänzung | Neuer Validierungsblock „Validierung 17. Juli 2026 (Lauf 001 vom 17. Juli 2026) — Version 36.0 → Version 37.0" mit Prüftabelle 2.1.1–2.6 und Abschluss „alle Fehler behoben: Ja". | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 5 | Bloomberg/CNBC/Yahoo Finance Anthropic-IPO-Investorenmeetings (15. Juli 2026) | D | Kernaussagen (Konsortialbanken Goldman Sachs / Morgan Stanley / JPMorgan; Q4-2026-Zielfenster; Emissions­volumen > 60 Mrd. USD) bereits in § 5.4-Anthropic-IPO-Absatz aus Version 36.0 dokumentiert; die „October-Target"-Präzisierung stellt keine substantielle Erweiterung dar. |
+| 6 | Tesla Optimus V3 Fremont-Produktionsstart | J | Kein spezifisches Ereignisdatum im 48h-Fenster; „late July / August 2026" weiter avisiert; Aufnahmekandidat für Folgelauf. |
+| 7 | Digital Omnibus on AI Amtsblatt-Veröffentlichung | B | Amtsblatt-Veröffentlichung zum Schnitttermin 17. Juli 2026 noch nicht erfolgt (erwartet 18.–25. Juli 2026); Fortschreibung für Folgelauf. |
+| 8 | IAB-Kurzbericht 08/2026 (5. Mai 2026) | A | Veröffentlichungs­datum außerhalb 7-Tage-Fenster; weiter Aufnahmekandidat. |
+| 9 | NVIDIA H20 China Exportfreigabe (15. Juli 2025) | C | Datum aus 2025, außerhalb 7-Tage-Fenster; kein neuer 2026-Ereignisstand. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument und Literaturverzeichnis: Ja (Grok 4.5, Open-Weight-Verschiebung, Anthropic-IPO-Konsortialbanken, Intel-Layoff Oregon, Merz-Regierungserklärung 9. Juli 2026, BMWK-Monatspublikation Juli 2026, Fable-5-Umstellung, Muse Spark 1.1, GPT-5.6-Freigabe, KI-MIG-Bundesrat, GKV-BStabG-Bundesrat, Apple v. OpenAI, Vera-Rubin-Auslieferung, NVIDIA-Kyber-Verzögerung, OECD Employment Outlook 2026, SkillSyncer 267/185.894/56 %, OpenAI-5-%-Vorschlag, Sanders S. 4825, Anthropic-Cadences-Bericht bereits in Vorlauf-Versionen dokumentiert und nicht erneut eingespielt; Tesla Optimus, IAB-Kurzbericht 08/2026, Sachverständigenrat-Jahresgutachten als außerhalb des Fensters liegend verworfen)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block „17. Juli 2026 — Version 36.0 → Version 37.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja (Phase 5)
+- Word erstellt (`build_docx.py`): Ja (Phase 5)
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (37.0 durchgängig)
+- E-Mail-Benachrichtigung (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (3.652 Zeichen, unter der 5.000-Zeichen-Grenze). In dieser Session sind keine Microsoft-Graph-Send-Tools (`mail_send`, `send_mail`, `send_message`, `outlook_send`) im Microsoft-365-MCP erreichbar — ToolSearch mit dem Muster liefert ausschließlich Such- und Lesewerkzeuge (Outlook-/SharePoint-Search, Read-Resource, Chat-Message-Search). Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-mail.txt` noch in dieses Logbuch, in Commits, den Abschlussbericht oder eine andere versionierte Datei übernommen.
+- WhatsApp-Zusammenfassung (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (701 Zeichen, unter der 1.000-Zeichen-Grenze). Der `whatsapp`-MCP-Server ist in dieser Session nicht verbunden — `wa_send_message` und Alternativen mit `send`/`send_message`-Muster nicht erreichbar. Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-whatsapp.txt` noch in dieses Logbuch übernommen.
+- Branch auf main gemerged und gelöscht: Ja (siehe Phase 6)
+
+### Auffälligkeiten / offene Punkte
+
+- Cluster G (Gesundheitswesen): Nach achtzehn Läufen in Folge ohne belastbaren KI-spezifischen Beschluss bricht der GeDIG-Kabinettsbeschluss vom 15. Juli 2026 die Serie — erste konkrete Verankerung von KI-Anwendungspfaden in der GKV-Regelversorgung. Für Folgeläufe zur Beobachtung: parlamentarische Behandlung (Bundestag / Bundesrat), etwaige Änderungsanträge und der Inkrafttretens­termin.
+- Gemini 3.5 Pro: Zeitpunkt und Spezifikationen zum Schnitt am 17. Juli 2026 nach Angaben der berichtenden Medien noch nicht durch eine offizielle Google-Mitteilung bestätigt (Konjunktiv). Für Folgelauf: offizielle Google-Bestätigung, tatsächliche API-Verfügbarkeit und initiale Bench-Zahlen zu prüfen.
+- Digital Omnibus on AI: Amtsblatt-Veröffentlichung im EU-Amtsblatt zum Schnitttermin 17. Juli 2026 noch nicht erfolgt; erwartet 18.–25. Juli 2026 nach Freshfields-/Council-Berichterstattung — im Folgelauf zu prüfen.
+- Tesla Optimus V3 Fremont-Produktionsstart „late July / August 2026" — weiter Aufnahmekandidat für § 8.2.
+- IAB-Kurzbericht 08/2026 „Jeder vierte Betrieb nutzt generative KI" (5. Mai 2026): Aufnahmekandidat für § 1.1 / § 3.5 (Fensterüberprüfung).
+- Sachverständigenrat-Jahresgutachten 2025/26 (KI-Sektion S. 499): weiterhin Aufnahmekandidat für Folgelauf.
+- Anthropic Claude Science (30. Juni 2026): Aufnahmekandidat für § 7.1 / § 8.2.
+- Anthropic IPO S-1-Filing: Bloomberg berichtet, dass die Regulierung eine öffentliche S-1-Freigabe mindestens 15 Tage vor Roadshow-Start verlangt; im Folgelauf ist die S-1-Freigabe zu erwarten.
+- Branch dieses Laufs: `claude/determined-einstein-iuscna`.
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Ergebnisse siehe Phase-5b-Abschnitt der Verarbeitungsschritte oben.
+
+---
+
 ## 2026-07-16 — Lauf 001 — Version 35.0 → Version 36.0
 
 ### Recherchekorridor
