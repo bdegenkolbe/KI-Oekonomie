@@ -111,7 +111,7 @@
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (37.0 durchgängig)
 - E-Mail-Benachrichtigung (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (3.652 Zeichen, unter der 5.000-Zeichen-Grenze). In dieser Session sind keine Microsoft-Graph-Send-Tools (`mail_send`, `send_mail`, `send_message`, `outlook_send`) im Microsoft-365-MCP erreichbar — ToolSearch mit dem Muster liefert ausschließlich Such- und Lesewerkzeuge (Outlook-/SharePoint-Search, Read-Resource, Chat-Message-Search). Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-mail.txt` noch in dieses Logbuch, in Commits, den Abschlussbericht oder eine andere versionierte Datei übernommen.
 - WhatsApp-Zusammenfassung (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (701 Zeichen, unter der 1.000-Zeichen-Grenze). Der `whatsapp`-MCP-Server ist in dieser Session nicht verbunden — `wa_send_message` und Alternativen mit `send`/`send_message`-Muster nicht erreichbar. Empfängerdaten aus Routine-Anweisung genutzt, aber weder in `daily-whatsapp.txt` noch in dieses Logbuch übernommen.
-- Branch auf main gemerged und gelöscht: Ja (siehe Phase 6)
+- Branch auf main gemerged und gelöscht: Ja (Merge-Commit 2f68c02 auf `main`; lokaler Branch `claude/determined-einstein-iuscna` gelöscht; Remote-Branch-Löschung durch die Git-Serverkonfiguration mit HTTP 403 abgewiesen — Muster wie in Läufen zuvor, unschädlich, da alle Änderungen auf `main` konsolidiert sind; `git push origin main` selbst wurde trotz „Cannot update this protected ref"-Hinweistext ausgeführt — der Refspec-Report zeigt `7eda0d7..2f68c02 main -> main`).
 
 ### Auffälligkeiten / offene Punkte
 
