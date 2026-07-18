@@ -122,6 +122,7 @@
 - Gemini 3.5 Pro: offizielle Google-Blog-Bestätigung des Release-Vollzugs zum 17. Juli 2026 zum Stichtag 18. Juli 2026 weiterhin nicht auffindbar; Konjunktiv-Fassung aus Version 37.0 bleibt bestehen.
 - Empfängerdaten der Phase-5b-Benachrichtigung stammen aus der Routine-Anweisung (nicht aus dem Repo). Ergebnisse Versand siehe Verarbeitungsschritte oben.
 - Phase 5b Versand: In dieser Session war weder ein Microsoft-Graph-`mail_send`-Tool (bevorzugt) noch ein alternativer E-Mail-Send-Kanal (`send_mail`, `send_message`, `outlook_send`) noch das `wa_send_message`-Tool aus dem `whatsapp`-MCP-Server erreichbar. Nach Phase-5b-Regel wurden `daily-mail.txt` und `daily-whatsapp.txt` als Fallback-Dateien im Repo-Root geschrieben (per `.gitignore` vom Commit ausgeschlossen; enthalten keine Empfängerdaten). Der Merge auf `main` wird durch den ausbleibenden Versand nach Phase-5b-Regel nicht verhindert.
+- Phase 6 Cleanup: Session-Branch `claude/determined-einstein-87mqxr` erfolgreich auf main gemerged (Merge-Commit `65ea1c2`, Merge-Vorgänger `2508dde` = Vorlauf-Version 37.0-Cleanup auf main und `67c2113` = Daily-Update Version 38.0). Lokaler Branch gelöscht. Löschung des Remote-Branches durch das Git-Backend mit HTTP 403 blockiert (bekanntes Verhalten aus früheren Läufen); der veraltete Remote-Branch bleibt bestehen, ohne den Ablauf zu behindern.
 
 ---
 
