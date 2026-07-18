@@ -7,6 +7,78 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 18. Juli 2026 (Lauf 001 vom 18. Juli 2026) — Version 37.0 → Version 38.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 18. Juli 2026 im Standard-7-Tage-Fenster (11.–18. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (16.–18. Juli 2026). Ein belegbarer Neuzugang identifiziert: Cluster I mit *Kimi K3* (Moonshot AI, 16. Juli 2026).
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *Kimi K3 — Moonshot AI Frontier-Freigabe* (16. Juli 2026, Cluster I): Öffentliche Freigabe des Mixture-of-Experts-Modells *Kimi K3* mit rund 2,8 Billionen Gesamtparametern durch Moonshot AI (Peking) — laut Berichterstattung „first open 3-trillion-parameter-class AI model" und bislang größtes offen zugängliches KI-Modell überhaupt. Kontextfenster 1 Million Token, native Bildverarbeitung, zwei Varianten (*K3 Max*, *K3 Swarm Max*), Open-Weight-Release für den 27. Juli 2026 angekündigt. *Artificial-Analysis-Intelligence-Index* 57 Punkte (Platz 4 unter 189 Modellen, knapp über Claude Opus 4.8 mit 56, unter GPT-5.6 Sol mit 58,9 und Claude Fable 5 mit 59,9). API-Preise: 3 US-Dollar Input / 15 US-Dollar Output pro Million Token, Cache-Read 0,30 US-Dollar. *The Decoder*: „signaling the end of super cheap Chinese AI". Quellen: VentureBeat, Fortune, TechCrunch, People's Daily Online, Warp2Search, MLQ News, The Decoder, Simon Willison, Decrypt, Techloy, Codersera, kie.ai, Trilogy AI. | § 8.2 (neuer Absatz nach der TechCrunch-Bellan-Passage — „Marktverlagerungs-These", vor der „Deutschland als Verarbeiter"-Zäsur; Konjunktiv/indikativ nach § 4.2 Claude.md); § 11.5 (neuer Eintrag zu Moonshot AI/VentureBeat/Fortune/TechCrunch/People's Daily/Warp2Search/MLQ News/The Decoder/Simon Willison/Decrypt/Techloy/Codersera/kie.ai/Trilogy AI); Aktualitätshinweis am Dokumentende ergänzt; README.md 38.0. | Erste Freigabe eines chinesischen Open-Weight-Modells mit Frontier-nahen Intelligence-Index-Werten und zugleich mit angehobener Preissetzung Richtung US-Workhorse-Niveau. Präzisiert die in § 8.2 durch die TechCrunch-Bellan-Passage aufgenommene Open-Weight-Marktverlagerungs-These: Die Verlagerung erfolgt nicht mehr allein über Preisunterbietung, sondern zunehmend über Kapazitätsführerschaft — mit Rückwirkung auf § 8.3 (Zugriffspfade auf inländische KI-Wertschöpfung verlassen sich nicht mehr auf eine dauerhaft günstige Import-Ökonomie chinesischer Modelle). |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- Digital Omnibus on AI Amtsblatt-Veröffentlichung — Finaler Rechtsakt am 8. Juli 2026 signiert; Amtsblatt-Veröffentlichung zum Stichtag 18. Juli 2026 noch nicht vollzogen (erwartet vor 2. August 2026); Fortschreibung für Folgelauf.
+- Growiec/Prettner/Szkróbka, *Workers' Incentives and the Optimal Taxation of AI* (arXiv:2603.17898, 18. März 2026) — inhaltlich starker Cluster-A-Treffer (Modellergebnis: optimal, KI zu besteuern, sobald kognitive Beschäftigte in manuelle Berufe wechseln würden; Prettner bereits im Literaturverzeichnis) — außerhalb 7-Tage-Fenster; Aufnahmekandidat für Folgelauf mit erweitertem Zeitfenster.
+- KI-Taskforce der Bundesregierung (1. Juli 2026, BMDS, Minister Wildberger; fünf Arbeitsgruppen Frontier AI/AI-Sicherheit/AI-Infrastruktur/AI-Gesellschaft/AI-Anwendungen; Zwischenbericht Ende August, Endbericht Ende September 2026) — außerhalb 7-Tage-Fenster; Aufnahmekandidat für Folgelauf.
+- BMAS-Kabinettsbeschluss *Gesetz zur Modernisierung und Digitalisierung der Arbeitsförderung* (15. Juli 2026) — kein primärer KI-Bezug (Digitalisierung von Arbeitsverwaltungs­prozessen; Job-to-Job-Trials, Regionale Arbeitsmarkt-Hubs); indirekt anschlussfähig, aber nicht im Zeitfenster mit direkter KI-Anbindung.
+- Elastic 7 % Workforce Reduction (SEC-8-K vom 23. Juni 2026, CPO-Rücktritt zum 17. Juli 2026 wirksam) — 8-K-Datum außerhalb 7-Tage-Fenster; CPO-Rücktritt allein kein KI-getriebenes Layoff-Ereignis.
+- KPMG Australia — 200 bis 1.000 Job Cuts (Berichterstattung 14./15. Juli 2026) — primär Fallout des Audit-Skandals (März 2026), kein KI-getriebener Restrukturierungsgrund; ohne KI-Bezug außerhalb Cluster F-Trigger.
+- Volkswagen — 100.000 Job Cuts / Werksschließungen (Berichterstattung 14. Juli 2026) — kein KI-Bezug im primären Restrukturierungsgrund (E-Mobilitäts-Transformation); Negativliste Cluster F.
+- Gemini 3.5 Pro Freigabe zum 17. Juli 2026 — bereits im Vorlauf-Version 37.0 (Lauf 001 vom 17. Juli 2026) in § 8.2 und § 11.5 dokumentiert; offizielle Google-Blog-Bestätigung zum Stichtag 18. Juli 2026 weiterhin nicht auffindbar (Konjunktiv-Fassung in Version 37.0 bleibt bestehen).
+- IAB Kurzbericht 08/2026 (5. Mai 2026), Anthropic Claude Science, IFR-Positionspapiere Humanoide (August 2025) — außerhalb 7-Tage-Fenster (Aufnahmekandidaten für Folgeläufe).
+- Cluster A/B/C/D/E/F/G/H/J — ohne belegbare Neuzugänge im 7-Tage-Fenster (bzw. 48-Stunden-Fenster).
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; die Ergänzung fügt einen neuen Absatz in § 8.2 hinzu; keine neuen Unterüberschriften, keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Säulen der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Kimi-K3-Absatz in § 8.2 verweist kontrolliert auf § 8.3 (Zugriffspfade) und auf die bereits im Kapitel dokumentierte deflationäre Preisdynamik. Keine Querverweis-Ziele verschoben. |
+| 2.1.4 Roter Faden | OK | Kimi-K3-Passage schließt an die TechCrunch-Bellan-Passage (Open-Weight-Marktverlagerung) und die Muse-Spark-1.1-/Grok-4.5-/GPT-5.6-/Gemini-3.5-Pro-Serie an und präzisiert die Rohstoff-Analogie um eine chinesische Kapazitätsführerschaftsebene. Kapitel-8-Deutschland-These bleibt eigenständige Position. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; keine unausgeglichenen Fettungen; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Kimi-K3-Freigabedatum (16. Juli 2026), 2,8 Billionen Gesamtparameter (Mixture-of-Experts), 1-Millionen-Token-Kontextfenster, Open-Weight-Zieldatum 27. Juli 2026 durch VentureBeat, MLQ News, Warp2Search, Simon Willison und People's Daily Online parallel bestätigt. API-Preise (3 US-Dollar Input / 15 US-Dollar Output / 0,30 US-Dollar Cache-Read) über kie.ai, buildfastwithai.com, eesel.ai und OpenRouter verifiziert. Artificial-Analysis-Intelligence-Index 57 (Platz 4) über trilogyai.substack.com und techloy.com bestätigt; Vergleichswerte Opus 4.8 (56), GPT-5.6 Sol (58,9), Fable 5 (59,9) konsistent. |
+| 2.2.2 Redundanzprüfung | OK | Kimi-K3-Absatz wiederholt keine der bereits in § 8.2 dokumentierten Passagen zur Muse-Spark-1.1-/Grok-4.5-/GPT-5.6-/Gemini-3.5-Pro-Serie, sondern präzisiert die Bellan-Passage um eine chinesische Kapazitätsführerschaftsebene und ergänzt die Preis-Konvergenz. |
+| 2.2.3 Argumentation | OK | Kimi-K3-Passage stellt Marktverlagerungs-These fort und differenziert Preisdynamik ausdrücklich (deflationäre Konvergenz an der Grenze der Trainings-/Compute-Kostenstruktur); § 8.3-Rückwirkung ausdrücklich als konditional ausgewiesen („Open-Weight-Zugriffspfade gewinnen an Substanz, verlassen sich aber nicht mehr auf … günstige Import-Ökonomie chinesischer Modelle"). |
+| 2.2.4 Ausgewogenheit | OK | Kimi-K3-Passage benennt sowohl die Kapazitätsführerschaft (Position 4 im Intelligence Index; über Opus 4.8) als auch die verbleibenden Ranking-Grenzen (unter GPT-5.6 Sol und Fable 5). The-Decoder-Zitat („signaling the end of super cheap Chinese AI") differenziert die Preis-Konvergenz gegenüber früherer chinesischer Preisunterbietung. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „Kimi K3", „Moonshot AI", „Mixture-of-Experts", „Artificial-Analysis-Intelligence-Index", „Open-Weight" konsistent eingeführt bzw. verwendet. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | § 11.5 um einen Eintrag ergänzt (Moonshot AI/VentureBeat/Fortune/TechCrunch/People's Daily Online/Warp2Search/MLQ News/The Decoder/Simon Willison/Decrypt/Techloy/Codersera/kie.ai/Trilogy AI). Jede Fließtextreferenz hat einen Literatur-Eintrag; keine Waisenzitate. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil; vollständige URLs; Datumsangabe („16. Juli 2026") einheitlich. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | VentureBeat, TechCrunch, Fortune, MLQ News und Simon Willison (Fachexperte) sind unmittelbare Erst-Berichterstattungsquellen; The-Decoder-Formulierung „signaling the end of super cheap Chinese AI" als Analyse-Zuspitzung erhalten; alle Sekundärquellen mit konsistenter Zahlenwiedergabe. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 18. Juli 2026: venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems (2,8-Bio.-Parameter und Freigabedatum bestätigt); fortune.com/2026/07/16/moonshots-kimi-k3-pushes-chinese-ai-into-fable-level-territory/ (Fable-Level-Positionierung bestätigt); the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/ (Preis-Konvergenz-These bestätigt); simonwillison.net/2026/Jul/16/kimi-k3/ (Fachexperten-Anmerkung zu Benchmark-Positionierung). |
+| 2.4.5 Zitatgenauigkeit | OK | Direkte Zitate auf die minimal nötigen Passagen beschränkt („first open 3-trillion-parameter-class AI model", „signaling the end of super cheap Chinese AI"). |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 38.0 durchgängig: Dokumentkopf (KI-Ökonomie.md, Zeile 12), Aktualitätshinweis am Dokumentende (Schnitt 18. Juli 2026, Lauf 001), `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung mit Versions-Eintrag 38.0) und dieser Protokoll-Block. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltliche Ergänzung hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | — | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte (sofern vorhanden): n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 38.0
+- PDF erstellt: Ja (Phase 5 des Daily-Update-Prompts)
+- Word erstellt: Ja (Phase 5 des Daily-Update-Prompts)
+
+---
+
 ## Validierung 17. Juli 2026 (Lauf 001 vom 17. Juli 2026) — Version 36.0 → Version 37.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 17. Juli 2026 im Standard-7-Tage-Fenster (10.–17. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (15.–17. Juli 2026). Vier belegbare Fortschreibungen identifiziert (mit einer Aufnahme des im Vorlauf explizit als Aufnahmekandidat markierten *Gemini-3.5-Pro*-Release-Zieltermins): Cluster G mit dem *GeDIG*-Kabinettsbeschluss vom 15. Juli 2026, Cluster F mit *Thomson Reuters* (13. Juli 2026) und *Sprout Social* (15. Juli 2026) sowie Cluster I mit *Gemini 3.5 Pro* (Zieltermin 17. Juli 2026).
