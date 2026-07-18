@@ -54,6 +54,77 @@
 
 ---
 
+## 2026-07-18 — Lauf 001 — Version 37.0 → Version 38.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, B, C, D, E, G, H, J ohne belegbare Neuzugänge im 7-Tage-Fenster; Cluster F ohne belegbare Neuzugänge im 48-Stunden-Fenster). Eine belegbare Fortschreibung aus Cluster I (*Kimi K3*-Freigabe durch Moonshot AI vom 16. Juli 2026).
+- Zeitfenster: Standard 7 Tage (11.–18. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (16.–18. Juli 2026).
+- Anzahl Suchanfragen: 14 (Web-Suche) plus gezielter Einzel-Fetch zur Verifikation (arXiv Growiec/Prettner/Szkróbka; BMAS-Pressemitteilung Digitalisierung/Arbeitsförderung).
+- Lauf 001 vom 18. Juli 2026 ist der Folgelauf zu Lauf 001 vom 17. Juli 2026 (Version 36.0 → 37.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | I | Moonshot AI / VentureBeat / Fortune / TechCrunch / People's Daily Online / Warp2Search / MLQ News / The Decoder / Simon Willison / Decrypt / Techloy / Codersera / kie.ai / Trilogy AI, *Introducing Kimi K3 / China's Moonshot AI releases Kimi K3, the largest open-source model ever, rivaling top U.S. systems / Moonshot's Kimi K3 pushes Chinese AI into Fable-level territory / Moonshot AI Releases Kimi K3: First Open 3-Trillion-Parameter-Class AI Model / Kimis open model K3 nears GPT-5.6 Sol and Fable 5 while signaling the end of super cheap Chinese AI / Kimi K3, and what we can still learn from the pelican benchmark* (16. Juli 2026) | https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems | übernommen (48h-Fenster; Freigabe durch chinesischen Frontier-Anbieter mit größtem offen zugänglichen Modell überhaupt und angehobenem Preisniveau — direkter Beleg für die Präzisierung der Open-Weight-Marktverlagerungs-These aus § 8.2 der Vorlauf-Version) |
+| 2 | A | Growiec, J., Prettner, K., & Szkróbka, M., *Workers' Incentives and the Optimal Taxation of AI* (arXiv:2603.17898, 18. März 2026) | https://arxiv.org/abs/2603.17898 | verworfen (Datum außerhalb 7-Tage-Fensters; inhaltlich relevanter Cluster-A-Trigger — Modellergebnis: optimal, KI zu besteuern, sobald kognitive Beschäftigte in manuelle Berufe wechseln würden; Prettner bereits im Literaturverzeichnis; Aufnahmekandidat für Folgelauf mit erweitertem Zeitfenster) |
+| 3 | H | Bundesregierung / BMDS / Karsten Wildberger, *KI-Taskforce des Bundeskanzleramts — fünf Arbeitsgruppen (Frontier AI, AI-Sicherheit, AI-Infrastruktur, AI und Gesellschaft, AI-Anwendungen); Zwischenbericht Ende August, Endbericht Ende September 2026* (1. Juli 2026) | https://www.it-fachportal.de/69752-bundesregierung-gruendet-ki-taskforce/ | verworfen (Datum außerhalb 7-Tage-Fensters; koordinierender Charakter, kein eigenständiges Reformereignis; Aufnahmekandidat für Folgelauf) |
+| 4 | B/E | BMAS, *Kabinett verabschiedet Gesetz zur Modernisierung und Digitalisierung der Arbeitsförderung — Digitalisierung von Arbeitsverwaltungs­prozessen, Job-to-Job-Trials, Regionale Arbeitsmarkt-Hubs* (15. Juli 2026) | https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2026/digitalisierung-und-buerokratieabbau-modernisieren-die-arbeitsverwaltung.html | verworfen (kein primärer KI-Bezug im Gesetzeskonzept; nur Digitalisierung/Automatisierung von Arbeitsverwaltungs­prozessen und Job-to-Job-Trials, kein Bezug auf KI-getriebene Verdrängung als Regelungsziel) |
+| 5 | F | Elastic N.V. (SEC-8-K), *Elastic plans 7% job cut with $22–25M charges; CPO steps down effective July 17, 2026* (23. Juni 2026 / Wirksamkeit Ken Exner CPO 17. Juli 2026) | https://www.stocktitan.net/sec-filings/ESTC/8-k-elastic-n-v-reports-material-event-7184dc9cebd6.html | verworfen (8-K-Datum 23. Juni 2026 außerhalb 7-Tage-Fensters; CPO-Rücktritt allein kein KI-getriebenes Layoff-Ereignis; bereits im Vorlauf abzudeckender Zeitraum) |
+| 6 | F | KPMG Australia / Bloomberg / Manila Times / Business Recorder / Grafa, *KPMG Australia to cut hundreds of jobs and reduce partner pay* (14./15. Juli 2026) | https://www.bloomberg.com/news/articles/2026-07-14/kpmg-prepares-to-cut-staff-as-scandal-fallout-hits-afr-says | verworfen (primär Fallout des Audit-Skandals von März 2026; kein KI-Bezug im primären Restrukturierungsgrund; Negativliste Cluster F) |
+| 7 | F | Volkswagen AG (Berichterstattung 14. Juli 2026), *Volkswagen eyes cutting 100,000 jobs and closing plants* | (nicht referenziert) | verworfen (kein KI-Bezug im primären Restrukturierungsgrund — E-Mobilitäts-Transformation; Negativliste Cluster F) |
+| 8 | B | EU Rat / Freshfields / Consilium, *Digital Omnibus on AI — Final Act signiert 8. Juli 2026; Amtsblatt-Veröffentlichung erwartet Juli 2026* | https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/ | verworfen (Signatur vom 8. Juli 2026 außerhalb 7-Tage-Fensters; Amtsblatt-Veröffentlichung zum Stichtag 18. Juli 2026 noch nicht vollzogen — Fortschreibung für Folgelauf) |
+| 9 | I | Google DeepMind / TechTimes / BigGo Finance / HackerNoon (Gemini 3.5 Pro Release 17. Juli 2026) | https://www.techtimes.com/articles/320308/20260713/gemini-35-pro-targets-july-17-after-full-rebuild-every-spec-remains-unconfirmed.htm | verworfen als Neuzugang (bereits in Version 37.0 vom 17. Juli 2026 als Zieltermin dokumentiert; offizielle Google-Blog-Bestätigung zum Stichtag 18. Juli 2026 weiterhin nicht auffindbar; Konjunktiv-Fassung in Version 37.0 bleibt bestehen) |
+| 10 | A | IAB Kurzbericht 08/2026 *„Künstliche Intelligenz in deutschen Betrieben: Jeder vierte Betrieb nutzt mittlerweile generative KI"* (5. Mai 2026) | https://doku.iab.de/kurzber/2026/kb2026-08.pdf | verworfen (Datum 5. Mai 2026 außerhalb 7-Tage-Fensters; bereits in Vorlauf mehrfach als Aufnahmekandidat markiert) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 8.2 (nach TechCrunch-Bellan-Passage, vor der „Deutschland als Verarbeiter"-Zäsur) | Ergänzung | Neuer Absatz zur *Kimi-K3*-Freigabe durch Moonshot AI (16. Juli 2026) als „first open 3-trillion-parameter-class AI model" mit ~2,8 Bio. Parametern (MoE), 1-Millionen-Token-Kontextfenster, zwei Varianten (K3 Max, K3 Swarm Max), Open-Weight-Release am 27. Juli 2026 angekündigt; Artificial-Analysis-Intelligence-Index 57 (Platz 4, knapp über Opus 4.8 mit 56); API-Preise 3/15 US-Dollar Input/Output pro Million Token (Sonnet-5-Standardniveau) — Preis-Konvergenz Richtung US-Workhorse-Niveau; Präzisierung der Bellan-Marktverlagerungs-These um chinesische Kapazitätsführerschaftsebene und Preis-Konvergenz. | 1 |
+| 2 | § 11.5 | Ergänzung | Neuer Literatureintrag „Moonshot AI / VentureBeat / Fortune / TechCrunch / People's Daily Online / Warp2Search / MLQ News / The Decoder / Simon Willison / Decrypt / Techloy / Codersera / kie.ai / Trilogy AI. (16. Juli 2026). Introducing Kimi K3 …" mit vollständiger URL-Liste. | 1 |
+| 3 | Aktualitätshinweis (Dokumentende) | Aktualisierung | Schnitt-Datum auf 18. Juli 2026 (Lauf 001) aktualisiert; zusammenfassender Nachtrag zu Kimi K3 mit § 8.2- und § 8.3-Rückverweisen ergänzt. | 1 |
+| 4 | Dokumentkopf und README.md (Version, Zitiervorschlag, Änderungslog) | Aktualisierung | Version 37.0 → 38.0; Aufnahme des Version-38.0-Nachtrags in die README-Änderungsliste. | 1 |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Growiec/Prettner/Szkróbka (arXiv:2603.17898, 18. März 2026) | A | außerhalb 7-Tage-Fensters; inhaltlich starker Cluster-A-Trigger und Aufnahmekandidat für Folgelauf mit erweitertem Zeitfenster |
+| 2 | KI-Taskforce der Bundesregierung (1. Juli 2026) | H | außerhalb 7-Tage-Fensters; Aufnahmekandidat für Folgelauf |
+| 3 | BMAS-Gesetz zur Modernisierung und Digitalisierung der Arbeitsförderung (15. Juli 2026) | B/E | kein primärer KI-Bezug (Digitalisierung Arbeitsverwaltungs­prozesse; kein Regelungsbezug auf KI-getriebene Verdrängung) |
+| 4 | Elastic-8-K (23. Juni 2026; CPO-Wirksamkeit 17. Juli 2026) | F | 8-K-Datum außerhalb 7-Tage-Fensters; CPO-Rücktritt allein kein KI-getriebenes Layoff-Ereignis |
+| 5 | KPMG Australia Layoffs (14./15. Juli 2026) | F | primär Fallout des Audit-Skandals von März 2026; kein KI-Bezug im primären Restrukturierungsgrund |
+| 6 | Volkswagen 100.000 Job Cuts (14. Juli 2026) | F | kein KI-Bezug im primären Restrukturierungsgrund (E-Mobilitäts-Transformation) |
+| 7 | Digital Omnibus on AI Amtsblatt-Veröffentlichung | B | Amtsblatt-Veröffentlichung zum Stichtag 18. Juli 2026 noch nicht vollzogen |
+| 8 | Gemini 3.5 Pro Freigabe zum 17. Juli 2026 | I | bereits in Version 37.0 dokumentiert; keine erneute Einarbeitung |
+| 9 | IAB Kurzbericht 08/2026 (5. Mai 2026) | A | außerhalb 7-Tage-Fensters |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja (grep-Verifikation: Kimi/Moonshot/K3 nicht im Vorlauf-Dokument)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 18. Juli 2026" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: Ja
+- E-Mail-Benachrichtigung Phase 5b: Fallback-Datei `daily-mail.txt` geschrieben (kein Versand-MCP in dieser Session erreichbar)
+- WhatsApp-Benachrichtigung Phase 5b: Fallback-Datei `daily-whatsapp.txt` geschrieben (kein Versand-MCP in dieser Session erreichbar)
+
+### Auffälligkeiten / offene Punkte
+
+- Cluster A/B/C/D/E/G/H/J: kein belegbarer Neuzugang im 7-Tage-Fenster. Für Cluster A ist mit Growiec/Prettner/Szkróbka (arXiv 2603.17898, 18. März 2026) ein inhaltlich starker Trigger dokumentiert; bei erweitertem Zeitfenster für Folgelauf empfehlenswert.
+- Cluster F: erneut keine belegbaren Neuzugänge im 48-Stunden-Fenster; die Sprout-Social-/Thomson-Reuters-Achse aus Vorlauf 37.0 bleibt Referenzpunkt.
+- Cluster I: Kimi K3 bricht die chinesische „Preisunterbietungs"-Erzählung; die Preis-Konvergenz Richtung US-Workhorse-Niveau ist ein neues qualitatives Signal für § 8.2/§ 8.3.
+- Digital Omnibus on AI: Amtsblatt-Veröffentlichung weiter offen; Fortschreibung im nächsten Lauf mit Amtsblatt-Nummer bei erfolgter Veröffentlichung.
+- Gemini 3.5 Pro: offizielle Google-Blog-Bestätigung des Release-Vollzugs zum 17. Juli 2026 zum Stichtag 18. Juli 2026 weiterhin nicht auffindbar; Konjunktiv-Fassung aus Version 37.0 bleibt bestehen.
+- Empfängerdaten der Phase-5b-Benachrichtigung stammen aus der Routine-Anweisung (nicht aus dem Repo). Ergebnisse Versand siehe Verarbeitungsschritte oben.
+- Phase 5b Versand: In dieser Session war weder ein Microsoft-Graph-`mail_send`-Tool (bevorzugt) noch ein alternativer E-Mail-Send-Kanal (`send_mail`, `send_message`, `outlook_send`) noch das `wa_send_message`-Tool aus dem `whatsapp`-MCP-Server erreichbar. Nach Phase-5b-Regel wurden `daily-mail.txt` und `daily-whatsapp.txt` als Fallback-Dateien im Repo-Root geschrieben (per `.gitignore` vom Commit ausgeschlossen; enthalten keine Empfängerdaten). Der Merge auf `main` wird durch den ausbleibenden Versand nach Phase-5b-Regel nicht verhindert.
+
+---
+
 ## 2026-07-17 — Lauf 001 — Version 36.0 → Version 37.0
 
 ### Recherchekorridor
