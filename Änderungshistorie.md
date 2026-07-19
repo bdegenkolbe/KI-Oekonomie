@@ -122,7 +122,7 @@
 - Digital Omnibus on AI: Amtsblatt-Veröffentlichung zum Stichtag 19. Juli 2026 weiter offen (EUR-Lex-L-Serie 17. Juli 2026 ohne Amendment); Fortschreibung im nächsten Lauf mit Amtsblatt-Nummer bei erfolgter Veröffentlichung.
 - Empfängerdaten der Phase-5b-Benachrichtigung stammen aus der Routine-Anweisung (nicht aus dem Repo). Ergebnisse Versand siehe Phase 5b unten (Ergänzung nach Ausführung).
 - Phase 5b Versand: In dieser Session ist mit `mcp__Microsoft-365__outlook_send_mail` ein Microsoft-365-Send-Tool erreichbar; ein `whatsapp`-MCP-Server ist nicht verbunden — für WhatsApp wird die Fallback-Datei geschrieben.
-- Phase 6 Cleanup: Session-Branch `claude/determined-einstein-b77g5i`; Cleanup-Status siehe unten (Ergänzung nach Ausführung).
+- Phase 6 Cleanup: Session-Branch `claude/determined-einstein-b77g5i` erfolgreich auf `main` gemerged (Merge-Commit `0a0ca33`, Merge-Vorgänger `a02b177` = Vorlauf-Version-38.0-Cleanup auf `main` und `e80054f` = Daily-Update Version 39.0). Lokaler Branch gelöscht. Löschung des Remote-Branches durch das Git-Backend mit HTTP 403 blockiert (bekanntes Verhalten aus früheren Läufen); der veraltete Remote-Branch bleibt bestehen, ohne den Ablauf zu behindern. `git push origin main` selbst wurde trotz „Cannot update this protected ref"-Hinweistext ausgeführt — der Refspec-Report zeigt `a02b177..0a0ca33  main -> main`.
 
 ---
 
