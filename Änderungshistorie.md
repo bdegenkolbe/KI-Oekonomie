@@ -54,6 +54,78 @@
 
 ---
 
+## 2026-07-19 — Lauf 001 — Version 38.0 → Version 39.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, B, C, D, E, G, H, J ohne belegbare Neuzugänge im 7-Tage-Fenster). Zwei belegbare Fortschreibungen: Cluster I mit *Meta V3 Iris / Broadcom-Custom-Silicon-Konzentration* (TechTimes 17. Juli 2026) im 48-Stunden-Fenster; Cluster F mit *SkillSyncer*-Trackerstand-Update zum 19. Juli 2026 (302 Ereignisse / 201.754 Beschäftigte, +13 % Events gegenüber dem 9. Juli 2026 — Trigger-Schwelle Cluster F erfüllt).
+- Zeitfenster: Standard 7 Tage (12.–19. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (17.–19. Juli 2026).
+- Anzahl Suchanfragen: 13 (Web-Suche) plus gezielter Einzel-Fetch zur Verifikation (EUR-Lex OJ 17. Juli 2026 L-Serie; NBER WP 34873 Korinek/Lockwood; SkillSyncer Layoff-Tracker).
+- Lauf 001 vom 19. Juli 2026 ist der Folgelauf zu Lauf 001 vom 18. Juli 2026 (Version 37.0 → 38.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | I | Meta Platforms / Reuters / CNBC / DataCenterDynamics / Yahoo Finance / TechTimes / The Motley Fool, *Meta to start production of Iris AI chip in September 2026 / Meta to put AI chip into production in September as it looks to double computing capacity, Reuters reports / Meta's Iris AI Chip Passes Testing: Broadcom Now Designs Chips for Three Rivals / Meta could start production of Iris AI chip in September – report / Broadcom Builds Custom Chips for Google, Meta, Anthropic, and OpenAI* (9. / 17. Juli 2026) | https://www.techtimes.com/articles/320839/20260717/metas-iris-ai-chip-passes-testing-broadcom-now-designs-chips-three-rivals.htm | übernommen (48h-Fenster durch TechTimes-Artikel vom 17. Juli 2026; Meta-Iris-Bug-Testphase abgeschlossen, Serienfertigung September 2026 durch TSMC avisiert; Broadcom entwirft parallel für Google/Meta/OpenAI — Custom-Silicon-Konzentrations­dimension der Rohstoff-Analogie) |
+| 2 | F | SkillSyncer, *2026 Tech Layoffs Tracker — 302 Events, 201.754 Workers, 164 AI-attributed (~54 %)* (Stand 19. Juli 2026) | https://skillsyncer.com/layoffs-tracker | übernommen (Trigger-Schwelle Cluster F +10 % erfüllt: +35 Events gegenüber 9. Juli 2026 = +13 %; +15.860 Personen = +8,5 %; Aggregat-KI-Kausalquote 54 % vs. 56 % zuvor) |
+| 3 | I | Thinking Machines Lab / TechCrunch / Fortune / Bloomberg / Axios / Simon Willison / SiliconANGLE / The Next Web / Business Standard, *Introducing Inkling / Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling / Murati's Thinking Machines releases first AI model for broad use / Mira Murati's Thinking Machines debuts its first AI model / Mira Murati's Thinking Machines drops Inkling, an open-weights model anyone can access* (15. Juli 2026) | https://thinkingmachines.ai/news/introducing-inkling | verworfen (Datum 15. Juli 2026 außerhalb 48-Stunden-Fenster für Cluster I; 4 Tage vor Schnitt; inhaltlich relevanter Cluster-I-Trigger — 975 Mrd. Gesamtparameter MoE, ~41 Mrd. aktive Parameter, 45 Bio. Trainings-Token, natives Multimodal-Reasoning; Aufnahmekandidat für Folgelauf mit erweitertem Zeitfenster) |
+| 4 | A | Korinek, A., & Lockwood, L., *Public Finance in the Age of AI: A Primer* (NBER Working Paper 34873, Februar 2026) | https://www.nber.org/papers/w34873 | verworfen (Datum außerhalb 7-Tage-Fensters; inhaltlich relevanter Cluster-A-Trigger — zwei-stufige AI-Fiskalarchitektur, Konsumsteuer-Primat in Stufe 1, „optimal harvesting" der AGI-Renten in Stufe 2; Korinek/Lockwood bereits im Literaturverzeichnis mit anderem Papier vorhanden; Aufnahmekandidat für Folgelauf) |
+| 5 | I | Meta / Anthropic / Samsung / Bloomberg / TechCrunch / The Information, *Anthropic is discussing a new custom chip with Samsung / Anthropic in Talks With Samsung to Manufacture Custom AI Chip / Anthropic explores Samsung 2nm chip partnership* (2. Juli 2026) | https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/ | verworfen (Datum außerhalb 7-Tage-Fensters; inhaltlich relevant, aber über den Meta-Iris-/Broadcom-Absatz aus Cluster I mit einer kurzen Erwähnung mitgezogen) |
+| 6 | B | EU Rat / Freshfields / EUR-Lex, *Digital Omnibus on AI Amtsblatt-Veröffentlichung* (erwartet vor 2. August 2026) | https://eur-lex.europa.eu/oj/direct-access.html | verworfen (EUR-Lex-L-Serie vom 17. Juli 2026: 27 Rechtsakte, kein AI-Act-Amendment; Amtsblatt-Veröffentlichung zum Stichtag 19. Juli 2026 weiterhin nicht vollzogen — Fortschreibung für Folgelauf mit Amtsblatt-Nummer bei erfolgter Veröffentlichung) |
+| 7 | H | Bundesregierung / BMDS / Karsten Wildberger, *KI-Taskforce des Bundeskanzleramts — fünf Arbeitsgruppen* (1. Juli 2026) | https://www.it-fachportal.de/69752-bundesregierung-gruendet-ki-taskforce/ | verworfen (Datum außerhalb 7-Tage-Fensters; weiterhin Aufnahmekandidat für Folgelauf) |
+| 8 | B | Bundesregierung / Handelsblatt / Datensicherheit, *DE-AISI KI-Sicherheitsinstitut — Nationaler Sicherheitsrat Beschluss* (Anfang Juni 2026) | https://www.handelsblatt.com/technik/it-internet/kuenstliche-intelligenz-bundesregierung-gruendet-ki-sicherheitsinstitut/100231389.html | verworfen (Datum außerhalb 7-Tage-Fensters; Aufnahmekandidat) |
+| 9 | J | Tesla Optimus V3 Fremont-Produktionsstart (Ankündigung Q1 2026 / erneut Mitte Juli 2026) | https://blog.robozaps.com/b/tesla-optimus-gen-3 | verworfen (kein spezifisches Ereignisdatum im 48h-Fenster; „late July / August 2026" weiter avisiert; Aufnahmekandidat für Folgelauf) |
+| 10 | F | Oracle Corp. Form 10-K FY2026 (fortlaufende Berichterstattung Yahoo Finance / How2Shout Anfang Juli 2026) | https://www.how2shout.com/news/oracle-21000-layoffs-ai-data-center-spending-fy2026.html | verworfen als Neuzugang (SEC-Filing vom 23. Juni 2026 außerhalb 7-Tage-Fensters; Kernaussagen — 21.000 Reduktionen, 1,8 Mrd. USD Restrukturierungsaufwand, „adoption and deployment of AI"-Formulierung — bereits in Version 25.0 in § 1.1 und § 11.5 dokumentiert) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 8.2 (nach Muse-Spark-1.1-Passage, vor der „Deutschland als Verarbeiter"-Zäsur) | Ergänzung | Neuer Absatz zur Custom-Silicon-Konzentrations­dimension der Rohstoff-Analogie: Meta V3 Iris hat die Bug-Testphase innerhalb rund sechs Wochen abgeschlossen, TSMC-Serienfertigung ab September 2026 avisiert; Broadcom entwirft parallel Custom-AI-ASICs für Google (TPU), Meta (V3 Iris) und OpenAI (Jalapeño), während Anthropic mit Samsung Foundry über einen 2-nm-Chip verhandelt und Amazon (Trainium)/Microsoft (Maia) mit Marvell zusammenarbeiten; Broadcom und Marvell kontrollieren zusammen rund 95 % des Custom-AI-ASIC-Co-Design-Markts (Broadcom FY-2026-Q2-AI-Halbleiter-Umsatz 10,8 Mrd. USD, +143 % YoY); zwei-stufiger Infrastrukturausbau nach Reuters-Memo: 7 GW 2026 → 14 GW ab 2027. Rückwirkung auf § 8.3 als zusätzliche Volatilitätsschicht gegenüber marktkapitalisierungs­bezogenen Zugriffsmodellen. | 1 |
+| 2 | § 1.1 (Fortschreibung SkillSyncer-Datensatz) | Aktualisierung | Neuer Nachsatz zur *SkillSyncer*-Fortschreibung zum 19. Juli 2026 (302 Layoff-Ereignisse, 201.754 betroffene Beschäftigte, 164 KI-attribuierte Ereignisse mit rund 168.770 KI-attribuierten Personen; +35 Ereignisse und +15.860 Personen gegenüber dem 9. Juli 2026; Aggregat-KI-Kausalquote sinkt tendenziell von 56 auf 54 %, während die Zahl der KI-attribuierten Betroffenen absolut auf 168.770 steigt); Deutung als stabile obere Grenze der Aggregat-Attribution ohne Auflösung des § 9.1-Attribuierungs­problems. | 2 |
+| 3 | § 11.5 | Ergänzung | Zwei neue Einträge — Meta / Reuters / CNBC / DataCenterDynamics / Yahoo Finance / TechTimes / The Motley Fool (9./17. Juli 2026); SkillSyncer (Stand 19. Juli 2026). | 1, 2 |
+| 4 | Aktualitätshinweis (Dokumentende) | Aktualisierung | Schnitt-Datum auf 19. Juli 2026 (Lauf 001) aktualisiert; zusammenfassender Nachtrag zu Meta-Iris/Broadcom-Konzentration und SkillSyncer-Fortschreibung mit § 8.2- und § 1.1-Rückverweisen ergänzt. | 1, 2 |
+| 5 | Dokumentkopf und README.md (Version, Zitiervorschlag, Änderungslog) | Aktualisierung | Version 38.0 → 39.0; Aufnahme des Version-39.0-Nachtrags in die README-Änderungsliste. | 1, 2 |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Thinking Machines *Inkling* Open-Weight-Freigabe (15. Juli 2026) | I | außerhalb 48-Stunden-Fenster für Cluster I (4 Tage vor Schnitt); inhaltlich relevanter Trigger — Aufnahmekandidat für Folgelauf mit erweitertem Zeitfenster |
+| 2 | Growiec/Prettner/Szkróbka (arXiv:2603.17898, 18. März 2026) | A | außerhalb 7-Tage-Fensters; weiterhin inhaltlich starker Cluster-A-Trigger und Aufnahmekandidat für Folgelauf mit erweitertem Zeitfenster |
+| 3 | Korinek/Lockwood, *Public Finance in the Age of AI: A Primer* (NBER WP 34873, Februar 2026) | A | außerhalb 7-Tage-Fensters; Aufnahmekandidat für Folgelauf |
+| 4 | Anthropic–Samsung Custom-Chip-Verhandlungen (2. Juli 2026) | I | außerhalb 7-Tage-Fensters; die Custom-Silicon-Konzentrations­dimension ist über den Meta-Iris-/Broadcom-Absatz mit erwähnt |
+| 5 | Digital Omnibus on AI Amtsblatt-Veröffentlichung | B | Amtsblatt-Veröffentlichung zum Stichtag 19. Juli 2026 (EUR-Lex-Stichprobe L-Serie 17. Juli 2026) noch nicht vollzogen |
+| 6 | KI-Taskforce der Bundesregierung (1. Juli 2026) | H | weiterhin außerhalb 7-Tage-Fensters; Aufnahmekandidat |
+| 7 | DE-AISI KI-Sicherheitsinstitut (Anfang Juni 2026) | B | außerhalb 7-Tage-Fensters; Aufnahmekandidat |
+| 8 | Tesla Optimus V3 Fremont-Produktionsstart | J | kein spezifisches Ereignisdatum im 48h-Fenster; „late July / August 2026" weiter avisiert |
+| 9 | Oracle Form 10-K FY2026 Yahoo-Finance-/How2Shout-Nachberichterstattung | F | Kernaussagen bereits in Version 25.0 dokumentiert; keine substantielle Erweiterung |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja (grep-Verifikation: Meta Iris / Broadcom-Custom-Design für drei Rivalen / 302 Layoff-Ereignisse nicht im Vorlauf-Dokument)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 19. Juli 2026" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: siehe Phase 6 (unten in „Auffälligkeiten")
+- E-Mail-Benachrichtigung Phase 5b: Fallback-Datei `daily-mail.txt` geschrieben (3.709 Zeichen, unter der 5.000-Zeichen-Grenze). Der Aufruf des Microsoft-Graph-`mcp__Microsoft-365__outlook_send_mail`-Tools wurde in dieser Session mit einem Permission-Fehler abgelehnt (`This tool is not available.`); nach Phase-5b-Regel wurde die Fallback-Datei geschrieben.
+- WhatsApp-Benachrichtigung Phase 5b: Fallback-Datei `daily-whatsapp.txt` geschrieben (935 Zeichen, unter der 1.000-Zeichen-Grenze). In dieser Session ist kein `whatsapp`-MCP-Server verbunden — `wa_send_message` und Alternativen nicht erreichbar.
+
+### Auffälligkeiten / offene Punkte
+
+- Cluster A/B/C/D/E/G/H/J: kein belegbarer Neuzugang im 7-Tage-Fenster. Für Cluster A bleiben Growiec/Prettner/Szkróbka (arXiv 2603.17898, 18. März 2026) und Korinek/Lockwood (NBER WP 34873, Februar 2026) inhaltlich starke Trigger; bei erweitertem Zeitfenster für Folgelauf empfehlenswert.
+- Cluster I: Thinking Machines *Inkling* (15. Juli 2026) fällt knapp aus dem 48-Stunden-Fenster (17.–19. Juli 2026); als Aufnahmekandidat für Folgelauf mit erweitertem Zeitfenster vorgemerkt. Die Custom-Silicon-Konzentrations­dimension über den Meta-Iris-/Broadcom-Absatz ist qualitativ die substantiellere Fortschreibung.
+- Cluster F: Die Aggregat-KI-Kausalquote im SkillSyncer-Tracker sinkt zum ersten Mal seit Ausweisung von 56 auf 54 %, während die absolute Zahl KI-attribuierter Betroffener weiter steigt (156.270 → 168.770). Deutung: Der Zuwachs an nicht-KI-attribuierten Layoff-Ereignissen im Nicht-Tech-Kern (Manufacturing, Financial Services) verdünnt die Quote statistisch, ohne das KI-Verdrängungssignal aufzulösen.
+- Digital Omnibus on AI: Amtsblatt-Veröffentlichung zum Stichtag 19. Juli 2026 weiter offen (EUR-Lex-L-Serie 17. Juli 2026 ohne Amendment); Fortschreibung im nächsten Lauf mit Amtsblatt-Nummer bei erfolgter Veröffentlichung.
+- Empfängerdaten der Phase-5b-Benachrichtigung stammen aus der Routine-Anweisung (nicht aus dem Repo). Ergebnisse Versand siehe Phase 5b unten (Ergänzung nach Ausführung).
+- Phase 5b Versand: In dieser Session ist mit `mcp__Microsoft-365__outlook_send_mail` ein Microsoft-365-Send-Tool erreichbar; ein `whatsapp`-MCP-Server ist nicht verbunden — für WhatsApp wird die Fallback-Datei geschrieben.
+- Phase 6 Cleanup: Session-Branch `claude/determined-einstein-b77g5i`; Cleanup-Status siehe unten (Ergänzung nach Ausführung).
+
+---
+
 ## 2026-07-18 — Lauf 001 — Version 37.0 → Version 38.0
 
 ### Recherchekorridor

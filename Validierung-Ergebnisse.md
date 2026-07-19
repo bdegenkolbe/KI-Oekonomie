@@ -7,6 +7,79 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 19. Juli 2026 (Lauf 001 vom 19. Juli 2026) — Version 38.0 → Version 39.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 19. Juli 2026 im Standard-7-Tage-Fenster (12.–19. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (17.–19. Juli 2026). Zwei belegbare Fortschreibungen identifiziert: Cluster I mit Meta *V3 Iris* / Broadcom-Design­partner-Konzentration (TechTimes 17. Juli 2026); Cluster F mit *SkillSyncer*-Tracker-Fortschreibung (Stand 19. Juli 2026).
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *Meta V3 Iris / Broadcom Custom-Silicon-Konzentration* (17. Juli 2026, Cluster I): TechTimes-Berichterstattung vom 17. Juli 2026 („Meta's Iris AI Chip Passes Testing: Broadcom Now Designs Chips for Three Rivals") und Reuters-Memo (aufgegriffen von CNBC 9. Juli 2026, DataCenterDynamics, Yahoo Finance) — Meta V3 MTIA-Chip *Iris* (nach V1 *Freya*, V2 *Artemis*) schließt Bug-Testphase innerhalb rund sechs Wochen ab, TSMC-Serien­fertigung ab September 2026 avisiert. Broadcom entwirft parallel Custom-AI-ASICs für Google (*TPU*), Meta (*V3 Iris*) und OpenAI (*Jalapeño*, gemeinsam mit Broadcom am 24. Juni 2026 vorgestellt); Anthropic verhandelt mit Samsung Foundry über einen 2-nm-Chip, Amazon (*Trainium*) und Microsoft (*Maia*) arbeiten mit Marvell. Broadcom und Marvell kontrollieren zusammen rund 95 % des Custom-AI-ASIC-Co-Design-Markts; Broadcom meldet FY-2026-Q2 rund 10,8 Mrd. USD AI-Halbleiter-Umsatz (+143 % YoY). Zwei-Stufen-Infrastrukturausbau nach Reuters-Memo: 7 GW Rechenleistung 2026, 14 GW ab 2027. Quellen: TechTimes, Reuters, CNBC, DataCenterDynamics, Yahoo Finance, The Motley Fool. | § 8.2 (neuer Absatz nach der Muse-Spark-1.1-Passage vor der „Deutschland als Verarbeiter"-Zäsur); § 11.5 (neuer Eintrag zu Meta/Reuters/CNBC/DataCenterDynamics/Yahoo Finance/TechTimes/The Motley Fool). Aktualitätshinweis am Dokumentende ergänzt; README.md 39.0. | Ergänzt die geografische Compute-Konzentration der Rohstoff-Analogie um eine Design­partner-Konzentration auf der Custom-AI-ASIC-Ebene: Ein einzelner US-Halbleiter­dienstleister entwirft die Inferenz-Silicon der drei wichtigsten US-Hyperscaler bei zugleich einer einzigen ausländischen Fertigung (TSMC). Ergänzt die *Kyber*-PCB-Midplane-Engpassbeobachtung um einen strukturell gleichartigen Konzentrations­befund auf der Design-Ebene und verstärkt das Volatilitätsargument gegen bestandsorientierte Umverteilungslogik (§ 8.3). |
+| 2 | *SkillSyncer-Tracker-Fortschreibung* (Stand 19. Juli 2026, Cluster F): 302 Layoff-Ereignisse mit 201.754 betroffenen Beschäftigten (rund 1.024 Stellen pro Tag); 164 KI-attribuierte Einzelereignisse mit rund 168.770 KI-attribuierten Personen (etwa 54 % der Ereignisse und 84 % der Betroffenen); +35 Ereignisse und +15.860 Personen gegenüber dem 9. Juli 2026 (Zuwachsrate +13 % Events, +8,5 % Personen); die Aggregat-KI-Kausalquote sinkt tendenziell von 56 auf 54 %, während die Zahl der KI-attribuierten Betroffenen von 156.270 auf 168.770 steigt. | § 1.1 (Fortschreibung des SkillSyncer-Datensatzes im bestehenden Absatz); § 11.5 (neuer Eintrag SkillSyncer Stand 19. Juli 2026). | Der Zuwachs von +13 % Ereignissen erfüllt die in Suchthemen.md Cluster F formulierte Trigger-Schwelle (>10 % Änderung); zugleich präzisiert die stabilisierende Aggregat-KI-Kausalquote (54 %) das in § 9.1 dokumentierte Attribuierungsproblem auf der Aggregat-Ebene. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- Thinking Machines *Inkling* Open-Weight-Freigabe (15. Juli 2026, Cluster I) — außerhalb 48-Stunden-Fenster (aktueller Schnitt 19. Juli 2026, 48h-Fenster 17.–19. Juli 2026); inhaltlich relevanter Cluster-I-Trigger (975 Mrd. Gesamtparameter Mixture-of-Experts, ~41 Mrd. aktive Parameter, 45 Bio. Trainings-Token, natives Multimodal-Reasoning; Mira Muratis erste Modell-Freigabe); Aufnahmekandidat für Folgelauf mit erweitertem Zeitfenster.
+- Anthropic Fable 5 Access-Verlängerung bis 19. Juli 2026 — kein substantiver neuer Sachverhalt (Preiskategorie und Nutzungsdeckel bereits in Version 32.0 dokumentiert); rein administrativer Fortführungsschritt.
+- Growiec/Prettner/Szkróbka, *Workers' Incentives and the Optimal Taxation of AI* (arXiv:2603.17898, 18. März 2026) — außerhalb 7-Tage-Fenster; weiterhin Aufnahmekandidat für Folgelauf mit erweitertem Zeitfenster.
+- Korinek/Lockwood, *Public Finance in the Age of AI: A Primer* (NBER WP 34873, Februar 2026) — außerhalb 7-Tage-Fenster; Aufnahmekandidat.
+- Anthropic–Samsung Custom-Chip-Verhandlungen (Bloomberg / The Information, 2. Juli 2026) — außerhalb 7-Tage-Fenster; die Custom-Silicon-Konzentrations­dimension der Rohstoff-Analogie ist über den Meta-Iris-/Broadcom-Absatz (Cluster I) mitgezogen.
+- Digital Omnibus on AI Amtsblatt-Veröffentlichung — zum EU-Amtsblatt L-Serie vom 17. Juli 2026 noch nicht erfolgt (EUR-Lex-Stichprobe: 27 Rechtsakte L-Serie am 17. Juli 2026 ohne AI-Act-Amendment); Fortschreibung für Folgelauf.
+- KI-Taskforce der Bundesregierung (1. Juli 2026) — weiterhin außerhalb 7-Tage-Fenster; Aufnahmekandidat.
+- DE-AISI KI-Sicherheitsinstitut (Anfang Juni 2026, Nationaler Sicherheitsrat) — außerhalb 7-Tage-Fenster; Aufnahmekandidat.
+- Tesla Optimus V3 Fremont-Produktionsstart — kein spezifisches Ereignisdatum im 48h-Fenster; weiterhin „late July / August 2026" avisiert.
+- Cluster A/B/C/D/E/G/H/J — keine belegbaren Neuzugänge im 7-Tage-Fenster (bzw. 48-Stunden-Fenster für F/I) über die zwei aufgenommenen Fortschreibungen hinaus.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; die Ergänzung fügt einen neuen Absatz in § 8.2 (Meta Iris/Broadcom) und aktualisiert die SkillSyncer-Passage in § 1.1; keine neuen Unterüberschriften, keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Säulen der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Meta-Iris-Absatz in § 8.2 verweist kontrolliert auf § 8.3 (Zugriffspfade), auf § 8.2 (Kyber-Rack-Verzögerung) und auf § 4.5 (Sanders SWF Act, OpenAI-Jalapeño-Vorstellung). SkillSyncer-Fortschreibung in § 1.1 verweist auf § 9.1 (Attribuierungsproblem). Keine Querverweis-Ziele verschoben. |
+| 2.1.4 Roter Faden | OK | Meta-Iris-Passage schließt an die Kyber-Verzögerungs- und Muse-Spark-1.1-Passagen an und präzisiert die Rohstoff-Analogie um eine Design­partner-Konzentrations­dimension. SkillSyncer-Fortschreibung setzt den bestehenden Trackerdatensatz fort. Kapitel-8-Deutschland-These bleibt eigenständige Position. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; keine unausgeglichenen Fettungen; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Meta-Iris-Testphasenabschluss (rund sechs Wochen ohne wesentliche Auffälligkeiten) durch Reuters-Memo (CNBC 9. Juli, DataCenterDynamics, Yahoo Finance) verifiziert; Broadcom-Design für drei US-Frontier-Kunden (Google/Meta/OpenAI) durch TechTimes 17. Juli und The Motley Fool bestätigt; Anthropic–Samsung 2-nm-Verhandlungen durch TechCrunch, Bloomberg und The Information (2. Juli 2026) belegt; 95-%-Broadcom-Marvell-Marktanteil und 10,8 Mrd. USD FY-2026-Q2-Umsatz (+143 % YoY) über Yahoo Finance/The Motley Fool verifiziert. SkillSyncer-Stand 19. Juli 2026 direkt über die Trackerseite (302/201.754/164/168.770) bestätigt; Vergleichswerte zum 9. Juli 2026 (267/185.894/56 %/156.270) aus dem Vorlauf-Logbuch konsistent. |
+| 2.2.2 Redundanzprüfung | OK | Meta-Iris-Absatz wiederholt keine der bereits in § 8.2 dokumentierten Passagen zur *Kyber*-Verzögerung oder zur Muse-Spark-1.1-/Chip-Produktion-September-Erwähnung, sondern präzisiert die Design­partner-Ebene. SkillSyncer-Fortschreibung wiederholt nicht den 9.-Juli-Stand, sondern verlängert die Zeitreihe. |
+| 2.2.3 Argumentation | OK | Meta-Iris-Passage stellt Custom-Silicon-Konzentrations­befund fort und formuliert eine explizite Volatilitäts­konsequenz für § 8.3 (Anknüpfung an Marktkapitalisierungen einzelner Frontier-Anbieter erhält eine zusätzliche Schicht durch die Design-Konzentration bei Broadcom). SkillSyncer-Fortschreibung differenziert die Aggregat-KI-Kausalquote als „stabile obere Grenze" der Attribution, ohne § 9.1 aufzulösen. |
+| 2.2.4 Ausgewogenheit | OK | Meta-Iris-Passage benennt sowohl die drei Broadcom-Kunden (Google/Meta/OpenAI) als auch die spiegelbildliche Marvell-Kundschaft (Amazon/Microsoft) sowie den Anthropic–Samsung-Sonderweg; SkillSyncer-Fortschreibung stellt die sinkende Aggregat-Attribution (54 % vs. 56 %) neben die steigende Absolutzahl KI-attribuierter Betroffener (168.770 vs. 156.270). |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „Custom-Silicon", „Custom-AI-ASIC-Co-Design", „V3 Iris", „MTIA", „Broadcom", „Marvell", „Samsung Foundry" konsistent eingeführt bzw. verwendet. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | § 11.5 um zwei Einträge ergänzt (Meta/Reuters/CNBC/DataCenterDynamics/Yahoo Finance/TechTimes/The Motley Fool; SkillSyncer Stand 19. Juli 2026). Jede Fließtextreferenz hat einen Literatur-Eintrag; keine Waisenzitate. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil; vollständige URLs; Datumsangaben („17. Juli 2026", „Stand 19. Juli 2026") einheitlich. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | TechTimes (17. Juli 2026), CNBC (9. Juli 2026 zum Reuters-Memo), Yahoo Finance, DataCenterDynamics und The Motley Fool sind Erst- bzw. Fach-Berichterstattung; SkillSyncer-Tracker als Erst-Aggregat. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 19. Juli 2026: skillsyncer.com/layoffs-tracker (302/201.754/164/168.770 direkt bestätigt); cnbc.com/2026/07/09/meta-to-put-ai-chip-into-production-in-september-report.html (Reuters-Memo Iris September 2026 bestätigt); techtimes.com/articles/320839/20260717/metas-iris-ai-chip-passes-testing-broadcom-now-designs-chips-three-rivals.htm (Broadcom-für-drei-Rivalen-These bestätigt, HTTP 403 aus dieser Session — Inhalt aus Volltextsuche verifiziert); yahoo-finance/broadcom-builds-custom-chips-google-215000298 (Broadcom-6-Kunden-Aggregat und 10,8-Mrd.-USD-Q2-Umsatz bestätigt). |
+| 2.4.5 Zitatgenauigkeit | OK | Direkte Zitate begrenzt („Meta's Iris AI Chip Passes Testing: Broadcom Now Designs Chips for Three Rivals"); keine sinnentstellenden Verkürzungen. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 39.0 durchgängig: Dokumentkopf (KI-Ökonomie.md, Zeile 12), Aktualitätshinweis am Dokumentende (Schnitt 19. Juli 2026, Lauf 001), `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung mit Versions-Eintrag 39.0) und dieser Protokoll-Block. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltliche Ergänzung hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | — | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte (sofern vorhanden): n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 39.0
+- PDF erstellt: Ja (Phase 5 des Daily-Update-Prompts)
+- Word erstellt: Ja (Phase 5 des Daily-Update-Prompts)
+
+---
+
 ## Validierung 18. Juli 2026 (Lauf 001 vom 18. Juli 2026) — Version 37.0 → Version 38.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 18. Juli 2026 im Standard-7-Tage-Fenster (11.–18. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (16.–18. Juli 2026). Ein belegbarer Neuzugang identifiziert: Cluster I mit *Kimi K3* (Moonshot AI, 16. Juli 2026).
