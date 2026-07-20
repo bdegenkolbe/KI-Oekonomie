@@ -54,6 +54,73 @@
 
 ---
 
+## 2026-07-20 — Lauf 001 — Version 39.0 → Version 40.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster B, C, D, E, F, G, H, I, J ohne belegbare Neuzugänge im 7-Tage-Fenster bzw. 48-Stunden-Fenster für F/I). Eine belegbare Fortschreibung aus Cluster A (*Dynan/Elmendorf/Sheiner* NBER Working Paper 35437 Juli 2026 mit Franchise-Group-Rezeption vom 14. Juli 2026).
+- Zeitfenster: Standard 7 Tage (13.–20. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (18.–20. Juli 2026).
+- Anzahl Suchanfragen: 11 (Web-Suche) plus gezielter Einzel-Fetch zur Verifikation (NBER WP 35437 Autorenschaft/Issue Date; Franchise-Group-Artikel „Former CBO chief"; SkillSyncer-Trackerstand 20. Juli 2026; BigGo-Finance zu Unitree/Optimus).
+- Lauf 001 vom 20. Juli 2026 ist der Folgelauf zu Lauf 001 vom 19. Juli 2026 (Version 38.0 → 39.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | A | Dynan, K., Elmendorf, D. W., & Sheiner, L., *How Might Fiscal Policy Respond to the Rise of Artificial Intelligence?* (NBER Working Paper 35437, Juli 2026) mit Rezeption in *Wyoming News Now* / Franchise Group vom 14. Juli 2026 („Former CBO chief: Congress isn't grappling with AI's fiscal impact") | https://www.nber.org/papers/w35437 \| https://www.wyomingnewsnow.tv/news/national/former-cbo-chief-congress-isnt-grappling-with-ais-fiscal-impact/article_5799641d-7ccb-54ad-b572-28cb4951fe20.html | übernommen (7-Tage-Fenster durch Franchise-Group-Rezeption vom 14. Juli 2026; NBER-Issue-Date Juli 2026 fällt ins Suchfenster; quantitative Szenariomatrix mit konkreten US-Schulden­kennziffern; Autorenschaft mit Elmendorf als früherer CBO-Direktor und Sheiner als Hutchins-Center-Leiterin autoritativ; direkte Ergänzung des Korinek-Lockwood-Rahmens in § 3.3) |
+| 2 | I | Thinking Machines / TechCrunch / Fortune / Bloomberg, *Introducing Inkling / Mira Murati's Thinking Machines drops Inkling* (15. Juli 2026) | https://thinkingmachines.ai/news/introducing-inkling | verworfen (Datum 15. Juli 2026 fünf Tage vor Schnitt; außerhalb Cluster-I-48-Stunden-Fensters 18.–20. Juli 2026; weiterhin Aufnahmekandidat mit erweitertem Zeitfenster) |
+| 3 | A | Faivre, J., & Cen, S. H., *Taxing Artificial Intelligence* (arXiv:2607.02144, 2. Juli 2026) | https://arxiv.org/abs/2607.02144 | verworfen (Datum 18 Tage vor Schnitt; außerhalb 7-Tage-Fenster; inhaltlich relevanter Cluster-A-Trigger — Corporate income taxes, Rent-based mechanisms, Consumption taxes und Excise taxes für spezifische AI-Aktivitäten; Aufnahmekandidat für Folgelauf mit erweitertem Zeitfenster) |
+| 4 | F | SkillSyncer, *2026 Tech Layoffs Tracker — 302 Events, 201.754 Workers, 164 AI-attributed (~54 %)* (Stand 20. Juli 2026) | https://skillsyncer.com/layoffs-tracker | verworfen (identisch mit 19.-Juli-Stand aus Vorlauf-Version 39.0; keine substantielle Fortschreibung im 48h-Fenster) |
+| 5 | J | Unitree Robotics STAR-Market-IPO-Approval (2./3. Juli 2026), Berichterstattung TechTimes / BigGo Finance / Rest of World / SCMP / Caixin (bis 16. Juli 2026) | https://finance.biggo.com/news/3bf8df38-4754-4491-bed4-5e018280441f | verworfen (Ereignisdatum 2./3. Juli 2026 rund 17 Tage vor Schnitt; TechTimes-/BigGo-Coverage 16. Juli formal im 7-Tage-Fenster, zugrundeliegende Nachricht aber älter; Aufnahmekandidat für Folgelauf mit gezielter Zusatzsuche) |
+| 6 | B | EU Rat / Freshfields / EUR-Lex, *Digital Omnibus on AI Amtsblatt-Veröffentlichung* (Signatur 8. Juli 2026, OJ-Publikation ausstehend) | https://eur-lex.europa.eu/oj/direct-access.html | verworfen (Amtsblatt-Veröffentlichung zum Stichtag 20. Juli 2026 weiterhin nicht vollzogen — Fortschreibung für Folgelauf mit Amtsblatt-Nummer bei erfolgter Veröffentlichung) |
+| 7 | A | Growiec/Prettner/Szkróbka (arXiv:2603.17898, 18. März 2026) | https://arxiv.org/abs/2603.17898 | verworfen (weiterhin außerhalb 7-Tage-Fenster; Aufnahmekandidat) |
+| 8 | H | Bundesregierung / BMDS / Karsten Wildberger, *KI-Taskforce des Bundeskanzleramts* (1. Juli 2026) | https://www.it-fachportal.de/69752-bundesregierung-gruendet-ki-taskforce/ | verworfen (weiterhin außerhalb 7-Tage-Fenster; Aufnahmekandidat) |
+| 9 | J | Tesla Optimus V3 Fremont-Produktionsstart (Ankündigung Q1 2026 / „late July / August 2026" avisiert) | https://blog.robozaps.com/b/tesla-optimus-gen-3 | verworfen (kein spezifisches Ereignisdatum im 48h-Fenster; „late July / August 2026" weiter avisiert; Aufnahmekandidat für Folgelauf) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 3.3 (nach dem Korinek/Lockwood-Absatz, vor dem Empirie-Übergang) | Ergänzung | Neuer bold-gesetzter Absatz „Dynan, Elmendorf & Sheiner (Juli 2026):" mit szenariogestützter Fiskalanalyse (US-Schuldenstand aktuell 101 % BIP, CBO-Baseline 175 % BIP 2056, Worst-Case-KI-Szenario 126 % BIP → −49 Pp; vier Langfristszenarien; CBO-Standardannahme +0,1 Pp jährliches KI-Produktivitätswachstum sinngemäß als zu konservativ bewertet; politikrobuste Empfehlung: Instrumentenmix aus Wachstum, Umverteilung, breit angelegter Arbeitsvermittlung/Qualifizierung und Kapital­besteuerung statt KI-spezifischer Programme); Konjunktiv nach § 4.2 Claude.md. Ergänzt den Korinek-Lockwood-Rahmen um eine quantitative Szenariomatrix und mit Rückwirkung auf § 3.5 als weitere Stütze der szenariorobusten steuerpolitischen Auslegung. | 1 |
+| 2 | § 11.1 | Ergänzung | Neuer Literatur-Eintrag Dynan, K., Elmendorf, D. W., & Sheiner, L. (Juli 2026), *How Might Fiscal Policy Respond to the Rise of Artificial Intelligence?* NBER Working Paper 35437, mit DOI und Kern­befunden. | 1 |
+| 3 | Aktualitätshinweis (Dokumentende) | Aktualisierung | Schnitt-Datum auf 20. Juli 2026 (Lauf 001) aktualisiert; zusammenfassender Nachtrag zu Dynan/Elmendorf/Sheiner mit § 3.3- und § 3.5-Rückverweisen ergänzt. | 1 |
+| 4 | Dokumentkopf und README.md (Version, Zitiervorschlag, Änderungslog) | Aktualisierung | Version 39.0 → 40.0; Aufnahme des Version-40.0-Nachtrags in die README-Änderungsliste. | 1 |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Thinking Machines *Inkling* (15. Juli 2026) | I | außerhalb 48-Stunden-Fenster für Cluster I; im 7-Tage-Fenster fünf Tage vor Schnitt, aber Cluster I fährt im 48h-Fenster; Aufnahmekandidat für Folgelauf mit erweitertem Zeitfenster |
+| 2 | Faivre/Cen, *Taxing Artificial Intelligence* (arXiv 2607.02144, 2. Juli 2026) | A | außerhalb 7-Tage-Fenster (18 Tage vor Schnitt); inhaltlich relevanter Cluster-A-Trigger; Aufnahmekandidat |
+| 3 | SkillSyncer-Trackerstand 20. Juli 2026 | F | identisch mit 19.-Juli-Stand (302/201.754/164/168.770) — keine substantielle Fortschreibung |
+| 4 | Unitree STAR-Market-IPO (2./3. Juli 2026) | J | Ereignisdatum außerhalb 7-Tage-Fenster; Coverage 16. Juli formal im Fenster, zugrundeliegende Nachricht älter; Aufnahmekandidat |
+| 5 | Digital Omnibus on AI Amtsblatt-Veröffentlichung | B | Amtsblatt-Veröffentlichung zum Stichtag 20. Juli 2026 weiterhin nicht vollzogen |
+| 6 | Growiec/Prettner/Szkróbka (arXiv 2603.17898, 18. März 2026) | A | weiterhin außerhalb 7-Tage-Fenster; Aufnahmekandidat |
+| 7 | KI-Taskforce der Bundesregierung (1. Juli 2026) | H | weiterhin außerhalb 7-Tage-Fenster; Aufnahmekandidat |
+| 8 | Tesla Optimus V3 Fremont-Produktionsstart | J | kein spezifisches Ereignisdatum im 48h-Fenster; „late July / August 2026" weiter avisiert |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja (grep-Verifikation: Dynan/Elmendorf/Sheiner und NBER 35437 nicht im Vorlauf-Dokument; Korinek/Lockwood-Absatz bleibt eigenständig)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 20. Juli 2026" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja (KI-Ökonomie.pdf, 302.959 Byte; Abhängigkeit `reportlab` in dieser frisch bereitgestellten Session initial per `pip install` nachgezogen)
+- Word erstellt (`build_docx.py`): Ja (KI-Ökonomie.docx, 174.252 Byte; Abhängigkeit `python-docx` in dieser frisch bereitgestellten Session initial per `pip install` nachgezogen)
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: siehe Phase 6 (unten in „Auffälligkeiten")
+- E-Mail-Benachrichtigung Phase 5b: Fallback-Datei `daily-mail.txt` geschrieben (3.825 Zeichen, unter der 5.000-Zeichen-Grenze). In dieser Session ist kein Microsoft-Graph-Send-Tool erreichbar (nur `mcp__Microsoft-365__outlook_email_search`, das ausschließlich lesend zugreift; kein `outlook_send_mail`, `mail_send`, `send_mail`, `send_message` verfügbar). Nach Phase-5b-Regel wurde die Fallback-Datei geschrieben.
+- WhatsApp-Benachrichtigung Phase 5b: Fallback-Datei `daily-whatsapp.txt` geschrieben (676 Zeichen, unter der 1.000-Zeichen-Grenze). In dieser Session ist kein `whatsapp`-MCP-Server verbunden — `wa_send_message` und Alternativen nicht erreichbar.
+
+### Auffälligkeiten / offene Punkte
+
+- Cluster B/C/D/E/F/G/H/I/J: kein belegbarer Neuzugang im 7-Tage-Fenster bzw. 48-Stunden-Fenster für F/I. Die SkillSyncer-Zahl ist zum 20. Juli 2026 unverändert gegenüber dem 19.-Juli-Stand, weshalb keine Fortschreibung erforderlich ist.
+- Cluster A: Neben Dynan/Elmendorf/Sheiner sind Faivre/Cen (arXiv 2607.02144, 2. Juli 2026), Korinek/Lockwood (NBER 34873, Februar 2026), Growiec/Prettner/Szkróbka (arXiv 2603.17898, 18. März 2026) und Anthropic-EI-Berichte weiterhin inhaltlich starke Trigger; bei erweitertem Zeitfenster für Folgelauf empfehlenswert. Korinek/Lockwood ist inzwischen im Hauptdokument (§ 3.3) verankert.
+- Thinking Machines *Inkling* (15. Juli 2026): Fällt fünf Tage vor Schnitt; Cluster I fährt im 48h-Fenster (18.–20. Juli). Falls Folgelauf das Zeitfenster für Cluster I temporär auf 7 Tage öffnet, ist Inkling Aufnahmekandidat.
+- Digital Omnibus on AI: Amtsblatt-Veröffentlichung zum Stichtag 20. Juli 2026 weiter offen; Fortschreibung im nächsten Lauf mit Amtsblatt-Nummer bei erfolgter Veröffentlichung.
+- Empfängerdaten der Phase-5b-Benachrichtigung stammen aus der Routine-Anweisung (nicht aus dem Repo). Ergebnisse Versand siehe Phase 5b unten (Ergänzung nach Ausführung).
+
+---
+
 ## 2026-07-19 — Lauf 001 — Version 38.0 → Version 39.0
 
 ### Recherchekorridor

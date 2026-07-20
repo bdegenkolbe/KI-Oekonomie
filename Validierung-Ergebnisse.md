@@ -7,6 +7,76 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 20. Juli 2026 (Lauf 001 vom 20. Juli 2026) — Version 39.0 → Version 40.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 20. Juli 2026 im Standard-7-Tage-Fenster (13.–20. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (18.–20. Juli 2026). Eine belegbare Fortschreibung identifiziert: Cluster A mit NBER Working Paper 35437 von Dynan/Elmendorf/Sheiner (Juli 2026; Press-Coverage 14. Juli 2026).
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *Dynan, K., Elmendorf, D. W., & Sheiner, L.* (Juli 2026): *„How Might Fiscal Policy Respond to the Rise of Artificial Intelligence?"* — NBER Working Paper 35437 (Juli 2026), vorbereitet für die Brookings-Konferenz *„The Forces Shaping America's Fiscal Future"* im Juni 2026; öffentliche Rezeption unter anderem *Wyoming News Now* / Franchise Group vom 14. Juli 2026 („Former CBO chief: Congress isn't grappling with AI's fiscal impact"). Die Autoren analysieren vier Langfristszenarien (schnelleres Produktivitätswachstum, größere Einkommensungleichheit, dauerhafte Beschäftigungs­verdrängung, höherer Kapitalanteil am Einkommen); bei einem aktuellen US-Schuldenstand von rund 101 % des Bruttoinlandsprodukts und einer CBO-Baseline-Projektion von rund 175 % bis 2056 finden sie im Worst-Case-KI-Szenario (permanente Arbeitsplatz­verluste, Einkommensverschiebung zu Kapitalbesitzern) eine 2056er-Schulden­quote von nur noch rund 126 % — eine Reduktion um 49 Prozentpunkte gegenüber der Baseline. Die aktuelle CBO-Annahme (+0,1 Pp jährliches zusätzliches KI-Produktivitätswachstum, zusätzlich zu 1,1 % über 30 Jahre) bezeichnen die Autoren sinngemäß als zu konservativ; ihre politikrobuste Empfehlung ist ein Instrumentenmix aus wachstumsfördernden Maßnahmen, Umverteilung, breit angelegter Arbeitsvermittlung und Qualifizierung (statt KI-spezifischer Programme) sowie Kapital­besteuerung und Eigentums­fragen. | § 3.3 (neuer Absatz nach der Korinek/Lockwood-Passage vor dem Empirie-Übergang); § 11.1 (neuer Eintrag Dynan/Elmendorf/Sheiner mit NBER-Link). Aktualitätshinweis am Dokumentende ergänzt; README.md 40.0. | Ergänzt den Korinek-Lockwood-Rahmen um eine quantitative Szenariomatrix, die zentrale US-Schulden­kennziffern konkret adressiert, und untermauert die in § 3.5 formulierte szenariorobuste steuerpolitische Auslegung. Die Autorenschaft (Elmendorf als früherer CBO-Direktor, Sheiner als Hutchins-Center-Leiterin) verleiht dem Beitrag zusätzliche Autorität in der US-Fiskaldebatte. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- Thinking Machines *Inkling* Open-Weight-Freigabe (15. Juli 2026, Cluster I) — außerhalb 48-Stunden-Fenster (Schnitt 20. Juli 2026, 48h-Fenster 18.–20. Juli 2026; Freigabe fünf Tage vor Schnitt); im 7-Tage-Fenster grenzwertig, im 48h-Cluster-I-Fenster nicht abgedeckt. Weiterhin Aufnahmekandidat.
+- Faivre, J., & Cen, S. H. (2. Juli 2026), *Taxing Artificial Intelligence* (arXiv:2607.02144) — außerhalb 7-Tage-Fenster (18 Tage vor Schnitt); inhaltlich relevanter Cluster-A-Trigger (Corporate income taxes, Rent-based mechanisms, Consumption taxes, Excise taxes für spezifische AI-Aktivitäten), aber älter als Zeitfenster; Aufnahmekandidat für Folgelauf mit erweitertem Zeitfenster.
+- Unitree Robotics STAR-Market-IPO-Approval (2./3. Juli 2026, Cluster J) — außerhalb 7-Tage-Fenster; TechTimes-/BigGo-Berichterstattung vom 16. Juli 2026 fällt formal ins 7-Tage-Fenster, aber die zugrundeliegende Nachricht ist bereits älter; Aufnahmekandidat.
+- SkillSyncer-Trackerstand zum 20. Juli 2026 — identisch mit dem 19.-Juli-Stand (302/201.754/164/168.770), keine Fortschreibung erforderlich; die Trackerstand-Fortschreibung des Vorlauftags wurde in Version 39.0 bereits eingearbeitet.
+- Anthropic *Sonnet 5*-Preisverlängerung und *Claude Fable 5*-Zugriffsverlängerung bis 19. Juli 2026 — administrative Fortführungsschritte; kein neuer Sachverhalt.
+- Digital Omnibus on AI Amtsblatt-Veröffentlichung — zum Stichtag 20. Juli 2026 gemäß Web-Recherche weiterhin nicht vollzogen (Signatur 8. Juli 2026, OJ-Publikation ausstehend); Fortschreibung für Folgelauf mit Amtsblatt-Nummer bei erfolgter Veröffentlichung.
+- KI-Taskforce der Bundesregierung (1. Juli 2026), DE-AISI KI-Sicherheitsinstitut (Juni 2026), Tesla Optimus V3 Fremont-Produktionsstart — jeweils weiterhin außerhalb 7-Tage-Fenster oder ohne spezifisches Ereignisdatum; Aufnahmekandidaten.
+- Cluster B/C/D/E/F/G/H/I/J — keine belegbaren Neuzugänge im 7-Tage-Fenster (bzw. 48-Stunden-Fenster für F/I) über die eine aufgenommene Fortschreibung hinaus. Der SkillSyncer-Trackerstand ist zum 20. Juli 2026 unverändert gegenüber dem 19.-Juli-Stand.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; die Ergänzung fügt einen neuen Absatz in § 3.3 (Dynan/Elmendorf/Sheiner) direkt nach der Korinek/Lockwood-Passage ein; keine neuen Unterüberschriften, keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Säulen der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Dynan-Absatz in § 3.3 verweist kontrolliert auf § 3.5 (szenariorobuste Auslegung) und referenziert den voranstehenden Korinek-Lockwood-Absatz; § 4.2 Claude.md (Konjunktivpflicht bei Modellprognosen) angewandt. Keine Querverweis-Ziele verschoben. |
+| 2.1.4 Roter Faden | OK | Dynan/Elmendorf/Sheiner schließt inhaltlich an Korinek/Lockwood an und ergänzt den quantitativen Szenariorahmen; die Zusammenfassung in § 3.5 wird durch die neue Referenz gestützt. Kapitel-8-Deutschland-These bleibt eigenständige Position. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; fett gesetzter Lead-In „**Dynan, Elmendorf & Sheiner (Juli 2026):**" analog zu voranstehendem „**Korinek & Lockwood (2026):**"; keine unausgeglichenen Fettungen; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | NBER-Working-Paper-Nummer 35437 direkt über https://www.nber.org/papers/w35437 verifiziert; Autoren Karen Dynan, Douglas Elmendorf, Louise Sheiner bestätigt; Issue Date Juli 2026 bestätigt; Konferenz-Kontext (Brookings „The Forces Shaping America's Fiscal Future", Juni 2026) über Google-Search bestätigt. Zahlen (101 % BIP aktuell, 175 % 2056 CBO-Baseline, 126 % Worst-Case, 49 Pp Reduktion, +0,1 Pp CBO-Standardannahme, 1,1 % über 30 Jahre) über Wyoming News Now Franchise-Group-Artikel vom 14. Juli 2026 (WebFetch) verifiziert. |
+| 2.2.2 Redundanzprüfung | OK | Der neue Absatz wiederholt weder die Korinek/Lockwood-Argumentation noch die Yale-Budget-Lab-Berichte (§ 3.5), sondern liefert eine eigenständige quantitative Szenariomatrix. |
+| 2.2.3 Argumentation | OK | Modellprognosen im Konjunktiv referiert (Claude.md § 4.2); der Absatz differenziert explizit zwischen Modellprognose und empirischer Messung; Rückwirkung auf § 3.5 (szenariorobust) formuliert. |
+| 2.2.4 Ausgewogenheit | OK | Der Absatz nennt sowohl die Reduktions­quote (−49 Pp) als auch den „Preis" der erheblichen Verteilungs­verschiebung; die Autoren-Präferenz für breit angelegte Arbeitsvermittlung statt KI-spezifischer Programme wird als *ihre* Position, nicht als eigene Empfehlung ausgewiesen. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „CBO-Baseline", „Worst-Case-KI-Szenario", „Szenariomatrix", „politikrobust", „Punktschätzung" konsistent verwendet; Abkürzungen (CBO — Congressional Budget Office, kontextuell klar aus Umfeld) verständlich. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | § 11.1 um einen Eintrag (Dynan/Elmendorf/Sheiner, NBER 35437) ergänzt; die Fließtextreferenz hat einen Literatur-Eintrag; kein Waisenzitat. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil analog zu Korinek/Lockwood-Eintrag; vollständige NBER-URL; Datumsangabe „Juli 2026" einheitlich. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquelle NBER-Working-Paper-Seite, Sekundärquelle Wyoming News Now (Franchise-Redaktion 14. Juli 2026); beide über Web-Suche und WebFetch belegbar. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 20. Juli 2026: https://www.nber.org/papers/w35437 (Titel, Autoren, Issue Date Juli 2026 bestätigt); Franchise-News-Artikel vom 14. Juli 2026 (WebFetch bestätigt Datum, Zahlen 101 %/175 %/126 % und Elmendorf-Statement). |
+| 2.4.5 Zitatgenauigkeit | OK | Direkt zitiert wird nur Elmendorfs Statement sinngemäß im Konjunktiv („einen größeren Schub" einzukalkulieren); Zahlenangaben (101/175/126, +0,1 Pp, 1,1 %/30 Jahre) direkt aus Franchise-News-Sekundärquelle. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 40.0 durchgängig: Dokumentkopf (KI-Ökonomie.md, Zeile 12), Aktualitätshinweis am Dokumentende (Schnitt 20. Juli 2026, Lauf 001), `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung mit Versions-Eintrag 40.0) und dieser Protokoll-Block. Haftungs- und Lizenzhinweis am Dokumentende erhalten. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltliche Ergänzung hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | — | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK (Gliederung, Querverweise, Formatierung, Quellenzuordnung nach Einarbeitung des Absatzes und § 11.1-Eintrags)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 40.0
+- PDF erstellt: Ja (Phase 5)
+- Word erstellt: Ja (Phase 5)
+
+---
+
 ## Validierung 19. Juli 2026 (Lauf 001 vom 19. Juli 2026) — Version 38.0 → Version 39.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 19. Juli 2026 im Standard-7-Tage-Fenster (12.–19. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (17.–19. Juli 2026). Zwei belegbare Fortschreibungen identifiziert: Cluster I mit Meta *V3 Iris* / Broadcom-Design­partner-Konzentration (TechTimes 17. Juli 2026); Cluster F mit *SkillSyncer*-Tracker-Fortschreibung (Stand 19. Juli 2026).
