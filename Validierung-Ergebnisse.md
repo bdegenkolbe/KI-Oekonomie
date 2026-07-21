@@ -7,6 +7,78 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 21. Juli 2026 (Lauf 001 vom 21. Juli 2026) — Version 40.0 → Version 41.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 21. Juli 2026 im Standard-7-Tage-Fenster (14.–21. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (19.–21. Juli 2026). Eine belegbare Fortschreibung identifiziert: Cluster A/D mit der Stanford-Digital-Economy-Lab-Erklärung *„We Must Act Now"* vom 13. Juli 2026 samt Rezeption 14.–15. Juli 2026 (im 7-Tage-Fenster).
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *Stanford Digital Economy Lab* (Org. Brynjolfsson, Agrawal, Korinek, Cunningham) veröffentlicht am 13. Juli 2026 die Erklärung *„We Must Act Now: A Statement on AI's Transformation of the Economy"* mit zum Startzeitpunkt über 200 Unterzeichnenden (sechzehn Nobelpreisträger — u. a. Acemoglu, Johnson, Stiglitz, Krugman, Spence, Bernanke — sowie leitende Vertreter aus Anthropic, OpenAI, Google, Meta, DeepMind, Stanford, MIT, Harvard, Brookings und Peterson Institute; zum Referenzzeitpunkt weist wemustactnow.ai über 350 Unterschriften aus). Kernaussage: KI könne eine ökonomische Transformation größer als die Industrielle Revolution auslösen, sich aber in Jahren statt Jahrzehnten vollziehen; deshalb seien umgehend „Anreize, Leitplanken und Institutionen" zu schaffen. Bemerkenswert ist die Positionsbewegung von Daron Acemoglu und Simon Johnson (2024 gemeinsam mit Robinson mit dem Nobelpreis ausgezeichnet), die frühere Warnungen vor großflächiger KI-bedingter Arbeitsplatz­verdrängung skeptisch eingeordnet hatten. Rezeption unter anderem durch TechTimes (14. Juli 2026), ABC News, NBC News, The Hill, Fortune, Axios, Breitbart (14./15. Juli 2026); UVA-Darden-Erläuterung zur Rolle Korineks vom 15. Juli 2026. | § 3.3 (neuer bold-Absatz „**Stanford Digital Economy Lab (Juli 2026):**" nach der Korinek/Lockwood-Passage und vor dem Dynan/Elmendorf/Sheiner-Absatz — positioniert an der bereits vorhandenen politisch-institutionellen Anschlussstelle des Korinek-Lockwood-Rahmens); § 11.3 (neuer Eintrag mit Rezeptionsliste und Zeichnungsportal-Link); Aktualitätshinweis am Dokumentende um Lauf-001-vom-21.-Juli-2026-Passus ergänzt; README.md 41.0 und Version-41.0-Nachtrag im Änderungslog. | Die Erklärung ist der bislang öffentlichkeitswirksamste Politik-Aufruf des KI-Ökonomen-Kreises seit Beginn des Papiers und dokumentiert eine sichtbare Meinungsbewegung bei zuvor skeptischen Autoritäten (Acemoglu, Johnson). Sie verankert den in § 3.3 aufgenommenen Korinek-Lockwood-Rahmen politisch (Korinek ist Ko-Organisator), stützt die in § 3.5 vertretene szenariorobuste Auslegung und erweitert das Autorenspektrum um sechzehn Nobelpreisträger sowie hochrangige KI-Industrievertreter, ohne den in Kapitel 8 entwickelten deutschen Pfad zu präjudizieren. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- Digital Omnibus on AI Amtsblatt-Veröffentlichung — zum Stichtag 21. Juli 2026 gemäß Web-Recherche weiterhin nicht vollzogen (Signatur 8. Juli 2026, OJ-Publikation ausstehend nach Recherche vom 21. Juli 2026); Fortschreibung für Folgelauf mit Amtsblatt-Nummer bei erfolgter Veröffentlichung.
+- BMWE „Schlaglichter der Wirtschaftspolitik" Juli-2026-Fokus („Wettbewerb und Künstliche Intelligenz — Expertenkommission legt Abschlussbericht vor") — der zugrundeliegende Abschlussbericht der Podszun-/Schumann-/Thrun-Kommission datiert vom 28. April 2026 (Abschlusssitzung) und ist in der zugehörigen BMWE-Pressemitteilung vom 28. April 2026 dokumentiert; die Aufnahme des Fokusbeitrags in die Juli-2026-Publikation ist eine Zweitrezeption ohne substanziell neue Faktenlage. Aufnahmekandidat, sobald die Rezeption in wissenschaftlicher oder rechtlicher Fachliteratur belegbar ist.
+- BDSG-Reform (Bundesrat 10. Juli 2026) — dokumentiert (heise, DATEV-Magazin, boerse-express, ad-hoc-news, Stiftung Datenschutz), aber inhaltlich datenschutz-, nicht steuerpolitisch; Corridor-Grenze zu Cluster B nicht überschritten (Bemessungsgrundlage, Ersatzabgabe, Wertschöpfungsabgabe, Sanders/OpenAI-Linie).
+- Bloomberg-/Yahoo-Finance-Bericht­erstattung zur *Anthropic-Claude-Opus-4.8*-Freigabe am 20. Mai 2026 — historisch, außerhalb 7-Tage-Fenster; die Preisstruktur des Opus 4.8 (5/25 US-Dollar Input/Output pro Million Token) ist bereits über die Fable-5-Preisdynamik in § 8.2 mit dokumentiert.
+- OECD *„Skills in the AI age"* (8. Juli 2026) — außerhalb 7-Tage-Fenster (13 Tage vor Schnitt) und thematisch parallel zum bereits in Version 33.0 aufgenommenen OECD *Employment Outlook 2026* (7. Juli 2026); keine substanzielle Neuerung.
+- TechCrunch-Bericht­erstattung zur Microsoft-/OpenAI-/Anthropic-Rivalität und Anthropic-„Inviting-hard-questions"-Kampagne (9./14. Juli 2026) — Cluster D/I Grenzfall; primär Wettbewerbs- und Marketing-Positionierung, kein steuer- oder sozialstaatsrelevanter Sachverhalt. Aufnahmekandidat, falls politische Folgerungen entstehen.
+- Tesla-Optimus-Q2-2026-Earnings-Call (Wednesday 22. Juli 2026, TechTimes vom 20. Juli 2026 „Production Count Remains Zero as Q2 Earnings Call Looms Wednesday") — Ereignis liegt nach Schnitt-Datum; Fortschreibung im Folgelauf, sobald die Earnings-Call-Aussagen zur Optimus-Serienfertigung öffentlich sind.
+- SkillSyncer-Trackerstand zum 21. Juli 2026 — nach Recherche identisch mit dem 20.-Juli-Stand (302/201.754/164/168.770 = 19.-Juli-Stand aus Version 39.0); keine substantielle Fortschreibung erforderlich.
+- Sanders-*American A.I. Sovereign Wealth Fund Act* (S. 4825, 18. Juni 2026) — bereits in Version 28.0/33.0 dokumentiert; kein neuer legislativer Schritt (weiterhin ohne Ko-Sponsoren im 119. Kongress).
+- Cluster B/C/E/F/G/H/J — keine belegbaren Neuzugänge im 7-Tage-Fenster bzw. 48-Stunden-Fenster für F/I über die eine aufgenommene Cluster-A/D-Fortschreibung hinaus.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; die Ergänzung fügt einen neuen Absatz in § 3.3 (Stanford Digital Economy Lab) direkt nach der Korinek/Lockwood-Passage und vor dem Dynan/Elmendorf/Sheiner-Absatz ein; keine neuen Unterüberschriften, keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Säulen der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Stanford-Absatz in § 3.3 verweist kontrolliert auf § 3.5 (moderate aggregierte Effekte und wachsende Verteilungssorgen), § 8 (Deutschland-These-Neutralität) und den voranstehenden Korinek/Lockwood-Absatz; § 4.2 Claude.md (Konjunktivpflicht bei Policy-Papieren) angewandt. Keine Querverweis-Ziele verschoben. |
+| 2.1.4 Roter Faden | OK | Stanford-Erklärung schließt inhaltlich an Korinek/Lockwood an (politische Verankerung) und leitet zum Dynan/Elmendorf/Sheiner-Absatz über; Kapitel-8-Deutschland-These bleibt eigenständige Position, das Papier bewahrt seine Progression Literaturrezeption → sektorale Anwendung → Deutschland-These. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; fett gesetzter Lead-In „**Stanford Digital Economy Lab (Juli 2026):**" analog zu voranstehendem „**Korinek & Lockwood (2026):**" und nachfolgendem „**Dynan, Elmendorf & Sheiner (Juli 2026):**"; keine unausgeglichenen Fettungen; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Publikationsdatum 13. Juli 2026 und Titel *„We Must Act Now: A Statement on AI's Transformation of the Economy"* über Stanford-Digital-Economy-Lab-Seite und wemustactnow.ai verifiziert (WebFetch); Organisatoren Brynjolfsson, Agrawal, Korinek, Cunningham bestätigt (UVA-Darden-Meldung 15. Juli 2026, TechTimes 14. Juli 2026); Signatorenzahl „mehr als 200" laut Startberichterstattung, aktuell 350+ laut Zeichnungsportal (Konjunktiv „nach Angaben der Organisatoren" gewahrt); Sechzehn Nobelpreisträger inklusive Acemoglu und Johnson namentlich in TechTimes, Fortune, Axios und The Hill bestätigt; die Nobelpreis-Zuschreibung 2024 „gemeinsam mit James A. Robinson für Institutionenforschung" bestätigt. |
+| 2.2.2 Redundanzprüfung | OK | Der neue Absatz wiederholt weder die Korinek/Lockwood-Argumentation (analytischer Rahmen) noch die Dynan/Elmendorf/Sheiner-Argumentation (Szenariomatrix), sondern liefert die politisch-institutionelle Verankerung des Rahmens; die referenzierte Positionsbewegung von Acemoglu und Johnson ist eine neue Sachaussage über den in § 3.1 und § 3.3 dokumentierten Autorenkontext. |
+| 2.2.3 Argumentation | OK | Kollektive Handlungsaufforderung im Konjunktiv referiert (Claude.md § 4.2); der Absatz differenziert explizit zwischen Modellprognose und Policy-Statement; Rückwirkung auf § 3.5 formuliert; die Aussage „schließt die deutsche Perspektive nicht" bewahrt Kapitel-8-Autonomie. |
+| 2.2.4 Ausgewogenheit | OK | Der Absatz nennt sowohl die Warnung (Transformationsgeschwindigkeit vor institutioneller Anpassung) als auch die Gegenposition, dass der Konsens die Instrumentendiskussion nicht präjudiziert; die Positionsbewegung Acemoglu/Johnson ist als Faktum, nicht als Bewertung dargestellt. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „Anreize, Leitplanken und Institutionen" als direkt zitierte Formulierung im Konjunktiv; „Handlungsaufforderung", „Politik-Konsens" konsistent verwendet; Nobelpreis-Bezeichnung „2024 gemeinsam mit Robinson mit dem Nobelpreis ausgezeichnet" korrekt. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | § 11.3 um einen Eintrag (Stanford Digital Economy Lab / Brynjolfsson/Agrawal/Korinek/Cunningham, 13. Juli 2026) ergänzt; die Fließtextreferenz hat einen Literatur-Eintrag; kein Waisenzitat. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil analog zu bestehenden § 11.3-Einträgen (Bundesregierung, Bundesrat, Deutsche Bundesbank); Datumsangabe „13. Juli 2026" einheitlich; Rezeptions-Links vollständig angegeben. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquelle Stanford-Digital-Economy-Lab-Nachrichtenseite (digitaleconomy.stanford.edu/news/wemustactnow/) und Zeichnungsportal (wemustactnow.ai) über WebFetch belegt; Sekundärquellen Fortune, TechTimes, ABC News, NBC News, The Hill, Axios, Breitbart im 7-Tage-Fenster (14./15. Juli 2026); UVA-Darden-Meldung 15. Juli 2026. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 21. Juli 2026: https://digitaleconomy.stanford.edu/news/wemustactnow/ (WebFetch bestätigt Statement-Titel, Nobelpreisträger Spence und Acemoglu namentlich, Signatorenzahl 16 Nobelpreisträger, Organisatoren-Quartett); https://wemustactnow.ai/ (WebFetch bestätigt drei Kernaussagen, Zitat „steam, electricity, and computers each gave societies decades to adapt; AI may give us only a few years", aktuell über 350 Unterzeichnende, Nennung von Nobelpreisträgern und Techfiguren wie Bengio, LeCun, Schmidt, Jeff Dean); https://www.techtimes.com/articles/320398/20260714/... (Suchergebnisse bestätigen Rezeption vom 14. Juli 2026 mit Acemoglu/Johnson-Positionsbewegung); https://news.darden.virginia.edu/2026/07/15/... (UVA-Darden bestätigt Korineks Rolle als Ko-Organisator und aktuelle Anthropic-Anstellung als „head of Transformative AI Economic Studies"). |
+| 2.4.5 Zitatgenauigkeit | OK | Wörtlich zitiert wird nur „Anreize, Leitplanken und Institutionen" als deutsche Übersetzung des englischen „incentives, guardrails, and institutions"; die Kernaussagen zur Transformationsgeschwindigkeit im Konjunktiv sinngemäß aus dem Statement-Text übernommen (WebFetch wemustactnow.ai). Signatorenzahl im Konjunktiv nach Angaben der Organisatoren. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 41.0 durchgängig: Dokumentkopf (KI-Ökonomie.md, Zeile 12), Aktualitätshinweis am Dokumentende (Schnitt 21. Juli 2026, Lauf 001), `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung mit Versions-Eintrag 41.0) und dieser Protokoll-Block. Haftungs- und Lizenzhinweis am Dokumentende erhalten; Autor Björn Degenkolbe / HIGL unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltliche Ergänzung hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine Bereinigungen erforderlich. | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK (Struktur, Querverweise, Formatierung, Sachliche Richtigkeit, Vollständigkeit § 11.3, Versionskonsistenz, URL-Stichprobe).
+- Automatisierte Skripte: n/a (keine im Repo).
+
+### Abschluss
+
+- Alle Fehler behoben: n/a (keine Fehler identifiziert).
+- Neue Version: 41.0
+- PDF erstellt: Ja (`build_pdf.py`, `KI-Ökonomie.pdf`)
+- Word erstellt: Ja (`build_docx.py`, `KI-Ökonomie.docx`)
+
+---
+
 ## Validierung 20. Juli 2026 (Lauf 001 vom 20. Juli 2026) — Version 39.0 → Version 40.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 20. Juli 2026 im Standard-7-Tage-Fenster (13.–20. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (18.–20. Juli 2026). Eine belegbare Fortschreibung identifiziert: Cluster A mit NBER Working Paper 35437 von Dynan/Elmendorf/Sheiner (Juli 2026; Press-Coverage 14. Juli 2026).

@@ -54,6 +54,76 @@
 
 ---
 
+## 2026-07-21 — Lauf 001 — Version 40.0 → Version 41.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster B, C, E, F, G, H, I, J ohne belegbare Neuzugänge im 7-Tage-Fenster bzw. 48-Stunden-Fenster für F/I). Eine belegbare Fortschreibung aus Cluster A/D (Stanford-Digital-Economy-Lab-Erklärung *„We Must Act Now"* vom 13. Juli 2026 mit Breitenrezeption 14./15. Juli 2026).
+- Zeitfenster: Standard 7 Tage (14.–21. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (19.–21. Juli 2026).
+- Anzahl Suchanfragen: 15 (Web-Suche) plus gezielter Einzel-Fetch zur Verifikation (Stanford-Digital-Economy-Lab-Erklärung, Zeichnungsportal wemustactnow.ai).
+- Lauf 001 vom 21. Juli 2026 ist der Folgelauf zu Lauf 001 vom 20. Juli 2026 (Version 39.0 → 40.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | A/D | Stanford Digital Economy Lab / Brynjolfsson, E., Agrawal, A., Korinek, A., & Cunningham, T. (Org.), *We Must Act Now: A Statement on AI's Transformation of the Economy* (13. Juli 2026) mit Rezeption TechTimes 14. Juli 2026, ABC News / NBC News / The Hill / Fortune / Axios / Breitbart 14./15. Juli 2026 sowie UVA-Darden-Meldung 15. Juli 2026 | https://digitaleconomy.stanford.edu/news/wemustactnow/ \| https://wemustactnow.ai/ \| https://news.darden.virginia.edu/2026/07/15/darden-professor-ai-economy-statement/ \| https://www.techtimes.com/articles/320398/20260714/nobel-economists-who-doubted-ai-job-fears-now-sound-alarm-white-collar-displacement.htm \| https://fortune.com/2026/07/14/almost-200-economists-warn-of-ai-driven-job-displacement/ \| https://www.nbcnews.com/tech/tech-news/hundreds-economists-say-must-act-now-ais-economic-impact-job-displacem-rcna587450 \| https://www.axios.com/2026/07/15/ai-economy-nobel \| https://thehill.com/policy/technology/5967512-ai-transformation-job-displacement/ \| https://abcnews.com/Technology/wireStory/hundreds-economists-act-now-ais-economic-impact-job-134719082 | übernommen (Rezeption 14./15. Juli 2026 im 7-Tage-Fenster; mehr als 200 Unterzeichnende inkl. sechzehn Nobelpreisträger; Positionsbewegung von Acemoglu und Johnson; Ko-Organisation durch Korinek verankert den in § 3.3 aufgenommenen Korinek-Lockwood-Rahmen politisch; Aufnahme in § 3.3 mit Rückwirkung auf § 3.5 und § 11.3) |
+| 2 | B | EU Rat / Freshfields / Bird & Bird / EUR-Lex, *Digital Omnibus on AI Amtsblatt-Veröffentlichung* (Signatur 8. Juli 2026, OJ-Publikation ausstehend) | https://eur-lex.europa.eu/oj/direct-access.html \| https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/ | verworfen (Amtsblatt-Veröffentlichung zum Stichtag 21. Juli 2026 nach Web-Recherche weiterhin nicht vollzogen; Fortschreibung für Folgelauf mit Amtsblatt-Nummer bei erfolgter Veröffentlichung) |
+| 3 | H | BMWE, *Schlaglichter der Wirtschaftspolitik — Juli 2026, Fokus: Wettbewerb und Künstliche Intelligenz — Expertenkommission legt Abschlussbericht vor* (14. Juli 2026 auf bundeswirtschaftsministerium.de) | https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Schlaglichter-der-Wirtschaftspolitik/2026/07/02-wettbewerb-und-kuenstliche-intelligenz.html | verworfen (Zweitrezeption des Abschlussberichts der Podszun-/Schumann-/Thrun-Kommission vom 28. April 2026 ohne substanziell neue Faktenlage; Aufnahmekandidat für Folgelauf, sobald wissenschaftliche oder rechtliche Rezeption belegt ist) |
+| 4 | B | BDSG-Reform Bundesrat 10. Juli 2026 (heise, DATEV magazin, boerse-express, ad-hoc-news, Stiftung Datenschutz) | https://www.datev-magazin.de/nachrichten-steuern-recht/recht/laender-billigen-gesetz-zur-ki-aufsicht-in-deutschland-147779 | verworfen (inhaltlich datenschutz-, nicht steuerpolitisch; Corridor-Grenze Cluster B — Bemessungsgrundlage, Ersatzabgabe, Wertschöpfungsabgabe, Sanders/OpenAI-Linie — nicht überschritten) |
+| 5 | I | Bloomberg / Yahoo Finance, *Anthropic debuts flagship Claude Opus 4.8 AI model as IPO race with OpenAI heats up* (Rückschau 20. Mai 2026) | https://finance.yahoo.com/news/anthropic-debuts-flagship-claude-opus-48-ai-model-as-ipo-race-with-openai-heats-up-170000527.html | verworfen (Datum außerhalb 7-Tage-Fensters; Preisstruktur Opus 4.8 in § 8.2 bereits über Fable-5-Preisdynamik mitdokumentiert) |
+| 6 | A | OECD, *Skills in the AI age* (Policy Paper, 8. Juli 2026) | https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en.html | verworfen (13 Tage vor Schnitt, außerhalb 7-Tage-Fenster; thematisch parallel zum bereits in Version 33.0 aufgenommenen OECD *Employment Outlook 2026* vom 7. Juli 2026) |
+| 7 | J | TechTimes, *Tesla Optimus Production Count Remains Zero as Q2 Earnings Call Looms Wednesday* (20. Juli 2026) | https://www.techtimes.com/articles/321012/20260720/tesla-optimus-production-count-remains-zero-q2-earnings-call-looms-wednesday.htm | verworfen (Ereignis Q2-2026-Earnings-Call findet nach Schnitt-Datum statt — Wednesday 22. Juli 2026; Fortschreibung im Folgelauf) |
+| 8 | F | SkillSyncer, *2026 Tech Layoffs Tracker* (Stand 21. Juli 2026) | https://skillsyncer.com/layoffs-tracker | verworfen (identisch mit 20.-Juli-Stand 302/201.754/164/168.770 = 19.-Juli-Stand aus Version 39.0; keine substantielle Fortschreibung) |
+| 9 | D | Sanders *American A.I. Sovereign Wealth Fund Act* (S. 4825, 18. Juni 2026) — Statusabfrage | https://www.quiverquant.com/news/New+Bill:+Senator+Bernard+Sanders+introduces+S.+4825:+American+A.I.+Sovereign+Wealth+Fund+Act | verworfen (bereits in Version 28.0/33.0 dokumentiert; weiterhin ohne Ko-Sponsoren im 119. Kongress; kein neuer legislativer Schritt) |
+| 10 | D/I | TechCrunch / ExplainX, *Anthropic „Inviting hard questions"-Kampagne mit Altman-Reaktion* (9./14. Juli 2026) | https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/ | verworfen (Cluster-D/I-Grenzfall; primär Wettbewerbs- und Marketing-Positionierung, kein steuer- oder sozialstaatsrelevanter Sachverhalt) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 3.3 (nach dem Korinek/Lockwood-Absatz, vor dem Dynan/Elmendorf/Sheiner-Absatz) | Ergänzung | Neuer bold-gesetzter Absatz „Stanford Digital Economy Lab (Juli 2026):" mit Veröffentlichungsdatum 13. Juli 2026, Titel *„We Must Act Now: A Statement on AI's Transformation of the Economy"*, Organisatoren Brynjolfsson/Agrawal/Korinek/Cunningham, mehr als 200 Unterzeichnende (16 Nobelpreisträger, u. a. Acemoglu, Johnson, Stiglitz, Krugman, Spence, Bernanke), drei Kernaussagen (leistungssteigernde KI in 10 Jahren, Transformation größer als Industrielle Revolution aber schneller, „Anreize, Leitplanken und Institutionen" umgehend erforderlich), Positionsbewegung von Acemoglu/Johnson, politisch-institutionelle Verankerung des Korinek-Lockwood-Rahmens und Rückwirkung auf § 3.5 und § 8; Konjunktiv nach § 4.2 Claude.md. | 1 |
+| 2 | § 11.3 | Ergänzung | Neuer Literatur-Eintrag Stanford Digital Economy Lab / Brynjolfsson, Agrawal, Korinek, Cunningham (Org.), *We Must Act Now: A Statement on AI's Transformation of the Economy* (13. Juli 2026), mit Rezeptionsliste (TechTimes, ABC News, NBC News, The Hill, Fortune, Axios, Breitbart) und Zeichnungsportal-Link. | 1 |
+| 3 | Aktualitätshinweis (Dokumentende) | Aktualisierung | Schnitt-Datum auf 21. Juli 2026 (Lauf 001) aktualisiert; zusammenfassender Nachtrag zur Stanford-Digital-Economy-Lab-Erklärung mit § 3.3-, § 3.5- und § 11.3-Rückverweisen ergänzt. | 1 |
+| 4 | Dokumentkopf und README.md (Version, Zitiervorschlag, Änderungslog) | Aktualisierung | Version 40.0 → 41.0; Aufnahme des Version-41.0-Nachtrags in die README-Änderungsliste. | 1 |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Digital Omnibus on AI Amtsblatt-Veröffentlichung | B | Amtsblatt-Veröffentlichung zum Stichtag 21. Juli 2026 weiterhin nicht vollzogen; Signatur 8. Juli 2026 |
+| 2 | BMWE Schlaglichter Juli 2026 Fokus Wettbewerb/KI | H | Zweitrezeption des Podszun-/Schumann-/Thrun-Abschlussberichts vom 28. April 2026 ohne neue Faktenlage |
+| 3 | BDSG-Reform Bundesrat 10. Juli 2026 | B | inhaltlich datenschutz-, nicht steuerpolitisch; Cluster-B-Corridor nicht überschritten |
+| 4 | Anthropic Claude Opus 4.8 (20. Mai 2026) | I | außerhalb 7-Tage-Fenster; Preisstruktur bereits über § 8.2 mit dokumentiert |
+| 5 | OECD *Skills in the AI age* (8. Juli 2026) | A | außerhalb 7-Tage-Fenster; thematisch parallel zum bereits eingearbeiteten OECD Employment Outlook 2026 |
+| 6 | Tesla Optimus Q2-2026-Earnings-Call (22. Juli 2026) | J | Ereignis liegt nach Schnitt-Datum; Fortschreibung im Folgelauf |
+| 7 | SkillSyncer-Trackerstand 21. Juli 2026 | F | identisch mit 20.-Juli-Stand (= 19.-Juli-Stand aus Version 39.0) — keine substantielle Fortschreibung |
+| 8 | Sanders *American A.I. Sovereign Wealth Fund Act* (S. 4825) | D | bereits in Version 28.0/33.0 dokumentiert; keine neuen legislativen Schritte |
+| 9 | Anthropic „Inviting hard questions"-Kampagne (9./14. Juli 2026) | D/I | Cluster-D/I-Grenzfall; primär Wettbewerbs- und Marketing-Positionierung ohne steuerpolitische Relevanz |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja (grep-Verifikation: „We Must Act", „Digital Economy Lab", „Stanford", „Brynjolfsson", „Agrawal", „Cunningham" nicht im Vorlauf-Dokument; Korinek als Ko-Organisator im Kontext des Statements neu, während sein NBER-Working-Paper 34873 aus Version 39.0 bereits in § 3.3 und § 11.1 verankert ist)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 21. Juli 2026" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja (KI-Ökonomie.pdf, 309.586 Byte; Abhängigkeit `reportlab` in dieser frisch bereitgestellten Session initial per `pip install` nachgezogen)
+- Word erstellt (`build_docx.py`): Ja (KI-Ökonomie.docx, 177.054 Byte; Abhängigkeit `python-docx` in dieser frisch bereitgestellten Session initial per `pip install` nachgezogen)
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: siehe Phase 6 (unten in „Auffälligkeiten")
+- E-Mail-Benachrichtigung Phase 5b: Fallback-Datei `daily-mail.txt` geschrieben (4.015 Zeichen, unter der 5.000-Zeichen-Grenze). In dieser Session ist kein Microsoft-Graph-Send-Tool erreichbar (nur `mcp__Microsoft-365__outlook_email_search`, `chat_message_search`, `outlook_calendar_search`, `find_meeting_availability`, `get_me`, `read_resource`, alle ausschließlich lesend; kein `outlook_send_mail`, `mail_send`, `send_mail`, `send_message` verfügbar). Nach Phase-5b-Regel wurde die Fallback-Datei geschrieben.
+- WhatsApp-Benachrichtigung Phase 5b: Fallback-Datei `daily-whatsapp.txt` geschrieben (821 Zeichen, unter der 1.000-Zeichen-Grenze). In dieser Session ist kein `whatsapp`-MCP-Server verbunden — `wa_send_message` und Alternativen nicht erreichbar.
+
+### Auffälligkeiten / offene Punkte
+
+- Cluster B/C/E/F/G/H/I/J: kein belegbarer Neuzugang im 7-Tage-Fenster bzw. 48-Stunden-Fenster für F/I. Cluster A/D wurde durch die Stanford-Digital-Economy-Lab-Erklärung bedient. Der SkillSyncer-Trackerstand ist zum 21. Juli 2026 unverändert gegenüber dem 20.-Juli-Stand (= 19.-Juli-Stand aus Version 39.0).
+- Digital Omnibus on AI: Amtsblatt-Veröffentlichung zum Stichtag 21. Juli 2026 weiter offen; Fortschreibung im nächsten Lauf mit Amtsblatt-Nummer bei erfolgter Veröffentlichung.
+- Tesla Optimus Q2-2026-Earnings-Call: Wednesday 22. Juli 2026 avisiert. Fortschreibung im Folgelauf mit Aussagen zur Optimus-Serienfertigung und Produktionsstart Fremont.
+- Stanford-Erklärung Signatorenzahl: Die Startberichterstattung nennt „mehr als 200", das Zeichnungsportal weist zum Referenzzeitpunkt bereits „über 350" aus. Beide Werte im Absatz genannt (Startzeitpunkt vs. Referenzzeitpunkt) mit Konjunktiv „nach Angaben der Organisatoren".
+- Empfängerdaten der Phase-5b-Benachrichtigung stammen aus der Routine-Anweisung (nicht aus dem Repo). Ergebnisse Versand siehe Verarbeitungsschritte oben (Fallback-Dateien `daily-mail.txt` und `daily-whatsapp.txt` geschrieben, kein Versand-MCP in dieser Session erreichbar).
+- Phase 5b Versand: In dieser Session war weder ein Microsoft-Graph-`mail_send`-Tool (bevorzugt) noch ein alternativer E-Mail-Send-Kanal (`send_mail`, `send_message`, `outlook_send`) noch das `wa_send_message`-Tool aus dem `whatsapp`-MCP-Server erreichbar. Verbunden ist nur `mcp__Microsoft-365__*` mit ausschließlich lesenden Tools. Nach Phase-5b-Regel wurden `daily-mail.txt` und `daily-whatsapp.txt` als Fallback-Dateien im Repo-Root geschrieben (per `.gitignore` vom Commit ausgeschlossen; enthalten keine Empfängerdaten). Der Merge auf `main` wird durch den ausbleibenden Versand nach Phase-5b-Regel nicht verhindert.
+
+---
+
 ## 2026-07-20 — Lauf 001 — Version 39.0 → Version 40.0
 
 ### Recherchekorridor
