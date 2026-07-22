@@ -7,6 +7,82 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 22. Juli 2026 (Lauf 001 vom 22. Juli 2026) — Version 41.0 → Version 42.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 22. Juli 2026 im Standard-7-Tage-Fenster (15.–22. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (20.–22. Juli 2026). Zwei belegbare Fortschreibungen identifiziert: Cluster D/I mit der Final-Approval-Entscheidung von US-Bezirksrichterin Araceli Martinez-Olguin zum 1,5-Milliarden-Dollar-Vergleich *Bartz et al. v. Anthropic* am 20. Juli 2026 sowie Cluster F mit der 22.-Juli-2026-Fortschreibung des SkillSyncer-Layoff-Trackers (322/205.832/173/170.945).
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | Am 20. Juli 2026 erteilte US-Bezirksrichterin Araceli Martinez-Olguin am *United States District Court for the Northern District of California* (in Nachfolge des in den Ruhestand gegangenen Richters William Alsup) die endgültige Genehmigung des zwischen *Anthropic* und einer Sammelklägergemeinschaft von Autorinnen, Autoren und Verlegern (Verfahren *Bartz et al. v. Anthropic*) ausgehandelten 1,5-Milliarden-Dollar-Vergleichs: rund 500.000 Werke werden mit rund 3.000 US-Dollar pro Werk vergütet. Der Vergleich ist nach übereinstimmender Berichterstattung der größte Copyright-Vergleich in der US-Rechtsgeschichte und enthält keine bindende Präzedenzwirkung. Richter Alsup hatte im Vorlauf festgestellt, dass das Training auf legal erworbenen urheberrechtlich geschützten Texten unter die US-Fair-Use-Doktrin fällt, während das systematische Herunterladen und Speichern von über sieben Millionen Büchern aus Piraterie-Quellen (*Library Genesis*, *Pirate Library Mirror*) rechtswidrig sei. Rezeption durch TechCrunch (20. Juli 2026), hothardware, Yahoo Finance, Publishers Weekly, TechTimes (21. Juli 2026), Benzinga und Claims Journal (21. Juli 2026). | § 8.2 (neuer Absatz nach der Custom-Silicon-Design-Konzentrations-Passage und vor der Deutschland-Verarbeiter-Passage — positioniert an der bereits vorhandenen Rohstoff-Analogie-Ebene); § 11.5 (neuer Eintrag mit Rezeptionsliste und Court-Zuordnung); Aktualitätshinweis am Dokumentende um Version-42.0-Lauf-001-vom-22.-Juli-2026-Passus ergänzt; README.md 42.0 und Version-42.0-Nachtrag im Änderungslog. | Der Vergleich etabliert erstmals einen großmaßstäblichen monetären Referenzwert für die *Trainingsdaten*-Ebene der KI-Wertschöpfungskette (rund 3.000 US-Dollar pro Werk × 500.000 Werke ≈ 1,5 Milliarden US-Dollar) und trennt zivilrechtlich Fair-Use für legal erworbene Texte von rechtswidriger Piraterie-Beschaffung. Für die Rohstoff-Analogie (§ 8.2) und die Teilhabefonds-Logik (§ 8.3) ist die Trennung zwischen zivilrechtlicher Vergütung am Ort der Rohstoffproduktion (Autorinnen, Autoren, Verlage) und öffentlich-rechtlichem Zugriff am Ort der Veredelungsrendite (Frontier-Anbieter) konzeptionell wichtig; ohne bindende Präzedenz entfaltet der Vergleich seine Wirkung als Signalwert an die laufenden Sammelklagen gegen Google, Meta, Midjourney und OpenAI. |
+| 2 | *SkillSyncer* Layoff-Tracker fortgeschrieben zum 22. Juli 2026: 322 Layoff-Ereignisse mit 205.832 betroffenen Beschäftigten (rund 1.014 Stellen pro Tag); 173 KI-attribuierte Einzelereignisse mit rund 170.945 betroffenen Beschäftigten (etwa 54 % der Ereignisse und rund 83 % der Betroffenen). Fortschreibung des 19.-Juli-Stands (302/201.754/164/168.770) um +20 Ereignisse (+6,6 %), +4.078 Betroffene (+2,0 %), +9 KI-attribuierte Ereignisse (+5,5 %) und +2.175 KI-attribuierte Betroffene (+1,3 %); die Aggregat-KI-Kausalquote bleibt stabil bei 54 %. | § 1.1 (Anfügung nach dem 19.-Juli-Fortschreibungssatz mit Delta-Aufschlüsselung); § 11.5 (neuer Eintrag SkillSyncer Stand 22. Juli 2026 nach dem bestehenden 19.-Juli-Eintrag — analog zu vorigen Trackerstand-Einträgen). | Aggregat-Beleg der weiterhin gleichmäßigen Tech-Restrukturierung und Präzisierung der KI-Kausalquote (§ 9.1); dokumentiert eine nicht sprunghafte, sondern lineare Fortrollung des Trackers um rund 700 Stellen pro Tag im 72-Stunden-Fenster (rechnerisch aus 205.832 − 201.754 = 4.078 Personen ÷ 3 Tage ≈ 1.359 pro Tag inklusive Meldungsverzug — nach *SkillSyncer*-eigenem Zeitrechen-Modus rund 1.014 pro Tag), was die 54-%-Quote als stabile obere Aggregat-Attributionsgrenze weiter untermauert. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- IAB-Kurzbericht 08/2026 (Friedrich/Kagerl) *„Künstliche Intelligenz in deutschen Betrieben — jeder vierte Betrieb nutzt mittlerweile generative KI"* (Publikationsdatum 5. Mai 2026 laut IAB-Pressemitteilung) — 78 Tage vor Schnitt, außerhalb 7-Tage-Fenster. Aufnahmekandidat für einen Lauf mit erweitertem Zeitfenster, sobald eine wissenschaftliche oder rechtliche Fachrezeption belegt ist.
+- White-House-Voluntary-Frontier-Model-Framework nach Executive Order 14409 (2. Juni 2026) — Deal mit OpenAI, Anthropic und Google „nearing" (FT, Reuters), formelle Ankündigung nach Berichterstattung Anfang Juli 2026 für Zeitraum vor 1. August 2026 avisiert, aber zum Stichtag 22. Juli 2026 noch nicht vollzogen. Fortschreibung für Folgelauf mit belastbarem Ankündigungsdatum und Framework-Details.
+- Digital Omnibus on AI Amtsblatt-Veröffentlichung — zum Stichtag 22. Juli 2026 gemäß Web-Recherche weiterhin nicht vollzogen (Signatur 8. Juli 2026, OJ-Publikation ausstehend); Fortschreibung für Folgelauf mit Amtsblatt-Nummer bei erfolgter Veröffentlichung.
+- Tesla-Optimus-Q2-2026-Earnings-Call (Wednesday 22. Juli 2026, 5:30 pm ET nach TechTimes / driveteslacanada / Electrek) — Ereignis findet erst am Schnitt-Datum nach Redaktionsschluss statt (heute Abend ET); Fortschreibung im Folgelauf 001 vom 23. Juli 2026, sobald die Optimus-Serienfertigungs-Aussagen des Earnings-Calls öffentlich sind.
+- Anthropic *Claude for Teachers* Freigabe für verifizierte US-K-12-Lehrkräfte (14. Juli 2026, Chalkbeat, The Hill, EdWeek, 9to5Mac, TechTimes, Appwrite, Memeburn, ExplainX) — inhaltlich CSR- und Marktzugangs-Programm ohne direkte steuer-, sozialstaats- oder Wertschöpfungsabgabe-Relevanz; Cluster-D-Corridor (Politik-Initiativen und Gesellschaftsverträge) nicht überschritten. Aufnahmekandidat, sobald politische Folgerungen entstehen.
+- Anthropic *AI for Science*-Rare-Disease-Research-Grants (Bewerbungsstart 20. Juli 2026, Anthropic Newsroom) — CSR-nahes Programm ohne Steuer-/Sozialstaatsbezug. Verworfen.
+- Google DeepMind *Gemini 3.5 Pro* Freigabe zum 17. Juli 2026 (TechTimes, BigGo Finance, HackerNoon, Enterprise DNA 13. Juli 2026, unbestätigt vor tatsächlicher Freigabe) — bereits in Version 37.0 im 7-Tage-Fenster mit den avisierten Spezifikationen (Kontextfenster zwei Millionen Token, *Deep-Think-Reasoning-Layer*, *Gemini-Ultra*-Tarif 250 US-Dollar/Monat) verankert; keine substanziell neue Faktenlage zwischen Vorlauf und aktuellem Recherchestand.
+- Meta *Muse Image* / *Muse Video* Freigabe (7. Juli 2026, CNBC) — 15 Tage vor Schnitt, außerhalb 7-Tage-Fenster; Fokus auf Bild-/Video-Generierung ohne unmittelbaren Steuer-/Sozialstaatsbezug.
+- Moonshot AI *Kimi K3* Freigabe (16. Juli 2026, VentureBeat, Fortune, TechCrunch, People's Daily, The Decoder, Simon Willison u. a.) — bereits in Version 38.0 in § 8.2 verankert.
+- Brookings/Hutchins-Beitrag *„Can AI restore fiscal sustainability in the US?"* (1. Juli 2026) — 21 Tage vor Schnitt, außerhalb 7-Tage-Fenster; thematisch parallel zum bereits in Version 40.0 aufgenommenen NBER Working Paper 35437 (Dynan/Elmendorf/Sheiner).
+- Sanders-*American A.I. Sovereign Wealth Fund Act* (S. 4825, 18. Juni 2026) — bereits in Version 28.0/33.0 dokumentiert; weiterhin ohne Ko-Sponsoren im 119. Kongress; kein neuer legislativer Schritt.
+- KI-Taskforce Bundeskanzleramt und BMDS-37-Punkte-Plan (1./2. Juli 2026) — 20/21 Tage vor Schnitt, außerhalb 7-Tage-Fenster. Aufnahmekandidat.
+- Cluster A/B/C/E/G/H/J — keine belegbaren Neuzugänge im 7-Tage-Fenster bzw. 48-Stunden-Fenster für F/I über die zwei aufgenommenen Fortschreibungen hinaus.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; die Ergänzungen fügen einen neuen Absatz in § 8.2 (Anthropic-Copyright-Vergleich) direkt nach der Custom-Silicon-Design-Konzentrations-Passage und vor der Deutschland-Verarbeiter-Passage ein sowie einen ergänzenden Trackerstand-Satz in § 1.1; keine neuen Unterüberschriften, keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Säulen der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Anthropic-Absatz in § 8.2 verweist kontrolliert auf § 8.3 (Teilhabefonds-Logik am Ort der Veredelungsrendite); SkillSyncer-Fortschreibungssatz in § 1.1 verweist auf § 9.1 (Attribuierungsgrenzen); § 4.2 Claude.md (Konjunktivpflicht bei Gerichts- und Vergleichsangaben) berücksichtigt. Keine Querverweis-Ziele verschoben. |
+| 2.1.4 Roter Faden | OK | Anthropic-Vergleich schließt inhaltlich an die Design-Partner- und Compute-Konzentrations-Ebenen an und erweitert die Rohstoff-Analogie um die Trainingsdaten-Ebene der KI-Wertschöpfungskette; Kapitel-8-Deutschland-These bleibt eigenständige Position; SkillSyncer-Fortschreibung reiht sich linear in die bestehende Trackerstand-Serie ein. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; keine fett gesetzten Lead-Ins hinzugefügt (der Absatz wurde nicht als Bold-Absatz gesetzt, analog zu den umgebenden § 8.2-Fließtextpassagen); keine unausgeglichenen Fettungen; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Datum 20. Juli 2026 als Final-Approval-Tag über TechCrunch, hothardware, Yahoo Finance, Publishers Weekly und Claims Journal bestätigt; Vergleichssumme 1,5 Milliarden US-Dollar über alle sieben Belegquellen konsistent; Zahl der Werke rund 500.000, Zahlung rund 3.000 US-Dollar pro Werk übereinstimmend; Judge Araceli Martinez-Olguin als Nachfolgerin des in den Ruhestand getretenen William Alsup über TechCrunch-WebFetch und Publishers Weekly bestätigt; Piraterie-Repositorien *Library Genesis* und *Pirate Library Mirror* namentlich in TechCrunch bestätigt; Trennung Fair-Use für legal erworbene Texte vs. rechtswidrige Piraterie-Beschaffung als Alsup-Vorentscheidung bestätigt; „no binding precedent" laut TechTimes und hothardware bestätigt. SkillSyncer 22.-Juli-Stand 322/205.832/173/170.945 via WebFetch der Trackerseite direkt bestätigt (54 % KI-Kausalquote, rund 1.014 Stellen pro Tag). |
+| 2.2.2 Redundanzprüfung | OK | Der neue § 8.2-Absatz wiederholt weder die Compute-Konzentrations- noch die Design-Partner-Argumentation, sondern liefert die Trainingsdaten-Ebene der KI-Wertschöpfungskette als eigenständige Rohstoff-Analogie-Facette; die SkillSyncer-Fortschreibung reiht sich in die bestehende Trackerstand-Serie in § 1.1 ein und fügt eine Delta-Kennzahl hinzu, ohne Vorlauf-Aussagen zu wiederholen. |
+| 2.2.3 Argumentation | OK | Gerichts- und Vergleichsangaben im Konjunktiv bzw. mit expliziter Quellenzuschreibung referiert (Claude.md § 4.2); der Absatz differenziert klar zwischen Alsups Fair-Use-Vorentscheidung und Martinez-Olguins Final-Approval-Genehmigung; die Trennung zwischen zivilrechtlicher Vergütung und öffentlich-rechtlichem Zugriff wird als konzeptioneller, nicht als ausschließender Punkt dargestellt. |
+| 2.2.4 Ausgewogenheit | OK | Der Absatz nennt sowohl die klägerseitigen Vorwürfe (Piraterie-Bezug über sieben Millionen Bücher) als auch Anthropics Fair-Use-Verteidigung für legal erworbene Trainingsdaten (Alsup-Vorentscheidung); Einwendungen einzelner Klägerinnen und Kläger zur Zahlungshöhe (Zahlung „zu gering") sind erwähnt; die fehlende Präzedenzwirkung wird als offene Frage für die anderen Verfahren markiert. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund; die Anwendung von weichem Trennstrich in „Wertschöpfungs­kette", „Wertschöpfungs­rente", „Wertschöpfungs­abgabe" folgt der bestehenden Konvention. |
+| 2.3.2 Terminologie | OK | „Rohstoff-Analogie", „Veredelungsstrategie", „Teilhabefonds" konsistent verwendet; „US-Fair-Use-Doktrin" beim ersten Auftreten mit Kontext; „Sammelklägergemeinschaft" und „Piraterie-Quellen" durchgängig; das Verfahrensrubrum „Bartz et al. v. Anthropic" beim ersten Auftreten kursiv gesetzt. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | § 11.5 um zwei Einträge ergänzt (Anthropic-Copyright-Vergleich mit sieben Belegquellen und SkillSyncer-Trackerstand 22. Juli 2026); die Fließtextreferenzen haben Literatur-Einträge; kein Waisenzitat. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-nahes Zitieren analog zu bestehenden § 11.5-Einträgen (Multi-Publisher-Blöcke mit Datum, Titel, Kernangabe, URL); Datumsangaben „20. Juli 2026" und „22. Juli 2026" einheitlich; alle sieben Rezeptions-Links vollständig angegeben. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen sind das Gerichtsverfahren (US District Court for the Northern District of California) und der SkillSyncer-Tracker; über beide sind aktuelle WebFetches am 22. Juli 2026 durchgeführt (TechCrunch mit Zahlenbestätigung, SkillSyncer mit exaktem Trackerstand). Sekundärquellen aus dem 7-Tage-Fenster (TechCrunch 20. Juli 2026, TechTimes 21. Juli 2026, hothardware, Yahoo Finance, Publishers Weekly, Benzinga, Claims Journal 21. Juli 2026); Verweise auf Alsup-Vorentscheidung mit Fair-Use-Feststellung als etabliertes Vorlauf-Urteil im Verfahren. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 22. Juli 2026: https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/ (WebFetch bestätigt Judge Martinez-Olguin, Alsup-Ruhestand, 500.000 Werke × 3.000 US-Dollar, Fair-Use/Piraterie-Trennung, keine Präzedenz); https://skillsyncer.com/layoffs-tracker (WebFetch bestätigt 322 Ereignisse, 205.832 Betroffene, 173 KI-attribuierte Ereignisse, 170.945 KI-Betroffene, 54 % Aggregat-KI-Kausalquote, Stand 22. Juli 2026); Zusätzlich abgeglichen: hothardware, Publishers Weekly, TechTimes, Claims Journal, Benzinga per Suchmaschinen-Kurzabstract. |
+| 2.4.5 Zitatgenauigkeit | OK | Wörtlich zitiert werden nur „no binding precedent" (TechTimes-Titel) und „Anthropic-Copyright-Vergleich" als deutsche Benennung; die Kernaussagen zu Werken, Zahlung pro Werk und Piraterie-Quellen werden sinngemäß aus TechCrunch übernommen; Werte im § 8.2-Absatz und in § 11.5 identisch. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 42.0 durchgängig: Dokumentkopf (KI-Ökonomie.md, Zeile 12), Aktualitätshinweis am Dokumentende (Schnitt 22. Juli 2026, Lauf 001), `README.md` (Versionszeile, Zitiervorschlag, KI-Offenlegung mit Versions-Eintrag 42.0) und dieser Protokoll-Block. Haftungs- und Lizenzhinweis am Dokumentende erhalten; Autor Björn Degenkolbe / HIGL unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler über die inhaltlichen Ergänzungen hinaus identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine Bereinigungen erforderlich. | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK (Struktur, Querverweise, Formatierung, Sachliche Richtigkeit, Vollständigkeit § 11.5, Versionskonsistenz, URL-Stichprobe).
+- Automatisierte Skripte: n/a (keine im Repo).
+
+### Abschluss
+
+- Alle Fehler behoben: n/a (keine Fehler identifiziert).
+- Neue Version: 42.0
+- PDF erstellt: Ja (`build_pdf.py`, `KI-Ökonomie.pdf`)
+- Word erstellt: Ja (`build_docx.py`, `KI-Ökonomie.docx`)
+
+---
+
 ## Validierung 21. Juli 2026 (Lauf 001 vom 21. Juli 2026) — Version 40.0 → Version 41.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 21. Juli 2026 im Standard-7-Tage-Fenster (14.–21. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (19.–21. Juli 2026). Eine belegbare Fortschreibung identifiziert: Cluster A/D mit der Stanford-Digital-Economy-Lab-Erklärung *„We Must Act Now"* vom 13. Juli 2026 samt Rezeption 14.–15. Juli 2026 (im 7-Tage-Fenster).
