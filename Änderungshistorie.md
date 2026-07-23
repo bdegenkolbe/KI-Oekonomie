@@ -126,7 +126,7 @@
 - TrueUp-Duplikatsatz in § 1.1 aus einem älteren Lauf im Zuge dieser Bearbeitung bereinigt (Reduktion von zwei identischen auf eine Wiedergabe).
 - Empfängerdaten der Phase-5b-Benachrichtigung stammen aus der Routine-Anweisung (nicht aus dem Repo). Ergebnisse Versand werden nach Phase 5b hier ergänzt.
 - Phase 5b Versand: In dieser Session wird nach Phase-5b-Regel zunächst versucht, `mail_send` (graph-mcp), sonst ein alternatives Send-Tool anzusprechen, sowie `wa_send_message` aus dem `whatsapp`-Server. Sollten diese Tools nicht erreichbar sein, werden `daily-mail.txt` und `daily-whatsapp.txt` als Fallback-Dateien im Repo-Root geschrieben und im Logbuch unter „Auffälligkeiten" vermerkt (ohne Empfängerdaten zu nennen).
-- Phase 6 Cleanup: Ergebnis Merge und Remote-Branch-Löschung wird nach Ausführung hier ergänzt.
+- Phase 6 Cleanup: Session-Branch `claude/determined-einstein-0ssq4l` erfolgreich auf `main` gemerged (Merge-Commit `c15d923`, Merge-Vorgänger `5b0274e` = Daily-Update Version 43.0 und `4ef6c42` = Vorlauf-Version-42.0-Cleanup auf `main`). Lokaler Branch gelöscht (`5b0274e`). Löschung des Remote-Branches durch das Git-Backend mit HTTP 403 blockiert (bekanntes Verhalten aus früheren Läufen); der veraltete Remote-Branch bleibt bestehen, ohne den Ablauf zu behindern. `git push origin main` selbst wurde trotz „Cannot update this protected ref"-Hinweistext ausgeführt — der Refspec-Report zeigt `4ef6c42..c15d923  main -> main`.
 
 ---
 
