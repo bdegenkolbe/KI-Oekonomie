@@ -54,6 +54,82 @@
 
 ---
 
+## 2026-07-23 — Lauf 001 — Version 42.0 → Version 43.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster B, C, G, H ohne belegbare Neuzugänge im 7-Tage-Fenster). Drei belegbare Fortschreibungen aus Cluster A/E (Fed FEDS Note vom 17. Juli 2026), Cluster F (Meta-Washington-Streichungen und Amazon-AGI-Streichungen am 22. Juli 2026) und Cluster J (Tesla-Q2-2026-Earnings-Call am 22. Juli 2026).
+- Zeitfenster: Standard 7 Tage (16.–23. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (21.–23. Juli 2026).
+- Anzahl Suchanfragen: 18 (Web-Suche) plus gezielte Einzel-Fetches zur Verifikation (federalreserve.gov, skillsyncer.com, foxbusiness.com, americanbazaaronline.com, biggo.com, startupfortune.com).
+- Lauf 001 vom 23. Juli 2026 ist der Folgelauf zu Lauf 001 vom 22. Juli 2026 (Version 41.0 → 42.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | A/E | Soto, P. E., Thieu, M., & Allen, J. S., *The AI Buildout and the Economy: Publicly Available Data to Assess AI's Impact* (FEDS Note, Board of Governors of the Federal Reserve System, 17. Juli 2026) | https://www.federalreserve.gov/econres/notes/feds-notes/the-ai-buildout-and-the-economy-publicly-available-data-to-assess-ais-impact-20260717.html | übernommen (Publikationsdatum 17. Juli 2026 im 7-Tage-Fenster; institutionelle US-Zentralbank-Diagnose zur Buildout-Phase, Produktivitäts- und Arbeitsmarkteffekten; Aufnahme in § 1.1 mit Rückwirkung auf § 8.3 und § 9.1; Neueintrag in § 11.3) |
+| 2 | F | GeekWire / KUOW / Fox Business / Fox13 Seattle / Business Insider / Outlook Business / OpenTools / People Matters / NewsX, *Meta cuts nearly 1,400 jobs in Washington state, 20% of local workforce, in sweeping AI revamp / Meta layoffs affect nearly 1,400 Washington state workers* (22. Juli 2026) | https://www.geekwire.com/2026/meta-cuts-nearly-1400-jobs-in-washington-state-20-of-local-workforce-in-sweeping-ai-revamp/ \| https://www.kuow.org/stories/meta-layoffs-affect-nearly-1-400-washington-state-workers \| https://www.foxbusiness.com/technology/meta-lays-off-nearly-1400-washington-employees-latest-tech-workforce-cut | übernommen (Wirksamkeitsstichtag 22. Juli 2026 im 48-Stunden-Fenster; 1.395 Beschäftigte, Bellevue 699 / Seattle 259 / Redmond 206 / Remote 231; Abfindungspaket 16 Wochen + 2 Wochen pro Dienstjahr; Teil der 8.000-Stellen-Restrukturierung; Aufnahme in § 1.1 mit Neueintrag § 11.5) |
+| 3 | F | CNBC / Yahoo Finance / American Bazaar / GeekWire / Startup Fortune / Quartz / Insider Finance, *Amazon lays off some employees in its AGI unit / Amazon fires its AGI researchers and bets a billion dollars on deployment instead / Amazon cuts jobs in AGI group as it puts more focus on customer-facing AI* (22. Juli 2026) | https://www.cnbc.com/2026/07/22/amazon-lays-off-some-employees-in-its-agi-unit.html \| https://americanbazaaronline.com/2026/07/22/amazon-layoffs-artificial-general-intelligence-agi-unit-485056/ \| https://www.geekwire.com/2026/amazon-cuts-jobs-in-agi-group-as-it-puts-more-focus-on-customer-facing-ai/ \| https://startupfortune.com/amazon-fires-its-agi-researchers-and-bets-a-billion-dollars-on-deployment-instead/ | übernommen (Datum 22. Juli 2026 im 48-Stunden-Fenster; Amazon AGI-Unit-Streichungen, Nova-Foundation-Modelle; Vice Presidents Adeeb Shanaa und Vishal Sharma; 90 Tage Gehalts-/Leistungsfortzahlung; Spokesperson-Quote „This is a fast-moving space…"; parallel AWS-Milliarden-Initiative für Enterprise-Kunden; Aufnahme in § 1.1 mit Neueintrag § 11.5) |
+| 4 | J | Seeking Alpha / MarketScreener / CNBC / Not-a-Tesla-App / Yahoo Finance / BigGo Finance / Alphastreet / Moomoo / Basenor / Cryptobriefing / Teslarati / NexusVolt, *Tesla, Inc. (TSLA) Q2 2026 Earnings Call Transcript / Summary of Tesla's 2026 Q2 Earnings Call: Cybercab, FSD, AI4+ and More / Record Q2 Deliveries, 55 % FSD Attach Rate Drive Demand; $25B+ CapEx Cycle Begins / Tesla Optimus Production: Fremont Assembly Confirmed for Late July 2026* (22. Juli 2026) | https://seekingalpha.com/article/4924452-tesla-inc-tsla-q2-2026-earnings-call-transcript \| https://www.notateslaapp.com/news/4481/summary-of-teslas-2026-q2-earnings-call-cybercab-fsd-ai4-and-more \| https://www.cnbc.com/2026/07/22/tesla-tsla-q2-2026-earnings-report.html \| https://finance.biggo.com/news/US_TSLA_2026-07-22 \| https://cryptobriefing.com/tesla-optimus-production-line-fremont/ \| https://nexusvolt.com/post/tesla-optimus-production-fremont-assembly-confirmed-for-late-july-2026 | übernommen (Datum 22. Juli 2026 im 48-Stunden-Fenster; Full-Year-Capex > 25 Mrd. USD, 30-Mrd.-USD-Fremdfinanzierungslinie; Fremont-Line-Abbau 46 Tage; Optimus-Gen-3-Erstlinien-Installation; Musk-Zitate; „Terafab"-Ankündigung; FCF Q2 −1,1 Mrd. USD; Robotaxi 7 Metros / 380.000 Meilen; ~1,5 Mio. FSD-Abonnenten; Aufnahme in § 8.2 mit Rückwirkung auf § 8.3; Neueintrag § 11.5) |
+| 5 | F | SkillSyncer, *2026 Tech Layoffs Tracker* (Stand 23. Juli 2026, unverändert gegenüber 22. Juli 2026 — 322 Events, 205.832 Workers, 173 AI-attributed, 170.945 AI-affected) | https://skillsyncer.com/layoffs-tracker | übernommen als Präzisierung des bestehenden 22.-Juli-Eintrags in § 11.5 (kein neuer § 1.1-Absatz, da unverändert; explizite Fortschreibungsnotiz im § 11.5-Eintrag) |
+| 6 | D | OpenAI / Sam Altman-Statement 13. Juli 2026 „AI has been net job-creating" (NationPress, CollegeRecruiter, Yahoo Finance) | https://x.com/np_nationpress/status/2076101402531950970 | verworfen (Cluster-D-Grenzfall; im 7-Tage-Fenster liegend, aber rhetorische Wortmeldung ohne institutionelle Trägerlogik oder Politikvorschlag; Aufnahmekandidat, falls institutionelle Rezeption entsteht) |
+| 7 | D | White-House Voluntary Frontier-Model-Framework (Executive Order 14409, 2. Juni 2026) — Statusabfrage 23. Juli 2026 | https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/ | verworfen (Deal-Ankündigung „vor 1. August 2026" avisiert; zum Stichtag 23. Juli 2026 keine formelle Verkündung; Fortschreibung für Folgelauf) |
+| 8 | B | EU Rat / EUR-Lex, *Digital Omnibus on AI Amtsblatt-Veröffentlichung* (Signatur 8. Juli 2026, OJ-Publikation weiter ausstehend) | https://eur-lex.europa.eu/oj/direct-access.html | verworfen (Amtsblatt-Veröffentlichung zum Stichtag 23. Juli 2026 weiterhin nicht vollzogen; Fortschreibung für Folgelauf mit Amtsblatt-Nummer) |
+| 9 | D | Anthropic Economic Index June 2026 „Cadences" (26. Juni 2026) | https://www.anthropic.com/research/economic-index-june-2026-report | verworfen (bereits in Version 32.0 in § 3.5 und § 11.3 verankert) |
+| 10 | D | Sanders *American A.I. Sovereign Wealth Fund Act* (S. 4825, 18. Juni 2026) — Statusabfrage 23. Juli 2026 | https://www.sanders.senate.gov/press-releases/news-sanders-introduces-legislation-to-create-7-trillion-ai-sovereign-wealth-fund/ | verworfen (bereits in Version 28.0/33.0 dokumentiert; weiterhin ohne Ko-Sponsoren im 119. Kongress; kein neuer legislativer Schritt) |
+| 11 | E | IAB-Kurzbericht 08/2026 (Friedrich/Kagerl) | https://doku.iab.de/kurzber/2026/kb2026-08.pdf | verworfen (Publikationsdatum 5. Mai 2026 = 79 Tage vor Schnitt, außerhalb 7-Tage-Fenster; Aufnahmekandidat mit erweitertem Zeitfenster) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 1.1 (nach dem 22.-Juli-Fortschreibungssatz zum SkillSyncer-Tracker, vor der TrueUp-/Oracle-Passage) | Ergänzung | Neuer eingebetteter Absatz zu den Cluster-F-Fortschreibungen vom 22. Juli 2026: Meta-Washington-Entlassung (1.395 Personen, Aufschlüsselung Bellevue/Seattle/Redmond/Remote, 8.000-Stellen-Restrukturierung, Abfindungspaket) und Amazon-AGI-Unit-Streichungen (Nova-Foundation-Modelle, Vice Presidents Shanaa/Sharma, 90 Tage Gehalts-/Leistungsfortzahlung, „hin zu kundenzentrierter KI"-Umschwung, AWS-Milliarden-Initiative); nachfolgend eingebetteter Absatz zur Fed-FEDS-Note *„The AI Buildout and the Economy"* von Soto/Thieu/Allen (17. Juli 2026): institutionelle Diagnose der Buildout-Phase, konzentrierte Arbeitsmarkteffekte, „Mikro-Ebenen-Produktivitätsgewinne, die sich im Aggregat noch nicht summieren", KI-Effekt bei jüngeren Beschäftigten (20 – 24 Jahre) primär in verlangsamter Einstellungsdynamik; Konjunktivpflicht nach § 4.2 Claude.md eingehalten. | 1, 2, 3 |
+| 2 | § 8.2 (nach dem Anthropic-Copyright-Vergleichs-Absatz, vor der Deutschland-Verarbeiter-Passage) | Ergänzung | Neuer eingebetteter Absatz zum Tesla-Q2-2026-Earnings-Call vom 22. Juli 2026: Fremont-Line-Konversion (46 Tage), Optimus-Gen-3-Erstlinien, Musk-Zitate zur Skalierungshärte und Zulieferkette („hardest product to scale manufacturing", 10.000 unikale Bauteile), erste Roboter zur Trainings­datensammlung, Samsung-/TSMC-Kooperation, „Terafab"-Ankündigung, Full-Year-Capex > 25 Mrd. USD, 30-Mrd.-USD-Fremdfinanzierungslinie, FCF Q2 −1,1 Mrd. USD, Robotaxi 7 Metros / 380.000 Meilen, ~1,5 Mio. FSD-Abonnenten; für die Rohstoff-Analogie Ergänzung um die physisch-robotische Wertschöpfungsschicht mit Rückwirkung auf § 8.3 (Zeit- und Bindungsschluss der inländisch verfügbaren Anknüpfungspunkte im Physisch-KI-Segment). | 4 |
+| 3 | § 11.3 (Institutionelle und politische Dokumente) | Ergänzung | Neuer Eintrag Soto/Thieu/Allen, *„The AI Buildout and the Economy: Publicly Available Data to Assess AI's Impact"* (FEDS Note, Board of Governors of the Federal Reserve System, 17. Juli 2026), mit Kernaussagen-Zusammenfassung und URL. | 1 |
+| 4 | § 11.5 (Journalistische und praxisorientierte Quellen) | Ergänzung / Aktualisierung | Drei neue Einträge: (a) Meta 1.395 Washington-Streichungen mit Aufschlüsselung, Abfindung und Konzernstatement; (b) Amazon-AGI-Unit-Streichungen mit VP-Zuschreibung, Spokesperson-Quote und 90-Tage-Regelung; (c) Tesla-Q2-2026-Earnings-Call mit vollständigen Kernangaben. Bestehender SkillSyncer-Stand-22.-Juli-Eintrag um Präzisierungshinweis erweitert, dass der Trackerstand am 23. Juli 2026 unverändert bleibt. | 2, 3, 4, 5 |
+| 5 | § 1.1 (im Anschluss an SkillSyncer-22.-Juli, im Vorfeld der TrueUp-Passage) | Korrektur | Duplikatsatz *TrueUp* zählt zur Jahresmitte 2026 … zweimal identisch hintereinander auf eine Wiedergabe reduziert. | – |
+| 6 | Aktualitätshinweis (Dokumentende) | Aktualisierung | Schnitt-Datum auf 23. Juli 2026 (Lauf 001) aktualisiert; zusammenfassender Nachtrag zur Fed-FEDS-Note, den Meta-/Amazon-22.-Juli-Streichungen und dem Tesla-Q2-2026-Earnings-Call mit § 1.1-, § 8.2-, § 8.3-, § 9.1- und § 11.3-/§ 11.5-Rückverweisen ergänzt. | 1, 2, 3, 4 |
+| 7 | Dokumentkopf und README.md (Version, Zitiervorschlag, Änderungslog) | Aktualisierung | Version 42.0 → 43.0; Aufnahme des Version-43.0-Nachtrags in die README-Änderungsliste. | 1, 2, 3, 4 |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Sam Altman „AI has been net job-creating" 13. Juli 2026 | D | Rhetorische Wortmeldung ohne institutionelle Trägerlogik oder Politikvorschlag; Aufnahmekandidat bei institutioneller Rezeption |
+| 2 | White-House Voluntary Frontier-Model-Framework | D | Deal nicht förmlich angekündigt; „vor 1. August 2026" avisiert; Fortschreibung für Folgelauf |
+| 3 | Digital Omnibus on AI Amtsblatt-Veröffentlichung | B | Amtsblatt-Veröffentlichung zum Stichtag 23. Juli 2026 weiterhin nicht vollzogen |
+| 4 | Anthropic Economic Index „Cadences" (26. Juni 2026) | D | Bereits in Version 32.0 in § 3.5 und § 11.3 verankert |
+| 5 | Sanders *American A.I. Sovereign Wealth Fund Act* (S. 4825) | D | Bereits in Version 28.0/33.0 dokumentiert; keine neuen legislativen Schritte |
+| 6 | IAB-Kurzbericht 08/2026 (Friedrich/Kagerl) | E | Publikationsdatum 5. Mai 2026 (79 Tage vor Schnitt), außerhalb 7-Tage-Fenster |
+| 7 | Chinesische AI-Ersatz-Kündigungs-Urteile (April/Mai 2026) | C | Bereits in vorigen Läufen berücksichtigt; keine neuen Urteile im 7-Tage-Fenster |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja (grep-Verifikation: „Soto", „Thieu", „Allen", „AI Buildout", „Terafab", „Optimus" nicht im Vorlauf-Dokument; Meta-8.000-Stellen-Rahmen aus Version 39.0 ergänzt um die 22.-Juli-Washington-Aufschlüsselung; Tesla erstmals im Hauptdokument namentlich adressiert)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 23. Juli 2026" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja (KI-Ökonomie.pdf, 333.094 Byte; Abhängigkeit `reportlab` in dieser frisch bereitgestellten Session initial per `pip install` nachgezogen)
+- Word erstellt (`build_docx.py`): Ja (KI-Ökonomie.docx, 188.188 Byte; Abhängigkeit `python-docx` in dieser frisch bereitgestellten Session initial per `pip install` nachgezogen)
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: siehe Phase 6 (unten in „Auffälligkeiten")
+- E-Mail-Benachrichtigung Phase 5b: Fallback-Datei `daily-mail.txt` geschrieben (3.792 Zeichen, unter der 5.000-Zeichen-Grenze). In dieser Session ist kein Microsoft-Graph-Send-Tool erreichbar (nur lesende MS-365-Tools: `outlook_email_search`, `chat_message_search`, `outlook_calendar_search`, `find_meeting_availability`, `outlook_find_available_time`, `get_me`, `read_resource`, `sharepoint_folder_search`, `sharepoint_search`, `teams_list_chats`). Nach Phase-5b-Regel wurde die Fallback-Datei geschrieben.
+- WhatsApp-Benachrichtigung Phase 5b: Fallback-Datei `daily-whatsapp.txt` geschrieben (989 Zeichen, unter der 1.000-Zeichen-Grenze). In dieser Session ist kein `whatsapp`-MCP-Server verbunden — `wa_send_message` und Alternativen nicht erreichbar.
+
+### Auffälligkeiten / offene Punkte
+
+- Cluster B/C/G/H: kein belegbarer Neuzugang im 7-Tage-Fenster.
+- Cluster I (48-Stunden-Fenster 21.–23. Juli 2026): keine neuen Frontier-Modell-Freigaben oder Marktstruktur-Ankündigungen jenseits der bereits in Version 42.0 und früher verankerten Serie (Grok 4.5 8.7., GPT-5.6 9.7., Muse Spark 1.1 9.7., Kimi K3 16.7., Gemini 3.5 Pro 17.7.).
+- Digital Omnibus on AI: Amtsblatt-Veröffentlichung zum Stichtag 23. Juli 2026 weiter offen.
+- White-House-Voluntary-Frontier-Model-Framework: Deal-Ankündigung „vor 1. August 2026" avisiert; Fortschreibung im Folgelauf mit belastbarem Ankündigungsdatum.
+- SkillSyncer-Trackerstand 23. Juli 2026 unverändert gegenüber 22. Juli 2026 (322/205.832/173/170.945); nur Präzisierungshinweis in § 11.5, kein neuer § 1.1-Absatz.
+- Tesla-Q2-2026-Erstnennung: Das Hauptdokument enthält bis zur Version 42.0 weder „Tesla" noch „Optimus" namentlich; die Aufnahme in § 8.2 als physisch-robotische Ergänzung ist die erste namentliche Aufnahme dieses Konzerns und wird sorgfältig auf Ergänzung der bestehenden Rohstoff-Analogie beschränkt, nicht auf Aufhebung der Deutschland-These.
+- TrueUp-Duplikatsatz in § 1.1 aus einem älteren Lauf im Zuge dieser Bearbeitung bereinigt (Reduktion von zwei identischen auf eine Wiedergabe).
+- Empfängerdaten der Phase-5b-Benachrichtigung stammen aus der Routine-Anweisung (nicht aus dem Repo). Ergebnisse Versand werden nach Phase 5b hier ergänzt.
+- Phase 5b Versand: In dieser Session wird nach Phase-5b-Regel zunächst versucht, `mail_send` (graph-mcp), sonst ein alternatives Send-Tool anzusprechen, sowie `wa_send_message` aus dem `whatsapp`-Server. Sollten diese Tools nicht erreichbar sein, werden `daily-mail.txt` und `daily-whatsapp.txt` als Fallback-Dateien im Repo-Root geschrieben und im Logbuch unter „Auffälligkeiten" vermerkt (ohne Empfängerdaten zu nennen).
+- Phase 6 Cleanup: Ergebnis Merge und Remote-Branch-Löschung wird nach Ausführung hier ergänzt.
+
+---
+
 ## 2026-07-22 — Lauf 001 — Version 41.0 → Version 42.0
 
 ### Recherchekorridor
