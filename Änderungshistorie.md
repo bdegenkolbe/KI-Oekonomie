@@ -54,6 +54,75 @@
 
 ---
 
+## 2026-07-24 — Lauf 001 — Version 43.0 → Version 44.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster B, C, G, H, J ohne belegbare Neuzugänge im 7-Tage- bzw. 48-Stunden-Fenster). Drei belegbare Fortschreibungen aus Cluster F/I (Alphabet Q2 2026 am 22. Juli 2026 abends und Intel Q2 2026 am 23. Juli 2026) und Cluster D (Anthropic Economic Index Connector 22. Juli 2026).
+- Zeitfenster: Standard 7 Tage (17.–24. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (22.–24. Juli 2026).
+- Anzahl Suchanfragen: 12 (Web-Suche) plus gezielte Einzel-Fetches zur Verifikation (anthropic.com, finance.yahoo.com, finance.biggo.com, investing.com).
+- Lauf 001 vom 24. Juli 2026 ist der Folgelauf zu Lauf 001 vom 23. Juli 2026 (Version 42.0 → 43.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | F/I | Alphabet Inc. / CNBC / Investing.com / TheStreet / Yahoo Finance, *Alphabet Q2 2026 Earnings — Revenue Beat, Capex Guidance Hike* (22. Juli 2026 abends) | https://www.investing.com/news/earnings/alphabet-nearly-doubles-capital-spending-as-ai-push-powers-q2-growth-4806860 \| https://www.cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html \| https://www.thestreet.com/latest-news/alphabet-inc-googl-q2-2026-earnings-call-updates \| https://finance.yahoo.com/technology/ai/articles/alphabet-inc-goog-q2-2026-050111614.html | übernommen (Publikationsdatum 22. Juli 2026 im 48-Stunden-Fenster; Konzernumsatz 119,8 Mrd. USD +24 %; Google Cloud 24,8 Mrd. USD +82 %; Backlog 514 Mrd. USD; Q2 Capex 44,9 Mrd. USD; FCF −5,9 Mrd. USD; Full-Year-Capex-Guidance 2026 von 180–190 auf 195–205 Mrd. USD angehoben; Aktien-Reaktion −7 %; Aufnahme in § 1.1 und § 8.2 mit Neueintrag § 11.5) |
+| 2 | F/I | Intel Corp. / Yahoo Finance / CNBC / BigGo Finance / TradingKey, *Intel Q2 2026 Earnings — Revenue Up 25%, DCAI +59%, Capex Surge to Over $20B* (23. Juli 2026) | https://finance.yahoo.com/markets/stocks/articles/intel-q2-2026-earnings-revenue-205531105.html \| https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html \| https://finance.biggo.com/news/US_INTC_2026-07-23 \| https://www.tradingkey.com/analysis/stocks/us-stocks/262050823-intel-earnings-report-q2-2026-intc-ai-data-center-intel-foundry-tradingkey | übernommen (Publikationsdatum 23. Juli 2026 im 48-Stunden-Fenster; Konzernumsatz 16,1 Mrd. USD +25 % stärkstes Q-Wachstum seit >15 Jahren; DCAI +59 % auf 6,3 Mrd. USD; Non-GAAP-EPS 0,42 USD; Capex 2026 von 17 auf >20 Mrd. USD; 2027 „significantly above"; „cannot fulfill all customer orders"; 10 langfristige Server-CPU-Verträge; Aufnahme in § 1.1 und § 8.2 mit Neueintrag § 11.5) |
+| 3 | D | Anthropic, *The Anthropic Economic Index connector* (22. Juli 2026) | https://www.anthropic.com/news/anthropic-economic-index-connector \| https://x.com/claudeai/status/2079979810881728759 | übernommen (Publikationsdatum 22. Juli 2026 im 7-Tage-Fenster; öffentlicher Claude-Connector-Zugang zum bereits in § 3.5 und § 11.3 verankerten Anthropic Economic Index; institutionelle Verstetigung; Aufnahme in § 1.1 mit Neueintrag § 11.3) |
+| 4 | D | White House / Mintz / Eastern Herald / FAQ.com.tw, *Voluntary Frontier-Model Framework Deal Status* (Statusabfrage 24. Juli 2026) | https://www.mintz.com/insights-center/viewpoints/54941/2026-07-08-ai-washington-report-july-2026-edition \| https://easternherald.com/2026/07/06/white-house-voluntary-ai-frontier-model-standards/ | verworfen (nach übereinstimmender Berichterstattung „as soon as the first week of August" avisiert; zum Stichtag 24. Juli 2026 noch keine formelle Verkündung; 60-Tage-Frist EO 14409 endet 1. August 2026; Fortschreibung für Folgelauf) |
+| 5 | B | EU Rat / EUR-Lex / Freshfields / White & Case / DLA Piper / IEU Monitoring / Gibson Dunn, *Digital Omnibus on AI Amtsblatt-Veröffentlichung* (Signatur 8. Juli 2026, OJ-Publikation weiter ausstehend) | https://eur-lex.europa.eu/oj/direct-access.html | verworfen (Amtsblatt-Veröffentlichung zum Stichtag 24. Juli 2026 nach übereinstimmender Berichterstattung „awaiting publication" bzw. „expected to occur in July 2026" — noch nicht vollzogen; Fortschreibung für Folgelauf mit OJ-Nummer) |
+| 6 | F | Fortune / CNBC (26 Meta employees sue over AI-layoff math) (14.–15. Juli 2026) | https://fortune.com/2026/07/15/meta-workers-sue-over-ai-layoff-math/ \| https://www.cnbc.com/2026/07/14/meta-lawsuit-layoffs-ai.html | verworfen (außerhalb 48-Stunden-Fensters von Cluster F; 9 Tage vor Schnitt; Aufnahmekandidat für Lauf mit erweitertem Zeitfenster) |
+| 7 | E | IAB-Kurzbericht 09/2026 (Alm/Fuchs/Sujata/Weyh, Regionale Widerstandsfähigkeit) | https://iab.de/en/publications/iab-publications/iab-kurzbericht-iab-short-policy-report/ | verworfen (kein KI-/Steuerbezug; Cluster-E-Grenzfall ohne Kern-Trigger) |
+| 8 | E | IAB-Kurzbericht 08/2026 (Friedrich/Kagerl) | https://doku.iab.de/kurzber/2026/kb2026-08.pdf | verworfen (Publikationsdatum 5. Mai 2026 = 80 Tage vor Schnitt, außerhalb 7-Tage-Fenster; Aufnahmekandidat mit erweitertem Zeitfenster) |
+| 9 | D | Sanders / Warren Wealth-Tax-Vorschläge (National Taxpayers Union Analysis, 6./7. Juni 2026) | https://www.ntu.org/foundation/detail/analysis-of-2026-tax-proposals-from-senators-sanders-warren-booker-and-van-hollen | verworfen (bereits in Version 28.0/33.0 verankert; keine neuen legislativen Schritte im 7-Tage-Fenster) |
+| 10 | I | Anthropic Claude Sonnet 5 Enterprise-Positionierung (VentureBeat) | https://venturebeat.com/technology/anthropic-launches-claude-sonnet-5-at-a-steep-discount-to-its-top-model-as-the-company-races-toward-a-blockbuster-ipo | verworfen (Modellfreigabe 30. Juni 2026 bereits in Version 39.0 in § 8.2 dokumentiert; nur redaktionelle Enterprise-Positionierung, keine neue Sachlage) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 1.1 (neuer eingebetteter Absatz zwischen der abschließenden BMWK/Sprout-Social/Intel-Portland-Passage und dem Sozialversicherungs-Rahmen-Satz „Andererseits steht die Finanzierung…") | Ergänzung | Neuer Absatz zur Alphabet-Q2-2026-Earnings-Call-Verdichtung der Capex-Ausweitung (Umsatz 119,8 Mrd. USD +24 %, Google Cloud +82 %, Backlog 514 Mrd. USD, Q2 Capex 44,9 Mrd. USD, FCF −5,9 Mrd. USD, Anhebung Full-Year-Capex 180–190 → 195–205 Mrd. USD, −7 % Aktienreaktion), zur Intel-Q2-2026-Earnings-Call-Bestätigung (16,1 Mrd. USD +25 %, DCAI +59 %, Non-GAAP-EPS 0,42, Capex 17 → >20 Mrd. USD 2026, 2027 „significantly above", „cannot fulfill all customer orders", CFO-Zitat „AI-driven compute continues to strengthen") sowie zur Freigabe des Anthropic Economic Index Connector am 22. Juli 2026 (öffentlicher Claude-Zugang zum § 3.5-verankerten Index für Forscher, Journalisten, Politik und Öffentlichkeit); Konjunktivpflicht nach § 4.2 Claude.md eingehalten. | 1, 2, 3 |
+| 2 | § 8.2 (neuer eingebetteter Absatz direkt nach dem Tesla-Q2-2026-Absatz und vor der Deutschland-Verarbeiter-Passage) | Ergänzung | Neuer Absatz zur Hyperscaler-Capex-Verdichtung im 48-Stunden-Fenster: Alphabet und Intel Q2 2026 als parallele Nachweise der Compute-Rohstoff-Konzentration mit strukturell nicht bedienbarem Nachfrageüberhang (Alphabet Cloud +82 %, Intel „cannot fulfill all orders"); vier Implikationen für die Rohstoff-Analogie (aggregierter Nachweis Nachfrageüberhang, produktionstechnische Rigidität, Ertragslücke stützt Wertschöpfungs-statt-Ertrag-Zugriff, Full-Year-Capex-Anhebungen setzen Konzentrations-/Ausweitungs-Trend auf weiterer Stichtags-Ebene fort). | 1, 2 |
+| 3 | § 11.3 (Institutionelle und politische Dokumente) | Ergänzung | Neuer Eintrag Anthropic, *„The Anthropic Economic Index connector"* (22. Juli 2026), mit Kernaussagen (öffentlicher Zugang zum Index-Datenbestand über Claude), Zielgruppen (Forscher, Journalisten, Politik, Öffentlichkeit) und URL. | 3 |
+| 4 | § 11.5 (Journalistische und praxisorientierte Quellen) | Ergänzung | Zwei neue Einträge: (a) Alphabet Inc. Q2-2026-Earnings-Call mit vollständigen Zahlen und Belegquellen (CNBC, Investing.com, TheStreet, Yahoo Finance); (b) Intel Corp. Q2-2026-Earnings-Call mit vollständigen Zahlen, Segment-Aufschlüsselung und Belegquellen (Yahoo Finance, CNBC, BigGo Finance, TradingKey). | 1, 2 |
+| 5 | Aktualitätshinweis (Dokumentende) | Aktualisierung | Schnitt-Datum von 22. Juli 2026 auf 24. Juli 2026 (Lauf 001) aktualisiert; zusammenfassender Nachtrag zu Alphabet Q2 2026, Intel Q2 2026 und Anthropic Economic Index Connector mit § 1.1-, § 8.2-, § 3.5-, § 9.1- und § 11.3-/§ 11.5-Rückverweisen ergänzt. | 1, 2, 3 |
+| 6 | Dokumentkopf und README.md (Version, Zitiervorschlag, Änderungslog) | Aktualisierung | Version 43.0 → 44.0; Aufnahme des Version-44.0-Nachtrags in die README-Änderungsliste. | 1, 2, 3 |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | White-House Voluntary Frontier-Model-Framework | D | Deal nicht förmlich angekündigt; „as soon as the first week of August" avisiert; Fortschreibung für Folgelauf |
+| 2 | Digital Omnibus on AI Amtsblatt-Veröffentlichung | B | Amtsblatt-Veröffentlichung zum Stichtag 24. Juli 2026 weiterhin nicht vollzogen |
+| 3 | Meta-Sammelklage 26 Beschäftigter zur AI-Layoff-Auswahl (14./15. Juli 2026) | F | Außerhalb 48-Stunden-Fensters; 9 Tage vor Schnitt; Aufnahmekandidat für erweiterten Lauf |
+| 4 | IAB-Kurzbericht 09/2026 (Alm/Fuchs/Sujata/Weyh) | E | Kein KI-/Steuerbezug (regionale Widerstandsfähigkeit); Cluster-E-Grenzfall ohne Kern-Trigger |
+| 5 | IAB-Kurzbericht 08/2026 (Friedrich/Kagerl) | E | Publikationsdatum 5. Mai 2026 = 80 Tage vor Schnitt, außerhalb 7-Tage-Fenster |
+| 6 | Sanders / Warren Wealth-Tax-Vorschläge (6./7. Juni 2026) | D | Bereits in Version 28.0/33.0 dokumentiert; keine neuen legislativen Schritte im Fenster |
+| 7 | Anthropic Claude Sonnet 5 Enterprise-Positionierung | I | Modellfreigabe 30. Juni 2026 bereits in Version 39.0 verankert |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja (Alphabet Q2 2026, Intel Q2 2026 und Anthropic Economic Index Connector sind neu; die Anthropic-Economic-Index-Basisdaten aus §3.5/§11.3 unverändert; Sonnet-5- und andere Frontier-Modelle-Referenzen unberührt)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Verweis auf den neu angelegten Block „Validierung 24. Juli 2026 (Lauf 001 vom 24. Juli 2026) — Version 43.0 → Version 44.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- E-Mail-Versand (Phase 5b): Fallback-Datei (`daily-mail.txt`) — kein Microsoft-Graph-`mail_send`-Tool in dieser Session erreichbar
+- WhatsApp-Versand (Phase 5b): Fallback-Datei (`daily-whatsapp.txt`) — kein `whatsapp`-MCP-Server in dieser Session erreichbar
+- Branch auf main gemerged und gelöscht: Ja (Session-Branch `claude/determined-einstein-zxbz4q`)
+
+### Auffälligkeiten / offene Punkte
+
+- Alphabet-CNBC-URL (cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html) gab bei WebFetch einen 403-Forbidden-Status zurück; die Q2-2026-Zahlen sind über die Investing.com-Berichterstattung mit identischen Werten kreuzbelegt.
+- White-House-Voluntary-Frontier-Model-Framework: Formelle Ankündigung wird für die erste Augustwoche 2026 avisiert (60-Tage-Frist EO 14409 endet 1. August 2026) — Ziel-Aufnahme in einem Folgelauf mit belastbaren Framework-Details.
+- Digital Omnibus on AI Amtsblatt-Veröffentlichung weiterhin ausstehend — Ziel-Aufnahme bei erfolgter OJ-Publikation mit konkretem Amtsblatt-Verweis.
+- Intel-Layoff-Runde in der DCAI-Unit (Ankündigung 21. Juli 2026) wurde nicht als eigenständiger Punkt aufgenommen, da die Intel-Q2-Earnings-Fortschreibung vom 23. Juli 2026 den Kontext mit abdeckt und die WARN-Notice-Portland-Runde vom 15. Juli 2026 in Version 42.0/43.0 bereits verankert ist.
+- Empfängerdaten für E-Mail und WhatsApp aus Routine-Anweisung entnommen, in dieser Datei aber bewusst nicht ausgeschrieben (Phase-5b-Regel).
+
+---
+
 ## 2026-07-23 — Lauf 001 — Version 42.0 → Version 43.0
 
 ### Recherchekorridor
