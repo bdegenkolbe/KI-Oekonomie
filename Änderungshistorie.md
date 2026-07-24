@@ -111,11 +111,12 @@
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
 - E-Mail-Versand (Phase 5b): Fallback-Datei (`daily-mail.txt`) — kein Microsoft-Graph-`mail_send`-Tool in dieser Session erreichbar
 - WhatsApp-Versand (Phase 5b): Fallback-Datei (`daily-whatsapp.txt`) — kein `whatsapp`-MCP-Server in dieser Session erreichbar
-- Branch auf main gemerged und gelöscht: Ja (Session-Branch `claude/determined-einstein-zxbz4q`)
+- Branch auf main gemerged und gelöscht: Ja lokal, Remote-Branch-Löschung durch Repository-Rule blockiert (HTTP 403) — Merge-Commit auf main (30aa5f1) erfolgreich publiziert, Session-Branch `claude/determined-einstein-zxbz4q` verbleibt Remote-seitig ohne funktionalen Effekt.
 
 ### Auffälligkeiten / offene Punkte
 
 - Alphabet-CNBC-URL (cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html) gab bei WebFetch einen 403-Forbidden-Status zurück; die Q2-2026-Zahlen sind über die Investing.com-Berichterstattung mit identischen Werten kreuzbelegt.
+- Remote-Branch-Löschung des Session-Branches durch Repository-Rule „Cannot update this protected ref" mit HTTP 403 blockiert — analog zum Vorlauf vom 23. Juli 2026 (Merge c15d923). Lokaler Branch wurde entfernt, der Remote-Branch verbleibt ohne funktionalen Effekt.
 - White-House-Voluntary-Frontier-Model-Framework: Formelle Ankündigung wird für die erste Augustwoche 2026 avisiert (60-Tage-Frist EO 14409 endet 1. August 2026) — Ziel-Aufnahme in einem Folgelauf mit belastbaren Framework-Details.
 - Digital Omnibus on AI Amtsblatt-Veröffentlichung weiterhin ausstehend — Ziel-Aufnahme bei erfolgter OJ-Publikation mit konkretem Amtsblatt-Verweis.
 - Intel-Layoff-Runde in der DCAI-Unit (Ankündigung 21. Juli 2026) wurde nicht als eigenständiger Punkt aufgenommen, da die Intel-Q2-Earnings-Fortschreibung vom 23. Juli 2026 den Kontext mit abdeckt und die WARN-Notice-Portland-Runde vom 15. Juli 2026 in Version 42.0/43.0 bereits verankert ist.
