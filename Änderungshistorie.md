@@ -54,6 +54,73 @@
 
 ---
 
+## 2026-07-25 — Lauf 001 — Version 44.0 → Version 45.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster C, E, G, H, I, J ohne belegbare Neuzugänge im 7-Tage- bzw. 48-Stunden-Fenster). Eine belegbare Fortschreibung aus Cluster A/B (OECD Working Paper vom 24. Juli 2026 zu Recent Policy Developments on AI in the Labour Market).
+- Zeitfenster: Standard 7 Tage (18.–25. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (23.–25. Juli 2026).
+- Anzahl Suchanfragen: 8 (Web-Suche) plus gezielte Einzel-Fetches zur Verifikation der OECD-Publikations-Landing-Page (403-Forbidden-Status).
+- Lauf 001 vom 25. Juli 2026 ist der Folgelauf zu Lauf 001 vom 24. Juli 2026 (Version 43.0 → 44.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | A/B | OECD, *„Recent policy developments on AI in the labour market"* (OECD Artificial Intelligence Papers, 24. Juli 2026, 64 Seiten) | https://www.oecd.org/en/publications/recent-policy-developments-on-ai-in-the-labour-market_1b40c00e-en.html | übernommen (Publikationsdatum 24. Juli 2026 im 7-Tage-Fenster; systematische Bestandsaufnahme der KI-Arbeitsmarkt-Politik in G7-Staaten, der Europäischen Union und ausgewählten lateinamerikanischen Volkswirtschaften entlang von sechs Politikfeldern; Aufnahme in § 4.4 mit Rückwirkung auf § 4.5, § 5.2 und § 9.1 sowie Neueintrag in § 11.3; Landing-Page über direktes WebFetch nicht zugänglich [403 Forbidden], Metadaten aber über mehrere WebSearch-Treffer konsistent belegt) |
+| 2 | – | Microsoft Q4 FY2026 Earnings (vorgesehen 29. Juli 2026, Yahoo Finance / IG International / Marketbeat) | https://finance.yahoo.com/markets/stocks/articles/capex-focus-microsoft-stock-ahead-185832048.html | verworfen (Publikationsdatum 29. Juli 2026, damit nach Schnittdatum 25. Juli 2026; Aufnahmekandidat für Folgelauf) |
+| 3 | A | OECD, *„AI and the global productivity divide"* (17. Juli 2026, 35 Seiten) | https://www.oecd.org/en/publications/ai-and-the-global-productivity-divide_c315ea90-en.html | verworfen (Publikationsdatum 17. Juli 2026 = 8 Tage vor Schnitt, außerhalb 7-Tage-Fenster; Aufnahmekandidat mit erweitertem Zeitfenster oder als thematische Ergänzung zur OECD-Recent-Policy-Developments-Studie in Folgelauf) |
+| 4 | D | White House / Mintz / Eastern Herald / Norton Rose Fulbright / Latham & Watkins / Pillsbury / Crowell / metir Blog, *Voluntary Frontier-Model Framework Deal Status* (Statusabfrage 25. Juli 2026) | https://www.mintz.com/insights-center/viewpoints/54941/2026-07-08-ai-washington-report-july-2026-edition | verworfen (nach übereinstimmender Berichterstattung „as soon as the first week of August" avisiert; zum Stichtag 25. Juli 2026 noch keine formelle Verkündung; 60-Tage-Frist EO 14409 endet 1. August 2026; Fortschreibung für Folgelauf) |
+| 5 | B | EU Rat / EUR-Lex / Freshfields / White & Case / DLA Piper / Loyens & Loeff / Gibson Dunn / Digital Watch Observatory, *Digital Omnibus on AI Amtsblatt-Veröffentlichung* (Signatur 8. Juli 2026, OJ-Publikation weiter ausstehend) | https://eur-lex.europa.eu/oj/direct-access.html | verworfen (Amtsblatt-Veröffentlichung zum Stichtag 25. Juli 2026 nach übereinstimmender Berichterstattung „awaiting publication" — noch nicht vollzogen; Fortschreibung für Folgelauf mit OJ-Nummer) |
+| 6 | C | Cyberspace Administration of China / IAPP / Bird & Bird / China Law Translate, *Interim Measures for the Management of Anthropomorphic AI Interactive Services* (Inkrafttreten 15. Juli 2026) | https://iapp.org/news/a/chinas-regulation-on-ai-companions-takes-force | verworfen (Inkrafttreten 15. Juli 2026 = 10 Tage vor Schnitt, außerhalb 7-Tage-Fenster; darüber hinaus ohne direkten Arbeitsmarkt-/Steuerbezug; Cluster-C-Aufnahmekandidat mit erweitertem Zeitfenster) |
+| 7 | B | Bundesrat / Bundesregierung, *KI-Verordnung-Durchführungsgesetz (KI-MIG) — Bundesratsbeschluss 10. Juli 2026* | https://www.bundesregierung.de/breg-de/aktuelles/umsetzung-ki-verordnung-2406638 | verworfen (bereits in Version 41.0 in § 4.4 und § 11.3 verankert; 15 Tage vor Schnitt, außerhalb 7-Tage-Fenster; keine neuen legislativen Schritte) |
+| 8 | F | Amazon-AGI-Unit-Streichungen (CNBC 22./24. Juli 2026) | https://finance.yahoo.com/technology/ai/articles/amazon-announces-layoffs-artificial-general-145738776.html | verworfen (bereits in Version 43.0 in § 1.1 verankert; keine neuen Sachstände im 48-Stunden-Fenster) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 4.4 (neuer eingebetteter Absatz nach der Plattform-Digitalabgabe-Passage und vor § 4.5) | Ergänzung | Neuer Absatz zur OECD-weiten Bestandsaufnahme der KI-Arbeitsmarkt-Politik (24. Juli 2026, 64 Seiten): systematische Kartierung von Politikmaßnahmen in G7-Staaten, der Europäischen Union und ausgewählten lateinamerikanischen Volkswirtschaften entlang von sechs Feldern (Automatisierung/Produktivität/Qualifikation/Inklusion; Datenschutz; Nicht-Diskriminierung; Arbeitsschutz; Transparenz/Erklärbarkeit/Rechenschaft; sozialer Dialog); Kernbefund: Politikmaßnahmen mit explizitem KI-Bezug am weitesten in KI-Qualifikation und KI-Adoption entwickelt, konkrete Regelungen zu Datenschutz/Transparenz/Rechenschaftspflicht überwiegend erst aufkommend; drei abgeleitete Implikationen für die Steuerdebatte (Sanders/OpenAI und Deutschland-These als international avanciert, Kausalattributionsproblem Typ 5 bestärkt, Sozialpartner-Verankerung anschlussfähig); Konjunktivpflicht nach § 4.2 Claude.md eingehalten. | 1 |
+| 2 | § 11.3 (Institutionelle und politische Dokumente) | Ergänzung | Neuer Eintrag OECD, *„Recent policy developments on AI in the labour market"* (OECD Artificial Intelligence Papers, 24. Juli 2026, 64 Seiten), mit Kernbefund-Zusammenfassung, sechs Politikfeldern und URL. | 1 |
+| 3 | Aktualitätshinweis (Dokumentende) | Aktualisierung | Schnitt-Datum von 24. Juli 2026 auf 25. Juli 2026 (Lauf 001) aktualisiert; zusammenfassender Nachtrag zum OECD-Bericht mit § 4.4-, § 4.5-, § 5.2-, § 9.1- und § 11.3-Rückverweisen ergänzt. | 1 |
+| 4 | Dokumentkopf und README.md (Version, Zitiervorschlag, Änderungslog) | Aktualisierung / Korrektur | Version 44.0 → 45.0; im Zuge dieses Laufs zugleich Bereinigung der Nachlaufinkonsistenz im README-Header „Version: 43.0" (aus Lauf vom 24. Juli 2026 nicht mitaktualisiert) auf Zielversion 45.0; Aufnahme des Version-45.0-Nachtrags in die README-Änderungsliste. | 1 |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Microsoft Q4 FY2026 Earnings (Termin 29. Juli 2026) | F/I | Publikationsdatum nach Schnittdatum 25. Juli 2026; Aufnahmekandidat für Folgelauf |
+| 2 | OECD „AI and the global productivity divide" (17. Juli 2026) | A | 8 Tage vor Schnitt, außerhalb 7-Tage-Fenster; Aufnahmekandidat mit erweitertem Zeitfenster |
+| 3 | White-House Voluntary Frontier-Model-Framework | D | Deal nicht förmlich angekündigt; „as soon as the first week of August" avisiert; Fortschreibung für Folgelauf |
+| 4 | Digital Omnibus on AI Amtsblatt-Veröffentlichung | B | Amtsblatt-Veröffentlichung zum Stichtag 25. Juli 2026 weiterhin nicht vollzogen |
+| 5 | China CAC Interim Measures for Anthropomorphic AI Interactive Services (Inkrafttreten 15. Juli 2026) | C | 10 Tage vor Schnitt, außerhalb 7-Tage-Fenster; ohne direkten Arbeitsmarkt-/Steuerbezug |
+| 6 | KI-Verordnung-Durchführungsgesetz Bundesrat-Beschluss (10. Juli 2026) | B | Bereits in Version 41.0 verankert; 15 Tage vor Schnitt |
+| 7 | Amazon-AGI-Unit-Streichungen (22./24. Juli 2026) | F | Bereits in Version 43.0 in § 1.1 verankert; keine neuen Sachstände im 48-Stunden-Fenster |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja (grep-Verifikation: „Recent policy developments" nicht im Vorlauf-Dokument; OECD Employment Outlook 2026 bereits in § 3.5 und § 11.3 vorhanden; neuer Eintrag als eigenständige OECD-Publikation mit klar abgegrenztem Politik-Inventar-Charakter)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Verweis auf den neu angelegten Block „Validierung 25. Juli 2026 (Lauf 001 vom 25. Juli 2026) — Version 44.0 → Version 45.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): siehe Phase 5 (unten in „Auffälligkeiten")
+- Word erstellt (`build_docx.py`): siehe Phase 5 (unten in „Auffälligkeiten")
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (inklusive Bereinigung der README-Header-Inkonsistenz aus Vorlauf)
+- E-Mail-Versand (Phase 5b): siehe Phase 5b (unten in „Auffälligkeiten")
+- WhatsApp-Versand (Phase 5b): siehe Phase 5b (unten in „Auffälligkeiten")
+- Branch auf main gemerged und gelöscht: siehe Phase 6 (unten in „Auffälligkeiten")
+
+### Auffälligkeiten / offene Punkte
+
+- Cluster C/E/G/H/I/J: kein belegbarer Neuzugang im 7-Tage-Fenster.
+- Cluster F/I (48-Stunden-Fenster 23.–25. Juli 2026): keine neuen Frontier-Modell-Freigaben oder Hyperscaler-/Halbleiter-Ankündigungen jenseits der bereits in Version 44.0 verankerten Serie (Alphabet Q2, Intel Q2, Tesla Q2, Anthropic Economic Index Connector). Microsoft Q4 FY2026 ist für 29. Juli 2026 angekündigt und fällt damit außerhalb dieses Laufs.
+- OECD-Landing-Page (recent-policy-developments-on-ai-in-the-labour-market_1b40c00e-en.html) gab bei WebFetch einen 403-Forbidden-Status zurück; die Metadaten sind über mehrere WebSearch-Treffer konsistent belegt (Publikationsdatum 24. Juli 2026, 64 Seiten, sechs Politikfelder, Ländergruppe G7 + EU + LATAM, Reihe *OECD Artificial Intelligence Papers*); Fortschreibung mit Autorenzuschreibung und DOI in Folgelauf.
+- README-Header-Inkonsistenz aus Lauf 001 vom 24. Juli 2026 (Zeile 7 „Version: 43.0" statt „44.0") wurde im Rahmen dieses Laufs beiläufig auf Zielversion 45.0 bereinigt und in Validierung-Ergebnisse.md unter § 2.5 dokumentiert.
+- Digital Omnibus on AI: Amtsblatt-Veröffentlichung zum Stichtag 25. Juli 2026 weiter offen; Fortschreibung im Folgelauf mit OJ-Nummer.
+- White-House-Voluntary-Frontier-Model-Framework: Formelle Ankündigung wird für die erste Augustwoche 2026 avisiert (60-Tage-Frist EO 14409 endet 1. August 2026) — Ziel-Aufnahme in einem Folgelauf mit belastbaren Framework-Details.
+- Empfängerdaten für E-Mail und WhatsApp aus Routine-Anweisung entnommen, in dieser Datei aber bewusst nicht ausgeschrieben (Phase-5b-Regel).
+
+---
+
 ## 2026-07-24 — Lauf 001 — Version 43.0 → Version 44.0
 
 ### Recherchekorridor
