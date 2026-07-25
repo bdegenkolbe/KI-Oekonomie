@@ -105,9 +105,9 @@
 - PDF erstellt (`build_pdf.py`): siehe Phase 5 (unten in „Auffälligkeiten")
 - Word erstellt (`build_docx.py`): siehe Phase 5 (unten in „Auffälligkeiten")
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (inklusive Bereinigung der README-Header-Inkonsistenz aus Vorlauf)
-- E-Mail-Versand (Phase 5b): siehe Phase 5b (unten in „Auffälligkeiten")
-- WhatsApp-Versand (Phase 5b): siehe Phase 5b (unten in „Auffälligkeiten")
-- Branch auf main gemerged und gelöscht: siehe Phase 6 (unten in „Auffälligkeiten")
+- E-Mail-Versand (Phase 5b): Fallback-Datei (`daily-mail.txt`) — kein Microsoft-Graph-`mail_send`-Tool in dieser Session erreichbar (nur lesende MS-365-Tools verfügbar)
+- WhatsApp-Versand (Phase 5b): Fallback-Datei (`daily-whatsapp.txt`) — kein `whatsapp`-MCP-Server in dieser Session verbunden
+- Branch auf main gemerged und gelöscht: Ja lokal, Remote-Branch-Löschung durch Repository-Rule blockiert (HTTP 403) — Merge-Commit auf main (ef9c684) erfolgreich publiziert (Refspec-Report `f14a677..ef9c684  main -> main`, „Bypassed rule violations for refs/heads/main"-Hinweistext); Session-Branch `claude/determined-einstein-447dno` verbleibt Remote-seitig ohne funktionalen Effekt (bekanntes Verhalten aus früheren Läufen)
 
 ### Auffälligkeiten / offene Punkte
 
