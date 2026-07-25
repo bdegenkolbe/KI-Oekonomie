@@ -7,6 +7,79 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 25. Juli 2026 (Lauf 001 vom 25. Juli 2026) — Version 44.0 → Version 45.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 25. Juli 2026 im Standard-7-Tage-Fenster (18.–25. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (23.–25. Juli 2026). Eine belegbare Fortschreibung identifiziert: Cluster A/B mit der am 24. Juli 2026 durch die OECD in der Reihe *OECD Artificial Intelligence Papers* veröffentlichten 64-seitigen Working-Paper-Studie *„Recent policy developments on AI in the labour market"* mit systematischer Bestandsaufnahme der KI-Arbeitsmarkt-Politik in G7-Staaten, der Europäischen Union und ausgewählten lateinamerikanischen Volkswirtschaften.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | OECD (24. Juli 2026): *„Recent policy developments on AI in the labour market"* — 64-seitige OECD-Working-Paper-Studie aus der Reihe *OECD Artificial Intelligence Papers*; systematisiert die in den G7-Staaten, der Europäischen Union und ausgewählten lateinamerikanischen Volkswirtschaften ergriffenen Maßnahmen zum Umgang mit KI im Arbeitsmarkt entlang von sechs Politikfeldern (Automatisierung/Produktivität/Qualifikation/Inklusion; Datenschutz und Privatsphäre; Nicht-Diskriminierung; Arbeitsschutz und Gesundheit am Arbeitsplatz; Transparenz/Erklärbarkeit/Rechenschaftspflicht; sozialer Dialog); Kernbefund: Politikmaßnahmen mit explizitem KI-Bezug seien am weitesten in KI-Qualifikation und KI-Adoption entwickelt, während konkrete Regelungen in Datenschutz, Transparenz und Rechenschaftspflicht überwiegend erst aufkämen. | § 4.4 (neuer eingebetteter Absatz nach der Plattform-Digitalabgabe-Passage und vor § 4.5 als OECD-weite Bestandsaufnahme mit Vergleichshorizont zum AI-Act-/KI-MIG-/Digital-Omnibus-Rahmen); § 11.3 (neuer Eintrag mit vollständiger Zitation und URL); Aktualitätshinweis am Dokumentende um Version-45.0-Lauf-001-vom-25.-Juli-2026-Passus ergänzt; README.md Version 45.0 mit Änderungslog-Eintrag. | Erster empirisch belastbarer Vergleichsrahmen für die in § 4.4 und § 4.5 dokumentierten deutschen, europäischen und US-amerikanischen KI-Arbeitsmarkt-Politiken; stützt in dreifacher Hinsicht die Deutschland-These und die szenariorobuste Auslegung (§ 8.4): (a) empirischer Beleg, dass die international vorherrschende Antwort auf KI-Verdrängung derzeit qualifikatorisch-adaptiver Natur ist und die fiskalische Anknüpfung selten formuliert wird, was die Sanders/OpenAI-Debatte (§ 4.5) und die Deutschland-These (Kapitel 8) als international avanciert einordnet; (b) die schwache Entwicklung in Transparenz und Rechenschaftspflicht bekräftigt die in § 9.1 dokumentierten Kausalattributionsprobleme einer Typ-5-Ersatzabgabe; (c) die dokumentierte Rolle des sozialen Dialogs stützt die in § 5.2 und im Koalitionsausschuss-Programm vom 1./2. Juli 2026 angelegte deutsche Sozialpartner-Verankerung. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- Microsoft Q4 FY2026 Earnings — vorgesehen für 29. Juli 2026, außerhalb des Schnittdatums 25. Juli 2026; Aufnahmekandidat für Folgelauf.
+- OECD (17. Juli 2026): *„AI and the global productivity divide"* (35 Seiten) — Publikationsdatum 8 Tage vor Schnitt, damit außerhalb des 7-Tage-Fensters; Aufnahmekandidat mit erweitertem Zeitfenster oder als thematische Ergänzung zur OECD-„Recent policy developments"-Studie in Folgelauf.
+- OECD Employment Outlook 2026 (7. Juli 2026) — bereits in Version 40.0 in § 3.5 und § 11.3 verankert; keine neuen Sachstände.
+- White-House-Voluntary-Frontier-Model-Framework nach Executive Order 14409 — formelle Ankündigung nach übereinstimmender Berichterstattung „as soon as the first week of August" avisiert; zum Stichtag 25. Juli 2026 noch keine belastbare Veröffentlichung. Fortschreibung für Folgelauf mit Framework-Details.
+- Digital Omnibus on AI Amtsblatt-Veröffentlichung — Council-Final-Approval 29. Juni 2026, Signatur 8. Juli 2026, OJ-Publikation zum Stichtag 25. Juli 2026 weiterhin „awaiting publication" ohne konkrete Amtsblatt-Nummer. Fortschreibung für Folgelauf.
+- Amazon-AGI-Unit-Streichungen und Alphabet/Intel Q2-2026-Earnings-Calls — bereits in Version 43.0/44.0 in § 1.1, § 8.2 und § 11.5 verankert; keine neuen Sachstände im 48-Stunden-Fenster.
+- Anthropic Economic Index Connector (22. Juli 2026) — bereits in Version 44.0 in § 1.1 und § 11.3 verankert.
+- Tesla Q2 2026 Earnings Call (22. Juli 2026) — bereits in Version 43.0 in § 8.2 und § 11.5 verankert.
+- China Cyberspace Administration Interim Measures for Anthropomorphic AI Interactive Services (Inkrafttreten 15. Juli 2026) — 10 Tage vor Schnitt, außerhalb 7-Tage-Fenster; Cluster-C-Aufnahmekandidat mit erweitertem Zeitfenster, aber ohne direkten Arbeitsmarkt-/Steuerbezug.
+- Bundesrat KI-Durchführungsgesetz-Passage (10. Juli 2026) — bereits in Version 41.0 in § 4.4 verankert; keine neuen legislativen Schritte.
+- Cluster C/E/G/H/I/J — keine belegbaren Neuzugänge im 7-Tage-Fenster über die aufgenommene Cluster-A/B-Fortschreibung hinaus.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; die Ergänzung fügt einen eingebetteten Absatz in § 4.4 (OECD-weite Bestandsaufnahme) ohne neue Unterüberschriften ein; keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Säulen der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Neuer § 4.4-Absatz verweist auf § 4.2 (deutsche Rechtslage), § 4.3 (Verfassungsrecht), § 4.4 (Selbstbezug), § 4.5 (Sanders/OpenAI), § 5.1 (Wertschöpfungsabgabe), § 5.2 (Sozialpartner), § 8 (Deutschland-These), § 8.3 (Teilhabefonds), § 9.1 (Kausalattribution) und § 2.1 (Typ 5) — alle existieren. § 11.3-Eintrag verweist auf § 4.4. |
+| 2.1.4 Roter Faden | OK | OECD-Bestandsaufnahme stärkt die in § 4.4 und § 4.5 dokumentierte Regulierungslinie um einen internationalen Vergleichsrahmen; positioniert die Deutschland-These und die US-Initiativen als avancierter im internationalen Vergleich, ohne Kernaussage zu verschieben. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; neuer Bold-Lead-In „**OECD-weite Bestandsaufnahme der KI-Arbeitsmarkt-Politik (24. Juli 2026):**" einheitlich mit vorhandenen § 4.4-Lead-Ins („**Deutsches Umsetzungsgesetz…**", „**Neue nationale Initiative Deutschland — Plattform-Digitalabgabe (2026):**"); Datumsangaben einheitlich; kursive Werktitel (*„Recent policy developments on AI in the labour market"*, *OECD Artificial Intelligence Papers*). |
+| 2.2.1 Sachliche Richtigkeit | OK | OECD-Publikationsdatum 24. Juli 2026 und Seitenumfang 64 Seiten via WebSearch bestätigt (Suchergebnisse OECD-AI-Papers-Sammlungsseite und OECD-Publikationen); die sechs Politikfelder wörtlich aus den Suchergebnissen übernommen; Kernbefund (Politikmaßnahmen am weitesten in KI-Qualifikation und KI-Adoption entwickelt, Regelungen zu Datenschutz/Transparenz/Rechenschaft überwiegend erst aufkommend) aus mehreren Suchergebnissen konsistent bestätigt; Publikationsreihe *OECD Artificial Intelligence Papers* verifiziert. |
+| 2.2.2 Redundanzprüfung | OK | Der neue § 4.4-Absatz überschneidet sich thematisch mit § 3.5 (OECD Employment Outlook 2026 als arbeitsmarktökonomische Diagnose), differenziert sich aber inhaltlich als Politikbestandsaufnahme (Regulierungs-Inventar statt Diagnose); mit § 4.2 (AI-Act-Umsetzung DE), § 4.4 (Digital Omnibus, KI-MIG) und § 4.5 (US-Initiativen) durch Vergleichshorizont-Rolle abgegrenzt statt dupliziert. |
+| 2.2.3 Argumentation | OK | Kernbefund als Konjunktiv referiert („seien am weitesten … entwickelt, während konkrete Regelungen … überwiegend erst aufkämen"), da es sich um eine OECD-Studien-Aussage über den Stand internationaler Politik handelt; die drei abgeleiteten Implikationen (Deutschland-These/US-Initiativen als avanciert, Kausalattributionsproblem Typ 5, Sozialpartner-Verankerung) sind explizit als eigene Interpretation formuliert und mit den bestehenden §-Verweisen belegt. |
+| 2.2.4 Ausgewogenheit | OK | OECD-Bericht neutral als Bestandsaufnahme referiert, weder als Empfehlung noch als Kritik ausgewertet; die drei abgeleiteten Implikationen ordnen die deutsche und US-amerikanische Position ein, ohne sie überzubetonen. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | Konsistente Verwendung von „Automatisierung", „Produktivität", „Qualifikation", „Inklusion", „Datenschutz", „Nicht-Diskriminierung", „Arbeitsschutz", „Transparenz", „Erklärbarkeit", „Rechenschaftspflicht", „sozialer Dialog"; Reihennamen (*OECD Artificial Intelligence Papers*) und Werktitel (*„Recent policy developments on AI in the labour market"*) einheitlich kursiv. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neuer OECD-Bericht als § 11.3-Eintrag hinzugefügt; im § 4.4-Fließtext genannt, im Aktualitätshinweis und in README.md-Änderungslog verankert; keine im Fließtext genannten Quellen ohne Verzeichniseintrag. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-nahe Zitierstil („OECD. (24. Juli 2026). *Recent policy developments on AI in the labour market.* OECD Artificial Intelligence Papers. 64 Seiten."), vollständige URL, Datumsangabe einheitlich formatiert; Reihenname vor URL angegeben. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Institutionelle OECD-Primärpublikation aus der Reihe *OECD Artificial Intelligence Papers*; Recherche über WebSearch mit mehreren konsistenten Treffern; die spezifische Publikations-Landing-Page (recent-policy-developments-on-ai-in-the-labour-market_1b40c00e-en.html) gab bei direktem WebFetch einen 403-Forbidden-Status zurück, ist gleichwohl über mehrere Recherche-Treffer mit übereinstimmenden Metadaten (Publikationsdatum 24. Juli 2026, 64 Seiten, sechs Politikfelder, Ländergruppe G7 + EU + LATAM, Reihe *OECD Artificial Intelligence Papers*) belegt. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK / Anmerkung | Direkte WebFetch-Verifikation der OECD-Landing-Page mit 403-Forbidden-Status quittiert; die URL folgt dem standardisierten OECD-Publikationsschema (https://www.oecd.org/en/publications/[title-slug]_[8-stelliger-Hash]-en.html) und wird gleichwohl in § 11.3 mit dem Hash `1b40c00e` verankert, weil sie über mehrere WebSearch-Treffer als kanonische URL geführt wird; Fortschreibung mit DOI in Folgelauf, sobald die Landing-Page WebFetch-zugänglich ist. |
+| 2.4.5 Zitatgenauigkeit | OK | Sechs Politikfelder wörtlich („automation, productivity, skills and inclusiveness; privacy and data protection; non-discrimination; occupational safety and health; transparency, explainability and accountability; social dialogue") aus WebSearch-Ergebnissen übernommen und ins Deutsche übersetzt; Kernbefund sinngemäß aus WebSearch-Zusammenfassung übernommen und im Konjunktiv referiert. |
+| 2.4.6 Verifizierungsbedürftige Einträge | Auffälligkeit | Der neue OECD-Bericht ist ohne Autorennamen angegeben, weil die WebSearch-Treffer keine Autorenzuschreibung enthalten und die OECD-Landing-Page direkt nicht zugänglich war; Fortschreibung mit Autorenzuschreibung in Folgelauf, sobald die Landing-Page oder eine Sekundärrezeption die Namen belegt. de la Feria et al. 2022 unverändert markiert; Sanders-Report bleibt vollständig verifiziert. |
+| 2.5 Versionskonsistenz und Lizenz | Abweichung → bereinigt | README.md wies unter „Version: 43.0" (Zeile 7) eine Inkonsistenz gegenüber dem im Zitiervorschlag geführten „Version 44.0" (Zeile 44) auf; die Inkonsistenz wurde im Rahmen dieser Validierung durch Anhebung auf Version 45.0 an beiden Stellen behoben. Version 45.0 nun konsistent an Dokumentkopf des Hauptdokuments, Aktualitäts-/Haftungshinweis am Dokumentende, README.md-Header und -Zitiervorschlag sowie im vorliegenden Abschlussblock eingetragen; Autor „Björn Degenkolbe", Organisation „HIGL – Health Innovators Group Leipzig", CC-BY-4.0-Lizenzhinweis und KI-Offenlegung im README unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Projekt enthält keine dedizierten Prüfskripte; manuelle Stichproben ersetzen den automatisierten Teil. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| 1 | README.md Zeile 7 („Version: 43.0") gegenüber README.md Zeile 44 (Zitiervorschlag „Version 44.0, Juli 2026") und KI-Ökonomie.md Zeile 12 („Version: 44.0") | Versionsinkonsistenz aus vorigem Lauf 44.0 nicht vollständig durchgezogen — README-Header-Feld nicht mitaktualisiert | Gering (rein redaktionell, nicht inhaltlich) |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| 1 | README-Header „Version: 43.0" statt „Version: 44.0" (Nachwirkung Lauf 001 vom 24. Juli 2026) | Direktes Ersetzen durch „Version: 45.0" (Lauf 001 vom 25. Juli 2026 — Zielversion); Zitiervorschlag von „Version 44.0, Juli 2026" auf „Version 45.0, Juli 2026" ebenfalls angehoben | Ja |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte (2.1.3 Querverweise, 2.2.1 Sachliche Richtigkeit, 2.4.1 Vollständigkeit und Zuordnung, 2.5 Versionskonsistenz) erneut durchlaufen: OK.
+- Automatisierte Skripte: n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 45.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 24. Juli 2026 (Lauf 001 vom 24. Juli 2026) — Version 43.0 → Version 44.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 24. Juli 2026 im Standard-7-Tage-Fenster (17.–24. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (22.–24. Juli 2026). Drei belegbare Fortschreibungen identifiziert: Cluster F/I mit dem *Alphabet*-Q2-2026-Earnings-Call vom Abend des 22. Juli 2026 (Google-Cloud +82 %, Anhebung der Full-Year-Capex-Guidance 2026 von 180–190 auf 195–205 Milliarden US-Dollar), Cluster F/I mit dem *Intel*-Q2-2026-Earnings-Call am 23. Juli 2026 (DCAI +59 %, Anhebung Full-Year-Capex 2026 von 17 auf über 20 Milliarden US-Dollar, „significantly above"-Prognose 2027, „cannot fulfill all customer orders"), sowie Cluster D mit der öffentlichen Freigabe des *Anthropic Economic Index Connector* für Claude am 22. Juli 2026 als niedrigschwelligem Abfrage-Instrument des in § 3.5 verankerten Index.
