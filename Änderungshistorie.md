@@ -108,12 +108,12 @@
 - Recherche abgeschlossen: Ja
 - Deduplikation gegen Hauptdokument: Ja (grep-Verifikation: „2026/1744" nicht im Vorlauf-Dokument; „McCrory" bereits präsent aus Massenkoff/McCrory-Studie vom März 2026 in § 3.5 und § 11.3, aber neuer Eintrag klar abgegrenzt als eigenständige X-Publikation vom 22. Juli 2026 mit eigener Kernaussage und Rezeptionsspur; Digital Omnibus in § 4.3 bereits umfassend behandelt, aber ohne OJ-Publikationsdatum — Ergänzung fügt genau diesen bislang „awaiting publication"-Fortschreibungspunkt auf)
 - Validierung gemäß `Validierung.md` ausgeführt: Ja (Verweis auf den neu angelegten Block „Validierung 26. Juli 2026 (Lauf 001 vom 26. Juli 2026) — Version 45.0 → Version 46.0" in `Validierung-Ergebnisse.md`)
-- PDF erstellt (`build_pdf.py`): siehe Phase 5 (unten in „Auffälligkeiten")
-- Word erstellt (`build_docx.py`): siehe Phase 5 (unten in „Auffälligkeiten")
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
 - E-Mail-Versand (Phase 5b): Fallback-Datei (`daily-mail.txt`) — Microsoft-Graph-`outlook_send_mail`-Tool in dieser Session mit *permission_error* („This tool is not available.") quittiert; ausweichendes Tool­namensmuster (`send_mail`, `send_message`, `outlook_send`, `mail_send`) nicht abrufbar
 - WhatsApp-Versand (Phase 5b): Fallback-Datei (`daily-whatsapp.txt`) — kein `whatsapp`-MCP-Server in dieser Session verbunden
-- Branch auf main gemerged und gelöscht: siehe Phase 6 (unten in „Auffälligkeiten")
+- Branch auf main gemerged und gelöscht: Ja lokal, Remote-Branch-Löschung durch Repository-Rule blockiert (HTTP 403) — Merge-Commit auf main (a6c8c0e) erfolgreich publiziert (Refspec-Report `1595c7d..a6c8c0e  main -> main`, „Bypassed rule violations for refs/heads/main"-Hinweistext); Session-Branch `claude/determined-einstein-zly4gn` verbleibt Remote-seitig ohne funktionalen Effekt (bekanntes Verhalten aus früheren Läufen)
 
 ### Auffälligkeiten / offene Punkte
 
