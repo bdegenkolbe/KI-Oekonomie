@@ -7,6 +7,80 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 27. Juli 2026 (Lauf 001 vom 27. Juli 2026) — Version 46.0 → Version 47.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 27. Juli 2026 im Standard-7-Tage-Fenster (20.–27. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (25.–27. Juli 2026). Zwei belegbare Neuzugänge identifiziert: Cluster F mit der AI-First-Restrukturierung der *monday.com Ltd.* (NASDAQ: MNDY) vom 22. Juli 2026 (rund 620 Streichungen — 20 % der globalen Belegschaft; 45–55 Millionen US-Dollar Restrukturierungsaufwand; explizite Selbstpositionierung als strategische, nicht kostenbezogene Reduktion), und Cluster I mit der öffentlichen Freigabe des Foundation-Modells *Claude Opus 5* durch *Anthropic* am 24. Juli 2026 (5 US-Dollar Input / 25 US-Dollar Output pro Million Token, halbes Preisniveau gegenüber *Claude Fable 5* bei laut Hersteller nahe Fable-5 liegenden Fähigkeitsniveaus).
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | monday.com Ltd. (NASDAQ: MNDY) — Ankündigung 22. Juli 2026: rund 620 Beschäftigte werden im Rahmen einer AI-First-Restrukturierung entlassen (20 % der globalen Belegschaft, davon rund 350 am Tel-Aviver Hauptsitz); Restrukturierungsaufwand 45 bis 55 Millionen US-Dollar (Abfindungen und Büroflächenreduktion); Non-GAAP-Operating-Margin-Guidance 2026 von 13 % auf 15 % angehoben; Umsatzwachstumsziele bei 19–20 % gehalten. Gemeinsamer Mitarbeitendenbrief der Mitgründer Roy Mann und Eran Zinman betont ausdrücklich: „the layoffs are not intended as a cost-cutting initiative or a direct replacement of employees with artificial intelligence"; Positionierung als strategischer Übergang „moving from managing work to doing the work for our customers, with people and AI agents working together". Berichterstattung: TechCrunch, Yahoo Finance, Haaretz, The Times of Israel, Ctech, TheNextWeb, americanbazaaronline, machinebrief (jeweils 22./23. Juli 2026). | § 1.1 (angehängter Satzblock am Ende: Aufnahme in die Reihe der 2026 dokumentierten AI-First-Restrukturierungen mit Reihenbezug zu *Sprout Social*, *Thomson Reuters*, *Cloudflare* — inklusive wörtlichem Zitat der Selbstpositionierung und Rückverweis auf § 9.1 und § 4.4); § 11.5 (neuer Eintrag mit vollständiger Zitation, Zahlengerüst, wörtlichen Zitaten und mehreren URLs). Aktualitätshinweis am Dokumentende und README.md um Version-47.0-Lauf-001-vom-27.-Juli-2026-Passus ergänzt. | Fortschreibung der in Version 44.0 und 45.0 dokumentierten Enterprise-SaaS-Restrukturierungswelle mit einer weiteren, selbstexplizit AI-First positionierten Ankündigung. Für die Steuerdebatte in doppelter Weise relevant: (a) das Fallmuster erweitert die in § 3.5 referierten Sektoren um konsolidierte, börsengelistete Work-Management-Anbieter, (b) die Selbstpositionierung „not a cost-cutting initiative or a direct replacement" mit gleichzeitiger AI-Anlassbekundung verschärft die in § 9.1 dokumentierte Kausalattributions­problematik einer Typ-5-Ersatzabgabe konzernintern: Ein WARN-AI-Disclosure-Regime nach *SB 5* Connecticut müsste eine so formulierte Reduktion in eine binäre KI-/Nicht-KI-Kategorie einsortieren, obwohl der Konzern selbst diese Kategorisierung ablehnt. |
+| 2 | Anthropic — Freigabe *Claude Opus 5* am 24. Juli 2026: 1-Millionen-Token-Kontextfenster, bis zu 128 000 Output-Token, adaptiver Denkmodus, fünfstufige *effort*-Skala; API-Preise 5 US-Dollar Input / 25 US-Dollar Output pro Million Token (identisch zum Vorgänger *Opus 4.8*, halbes Preisniveau gegenüber *Claude Fable 5* mit 10/50 US-Dollar bei laut Anthropic nahe Fable-5 liegenden Fähigkeitsniveaus); laut Hersteller bislang stärkste Alignment-Leistung mit niedrigsten Raten täuschenden Verhaltens und geringster Missbrauchs­anfälligkeit. Berichterstattung: Axios (24. Juli 2026), Quartz, MarkTechPost, tech-ish, DigitalApplied, benchlm.ai. | § 8.2 (angehängter Satzblock am Ende der Q2-2026-Earnings-Sequenz: Aufnahme des Opus-5-Preisniveaus als weiterer Datenpunkt der deflationären Inferenzpreis-Dynamik bei gleichzeitig weiter beschleunigten Capex-Volumina; Rückverweise auf § 8.3 zur *Veredelungsstrategie* und Konjunktivpflicht nach § 4.2 Claude.md); § 11.5 (neuer Eintrag mit vollständiger Zitation und mehreren URLs). Aktualitätshinweis und README.md-Änderungslog. | Belegbare Fortschreibung des in § 8.2 dokumentierten Preis-/Fähigkeitspfads der Frontier-Modell-Angebotsseite: Innerhalb einer Modellgeneration halbieren sich die Inferenzkosten pro Fähigkeitseinheit, während die Rohstoff- und Capex-Seite in ihren absoluten Ausgaben­volumina weiter beschleunigt. Für die Deutschland-These (§ 8.2, § 8.3) verstärkt dies die Position des nachgelagerten Verarbeiter-Segments: Die für die *Veredelungsstrategie* nötigen Basismodelle werden zunehmend billiger, während die fiskalische Anknüpfung an Ertrag der Basismodell-Anbieter zunehmend unattraktiv wird, weil die Renten sich im Verhältnis zwischen Compute-Vorleistung und Anwender-Wertschöpfung neu verteilen. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+- White-House-Voluntary-Frontier-Model-Framework nach Executive Order 14409 — formelle Ankündigung nach übereinstimmender Berichterstattung „first week of August" avisiert; zum Stichtag 27. Juli 2026 keine belastbare Veröffentlichung. Fortschreibung für Folgelauf mit Framework-Details.
+- Microsoft Q4 FY2026 Earnings (29. Juli 2026 avisiert) — Publikationsdatum nach Schnittdatum 27. Juli 2026; Aufnahmekandidat für Folgelauf.
+- Bundesbank-Monatsbericht Juli 2026 (Publikationstermin 28. Juli 2026, 12:00 Uhr) — Publikationsdatum nach Schnittdatum; Aufnahmekandidat für Folgelauf (Vorabankündigung nennt Themen Preiswettbewerbsfähigkeit deutscher Exporte, US-Zölle/Geoökonomie, Bürokratielasten — kein KI-/Steuerbezug im Vorspann).
+- OECD (17. Juli 2026): *„AI and the global productivity divide"* (35 Seiten) — 10 Tage vor Schnitt, außerhalb 7-Tage-Fenster; wiederholt aus Vorlauf verworfen.
+- OECD (20. Juli 2026): *„Generative AI experimentation in government"* (68 Seiten) — Aufnahmekandidat mit vertretbarem 7-Tage-Fensterbezug, aber ohne unmittelbaren Steuer-/Sozialstaats-/Robotersteuer-Bezug (Governance-Fokus); Aufnahme unterbleibt zugunsten Cluster-F/I-Priorisierung.
+- OECD (21. Juli 2026): *„Artificial intelligence and personal finance"* (42 Seiten) — Fokus Verbraucherfinanz ohne Steuerpolitik-/Sozialstaats­bezug; keine Aufnahme.
+- „We Must Act Now" — Statement des Stanford Digital Economy Lab (13. Juli 2026, Brynjolfsson/Agrawal/Korinek/Cunningham, mit Anthropic-, DeepMind- und OpenAI-Führungskräften unter den 200 Unterzeichnenden) — 14 Tage vor Schnitt, außerhalb 7-Tage-Fenster; Aufnahmekandidat mit erweitertem Zeitfenster.
+- Anthropic *Economic Policy Framework* (10. Juni 2026) — nicht im 7-Tage-Fenster; wesentliche Kernaussagen bereits sinngemäß in § 5.3 und § 8.3 referiert; Aufnahmekandidat für gezielte Cluster-D-Nachbereitung.
+- Digital Omnibus on AI / Verordnung (EU) 2026/1744 — bereits mit Lauf 001 vom 26. Juli 2026 in § 4.3 und § 11.3 eingearbeitet; kein neuer Sachstand.
+- Alphabet Q2 2026 Earnings, Intel Q2 2026 Earnings, Tesla Q2 2026 Earnings, Amazon-AGI-Unit-Streichungen, Meta-Washington-State-WARN, Anthropic Economic Index Connector, SkillSyncer-Fortschreibung 22. Juli 2026, Peter McCrory X-Essay — bereits in Version 43.0 – 46.0 in §§ 1.1, 3.5, 8.2, 11.3, 11.5 verankert; keine Doppelung.
+- Cluster C/E/G/H/J — keine belegbaren Neuzugänge im 7-Tage-Fenster über die aufgenommenen Cluster-F- und Cluster-I-Fortschreibungen hinaus.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; die beiden Ergänzungen fügen einen angehängten Satzblock in § 1.1 (monday.com) und einen angehängten Satzblock in § 8.2 (Opus 5) ein, jeweils innerhalb der bestehenden Absatz-Sequenz; keine neuen Unterüberschriften, keine leeren Abschnitte. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte 8.1–8.7 lückenlos; fünf Robotersteuer-Typen, drei Säulen der Deutschland-These und sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Neuer § 1.1-monday.com-Passus verweist auf § 3.5, § 9.1 und § 4.4 — alle existieren. Neuer § 8.2-Opus-5-Passus verweist auf § 8.2 (Selbstbezug), § 8.3 (Veredelungsstrategie) und § 4.2 (Konjunktivpflicht Claude.md). § 11.5-Einträge verweisen auf § 1.1/§ 9.1 bzw. § 8.2/§ 8.3. |
+| 2.1.4 Roter Faden | OK | monday.com-Fall setzt die in § 3.5 referierte Enterprise-SaaS-Restrukturierungswelle fort und stützt die in § 9.1 dokumentierte Kausalattributions­problematik. Opus-5-Freigabe setzt den in § 8.2 dokumentierten Inferenzpreis-Verfall auf einer weiteren Frontier-Modell-Datenpunkt-Ebene fort und stärkt die *Veredelungsstrategie* der Deutschland-These (§ 8.3). Kernaussage der Deutschland-These bleibt unverändert. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; keine neuen Bold-Lead-Ins nötig (Ergänzungen als angehängte Sätze innerhalb bestehender Absätze eingefügt); kursive Werktitel konsistent (*monday.com Ltd.*, *Claude Opus 5*, *Claude Fable 5*, *Opus 4.8*, *Non-GAAP-Operating-Margin*). Datumsangaben einheitlich. |
+| 2.2.1 Sachliche Richtigkeit | OK | monday.com-Ankündigungsdatum 22. Juli 2026, Belegschaftszahl 620/20 %, Tel-Aviv-Anteil rund 350, Restrukturierungsaufwand 45–55 Millionen US-Dollar, Non-GAAP-Operating-Margin-Guidance 15 %, Umsatzwachstum 19–20 % über direkten WebFetch der Yahoo-Finance-Landing-Page mit wörtlicher Zitatprüfung und über Sekundärquellen (TechCrunch, Haaretz, TheNextWeb, americanbazaaronline) konsistent bestätigt. Opus-5-Freigabedatum 24. Juli 2026 (Freitag), Preise 5/25 US-Dollar pro Million Token, Vergleich zu Fable 5 (10/50), identisches Preisniveau zu Opus 4.8, Kontextfenster 1 Million Token, adaptiver Denkmodus, fünfstufige *effort*-Skala über WebSearch-Zusammenfassungen (Axios, tech-ish, Quartz, MarkTechPost, DigitalApplied, benchlm.ai) konsistent belegt. |
+| 2.2.2 Redundanzprüfung | OK | monday.com-Ergänzung schließt an die bereits in § 3.5 dokumentierten *Sprout Social*, *Thomson Reuters* und *Cloudflare* an, ohne diese zu duplizieren — die Sätze bringen ausschließlich neue Informationen (Ankündigung, Zahlengerüst, wörtliches Zitat). Opus-5-Ergänzung schließt an die in § 8.2 dokumentierte *Muse Spark 1.1*- und *Kimi K3*-Sequenz an, mit neuer Preisdaten-Ergänzung; keine Duplikation der Fable-5-/Opus-4.8-Preisreferenz — vielmehr explizite Fortschreibung. |
+| 2.2.3 Argumentation | OK | monday.com-Text im Indikativ, soweit es sich um die Ankündigung selbst handelt; die Konzern-Selbstpositionierung als wörtliches Zitat mit Konjunktiv-Rahmung nach § 4.2 Claude.md gekennzeichnet („die Streichungen sollten … nach Konzernangabe …"). Opus-5-Text im Konjunktiv gehalten, soweit es sich um Hersteller-Positionierungen und Fähigkeits­aussagen handelt („laut Hersteller frontiernaher Fähigkeitsstand", „laut Hersteller bislang stärkste Alignment-Leistung"). |
+| 2.2.4 Ausgewogenheit | OK | monday.com-Ergänzung neutral referiert — die Selbstpositionierung des Konzerns (nicht Substitution/Kostensenkung) und die kritische WARN-AI-Disclosure-Perspektive (Kausalattributions­problematik) werden nebeneinandergestellt. Opus-5-Ergänzung neutral, ohne Hersteller-Marketingsprech (Alignment-Aussage als Hersteller-Behauptung markiert), mit gleichgewichtiger Einordnung der Deflation-Deutung als Rohstoff-Preis- vs. Rentenverteilungsargument. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | Konsistente Verwendung von „AI-First-Restrukturierung", „Kausalattributions­problematik", „*Non-GAAP-Operating-Margin*", „*effort*-Skala", „Inferenzpreis-Dynamik", „*Veredelungsstrategie*". Englische Zitate in Anführungszeichen. Modellnamen kursiv. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Beide neuen Quellen als eigenständige § 11.5-Einträge hinzugefügt; im Fließtext genannt und verankert; keine im Fließtext genannten Quellen ohne Verzeichniseintrag. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-nahe Zitierstile mit Autor- bzw. Institutionen­kette, Datum, kursivem Titel und vollständigen URLs; keine URL-Shortener oder Redirect-Links. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | monday.com: Yahoo-Finance-Landing-Page über WebFetch mit wörtlicher Zitatprüfung erfolgreich verifiziert (Publikationsdatum, Zahlengerüst, Konzern-Zitat); TechCrunch-URL über WebFetch mit HTTP 503 Service Unavailable nicht direkt abrufbar, aber Metadaten über mehrere Sekundärquellen konsistent belegt. Opus 5: Anthropic-eigene *Introducing Claude Opus 5*-Blog-Landing-Page nicht direkt aufgerufen (Kandidat für Folgelauf mit ergänzendem Direct-Fetch), Kernaussagen aber über sechs unabhängige Sekundärquellen konsistent belegt. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Yahoo-Finance-URL https://finance.yahoo.com/technology/ai/articles/monday-com-cuts-hundreds-jobs-155900591.html über WebFetch mit Textinhalt bestätigt; Bundesbank-Monatsbericht-Landing-Page-URL über WebFetch mit Publikationsdatum 28. Juli 2026 bestätigt und als *nicht aufgenommen* dokumentiert; alle im Fließtext und im Literaturverzeichnis neu aufgenommenen URLs syntaktisch korrekt. |
+| 2.4.5 Zitatgenauigkeit | OK | „the layoffs are not intended as a cost-cutting initiative or a direct replacement of employees with artificial intelligence" wörtlich aus WebFetch-Prüfung übernommen; „We entered a new era where AI is transforming the role of software, creating the greatest opportunity our industry has ever seen" wörtlich zitiert; „moving from managing work to doing the work for our customers, with people and AI agents working together" wörtlich zitiert. Opus-5-Preise 5/25 US-Dollar und Vergleich mit Fable 5 (10/50) aus konsistenten Sekundärquellen übernommen. Konjunktiv nach § 4.2 Claude.md eingehalten. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | de la Feria et al. 2022 unverändert markiert; Sanders-Report bleibt vollständig verifiziert; Peter McCrory-X-Essay bleibt mit Vorlauf-Kennzeichnung zur X-Only-Publikation und Sekundärquellen-Verankerung erhalten. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 47.0 konsistent an Dokumentkopf des Hauptdokuments (Zeile 12), Aktualitätshinweis am Dokumentende, README.md-Header (Zeile 7) und -Zitiervorschlag (Zeile 44) sowie im vorliegenden Abschlussblock eingetragen; Autor „Björn Degenkolbe", Organisation „HIGL – Health Innovators Group Leipzig", CC-BY-4.0-Lizenzhinweis und KI-Offenlegung im README unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Projekt enthält keine dedizierten Prüfskripte; manuelle Stichproben ersetzen den automatisierten Teil. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|--------|--------|---------|
+| — | — | Keine Fehler gefunden; die Ergänzungen fügen inhaltlich und formal konsistent in die bestehende Struktur ein. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|--------|----------|----------|
+| — | — | Nicht erforderlich (keine Fehler). | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte (sofern vorhanden): n/a
+
+### Abschluss
+
+- Alle Fehler behoben: n/a (keine Fehler)
+- Neue Version: 47.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 26. Juli 2026 (Lauf 001 vom 26. Juli 2026) — Version 45.0 → Version 46.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 26. Juli 2026 im Standard-7-Tage-Fenster (19.–26. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (24.–26. Juli 2026). Zwei belegbare Fortschreibungen identifiziert: Cluster B mit der Amtsblatt-Publikation des *Digital Omnibus on AI* als *Verordnung (EU) 2026/1744* am 24. Juli 2026 (CELEX 32026R1744; Inkrafttreten 27. Juli 2026), sowie Cluster A/D mit dem X-Langtext-Essay von Peter McCrory (Head of Economics, Anthropic) vom 22. Juli 2026 zur Datenlage aggregierter US-Arbeitsmarktwirkungen von KI.
