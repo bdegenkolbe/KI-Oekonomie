@@ -115,7 +115,7 @@
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
 - E-Mail-Versand (Phase 5b): Fallback-Datei (`daily-mail.txt`) — kein Microsoft-Graph-`mail_send`-Tool in dieser Session erreichbar (nur lesende MS-365-Tools verfügbar)
 - WhatsApp-Versand (Phase 5b): Fallback-Datei (`daily-whatsapp.txt`) — kein `whatsapp`-MCP-Server in dieser Session verbunden
-- Branch auf main gemerged und gelöscht: siehe Phase 6 (unten dokumentiert)
+- Branch auf main gemerged und gelöscht: Ja lokal, Remote-Branch-Löschung durch Repository-Rule blockiert (HTTP 403) — Merge-Commit auf main (7b8c39a) erfolgreich publiziert (Refspec-Report `f70897d..7b8c39a  main -> main`, „Bypassed rule violations for refs/heads/main"-Hinweistext); Session-Branch `claude/determined-einstein-lcn2n3` verbleibt Remote-seitig ohne funktionalen Effekt (bekanntes Verhalten aus früheren Läufen)
 
 ### Auffälligkeiten / offene Punkte
 
