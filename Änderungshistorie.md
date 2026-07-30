@@ -105,7 +105,7 @@
 - Versionsnummer in Hauptdokument, README (Header, Zitiervorschlag, Änderungslog), Validierung-Ergebnisse aktualisiert: Ja
 - E-Mail-Versand (Phase 5b): siehe Abschnitt „Auffälligkeiten"
 - WhatsApp-Versand (Phase 5b): siehe Abschnitt „Auffälligkeiten"
-- Branch auf main gemerged und gelöscht: siehe Abschnitt „Auffälligkeiten"
+- Branch auf main gemerged und gelöscht: Ja lokal, Remote-Branch-Löschung durch Repository-Rule blockiert (HTTP 403) — Merge-Commit auf main (ef76ad3) erfolgreich publiziert (Refspec-Report `bde2ce1..ef76ad3  main -> main`, „Bypassed rule violations for refs/heads/main"-Hinweistext); Session-Branch `claude/determined-einstein-o9idib` verbleibt Remote-seitig ohne funktionalen Effekt (bekanntes Verhalten aus früheren Läufen).
 
 ### Auffälligkeiten / offene Punkte
 
