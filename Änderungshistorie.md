@@ -105,7 +105,7 @@
 - Versionsnummer in Hauptdokument, README (Header, Zitiervorschlag, Änderungslog), Validierung-Ergebnisse aktualisiert: Ja
 - E-Mail-Versand (Phase 5b): Fallback-Datei (`daily-mail.txt`) — kein Microsoft-Graph-`mail_send`-/`send_mail`-/`send_message`-/`outlook_send`-Tool in dieser Session erreichbar (nur lesende Microsoft-365-Tools verfügbar). Fallback-Datei ist gitignored und enthält bewusst keine Empfängerdaten.
 - WhatsApp-Versand (Phase 5b): Fallback-Datei (`daily-whatsapp.txt`) — kein `whatsapp`-MCP-Server in dieser Session verbunden. Fallback-Datei ist gitignored und enthält bewusst keine Empfängerdaten.
-- Branch auf main gemerged und gelöscht: siehe Abschnitt „Auffälligkeiten"
+- Branch auf main gemerged und gelöscht: Ja lokal, Remote-Branch-Löschung durch Repository-Rule blockiert (HTTP 403) — Merge-Commit auf main (e413112) erfolgreich publiziert (Refspec-Report `b7daae4..e413112  main -> main`, „Bypassed rule violations for refs/heads/main"-Hinweistext); Session-Branch `claude/determined-einstein-rh5xjw` verbleibt Remote-seitig ohne funktionalen Effekt (bekanntes Verhalten aus früheren Läufen).
 
 ### Auffälligkeiten / offene Punkte
 
