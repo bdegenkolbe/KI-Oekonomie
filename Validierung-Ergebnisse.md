@@ -7,6 +7,75 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 1. August 2026 (Lauf 001 vom 1. August 2026) — Version 51.0 → Version 52.0
+
+**Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 1. August 2026 im Standard-7-Tage-Fenster (25. Juli – 1. August 2026); Cluster F und I im Standard-48-Stunden-Fenster (30. Juli – 1. August 2026). Zwei belegbare Neuzugänge: (a) OpenAI-Preissenkung vom 30. Juli 2026 in der drei Wochen zuvor freigegebenen *GPT-5.6*-Familie (*Luna* Input/Output 1,00/6,00 → 0,20/1,20 US-Dollar je Million Token, −80 %; *Terra* 2,50/15,00 → 2,00/12,00 US-Dollar, −20 %; *Sol* unverändert, ergänzt um kostenpflichtigen *Fast*-Modus mit 2,5-facher Ausführungsgeschwindigkeit bei doppeltem Preis); (b) Mitteilung der Europäischen Kommission vom 31. Juli 2026 zur planmäßigen Aktivierung des *EU-AI-Act*-Durchsetzungsregimes zum 2. August 2026 mit GPAI-Durchsetzungsbefugnissen und Aktivierung der Transparenzpflichten des Art. 50.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | OpenAI (San Francisco) — Preissenkungsankündigung am 30. Juli 2026, drei Wochen nach allgemeiner Freigabe der *GPT-5.6*-Familie am 9. Juli 2026: *GPT-5.6 Luna* Input 1,00 → 0,20 US-Dollar / Output 6,00 → 1,20 US-Dollar (−80 %); *GPT-5.6 Terra* Input 2,50 → 2,00 US-Dollar / Output 15,00 → 12,00 US-Dollar (−20 %); *GPT-5.6 Sol* preisstabil bei 5,00 / 30,00 US-Dollar je Million Input- beziehungsweise Output-Token; neues *Fast*-Angebot im API-Zugriff für *Sol* mit 2,5-facher Ausführungsgeschwindigkeit bei doppeltem Preis als Ersatz für die zurückgezogene *Priority Processing*-Option. Von OpenAI genannter Grund: rund 20 % Kostenreduktion je Token und über 15 % höhere Token-Effizienz durch modellinterne Optimierungen. Sam-Altman-Zitat auf X: „major price cuts today: 80 % drop for GPT-5.6 Luna, now 0,20 US-Dollar per million input tokens". Wettbewerbskontext: nach *CNBC*-Analyse vom 7. Juli 2026 rund 46 % des US-Enterprise-Token-Verkehrs auf *OpenRouter* durch chinesische Modelle; Preisvergleich *DeepSeek V4 Pro* 0,435 / 0,87 US-Dollar je Million Token mit 75-Prozent-Rabattaktion, *Kimi K3* 3 / 15 US-Dollar je Million Token, *Anthropic Fable 5* 10 / 50 US-Dollar, *Anthropic Sonnet 5* Einführung 2 / 10 US-Dollar (Standardpreis ab 1. September 2026: 3 / 15 US-Dollar je Million Token). Berichterstattung: OpenAI (Blogpost *Advancing the price-performance frontier with GPT-5.6*), VentureBeat, CNBC, Axios, Yahoo Finance, Cryptonomist, ExplainX, Quartz, Startuptalky, WCCFTech, NaturalNews (jeweils 30. Juli oder 31. Juli 2026). | § 8.2 (angehängter Satzblock nach der Anthropic-Sonnet-5-Einführungspassage); § 11.5 (neuer Eintrag als erster Eintrag der Sektion, vor dem Amazon-Q2-2026-Eintrag); Aktualitätshinweis am Dokumentende und README.md um Version-52.0-Lauf-001-vom-1.-August-2026-Passus ergänzt. | Belegter Beweispunkt für die in § 8.2 dokumentierte deflationäre Preisdynamik in der Modellschicht — nun auch als *Preissenkung im laufenden Zyklus* (nicht nur bei Modellwechsel) und mit unmittelbarem Wettbewerbsbezug zu chinesischen Open-Weight-Modellen. Für die Deutschland-These (§ 8.3) doppelt relevant: Erstens verstärkt die Deflation den Fall gegen eine reine Umsatzsteuer-artige Anknüpfung an Inferenzflüsse und für eine Wertschöpfungsabgabe. Zweitens verlagert sich die Renten-Extraktion in der Modellschicht zunehmend auf *Fast*-Access- und Effizienzprämien statt auf Nominal-Token-Preise — was administrative Anknüpfungen an nominale API-Umsätze zusätzlich problematisch macht und die in § 8.3 skizzierte wertschöpfungs­orientierte Alternative weiter stützt. |
+| 2 | Europäische Kommission — Mitteilung *Commission starts enforcing AI Act rules and new transparency requirements on 2 August* vom 31. Juli 2026 mit amtlicher Bestätigung der planmäßigen Aktivierung des Durchsetzungsregimes des *EU AI Act* zum 2. August 2026: Kommissionsbefugnisse gegenüber Anbietern von Allzweck-KI-Modellen (GPAI) für Dokumentationsanforderung, Evaluierung, Anordnung von Korrekturmaßnahmen und Geldbußen bis 3 % des weltweiten Jahresumsatzes bzw. 15 Millionen Euro je nach Höchstbetrag; Aktivierung der Transparenzpflichten des Art. 50 (Kennzeichnungspflicht bei Interaktion mit Chatbots und interaktiven KI-Systemen, Kennzeichnung von Deepfakes, maschinenlesbare Markierung KI-generierter Inhalte); rund 190 Organisationen haben den flankierenden *Code of Practice on Transparency of AI-generated Content* vor der Anwendung unterzeichnet; nach *Fortune*-Berichterstattung vom gleichen Tag (*Brussels responds to explosion of AI risks with a new team of 38 bureaucrats*) erhält das *AI Office* zeitgleich 38 zusätzliche Stellen für den operativen Enforcement-Betrieb. | § 4.3 (angehängter Satzblock am Ende des Digital-Omnibus-Absatzes); § 11.3 (neuer Eintrag als *Europäische Kommission — DG CNECT*, unmittelbar vor dem *Verordnung (EU) 2026/1744*-Eintrag); Aktualitätshinweis am Dokumentende und README.md um Version-52.0-Passus ergänzt. | Amtliche Bestätigung der lange terminierten Aktivierung des Durchsetzungsregimes zum 2. August 2026 (Kernstichtag für die AI-Act-Umsetzung); erstmals bezifferter Personalaufwuchs im *AI Office* und erstmals bezifferte Zahl der CoP-Unterzeichnenden. Für die Deutschland-These (§ 8.3) relevant, weil die Aktivierung der Kennzeichnungspflicht des Art. 50 eine maschinenlesbare Grundlage für die administrative Zuordnung von KI-Systemklassen zu Bemessungsgrundlagen schafft — ein technischer Anknüpfungspunkt für eine spätere wertschöpfungs­orientierte KI-Nutzungsabgabe (§ 5.1, § 8.3). |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+
+- *Apple* Q3-FY2026-Ergebnis (30. Juli 2026 nach Marktschluss; Umsatz 109,4 Mrd. US-Dollar +16 %; Services 30,7 Mrd. US-Dollar; iPhone +22 %; Cook-Nachfolge durch John Ternus zum 1. September 2026): bereits im Vorlauf-Log 31. Juli 2026 verworfen (Konsumentenelektronik-/Services-Wachstum ohne unmittelbaren KI-/Substitutions-/Capex-Bezug); keine erneute Aufnahme.
+- *White-House Voluntary Frontier-Model-Framework* (Deadline 1. August 2026 nach EO 14409): zum Schnittdatum 1. August 2026 formelle Regierungspublikation nach zugänglicher Berichterstattung nicht vorliegend; Aufnahmekandidat für den unmittelbaren Folgelauf, sobald der Framework-Text veröffentlicht ist.
+- *Intel Data Center Group Layoffs* vom 21. Juli 2026, *Monday.com* Restrukturierung vom 22. Juli 2026, *Uber* Kundensupport-Reduktion vom 24. Juli 2026: außerhalb des Standard-7-Tage-Fensters (25. Juli – 1. August 2026); Aufnahmekandidaten nur bei erneuter Aggregat-Auswertung durch tagesaktuelle Tracker.
+- *Bundesagentur für Arbeit* Juli-2026-Arbeitsmarktstatistik (31. Juli 2026): Erwerbslosenzahl 3,007 Mio. (+71.000 gegenüber Juni 2026; Arbeitslosenquote 6,4 %; saisonale Wirkung dominiert); kein KI-spezifischer Detail-Sachstand im Vorspann. Aufnahmekandidat für Folgelauf, sobald ein KI-referenzierter Monatsbericht der Bundesagentur/IAB vorliegt.
+- *Fortune*-Bericht zum Anthropic-Modell-Hack: zeitgleich publiziert, aber sicherheitsspezifische Meldung ohne Steuer-/Substitutionsdimension im Sinne des Recherchekorridors; verworfen.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel plus Zusammenfassung erhalten; keine leeren Abschnitte |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; fünf Typen (§ 2.1), drei Säulen (§ 8), sieben Empfehlungen (§ 10.2) unverändert |
+| 2.1.3 Querverweise | OK | Neu eingeführte Rückverweise (§ 8.2 → § 8.3; § 4.3 → § 5.1, § 8.3) zeigen auf bestehende Unterabschnitte |
+| 2.1.4 Roter Faden | OK | Ergänzungen bleiben in Rezeptionslinie (§ 4 rechtlich; § 8.2 ökonomisch/technisch); Deutschland-These nicht berührt |
+| 2.1.5 Formatierung | OK | Keine doppelten `---`, konsistente Fettungen, keine neuen Tabellen |
+| 2.2.1 Sachliche Richtigkeit | OK | Alle Zahlen, Preise, Quellen aus mehreren Belegquellen verifiziert (OpenAI-Blogpost + Yahoo/Cryptonomist/ExplainX-Preisdetails; EU-Kommission-Landingpage + Fortune-Personalzahl) |
+| 2.2.2 Redundanzprüfung | OK | OpenAI-Preisschritt schließt inhaltlich an Claude-Sonnet-5-Absatz an (Fortsetzung, keine Doppelung); EU-Enforcement-Ergänzung erweitert Digital-Omnibus-Absatz um konkrete Aktivierungsdetails |
+| 2.2.3 Argumentation | OK | Deutschland-These (drei Säulen) und Acemoglu/Thuemmel-Distinktion unverändert; neue Belege stützen Wertschöpfungs- vs. Umsatzabgabe-Argument |
+| 2.2.4 Ausgewogenheit | OK | Kritikperspektive (chinesische Modelle als Wettbewerbsdruck) und Anbieterperspektive (Effizienzgewinne) gleichrangig referiert; Konjunktiv bei Effizienz-/Wettbewerbsargumenten eingehalten |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobenprüfung der neuen Absätze durchgeführt |
+| 2.3.2 Terminologie | OK | GPT-5.6 (Luna/Terra/Sol) durchgehend gleich geschrieben; AI Act, GPAI, Code of Practice, Art. 50 unverändert |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | OpenAI-Preisankündigung → § 11.5; EU-Kommission-Mitteilung → § 11.3 (institutionelles Dokument); keine Fließtext-Quellen ohne Verzeichniseintrag |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-Zitierstil eingehalten; vollständige URLs; keine URL-Shortener |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen (OpenAI-Blogpost, EU-Kommission-Landingpage) mit datierten Sekundärbelegen kombiniert |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe: EU-Kommission-Landingpage per WebFetch erfolgreich abgerufen (200 OK, Text vorhanden); OpenAI-Blog und CNBC lieferten 403 (Cloudflare), Ersatzbelege Yahoo Finance / Cryptonomist / ExplainX per WebFetch erfolgreich abgerufen. |
+| 2.4.5 Zitatgenauigkeit | OK | Sam-Altman-Zitat („major price cuts today: 80 % drop for GPT-5.6 Luna, now 0,20 US-Dollar per million input tokens") in mehreren Sekundärquellen wortgleich; EU-Kommission-Text zur GPAI-Enforcement und Art. 50 Kennzeichnungspflicht wörtlich verankert |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Kennzeichnung *de la Feria et al. 2022* unverändert erhalten; keine Kennzeichnung entfernt |
+| 2.5 Versionskonsistenz und Lizenz | OK | 52.0 an allen vier Stellen (Dokumentkopf, Aktualitätshinweis, README.md-Header, README.md-Zitiervorschlag); Autor/Organisation/Lizenz/Haftungshinweis unverändert |
+| 2.6 Automatisierte Prüfung | n/a | Keine dedizierten Skripte im Repository; manuelle Stichproben ersetzen den automatisierten Teil (§ 2.6 Validierung.md) |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Auffälligkeiten identifiziert | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine erforderlich | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: n/a (keine Fehler identifiziert)
+- Neue Version: 52.0
+- PDF erstellt: (in Phase 5)
+- Word erstellt: (in Phase 5)
+
+---
+
 ## Validierung 31. Juli 2026 (Lauf 001 vom 31. Juli 2026) — Version 50.0 → Version 51.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 31. Juli 2026 im Standard-7-Tage-Fenster (24.–31. Juli 2026); Cluster F und I im Standard-48-Stunden-Fenster (29.–31. Juli 2026). Ein belegbarer Neuzugang aus Cluster F/I: das *Amazon-Q2-2026-Ergebnis* vom 30. Juli 2026 nach Marktschluss (Konzernumsatz 200,6 Mrd. US-Dollar +20 %; operatives Ergebnis 27,5 Mrd. US-Dollar +43 %; Nettogewinn 62,6 Mrd. US-Dollar; verwässertes EPS 5,75 US-Dollar bei Konsens 1,81 US-Dollar; AWS 42,2 Mrd. US-Dollar +37 % — stärkstes AWS-Quartalswachstum seit achtzehn Quartalen; AWS-Operating-Income 16,6 Mrd. US-Dollar +63 % bei 39,4 % Marge; AWS-AI- und AWS-Chips-Run-Rate jeweils > 25 Mrd. US-Dollar (Trainium, Graviton); RPO 496 Mrd. US-Dollar; 2026-Full-Year-Capex-Guidance von rund 200 auf rund 220 Mrd. US-Dollar angehoben; +66,1 Mrd. US-Dollar Bruttoinvestition in *property and equipment* über zwölf Monate; freier Cashflow (TTM) −7,6 Mrd. US-Dollar; Q3-Umsatzguidance 197–202 Mrd. US-Dollar +9 bis 12 %; Q3-Operating-Income-Guidance 22,5–26,5 Mrd. US-Dollar; wörtliches Jassy-Zitat „AWS is booming, growing 36.7 % year-over-year in Q2 — our fastest growth in 18 quarters" und Konjunktiv-Positionierung zur 2026/2027-Kapazität; Ankündigung *AWS Forward Deployed Engineering*-Milliarden-Initiative).
