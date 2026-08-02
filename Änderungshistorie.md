@@ -54,6 +54,71 @@
 
 ---
 
+## 2026-08-02 — Lauf 001 — Version 52.0 → Version 53.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, C, E, G, H, J ohne belegbare Neuzugänge im 7-Tage- bzw. 48-Stunden-Fenster). Ein belegbarer Neuzugang aus Cluster D: Ablauf der 60-Tage-Frist des *Executive Order 14409* (2. Juni 2026) ohne Publikation der vorgesehenen Framework-Deliverables am 1. August 2026 (00:00 UTC).
+- Zeitfenster: Standard 7 Tage (26. Juli – 2. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (31. Juli – 2. August 2026).
+- Anzahl Suchanfragen: 12 Web-Suchen (Cluster A–J durchsucht) plus gezielte Einzel-Fetches zur Verifikation (Yahoo Finance zum White-House-Framework-Deadline-Artikel, NBER-Landingpage zu Working Paper 34873, EU-Kommission-Enforcement-Landingpage).
+- Lauf 001 vom 2. August 2026 ist der Folgelauf zu Lauf 001 vom 1. August 2026 (Version 51.0 → 52.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | D | Yahoo Finance / Vorp Labs, *White House AI Framework Deadline Lapses Without Public Deliverables / US Frontier Model Review Framework: EO 14409's August 1 Deadline* (Publikationsdatum Yahoo Finance 31. Juli 2026, Vorp-Labs-Analyse 1. August 2026) | https://finance.yahoo.com/technology/ai/articles/white-house-ai-framework-deadline-002011007.html \| https://vorplabs.com/ai-regulatory-updates/frontier-model-review-framework | übernommen (Publikationsdatum im 7-Tage-Fenster für Cluster D; Yahoo-Finance-URL direkt via WebFetch mit vollständigem Detailgerüst — 60-Tage-Frist aus EO 14409 vom 2. Juni 2026 („Promoting Advanced Artificial Intelligence Innovation and Security") ohne öffentliche Deliverables verstrichen; drei vorgesehene Deliverables — klassifizierter Benchmarking-Prozess (NSA/CISA/NIST), freiwilliges Frontier-Modell-Offenlegungs-Framework (Treasury/NSA/CISA/NIST), föderaler Cyber-Personalausbau (OPM) — sämtlich unabgeliefert; weder Federal-Register-Notice noch NIST-, CISA- oder OSTP-Publikation vorgelegt; verifiziert; Aufnahme in § 4.5 als Nachtrag zur Fable-5-Episode mit Rückwirkung auf § 8.2 und § 8.3 und Neueintrag in § 11.5) |
+| 2 | F/I | Meta Platforms Q2-2026-Ergebnis (29. Juli 2026 nach Marktschluss; Umsatz 60,8 Mrd. US-Dollar +28 %, EPS 6,18 US-Dollar, Q2-Capex 31,08 Mrd. US-Dollar, Full-Year-Capex-Guidance 130–145 Mrd. US-Dollar mit angehobenem unterem Ende) | https://www.stocktitan.net/news/META/meta-reports-second-quarter-2026-hkjfhayj8l0v.html \| https://www.investing.com/news/company-news/meta-q2-2026-slides-revenue-surges-28-as-ai-spending-pressures-profits-93CH-4821966 | verworfen (Dublette — bereits mit Version 51.0 in § 1.1 vollständig eingearbeitet, siehe Änderungshistorie-Eintrag vom 31. Juli 2026 Quelle #2) |
+| 3 | A | Korinek, A. & Lockwood, L. M., *Public Finance in the Age of AI: A Primer*, NBER Working Paper 34873 (Februar 2026) | https://www.nber.org/papers/w34873 \| https://www.nber.org/system/files/working_papers/w34873/w34873.pdf | verworfen (Dublette — bereits als Brookings-Parallelveröffentlichung vom 8. Januar 2026 im Literaturverzeichnis § 11.1 verankert) |
+| 4 | B | EU-Kommission — Enforcement-Aktivierung des *EU AI Act* zum 2. August 2026 (Aktivierungstag selbst; keine neue Mitteilung am 2. August 2026 identifiziert) | https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august | verworfen (Kommissionsmitteilung vom 31. Juli 2026 bereits mit Version 52.0 in § 4.3 und § 11.3 eingearbeitet; für den Aktivierungstag selbst zum Schnittdatum keine neue offizielle Kommunikation der Kommission vorliegend) |
+| 5 | F | Alphabet Q2-2026-Ergebnis (22. Juli 2026 nach Marktschluss; Umsatz 119,8 Mrd. US-Dollar +24 %, Cloud +82 %, Q2-Capex 44,9 Mrd. US-Dollar, FY-Capex 195–205 Mrd. US-Dollar) | https://www.cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html \| https://mlq.ai/news/alphabet-q2-capex-hits-record-449b-full-year-guidance-raised-to-195-205b/ | verworfen (Publikationsdatum 22. Juli 2026 außerhalb des Standard-7-Tage-Fensters 26. Juli – 2. August 2026; bereits in der laufenden Hyperscaler-Serie berücksichtigt) |
+| 6 | E | Bundesbank-Monatsbericht Juli 2026 (14. Juli 2026, Schwerpunktaufsatz zur Exportwettbewerbsfähigkeit) | https://publikationen.bundesbank.de/publikationen-de/berichte-studien/monatsberichte/monatsbericht-juli-2026-1000490 | verworfen (Publikationsdatum außerhalb 7-Tage-Fenster; kein KI-/Lohnquoten-Detailaufsatz identifiziert) |
+| 7 | J | Humanoid-Robotik-Deployment-Berichte Juli 2026 (Figure AI 10.000 Partner-Warehouse-Deployments; Tesla Optimus Produktions-Ramp 300 Einheiten/Woche im August 2026; BMW-Pilot Spartanburg mit Figure 02 abgeschlossen) | https://newmarketpitch.com/blogs/news/humanoid-robotics-optimus-deployment-tracker \| https://www.vaasblock.com/news/humanoid-robotics-figure-tesla-optimus-commercial-reality-2026/ | verworfen (keine konzernseitig veröffentlichten und datierten Primärzahlen im 7-Tage-Fenster; Aufnahmekandidat nur bei publiziertem IFR-/Konzern-Update) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 4.5 (Fable-5-Episoden-Absatz, angehängter Satzblock am Ende) | Ergänzung | Nachtrag zum 1. August 2026: Die im *Executive Order 14409* („Promoting Advanced Artificial Intelligence Innovation and Security", 2. Juni 2026) vorgesehene 60-Tage-Frist zur Ausarbeitung der zugehörigen Framework-Deliverables (klassifizierter Benchmarking-Prozess durch NSA/CISA/NIST, freiwilliges Frontier-Modell-Vor-Freigabe-Framework durch Treasury/NSA/CISA/NIST, föderaler Cyber-Personalausbau durch OPM) sei nach *Yahoo-Finance*-Berichterstattung vom 31. Juli 2026 und der zugrundeliegenden *Vorp-Labs*-Analyse zum Fristablauf am 1. August 2026 (00:00 UTC) ohne öffentliche Deliverables verstrichen — weder Federal-Register-Eintrag noch NIST-, CISA- oder OSTP-Publikationen seien vorgelegt worden (Konjunktivpflicht nach § 4.2 Claude.md eingehalten); die Beobachtung verstärkt die im Absatz bereits entwickelte Asymmetrie zwischen einem exekutiv-informal wirkenden US-Regime und dem am 2. August 2026 in Kraft tretenden institutionalisierten *EU-AI-Act*-Durchsetzungsregime. | 1 |
+| 2 | § 11.5 (Journalistische und praxisorientierte Quellen) | Ergänzung | Neuer Eintrag *Yahoo Finance / Vorp Labs* (31. Juli 2026 / 1. August 2026) mit vollständiger Zitationskette, EO-14409-Titelangabe, Deliverables-Verantwortlichen und URLs — als erster Eintrag der Sektion, vor dem OpenAI-GPT-5.6-Eintrag der Version 52.0. | 1 |
+| 3 | Aktualitätshinweis (Dokumentende) | Aktualisierung | Version-53.0-Nachtrag zur White-House-EO-14409-Frist mit § 4.5-, § 8.2-, § 8.3- und § 11.5-Rückverweisen ergänzt; Schnittdatum 2. August 2026 (Lauf 001). | 1 |
+| 4 | Dokumentkopf, README.md (Version, Zitiervorschlag, Änderungslog) | Aktualisierung | Version 52.0 → 53.0 am Dokumentkopf, am README-Header und im README-Zitiervorschlag; Aufnahme des Version-53.0-Nachtrags in die README-Änderungsliste mit Kurzfassung des Neuzugangs. | 1 |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Meta Platforms Q2-2026-Ergebnis (29. Juli 2026) | F/I | Dublette — bereits mit Version 51.0 in § 1.1 eingearbeitet |
+| 2 | Korinek & Lockwood, NBER Working Paper 34873 (Februar 2026) | A | Dublette — bereits als Brookings-Parallelveröffentlichung vom 8. Januar 2026 in § 11.1 verankert |
+| 3 | EU-Kommission Enforcement-Aktivierung am 2. August 2026 | B | Mitteilung vom 31. Juli 2026 bereits mit Version 52.0 eingearbeitet; keine neue Kommunikation der Kommission am Aktivierungstag identifiziert |
+| 4 | Alphabet Q2-2026-Ergebnis (22. Juli 2026) | F | Publikationsdatum außerhalb Standard-7-Tage-Fenster (26. Juli – 2. August 2026) |
+| 5 | Bundesbank-Monatsbericht Juli 2026 (14. Juli 2026) | E | Außerhalb 7-Tage-Fenster; kein KI-/Lohnquoten-Detailaufsatz |
+| 6 | Humanoid-Robotik-Deployment-Berichte Juli 2026 | J | Keine konzernseitig datierten Primärzahlen im 7-Tage-Fenster |
+| 7 | Chinesische Gerichtsurteile zu AI-Layoffs (Hangzhou/Beijing, April/Mai 2026) | C | Publikationsdatum außerhalb 7-Tage-Fenster; kein neuer Sachstand |
+| 8 | Google/Alphabet Cloud-Layoffs (rolling reviews, geschätzte 1.500–3.000 Ingenieure) | F | Keine konzernseitig datierte Einzelankündigung im 7-Tage-Fenster |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja (Meta Q2, Korinek/Lockwood, EU-Kommission-Mitteilung als bereits eingearbeitet identifiziert)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Verweis auf den neu angelegten Block „Validierung 2. August 2026 (Lauf 001 vom 2. August 2026) — Version 52.0 → Version 53.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (an allen vier Stellen 52.0 → 53.0)
+- E-Mail-Versand (Phase 5b): Fallback — kein `mail_send`/`send_mail`/`send_message`/`outlook_send`-Tool in der laufenden Session erreichbar (Microsoft-365-MCP nur mit Read-Tools verbunden); E-Mail-Inhalt nach `daily-mail.txt` im Repo-Root geschrieben.
+- WhatsApp-Versand (Phase 5b): Fallback — kein `whatsapp`-MCP-Server in der laufenden Session erreichbar; Zusammenfassung nach `daily-whatsapp.txt` im Repo-Root geschrieben.
+- Branch auf main gemerged und gelöscht: (in Phase 6)
+
+### Auffälligkeiten / offene Punkte
+
+- Der Neuzugang ist ein *Nicht-Publikations-Fakt* (verstrichene Frist ohne Deliverables) und wurde bewusst mit Konjunktivpflicht formuliert; Aufnahmekandidat für Nachverdichtung, sobald einer der beteiligten Bundesbehörden (Treasury, NSA, CISA, NIST, OPM, OSTP) den Framework-Text nachträglich publiziert oder eine offizielle Fristverlängerung bekanntgibt.
+- Meta Q2-2026 wurde in diesem Lauf als Dublette erkannt; die im Version-51.0-Eintrag verankerte Datenlage bleibt maßgeblich.
+- Für Cluster G (KI im Gesundheitswesen): Keine G-BA-Beschlüsse zu KI-gestützten Leistungen im 7-Tage-Fenster identifiziert; Aufnahmekandidat für Folgelauf.
+- Für Cluster H (Deutschland-These-Bezugspunkte): Keine neuen deutschen Industriepolitik-Papiere im 7-Tage-Fenster identifiziert.
+- Phase 5b: Weder E-Mail- noch WhatsApp-Versand in dieser Session-Umgebung technisch möglich (kein passender MCP-Tool-Namensraum erreichbar); die vorbereiteten Textinhalte liegen unter `daily-mail.txt` und `daily-whatsapp.txt` und werden durch `.gitignore` vom Commit ausgeschlossen — Empfängerdaten bleiben ausschließlich in der Routine-Konfiguration und nicht im Repo.
+
+---
+
 ## 2026-08-01 — Lauf 001 — Version 51.0 → Version 52.0
 
 ### Recherchekorridor

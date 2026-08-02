@@ -7,6 +7,77 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 2. August 2026 (Lauf 001 vom 2. August 2026) — Version 52.0 → Version 53.0
+
+**Auslöser:** Regulärer Daily-Update-Lauf. Web-Recherche im Korridor der Cluster A–J am 2. August 2026 im Standard-7-Tage-Fenster (26. Juli – 2. August 2026); Cluster F und I zusätzlich im Standard-48-Stunden-Fenster (31. Juli – 2. August 2026). Ein belegbarer Neuzugang aus Cluster D: Ablauf der 60-Tage-Frist des *Executive Order 14409* („Promoting Advanced Artificial Intelligence Innovation and Security", 2. Juni 2026) ohne öffentliche Deliverables am 1. August 2026 (00:00 UTC) — nachrichtlich belegt durch *Yahoo-Finance*-Berichterstattung vom 31. Juli 2026 („White House AI Framework Deadline Lapses Without Public Deliverables") und die zugrundeliegende *Vorp-Labs*-Analyse.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | Yahoo Finance / Vorp Labs — Analyse zum Ablauf der 60-Tage-Frist des *Executive Order 14409* („Promoting Advanced Artificial Intelligence Innovation and Security", 2. Juni 2026) am 1. August 2026 (00:00 UTC): Weder Federal-Register-Notice noch NIST-, CISA- oder OSTP-Publikation vorgelegt; drei vorgesehene Deliverables — klassifizierter Benchmarking-Prozess (NSA/CISA/NIST), freiwilliges Frontier-Modell-Offenlegungs-Framework (Treasury/NSA/CISA/NIST) und föderaler Cyber-Personalausbau (OPM) — sämtlich unabgeliefert; Berichterstattung: *Yahoo Finance* („White House AI Framework Deadline Lapses Without Public Deliverables", 31. Juli 2026), *Vorp Labs* („US Frontier Model Review Framework: EO 14409's August 1 Deadline"). | § 4.5 (angehängter Satzblock am Ende des Fable-5-Episoden-Absatzes); § 11.5 (neuer Eintrag als erster Eintrag der Sektion, vor dem OpenAI-GPT-5.6-Eintrag der Version 52.0); Aktualitätshinweis am Dokumentende und README.md um Version-53.0-Passus ergänzt. | Schließt eine im Vorlauf-Log der Version 52.0 als „Aufnahmekandidat für unmittelbaren Folgelauf" markierte Lücke: Der Framework-Text ist nicht publiziert worden, die Frist gilt als verstrichen. Für die Deutschland- und Europa-Perspektive relevant, weil der Befund die Asymmetrie zwischen einem exekutiv-informal wirkenden US-Regime (Einzelfall-Anwendungen wie die Fable-5-Episode) und einem institutionalisierten, mit Bußgeld- und Transparenzpflichten hinterlegten europäischen *AI-Act*-Durchsetzungsregime ab dem 2. August 2026 verdichtet — mit unmittelbarer Rückwirkung auf die in § 8.3 skizzierten Anknüpfungspunkte einer wertschöpfungsorientierten KI-Nutzungsabgabe. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+
+- *Meta Platforms* Q2-2026-Ergebnis (29. Juli 2026 nach Marktschluss; Umsatz 60,8 Mrd. US-Dollar +28 %, EPS 6,18 US-Dollar, Q2-Capex 31,08 Mrd. US-Dollar, Full-Year-Capex-Guidance 130–145 Mrd. US-Dollar): Dublette — bereits mit Version 51.0 in § 1.1 vollständig eingearbeitet (siehe Änderungshistorie-Eintrag vom 31. Juli 2026, Quelle #2). Keine erneute Aufnahme.
+- *Alphabet* Q2-2026-Ergebnis (22. Juli 2026; Umsatz 119,8 Mrd. US-Dollar +24 %, Q2-Capex 44,9 Mrd. US-Dollar, FY-Capex 195–205 Mrd. US-Dollar): Bereits in Version 44.0/45.0 verankerte Serie (23. Juli 2026); außerhalb des Standard-7-Tage-Fensters (26. Juli – 2. August 2026).
+- *NBER Working Paper 34873* (Korinek & Lockwood, *Public Finance in the Age of AI: A Primer*, Februar 2026): Dublette — bereits als Brookings-Parallelveröffentlichung vom 8. Januar 2026 im Literaturverzeichnis (§ 11.1) verankert.
+- *EU-Kommission* Enforcement-Aktivierung am 2. August 2026 selbst: Die Kommissionsmitteilung vom 31. Juli 2026 („Commission starts enforcing AI Act rules and new transparency requirements on 2 August") ist bereits mit Version 52.0 vollständig in § 4.3 und § 11.3 eingearbeitet; für den Aktivierungstag selbst liegt zum Schnittdatum keine neue offizielle Kommunikation der Kommission vor.
+- *Chinesische Gerichtsurteile* zu AI-Layoffs (Hangzhou/Beijing, April/Mai 2026): Publikationsdatum außerhalb 7-Tage-Fenster; kein neuer Sachstand.
+- *Google/Alphabet Cloud-Layoffs* (Juli 2026, geschätzte 1.500–3.000 Ingenieure durch Rolling-Review, keine einzelne datierte Ankündigung im 7-Tage-Fenster): Aufnahmekandidat nur bei konzernseitig datierter Einzelankündigung.
+- *Bundesbank-Monatsbericht Juli 2026* (14. Juli 2026): außerhalb 7-Tage-Fenster; kein KI-/Lohnquoten-Detailaufsatz identifiziert.
+- *Humanoid-Robotik*-Deployment-Berichte (Figure AI 10.000 Deployments, Tesla Optimus Produktions-Ramp): keine konzernseitig veröffentlichten und datierten Primärzahlen im 7-Tage-Fenster; Aufnahmekandidat nur bei publiziertem IFR-/Konzern-Update.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel plus Zusammenfassung erhalten; keine leeren Abschnitte; Einbau als Anhangssatz an bestehenden § 4.5-Absatz und als Neueintrag in § 11.5 |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; fünf Typen (§ 2.1), drei Säulen (§ 8), sieben Empfehlungen (§ 10.2) unverändert |
+| 2.1.3 Querverweise | OK | Neu eingeführte Rückverweise (§ 4.5 → § 4.3, § 8.2, § 8.3) zeigen auf bestehende Unterabschnitte |
+| 2.1.4 Roter Faden | OK | Nachtrag bleibt in der § 4.5-Rezeptionslinie (US-Rechts- und Steuerpolitik); Deutschland-These nicht berührt |
+| 2.1.5 Formatierung | OK | Keine doppelten `---`, konsistente Fettungen, keine neuen Tabellen |
+| 2.2.1 Sachliche Richtigkeit | OK | Fristablauf-Faktum aus zwei unabhängigen Belegquellen (Yahoo Finance direkt via WebFetch, Vorp-Labs-Referenz in Yahoo-Text und Websuche) verifiziert; EO-14409-Titel und Deliverables-Verantwortliche (NSA/CISA/NIST/Treasury/OPM) aus Yahoo-Fetch übernommen |
+| 2.2.2 Redundanzprüfung | OK | Nachtrag knüpft direkt an die bestehende Fable-5-Episode an (kein Neuanlauf des EO-Kontexts); keine Doppelung |
+| 2.2.3 Argumentation | OK | Deutschland-These (drei Säulen) und Acemoglu/Thuemmel-Distinktion unverändert; neuer Beleg stützt die im § 4.5-Absatz bereits entwickelte Asymmetrie zwischen US-exekutiv-informalem Regime und institutionalisierter EU-Durchsetzung |
+| 2.2.4 Ausgewogenheit | OK | Sachverhalt neutral referiert; Konjunktivpflicht bei sekundär-berichteter Nicht-Publikation strikt eingehalten |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobenprüfung des neuen Absatzes durchgeführt |
+| 2.3.2 Terminologie | OK | EO 14409, „covered frontier models", NSA/CISA/NIST/OSTP/Treasury/OPM einheitlich; „Executive Order" nicht mit „Verordnung" verwechselt |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Yahoo-Finance/Vorp-Labs → § 11.5 (journalistische/praxisorientierte Quellen); keine Fließtext-Quelle ohne Verzeichniseintrag |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-Zitierstil eingehalten; vollständige URLs; keine URL-Shortener |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Yahoo Finance als Primärbericht mit Vorp-Labs-Analyse als tiefergehende Quelle kombiniert; keine ausschließliche Blog-Basis |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Yahoo-Finance-URL per WebFetch erfolgreich abgerufen (Text mit vollständigem Detailgerüst); Vorp-Labs-URL in Websuche gelistet, kein WebFetch-Direktabruf durchgeführt |
+| 2.4.5 Zitatgenauigkeit | OK | Yahoo-Finance-Kernaussage („As of 00:00Z on August 1, 2026, the federal government failed to deliver on the mandates established by Executive Order 14409") sinngetreu und im Konjunktiv wiedergegeben; keine wörtlichen Zitate |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Kennzeichnung *de la Feria et al. 2022* unverändert erhalten; keine Kennzeichnung entfernt |
+| 2.5 Versionskonsistenz und Lizenz | OK | 53.0 an allen vier Stellen (Dokumentkopf, Aktualitätshinweis, README.md-Header, README.md-Zitiervorschlag); Autor/Organisation/Lizenz/Haftungshinweis unverändert |
+| 2.6 Automatisierte Prüfung | n/a | Keine dedizierten Skripte im Repository; manuelle Stichproben ersetzen den automatisierten Teil (§ 2.6 Validierung.md) |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Auffälligkeiten identifiziert | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine erforderlich | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: n/a (keine Fehler identifiziert)
+- Neue Version: 53.0
+- PDF erstellt: (in Phase 5)
+- Word erstellt: (in Phase 5)
+
+---
+
 ## Validierung 1. August 2026 (Lauf 001 vom 1. August 2026) — Version 51.0 → Version 52.0
 
 **Auslöser:** Erster regulärer Daily-Update-Lauf des Tages. Web-Recherche im Korridor der Cluster A–J am 1. August 2026 im Standard-7-Tage-Fenster (25. Juli – 1. August 2026); Cluster F und I im Standard-48-Stunden-Fenster (30. Juli – 1. August 2026). Zwei belegbare Neuzugänge: (a) OpenAI-Preissenkung vom 30. Juli 2026 in der drei Wochen zuvor freigegebenen *GPT-5.6*-Familie (*Luna* Input/Output 1,00/6,00 → 0,20/1,20 US-Dollar je Million Token, −80 %; *Terra* 2,50/15,00 → 2,00/12,00 US-Dollar, −20 %; *Sol* unverändert, ergänzt um kostenpflichtigen *Fast*-Modus mit 2,5-facher Ausführungsgeschwindigkeit bei doppeltem Preis); (b) Mitteilung der Europäischen Kommission vom 31. Juli 2026 zur planmäßigen Aktivierung des *EU-AI-Act*-Durchsetzungsregimes zum 2. August 2026 mit GPAI-Durchsetzungsbefugnissen und Aktivierung der Transparenzpflichten des Art. 50.
