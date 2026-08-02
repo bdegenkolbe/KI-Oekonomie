@@ -107,7 +107,8 @@
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (an allen vier Stellen 52.0 → 53.0)
 - E-Mail-Versand (Phase 5b): Fallback — kein `mail_send`/`send_mail`/`send_message`/`outlook_send`-Tool in der laufenden Session erreichbar (Microsoft-365-MCP nur mit Read-Tools verbunden); E-Mail-Inhalt nach `daily-mail.txt` im Repo-Root geschrieben.
 - WhatsApp-Versand (Phase 5b): Fallback — kein `whatsapp`-MCP-Server in der laufenden Session erreichbar; Zusammenfassung nach `daily-whatsapp.txt` im Repo-Root geschrieben.
-- Branch auf main gemerged und gelöscht: (in Phase 6)
+- Branch auf main gemerged: Ja (Merge-Commit `183dd89` auf `main`, Push auf `origin/main` erfolgreich).
+- Session-Branch `claude/determined-einstein-oqlywg` gelöscht: lokal Ja; Remote fehlgeschlagen (HTTP 403 „Cannot update this protected ref" auf `git push origin --delete`; identisches Muster wie in den Vorläufen — der Remote-Branch bleibt sichtbar, ist aber vollständig in `main` enthalten und wird bei einer regulären Aufräumaktion außerhalb dieses Laufs entfernt).
 
 ### Auffälligkeiten / offene Punkte
 
