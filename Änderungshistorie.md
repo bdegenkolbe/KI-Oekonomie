@@ -111,8 +111,8 @@
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (an allen vier Stellen 53.0 → 54.0)
 - E-Mail-Versand (Phase 5b): Fallback — kein `mail_send`/`send_mail`/`send_message`/`outlook_send`-Tool in dieser Session erreichbar (Microsoft-365-MCP nur mit Read-Tools verbunden); E-Mail-Inhalt nach `daily-mail.txt` im Repo-Root geschrieben (gitignored).
 - WhatsApp-Versand (Phase 5b): Fallback — kein `whatsapp`-MCP-Server in dieser Session verbunden; Zusammenfassung nach `daily-whatsapp.txt` im Repo-Root geschrieben (gitignored).
-- Branch auf main gemerged: siehe Phase 6
-- Session-Branch `claude/determined-einstein-vleb0q` gelöscht: siehe Phase 6
+- Branch auf main gemerged: Ja (Merge-Commit `33304d2` auf `main`, Push auf `origin/main` mit „Bypassed rule violations for refs/heads/main"-Hinweistext erfolgreich).
+- Session-Branch `claude/determined-einstein-vleb0q` gelöscht: lokal Ja; Remote fehlgeschlagen (HTTP 403 „Cannot update this protected ref" auf `git push origin --delete`; identisches Muster wie in den Vorläufen — der Remote-Branch bleibt sichtbar, ist aber vollständig in `main` enthalten und wird bei einer regulären Aufräumaktion außerhalb dieses Laufs entfernt).
 
 ### Auffälligkeiten / offene Punkte
 
