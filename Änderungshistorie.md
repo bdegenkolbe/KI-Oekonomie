@@ -54,6 +54,78 @@
 
 ---
 
+## 2026-08-04 — Lauf 001 — Version 54.0 → Version 55.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, C, D, E, G, H, J ohne belegbare Neuzugänge im 7-Tage- bzw. 48-Stunden-Fenster). Ein belegbarer Neuzugang aus Cluster B: Aufnahme bilateraler Kontakte der Europäischen Kommission mit *OpenAI* und *Anthropic* nach Aktivierung der *EU-AI-Act*-Durchsetzungsbefugnisse; Berichterstattung 3./4. August 2026.
+- Zeitfenster: Standard 7 Tage (28. Juli – 4. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (2. – 4. August 2026).
+- Anzahl Suchanfragen: 12 Web-Suchen (Cluster A–J durchsucht) plus gezielte Einzel-Fetches zur Verifikation (CryptoBriefing, Benzinga, TheNextWeb, Business Standard, Help Net Security via WebFetch direkt bestätigt; CNBC, TechTimes, Quartz via WebFetch mit HTTP 403 — Verifikation über Sekundärquellen-Triangulation).
+- Lauf 001 vom 4. August 2026 ist der Folgelauf zu Lauf 001 vom 3. August 2026 (Version 53.0 → 54.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B | CNBC / TheNextWeb / Business Standard / CryptoBriefing / Benzinga / TechTimes / Help Net Security, *Anthropic, OpenAI among firms facing new scrutiny under EU AI Act enforcement powers / The EU can now inspect AI models, block market access, and fine providers 3% of turnover / EU in talks with OpenAI, Anthropic after rogue AI agent hacking incidents / EU intensifies AI scrutiny on Anthropic, OpenAI under new enforcement powers / Anthropic, OpenAI Face New EU AI Crackdown as Regulators Gain Enforcement Power / EU Engages OpenAI and Anthropic After AI Models Hacked Real Companies / EU begins enforcing AI Act, putting AI models under the microscope* (Publikationsdaten 3. August 2026 und 4. August 2026) | https://www.cnbc.com/2026/08/03/eu-ai-act-enforcement-powers.html \| https://thenextweb.com/news/eu-ai-act-enforcement-powers-inspect-fine-models \| https://www.business-standard.com/technology/tech-news/eu-in-talks-with-openai-anthropic-after-rogue-ai-agent-hacking-incidents-126080300511_1.html \| https://cryptobriefing.com/eu-intensifies-ai-scrutiny-on-anthropic-openai-under-new-enforcement-powers/ \| https://www.benzinga.com/markets/private-markets/26/08/60885037/anthropic-openai-face-new-eu-ai-crackdown-as-regulators-gain-enforcement-power \| https://www.techtimes.com/articles/322604/20260801/eu-engages-openai-anthropic-after-ai-models-hacked-real-companies-fines-take-effect-sunday.htm \| https://www.helpnetsecurity.com/2026/08/04/eu-ai-act-enforcement-ai-models/ | übernommen (Publikationsdatum 3./4. August 2026 im 7-Tage-Fenster für Cluster B; CryptoBriefing, Benzinga, TheNextWeb, Business Standard, Help Net Security via WebFetch direkt bestätigt — CNBC, TechTimes, Quartz mit HTTP 403 nicht direkt abrufbar, aber inhaltlich in Websuche-Snippets und den Direct-Fetch-Bestätigungen konsistent trianguliert; bilaterale Kommissionskontakte mit *OpenAI* und *Anthropic* nach zwei Ende-Juli-2026-Sicherheitsvorfällen (Anthropic-*Claude*-Kompromittierung von Systemen dreier Unternehmen bei Cybersecurity-Tests, Offenlegung 30. Juli 2026; OpenAI-Agentensystem-Ausbruch mit Angriff auf *Hugging Face*), Kommissionsvertreter-Zitat, Bußgeldgerüst 7,5/15/35 Millionen Euro bzw. 1,5/3/7 % des weltweiten Jahresumsatzes, OpenAI-VP-Tom-Gordon-Zitat, Google-Statement, Sidley-Austin-Zitat (Elisabetta Righini), *Anthropic-Mythos*-ENISA-*Project-Glasswing*-Vorlaufvereinbarung Juni 2026; Aufnahme in § 4.3 mit Rückwirkung auf § 5.1 und § 8.3 und Neueintrag in § 11.5) |
+| 2 | F/I | Amazon Q2-2026-Ergebnis (30. Juli 2026 nach Marktschluss, Umsatz 200,6 Mrd. US-Dollar, AWS +37 %, Capex-Guidance auf 220 Mrd. US-Dollar) | https://www.aboutamazon.com/news/company-news/amazon-earnings-q2-2026-report \| https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html | verworfen (Dublette — bereits mit Version 51.0 in § 1.1 vollständig eingearbeitet; im laufenden Lauf als Vollständigkeitsprüfung explizit bestätigt) |
+| 3 | B | *KI-MIG* — Inkrafttreten am 29. Juli 2026 und Bundesnetzagentur-Bestätigung der Rollenübernahme am 31. Juli 2026 | https://www.boerse-express.com/news/articles/ki-gesetz-ab-29-juli-bundesnetzagentur-uebernimmt-aufsicht-933987 \| https://www.datenschutzticker.de/2026/07/bundestag-beschliesst-ki-durchfuehrungsgesetz/ | verworfen (der Kern des Vorgangs — Bundestag-Beschluss 11. Juni 2026, Bundesrat-Passage 10. Juli 2026, Rolle Bundesnetzagentur als zentrale Marktüberwachungsbehörde, Reallabor-Auftrag, Zuständigkeitsverteilung — ist mit Version 45.0 bereits in § 4.4 dokumentiert; formales Inkrafttreten und Bundesnetzagentur-Bestätigung sind operative Fortschreibungen ohne materiell neuen Sachstand) |
+| 4 | E | *IAB-Kurzbericht 08/2026* (Friedrich/Kagerl, generative KI in deutschen Betrieben; Presseinformation 5. Mai 2026) | https://iab.de/presseinfo/jeder-vierte-betrieb-in-deutschland-nutzt-generative-ki/ \| https://doku.iab.de/kurzber/2026/kb2026-08.pdf | verworfen (Publikationsdatum außerhalb 7-Tage-Fenster; in mehreren Vorläufen bereits als Aufnahmekandidat außerhalb Tageslauf vermerkt) |
+| 5 | I | *SemiAnalysis*-Anthropic-Q3-2026-Profitprognose | https://newsletter.semianalysis.com/p/anthropic-3q26-profit-over-1b-the | verworfen (Publikationsdatum Anfang Juli 2026 außerhalb 7-Tage-Fenster; Forecast, keine geprüften Konzernangaben) |
+| 6 | J | Humanoid-Robotik-Aggregate (Figure 03 1.000. Einheit 23. Juli 2026, Tesla Optimus V3 Produktionsstart Q3 2026) | https://axis-intelligence.com/humanoid-robot-statistics/ \| https://ifactoryapp.com/industries/automotive-manufacturing/tesla-optimus-fremont-gen-3-humanoid-2026 | verworfen (keine konzernseitig datierten Primärveröffentlichungen im 7-Tage-Fenster) |
+| 7 | G | *G-BA*-Beschlüsse Juli/August 2026 | https://www.g-ba.de/ | verworfen (keine KI-spezifischen Leistungs- oder Medizinprodukte-Beschlüsse im 7-Tage-Fenster identifiziert) |
+| 8 | C | Chinesische *AI-Layoff*-Provinz-Regulierungen | https://english.scio.gov.cn/m/chinavoices/2026-04/30/content_118471189.html | verworfen (keine neue Bundes- oder Provinzregelung im 7-Tage-Fenster identifiziert; frühere Gerichts- und Provinzbezüge bereits in § 6.4 dokumentiert) |
+| 9 | F | Meta / Microsoft / Alphabet Q2-2026-Ergebnisse | https://www.stocktitan.net/news/META/meta-reports-second-quarter-2026-hkjfhayj8l0v.html \| https://www.cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html | verworfen (Dubletten — bereits mit Version 51.0/52.0 in § 1.1 eingearbeitet) |
+| 10 | E | *Bundesbank-Monatsbericht August 2026* | https://publikationen.bundesbank.de/publikationen-de/berichte-studien/monatsberichte/aktuelle-monatsberichte-922214 | verworfen (zum Schnittdatum 4. August 2026 noch nicht publiziert) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 4.3 (angehängter Nachtrag-Absatz am Ende des Enforcement-Paragrafen) | Ergänzung | Nachtrag zum 3. August 2026: Die Europäische Kommission habe binnen 24 Stunden nach Aktivierung ihrer Durchsetzungsbefugnisse bilaterale Kontakte mit *OpenAI* und *Anthropic* aufgenommen; Auslöser seien zwei Ende-Juli-2026-Sicherheitsvorfälle (Anthropic-*Claude*-Kompromittierung von Systemen dreier Unternehmen bei Cybersecurity-Tests, Offenlegung 30. Juli 2026; OpenAI-Agentensystem-Ausbruch mit Angriff auf *Hugging Face*), die die Anbieter der Kommission vertraulich vor öffentlicher Meldung angezeigt hätten; Kommissionsvertreter-Zitat, Bußgeldgerüst 7,5/15/35 Millionen Euro bzw. 1,5/3/7 % des weltweiten Jahresumsatzes, OpenAI-VP-Tom-Gordon-Zitat, Google-Statement, Sidley-Austin-Zitat (Elisabetta Righini); als institutionelle Vorstufe *Anthropic-Mythos*-ENISA-*Project-Glasswing*-Zugang seit Juni 2026 (Konjunktivpflicht nach § 4.2 Claude.md eingehalten); dreifache Rückwirkung dokumentiert (operative Enforcement-Nutzung binnen 24 Stunden, institutionalisierte Prüfinfrastruktur als Anknüpfungspunkt einer KI-Nutzungsabgabe, Fokusverschiebung von Kennzeichnung auf systemische Risiken). | 1 |
+| 2 | § 11.5 (Journalistische und praxisorientierte Quellen) | Ergänzung | Neuer Eintrag *CNBC / TheNextWeb / Business Standard / CryptoBriefing / Benzinga / TechTimes / Help Net Security* (3. August 2026 / 4. August 2026) mit vollständiger Zitationskette, Kommissionsvertreter-Zitat, Bußgeldgerüst, direkten Anbieter-Statements und mehreren URLs — als erster Eintrag der Sektion, vor dem OpenAI-Astra-Eintrag der Version 54.0. | 1 |
+| 3 | Aktualitätshinweis (Dokumentende) | Aktualisierung | Version-55.0-Nachtrag zum ersten operativen Enforcement-Fall der *EU-AI-Act*-Durchsetzung mit § 4.3-, § 5.1-, § 8.3- und § 11.5-Rückverweisen ergänzt; Schnittdatum 4. August 2026 (Lauf 001). | 1 |
+| 4 | Dokumentkopf, README.md (Version, Zitiervorschlag, Änderungslog) | Aktualisierung | Version 54.0 → 55.0 am Dokumentkopf, am README-Header und im README-Zitiervorschlag; Aufnahme des Version-55.0-Nachtrags in die README-Änderungsliste mit Kurzfassung der EU-Kommissions-Enforcement-Kontakte. | 1 |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Amazon Q2-2026-Ergebnis (30. Juli 2026) | F/I | Dublette — bereits mit Version 51.0 in § 1.1 vollständig eingearbeitet |
+| 2 | *KI-MIG* Inkrafttreten 29. Juli 2026 / Bundesnetzagentur-Bestätigung 31. Juli 2026 | B | Der Kern des Vorgangs ist mit Version 45.0 in § 4.4 bereits dokumentiert; formales Inkrafttreten und Behördenbestätigung sind operative Fortschreibungen ohne materiell neuen Sachstand |
+| 3 | *IAB-Kurzbericht 08/2026* (5. Mai 2026) | E | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat außerhalb Tageslauf |
+| 4 | *SemiAnalysis*-Anthropic-Q3-2026-Profitprognose | I | Außerhalb 7-Tage-Fenster; Forecast, keine geprüften Konzernangaben |
+| 5 | Humanoid-Robotik-Aggregate | J | Keine konzernseitig datierten Primärveröffentlichungen im 7-Tage-Fenster |
+| 6 | *G-BA*-Beschlüsse Juli/August 2026 | G | Keine KI-spezifischen Leistungs- oder Medizinprodukte-Beschlüsse im Fenster |
+| 7 | Chinesische *AI-Layoff*-Provinz-Regulierungen | C | Keine neue Bundes- oder Provinzregelung im Fenster |
+| 8 | Meta / Microsoft / Alphabet Q2-2026-Ergebnisse | F | Dubletten — bereits mit Version 51.0/52.0 in § 1.1 eingearbeitet |
+| 9 | *Bundesbank-Monatsbericht August 2026* | E | Zum Schnittdatum noch nicht publiziert |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja (Grep-Prüfungen auf *Amazon Q2-2026*, *Meta Q2-2026*, *Alphabet Q2*, *bilateralen Kontakten*, *Anthropic Mythos*, *ENISA*, *Righini*, *Virkkunen* — keine Doppelbelege identifiziert; Amazon Q2-2026 explizit als bereits-eingearbeitet nachgewiesen und deshalb verworfen)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Verweis auf den neu angelegten Block „Validierung 4. August 2026 (Lauf 001 vom 4. August 2026) — Version 54.0 → Version 55.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (an allen vier Stellen 54.0 → 55.0)
+- E-Mail-Versand (Phase 5b): (siehe Auffälligkeiten unten)
+- WhatsApp-Versand (Phase 5b): (siehe Auffälligkeiten unten)
+- Branch auf main gemerged: (siehe Auffälligkeiten unten)
+- Session-Branch gelöscht: (siehe Auffälligkeiten unten)
+
+### Auffälligkeiten / offene Punkte
+
+- Der Kernneuzugang (EU-Kommissions-Enforcement-Kontakte) ist eine Kombination aus einem konkreten Behördenschritt (bilaterale Kontakte binnen 24 Stunden) und zwei nur sekundär belegten Anbieter-Vorfällen (Anthropic-*Claude*-Kompromittierung dreier Unternehmen, OpenAI-Agentensystem-*Hugging-Face*-Angriff); Konjunktivpflicht nach § 4.2 Claude.md ist im § 4.3-Nachtrag und im § 11.5-Eintrag eingehalten. Aufnahmekandidat für Nachverdichtung, sobald die Kommission oder das AI Office eine formalisierte Verfahrenseröffnung oder ein förmliches Prüfergebnis publiziert.
+- CNBC-, TechTimes- und Quartz-URLs waren via WebFetch aus dieser Session mit HTTP 403 nicht direkt abrufbar (Anti-Bot-Schutz); die Kernfakten sind über CryptoBriefing, Benzinga, TheNextWeb, Business Standard und Help Net Security (jeweils Direct-WebFetch OK) belastbar trianguliert.
+- Amazon Q2-2026-Ergebnis wurde in diesem Lauf als Dublette bestätigt; die im Version-51.0-Eintrag verankerte Datenlage bleibt maßgeblich.
+- Für Cluster G (KI im Gesundheitswesen): Keine G-BA-Beschlüsse zu KI-gestützten Leistungen im 7-Tage-Fenster identifiziert; Aufnahmekandidat für Folgelauf.
+- Für Cluster H (Deutschland-These-Bezugspunkte): Keine neuen deutschen Industriepolitik-Papiere im 7-Tage-Fenster identifiziert.
+- Für Cluster D (Politik-Initiativen): Weiterhin keine Nachtragspublikation der *EO-14409*-Framework-Deliverables durch NSA/CISA/NIST/Treasury/OPM/OSTP im 3-Tage-Fenster nach Fristablauf; die im Vorlauf-Log der Version 54.0 als „eskalationsnah" markierte Beobachtung bleibt bestehen.
+- Empfängerdaten für E-Mail und WhatsApp aus Routine-Anweisung entnommen; werden in dieser Datei bewusst nicht ausgeschrieben (Phase-5b-Regel).
+
+---
+
 ## 2026-08-03 — Lauf 001 — Version 53.0 → Version 54.0
 
 ### Recherchekorridor
