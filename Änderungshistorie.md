@@ -111,8 +111,8 @@
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (an allen vier Stellen 54.0 → 55.0)
 - E-Mail-Versand (Phase 5b): (siehe Auffälligkeiten unten)
 - WhatsApp-Versand (Phase 5b): (siehe Auffälligkeiten unten)
-- Branch auf main gemerged: (siehe Auffälligkeiten unten)
-- Session-Branch gelöscht: (siehe Auffälligkeiten unten)
+- Branch auf main gemerged: Ja (Merge-Commit `a33a0b2` auf `main`, Push auf `origin/main` mit „Bypassed rule violations for refs/heads/main"-Hinweistext erfolgreich).
+- Session-Branch `claude/determined-einstein-lafdl4` gelöscht: lokal Ja; Remote fehlgeschlagen (HTTP 403 „Cannot update this protected ref" auf `git push origin --delete`; identisches Muster wie in den Vorläufen — der Remote-Branch bleibt sichtbar, ist aber vollständig in `main` enthalten und wird bei einer regulären Aufräumaktion außerhalb dieses Laufs entfernt).
 
 ### Auffälligkeiten / offene Punkte
 
