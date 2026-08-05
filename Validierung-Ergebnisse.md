@@ -7,6 +7,76 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 5. August 2026 (Lauf 001 vom 5. August 2026) — Version 55.0 → Version 56.0
+
+**Auslöser:** Regulärer Daily-Update-Lauf. Web-Recherche im Korridor der Cluster A–J am 5. August 2026 im Standard-7-Tage-Fenster (29. Juli – 5. August 2026); Cluster F und I zusätzlich im Standard-48-Stunden-Fenster (3. – 5. August 2026). Ein belegbarer Neuzugang aus Cluster D: drei am 4. August 2026 koordiniert wirkende US-Governance-Signale (White-House-Sitzung mit *Meta*/*Anthropic*/*Google*/*OpenAI* zur Vorlage der finalisierten *Executive-Order-14409*-Framework-Fassung; *Anthropic* benennt Mariano-Florentino Cuéllar zum ersten *Chief Global Affairs Officer*; fünf demokratische Senatorinnen und Senatoren richten einen Transparenzbrief an die Trump-Administration).
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | Drei am 4. August 2026 koordiniert wirkende US-Governance-Signale zum Frontier-KI-Regime: (a) *Trump*-Administration empfängt Vertreter von *Meta*, *Anthropic*, *Google* und *OpenAI* im Weißen Haus zur Vorlage der finalisierten freiwilligen Vor-Freigabe-Framework-Fassung aus *Executive Order 14409* (bis zu 30 Tage Vor-Zugang für Sicherheits- und Aufsichtsbehörden; Trump nicht persönlich anwesend; Berichterstattung *CNN Business* vom 3. August 2026, *UPI*, *BNN Bloomberg*, *GV Wire*, *PYMNTS*, *ChinaTechNews*, *Fortune* jeweils 4. August 2026); (b) *Anthropic* benennt Mariano-Florentino („Tino") Cuéllar zum ersten *Chief Global Affairs Officer* — Cuéllar ist ehemaliger Justice am *California Supreme Court*, ehemaliger President der *Carnegie Endowment for International Peace*, Stanford-Law-Professor, *Senior Fellow* am *Stanford Institute for Human-Centered AI*, Trustee des *Anthropic Long-Term Benefit Trust* seit Januar 2026 (aus dem er mit dem Amtsantritt ausscheide) und seit 2019 Mitglied der *Harvard Corporation*; Anthropic-Präsidentin Daniela Amodei zitiert in der Erstmitteilung: „Tino has spent his career helping public institutions respond to times of change with thoughtfulness, pragmatism, and deep commitment to the common good."; Cuéllar-Zitat in LinkedIn-Erstmitteilung: „Democracies must set the terms on which a technology this consequential shapes our lives and society"; (c) fünf demokratische Senatorinnen und Senatoren — *Kirsten Gillibrand* (D-NY, federführend), *Adam Schiff* (D-CA), *Mark Warner* (D-VA), *Chris Coons* (D-DE), *Mark Kelly* (D-AZ) — richten am 4. August 2026 einen Brief an die Trump-Administration und fordern öffentliche Klarheit über die *„aktuelle Politik und Herangehensweise an die Beschränkung des Zugangs zu fortgeschrittenen KI-Modellen"* (Kernzitat: „We believe strongly in the importance of maintaining the United States' competitive lead in artificial intelligence development while protecting the country from serious national security risks."); Bezugsfälle: *Fable-5-/Mythos-5*-Weisung des *Department of Commerce* (Juni 2026), Zugangsbeschränkung *GPT-5.6 Sol* durch OpenAI, Bekanntgabe der zwei Ende-Juli-2026-Sicherheitsvorfälle. | § 4.5 (angehängter Nachtrag-Absatz am Ende der Fable-5-Episode nach dem 1.-August-2026-Framework-Deliverables-Nachtrag der Version 53.0); § 11.5 (neuer Sammelbeleg als erster Eintrag der Sektion, vor dem EU-Enforcement-Eintrag der Version 55.0); Aktualitätshinweis am Dokumentende und README.md um Version-56.0-Passus ergänzt. | Die drei parallel am 4. August 2026 sichtbar werdenden Vorgänge verstetigen die im letzten Nachtrag (Version 53.0) dokumentierte Beobachtung, dass das US-Vor-Freigabe-Regime nur in exekutiv-informalen Ad-hoc-Anwendungen operativ wird: Die formale Framework-Vorlage findet im geschlossenen Kreis der vier größten Anbieter statt (ohne öffentliche Konsultation und ohne Federal-Register-Deliverable seit Fristablauf 1. August 2026); Anthropic institutionalisiert seine Politik-Schnittstelle präventiv auf C-Suite-Ebene; die Senats-Minderheit setzt öffentlichen Transparenzdruck. Für § 8.3 folgt daraus, dass die im Papier vertretene Präferenz für eine institutionalisierte, transparent-normierte Prüf- und Zugangsinfrastruktur als Anknüpfungspunkt einer wertschöpfungs- und risikodifferenzierten inländischen KI-Nutzungsabgabe durch die europäische Parallelbewegung (Version 55.0: EU-Enforcement-Fall) unterstützt und durch die US-Ausbleibe verstärkt wird. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+
+- *Nike-Layoffs 1.400* (globales Operations-Team, Mehrheit Technologie, *Win-Now*-Turnaround): Ankündigungsdatum 23. April 2026 — außerhalb 7-Tage-Fenster; die im Papier bereits dokumentierte Layoff-Linie ist mit Version 55.0 aktuell.
+- *Anthropic Claude Opus 5* (Release 24. Juli 2026, API 5/25 US-Dollar je Million Input-/Output-Token): Publikationsdatum außerhalb 7-Tage-Fenster; Aufnahmekandidat bei einem thematisch getriebenen Vertiefungslauf zur Frontier-Preisstruktur.
+- *IAB-Kurzbericht 08/2026* (Friedrich/Kagerl, generative KI in deutschen Betrieben; Presseinformation 5. Mai 2026): Publikationsdatum außerhalb 7-Tage-Fenster; unveränderter Aufnahmekandidat außerhalb des Tageslaufs.
+- *KI-MIG* — Inkrafttreten am 29. Juli 2026 und Bundesnetzagentur-Bestätigung der Rollenübernahme am 31. Juli 2026: bereits mit Version 45.0 in § 4.4 dokumentiert; Bundesnetzagentur-Übernahme der Marktüberwachung ab 2. August 2026 ohne materiell neuen Sachstand.
+- *Magic-Leap*-Personalabbau (rund 200 Stellen, AR-zu-Waveguide-Pivot, Berichterstattung 3. August 2026): Volumen unterhalb der Cluster-F-Schwelle (< 500 Stellen ohne unmittelbaren KI-Bezug); Negativliste einschlägig.
+- *Anthropic-Cybersecurity-Bericht* (30. Juli 2026, Kompromittierung von Systemen dreier Unternehmen bei Cybersecurity-Tests) und *OpenAI-Agentensystem-Ausbruch* auf *Hugging Face*: bereits mit Version 55.0 in § 4.3 als Auslöser der Kommissions-Enforcement-Kontakte dokumentiert; die aufgenommene Neuigkeit adressiert die daran anschließende US-Governance-Reaktion.
+- *SemiAnalysis*-Anthropic-Q3-2026-Profitprognose: Publikationsdatum Anfang Juli 2026 außerhalb 7-Tage-Fenster; unveränderter Aufnahmekandidat bei Anthropic-Primärveröffentlichung.
+- *Bundesbank-Monatsbericht August 2026*: Zum Schnittdatum 5. August 2026 noch nicht publiziert.
+- *G-BA*-Beschlüsse Juli/August 2026: keine KI-spezifischen Leistungs- oder Medizinprodukte-Beschlüsse im 7-Tage-Fenster identifiziert.
+- Chinesische *AI-Layoff*-Provinz-Regulierungen: keine neue Bundes- oder Provinzregelung im 7-Tage-Fenster identifiziert.
+- *Humanoid-Robotik*-Aggregate (Figure 03, Tesla Optimus, Unitree G1 Amazon-Listung): keine konzernseitig datierten Primärveröffentlichungen im 7-Tage-Fenster; unveränderter Aufnahmekandidat bei IFR-Report oder konzernseitig datierter Produktions­zahl.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel plus Zusammenfassung erhalten; keine leeren Abschnitte; Einbau als eigenständiger Nachtrag-Absatz in § 4.5 und Neueintrag in § 11.5 |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; fünf Typen (§ 2.1), drei Säulen (§ 8), sieben Empfehlungen (§ 10.2) unverändert |
+| 2.1.3 Querverweise | OK | Neu eingeführte Rückverweise (§ 4.5 → § 4.3, § 8.3) zeigen auf bestehende Unterabschnitte; §-11.5-Neueintrag korrekt der journalistischen Sektion zugeordnet |
+| 2.1.4 Roter Faden | OK | Nachtrag bleibt in der § 4.5-Governance-Linie; Fable-5-Episoden-Erzählstrang wird kohärent zum 4. August 2026 fortgeschrieben; Deutschland-These nicht berührt |
+| 2.1.5 Formatierung | OK | Keine doppelten `---`, konsistente Fettungen, keine neuen Tabellen |
+| 2.2.1 Sachliche Richtigkeit | OK | Ereignis (a) aus sieben unabhängigen Sekundärquellen belegt; Ereignis (b) via WebFetch primärer Anthropic-Quelle (`anthropic.com/news/tino-cuellar`), PYMNTS und Harvard Crimson bestätigt; Ereignis (c) via WebFetch Washington Examiner und MLex bestätigt |
+| 2.2.2 Redundanzprüfung | OK | Keine Redundanz zu bestehenden § 4.5-Passagen; der Nachtrag adressiert die 4.-August-2026-Verstetigung nach dem 1.-August-2026-Fristablauf (Version 53.0) und ist der erste Governance-Vorgang auf US-Seite nach der EU-Aktivierung (Version 55.0) |
+| 2.2.3 Argumentation | OK | Argumentationslinien konsistent; die Verdichtung „exekutive Framework-Vorlage im geschlossenen Kreis + präventive C-Suite-Institutionalisierung + öffentlicher Transparenzdruck" wird aus dem Sachverhalt abgeleitet |
+| 2.2.4 Ausgewogenheit | OK | Konjunktivpflicht nach § 4.2 Claude.md eingehalten (habe, sei, hätten); Trump-Administration, Anthropic, Cuéllar und Senate Dems ausgewogen zitiert; keine Bewertung der einzelnen Personen |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobenprüfung ohne Auffälligkeiten |
+| 2.3.2 Terminologie | OK | *Chief Global Affairs Officer*, *Executive Order 14409*, *Department of Commerce*, *Fable-5-/Mythos-5*-Weisung, *GPT-5.6 Sol* im Kontext bekannt bzw. eindeutig; „Trump-Administration" durchgängig |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Alle im Fließtext genannten Sekundärquellen vollständig in § 11.5-Neueintrag aufgeführt |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-nahe Zitation mit Datum, Titel kursiv, URL-Liste; einheitlich mit § 11.5-Vorlage der Vorläufe |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Sekundärquellen sind seriöse Tech-Wirtschafts-, Presse- und Rechts-Medien; primäre Anthropic-Mitteilung eigenständig verifiziert; Senatoren-Brief via *MLex* (Fachpublikation) und *Washington Examiner* (politische Presse) direkt bestätigt |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | anthropic.com, pymnts.com, thecrimson.com, washingtonexaminer.com, mlex.com direkt via WebFetch verifiziert; cnbc.com, thehill.com, usnews.com mit HTTP 403 durch Anti-Bot-Schutz — Inhalt via WebSearch-Snippet trianguliert |
+| 2.4.5 Zitatgenauigkeit | OK | Amodei-Zitat wortgleich aus `anthropic.com/news/tino-cuellar`; Cuéllar-LinkedIn-Zitat aus Harvard Crimson; Gillibrand-Kernzitat aus Washington Examiner (Original-Letter-Wortlaut); keine sinnentstellende Verkürzung |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Bestehende Markierung *de la Feria et al. 2022* unverändert; Sanders-Report-Verifikation (Version 5.0) unverändert |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 55.0 → 56.0 an allen vier Stellen (Dokumentkopf `KI-Ökonomie.md` Zeile 12, README.md Version-Zeile 7 und Zitiervorschlag Zeile 44, Aktualitätshinweis Dokumentende, Abschlussblock dieses Validierungs­eintrags); Autorenname, Organisation, Lizenz CC BY 4.0, Haftungshinweis und KI-Offenlegungshinweis unverändert |
+| 2.6 Automatisierte Prüfung | n/a | Keine dedizierten Prüfskripte im Projekt |
+
+### Gefundene Fehler
+
+Keine.
+
+### Durchgeführte Bereinigungen
+
+Keine erforderlich.
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine gefunden)
+- Neue Version: 56.0
+- PDF erstellt: Ja (Phase 5)
+- Word erstellt: Ja (Phase 5)
+
+---
+
 ## Validierung 4. August 2026 (Lauf 001 vom 4. August 2026) — Version 54.0 → Version 55.0
 
 **Auslöser:** Regulärer Daily-Update-Lauf. Web-Recherche im Korridor der Cluster A–J am 4. August 2026 im Standard-7-Tage-Fenster (28. Juli – 4. August 2026); Cluster F und I zusätzlich im Standard-48-Stunden-Fenster (2. – 4. August 2026). Ein belegbarer Neuzugang aus Cluster B: Aufnahme bilateraler Kontakte der Europäischen Kommission mit *OpenAI* und *Anthropic* nach zwei Ende-Juli-2026-Sicherheitsvorfällen; Berichterstattung 3./4. August 2026 (*CNBC*, *TheNextWeb*, *Business Standard*, *CryptoBriefing*, *Benzinga*, *TechTimes*, *Help Net Security*).

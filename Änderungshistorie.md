@@ -54,6 +54,95 @@
 
 ---
 
+## 2026-08-05 — Lauf 001 — Version 55.0 → Version 56.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, C, E, G, H, J ohne belegbare Neuzugänge im 7-Tage- bzw. 48-Stunden-Fenster). Ein belegbarer Neuzugang aus Cluster D: drei am 4. August 2026 koordiniert wirkende US-Governance-Signale (White-House-Sitzung mit *Meta*/*Anthropic*/*Google*/*OpenAI*, Anthropic-Cuéllar-Ernennung, Senate-Democrats-Transparenzbrief).
+- Zeitfenster: Standard 7 Tage (29. Juli – 5. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (3. – 5. August 2026).
+- Anzahl Suchanfragen: 11 Web-Suchen (Cluster A–J durchsucht) plus gezielte Einzel-Fetches zur Verifikation (`anthropic.com/news/tino-cuellar`, `pymnts.com`, `thecrimson.com`, `washingtonexaminer.com`, `mlex.com` via WebFetch direkt bestätigt; CNBC, US News, The Hill mit HTTP 403 — Verifikation über Sekundärquellen-Triangulation).
+- Lauf 001 vom 5. August 2026 ist der Folgelauf zu Lauf 001 vom 4. August 2026 (Version 54.0 → 55.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | D | Anthropic, *Tino Cuellar joins Anthropic as Chief Global Affairs Officer*, 4. August 2026 | https://www.anthropic.com/news/tino-cuellar | übernommen (Primärquelle direkt via WebFetch bestätigt; Amodei-Zitat wortgleich, Cuéllar-Titel und Vorrollen bestätigt; Trustee-Wechsel dokumentiert) |
+| 2 | D | Harvard Crimson, *Harvard Corporation Member Tino Cuéllar Named Anthropic's First Global Affairs Chief*, 4. August 2026 | https://www.thecrimson.com/article/2026/8/4/cuellar-anthropic-global-affairs/ | übernommen (LinkedIn-Cuéllar-Zitat, Harvard-Corporation-Mitgliedschaft, Trustee-Stellenwechsel bestätigt) |
+| 3 | D | PYMNTS, *Anthropic Appoints Former California Supreme Court Justice as First Global Affairs Chief*, 4. August 2026 | https://www.pymnts.com/personnel/2026/anthropic-appoints-former-california-supreme-court-justice-as-first-global-affairs-chief/ | übernommen (Reporting-Line-Bezug Daniela Amodei; Prior-Roles-Bestätigung; Pentagon-Sachverhalt vom Februar 2026 referenziert) |
+| 4 | D | U.S. News & World Report, *Anthropic Names Global Affairs Chief to Tackle AI Policy as Trump Tensions Persist*, 4. August 2026 | https://www.usnews.com/news/world/articles/2026-08-04/anthropic-names-global-affairs-chief-to-tackle-ai-policy-as-trump-tensions-persist | übernommen (Sammelbeleg; WebFetch HTTP 403 — Kontext via WebSearch-Snippet trianguliert) |
+| 5 | D | CNBC, *Anthropic names global affairs chief as Trump tensions persist*, 4. August 2026 | https://www.cnbc.com/2026/08/04/anthropic-names-global-affairs-chief-as-trump-tensions-persist.html | übernommen (Sammelbeleg; WebFetch HTTP 403 — Kontext via WebSearch-Snippet trianguliert) |
+| 6 | D | Washington Examiner, *Senate Democrats ask Trump for answers on advanced AI models*, 4. August 2026 | https://www.washingtonexaminer.com/news/senate/4674674/senate-democrats-letter-trump-administration-advanced-ai-models/ | übernommen (Primär-Sekundärquelle via WebFetch bestätigt; Signatoren-Liste, Kernzitat, Bezugsfälle) |
+| 7 | D | MLex, *US Senate Democrats ask White House for clarity on AI model assessment work*, 4. August 2026 | https://www.mlex.com/mlex/artificial-intelligence/articles/2509611 | übernommen (Fach-Bestätigung via WebFetch; Datum, Führung Gillibrand, Kernforderung bestätigt) |
+| 8 | D | The Hill, *Senate Democrats press Trump administration on access to advanced AI models*, 4. August 2026 | https://thehill.com/homenews/senate/6008642-democrats-demand-transparency-ai-policy/ | übernommen (Sammelbeleg; WebFetch HTTP 403 — Kontext via WebSearch-Snippet trianguliert) |
+| 9 | D | CyberScoop, *Senators warn Trump's AI interventions could drive users to Chinese models*, 4. August 2026 | https://cyberscoop.com/trump-ai-policy-chinese-models-risk/ | übernommen (Sammelbeleg zum Senat-Dems-Brief) |
+| 10 | D | CNN Business, *White House to meet with OpenAI, Anthropic and other top AI companies in first big regulation push*, 3. August 2026 | https://www.cnn.com/2026/08/03/tech/white-house-meet-with-top-ai-companies-big-regulation-push | übernommen (Ankündigung Weißes-Haus-Sitzung 4. August 2026) |
+| 11 | D | UPI, *White House hosting AI leaders to discuss evaluation framework*, 4. August 2026 | https://www.upi.com/Top_News/US/2026/08/04/trump-administration-white-house-ai-tech-meeting/3141785855949/ | übernommen (Bestätigung Sitzung mit Anthropic/OpenAI/Google) |
+| 12 | D | BNN Bloomberg, *Meta, Anthropic, Google, OpenAI to meet with Trump White House amid rogue AI agent fallout*, 4. August 2026 | https://www.bnnbloomberg.ca/business/politics/2026/08/04/meta-anthropic-google-openai-to-meet-with-trump-white-house-amid-rogue-ai-agent-fallout/ | übernommen (Ausweitung auf Meta) |
+| 13 | D | GV Wire, *Meta, Anthropic, Google, OpenAi to Meet With Trump White House Amid Rogue AI Agent Fallout*, 4. August 2026 | https://gvwire.com/2026/08/04/meta-anthropic-google-openai-to-meet-with-trump-white-house-amid-rogue-ai-agent-fallout/ | übernommen (Sammelbeleg) |
+| 14 | D | PYMNTS, *White House Will Present Finalized AI Oversight Framework to Tech Giants Tuesday*, 4. August 2026 | https://www.pymnts.com/news/artificial-intelligence/2026/white-house-will-present-finalized-ai-oversight-framework-tech-giants-tuesday/ | übernommen (Framework als „finalisiert" charakterisiert; 30-Tage-Vor-Zugang) |
+| 15 | D | ChinaTechNews, *OpenAI, Anthropic, Google to join White House AI safety meeting*, 4. August 2026 | https://www.chinatechnews.com/2026/08/04/126657-openai-anthropic-google-to-join-white-house-ai-safety-meeting | übernommen (Sammelbeleg) |
+| 16 | D | Fortune, *Trump meets AI giants, Senate Dems decry 'unpredictable' governance — and cheap Chinese AI looms as giant security risk*, 4. August 2026 | https://fortune.com/2026/08/04/trump-ai-regulation-china-national-security/ | übernommen (Kontext-Beleg: Zusammenspiel der drei Ereignisse plus China-Wettbewerbslage) |
+| 17 | F | Nike, *Layoffs 1.400 Global-Operations-Team*, Ankündigung 23. April 2026 | https://www.cnbc.com/2026/04/23/nike-job-cuts-layoffs.html | verworfen (außerhalb 7-Tage-Fenster) |
+| 18 | I | Anthropic, *Claude Opus 5* Release, 24. Juli 2026 | https://felloai.com/best-ai-models/ | verworfen (außerhalb 7-Tage-Fenster; Aufnahmekandidat bei Vertiefungslauf zur Frontier-Preisstruktur) |
+| 19 | E | IAB-Kurzbericht 08/2026 (Friedrich/Kagerl, generative KI in deutschen Betrieben), 5. Mai 2026 | https://iab.de/presseinfo/jeder-vierte-betrieb-in-deutschland-nutzt-generative-ki/ | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 20 | B | Bundesnetzagentur-KI-Aufsicht ab 2. August 2026 (Rollenübernahme; Bußgeldrahmen bis 35 Millionen Euro) | https://www.boerse-express.com/news/articles/ki-aufsicht-bundesnetzagentur-uebernimmt-marktueberwachung-ab-2-august-934352 | verworfen (Dublette — Kern des Vorgangs mit Version 45.0 in § 4.4 dokumentiert) |
+| 21 | F | Magic-Leap-Personalabbau (rund 200 Stellen, AR-zu-Waveguide-Pivot), 3. August 2026 | (Sekundär-Snippet ohne verifizierten Direkt-URL) | verworfen (Volumen unterhalb Cluster-F-Schwelle; Negativliste — kleinere Restrukturierungen unter 500 Stellen ohne unmittelbaren KI-Bezug) |
+| 22 | E | Bundesbank-Monatsbericht August 2026 | https://publikationen.bundesbank.de/publikationen-de/berichte-studien/monatsberichte/aktuelle-monatsberichte-922214 | verworfen (zum Schnittdatum 5. August 2026 noch nicht publiziert) |
+| 23 | G | *G-BA*-Beschlüsse Juli/August 2026 | https://www.g-ba.de/ | verworfen (keine KI-spezifischen Leistungs- oder Medizinprodukte-Beschlüsse im 7-Tage-Fenster identifiziert) |
+| 24 | C | Chinesische *AI-Layoff*-Provinz-Regulierungen | http://english.scio.gov.cn/m/chinavoices/2026-04/30/content_118471189.html | verworfen (keine neue Bundes- oder Provinzregelung im 7-Tage-Fenster identifiziert; frühere Gerichts- und Provinzbezüge bereits in § 6.4 dokumentiert) |
+| 25 | J | Humanoid-Robotik-Aggregate (Figure 03, Tesla Optimus, Unitree G1 Amazon-Listung) | https://www.technology.org/2026/07/18/humanoid-robots-in-2026-what-is-actually-deployed/ | verworfen (keine konzernseitig datierten Primärveröffentlichungen im 7-Tage-Fenster) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 4.5 (angehängter Nachtrag-Absatz am Ende der Fable-5-Episode nach dem 1.-August-2026-Framework-Deliverables-Nachtrag) | Ergänzung | Nachtrag zum 4. August 2026 mit drei koordiniert wirkenden US-Governance-Signalen: (a) Weißes-Haus-Sitzung mit *Meta*, *Anthropic*, *Google* und *OpenAI* zur Vorlage der finalisierten *Executive-Order-14409*-Framework-Fassung (bis zu 30 Tage Vor-Zugang für Sicherheits- und Aufsichtsbehörden; Trump nicht persönlich anwesend), (b) *Anthropic* benennt Mariano-Florentino Cuéllar (ehemaliger Justice am *California Supreme Court*, ehemaliger President der *Carnegie Endowment for International Peace*, Stanford-Law-Professor, Trustee des *Long-Term Benefit Trust* seit Januar 2026, seit 2019 Mitglied der *Harvard Corporation*) zum ersten *Chief Global Affairs Officer* mit Amodei-Zitat und Cuéllar-LinkedIn-Zitat, (c) fünf demokratische Senatorinnen und Senatoren (*Gillibrand* federführend, *Schiff*, *Warner*, *Coons*, *Kelly*) richten Transparenzbrief an die Trump-Administration mit Kernzitat und Bezugsfällen (*Fable-5-/Mythos-5*-Weisung, *GPT-5.6-Sol*-Zugangsbeschränkung); dreifache Rückwirkung dokumentiert (Ad-hoc-Verstetigung der US-informal-exekutiven Governance-Linie zwischen 1. und 4. August 2026, Kontrast zur transparent-normierten EU-Angebotsseite, § 8.3-Rückwirkung auf institutionalisierte Prüf- und Zugangsinfrastruktur als Anknüpfungspunkt einer inländischen KI-Nutzungsabgabe); Konjunktivpflicht nach § 4.2 Claude.md eingehalten. | 1–16 |
+| 2 | § 11.5 (Journalistische und praxisorientierte Quellen) | Ergänzung | Neuer Sammelbeleg *CNN Business / UPI / BNN Bloomberg / GV Wire / PYMNTS / ChinaTechNews / Fortune / Anthropic / Harvard Crimson / PYMNTS / U.S. News & World Report / Washington Examiner / MLex / The Hill / CyberScoop* (3./4. August 2026) mit vollständiger Zitationskette, drei koordiniert wirkenden Ereignissen, Amodei-, Cuéllar- und Gillibrand-Zitaten und fünfzehn URLs — als erster Eintrag der Sektion, vor dem EU-Enforcement-Eintrag der Version 55.0. | 1–16 |
+| 3 | Aktualitätshinweis am Dokumentende | Aktualisierung | Version-56.0-Nachtrag zu den drei am 4. August 2026 koordiniert wirkenden US-Governance-Signalen mit § 4.3-, § 4.5- und § 8.3-Rückverweisen und § 11.5-Neueintrag ergänzt; Schnittdatum 5. August 2026 (Lauf 001). | 1–16 |
+| 4 | Dokumentkopf, README.md (Version, Zitiervorschlag, Änderungslog) | Aktualisierung | Version 55.0 → 56.0 am Dokumentkopf, am README-Header und im README-Zitiervorschlag; Aufnahme des Version-56.0-Passus in die README-Änderungsliste mit Kurzfassung der drei US-Governance-Signale. | 1–16 |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | *Nike-Layoffs 1.400* (23. April 2026) | F | Außerhalb 7-Tage-Fenster; kein neuer Sachstand seit Ankündigung im April |
+| 2 | *Anthropic Claude Opus 5* (24. Juli 2026) | I | Außerhalb 7-Tage-Fenster; Aufnahmekandidat bei Vertiefungslauf zur Frontier-Preisstruktur (5/25 US-Dollar API-Preis, Positionierung ggü. Fable 5) |
+| 3 | *IAB-Kurzbericht 08/2026* (5. Mai 2026) | E | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat außerhalb Tageslauf |
+| 4 | *Bundesnetzagentur* KI-Aufsicht-Rollenübernahme ab 2. August 2026 | B | Dublette — Kern des Vorgangs (KI-MIG, Bundesnetzagentur-Zuständigkeit) mit Version 45.0 in § 4.4 dokumentiert |
+| 5 | *Magic-Leap*-Personalabbau (rund 200 Stellen, 3. August 2026) | F | Volumen unterhalb Cluster-F-Schwelle (< 500 Stellen ohne unmittelbaren KI-Bezug); Negativliste einschlägig |
+| 6 | *Bundesbank-Monatsbericht August 2026* | E | Zum Schnittdatum 5. August 2026 noch nicht publiziert |
+| 7 | *G-BA*-Beschlüsse Juli/August 2026 | G | Keine KI-spezifischen Leistungs- oder Medizinprodukte-Beschlüsse im Fenster |
+| 8 | Chinesische *AI-Layoff*-Provinz-Regulierungen | C | Keine neue Bundes- oder Provinzregelung im Fenster; frühere Gerichts-/Provinzbezüge bereits in § 6.4 dokumentiert |
+| 9 | Humanoid-Robotik-Aggregate | J | Keine konzernseitig datierten Primärveröffentlichungen im 7-Tage-Fenster |
+| 10 | *SemiAnalysis*-Anthropic-Q3-2026-Profitprognose | I | Publikationsdatum Anfang Juli 2026 außerhalb 7-Tage-Fenster |
+| 11 | *Sanders American AI Sovereign Wealth Fund Act* (Juni 2026, 50 %-Anteil-Vorschlag) | D | Außerhalb 7-Tage-Fenster; bereits als Sanders-Folgeinitiative mit früheren Versionen thematisch abgedeckt (§ 4.5, § 5.4) |
+| 12 | Ergebnis der Chinesischen Gerichtsurteile zu KI-Layoffs (April/Mai 2026) | C | Bereits in § 6.4 dokumentiert (Version 45.0/50.0) |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 5. August 2026 (Lauf 001 vom 5. August 2026) — Version 55.0 → Version 56.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: erfolgt am Ende dieses Laufs
+- E-Mail-Versand (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (kein `mail_send`/`send_mail`/`send_message`/`outlook_send`-Tool in der laufenden Session erreichbar)
+- WhatsApp-Versand (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (kein `wa_send_message`/`send_message`-Tool des `whatsapp`-MCP in der laufenden Session erreichbar)
+
+### Auffälligkeiten / offene Punkte
+
+- Lauf 001 vom 5. August 2026 ist der Folgelauf zu Lauf 001 vom 4. August 2026 (Version 54.0 → 55.0). Die drei am 4. August 2026 sichtbaren US-Governance-Signale (White-House-Framework-Vorlage, Anthropic-Cuéllar-Ernennung, Senate-Dems-Transparenzbrief) wurden bewusst als eine kohärente Neuigkeit aufgenommen, nicht als drei getrennte Cluster-D-Einträge, um die argumentative Rückwirkung auf § 4.5 (Fable-5-Episode) und § 8.3 (institutionalisierte Zugangs- und Prüfinfrastruktur) klar herausarbeiten zu können.
+- WebFetch-Zugriff auf CNBC-, US-News-, The-Hill-, USNews-URLs mit HTTP 403 durch Anti-Bot-Schutz — Verifikation der genannten Sachverhalte via WebSearch-Snippets und dreifach unabhängiger Sekundärquellen (WashingtonExaminer, MLex, CyberScoop für den Senate-Dems-Brief; Anthropic-Primärquelle, PYMNTS, Harvard Crimson für die Cuéllar-Ernennung; CNN, UPI, BNN Bloomberg, GV Wire, PYMNTS, ChinaTechNews, Fortune für die White-House-Sitzung).
+- Cluster A, C, E, G, H, J im 7-Tage-Fenster ohne belegbare Neuzugänge; Cluster F (Layoffs) im 48-Stunden-Fenster nur mit dem Magic-Leap-Fall unterhalb der Aufnahmeschwelle; Cluster I (Frontier-Modelle) ohne neue Modelle im 48-Stunden-Fenster (Anthropic-Opus-5-Release datiert 24. Juli 2026 außerhalb Fenster).
+- Anthropic-Bericht zu *SemiAnalysis*-Q3-2026-Profitprognose (Anfang Juli 2026) und *Anthropic-Claude-Opus-5*-Release (24. Juli 2026) sind zu prüfen, wenn Anthropic in Q3 2026 eigene Konzernangaben zu Finanzeckdaten oder zur Positionierung von *Opus 5* gegenüber *Fable 5* und *GPT-5.6 Sol* öffentlich vorlegt (Cluster I).
+- Cluster C sollte im nächsten Lauf gezielt nach Ergebnissen des von *Aju Press* referenzierten *Korea Development Institute*-Berichts (256.000 KI-bedingte Stellenverluste pro Jahr über eine Dekade) und einer möglichen Anschlussgesetzgebung zum am 22. Januar 2026 in Kraft getretenen *AI Basic Act* Südkoreas prüfen.
+- Branch dieses Laufs: `claude/determined-einstein-bsyrm3` (Session-Branch der laufenden Session, in Phase 0 verifiziert; lokal vorhanden; im Remote nach Push neu angelegt).
+- Phase 5b: Routine-Anweisung mit `email_to=…` und `whatsapp_to=…` aus dem Aufruf übernommen; Empfängerdaten weder in diesem Logbuch noch in Commits, Abschlussbericht oder einer anderen versionierten Datei ausgeschrieben. Es war in der laufenden Session weder ein E-Mail-Versand-Tool (`mail_send` / `send_mail` / `send_message` / `outlook_send` aus `graph-mcp`) noch ein WhatsApp-Versand-Tool (`wa_send_message` / `send_message` aus dem `whatsapp`-MCP) erreichbar; gemäß Phase-5b-Spezifikation wurden die vorbereiteten Inhalte als Fallback in die gitignored Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben. Der Lauf fährt gemäß Phase-5b-Regel („Versandfehler sind weich") mit Phase 6 fort.
+
+---
+
 ## 2026-08-04 — Lauf 001 — Version 54.0 → Version 55.0
 
 ### Recherchekorridor
