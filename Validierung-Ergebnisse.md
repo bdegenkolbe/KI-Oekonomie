@@ -7,6 +7,76 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 6. August 2026 (Lauf 001 vom 6. August 2026) — Version 56.0 → Version 57.0
+
+**Auslöser:** Regulärer Daily-Update-Lauf. Web-Recherche im Korridor der Cluster A–J am 6. August 2026 im Standard-7-Tage-Fenster (30. Juli – 6. August 2026); Cluster F und I zusätzlich im Standard-48-Stunden-Fenster (4. – 6. August 2026). Zwei belegbare Neuzugänge: aus Cluster I die Alibaba-Freigabe von *Qwen3.8-Max* (3. August 2026) als erstes chinesisches Open-Weight-Frontier-Modell in der Kategorie unmittelbar unterhalb von *Anthropic Claude Fable 5*; aus Cluster D/B die präzisierende Folgeberichterstattung zum am 4. August 2026 im Weißen Haus vorgelegten Vor-Freigabe-Framework (Nicht-Veröffentlichung, klassifizierte Benchmarks, exklusive Anwendbarkeit auf fünf US-*closed-source*-Anbieter, expliziter Ausschluss offener und ausländischer Modelle, CAISI-Administration).
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *Alibaba* — Freigabe des Flaggschiffmodells *Qwen3.8-Max* am 3. August 2026 nach übereinstimmender Berichterstattung von *South China Morning Post*, *Bloomberg*, *TNGlobal (TechNode)*, *Quartz*, *MarkTechPost*, *Dataconomy*, *CGTN* und *The Daily Star*: *Sparse-Mixture-of-Experts*-Architektur mit 2,4 Billionen Gesamtparametern (rund 95 Milliarden pro Inferenzschritt aktiv), Kontextfenster von 1 Million Token, multimodale Ein-/Ausgabefähigkeit; Zugriff über *Alibaba-Cloud-Model-Studio*-API und die am selben Tag in die öffentliche Beta gehende *QwenWork*-Agent-Plattform; vollständige *Open-Weight*-Freigabe für die Woche ab dem 10. August 2026 angekündigt und als bewusste Rückkehr Alibabas zur Open-Weight-Freigabe seiner Spitzenmodelle nach mehreren proprietär gehaltenen Zwischenreleases im ersten Halbjahr 2026 charakterisiert. Nach Anbieter-Benchmarks Platz fünf im *Text-Arena*-Leaderboard, Platz zwei im *Vision-Arena*-Leaderboard und Platz vier bei Frontend-Coding-Benchmarks; *Bloomberg* charakterisiert die Rangfolge als „nur *Anthropic Claude Fable 5* vorgelagert", *South China Morning Post* als „another Chinese breakthrough closing the gap on leading US labs" (Konjunktivpflicht nach § 4.2 Claude.md eingehalten; unabhängige Nachprüfung der Benchmarks ausstehend). | § 8.2 (neuer Absatz zwischen dem OpenAI-Astra-Absatz vom 1. August 2026 und dem „Deutschland hat in dieser Ordnung..."-Absatz); § 11.5 (neuer Sammelbeleg als erster Eintrag der Sektion, vor dem Cluster-D-Sammelbeleg der Version 56.0); Aktualitätshinweis am Dokumentende und README.md um Version-57.0-Passus ergänzt. | Erster dokumentierter Fall, in dem ein chinesischer Open-Weight-Anbieter die aktuellste Frontier-Modellklasse erreicht — und damit die im Kimi-K3-Vorgang (Version 47.0/48.0, § 8.2) beobachtete Konvergenz auf einer weitergehenden Ebene bestätigt. Für § 8.2 verschiebt sich die in Rebecca Bellans TechCrunch-Beitrag (14. Juli 2026, § 8.2) formulierte These „the real AI race may no longer be at the frontier" von einer Verlagerungs­these auf eine Konvergenz­these. Für § 4.5 und § 8.3 relevant, weil ein offen zugängliches Frontier-Modell außerhalb des US-Vor-Freigabe-Regimes (Fable-5-Episode; White-House-Framework 4./5. August 2026) die Verfügbarkeitsrisiken einer inländischen Veredelungsstrategie strukturell reduziert. |
+| 2 | *Weißes Haus / Executive Order 14409* — Folgeberichterstattung von *Fortune*, *Axios*, *The Next Web*, *Daily Caller* und einer *Yahoo-News*-Analyse (4./5. August 2026) zur am 4. August 2026 im Weißen Haus vorgelegten finalisierten Framework-Fassung des im *Executive Order 14409* verankerten US-Vor-Freigabe-Regimes: (a) präzisierter Kreis der geladenen Anbieter (*OpenAI*, *Anthropic*, *Meta*, *Microsoft*, *Nvidia* sowie eine Reihe kleinerer Anbieter); (b) exklusive Anwendbarkeit des Prüfregimes auf fünf US-*closed-source*-Frontier-Anbieter (*OpenAI*, *Anthropic*, *Google*, *Meta*, *Microsoft*), expliziter Ausschluss von *Open-Weight*-Modellen (namentlich *DeepSeek V4-Flash*, *Moonshot AI Kimi K3*, *Liquid AI LFM2.5-2.6B*) aus dem föderalen Sicherheits­review; (c) Nicht-Veröffentlichung des Framework-Texts nach expliziter Weisung des Weißen Hauses („Just because things are unclassified that doesn't mean we are going to broadcast them to everyone" — White-House-Vertreter, ohne Namensnennung, *The Next Web*); klassifiziertes Benchmarking-Verfahren zur Bewertung fortgeschrittener Cyber-Fähigkeiten und klassifizierte Schwellenwerte; Framework selbst unklassifiziert, aber unveröffentlicht; (d) Administration durch das *Center for AI Standards and Innovation* (*CAISI*) innerhalb des *National Institute of Standards and Technology* (NIST); die *Yahoo-News*-Analyse ordnet den Zuschnitt als „strukturelle wettbewerbliche Asymmetrie" ein. Konjunktivpflicht nach § 4.2 Claude.md eingehalten. | § 4.5 (angehängter Nachtrag-Absatz zum 5. August 2026 nach dem Nachtrag zum 4. August 2026 der Version 56.0); § 11.5 (neuer Sammelbeleg als zweiter neuer Eintrag der Sektion, vor dem Cluster-D-Sammelbeleg der Version 56.0); Aktualitätshinweis am Dokumentende und README.md um Version-57.0-Passus ergänzt. | Präzisiert die in Version 56.0 dokumentierte 4.-August-Framework-Vorlage in drei substantiellen Zügen (breiterer Anbieterkreis mit *Nvidia* und *Microsoft* statt der irrtümlich angenommenen *Google*-Präsenz; exklusive Anwendbarkeit auf fünf *closed-source*-Frontier-Anbieter mit expliziter Ausklammerung offener und ausländischer Modelle; behördliche Verankerung bei CAISI/NIST) und verstetigt damit die im Version-56.0-Nachtrag ausgesprochene Diagnose eines *intransparenten Ad-hoc-Regimes* zu einem *technologisch selektiven Prüfregime mit Öffentlichkeitsausschluss*. Für § 4.3 relevant, weil der Zuschnitt die Asymmetrie zur transparent-normierten EU-Prüfinfrastruktur weiter zuspitzt; für § 8.2 und § 8.3 relevant, weil offene Modelle (*Qwen3.8-Max*, *Kimi K3*, *DeepSeek V4-Flash*, *Liquid LFM2.5*) durch den Prüfausschluss dauerhaft frei verfügbar bleiben und die Deutschland-These der Veredelungsstrategie strukturell stabilisieren. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+
+- *DeepSeek-V4-Flash-0731* (31. Juli 2026, MIT-lizenziertes Open-Weight-Release, 284 Mrd. Gesamt-/13 Mrd. aktive Parameter, 1 Mio. Token Kontextfenster, 0,14 / 0,28 US-Dollar je Million Input-/Output-Token): Publikationsdatum am äußersten Rand des 7-Tage-Fensters, aber inhaltlich in der Berichterstattung zur *Qwen3.8-Max*-Freigabe implizit mitgeführt (offener Frontier-Ausschluss im White-House-Framework); Aufnahmekandidat bei einem thematisch getriebenen Vertiefungslauf zur Frontier-Preisstruktur und zur Open-Weight-Verlagerung.
+- *Bundesbank-Monatsbericht August 2026*: Zum Schnittdatum 6. August 2026 noch nicht publiziert.
+- *IAB-Kurzbericht 08/2026* (Friedrich/Kagerl, generative KI in deutschen Betrieben; Presseinformation 5. Mai 2026): Publikationsdatum außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat außerhalb des Tageslaufs.
+- *Anthropic Claude Opus 5* (Release 24. Juli 2026): Publikationsdatum außerhalb 7-Tage-Fenster; Aufnahmekandidat bei einem thematisch getriebenen Vertiefungslauf zur Frontier-Preisstruktur.
+- *G-BA*-Beschlüsse Juli/August 2026: keine KI-spezifischen Leistungs- oder Medizinprodukte-Beschlüsse im 7-Tage-Fenster identifiziert.
+- Chinesische *AI-Layoff*-Provinz-Regulierungen: keine neue Bundes- oder Provinzregelung im 7-Tage-Fenster identifiziert.
+- *Tesla-Optimus-Gen-3*-Serienstart in Fremont (Ende Juli / Anfang August 2026): Keine konzernseitig datierte Primärveröffentlichung mit konkreten Stückzahlen im 7-Tage-Fenster; im Papier bereits in § 8.2 mit dem Q2-Earnings-Call vom 22. Juli 2026 dokumentiert.
+- Aggregat *SkillSyncer* zu 205.832 Layoff-Betroffenen 2026 (Stand 5. August 2026): kein einzelnes ereignisbezogenes Meldeobjekt im Sinne des Cluster-F-Trigger-Rasters; wird in nachfolgenden IFR-/Tracker-Reports voraussichtlich abgebildet.
+- *Sanders American AI Sovereign Wealth Fund Act* (18. Juni 2026): außerhalb 7-Tage-Fenster; bereits mit Version 51.0 in § 4.5 vollständig dokumentiert.
+- *Nike-Layoffs 1.400* (Ankündigungsdatum 23. April 2026): außerhalb 7-Tage-Fenster.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel plus Zusammenfassung erhalten; keine leeren Abschnitte; Einbau als eigenständiger Absatz in § 8.2 (Qwen3.8-Max) und als angehängter Nachtrag-Absatz in § 4.5 (Framework-5.-August-Präzisierung); Neueinträge in § 11.5 |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; fünf Typen (§ 2.1), drei Säulen (§ 8), sieben Empfehlungen (§ 10.2) unverändert |
+| 2.1.3 Querverweise | OK | Neu eingeführte Rückverweise (§ 8.2 → § 4.5 und § 8.3, § 4.5 → § 4.3 und § 8.2 sowie § 8.3) zeigen auf bestehende Unterabschnitte; §-11.5-Neueinträge korrekt der journalistischen Sektion zugeordnet |
+| 2.1.4 Roter Faden | OK | Die Qwen3.8-Max-Passage schließt chronologisch (3. August 2026) an den OpenAI-Astra-Absatz (1. August 2026) und vor die „Deutschland hat in dieser Ordnung..."-Passage an; der Framework-5.-August-Nachtrag setzt den 4.-August-Nachtrag ohne Bruch fort; Deutschland-These nicht berührt |
+| 2.1.5 Formatierung | OK | Keine doppelten `---`, konsistente Fettungen, keine neuen Tabellen im Fließtext |
+| 2.2.1 Sachliche Richtigkeit | OK | *Qwen3.8-Max*-Sachverhalt via WebFetch primärer *TechNode/TNGlobal*- und *SCMP*-Quellen bestätigt; Framework-5.-August-Sachverhalt via WebFetch der *Yahoo-News*-Analyse (5. August 2026) und der *The-Next-Web*-Berichterstattung (3./4. August 2026) bestätigt; *Fortune*, *Axios* und *Daily Caller* mit HTTP 403 durch Anti-Bot-Schutz — Kontext via WebSearch-Snippet trianguliert |
+| 2.2.2 Redundanzprüfung | OK | Der Qwen3.8-Max-Absatz führt die in § 8.2 bestehende Open-Weight-Verlagerungsthese (Kimi K3, DeepSeek V4 Pro, Muse Spark 1.1) auf einer weitergehenden Modellklasse fort, ohne die Vorläufer-Passagen zu wiederholen; der Framework-5.-August-Nachtrag adressiert Präzisierungen, die im 4.-August-Nachtrag (Version 56.0) noch nicht enthalten waren (Nvidia/Microsoft als Anbieter, Fünf-Anbieter-Exklusivität, Open-Weight-Ausschluss, CAISI-Administration, Nicht-Veröffentlichung des Framework-Texts) |
+| 2.2.3 Argumentation | OK | Konvergenzthese im Cluster-I-Neuzugang aus dem Sachverhalt abgeleitet; die im § 4.5-Nachtrag formulierte Kategorisierung „technologisch selektives Prüfregime mit Öffentlichkeitsausschluss" trägt sich argumentativ aus den fünf Sekundärquellen |
+| 2.2.4 Ausgewogenheit | OK | Konjunktivpflicht nach § 4.2 Claude.md konsequent eingehalten (habe, sei, hätten, würde); Alibaba-Selbstbeschreibung nicht als bestätigt gesetzt, sondern durch „nach Anbieter-Benchmarks" / „Konjunktiv nach § 4.2 Claude.md" gekennzeichnet; Framework-Sachverhalt ohne Vor-Bewertung wiedergegeben |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobenprüfung ohne Auffälligkeiten |
+| 2.3.2 Terminologie | OK | *Sparse-Mixture-of-Experts*, *Open-Weight*, *closed-source*, *Center for AI Standards and Innovation* (*CAISI*), *National Institute of Standards and Technology* (NIST), *Executive Order 14409* eindeutig; „Qwen3.8-Max" durchgängig in der Herstellerschreibweise |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Alle im Fließtext genannten Sekundärquellen (Qwen: SCMP, Bloomberg, TechNode, Quartz, MarkTechPost, Dataconomy, CGTN, The Daily Star, Yotta Labs; Framework: Fortune, Axios, The Next Web, Daily Caller, Yahoo News) vollständig in § 11.5-Neueinträgen aufgeführt |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-nahe Zitation mit Datum, Titeln kursiv, URL-Liste; einheitlich mit § 11.5-Vorlage der Vorläufe |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Qwen3.8-Max-Berichterstattung: acht unabhängige Sekundärquellen aus Tech-Wirtschafts- und regionaler Presse mit übereinstimmenden Kernangaben; Framework-5.-August-Berichterstattung: fünf unabhängige Sekundärquellen (drei politisch-analytische, zwei tech-wirtschaftliche) mit übereinstimmender Sachverhaltsdarstellung |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | technode.global, scmp.com, thenextweb.com, yahoo.com (news politics), opensourceforu.com direkt via WebFetch verifiziert; qz.com, dailycaller.com, fortune.com, axios.com mit HTTP 403 durch Anti-Bot-Schutz — Inhalt via WebSearch-Snippet und Sekundärquellen-Triangulation bestätigt |
+| 2.4.5 Zitatgenauigkeit | OK | Bloomberg-Formulierung „only Anthropic vorgelagert" und SCMP-Formulierung „closing the gap on leading US labs" indirekt referiert; White-House-Vertreter-Zitat („Just because things are unclassified...") wörtlich aus *The Next Web* übernommen; keine sinnentstellende Verkürzung |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Bestehende Markierung *de la Feria et al. 2022* unverändert; Sanders-Report-Verifikation (Version 5.0) unverändert |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 56.0 → 57.0 an allen vier Stellen (Dokumentkopf `KI-Ökonomie.md` Zeile 12, README.md Version-Zeile 7 und Zitiervorschlag Zeile 44, Aktualitätshinweis Dokumentende, Abschlussblock dieses Validierungs­eintrags); Autorenname, Organisation, Lizenz CC BY 4.0, Haftungshinweis und KI-Offenlegungshinweis unverändert |
+| 2.6 Automatisierte Prüfung | n/a | Keine dedizierten Prüfskripte im Projekt |
+
+### Gefundene Fehler
+
+Keine.
+
+### Durchgeführte Bereinigungen
+
+Keine erforderlich.
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine gefunden)
+- Neue Version: 57.0
+- PDF erstellt: Ja (Phase 5)
+- Word erstellt: Ja (Phase 5)
+
+---
+
 ## Validierung 5. August 2026 (Lauf 001 vom 5. August 2026) — Version 55.0 → Version 56.0
 
 **Auslöser:** Regulärer Daily-Update-Lauf. Web-Recherche im Korridor der Cluster A–J am 5. August 2026 im Standard-7-Tage-Fenster (29. Juli – 5. August 2026); Cluster F und I zusätzlich im Standard-48-Stunden-Fenster (3. – 5. August 2026). Ein belegbarer Neuzugang aus Cluster D: drei am 4. August 2026 koordiniert wirkende US-Governance-Signale (White-House-Sitzung mit *Meta*/*Anthropic*/*Google*/*OpenAI* zur Vorlage der finalisierten *Executive-Order-14409*-Framework-Fassung; *Anthropic* benennt Mariano-Florentino Cuéllar zum ersten *Chief Global Affairs Officer*; fünf demokratische Senatorinnen und Senatoren richten einen Transparenzbrief an die Trump-Administration).
