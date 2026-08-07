@@ -54,6 +54,87 @@
 
 ---
 
+## 2026-08-07 — Lauf 001 — Version 57.0 → Version 58.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, B, D, E, F, G, H, J ohne belegbare Neuzugänge im 7-Tage- bzw. 48-Stunden-Fenster). Zwei belegbare Neuzugänge: aus Cluster C die am 3. August 2026 vom südkoreanischen *Ministry of Economy and Finance* im Rahmen des 2026-Steuerreformpakets vorgeschlagene erstmalige produktionsvolumen­basierte *Domestic Production Tax Credit* für sechs strategische Industrien (Solar, Wind, Sekundärbatterien, Halbleiter, kritische Materialien und *AI robot components*, Laufzeit 1. Januar 2027 bis 31. Dezember 2036); aus Cluster I die *Meta*-Freigabe des Coding-orientierten *Muse-Spark-1.2*-Upgrades und des erstmaligen konzerneigenen Terminal-Coding-Agenten *Muse Code* (Beta) durch die *Meta Superintelligence Labs* am 5. August 2026.
+- Zeitfenster: Standard 7 Tage (31. Juli – 7. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (5. – 7. August 2026).
+- Anzahl Suchanfragen: 11 Web-Suchen (Cluster A–J durchsucht) plus gezielte Einzel-Fetches zur Verifikation (`research.meta.ai`, `koreaherald.com`, `koreajoongangdaily.com` via WebFetch direkt bestätigt; `upi.com` mit HTTP 403, `kedglobal.com` mit HTTP 503 — Verifikation über Sekundärquellen-Triangulation).
+- Lauf 001 vom 7. August 2026 ist der Folgelauf zu Lauf 001 vom 6. August 2026 (Version 56.0 → 57.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | C | Republic of Korea, Ministry of Economy and Finance (MOEF), *2026 Tax Reform Package — Special Taxation Act (Domestic Production Tax Credit)*, 3. August 2026 | Herstellerangabe via MOEF-Pressekonferenz (Sekundärberichterstattung) | übernommen (Primärvorgang; Kernangaben durch fünf unabhängige Sekundärberichte trianguliert) |
+| 2 | C | Korea Herald, *Korea tax overhaul rewards resident homeowners, targets multiple properties*, 3. August 2026 | https://www.koreaherald.com/article/10829532 | übernommen (Primärquelle direkt via WebFetch bestätigt; Sechs strategische Industrien, Multiplikatoren 1,0–1,5 und 50-%-Obergrenze verifiziert) |
+| 3 | C | Korea JoongAng Daily, *Make it here, pay less tax: Gov't unveils production credit for chips, batteries*, 3. August 2026 | https://www.koreajoongangdaily.com/korea/make-it-here-pay-less-tax-govt-unveils-production-credit-for-chips-batteries/12805902 | übernommen (Primärquelle direkt via WebFetch bestätigt; Produktionsvolumen-Basis, AI-Robot-Components-Zuordnung und MOEF-Zuordnung verifiziert) |
+| 4 | C | KED Global (Korea Economic Daily), *South Korea picks chips, batteries, AI robots for first US IRA-style production tax credits*, 28. Juli 2026 (Vorabbericht) | https://www.kedglobal.com/business-politics/newsView/ked202607280009 | übernommen (Vorabbeleg; WebFetch mit HTTP 503 — Kontext via WebSearch-Snippet trianguliert; Positionierung als „Korean IRA" verifiziert) |
+| 5 | C | UPI, *South Korea plans tax breaks to revive economic growth*, 3. August 2026 | https://www.upi.com/Top_News/World-News/2026/08/03/special-taxation-act-tax-reform/2161785809142/ | übernommen (Sekundärbeleg; WebFetch HTTP 403 — Kontext via WebSearch-Snippet trianguliert; Anwendung auf sechs strategische Industrien und Produktionscredit-Struktur verifiziert) |
+| 6 | C | En Bloomingbit, *South Korea Plans 'Korean IRA' Tax Credits for Output in Six Strategic Industries From Next Year*, 3. August 2026 | https://en.bloomingbit.io/feed/news/117167 | übernommen (Sekundärbeleg; „Korean IRA"-Positionierung verifiziert) |
+| 7 | C | Kyunghyang Shinmun (경향신문), *Tax breaks for domestic production of semiconductors·secondary batteries···*, 3. August 2026 | https://www.khan.co.kr/en/article/202608031837017/ | übernommen (Sekundärbeleg; südkoreanische Primärperspektive) |
+| 8 | I | Meta AI Research, *Introducing Muse Code and Muse Spark 1.2*, 5. August 2026 | https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2 | übernommen (Primärquelle direkt via WebFetch bestätigt; Release-Datum 5. August 2026, Async-Hintergrund-Agenten, lokales Event-Log, Skill-Bibliothek `/plan`,`/grill`,`/goal`, Selbstverbesserungsloop und Coding-Benchmarks verifiziert) |
+| 9 | I | Fortune / Yahoo Finance, *Meta debuts Muse Spark 1.2 and first coding agent as it ramps up competition with OpenAI, Anthropic*, 5. August 2026 | https://finance.yahoo.com/technology/article/meta-debuts-muse-spark-12-and-first-coding-agent-as-it-ramps-up-competition-with-openai-anthropic-213338398.html | übernommen (Sekundärbeleg; Positionierung *Meta Superintelligence Labs* als vierter US-Frontier-Anbieter verifiziert) |
+| 10 | I | MarkTechPost, *Meta AI Releases Muse Code (Beta): A Terminal Coding Agent Powered by the New Muse Spark 1.2 Model*, 5. August 2026 | https://www.marktechpost.com/2026/08/05/meta-superintelligence-labs-releases-muse-code/ | übernommen (Sekundärbeleg; MSL-Zweigverankerung und Terminal-Coding-Agent-Design verifiziert) |
+| 11 | I | explainx.ai, *Muse Code Beta — Meta's New Terminal Coding Agent (Aug 2026) | Muse Spark 1.2 launch*, 5. August 2026 | https://www.explainx.ai/blog/meta-muse-code-coding-agent-muse-spark-1-2-launch-august-2026 | übernommen (Sekundärbeleg) |
+| 12 | I | Vorp Labs, *Meta Muse Spark 1.2 and Muse Code model release review*, 5. August 2026 | https://vorplabs.com/models/releases/muse-spark-1-2 | übernommen (Sekundärbeleg; Modellverfügbarkeit über *Muse-Code*-CLI und *Meta Model API* verifiziert) |
+| 13 | A | Fu/Li/Weng/Zhou, *Robots, Rents, and Redistribution: Optimal Taxation and Regulation*, März 2026 (SSRN) | https://papers.ssrn.com/sol3/Delivery.cfm/6466918.pdf?abstractid=6466918&mirid=1 | verworfen (außerhalb 7-Tage-Fenster; thematischer Optimalsteuer-Zusatzbefund; Aufnahmekandidat bei einem thematisch getriebenen Vertiefungslauf zur Fu/Li/Weng/Zhou-8-%-Robotersteuer-These) |
+| 14 | E | Yotzov/Barrero/Bloom/Bunn/Davis/Foster/Jalca/Meyer/Mizen/Navarrete/Smietanka/Thwaites/Wang, *Firm Data on AI* (NBER Working Paper 34836), März/April 2026 | https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6466706 | verworfen (außerhalb 7-Tage-Fenster; thematisch überschneidungsträchtig mit *IAB-Kurzbericht 08/2026* und *Soto/Thieu/Allen-FEDS-Note*; Aufnahmekandidat bei einem thematisch getriebenen Vertiefungslauf zur betrieblichen KI-Adoption) |
+| 15 | I | *Meta Muse Spark 1.1 Containment-Vorfall* (Berichterstattung 5./6. August 2026) | https://techstartups.com/2026/08/06/top-tech-news-today-august-6-2026-google-meta-openai-robinhood-tencent-unitree-more/ | verworfen (im 48-Stunden-Fenster, aber Fortsetzung der bereits in § 4.3 und § 11.5 dokumentierten AI-Act-Enforcement-Fälle; keine strukturell neue Zugriffs- oder Bemessungslogik) |
+| 16 | E | IAB-Kurzbericht 08/2026 (Friedrich/Kagerl) | https://iab.de/presseinfo/jeder-vierte-betrieb-in-deutschland-nutzt-generative-ki/ | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 17 | B | *Bundesbank-Monatsbericht August 2026* | https://publikationen.bundesbank.de/publikationen-de/berichte-studien/monatsberichte/aktuelle-monatsberichte-922214 | verworfen (zum Schnittdatum 7. August 2026 noch nicht publiziert) |
+| 18 | G | *G-BA*-Beschlüsse Juli/August 2026 | https://www.g-ba.de/ | verworfen (keine KI-spezifischen Leistungs- oder Medizinprodukte-Beschlüsse im 7-Tage-Fenster identifiziert) |
+| 19 | C | Chinesische *AI-Layoff*-Provinz-Regulierungen | http://english.scio.gov.cn/ | verworfen (keine neue Bundes- oder Provinzregelung im 7-Tage-Fenster identifiziert) |
+| 20 | J | Tesla-Optimus-Gen-3-Serienstart Fremont (Ende Juli / Anfang August 2026) | https://newmarketpitch.com/blogs/news/humanoid-robotics-optimus-deployment-tracker | verworfen (keine konzernseitig datierte Primärveröffentlichung mit konkreten Stückzahlen im 7-Tage-Fenster; bereits in § 8.2 mit dem Q2-Earnings-Call vom 22. Juli 2026 dokumentiert) |
+| 21 | F | *SkillSyncer*-Aggregat 2026 (Stand 7. August 2026: 322 Layoff-Events, 205.832 Betroffene) | https://skillsyncer.com/layoffs-tracker | verworfen (kein einzelnes ereignisbezogenes Meldeobjekt) |
+| 22 | D | Sanders *American AI Sovereign Wealth Fund Act* (18. Juni 2026) | https://www.sanders.senate.gov/press-releases/news-sanders-introduces-legislation-to-create-7-trillion-ai-sovereign-wealth-fund/ | verworfen (außerhalb 7-Tage-Fenster; bereits mit Version 51.0 in § 4.5 vollständig dokumentiert) |
+| 23 | B | *EU-AI-Act-Enforcement-Aktivierung* (2. August 2026) | https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august | verworfen (bereits mit Version 55.0/56.0/57.0 in § 4.3 und § 11.3 vollständig dokumentiert) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 6.1 (neuer Absatz mit Fett-Lead-in „Aktualisierung (3. August 2026) — Domestic Production Tax Credit („Korean IRA")" nach dem Bestandsabsatz zur 2017-Maßnahme, vor § 6.2 IRAP) | Aktualisierung | Vom südkoreanischen *Ministry of Economy and Finance* am 3. August 2026 vorgeschlagene erstmals produktionsvolumen­basierte *Domestic Production Tax Credit* für sechs strategische Industriesektoren (Solar, Wind, Sekundärbatterien, Halbleiter, kritische Materialien, *AI robot components*) mit regionalen Multiplikatoren 1,0–1,5, Obergrenze 50 % der qualifizierten Produktionskosten und Laufzeit 1. Januar 2027 bis 31. Dezember 2036; konzeptionelle Wende von der 2017-Reduktion vorhandener Automatisierungsabzüge zur aktiven, KI-spezifisch adressierten Produktionsförderung; internationale Referenz für die deutsche *Veredelungsstrategie* an der nachgelagerten Fertigungsschicht (§ 8.2) und für die wertschöpfungs- statt ertrags­orientierte Zugriffslogik (§ 5.1, § 8.3); Konjunktivpflicht bei ausstehender Zustimmung der Nationalversammlung eingehalten. | 1–7 |
+| 2 | § 8.2 (neuer Absatz zwischen dem *Alibaba*-Qwen3.8-Max-Absatz vom 3. August 2026 und dem „Deutschland hat in dieser Ordnung..."-Absatz) | Ergänzung | *Meta*-Freigabe des Coding-orientierten *Muse-Spark-1.2*-Upgrades und des erstmaligen konzerneigenen Terminal-Coding-Agenten *Muse Code* (Beta) durch die *Meta Superintelligence Labs* (MSL) am 5. August 2026; dritter strukturell gleichartiger Datenpunkt einer sich verbreiternden Frontier-Modell-Achse neben *Alibaba Qwen3.8-Max* (3. August 2026) und *Moonshot Kimi K3* (16. Juli 2026); Positionierung *Meta*s als vierter US-Frontier-Anbieter neben *OpenAI*, *Anthropic* und *Google DeepMind*; Rückwirkung auf § 8.3 (Verlagerung der Wettbewerbsdynamik von der API-Preisebene auf die Deployment- und Agent-Ebene mit unmittelbarer Anschlussfähigkeit für die europäische Anwenderseite); Konjunktivpflicht bei ausstehender unabhängiger Nachprüfung der Coding-Benchmarks eingehalten. | 8–12 |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Fu/Li/Weng/Zhou, *Robots, Rents, and Redistribution* (SSRN, März 2026) | A | außerhalb 7-Tage-Fenster; Aufnahmekandidat bei Vertiefungslauf |
+| 2 | Yotzov et al., *Firm Data on AI* (NBER 34836, März/April 2026) | E | außerhalb 7-Tage-Fenster; thematisch überschneidungsträchtig mit IAB und FEDS-Note; Aufnahmekandidat bei Vertiefungslauf |
+| 3 | Meta-Muse-Spark-1.1-Containment-Vorfall (5./6. August 2026) | I | im Fenster, aber Fortsetzung bereits dokumentierter AI-Act-Enforcement-Fälle ohne strukturell neue Zugriffs- oder Bemessungslogik |
+| 4 | IAB-Kurzbericht 08/2026 (Friedrich/Kagerl) | E | außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat |
+| 5 | Bundesbank-Monatsbericht August 2026 | B/E | zum Schnittdatum 7. August 2026 nach Recherche noch nicht publiziert |
+| 6 | G-BA-Beschlüsse Juli/August 2026 | G | keine KI-spezifischen Leistungs- oder Medizinprodukte-Beschlüsse im 7-Tage-Fenster |
+| 7 | Chinesische *AI-Layoff*-Provinz-Regulierungen | C | keine neue Bundes- oder Provinzregelung im 7-Tage-Fenster |
+| 8 | Tesla-Optimus-Gen-3-Serienstart Fremont | J | keine konzernseitig datierte Primärveröffentlichung mit Stückzahlen im 7-Tage-Fenster; bereits mit Q2-Earnings-Call in § 8.2 dokumentiert |
+| 9 | *SkillSyncer*-Aggregat 2026 | F | kein einzelnes ereignisbezogenes Meldeobjekt im Sinne des Cluster-F-Trigger-Rasters |
+| 10 | Sanders *American AI Sovereign Wealth Fund Act* (18. Juni 2026) | D | außerhalb 7-Tage-Fenster; bereits mit Version 51.0 dokumentiert |
+| 11 | EU-AI-Act-Enforcement-Aktivierung (2. August 2026) | B | bereits mit Version 55.0/56.0/57.0 dokumentiert |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block „Validierung 7. August 2026 (Lauf 001 vom 7. August 2026) — Version 57.0 → Version 58.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (Version 57.0 → 58.0)
+- E-Mail-Benachrichtigung: Fallback-Textdatei `daily-mail.txt` im Repo-Root geschrieben (kein `mail_send`/`send_mail`/`outlook_send`-Tool in der laufenden Session erreichbar; kein Versand erfolgt).
+- WhatsApp-Benachrichtigung: Fallback-Textdatei `daily-whatsapp.txt` im Repo-Root geschrieben (kein `wa_send_message`/`whatsapp_send`-Tool in der laufenden Session erreichbar; kein Versand erfolgt).
+- Branch auf main gemerged und gelöscht: (siehe unten unter „Auffälligkeiten" — Status wird durch Phase 6 eingetragen)
+
+### Auffälligkeiten / offene Punkte
+
+- *KED Global*-Vorabbericht vom 28. Juli 2026 lag im WebFetch mit HTTP 503 vor; Kernangaben wurden über die Primärberichterstattung von *Korea Herald*, *Korea JoongAng Daily*, *UPI* und *En Bloomingbit* trianguliert und durch die direkte WebFetch-Bestätigung der *Korea-Herald*- und *Korea-JoongAng-Daily*-Berichte verifiziert.
+- Die südkoreanische Umsetzung setzt die Zustimmung der Nationalversammlung und eine Novellierung der Durchführungsverordnung im Februar 2027 voraus (Konjunktivpflicht nach § 4.2 Claude.md).
+- Der *Meta-Muse-Spark-1.2*-Bericht enthält Herstellerangaben zu Coding-Benchmarks (Terminal-Bench 2.1, DeepSWE 1.1, Meta Internal Coding Bench) ohne unabhängige Nachprüfung; die Aufnahme wurde entsprechend konjunktivisch formuliert.
+- Phase 5b (Benachrichtigung): Weder ein `mail_send`/`send_mail`/`outlook_send`-Tool noch ein `wa_send_message`/`whatsapp_send`-Tool war in der laufenden Session erreichbar. Empfänger sind über die Routine-Anweisung gültig konfiguriert; entsprechend wurden die vorbereiteten Inhalte gemäß Phase 5b Schritt 2 Buchstaben a und b in die gitignored Fallback-Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben. Kein Versand erfolgt. Empfängerdaten werden entsprechend Phase-5b-Prompt nicht in versionierte Repository-Dateien geschrieben.
+
+---
+
 ## 2026-08-06 — Lauf 001 — Version 56.0 → Version 57.0
 
 ### Recherchekorridor
