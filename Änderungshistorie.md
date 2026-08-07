@@ -124,7 +124,7 @@
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (Version 57.0 → 58.0)
 - E-Mail-Benachrichtigung: Fallback-Textdatei `daily-mail.txt` im Repo-Root geschrieben (kein `mail_send`/`send_mail`/`outlook_send`-Tool in der laufenden Session erreichbar; kein Versand erfolgt).
 - WhatsApp-Benachrichtigung: Fallback-Textdatei `daily-whatsapp.txt` im Repo-Root geschrieben (kein `wa_send_message`/`whatsapp_send`-Tool in der laufenden Session erreichbar; kein Versand erfolgt).
-- Branch auf main gemerged und gelöscht: (siehe unten unter „Auffälligkeiten" — Status wird durch Phase 6 eingetragen)
+- Branch auf main gemerged und gelöscht: Merge auf main erfolgreich als `--no-ff`-Merge-Commit 689519b („Merge branch 'claude/determined-einstein-tnmfxg' — Daily-Update 2026-08-07 Lauf 001 — Version 57.0 → 58.0"); Push auf `origin/main` erfolgreich; lokaler Branch `claude/determined-einstein-tnmfxg` gelöscht. Remote-Löschung des Session-Branches mit HTTP 403 abgelehnt (Repository-Policy blockiert Löschung `claude/*`-Branches durch die Automations-Identität — konsistent mit den Läufen 001 vom 5. und 6. August 2026; kein manueller Handlungsbedarf).
 
 ### Auffälligkeiten / offene Punkte
 
