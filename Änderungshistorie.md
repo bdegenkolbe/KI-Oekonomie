@@ -135,7 +135,7 @@
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (Version 58.0 → 59.0; zusätzlich Bereinigung der Zitiervorschlag-Nachtragslücke der Vorläufer-Version)
 - E-Mail-Benachrichtigung: Fallback-Textdatei `daily-mail.txt` im Repo-Root geschrieben (Aufruf von `mcp__Microsoft-365__outlook_send_mail` als einziges in der Session verfügbares `outlook_send`-artiges Tool schlug mit `permission_error: This tool is not available.` fehl; kein Versand erfolgt).
 - WhatsApp-Benachrichtigung: Fallback-Textdatei `daily-whatsapp.txt` im Repo-Root geschrieben (kein `wa_send_message`/`whatsapp_send`-Tool in der laufenden Session erreichbar; kein Versand erfolgt).
-- Branch auf main gemerged und gelöscht: [wird in Phase 6 gesetzt]
+- Branch auf main gemerged und gelöscht: Merge auf main erfolgreich als `--no-ff`-Merge-Commit ddb5c70 („Merge branch 'claude/determined-einstein-dvumjz' — Daily-Update 2026-08-08 Lauf 001 — Version 58.0 → 59.0"); Push auf `origin/main` erfolgreich (47e03e0..ddb5c70; Repository-Regel-Bypass für Automations-Identität dokumentiert); lokaler Branch `claude/determined-einstein-dvumjz` gelöscht. Remote-Löschung des Session-Branches mit HTTP 403 abgelehnt (Repository-Policy blockiert Löschung `claude/*`-Branches durch die Automations-Identität — konsistent mit den Läufen 001 vom 5., 6. und 7. August 2026; kein manueller Handlungsbedarf).
 
 ### Auffälligkeiten / offene Punkte
 
