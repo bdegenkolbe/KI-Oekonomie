@@ -54,6 +54,97 @@
 
 ---
 
+## 2026-08-08 — Lauf 001 — Version 58.0 → Version 59.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, B, C, D, E, G, H ohne belegbare Neuzugänge im 7-Tage- bzw. 48-Stunden-Fenster). Zwei belegbare Neuzugänge im 48-Stunden-Fenster: aus Cluster I die parallelen *Alphabet*-Führungswechsel vom 5. August 2026 (Demis Hassabis → *Chairman of Google DeepMind*/*Chief Scientist of Alphabet*; Koray Kavukcuoglu → *SVP of Google DeepMind*) und der parallele Abgang von *Google*-Chief-Scientist *Jeff Dean* nach 27 Jahren zusammen mit *Sanjay Ghemawat*, *Oriol Vinyals* und *Quoc Le* zur Gründung des Alphabet-mitfinanzierten Startups *Discovery Loop* (rekursiv-selbstverbessernder KI-Stack für Grundlagenforschung); aus Cluster J die *Unitree Robotics*-IPO-Bepreisung am *Shanghai STAR Market* zum 6./7. August 2026 (150,80 Yuan/Aktie, Bewertung rund 61 Milliarden Yuan / rund 9,04 Milliarden US-Dollar, Emissionserlös rund 6,1 Milliarden Yuan; Zeichnungsphase ab 10. August 2026; *DeepSeek AI* als strategischer Investor mit 20,8 Millionen US-Dollar).
+- Zeitfenster: Standard 7 Tage (1. – 8. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (6. – 8. August 2026).
+- Anzahl Suchanfragen: 10 Web-Suchen (Cluster A–J durchsucht) plus gezielte Einzel-Fetches zur Verifikation.
+- Lauf 001 vom 8. August 2026 ist der Folgelauf zu Lauf 001 vom 7. August 2026 (Version 57.0 → 58.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | I | Axios, *Google DeepMind CEO Demis Hassabis is stepping aside*, 5. August 2026 | https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai | übernommen (Primärquelle) |
+| 2 | I | Bloomberg, *Google DeepMind's Hassabis Moves to Chairman Role in Leadership Reshuffle*, 5. August 2026 | https://www.bloomberg.com/news/articles/2026-08-05/google-deepmind-boss-hassabis-moves-to-chair-role-in-shakeup | übernommen (Sammelbeleg) |
+| 3 | I | Fortune, *Demis Hassabis steps down from Google DeepMind CEO role amid a major AI leadership shake-up*, 5. August 2026 | https://fortune.com/2026/08/05/demis-hassabis-steps-down-google-deepmind-ai-shakeup/ | übernommen (Sammelbeleg) |
+| 4 | I | Semafor, *Demis Hassabis was shifting away from DeepMind CEO duties for a year* (Exklusivbericht), 5. August 2026 | https://www.semafor.com/article/08/05/2026/demis-hassabis-was-shifting-away-from-deepmind-ceo-duties-for-a-year | übernommen (Kontextverbreiterung) |
+| 5 | I | Time, *Google DeepMind Reshuffles After CEO Demis Hassabis*, 6. August 2026 | https://time.com/article/2026/08/06/google-deepmind-ai-demis-hassabis/ | übernommen (Sammelbeleg) |
+| 6 | I | TechCrunch, *Jeff Dean and other top AI researchers are leaving Google to launch their own startup*, 5. August 2026 | https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/ | übernommen (Primärquelle Discovery Loop) |
+| 7 | I | GeekWire, *The startup idea that convinced a UW computer science legend to leave Google after 27 years*, 5. August 2026 | https://www.geekwire.com/2026/the-startup-idea-that-convinced-a-uw-computer-science-legend-to-leave-google-after-27-years/ | übernommen (Sammelbeleg) |
+| 8 | I | SiliconRepublic, *Top Google minds quit to build AI that accelerates research*, 5. August 2026 | https://www.siliconrepublic.com/start-ups/top-google-minds-leave-discovery-loop-jeff-dean | übernommen (Sammelbeleg) |
+| 9 | I | Quartz / Yahoo Finance, *Jeff Dean leaving Google after 27 years to co-found Discovery Loop*, 5. August 2026 | https://qz.com/jeff-dean-google-chief-scientist-discovery-loop-startup-080526 \| https://finance.yahoo.com/technology/ai/articles/jeff-dean-leaving-google-27-170255620.html | übernommen (Sammelbeleg) |
+| 10 | I | explainx.ai, *Jeff Dean Leaves Google for Discovery Loop — August 2026*, 5. August 2026 | https://www.explainx.ai/blog/jeff-dean-discovery-loop-demis-hassabis-google-deepmind-shakeup-august-2026 | übernommen (Sammelbeleg) |
+| 11 | I | Gizmodo, *Google DeepMind Boss Demis Hassabis Steps Down From CEO Role*, 5. August 2026 | https://gizmodo.com/google-deepmind-boss-demis-hassabis-steps-down-from-ceo-role-2000794979 | übernommen (Sammelbeleg) |
+| 12 | I | Dataconomy, *Demis Hassabis To Step Down As Google DeepMind CEO*, 6. August 2026 | https://dataconomy.com/2026/08/06/demis-hassabis-stepping-down-google-deepmind-ceo/ | übernommen (Sammelbeleg) |
+| 13 | J | Bloomberg, *Unitree Robotics Plans $904 Million IPO as China's First Humanoid Robot Maker*, 6. August 2026 | https://www.bloomberg.com/news/articles/2026-08-06/china-s-unitree-seeks-904-million-in-first-mainland-robotic-ipo | übernommen (Primärquelle) |
+| 14 | J | CNBC, *Chinese humanoid robot maker Unitree prices IPO at $9 billion valuation*, 6. August 2026 | https://www.cnbc.com/2026/08/06/chinese-humanoid-robot-maker-unitree-prices-ipo-at-9-billion-valuation.html | übernommen (Primärquelle bestätigt Bewertung und Emissionsstruktur) |
+| 15 | J | Caixin Global, *Unitree Robotics Prices Shanghai IPO at 61 Billion Yuan Valuation*, 7. August 2026 | https://www.caixinglobal.com/2026-08-07/unitree-robotics-prices-shanghai-ipo-at-61-billion-yuan-valuation-102472090.html | übernommen (chinesische Primärperspektive) |
+| 16 | J | Forbes, *Unitree IPO Turns 36-Year-Old Founder Into China's First Humanoid Robot Billionaire*, 7. August 2026 | https://www.forbes.com/sites/ywang/2026/08/07/unitree-ipo-turns-36-year-old-founder-into-chinas-first-humanoid-robot-billionaire/ | übernommen (Sammelbeleg) |
+| 17 | J | Yahoo Finance, *Chinese humanoid robot maker Unitree prices IPO at $9 billion valuation*, 6. August 2026 | https://finance.yahoo.com/technology/articles/chinese-robot-maker-unitree-prices-111614890.html | übernommen (Sammelbeleg) |
+| 18 | J | Tech Startups, *China's Unitree targets IPO at $9 billion valuation as humanoid robot race heats up, DeepSeek invests $20.8M*, 6. August 2026 | https://techstartups.com/2026/08/06/chinas-unitree-targets-ipo-at-9-billion-valuation-as-humanoid-robot-race-heats-up-deepseek-invests-20-8m/ | übernommen (DeepSeek-Investor-Bestätigung) |
+| 19 | J | Robotics and Automation News, *Unitree targets $9 billion valuation in landmark IPO as humanoid robot race accelerates*, 7. August 2026 | https://roboticsandautomationnews.com/2026/08/07/unitree-targets-9-billion-valuation-in-landmark-ipo-as-humanoid-robot-race-accelerates/104008/ | übernommen (Sammelbeleg) |
+| 20 | J | Finimize, *China's Unitree Prices A Shanghai IPO For Its Humanoid Robots*, 7. August 2026 | https://finimize.com/content/chinas-unitree-prices-a-shanghai-ipo-for-its-humanoid-robots | übernommen (Sammelbeleg) |
+| 21 | F | Zillow (Blog / GeekWire / TheNextWeb / KIRO 7 / Inman / PYMNTS), 500-Stellen-Restrukturierung, 4. August 2026 | https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/ | verworfen (Konzern dementiert AI-Kausalität; im Papier bereits mit Version 55.0/56.0 als Muster der Kausalattributionsproblematik dokumentiert) |
+| 22 | F | Etsy (Quartz / Allwork / HCAMag / Influencer Magazine / BW People / Openthemagazine), 220-Stellen-Restrukturierung (12 %), 5./6. August 2026 | https://qz.com/etsy-layoffs-workforce-restructuring-q2-earnings-080626 | verworfen (Konzern dementiert AI-Kausalität; vergleichbares Muster in Version 55.0/57.0 dokumentiert) |
+| 23 | F | TikTok (Verdict / TechSpot / HL Markets / Yahoo Finance / TheHRDigest), rund 300 Stellen in London (Content-Moderation → Dublin/Lisbon/Dritte), Anfang August 2026 | https://finance.yahoo.com/news/tiktok-uk-content-moderator-jobs-092240012.html | verworfen (unter Cluster-F-Aufnahmeschwelle > 1.000 Stellen; Content-Moderation-Kontext bereits durch die Kausalattributionsproblematik in § 9.1 abgedeckt; Aufnahmekandidat bei Bündelung) |
+| 24 | E/F | Challenger, Gray & Christmas — July 2026 Report (Freigabe 5. August 2026, 33.429 US-Streichungen im Juli, YTD 477.033, KI-attribuiert im Juli 10.000+, YTD-Technologie 149.023) | https://www.challengergray.com/blog/challenger-report-layoffs-fall-hiring-picks-up-ai-leads-for-fifth-straight-month/ | verworfen (Fortsetzung der bereits mit Version 51.0/52.0/53.0/57.0 dokumentierten monatlichen Challenger-Serie; keine strukturelle Änderung; Aufnahmekandidat beim August-Report Anfang September 2026) |
+| 25 | A | Korinek/Lockwood, *Public Finance in the Age of AI: A Primer* (NBER Working Paper 34873) | https://www.nber.org/papers/w34873 | verworfen (bereits mit Version 9.0 in § 11.5 als „Brookings-Paper" dokumentiert; NBER-Publikation Februar 2026, keine neue Publikation im 7-Tage-Fenster) |
+| 26 | E | IAB-Kurzbericht 08/2026 (Friedrich/Kagerl) | https://iab.de/presseinfo/jeder-vierte-betrieb-in-deutschland-nutzt-generative-ki/ | verworfen (weiterhin außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 27 | E | Bundesbank-Monatsbericht August 2026 | https://publikationen.bundesbank.de/publikationen-de/berichte-studien/monatsberichte/aktuelle-monatsberichte-922214 | verworfen (zum Schnittdatum 8. August 2026 nach Recherche noch nicht publiziert) |
+| 28 | G | G-BA-Beschlüsse Juli/August 2026 | https://www.g-ba.de/ | verworfen (keine KI-spezifischen Leistungs- oder Medizinprodukte-Beschlüsse im 7-Tage-Fenster identifiziert) |
+| 29 | C | Chinesische AI-Layoff-Provinz-Regulierungen | http://english.scio.gov.cn/ | verworfen (keine neue Bundes- oder Provinzregelung im 7-Tage-Fenster identifiziert) |
+| 30 | D | Sanders *American AI Sovereign Wealth Fund Act* (18. Juni 2026) | https://www.sanders.senate.gov/press-releases/news-sanders-introduces-legislation-to-create-7-trillion-ai-sovereign-wealth-fund/ | verworfen (außerhalb 7-Tage-Fenster; bereits mit Version 51.0 dokumentiert) |
+| 31 | B | EU-AI-Act-Enforcement-Aktivierung (2. August 2026) | https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august | verworfen (bereits mit Version 55.0/56.0 in § 4.3 und § 11.3/§ 11.5 vollständig dokumentiert) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 8.2 (neuer Absatz zwischen dem *Alibaba*-Qwen3.8-Max-Absatz vom 3. August 2026 und dem *Meta*-Muse-Spark-1.2-Absatz vom 5. August 2026) | Ergänzung | Strukturelle Führungsumbildung an der Spitze von *Google DeepMind* am 5. August 2026: Hassabis wird *Chairman of Google DeepMind* und *Chief Scientist* von *Alphabet* (Fortführung *Isomorphic Labs*), Kavukcuoglu übernimmt die operative Leitung als *Senior Vice President of Google DeepMind* mit direkter Berichtslinie an Sundar Pichai; parallel verlässt Jeff Dean nach 27 Jahren *Google* und gründet zusammen mit Sanjay Ghemawat, Oriol Vinyals und Quoc Le das Alphabet-mitfinanzierte Startup *Discovery Loop* für einen rekursiv-selbstverbessernden KI-Stack zur Beschleunigung wissenschaftlicher Grundlagenforschung; Konjunktivpflicht nach § 4.2 Claude.md eingehalten; Rückwirkung auf § 4.5 (bestandsorientierte Umverteilungslogik trifft auf strukturell mobilere Marktkapitalisierungs­grundlage) und § 8.3 (Wertschöpfungs- statt Marktkapitalisierungs­anknüpfung). | 1–12 |
+| 2 | § 8.2 (neuer Absatz zwischen dem *Meta*-Muse-Spark-1.2-Absatz vom 5. August 2026 und dem „Deutschland hat in dieser Ordnung..."-Absatz) | Ergänzung | *Unitree Robotics*-IPO-Bepreisung am *Shanghai STAR Market* am 6./7. August 2026 zu 150,80 Yuan je Aktie (Bewertung rund 61 Milliarden Yuan / rund 9,04 Milliarden US-Dollar; Emissionserlös rund 6,1 Milliarden Yuan; Zeichnung ab 10. August 2026; *DeepSeek AI* als strategischer Investor mit 20,8 Millionen US-Dollar; erster mainland-gelisteter chinesischer Humanoid-Robotik-Hersteller; Konzernumsatz 2025 rund 1,7 Milliarden Yuan, humanoide Roboter mit 867,8 Millionen Yuan erstmals größtes Segment); Aufnahme als chinesischer Referenzpunkt zur *Tesla-Optimus*-Fremont-Erstlinie und Präzisierung der physisch-robotischen Wertschöpfungs­schicht der Rohstoff-Analogie; Rückwirkung auf § 4.5 und § 8.3. | 13–20 |
+| 3 | § 11.5 (Journalistische und praxisorientierte Quellen) | Ergänzung | Zwei neue Sammelbelege als erste und zweite Einträge der Sektion (vor dem Meta-Muse-Spark-1.2-Sammelbeleg der Version 58.0): erstens *Alphabet / Axios / Bloomberg / Fortune / Gizmodo / Time / TechCrunch / Semafor / Dataconomy / AI Magazine / GeekWire / SiliconRepublic / Quartz / explainx.ai / Sovereign Magazine / Enterprise DNA* (5./6. August 2026, Hassabis-Rollenwechsel / Kavukcuoglu-Nachfolge / Jeff-Dean-Ausscheiden / Discovery-Loop-Gründung) mit vollständiger Zitationskette, Rollen- und Investoren-Details und 16 URLs; zweitens *Unitree Robotics (Yushu Technology) / Bloomberg / CNBC / Caixin Global / Forbes / Yahoo Finance / KFGO / Tech Startups / Robotics and Automation News / Finimize* (6./7. August 2026, IPO-Bepreisung) mit vollständiger Zitationskette, Kernangaben (150,80 Yuan, 61 Milliarden Yuan Bewertung, 6,1 Milliarden Yuan Emissionserlös, *DeepSeek AI* 20,8 Millionen US-Dollar) und neun URLs. | 1–20 |
+| 4 | Aktualitätshinweis am Dokumentende | Aktualisierung | Version-59.0-Nachtrag zu den zwei belegbaren Neuzugängen (Cluster I: *Alphabet*-Führungswechsel 5. August 2026 und *Discovery Loop*-Gründung; Cluster J: *Unitree*-IPO-Bepreisung 6./7. August 2026) mit § 8.2-, § 4.5- und § 8.3-Rückverweisen und § 11.5-Neueinträgen ergänzt; Schnittdatum 8. August 2026 (Lauf 001). | 1–20 |
+| 5 | Dokumentkopf, README.md (Version, Zitiervorschlag, Änderungslog) | Aktualisierung | Version 58.0 → 59.0 am Dokumentkopf, am README-Header und im README-Zitiervorschlag (letzterer war in Version 58.0 noch mit „Version 57.0" ausgezeichnet gewesen — Nachtragslücke der Vorläufer-Version; im vorliegenden Lauf zusammen mit der regulären Header-Aktualisierung ausgeglichen); Aufnahme von Version-58.0- und Version-59.0-Passus in die README-Änderungsliste. | 1–20 |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Zillow-500-Stellen-Restrukturierung (4. August 2026) | F | Konzern dementiert AI-Kausalität; im Papier bereits als Muster der Kausalattributionsproblematik in § 9.1 dokumentiert |
+| 2 | Etsy-220-Stellen-Restrukturierung (5./6. August 2026) | F | Konzern dementiert AI-Kausalität; vergleichbares Muster in Version 55.0/57.0 (Visa, monday.com) dokumentiert |
+| 3 | TikTok-London-Content-Moderation-Layoffs (rund 300 Stellen) | F | Unter Cluster-F-Aufnahmeschwelle > 1.000 Stellen; Content-Moderation-Kontext durch Kausalattributionsproblematik in § 9.1 abgedeckt |
+| 4 | Challenger July 2026 Report (5. August 2026) | E/F | Fortsetzung der bereits monatlich in § 1.1 und § 11.5 dokumentierten Challenger-Serie ohne strukturelle Änderung; Aufnahmekandidat beim August-Report |
+| 5 | Korinek/Lockwood NBER Working Paper 34873 | A | Bereits mit Version 9.0 in § 11.5 dokumentiert; NBER-Publikation Februar 2026 |
+| 6 | IAB-Kurzbericht 08/2026 (Friedrich/Kagerl) | E | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat |
+| 7 | Bundesbank-Monatsbericht August 2026 | B/E | Zum Schnittdatum 8. August 2026 nach Recherche noch nicht publiziert |
+| 8 | G-BA-Beschlüsse Juli/August 2026 | G | Keine KI-spezifischen Leistungs- oder Medizinprodukte-Beschlüsse im 7-Tage-Fenster |
+| 9 | Chinesische AI-Layoff-Provinz-Regulierungen | C | Keine neue Bundes- oder Provinzregelung im 7-Tage-Fenster |
+| 10 | Sanders *American AI Sovereign Wealth Fund Act* (18. Juni 2026) | D | Außerhalb 7-Tage-Fenster; bereits mit Version 51.0 dokumentiert |
+| 11 | EU-AI-Act-Enforcement-Aktivierung (2. August 2026) | B | Bereits mit Version 55.0/56.0 dokumentiert |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block „Validierung 8. August 2026 (Lauf 001 vom 8. August 2026) — Version 58.0 → Version 59.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (Version 58.0 → 59.0; zusätzlich Bereinigung der Zitiervorschlag-Nachtragslücke der Vorläufer-Version)
+- E-Mail-Benachrichtigung: Fallback-Textdatei `daily-mail.txt` im Repo-Root geschrieben (Aufruf von `mcp__Microsoft-365__outlook_send_mail` als einziges in der Session verfügbares `outlook_send`-artiges Tool schlug mit `permission_error: This tool is not available.` fehl; kein Versand erfolgt).
+- WhatsApp-Benachrichtigung: Fallback-Textdatei `daily-whatsapp.txt` im Repo-Root geschrieben (kein `wa_send_message`/`whatsapp_send`-Tool in der laufenden Session erreichbar; kein Versand erfolgt).
+- Branch auf main gemerged und gelöscht: [wird in Phase 6 gesetzt]
+
+### Auffälligkeiten / offene Punkte
+
+- Der Zitiervorschlag in `README.md` war in Version 58.0 noch mit „Version 57.0" ausgezeichnet gewesen (die Version-58.0-Läufe haben Dokumentkopf und README-Header, aber nicht den Zitiervorschlag aktualisiert). Der vorliegende Lauf gleicht die Nachtragslücke zusammen mit der regulären Header-Aktualisierung auf „Version 59.0" aus.
+- Phase 5b (Benachrichtigung): Empfänger sind über die Routine-Anweisung gültig konfiguriert. Der einzige in der laufenden Session verfügbare `outlook_send`-Kandidat (`mcp__Microsoft-365__outlook_send_mail`) hat mit `permission_error: This tool is not available.` abgelehnt; kein `wa_send_message`/`whatsapp_send`-Tool war erreichbar. Die vorbereiteten Inhalte wurden gemäß Phase 5b Schritt 2 Buchstaben a und b in die gitignored Fallback-Dateien `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root geschrieben. Kein Versand erfolgt. Empfängerdaten werden entsprechend Phase-5b-Prompt nicht in versionierte Repository-Dateien geschrieben.
+- Cluster F liefert im 48-Stunden-Fenster mehrere ereignisbezogene Meldungen (Zillow, Etsy, TikTok, Challenger July-Report), von denen keine die Cluster-F-Aufnahmekriterien für eine eigenständige § 1.1-Aufnahme erfüllt (Zillow/Etsy dementieren AI-Kausalität ausdrücklich; TikTok unter 1.000-Stellen-Schwelle; Challenger als Monatsserie bereits dokumentiert). Cluster F fließt damit indirekt in die Deduplikationsbasis, ohne den Versionssprung inhaltlich zu tragen.
+
+---
+
 ## 2026-08-07 — Lauf 001 — Version 57.0 → Version 58.0
 
 ### Recherchekorridor
