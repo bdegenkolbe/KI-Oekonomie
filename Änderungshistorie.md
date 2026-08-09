@@ -54,6 +54,95 @@
 
 ---
 
+## 2026-08-09 — Lauf 001 — Version 59.0 → Version 60.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, C, E, G, H ohne belegbare Neuzugänge im 7-Tage- bzw. 48-Stunden-Fenster). Zwei belegbare Neuzugänge im 7-Tage-Fenster: aus Cluster B/D die Einbringung des *AI Tax and Work Protection Act* (H.R. 10044) durch Rep. Greg Casar (D-TX) mit Valerie Foushee (D-NC) und Sara Jacobs (D-CA) am 6. August 2026 im 119. US-Kongress; aus Cluster J die öffentliche Erstpräsentation des von *BYD* selbst entwickelten humanoiden Serviceroboters *Xiao Di* am *Di Space*-Kunden- und Ausstellungszentrum in Zhengzhou Anfang August 2026.
+- Zeitfenster: Standard 7 Tage (2. – 9. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (7. – 9. August 2026).
+- Anzahl Suchanfragen: 10 Web-Suchen (Cluster A–J durchsucht) plus gezielte Einzel-Fetches zur Verifikation (Casar-Bill über *Reason* und *CBS Austin*, H.R.-10044-Bill-Zusammenfassung über *Quiver Quantitative*; *Xiao Di* über *Stuff South Africa*).
+- Lauf 001 vom 9. August 2026 ist der Folgelauf zu Lauf 001 vom 8. August 2026 (Version 58.0 → 59.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B/D | Reason, *Democrats want to tax AI companies for job losses that haven't happened*, 7. August 2026 | https://reason.com/2026/08/07/democrats-want-to-tax-ai-companies-for-job-losses-that-havent-happened/ | übernommen (Primärquelle Casar-Bill inhaltlich) |
+| 2 | B/D | CBS Austin, *Casar introduces bill to tax AI companies, create jobs amid layoff fears*, 6./7. August 2026 | https://cbsaustin.com/news/local/casar-introduces-bill-to-tax-ai-companies-create-jobs-amid-layoff-fears | übernommen (Primärquelle Casar-Bill mit Co-Sponsoren-Bestätigung) |
+| 3 | B/D | NBC News, *New Democratic bill would tax AI companies to create jobs*, 6./7. August 2026 | https://www.nbcnews.com/politics/congress/new-democratic-bill-tax-ai-companies-create-jobs-rcna590262 | übernommen (Sammelbeleg) |
+| 4 | B/D | Nextgov/FCW, *Tech Bills of the Week: Deterring AI distillation; Taxing AI developers; and more*, August 2026 | https://www.nextgov.com/policy/2026/08/tech-bills-week-deterring-ai-distillation-taxing-ai-developers-and-more/415287/ | übernommen (Sammelbeleg legislativer Wochenbericht) |
+| 5 | B/D | Common Dreams, *Progressives Demand AI Tax to Prevent „Great Depression Levels of Unemployment"*, 6./7. August 2026 | https://www.commondreams.org/news/ai-tax-unemployment | übernommen (Kontextverbreiterung Rezeption) |
+| 6 | B/D | AI Commission, *Casar introduces bill to tax AI companies, create jobs amid layoff fears*, August 2026 | https://aicommission.org/2026/08/casar-introduces-bill-to-tax-ai-companies-create-jobs-amid-layoff-fears/ | übernommen (Sammelbeleg AI-Policy) |
+| 7 | B/D | Texas Politics, *Greg Casar Targets AI Profits With New Worker Protection Bill*, 7. August 2026 | https://texaspolitics.com/2026/08/07/hold-casars-new-bill-to-protect-american-workers-from-mass-unemployment-caused-by-ai/ | übernommen (Sammelbeleg regional) |
+| 8 | B/D | Quiver Quantitative, *H.R. 10044: AI Tax and Work Protection Act (119th Congress) Bill Summary*, August 2026 | https://www.quiverquant.com/bills/119/hr-10044 | übernommen (Bill-Zusammenfassung mit Tax-Struktur) |
+| 9 | B/D | GovInfo, *AI Tax and Work Protection Act — BILLSTATUS 119hr10044*, August 2026 | https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10044.xml | übernommen (US-Bundesregistrierung) |
+| 10 | B/D | [your]NEWS, *House Democrats Propose Taxing Major AI Companies to Fund Jobs for Displaced Workers*, 6. August 2026 | https://yournews.com/2026/08/06/7146587/house-democrats-propose-taxing-major-ai-companies-to-fund-jobs/ | übernommen (Sammelbeleg) |
+| 11 | J | South China Morning Post, *BYD to debut first humanoid robots in August as rivalry with Tesla intensifies*, Ende Juli 2026 | https://www.scmp.com/business/china-business/article/3362362/byd-debut-first-humanoid-robots-august-rivalry-tesla-intensifies | übernommen (Primärquelle BYD Xiao Di) |
+| 12 | J | TheNextWeb, *BYD will unveil its first humanoid robot in August*, Ende Juli/Anfang August 2026 | https://thenextweb.com/news/byd-humanoid-robot-xiao-di-di-space-showrooms-august | übernommen (Sammelbeleg mit Standorten Shenzhen/Shanghai) |
+| 13 | J | TechNode, *BYD to unveil first humanoid robot in early August*, 27. Juli 2026 | https://technode.com/2026/07/27/byd-to-unveil-humanoid-robot-in-early-august/ | übernommen (chinesische Primärperspektive) |
+| 14 | J | Interesting Engineering, *BYD to unveil functional humanoid robots in August*, Ende Juli/Anfang August 2026 | https://interestingengineering.com/ai-robotics/byd-enters-humanoid-robot-race-with-august-debut | übernommen (Sammelbeleg) |
+| 15 | J | eWeek, *BYD to Unveil First Humanoid Robot in August*, Ende Juli/Anfang August 2026 | https://www.eweek.com/news/byd-first-humanoid-robot-apac-china/ | übernommen (Sammelbeleg) |
+| 16 | J | KR-Asia, *BYD's humanoid robot to begin work at D Space facility in August*, Ende Juli/Anfang August 2026 | https://kr-asia.com/byds-humanoid-robot-to-begin-work-at-d-space-facility-in-august | übernommen (Sammelbeleg mit Deployment-Details) |
+| 17 | J | CnEVPost, *BYD confirms plan to unveil humanoid robot in August*, 28. Juli 2026 | https://cnevpost.com/2026/07/28/byd-confirms-plan-humanoid-robot-aug/ | übernommen (Sammelbeleg) |
+| 18 | J | Notebookcheck, *BYD confirms AI robot Xiao Di as US hits the brakes immediately*, Anfang August 2026 | https://www.notebookcheck.net/BYD-confirms-AI-robot-Xiao-Di-as-US-hits-the-brakes-immediately.1359680.0.html | übernommen (Sammelbeleg mit US-Regulierungskontext) |
+| 19 | J | Stuff South Africa, *BYD's Xiao Di humanoid robot arrives this month, according to company teaser*, 5. August 2026 | https://stuff.co.za/2026/08/05/byds-xiao-di-humanoid-robot-arrives-this-month-according-to-company-teaser/ | übernommen (Sammelbeleg mit Spezifikationen 162 cm, 1 kg Traglast) |
+| 20 | J | Baidu Baike, *Xiao Di — BYD released its self-developed humanoid robot*, August 2026 | https://baike.baidu.com/en/item/Xiao%20Di/4324371 | übernommen (chinesische Enzyklopädie-Sekundärbeleg mit 31 Freiheitsgraden, 360°-Panoramavision) |
+| 21 | D | Anthropic-Cuéllar-Ernennung, 4. August 2026 | https://www.anthropic.com/news/tino-cuellar | verworfen (Dublette; bereits mit Version 59.0 in § 4.5-Nachtrag und § 11.5-Sammelbeleg vollständig dokumentiert) |
+| 22 | I | Bloomberg-Newsletter, *Google Shifts AI Leadership to California in Race Against Anthropic, OpenAI*, 6. August 2026 | https://www.bloomberg.com/news/articles/2026-08-06/google-shifts-ai-power-to-california-in-race-against-anthropic-openai | verworfen (Sekundärbefund zum bereits mit Version 59.0 vollständig dokumentierten Alphabet-Führungswechsel; unter Aufnahmeschwelle einer eigenständigen Ergänzung) |
+| 23 | E | IAB-Kurzbericht 08/2026 (Friedrich/Kagerl) | https://iab.de/presseinfo/jeder-vierte-betrieb-in-deutschland-nutzt-generative-ki/ | verworfen (weiterhin außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 24 | E | Bundesbank-Monatsbericht August 2026 | https://publikationen.bundesbank.de/publikationen-de/berichte-studien/monatsberichte/aktuelle-monatsberichte-922214 | verworfen (zum Schnittdatum 9. August 2026 nach Recherche noch nicht publiziert) |
+| 25 | G | G-BA-Beschlüsse 6. August 2026 (Mindestmengen Rektumkarzinom; Zanidatamab AMNOG-Anlage XII) | https://www.g-ba.de/ | verworfen (keine KI-spezifische Leistungs- oder Medizinprodukte-Dimension im 7-Tage-Fenster) |
+| 26 | A | NBER Working Paper 35046 Karger et al., *Forecasting the Economic Effects of AI*, April 2026 | https://www.nber.org/papers/w35046 | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat bei einer thematisch getriebenen Vertiefung zur Prognostik) |
+| 27 | A | NBER Working Paper 34910 Acemoglu/Kong/Ozdaglar, *AI, Human Cognition and Knowledge Collapse*, 2026 | https://www.nber.org/papers/w34910 | verworfen (außerhalb 7-Tage-Fenster; keine dokumentierte Publikation im Fenster; wiederholter Aufnahmekandidat) |
+| 28 | D | OpenAI *Industrial Policy for the Intelligence Age* (April 2026) | https://openai.com/index/industrial-policy-for-the-intelligence-age/ | verworfen (bereits mit Version 5.0 ff. in § 4.5 und § 11.3 vollständig dokumentiert) |
+| 29 | D | Sanders *American AI Sovereign Wealth Fund Act* (18. Juni 2026) | https://www.sanders.senate.gov/press-releases/news-sanders-introduces-legislation-to-create-7-trillion-ai-sovereign-wealth-fund/ | verworfen (außerhalb 7-Tage-Fenster; bereits mit Version 51.0 in § 4.5 und § 11.3 dokumentiert) |
+| 30 | F | Zillow / Etsy / TikTok / Challenger July-Report — Tech-Layoffs Anfang August 2026 | https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/ | verworfen (Zillow/Etsy Konzern-Dementi der AI-Kausalität, TikTok unter 1.000-Stellen-Schwelle; Challenger-Serie bereits monatlich dokumentiert; alle Konstellationen bereits mit Version 55.0/56.0/57.0 als Muster der Kausalattributionsproblematik dokumentiert) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 4.5 | Ergänzung | Neuer Absatz zum *AI Tax and Work Protection Act* (H.R. 10044) mit konjunkturell gestaffelter Verbrauchsteuer, Bemessungsgrundlage nach Token-Nutzung/Verkaufserlös, Aufkommensverwendung in *Work Protection Administration* im DOL und deployer­seitiger Anknüpfung — als flussorientierte Nutzungssteuer zwischen bestandsorientierter Sanders-Logik und OpenAI-Selbstverpflichtung eingeordnet, mit Rückwirkung auf § 5.1, § 8.3 und § 9.1. | 1–10 |
+| 2 | § 8.2 | Ergänzung | Neuer Absatz zum humanoiden Serviceroboter *Xiao Di* von *BYD* (Erstpräsentation Anfang August 2026 im *Di Space* Zhengzhou, 1,61 m / 58,5 kg / 31 Freiheitsgrade / 6+6 Sprachen; Erst­einsatz in Autohäusern Shenzhen/Shanghai, geplant 50 Standorte) als zweiter chinesischer Referenzpunkt der physisch-robotischen Wertschöpfungs­schicht nach *Unitree Robotics* und Erweiterung der Kausalattributionsdebatte um Fahrzeug-/Produktverkaufsberufe (§ 9.1) sowie Verhärtung der Verarbeiter-Position (§ 8.3). | 11–20 |
+| 3 | § 11.3 | Ergänzung | Neuer Sammelbeleg *US House of Representatives — H.R. 10044 (AI Tax and Work Protection Act)* mit vollständigen Detail-Angaben zur Tax-Struktur, Aufkommensverwendung und Effective-Date-Klausel. | 1–10 |
+| 4 | § 11.5 | Ergänzung | Neuer Sammelbeleg *BYD Xiao Di* mit Spezifikationen, Roll-out-Standorten und offener Fertigungsplattform-Ankündigung. | 11–20 |
+| 5 | Dokumentkopf / Abschluss / README / Validierung-Ergebnisse | Aktualisierung | Version 59.0 → 60.0 in Dokumentkopf `KI-Ökonomie.md`, Zitiervorschlag `README.md`, KI-Offenlegungs-Absatz `README.md` und Abschlussblock `Validierung-Ergebnisse.md`. | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 21 | Anthropic-Cuéllar (4. August 2026) | D | Dublette — bereits mit Version 59.0 in § 4.5 und § 11.5 vollständig dokumentiert; im Fließtext bereits mit Kernzitat Amodei und LinkedIn-Erstmitteilung. |
+| 22 | Bloomberg-Newsletter Google Shifts AI Leadership (6. August 2026) | I | Sekundärbefund zum bereits mit Version 59.0 vollständig dokumentierten Alphabet-Führungswechsel; unter Aufnahmeschwelle einer eigenständigen Ergänzung. |
+| 23 | IAB-Kurzbericht 08/2026 | E | Weiterhin außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat. |
+| 24 | Bundesbank-Monatsbericht August 2026 | E | Zum Schnittdatum 9. August 2026 nach Recherche noch nicht publiziert. |
+| 25 | G-BA-Beschlüsse 6. August 2026 | G | Keine KI-spezifische Leistungs- oder Medizinprodukte-Dimension im 7-Tage-Fenster. |
+| 26 | NBER WP 35046 (Karger et al.) | A | Außerhalb 7-Tage-Fenster (April 2026); wiederholter Aufnahmekandidat. |
+| 27 | NBER WP 34910 (Acemoglu et al.) | A | Außerhalb 7-Tage-Fenster; keine dokumentierte Publikation im Fenster. |
+| 28 | OpenAI Industrial Policy Papier | D | Bereits seit Version 5.0 ff. in § 4.5/§ 11.3 vollständig dokumentiert. |
+| 29 | Sanders American AI SWF Act | D | Außerhalb 7-Tage-Fenster; bereits seit Version 51.0 dokumentiert. |
+| 30 | Zillow/Etsy/TikTok/Challenger Juli-Report | F | Konzern-Dementis AI-Kausalität, TikTok unter Schwelle, Challenger-Serie bereits monatlich dokumentiert; Muster der Kausalattributionsproblematik bereits vollständig dokumentiert. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja (H.R. 10044, BYD Xiao Di beide neu im Hauptdokument; Cuéllar bereits vorhanden — nicht doppelt eingearbeitet)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block in `Validierung-Ergebnisse.md`, Validierung 9. August 2026 — Version 59.0 → 60.0)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- Branch auf main gemerged und gelöscht: Ja (Session-Branch `claude/determined-einstein-1133jf`)
+- Phase 5b — E-Mail versendet: siehe Auffälligkeiten
+- Phase 5b — WhatsApp versendet: siehe Auffälligkeiten
+
+### Auffälligkeiten / offene Punkte
+
+- Casar-Bill (H.R. 10044) definiert *foundation model* qualitativ („broad-purpose AI model trained on large amounts of data and a very large amount of computing power"), enthält aber nach der *Quiver-Quantitative*-Bill-Zusammenfassung keine expliziten Compute-Threshold-Angaben (10^24/10^25/10^26 FLOP) analog EU-AI-Act oder US-AI-Diffusion-Framework. Aufnahmekandidat für eine thematisch getriebene Vertiefung sobald *Notice-of-Proposed-Rulemaking* des *US-Treasury* die Schwellenwerte konkretisiert.
+- BYD-Xiao-Di-Präsentationsdatum wird in der Berichterstattung nur als „Anfang August 2026" bezeichnet; ein konkretes Kalenderdatum lag zum Schnittdatum nicht vor. Fließtext bewusst mit „Anfang August 2026" formuliert (Konjunktivpflicht nach § 4.2 Claude.md).
+- Empfänger-Auflösung Phase 5b: Werte via Routine-Anweisung übergeben; keine Aufnahme in versionierte Dateien (Datenschutz nach Phase-5b-Regel).
+
+---
+
 ## 2026-08-08 — Lauf 001 — Version 58.0 → Version 59.0
 
 ### Recherchekorridor

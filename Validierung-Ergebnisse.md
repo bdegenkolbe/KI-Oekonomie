@@ -7,6 +7,82 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 9. August 2026 (Lauf 001 vom 9. August 2026) — Version 59.0 → Version 60.0
+
+**Auslöser:** Regulärer Daily-Update-Lauf. Web-Recherche im Korridor der Cluster A–J am 9. August 2026 im Standard-7-Tage-Fenster (2. – 9. August 2026); Cluster F und I zusätzlich im Standard-48-Stunden-Fenster (7. – 9. August 2026). Zwei belegbare Neuzugänge im 7-Tage-Fenster: aus Cluster B/D die Einbringung des *AI Tax and Work Protection Act* (H.R. 10044) durch Rep. Greg Casar (D-TX) gemeinsam mit Valerie Foushee (D-NC) und Sara Jacobs (D-CA) am 6. August 2026 im 119. US-Kongress; aus Cluster J die öffentliche Erstpräsentation des von *BYD* selbst entwickelten humanoiden Serviceroboters *Xiao Di* am *Di Space*-Kunden- und Ausstellungszentrum in Zhengzhou Anfang August 2026.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *AI Tax and Work Protection Act* (H.R. 10044) — Bundesweite Verbrauchsteuervorlage auf *foundation models* mit konjunkturell gestaffeltem Satz (2–3 % bei US-Arbeitslosenquote ≤ 5 %, erhöht bei 5–7 %, weiter erhöht > 7 %; *Treasury*-Suspension bei nicht-KI-getriebenen Schocks), Bemessungsgrundlage nach *Token-Nutzung* oder *Verkaufserlös* (whichever-is-higher), 100 % des Aufkommens im *Treasury Trust Fund* zur Finanzierung einer *Work Protection Administration* im *US-Department of Labor*, explizit deployer­seitige Anknüpfung bei interner Foundation-Model-Nutzung zur Belegschaftsreduktion, Ausnahmen für Regierungs-/Hochschul-/Nonprofit-FE, Inkrafttreten der Steuervorschriften ein Jahr nach Inkrafttreten des Gesetzes. Trianguliert durch *Reason* (7. August 2026), *CBS Austin*, *NBC News*, *Nextgov/FCW*, *Common Dreams*, *AI Commission*, *Texas Politics*, *Quiver Quantitative* (Bill-Zusammenfassung), *GovInfo* (BILLSTATUS-119hr10044) und *[your]NEWS*. Konjunktivpflicht nach § 4.2 Claude.md eingehalten (Bill in Vorlagestatus im 119. Kongress, Verabschiedungsaussichten nach *Reason*/*Common Dreams* unter republikanischer Kongress-Mehrheit gering). | § 4.5 (neuer Absatz eingefügt zwischen dem OpenAI-Gegenvorschlag-Absatz von Anfang Juli 2026 und dem *Sub-föderalen Maine*-Absatz von April 2026); § 11.3 (neuer Eintrag direkt nach dem H.R. 6371-Eintrag *No Robot Bosses Act*); Aktualitätshinweis in README.md um Version-60.0-Passus ergänzt. | Erster bundeslegislativer Verbrauchsteuervorschlag auf Foundation-Model-Nutzung im 119. Kongress und erstes bundeslegislatives Beispiel eines *automatischen fiskalischen Stabilisators* zwischen KI-Verdrängung und Umverteilung: Verlagerung der US-Debatte von bestandsorientierten (Sanders *American A.I. Sovereign Wealth Fund Act*, § 4.5) und freiwillig-selbstverpflichtenden (OpenAI-Gegenvorschlag, § 4.5) Fondslogiken auf eine konjunktursensitive Nutzungssteuer, strukturell näher an der in § 5.1 und § 8.3 skizzierten deutschen Wertschöpfungs­abgabe. Für § 9.1 relevant, weil die Deployerseitige Anknüpfung bei interner Foundation-Model-Nutzung zur Belegschaftsreduktion die Kausalattributions- und Nachweislast bundesgesetzlich in die Verantwortung des Steuerpflichtigen verlagert. |
+| 2 | *BYD Xiao Di* — Öffentliche Erstpräsentation des von *BYD* (Shenzhen) selbst entwickelten humanoiden Serviceroboters *Xiao Di* am *Di Space*-Kunden- und Ausstellungszentrum in Zhengzhou, Anfang August 2026; nach übereinstimmender Berichterstattung von *South China Morning Post*, *TheNextWeb*, *TechNode*, *Interesting Engineering*, *eWeek*, *KR-Asia*, *Notebookcheck*, *CnEVPost*, *Stuff South Africa* und der Baidu-Enzyklopädie 1,61 m Körpergröße, 58,5 kg Masse, 31 Freiheitsgrade, 360-Grad-Panoramavision, dynamische Modellierungs­technologie für die Erkennung komplexer Objekte (Menschen, Glasflächen), Echtzeitübersetzung zwischen sechs chinesischen Dialekten und sechs Fremdsprachen; Erst­einsatz als Verkaufs- und Vorführ­assistent in BYD-Autohäusern in Shenzhen und Shanghai, geplante Ausrollung auf rund 50 Standorte; angekündigt ist eine offene Fertigungs­plattform. Konjunktivpflicht nach § 4.2 Claude.md eingehalten (Fertigungs- und Vertriebsplanung durch das Unternehmen selbst kommuniziert, Serienhochlauf und Fertigungspartner noch nicht dokumentiert). | § 8.2 (neuer Absatz eingefügt nach dem Unitree-Absatz vom 6./7. August 2026 und vor dem „Deutschland hat in dieser Ordnung..."-Absatz); § 11.5 (neuer Sammelbeleg als erster Eintrag der Sektion, vor dem Meta-*Muse-Spark-1.2*-Sammelbeleg der Version 58.0); Aktualitätshinweis in README.md um Version-60.0-Passus ergänzt. | Zweiter chinesischer Referenzpunkt der physisch-robotischen Wertschöpfungs­schicht nach *Unitree Robotics* (§ 8.2, Version 59.0). Vertikal integrierter Anbieter aus Automobil-/Batterie-Segment (nicht klassische Robotik) ergänzt das Muster der Design-Partner-Konzentration um ein chinesisches Muster konzern­eigener humanoider Robotik. Erstanwendung im Retail-Kanal (Fahrzeug-Vorführung in Autohäusern) — qualitativ anderer Anwendungspfad als bei Tesla-Optimus Fremont (Sitz­montage) und Figure (Materialhandhabung BMW Spartanburg); erweitert die Kausalattributionsdebatte (§ 9.1) auf ein zusätzliches Berufsfeld (Fahrzeug-/Produktverkauf, Beratung). Für die Deutschland-These (§ 8.3) verhärtet der Vorgang die Verarbeiter-Position: humanoide Robotik entsteht im US-/CN-Ökosystem, inländische Anknüpfung an eine wertschöpfungs­orientierte KI-Nutzungsabgabe muss auf die *Anwendung*, nicht auf die Herstellung zielen. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+
+- *Anthropic — Mariano-Florentino „Tino" Cuéllar zum Chief Global Affairs Officer* (4. August 2026): Bereits mit Version 59.0 in § 4.5 (Nachtrag zum 4. August 2026) dokumentiert; im Fließtext explizit erwähnt (Kernzitat Amodei, Erst-Zitat Cuéllar), Sammelbeleg in § 11.5 vorhanden.
+- *Alphabet Führungswechsel Hassabis/Kavukcuoglu und Discovery Loop (Jeff Dean)* (5. August 2026): Bereits mit Version 59.0 in § 8.2 vollständig dokumentiert.
+- *Unitree Robotics IPO* (6./7. August 2026): Bereits mit Version 59.0 in § 8.2 dokumentiert; im hier eingearbeiteten BYD-Xiao-Di-Absatz nur als direkter Referenzpunkt genannt, keine Dopplung der Kernangaben.
+- *Sebastian Borgeaud (Google DeepMind) — Umzug UK → Kalifornien* (Bloomberg-Newsletter 6. August 2026): Sekundärbefund zum bereits dokumentierten *Alphabet*-Kalifornien-Konzentrationsvorgang; unter Aufnahmeschwelle einer eigenständigen Ergänzung.
+- *OpenAI Astra Blogpost* (1./2. August 2026): Bereits mit Version 57.0 in § 8.2 als Frontier-Iterationsfrequenz-Beleg dokumentiert.
+- *Anthropic $1,5-Milliarden-Copyright-Settlement finale Genehmigung* (20. Juli 2026): Außerhalb des 7-Tage-Fensters; bereits mit Version 56.0/57.0 in § 8.2 und § 11.5 dokumentiert.
+- *Chinesische AI-Layoff-Provinz-Regulierungen* / *Hangzhou-Beijing-Gerichtsurteile* (Frühjahr 2026): außerhalb 7-Tage-Fenster; bereits in § 6.4/§ 9.1 als Referenz vorhanden.
+- *IAB-Kurzbericht 08/2026* (Friedrich/Kagerl): weiterhin außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat.
+- *Bundesbank-Monatsbericht August 2026*: Zum Schnittdatum 9. August 2026 nach Recherche noch nicht publiziert.
+- *G-BA*-Beschlüsse 6. August 2026 (Mindestmengen Rektumkarzinom-Chirurgie, AMNOG-Anlage-XII zu Zanidatamab): keine KI-spezifische Leistungs- oder Medizinprodukte-Dimension; keine Aufnahme in § 7.
+- *NBER Working Paper 35046 Karger et al. „Forecasting the Economic Effects of AI"*: außerhalb des 7-Tage-Fensters (April 2026); wiederholter Aufnahmekandidat bei einem thematisch getriebenen Vertiefungslauf zur Prognostik.
+- *Casar Bill — Bemessungsgrundlage-Schwellenwerte für foundation model coverage*: Bill-Text enthält keine expliziten Compute-Threshold-Angaben (10^24/10^25/10^26 FLOP) analog EU-AI-Act oder US-AI-Diffusion-Framework; Berichterstattung referenziert nur die Auslegung *„broad-purpose AI model trained on large amounts of data and a very large amount of computing power"*. Aufnahmekandidat bei einer thematisch getriebenen Vertiefung zur Compute-Threshold-Regulierung sobald *Notice-of-Proposed-Rulemaking* des *US-Treasury* die Schwellenwerte konkretisiert.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel plus Zusammenfassung erhalten; keine leeren Abschnitte; Einbau als zwei eigenständige Absätze in § 4.5 (H.R. 10044) und § 8.2 (BYD Xiao Di). |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; fünf Typen (§ 2.1), drei Säulen (§ 8), sieben Empfehlungen (§ 10.2) unverändert. |
+| 2.1.3 Querverweise | OK | Neu eingeführte Rückverweise (§ 4.5 → § 5.1, § 8.3, § 9.1; § 8.2 → § 8.3, § 9.1) zeigen auf bestehende Unterabschnitte; § 11.3- und § 11.5-Neueinträge korrekt sortiert. |
+| 2.1.4 Roter Faden | OK | Progression Kap. 3–6 → 7 → 8 → 9–10 unverändert; § 4.5 wird um einen weiteren US-Politikvorschlag zwischen bestandsorientierter Sanders-Logik und OpenAI-Selbstverpflichtung ergänzt, § 8.2 wird um einen zweiten chinesischen humanoiden Robotik-Datenpunkt ergänzt. Argumentationskern (Nutzungssteuer als flussorientierte Alternative; Rohstoff-Analogie / Verarbeiter-Position) unverändert. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; Tabellen syntaktisch unverändert; Sammelbeleg-Struktur in § 11.3 und § 11.5 nach etabliertem Muster fortgeführt. |
+| 2.2.1 Sachliche Richtigkeit | OK | H.R.-10044-Bill-Nummer, Einbringer (Casar, Foushee, Jacobs), Einbringungsdatum (6. August 2026), Excise-Tax-Struktur (Whichever-is-Higher, konjunkturell gestaffelt), Aufkommensverwendung (Work Protection Administration im DOL), Effective-Date-Klausel (ein Jahr nach Inkrafttreten) durch *Quiver Quantitative*, *Reason*, *CBS Austin*, *NBC News* und *GovInfo* trianguliert; BYD-Xiao-Di-Spezifikationen (1,61 m, 58,5 kg, 31 Freiheitsgrade, 6+6-Sprachen-Übersetzung, Di Space Zhengzhou, Shenzhen/Shanghai-Rollout) durch *South China Morning Post*, *TheNextWeb*, *TechNode*, *Interesting Engineering*, *KR-Asia* und Baidu-Enzyklopädie trianguliert. |
+| 2.2.2 Redundanzprüfung | OK | H.R. 10044 ausschließlich in § 4.5 vertieft; § 5.1/§ 8.3 werden nur per Rückverweis adressiert. BYD Xiao Di ausschließlich in § 8.2 vertieft; keine Verdoppelung im Unitree- oder im Tesla-Optimus-Absatz. |
+| 2.2.3 Argumentation | OK | Beide Aktualisierungen stützen die bestehenden Argumentationslinien empirisch: Casar-Bill konkretisiert die im OpenAI-Strategiepapier (§ 4.5, April 2026) skizzierten „automatischen Sicherheitsnetz-Trigger" fiskalisch; BYD-Xiao-Di verhärtet die Verarbeiter-Position der Deutschland-These (§ 8.2, § 8.3). Konjunktivpflicht bei Bill-Verabschiedungsprognose (nach § 4.2 Claude.md) und bei BYD-Fertigungs-/Vertriebsplanung eingehalten. |
+| 2.2.4 Ausgewogenheit | OK | H.R. 10044 wird nicht als politische Empfehlung, sondern als Referenzentwurf mit expliziter Diskussion der Verabschiedungs­aussichten dargestellt; die Kritik-Perspektive (*Reason*) wird als Sekundärstimme referenziert. BYD-Xiao-Di wird ohne Marketing-Formulierung dargestellt (Retail-/Vorführ­kontext, keine Wertung „chinesische Führung"). |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichproben durchgeführt; keine Auffälligkeiten. |
+| 2.3.2 Terminologie | OK | *AI Tax and Work Protection Act*, *Work Protection Administration*, *foundation model*, *whichever-is-higher*, *covered persons*, *Treasury Trust Fund*, *Di Space*, *Xiao Di*, *WIOA-Trainingsförderung* jeweils bei Erstnennung eingeführt; die *Verbrauchsteuer*-Bezeichnung wird zusätzlich als „excise tax" angeführt. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neueinträge in § 11.3 (H.R.-10044-Sammelbeleg) und § 11.5 (BYD-Xiao-Di-Sammelbeleg) angelegt; im Fließtext auftauchende Namen (Casar, Foushee, Jacobs) und Institutionen (US Department of Labor, US Treasury, WIOA, Di Space) im jeweiligen Sammelbeleg oder in bestehenden Passagen genannt. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-nahe Zitationsstruktur (Institution, Datum, Titel *kursiv*, URL-Liste) beibehalten; Datumsangaben einheitlich als „6. August 2026" (H.R. 10044) und „Anfang August 2026" (BYD Xiao Di); Kongress-Session konsistent als „119. Kongress" bezeichnet. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | H.R.-10044-Eintrag stützt sich auf zehn unabhängige Berichterstattungen und die *GovInfo*-Bundesregistrierung; BYD-Xiao-Di-Eintrag auf zehn unabhängige Berichterstattungen einschließlich der chinesischen Baidu-Enzyklopädie; beide Ereignisse durch mehrere unabhängige Primär- und Sekundärquellen bestätigt. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Die Kern-URLs *govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10044.xml*, *quiverquant.com/bills/119/hr-10044*, *reason.com/2026/08/07/democrats-want-to-tax-ai-companies-for-job-losses-that-havent-happened*, *cbsaustin.com/news/local/casar-introduces-bill-to-tax-ai-companies-create-jobs-amid-layoff-fears*, *scmp.com/business/china-business/article/3362362/byd-debut-first-humanoid-robots-august-rivalry-tesla-intensifies*, *thenextweb.com/news/byd-humanoid-robot-xiao-di-di-space-showrooms-august* im WebSearch-Kontext verifiziert; keine 404-Trefer. |
+| 2.4.5 Zitatgenauigkeit | OK | Keine Direktzitate im Fließtext eingeführt; alle Zahlen (H.R. 10044-Rate 2–3 %, 5-%- und 7-%-Schwellen, WIOA-20-%-Kappe; BYD 1,61 m, 58,5 kg, 31 Freiheitsgrade, 6+6 Sprachen, 50 Standorte) mit mindestens drei Sekundärberichten trianguliert. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | *de la Feria et al. 2022* bleibt weiterhin als verifizierungsbedürftig markiert; keine Entfernung von Verifizierungshinweisen im Lauf. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 60.0 im Dokumentkopf, im Zitiervorschlag der README.md und in diesem Block eingetragen; CC-BY-4.0-Hinweis, Autorenname und Haftungshinweis unverändert. Der Aktualitätshinweis in `README.md` wurde um den Version-60.0-Passus ergänzt. |
+| 2.6 Automatisierte Prüfung | n/a | Keine automatisierten Skripte vorgesehen; Nummerierungs-, Querverweis- und Quellenzuordnungs-Stichproben manuell durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine formalen Fehler im Rahmen der Validierung dieser Version festgestellt. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine Bereinigungen erforderlich; die Version-60.0-Ergänzungen wurden regulär eingearbeitet. | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK (Versionskonsistenz nachverifiziert; Dokumentkopf, Zitiervorschlag und dieser Block einheitlich auf Version 60.0 gesetzt)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine Fehler festgestellt)
+- Neue Version: 60.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 8. August 2026 (Lauf 001 vom 8. August 2026) — Version 58.0 → Version 59.0
 
 **Auslöser:** Regulärer Daily-Update-Lauf. Web-Recherche im Korridor der Cluster A–J am 8. August 2026 im Standard-7-Tage-Fenster (1. – 8. August 2026); Cluster F und I zusätzlich im Standard-48-Stunden-Fenster (6. – 8. August 2026). Zwei belegbare Neuzugänge im 48-Stunden-Fenster: aus Cluster I die parallelen *Alphabet*-Führungswechsel am 5. August 2026 (Demis Hassabis → *Chairman of Google DeepMind*/*Chief Scientist of Alphabet*; Koray Kavukcuoglu → *SVP of Google DeepMind*; Jeff Dean, Sanjay Ghemawat, Oriol Vinyals und Quoc Le verlassen Google und gründen das Alphabet-mitfinanzierte Startup *Discovery Loop*); aus Cluster J die *Unitree Robotics*-IPO-Bepreisung am *Shanghai STAR Market* am 6./7. August 2026 (150,80 Yuan je Aktie, Bewertung rund 61 Milliarden Yuan / rund 9,04 Milliarden US-Dollar, Emissionserlös rund 6,1 Milliarden Yuan, Zeichnung ab 10. August 2026, *DeepSeek AI* als strategischer Investor).
