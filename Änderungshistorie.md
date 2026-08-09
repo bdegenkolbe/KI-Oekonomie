@@ -140,6 +140,7 @@
 - Casar-Bill (H.R. 10044) definiert *foundation model* qualitativ („broad-purpose AI model trained on large amounts of data and a very large amount of computing power"), enthält aber nach der *Quiver-Quantitative*-Bill-Zusammenfassung keine expliziten Compute-Threshold-Angaben (10^24/10^25/10^26 FLOP) analog EU-AI-Act oder US-AI-Diffusion-Framework. Aufnahmekandidat für eine thematisch getriebene Vertiefung sobald *Notice-of-Proposed-Rulemaking* des *US-Treasury* die Schwellenwerte konkretisiert.
 - BYD-Xiao-Di-Präsentationsdatum wird in der Berichterstattung nur als „Anfang August 2026" bezeichnet; ein konkretes Kalenderdatum lag zum Schnittdatum nicht vor. Fließtext bewusst mit „Anfang August 2026" formuliert (Konjunktivpflicht nach § 4.2 Claude.md).
 - Empfänger-Auflösung Phase 5b: Werte via Routine-Anweisung übergeben; keine Aufnahme in versionierte Dateien (Datenschutz nach Phase-5b-Regel).
+- Phase-6-Cleanup-Status (Nachtrag): Merge auf main als Commit `1b724c8` (Merge-Commit) mit Push auf `origin/main` erfolgreich. Lokaler Branch `claude/determined-einstein-1133jf` gelöscht (`git branch -d`). Remote-Branch-Löschung (`git push origin --delete`) mit HTTP-403-Fehler abgewiesen (bekanntes Muster aus mehreren Vorläufen; Session-Zugriffskonfiguration wird von der GitHub-Branch-Protection zurückgewiesen); Remote-Branch bleibt bestehen und kann bei Bedarf über die Web-Oberfläche gelöscht werden.
 
 ---
 
