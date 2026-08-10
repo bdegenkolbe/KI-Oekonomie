@@ -7,6 +7,77 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 10. August 2026 (Lauf 001 vom 10. August 2026) — Version 60.0 → Version 61.0
+
+**Auslöser:** Regulärer Daily-Update-Lauf. Web-Recherche im Korridor der Cluster A–J am 10. August 2026 im Standard-7-Tage-Fenster (3. – 10. August 2026); Cluster F und I zusätzlich im Standard-48-Stunden-Fenster (8. – 10. August 2026). Zwei belegbare Neuzugänge im 7-Tage-Fenster: (a) planmäßige Aktivierung des AI-Act-Durchsetzungsregimes zum 2. August 2026 (Kommissions­befugnisse gegenüber GPAI-Anbietern nach Kapitel V; Wirksamwerden der Art. 50-Transparenzpflichten mit Chatbot-Erkennbarkeit, maschinen­lesbarer Kennzeichnung generativer Ausgaben, Deepfake-Kennzeichnung, biometrischer Transparenz; Bußgeldrahmen nach Art. 101 AI Act bis 15 Millionen Euro oder 3 % des weltweiten Jahresumsatzes nach Höchstbetrag; Übergangs­frist bis 2. Dezember 2026 für Marking- und Detection-Anforderungen an bereits eingesetzte generative Systeme; freiwilliger *Code of Practice* mit über 180 Signatoren) mit primärer Cooley-Rechtsauswertung vom 3. August 2026 (in-window); (b) aggregierte Tech-Layoff-Bilanz Anfang August 2026 nach *IBTimes*, *Yahoo Tech* und *Tech.co* (Berichtsstand 6. August 2026) mit über 125.000 betroffenen Beschäftigten in rund 264 Unternehmen (2025er Jahressumme überschritten), Zillow-Ankündigung vom 4. August 2026 (rund 500 Stellen), Google-Rolling-Reviews im mittleren einstelligen Tausender-Bereich, TikTok/Etsy im niedrigen dreistelligen Bereich; ergänzend Challenger-H1-2026-Auswertung mit rund 101.700 AI-attribuierten US-Stellenstreichungen (Verdoppelung des 2025er Gesamtjahres­werts mit 54.836).
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | Aktivierung des AI-Act-Durchsetzungsregimes zum 2. August 2026 gemäß Kapitel V (GPAI) und Art. 50 (Transparenzpflichten); Bußgeldrahmen 15 Mio. Euro / 3 % Weltjahresumsatz nach Höchstbetrag (Art. 101); Übergangs­frist bis 2. Dezember 2026 für Marking/Detection; freiwilliger *Code of Practice* mit über 180 Signatoren. Belegt durch Cooley-LLP-Alert vom 3. August 2026 (in-window Primärauswertung) und Kommissions-Pressemitteilung vom 31. Juli 2026 (Sekundärbeleg zum Wirksamkeitsdatum im Fenster). | § 4.4 (Präzisierungs­absatz nach dem OECD-*Governing AI for Work*-Absatz eingefügt); § 11.2 (Cooley-Alert-Eintrag nach dem Mann-2019-Eintrag); Nachtrag im README-Aktualitätshinweis um Version-61.0-Passus. | Präzisiert die im Papier bereits benannte Wirksamkeit des AI Act zum 2. August 2026 um die konkrete Sanktions- und Durchsetzungsschwelle. Für die Steuerdebatte (§ 4.4, § 8.3, § 9.1) folgt, dass die AI-Act-Kategorien nun mit einer betriebsbereiten Bußgeldbewehrung unterlegt sind — die Verwaltungsvoraussetzungen für eine spätere fiskalische Anknüpfung an AI-Systemklassen sind damit belastbarer. |
+| 2 | Aggregierte Tech-Layoff-Bilanz Anfang August 2026: über 125.000 betroffene Beschäftigte in rund 264 Unternehmen (SkillSyncer-/Tech.co-Methodik), 163.427 nach breiterer Zählweise (TechChannel News), 2025er Gesamtwert überschritten; Zillow ~500 Stellen am 4. August 2026 (Blog-Post CEO Jeremy Wacksman, AI-Kausalität durch Zillow bestritten), Google-Rolling-Reviews im mittleren einstelligen Tausender-Bereich, TikTok/Etsy im niedrigen dreistelligen Bereich. Zusätzlich Challenger-H1-2026: 101.700 AI-attribuierte US-Stellenstreichungen (Verdoppelung 2025); AI vier Monate in Folge (März – Juni 2026) führender Layoff-Grund; Finanz- und Informations­sektor mit rund 28.000 Stellenstreichungen/Monat Durchschnitt 2026. Konjunktivpflicht nach § 4.2 Claude.md eingehalten (Tracker-Auswertungen mit methodisch abweichenden Gesamtsummen; Zillow-/Etsy-Attribution durch Unternehmen dementiert). | § 1.1 (Fortschreibungs­satz am Ende des Tech-Layoff-Absatzes); § 11.5 (zwei neue Sammelbelege — einer für IBTimes/Yahoo Tech/Tech.co/GeekWire/TechChannel-News zur Layoff-Bilanz Anfang August 2026, einer für die Challenger-Serie mit Insurance-Journal-/Founder-Reports-Sekundär­belegen); Nachtrag im README-Aktualitätshinweis. | Verlängert die bereits mit Version 55.0 – 60.0 dokumentierte Layoff-Datenreihe zeitlich in den August 2026 und liefert erstmals eine aggregierte AI-Attribution auf H1-Basis über die Challenger-Serie. Stützt empirisch die Substitutionsargumentation aus § 1.1, § 3 und § 8.1 und schärft die Kausalattributions­diskussion in § 9.1 durch das dokumentierte Zillow-/Etsy-Unternehmens­dementi. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+
+- *Pacing the Frontier*-Brief vom 28. Juli 2026 (Anthropic-CEO Amodei, OpenAI-Chief-Scientist Pachocki, Meta-Chief-Scientist Zhao, Google-AI-Safety-Head Dragan u. a.; über 1.100 Signatoren aus OpenAI, Anthropic, Google DeepMind, Meta): Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat, falls Cluster D/I thematisch vertieft werden soll.
+- Tesla Optimus V3 Massenfertigung Juli/August 2026: Substanz bereits mit Version 58.0 und 59.0 in § 8.2 dokumentiert (Fremont-Erstlinie, Q2-2026-Earnings-Call vom 22. Juli 2026); der aktuelle Recherchestand liefert keine neuen belegbaren Serien­daten (Auslieferungszahlen, Stückkosten) über den bereits dokumentierten Stand hinaus.
+- Anthropic Economic Index — geographische Konvergenz August 2025 – Februar 2026: Bereits mit Version 8.0/9.0 in § 4.5-Nachtrag und § 11.3 dokumentiert; keine belegbare August-2026-Fortschreibung.
+- IAB-Kurzbericht 08/2026 „Jeder vierte Betrieb nutzt generative KI" (Friedrich/Kagerl): Weiterhin außerhalb 7-Tage-Fenster (bereits vor dem 3. August 2026 publiziert); wiederholter Aufnahmekandidat.
+- AmericanBazaar Konzern-Layoff-Übersicht vom 9. August 2026: Sammelbeleg zu bereits mit Version 55.0 – 60.0 dokumentierten Konzern-Layoffs (Amazon, Meta, Oracle, Microsoft); kein neuer Primärstoff.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine leeren Abschnitte; Deutschland-These in Zusammenfassung referenziert. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte 1.1 – 11.5 unverändert; fünf Robotersteuer-Typen, drei Säulen, sieben Empfehlungen konsistent. |
+| 2.1.3 Querverweise | OK | § 4.4-Neuabsatz verweist kontrolliert auf § 5.1, § 8.3, § 9.1; § 1.1-Fortschreibung ohne neue Querverweise. |
+| 2.1.4 Roter Faden | OK | Neue Einfügungen ordnen sich in die rechtliche Perspektive (§ 4.4) und die Arbeitsmarkt-Ausgangslage (§ 1.1) ein; keine Architekturverschiebung. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; Fett-Lead-In der § 4.4-Ergänzung („Aktivierung der AI-Act-Durchsetzung…") einheitlich formatiert; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Cooley-Alert vom 3. August 2026 belegt Bußgeldrahmen 15 Mio. Euro / 3 % Weltjahresumsatz (Art. 101 AI Act), Übergangs­frist bis 2. Dezember 2026 für Marking/Detection generativer Systeme, Aktivierung der Transparenzpflichten nach Art. 50 mit Chatbot-Erkennbarkeit, Deepfake-Kennzeichnung, maschinen­lesbarer Markierung generativer Ausgaben; Kommissions-Pressemitteilung 31. Juli 2026 belegt Datum und Enforcement-Rahmen. Tech-Layoff-Zahlen belegt durch IBTimes/Yahoo Tech/Tech.co (125.000 in 264 Unternehmen), TechChannel News (163.427), GeekWire (Zillow ~500 am 4. August 2026), Challenger (101.700 H1-2026), Insurance Journal (28.000/Monat Finanz-/Informations­sektor). |
+| 2.2.2 Redundanzprüfung | OK | Die § 4.4-Ergänzung präzisiert die bereits dokumentierte AI-Act-Aktivierung um Sanktionsrahmen und konkrete Transparenz­pflichten, ohne bestehende Kerninhalte zu wiederholen. Die § 1.1-Ergänzung verlängert die Tracker-Reihe zeitlich in den August 2026, ohne bestehende Q1/Q2-2026-Werte zu wiederholen. |
+| 2.2.3 Argumentation | OK | Cooley-/Kommissions-Angaben werden im Konjunktiv referiert, soweit sie prospektive Anwendungspraxis betreffen. Zillow-/Etsy-Attribution wird als „von Unternehmens­seite bestritten" ausgewiesen. Challenger-Serie wird als Modell-/Trackerergebnis benannt, nicht als absolute Kausalzuschreibung. |
+| 2.2.4 Ausgewogenheit | OK | AI-Kausalität wird als methodisch strittig ausgewiesen (Zillow/Etsy-Dementi, Challenger-Attributionsanstieg von 7 % im Januar auf 40 % im Mai als Diskussionspunkt); AI-Act-Enforcement neutral als „betriebsbereite Sanktionsschwelle" formuliert, ohne bewertende Positionierung. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „General-Purpose AI" (GPAI), „Code of Practice", „Rolling-Review" werden im Kontext erklärt oder in der Berichterstattung übernommen; Abkürzungen konsistent. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neue Quellen: § 11.2 +1 (Cooley); § 11.5 +2 (Layoff-Bilanz-Sammelbeleg; Challenger-Serie). Jede Fließtext-Referenz hat einen Eintrag; keine Karteileichen. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil, vollständige URLs ohne Shortener, Datumsangaben „DD. Monat YYYY" bzw. „Monat YYYY". |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen (cooley.com, digital-strategy.ec.europa.eu, geekwire.com, challengergray.com); Sekundär­belege für Tracker-Bilanz (ibtimes.co.uk, ibtimes.com, tech.yahoo.com, tech.co, techchannel.news, techcrunch.com, insurancejournal.com, founderreports.com). |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 10. August 2026 über WebFetch/WebSearch: cooley.com Alert vom 3. August 2026 vollständig abrufbar; digital-strategy.ec.europa.eu Kommissions-Pressemitteilung vom 31. Juli 2026 gelistet; challengergray.com Blog-Post gelistet. |
+| 2.4.5 Zitatgenauigkeit | OK | Cooley-Kernpositionen (Fine-Rahmen 15 Mio. Euro / 3 % Weltjahresumsatz nach Art. 101, Übergangs­frist 2. Dezember 2026, vier Art. 50-Obligations) korrekt paraphrasiert; Challenger-H1-2026 mit 101.700 US-Stellen­streichungen und Verdoppelung des 2025er Werts (54.836) korrekt. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge vollständig belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 61.0 im Dokumentkopf, in der README-Versionszeile, im Zitiervorschlag der README.md und in diesem Block eingetragen; CC-BY-4.0-Hinweis, Autorenname und Haftungshinweis unverändert. Aktualitätshinweis in `README.md` um den Version-61.0-Passus ergänzt. Nachbereinigung: Die README-Versionszeile war seit Lauf 001 vom 8. August 2026 auf „Version: 59.0" stehengeblieben; sie ist mit diesem Lauf konsistent auf 61.0 gesetzt. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| 1 | `README.md`, Zeile 7 (vor Bereinigung) | Versionszeile „Version: 59.0" ist seit Lauf 001 vom 8. August 2026 (Übergang 58.0 → 59.0) nicht mehr fortgeschrieben worden, während Zitiervorschlag und Dokumentkopf mit Version 60.0 (Lauf 001 vom 9. August 2026) korrekt aktualisiert wurden. | Mittel |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| 1 | README-Versionszeile stehengeblieben auf 59.0 | Zeile 7 „Version: 59.0" auf „Version: 61.0" gesetzt; zusammen mit Zitiervorschlag und Dokumentkopf konsistent. | Ja |
+
+### Nachprüfung
+
+- 2.1.1 – 2.1.5 nach Einarbeitung: OK
+- 2.2.1 / 2.4.1 / 2.4.2 / 2.4.3 / 2.4.5 nach Ergänzung der Literaturnachweise: OK
+- 2.5 Versionskonsistenz: OK (Version 61.0 in Dokumentkopf `KI-Ökonomie.md`, `README.md` Versionszeile, `README.md` Zitiervorschlag, dieses Protokoll; zusätzlich Version-61.0-Passus im README-Aktualitätshinweis)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (README-Versionszeile korrigiert)
+- Neue Version: 61.0
+- PDF erstellt: Ja (`KI-Ökonomie.pdf` via `build_pdf.py`)
+- Word erstellt: Ja (`KI-Ökonomie.docx` via `build_docx.py`)
+
+---
+
 ## Validierung 9. August 2026 (Lauf 001 vom 9. August 2026) — Version 59.0 → Version 60.0
 
 **Auslöser:** Regulärer Daily-Update-Lauf. Web-Recherche im Korridor der Cluster A–J am 9. August 2026 im Standard-7-Tage-Fenster (2. – 9. August 2026); Cluster F und I zusätzlich im Standard-48-Stunden-Fenster (7. – 9. August 2026). Zwei belegbare Neuzugänge im 7-Tage-Fenster: aus Cluster B/D die Einbringung des *AI Tax and Work Protection Act* (H.R. 10044) durch Rep. Greg Casar (D-TX) gemeinsam mit Valerie Foushee (D-NC) und Sara Jacobs (D-CA) am 6. August 2026 im 119. US-Kongress; aus Cluster J die öffentliche Erstpräsentation des von *BYD* selbst entwickelten humanoiden Serviceroboters *Xiao Di* am *Di Space*-Kunden- und Ausstellungszentrum in Zhengzhou Anfang August 2026.
