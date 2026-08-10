@@ -114,7 +114,7 @@
 - PDF erstellt (`build_pdf.py`): Ja
 - Word erstellt (`build_docx.py`): Ja
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (an vier Stellen: Dokumentkopf `KI-Ökonomie.md`, `README.md` Versionszeile, `README.md` Zitiervorschlag, `Validierung-Ergebnisse.md` Block-Überschrift; zusätzlich Nachtrag im README-Aktualitätshinweis)
-- Branch auf main gemerged und gelöscht: (siehe Phase-6-Cleanup-Nachtrag)
+- Branch auf main gemerged und gelöscht: Ja (Session-Branch `claude/determined-einstein-t2ei40` per `--no-ff` in main gemerged, Commit e652e83; Push auf `origin/main` erfolgreich; lokaler Branch gelöscht; Remote-Branch-Löschung mit HTTP 403 abgelehnt — wie in den Läufen der Vortage; das Ergebnis ist als „Everything up-to-date" quittiert, der lokale Cleanup ist wirksam).
 - E-Mail-Versand: Fallback — `daily-mail.txt` im Repo-Root geschrieben, da in der laufenden Session weder `mail_send` aus `graph-mcp` noch ein anderes Outlook-/Microsoft-Graph-E-Mail-Sende-Tool erreichbar war.
 - WhatsApp-Versand: Fallback — `daily-whatsapp.txt` im Repo-Root geschrieben, da in der laufenden Session weder `wa_send_message` aus dem `whatsapp`-MCP-Server noch ein anderes Send-Tool aus diesem Server erreichbar war.
 
