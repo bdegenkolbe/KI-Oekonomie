@@ -54,6 +54,78 @@
 
 ---
 
+## 2026-08-10 — Lauf 001 — Version 60.0 → Version 61.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, C, E, G, H, I, J ohne belegbare Neuzugänge im 7-Tage- bzw. 48-Stunden-Fenster). Zwei belegbare Neuzugänge im 7-Tage-Fenster: aus Cluster B die planmäßige Aktivierung des AI-Act-Durchsetzungsregimes zum 2. August 2026 (Kommissions­befugnisse gegenüber GPAI-Anbietern nach Kapitel V; Art. 50-Transparenz­pflichten; Bußgeldrahmen 15 Mio. Euro / 3 % Weltjahresumsatz nach Art. 101; Übergangs­frist bis 2. Dezember 2026 für Marking/Detection) mit Cooley-Alert vom 3. August 2026 (in-window primäre Rechtsauswertung); aus Cluster F die aggregierte Tech-Layoff-Bilanz Anfang August 2026 mit Zillow-Ankündigung vom 4. August 2026 (rund 500 Stellen), Google-Rolling-Reviews im mittleren einstelligen Tausender-Bereich, TikTok/Etsy im niedrigen dreistelligen Bereich und Challenger-H1-2026-Kumulierung von rund 101.700 AI-attribuierten US-Stellen­streichungen (fast Verdoppelung des 2025er Gesamtjahres­werts).
+- Zeitfenster: Standard 7 Tage (3. – 10. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (8. – 10. August 2026).
+- Anzahl Suchanfragen: 8 Web-Suchen (Cluster A–J durchsucht) plus gezielte Einzel-Fetches zur Verifikation (Cooley-Alert vom 3. August 2026; DisplaceIndex-Tracker; TechJournal-2026-Bilanz; Kommissions-Pressemitteilung 31. Juli 2026).
+- Lauf 001 vom 10. August 2026 ist der Folgelauf zu Lauf 001 vom 9. August 2026 (Version 59.0 → 60.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B | Cooley LLP, *EU AI Act: Transparency Obligations Take Effect 2 August 2026*, 3. August 2026 | https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026 | übernommen (Primärauswertung Rechtsanalyse in-window) |
+| 2 | B | Europäische Kommission (DG CNECT), *Commission starts enforcing AI Act rules and new transparency requirements on 2 August*, 31. Juli 2026 | https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august | übernommen (Sekundärbeleg — Kommissions-Pressemitteilung; Wirksamkeit 2. August 2026 im Fenster) |
+| 3 | F | IBTimes / IBTimes UK, *Tech Layoffs in 2026 Already Beat Last Year's Total as Google, Zillow and TikTok Cut Hundreds*, ab 5. August 2026 | https://www.ibtimes.co.uk/tech-layoffs-2026-zillow-tiktok-etsy-google-1813127 | übernommen (Sammelbeleg mit 125.000-Zwischenstand) |
+| 4 | F | Yahoo Tech, *Tech layoffs 2026: Tracking all of the job losses across TikTok, Microsoft, Meta, Oracle, Samsung and others*, 6. August 2026 | https://tech.yahoo.com/general/article/tech-layoffs-2026-tracking-all-of-the-job-losses-across-tiktok-microsoft-meta-oracle-samsung-and-others-144545528.html | übernommen (Sammelbeleg mit Tracker-Zwischenstand) |
+| 5 | F | Tech.co, *Tech Companies That Have Made Layoffs from 2022 to 2026 (Updated List)*, Anfang August 2026 | https://tech.co/news/tech-companies-layoffs | übernommen (Sammelbeleg) |
+| 6 | F | GeekWire, *Zillow cuts more than 500 jobs in its largest layoff of the year*, 4. August 2026 | https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/ | übernommen (Primärbeleg Zillow-Ankündigung im 7-Tage-Fenster; explizite AI-Kausalität durch Zillow zurückgewiesen — Aufnahme mit Konjunktivpflicht nach § 4.2 Claude.md) |
+| 7 | F | TechChannel News, *AI is getting the blame for more than 163,427 tech job layoffs*, Anfang August 2026 | https://techchannel.news/ai-is-getting-the-blame-for-more-than-163427-tech-job-layoffs/ | übernommen (Sammelbeleg mit breiterer Methodikspanne 163.427) |
+| 8 | F | Challenger, Gray & Christmas, *Challenger Report: March Cuts Rise 25 % From February, AI Leads Reasons*, 2026 (Serie aktualisiert bis Juni 2026) | https://www.challengergray.com/blog/challenger-report-march-cuts-rise-25-from-february-ai-leads-reasons/ | übernommen (Primärserie H1-2026-Kumulierung 101.700) |
+| 9 | F | Insurance Journal, *AI’s Impact: Tech and Finance Sectors Losing 28,000 Jobs Monthly*, 2. Juli 2026 | https://www.insurancejournal.com/news/national/2026/07/02/875989.htm | übernommen (Sekundärbeleg 28.000/Monat) |
+| 10 | F | Founder Reports, *AI Layoffs by Company: A Tracker of Every Major Layoff Tied to AI (2026)*, laufend | https://founderreports.com/ai-layoffs-tracker/ | übernommen (Sammelbeleg) |
+| 11 | D/I | „Pacing the Frontier"-Brief (Anthropic-CEO Amodei, OpenAI-Chief-Scientist Pachocki, Meta-Chief-Scientist Zhao, Google-AI-Safety-Head Dragan u. a.), 28. Juli 2026 | https://www.techtimes.com/articles/322125/20260729/openai-anthropic-formally-back-plan-slow-ai-that-writes-its-own-code.htm | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat für Cluster D/I, wenn thematisch vertieft werden soll) |
+| 12 | J | Tesla Optimus V3 Mid-2026-Debüt und Massenfertigung Juli/August 2026 | https://electrek.co/2026/04/22/tesla-optimus-production-fremont-model-sx-line/ | verworfen (in Substanz bereits mit Version 58.0/59.0 in § 8.2 Fremont-Erstlinie/Q2-Earnings-Call dokumentiert) |
+| 13 | A | Anthropic Economic Index — geographische Konvergenz (August 2025 – Februar 2026: Top-5-Staaten von 30 % auf 24 % gefallen) | https://www.anthropic.com/research/economic-index-march-2026-report | verworfen (bereits mit Version 8.0/9.0 in § 4.5-Kernbefunden dokumentiert; keine belegbare August-2026-Fortschreibung) |
+| 14 | E | IAB-Kurzbericht 08/2026 (Friedrich/Kagerl) — jeder vierte Betrieb nutzt generative KI (25 %) | https://iab.de/presseinfo/jeder-vierte-betrieb-in-deutschland-nutzt-generative-ki/ | verworfen (weiterhin außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 15 | I | Bloomberg / TechTimes / Unite.AI, *OpenAI/Anthropic Back Employee Call to Pace AI Progress*, 29. Juli 2026 | https://www.unite.ai/openai-and-anthropic-back-employee-call-to-pace-ai-progress/ | verworfen (außerhalb 7-Tage-Fenster) |
+| 16 | J | AmericanBazaar, *Major layoffs of 2026: Amazon, Meta, Oracle, Microsoft and more*, 9. August 2026 | https://americanbazaaronline.com/2026/08/09/major-layoffs-of-2026-amazon-meta-oracle-microsoft-and-more/ | verworfen (Sammelbeleg zu bereits mit Version 55.0 – 60.0 dokumentierten Konzern-Layoffs; kein neuer Primärstoff) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.4 (Präzisierungs­absatz) | Ergänzung | Aktivierung des AI-Act-Durchsetzungsregimes zum 2. August 2026 (GPAI-Kommissionsbefugnisse Kap. V, Art. 50-Transparenzpflichten, Bußgeldrahmen 15 Mio. Euro / 3 % Weltjahresumsatz nach Art. 101, Übergangs­frist bis 2. Dezember 2026 für Marking/Detection, freiwilliger *Code of Practice* mit über 180 Signatoren). | 1 (Primär), 2 (Sekundär) |
+| 2 | § 11.2 (Neueintrag) | Ergänzung | Cooley-Alert vom 3. August 2026 zur Aktivierung der AI-Act-Transparenzpflichten und Sanktionsrahmen als praktikerseitige Rechtsauswertung. | 1 |
+| 3 | § 1.1 (Fortschreibungs­satz) | Aktualisierung | Tech-Layoff-Bilanz Anfang August 2026 (über 125.000 Betroffene in 264 Unternehmen, 2025er Jahressumme überschritten; Zillow 500 Stellen 4. August 2026; Google-Rolling-Reviews im mittleren einstelligen Tausender-Bereich; TikTok/Etsy niedrig dreistellig) plus Challenger-H1-2026 mit 101.700 AI-attribuierten US-Stellenstreichungen (Verdoppelung 2025). | 3, 4, 5, 6, 7, 8, 9 |
+| 4 | § 11.5 (Neueintrag Tech-Layoff-Bilanz) | Ergänzung | Aggregierte IBTimes/Yahoo-Tech/Tech.co/GeekWire/TechChannel-News-Sammelquelle 4.–10. August 2026 zur Layoff-Bilanz mit Zillow-Ankündigung 4. August 2026. | 3, 4, 5, 6, 7 |
+| 5 | § 11.5 (Neueintrag Challenger-Serie) | Ergänzung | Challenger-Gray-&-Christmas-Serie mit Insurance-Journal-/Founder-Reports-Sekundär­belegen zur H1-2026-Kumulierung von 101.700 AI-attribuierten US-Stellen­streichungen. | 8, 9, 10 |
+| 6 | Dokumentkopf / README.md × 2 / Zitiervorschlag / Validierung-Ergebnisse.md | Versions­sprung | Version 60.0 → 61.0 an allen vier Stellen (README-Versionszeile war seit Version 58.0 → 59.0 nachweisbar auf 59.0 stehengeblieben; hiermit auf 61.0 gesetzt statt nur inkrementiert). | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 11 | „Pacing the Frontier"-Brief 28. Juli 2026 | D/I | außerhalb 7-Tage-Fenster (Standardfrist); wiederholter Aufnahmekandidat, falls Cluster D/I thematisch vertieft werden soll. |
+| 12 | Tesla Optimus V3 Mid-2026 / Massenfertigung Juli/August 2026 | J | Dublette — Substanz bereits mit Version 58.0/59.0 in § 8.2 (Tesla Optimus Fremont-Erstlinie, Q2-Earnings-Call vom 22. Juli 2026) und § 4.5 dokumentiert. |
+| 13 | Anthropic Economic Index — geographische Konvergenz August 2025 – Februar 2026 | A | Dublette — bereits mit Version 8.0/9.0 in § 4.5 dokumentiert; keine belegbare August-2026-Fortschreibung. |
+| 14 | IAB-Kurzbericht 08/2026 „Jeder vierte Betrieb nutzt generative KI" | E | außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat. |
+| 15 | Bloomberg / TechTimes / Unite.AI, *OpenAI/Anthropic Back Employee Call to Pace AI Progress*, 29. Juli 2026 | I | außerhalb 7-Tage-Fenster. |
+| 16 | AmericanBazaar, *Major layoffs of 2026: Amazon, Meta, Oracle, Microsoft and more*, 9. August 2026 | F | Dublette — Sammelbeleg zu bereits mit Version 55.0 – 60.0 dokumentierten Konzern-Layoffs; kein neuer Primärstoff. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Verweis auf Block in `Validierung-Ergebnisse.md` — Validierung 10. August 2026)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (an vier Stellen: Dokumentkopf `KI-Ökonomie.md`, `README.md` Versionszeile, `README.md` Zitiervorschlag, `Validierung-Ergebnisse.md` Block-Überschrift; zusätzlich Nachtrag im README-Aktualitätshinweis)
+- Branch auf main gemerged und gelöscht: (siehe Phase-6-Cleanup-Nachtrag)
+- E-Mail-Versand: Fallback — `daily-mail.txt` im Repo-Root geschrieben, da in der laufenden Session weder `mail_send` aus `graph-mcp` noch ein anderes Outlook-/Microsoft-Graph-E-Mail-Sende-Tool erreichbar war.
+- WhatsApp-Versand: Fallback — `daily-whatsapp.txt` im Repo-Root geschrieben, da in der laufenden Session weder `wa_send_message` aus dem `whatsapp`-MCP-Server noch ein anderes Send-Tool aus diesem Server erreichbar war.
+
+### Auffälligkeiten / offene Punkte
+
+- Die README-Versionszeile war seit Lauf 001 vom 8. August 2026 (Version 58.0 → 59.0) auf „Version: 59.0" stehengeblieben, obwohl der Zitiervorschlag und die Dokument-Kernstellen in nachfolgenden Läufen auf 60.0 gesetzt wurden. Im aktuellen Lauf ist die Versionszeile ebenso wie der Zitiervorschlag konsistent auf 61.0 gesetzt.
+- „Pacing the Frontier"-Brief (28. Juli 2026), IAB-Kurzbericht 08/2026 und NBER 34910 (Acemoglu/Kong/Ozdaglar) bleiben wiederholte Aufnahmekandidaten; sie liegen außerhalb des 7-Tage-Fensters, aber innerhalb einer plausiblen Cluster-D/I- bzw. Cluster-A-Vertiefung.
+- Phase 5b: Weder `mail_send` (graph-mcp) noch `wa_send_message` (whatsapp-MCP) waren in der laufenden Session erreichbar; die vorbereiteten Benachrichtigungs­inhalte wurden gemäß Phase-5b-Fallbackregel in `daily-mail.txt` bzw. `daily-whatsapp.txt` im Repo-Root abgelegt. Empfängerdaten sind weder im Logbuch noch in den Fallback-Dateien enthalten; sie bleiben ausschließlich in der Routine-Anweisung.
+
+---
+
 ## 2026-08-09 — Lauf 001 — Version 59.0 → Version 60.0
 
 ### Recherchekorridor
