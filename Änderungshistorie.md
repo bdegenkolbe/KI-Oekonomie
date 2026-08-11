@@ -54,6 +54,82 @@
 
 ---
 
+## 2026-08-11 — Lauf 001 — Version 61.0 → Version 62.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, B, C, E, G, H ohne belegbare Neuzugänge im 7-Tage- bzw. 48-Stunden-Fenster). Zwei belegbare Neuzugänge im 48-Stunden-Fenster (Cluster D/I und Cluster J): (a) am 10. August 2026 vorgestellte strategische Partnerschaft von *Anthropic*, *Macquarie Asset Management* (Australien) und *GIC* (Singapur) mit der Gründung des Infrastruktur-Vehikels *Theseus Infrastructure* für dedizierte KI-Rechenzentren (privatwirtschaftliches Multi-Investor-Vehikel-Modell; *Anthropic* als *anchor tenant*; *Consumer-Utility-Rate-Schutzklausel*); (b) am 10. August 2026 eröffnete Retail-Zeichnungsphase der *Unitree-Robotics*-Shanghai-STAR-Emission mit rund 5.526-fach überzeichnetem Retail-Anteil und rund 9,8 Millionen Einzel-Zeichnungs­aufträgen.
+- Zeitfenster: Standard 7 Tage (4. – 11. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (9. – 11. August 2026).
+- Anzahl Suchanfragen: 10 Web-Suchen (Cluster A–J durchsucht) plus gezielte Einzel-Fetches zur Verifikation (Macquarie-Presseerklärung 10. August 2026; Yahoo-Finance-Sammelbeleg zur *Theseus*-Partnerschaft; Bloomberg-Berichterstattung zur Unitree-Retail-Überzeichnung — Bloomberg via HTTP 403 nicht direkt fetchbar, Triangulation via WebSearch-Zusammenfassung und cryptopolitan.com/mezha.net/en.people.cn/scmp.com).
+- Lauf 001 vom 11. August 2026 ist der Folgelauf zu Lauf 001 vom 10. August 2026 (Version 60.0 → 61.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | D/I | Macquarie Asset Management (Presseerklärung), *Anthropic, Macquarie Asset Management, and GIC Announce Strategic Partnership to Develop Dedicated Data Center Infrastructure at Scale*, 10. August 2026 | https://www.macquarie.com/au/en/about/news/2026/anthropic-mam-gic-data-centre-infrastructure-partnership.html | übernommen (Primärquelle Presseerklärung) |
+| 2 | D/I | Bloomberg, *Anthropic, Macquarie and GIC Form Venture for AI Data Centers*, 10. August 2026 | https://www.bloomberg.com/news/articles/2026-08-10/anthropic-macquarie-and-gic-form-venture-for-ai-data-centers | übernommen (Sekundärbeleg — Kernbefund über WebSearch-Zusammenfassung übernommen) |
+| 3 | D/I | HPCwire, *Anthropic, Macquarie and GIC Launch Theseus Infrastructure for AI Data Centers*, 10. August 2026 | https://www.hpcwire.com/off-the-wire/anthropic-macquarie-and-gic-launch-theseus-infrastructure-for-ai-data-centers/ | übernommen (Sekundärbeleg Fachfachpresse HPC) |
+| 4 | D/I | StreetInsider, *Anthropic, Macquarie, and GIC form data center partnership*, 10. August 2026 | https://www.streetinsider.com/Corporate+News/Anthropic,+Macquarie,+and+GIC+form+data+center+partnership/26894772.html | übernommen (Sammelbeleg) |
+| 5 | D/I | CryptoBriefing, *Anthropic partners with Macquarie and GIC to expand US AI data center capacity*, 10. August 2026 | https://cryptobriefing.com/anthropic-macquarie-gic-theseus-data-centers/ | übernommen (Sammelbeleg) |
+| 6 | D/I | Yahoo Finance, *Anthropic partners with Macquarie and GIC to build data centers*, 10. August 2026 | https://finance.yahoo.com/technology/ai/articles/anthropic-partners-macquarie-gic-build-131124573.html | übernommen (Primär via WebFetch; Rollenzuweisung, Consumer-Utility-Rate-Klausel bestätigt) |
+| 7 | D/I | Yahoo Finance, *Anthropic, Macquarie and GIC Form Venture for AI Data Centers*, 10. August 2026 | https://finance.yahoo.com/technology/ai/articles/anthropic-macquarie-gic-form-venture-123117352.html | übernommen (Sammelbeleg) |
+| 8 | D/I | Data Center Richness, *Anthropic Taps Macquarie, GIC to Build More Data Centers*, 10. August 2026 | https://datacenterrichness.substack.com/p/anthropic-taps-macquarie-gic-to-build | übernommen (Sammelbeleg) |
+| 9 | J | Bloomberg, *Unitree's Shanghai IPO 5,526 Times Subscribed by Retail Buyers*, 10. August 2026 | https://www.bloomberg.com/news/articles/2026-08-10/unitree-s-shanghai-ipo-5-526-times-subscribed-by-retail-buyers | übernommen (Primärquelle Retail-Überzeichnungs-Kennzahl; HTTP 403 auf WebFetch, Kernbefund via WebSearch-Zusammenfassung) |
+| 10 | J | Cryptopolitan, *Unitree opens IPO subscription to become China's first humanoid robot stock*, 10. August 2026 | https://www.cryptopolitan.com/unitree-opens-ipo-subscription/ | übernommen (Sekundärbeleg Emissionseröffnung) |
+| 11 | J | Mezha (Bukvy), *Unitree sets Shanghai IPO price as humanoid robot sector seeks fresh capital*, 10. August 2026 | https://mezha.net/eng/bukvy/33b2224b_unitree_sets_shanghai/ | übernommen (Sammelbeleg) |
+| 12 | J | People's Daily Online, *Unitree IPO draws spotlight to China's fast-growing humanoid robot sector*, 11. August 2026 | https://en.people.cn/n3/2026/0811/c90000-20487384.html | übernommen (chinesische Primärperspektive) |
+| 13 | J | South China Morning Post, *Backed by DeepSeek, Unitree IPO tests investor appetite for China's AI robotics boom*, 10./11. August 2026 | https://www.scmp.com/tech/tech-trends/article/3363251/backed-deepseek-unitree-ipo-tests-investor-appetite-chinas-ai-robotics-boom | übernommen (Sammelbeleg) |
+| 14 | B | BMDS-Presseerklärung, *Neues KI-Gesetz tritt in Kraft* (KI-MIG / Bundesnetzagentur als AI-Aufsicht), 29. Juli 2026 | https://bmds.bund.de/aktuelles/pressemitteilungen/detail/neues-ki-gesetz-tritt-in-kraft | verworfen (außerhalb 7-Tage-Fenster, 13 Tage vor Schnitt; wiederholter Aufnahmekandidat für eine cluster-B-Vertiefung zur nationalen deutschen AI-Act-Umsetzung) |
+| 15 | A | NBER Working Paper 34873 Korinek/Lockwood, *Public Finance in the Age of AI: A Primer*, Februar 2026 | https://www.nber.org/papers/w34873 | verworfen (außerhalb 7-Tage-Fenster; direkt themenrelevanter Aufnahmekandidat für eine Cluster-A-Vertiefung zur optimalen Besteuerung im AGI-Fall) |
+| 16 | B | Washington Post, *AI & Tech Brief: The AI taxes cometh*, 7. August 2026 | https://www.washingtonpost.com/wp-intelligence/ai-tech-brief/2026/08/07/ai-tech-brief-ai-taxes-cometh/ | verworfen (Rezeption der bereits mit Version 60.0 vollständig dokumentierten Casar-Bill H.R. 10044; unter Aufnahmeschwelle einer eigenständigen Ergänzung) |
+| 17 | D | *Pacing the Frontier*-Brief (Amodei/Pachocki/Zhao/Dragan u. a.), 28. Juli 2026 | https://www.techtimes.com/articles/322125/20260729/openai-anthropic-formally-back-plan-slow-ai-that-writes-its-own-code.htm | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat für Cluster D/I) |
+| 18 | E | IAB-Kurzbericht 08/2026 (Friedrich/Kagerl), *Jeder vierte Betrieb in Deutschland nutzt generative KI* | https://iab.de/presseinfo/jeder-vierte-betrieb-in-deutschland-nutzt-generative-ki/ | verworfen (weiterhin außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 19 | F | AmericanBazaar, *Major layoffs of 2026: Amazon, Meta, Oracle, Microsoft and more*, 9. August 2026 | https://americanbazaaronline.com/2026/08/09/major-layoffs-of-2026-amazon-meta-oracle-microsoft-and-more/ | verworfen (Sammelbeleg zu bereits mit Version 55.0 – 60.0 dokumentierten Konzern-Layoffs; kein neuer Primärstoff) |
+| 20 | I | Anthropic Economic Index Februar-2026-Report (Sekundär­analysen im August 2026) | https://www.anthropic.com/research/economic-index-march-2026-report | verworfen (bereits mit Version 8.0/9.0 / 11.0/12.0 in § 4.5-Nachtrag und § 11.3 vollständig dokumentiert; keine belegbare August-2026-Fortschreibung mit substantiell neuen Kernbefunden) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 8.2 (neuer Absatz nach BYD-Xiao-Di, vor „Deutschland hat in dieser Ordnung...") | Ergänzung | Am 10. August 2026 haben *Anthropic*, *Macquarie Asset Management* und *GIC* die Gründung des Infrastruktur-Vehikels *Theseus Infrastructure* für dedizierte KI-Rechenzentren angekündigt (privatwirtschaftliches Multi-Investor-Vehikel; *Anthropic* als *anchor tenant*; *Consumer-Utility-Rate-Schutzklausel*; US-Erstfokus; Details zu Volumen/Standorten/Kapazität zum Ankündigungsdatum offen) — als erstes rein privatwirtschaftliches Multi-Investor-Vehikel der KI-Compute-Finanzierungs­schicht eingeordnet, mit Rückwirkung auf § 4.5 (kapitalmarkt­institutionelle Bestandsanknüpfung neben legislativen SWF-Vorschlägen), § 5.4 und § 8.3. | 1–8 |
+| 2 | § 8.2 (Nachtrag zum bestehenden Unitree-Absatz vom 6./7. August 2026) | Aktualisierung | Nachtrag zum 10. August 2026: Am Eröffnungstag der Retail-Zeichnungsphase sei der öffentliche Retail-Anteil der *Unitree*-Emission rund 5.526-fach überzeichnet gewesen (rund 9,8 Millionen Einzel-Zeichnungs­aufträge) — verkürzte Beobachtungsphase für bestandsorientierte Umverteilungslogik (§ 4.5) im Retail-getriebenen Bewertungsumfeld; weitere Verschiebung der Referenzpunkte inländischer Anschluss­stellen einer wertschöpfungs­orientierten KI-Nutzungsabgabe in Richtung Anwendungs-Ebene (§ 8.3). | 9–13 |
+| 3 | § 11.5 (Neueintrag Theseus als erster Sektions-Eintrag) | Ergänzung | Macquarie / Bloomberg / HPCwire / StreetInsider / CryptoBriefing / Yahoo Finance / Data Center Richness (10. August 2026) — Presse- und Fachfachpresse-Sammelbeleg zur *Theseus-Infrastructure*-Partnerschaft mit Rollenzuweisung, Consumer-Utility-Rate-Schutzklausel und US-Erstfokus. | 1–8 |
+| 4 | § 11.5 (Neueintrag Unitree-Retail-Zeichnung nach dem Theseus-Eintrag) | Ergänzung | Bloomberg / Cryptopolitan / Mezha / People's Daily / SCMP (10./11. August 2026) — Sammelbeleg zur Retail-Zeichnungsphase mit 5.526-facher Retail-Überzeichnung und rund 9,8 Millionen Einzel-Zeichnungs­aufträgen. | 9–13 |
+| 5 | Dokumentkopf `KI-Ökonomie.md` / `README.md` Versionszeile / `README.md` Zitiervorschlag / `Validierung-Ergebnisse.md` Block-Überschrift | Versionssprung | Version 61.0 → 62.0 an allen vier Stellen; zusätzlich Nachtrag im README-Aktualitätshinweis um Version-62.0-Passus. | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 14 | BMDS-Presseerklärung „Neues KI-Gesetz tritt in Kraft" (KI-MIG, 29. Juli 2026) | B | Außerhalb 7-Tage-Fenster (Inkrafttreten 29. Juli 2026, Schnittdatum 11. August 2026 = 13 Tage); wiederholter Aufnahmekandidat für eine Cluster-B-Vertiefung zur nationalen deutschen AI-Act-Umsetzung. |
+| 15 | NBER Working Paper 34873 (Korinek/Lockwood) | A | Außerhalb 7-Tage-Fenster (Februar 2026); direkt themenrelevanter Aufnahmekandidat für eine Cluster-A-Vertiefung zur optimalen Besteuerung im AGI-Fall (Consumption-Tax-Framework, Sovereign-Wealth-Fund-Analyse). |
+| 16 | Washington Post „The AI taxes cometh" (7. August 2026) | B | Rezeption der bereits mit Version 60.0 in § 4.5 vollständig dokumentierten Casar-Bill H.R. 10044; ohne neue Detailangaben; unter Aufnahmeschwelle. |
+| 17 | *Pacing the Frontier*-Brief (28. Juli 2026) | D/I | Außerhalb 7-Tage-Fenster (Standardfrist); wiederholter Aufnahmekandidat. |
+| 18 | IAB-Kurzbericht 08/2026 | E | Weiterhin außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat. |
+| 19 | AmericanBazaar Konzern-Layoff-Übersicht (9. August 2026) | F | Dublette — Sammelbeleg zu bereits dokumentierten Konzern-Layoffs; kein neuer Primärstoff. |
+| 20 | Anthropic Economic Index Februar-2026-Report (Sekundär­analysen August 2026) | I | Dublette — bereits mit Version 8.0/9.0 / 11.0/12.0 in § 4.5-Nachtrag und § 11.3 vollständig dokumentiert; keine belegbare August-2026-Fortschreibung mit substantiell neuen Kernbefunden. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja (Theseus vollständig neu; Unitree-Retail-Zeichnung als Nachtrag zum bestehenden Unitree-Absatz eingebaut, ohne Kernangaben aus Version 58.0/59.0 zu wiederholen)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Verweis auf Block in `Validierung-Ergebnisse.md` — Validierung 11. August 2026)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (an vier Stellen: Dokumentkopf `KI-Ökonomie.md`, `README.md` Versionszeile, `README.md` Zitiervorschlag, `Validierung-Ergebnisse.md` Block-Überschrift; zusätzlich Nachtrag im README-Aktualitätshinweis)
+- Branch auf main gemerged und gelöscht: siehe Phase-6-Cleanup-Status
+- E-Mail-Versand: siehe Phase-5b-Ergebnisse
+- WhatsApp-Versand: siehe Phase-5b-Ergebnisse
+
+### Auffälligkeiten / offene Punkte
+
+- Der Bloomberg-Beleg zur *Unitree*-Retail-Überzeichnung (5.526-fach) ist per WebFetch nur mit HTTP 403 abrufbar; die Kernkennzahl wurde über WebSearch-Zusammenfassung und die triangulierenden Berichte von *Cryptopolitan*, *Mezha*, *People's Daily* und *South China Morning Post* verifiziert. Für die Zitatgenauigkeit § 2.4.5 gilt die Angabe damit als anbieter-/emittentenseitig referiert (Konjunktivpflicht nach § 4.2 Claude.md).
+- Das *KI-MIG* (Inkrafttreten 29. Juli 2026, Bundesnetzagentur als Deutschlands zentrale AI-Markt­überwachungs­behörde) bleibt ein starker wiederholter Aufnahmekandidat für eine Cluster-B-Vertiefung zur nationalen deutschen AI-Act-Umsetzung — es ergänzt die in Version 61.0 dokumentierte AI-Act-Aktivierung um die deutsche Vollzugsarchitektur und wäre unmittelbar in § 4.4 anschlussfähig.
+- Das NBER Working Paper 34873 (Korinek/Lockwood, „Public Finance in the Age of AI: A Primer", Februar 2026) bleibt der stärkste Aufnahmekandidat für eine Cluster-A-Vertiefung zur optimalen Besteuerung im AGI-Fall (Consumption-Tax-Framework, Sovereign-Wealth-Fund-Analyse) — es adressiert exakt die zentrale These der Steuerbasis-Verlagerung, die auch die Deutschland-These stützt.
+
+---
+
 ## 2026-08-10 — Lauf 001 — Version 60.0 → Version 61.0
 
 ### Recherchekorridor

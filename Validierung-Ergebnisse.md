@@ -7,6 +7,79 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 11. August 2026 (Lauf 001 vom 11. August 2026) — Version 61.0 → Version 62.0
+
+**Auslöser:** Regulärer Daily-Update-Lauf. Web-Recherche im Korridor der Cluster A–J am 11. August 2026 im Standard-7-Tage-Fenster (4. – 11. August 2026); Cluster F und I zusätzlich im Standard-48-Stunden-Fenster (9. – 11. August 2026). Zwei belegbare Neuzugänge im 48-Stunden-Fenster: (a) die am 10. August 2026 vorgestellte strategische Partnerschaft von *Anthropic*, *Macquarie Asset Management* (Australien) und *GIC* (Singapur) mit der Gründung des Infrastruktur-Vehikels *Theseus Infrastructure* für dedizierte KI-Rechenzentren als privatwirtschaftliches Multi-Investor-Vehikel-Modell mit *Anthropic* als *anchor tenant* unter langfristigen Nutzungsvereinbarungen (*Consumer-Utility-Rate-Schutzklausel*: *Anthropic* verpflichtet sich zur Abdeckung von Aufschlägen auf die Verbraucher-Stromtarife der jeweiligen Host-Regionen); (b) die am 10. August 2026 eröffnete Retail-Zeichnungsphase der *Unitree-Robotics*-Shanghai-STAR-Emission mit rund 5.526-fach überzeichnetem Retail-Anteil und rund 9,8 Millionen Einzel-Zeichnungs­aufträgen (Bloomberg-Berichterstattung 10. August 2026; Konjunktivpflicht nach § 4.2 Claude.md, weil die Zeichnungszahlen anbieter-/emittentenseitig referiert werden).
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *Theseus Infrastructure* — Strategische Partnerschaft von *Anthropic*, *Macquarie Asset Management* (Australien) und *GIC* (Singapur) mit Gründung des Infrastruktur-Vehikels *Theseus Infrastructure* für dedizierte KI-Rechenzentren; *Anthropic* als *anchor tenant* unter langfristigen Nutzungsvereinbarungen; *Macquarie*/*GIC* als Eigenkapital-Mehrheitsträger; *Anthropic* verpflichtet sich zur Abdeckung von Aufschlägen auf die Verbraucher-Stromtarife der jeweiligen Host-Regionen; Erstfokus USA; Standorte, Gesamtinvestitionsvolumen, Gigawatt-Kapazität und Zeitplan zum Ankündigungsdatum offen. Belegt durch Macquarie-Presseerklärung vom 10. August 2026, Bloomberg-Bericht vom 10. August 2026, HPCwire-Beitrag vom 10. August 2026, StreetInsider, CryptoBriefing, Yahoo Finance und Data Center Richness (jeweils 10./11. August 2026). Konjunktivpflicht nach § 4.2 Claude.md eingehalten (Standort- und Volumenangaben zum Ankündigungsdatum offen). | § 8.2 (neuer Absatz eingefügt nach dem BYD-Xiao-Di-Absatz vom Anfang August 2026 und unmittelbar vor dem „Deutschland hat in dieser Ordnung..."-Absatz); § 11.5 (neuer Sammelbeleg als erster Eintrag der Sektion, vor dem Meta-*Muse-Spark-1.2*-Sammelbeleg der Version 58.0); Aktualitätshinweis in README.md um Version-62.0-Passus ergänzt. | Erstes privatwirtschaftliches Multi-Investor-Vehikel-Modell der KI-Compute-Finanzierungs­schicht (Souveränfonds *GIC* plus institutionelle Vermögensverwaltung *Macquarie* an ein einzelnes Frontier-Anbieter-*Anchor-Modell*) — verlagert die im *American A.I. Sovereign Wealth Fund Act* (§ 4.5, Sanders) angelegte bestandsorientierte Umverteilungslogik von der legislativen in die kapitalmarkt­institutionelle Ebene. Die *Consumer-Utility-Rate-Schutzklausel* ist erste großmaßstäbliche privatrechtliche Kompensation für Externalitäten KI-getriebener Rechenzentren — direkter Anschluss an die in *Maine* (§ 4.5) angelegte staatliche Advisory-Beratung. Für die Deutschland-These (§ 8.3) verdeutlicht die Konstellation, dass die Finanzierungs­schicht der KI-Infrastruktur zusätzlich zur Modell-, Hardware- und Fertigungskonzentration außerhalb der Europäischen Union realisiert wird. |
+| 2 | *Unitree Robotics*-Shanghai-STAR-Retail-Zeichnungsphase — Eröffnungstag der öffentlichen Retail-Zeichnung am 10. August 2026 mit rund 5.526-fach überzeichnetem Retail-Anteil und rund 9,8 Millionen Einzel-Zeichnungs­aufträgen; belegt durch *Bloomberg* („Unitree's Shanghai IPO 5,526 Times Subscribed by Retail Buyers", 10. August 2026), *Cryptopolitan*, *Mezha*, *People's Daily* (11. August 2026) und *South China Morning Post*. Konjunktivpflicht nach § 4.2 Claude.md eingehalten (Zeichnungszahlen anbieter-/emittentenseitig referiert). | § 8.2 (Fortschreibungs­absatz an den bestehenden Unitree-Absatz vom 6./7. August 2026 mit klarer „Nachtrag zum 10. August 2026"-Kennzeichnung angehängt); § 11.5 (neuer Sammelbeleg direkt nach dem *Theseus*-Eintrag); Aktualitätshinweis in README.md um Version-62.0-Passus ergänzt. | Fortschreibung des bereits mit Version 58.0/59.0 in § 8.2 dokumentierten Unitree-Kapitalmarktvorgangs um die durch Retail-Nachfrage geprägte Emissions- und Zeichnungs­phase. Für § 4.5 relevant, weil eine 5.526-fach überzeichnete Retail-Zeichnung die verfügbare Beobachtungsphase für eine bestandsorientierte Umverteilungslogik (Sanders *American A.I. Sovereign Wealth Fund Act*) verkürzt — Retail-getriebene Bewertungsausschläge dominieren die Rechenzeichen bereits am Emissionsdatum. Für § 8.3 verschiebt sich der ökonomische Referenzpunkt für inländische Anschluss­stellen einer wertschöpfungs­orientierten KI-Nutzungsabgabe zusätzlich in Richtung *Anwendungs*-Ebene, weil die Kapitalmarkt­schicht des humanoiden Segments zum Emissionsdatum bereits fast ausschließlich außerhalb der Europäischen Union realisiert wird. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+
+- *KI-MIG (KI-Markt- und Innovationsförderungsgesetz)* — Inkrafttreten am 29. Juli 2026, Bundesnetzagentur als Deutschlands zentrale AI-Markt­überwachungs­behörde: Außerhalb 7-Tage-Fenster (Inkrafttreten 29. Juli 2026, heute 11. August 2026 = 13 Tage); wiederholter Aufnahmekandidat für eine cluster-B-Vertiefung zur nationalen deutschen AI-Act-Umsetzung.
+- *Anthropic Economic Index Februar-2026-Report* (Auswertung durch Sekundär­analysen im August 2026): Bereits mit Version 8.0/9.0 und 11.0/12.0 in § 4.5-Nachtrag und § 11.3 vollständig dokumentiert; keine belegbare August-2026-Fortschreibung mit substantiell neuen Kernbefunden.
+- *Washington-Post AI Tech Brief „The AI taxes cometh"* (7. August 2026): Rezeption der bereits mit Version 60.0 in § 4.5 vollständig dokumentierten Casar-Bill (H.R. 10044); ohne neue Bill-Detailangaben oder neue Kausalattributionsbefunde; unter Aufnahmeschwelle einer eigenständigen Ergänzung.
+- *NBER Working Paper 34873 „Public Finance in the Age of AI: A Primer"* (Korinek/Lockwood, Februar 2026): Außerhalb 7-Tage-Fenster (Februar 2026); direkt themenrelevanter Aufnahmekandidat für eine Cluster-A-Vertiefung zur optimalen Besteuerung im AGI-Fall (Consumption-Tax-Framework, Sovereign-Wealth-Fund-Analyse).
+- *Pacing the Frontier*-Brief vom 28. Juli 2026 (Anthropic-CEO Amodei, OpenAI-Chief-Scientist Pachocki, Meta-Chief-Scientist Zhao, Google-AI-Safety-Head Dragan u. a.): Weiterhin außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat, falls Cluster D/I thematisch vertieft werden soll.
+- *IAB-Kurzbericht 08/2026 „Jeder vierte Betrieb nutzt generative KI"* (Friedrich/Kagerl): Weiterhin außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat für eine Cluster-E-Vertiefung.
+- *AmericanBazaar-Konzern-Layoff-Übersicht vom 9. August 2026* (Amazon, Meta, Oracle, Microsoft): Sammelbeleg zu bereits mit Version 55.0–60.0 dokumentierten Konzern-Layoffs; kein neuer Primärstoff.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel + Executive Summary unverändert; keine leeren Abschnitte; Deutschland-These in Zusammenfassung referenziert. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte 1.1 – 11.5 unverändert; fünf Robotersteuer-Typen, drei Säulen, sieben Empfehlungen konsistent. |
+| 2.1.3 Querverweise | OK | § 8.2-Neuabsatz zu *Theseus* verweist kontrolliert auf § 4.5, § 5.4, § 8.3; § 8.2-Nachtrag zum 10. August 2026 (Unitree) auf § 4.5 und § 8.3. |
+| 2.1.4 Roter Faden | OK | Neue Einfügungen ordnen sich in die Rohstoff-Analogie (§ 8.2) und die Finanzierungs- und Anwendungs­schicht der KI-Wertschöpfungskette ein; keine Architekturverschiebung. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; „Nachtrag zum 10. August 2026"-Kennzeichnung im Unitree-Absatz einheitlich formatiert; keine Tabellen verändert. |
+| 2.2.1 Sachliche Richtigkeit | OK | Macquarie-Presseerklärung vom 10. August 2026 belegt Rollenverteilung (Anthropic = *anchor tenant*, Macquarie/GIC = Eigenkapital-Mehrheitsträger), *Theseus Infrastructure* als Vehikel-Name, *Consumer-Utility-Rate-Schutzklausel*; Bloomberg-Bericht vom 10. August 2026 belegt Retail-Überzeichnung 5.526-fach mit rund 9,8 Millionen Zeichnungs­aufträgen. |
+| 2.2.2 Redundanzprüfung | OK | Die *Theseus*-Ergänzung führt einen strukturell neuen Datenpunkt ein (privatwirtschaftliches Multi-Investor-Vehikel), ohne die bereits dokumentierte Compute-Konzentrations- und Custom-Silicon-Achse zu wiederholen. Der Unitree-Nachtrag verlängert den bestehenden Absatz zeitlich, ohne die Bepreisungs- und Bewertungs­angaben (Version 58.0/59.0) zu wiederholen. |
+| 2.2.3 Argumentation | OK | Konjunktivpflicht bei Standort-/Volumen-Angaben (*Theseus*: „Angaben […] zum Ankündigungsdatum offen") und bei Zeichnungszahlen (*Unitree*: anbieter-/emittentenseitig referiert) eingehalten. |
+| 2.2.4 Ausgewogenheit | OK | *Theseus*-Ergänzung stellt sowohl die strukturelle Neuerung (Multi-Investor-Vehikel, Consumer-Utility-Rate-Schutzklausel) als auch die Anschluss­fähigkeit an bestehende Vorschläge (Sanders SWF, Maine Advisory) neutral dar; kein Marketing-Sprech für *Anthropic* oder *Macquarie*. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe ohne Befund. |
+| 2.3.2 Terminologie | OK | „anchor tenant", „Consumer-Utility-Rate-Schutzklausel", „sovereign wealth fund" werden im Kontext erklärt; Abkürzungen konsistent. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neue Quellen: § 11.5 +2 (Theseus-Sammelbeleg; Unitree-Retail-Zeichnungs-Sammelbeleg). Jede Fließtext-Referenz hat einen Eintrag; keine Karteileichen. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-naher Zitierstil, vollständige URLs ohne Shortener, Datumsangaben „DD. Monat YYYY" bzw. „Monat YYYY". |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquelle Macquarie-Presseerklärung (macquarie.com) am 10. August 2026, Bloomberg-Bericht am 10. August 2026 (Unitree Retail-Überzeichnung); Sekundär­belege: hpcwire.com, streetinsider.com, cryptobriefing.com, finance.yahoo.com, datacenterrichness.substack.com sowie cryptopolitan.com, mezha.net, en.people.cn, scmp.com. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe am 11. August 2026 über WebFetch/WebSearch: macquarie.com-Presseerklärung vom 10. August 2026 vollständig abrufbar (Rollenzuweisung, Consumer-Utility-Rate-Klausel bestätigt); bloomberg.com-URL für 5.526-fach-Retail-Überzeichnung via HTTP 403 nicht direkt abrufbar, Kernbefund über WebSearch-Zusammenfassung und flankierende cryptopolitan.com-Berichterstattung trianguliert. |
+| 2.4.5 Zitatgenauigkeit | OK | Macquarie-Formulierung „Anthropic will cover electricity price increases that consumers otherwise may face from these sites" korrekt paraphrasiert; Bloomberg-Meldung „5,526 Times Subscribed by Retail Buyers" mit rund 9,8 Millionen Einzel­aufträgen korrekt übernommen. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Nur de la Feria et al. 2022 bleibt verifizierungsbedürftig; alle Neuzugänge vollständig belegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 62.0 im Dokumentkopf (`KI-Ökonomie.md`), in der `README.md` Versionszeile, im Zitiervorschlag der `README.md` und in diesem Block eingetragen; CC-BY-4.0-Hinweis, Autorenname und Haftungshinweis unverändert. Aktualitätshinweis in `README.md` um den Version-62.0-Passus ergänzt. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Prüfskripte im Repo; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler gefunden. Der Lauf ist ein reiner Ergänzungslauf. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine Bereinigungen erforderlich. | — |
+
+### Nachprüfung
+
+- 2.1.1 – 2.1.5 nach Einarbeitung: OK
+- 2.2.1 / 2.4.1 / 2.4.2 / 2.4.3 / 2.4.5 nach Ergänzung der Literaturnachweise: OK
+- 2.5 Versionskonsistenz: OK (Version 62.0 in Dokumentkopf `KI-Ökonomie.md`, `README.md` Versionszeile, `README.md` Zitiervorschlag, dieses Protokoll; zusätzlich Version-62.0-Passus im README-Aktualitätshinweis)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine Fehler gefunden — reiner Ergänzungslauf)
+- Neue Version: 62.0
+- PDF erstellt: Ja (`KI-Ökonomie.pdf` via `build_pdf.py`)
+- Word erstellt: Ja (`KI-Ökonomie.docx` via `build_docx.py`)
+
+---
+
 ## Validierung 10. August 2026 (Lauf 001 vom 10. August 2026) — Version 60.0 → Version 61.0
 
 **Auslöser:** Regulärer Daily-Update-Lauf. Web-Recherche im Korridor der Cluster A–J am 10. August 2026 im Standard-7-Tage-Fenster (3. – 10. August 2026); Cluster F und I zusätzlich im Standard-48-Stunden-Fenster (8. – 10. August 2026). Zwei belegbare Neuzugänge im 7-Tage-Fenster: (a) planmäßige Aktivierung des AI-Act-Durchsetzungsregimes zum 2. August 2026 (Kommissions­befugnisse gegenüber GPAI-Anbietern nach Kapitel V; Wirksamwerden der Art. 50-Transparenzpflichten mit Chatbot-Erkennbarkeit, maschinen­lesbarer Kennzeichnung generativer Ausgaben, Deepfake-Kennzeichnung, biometrischer Transparenz; Bußgeldrahmen nach Art. 101 AI Act bis 15 Millionen Euro oder 3 % des weltweiten Jahresumsatzes nach Höchstbetrag; Übergangs­frist bis 2. Dezember 2026 für Marking- und Detection-Anforderungen an bereits eingesetzte generative Systeme; freiwilliger *Code of Practice* mit über 180 Signatoren) mit primärer Cooley-Rechtsauswertung vom 3. August 2026 (in-window); (b) aggregierte Tech-Layoff-Bilanz Anfang August 2026 nach *IBTimes*, *Yahoo Tech* und *Tech.co* (Berichtsstand 6. August 2026) mit über 125.000 betroffenen Beschäftigten in rund 264 Unternehmen (2025er Jahressumme überschritten), Zillow-Ankündigung vom 4. August 2026 (rund 500 Stellen), Google-Rolling-Reviews im mittleren einstelligen Tausender-Bereich, TikTok/Etsy im niedrigen dreistelligen Bereich; ergänzend Challenger-H1-2026-Auswertung mit rund 101.700 AI-attribuierten US-Stellenstreichungen (Verdoppelung des 2025er Gesamtjahres­werts mit 54.836).
