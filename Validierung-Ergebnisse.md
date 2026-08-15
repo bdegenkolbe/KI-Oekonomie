@@ -7,6 +7,66 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 15. August 2026 (Lauf 001 vom 15. August 2026) — Version 65.0 → Version 66.0
+
+**Auslöser:** Regulärer Daily-Update-Lauf. Web-Recherche im Korridor der Cluster A–J am 15. August 2026 im Standard-7-Tage-Fenster (8. – 15. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (13. – 15. August 2026). Belegbarer Neuzugang im 48-Stunden-Fenster: Am 14. August 2026 hat *Z.ai* (Beijing) das Frontier-Modell *GLM-5.3* über *GLM Coding Plan* und *ZCode* freigegeben — 744-Milliarden-Parameter-Basis identisch zu *GLM-5.2*, alle Fortschritte durch skaliertes Nach-Training, rund 50 % Verbesserung auf der anbietereigenen *Z.ai Code Bench*, Rückstand auf *Claude Fable 5* und *GPT-5.6 Sol* an öffentlichen Benchmarks; Open-Weight-Freigabe der Gewichte zurückgehalten für rund zwei Wochen nach Sicherheits­evaluation und Härtung; emergente Cybersicherheits-Fähigkeit (*CyberGym* 84,5 %, *ExploitBench* 54,4 %, 2.436 Schwachstellen identifiziert, davon 1.097 kritisch) in *Linux*, *WebKit* und *FreeBSD*; API-Preisstruktur *GLM-5.2* rund 1,40 US-Dollar Input / 4,40 US-Dollar Output je Million Token (ca. eine Größenordnung unter der US-Frontier-Preisliste); *Z.ai* auf der US-*Entity List* (Cluster I/D). Die zeitgleich beobachtbaren Layoff-Ereignisse aus dem 7-Tage-Fenster (Zillow rund 500, Etsy rund 220, Google 52 WARN, Rapid7-Fortschreibung) und die weiterlaufende Oracle-August-2026-Runde fügten dem in Version 65.0 aufgenommenen Muster keine strukturell neuen Facetten hinzu und wurden dem Prinzip *Breite vor Tiefe* folgend im Logbuch als „nicht übernommen" vermerkt. Sonstige Cluster (A, B, C, E, G, H, J) ohne belegbare Neuzugänge im 7-Tage-Fenster.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *Z.ai*-*GLM-5.3*-Freigabe am 14. August 2026: 744-Milliarden-Parameter-Basis identisch zu *GLM-5.2*, rund 50 % Verbesserung an der *Z.ai Code Bench* durch Nach-Training, Rückstand auf *Claude Fable 5* und *GPT-5.6 Sol* an öffentlichen Benchmarks (*Terminal-Bench 3.0*, *DeepSWE*); Open-Weight-Freigabe der Gewichte zurückgehalten für ca. zwei Wochen nach *Sicherheits­evaluation und Härtung*; emergente Cybersicherheits-Fähigkeit (*CyberGym* 84,5 %, *ExploitBench* 54,4 %; 2.436 identifizierte Schwachstellen, davon 1.097 kritisch); *GLM-5.2*-API-Preise rund 1,40 US-Dollar Input / 4,40 US-Dollar Output je Million Token. | § 8.2 (Nachtrag zum 14. August 2026 im Frontier-Modell-Absatz nach der *Ultrafast*-Vorschau); § 11.5 (Neueintrag mit acht flankierenden Sekundärquellen). | Fügt der in Version 65.0 dokumentierten Konvergenz (*Kimi K3*, *Qwen 3.8 Max*, *Muse Glimmer*) einen weiteren Datenpunkt hinzu und markiert einen strukturellen Novum-Befund: Sicherheitsbezogene Zurückhaltungsphase bei einem *chinesischen* Frontier-Anbieter mit Parallelität zur bereits in § 4.5 dokumentierten US-*Vor-Freigabe-Praxis*. Rückwirkung auf die in § 8.3 skizzierten Zugriffspfade einer inländischen KI-Nutzungsabgabe über die Verlagerung der Bemessungsbasis auf die inländische Ausführung des nachgelagerten Anwendungs- und Sicherheits-Stacks. |
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Inhaltsverzeichnis, Kapitelüberschriften und Zusammenfassung erhalten; 11 Kapitel plus Executive Summary unverändert. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos, Unterabschnitts-Nummerierung stabil; die im Papier festgelegten Zähler (fünf Typen der Robotersteuer § 2.1, drei Säulen der Deutschland-These, sieben Empfehlungen § 10.2) unverändert. |
+| 2.1.3 Querverweise | OK | Neue Passage verweist konsistent auf § 8.2, § 8.3 und § 4.5; bestehende Querverweise unberührt. |
+| 2.1.4 Roter Faden | OK | Nachtrag zum 14. August 2026 setzt die im § 8.2 laufende Frontier-Modell-Kette (*Kimi K3*, *Qwen 3.8 Max*, *Muse Glimmer*, *Ultrafast*) folgerichtig fort und schließt an die Rohstoff-Analogie sowie an die Verarbeiter-Position an. |
+| 2.1.5 Formatierung | OK | Keine doppelten Trennlinien; Fettungen und Kursivsetzungen konsistent zu bestehendem Stil; keine leeren Abschnitte hinzugefügt. |
+| 2.2.1 Sachliche Richtigkeit | OK | *GLM-5.3*-Kennzahlen (744-Milliarden-Parameter-Basis, 34,5 % vs. 23,4 % *Z.ai Code Bench*, *SWE-Bench Verified* Werte 66,9 / 67,5 / 69,7, *CyberGym* 84,5 %, *ExploitBench* 54,4 %, 2.436 / 1.097 Schwachstellen, Preisstruktur 1,40 / 4,40 US-Dollar je Million Token, Zurückhaltung der Gewichte für rund zwei Wochen) durch drei unabhängige Quellen (*Unite.AI*, *Decrypt*, *TechTimes*) plus fünf flankierende Sekundärquellen belegt. |
+| 2.2.2 Redundanzprüfung | OK | Keine Doppelung zu bestehendem *Muse-Glimmer*- oder *Ultrafast*-Absatz; der neue Absatz ergänzt eine strukturell eigenständige Facette (Zurückhaltungsphase, Emergenz-Cybersicherheit) und referenziert die Vorgänger nur per Querverweis. |
+| 2.2.3 Argumentation | OK | Rohstoff-Analogie und Verarbeiter-Position werden konsistent fortgeführt; keine Vermengung mit Acemoglu- oder Thuemmel-Argumentation. |
+| 2.2.4 Ausgewogenheit | OK | Anbieter-eigene Angaben werden ausdrücklich mit Konjunktivpflicht nach § 4.2 Claude.md gekennzeichnet; öffentliche Benchmarks (*Terminal-Bench 3.0*, *DeepSWE*) als Gegenpunkt zur anbietereigenen *Code Bench* referiert; geopolitischer Kontext (*Z.ai* auf US-*Entity List*) faktisch benannt, nicht wertend. |
+| 2.3.1 Tippfehler und Grammatik | OK | Neuer Absatz stichprobenartig geprüft. |
+| 2.3.2 Terminologie | OK | *Open-Weight*, *Post-Training*, *Frontier*, *Entity List* durchgängig verwendet; Erstauftritte im Absatzumfeld bereits erläutert. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neuer Eintrag in § 11.5 mit vollständigen URLs; im Fließtext werden alle genannten Quellen (*Unite.AI*, *Decrypt*, *TechTimes*, *ExplainX*, *fello.ai*, *The Agent Report*, *SaaSCity*, *SandBase*) im Literaturverzeichnis referenziert. |
+| 2.4.2 Formale Einheitlichkeit | OK | Zitierstil analog zu bestehenden § 11.5-Einträgen (Autor/Institution, Datum, kursiver Titel, Kurzcharakteristik, URL-Kette). |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Alle Quellen aus dem 48-Stunden-Fenster (14. August 2026); keine reinen Blog- oder Preisportal-Quellen ohne inhaltliche Fachpresse-Deckung. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Zwei Primärquellen (*Unite.AI*, *Decrypt*) und eine Sekundärquelle (*TechTimes*) inhaltlich durch WebFetch verifiziert; URLs vollständig ohne Redirect-/Shortener-Angaben. |
+| 2.4.5 Zitatgenauigkeit | OK | Preis- und Benchmark-Zahlen wörtlich mit *Unite.AI*/*Decrypt* abgeglichen; Konjunktivpflicht für unabhängige Nachprüfung ausdrücklich vermerkt. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Bestehende Markierungen (de la Feria et al. 2022) unverändert; keine neue Markierung. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 66.0 an vier Stellen eingetragen (Dokumentkopf, Abschlusshinweis, `README.md` Zeile 7 und im Zitiervorschlag, Abschlussblock unten). Haftungshinweis und CC-BY-4.0-Lizenz unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Skripte im Projekt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler im Rahmen der Prüfschritte identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | Keine Bereinigung erforderlich. | — | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: n/a (keine Fehler)
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine offen)
+- Neue Version: 66.0
+- PDF erstellt: Ja (Phase 5)
+- Word erstellt: Ja (Phase 5)
+
+---
+
 ## Validierung 14. August 2026 (Lauf 001 vom 14. August 2026) — Version 64.0 → Version 65.0
 
 **Auslöser:** Regulärer Daily-Update-Lauf. Web-Recherche im Korridor der Cluster A–J am 14. August 2026 im Standard-7-Tage-Fenster (7. – 14. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (12. – 14. August 2026). Fünf belegbare Neuzugänge im 7-Tage-Fenster: (a) *AI Tax and Work Protection Act* (US-Repräsentantenhaus, 7. August 2026, Casar / Foushee / Jacobs, Cluster B/D); (b) *Rapid7*-Restrukturierung mit 310 Stellenstreichungen (12 Prozent), Board-Beschluss 7. August 2026 mit Q2-Ergebnisbekanntgabe am 10. August 2026 (Cluster F); (c) *Oracle*-Ankündigung einer weiteren Layoff-Runde vor 1. September 2026 als Fortschreibung des bereits vollzogenen Abbaus von rund 21.000 Stellen im Geschäftsjahr 2026, Berichterstattung 13. August 2026 (Cluster F); (d) *Meta*-*Muse-Glimmer*-30B-*Open-Weight*-Ableger vom 10. August 2026 (Cluster I/D); (e) *OpenAI*-Doppelzug mit *ChatGPT-Ads*-Rollout in fünf zusätzlichen Zielmärkten am 11. August 2026 und *Ultrafast*-Vorschau für *GPT-5.6 Sol* auf *Cerebras*-Infrastruktur am 13. August 2026 (Cluster I).
