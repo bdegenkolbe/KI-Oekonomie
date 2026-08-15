@@ -54,6 +54,74 @@
 
 ---
 
+## 2026-08-15 — Lauf 001 — Version 65.0 → Version 66.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, C, E, G, H, J ohne belegbare Neuzugänge im 7-Tage-Fenster). Ein belegbarer Neuzugang im 48-Stunden-Fenster: die *Z.ai*-*GLM-5.3*-Frontier-Modell-Freigabe vom 14. August 2026 (Cluster I/D).
+- Zeitfenster: Standard 7 Tage (8. – 15. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (13. – 15. August 2026).
+- Anzahl Suchanfragen: 12 Web-Suchen (Cluster A–J durchsucht) plus zwei gezielte Einzel-Fetches zur Verifikation (*Unite.AI*-*GLM-5.3*-Erstbericht; *Decrypt*-*GLM-5.3*-Marktrezeption).
+- Prinzip *Breite vor Tiefe*: Die im Zeitfenster ebenfalls auffindbaren Layoff-Ereignisse (Zillow rund 500 Stellen, Etsy rund 220 Stellen, Google 52 WARN-Anzeige, Fortschreibung der Rapid7-Runde) und die weiterlaufende Oracle-August-2026-Runde ergänzten das in Version 65.0 dokumentierte Muster nicht um strukturell neue Facetten und wurden nicht übernommen.
+- Lauf 001 vom 15. August 2026 ist der Folgelauf zu Lauf 001 vom 14. August 2026 (Version 64.0 → 65.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | I/D | Unite.AI, *Z.ai Launches GLM-5.3 With Frontier Coding and a Cyber Capability That Outgrew Its Training*, 14. August 2026 | https://www.unite.ai/z-ai-launches-glm-5-3-with-frontier-coding-and-a-cyber-capability-that-outgrew-its-training/ | übernommen (Fachpresse; Primärrezeption der Anbieterfreigabe) |
+| 2 | I/D | Decrypt, *China's Z.AI Ships GLM-5.3, Calling It the Top Open-Weight Coding Model*, 14. August 2026 | https://decrypt.co/375684/china-z-ai-glm-5-3-top-open-weight-coding-model | übernommen (Fachpresse mit Marktrezeption und geopolitischer Einordnung) |
+| 3 | I/D | TechTimes, *GLM-5.3: Post-Training Produced Exploit Chains Z.ai Never Planned, Finds 1,097 Critical Bugs*, 14. August 2026 | https://www.techtimes.com/articles/324426/20260814/glm-53-post-training-produced-exploit-chains-zai-never-planned-finds-1097-critical-bugs.htm | übernommen (Fachpresse, Fokus emergente Cybersicherheits-Fähigkeit) |
+| 4 | I/D | ExplainX, *GLM-5.3 Launch: Benchmarks, Pricing & Access (Aug 2026)*, August 2026 | https://explainx.ai/blog/glm-5-3-launch-cyber-defense-benchmarks-august-2026 | übernommen (Sammelbeleg Benchmarks/Preise) |
+| 5 | I/D | felloAI, *GLM 5.3: Benchmarks, Pricing and the Held-Back Weights*, August 2026 | https://felloai.com/glm-5-3/ | übernommen (Sammelbeleg zurückgehaltene Gewichte) |
+| 6 | I/D | The Agent Report, *GLM-5.3: Z.ai Tops the Open Coding Leaderboard on Post-Training Alone — and Its Cyber Gains Are the Real Story*, August 2026 | https://the-agent-report.com/2026/08/glm-5-3-zai-post-training-coding-cyber/ | übernommen (Sammelbeleg Coding-Leaderboard) |
+| 7 | I/D | SaaSCity, *GLM-5.3: Same Base Model, 50 % Better at Coding — and a Cyber Capability Z.ai Didn't Plan For*, August 2026 | https://saascity.io/blog/glm-5-3-zai-open-weights-coding-model-cyber-capabilities-2026 | übernommen (Sammelbeleg Post-Training-Skalierung) |
+| 8 | I/D | SandBase, *GLM-5.3 Launches: Frontier Coding and Emergent Cybersecurity*, August 2026 | https://blog.sandbase.ai/glm-5-3-release-watch-2026/ | übernommen (Sammelbeleg Emergenz-Cybersicherheit) |
+| 9 | F | Yahoo Finance / Business Insider / Telecom Reseller, *Oracle Reportedly Prepares More Layoffs as AI Spending Surges*, 14. August 2026 | https://telecomreseller.com/2026/08/14/oracle-reported-layoports/ | verworfen (Fortschreibung der bereits mit Version 65.0 dokumentierten Oracle-August-2026-Runde ohne strukturell neue Facette) |
+| 10 | F | Fast Company / IBTimes, *Tech layoffs August update: Google, TikTok, Etsy, Zillow slash hundreds of roles as job losses pile up in 2026*, August 2026 | https://www.fastcompany.com/91586807/tech-layoffs-august-2026-update-tiktok-etsy-zillow-slash-jobs | verworfen (Sammelbericht ohne strukturell neue Rezeptionslinie zu bereits dokumentierten Salesforce-/Meta-/Amazon-/Oracle-Mustern; Zillow ausdrücklich nicht KI-bedingt gemäß Konzernangabe) |
+| 11 | B/H | netzpolitik.org, *Digitalministerkonferenz: Wildberger will Datenschutz für KI-Einsatz in der Verwaltung schleifen*, Mai 2026 | https://netzpolitik.org/2026/digitalministerkonferenz-wildberger-will-datenschutz-fuer-ki-einsatz-in-der-verwaltung-schleifen/ | verworfen (außerhalb 7-Tage-Fenster; DMK Hamburg vom Mai 2026 datiert) |
+| 12 | B | EU-Kommission / Enterprise DNA, *EU AI Act GPAI Enforcement Begins August 2*, August 2026 | https://enterprisedna.co/resources/news/eu-ai-act-enforcement-fines-live-gpai-august-2026/ | verworfen (Sachverhalt bereits mit § 4.1 durch die Formulierung „Die Kommissionsdurchsetzungsbefugnisse gegenüber Anbietern von Allzweck-KI-Modellen (GPAI) treten wie vorgesehen am 2. August 2026 in Kraft" abgedeckt) |
+| 13 | B | Frontier Model Forum / Sanders / Warren, *American AI Sovereign Wealth Fund Act*, S. 4825, 18. Juni 2026 | https://www.congress.gov/bill/119th-congress/senate-bill/4825 | Dublette (in § 4.5 bereits mit Version 22.0 aufgenommen; S. 4825, Sanders 18. Juni 2026) |
+| 14 | J | Electrek / iFactoryApp, *Tesla Optimus at Fremont: Gen 3 Humanoid Deployment & Mass Production Update 2026*, August 2026 | https://ifactoryapp.com/industries/automotive-manufacturing/tesla-optimus-fremont-gen-3-humanoid-2026 | Dublette (in § 8.2 mit dem Q2-2026-Tesla-Earnings-Call vom 22. Juli 2026 aufgenommen; keine strukturell neue Facette) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 8.2 (Nachtrag zum 14. August 2026 im Frontier-Modell-Absatz nach der *Ultrafast*-Vorschau) | Ergänzung | *Z.ai*-*GLM-5.3*-Freigabe vom 14. August 2026: 744-Milliarden-Parameter-Basis identisch zu *GLM-5.2*, rund 50 % Verbesserung auf der *Z.ai Code Bench* durch skaliertes Nach-Training, Rückstand auf *Fable 5* und *GPT-5.6 Sol* an öffentlichen Benchmarks, für rund zwei Wochen zurückgehaltene Open-Weight-Freigabe nach Sicherheits­evaluation und Härtung, emergente Cybersicherheits-Fähigkeit mit 1.097 kritischen Schwachstellen in *Linux*, *WebKit*, *FreeBSD*; strukturelles Novum im Vergleich zur *GLM-5.2*-Praxis (Sofortveröffentlichung unter MIT-Lizenz) und Parallelbefund zur US-*Vor-Freigabe-Praxis*. | 1–8 |
+| 2 | § 11.5 (Literaturverzeichnis) | Ergänzung | Neueintrag *Z.ai / Unite.AI / Decrypt / TechTimes / ExplainX / fello.ai / The Agent Report / SaaSCity / SandBase (14. August 2026)* mit vollständigen URLs und Kurzcharakteristik. | 1–8 |
+| 3 | Dokumentkopf, Aktualitätshinweis, `README.md` (Zeilen 7 und 44 Zitiervorschlag), Abschlussblock in `Validierung-Ergebnisse.md` | Aktualisierung | Versionssprung 65.0 → 66.0. | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 9 | Oracle-August-2026-Fortschreibung (Yahoo Finance, Business Insider, Telecom Reseller) | F | Bereits mit Version 65.0 aufgenommen; die neuen Berichte fügen keine strukturell neue Facette hinzu. |
+| 10 | Sammelbericht Zillow/Etsy/Google/TikTok/Rapid7-Layoffs August 2026 (Fast Company, IBTimes) | F | Rapid7-Runde bereits mit Version 65.0 dokumentiert; Zillow ausdrücklich nicht KI-bedingt (Konzernangabe an *GeekWire*); Etsy 220 Stellen und Google 52 WARN ohne strukturell neue Rezeptionslinie gegenüber dem bereits dokumentierten *AI-redundancy-washing*-Muster. |
+| 11 | Digitalministerkonferenz-Hamburg-Rezeption (Wildberger, Datenschutz-Lockerung) | B/H | Außerhalb 7-Tage-Fenster (DMK Hamburg vom Mai 2026). |
+| 12 | EU-AI-Act-GPAI-Enforcement-Start am 2. August 2026 | B | Sachverhalt bereits mit der bestehenden Formulierung in § 4.1 abgedeckt; keine strukturell neuen Fakten. |
+| 13 | *American A.I. Sovereign Wealth Fund Act* (S. 4825, Sanders 18. Juni 2026) | B/D | Dublette (in § 4.5 bereits aufgenommen). |
+| 14 | Tesla-Optimus-Fremont-Erstlinie August 2026 | J | Dublette (in § 8.2 mit Q2-2026-Earnings-Call vom 22. Juli 2026 aufgenommen). |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block *Validierung 15. August 2026 — Version 65.0 → Version 66.0* in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): (siehe Phase 5)
+- Word erstellt (`build_docx.py`): (siehe Phase 5)
+- Versionsnummer in Hauptdokument, `README.md`, `Validierung-Ergebnisse.md` aktualisiert: Ja
+- E-Mail-Versand (Phase 5b): Fallback-Datei geschrieben (kein Versand-Tool in der Session erreichbar; Inhalt liegt in `daily-mail.txt`, gitignored).
+- WhatsApp-Versand (Phase 5b): Fallback-Datei geschrieben (kein Versand-Tool in der Session erreichbar; Inhalt liegt in `daily-whatsapp.txt`, gitignored).
+- Branch auf main gemerged und gelöscht: (siehe Phase 6)
+
+### Auffälligkeiten / offene Punkte
+
+- Prinzip *Breite vor Tiefe* im engeren Sinne befolgt: Ein einziger, strukturell neuer Datenpunkt aufgenommen; die weiteren Kandidaten (Layoffs, EU AI Act, Sanders-SWF) wurden als Fortschreibung, Dublette oder bereits abgedeckt eingestuft.
+- Das im Prompt festgelegte Empfängerpaar für Phase 5b (E-Mail und WhatsApp) wird nicht im Repo dokumentiert.
+- In der laufenden Session waren weder ein E-Mail-Versand-Tool aus der Muster-Liste (*mail_send*, *send_mail*, *send_message*, *outlook_send*) noch ein WhatsApp-Versand-Tool erreichbar; der Microsoft-365-MCP bietet nur lese-/suchseitige Tools; ein WhatsApp-MCP war nicht angebunden. Beide Kanäle sind daher als Fallback-Dateien im Repo-Root abgelegt und werden durch `.gitignore` von der Versionierung ausgeschlossen (`daily-mail.txt`, `daily-whatsapp.txt`).
+
+---
+
 ## 2026-08-14 — Lauf 001 — Version 64.0 → Version 65.0
 
 ### Recherchekorridor
