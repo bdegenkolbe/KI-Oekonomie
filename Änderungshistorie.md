@@ -112,7 +112,7 @@
 - Versionsnummer in Hauptdokument, `README.md`, `Validierung-Ergebnisse.md` aktualisiert: Ja
 - E-Mail-Versand (Phase 5b): Fallback-Datei geschrieben (kein Versand-Tool in der Session erreichbar; Inhalt liegt in `daily-mail.txt`, gitignored).
 - WhatsApp-Versand (Phase 5b): Fallback-Datei geschrieben (kein Versand-Tool in der Session erreichbar; Inhalt liegt in `daily-whatsapp.txt`, gitignored).
-- Branch auf main gemerged und gelöscht: (siehe Phase 6)
+- Branch auf main gemerged und gelöscht: Ja (Merge-Commit `3994b1a` auf `main`; lokaler Session-Branch gelöscht; Remote-Branch-Löschung gab HTTP 403 zurück (dieselbe Schutzregel wie bei den letzten Läufen))
 
 ### Auffälligkeiten / offene Punkte
 
