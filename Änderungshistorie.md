@@ -108,9 +108,9 @@
 - PDF erstellt (`build_pdf.py`): (siehe Phase 5)
 - Word erstellt (`build_docx.py`): (siehe Phase 5)
 - Versionsnummer in Hauptdokument, `README.md`, `Validierung-Ergebnisse.md` aktualisiert: Ja
-- E-Mail-Versand (Phase 5b): siehe Phase-5b-Ergebnisse
-- WhatsApp-Versand (Phase 5b): siehe Phase-5b-Ergebnisse
-- Branch auf main gemerged und gelöscht: siehe Phase-6-Cleanup-Status
+- E-Mail-Versand (Phase 5b): Fallback-Datei geschrieben (kein Versand-Tool in der Session erreichbar; das *Microsoft-365-*MCP verweigerte `outlook_send_mail` in dieser Sitzung mit *permission_error*; Inhalt liegt in `daily-mail.txt`, gitignored)
+- WhatsApp-Versand (Phase 5b): Fallback-Datei geschrieben (kein WhatsApp-MCP in der Session erreichbar; Inhalt liegt in `daily-whatsapp.txt`, gitignored)
+- Branch auf main gemerged und gelöscht: Ja (Merge-Commit `4f845c9` auf `main`; lokaler Session-Branch gelöscht; Remote-Branch-Löschung gab HTTP 403 zurück (dieselbe Schutzregel wie bei den letzten Läufen))
 
 ### Auffälligkeiten / offene Punkte
 
