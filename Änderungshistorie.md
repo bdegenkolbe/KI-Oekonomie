@@ -54,6 +54,73 @@
 
 ---
 
+## 2026-08-16 — Lauf 001 — Version 66.0 → Version 67.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, E, F, G, H, I, J ohne strukturell neue Neuzugänge im 7-Tage-Fenster). Ein strukturell neuer Neuzugang im 48-Stunden-Fenster (Cluster B/C/D): das südkoreanische Drei-Gesetzes-Paket *AI Transition Response Basic Society Act* der Abgeordneten *Lee Hae-min* (이해민, *Rebuilding Korea Party* / 조국혁신당) und *Lee Joo-hee* (이주희, *Democratic Party of Korea* / 더불어민주당) vom 14. August 2026.
+- Zeitfenster: Standard 7 Tage (9. – 16. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (14. – 16. August 2026).
+- Anzahl Suchanfragen: 10 Web-Suchen (Cluster A–J durchsucht) plus zwei gezielte Einzel-Fetches zur Verifikation (*bloter* koreanischer Kernbeleg mit Paketzusammensetzung; *ZDNet Korea* Paketdetails und Position Lee Hae-min).
+- Prinzip *Breite vor Tiefe*: Die im Zeitfenster ebenfalls auffindbaren Ereignisse — *Gemini 3.7 Flash*-Freigabe (13. August 2026), *KIC Strategic Investment Account*-Bloomberg-Rezeption (11. August 2026, Grundlagen-Ankündigung 31. Juli 2026), aggregierte Tech-Layoff-Trackerstände (IBTimes/SkillSyncer) — ergänzten das in Version 65.0/66.0 dokumentierte Muster nicht um strukturell neue Facetten und wurden nicht übernommen.
+- Lauf 001 vom 16. August 2026 ist der Folgelauf zu Lauf 001 vom 15. August 2026 (Version 65.0 → 66.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B/C/D | ZDNet Korea, *AI 전환 충격 선제 대응한다…이해민, 'AI 기본사회법' 발의*, 14. August 2026 | https://zdnet.co.kr/view/?no=20260814171346 | übernommen (Fachpresse; Paketdetails, Positionierung Lee Hae-min) |
+| 2 | B/C/D | bloter, *AI 도입으로 일자리 줄인 기업에 분담금…이해민, AI기본사회법 발의*, 14. August 2026 | https://www.bloter.net/news/articleView.html?idxno=671021 | übernommen (Kernbeleg mit Paketzusammensetzung, Sponsorenzuordnung, Fondsbezeichnung) |
+| 3 | B/C/D | 디지털데일리 (Digital Daily), *이해민 의원, 'AI 전환 기본사회법' 발의…고용충격 대응 분담금 도입 추진*, 14. August 2026 | https://www.ddaily.co.kr/page/view/2026081417121671193 | übernommen (Vertiefung Verwendungszweck) |
+| 4 | B/C/D | edaily, *AI로 사람 대신하면 '분담금' 낸다…이해민, AI 전환 법안 발의*, 14. August 2026 | https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=05366086645547320 | übernommen (kollegiale Rezeption) |
+| 5 | B/C/D | 뉴스에프엔 (newsfn), *AI가 일자리 대체하면 기업에 '전환 분담금'…AI 시대 사회적 비용 분담 논의 본격화*, August 2026 | https://newsfn.co.kr/View.aspx?No=4188077 | übernommen (Analyse sozialer Kostenverteilung) |
+| 6 | B/C/D | TechTimes, *South Korea Bills Make Employers Pay When AI Cuts Jobs, Not AI Vendors*, 15. August 2026 | https://www.techtimes.com/articles/324577/20260815/south-korea-bills-make-employers-pay-when-ai-cuts-jobs-not-ai-vendors.htm | übernommen (englischsprachige Vergleichs­rezeption mit Abgrenzung zu H.R. 10044 und Warren-Data-Center-Vorschlag) |
+| 7 | I | Google DeepMind / MarkTechPost / 9to5Google / MLQ / DataNorth / BigGo Finance / Northeast Times, *Gemini 3.7 Flash release, 0.75 USD/1M input tokens, DeepSWE v1.1 65.3 %*, 13. August 2026 | https://deepmind.google/models/model-cards/gemini-3-7-flash/ | verworfen (Fortschreibung der bereits in § 8.2 dokumentierten deflationären Frontier-Preisdynamik ohne strukturell neue Facette) |
+| 8 | D | Bloomberg / Advisor Perspectives / KuCoin / Korea Times / UPI, *Korea Sovereign Wealth Fund to Join Global Race for AI, Robotics — Korea Investment Corporation (KIC) Strategic Investment Account*, 11. August 2026 (Rezeption; Grundlagen-Ankündigung 31. Juli 2026) | https://www.bloomberg.com/news/articles/2026-08-11/korea-sovereign-wealth-fund-to-join-global-race-for-ai-robotics | verworfen (Grundlagen-Ereignis außerhalb 7-Tage-Fenster; Bloomberg-Reframing ohne strukturell neue Facette gegenüber der in § 5.4 und § 8.3 dokumentierten Sovereign-Wealth-Fund-Debatte) |
+| 9 | F | IBTimes UK / SkillSyncer, *Laid Off in 2026: More Tech Workers Than All of 2025 / 2026 Tech Layoffs Tracker (322 Ereignisse, 205.832 Beschäftigte)*, August 2026 | https://www.ibtimes.co.uk/tech-industry-record-job-cuts-2026-1813332 | verworfen (Aggregatstände ohne strukturell neuen Einzelfall gegenüber Version 65.0/66.0) |
+| 10 | B | Bundesnetzagentur, *KI-MIG-Umsetzung* | https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/start_ki.html | verworfen (weiterhin außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 11 | A | NBER Working Paper 34873 Korinek/Lockwood, *Public Finance in the Age of AI: A Primer*, Februar 2026 | https://www.nber.org/papers/w34873 | verworfen (verifiziertes Erscheinungsdatum außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat für spätere Cluster-A-Vertiefung) |
+| 12 | E | IAB-Kurzbericht 8/2026 Friedrich/Kagerl, *Künstliche Intelligenz in deutschen Betrieben*, Mai 2026 | https://doku.iab.de/kurzber/2026/kb2026-08.pdf | verworfen (weiterhin außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 6.1 (neuer Absatz „Aktualisierung (14. August 2026) — AI Transition Response Contribution" direkt nach der bereits vorhandenen Aktualisierung vom 3. August 2026) | Ergänzung | Drei-Gesetzes-Paket der Abgeordneten Lee Hae-min (Rebuilding Korea Party) und Lee Joo-hee (Democratic Party of Korea) vom 14. August 2026 zum *AI Transition Response Basic Society Act* mit erstmaliger arbeitgeberseitiger *AI Transition Response Contribution* (인공지능 전환 대응 분담금), Zweckbindung im *Basic Society Support Fund for AI-Based Industrial Transition Response* (Umschulung, Wiedereingliederung, Mindest­einkommens­absicherung), Ermäßigungen für Arbeitgeber mit Beschäftigungssicherung — erste nationale Gesetzgebung, die eine KI-Verdrängungs­abgabe an die Deployer-Ebene koppelt und nur elf Tage nach der MOEF-*Domestic Production Tax Credit* auf der Gegenseite der Wertschöpfungskette ansetzt. | 1–6 |
+| 2 | § 11.3 (neuer Eintrag *Lee, H.-m. & Lee, J.-h. / National Assembly of the Republic of Korea / edaily / ZDNet Korea / bloter / 디지털데일리 / TechTimes* direkt nach dem MOEF-*Domestic Production Tax Credit*-Eintrag) | Ergänzung | Vollständiger Sammelbeleg zum Drei-Gesetzes-Paket vom 14. August 2026 mit Kurzcharakteristik und URL-Kette; Aufnahme in § 6.1 mit Rückwirkung auf § 4.5, § 5.1, § 8.3 und § 9.1. | 1–6 |
+| 3 | Dokumentkopf `KI-Ökonomie.md` (Zeile 12), Aktualitätshinweis am Dokumentende von `KI-Ökonomie.md`, `README.md` (Versionszeile und Zitiervorschlag), Abschlussblock im neuen Validierungsblock in `Validierung-Ergebnisse.md` | Aktualisierung | Versionssprung 66.0 → 67.0 an allen vier Stellen; zusätzlich im Aktualitätshinweis Anpassung des Stichtags von *15. August 2026* auf *16. August 2026* und der Lauf-Kennung von *Lauf 001 vom 15. August 2026* auf *Lauf 001 vom 16. August 2026*. | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 7 | *Gemini 3.7 Flash*-Freigabe (Google DeepMind, 13. August 2026) | I | Fortschreibung der bereits mit Version 65.0/66.0 dokumentierten deflationären Frontier-Preisdynamik (*Ultrafast*-Vorschau, *GLM-5.3*, *Muse Glimmer*, *Qwen 3.8 Max*, *Kimi K3*) ohne strukturell neue Facette. |
+| 8 | *KIC Strategic Investment Account* (Bloomberg 11. August 2026, Grundlagen-Ankündigung 31. Juli 2026) | D | Grundlagen-Ereignis außerhalb 7-Tage-Fenster; Bloomberg-Reframing ohne strukturell neue Facette gegenüber der in § 5.4 und § 8.3 dokumentierten Sovereign-Wealth-Fund-Debatte. Wiederholter Aufnahmekandidat für spätere Cluster-D-Vertiefung. |
+| 9 | Aggregierte Tech-Layoff-Trackerstände IBTimes UK / SkillSyncer / DisplaceIndex (322 Ereignisse, 205.832 Beschäftigte, 54 % mit expliziter KI-Nennung; Oracle 30.000, Block 4.000, Amazon 16.000 Januar 2026, Microsoft 9.000 Juli 2026) | F | Aggregatstände ohne strukturell neuen Einzelfall gegenüber den bereits in den Versionen 46.0 bis 65.0 aufgenommenen Rolling-Layoff-Punkten; die Einzelfälle Oracle, Block, Amazon, Microsoft in ihren jeweiligen Runden bereits als eigene Datenpunkte dokumentiert. |
+| 10 | Bundesnetzagentur *KI-MIG*-Umsetzung | B | Weiterhin außerhalb 7-Tage-Fenster (18 Tage). Wiederholter Aufnahmekandidat. |
+| 11 | NBER Working Paper 34873 (Korinek/Lockwood, Februar 2026) | A | Verifiziertes Erscheinungsdatum Februar 2026, außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat. |
+| 12 | IAB-Kurzbericht 8/2026 (Friedrich/Kagerl, Mai 2026) | E | Weiterhin außerhalb 7-Tage-Fenster. Wiederholter Aufnahmekandidat. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja (14.-August-Bill neu als Employer-Deployer-Zugriff und aufkommenserzeugendes Gegenstück zur bereits am 3. August 2026 in § 6.1 aufgenommenen MOEF-*Domestic Production Tax Credit*)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block *Validierung 16. August 2026 — Version 66.0 → Version 67.0* in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): (siehe Phase 5)
+- Word erstellt (`build_docx.py`): (siehe Phase 5)
+- Versionsnummer in Hauptdokument, `README.md`, `Validierung-Ergebnisse.md` aktualisiert: Ja
+- E-Mail-Versand (Phase 5b): siehe Phase-5b-Ergebnisse
+- WhatsApp-Versand (Phase 5b): siehe Phase-5b-Ergebnisse
+- Branch auf main gemerged und gelöscht: siehe Phase-6-Cleanup-Status
+
+### Auffälligkeiten / offene Punkte
+
+- Das südkoreanische Politikfeld gewinnt binnen elf Tagen zwei komplementäre KI-Fiskalzugriffe: die MOEF-*Domestic Production Tax Credit* vom 3. August 2026 (Standort­förderung an der Fertigungsschicht) und den *AI Transition Response Contribution* vom 14. August 2026 (Deployer-Abgabe an der Beschäftigungsschicht). Die zeitliche Nähe stützt die These, dass die südkoreanische Politik in derselben Reformperiode auf beiden Seiten der Wertschöpfungskette operiert; für spätere Cluster-C-Läufe empfiehlt sich, den Zustimmungsstand beider Vorlagen in der Nationalversammlung parallel zu verfolgen, sobald einer davon eine Ausschussberatung oder eine erste Lesung erreicht.
+- Prinzip *Breite vor Tiefe* im engeren Sinne befolgt: Ein einziger, strukturell neuer Datenpunkt aufgenommen; die weiteren Kandidaten (Gemini 3.7 Flash, KIC Strategic Investment Account, Layoff-Aggregate) als Fortschreibung, außerhalb Zeitfenster oder ohne strukturell neue Facette eingestuft.
+- Für spätere Läufe bleibt der KIC-*Strategic-Investment-Account* (20 Bio. Won, Zielsektoren u. a. Robotik) als wiederholter Aufnahmekandidat markiert; sobald ein Startdatum, ein konkretes Auszahlungsprofil oder ein Rendite-Ziel öffentlich wird, ist eine eigene Passage in § 5.4 oder § 8.3 zu prüfen.
+- Das im Prompt festgelegte Empfängerpaar für Phase 5b (E-Mail und WhatsApp) wird nicht im Repo dokumentiert.
+
+---
+
 ## 2026-08-15 — Lauf 001 — Version 65.0 → Version 66.0
 
 ### Recherchekorridor
