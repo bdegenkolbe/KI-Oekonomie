@@ -125,7 +125,7 @@
 - Versionsnummer in Hauptdokument, `README.md`, `Validierung-Ergebnisse.md` aktualisiert: Ja (mit Vorlaufkorrektur der `README.md`-Header-Zeile)
 - E-Mail-Versand (Phase 5b): Fallback-Datei geschrieben (kein Versand-Tool in der Session erreichbar; das *Microsoft-365*-MCP bietet in dieser Sitzung nur lese-/suchseitige Outlook-Tools ohne `outlook_send_mail`/`send_message`-Äquivalent; Inhalt liegt in `daily-mail.txt`, gitignored).
 - WhatsApp-Versand (Phase 5b): Fallback-Datei geschrieben (kein WhatsApp-MCP in der Session erreichbar; Inhalt liegt in `daily-whatsapp.txt`, gitignored).
-- Branch auf main gemerged und gelöscht: (siehe Phase 6)
+- Branch auf main gemerged und gelöscht: Ja (Merge-Commit `3d6a073` auf `main`; lokaler Session-Branch gelöscht; Remote-Branch-Löschung gab HTTP 403 zurück (dieselbe Schutzregel wie bei den letzten Läufen))
 
 ### Auffälligkeiten / offene Punkte
 
