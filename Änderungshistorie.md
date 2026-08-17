@@ -54,6 +54,88 @@
 
 ---
 
+## 2026-08-17 — Lauf 001 — Version 67.0 → Version 68.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, B, C, D, E, F, G, H, J ohne strukturell neue Neuzugänge im 7-Tage-Fenster). Zwei strukturell neue Neuzugänge in Cluster I (Frontier-Modell-Ökonomik / Preisdynamik): (a) *Anthropic*-Bekanntgabe vom 10. August 2026 zur dauerhaften Festschreibung des *Sonnet-5*-Einführungstarifs und zur Rücknahme der für den 1. September 2026 vorgesehenen 50-Prozent-Erhöhung; (b) *DeepSeek*-Ankündigung vom 13. August 2026 zur Einführung einer *Peak-/Off-Peak*-Preisstruktur für die *V4*-Reihe zum 16. August 2026 um 16:00 UTC.
+- Zeitfenster: Standard 7 Tage (10. – 17. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (15. – 17. August 2026).
+- Anzahl Suchanfragen: 11 Web-Suchen (Cluster A–J durchsucht) plus vier gezielte Einzel-Fetches zur Verifikation (*Enterprise DNA* zum Anthropic-Preishalten; *Engadget* und *InfoWorld* zur DeepSeek-Peak/Off-Peak-Umstellung; ergänzende Web-Suche zum DeepSeek-Peak-Fensterbeleg nach HTTP-403/503 bei TechNode und PYMNTS).
+- Prinzip *Breite vor Tiefe*: Die beiden aufgenommenen Datenpunkte adressieren dieselbe konzeptionelle Achse in § 8.2 (Frontier-Modell-Ökonomik) und werden in einem einzigen neuen Absatz aggregiert; kein zweites Cluster wurde vertieft. Die ebenfalls im Zeitfenster auffindbaren Ereignisse — Casar-*AI Tax and Work Protection Act*-Rezeption (bereits Version 65.0), EU-*AI-Act*-*GPAI*-Enforcement-Rezeption (bereits § 4.1), Oracle-August-2026-Fortschreibung (bereits Version 64.0/65.0), Layoff-Aggregate (bereits abgedeckt), NBER-Working-Papers 34873/35437 außerhalb 7-Tage-Fenster, IAB-Kurzbericht 8/2026 außerhalb 7-Tage-Fenster, OECD-Employment-Outlook 2026 außerhalb Fenster, KI-MIG-Inkrafttreten außerhalb Fenster, Bruce-Schneier-Blog ohne politische Konsequenz — ergänzten das Dokument nicht um strukturell neue Facetten und wurden nicht übernommen.
+- Lauf 001 vom 17. August 2026 ist der Folgelauf zu Lauf 001 vom 16. August 2026 (Version 66.0 → 67.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | I | Anthropic / Claude (X-Kanal), *We're making Claude Sonnet 5's introductory pricing permanent*, 10. August 2026 | https://x.com/claudeai/status/2086891169217122586 | übernommen (Primärquelle Anbieter) |
+| 2 | I | GuruFocus, *Anthropic Maintains Claude Sonnet 5 Pricing Amid IPO Plans*, August 2026 | https://www.gurufocus.com/news/9022707/anthropic-maintains-claude-sonnet-5-pricing-amid-ipo-plans | übernommen (Sekundär mit IPO-Motiv-Zuschreibung) |
+| 3 | I | Enterprise DNA, *Claude Sonnet 5 Price Freeze: What It Means for Business*, August 2026 | https://enterprisedna.co/resources/news/anthropic-claude-sonnet-5-pricing-permanent-reversal-august-2026/ | übernommen (Sekundär, WebFetch-verifiziert) |
+| 4 | I | ExplainX, *Claude Sonnet 5 Pricing Locked at $2/$10 — Cheap Enough?*, August 2026 | https://explainx.ai/blog/anthropic-sonnet-5-permanent-pricing-august-2026 | übernommen (Sekundär) |
+| 5 | I | Joe Njenga / Medium (AI Software Engineer), *Anthropic Just Made Claude Sonnet 5 Offer Pricing Permanent*, August 2026 | https://medium.com/ai-software-engineer/anthropic-just-made-claude-sonnet-5-offer-pricing-permanent-c51d293bb3e8 | übernommen (Sekundär) |
+| 6 | I | TechNode, *DeepSeek to introduce peak and off-peak pricing for its API*, 14. August 2026 | https://technode.com/2026/08/14/deepseek-to-introduce-peak-and-off-peak-pricing-for-its-api/ | übernommen (Fachpresse, Primärrezeption mit UTC-Fensterbeleg) |
+| 7 | I | Fortune, *DeepSeek increases prices for AI services by multiple times*, 13. August 2026 | https://fortune.com/2026/08/13/deepseek-increases-prices-for-ai-services-by-multiple-times/ | übernommen (Sekundär, Marktrezeption) |
+| 8 | I | Engadget, *DeepSeek's AI models are about to cost four times more*, August 2026 | https://www.engadget.com/2236912/deepseek-ai-models-get-four-times-pricier/ | übernommen (WebFetch-verifiziert, Preisstruktur) |
+| 9 | I | InfoWorld, *DeepSeek raises some V4 prices by more than 10x as AI demand strains capacity*, August 2026 | https://www.infoworld.com/article/4209439/deepseek-raises-some-v4-prices-by-more-than-10x-as-ai-demand-strains-capacity.html | übernommen (WebFetch-verifiziert, Cache-Hit-Faktor 52 – 1.100 %) |
+| 10 | I | US News & World Report, *DeepSeek Raises API Pricing for Its V4 Models*, 13. August 2026 | https://money.usnews.com/investing/news/articles/2026-08-13/deepseek-raises-api-pricing-for-its-v4-models | übernommen (Sekundär, Ankündigungsdatum-Beleg) |
+| 11 | I | PYMNTS, *DeepSeek Introduces Peak-Hour Pricing That Quadruples Current Levels*, August 2026 | https://www.pymnts.com/news/artificial-intelligence/2026/deepseek-introduces-peak-hour-pricing-that-quadruples-current-levels/ | übernommen (Sekundär) |
+| 12 | I | Quartz, *DeepSeek raising API prices by up to 1,100 % starting Aug. 16*, 13. August 2026 | https://qz.com/deepseek-api-price-increase-v4-peak-off-peak-081326 | übernommen (Sekundär) |
+| 13 | I | Studio Global AI, *DeepSeek Ends Its AI Price War: Why API Costs Are Rising and What Developers Need to Know*, August 2026 | https://www.studioglobal.ai/discover/answers/what-factors-drove-deepseek-s-august-2026-announcement-6a7600fc7905dee986cc3c74 | übernommen (Sekundär, Kontextrezeption) |
+| 14 | B/D | Casar/Foushee/Jacobs, *AI Tax and Work Protection Act* (H.R. 10044) — Rezeption *TechTimes*/*MLex*/*NBC News*, August 2026 | https://www.techtimes.com/articles/324177/20260812/casars-ai-token-tax-would-end-payroll-subsidy-automation-fund-new-wpa.htm | Dublette (Bill bereits Version 65.0 aufgenommen; Rezeption ohne strukturell neue Facette) |
+| 15 | B | Wilson Sonsini / Beam.AI / HelpNetSecurity, *EU AI Act GPAI Enforcement Begins August 2*, August 2026 | https://www.wsgr.com/en/insights/eu-ai-act-enforcement-phase-begins.html | verworfen (Sachverhalt bereits mit § 4.1 abgedeckt) |
+| 16 | F | Oracle Corporation / TheNextWeb / Yahoo Finance, *Oracle plans fresh August layoffs* (13. August 2026) | https://thenextweb.com/news/oracle-august-2026-layoffs-ai-capex | verworfen (Fortschreibung der bereits mit Version 64.0/65.0 dokumentierten Oracle-August-2026-Runde) |
+| 17 | F | IBTimes UK / SkillSyncer / FastCompany, Aggregat-Trackerstände 205.832 Beschäftigte / 322 Ereignisse / 54 % KI-attribuiert, August 2026 | https://www.ibtimes.co.uk/tech-industry-record-job-cuts-2026-1813332 | verworfen (Aggregatstände ohne strukturell neuen Einzelfall) |
+| 18 | A | Dynan, K., Elmendorf, D., & Sheiner, L., *How Might Fiscal Policy Respond to the Rise of Artificial Intelligence?* NBER Working Paper 35437, Juni 2026 | https://www.nber.org/papers/w35437 | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 19 | A | Korinek, A., & Lockwood, L., *Public Finance in the Age of AI: A Primer.* NBER Working Paper 34873, Februar 2026 | https://www.nber.org/papers/w34873 | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 20 | E | IAB-Kurzbericht 8/2026, Friedrich/Kagerl, *Künstliche Intelligenz in deutschen Betrieben*, Mai 2026 | https://iab.de/kuenstliche-intelligenz-in-deutschen-betrieben-jeder-vierte-betrieb-nutzt-mittlerweile-generative-ki/ | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 21 | A/E | OECD Employment Outlook 2026, Juli 2026 | https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en/full-report/from-resilience-to-risk-employment-and-wages-under-pressure_b599ad83.html | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 22 | B | Bundesnetzagentur *KI-MIG*-Inkrafttreten (29. Juli 2026) | https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/start_ki.html | verworfen (weiterhin außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 23 | D | Bruce Schneier, *If the Markets Reject OpenAI and Anthropic, the US Should Nationalize Them*, August 2026 | https://www.schneier.com/blog/archives/2026/08/if-the-markets-reject-openai-and-anthropic-the-us-should-nationalize-them.html | verworfen (individueller Fachblog-Kommentar ohne Primärquellenbasis oder politische Konsequenz; Negativliste Cluster D) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 8.2 (neuer Absatz „Nachtrag zum 10. und 13. August 2026 — divergierende Frontier-Preisdynamik zwischen US- und chinesischer Achse" unmittelbar nach dem Absatz zur *Ultrafast*-Vorschau und *Z.ai*-*GLM-5.3*-Aufnahme) | Ergänzung | Divergente Doppel­belege zur Frontier-Preisdynamik derselben Wochenreihe: *Anthropic* schreibt die *Sonnet-5*-Tarife 2 / 10 US-Dollar pro Million Token dauerhaft fest und nimmt die für 1. September 2026 vorgesehene Erhöhung auf 3 / 15 US-Dollar zurück (Fortschreibung der Workhorse-Preishalbierungslogik), während *DeepSeek* mit Wirkung zum 16. August 2026 um 16:00 UTC als weltweit erstes Frontier-Lab eine *Peak-/Off-Peak*-Preisstruktur für die *V4*-Reihe einführt (Peak-Output-Sätze ≈ Faktor 4 über den bisherigen Tarifen, Cache-Hit-Input-Steigerung 52 – 1.100 %, Peak-Fenster 01:00–04:00 UTC und 06:00–10:00 UTC) und damit die Sub-Cent-Preisdynamik als teilweisen Ausdruck von Kapazitäts­knappheiten sichtbar macht; Rückwirkung auf § 4.5 (Bemessungsbasis-Volatilität) und § 8.3 (Zugriffslogik einer inländischen KI-Nutzungsabgabe, die künftig zwischen 01:00 UTC und 04:00 UTC anders ausfallen würde als um 12:00 UTC am selben Kalendertag). | 1–13 |
+| 2 | § 11.5 (zwei neue Einträge unmittelbar vor dem *Z.ai*-*GLM-5.3*-Eintrag am Ende von Kapitel 11.5) | Ergänzung | Vollständige Sammelbelege zur *Anthropic*-Preisrücknahme (Primärquelle X-Kanal *Claude* plus sechs Sekundärquellen) und zur *DeepSeek*-Peak-/Off-Peak-Umstellung (acht Sekundärquellen); Kurzcharakteristik mit Preisstruktur, Wirksamkeit, Peak-Fenster und Rezeptionslinien; Aufnahme in § 8.2 mit Rückwirkung auf § 4.5 und § 8.3. | 1–13 |
+| 3 | Dokumentkopf `KI-Ökonomie.md` (Zeile 12), Aktualitätshinweis am Dokumentende, `README.md` (Zeile 7 Header und Zitiervorschlag Zeile 44), Abschlussblock im neuen Validierungsblock in `Validierung-Ergebnisse.md` | Aktualisierung | Versionssprung 67.0 → 68.0 an allen vier Stellen (mit Vorlaufkorrektur der zwischenzeitlich auf 66.0 stehen gebliebenen `README.md`-Header-Zeile); zusätzlich im Aktualitätshinweis Anpassung des Stichtags von *16. August 2026* auf *17. August 2026* und der Lauf-Kennung von *Lauf 001 vom 16. August 2026* auf *Lauf 001 vom 17. August 2026*. | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 14 | *AI Tax and Work Protection Act* (H.R. 10044) — Rezeption *TechTimes*/*MLex*/*NBC News* | B/D | Bill bereits mit Version 65.0 in § 4.5 und § 11.3 aufgenommen; Rezeption fügt keine strukturell neue Facette hinzu. |
+| 15 | *EU-AI-Act-GPAI-Enforcement* (2. August 2026) — Rezeption *Wilson Sonsini*, *Beam.AI*, *HelpNetSecurity* | B | Sachverhalt bereits mit § 4.1 abgedeckt; kein strukturell neuer Datenpunkt. |
+| 16 | *Oracle*-August-2026-Fortschreibung (*TheNextWeb*, *Yahoo Finance*) | F | Bereits mit Version 64.0/65.0 dokumentiert; keine strukturell neue Facette. |
+| 17 | Aggregat-Trackerstände 322 Ereignisse / 205.832 Beschäftigte / 54 % KI-attribuiert (*IBTimes UK*, *SkillSyncer*, *FastCompany*) | F | Aggregatstände ohne strukturell neuen Einzelfall gegenüber den bereits mit Versionen 46.0 bis 65.0 aufgenommenen Rolling-Layoff-Punkten; Zillow ausdrücklich nicht KI-bedingt (Konzernangabe). |
+| 18 | *NBER Working Paper 35437* Dynan/Elmendorf/Sheiner (Juni 2026) | A | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat für eine spätere Cluster-A-Vertiefung. |
+| 19 | *NBER Working Paper 34873* Korinek/Lockwood (Februar 2026) | A | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat. |
+| 20 | *IAB-Kurzbericht 8/2026* Friedrich/Kagerl (Mai 2026) | E | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat. |
+| 21 | *OECD Employment Outlook 2026* (Juli 2026) | A/E | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat für Cluster-A-/E-Vertiefung. |
+| 22 | *KI-MIG* (29. Juli 2026, Bundesnetzagentur) | B | Weiterhin außerhalb 7-Tage-Fenster (19 Tage); wiederholter Aufnahmekandidat. |
+| 23 | Bruce Schneier-Blog *If the Markets Reject OpenAI and Anthropic, the US Should Nationalize Them* (August 2026) | D | Individueller Fachblog-Kommentar ohne Primärquellenbasis oder politische Konsequenz; Negativliste Cluster D. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja (Anthropic-Sonnet-5-Preishaltung und DeepSeek-V4-Peak/Off-Peak-Umstellung als strukturell neue Datenpunkte zur bereits in § 8.2 laufenden Frontier-Preisdynamik verifiziert)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block *Validierung 17. August 2026 — Version 67.0 → Version 68.0* in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, `README.md`, `Validierung-Ergebnisse.md` aktualisiert: Ja (mit Vorlaufkorrektur der `README.md`-Header-Zeile)
+- E-Mail-Versand (Phase 5b): Fallback-Datei geschrieben (kein Versand-Tool in der Session erreichbar; das *Microsoft-365*-MCP bietet in dieser Sitzung nur lese-/suchseitige Outlook-Tools ohne `outlook_send_mail`/`send_message`-Äquivalent; Inhalt liegt in `daily-mail.txt`, gitignored).
+- WhatsApp-Versand (Phase 5b): Fallback-Datei geschrieben (kein WhatsApp-MCP in der Session erreichbar; Inhalt liegt in `daily-whatsapp.txt`, gitignored).
+- Branch auf main gemerged und gelöscht: (siehe Phase 6)
+
+### Auffälligkeiten / offene Punkte
+
+- Die diesmal aufgenommene Doppel­belegs-Konstellation (Anthropic-Preisrücknahme vs. DeepSeek-Kapazitäts-Bepreisung) ergibt inhaltlich eine unerwartet aussagekräftige Zuspitzung des in § 8.2 dokumentierten Rentenmusters: In derselben Wochenreihe, in der ein US-Frontier-Anbieter eine bereits terminierte Preiserhöhung zurücknimmt, führt der bisher preisgünstigste chinesische Frontier-Anbieter eine time-based demand pricing ein — die Preisdynamik der beiden Wettbewerbsräume divergiert also erstmals sichtbar, nicht nur im Niveau, sondern in der Richtung. Für spätere Läufe empfiehlt sich, den ersten Kalendermonat nach Umstellung (Ende September 2026) auf empirische Nutzungsverschiebungen der DeepSeek-Kunden zu prüfen; sollten sich Workloads messbar in Off-Peak-Fenster verschieben, wäre das ein struktureller Zusatzdatenpunkt für die in § 8.3 skizzierte Bemessungsbasis-Verfeinerung.
+- Bei der Prüfung wurde eine Vorlaufkorrektur an `README.md` Zeile 7 mitgezogen: Die Header-Version war beim Vorlauf (66.0 → 67.0) nicht aktualisiert worden, sondern auf 66.0 stehen geblieben, während der Zitiervorschlag Zeile 44 korrekt auf 67.0 gehoben wurde. Dieser Lauf hat die Header-Zeile direkt auf 68.0 gehoben und den Zwischenstand 67.0 damit nur im Zitiervorschlag als eigenen Kalibrierpunkt sichtbar hinterlassen (kein separater Commit für die 66.0 → 67.0-Header-Korrektur).
+- Für spätere Läufe bleiben mehrere wiederholte Aufnahmekandidaten markiert: *KI-MIG*-Inkrafttreten (29. Juli 2026), *IAB-Kurzbericht 8/2026*, *NBER Working Paper 34873* (Korinek/Lockwood) und *NBER Working Paper 35437* (Dynan/Elmendorf/Sheiner), *OECD Employment Outlook 2026*, *KIC Strategic Investment Account*. Sobald einer dieser Kandidaten mit einer neuen Iteration oder Anschlussveröffentlichung im Zeitfenster erscheint, ist eine eigene Passage in dem jeweils zugeordneten Cluster zu prüfen.
+- Das im Prompt festgelegte Empfängerpaar für Phase 5b (E-Mail und WhatsApp) wird nicht im Repo dokumentiert.
+
+---
+
 ## 2026-08-16 — Lauf 001 — Version 66.0 → Version 67.0
 
 ### Recherchekorridor
