@@ -7,6 +7,84 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 18. August 2026 (Lauf 001 vom 18. August 2026) — Version 68.0 → Version 69.0
+
+**Auslöser:** Regulärer Daily-Update-Lauf. Web-Recherche im Korridor der Cluster A–J am 18. August 2026 im Standard-7-Tage-Fenster (11. – 18. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (16. – 18. August 2026). Ein strukturell neuer Datenpunkt im 7-Tage-Fenster in Cluster A/E (Optimalsteuer-/Automatisierungs- und Arbeitsmarkt­forschung): die ifo-Kurzstudie *Unternehmen erwarten eher sinkende Löhne durch Einsatz von Künstlicher Intelligenz* (Anna Ruffert, ifo Konjunkturperspektiven 07/2026, veröffentlicht am 12. August 2026) — erste repräsentative Erwartungs­messung von rund 3.000 KI-nutzenden deutschen Unternehmen zur Lohnwirkung des KI-Einsatzes über einen Fünfjahres­horizont. Sonstige Cluster (B, C, D, F, G, H, I, J) ohne strukturell neue Neuzugänge im 7-Tage-Fenster; das Prinzip *Breite vor Tiefe* wurde durch die deutsche Firmen­erwartungs­dimension als Ergänzung der bereits im Dokument dokumentierten US-Aggregat­befunde (Massenkoff/McCrory, Yale Budget Lab, FEDS Note) gewahrt.
+
+### Aufgenommene Neuigkeiten
+
+| # | Neuigkeit | Einarbeitung | Begründung Relevanz |
+|---|---|---|---|
+| 1 | *ifo-Konjunkturumfrage Juni 2026 — Lohnwirkungen des KI-Einsatzes* (Anna Ruffert, ifo Konjunkturperspektiven 07/2026, 12. August 2026): Rund 3.000 KI-nutzende deutsche Unternehmen erwarten über einen Fünfjahres­horizont mehrheitlich sinkende Löhne für Berufseinsteiger (48,3 % nicht-akademisch, 50,8 % akademisch) und in geringerem Maße auch für Erfahrene (rund 40 %); nur 5,9 % (nicht-akademisch) bzw. 16,3 % (akademisch) rechnen mit Lohnzuwachs für Junior-Beschäftigte, 26 % projizieren Zuwachs für erfahrene Hochschulabsolventen. Sektorale Spreizung: Dienstleistungen 53,3 % / 44,2 %, Handel 47,9 % / 41,3 %, verarbeitendes Gewerbe 46,5 % / 38,9 %, Bauwesen 39 % / 31,3 % (Junior / Senior nicht-akademisch). Konjunktivpflicht nach § 4.2 Claude.md eingehalten (Erhebung misst Firmen­erwartungen, nicht realisierte Löhne). | § 3.5 (neuer Absatz „Empirische Ergänzung Deutschland (ifo-Konjunkturumfrage Juni 2026)" unmittelbar nach dem McCrory-Absatz und vor dem ---); § 11.1 (Neueintrag unmittelbar nach dem Anthropic-81k-Eintrag); Versionssprung 68.0 → 69.0 an vier Stellen. | Erste repräsentative deutsche Firmen-Erwartungs­messung zur Lohnwirkung des KI-Einsatzes; ergänzt die US-fokussierte Massenkoff/McCrory-Linie um eine deutsche Firmen­erwartungs­dimension und stützt die in § 8.3 (Teilhabefrage), § 8.4 (Systemstabilität) und § 5.1 (Wertschöpfungsabgabe) formulierte Auslegung, dass die Verteilungs­wirkung sich in Deutschland zunächst über die Lohnstruktur — insbesondere über Einstiegslöhne — ausdrücken könnte. |
+
+**Nicht aufgenommen (bewusste Auslassungen):**
+
+- *Anthropic Sonnet-5*-Preisrücknahme (10. August 2026) und *DeepSeek V4*-Peak-/Off-Peak-Umstellung (13./16. August 2026): Bereits mit Version 68.0 (Lauf vom 17. August 2026) in § 8.2 und § 11.5 aufgenommen; TechTimes-Aktualisierung vom 17. August 2026 („DeepSeek V4 API Prices Quadruple at Peak") ohne strukturell neue Facette.
+- *Südkorea AI Transition Basic Society Law* (Lee Hae-min / Lee Ju-hee, 14. August 2026): Bereits mit Version 67.0 (Lauf vom 16. August 2026) in § 6.1 und § 11.3 aufgenommen; TechTimes-Rezeption vom 15. August 2026 ohne strukturell neue Facette.
+- *Casar/Foushee/Jacobs — AI Tax and Work Protection Act* (H.R. 10044): Bereits mit Version 65.0 (Lauf vom 14. August 2026) in § 4.5 und § 11.3 aufgenommen.
+- *EU-AI-Act-GPAI-Enforcement* zum 2. August 2026: Sachverhalt bereits mit § 4.1 und § 11.3 abgedeckt.
+- *Oracle*-Fortschreibung der August-2026-Layoff-Runde: Bereits mit Version 64.0/65.0 dokumentiert.
+- Aggregat-Trackerstände *IBTimes UK*/*SkillSyncer* (322 Ereignisse / 205.832 Beschäftigte / 54 % KI-attribuiert, Stichtag 18. August 2026): Ohne strukturell neuen Einzelfall gegenüber den bereits mit Versionen 46.0 bis 68.0 aufgenommenen Rolling-Layoff-Punkten.
+- *OpenAI Economic Research Exchange* — Bekanntgabe der 14 geförderten unabhängigen Forschungs­projekte am 5. August 2026: Verifiziertes Ankündigungs­datum außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat für spätere Cluster-D-Vertiefung.
+- *OpenAI* — *Mapping Europe's AI Workforce Opportunity / The AI Jobs Transition Framework for the EU* (29. Juni 2026, ESCO-Taxonomie plus Eurostat-Beschäftigungs­daten): Verifiziertes Erscheinungsdatum außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat für Cluster-D-Vertiefung mit Bezug zu § 4.5.
+- *NBER Working Paper 35437* Dynan/Elmendorf/Sheiner (Juni 2026): Weiterhin außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat.
+- *NBER Working Paper 34873* Korinek/Lockwood (Februar 2026): Weiterhin außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat.
+- *IAB-Kurzbericht 8/2026* Friedrich/Kagerl (Mai 2026): Weiterhin außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat.
+- *OECD Employment Outlook 2026* (7. Juli 2026): Weiterhin außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat.
+- *KI-MIG* (Inkrafttreten 29. Juli 2026, Bundesnetzagentur): Weiterhin außerhalb 7-Tage-Fenster (20 Tage); wiederholter Aufnahmekandidat.
+- *Anthropic Economic Index Report* — keine neue Ausgabe nach dem *Cadences*-Bericht vom 26. Juni 2026 und dem *Connector*-Release vom 22. Juli 2026 im 7-Tage-Fenster; die *Learning-Curves*-, *Primitives*- und *Cadences*-Berichte sind bereits im § 11.1 dokumentiert.
+- *MIT Report — The GenAI Divide* (95 %-Fehlschlag-Quote generativer KI-Pilotprojekte): Ursprungspublikation aus dem August 2025; wiederholte Sekundär­rezeption ohne strukturell neue Facette.
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Inhaltsverzeichnis, Kapitelüberschriften und Zusammenfassung erhalten; 11 Kapitel plus Executive Summary unverändert; neuer Absatz in § 3.5 als „Empirische Ergänzung Deutschland" eingefügt; keine leeren Abschnitte hinzugefügt. |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos, Unterabschnitts-Nummerierung stabil; die im Papier festgelegten Zähler (fünf Typen der Robotersteuer § 2.1, drei Säulen der Deutschland-These, sieben Empfehlungen § 10.2) unverändert. |
+| 2.1.3 Querverweise | OK | Neuer Absatz in § 3.5 referenziert kontrolliert § 8.3, § 8.4, § 5.1 sowie den vorangehenden Massenkoff/McCrory-Absatz; neuer Eintrag in § 11.1 unmittelbar nach dem Anthropic-81k-Beleg; bestehende Querverweise unberührt. |
+| 2.1.4 Roter Faden | OK | Die deutsche Firmen­erwartungs­dimension fügt sich als strukturell komplementärer Datenpunkt in die in § 3.5 laufende Aggregat-vs.-Frühindikator-Kette (Massenkoff/McCrory März 2026, Yale Budget Lab Mai 2026, FEDS Note Juli 2026) ein; keine Architekturverschiebung, keine Vermengung der Deutschland-These-Positionierung mit Literaturbefund. |
+| 2.1.5 Formatierung | OK | „**Empirische Ergänzung Deutschland (ifo-Konjunkturumfrage Juni 2026):**"-Lead-In konsistent mit den bestehenden Lead-Ins des Kapitels (z. B. „**Empirische Forschung:**" in § 3.3); keine doppelten Trennlinien; Fettungen und Kursivsetzungen konsistent zu bestehendem Stil. |
+| 2.2.1 Sachliche Richtigkeit | OK | ifo-Datenpunkte (48,3 % / 50,8 % / 5,9 % / 16,3 % / 26 % sowie sektorale Werte 53,3 % / 44,2 %, 47,9 % / 41,3 %, 46,5 % / 38,9 %, 39 % / 31,3 %) durch WebFetch auf der ifo-Original­seite (https://www.ifo.de/fakten/2026-08-12/…) verifiziert; Autorin (Anna Ruffert), Datum (12. August 2026) und Publikations­reihe (ifo Konjunkturperspektiven 07/2026) verifiziert; Stichprobe (rund 3.000 KI-nutzende Unternehmen aus der ifo-Konjunkturumfrage Juni 2026) durch mehrere unabhängige Sekundärquellen bestätigt. |
+| 2.2.2 Redundanzprüfung | OK | Neuer Absatz nimmt den bereits in § 3.5 vorhandenen McCrory-Absatz per Kontinuitäts­verweis auf, ohne dessen Aussagen zu duplizieren; die Fokussierung auf die deutsche Firmen­erwartungs­dimension ist strukturell eigenständig und wird an keiner anderen Stelle im Dokument geführt (§ 1.1 bleibt bei aggregierten IAB-/Layoff-/Beschäftigungs­daten, § 8.3 und § 8.4 bleiben bei der Teilhabe- und Systemstabilitäts­argumentation). |
+| 2.2.3 Argumentation | OK | Konjunktivpflicht bei der Erwartungs­messung ausdrücklich hinterlegt („könnte sich in Deutschland zunächst über die Lohnstruktur … ausdrücken"; „Konjunktivpflicht nach § 4.2 Claude.md, da die Erhebung Firmen­erwartungen und keine realisierten Löhne misst"); der Verweis auf § 5.1 (Wertschöpfungsabgabe) wird als sachlich-analytische Konsequenz formuliert, nicht als politische Empfehlung. |
+| 2.2.4 Ausgewogenheit | OK | Datenpunkt wird faktisch und ohne wertende Zuspitzung dargestellt; sowohl die Lohnkompressions­erwartung (rund 50 % für Junior) als auch der positive Ausschlag bei erfahrenen Hochschulabsolventen (26 % Lohnzuwachs) werden benannt; sektorale Spreizung mit stärkstem und schwächstem Segment gleichgewichtig aufgeführt (Dienstleistungen vs. Bauwesen). |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe des neuen Absatzes und des neuen § 11.1-Eintrags ohne Befund. |
+| 2.3.2 Terminologie | OK | *Lohnkompression*, *ifo-Konjunkturumfrage*, *ifo Konjunkturperspektiven*, *Berufseinsteigerinnen und -einsteiger*, *sektorale Spreizung*, *Fünfjahres­horizont* jeweils bei Erstauftreten kontextualisiert; deutsche Abkürzung „ifo" als etabliertes Kürzel des ifo Instituts geführt (in § 1.1 mehrfach vorbelegt). |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Alle im § 3.5-Absatz genannten Zahlen und Referenzen (ifo Konjunkturperspektiven 07/2026, Ruffert, 12. August 2026) im neuen § 11.1-Eintrag mit vollständiger URL referenziert; keine Verwaisung. |
+| 2.4.2 Formale Einheitlichkeit | OK | Zitierstil analog zu bestehenden § 11.1-Einträgen (Autor, Datum, kursiver Titel, Publikations­reihe, Institution, Kurzcharakteristik, URL); Datumsangabe „12. August 2026" konsistent zum bestehenden Datumsformat der Sektion. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Beleg aus dem 7-Tage-Fenster (12. August 2026); ifo Institut als etablierte wirtschaftswissenschaftliche Forschungs­einrichtung (bevorzugte Quelle in Cluster A und E); primär die ifo-Original­publikation, sekundär bestätigt durch *basicthinking.de* vom 13. August 2026. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | ifo-URL (https://www.ifo.de/fakten/2026-08-12/unternehmen-erwarten-eher-sinkende-loehne-durch-einsatz-von-kuenstlicher) inhaltlich durch WebFetch verifiziert; Titel, Autorin, Datum, Methodik und alle im Absatz genannten Kennzahlen konsistent bestätigt; URL vollständig, keine Shortener. |
+| 2.4.5 Zitatgenauigkeit | OK | Prozentwerte 48,3 %, 50,8 %, 5,9 %, 16,3 %, 26 %, 53,3 %, 44,2 %, 47,9 %, 41,3 %, 46,5 %, 38,9 %, 39 %, 31,3 % sowie Stichprobengröße „rund 3.000" und Erhebungsmonat „Juni 2026" quellengetreu übernommen; Charakterisierung „erste repräsentative Firmen-Erwartungs­messung zur Lohnwirkung des KI-Einsatzes" durch die ifo-Original­publikation gedeckt (ifo verweist selbst auf das Fehlen einer vergleichbaren Vorstudie). |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Bestehende Markierungen (de la Feria et al. 2022) unverändert; keine neue Markierung. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 69.0 an vier Stellen eingetragen: Dokumentkopf `KI-Ökonomie.md` Zeile 12, Aktualitätshinweis am Dokumentende (mit Stichtag *18. August 2026*, Lauf-Kennung *Lauf 001 vom 18. August 2026*), `README.md` Zeile 7 und im Zitiervorschlag (Zeile 44), Abschlussblock unten. Autor Björn Degenkolbe, Organisation HIGL – Health Innovators Group Leipzig, Lizenz CC BY 4.0 und Haftungshinweis unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Keine dedizierten Prüfskripte im Projekt; manuelle Stichproben zu §§ 2.1.2, 2.1.3, 2.4.1 durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine im neuen Absatz identifiziert. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine notwendig. | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte (sofern vorhanden): n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine gefunden)
+- Neue Version: 69.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 17. August 2026 (Lauf 001 vom 17. August 2026) — Version 67.0 → Version 68.0
 
 **Auslöser:** Regulärer Daily-Update-Lauf. Web-Recherche im Korridor der Cluster A–J am 17. August 2026 im Standard-7-Tage-Fenster (10. – 17. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (15. – 17. August 2026). Zwei belegbare Neuzugänge im 7-Tage-Fenster in derselben Cluster-I-Achse (Frontier-Modell-Ökonomik / Preisdynamik): (a) *Anthropic*-Bekanntgabe vom 10. August 2026, das im Juni 2026 als *Introductory Pricing* eingeführte Tarifpaar 2 US-Dollar Input / 10 US-Dollar Output je Million Token für *Claude Sonnet 5* dauerhaft festzuschreiben und die zuvor für den 1. September 2026 vorgesehene Erhöhung auf 3 / 15 US-Dollar zurückzunehmen; (b) *DeepSeek*-Ankündigung vom 13. August 2026, für seine *V4*-Reihe zum 16. August 2026 um 16:00 UTC eine *Peak-/Off-Peak*-Preisstruktur (Peak-Fenster 01:00–04:00 UTC und 06:00–10:00 UTC) einzuführen, mit Peak-Output-Sätzen ≈ Faktor 4 über den bisherigen einheitlichen Tarifen und Cache-Hit-Input-Steigerungen von 52 bis 1.100 Prozent. Sonstige Cluster (A, B, C, D, E, F, G, H, J) ohne strukturell neue Neuzugänge im 7-Tage-Fenster; das Prinzip *Breite vor Tiefe* wurde nicht durch Vertiefung eines einzelnen Themas, sondern durch die divergent gerichtete Doppel­beleg-Logik gewahrt (US-Preisrücknahme vs. chinesische Kapazitäts­knappheits-Bepreisung), die einer einzigen konzeptionellen Achse in § 8.2 zwei entgegengesetzte Datenpunkte hinzufügt.

@@ -54,6 +54,82 @@
 
 ---
 
+## 2026-08-18 — Lauf 001 — Version 68.0 → Version 69.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster B, C, D, F, G, H, I, J ohne strukturell neue Neuzugänge im 7-Tage-Fenster). Ein strukturell neuer Neuzugang in Cluster A/E (Optimalsteuer-/Automatisierungs- und Arbeitsmarkt­forschung): die ifo-Kurzstudie *Unternehmen erwarten eher sinkende Löhne durch Einsatz von Künstlicher Intelligenz* (Anna Ruffert, ifo Konjunkturperspektiven 07/2026, veröffentlicht am 12. August 2026) — erste repräsentative Erwartungs­messung von rund 3.000 KI-nutzenden deutschen Unternehmen zur Lohnwirkung des KI-Einsatzes über einen Fünfjahres­horizont.
+- Zeitfenster: Standard 7 Tage (11. – 18. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (16. – 18. August 2026).
+- Anzahl Suchanfragen: 14 Web-Suchen (Cluster A–J durchsucht) plus zwei gezielte Einzel-Fetches zur Verifikation (*basicthinking.de* als deutschsprachige Rezeption der ifo-Publikation; *ifo.de*-Original­beitrag zur Verifikation von Titel, Autorin, Methodik und allen Kennzahlen).
+- Prinzip *Breite vor Tiefe*: Der aufgenommene Datenpunkt ergänzt die in § 3.5 bereits laufende Aggregat-vs.-Frühindikator-Kette (Massenkoff/McCrory März 2026, Yale Budget Lab Mai 2026, FEDS Note Juli 2026) um eine deutsche Firmen­erwartungs­dimension. Ebenfalls im Zeitfenster auffindbare Ereignisse — *DeepSeek*-V4-Preisstruktur-Wirksamkeit am 16. August 2026 (bereits Version 68.0), *TechTimes*-Fortschreibung vom 17. August 2026 zur DeepSeek-Peak-Umstellung, *Casar*-*AI Tax and Work Protection Act*-Rezeption (bereits Version 65.0), *EU-AI-Act*-*GPAI*-Enforcement-Rezeption (bereits § 4.1), *Oracle*-August-2026-Fortschreibung (bereits Version 64.0/65.0), Aggregat-Layoff-Trackerstände 322 Ereignisse / 205.832 Beschäftigte (bereits abgedeckt), OpenAI Economic Research Exchange 14-Grants-Ankündigung vom 5. August 2026 (außerhalb 7-Tage-Fenster), OpenAI *Mapping Europe's AI Workforce Opportunity* vom 29. Juni 2026 (außerhalb 7-Tage-Fenster), NBER-Working-Papers 34873/35437 (außerhalb 7-Tage-Fenster), IAB-Kurzbericht 8/2026 (außerhalb 7-Tage-Fenster), OECD Employment Outlook 2026 (außerhalb Fenster), KI-MIG-Inkrafttreten (außerhalb Fenster) — ergänzten das Dokument nicht um strukturell neue Facetten und wurden nicht übernommen.
+- Lauf 001 vom 18. August 2026 ist der Folgelauf zu Lauf 001 vom 17. August 2026 (Version 67.0 → 68.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | A/E | Ruffert, A. / ifo Institut, *Unternehmen erwarten eher sinkende Löhne durch Einsatz von Künstlicher Intelligenz*, ifo Konjunkturperspektiven 07/2026, 12. August 2026 | https://www.ifo.de/fakten/2026-08-12/unternehmen-erwarten-eher-sinkende-loehne-durch-einsatz-von-kuenstlicher | übernommen (Primärquelle Institution, WebFetch-verifiziert) |
+| 2 | A/E | basicthinking.de, *KI lässt Gehälter schrumpfen: Wer laut ifo-Studie mit weniger Geld rechnen muss*, 13. August 2026 | https://www.basicthinking.de/blog/2026/08/13/ki-sinkende-gehaelter/ | übernommen (Sekundär, deutschsprachige Rezeption, WebFetch-verifiziert) |
+| 3 | I | TechTimes, *DeepSeek V4 API Prices Quadruple at Peak: What Developers Pay Starting Now*, 17. August 2026 | https://www.techtimes.com/articles/324764/20260817/deepseek-v4-api-prices-quadruple-peak-what-developers-pay-starting-now.htm | Dublette (Sachverhalt bereits Version 68.0 in § 8.2 aufgenommen; Fortschreibung ohne strukturell neue Facette) |
+| 4 | I | explainx.ai, *DeepSeek V4 Price Hike: New Rates vs GPT-5.6 and Claude*, August 2026 | https://explainx.ai/blog/deepseek-v4-price-increase-live-gpt-5-6-comparison-august-2026 | Dublette (Sekundär­rezeption der bereits mit Version 68.0 dokumentierten DeepSeek-Umstellung) |
+| 5 | B/C/D | TechTimes, *South Korea Bills Make Employers Pay When AI Cuts Jobs, Not AI Vendors*, 15. August 2026 | https://www.techtimes.com/articles/324577/20260815/south-korea-bills-make-employers-pay-when-ai-cuts-jobs-not-ai-vendors.htm | Dublette (südkoreanisches Drei-Gesetzes-Paket bereits Version 67.0 in § 6.1 und § 11.3 aufgenommen; Rezeption ohne strukturell neue Facette) |
+| 6 | B | Cooley / EU-Kommission / Al Jazeera, *EU AI Act: Transparency Obligations Take Effect 2 August 2026 / What came into force with the EU's AI Act this week*, August 2026 | https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026 | verworfen (Sachverhalt bereits mit § 4.1 und § 11.3 abgedeckt; kein strukturell neuer Datenpunkt) |
+| 7 | F | TheNextWeb / Yahoo Finance / IBTimes UK, *Oracle plans fresh August layoffs / Tech Layoffs in 2026 Already Beat Last Year's Total*, August 2026 | https://thenextweb.com/news/oracle-august-2026-layoffs-ai-capex | verworfen (Fortschreibung der bereits mit Version 64.0/65.0 dokumentierten Oracle-August-2026-Runde bzw. Aggregatstände ohne strukturell neuen Einzelfall) |
+| 8 | D | OpenAI / Enterprise DNA, *Introducing the OpenAI Economic Research Exchange / OpenAI Funds Independent Research on AI's Economic Impact*, 5. August 2026 | https://openai.com/index/economic-research-exchange | verworfen (Ankündigungs­datum 5. August 2026 außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat für spätere Cluster-D-Vertiefung) |
+| 9 | D | OpenAI, *Mapping Europe's AI Workforce Opportunity / The AI Jobs Transition Framework for the EU*, 29. Juni 2026 | https://openai.com/index/mapping-ai-jobs-transition-eu/ | verworfen (verifiziertes Erscheinungsdatum außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat für spätere Cluster-D-Vertiefung mit Bezug zu § 4.5) |
+| 10 | A | Dynan, K., Elmendorf, D., & Sheiner, L., *How Might Fiscal Policy Respond to the Rise of Artificial Intelligence?* NBER Working Paper 35437, Juni 2026 | https://www.nber.org/papers/w35437 | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 11 | A | Korinek, A., & Lockwood, L., *Public Finance in the Age of AI: A Primer.* NBER Working Paper 34873, Februar 2026 | https://www.nber.org/papers/w34873 | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 12 | E | IAB-Kurzbericht 8/2026, Friedrich/Kagerl, *Künstliche Intelligenz in deutschen Betrieben*, Mai 2026 | https://iab.de/kuenstliche-intelligenz-in-deutschen-betrieben-jeder-vierte-betrieb-nutzt-mittlerweile-generative-ki/ | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 13 | A/E | OECD Employment Outlook 2026, Juli 2026 | https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en.html | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 14 | B | Bundesnetzagentur *KI-MIG*-Inkrafttreten (29. Juli 2026) | https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/start_ki.html | verworfen (weiterhin außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 15 | I | MIT / Windows Central, *AI bubble fears grow after MIT report / The GenAI Divide*, August 2026 | https://www.windowscentral.com/artificial-intelligence/the-ai-bubble-may-be-about-to-pop-heres-what-mits-95-percent-failure-stat-means | verworfen (Ursprungspublikation August 2025; wiederholte Sekundärrezeption ohne strukturell neue Facette) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 3.5 (neuer Absatz „Empirische Ergänzung Deutschland (ifo-Konjunkturumfrage Juni 2026)" unmittelbar nach dem Massenkoff/McCrory-Absatz und vor der Kapitel-3-Trennlinie) | Ergänzung | Erste repräsentative Firmen-Erwartungs­messung zur Lohnwirkung des KI-Einsatzes in Deutschland (rund 3.000 KI-nutzende Unternehmen, ifo-Konjunkturumfrage Juni 2026): 48,3 % (nicht-akademisch) / 50,8 % (akademisch) erwarten sinkende Löhne für Junior-Beschäftigte, rund 40 % auch für erfahrene Beschäftigte, nur 5,9 % / 16,3 % Lohnzuwachs für Junior, 26 % Lohnzuwachs für erfahrene Hochschulabsolventen; sektorale Spreizung Dienstleistungen 53,3 % / 44,2 %, Handel 47,9 % / 41,3 %, verarbeitendes Gewerbe 46,5 % / 38,9 %, Bauwesen 39 % / 31,3 %; Rückwirkung auf § 5.1 (wertschöpfungs­orientierte Sozialstaats­finanzierung), § 8.3 (Teilhabefrage) und § 8.4 (Systemstabilität). | 1, 2 |
+| 2 | § 11.1 (neuer Eintrag unmittelbar nach dem Anthropic-81k-Beleg am Ende von Kapitel 11.1) | Ergänzung | Vollständiger Beleg zur ifo-Kurzstudie: Autorin, Datum, Publikations­reihe, Institution, Kennzahlen der Firmen­erwartungen (Junior/Senior, akademisch/nicht-akademisch), sektorale Spreizung, URL. | 1 |
+| 3 | Dokumentkopf `KI-Ökonomie.md` (Zeile 12), Aktualitätshinweis am Dokumentende, `README.md` (Zeile 7 Header und Zitiervorschlag Zeile 44), Abschlussblock im neuen Validierungsblock in `Validierung-Ergebnisse.md` | Aktualisierung | Versionssprung 68.0 → 69.0 an allen vier Stellen; zusätzlich im Aktualitätshinweis Anpassung des Stichtags von *17. August 2026* auf *18. August 2026* und der Lauf-Kennung von *Lauf 001 vom 17. August 2026* auf *Lauf 001 vom 18. August 2026*. | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 3 | *TechTimes*, *DeepSeek V4 API Prices Quadruple at Peak* (17. August 2026) | I | Sachverhalt bereits mit Version 68.0 in § 8.2 aufgenommen; Fortschreibung ohne strukturell neue Facette. |
+| 4 | *explainx.ai*, *DeepSeek V4 Price Hike: New Rates vs GPT-5.6 and Claude* | I | Sekundär­rezeption der bereits mit Version 68.0 dokumentierten DeepSeek-Umstellung. |
+| 5 | *TechTimes*, *South Korea Bills Make Employers Pay When AI Cuts Jobs, Not AI Vendors* (15. August 2026) | B/C/D | Südkoreanisches Drei-Gesetzes-Paket bereits Version 67.0 in § 6.1 und § 11.3 aufgenommen; Rezeption fügt keine strukturell neue Facette hinzu. |
+| 6 | *EU-AI-Act-Transparenz-Vorgaben* (2. August 2026, Cooley/EU-Kommission/Al Jazeera) | B | Bereits mit § 4.1 und § 11.3 abgedeckt. |
+| 7 | *Oracle*-August-Layoff-Fortschreibung / IBTimes-Aggregatstände | F | Fortschreibung bzw. Aggregatstände ohne strukturell neuen Einzelfall gegenüber Versionen 46.0–68.0. |
+| 8 | *OpenAI Economic Research Exchange* 14-Grants-Ankündigung (5. August 2026) | D | Ankündigungs­datum außerhalb 7-Tage-Fenster (13 Tage); wiederholter Aufnahmekandidat. |
+| 9 | *OpenAI Mapping Europe's AI Workforce Opportunity / AI Jobs Transition Framework for the EU* (29. Juni 2026) | D | Verifiziertes Erscheinungsdatum außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat für Cluster-D-Vertiefung mit Bezug zu § 4.5. |
+| 10 | *NBER Working Paper 35437* Dynan/Elmendorf/Sheiner (Juni 2026) | A | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat. |
+| 11 | *NBER Working Paper 34873* Korinek/Lockwood (Februar 2026) | A | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat. |
+| 12 | *IAB-Kurzbericht 8/2026* Friedrich/Kagerl (Mai 2026) | E | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat. |
+| 13 | *OECD Employment Outlook 2026* (Juli 2026) | A/E | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat. |
+| 14 | *KI-MIG* (29. Juli 2026, Bundesnetzagentur) | B | Weiterhin außerhalb 7-Tage-Fenster (20 Tage); wiederholter Aufnahmekandidat. |
+| 15 | *MIT-The-GenAI-Divide*-Rezeption (95 %-Fehlschlag-Quote) | I | Ursprungspublikation August 2025; wiederholte Sekundärrezeption ohne strukturell neue Facette. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja (ifo-Ruffert-Studie als strukturell neuer Datenpunkt zur bereits in § 3.5 laufenden Aggregat-vs.-Frühindikator-Kette verifiziert; keine bestehende Passage referenziert die ifo-Konjunkturperspektiven 07/2026)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block *Validierung 18. August 2026 — Version 68.0 → Version 69.0* in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, `README.md`, `Validierung-Ergebnisse.md` aktualisiert: Ja
+- E-Mail-Versand (Phase 5b): Fallback-Datei geschrieben (kein Versand-Tool in der Session erreichbar; das *Microsoft-365*-MCP bietet in dieser Sitzung nur lese-/suchseitige Outlook-Tools ohne `outlook_send_mail`/`send_message`-Äquivalent; Inhalt liegt in `daily-mail.txt`, gitignored).
+- WhatsApp-Versand (Phase 5b): Fallback-Datei geschrieben (kein WhatsApp-MCP in der Session erreichbar; Inhalt liegt in `daily-whatsapp.txt`, gitignored).
+- Branch auf main gemerged und gelöscht: siehe Auffälligkeiten.
+
+### Auffälligkeiten / offene Punkte
+
+- Die ifo-Ruffert-Studie liefert erstmals eine deutsche Firmen-Erwartungs­messung zur Lohnwirkung des KI-Einsatzes, die inhaltlich parallel zur US-fokussierten Massenkoff/McCrory-Linie und zur FEDS-Note-Aggregat­analyse verläuft, aber ein anderes methodisches Fenster nutzt (Firmen­erwartungen statt beobachteter Löhne). Für spätere Läufe empfiehlt sich, die im September oder Oktober 2026 turnusmäßig folgende ifo-Konjunkturumfrage-Auswertung als Cluster-A/E-Kandidat zu prüfen — sollte sich in der nächsten Erhebungswelle eine erste Verifikation der Erwartungs­messung an realisierten Lohnentwicklungen abzeichnen, wäre das ein struktureller Zusatzdatenpunkt für die in § 8.3 skizzierte Bemessungsbasis-Verfeinerung.
+- Für spätere Läufe bleiben mehrere wiederholte Aufnahmekandidaten markiert: *OpenAI Economic Research Exchange*-14-Grants-Ankündigung (5. August 2026), *OpenAI Mapping Europe's AI Workforce Opportunity / AI Jobs Transition Framework for the EU* (29. Juni 2026), *KI-MIG*-Inkrafttreten (29. Juli 2026), *IAB-Kurzbericht 8/2026*, *NBER Working Paper 34873* (Korinek/Lockwood) und *NBER Working Paper 35437* (Dynan/Elmendorf/Sheiner), *OECD Employment Outlook 2026*, *KIC Strategic Investment Account*. Sobald einer dieser Kandidaten mit einer neuen Iteration oder Anschlussveröffentlichung im Zeitfenster erscheint, ist eine eigene Passage in dem jeweils zugeordneten Cluster zu prüfen.
+- Das im Prompt festgelegte Empfängerpaar für Phase 5b (E-Mail und WhatsApp) wird nicht im Repo dokumentiert.
+
+---
+
 ## 2026-08-17 — Lauf 001 — Version 67.0 → Version 68.0
 
 ### Recherchekorridor
