@@ -54,6 +54,84 @@
 
 ---
 
+## 2026-08-19 — Lauf 001 — Version 69.0 → Version 70.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster B, C, D, E, F, G, H, I, J ohne strukturell neuen Neuzugang im 7-Tage-Fenster). Ein strukturell neuer Neuzugang in Cluster A/F (Optimalsteuer-/Arbeitsmarkt- und Layoff-Ökonomik): die durch Mark (Shuai) Ma (Katz Graduate School of Business, University of Pittsburgh) am 12. August 2026 in *The Conversation* publizierte explizite Auslegung des SSRN-Working-Papers *Ding, Ma, Wu & Yang* (SSRN 6652799, 26. April 2026) mit der Sentiment-Sabotage-Kausalkette „KI-Layoffs → beschädigtes Employee-KI-Sentiment → gesenkte firm-produktivität" auf Basis von rund 3.200 US-Firmen (2021–2025) mit sechs Analysedimensionen (AI-Talent-Share, Hiring, Retention, Salary Premium, Employee- und Executive-Sentiment).
+- Zeitfenster: Standard 7 Tage (12. – 19. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (17. – 19. August 2026).
+- Anzahl Suchanfragen: 15 Web-Suchen (Cluster A–J durchsucht) plus zwei gezielte Verifikations-Fetches (*The Conversation*-Artikel zur Verifikation von Autor, Publikationsdatum, zitierter Studie und Kernbefunden; SSRN-DOI-Seite scheiterte an HTTP 403 und wurde ersatzweise über zwei parallele Websuch-Iterationen indirekt verifiziert — Autorenreihe, Publikationsdatum, Datenquellen und Kernbefunde deckungsgleich mit *The-Conversation*-Angaben).
+- Prinzip *Breite vor Tiefe*: Der aufgenommene Datenpunkt ergänzt die in § 3.5 bereits laufende Aggregat-vs.-Frühindikator-Kette (Massenkoff/McCrory März 2026, Anthropic-81k-Folgeband April 2026, Yale Budget Lab Mai 2026, FEDS Note Juli 2026, McCrory-Essay 22. Juli 2026, ifo-Ruffert-Studie 12. August 2026) um eine explizite Sentiment-Sabotage-Kausalkette der arbeitgeberseitigen Implementierungs­strategie. Ebenfalls im Zeitfenster auffindbare Ereignisse — *Anthropic*-Sonnet-5-Preisfestschreibung vom 10. August 2026 (bereits Version 68.0), *DeepSeek*-V4-Peak/Off-Peak-Umstellung vom 13. August 2026 (bereits Version 68.0), *Riot*-*Anthropic*-Rockdale-Deal vom 11. August 2026 (bereits Version 66.0/68.0), *Z.ai*-*GLM-5.3*-Freigabe vom 14. August 2026 (bereits Version 67.0), *ifo*-Ruffert-Kurzstudie vom 12. August 2026 (bereits Version 69.0), *Think-Tank-Journal*-Sekundärrezeption der *ifo*-Studie vom 13. August 2026 (Dublette), *China*-Gericht-KI-Layoff-Urteile (NPR 10. August 2026 — außerhalb 7-Tage-Fenster mit 9 Tagen), *Casar*-*AI Tax and Work Protection Act*-Rezeption vom 12. August 2026 (Sachverhalt bereits Version 65.0 in § 4.5), *Anthropic Economic Policy Framework* Juni 2026 (außerhalb 7-Tage-Fenster), OpenAI Economic Research Exchange 14-Grants-Ankündigung vom 5. August 2026 (weiterhin außerhalb 7-Tage-Fenster), NBER-Working-Papers 34873/35437 (außerhalb 7-Tage-Fenster), IAB-Kurzbericht 8/2026 (außerhalb Fenster), OECD Employment Outlook 2026 (außerhalb Fenster), KI-MIG-Inkrafttreten (außerhalb Fenster), *Sachverständigenrat*-*Productivity-Workshop* 24./25. August 2026 (in der Zukunft) — ergänzten das Dokument nicht um strukturell neue Facetten und wurden nicht übernommen.
+- Lauf 001 vom 19. August 2026 ist der Folgelauf zu Lauf 001 vom 18. August 2026 (Version 68.0 → 69.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | A/F | Ma, M. (S.) / The Conversation, *Layoffs tied to AI hurt worker productivity — and the reason may surprise managers*, 12. August 2026 | https://theconversation.com/layoffs-tied-to-ai-hurt-worker-productivity-and-the-reason-may-surprise-managers-286749 | übernommen (Primärquelle-Auslegung des Erstautors, WebFetch-verifiziert) |
+| 2 | A/F | Ding, Y., Ma, M. (S.), Wu, J. & Yang, Y., *Tracking Artificial Intelligence Sentiment in the U.S. Labor Market*, SSRN Working Paper 6652799, Katz Graduate School of Business, University of Pittsburgh, 26. April 2026 | https://dx.doi.org/10.2139/ssrn.6652799 | übernommen (zugrundeliegende Primärstudie; SSRN-Seite in dieser Session unter HTTP 403, Kernangaben durch zwei parallele Websuchen und die *The-Conversation*-Auslegung des Erstautors deckungsgleich verifiziert) |
+| 3 | A/F | Naked Capitalism, *Layoffs Tied to AI Hurt Worker Productivity — and the Reason May Surprise Managers*, 12. August 2026 | https://www.nakedcapitalism.com/2026/08/layoffs-tied-to-ai-hurt-worker-productivity-and-the-reason-may-surprise-managers.html | übernommen (Sekundärrezeption, WebFetch-Versuch mit 403 — Publikationsdatum und Kernaussagen durch Websuche verifiziert) |
+| 4 | A/F | Dataconomy, *Study Finds AI-driven Layoffs Are Failing To Deliver Productivity Gains*, 13. August 2026 | https://dataconomy.com/2026/08/13/ai-driven-layoffs-undermine-productivity/ | übernommen (Sekundärrezeption, Kernbefunde konsistent) |
+| 5 | A/F | TechXplore, *Layoffs tied to AI hurt worker productivity, and the reason may surprise managers*, 12. August 2026 | https://techxplore.com/news/2026-08-layoffs-ai-worker-productivity.html | übernommen (Sekundärrezeption) |
+| 6 | A/F | Fast Company, *The surprising reason AI layoffs hurt worker productivity*, August 2026 | https://www.fastcompany.com/91589194/surprising-reason-ai-layoffs-hurt-worker-productivity | übernommen (Sekundärrezeption) |
+| 7 | A/F | Digital Information World, *Layoffs tied to AI hurt worker productivity*, August 2026 | https://www.digitalinformationworld.com/2026/08/layoffs-tied-to-ai-hurt-worker.html | übernommen (Sekundärrezeption) |
+| 8 | A/F | The Times Weekly, *Layoffs tied to AI hurt worker productivity*, August 2026 | https://thetimesweekly.com/2026/08/layoffs-tied-to-ai-hurt-worker-productivity-and-the-reason-may-surprise-managers/ | übernommen (Sekundärrezeption) |
+| 9 | A/F | Capital (Mauritius), *Layoffs tied to AI hurt worker productivity*, August 2026 | https://www.capital-media.mu/2026/08/layoffs-tied-to-ai-hurt-worker-productivity-and-the-reason-may-surprise-managers/ | übernommen (Sekundärrezeption) |
+| 10 | B/D | Casar/Foushee/Jacobs, *AI Tax and Work Protection Act* (H.R. 10044) — Rezeption *TechTimes* 12. August 2026 | https://www.techtimes.com/articles/324177/20260812/casars-ai-token-tax-would-end-payroll-subsidy-automation-fund-new-wpa.htm | Dublette (Bill und Rezeption bereits Version 65.0 in § 4.5 aufgenommen) |
+| 11 | A | *Think Tank Journal*, *The Dark Side of Germany's AI Revolution: Falling Wages and Rising Inequality*, 13. August 2026 | https://thinktank.pk/2026/08/13/the-dark-side-of-germanys-ai-revolution-falling-wages-and-rising-inequality/ | verworfen (Sekundärrezeption der bereits Version 69.0 in § 3.5 aufgenommenen *ifo*-Ruffert-Studie ohne strukturell neue Facette) |
+| 12 | C | NPR / KTEP / WKNOFM, *China's courts side with workers displaced by AI, but job anxiety persists*, 10. August 2026 | https://www.npr.org/2026/08/10/nx-s1-5822592/chinas-courts-side-with-workers-displaced-by-ai-but-employees-remain-anxious | verworfen (10. August 2026 = 9 Tage zurück, außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat für Cluster-C-Vertiefung, sobald eine Anschlussveröffentlichung im Fenster erscheint) |
+| 13 | D | *Anthropic Economic Policy Framework*, Juni 2026 | https://www-cdn.anthropic.com/files/4zrzovbb/website/9ea607a5dd67c168093829b701f3a0a6d21156d5.pdf | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat für Cluster-D-Vertiefung) |
+| 14 | D | OpenAI, *Economic Research Exchange* / 14-Grants-Ankündigung, 5. August 2026 | https://openai.com/index/economic-research-exchange | verworfen (14 Tage zurück, weiterhin außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 15 | A | Dynan, K., Elmendorf, D., & Sheiner, L., *How Might Fiscal Policy Respond to the Rise of Artificial Intelligence?* NBER Working Paper 35437, Juni 2026 | https://www.nber.org/papers/w35437 | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 16 | A | Korinek, A., & Lockwood, L., *Public Finance in the Age of AI: A Primer.* NBER Working Paper 34873, Februar 2026 | https://www.nber.org/papers/w34873 | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 17 | E | IAB-Kurzbericht 8/2026, Friedrich/Kagerl, *Künstliche Intelligenz in deutschen Betrieben*, Mai 2026 | https://iab.de/kuenstliche-intelligenz-in-deutschen-betrieben-jeder-vierte-betrieb-nutzt-mittlerweile-generative-ki/ | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 18 | A/E | OECD Employment Outlook 2026, Juli 2026 | https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en.html | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 19 | B | Bundesnetzagentur *KI-MIG*-Inkrafttreten (29. Juli 2026) | https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/start_ki.html | verworfen (weiterhin außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 3.5 (neuer Absatz „Empirische Ergänzung USA — Sentiment-Sabotage-Kanal (Ma 12. August 2026 auf Basis Ding/Ma/Wu/Yang 2026)" unmittelbar nach der ifo-Ruffert-Ergänzung und vor der Kapitel-3-Trennlinie) | Ergänzung | Populärwissenschaftliche Auslegung des SSRN-Working-Papers *Ding, Ma, Wu & Yang* (26. April 2026) durch den Erstautor Mark (Shuai) Ma in *The Conversation* (12. August 2026): Aus rund 3.200 US-Firmen (2021–2025) und sechs Datenschichten (Glassdoor-Reviews, Earnings-Call-Disclosures, LinkedIn-Profile, Job-Postings, Layoff-Ankündigungen, KI-Investitionsangaben) belegen die Autoren drei Kernbefunde: (i) Employee-KI-Sentiment signifikant negativer als generelles Employee-Sentiment, (ii) starke positive Assoziation zwischen Employee-KI-Sentiment und firm-produktivität, (iii) KI-attribuierte Layoffs beschädigen dieses Sentiment nachhaltig und Firmen mit höherem AI-Talent-Share weisen höhere Fluktuation, niedrigere Einstellungs­raten und langsameres Beschäftigungs­wachstum auf; Ma verweist auf eine Atlanta-Fed-Erhebung (rund 90 % der Führungskräfte sehen keine messbaren KI-Produktivitätsgewinne) und eine durchschnittliche Börsenrendite nahe null bei KI-Layoff-Ankündigungen; Rückwirkung auf § 8.4 (Systemstabilität) und § 9.1 (Kausalattributions­problematik einer engen Typ-5-Ersatzabgabe). | 1–9 |
+| 2 | § 11.1 (neuer Eintrag unmittelbar nach dem Ruffert-Beleg am Ende von Kapitel 11.1) | Ergänzung | Vollständiger Beleg zum SSRN-Working-Paper *Ding, Ma, Wu & Yang* (26. April 2026): Autorenreihe, Titel, SSRN-Nummer 6652799, Institution (Katz Graduate School of Business, University of Pittsburgh), Studiendesign (rund 3.200 US-Firmen, 2021–2025, sechs Analysedimensionen), Kernbefunde, DOI-URL. | 2 |
+| 3 | § 11.5 (neuer Eintrag unmittelbar nach dem Z.ai-*GLM-5.3*-Eintrag am Ende von Kapitel 11.5) | Ergänzung | Vollständiger Sammelbeleg zur populärwissenschaftlichen Auslegung des Erstautors (The Conversation, 12. August 2026) plus breite Sekundärrezeption (Naked Capitalism, TechXplore, Dataconomy, Fast Company, Digital Information World, The Times Weekly, Capital, United for Equity); Kurzcharakteristik mit Studien-Kernbefunden, Atlanta-Fed- und Reuters/Ipsos-Referenzen sowie Aufnahme-Bezug zu § 3.5, § 8.4, § 9.1. | 1, 3–9 |
+| 4 | Dokumentkopf `KI-Ökonomie.md` (Zeile 12), Aktualitätshinweis am Dokumentende, `README.md` (Zeile 7 Header und Zitiervorschlag Zeile 44), Abschlussblock im neuen Validierungsblock in `Validierung-Ergebnisse.md` | Aktualisierung | Versionssprung 69.0 → 70.0 an allen vier Stellen; zusätzlich im Aktualitätshinweis Anpassung des Stichtags von *18. August 2026* auf *19. August 2026* und der Lauf-Kennung von *Lauf 001 vom 18. August 2026* auf *Lauf 001 vom 19. August 2026*. | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 10 | *TechTimes*, *Casar's AI Token Tax Would End Payroll Subsidy* (12. August 2026) | B/D | Sachverhalt (H.R. 10044) bereits Version 65.0 in § 4.5 aufgenommen; Rezeption fügt keine strukturell neue Facette hinzu. |
+| 11 | *Think Tank Journal*, *The Dark Side of Germany's AI Revolution* (13. August 2026) | A | Sekundärrezeption der bereits Version 69.0 in § 3.5 aufgenommenen *ifo*-Ruffert-Studie ohne strukturell neue Facette. |
+| 12 | NPR, *China's courts side with workers displaced by AI* (10. August 2026) | C | Publikationsdatum 10. August 2026 = 9 Tage zurück, außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat, sobald eine Anschluss­veröffentlichung im Zeitfenster erscheint. |
+| 13 | *Anthropic Economic Policy Framework* (Juni 2026) | D | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat. |
+| 14 | *OpenAI Economic Research Exchange* 14-Grants-Ankündigung (5. August 2026) | D | 14 Tage zurück, weiterhin außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat. |
+| 15 | *NBER Working Paper 35437* Dynan/Elmendorf/Sheiner (Juni 2026) | A | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat. |
+| 16 | *NBER Working Paper 34873* Korinek/Lockwood (Februar 2026) | A | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat. |
+| 17 | *IAB-Kurzbericht 8/2026* Friedrich/Kagerl (Mai 2026) | E | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat. |
+| 18 | *OECD Employment Outlook 2026* (Juli 2026) | A/E | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat. |
+| 19 | *KI-MIG* (29. Juli 2026, Bundesnetzagentur) | B | Weiterhin außerhalb 7-Tage-Fenster (21 Tage); wiederholter Aufnahmekandidat. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja (Ma-Auslegung und Ding/Ma/Wu/Yang-Studie als strukturell neuer Datenpunkt zur bereits in § 3.5 laufenden Aggregat-vs.-Frühindikator-Kette verifiziert; keine bestehende Passage referenziert das Sentiment-Sabotage-Kausalmodell oder den Ding-Ma-Wu-Yang-Datensatz)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block *Validierung 19. August 2026 — Version 69.0 → Version 70.0* in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, `README.md`, `Validierung-Ergebnisse.md` aktualisiert: Ja
+- E-Mail-Versand (Phase 5b): Fallback-Datei geschrieben (kein Versand-Tool in der Session erreichbar; das *Microsoft-365*-MCP bietet in dieser Sitzung nur lese-/suchseitige Outlook-Tools ohne `outlook_send_mail`/`send_message`-Äquivalent; Inhalt liegt in `daily-mail.txt`, gitignored).
+- WhatsApp-Versand (Phase 5b): Fallback-Datei geschrieben (kein WhatsApp-MCP in der Session erreichbar; Inhalt liegt in `daily-whatsapp.txt`, gitignored).
+- Branch auf main gemerged und gelöscht: siehe Auffälligkeiten (Ausführung in Phase 6)
+
+### Auffälligkeiten / offene Punkte
+
+- Die Ma-Auslegung fügt der in § 3.5 bereits laufenden Aggregat-vs.-Frühindikator-Kette einen dritten Erklärungspfad hinzu: neben (a) *„jagged capability"*-Struktur der aktuellen KI-Modelle (McCrory-Essay 22. Juli 2026) und (b) empirisch dokumentierter Lohnkompression und Lohnerwartungs­kompression (ifo-Ruffert-Studie 12. August 2026) nun (c) Sentiment-Sabotage durch arbeitgeberseitige Layoff-Implementierungs­strategie. Für spätere Läufe empfiehlt sich, die von den Autoren angekündigte Fortschreibung ihres *AI Sentiment Tracker* (Katz-Institut) sowie eine mögliche peer-reviewte Journalversion des SSRN-Working-Papers gezielt zu prüfen.
+- Für spätere Läufe bleiben mehrere wiederholte Aufnahmekandidaten markiert: *Anthropic Economic Policy Framework* (Juni 2026), *OpenAI Economic Research Exchange*-14-Grants-Ankündigung (5. August 2026), *OpenAI Mapping Europe's AI Workforce Opportunity / AI Jobs Transition Framework for the EU* (29. Juni 2026), *KI-MIG*-Inkrafttreten (29. Juli 2026), *IAB-Kurzbericht 8/2026*, *NBER Working Paper 34873* (Korinek/Lockwood) und *NBER Working Paper 35437* (Dynan/Elmendorf/Sheiner), *OECD Employment Outlook 2026*, *Sachverständigenrat*-*Productivity-Workshop* (24./25. August 2026 in Berlin), *China*-Gerichte-KI-Layoff-Urteile (Anschluss­veröffentlichung erwartet). Sobald einer dieser Kandidaten mit einer neuen Iteration oder Anschluss­veröffentlichung im Zeitfenster erscheint, ist eine eigene Passage in dem jeweils zugeordneten Cluster zu prüfen.
+- Das im Prompt festgelegte Empfängerpaar für Phase 5b (E-Mail und WhatsApp) wird nicht im Repo dokumentiert.
+
+---
+
 ## 2026-08-18 — Lauf 001 — Version 68.0 → Version 69.0
 
 ### Recherchekorridor
