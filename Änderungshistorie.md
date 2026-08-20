@@ -54,6 +54,72 @@
 
 ---
 
+## 2026-08-20 — Lauf 001 — Leerlauf (Version 70.0 bleibt bestehen)
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; keiner mit strukturell neuem Neuzugang im 7-Tage-Fenster nach Deduplikation gegen das Hauptdokument in Fassung Version 70.0 und gegen die Lauf-001-Einträge vom 17., 18. und 19. August 2026).
+- Zeitfenster: Standard 7 Tage (13. – 20. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (18. – 20. August 2026).
+- Anzahl Suchanfragen: 26 Web-Suchen im Recherche-Sub-Agent-Lauf (Cluster A–J durchsucht) plus drei ergänzende Verifikations­suchen aus dem Haupt­lauf (Stichtag 19./20. August 2026, gezielt auf Big-Tech-Layoffs, EU-/DE-Politikvorstöße und NBER-Neuerscheinungen im 48-Stunden-Fenster) sowie eine gezielte Dublettenprüfung im Hauptdokument über *grep* auf die Zeichenketten „Wyden", „AI-driven layoff", „Nationalversammlung … Korea" und „AI Transition Response Contribution".
+- Prinzip *Breite vor Tiefe*: Der Sub-Agent hatte die südkoreanische *AI Transition Response Contribution* aus dem Drei-Gesetzes-Paket der Abgeordneten *Lee Hae-min* und *Lee Joo-hee* vom 14. August 2026 (nach *TechTimes*, *edaily*, *ZDNet Korea*, *bloter*, *디지털데일리*) als potenziellen Kernbefund vorgeschlagen; die Dublettenprüfung im Hauptdokument ergab, dass genau dieser Vorgang mit Version 70.0 vollständig in § 6.1 als Aktualisierung vom 14. August 2026 (Passus „AI Transition Response Contribution / AI 전환 대응 분담금") sowie in § 11.3 (Sammelbeleg mit sämtlichen sechs Primär- und Sekundärquellen) dokumentiert ist. Der weitere im Fenster identifizierte Kandidat — die *Ron-Wyden*-Data-Center-Excise-Tax-Notus-Rezeption vom 6. August 2026 — liegt mit 14 Tagen deutlich außerhalb des 7-Tage-Fensters, wird als wiederholter Aufnahmekandidat für einen späteren Cluster-D-Vertiefungslauf vermerkt und war für den vorliegenden Lauf zu verwerfen. Sämtliche weiteren Fenster-Ereignisse im 7-Tage-Zeitraum (13. – 20. August 2026) — *OpenAI*-*ChatGPT-Ads*-Rollout in fünf weiteren Zielmärkten vom 11. August 2026, *OpenAI*-*Ultrafast*-*GPT-5.6-Sol*-Vorschau vom 13. August 2026, *DeepSeek*-*V4*-Peak/Off-Peak-Wirksamkeit ab 16. August 2026 um 16:00 UTC, *Z.ai*-*GLM-5.3*-Freigabe vom 14. August 2026, *Meta*-*Muse-Glimmer*-Freigabe vom 10. August 2026, *Anthropic*-*Sonnet-5*-Preisfestschreibung vom 10. August 2026, *Unitree*-Retail-Zeichnungsphase am 10./11. August 2026, *ifo*-Ruffert-Studie vom 12. August 2026, *Ma*/*The-Conversation*-Sentiment-Sabotage-Auslegung vom 12. August 2026 — sind sämtlich bereits in Version 65.0 bis 70.0 dokumentiert und wurden nicht erneut eingespielt.
+- Lauf 001 vom 20. August 2026 ist der Folgelauf zu Lauf 001 vom 19. August 2026 (Version 69.0 → 70.0) und bringt keinen Versionssprung mit sich — die vier Versionsmarkierungen (Dokumentkopf, Aktualitätshinweis am Dokumentende, `README.md`, letzter Abschlussblock in `Validierung-Ergebnisse.md`) bleiben auf Version 70.0.
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | C | Nationalversammlung der Republik Korea (Lee Hae-min / Lee Joo-hee) — Drei-Gesetzes-Paket zur *AI Transition Response Contribution*, 14. August 2026, Rezeption *TechTimes* 15. August 2026 | https://www.techtimes.com/articles/324577/20260815/south-korea-bills-make-employers-pay-when-ai-cuts-jobs-not-ai-vendors.htm | Dublette (Vorgang bereits Version 70.0 in § 6.1 und § 11.3 dokumentiert) |
+| 2 | D | Wyden, R. — *Data-Center-Excise-Tax*-White-Paper (Gross-Receipts-Tax auf US-Data-Center-Betreiber, Streichung föderaler Data-Center-Steuervergünstigungen), 6. August 2026, Rezeption *Notus* | https://www.notus.org/technology/democrats-split-ai-grows-wyden-tax-data-centers | verworfen (außerhalb 7-Tage-Fenster mit 14 Tagen; wiederholter Aufnahmekandidat für Cluster-D-Vertiefungslauf) |
+| 3 | F | Morrisons (UK Retail) — Ankündigung Stellenabbau von rund 5.000 Stellen im Rahmen des Turnaround-Programms, 18. August 2026 | https://www.reuters.com/business/retail-consumer/morrisons-turnaround/ | verworfen (kein expliziter KI-Bezug im Sinne der Cluster-F-Aufnahmekriterien; Restrukturierung ohne KI-Attribution) |
+| 4 | I | *NVIDIA*-Aktienkurs-Bewegung vom 18. August 2026 (−2,19 %) | — | verworfen (Marktrauschen ohne substantiellen Compute-Deal, Bemessungsbasis- oder Preisänderung, Modell-Release oder Regulierungsanknüpfung) |
+| 5 | C | Republic of Korea, Ministry of Economy and Finance (MOEF) — *2026 Tax Reform Package — Special Taxation Act (Domestic Production Tax Credit)*, 3. August 2026 | https://www.koreajoongangdaily.com/korea/make-it-here-pay-less-tax-govt-unveils-production-credit-for-chips-batteries/12805902 | Dublette (Vorgang bereits Version 68.0/70.0 in § 6.1 und § 11.3 dokumentiert) |
+| 6 | B | EU-Kommission — *Commission starts enforcing AI Act rules and new transparency requirements on 2 August* (EU-AI-Act-Enforcement Art. 4/50 ab 2. August 2026) | https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august | verworfen (2. August 2026 liegt außerhalb des 7-Tage-Fensters; Sachverhalt zudem bereits Version 66.0 in § 4.4 dokumentiert) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| — | — | Leerlauf | Keine Einarbeitung — Versionssprung, Build, Merge und Phase 5b entfallen gemäß Leerlauf-Regel (DailyPrompt.md, *Harte Stoppkriterien*, vierte Regel). | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Nationalversammlung Korea, *AI Transition Response Contribution*, 14. August 2026 | C | Dublette — vollständig in § 6.1 und § 11.3 der Fassung Version 70.0 dokumentiert (Lauf 001 vom 19. August 2026). |
+| 2 | Wyden Data-Center-Excise-Tax, 6. August 2026 | D | Außerhalb 7-Tage-Fenster (14 Tage zurück); wiederholter Aufnahmekandidat für Cluster-D-Vertiefungslauf. |
+| 3 | Morrisons UK Retail Layoffs, 18. August 2026 | F | Kein expliziter KI-Bezug (Retail-Turnaround-Restrukturierung); unterfällt Negativliste zu Cluster F. |
+| 4 | NVIDIA-Kursbewegung 18. August 2026 | I | Marktrauschen ohne substantielle policy-, preis- oder release-relevante Neuerung. |
+| 5 | MOEF-*Domestic Production Tax Credit*, 3. August 2026 | C | Dublette — bereits Version 68.0/70.0 in § 6.1 und § 11.3 dokumentiert. |
+| 6 | EU-AI-Act-Enforcement Art. 4/50, 2. August 2026 | B | Außerhalb 7-Tage-Fenster und zudem Dublette (Version 66.0 in § 4.4). |
+| 7 | NBER-Working-Papers 34873 (Korinek/Lockwood), 35437 (Dynan/Elmendorf/Sheiner) | A | Außerhalb 7-Tage-Fenster; wiederholte Aufnahmekandidaten. |
+| 8 | IAB-Kurzbericht 8/2026 (Friedrich/Kagerl) | E | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat. |
+| 9 | OECD Employment Outlook 2026 (Juli 2026) | A/E | Außerhalb 7-Tage-Fenster; bereits Version 60.0/70.0 in § 3.5 aufgenommen. |
+| 10 | Bundesnetzagentur *KI-MIG*-Inkrafttreten (29. Juli 2026) | B | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat. |
+| 11 | *Anthropic Economic Policy Framework*, Juni 2026 | D | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat. |
+| 12 | OpenAI *Economic Research Exchange* / 14-Grants-Ankündigung, 5. August 2026 | D | Außerhalb 7-Tage-Fenster (15 Tage zurück); wiederholter Aufnahmekandidat. |
+| 13 | NPR *China courts side with workers displaced by AI*, 10. August 2026 | C | Außerhalb 7-Tage-Fenster (10 Tage zurück); wiederholter Aufnahmekandidat für Cluster-C-Vertiefung. |
+| 14 | *Sachverständigenrat*-*Productivity-Workshop* 24./25. August 2026 | E | In der Zukunft — kein aufnehmbarer Sachverhalt vor Durchführung. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja (Sub-Agent-Lauf mit 26 Web-Suchen plus drei Verifikations­suchen im Haupt­lauf).
+- Deduplikation gegen Hauptdokument: Ja (gezielte *grep*-Prüfung auf die Zeichenketten „Wyden", „AI-driven layoff", „Nationalversammlung … Korea", „AI Transition Response Contribution", „Morrisons", „Data-Center-Excise-Tax").
+- Validierung gemäß `Validierung.md` ausgeführt: n/a (Leerlauf-Regel — keine Änderung am Hauptdokument, folglich kein neuer Block in `Validierung-Ergebnisse.md`).
+- PDF erstellt (`build_pdf.py`): n/a (Leerlauf-Regel — Build entfällt).
+- Word erstellt (`build_docx.py`): n/a (Leerlauf-Regel — Build entfällt).
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: n/a (Leerlauf-Regel — Versionssprung entfällt, Version 70.0 bleibt).
+- Phase 5b — E-Mail-Versand: entfällt (Leerlauf-Regel — Phase 5b Teil der ausgesetzten Phasen 2–6).
+- Phase 5b — WhatsApp-Versand: entfällt (Leerlauf-Regel — Phase 5b Teil der ausgesetzten Phasen 2–6).
+- Branch auf main gemerged und gelöscht: Nein (Leerlauf-Regel — Merge entfällt; der Leerlauf-Eintrag wird jedoch auf den Session-Branch `claude/determined-einstein-dwybci` committet und dorthin gepusht, damit die Lauf-Historie beim nächsten regulären Lauf lückenlos anschlussfähig bleibt).
+
+### Auffälligkeiten / offene Punkte
+
+- Der Sub-Agent-Recherche­lauf hatte die südkoreanischen *AI-Layoff-Levy*-Bills der Abgeordneten Lee Hae-min und Lee Joo-hee vom 14. August 2026 nach *TechTimes*-Rezeption als „klare Empfehlung Nr. 1" priorisiert eingestuft; die Dublettenprüfung ergab jedoch, dass exakt dieser Vorgang bereits mit Version 70.0 (Lauf 001 vom 19. August 2026) in § 6.1 als Aktualisierung vom 14. August 2026 (Passus „AI Transition Response Contribution / AI 전환 대응 분담금") sowie in § 11.3 (Sammelbeleg mit den sechs Primär- und Sekundärquellen *National Assembly*, *edaily*, *ZDNet Korea*, *bloter*, *디지털데일리*, *TechTimes*) vollständig dokumentiert ist. Die Angabe des Sub-Agents, der Vorgang sei „noch nicht im Papier", war falsch; die Deduplikation gegen das Hauptdokument in Fassung Version 70.0 hat den Fehler des Sub-Agents korrigiert.
+- Wiederholte Aufnahmekandidaten außerhalb des 7-Tage-Fensters (weiterhin nicht übernommen): NBER 34873 (Korinek/Lockwood, Februar 2026), NBER 35437 (Dynan/Elmendorf/Sheiner, Juni 2026), IAB-Kurzbericht 8/2026 (Friedrich/Kagerl, Mai 2026), Bundesnetzagentur *KI-MIG*-Inkrafttreten (29. Juli 2026), OpenAI *Economic Research Exchange* / 14-Grants-Ankündigung (5. August 2026), *Anthropic Economic Policy Framework* (Juni 2026), NPR-*China-courts*-Bericht (10. August 2026), *Ron-Wyden*-*Data-Center-Excise-Tax*-Notus-Rezeption (6. August 2026 — neuer Aufnahmekandidat aus dem Lauf 20. August 2026).
+- Der *Sachverständigenrat*-*Productivity-Workshop* vom 24./25. August 2026 liegt in der Zukunft und wird für einen Lauf nach dem 25. August 2026 vorgemerkt.
+
+---
+
 ## 2026-08-19 — Lauf 001 — Version 69.0 → Version 70.0
 
 ### Recherchekorridor
