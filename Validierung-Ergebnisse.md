@@ -7,6 +7,58 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 21. August 2026 (Lauf 001 vom 21. August 2026) — Version 70.0 → Version 71.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Kapitelstruktur (11 Kapitel plus Zusammenfassung) unverändert; neuer Absatz „Empirische Ergänzung Kohorten-Dimension" strukturell an bestehende § 3.5-Systematik angeschlossen (nach dem Ma-Absatz und vor dem Kapitel-3-Trennstrich). |
+| 2.1.2 Nummerierung | OK | Keine neuen Kapitel-/Unterabschnittsnummern; Zähler unverändert (fünf Typen, drei Säulen, sieben Empfehlungen). |
+| 2.1.3 Querverweise | OK | Neuer Absatz referenziert § 3.5, § 6.1, § 8.3 (Teilhabefrage), § 8.4 (Systemstabilität) und § 9.1 — sämtliche Zielabschnitte existieren im Dokument. |
+| 2.1.4 Roter Faden | OK | Goldman-Sachs- und Bank-of-Korea-Datenpunkte erweitern die in § 3.5 laufende Aggregat-vs.-Frühindikator-Kette (Massenkoff/McCrory März 2026, Anthropic-81k-Folgeband April 2026, Yale Budget Lab Mai 2026, FEDS Note Juli 2026, McCrory-Essay Juli 2026, ifo-Ruffert August 2026, Ma-Sentiment-Sabotage-Kanal August 2026) um eine explizite Kohorten-/Generationsdimension. |
+| 2.1.5 Formatierung | OK | Fett-Kursiv-Auszeichnungen einheitlich; Absatzformat identisch zur Ma-Ergänzung. |
+| 2.2.1 Sachliche Richtigkeit | OK | Datum (19. August 2026 Goldman Sachs, 18. August 2026 Bank of Korea), Autoren (Briggs/Hatzius für Goldman; Oh Sam-il für BOK), Kernkennzahlen (Call-Center-Untertrend US −39 %, CA −33 %, DE −27 %; 268.000 von 285.000 Netto-Jugendarbeitsplatzverlusten in KI-exponierten Sektoren; 230.000 Netto-Zugewinn bei Über-50-Jährigen; sektorspezifische Rückgänge IT-Services 31,4 %, Verlagswesen 27,4 %, Computer­programmierung 16,6 %, professionelle Dienstleistungen 11,6 %) im Zuge von drei gezielten Websuchen und zwei Webfetches (Yahoo Finance, PYMNTS, IBTimes UK, Korea Times) verifiziert. |
+| 2.2.2 Redundanzprüfung | OK | Keine explizite Kohorten-/Generations­dimension im bisherigen Dokument dokumentiert; Massenkoff/McCrory referenziert die 22–25-Jährigen als „tentative Hinweise", Ruffert Junior-vs.-Senior-Löhne (Erwartungs­messung), Ma Fluktuation/Einstellungs­raten firm-level — der Goldman-Bank-of-Korea-Datenpunkt fügt cross-country vergleichende (Goldman) und quantitative Aggregat- (BOK) Anker hinzu; keine Dopplung. |
+| 2.2.3 Argumentation | OK | Kohorten-Dimension als komplementärer Erklärungspfad zu (a) *„jagged capability"*-Struktur (McCrory), (b) Lohnkompression (Ruffert) und (c) Sentiment-Sabotage-Kanal (Ma) klar eingeordnet; Rückwirkungen auf § 8.3, § 8.4 und § 9.1 explizit ausgewiesen. |
+| 2.2.4 Ausgewogenheit | OK | Konjunktivpflicht (§ 4.2 Claude.md) beachtet: Goldman-Aggregat-Einordnung („limited to a narrow set of industries and workers") und Sell-Side-Charakter der Studie explizit vermerkt; BOK-Kernkennzahlen als Kohorten­analyse gekennzeichnet, methodische Baseline (Juni 2022 = ChatGPT-Startpunkt) referenziert. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe des neuen Absatzes ohne Auffälligkeiten. |
+| 2.3.2 Terminologie | OK | „Kohorten-Dimension", „Generationsdimension", „Berufseinsteigerinnen und -einsteiger" konsistent mit § 3.5-Vokabular verwendet; Erstauftreten in Fließtext eingeführt. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Goldman-Sachs- und Bank-of-Korea-Belege in § 11.1 (Ökonomische Forschung); thematisch stimmig. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-Zitierstil eingehalten; vollständige URLs; Autorenreihe (Briggs, J., Hatzius, J. et al. für Goldman; Oh, S. für BOK) und Publikationsreihe (Goldman Sachs Global Investment Research, Global Economics Comment; Bank of Korea Research Department) angegeben. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Goldman-Studie unmittelbar aus dem 48-Stunden-Fenster (19. August 2026); Bank-of-Korea-Studie aus dem 7-Tage-Fenster (18. August 2026); breite Rezeption durch CNBC, Yahoo Finance, PYMNTS, IBTimes UK, Dataconomy (Goldman) und The Korea Times, IANS, Xinhua, TechTimes (BOK) verifiziert. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Yahoo-Finance-URL (Goldman), PYMNTS-URL (Goldman), Korea-Times-URL (BOK) per Webfetch erreicht und inhaltlich verifiziert; IBTimes-UK-URL per WebFetch erreicht; CNBC-URL per Websuche indexiert (WebFetch mit HTTP 403 blockiert, Inhalt aber über PYMNTS-Rezeption redundant). |
+| 2.4.5 Zitatgenauigkeit | OK | Zentrale Datenpunkte (10 % KI-Exposition → 0,1 pp Aggregat-Drag bzw. > 0,6 pp Australien / > 0,2 pp USA Entry-Level; Call-Center-Untertrend −39/−33/−27 %; 268.000/285.000 Jugendbeschäftigungsverluste; 230.000/173.000 Über-50-Zugewinn; Sektor-Prozentsätze IT-Services 31,4 %, Publishing 27,4 %, Computer­programmierung 16,6 %, professionelle Dienstleistungen 11,6 %) mit WebFetch- und Websuch-Ergebnissen konsistent. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | De-la-Feria-Markierung unverändert; Sanders-Report-Markierung seit Version 5.0 aufgehoben. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionssprung 70.0 → 71.0 am Dokumentkopf (Zeile 12), im Aktualitätshinweis (Zeile 1162; Stichtag 21. August 2026, Lauf-Kennung 21. August 2026), in `README.md` (Header Zeile 7 und Zitiervorschlag Zeile 44) sowie in diesem Abschlussblock einheitlich. |
+| 2.6 Automatisierte Prüfung | n/a | Keine dedizierten Prüfskripte im Projekt vorhanden; manuelle Stichproben ausgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine im Rahmen dieses Laufs gefundenen Abweichungen. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine erforderlich. | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: n/a (keine Fehler gefunden)
+- Automatisierte Skripte (sofern vorhanden): n/a
+
+### Abschluss
+
+- Alle Fehler behoben: n/a (keine gefunden)
+- Neue Version: 71.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 19. August 2026 (Lauf 001 vom 19. August 2026) — Version 69.0 → Version 70.0
 
 ### Prüfergebnis
