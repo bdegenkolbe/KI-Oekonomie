@@ -7,6 +7,58 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 23. August 2026 (Lauf 001 vom 23. August 2026) — Version 71.0 → Version 72.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Kapitelstruktur (11 Kapitel plus Zusammenfassung) unverändert; neuer Absatz „Empirische Ergänzung USA — Federal-Reserve-FOMC-Minutes (19. August 2026, Sitzung 28./29. Juli 2026)" strukturell in § 3.5 an bestehende Systematik angeschlossen (nach dem Kohorten-Absatz und vor dem Kapitel-3-Trennstrich); neue Aktualisierung (21. August 2026) — *Future Response Fund* in § 6.1 vorangestellt vor die bereits eingepflegten Aktualisierungen vom 3. und 14. August 2026 (chronologisch umgekehrte, im Text ausdrücklich referenzierte Anordnung). |
+| 2.1.2 Nummerierung | OK | Keine neuen Kapitel-/Unterabschnittsnummern; Zähler unverändert (fünf Typen, drei Säulen, sieben Empfehlungen). |
+| 2.1.3 Querverweise | OK | Neuer FOMC-Absatz referenziert § 3.5, § 4.2 Claude.md, § 5.1, § 8.3, § 8.4, § 9.1; neuer Future-Response-Fund-Absatz referenziert § 4.2 Claude.md, § 4.5 (H.R. 10044-Vergleichspunkt), § 5.1, § 5.4, § 6.1, § 8.2 und § 8.3 — sämtliche Zielabschnitte existieren im Dokument. |
+| 2.1.4 Roter Faden | OK | FOMC-Minutes fügen der in § 3.5 laufenden Aggregat-vs.-Frühindikator-Kette (Massenkoff/McCrory März 2026, Anthropic-Cadences-Bericht Juni 2026, Yale Budget Lab Mai 2026, FEDS Note Juli 2026, McCrory-Essay Juli 2026, ifo-Ruffert August 2026, Ma-Sentiment-Sabotage-Kanal August 2026, Goldman-Sachs- und Bank-of-Korea-Kohortendaten August 2026) einen geldpolitisch-institutionellen Anker hinzu. Future Response Fund ergänzt die südkoreanische Reformperiode-Chronologie um eine dritte Wertschöpfungsschicht (Fertigung / Beschäftigung / Kapitalertrag) und bindet sie an die Staatsfonds-Debatte in § 5.4 an. |
+| 2.1.5 Formatierung | OK | Fett-Kursiv-Auszeichnungen einheitlich; Absatzformat identisch zu den Vorgänger-Aktualisierungen; Ausdruck „Aktualisierung (Datum)" konsistent zum § 6.1-Muster. |
+| 2.2.1 Sachliche Richtigkeit | OK | Datum FOMC-Sitzung (28./29. Juli 2026), Datum FOMC-Minutes-Veröffentlichung (19. August 2026), Bloomberg-Auszählung (18 KI-Erwähnungen in 15 Absätzen, Bloomberg-Titel vom 20. August 2026), Fed-Zitate zu „limited net effect on employment so far", „both hiring and firing low", KI-Materialpreise (Chips, Stahl), Produktivitätsausblick und primäre Unsicherheits­quelle im Zuge von drei WebSearches und einem WebFetch der Federal-Reserve-Sitzungsdokumentation verifiziert. Datum der Ankündigung des Future Response Fund (21. August 2026), Ministerium (Ministry of Planning and Budget), Fondsvolumen (mindestens 100 Billionen KRW / rund 72–145 Milliarden USD nach *KED-Global*-Bewertung), vier Investitionsfelder (Wachstumsmotoren / Jugend / Regionen / Bildung), Governance-Merkmale (Fiscal-Reservoir, 20-%-Umschichtungsflexibilität), Legislativzeitplan (Kabinettsberatung 1. September 2026, Nationalversammlungsvorlage 3. September 2026) im Zuge von zwei WebSearches und zwei WebFetches (Korea Herald, Seoul Economic Daily) verifiziert. |
+| 2.2.2 Redundanzprüfung | OK | Keine bestehende Passage referenziert das am 19. August 2026 veröffentlichte FOMC-Sitzungsprotokoll oder den am 21. August 2026 angekündigten Future Response Fund; die drei neu dokumentierten Wertschöpfungsschichten (Fertigung / Beschäftigung / Kapitalertrag) werden erstmals konsistent zusammengeführt, ohne die bereits vorhandenen 3.-August-2026- und 14.-August-2026-Passagen inhaltlich zu duplizieren. |
+| 2.2.3 Argumentation | OK | FOMC-Auslegung als vierfacher Anschlusspunkt für die Steuerdebatte präzise ausgewiesen (institutionelle Bestätigung der McCrory-/Yale-/Cadences-Linie, „both hiring and firing low" als Anpassungsmuster, kurzfristige Inflations- vs. mittelfristige Produktivitätswirkung, KI als primäre Unsicherheitsquelle); Future-Response-Fund-Auslegung als vierfacher Anschlusspunkt (Windfall-Zugriffslogik, präventiv-investive Rückverteilung, Fiscal-Reservoir-Ausgabenlogik als Pendant zu H.R. 10044-Einnahmenlogik, Zugriff auf bestehende Körperschaftsteuer statt Anteilsbeteiligung) klar strukturiert. |
+| 2.2.4 Ausgewogenheit | OK | Konjunktivpflicht (§ 4.2 Claude.md) beachtet: FOMC-Formulierungen als kollektive Auslegung des Beschlussgremiums und nicht als gesicherte empirische Befunde referenziert; Future Response Fund als angekündigtes, noch nicht verabschiedetes Reservoir dargestellt (Kabinettsberatung und Nationalversammlungsvorlage im Konjunktiv). |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe der neuen Absätze ohne Auffälligkeiten. |
+| 2.3.2 Terminologie | OK | „FOMC" ausgeschrieben (Federal Open Market Committee im Kontext bei FEDS-Note-Referenz bereits eingeführt); „Windfall Revenue" beim ersten Auftreten erläutert; „Fiscal Reservoir" als englischer Fachbegriff erläutert; „Deployer-Ebene", „primäre Unsicherheits­quelle" konsistent zu bisherigem Vokabular. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Beide neuen Belege in § 11.3 (Institutionelle und politische Dokumente); thematisch stimmig, sortiert nach existierender Positionierung (FOMC-Minutes hinter FEDS-Note vom 17. Juli 2026; Future Response Fund hinter Lee-Hae-min-Deployer-Beitragspaket vom 14. August 2026). |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-nahe Zitierweise eingehalten; vollständige URLs (Federal-Reserve-Board-htm, htm-Pressemeldung, PDF; Bloomberg; CNBC; KED Global; Seoul Economic Daily; Korea Herald; Korea JoongAng Daily; Yahoo Finance; MLex); Institutions-Autor-Angaben (Board of Governors of the Federal Reserve System; Ministry of Planning and Budget / Minister Park Hong-keun) präzise. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | FOMC-Minutes vom 19. August 2026 (4 Tage vor heutigem Schnitt) primärquellenverifiziert; Future Response Fund vom 21. August 2026 (2 Tage vor heutigem Schnitt) primärquellenverifiziert; breite Rezeption durch Reuters/Bloomberg/CNBC/MLex/KED-Global/Seoul-Economic-Daily/Korea-Herald/Korea-JoongAng-Daily belegt. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Federal-Reserve-Board-FOMC-Minutes-htm per WebFetch inhaltlich verifiziert; Korea-Herald-URL und Seoul-Economic-Daily-URL per WebFetch inhaltlich verifiziert; Bloomberg-URLs per WebFetch mit HTTP 403 blockiert, Inhalt aber über Bloomberg-eigene Suchindex-Rezeption verifiziert (Titel, Datum, Auszählung 18 KI-Erwähnungen). |
+| 2.4.5 Zitatgenauigkeit | OK | Zentrale FOMC-Aussagen („limited net effect on employment so far, with some workers being displaced and others benefiting from jobs created", „uncertainties associated with AI-related developments as well as current and anticipated productivity gains were keeping both hiring and firing low", „productivity gains associated with adoption of AI would eventually reduce production costs and increase aggregate supply", Chips-und-Stahl-Preise als Inflationstreiber) sowie zentrale Future-Response-Fund-Kennzahlen (100 Billionen KRW Anfangsvolumen, 20-%-Umschichtungsflexibilität, vier Investitionsfelder, Kabinettsberatung 1. September / Vorlage 3. September 2026) mit WebFetch- und WebSearch-Ergebnissen konsistent. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | De-la-Feria-Markierung unverändert; Sanders-Report-Markierung seit Version 5.0 aufgehoben. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionssprung 71.0 → 72.0 am Dokumentkopf (Zeile 12), im Aktualitätshinweis (Zeile 1170; Stichtag 23. August 2026, Lauf-Kennung 23. August 2026), in `README.md` (Header Zeile 7 und Zitiervorschlag Zeile 44) sowie in diesem Abschlussblock einheitlich. |
+| 2.6 Automatisierte Prüfung | n/a | Keine dedizierten Prüfskripte im Projekt vorhanden; manuelle Stichproben ausgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine im Rahmen dieses Laufs gefundenen Abweichungen. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine erforderlich. | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: n/a (keine Fehler gefunden)
+- Automatisierte Skripte (sofern vorhanden): n/a
+
+### Abschluss
+
+- Alle Fehler behoben: n/a (keine gefunden)
+- Neue Version: 72.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 21. August 2026 (Lauf 001 vom 21. August 2026) — Version 70.0 → Version 71.0
 
 ### Prüfergebnis
