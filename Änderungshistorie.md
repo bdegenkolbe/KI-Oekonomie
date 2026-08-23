@@ -129,7 +129,7 @@
 - Versionsnummer in Hauptdokument, `README.md`, `Validierung-Ergebnisse.md` aktualisiert: Ja
 - E-Mail-Versand (Phase 5b): Fallback-Datei geschrieben (kein Versand-Tool in der Session erreichbar; das *Microsoft-365*-MCP listet `outlook_send_mail`, gibt beim Aufruf jedoch einen `permission_error` „This tool is not available." zurück — Rechteumfang der Session deckt den Send-Endpoint nicht ab; Inhalt liegt in `daily-mail.txt`, gitignored).
 - WhatsApp-Versand (Phase 5b): Fallback-Datei geschrieben (kein WhatsApp-MCP in der Session erreichbar; Inhalt liegt in `daily-whatsapp.txt`, gitignored).
-- Branch auf main gemerged und gelöscht: (wird in Phase 6 protokolliert)
+- Branch auf main gemerged und gelöscht: Ja (Merge-Commit `2e44323` auf `main`; lokaler Session-Branch `claude/determined-einstein-zsgc39` gelöscht; Remote-Branch-Löschung gab HTTP 403 zurück — dieselbe Schutzregel wie bei den vorangegangenen Läufen).
 
 ### Auffälligkeiten / offene Punkte
 
