@@ -54,6 +54,96 @@
 
 ---
 
+## 2026-08-24 — Lauf 001 — Version 72.0 → Version 73.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, B, C, E, G, H, J ohne strukturell neuen Neuzugang im 7-Tage-Fenster). Ein strukturell neuer Neuzugang im 7-Tage-Fenster in Cluster I/D (Frontier-Markt­struktur, KI-Renten): (a) *Bloomberg*-Berichterstattung „AI Infrastructure Boom Drives Broadcom's $60 Billion Debt Financing Talks" vom 20. August 2026 zur mit *Apollo Global Management* und *Blackstone* sondierten Fremdkapital-Struktur (>60 Mrd. USD, potenziell bis ~100 Mrd. USD; ~30 Mrd. Junior-Debt-Tranche + 60–70 Mrd. Senior-Secured-Tranche mit *Broadcom*-Teilbürgschaft) zur Refinanzierung von *Custom-Silicon*-Auslieferungen an *Anthropic* und weitere Frontier-Kunden, aufbauend auf der bereits im Juni 2026 zwischen *Broadcom*, *Apollo* und *Blackstone* strukturierten 35-Milliarden-USD-Erst­finanzierung (1 GW erste Ausbaustufe, > 20 GW bis 2028); (b) *Bloomberg*-Berichterstattung „Anthropic's Annualized Revenue Tops $65 Billion Before IPO" vom 17. August 2026 mit Q2-2026-Umsatz ~11,5 Mrd. USD gegenüber ~787 Mio. USD Vorjahresquartal (erstmals operatives Ergebnis positiv), annualisierter Run-Rate ~65 Mrd. USD Ende Juli 2026 und flankierender Rezeption (*Fortune*, *Qz*, *futuresearch*, *techstartups*, *Digital Applied*) zu Investoren-Zielbewertung ~2 Bio. USD für ein Erstlistungsfenster im Oktober 2026 und erwartetem *S-1*-Prospekt gegen Ende August 2026. Zusammenführung in einem einzigen neuen Absatz in § 8.2 als sechste Konstruktion der Compute-Finanzierungs­schicht (Vendor-financed junior/senior debt mit Design­partner als Teilbürge und Rohstoff-Lieferant), Rückwirkung auf § 4.5 (Bestandsanknüpfung) und § 8.3 (KI-Renten-Prüfstein).
+- Zeitfenster: Standard 7 Tage (17. – 24. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (22. – 24. August 2026).
+- Anzahl Suchanfragen: 12 Web-Suchen (Cluster A–J durchsucht) plus ein gezielter WebFetch (*techstartups*-Tagesüberblick zum 21. August 2026 für den Broadcom-Debt-Kontext).
+- Prinzip *Breite vor Tiefe*: Der aufgenommene Datenpunkt adressiert die im Papier bereits laufende Compute-Finanzierungs­schicht-Kette (§ 8.2) und wird in einem einzigen neuen Absatz eingearbeitet. Ebenfalls im Zeitfenster identifiziert, aber nicht als eigener Neueintrag aufgenommen: *TechStartups*-Tagesüberblick 21. August 2026 (Broadcom-Debt-Kontext, Anthropic-IPO, Brasilien 444 Mio. USD KI-Investition, Nevada 5.000-Robotaxi-Genehmigung, NY überholt Bay Area — außerhalb der engeren Steuerdebatte oder bereits durch die aufgenommenen Bloomberg-Belege abgedeckt); *Warsh*-Jackson-Hole-Rede-Vorschau (*TechTimes* 21. August 2026 / Rede selbst 28. August 2026 — Rede noch nicht gehalten, außerhalb Zeitfenster; wiederholter Aufnahmekandidat für Folge-Lauf); *Stanford Canaries*-August-2026-Update (12. August 2026, 12 Tage zurück, außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat); *NBER Working Paper w35618* (Benzell/Kotlikoff/Ye, ~17./18. August 2026, thematisch an anderer Debattenschicht); *Wyden*-Data-Center-Excise-Tax (6. August 2026, außerhalb Fenster); *Ramp AI Index* August 2026 (12. August 2026, außerhalb Fenster); *NBER Working Papers 34873, 35437* (außerhalb Fenster); *IAB-Kurzbericht 8/2026* (außerhalb Fenster); *OECD Employment Outlook 2026* (außerhalb Fenster); *KI-MIG*-Inkrafttreten (29. Juli 2026, außerhalb Fenster); *Anthropic Economic Policy Framework* (Juni 2026, außerhalb Fenster); *OpenAI Economic Research Exchange*-14-Grants-Ankündigung (5. August 2026, außerhalb Fenster); *NPR*-China-Gerichte-KI-Layoff (10. August 2026, außerhalb Fenster); *Oracle*-August-Layoff-Vorbereitung (11. August 2026, außerhalb Fenster); *Casar*-*AI Tax and Work Protection Act* (H.R. 10044, 6. August 2026, außerhalb Fenster) — ergänzten das Dokument nicht um strukturell neue Facetten und wurden nicht übernommen.
+- Lauf 001 vom 24. August 2026 ist der Folgelauf zu Lauf 001 vom 23. August 2026 (Version 71.0 → 72.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | I/D | Bloomberg, *AI Infrastructure Boom Drives Broadcom's $60 Billion Debt Financing Talks*, 20. August 2026 | https://www.bloomberg.com/news/articles/2026-08-20/broadcom-seeks-more-than-60-billion-in-latest-ai-debt-deal | übernommen (Primärberichterstattung; Volumen, Struktur und Bürgschaftsanteil dokumentiert) |
+| 2 | I/D | Yahoo Finance, *Broadcom Seeks More Than $60 Billion in Latest AI Debt Deal*, 20. August 2026 | https://finance.yahoo.com/technology/ai/articles/broadcom-seeks-more-60-billion-201702584.html | übernommen (Sekundärrezeption Bloomberg) |
+| 3 | I/D | TheNextWeb, *Broadcom seeks more than $60bn in debt to fund AI chips for Anthropic*, 20./21. August 2026 | https://thenextweb.com/news/broadcom-60bn-ai-chip-debt-anthropic | übernommen (Sekundärrezeption; ergänzende Kontext­angaben zur Juni-2026-Erst­finanzierung) |
+| 4 | I/D | CNBC (Video), *Broadcom's newest debt deal*, 21. August 2026 | https://www.cnbc.com/video/2026/08/21/broadcoms-newest-debt-deal.html | übernommen (Sekundärrezeption) |
+| 5 | I/D | Dealroom News, *Broadcom seeks over $60B in debt to bankroll AI chips for Anthropic*, 20. August 2026 | https://dealroom.co/news/146284-broadcom-seeks-over-60b-in-debt-to-bankroll-ai-chips-for-anthropic/ | übernommen (Sekundärrezeption) |
+| 6 | I/D | InsiderFinance, *Broadcom Debt Financing Negotiations Expand*, 20. August 2026 | https://www.insiderfinance.io/news/broadcom-debt-financing-negotiations-expand | übernommen (Sekundärrezeption) |
+| 7 | I/D | WMBD Radio, *Broadcom seeks more than $60 billion in latest AI debt deal, Bloomberg News reports*, 20. August 2026 | https://wmbdradio.com/2026/08/20/broadcom-seeks-more-than-60-billion-in-latest-ai-debt-deal-bloomberg-news-reports/ | übernommen (Sekundärrezeption) |
+| 8 | I/D | Bloomberg, *Anthropic's Annualized Revenue Tops $65 Billion Before IPO*, 17. August 2026 | https://www.bloomberg.com/news/articles/2026-08-17/anthropic-revenue-run-rate-surpasses-65-billion-ahead-of-ipo | übernommen (Primärberichterstattung; Umsatz-Kennzahlen dokumentiert) |
+| 9 | I/D | Qz, *Anthropic investors target $2 trillion IPO valuation in October*, 21. August 2026 | https://qz.com/anthropic-ipo-2-trillion-valuation-october-081326 | übernommen (Sekundärrezeption; Zielbewertung und Zeitfenster dokumentiert) |
+| 10 | I/D | futuresearch, *Anthropic Revenue and Valuation in 2026 Leading to IPO*, 21. August 2026 | https://futuresearch.ai/anthropic-financial-forecast/ | übernommen (Sekundärrezeption; Prognose-Rahmen) |
+| 11 | I/D | Tech Startups, *Top Tech News Today, August 21, 2026 — Anthropic, Apple, Broadcom, Google, Nvidia, OpenAI, Tesla & More*, 21. August 2026 | https://techstartups.com/2026/08/21/top-tech-news-today-august-21-2026-anthropic-apple-broadcom-google-nvidia-openai-tesla-more/ | übernommen (Sekundärrezeption; tagesbezogene Kontextierung) |
+| 12 | I/D | Digital Applied, *Anthropic Files for IPO: What It Means for Claude Users*, August 2026 | https://www.digitalapplied.com/blog/anthropic-ipo-filing-2026-claude-stack-analysis | übernommen (Sekundärrezeption) |
+| 13 | A/E | Stanford Digital Economy Lab / Brynjolfsson E., Chandar B., Chen R., *Canaries in the Coal Mine — August 2026 Update*, 12. August 2026 | https://digitaleconomy.stanford.edu/news/canariesaug26/ | verworfen (12 Tage zurück, außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 14 | A/H | NBER Working Paper w35618, Benzell/Kotlikoff/Ye, ~17./18. August 2026 | https://www.nber.org/papers/w35618 | verworfen (thematisch an anderer Debattenschicht; wiederholter Aufnahmekandidat für spätere Cluster-A/H-Vertiefung) |
+| 15 | B/D | Notus / Wyden Data-Center-Excise-Tax, 6. August 2026 | https://www.notus.org/technology/democrats-split-ai-grows-wyden-tax-data-centers | verworfen (18 Tage zurück, außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 16 | B/D | Casar et al., *AI Tax and Work Protection Act* (H.R. 10044), 6. August 2026 | https://casar.house.gov/media/press-releases/news-casar-leads-introduction-new-bill-protect-workers-threat-ai-mass | verworfen (18 Tage zurück, außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat; Rückwirkung auf § 4.5) |
+| 17 | I | Ramp AI Index August 2026 (Kharazian), 12. August 2026 | https://ramp.com/data/ai-index-august-2026 | verworfen (12 Tage zurück, außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 18 | A/F | *Warsh*-Jackson-Hole-Rede (28. August 2026, angekündigt) — Vorschau *TechTimes* 21. August 2026 | https://www.techtimes.com/articles/325228/20260821/jackson-hole-2026-what-watch-when-warsh-steps-podium-friday.htm | verworfen (Rede noch nicht gehalten; für Folge-Lauf 28./29. August 2026 markiert) |
+| 19 | F | Business Insider / TheNextWeb, *Oracle plans fresh August layoffs as its AI spending spree bites*, 11. August 2026 | https://thenextweb.com/news/oracle-august-2026-layoffs-ai-capex | verworfen (13 Tage zurück, außerhalb 7-Tage-Fenster) |
+| 20 | A | NBER Working Paper 35437, Dynan/Elmendorf/Sheiner, Juni 2026 | https://www.nber.org/papers/w35437 | verworfen (außerhalb Fenster; wiederholter Aufnahmekandidat) |
+| 21 | A | NBER Working Paper 34873, Korinek/Lockwood, Februar 2026 | https://www.nber.org/papers/w34873 | verworfen (außerhalb Fenster; wiederholter Aufnahmekandidat) |
+| 22 | E | IAB-Kurzbericht 8/2026, Friedrich/Kagerl, Mai 2026 | https://iab.de/kuenstliche-intelligenz-in-deutschen-betrieben-jeder-vierte-betrieb-nutzt-mittlerweile-generative-ki/ | verworfen (außerhalb Fenster; wiederholter Aufnahmekandidat) |
+| 23 | A/E | OECD Employment Outlook 2026, Juli 2026 | https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en.html | verworfen (außerhalb Fenster; wiederholter Aufnahmekandidat) |
+| 24 | B | Bundesnetzagentur *KI-MIG*-Inkrafttreten (29. Juli 2026) | https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/start_ki.html | verworfen (26 Tage zurück, außerhalb Fenster; wiederholter Aufnahmekandidat) |
+| 25 | D | Anthropic *Economic Policy Framework* (Juni 2026) | https://www-cdn.anthropic.com/files/4zrzovbb/website/9ea607a5dd67c168093829b701f3a0a6d21156d5.pdf | verworfen (außerhalb Fenster; wiederholter Aufnahmekandidat) |
+| 26 | D | OpenAI *Economic Research Exchange* / 14-Grants-Ankündigung, 5. August 2026 | https://openai.com/index/economic-research-exchange | verworfen (19 Tage zurück, außerhalb Fenster; wiederholter Aufnahmekandidat) |
+| 27 | C | NPR / KTEP / WKNOFM, *China's courts side with workers displaced by AI*, 10. August 2026 | https://www.npr.org/2026/08/10/nx-s1-5822592/chinas-courts-side-with-workers-displaced-by-ai-but-employees-remain-anxious | verworfen (14 Tage zurück, außerhalb Fenster; wiederholter Aufnahmekandidat) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 8.2 (neuer Absatz „Zweite Fortschreibung (Stand 24. August 2026)" unmittelbar nach der „Nachtrag zu den drei Konstruktionen"-Passage und vor dem Apple-Talent-Bestands-Absatz) | Ergänzung | Nach *Bloomberg*-Berichterstattung vom 20. August 2026 sondiert *Broadcom* gemeinsam mit *Apollo Global Management* und *Blackstone* eine Fremdkapital-Struktur von >60 Mrd. USD (rund 30 Mrd. Junior-Debt-Tranche + 60–70 Mrd. Senior-Secured-Tranche mit *Broadcom*-Teilbürgschaft, Gesamtvolumen potenziell bis rund 100 Mrd. USD) zur Finanzierung von *Custom-Silicon*-Auslieferungen an *Anthropic* und weitere Frontier-Kunden, aufbauend auf der bereits im Juni 2026 strukturierten 35-Mrd.-USD-Erst­finanzierung (1 GW erste Ausbaustufe, >20 GW bis 2028); zeitgleich hat *Anthropic* nach *Bloomberg*-Berichterstattung vom 17. August 2026 Ende Juli 2026 eine annualisierte Umsatz-Run-Rate von rund 65 Mrd. USD erreicht (Q2-2026-Umsatz ~11,5 Mrd. USD vs. ~787 Mio. USD Vorjahresquartal, erstmals operatives Ergebnis positiv), Investoren arbeiten nach *Fortune*-, *Qz*-, *futuresearch*- und *techstartups*-Rezeption auf ein Erstlistungsfenster im Oktober 2026 bei ~2 Bio. USD Zielbewertung hin (*S-1*-Prospekt gegen Ende August 2026 erwartet); für die in § 8.2 entwickelte Rohstoff-Analogie ergänzt der Vorgang die fünf zuvor markierten Muster (i–v) um eine sechste Konstruktion (vi) *Vendor-financed junior/senior debt* mit Design­partner als Teilbürgen und Rohstoff-Lieferanten, mit unmittelbarer Rückwirkung auf § 4.5 (Bestandsanknüpfung) und § 8.3 (KI-Renten-Prüfstein). | 1–12 |
+| 2 | § 11.5 (zwei neue Einträge unmittelbar vor dem Ma-Sentiment-Beleg am Ende von Kapitel 11.5) | Ergänzung | Vollständige Belege zur *Broadcom*-Debt-Struktur (Bloomberg-Primärberichterstattung, Yahoo Finance, TheNextWeb, CNBC-Video, Dealroom, InsiderFinance, WMBD Radio) und zum *Anthropic*-Umsatz-/IPO-Meilenstein (Bloomberg-Primärberichterstattung, Fortune, Qz, futuresearch, techstartups, Digital Applied). | 1–12 |
+| 3 | Dokumentkopf `KI-Ökonomie.md` (Zeile 12), Aktualitätshinweis am Dokumentende, `README.md` (Header Zeile 7 und Zitiervorschlag Zeile 44), Abschlussblock im neuen Validierungsblock in `Validierung-Ergebnisse.md` | Aktualisierung | Versionssprung 72.0 → 73.0 an allen vier Stellen; im Aktualitätshinweis Anpassung des Stichtags von *23. August 2026* auf *24. August 2026* und der Lauf-Kennung von *Lauf 001 vom 23. August 2026* auf *Lauf 001 vom 24. August 2026*. | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 13 | Stanford Canaries-August-2026-Update (12. August 2026) | A/E | 12 Tage zurück, außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat für Folge-Lauf. |
+| 14 | NBER Working Paper w35618, Benzell/Kotlikoff/Ye | A/H | Weiterhin thematisch an anderer Debattenschicht; wiederholter Aufnahmekandidat. |
+| 15 | Notus / Wyden Data-Center-Excise-Tax (6. August 2026) | B/D | 18 Tage zurück, außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat. |
+| 16 | Casar et al., *AI Tax and Work Protection Act* H.R. 10044 (6. August 2026) | B/D | 18 Tage zurück, außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat mit Rückwirkung auf § 4.5. |
+| 17 | Ramp AI Index August 2026 (12. August 2026) | I | 12 Tage zurück, außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat. |
+| 18 | *Warsh*-Jackson-Hole-Rede-Vorschau *TechTimes* (21. August 2026) / Rede selbst 28. August 2026 | A/F | Rede noch nicht gehalten; für Folge-Lauf 28./29. August 2026 markiert. |
+| 19 | Oracle-August-Layoff-Vorbereitung (11. August 2026, TheNextWeb) | F | 13 Tage zurück, außerhalb 7-Tage-Fenster. |
+| 20 | NBER Working Paper 35437 Dynan/Elmendorf/Sheiner (Juni 2026) | A | Außerhalb Fenster; wiederholter Aufnahmekandidat. |
+| 21 | NBER Working Paper 34873 Korinek/Lockwood (Februar 2026) | A | Außerhalb Fenster; wiederholter Aufnahmekandidat. |
+| 22 | IAB-Kurzbericht 8/2026 Friedrich/Kagerl (Mai 2026) | E | Außerhalb Fenster; wiederholter Aufnahmekandidat. |
+| 23 | OECD Employment Outlook 2026 (Juli 2026) | A/E | Außerhalb Fenster; wiederholter Aufnahmekandidat. |
+| 24 | *KI-MIG* (29. Juli 2026, Bundesnetzagentur) | B | 26 Tage zurück, außerhalb Fenster; wiederholter Aufnahmekandidat. |
+| 25 | *Anthropic Economic Policy Framework* (Juni 2026) | D | Außerhalb Fenster; wiederholter Aufnahmekandidat. |
+| 26 | *OpenAI Economic Research Exchange* 14-Grants-Ankündigung (5. August 2026) | D | 19 Tage zurück, außerhalb Fenster; wiederholter Aufnahmekandidat. |
+| 27 | NPR, *China's courts side with workers displaced by AI* (10. August 2026) | C | 14 Tage zurück, außerhalb Fenster; wiederholter Aufnahmekandidat. |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja (Broadcom-Debt-Struktur vom 20. August 2026 nicht referenziert, obwohl § 8.2 die Compute-Finanzierungs­schicht mit fünf Konstruktionen bereits dokumentiert; Anthropic-Umsatz-/IPO-Meilenstein vom 17.–21. August 2026 nicht referenziert, obwohl die IPO-Vorbereitung anderswo im Dokument angemerkt ist)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block *Validierung 24. August 2026 — Version 72.0 → Version 73.0* in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, `README.md`, `Validierung-Ergebnisse.md` aktualisiert: Ja
+- E-Mail-Versand (Phase 5b): Fallback-Datei geschrieben (kein Versand-Tool in der Session erreichbar; keine `mail_send`/`send_mail`/`send_message`/`outlook_send`-Werkzeuge in der geladenen Toolset-Registry auffindbar; Inhalt liegt in `daily-mail.txt`, gitignored)
+- WhatsApp-Versand (Phase 5b): Fallback-Datei geschrieben (kein WhatsApp-MCP in der Session erreichbar; Inhalt liegt in `daily-whatsapp.txt`, gitignored)
+- Branch auf main gemerged und gelöscht: siehe Auffälligkeiten (Merge- und Cleanup-Status wird unmittelbar nach Push in einem Folgelogging-Commit nachgetragen)
+
+### Auffälligkeiten / offene Punkte
+
+- Die sechste Konstruktion der Compute-Finanzierungs­schicht (Vendor-financed junior/senior debt mit Design­partner als Teilbürgen) verdichtet die in § 8.2 dokumentierte Kapitalmarkt-Integration der KI-Compute-Wertschöpfung um eine Konstruktion, die den Design­partner erstmals in eine Bürgen-Rolle bringt und damit die Verflechtung von Rohstoff-Zugriff und Fremdkapital-Aufbringung institutionalisiert. Für kommende Läufe sollten die zu erwartende *Anthropic*-*S-1*-Einreichung (gegen Ende August 2026), die *Warsh*-Jackson-Hole-Rede (28. August 2026), das *Anthropic*-Erstlistungsfenster (Oktober 2026, Zielbewertung ~2 Bio. USD) sowie die parlamentarische Behandlung des südkoreanischen *Future Response Fund* (Kabinett 1. September, Nationalversammlung 3. September 2026) und der *AI Transition Response Contribution* gezielt weiterverfolgt werden.
+- Weiterhin offene wiederholte Aufnahmekandidaten: *Stanford Canaries*-August-2026-Update (12. August 2026), *NBER Working Paper w35618* (~17./18. August 2026), *Wyden*-Data-Center-Excise-Tax (6. August 2026), *Casar*-*AI Tax and Work Protection Act* (H.R. 10044, 6. August 2026), *Ramp AI Index* August 2026 (12. August 2026), *Anthropic Economic Policy Framework* (Juni 2026), *OpenAI Economic Research Exchange*-14-Grants-Ankündigung (5. August 2026), *KI-MIG*-Inkrafttreten (29. Juli 2026), *IAB-Kurzbericht 8/2026*, *NBER Working Papers 34873, 35437*, *OECD Employment Outlook 2026*, *China*-Gerichte-KI-Layoff-Urteile.
+- Das im Prompt festgelegte Empfängerpaar für Phase 5b (E-Mail und WhatsApp) wird nicht im Repo dokumentiert; Ergebnis des Versands wird unter „Verarbeitungsschritte" nachgetragen, sobald die Fallback-Dateien geschrieben sind (siehe Phase 5b unten).
+
+---
+
 ## 2026-08-23 — Lauf 001 — Version 71.0 → Version 72.0
 
 ### Recherchekorridor
