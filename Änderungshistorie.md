@@ -134,7 +134,7 @@
 - Versionsnummer in Hauptdokument, `README.md`, `Validierung-Ergebnisse.md` aktualisiert: Ja
 - E-Mail-Versand (Phase 5b): Fallback-Datei geschrieben (kein Versand-Tool in der Session erreichbar; keine `mail_send`/`send_mail`/`send_message`/`outlook_send`-Werkzeuge in der geladenen Toolset-Registry auffindbar; Inhalt liegt in `daily-mail.txt`, gitignored)
 - WhatsApp-Versand (Phase 5b): Fallback-Datei geschrieben (kein WhatsApp-MCP in der Session erreichbar; Inhalt liegt in `daily-whatsapp.txt`, gitignored)
-- Branch auf main gemerged und gelöscht: siehe Auffälligkeiten (Merge- und Cleanup-Status wird unmittelbar nach Push in einem Folgelogging-Commit nachgetragen)
+- Branch auf main gemerged und gelöscht: Ja (Merge-Commit `5d5b0b7` auf `main`; lokaler Session-Branch `claude/determined-einstein-jf6yw2` gelöscht; Remote-Branch-Löschung gab HTTP 403 zurück — dieselbe Schutzregel wie bei den vorangegangenen Läufen)
 
 ### Auffälligkeiten / offene Punkte
 
