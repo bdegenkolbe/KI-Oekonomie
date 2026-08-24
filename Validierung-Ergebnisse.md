@@ -7,6 +7,58 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 24. August 2026 (Lauf 001 vom 24. August 2026) — Version 72.0 → Version 73.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Kapitelstruktur (11 Kapitel plus Zusammenfassung) unverändert; neuer Absatz „Zweite Fortschreibung (Stand 24. August 2026)" strukturell in § 8.2 zwischen der bestehenden „Nachtrag zu den drei Konstruktionen"-Passage und der Apple-Talent-Bestands-Passage eingefügt. |
+| 2.1.2 Nummerierung | OK | Keine neuen Kapitel-/Unterabschnittsnummern; die Enumeration der Compute-Finanzierungs­konstruktionen wächst von (i–v) auf (i–vi); fünf Typen, drei Säulen, sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Neuer Absatz referenziert § 4.2 Claude.md, § 4.5, § 8.2 und § 8.3 — sämtliche Zielabschnitte existieren im Dokument. |
+| 2.1.4 Roter Faden | OK | Broadcom-Debt-Struktur und Anthropic-Umsatz-/IPO-Datenpunkte erweitern die in § 8.2 laufende Compute-Finanzierungs­schicht-Kette (Theseus-Anthropic-Macquarie-GIC, Nvidia-Sechspartner-Plattformen, Anthropic-Riot-Rockdale, Nvidia-Lancium-Stargate, Anthropic-Blackstone/Apollo-TPU-SPV) um eine sechste vendor-finanzierte Konstruktion; Rückwirkung auf § 8.3 (Teilhabefrage / KI-Renten) und § 4.5 (Bestandsanknüpfung) klar ausgewiesen. |
+| 2.1.5 Formatierung | OK | Fett-Kursiv-Auszeichnungen einheitlich; Absatzformat identisch zur vorangehenden „Nachtrag"-Passage. |
+| 2.2.1 Sachliche Richtigkeit | OK | Datum der Bloomberg-Berichterstattung Broadcom-Deal (20. August 2026), Datum der Bloomberg-Berichterstattung Anthropic-Umsatz (17. August 2026), Volumenangaben (>60 Mrd. USD, ~30 Mrd. Junior + 60–70 Mrd. Senior mit Broadcom-Teilbürgschaft, bis 100 Mrd. Gesamtvolumen), Grundlage im Juni-2026-Broadcom-Apollo-Blackstone-35-Mrd.-Erst­finanzierung (1 GW erste Ausbaustufe, > 20 GW bis 2028), Anthropic-Kennzahlen (annualisierte Umsatz-Run-Rate ~65 Mrd. USD Ende Juli 2026; Q2-2026-Umsatz ~11,5 Mrd. USD vs. ~787 Mio. USD Vorjahresquartal, erstmals operatives Ergebnis positiv), Investoren-Zielbewertung ~2 Bio. USD für Oktober-2026-Erstlistungsfenster, S-1-Prospekt gegen Ende August 2026 im Zuge von zwei WebSearches verifiziert. |
+| 2.2.2 Redundanzprüfung | OK | Keine bestehende Passage referenziert die Broadcom-Debt-Struktur vom 20. August 2026 oder die Anthropic-Umsatz-/IPO-Meilensteine vom 17.–21. August 2026; die sechste Konstruktion (vendor-financed junior/senior debt mit Design­partner als Teilbürge) erweitert die bestehende Enumeration (i–v) ohne inhaltliche Duplikation. |
+| 2.2.3 Argumentation | OK | Konstruktion (vi) präzise als Vendor-financed-Debt-Konstruktion mit Broadcom als gleichzeitigem Rohstoff-Lieferant und Teilbürge charakterisiert; identische Kapital-Anker (Apollo, Blackstone) zu Konstruktion (v) explizit vermerkt; Rückwirkung auf Bemessungsbasis-Verlagerung (§ 4.5, § 8.3) und KI-Renten-Prüfstein (§ 8.3) klar strukturiert. |
+| 2.2.4 Ausgewogenheit | OK | Konjunktivpflicht (§ 4.2 Claude.md) beachtet: Debt-Struktur als noch nicht ausgefertigt ausgewiesen, Volumen als Sondierungswerte referenziert, Anthropic-Zielbewertung und Erstlistungsfenster als Investoren-Erwartung dargestellt. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe des neuen Absatzes ohne Auffälligkeiten. |
+| 2.3.2 Terminologie | OK | „Vendor-financed junior/senior debt", „Custom-Silicon", „Teilbürgschaft", „senior-secured tranche" konsistent zum § 8.2-Vokabular verwendet; „S-1-Prospekt" beim ersten Auftreten in dieser Passage im Kontext eingeführt. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Beide neuen Belege in § 11.5 (Journalistische und praxisorientierte Quellen); thematisch stimmig, Positionierung unmittelbar vor dem Ma-Sentiment-Beleg. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-nahe Zitierweise eingehalten; vollständige URLs (Bloomberg, Yahoo Finance, TheNextWeb, CNBC-Video, Dealroom, InsiderFinance, WMBD Radio; Fortune, Qz, futuresearch, techstartups, Digital Applied); Institutions-Autor-Angaben (Broadcom Inc., Apollo Global Management, Blackstone; Anthropic PBC) präzise. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Broadcom-Debt-Sondierung vom 20. August 2026 (4 Tage vor heutigem Schnitt) via Bloomberg-Primärberichterstattung und breiter Rezeption (Yahoo Finance, TheNextWeb, CNBC, Dealroom, InsiderFinance, WMBD Radio) belegt; Anthropic-Umsatz-Meilenstein vom 17. August 2026 (7 Tage vor heutigem Schnitt) via Bloomberg-Primärberichterstattung und Rezeption (Fortune, Qz, futuresearch, techstartups, Digital Applied) belegt. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Bloomberg-URLs via WebSearch-Snippets verifiziert (direkter WebFetch nicht ausgeführt, da Bloomberg-Zugriff in vorangegangenen Läufen HTTP 403 lieferte); Titel und Datum durch mehrfache Sekundärrezeption abgesichert. |
+| 2.4.5 Zitatgenauigkeit | OK | Zentrale Kennzahlen (>60 Mrd. USD Sondierungsvolumen, ~30 Mrd. Junior-Debt-Tranche, ~60–70 Mrd. Senior-Secured-Tranche mit Broadcom-Teilbürgschaft, potenzielles Gesamtvolumen bis ~100 Mrd. USD, Erst­finanzierung Juni 2026 ~35 Mrd. USD, > 20 GW Compute bis 2028; Q2-2026-Umsatz ~11,5 Mrd. USD, annualisierte Run-Rate ~65 Mrd. USD Ende Juli 2026, Zielbewertung ~2 Bio. USD) mit den WebSearch-Snippets von Bloomberg, Fortune, Qz und techstartups konsistent. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | De-la-Feria-Markierung unverändert; Sanders-Report-Markierung seit Version 5.0 aufgehoben. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionssprung 72.0 → 73.0 am Dokumentkopf (Zeile 12), im Aktualitätshinweis (Stichtag 24. August 2026, Lauf-Kennung 24. August 2026), in `README.md` (Header Zeile 7 und Zitiervorschlag Zeile 44) sowie in diesem Abschlussblock einheitlich. |
+| 2.6 Automatisierte Prüfung | n/a | Keine dedizierten Prüfskripte im Projekt vorhanden; manuelle Stichproben ausgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine im Rahmen dieses Laufs gefundenen Abweichungen. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine erforderlich. | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: n/a (keine Fehler gefunden)
+- Automatisierte Skripte (sofern vorhanden): n/a
+
+### Abschluss
+
+- Alle Fehler behoben: n/a (keine gefunden)
+- Neue Version: 73.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 23. August 2026 (Lauf 001 vom 23. August 2026) — Version 71.0 → Version 72.0
 
 ### Prüfergebnis
