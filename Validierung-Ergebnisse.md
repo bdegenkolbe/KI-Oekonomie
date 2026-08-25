@@ -7,6 +7,58 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 25. August 2026 (Lauf 001 vom 25. August 2026) — Version 73.0 → Version 74.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Kapitelstruktur (11 Kapitel plus Zusammenfassung) unverändert; neuer Absatz *„Aktualisierung (Stand 23. August 2026)"* strukturell in § 4.2 an den bestehenden IW-Köln-Absatz angefügt und vor § 4.3 platziert. |
+| 2.1.2 Nummerierung | OK | Keine neuen Kapitel-/Unterabschnittsnummern; fünf Typen, drei Säulen, sieben Empfehlungen unverändert. |
+| 2.1.3 Querverweise | OK | Neuer Absatz referenziert § 2.1 (Typ-5-Ersatzabgabe), § 3.5, § 4.2 Claude.md, § 4.5, § 5.1, § 5.4, § 8.4 und § 9.1 — sämtliche Zielabschnitte existieren im Dokument. |
+| 2.1.4 Roter Faden | OK | Die formell-parlamentarische Positionierung der Bundesregierung ergänzt die in § 4.2 laufende Status-quo-Kette (Ertragsteuer / Umsatzsteuer / Sozialversicherung / IW-Köln-Argumentation) um eine explizit-institutionelle Bestätigung; Rückwirkung auf § 3.5 (Kausalattributions-Kontroverse zwischen Aggregat- und Frühindikatorbefunden) und § 4.5 (Vergleichspunkt zur US-Sanders-/Casar-Vorlage und zur südkoreanischen Deployer-Beitrags­gesetz­gebung) klar ausgewiesen. |
+| 2.1.5 Formatierung | OK | Fett-Kursiv-Auszeichnungen einheitlich; Absatzformat identisch zu den vorangehenden Absätzen. |
+| 2.2.1 Sachliche Richtigkeit | OK | Drucksachennummer 21/7620 (Antwort) und 21/7421 (ursprüngliche Anfrage), Antwortdatum 20. August 2026, Anfragedatum 30. Juli 2026, Anfragende Fraktion (AfD), zuständiges Ministerium (BMAS federführend), Sekundärrezeption durch *heise online* (23. August 2026, 17:12 Uhr, Autor Zsolt Wilhelm) und *callcenterprofi.de* (24. August 2026) im Zuge von drei WebSearches und drei WebFetches verifiziert. |
+| 2.2.2 Redundanzprüfung | OK | Keine bestehende Passage referenziert die am 20. August 2026 datierte formell-parlamentarische Positionierung der Bundesregierung zur KI-bedingten Verdrängungswirkung; die dokumentierten Kernaussagen ergänzen die in § 4.2 vorhandenen Status-quo-Aussagen ohne inhaltliche Duplikation, insbesondere gegenüber der IW-Köln-Argumentation, die *gegen* eine Robotersteuer votiert, während die Bundesregierung *deren empirische Voraussetzung* verneint. |
+| 2.2.3 Argumentation | OK | Präzise Unterscheidung zwischen normativer Position („gegen Robotersteuer") und epistemischer Position („keine belastbaren Hinweise auf systematischen Beschäftigungsabbau") herausgearbeitet; Rückwirkung auf die Kausalattributions-Kontroverse in § 3.5 (Massenkoff/McCrory, Anthropic Economic Index, Yale Budget Lab, FEDS Note, Bank-of-Korea-Kohortenbefunde) und die Timing-Asymmetrie in § 8.4 explizit gezogen. |
+| 2.2.4 Ausgewogenheit | OK | Konjunktivpflicht (§ 4.2 Claude.md) beachtet: Regierungsaussagen durchgehend im Konjunktiv referiert (*„lägen"*, *„ersetze"*, *„lasse sich nicht kausal verbinden"*, *„liege nicht vor"*); Gegenposition durch Verweis auf § 3.5-Frühindikator-Kette und *business-punk.com*-Kritikstimmen angezeigt. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe des neuen Absatzes ohne Auffälligkeiten. |
+| 2.3.2 Terminologie | OK | *„Bundestagsdrucksache"*, *„Kleine Anfrage"*, *„AfD-Fraktion"*, *„Observatorium KI in Arbeit und Gesellschaft"*, *„ai:conomics"*, *„Deployer-Ebene"* konsistent zum bisherigen Vokabular verwendet; Typ-5-Ersatzabgabe-Verweis auf § 2.1 einheitlich. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neuer Beleg in § 11.3 (Institutionelle und politische Dokumente); thematisch stimmig, sortiert nach existierender Positionierung (unmittelbar vor § 11.4 und hinter dem südkoreanischen *Future-Response-Fund*-Beleg vom 21. August 2026). |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-nahe Zitierweise eingehalten; vollständige URLs (dserver.bundestag.de für Drucksachen 21/7620 und 21/7421; heise.de; callcenterprofi.de; business-punk.com); Institutions-Autor-Angabe (Bundesregierung / BMAS) präzise. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Antwort der Bundesregierung vom 20. August 2026 (5 Tage vor heutigem Schnitt) als parlamentarisches Primärdokument (Bundestagsdrucksache 21/7620) belegt; Sekundärrezeption durch *heise online* (23. August 2026) und *callcenterprofi.de* (24. August 2026) verifiziert. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | dserver.bundestag.de-URLs für 21/7620 und 21/7421 direkt via WebFetch aufgerufen (Drucksache 21/7620 lieferte 218-KB-PDF-Binärinhalt mit Titel- und Antwortstruktur; Volltextextraktion begrenzt durch PDF-Encoding, Kernaussagen über heise-Zitatabgleich verifiziert); heise.de-URL via WebFetch verifiziert (Publikationsdatum 23.08.2026 17:12 Uhr, Zitate und Drucksachennummer bestätigt); callcenterprofi.de-URL via WebFetch verifiziert (Publikationsdatum 24.08.2026, Kernaussagen bestätigt). |
+| 2.4.5 Zitatgenauigkeit | OK | Zentrale Zitate (*„keine belastbaren Hinweise"*, *„selten ganze Berufsbilder"*, *„konkrete Aufgaben"*, *„nicht kausal"*, 65-Prozent-Weiterbildungsquote bis 2030, seit 2019 gesunkene Abgangsrate der unter 25-Jährigen) mit den heise- und callcenterprofi-Belegen konsistent. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | De-la-Feria-Markierung unverändert; Sanders-Report-Markierung seit Version 5.0 aufgehoben. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionssprung 73.0 → 74.0 am Dokumentkopf (Zeile 12), im Aktualitätshinweis (Stichtag 25. August 2026, Lauf-Kennung 25. August 2026), in `README.md` (Header und Zitiervorschlag) sowie in diesem Abschlussblock einheitlich. |
+| 2.6 Automatisierte Prüfung | n/a | Keine dedizierten Prüfskripte im Projekt vorhanden; manuelle Stichproben ausgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine im Rahmen dieses Laufs gefundenen Abweichungen. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine erforderlich. | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: n/a (keine Fehler gefunden)
+- Automatisierte Skripte (sofern vorhanden): n/a
+
+### Abschluss
+
+- Alle Fehler behoben: n/a (keine gefunden)
+- Neue Version: 74.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 24. August 2026 (Lauf 001 vom 24. August 2026) — Version 72.0 → Version 73.0
 
 ### Prüfergebnis
