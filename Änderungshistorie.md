@@ -54,6 +54,76 @@
 
 ---
 
+## 2026-08-25 — Lauf 001 — Version 73.0 → Version 74.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift; Cluster A, C, D, F, G, H, I, J ohne strukturell neuen Neuzugang im 7-Tage-Fenster). Ein strukturell neuer Neuzugang im 7-Tage-Fenster in Cluster B/E (Regulierung DE/EU × Arbeitsmarktdaten): amtliche *Antwort der Bundesregierung* vom 20. August 2026 auf die *Kleine Anfrage* der *AfD-Fraktion* vom 30. Juli 2026 zu den *„Auswirkungen Künstlicher Intelligenz auf den Arbeitsmarkteinstieg"* (*Bundestagsdrucksache 21/7620* als Antwort auf 21/7421), Sekundärrezeption durch *heise online* am 23. August 2026 und *callcenterprofi.de* am 24. August 2026. Erste ausformulierte formell-parlamentarische Position der Bundesregierung zur KI-bedingten Verdrängungswirkung: keine belastbaren Hinweise auf systematischen KI-bedingten Beschäftigungsabbau, KI ersetze *„selten ganze Berufsbilder"* und verändere primär *„konkrete Aufgaben"*, seit 2019 gesunkene Abgangsrate von Erwerbslosen unter 25 Jahren in Beschäftigung *„nicht kausal"* mit KI-Nutzung verbindbar, keine empirische Evidenz für Gehaltseinbußen; als politische Reaktion Verweis auf *Observatorium KI in Arbeit und Gesellschaft* (2020), *ai:conomics*-Projekt, angestrebte Weiterbildungsquote bis 2030 in Höhe von 65 Prozent, ohne Adressierung von Robotersteuer, Wertschöpfungsabgabe, KI-spezifischer Ersatzabgabe oder Staatsfonds-Modell. Einarbeitung in einem einzigen neuen Absatz *„Aktualisierung (Stand 23. August 2026)"* in § 4.2 (Deutsche Rechtslage: Status quo) mit Rückwirkung auf § 3.5 (Kausalattributions-Kontroverse), § 4.5 (Vergleichspunkt zur US-Sanders-/Casar-Vorlage und zur südkoreanischen Deployer-Beitrags­gesetz­gebung), § 5.1 (Wertschöpfungsabgabe-Debatte in Deutschland), § 8.4 (Systemstabilität, Timing-Asymmetrie) und § 9.1 (Kausalattribution im Verwaltungsvollzug).
+- Zeitfenster: Standard 7 Tage (18. – 25. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (23. – 25. August 2026).
+- Anzahl Suchanfragen: 10 Web-Suchen (Cluster A–J durchsucht) plus vier gezielte WebFetches (heise.de-Artikel, callcenterprofi.de-Artikel, Bundestags-Drucksachen 21/7674 zur Ausschluss-Prüfung und 21/7620 als Zielquelle).
+- Prinzip *Breite vor Tiefe*: Der aufgenommene Datenpunkt adressiert die im Papier bereits laufende deutsche Rechtslage-Kette (§ 4.2) und wird in einem einzigen neuen Absatz eingearbeitet. Ebenfalls im Zeitfenster identifiziert, aber nicht als eigener Neueintrag aufgenommen: *Stanford AI Index 2026*-Zwischenaktualisierung (751.000 KI-Fachkräfte, 31 %-Anteil an US-Tech-Anzeigen — thematisch ohne Steuer-/Sozialstaatsbezug); *Anthropic-Economic-Index*-Zwischennotiz (49 % der Berufe mit ≥ 25 % Claude-Nutzung, keine neue August-2026-Vollpublikation im 7-Tage-Fenster); allgemeine *AI-Layoffs-Tracker*-Aggregate (u. a. *DisplaceIndex*, *AIExposure*, *Outsource Accelerator* mit ~205.000 US-Betroffenen im laufenden Jahr — bereits durch die im Papier verankerten Tracker-Positionen abgedeckt); *EU-KI-Verordnung*-Transparenzpflichten (Inkrafttreten 2. August 2026 — bereits in § 4.4 dokumentiert); *EU AI Continent*-Simplification-Package (Konsultation offen — außerhalb Ergänzungsschwelle); *Warsh*-Jackson-Hole-Rede (28. August 2026 — angekündigt, noch nicht gehalten; wiederholter Aufnahmekandidat für Folge-Lauf); *NBER Working Paper w35618* (Benzell/Kotlikoff/Ye, thematisch an anderer Debattenschicht); *Wyden*-Data-Center-Excise-Tax (6. August 2026, außerhalb Fenster); *Casar*-*AI Tax and Work Protection Act* (H.R. 10044, 6. August 2026, außerhalb Fenster); *Anthropic-AMD*-Multi-Milliarden-Compute-Deal (Juli 2026, außerhalb Fenster) — ergänzten das Dokument nicht um strukturell neue Facetten und wurden nicht übernommen.
+- Lauf 001 vom 25. August 2026 ist der Folgelauf zu Lauf 001 vom 24. August 2026 (Version 72.0 → 73.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | B/E | Bundesregierung / BMAS, *Antwort auf Kleine Anfrage der AfD zu Auswirkungen Künstlicher Intelligenz auf den Arbeitsmarkteinstieg*, Bundestagsdrucksache 21/7620, 20. August 2026 (Antwort auf 21/7421 vom 30. Juli 2026) | https://dserver.bundestag.de/btd/21/076/2107620.pdf | übernommen (Primärdokument; formale parlamentarische Antwort mit expliziter Positionierung zur KI-bedingten Verdrängungswirkung) |
+| 2 | B/E | heise online, *KI am Arbeitsplatz: Bundesregierung sieht keinen systematischen Stellenabbau*, 23. August 2026 (Zsolt Wilhelm) | https://www.heise.de/news/KI-am-Arbeitsplatz-Bundesregierung-sieht-keinen-systematischen-Stellenabbau-11423001.html | übernommen (Sekundärrezeption; Drucksachennummer, Zitate, Zahlenwerte belegt) |
+| 3 | B/E | callcenterprofi.de, *Bundesregierung sieht bislang keinen KI-bedingten Beschäftigungsabbau*, 24. August 2026 | https://www.callcenterprofi.de/branchennews/detailseite/bundesregierung-sieht-bislang-keinen-ki-bedingten-beschaeftigungsabbau-20268932/ | übernommen (Sekundärrezeption; Aussagen zu Bundesagentur für Arbeit, BMAS-Zuständigkeit, KI-Observatorium) |
+| 4 | B/E | business-punk.com, *KI-Jobangst: Berlin gibt Entwarnung, Zahlen malen ein anderes Bild*, August 2026 | https://www.business-punk.com/work/ki-jobangst-berlin-gibt-entwarnung-zahlen-malen-ein-anderes-bild/ | übernommen (Sekundärrezeption; kritische Einordnung mit Verweis auf Gegenstudien) |
+| 5 | B/E | Deutscher Bundestag, *Kleine Anfrage der AfD-Fraktion zu Auswirkungen Künstlicher Intelligenz auf den Arbeitsmarkteinstieg*, Bundestagsdrucksache 21/7421, 30. Juli 2026 | https://dserver.bundestag.de/btd/21/074/2107421.pdf | übernommen (Primärdokument zur ursprünglichen Anfrage; Anfrage-Antwort-Paar dokumentiert) |
+| 6 | A | Stanford HAI, *2026 AI Index Report Zwischenaktualisierung — 751.000 KI-Fachkräfte / 31 % Anteil an US-Tech-Anzeigen*, August 2026 | https://hai.stanford.edu/ai-index/2026-ai-index-report | verworfen (thematisch ohne Steuer- oder Sozialstaatsbezug; wiederholter Aufnahmekandidat) |
+| 7 | D/I | AI Conference London, *How Anthropic, OpenAI and Google Compare in 2026 — August 2026 Update*, 13. August 2026 | https://aiconference.london/news/how-anthropic-openai-and-google-compare-in-2026-august-2026-20260813-12 | verworfen (12 Tage zurück, außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 8 | F | Every Major AI Layoff Announcement of 2026 — Aggregat-Tracker | https://www.aiexposure.org/analysis/company-ai-layoff-announcements-2026 | verworfen (Aggregat ohne neue Einzelfall-Ankündigung im 7-Tage-Fenster; bereits durch bestehende Tracker-Positionen abgedeckt) |
+| 9 | F | Outsource Accelerator, *AI-linked layoffs hit 205,000 workers in 2026: report*, August 2026 | https://news.outsourceaccelerator.com/ai-layoffs-205000/ | verworfen (Bezugnahme auf ResumePulse-Aggregat; keine Einzelfall-Neuigkeit im Fenster) |
+| 10 | B | Cooley, *EU AI Act: Transparency Obligations Take Effect 2 August 2026*, 3. August 2026 | https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026 | verworfen (bereits in § 4.4 dokumentiert; 22 Tage zurück) |
+| 11 | D | Anthropic, *Economic Index primitives* Update, August 2026 | https://www.anthropic.com/research/economic-index-primitives | verworfen (keine neue August-2026-Vollpublikation im 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+| 12 | A/F | *Warsh*-Jackson-Hole-Rede (28. August 2026, angekündigt) | https://www.techtimes.com/articles/325228/20260821/jackson-hole-2026-what-watch-when-warsh-steps-podium-friday.htm | verworfen (Rede noch nicht gehalten; für Folge-Lauf 28./29. August 2026 markiert) |
+| 13 | D/I | Broadcom-Anthropic-Debt-Deal-Folgeberichte | https://finance.yahoo.com/technology/ai/articles/broadcom-seeks-more-60-billion-201702584.html | verworfen (Dublette; im Vorlauf 24. August 2026 bereits in § 8.2 aufgenommen) |
+| 14 | B/D | *Casar*-*AI Tax and Work Protection Act* (H.R. 10044), 6. August 2026 | https://www.congress.gov/bill/119th-congress/house-bill/10044 | verworfen (19 Tage zurück, außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.2 (Deutsche Rechtslage: Status quo) | Ergänzung (neuer Absatz *„Aktualisierung (Stand 23. August 2026)"* am Ende von § 4.2) | Erste formell-parlamentarische Positionierung der Bundesregierung: keine belastbaren Hinweise auf systematischen KI-bedingten Beschäftigungsabbau, KI ersetze selten ganze Berufsbilder, kein empirischer Nachweis für Gehaltseinbußen, keine Adressierung fiskalischer Instrumente wie Robotersteuer, Wertschöpfungsabgabe oder Staatsfonds-Modell — Bestätigung des in § 4.2 dokumentierten Status quo mit Verweis auf *Observatorium KI in Arbeit und Gesellschaft*, *ai:conomics* und angestrebte Weiterbildungsquote von 65 Prozent bis 2030. | 1, 2, 3, 4, 5 |
+| 2 | § 11.3 (Institutionelle und politische Dokumente) | Ergänzung (neuer Literatureintrag am Ende von § 11.3) | Zitierfähige Quellenangabe der Bundestagsdrucksache 21/7620 sowie der Sekundärrezeption durch *heise online*, *callcenterprofi.de* und *business-punk.com*, jeweils mit vollständigen URLs. | 1, 2, 3, 4, 5 |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Stanford HAI, *2026 AI Index Report* Zwischenaktualisierung, August 2026 | A | thematisch ohne Steuer- oder Sozialstaatsbezug (Fachkräftezahlen und Nachfrage-Statistik); wiederholter Aufnahmekandidat |
+| 2 | AI Conference London, *Anthropic/OpenAI/Google-Vergleich*, 13. August 2026 | D/I | 12 Tage zurück, außerhalb 7-Tage-Fenster |
+| 3 | AI-Layoffs-Aggregat-Tracker (*AIExposure*, *DisplaceIndex*, *Outsource Accelerator*) | F | Aggregate ohne neue Einzelfall-Ankündigung im 7-Tage-Fenster; bereits durch bestehende Tracker-Positionen abgedeckt |
+| 4 | Cooley-Analyse zum EU AI Act, 3. August 2026 | B | bereits in § 4.4 dokumentiert; außerhalb 7-Tage-Fenster |
+| 5 | Anthropic *Economic Index primitives*-Update | D | keine neue August-2026-Vollpublikation im 7-Tage-Fenster; wiederholter Aufnahmekandidat |
+| 6 | *Warsh*-Jackson-Hole-Rede-Vorschau | A/F | Rede noch nicht gehalten (28. August 2026); für Folge-Lauf markiert |
+| 7 | Broadcom-Anthropic-Debt-Deal-Folgeberichte | D/I | Dublette — im Vorlauf 24. August 2026 bereits in § 8.2 aufgenommen |
+| 8 | *Casar*-*AI Tax and Work Protection Act* (H.R. 10044), 6. August 2026 | B/D | 19 Tage zurück, außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja (Prüfung gegen bestehende § 4.2, § 4.5 und § 11.3-Einträge sowie gegen die im Vorlauf 24. August 2026 aufgenommenen Broadcom-Anthropic-Quellen)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block *„Validierung 25. August 2026 (Lauf 001) — Version 73.0 → Version 74.0"* in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (73.0 → 74.0 an allen vier Stellen)
+- E-Mail-Benachrichtigung (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (kein Microsoft-Graph-Mail-Tool in dieser Session erreichbar)
+- WhatsApp-Benachrichtigung (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (kein whatsapp-MCP-Tool in dieser Session erreichbar)
+- Branch auf main gemerged und gelöscht: siehe Cleanup-Status am Ende dieses Blocks
+
+### Auffälligkeiten / offene Punkte
+
+- Phase 5b: In dieser Session ist weder ein Microsoft-Graph-basiertes Mail-Sendetool noch ein whatsapp-MCP-Sendetool erreichbar. Die vorbereiteten Inhalte wurden gemäß Phase-5b-Regel als `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root abgelegt (Empfängerdaten nicht im Repo protokolliert).
+- Die *Warsh*-Jackson-Hole-Rede (28. August 2026) und der *Stanford Canaries*-August-2026-Update (12. August 2026) bleiben als wiederholter Aufnahmekandidat für den Folge-Lauf 26./29. August 2026 markiert.
+- Zeit-Divergenz zur *AI Conference London*-Zusammenschau (13. August 2026): erneut geprüft nach Ablauf des 7-Tage-Fensters am 20. August 2026.
+- Direkter PDF-Text-Extraktions-Versuch für Drucksache 21/7620 lieferte nur Struktur-/Schriftart-Daten; Kernaussagen wurden über *heise online*-Zitatabgleich und WebSearch-Snippets verifiziert.
+
+---
+
 ## 2026-08-24 — Lauf 001 — Version 72.0 → Version 73.0
 
 ### Recherchekorridor
