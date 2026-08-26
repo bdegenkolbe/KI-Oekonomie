@@ -7,6 +7,58 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 26. August 2026 (Lauf 001 vom 26. August 2026) — Version 74.0 → Version 75.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Kapitelstruktur (11 Kapitel plus Zusammenfassung) unverändert; neuer Absatz *„Dritte Fortschreibung (Stand 26. August 2026)"* strukturell in § 8.2 an die bestehende *„Zweite Fortschreibung (Stand 24. August 2026)"* angefügt und vor der Veredelungsstrategie-Passage platziert. |
+| 2.1.2 Nummerierung | OK | Keine neuen Kapitel-/Unterabschnittsnummern; fünf Typen, drei Säulen, sieben Empfehlungen unverändert; die interne Zählung der Compute-Finanzierungs­schicht wird um Konstruktion (vii) *makrofinanzielle Verdrängungswirkung* ergänzt, sechs vorangehende Konstruktionen (i–vi) unverändert. |
+| 2.1.3 Querverweise | OK | Neuer Absatz referenziert § 4.2 Claude.md (Konjunktivpflicht), § 4.2 (deutsche Rechtslage-Kette, Drucksache 21/7620), § 4.5 (Sanders-*American A.I. Sovereign Wealth Fund Act*), § 8.3 (KI-Renten-Debatte, Wertschöpfungs-statt-Bestandsanknüpfung) und § 8.4 (Systemstabilität) — sämtliche Zielabschnitte existieren im Dokument. |
+| 2.1.4 Roter Faden | OK | Die aggregierte makrofinanzielle Bondmarkt-Verwerfung ergänzt die in § 8.2 laufende Compute-Finanzierungs­schicht-Kette (Konstruktionen i–vi) um eine explizit aggregierte Systemwirkungs-Ebene, die die zuvor markierten Einzelvorgänge (Broadcom-Debt, Anthropic-SPV, Nvidia-Lancium, Custom-Silicon-Kaskade) zu einem einheitlichen Ökosystem-Emissionsbefund zusammenfasst; Rückwirkung auf § 8.3, § 8.4 und § 4.5 klar ausgewiesen. |
+| 2.1.5 Formatierung | OK | Fett-Kursiv-Auszeichnungen einheitlich; Absatzformat identisch zu den beiden vorangehenden Fortschreibungs-Absätzen (Stand 24. Juli 2026, Stand 24. August 2026). |
+| 2.2.1 Sachliche Richtigkeit | OK | Vanguard-Schätzung (300–570 Mrd. US-Dollar KI-Debt-Emission 2026), S&P-Global-Zählung (~225 Mrd. US-Dollar bis Mitte 2026, ~10-fache YoY-Steigerung), Hyperscaler-Bond-Emission bis 31. Juli 2026 (~132 Mrd. US-Dollar gegenüber ~35 Mrd. US-Dollar Jahres­durchschnitt), Morgan-Stanley-Prognose (~570 Mrd. US-Dollar globales KI-Debt-Volumen mit ~1,5 Bio. US-Dollar Finanzierungslücke), Bessent-Buyback-Verdopplung (2 auf 4 Mrd. US-Dollar pro Operation, 9. September–4. November 2026), 30-jähriger Treasury-Yield höchster Stand seit 2007 und Warsh-Jackson-Hole-Keynote-Termin (28. August 2026) durch fünf WebSearches und einen WebFetch (Forbes-Analyse vom 17. Juli 2026) verifiziert. |
+| 2.2.2 Redundanzprüfung | OK | Keine bestehende Passage referenziert die aggregierte KI-Debt-Bondmarkt-Verwerfung; die dokumentierten Kennzahlen ergänzen die in § 8.2 vorhandenen sechs Einzelkonstruktionen ohne inhaltliche Duplikation — sie verlagern den Argumentationsgegenstand von der Einzelkonstruktion auf die aggregierte Ökosystem-Wirkung. |
+| 2.2.3 Argumentation | OK | Präzise Unterscheidung zwischen langfristig-disinflationärer KI-Produktivitätsthese (Warsh) und kurzfristig zinserhöhender KI-Capex-Bondmarkt-Verwerfung herausgearbeitet; Trennung zwischen Fiskal- (Bessent-Buyback) und Geldpolitik (Fed-Warsh) im Kontext des KI-Capex-Drucks explizit gezogen. |
+| 2.2.4 Ausgewogenheit | OK | Konjunktivpflicht (§ 4.2 Claude.md) beachtet: Warsh-Keynote-Erwartungen durchgehend im Konjunktiv referiert (*„werde abwägen müssen"*, *„nach den zitierten Vorberichten"*), Vanguard-, Morgan-Stanley- und S&P-Global-Schätzungen als solche gekennzeichnet; Bessent-Ankündigung und historischer Treasury-Yield-Höchststand seit 2007 als bereits eingetretene Ereignisse im Indikativ. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe des neuen Absatzes ohne Auffälligkeiten. |
+| 2.3.2 Terminologie | OK | *„makrofinanzielle Verdrängungswirkung"*, *„Compute-Finanzierungs­schicht"*, *„Long-Bond-Buyback"*, *„KI-Renten-Volumen"*, *„interne Fed-Divergenz"* konsistent zum bisherigen Vokabular verwendet; Konstruktion (vii) an das etablierte Nummerierungsschema (i–vi) angeschlossen. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neuer Beleg in § 11.5 (Journalistische und praxisorientierte Quellen); thematisch stimmig sortiert nach existierender Positionierung (unmittelbar nach dem Anthropic-IPO-Eintrag vom 17.–21. August 2026 und vor dem Ma-Sentiment-Eintrag vom 12./13. August 2026). |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-nahe Zitierweise eingehalten; vollständige URLs (corporate.vanguard.com, forbes.com, bloomberg.com, cnbc.com, axios.com, nbcnews.com, cfr.org, techtimes.com); Institutions-Autor-Angabe (Vanguard, S&P Global, Morgan Stanley, US-Treasury/Bessent) präzise. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Bloomberg-Bericht vom 23. August 2026 und CNBC-/Axios-Berichte vom 19. August 2026 (Bessent-Buyback-Ankündigung) im 7-Tage-Fenster; TechTimes-Vorbericht vom 25. August 2026 im 48-Stunden-Fenster für Cluster A/F; Vanguard- und S&P-Global-Bezugspunkte in *Bloomberg*-, *Fortune*- und *Forbes*-Analysen der laufenden Wochen dokumentiert. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Vanguard-corporate-URL im Suchindex bestätigt (Titel und Kernaussagen); Forbes-URL via WebFetch verifiziert (Datum 17. Juli 2026, Vanguard-/Morgan-Stanley-Zahlen und Coverage-Ratio-Analyse aus Apollo-Report); Bloomberg-URL (23. August 2026) im Suchindex bestätigt (WebFetch der Bloomberg-Direktseiten gab wie bei Vorläufen HTTP 403 zurück, Titel und Datum via Suchindex bestätigt); CNBC-URLs (19. August 2026) im Suchindex bestätigt (Bessent-Buyback-Verdopplung); TechTimes-URL im Suchindex bestätigt (Vorbericht vom 25. August 2026). |
+| 2.4.5 Zitatgenauigkeit | OK | Kennzahlen wörtlich aus Suchindex-Snippets und WebFetch-Analyse übernommen: *„approximately $132 billion"*, *„$225 billion in AI-related bonds"*, *„$300 billion to $570 billion"*, *„double the amount"* (Buyback), *„highest level since 2007"* (30-jähriger Treasury-Yield). Warsh-„regime change"-Formulierung nach Suchindex-Snippet übernommen. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | de la Feria et al. 2022 unverändert markiert; keine neuen verifizierungsbedürftigen Einträge angelegt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionssprung 74.0 → 75.0 an allen vier Stellen eingetragen: Dokumentkopf (Zeile 12), Aktualitätshinweis am Dokumentende, `README.md` (Header und Zitiervorschlag), Abschluss dieses Validierungsblocks. Autor, Organisation, Lizenz-, Haftungs- und KI-Offenlegungshinweise unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Skripte vorhanden; manuelle Stichproben gemäß § 2.1.2 (fünf Typen, drei Säulen, sieben Empfehlungen unverändert), § 2.1.3 (Querverweise § 4.2, § 4.5, § 8.3, § 8.4 geprüft) und § 2.4.1 (Vollständigkeit § 11.5-Ergänzung) durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|--------|--------|---------|
+| — | — | Keine Fehler im neu eingefügten Text oder in den Anschluss­stellen der bestehenden Prüfschritte festgestellt. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|--------|----------|----------|
+| — | — | Keine Bereinigung erforderlich. | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK (§ 2.1.1, 2.1.3, 2.2.1, 2.2.2, 2.4.1, 2.4.4, 2.5 nach Einfügung und Versionsupdate erneut geprüft).
+- Automatisierte Skripte: n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: n/a (keine gefunden).
+- Neue Version: 75.0.
+- PDF erstellt: Ja.
+- Word erstellt: Ja.
+
+---
+
 ## Validierung 25. August 2026 (Lauf 001 vom 25. August 2026) — Version 73.0 → Version 74.0
 
 ### Prüfergebnis
