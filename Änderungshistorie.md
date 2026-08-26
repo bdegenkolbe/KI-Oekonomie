@@ -118,7 +118,7 @@
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (74.0 → 75.0 an allen vier Stellen)
 - E-Mail-Benachrichtigung (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (kein Microsoft-Graph-Mail-Tool in der Session erreichbar; kein `mail_send`/`send_mail`/`send_message`/`outlook_send`-Tool auffindbar); die Datei wird nicht ins Repo eingecheckt (in `.gitignore`).
 - WhatsApp-Benachrichtigung (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (kein whatsapp-MCP-Tool in der Session erreichbar); die Datei wird nicht ins Repo eingecheckt (in `.gitignore`).
-- Branch auf main gemerged und gelöscht: siehe Ergänzung in Phase 6 weiter unten
+- Branch auf main gemerged und gelöscht: Merge c0d5eb4 auf main durchgeführt und gepusht; lokaler Session-Branch `claude/determined-einstein-wdkpir` erfolgreich gelöscht; Remote-Branch-Löschung schlug mit HTTP 403 fehl (wie in Vorläufen dokumentiert — die Remote-Löschbefugnis fehlt in dieser Session-Konfiguration; Remote-Branch verbleibt vorläufig).
 
 ### Auffälligkeiten / offene Punkte
 
