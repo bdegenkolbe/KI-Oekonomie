@@ -120,9 +120,9 @@
 - PDF erstellt (`build_pdf.py`): Ja
 - Word erstellt (`build_docx.py`): Ja
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (75.0 → 76.0 an allen vier Stellen)
-- E-Mail-Benachrichtigung (Phase 5b): Empfänger aus Routine-Anweisung übernommen; Versand wird über verfügbares Microsoft-Graph-Mail-Tool versucht, andernfalls Fallback-Datei `daily-mail.txt` geschrieben (Empfängerdaten nicht im Repo protokolliert; die Datei wird nicht ins Repo eingecheckt, in `.gitignore`).
-- WhatsApp-Benachrichtigung (Phase 5b): Empfänger aus Routine-Anweisung übernommen; Versand wird über verfügbares WhatsApp-Tool versucht, andernfalls Fallback-Datei `daily-whatsapp.txt` geschrieben (Empfängerdaten nicht im Repo protokolliert; die Datei wird nicht ins Repo eingecheckt, in `.gitignore`).
-- Branch auf main gemerged und gelöscht: siehe Phase 6.
+- E-Mail-Benachrichtigung (Phase 5b): Fallback-Datei `daily-mail.txt` geschrieben (kein Microsoft-Graph-Mail-Tool in der Session erreichbar; kein `mail_send`/`send_mail`/`send_message`/`outlook_send`-Tool auffindbar); die Datei wird nicht ins Repo eingecheckt (in `.gitignore`).
+- WhatsApp-Benachrichtigung (Phase 5b): Fallback-Datei `daily-whatsapp.txt` geschrieben (kein whatsapp-MCP-Tool in der Session erreichbar); die Datei wird nicht ins Repo eingecheckt (in `.gitignore`).
+- Branch auf main gemerged und gelöscht: Merge 9f8be37 auf main durchgeführt und gepusht; lokaler Session-Branch `claude/determined-einstein-9v1y81` erfolgreich gelöscht; Remote-Branch-Löschung schlug mit HTTP 403 fehl (wie in Vorläufen dokumentiert — die Remote-Löschbefugnis fehlt in dieser Session-Konfiguration; Remote-Branch verbleibt vorläufig).
 
 ### Auffälligkeiten / offene Punkte
 
