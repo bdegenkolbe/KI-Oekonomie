@@ -7,6 +7,58 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 27. August 2026 (Lauf 001 vom 27. August 2026) — Version 75.0 → Version 76.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Kapitelstruktur (11 Kapitel plus Zusammenfassung) unverändert; neuer Absatz *„Bill Gates — GatesNotes-Memo … (26. August 2026)"* strukturell in § 4.5 nach dem *AI-Tax-and-Work-Protection-Act*-Absatz (7. August 2026) und vor dem *No-Robot-Bosses-Act*-Absatz (Dezember 2025) eingefügt; Nachbarabsätze in Reihenfolge und Kernaussagen unberührt. |
+| 2.1.2 Nummerierung | OK | Keine neuen Kapitel-/Unterabschnittsnummern; fünf Typen der Robotersteuer (§ 2.1), drei Säulen der Deutschland-These (§ 8) und sieben Empfehlungen (§ 10.2) unverändert; die von Gates aufgezählten „drei Ideen" (Institutionen, Human Reserved, Steuer auf Roboter und KI-Token) werden im Fließtext ausgewiesen, ohne die Papier-Zähler zu berühren. |
+| 2.1.3 Querverweise | OK | Neuer Absatz referenziert § 4.2 Claude.md (Konjunktivpflicht), § 2.1 (Typ 5 Ersatzabgabe), § 5.1 (Wertschöpfungsabgabe), § 5.3 (Verkürzung der Arbeitszeit), § 7 (Human-Reserved-Perimeter in Gesundheit/Bildung), § 8.3 (Teilhabefrage), § 8.4 (Systemstabilität), § 9.1 (Kausalattribution und Perimeter-Definition) — sämtliche Zielabschnitte existieren im Dokument. |
+| 2.1.4 Roter Faden | OK | Der Gates-Vorstoß fügt sich in die im Papier bereits dokumentierte Sequenz privater Politikstimmen (OpenAI-Strategiepapier April 2026, OpenAI-Gegenvorschlag Juli 2026, Bloomberg-Editorial April 2026, „We Must Act Now"-Statement Juli 2026) und rahmt zugleich die drei bislang isoliert behandelten Legislativ-Pfade (Sanders bestandsorientiert, Casar flussorientiert, Bonamici arbeitsrechtlich) zu einem gemeinsamen Politik-Portfolio. |
+| 2.1.5 Formatierung | OK | Fett-Kursiv-Auszeichnungen einheitlich; Absatzformat identisch zu den benachbarten § 4.5-Blöcken. |
+| 2.2.1 Sachliche Richtigkeit | OK | Kernaussagen (drei Vorschläge, „Human Reserved"-Konzept mit „bis zu 40 %"-Zielanteil, Beispielfelder Kinderbetreuung/Schöffendienst/Bildung/Gesundheit, Steuer auf Roboter und KI-Token) durch elf voneinander unabhängige Sekundärquellen (Bloomberg, CNBC, Axios, TechCrunch, Fortune, GeekWire, CNN, Tom's Hardware, Forbes, The Next Web, Quartz, Fox Business, The National, BeInCrypto, Yahoo Finance, The Spokesman-Review) verifiziert; direkte Zitate („AI will either be the greatest equalizer ever invented, or the worst source of injustice"; „even under the best circumstances, the transition to this new AI era will be one of the most turbulent times in human history"; „so hoch wie ich es hinbekomme"; „targeted so it does not slow down the purely beneficial uses of AI, like making medicine and education cheaper") aus den Sekundärquellen wörtlich übernommen. Substituierbare Berufsfelder (Recht, Medizin, Kundenservice, Softwareentwicklung, Fertigung) und Priorisierung (Customer Support, Software Engineering, Paralegal zuerst; Bau- und Hospitality-Übergang bis Ende des Jahrzehnts) durch Bloomberg- und CNBC-Rezeption gestützt. |
+| 2.2.2 Redundanzprüfung | OK | Kein bestehender § 4.5-Absatz thematisiert Gates' Vorstoß oder das „Human Reserved"-Konzept; die Anknüpfung an § 2.1 (Typ 5) und § 5.1 (Wertschöpfungsabgabe) erfolgt per Querverweis, ohne die dortigen Passagen wörtlich zu wiederholen. |
+| 2.2.3 Argumentation | OK | Präzise Unterscheidung zwischen fiskalischer Ersatzabgabe (Typ 5) und ordnungspolitischer Perimeter-Konstruktion („Human Reserved") herausgearbeitet; Verlagerung der Kausalattributions- und Nachweisproblematik von der Abgabe- auf die Perimeter-Ebene explizit adressiert; Anschluss an bestehende Debattenstrukturen (OpenAI/Sanders/Casar) transparent gemacht. |
+| 2.2.4 Ausgewogenheit | OK | Konjunktivpflicht (§ 4.2 Claude.md) beim „bis zu 40 %"-Zielanteil und bei der Substituierbarkeitsprognose durchgängig eingehalten; das inhaltliche Doppel (Perimeter *und* Abgabe) als über die bisherigen Vorschläge hinausgehendes Konstrukt gerahmt, ohne Gates' Vorstoß als überlegen zu bewerten; offene Umsetzungsfrage („Ob und in welcher Form … in konkrete Gesetzentwürfe übersetzt wird, ist offen") am Absatzende deutlich markiert. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe des neuen Absatzes ohne Auffälligkeiten. |
+| 2.3.2 Terminologie | OK | *„Human Reserved"*, *„GatesNotes-Memo"*, *„Perimeter-Konstruktion"*, *„Doppelinstrument"* konsistent zum bisherigen Vokabular des Kapitels verwendet; Verweise auf Typ 5 (§ 2.1), Wertschöpfungsabgabe (§ 5.1), Kausalattribution (§ 9.1) im etablierten Sprachduktus. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neuer Literatureintrag in § 11.3 (Institutionelle und politische Dokumente), thematisch zwischen dem *H.R. 6371 — No Robot Bosses Act* und dem *H.R. 10044 — AI Tax and Work Protection Act* einsortiert; sämtliche im Fließtext referenzierten Sekundärquellen (Bloomberg, Axios, CNBC, TechCrunch, Fortune, GeekWire, CNN Business, Tom's Hardware, Forbes, The Next Web, Quartz, Fox Business, The National, BeInCrypto, Yahoo Finance, The Spokesman-Review) mit vollständigen URLs im Eintrag hinterlegt. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-nahe Zitierweise (Gates, B., Datum, Titel kursiv, Publikationsort *GatesNotes*, URL vollständig); Datumsangaben im Format „DD. Monat YYYY"; Titel des Aufsatzes originalgetreu übernommen. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Erstpublikation am 26. August 2026 (26 Stunden vor Redaktionsschluss); Sekundärrezeption durch überregional führende Redaktionen (Bloomberg, CNBC, Axios, Fortune, TechCrunch) im 48-Stunden-Fenster; keine Konjunktur- oder Prognosekomponente, die einer Nachverifikation harrte. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | GatesNotes-URL, TechCrunch-URL, Fortune-URL im Suchindex bestätigt (WebFetch auf die GatesNotes-Direktseite gab HTTP 403 zurück, Titel und Kernaussagen über TechCrunch- und Fortune-WebFetch sowie über Suchindex-Snippets aus dreizehn weiteren Redaktionen redundant abgesichert); Axios-, CNBC- und GeekWire-URLs im Suchindex bestätigt (WebFetch teils HTTP 403). |
+| 2.4.5 Zitatgenauigkeit | OK | Kernzitate (Gleichmacher/Ungerechtigkeit; Turbulenzen; „so hoch wie ich es hinbekomme"; „targeted so it does not slow down the purely beneficial uses of AI") wörtlich aus den Suchindex-Snippets und den WebFetch-Ergebnissen (Tom's Hardware / TechCrunch / Fortune) übernommen. Zielanteil („bis zu 40 %") und Instrumente (verkürzte Arbeitszeit, früherer Renteneintritt) aus Axios-, GeekWire- und BeInCrypto-Rezeption entnommen. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | de la Feria et al. 2022 unverändert markiert; keine neuen verifizierungsbedürftigen Einträge angelegt. Gates-Aufsatz ist eine Primärquelle mit tagesaktueller Publikation und breiter Sekundärrezeption; keine Verifikationsmarke erforderlich. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionssprung 75.0 → 76.0 an allen vier Stellen eingetragen: Dokumentkopf (Zeile 12), Aktualitätshinweis am Dokumentende, `README.md` (Header und Zitiervorschlag), Abschluss dieses Validierungsblocks. Autor, Organisation, Lizenz-, Haftungs- und KI-Offenlegungshinweise unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Skripte vorhanden; manuelle Stichproben gemäß § 2.1.2 (Zähler unverändert), § 2.1.3 (Querverweise § 2.1, § 5.1, § 5.3, § 7, § 8.3, § 8.4, § 9.1 geprüft) und § 2.4.1 (Vollständigkeit § 11.3-Ergänzung) durchgeführt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|--------|--------|---------|
+| — | — | Keine Fehler im neu eingefügten Text oder in den Anschluss­stellen der bestehenden Prüfschritte festgestellt. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|--------|----------|----------|
+| — | — | Keine Bereinigung erforderlich. | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK (§ 2.1.1, 2.1.3, 2.2.1, 2.2.2, 2.4.1, 2.4.4, 2.5 nach Einfügung und Versionsupdate erneut geprüft).
+- Automatisierte Skripte: n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: n/a (keine gefunden).
+- Neue Version: 76.0.
+- PDF erstellt: Ja.
+- Word erstellt: Ja.
+
+---
+
 ## Validierung 26. August 2026 (Lauf 001 vom 26. August 2026) — Version 74.0 → Version 75.0
 
 ### Prüfergebnis
