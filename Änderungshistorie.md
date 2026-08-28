@@ -127,6 +127,7 @@
 - Warsh-Jackson-Hole-Keynote (28. August 2026, 10:00 ET): Rede zum Redaktionsschluss (frühmorgens deutscher Zeit) noch nicht gehalten. Redetext und geldpolitische Positionierung zu KI-Capex-Bondmarkt-Verwerfung und langfristig-disinflationärer Produktivitätswirkung sind für den Folge-Lauf 29. August 2026 vorgemerkt (vgl. bereits § 8.2 Konstruktion (vii), Vorlauf 26. August 2026).
 - Anthropic-S-1-Public-Filing zum Redaktionsschluss weiterhin nicht öffentlich; erwartete Zielbewertung nach Bloomberg (17. August 2026, § 8.2 vorlaufender Absatz) rund 2 Billionen US-Dollar; wiederholter Aufnahmekandidat.
 - Phase 5b: In der laufenden Session sind weder ein `mail_send`/`send_mail`/`send_message`/`outlook_send`-Werkzeug eines Microsoft-Graph-MCP-Servers noch ein `wa_send_message`-Werkzeug eines WhatsApp-MCP-Servers erreichbar. Empfängerdaten wurden nicht in Repository-Dateien geschrieben. Der vorbereitete E-Mail-Inhalt liegt in `daily-mail.txt`, die WhatsApp-Kurzzusammenfassung in `daily-whatsapp.txt` — beide gitignored gemäß `.gitignore`.
+- Phase 6: Merge auf `main` erfolgreich (Merge-Commit `ef8ed2f`, Push auf `main` erfolgreich); Remote-Branch-Löschung `claude/determined-einstein-xxkrpz` mit HTTP 403 abgelehnt (serverseitige Branch-Protection wie im Vorlauf), lokaler Branch gelöscht.
 
 ---
 
