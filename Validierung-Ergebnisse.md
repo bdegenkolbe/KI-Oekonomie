@@ -7,6 +7,54 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 28. August 2026 (Lauf 001 vom 28. August 2026) — Version 76.0 → Version 77.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Kapitelstruktur (11 Kapitel plus Zusammenfassung) unverändert; ein neuer Absatz am Ende von § 8.1 („Empirische Verankerung für Deutschland (IAB-Kurzbericht 08/2026, 27. August 2026)") und ein neuer Absatz am Ende von § 8.2 („EU-*AI-Gigafactories*-Ausschreibung und Rencontre-Rede von der Leyens (30. Juli / 27. August 2026)") eingefügt; Nachbarabschnitte in Reihenfolge und Kernaussagen unberührt. |
+| 2.1.2 Nummerierung | OK | Keine neuen Kapitel-/Unterabschnittsnummern; fünf Typen der Robotersteuer (§ 2.1), drei Säulen der Deutschland-These (§ 8) und sieben Empfehlungen (§ 10.2) unverändert; die im IAB-Kurzbericht referierten Prozentwerte (5 → 24 %, 48 %, 21 %, 90 %, 16 %) und die Gigafactory-Zahlen (bis zu 7 Standorte, 10 Mrd. EUR öffentlich, mindestens 20 Mrd. EUR privat) im Fließtext ohne Zählerkonflikt. |
+| 2.1.3 Querverweise | OK | Neue Absätze referenzieren § 4.2 Claude.md (Konjunktivpflicht), § 1.1 (Ausgangslage), § 5.1 (Wertschöpfungsabgabe), § 8.2 (Veredelungsstrategie), § 8.3 (Teilhabefrage/Zugriffsarchitektur), § 8.4 (Systemstabilität) und § 4.4 (europäisches Sekundärrecht) — sämtliche Zielabschnitte existieren im Dokument. |
+| 2.1.4 Roter Faden | OK | Der IAB-Kurzbericht 08/2026 fügt sich als empirische Verankerung der Drei-Faktor-Sicht in § 8.1 ein und bildet den inländischen Adoptions-Datenpunkt zu den bislang überwiegend international referierten Trend-Belegen; die EU-Gigafactories-Ausschreibung und die Rencontre-Rede rahmen die in § 8.2 formulierte Veredelungsstrategie mit einem EU-industriepolitischen Zeitplan (Angebotsfrist 12. November 2026, Vergabe Anfang 2027). |
+| 2.1.5 Formatierung | OK | Fett-Kursiv-Auszeichnungen einheitlich; Absatzformat identisch zu den benachbarten § 8-Blöcken; keine doppelten Trennlinien oder überflüssigen Leerzeilen eingeführt. |
+| 2.2.1 Sachliche Richtigkeit | OK | Kernzahlen (5 % → 24 %; 48 % bei ≥ 200 Beschäftigten; 21 % bei < 10 Beschäftigten; 90 % frei verfügbare Anwendungen; 16 % eigenverantwortlich trainierte Modelle; DOI 10.48720/IAB.KB.2608) mit IAB-Presseinfo, IAB-Kurzberichtseite und RePEc-Eintrag verifiziert; Zahlen der EU-Gigafactories-Ausschreibung (bis zu 7 Standorte, 10 Mrd. EUR öffentlich, ≥ 20 Mrd. EUR privat, > 30 Mrd. EUR Gesamtvolumen, Ausschreibungsstart 30. Juli 2026, Frist 12. November 2026) mit der EU-Kommissionspressemitteilung IP/26/1708 sowie mit HPCwire-, Euronews-, Agence-Europe-, Quartz- und IBTimes-UK-Sekundärrezeption abgesichert; die Rencontre-Rede von der Leyens (27. August 2026) über Eunews- und Science|Business-Sekundärrezeption verifiziert. |
+| 2.2.2 Redundanzprüfung | OK | Der IAB-Kurzbericht 08/2026 wird nur in § 8.1 (Kerneinarbeitung) und in § 11.3 (Literatur) referiert; die EU-Gigafactories-Ausschreibung wird nur in § 8.2 (Kerneinarbeitung) und in § 11.3 (Literatur) referiert; bestehende Passagen zur Compute-Kapazitätslücke (§ 8.2) und zur Anwendungs-Ebene (§ 8.3) werden per Querverweis angeknüpft, ohne wörtliche Doppelungen. |
+| 2.2.3 Argumentation | OK | Präzise Trennung zwischen empirischer Verankerung (§ 8.1: dritter Faktor auf Betriebsebene angekommen) und industriepolitischem Rahmen (§ 8.2: EU-institutionelle Investitionslogik zur Veredelungsstrategie); Anschluss an bestehende Debattenstrukturen (Drei-Faktor-Sicht Y = f(K, L, AI), Wertschöpfungsabgabe, wertschöpfungs­orientierte Zugriffsarchitektur) sauber ausgewiesen; keine Vermengung mit der Optimalsteuer-Argumentation (Acemoglu/Thuemmel, § 3). |
+| 2.2.4 Ausgewogenheit | OK | Konjunktivpflicht (§ 4.2 Claude.md) bei den IAB-Prozentwerten (Betriebsbefragung) und bei den EU-Gigafactory-Vergabeentscheidungen (Ausschreibung offen) durchgängig eingehalten; die Doppel-Formel von der Leyens („produzieren, investieren, schützen") als Standort­einordnung markiert, nicht als Bewertungsübernahme. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe der beiden neuen Absätze ohne Auffälligkeiten. |
+| 2.3.2 Terminologie | OK | *„Verfünffachung"*, *„Betriebsgröße"*, *„frei verfügbare Anwendungen"*, *„Gigafactory"*, *„Wertschöpfungskette"* konsistent zum bisherigen Vokabular; DOI-Angabe der IAB-Kurzberichte-Reihe im Standardformat 10.48720/IAB.KB.NNNN. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Drei neue Literatureinträge in § 11.3 (Institutionelle und politische Dokumente): Friedrich/Kagerl 2026, Europäische Kommission / EuroHPC 2026 (IP/26/1708), von der Leyen 2026 (Rencontre-Rede) — jeweils mit Zuordnung zu den einarbeitenden Abschnitten (§ 8.1, § 8.2). Sämtliche im Fließtext referenzierten Primär- und Sekundärquellen mit vollständigen URLs im Eintrag hinterlegt. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-nahe Zitierweise (Autor(en), Datum, Titel kursiv, Publikationsort, DOI/URL vollständig); Datumsangaben im Format „DD. Monat YYYY"; Titel originalgetreu übernommen. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | IAB-Kurzbericht 08/2026 mit Publikationsstempel 27. August 2026 (rund 24 Stunden vor Redaktionsschluss); EU-Kommissionspressemitteilung IP/26/1708 vom 30. Juli 2026 mit weiter gültiger Angebotsfrist 12. November 2026; Rencontre-Rede vom 27. August 2026 im 24-Stunden-Fenster. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | IAB-Presseinfo-URL, IAB-Kurzberichtseite und RePEc-Eintrag im Suchindex bestätigt; EU-Kommissionspressemitteilung IP/26/1708, digital-strategy.ec.europa.eu-Seite, HPCwire, Euronews, Quartz und IBTimes UK ebenfalls über Suchindex verifiziert; Eunews- und Science|Business-URLs für die Rencontre-Rede im Suchindex bestätigt. |
+| 2.4.5 Zitatgenauigkeit | OK | „produce, invest and protect" (von der Leyen) als Doppel-Formel im Fließtext ausgewiesen; IAB-Kernbefund („Jeder vierte Betrieb nutzt mittlerweile generative KI") als Titelzitat übernommen. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Bestand unverändert (nur de la Feria et al. 2022 markiert). |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 77.0 an vier Stellen einheitlich: Dokumentkopf `KI-Ökonomie.md`, Abschlusshinweis (Dokumentende), `README.md`, Abschlussblock dieser Datei; Autor (Björn Degenkolbe), Organisation (HIGL), Lizenz (CC BY 4.0) und Haftungshinweis unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Keine dedizierten Prüfskripte im Repository; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+Keine.
+
+### Durchgeführte Bereinigungen
+
+Keine.
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte (sofern vorhanden): n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine gefunden)
+- Neue Version: 77.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 27. August 2026 (Lauf 001 vom 27. August 2026) — Version 75.0 → Version 76.0
 
 ### Prüfergebnis

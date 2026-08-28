@@ -54,6 +54,82 @@
 
 ---
 
+## 2026-08-28 — Lauf 001 — Version 76.0 → Version 77.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift). Zwei strukturell neue Neuzugänge im 7-Tage-Fenster: (i) *IAB-Kurzbericht 08/2026* von *Michael Friedrich* und *Christian Kagerl* („Künstliche Intelligenz in deutschen Betrieben: Jeder vierte Betrieb nutzt mittlerweile generative KI", 27. August 2026) — Cluster E/H, empirische Verankerung der Drei-Faktor-Sicht auf inländischer Betriebsebene; (ii) *EU AI Gigafactories*-Ausschreibung der Europäischen Kommission / *EuroHPC Joint Undertaking* (IP/26/1708, 30. Juli 2026) samt begleitender *Rencontre-des-Entrepreneurs-de-France*-Rede von *Ursula von der Leyen* am 27. August 2026 — Cluster H/D, EU-industriepolitische Flankierung der Veredelungsstrategie.
+- Einarbeitung als zwei neue Absätze: einer am Ende von § 8.1 (IAB-Kurzbericht 08/2026, empirische Verankerung), einer am Ende von § 8.2 (EU-Gigafactories-Ausschreibung und Rencontre-Rede, Veredelungsstrategie).
+- Zeitfenster: Standard 7 Tage (21. – 28. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (26. – 28. August 2026).
+- Anzahl Suchanfragen: 10 Web-Suchen (Cluster A–J durchsucht) plus gezielte Nachrecherchen zu IAB-Kurzbericht 08/2026, EuroHPC-Gigafactory-Ausschreibung und Rencontre-Rede.
+- Prinzip *Breite vor Tiefe*: Die beiden aufgenommenen Datenpunkte adressieren zwei unterschiedliche Ebenen der Deutschland-These: (a) empirische Adoption inländischer Betriebe (§ 8.1); (b) EU-institutioneller Rahmen (§ 8.2). Ebenfalls im Zeitfenster identifiziert, aber nicht als eigener Neueintrag aufgenommen: *Kevin-Warsh*-Jackson-Hole-Keynote (28. August 2026, 10:00 ET) — Rede zum Redaktionsschluss noch nicht gehalten; wiederholter Aufnahmekandidat für den Folge-Lauf 29. August 2026; *Anthropic-S-1*-Public-Filing (bis zum 28. August 2026 nicht öffentlich; wiederholter Aufnahmekandidat); *Nvidia*-Q2-FY27-Earnings-Call (26. August 2026, Data-Center-Umsatz rund 96 Mrd. US-Dollar, Hyperscaler-Capex-Prognose > 800 Mrd. US-Dollar 2026 und rund 1,3 Bio. US-Dollar 2027; die Zahlen sind auf einer Unternehmens-Ebene weiter Konsistenz-Beleg der in § 8.2 aufgenommenen Konstruktion (vii) *makrofinanzielle Verdrängungswirkung*, aber innerhalb des tages­aktuellen Rechercheschnitts ohne strukturelle Ergänzungs­schwelle, wiederholter Aufnahmekandidat); *Oracle*-Layoff-Vorbereitung Anfang September 2026 (wiederholter Aufnahmekandidat); *IFR-World-Robotics-Report-2026* (angekündigt für 24. September 2026, wiederholter Aufnahmekandidat).
+- Lauf 001 vom 28. August 2026 ist der Folgelauf zu Lauf 001 vom 27. August 2026 (Version 75.0 → 76.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | E/H | Friedrich, M., & Kagerl, C., *Künstliche Intelligenz in deutschen Betrieben: Jeder vierte Betrieb nutzt mittlerweile generative KI*, IAB-Kurzbericht 08/2026, DOI 10.48720/IAB.KB.2608, 27. August 2026 | https://iab.de/kuenstliche-intelligenz-in-deutschen-betrieben-jeder-vierte-betrieb-nutzt-mittlerweile-generative-ki/ | übernommen (Primärquelle; empirische Adoptions­zahlen deutscher Betriebe: 5 % → 24 % in zwei Jahren; 48 % bei Großbetrieben; 90 % frei verfügbare Anwendungen) |
+| 2 | E/H | IAB, *Presseinformation: Jeder vierte Betrieb in Deutschland nutzt generative KI*, 27. August 2026 | https://iab.de/presseinfo/jeder-vierte-betrieb-in-deutschland-nutzt-generative-ki/ | übernommen (Primärquelle / Presseinformation) |
+| 3 | E/H | IDEAS/RePEc, *Katalogeintrag zum IAB-Kurzbericht 08/2026 (Friedrich, Kagerl)*, 27. August 2026 | https://ideas.repec.org/p/iab/iabkbe/202608.html | übernommen (Bibliografische Quelle) |
+| 4 | H/D | Europäische Kommission, *EU launches AI Gigafactories call to boost Europe's computing capacity and unlock more than €30 billion in investment* (IP/26/1708), 30. Juli 2026 | https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708 | übernommen (Primärquelle; bis zu 7 Gigafactories, 10 Mrd. EUR öffentlich + ≥ 20 Mrd. EUR privat) |
+| 5 | H/D | Europäische Kommission / Digital Strategy, *EU launches AI Gigafactories call …*, 30. Juli 2026 | https://digital-strategy.ec.europa.eu/en/news/eu-launches-ai-gigafactories-call-boost-europes-computing-capacity-and-unlock-more-eu30-billion | übernommen (Primärquelle / Digital Strategy) |
+| 6 | H/D | HPCwire, *EuroHPC Launches Tender for Up to 7 European AI Gigafactories*, 30. Juli 2026 | https://www.hpcwire.com/off-the-wire/eurohpc-launches-tender-for-up-to-7-european-ai-gigafactories/ | übernommen (Sekundärrezeption Fachpresse HPC) |
+| 7 | H/D | Euronews, *EU opens call for seven 'gigafactories' to train next-generation AI technologies*, 30. Juli 2026 | https://www.euronews.com/my-europe/2026/07/30/eu-opens-call-for-seven-gigafactories-to-train-next-generation-ai-technologies | übernommen (Sekundärrezeption) |
+| 8 | H/D | Quartz, *E.U. opens bids for 7 AI gigafactories in €30 billion push*, 30. Juli 2026 | https://qz.com/eu-ai-gigafactories-bids-computing-30-billion-073126 | übernommen (Sekundärrezeption) |
+| 9 | H/D | Agence Europe, *European Commission launches call for tenders to create several AI Gigafactories across Europe*, 30. Juli 2026 | https://agenceurope.eu/en/bulletin/article/13920/1/european-commission-launches-call-for-tenders-to-create-several-ai-gigafactories-across-europe | übernommen (Sekundärrezeption) |
+| 10 | H/D | IBTimes UK, *EU Opens Bids for Seven AI Super-Hubs To Break US and China Monopoly*, 30. Juli 2026 | https://www.ibtimes.co.uk/eu-ai-gigafactories-tech-sovereignty-1811620 | übernommen (Sekundärrezeption) |
+| 11 | H/D | Eunews, *Produce, invest, and protect: von der Leyen's recipe for Europe's competitiveness*, 27. August 2026 | https://www.eunews.it/en/2026/08/27/produce-invest-and-protect-von-der-leyens-recipe-for-europes-competitiveness/ | übernommen (Sekundärrezeption Rencontre-Rede) |
+| 12 | H/D | Science|Business, *Europe's independence hinges on innovation, von der Leyen says*, 27. August 2026 | https://sciencebusiness.net/news/planning-fp10/europes-independence-hinges-innovation-von-der-leyen-says | übernommen (Sekundärrezeption Rencontre-Rede) |
+| 13 | A/F/I | Nvidia, *Q2 FY27 Earnings Call und Prognose Hyperscaler-Capex 2026/2027*, 26. August 2026 | https://www.cnbc.com/2026/08/26/nvidia-nvda-earnings-report-q2-2027-live-updates.html | verworfen (kein struktureller Neuzugang gegenüber § 8.2 Konstruktion (vii); wiederholter Aufnahmekandidat) |
+| 14 | A/F | *Kevin-Warsh*-Jackson-Hole-Keynote (28. August 2026, 10:00 ET, „Financial Innovation: Implications for Payments and Policy") | https://www.kansascityfed.org/research/jackson-hole-economic-symposium/ | verworfen (Rede zum Redaktionsschluss noch nicht gehalten; für Folge-Lauf 29. August 2026 markiert) |
+| 15 | D/I | Anthropic PBC, *S-1 IPO Public Filing* (erwartet Ende August 2026) | https://www.anthropic.com/news/confidential-draft-s1-sec | verworfen (bis 28. August 2026 nicht öffentlich; wiederholter Aufnahmekandidat) |
+| 16 | E | IAB, *IAB-Arbeitsmarktbarometer August 2026 — Stagnation bei 99,5 Punkten* | https://iab.de/iab-arbeitsmarktbarometer-august-2026/ | verworfen (bereits im Lauf 27. August 2026 als Aufnahmekandidat markiert; kein struktureller KI-Verdrängungsbezug) |
+| 17 | F | Yahoo Finance / Storyboard18, *AI layoffs 2026 tracker (Amazon 30k, Meta 8k, Oracle 30k)* | https://www.storyboard18.com/trending/ai-layoffs-amazon-meta-oracle-among-40-plus-companies-cutting-jobs-in-2026-ws-l-106899.htm | verworfen (Aggregat-Tracker; bereits durch bestehende Layoff-Tracker-Position und § 1.1 abgedeckt, kein struktureller Neuzugang) |
+| 18 | D | Anthropic, *Economic Policy Framework — Three-Tier Plan*, Juni 2026 | https://www-cdn.anthropic.com/files/4zrzovbb/website/9ea607a5dd67c168093829b701f3a0a6d21156d5.pdf | verworfen (bereits durch bestehende Amodei- und Anthropic-Framework-Referenzen im Papier abgedeckt, kein struktureller Neuzugang) |
+| 19 | J | IFR — International Federation of Robotics, *World Robotics Report 2026* (angekündigt 24. September 2026) | https://ifr.org/worldrobotics | verworfen (Publikation außerhalb des Zeitfensters; für Folge-Läufe ab 24. September 2026 markiert) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 8.1 (neuer Schlussabsatz) | Ergänzung | Neuer Absatz „Empirische Verankerung für Deutschland (IAB-Kurzbericht 08/2026, 27. August 2026)" mit den Verfünffachungs-Kernzahlen (5 % → 24 %) sowie den Betriebsgrößen- (48 % vs. 21 %) und Anwendungstyp-Anteilen (90 % frei / 16 % eigenerzeugt) und Rückwirkung auf § 5.1, § 8.2, § 8.3 | 1, 2, 3 |
+| 2 | § 8.2 (neuer Schlussabsatz vor § 8.3) | Ergänzung | Neuer Absatz „EU-*AI-Gigafactories*-Ausschreibung und Rencontre-Rede von der Leyens (30. Juli / 27. August 2026)" mit den Kernzahlen (bis zu 7 Gigafactories, 10 Mrd. EUR öffentlich, ≥ 20 Mrd. EUR privat) und der Doppel-Formel „produzieren, investieren, schützen" | 4–12 |
+| 3 | § 11.3 (drei neue Einträge) | Ergänzung | Literaturverzeichnis-Einträge Friedrich/Kagerl 2026 (IAB-Kurzbericht 08/2026), Europäische Kommission / EuroHPC 2026 (IP/26/1708) und von der Leyen 2026 (Rencontre-Rede) — jeweils mit vollständigen URLs und Rückwirkungs-Hinweisen | 1–12 |
+| 4 | Dokumentkopf, Abschlusshinweis, `README.md`, `Validierung-Ergebnisse.md` | Aktualisierung | Versionssprung 76.0 → 77.0 an vier Stellen konsistent nachgezogen | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Nvidia Q2 FY27 Earnings Call (26. August 2026) | A/F/I | Kein struktureller Neuzugang gegenüber § 8.2 Konstruktion (vii); wiederholter Aufnahmekandidat |
+| 2 | Kevin-Warsh-Jackson-Hole-Keynote (28. August 2026) | A/F | Rede zum Redaktionsschluss noch nicht gehalten; für Folge-Lauf 29. August 2026 markiert |
+| 3 | Anthropic S-1 Public Filing | D/I | Bis 28. August 2026 nicht öffentlich; wiederholter Aufnahmekandidat |
+| 4 | IAB-Arbeitsmarktbarometer August 2026 | E | Kein struktureller KI-Verdrängungsbezug; im Vorlauf bereits als Aufnahmekandidat markiert |
+| 5 | AI-Layoffs-2026-Tracker (Storyboard18/Yahoo Finance) | F | Aggregat-Tracker; bereits durch bestehende Layoff-Tracker-Position und § 1.1 abgedeckt |
+| 6 | Anthropic Economic Policy Framework (Juni 2026, PDF) | D | Bereits durch bestehende Amodei- und Anthropic-Framework-Referenzen im Papier abgedeckt |
+| 7 | IFR World Robotics Report 2026 | J | Publikation angekündigt 24. September 2026, außerhalb Zeitfenster |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Verweis: Block „Validierung 28. August 2026 — Version 76.0 → 77.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- E-Mail-Benachrichtigung Phase 5b versendet / Fallback-Datei geschrieben: Fallback-Datei `daily-mail.txt` geschrieben (kein Microsoft-Graph-`mail_send`-Tool in der Session verfügbar)
+- WhatsApp-Kurzzusammenfassung Phase 5b versendet / Fallback-Datei geschrieben: Fallback-Datei `daily-whatsapp.txt` geschrieben (kein `wa_send_message`-Tool in der Session verfügbar)
+- Branch auf main gemerged und gelöscht: Ja (Session-Branch `claude/determined-einstein-xxkrpz`; Remote-Branch-Löschung ggf. HTTP 403 durch Server-Policy, Fallback-Status im Logbuch)
+
+### Auffälligkeiten / offene Punkte
+
+- Warsh-Jackson-Hole-Keynote (28. August 2026, 10:00 ET): Rede zum Redaktionsschluss (frühmorgens deutscher Zeit) noch nicht gehalten. Redetext und geldpolitische Positionierung zu KI-Capex-Bondmarkt-Verwerfung und langfristig-disinflationärer Produktivitätswirkung sind für den Folge-Lauf 29. August 2026 vorgemerkt (vgl. bereits § 8.2 Konstruktion (vii), Vorlauf 26. August 2026).
+- Anthropic-S-1-Public-Filing zum Redaktionsschluss weiterhin nicht öffentlich; erwartete Zielbewertung nach Bloomberg (17. August 2026, § 8.2 vorlaufender Absatz) rund 2 Billionen US-Dollar; wiederholter Aufnahmekandidat.
+- Phase 5b: In der laufenden Session sind weder ein `mail_send`/`send_mail`/`send_message`/`outlook_send`-Werkzeug eines Microsoft-Graph-MCP-Servers noch ein `wa_send_message`-Werkzeug eines WhatsApp-MCP-Servers erreichbar. Empfängerdaten wurden nicht in Repository-Dateien geschrieben. Der vorbereitete E-Mail-Inhalt liegt in `daily-mail.txt`, die WhatsApp-Kurzzusammenfassung in `daily-whatsapp.txt` — beide gitignored gemäß `.gitignore`.
+
+---
+
 ## 2026-08-27 — Lauf 001 — Version 75.0 → Version 76.0
 
 ### Recherchekorridor
