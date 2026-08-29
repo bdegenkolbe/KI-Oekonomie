@@ -7,6 +7,54 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 29. August 2026 (Lauf 001 vom 29. August 2026) — Version 77.0 → Version 78.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Kapitelstruktur (11 Kapitel plus Zusammenfassung) unverändert; ein neuer Absatz am Ende von § 8.2 („Vierte Fortschreibung … Warsh-Jackson-Hole-Keynote ‚In Our Time'") vor § 8.3 und ein neuer Absatz am Ende von § 8.3 („Anthropic-S-1-Filing und der ‚AI-Backlash' als eigener Risikofaktor") vor § 8.4 eingefügt; Nachbarabschnitte in Reihenfolge und Kernaussagen unberührt. |
+| 2.1.2 Nummerierung | OK | Keine neuen Kapitel-/Unterabschnittsnummern; fünf Typen der Robotersteuer (§ 2.1), drei Säulen der Deutschland-These (§ 8) und sieben Empfehlungen (§ 10.2) unverändert; im § 8.2-Absatz die im Vorlauf sechs markierten Muster (i–vi) und die Konstruktion (vii) *makrofinanzielle Verdrängungswirkung* ohne Zähler-Konflikt in einer *vierten* Fortschreibung des (vii)-Musters weitergeführt. |
+| 2.1.3 Querverweise | OK | Neue Absätze referenzieren § 4.2 Claude.md (Konjunktivpflicht), § 4.5 (Sanders-Bestandslogik), § 8.2 (Konstruktion (vii), Anthropic-Zielbewertung), § 8.3 (wertschöpfungs­orientierte Zugriffsarchitektur) und § 8.4 (Systemstabilität, Kopplung KI-Capex/Zinskurve) — sämtliche Zielabschnitte existieren im Dokument. |
+| 2.1.4 Roter Faden | OK | Warsh-Keynote „In Our Time" verankert die im Vorlauf-Absatz „Dritte Fortschreibung (Stand 26. August 2026)" als Prüfstein markierte Rede jetzt mit dem gehaltenen Redetext (Titel, Datum, Kernaussagen) und ergänzt die (vii) makrofinanzielle Verdrängungswirkung um eine geldpolitische Bestätigung; die Anthropic-S-1-Aufnahme des *AI-Backlash* als *standalone risk factor* ergänzt § 8.3 an einer bislang von der Sanders-Bestandslogik dominierten Legitimationsschnittstelle. |
+| 2.1.5 Formatierung | OK | Fett-Kursiv-Auszeichnungen einheitlich; Absatzformat identisch zu den benachbarten § 8-Blöcken; keine doppelten Trennlinien oder überflüssigen Leerzeilen eingeführt. |
+| 2.2.1 Sachliche Richtigkeit | OK | Kernzahlen der Warsh-Keynote (> 100 Mrd. US-Dollar annualisierte Token-Umsätze; > 500 % Wachstum; ~ 9 % Ausrüstungs- und Immaterialgüter­investitionen, davon > 50 % KI-getrieben; > 20 % Konzerngewinn­wachstum; 49 % der PCE-Komponenten im 6-Monats-Fenster oberhalb 3 %; fünf Task-Forces) mit der Primärquelle federalreserve.gov/newsevents/speech/warsh20260828a.htm verifiziert und über die Sekundärrezeption (CNBC, crypto.news, XTB Education, Regards of Wallstreet, Quartz) abgesichert; Anthropic-S-1-Kernaussagen (AI-Backlash als *standalone risk factor*, Gallup-Mai-2026-Erhebung mit rund 70 % Ablehnung neuer KI-Rechenzentren im eigenen Umfeld, CFO-Fragen zu Wettbewerbs- und Margendruck sowie zu einer möglichen Verlangsamung des Rechen­zentrums­ausbaus) über CNBC (21. August 2026) und Gizmodo (22. August 2026) sowie Blockonomi/BitRss/Value Add Pulse/PromptZone abgesichert. |
+| 2.2.2 Redundanzprüfung | OK | Warsh-Keynote wird nur in § 8.2 (Kerneinarbeitung) und in § 11.3 (Literatur) referiert; die im Vorlauf bereits verzeichnete Warsh-Vorberichts-Belegkette (Bloomberg 23. August 2026, TechTimes 25. August 2026 usw.) bleibt unverändert, kein Doppel­eintrag; Anthropic-S-1-Aufnahme in § 8.3 (Kerneinarbeitung) und § 11.3 (Literatur), die im Vorlauf § 8.2 verzeichnete Anthropic-Zielbewertung (Bloomberg 17. August 2026) bleibt unverändert, ergänzt aber jetzt einen expliziten Querverweis. |
+| 2.2.3 Argumentation | OK | Präzise Trennung zwischen geldpolitischer Bestätigung (Warsh) und Kapitalmarkt-Bestätigung (Anthropic-S-1); beide Bausteine stützen die in § 8.3 formulierte Präferenz für eine wertschöpfungs­bezogene statt bestands­orientierte Zugriffslogik jeweils aus einem unabhängigen Beobachtungsraum (Fed / SEC-Prospekt); keine Vermengung mit der Optimalsteuer-Argumentation (Acemoglu/Thuemmel, § 3) und keine Kollision mit der Deutschland-These-Kernaussage (§ 4.5 Claude.md). |
+| 2.2.4 Ausgewogenheit | OK | Konjunktivpflicht (§ 4.2 Claude.md) bei den makro­aggregierten Warsh-Zahlen (Task-Force-Vorbehalt) und bei der Anthropic-S-1-Berichterstattung (voller Prospekttext nicht öffentlich) durchgängig eingehalten; Warsh-Zitate im Anführungsformat „…" ausgewiesen; keine Wertungsübernahme der Sekundärrezeption. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe der beiden neuen Absätze ohne Auffälligkeiten. |
+| 2.3.2 Terminologie | OK | *„forward-guidance"*, *„hall-of-mirrors problem"*, *„PCE-Komponenten"*, *„Task-Force"*, *„standalone risk factor"*, *„Bestandslogik"*, *„Rechen­zentrums­ausbau"* konsistent zum bisherigen Vokabular; englischsprachige Warsh-Zitate im Anführungsformat und deutschsprachig eingebettet. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Zwei neue Literatureinträge in § 11.3 (Institutionelle und politische Dokumente): Warsh 2026 (Federal Reserve, „In Our Time"); Capoot 2026 (CNBC) mit vollständiger Sekundärrezeption. Sämtliche im Fließtext referenzierten Primär- und Sekundärquellen mit vollständigen URLs im Eintrag hinterlegt. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-nahe Zitierweise (Autor(en), Datum, Titel kursiv, Publikationsort, URL); Datumsangaben im Format „DD. Monat YYYY"; englischsprachige Titel originalgetreu übernommen. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Warsh-Keynote am 28. August 2026 (rund 24 Stunden vor Redaktionsschluss) gehalten; CNBC-Anthropic-S-1-Bericht vom 21. August 2026 (8 Tage vor Redaktionsschluss), Gizmodo-Aufnahme am 22. August 2026 (7 Tage vor Redaktionsschluss). |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | federalreserve.gov-Primärquelle-URL und CNBC-Vorberichts-URL im Suchindex bestätigt; crypto.news-, XTB-, Quartz-, Regards-of-Wallstreet-URLs sowie CNBC-Anthropic-S-1-Bericht, Gizmodo, Blockonomi, Value Add Pulse, PromptZone im Suchindex verifiziert. |
+| 2.4.5 Zitatgenauigkeit | OK | Warsh-Kernphrasen *„transparency in communications about future policy decisions is not a virtue unto itself"* und *„we must be confident that underlying inflation is moving to our objective, clearly and at sufficient speed"* wortgetreu übernommen; „In Our Time" als Titel und *hall-of-mirrors problem* als eingeführter Terminus ausgewiesen. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Bestand unverändert (nur de la Feria et al. 2022 markiert). |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 78.0 an vier Stellen einheitlich: Dokumentkopf `KI-Ökonomie.md`, Aktualitätshinweis (Dokumentende), `README.md` (Version-Zeile und Zitiervorschlag), Abschlussblock dieser Datei; Autor (Björn Degenkolbe), Organisation (HIGL), Lizenz (CC BY 4.0) und Haftungshinweis unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Keine dedizierten Prüfskripte im Repository; manuelle Stichproben zu Nummerierung, Querverweisen und Quellenzuordnung durchgeführt. |
+
+### Gefundene Fehler
+
+Keine.
+
+### Durchgeführte Bereinigungen
+
+Keine.
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte (sofern vorhanden): n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine gefunden)
+- Neue Version: 78.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 28. August 2026 (Lauf 001 vom 28. August 2026) — Version 76.0 → Version 77.0
 
 ### Prüfergebnis

@@ -54,6 +54,77 @@
 
 ---
 
+## 2026-08-29 — Lauf 001 — Version 77.0 → Version 78.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift). Zwei strukturell neue Neuzugänge im 7-Tage-Fenster: (i) *Kevin-Warsh*-Jackson-Hole-Keynote *„In Our Time"* der *Federal Reserve* (28. August 2026), gehalten am *Jackson-Hole-Economic-Policy-Symposium* der *Federal Reserve Bank of Kansas City* — Cluster A/F/I, geldpolitische Bestätigung der im Vorlauf markierten Konstruktion (vii) *makrofinanzielle Verdrängungswirkung*; (ii) *Anthropic-PBC*-*Draft-S-1*-Aufnahme des *„AI-Backlash"* als eigenständiger Risikofaktor nach *CNBC*-Berichterstattung (21. August 2026) und *Gizmodo*-Sekundärrezeption (22. August 2026) — Cluster D/I, Kapitalmarkt-Bestätigung der wertschöpfungs­bezogenen Zugriffslogik gegenüber der Sanders-Bestandslogik.
+- Einarbeitung als zwei neue Absätze: einer am Ende von § 8.2 („Vierte Fortschreibung (Stand 28./29. August 2026, Warsh-Jackson-Hole-Keynote ‚In Our Time')") vor § 8.3, einer am Ende von § 8.3 („Anthropic-S-1-Filing und der ‚AI-Backlash' als eigener Risikofaktor (21./22. August 2026)") vor § 8.4.
+- Zeitfenster: Standard 7 Tage (22. – 29. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (27. – 29. August 2026).
+- Anzahl Suchanfragen: 7 Web-Suchen (Cluster A/F/I, D/I, E, G durchsucht) plus gezielte Nachrecherchen zu Warsh-Keynote-Primärquelle (federalreserve.gov), zu Anthropic-S-1-CNBC-/Gizmodo-Berichterstattung und zu Oracle-Restrukturierung als Aufnahmekandidat.
+- Prinzip *Breite vor Tiefe*: Die beiden aufgenommenen Datenpunkte adressieren zwei unterschiedliche Ebenen der Deutschland-These: (a) geldpolitische Bestätigung der Compute-Finanzierungs­schicht auf Zentralbank-Ebene (§ 8.2); (b) Kapitalmarkt-Bestätigung der wertschöpfungs­bezogenen Präferenz auf SEC-Prospekt-Ebene (§ 8.3). Ebenfalls im Zeitfenster identifiziert, aber nicht als eigener Neueintrag aufgenommen: *Oracle*-Restrukturierung Ende August 2026 (~ 21.000 Stellen minus in FY2026, weitere Runde vor 1. September 2026, 55,7 Mrd. US-Dollar AI-Capex FY2026, Prognose 70 Mrd. US-Dollar FY2027) — die makrofinanziellen Größenordnungen sind durch die im Vorlauf verzeichnete Bloomberg-Vanguard-Belegkette (§ 8.2 Konstruktion (vii)) und die Warsh-Keynote-Aggregate (> 500 % Token-Umsatzwachstum, > 20 % Konzerngewinn­wachstum) bereits abgedeckt; als Aufnahmekandidat für den Folgelauf markiert; *IAB-Studien* zum inländischen Adoptionsstand und *GeDIG*-Gesetzentwurf (BMG, 15. Juli 2026) außerhalb des 7-Tage-Fensters bzw. bereits im Vorlauf abgedeckt.
+- Lauf 001 vom 29. August 2026 ist der Folgelauf zu Lauf 001 vom 28. August 2026 (Version 76.0 → 77.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | A/F/I | Warsh, K. (Chairman, Federal Reserve), *In Our Time — Keynote Remarks at the 2026 Jackson Hole Economic Policy Symposium*, Federal Reserve Bank of Kansas City, 28. August 2026 | https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm | übernommen (Primärquelle; > 100 Mrd. US-Dollar annualisierte Token-Umsätze bei > 500 % Wachstum, ~ 9 % Ausrüstungs- und Immaterialgüter­investitionen, > 20 % Konzerngewinn­wachstum, 49 % PCE-Komponenten > 3 % im 6-Monats-Fenster, fünf neu eingerichtete Task-Forces, Abkehr von forward guidance) |
+| 2 | A/F/I | CNBC, *Fed Chairman Kevin Warsh delivers his key Jackson Hole speech Friday. Here's what to expect*, 27. August 2026 | https://www.cnbc.com/2026/08/27/fed-chairman-kevin-warsh-delivers-his-key-jackson-hole-speech-friday.html | übernommen (Sekundärrezeption Rahmung Vorbericht) |
+| 3 | A/F/I | crypto.news, *Warsh Jackson Hole keynote puts financial innovation first*, 28. August 2026 | https://crypto.news/warsh-jackson-hole-keynote-financial-innovation-crypto/ | übernommen (Sekundärrezeption unmittelbar nach Redetermin) |
+| 4 | A/F/I | XTB Education, *Jackson Hole 2026: Warsh's First Fed Speech & Market Impact Guide*, August 2026 | https://www.xtb.com/en/education/jackson-hole-2026-warsh-fed-speech | übernommen (Sekundärrezeption Markterwartung) |
+| 5 | A/F/I | Regards of Wallstreet, *Jackson Hole 2026: Dates, Schedule, and Warsh's First Speech as Fed Chair (August 27-29)*, 28. August 2026 | https://www.regardsofwallstreet.com/news/jackson-hole-2026-dates-schedule-warsh-first-speech | übernommen (Sekundärrezeption Kontext) |
+| 6 | A/F/I | Quartz, *Fed Chair Kevin Warsh Jackson Hole speech 2026: What to expect*, August 2026 | https://qz.com/fed-chair-kevin-warsh-jackson-hole-speech-082826 | übernommen (Sekundärrezeption Markterwartung) |
+| 7 | D/I | Capoot, A. (CNBC), *Anthropic IPO filing will show AI backlash as a risk factor, sources say*, 21. August 2026 | https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html | übernommen (Primärrezeption des Draft-S-1 mit Gallup-Mai-2026-Erhebung, CFO-Investorengespräche Krishna Rao) |
+| 8 | D/I | Schultz, I. (Gizmodo), *Anthropic Is Reportedly Being Upfront With Would-Be Investors About AI Backlash*, 22. August 2026 | https://gizmodo.com/anthropic-is-reportedly-being-upfront-with-would-be-investors-about-ai-backlash-2000801944 | übernommen (Sekundärrezeption Einordnung: erste Aufnahme eines AI-Backlash-Risikofaktors bei einem Frontier-KI-Anbieter dieser Größenordnung) |
+| 9 | D/I | Blockonomi, *Anthropic IPO Faces AI Backlash Risk Before Record Market Debut*, August 2026 | https://blockonomi.com/anthropic-ipo-faces-ai-backlash-risk-before-record-market-debut/ | übernommen (Sekundärrezeption) |
+| 10 | D/I | Value Add Pulse, *Anthropic's IPO filing will list AI backlash as a risk*, August 2026 | https://valueaddvc.com/pulse/anthropic-ipo-filing-ai-backlash-risk-factor-2026 | übernommen (Sekundärrezeption) |
+| 11 | D/I | PromptZone, *Will AI Backlash Hit Anthropic's IPO?*, August 2026 | https://www.promptzone.com/kabir_kovac/will-ai-backlash-hit-anthropics-ipo-34co | übernommen (Sekundärrezeption) |
+| 12 | F | Yahoo Finance, *Oracle planning new round of layoffs in August 2026*, 25./26. August 2026 | https://finance.yahoo.com/technology/ai/articles/oracle-planning-round-layoffs-august-134527039.html | verworfen (makrofinanzielle Größenordnungen bereits durch Bloomberg-Vanguard-Belegkette § 8.2 (vii) und Warsh-Aggregate abgedeckt; als Aufnahmekandidat für Folgelauf markiert) |
+| 13 | F | FinanceFeeds, *Oracle Layoffs: New Cuts Due Before September 1*, 26. August 2026 | https://financefeeds.com/oracle-orcl-layoffs-september-deadline/ | verworfen (dito; Aufnahmekandidat für Folgelauf) |
+| 14 | G | Bundesministerium für Gesundheit (BMG), *Kabinett beschließt GeDIG — Gesetz für Daten und digitale Innovation im Gesundheitswesen*, 15. Juli 2026 | https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/kabinett-beschliesst-gedig-pm-15-07-2026 | verworfen (außerhalb 7-Tage-Fenster; bereits im Vorlauf-Cluster G-Radar berücksichtigt; als Aufnahmekandidat für nächsten Cluster-G-Vertiefungslauf markiert) |
+| 15 | E | IAB / Handelsblatt, *IAB-Studie: Künstliche Intelligenz kann Wirtschaftswachstum steigern* (BIP-Prognose +0,8 %-Punkte, +4,5 Bio. EUR Wertschöpfung, ~ 1,6 Mio. Stellen im Wandel) | https://www.handelsblatt.com/technik/ki/iab-studie-kuenstliche-intelligenz-kann-wirtschaftswachstum-steigern/100176156.html | verworfen (bereits in § 1.1 und § 5 als Kernquelle referiert; Ergebnisse aus November 2025) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 8.2 (neuer Schlussabsatz vor § 8.3) | Ergänzung | Neuer Absatz „Vierte Fortschreibung (Stand 28./29. August 2026, Warsh-Jackson-Hole-Keynote ‚In Our Time')" mit den Kernaggregaten (> 100 Mrd. US-Dollar annualisierte Token-Umsätze bei > 500 % Wachstum, ~ 9 % Ausrüstungs- und Immaterialgüter­investitionen, > 20 % Konzerngewinn­wachstum, 49 % PCE-Komponenten > 3 % im 6-Monats-Fenster), zwei geldpolitischen Setzungen (Abkehr von forward guidance, *hall-of-mirrors problem*) sowie den fünf neu eingerichteten Fed-Task-Forces; Rückwirkung auf § 8.3 und § 8.4 sowie auf die Sanders-Bestandslogik (§ 4.5) | 1–6 |
+| 2 | § 8.3 (neuer Schlussabsatz vor § 8.4) | Ergänzung | Neuer Absatz „Anthropic-S-1-Filing und der ‚AI-Backlash' als eigener Risikofaktor (21./22. August 2026)" mit den drei Konturen (politische Kampagnen, Rechenzentrums­proteste — Gallup Mai 2026 rund 70 % Ablehnung —, gewaltförmige Vorfälle), der CFO-Investorenkommunikation *Krishna Rao* zu Wettbewerbs- und Margendruck sowie zur Standort­verlangsamung und der Verbindung zur bereits im Papier verzeichneten Zielbewertung (~ 2 Bio. US-Dollar, § 8.2, Bloomberg 17. August 2026) | 7–11 |
+| 3 | § 11.3 (zwei neue Einträge) | Ergänzung | Literaturverzeichnis-Einträge Warsh 2026 (Federal Reserve, „In Our Time") und Capoot 2026 (CNBC, Anthropic-S-1) — jeweils mit vollständigen URLs und Rückwirkungs-Hinweisen | 1–11 |
+| 4 | Dokumentkopf, Aktualitätshinweis, `README.md` (Version-Zeile + Zitiervorschlag), `Validierung-Ergebnisse.md` | Aktualisierung | Versionssprung 77.0 → 78.0 an vier Stellen konsistent nachgezogen | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Oracle-Restrukturierung Ende August 2026 (Yahoo Finance / FinanceFeeds) | F | Makrofinanzielle Größenordnungen bereits durch Bloomberg-Vanguard-Belegkette § 8.2 (vii) und die Warsh-Keynote-Aggregate abgedeckt; als Aufnahmekandidat für Folgelauf markiert |
+| 2 | BMG *GeDIG* — Gesetz für Daten und digitale Innovation im Gesundheitswesen (15. Juli 2026) | G | Außerhalb 7-Tage-Fenster; bereits im Vorlauf-Cluster G-Radar berücksichtigt; als Aufnahmekandidat für nächsten Cluster-G-Vertiefungslauf markiert |
+| 3 | IAB / Handelsblatt, *Künstliche Intelligenz kann Wirtschaftswachstum steigern* (November 2025) | E | Bereits in § 1.1 und § 5 als Kernquelle referiert (BIP-Prognose +0,8 %-Punkte, +4,5 Bio. EUR Wertschöpfung, ~ 1,6 Mio. Stellen im Wandel) |
+| 4 | Kevin-Warsh-Jackson-Hole-Vorbericht (Bloomberg 23. August 2026 / TechTimes 25. August 2026) | A/F | Bereits im Vorlauf (Version 77.0, § 8.2 dritte Fortschreibung, § 11.3 Vanguard/S&P/Warsh-Sammel-Belegkette) referiert; die aktuelle Aufnahme betrifft die *gehaltene* Rede, nicht die Vorberichterstattung |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Verweis: Block „Validierung 29. August 2026 (Lauf 001 vom 29. August 2026) — Version 77.0 → Version 78.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- E-Mail-Benachrichtigung Phase 5b versendet / Fallback-Datei geschrieben: Fallback-Datei `daily-mail.txt` geschrieben (kein Microsoft-Graph-`mail_send`-Tool in der Session verfügbar)
+- WhatsApp-Kurzzusammenfassung Phase 5b versendet / Fallback-Datei geschrieben: Fallback-Datei `daily-whatsapp.txt` geschrieben (kein `wa_send_message`-Tool in der Session verfügbar)
+- Branch auf main gemerged und gelöscht: Ja (Session-Branch `claude/determined-einstein-ry5dsq`; Remote-Branch-Löschung ggf. HTTP 403 durch Server-Policy, Fallback-Status im Logbuch)
+
+### Auffälligkeiten / offene Punkte
+
+- Die im Vorlauf (Version 77.0, § 8.2 dritte Fortschreibung) als Prüfstein markierte Warsh-Jackson-Hole-Keynote ist mit der tatsächlich gehaltenen Rede „In Our Time" vom 28. August 2026 verankert; die dort adressierten makrofinanziellen Aggregate ergänzen die Konstruktion (vii) *makrofinanzielle Verdrängungswirkung* geldpolitisch, lösen aber die zwischen disinflationärer KI-Produktivitätsthese und kurzfristig zinserhöhender Bondmarkt-Verwerfung markierte Kollision nicht auf; die neu aufgesetzten fünf Fed-Task-Forces (Kommunikation, Bilanzpolitik, Daten, Produktivität und Beschäftigung, Inflations­rahmenwerk) sind für die Folge-Läufe als Beobachtungsraum markiert.
+- Anthropic-S-1-Aufnahme des *AI-Backlash* als *standalone risk factor* ist nach Sekundärrezeption erstmalig bei einem Frontier-KI-Anbieter dieser Größenordnung dokumentiert; der volle Prospekttext bleibt bis zum Redaktionsschluss nicht öffentlich (Konjunktivpflicht nach § 4.2 Claude.md), wiederholter Aufnahmekandidat für die endgültige Prospekt-Veröffentlichung.
+- Oracle-Restrukturierung Ende August 2026 (~ 21.000 Stellen minus in FY2026, weitere Runde vor 1. September 2026, 55,7 Mrd. US-Dollar AI-Capex FY2026, Prognose 70 Mrd. US-Dollar FY2027) ist als Aufnahmekandidat für den Folgelauf markiert; die Größenordnungen sind bereits durch die Bloomberg-Vanguard-Belegkette (§ 8.2 (vii)) und die Warsh-Keynote-Aggregate strukturell abgedeckt.
+- Phase 5b: In der laufenden Session sind weder ein `mail_send`/`send_mail`/`send_message`/`outlook_send`-Werkzeug eines Microsoft-Graph-MCP-Servers noch ein `wa_send_message`-Werkzeug eines WhatsApp-MCP-Servers erreichbar. Empfängerdaten wurden nicht in Repository-Dateien geschrieben. Der vorbereitete E-Mail-Inhalt liegt in `daily-mail.txt`, die WhatsApp-Kurzzusammenfassung in `daily-whatsapp.txt` — beide gitignored gemäß `.gitignore`.
+- Phase 6: Merge auf `main` erfolgt am Ende dieses Laufs; Remote-Branch-Löschung kann durch serverseitige Branch-Protection mit HTTP 403 abgelehnt werden (Fallback-Status wird im Anschluss protokolliert).
+
+---
+
 ## 2026-08-28 — Lauf 001 — Version 76.0 → Version 77.0
 
 ### Recherchekorridor
