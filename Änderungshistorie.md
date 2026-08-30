@@ -54,6 +54,68 @@
 
 ---
 
+## 2026-08-30 — Lauf 001 — Version 78.0 → Version 79.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift). Ein strukturell neuer Neuzugang im 7-Tage-Fenster: die *Kevin-Warsh*-Jackson-Hole-Keynote *„In Our Time"* vom 28. August 2026 wird um eine bislang nicht aufgenommene begriffliche Setzung ergänzt — Warshs wörtliche Bezeichnung der KI als *„a new variable — potentially a new factor of production — that will have consequences for both the economy and the conduct of monetary policy"* und die Formel *„Capital and labor have combined to create the large language models at the heart of AI"* (Primärquelle: Federal Reserve Board, Speech federalreserve.gov/newsevents/speech/warsh20260828a.htm) — Cluster A, geldpolitisch-institutionelle Bestätigung der in § 8.1 formulierten Drei-Faktor-Sicht Y = f(K, L, AI) auf Zentralbank-Ebene.
+- Einarbeitung als ein neuer Absatz „Externe Bestätigung durch die geldpolitische Ebene (Warsh-Jackson-Hole-Keynote ‚In Our Time', 28. August 2026)" in § 8.1 vor der bestehenden IAB-Verankerung. Die makrofinanziellen Aggregate derselben Rede sind an ihrem primären Ort in § 8.2 (Vierte Fortschreibung, Lauf 29. August 2026, Version 77.0 → 78.0) belassen und werden nicht dupliziert.
+- Zeitfenster: Standard 7 Tage (23. – 30. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (28. – 30. August 2026).
+- Anzahl Suchanfragen: 9 Web-Suchen (Cluster A/F/I, D/I, E, G, H durchsucht) plus gezielte Nachrecherche zur Primärquelle des Warsh-Redetextes (federalreserve.gov) sowie zu Oracle-Restrukturierung, EU-AI-Act-Enforcement und Bundesbank-/Sachverständigenrat-KI-Positionierung.
+- Prinzip *Breite vor Tiefe*: Der aufgenommene Datenpunkt adressiert ausschließlich die begriffliche Bestimmung (§ 8.1 — Drei-Faktor-Sicht auf Zentralbank-Ebene). Die makrofinanziellen Aggregate derselben Rede sind bereits in § 8.2 aufgenommen (Vierte Fortschreibung, Version 78.0). Ebenfalls im Zeitfenster identifiziert, aber nicht als eigener Neueintrag aufgenommen: *Oracle*-Restrukturierung Ende August 2026 (~ 21.000 Stellen minus in FY2026, weitere Runde vor 1. September 2026, 55,7 Mrd. US-Dollar AI-Capex FY2026, 1,84 Mrd. US-Dollar Restrukturierungsaufwand — bereits strukturell in § 1.1 und § 11.5 abgedeckt); *EU-AI-Act*-Enforcement-Beginn 2. August 2026 samt *Digital-Omnibus-on-AI*-Verordnung 2026/1744 (bereits in Version 74.0 dokumentiert); *OECD*-Papier *„Recent policy developments on AI in the labour market"* vom 24. Juli 2026 (außerhalb 7-Tage-Fenster; Aufnahmekandidat für Folgeläufe); *Anthropic-S-1*-Public-Filing (bis 30. August 2026 nicht öffentlich; wiederholter Aufnahmekandidat).
+- Lauf 001 vom 30. August 2026 ist der Folgelauf zu Lauf 001 vom 29. August 2026 (Version 77.0 → 78.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | A | Warsh, K. (Chairman, Federal Reserve), *In Our Time — Keynote Remarks at the 2026 Jackson Hole Economic Policy Symposium*, Federal Reserve Bank of Kansas City, 28. August 2026 — hier ausschließlich hinsichtlich der wörtlichen Passagen *„a new variable — potentially a new factor of production …"* und *„Capital and labor have combined to create the large language models at the heart of AI"* | https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm | übernommen (Primärquelle direkt verifiziert; neuer Aspekt gegenüber Version 78.0 ist die begriffliche Faktor-Setzung, nicht die bereits aufgenommenen makrofinanziellen Aggregate) |
+| 2 | A/F | Reuters / Fortune / Yahoo Finance / NPR / GPB, *Warsh Jackson Hole speech sekundärrezeption*, 28. August 2026 | https://finance.yahoo.com/economy/live/jackson-hole-fed-summit-live-kevin-warsh-keynote-speech-180442096.html | verworfen (fokussiert auf inflations- und zinspolitische Aspekte; die begriffliche Faktor-Setzung wird in den Sekundärrezeptionen nicht besonders hervorgehoben — der neue Aspekt bezieht sich ausschließlich auf den Primärquellentext) |
+| 3 | F | Yahoo Finance / FinanceFeeds / HRexecutive / TheStreet / CNBC / Forbes, *Oracle planning new round of layoffs before September 2026 / Oracle sheds 21,000 roles amid AI layoffs*, 25. – 28. August 2026 | https://finance.yahoo.com/technology/ai/articles/oracle-planning-round-layoffs-august-134527039.html | verworfen (Restrukturierung bereits in § 1.1 (Oracle April 2026) und § 11.5 (Oracle-Konzern-8-K Juni 2026, 21.000 Stellen, 55,7 Mrd. US-Dollar AI-Capex, 1,84 Mrd. US-Dollar Restrukturierungsaufwand) strukturell abgedeckt; wiederholter Aufnahmekandidat für eine potenzielle Folge-Vertiefung, sobald konkrete September-Zahlen und Bereichsverteilung öffentlich sind) |
+| 4 | B | Europäische Kommission, *AI Act Enforcement Beginn und Transparenzanforderungen 2. August 2026*, sowie *Digital-Omnibus-on-AI-Verordnung 2026/1744*, 27. Juli 2026 | https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1714 | verworfen (bereits in Version 74.0 im Papier dokumentiert; keine strukturelle Neuerung im 7-Tage-Fenster) |
+| 5 | A/E | OECD, *Recent policy developments on AI in the labour market* (OECD Artificial Intelligence Papers No. 63), 24. Juli 2026 | https://www.oecd.org/en/publications/recent-policy-developments-on-ai-in-the-labour-market_c0ffced7-en.html | verworfen (außerhalb 7-Tage-Fenster; Aufnahmekandidat für Folgeläufe im G7-Vergleich der Politikentwicklung) |
+| 6 | D/I | Anthropic PBC, *S-1 IPO Public Filing* (erwartet Ende August 2026) | https://www.anthropic.com/news/confidential-draft-s1-sec | verworfen (bis 30. August 2026 nicht öffentlich; wiederholter Aufnahmekandidat) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 8.1 (neuer Absatz vor der bestehenden IAB-Verankerung) | Ergänzung | Neuer Absatz „Externe Bestätigung durch die geldpolitische Ebene (Warsh-Jackson-Hole-Keynote ‚In Our Time', 28. August 2026)" mit den wörtlichen Warsh-Passagen zur KI als *„a new variable — potentially a new factor of production"* und zur Entstehungslogik *„Capital and labor have combined to create the large language models at the heart of AI"* sowie einer dreifachen externen Verankerung der Drei-Faktor-Sicht (G7-Zentralbank-Ebene, qualitative Neuartigkeit, parallele Bestätigung neben der IAB-Empirie); ausdrücklicher Verweis auf § 8.2 (Vierte Fortschreibung) zur Vermeidung von Redundanz | 1 |
+| 2 | Dokumentkopf, Aktualitätshinweis, `README.md` (Version-Zeile + Zitiervorschlag), `Validierung-Ergebnisse.md` | Aktualisierung | Versionssprung 78.0 → 79.0 an vier Stellen konsistent nachgezogen; Stichtag von *29. August 2026* auf *30. August 2026*, Lauf-Kennung von *Lauf 001 vom 29. August 2026* auf *Lauf 001 vom 30. August 2026* | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | Warsh-Sekundärrezeption (Reuters/Yahoo/NPR/GPB/Fortune, 28. August 2026) | A/F | Sekundärrezeption fokussiert auf inflations- und zinspolitische Aspekte, keine strukturelle Ergänzung des neu aufgenommenen begrifflichen Aspekts (Faktor-Setzung); die makrofinanziellen Aggregate der Rede sind an ihrem primären Ort in § 8.2 (Vierte Fortschreibung, Version 78.0) belassen |
+| 2 | Oracle-Restrukturierung Ende August 2026 (Yahoo Finance / FinanceFeeds / HRexecutive / CNBC / TheStreet / Forbes) | F | Bereits strukturell in § 1.1 (Oracle April 2026, 20.000 – 30.000 Stellen) und in § 11.5 (Oracle-Konzern-8-K Juni 2026, 21.000 Stellen, 55,7 Mrd. US-Dollar AI-Capex, 1,84 Mrd. US-Dollar Restrukturierungsaufwand) abgedeckt; wiederholter Aufnahmekandidat für Folgeläufe mit konkreten September-Zahlen |
+| 3 | EU-AI-Act-Enforcement-Beginn 2. August 2026 / Digital-Omnibus-on-AI-Verordnung 2026/1744 | B | Bereits in Version 74.0 im Papier dokumentiert |
+| 4 | OECD, *Recent policy developments on AI in the labour market* (OECD AI Papers No. 63) | A/E | Außerhalb 7-Tage-Fenster (24. Juli 2026); Aufnahmekandidat für Folgeläufe im G7-Vergleich |
+| 5 | Anthropic-S-1-Public-Filing | D/I | Bis 30. August 2026 nicht öffentlich; wiederholter Aufnahmekandidat |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Verweis: Block „Validierung 30. August 2026 (Lauf 001 vom 30. August 2026) — Version 78.0 → Version 79.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- E-Mail-Benachrichtigung Phase 5b versendet / Fallback-Datei geschrieben: siehe Auffälligkeiten
+- WhatsApp-Kurzzusammenfassung Phase 5b versendet / Fallback-Datei geschrieben: siehe Auffälligkeiten
+- Branch auf main gemerged und gelöscht: siehe Auffälligkeiten
+
+### Auffälligkeiten / offene Punkte
+
+- Die im Vorlauf (Version 78.0, Lauf 29. August 2026) für § 8.2 aufgenommene *Vierte Fortschreibung* der Warsh-Jackson-Hole-Keynote hatte die makrofinanziellen Aggregate der Rede (annualisierte Token-Umsätze über 100 Milliarden US-Dollar, rund 9 Prozent Ausrüstungs- und Immaterialgüter­investitionen, über 20 Prozent Konzern­gewinn­wachstum, 49 Prozent der PCE-Komponenten über 3 Prozent im 6-Monats-Fenster, fünf neu eingerichtete *Fed*-Task-Forces) abgedeckt; die im aktuellen Lauf ergänzte begriffliche Setzung — KI als *„new variable, potentially a new factor of production"* und die Formel *„Capital and labor have combined to create the large language models at the heart of AI"* — betrifft die in § 8.1 formulierte Drei-Faktor-Sicht und wurde daher an ihrem systemisch passenden Ort in § 8.1 aufgenommen, nicht als weitere Fortschreibung in § 8.2.
+- Anthropic-S-1-Public-Filing zum Redaktionsschluss weiterhin nicht öffentlich; wiederholter Aufnahmekandidat.
+- Oracle-Restrukturierung Ende August 2026 als wiederholter Aufnahmekandidat markiert (September-Zahlen und Bereichsverteilung offen).
+- OECD-Papier *„Recent policy developments on AI in the labour market"* (24. Juli 2026) als Aufnahmekandidat für einen G7-Politikvergleichslauf markiert.
+- Phase 5b: Der Routine-Aufruf am 30. August 2026 hat *email_to* und *whatsapp_to* als Parameter im Anweisungstext übergeben; siehe Verarbeitungsschritte zum Kanal-Ergebnis. Empfängerdaten werden gemäß Prompt-Vorgabe nicht in Repository-Dateien geschrieben.
+- Phase 6: Session-Branch `claude/determined-einstein-ibyqn1`. Merge auf `main`, Push und Branch-Cleanup gemäß Prompt-Ablauf. Remote-Branch-Löschung kann wie in den Vorläufen an HTTP 403 (serverseitige Branch-Protection) scheitern; Ergebnis wird im Session-Log dokumentiert.
+
+---
+
 ## 2026-08-29 — Lauf 001 — Version 77.0 → Version 78.0
 
 ### Recherchekorridor

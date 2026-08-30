@@ -7,6 +7,58 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 30. August 2026 (Lauf 001 vom 30. August 2026) — Version 78.0 → Version 79.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel plus Executive Summary unverändert; § 8.1 erhält einen neuen Zwischenabsatz *„Externe Bestätigung durch die geldpolitische Ebene (Warsh-Jackson-Hole-Keynote ‚In Our Time', 28. August 2026)"* vor der bestehenden IAB-Verankerung; kein neuer Unterabschnitt. |
+| 2.1.2 Nummerierung | OK | Fünf Typen der Robotersteuer (§ 2.1), drei Säulen der Deutschland-These, sieben Empfehlungen (§ 10.2) unverändert. |
+| 2.1.3 Querverweise | OK | Neuer Absatz enthält Verweise auf § 8.1 (Selbstverweis), § 8.2 (Vierte Fortschreibung), § 8.3 (Teilhabefrage) und § 8.4 (Systemstabilität); alle Verweise treffen bestehende Abschnitte. |
+| 2.1.4 Roter Faden | OK | Der neue Absatz stellt eine externe Bestätigung der Drei-Faktor-Sicht dar und trennt sich sauber von der bestehenden empirischen Verankerung (IAB) und der bereits in § 8.2 vorhandenen makrofinanziellen Aggregat-Darstellung derselben Rede — keine Redundanz. |
+| 2.1.5 Formatierung | OK | Fett gesetztes Lead-In *„Externe Bestätigung durch die geldpolitische Ebene …"* analog zu bestehenden Absatz-Einleitungen; Kursiv-Auszeichnungen konsistent (Redetext, Institutionen, Redetitel). |
+| 2.2.1 Sachliche Richtigkeit | OK | Primärquelle Federal Reserve Board / Speech Warsh 28. August 2026 als Beleg direkt verifiziert; wörtliches Zitat *„a new variable — potentially a new factor of production …"* aus dem Redetext übernommen. |
+| 2.2.2 Redundanzprüfung | OK | Die makrofinanziellen Aggregate der Rede bleiben ausschließlich in § 8.2 (Vierte Fortschreibung); der neue § 8.1-Absatz beschränkt sich ausdrücklich auf die begriffliche Bestimmung der KI als eigenständigen dritten Produktionsfaktor und verweist auf § 8.2. |
+| 2.2.3 Argumentation | OK | Externe Bestätigung stärkt die in § 8.1 als *„analytische Position"* markierte Drei-Faktor-Sicht auf Zentralbank-Ebene; kein Wechsel der Argumentationslinie. |
+| 2.2.4 Ausgewogenheit | OK | Warsh-Position als geldpolitische Positionierung (nicht Modellsetzung) kenntlich gemacht (Konjunktivpflicht § 4.2 Claude.md); Begrenzung auf begriffliche Aussage. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe im neuen Absatz ohne Auffälligkeit. |
+| 2.3.2 Terminologie | OK | Begriffe *Drei-Faktor-Sicht*, *K, L, AI*, *Token-Ökonomie* konsistent mit § 8.1 bzw. § 8.2. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Warsh 2026 („In Our Time") bereits in § 11.3 aufgeführt (Lauf 29. August 2026); der neue Absatz nutzt dieselbe Primärquelle, keine zusätzliche Katalogisierung nötig. |
+| 2.4.2 Formale Einheitlichkeit | OK | Bestehender Warsh-Eintrag in § 11.3 unverändert. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Redetext primär belegt (federalreserve.gov). |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Redetext-URL federalreserve.gov/newsevents/speech/warsh20260828a.htm bei Recherche direkt erreichbar. |
+| 2.4.5 Zitatgenauigkeit | OK | Wörtliche Zitate mit Primärquelle abgeglichen. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | de la Feria et al. 2022 bleibt markiert. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 79.0 an vier Stellen: Dokumentkopf `KI-Ökonomie.md`, Aktualitätshinweis am Dokumentende, `README.md` (Header und Zitiervorschlag), Abschlussblock in `Validierung-Ergebnisse.md`. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Skripte vorhanden. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler festgestellt. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine Bereinigungen erforderlich. | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte (sofern vorhanden): n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine Fehler)
+- Neue Version: 79.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 29. August 2026 (Lauf 001 vom 29. August 2026) — Version 77.0 → Version 78.0
 
 ### Prüfergebnis
