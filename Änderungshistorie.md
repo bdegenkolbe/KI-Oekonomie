@@ -101,9 +101,9 @@
 - PDF erstellt (`build_pdf.py`): Ja
 - Word erstellt (`build_docx.py`): Ja
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
-- E-Mail-Benachrichtigung Phase 5b versendet / Fallback-Datei geschrieben: siehe Auffälligkeiten
-- WhatsApp-Kurzzusammenfassung Phase 5b versendet / Fallback-Datei geschrieben: siehe Auffälligkeiten
-- Branch auf main gemerged und gelöscht: siehe Auffälligkeiten
+- E-Mail-Benachrichtigung Phase 5b versendet / Fallback-Datei geschrieben: Fallback-Datei `daily-mail.txt` geschrieben (kein Microsoft-Graph-`mail_send`-Tool in der Session verfügbar)
+- WhatsApp-Kurzzusammenfassung Phase 5b versendet / Fallback-Datei geschrieben: Fallback-Datei `daily-whatsapp.txt` geschrieben (kein `wa_send_message`-Tool in der Session verfügbar)
+- Branch auf main gemerged und gelöscht: Ja (Merge-Commit `0aa0b23`, Session-Branch `claude/determined-einstein-ibyqn1`; Remote-Branch-Löschung mit HTTP 403 abgelehnt — serverseitige Branch-Protection wie im Vorlauf, lokaler Branch gelöscht)
 
 ### Auffälligkeiten / offene Punkte
 
@@ -111,8 +111,8 @@
 - Anthropic-S-1-Public-Filing zum Redaktionsschluss weiterhin nicht öffentlich; wiederholter Aufnahmekandidat.
 - Oracle-Restrukturierung Ende August 2026 als wiederholter Aufnahmekandidat markiert (September-Zahlen und Bereichsverteilung offen).
 - OECD-Papier *„Recent policy developments on AI in the labour market"* (24. Juli 2026) als Aufnahmekandidat für einen G7-Politikvergleichslauf markiert.
-- Phase 5b: Der Routine-Aufruf am 30. August 2026 hat *email_to* und *whatsapp_to* als Parameter im Anweisungstext übergeben; siehe Verarbeitungsschritte zum Kanal-Ergebnis. Empfängerdaten werden gemäß Prompt-Vorgabe nicht in Repository-Dateien geschrieben.
-- Phase 6: Session-Branch `claude/determined-einstein-ibyqn1`. Merge auf `main`, Push und Branch-Cleanup gemäß Prompt-Ablauf. Remote-Branch-Löschung kann wie in den Vorläufen an HTTP 403 (serverseitige Branch-Protection) scheitern; Ergebnis wird im Session-Log dokumentiert.
+- Phase 5b: In der laufenden Session sind weder ein `mail_send`/`send_mail`/`send_message`/`outlook_send`-Werkzeug eines Microsoft-Graph-MCP-Servers noch ein `wa_send_message`-Werkzeug eines WhatsApp-MCP-Servers erreichbar. Der Routine-Aufruf am 30. August 2026 hat *email_to* und *whatsapp_to* als Parameter im Anweisungstext übergeben; die Empfängerdaten werden gemäß Prompt-Vorgabe nicht in Repository-Dateien geschrieben. Der vorbereitete E-Mail-Inhalt liegt in `daily-mail.txt`, die WhatsApp-Kurzzusammenfassung in `daily-whatsapp.txt` — beide gitignored gemäß `.gitignore`.
+- Phase 6: Merge auf `main` erfolgreich (Merge-Commit `0aa0b23`, Push auf `main` erfolgreich); Remote-Branch-Löschung `claude/determined-einstein-ibyqn1` mit HTTP 403 abgelehnt (serverseitige Branch-Protection wie im Vorlauf), lokaler Branch gelöscht.
 
 ---
 
