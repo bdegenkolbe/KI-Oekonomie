@@ -7,6 +7,58 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 31. August 2026 (Lauf 001 vom 31. August 2026) — Version 79.0 → Version 80.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel plus Executive Summary unverändert; § 8.2 erhält eine neue *„Erste Fortschreibung (Primärquelle der Rencontre-Rede vom 27. August 2026 — SPEECH/26/1765)"* zwischen dem bestehenden LREF-Absatz und der *Vierten Fortschreibung* zur Warsh-Keynote; kein neuer Unterabschnitt. |
+| 2.1.2 Nummerierung | OK | Fünf Typen der Robotersteuer (§ 2.1), drei Säulen der Deutschland-These, sieben Empfehlungen (§ 10.2) unverändert. |
+| 2.1.3 Querverweise | OK | Neuer Absatz enthält Verweise auf § 4.2 Claude.md (Konjunktivpflicht), § 5.2 (Bürgerversicherung), § 8.1 (IAB-Kurzbericht 08/2026), § 8.3 (wertschöpfungs­bezogene Zugriffsarchitektur) und § 10.2; alle Zielabschnitte existieren. |
+| 2.1.4 Roter Faden | OK | Die Erste Fortschreibung baut auf der im Vorlauf-LREF-Absatz aus Sekundärrezeption geführten Doppel-Formel „produzieren, investieren und schützen" auf und ergänzt sie um zwei genuin neue, aus der Primärquelle gewonnene Bausteine (77 Vorschläge / 16 Mitgliedstaaten / 60 Standorte für die erste AI-Gigafactories-Runde, zweite Runde im Sommer 2026; *Fair-Labour-Mobility-Package* im Herbst 2026); keine Redundanz zum bestehenden Absatz. |
+| 2.1.5 Formatierung | OK | Fett-Lead-In *„Erste Fortschreibung (Primärquelle der Rencontre-Rede …)"* analog zu bestehenden Absatz-Einleitungen; Kursiv-Auszeichnungen konsistent (Institutionen, englische Fachbegriffe). |
+| 2.2.1 Sachliche Richtigkeit | OK | Primärquelle SPEECH/26/1765 direkt aus dem EU-Presscorner-PDF-Text verifiziert; Zitat *„our businesses are already adopting AI at a similar pace to their American competitors"* wortgetreu übernommen; alle im Absatz genannten Zahlen (10 Billionen Euro Haushalts­sparvolumen, 470 Milliarden Euro Savings-and-Investment-Union-Potenzial, 450 Milliarden Euro Competitiveness Fund + Horizon Europe, 17 Milliarden Euro Omnibus-Ersparnis / 6 Milliarden vereinbart, 77 Vorschläge / 16 Mitgliedstaaten / 60 Standorte) im Redetext belegt. |
+| 2.2.2 Redundanzprüfung | OK | Der bestehende LREF-Absatz (Sekundärrezeption) bleibt unverändert; die neu aufgenommenen Bausteine (Primärquellen-Zahlen, Fair-Labour-Mobility-Package, Savings and Investment Union, EU-Inc.-Rahmen, Industrial Accelerator Act) sind in § 8.2 (Veredelungsstrategie) einmal verankert und werden über Querverweise auf § 5.2 und § 8.3 nur querverwiesen, nicht dupliziert. |
+| 2.2.3 Argumentation | OK | Die Fortschreibung stärkt die im Papier verankerte wertschöpfungs­bezogene Zugriffsarchitektur um eine EU-Ebene, die die *Compute*- und *Anwendungs*-Ebene mit einer *Arbeitsmarkt*- und *Sozialversicherungs*-Infrastruktur koppelt; kein Wechsel der Argumentationslinie, keine Vermengung mit der Optimalsteuer-Argumentation. |
+| 2.2.4 Ausgewogenheit | OK | Konjunktivpflicht (§ 4.2 Claude.md) bei politischer Positionierung und angekündigter, noch nicht veröffentlichter Legislativ­vorlage (Fair-Labour-Mobility-Package) durchgängig eingehalten; wörtliches Zitat im Anführungsformat kenntlich gemacht. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe im neuen Absatz ohne Auffälligkeit. |
+| 2.3.2 Terminologie | OK | Begriffe *European Labour Authority*, *European Social Security Pass*, *Savings and Investment Union*, *European Competitiveness Fund*, *Industrial Accelerator Act*, *Cloud and AI Development Act*, *Chips Act 2.0*, *AI-Gigafactories* konsistent zum bestehenden EU-Vokabular des Papiers. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neuer Primärquellen-Eintrag „von der Leyen, U. (27. August 2026), SPEECH/26/1765" in § 11.3 aufgenommen; der bestehende Sekundärrezeptions-Eintrag bleibt daneben stehen (zeitlich frühere Referenz gemäß Prompt-Regel Phase 2 Nr. 5). |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-nahe Zitierweise mit vollständiger URL zum EU-Presscorner-Eintrag; Datumsangabe im Format „DD. Monat YYYY". |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Primärquellen-URL des EU-Presscorner-Eintrags bei Recherche direkt erreichbar; PDF-Text der Rede vollständig eingelesen. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | ec.europa.eu/commission/presscorner/detail/en/speech_26_1765 bei Recherche direkt erreichbar; die im Vorlauf-Absatz aufgeführten Sekundärquellen-URLs (Eunews, Science|Business) im Suchindex weiterhin präsent. |
+| 2.4.5 Zitatgenauigkeit | OK | Wörtliches Zitat aus der Rede *„our businesses are already adopting AI at a similar pace to their American competitors"* wortgetreu übernommen. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | de la Feria et al. 2022 bleibt markiert. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 80.0 an vier Stellen: Dokumentkopf `KI-Ökonomie.md`, Aktualitätshinweis am Dokumentende, `README.md` (Header und Zitiervorschlag), Abschlussblock in `Validierung-Ergebnisse.md`. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Skripte vorhanden. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler festgestellt. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine Bereinigungen erforderlich. | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte (sofern vorhanden): n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine Fehler)
+- Neue Version: 80.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 30. August 2026 (Lauf 001 vom 30. August 2026) — Version 78.0 → Version 79.0
 
 ### Prüfergebnis
