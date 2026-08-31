@@ -108,7 +108,7 @@
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
 - E-Mail-Benachrichtigung Phase 5b versendet / Fallback-Datei geschrieben: Fallback-Datei `daily-mail.txt` geschrieben (kein Microsoft-Graph-`mail_send`-Tool in der Session verfügbar)
 - WhatsApp-Kurzzusammenfassung Phase 5b versendet / Fallback-Datei geschrieben: Fallback-Datei `daily-whatsapp.txt` geschrieben (kein `wa_send_message`-Tool in der Session verfügbar)
-- Branch auf main gemerged und gelöscht: Ja (siehe Auffälligkeiten unten)
+- Branch auf main gemerged und gelöscht: Ja (Merge-Commit `11ffa60`, Session-Branch `claude/determined-einstein-lf1707`; Remote-Branch-Löschung mit HTTP 403 abgelehnt — serverseitige Branch-Protection wie im Vorlauf, lokaler Branch gelöscht)
 
 ### Auffälligkeiten / offene Punkte
 
@@ -119,6 +119,7 @@
 - OECD-Papier *„Recent policy developments on AI in the labour market"* (24. Juli 2026) — Aufnahmekandidat für G7-Politikvergleichslauf, Priorität durch die parallele EU-Ankündigung im aufgenommenen SPEECH/26/1765 gestiegen.
 - Jahressteuergesetz 2026 — Regierungsentwurf vom 12. August 2026 mit Rücknahme der ursprünglich vorgesehenen KI-Nutzung der Finanzverwaltung (BStBK-Stellungnahme Juni 2026) — Aufnahmekandidat für Folgelauf mit § 4.2-Bezug zur deutschen Rechtslage.
 - Phase 5b: In der laufenden Session sind weder ein `mail_send`/`send_mail`/`send_message`/`outlook_send`-Werkzeug eines Microsoft-Graph-MCP-Servers noch ein `wa_send_message`-Werkzeug eines WhatsApp-MCP-Servers erreichbar. Der Routine-Aufruf am 31. August 2026 hat *email_to* und *whatsapp_to* als Parameter im Anweisungstext übergeben; die Empfängerdaten werden gemäß Prompt-Vorgabe nicht in Repository-Dateien geschrieben. Der vorbereitete E-Mail-Inhalt liegt in `daily-mail.txt`, die WhatsApp-Kurzzusammenfassung in `daily-whatsapp.txt` — beide gitignored gemäß `.gitignore`.
+- Phase 6: Merge auf `main` erfolgreich (Merge-Commit `11ffa60`, Push auf `main` erfolgreich); Remote-Branch-Löschung `claude/determined-einstein-lf1707` mit HTTP 403 abgelehnt (serverseitige Branch-Protection wie im Vorlauf), lokaler Branch gelöscht.
 
 ---
 
