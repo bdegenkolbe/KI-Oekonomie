@@ -54,6 +54,74 @@
 
 ---
 
+## 2026-08-31 — Lauf 001 — Version 79.0 → Version 80.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift). Ein strukturell neuer Neuzugang im 7-Tage-Fenster: die *Ursula-von-der-Leyen*-Rede auf der *La Rencontre des Entrepreneurs de France 2026* (LREF/MEDEF) vom 27. August 2026 in Paris — die im Vorlauf (Version 79.0) nur über Sekundärrezeption (*Eunews*, *Science|Business*) referenzierte Rede liegt nun als Primärquellen­text SPEECH/26/1765 im EU-*Presscorner* vor und ergänzt das Papier um zwei bislang nicht aufgenommene Bausteine: die spezifischen Zahlen der ersten *AI-Gigafactories*-Ausschreibung (77 Vorschläge aus 16 Mitgliedstaaten an 60 Standorten, zweite Runde eröffnet im Sommer 2026) und die Ankündigung eines *Fair-Labour-Mobility-Package* für den Herbst 2026 (Stärkung der *European Labour Authority*, *European Social Security Pass*, EU-weite Anerkennung von Qualifikationen).
+- Einarbeitung als eine neue *„Erste Fortschreibung (Primärquelle der Rencontre-Rede vom 27. August 2026 — SPEECH/26/1765)"* in § 8.2 zwischen dem bestehenden LREF-Absatz (Sekundärrezeption) und der *Vierten Fortschreibung* zur Warsh-Keynote „In Our Time". Der bestehende Sekundärrezeptions-Eintrag in § 11.3 bleibt unverändert stehen (zeitlich frühere Referenz nach Prompt-Regel Phase 2 Nr. 5); ein zweiter, primärquellen­basierter Eintrag in § 11.3 wird ergänzt.
+- Zeitfenster: Standard 7 Tage (24. – 31. August 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (29. – 31. August 2026).
+- Anzahl Suchanfragen: 10 Web-Suchen (Cluster A/D/H mit LREF-/Draghi-/Rimini-Meeting-Bezug, Cluster A/F/I mit Warsh-/Anthropic-S-1-Bezug, Cluster B/E mit Jahressteuergesetz 2026 und IAB-Kurzbericht, Cluster J mit Humanoid-Robot-Bezug) plus zwei Primärquellen-Abrufe (EU-Presscorner-PDF SPEECH/26/1765; ec.europa.eu-AI-Gigafactories-Übersichtsseite).
+- Prinzip *Breite vor Tiefe*: Der aufgenommene Datenpunkt adressiert ausschließlich die EU-institutionelle Kopplung von *Compute*-, *Anwendungs*- und *Arbeitsmarkt*-Ebene in § 8.2 (Veredelungsstrategie); die im Vorlauf-Absatz aus Sekundärrezeption dokumentierten Angaben (Doppel-Formel, 25-%-Administrations­abbau, 30. Juli 2026 gestartete AI-Gigafactories-Ausschreibung, 12. November 2026 Angebotsfrist, Vergabe Q1 2027) bleiben unverändert. Ebenfalls im Zeitfenster identifiziert, aber nicht als eigener Neueintrag aufgenommen: *Anthropic*-S-1-Public-Filing (bis 31. August 2026 nicht öffentlich, wiederholter Aufnahmekandidat; berichtete IPO-Valuation von bis zu 2 Billionen US-Dollar für Oktober bereits in Version 77.0 zur Anthropic-Zielbewertung dokumentiert); *Oracle*-Restrukturierung Ende August 2026 (weiterhin ohne belastbare September-Zahlen; wiederholter Aufnahmekandidat); *Warsh*-Jackson-Hole-Keynote „In Our Time" (bereits in Version 78.0 zur makrofinanziellen Aggregat-Darstellung und in Version 79.0 zur begrifflichen Faktor-Setzung aufgenommen); *Jahressteuergesetz 2026* — Regierungsentwurf vom 12. August 2026 mit Rücknahme der ursprünglich vorgesehenen KI-Nutzung der Finanzverwaltung (außerhalb 7-Tage-Fenster; Aufnahmekandidat für Folgeläufe mit § 4.2-Bezug); *IAB-Arbeitsmarktbarometer* August 2026 (99,5 Punkte, seit Jahresbeginn unter der Neutralmarke — für § 1.1 vorgemerkt); *OECD*-Papier *„Recent policy developments on AI in the labour market"* (24. Juli 2026, außerhalb 7-Tage-Fenster, wiederholter Aufnahmekandidat).
+- Lauf 001 vom 31. August 2026 ist der Folgelauf zu Lauf 001 vom 30. August 2026 (Version 78.0 → 79.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | D/H | Europäische Kommission (von der Leyen, U.), *Speech by President von der Leyen at the annual conference „La Rencontre des Entrepreneurs de France 2026"*, SPEECH/26/1765, Paris, 27. August 2026 | https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1765 | übernommen (Primärquelle direkt verifiziert, PDF-Text vollständig eingelesen; neuer Aspekt gegenüber Version 79.0 sind die aus dem Redetext gewonnenen spezifischen Zahlen der ersten AI-Gigafactories-Ausschreibung sowie die erstmals angekündigte Fair-Labour-Mobility-Package-Architektur) |
+| 2 | D/H | *Eunews.it*, *„Produce, invest, and protect: von der Leyen's recipe for Europe's competitiveness"*, 27. August 2026 | https://www.eunews.it/en/2026/08/27/produce-invest-and-protect-von-der-leyens-recipe-for-europes-competitiveness/ | verworfen (bereits in Version 79.0 als Sekundärrezeption dokumentiert; der Primärquellen-Eintrag ersetzt sie nicht, sondern ergänzt sie um bislang nicht aufgenommene Bausteine) |
+| 3 | H | Europäische Kommission, *AI Gigafactories* — Programmseite mit 77 Vorschlägen aus 16 Mitgliedstaaten an 60 Standorten (Stand 27. August 2026) | https://commission.europa.eu/topics/competitiveness/competitiveness-coordination-tool-projects/ai-gigafactories_en | verworfen (die tragenden Zahlen der ersten Ausschreibungsrunde sind im übernommenen SPEECH/26/1765-Primärquellentext bereits enthalten; die Programmseite wird nur zur Absicherung der Konsistenz herangezogen) |
+| 4 | D/I | Anthropic PBC, *S-1 IPO Public Filing* (Zielvaluation bis 2 Billionen US-Dollar für Oktober 2026 nach NYT- und Fortune-Berichterstattung) | https://www.anthropic.com/news/confidential-draft-s1-sec | verworfen (bis 31. August 2026 nicht öffentlich; die berichtete IPO-Zielvaluation ist bereits in Version 77.0 zur Anthropic-Zielbewertung dokumentiert; wiederholter Aufnahmekandidat) |
+| 5 | F | Yahoo Finance / SkillSyncer / TechCrunch / InformationWeek, *2026 Tech Layoffs Near 150.000 as Companies Pour Money Into AI* (Zwischenstand 28. August 2026: 365 Layoff-Events / 209.032 betroffene Beschäftigte; ~ 140.000 US-Tech-Stellen 2026 gestrichen, davon rund 50.000 bei Amazon/Oracle/Meta/Microsoft) | https://finance.yahoo.com/sectors/technology/articles/2026-tech-layoffs-near-150-110000224.html | verworfen (aggregierte Tracker-Zahlen sind in § 1.1 strukturell bereits abgedeckt; die Einzelkomponenten Amazon 16.000 Januar 2026 zusätzlich zu 14.000 Herbst 2025, Microsoft 4.800, Oracle 21.000 sind im Papier verankert; wiederholter Aufnahmekandidat für Q3-2026-Aktualisierung) |
+| 6 | E | *IAB-Arbeitsmarktbarometer August 2026* (99,5 Punkte, seit Jahresbeginn unter der Neutralmarke), IAB, iab.de/iab-arbeitsmarktbarometer-august-2026 | https://iab.de/iab-arbeitsmarktbarometer-august-2026/ | verworfen (Marktbarometer wird im Papier nicht als eigenständige Zeitreihe geführt; für § 1.1 vorgemerkt, sobald ein Anschluss an die IAB-Prognose 2026 gebraucht wird) |
+| 7 | A/E | OECD, *Recent policy developments on AI in the labour market* (OECD Artificial Intelligence Papers No. 63), 24. Juli 2026 | https://www.oecd.org/en/publications/recent-policy-developments-on-ai-in-the-labour-market_c0ffced7-en.html | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat für einen G7-Politikvergleichslauf, Priorität durch die parallele EU-Ankündigung im aufgenommenen SPEECH/26/1765 gestiegen) |
+| 8 | B | *datenschutzticker.de*, *KI-Systeme im Steuerrecht: Ein Blick ins Jahressteuergesetz 2026* — Regierungsentwurf vom 12. August 2026 mit Rücknahme der ursprünglich vorgesehenen KI-Nutzung der Finanzverwaltung | https://www.datenschutzticker.de/2026/08/ki-systeme-im-steuerrecht-ein-blick-ins-jahressteuergesetz-2026/ | verworfen (außerhalb 7-Tage-Fenster; Aufnahmekandidat für einen Folgelauf mit § 4.2-Bezug zur deutschen Rechtslage) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 8.2 (neuer Absatz *„Erste Fortschreibung (Primärquelle der Rencontre-Rede vom 27. August 2026 — SPEECH/26/1765)"* zwischen dem bestehenden LREF-Absatz und der *Vierten Fortschreibung* zur Warsh-Keynote) | Ergänzung | Neue Fortschreibung mit primärquellen­gestützten Zahlen der ersten *AI-Gigafactories*-Ausschreibung (77 Vorschläge / 16 Mitgliedstaaten / 60 Standorte, zweite Runde im Sommer 2026), dem für den Herbst 2026 angekündigten *Fair-Labour-Mobility-Package* (Stärkung der *European Labour Authority*, *European Social Security Pass*, EU-weite Anerkennung von Qualifikationen), dem wörtlichen Zitat *„our businesses are already adopting AI at a similar pace to their American competitors"* sowie den flankierenden Bausteinen *Savings and Investment Union* (bis zu 470 Milliarden Euro aus rund 10 Billionen Euro Haushalts­sparvolumen), 450 Milliarden Euro aus *European Competitiveness Fund* und *Horizon Europe*, 12 Omnibus-Vereinfachungspakete (17 Milliarden Euro Jahres-Ersparnis / 6 Milliarden vereinbart) und *Industrial Accelerator Act*; Querverweise auf § 4.2 Claude.md (Konjunktivpflicht), § 5.2 (Bürgerversicherung), § 8.1 (IAB-Kurzbericht 08/2026), § 8.3 (wertschöpfungs­bezogene Zugriffsarchitektur) und § 10.2 | 1 |
+| 2 | § 11.3 (neuer Literatureintrag) | Ergänzung | Primärquellen-Eintrag „von der Leyen, U. (27. August 2026), Speech by President von der Leyen at the annual conference ‚La Rencontre des Entrepreneurs de France 2026', SPEECH/26/1765, Paris" mit vollständiger EU-Presscorner-URL; der bestehende Sekundärrezeptions-Eintrag bleibt unverändert stehen (zeitlich frühere Referenz nach Prompt-Regel Phase 2 Nr. 5) | 1 |
+| 3 | Dokumentkopf, Aktualitätshinweis, `README.md` (Version-Zeile + Zitiervorschlag), `Validierung-Ergebnisse.md` | Aktualisierung | Versionssprung 79.0 → 80.0 an vier Stellen konsistent nachgezogen; Stichtag von *30. August 2026* auf *31. August 2026*, Lauf-Kennung von *Lauf 001 vom 30. August 2026* auf *Lauf 001 vom 31. August 2026* | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | *Eunews.it*, LREF-Rezeption 27. August 2026 | D/H | Bereits in Version 79.0 als Sekundärrezeption dokumentiert; kein Ersatz, sondern Ergänzung durch die Primärquelle |
+| 2 | Europäische Kommission, AI-Gigafactories-Programmseite | H | Tragende Zahlen im übernommenen Primärquellentext bereits enthalten |
+| 3 | Anthropic-S-1-Public-Filing | D/I | Bis 31. August 2026 nicht öffentlich; IPO-Zielvaluation bereits in Version 77.0 dokumentiert; wiederholter Aufnahmekandidat |
+| 4 | Tech-Layoff-Tracker (Yahoo/SkillSyncer/TechCrunch, Zwischenstand 28. August 2026) | F | Aggregierte Zahlen strukturell in § 1.1 abgedeckt; Einzelkomponenten (Amazon, Oracle, Microsoft) im Papier verankert; wiederholter Aufnahmekandidat für Q3-2026-Aktualisierung |
+| 5 | IAB-Arbeitsmarktbarometer August 2026 | E | Marktbarometer wird im Papier nicht als eigenständige Zeitreihe geführt; für § 1.1 vorgemerkt |
+| 6 | OECD, *Recent policy developments on AI in the labour market* | A/E | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat für G7-Politikvergleichslauf |
+| 7 | *datenschutzticker.de*, Jahressteuergesetz 2026 (Regierungsentwurf 12. August 2026) | B | Außerhalb 7-Tage-Fenster; Aufnahmekandidat für § 4.2-Bezug |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Verweis: Block „Validierung 31. August 2026 (Lauf 001 vom 31. August 2026) — Version 79.0 → Version 80.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- E-Mail-Benachrichtigung Phase 5b versendet / Fallback-Datei geschrieben: Fallback-Datei `daily-mail.txt` geschrieben (kein Microsoft-Graph-`mail_send`-Tool in der Session verfügbar)
+- WhatsApp-Kurzzusammenfassung Phase 5b versendet / Fallback-Datei geschrieben: Fallback-Datei `daily-whatsapp.txt` geschrieben (kein `wa_send_message`-Tool in der Session verfügbar)
+- Branch auf main gemerged und gelöscht: Ja (siehe Auffälligkeiten unten)
+
+### Auffälligkeiten / offene Punkte
+
+- Die im Vorlauf (Version 79.0, Lauf 30. August 2026) für § 8.2 aufgenommene LREF-Rezeption stützte sich ausschließlich auf Sekundärquellen (*Eunews*, *Science|Business*); der aktuelle Lauf schließt die Primärquellen-Lücke durch den öffentlich zugänglichen Redetext SPEECH/26/1765 im EU-*Presscorner* und ergänzt die aus dem Redetext gewonnenen Bausteine, ohne den Vorlauf-Absatz zu ersetzen.
+- Das *Fair-Labour-Mobility-Package* ist zum Redaktionsschluss angekündigt, aber noch nicht als Legislativ­vorlage veröffentlicht; die Konjunktivpflicht (§ 4.2 Claude.md) ist im neuen Absatz durchgehend eingehalten. Aufnahmekandidat für Folgeläufe ist die Legislativ­vorlage selbst, sobald sie im Herbst 2026 präsentiert wird.
+- Anthropic-S-1-Public-Filing zum Redaktionsschluss weiterhin nicht öffentlich; die berichtete IPO-Zielvaluation von bis zu 2 Billionen US-Dollar für Oktober 2026 (Fortune, NYT) ist bereits in Version 77.0 dokumentiert. Wiederholter Aufnahmekandidat.
+- Oracle-Restrukturierung Ende August 2026 weiterhin ohne belastbare September-Zahlen — wiederholter Aufnahmekandidat.
+- OECD-Papier *„Recent policy developments on AI in the labour market"* (24. Juli 2026) — Aufnahmekandidat für G7-Politikvergleichslauf, Priorität durch die parallele EU-Ankündigung im aufgenommenen SPEECH/26/1765 gestiegen.
+- Jahressteuergesetz 2026 — Regierungsentwurf vom 12. August 2026 mit Rücknahme der ursprünglich vorgesehenen KI-Nutzung der Finanzverwaltung (BStBK-Stellungnahme Juni 2026) — Aufnahmekandidat für Folgelauf mit § 4.2-Bezug zur deutschen Rechtslage.
+- Phase 5b: In der laufenden Session sind weder ein `mail_send`/`send_mail`/`send_message`/`outlook_send`-Werkzeug eines Microsoft-Graph-MCP-Servers noch ein `wa_send_message`-Werkzeug eines WhatsApp-MCP-Servers erreichbar. Der Routine-Aufruf am 31. August 2026 hat *email_to* und *whatsapp_to* als Parameter im Anweisungstext übergeben; die Empfängerdaten werden gemäß Prompt-Vorgabe nicht in Repository-Dateien geschrieben. Der vorbereitete E-Mail-Inhalt liegt in `daily-mail.txt`, die WhatsApp-Kurzzusammenfassung in `daily-whatsapp.txt` — beide gitignored gemäß `.gitignore`.
+
+---
+
 ## 2026-08-30 — Lauf 001 — Version 78.0 → Version 79.0
 
 ### Recherchekorridor
