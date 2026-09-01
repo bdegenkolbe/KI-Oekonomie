@@ -116,7 +116,7 @@
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
 - E-Mail-Benachrichtigung Phase 5b versendet / Fallback-Datei geschrieben: Fallback-Datei `daily-mail.txt` geschrieben (kein Microsoft-Graph-`mail_send`-Tool in der Session verfügbar)
 - WhatsApp-Kurzzusammenfassung Phase 5b versendet / Fallback-Datei geschrieben: Fallback-Datei `daily-whatsapp.txt` geschrieben (kein `wa_send_message`-Tool in der Session verfügbar)
-- Branch auf main gemerged und gelöscht: [wird nach Phase 6 nachgetragen]
+- Branch auf main gemerged und gelöscht: Ja (Merge-Commit `c167f7d`, Session-Branch `claude/determined-einstein-zn10a1`; Remote-Branch-Löschung mit HTTP 403 abgelehnt — serverseitige Branch-Protection wie in den Vorläufen, lokaler Branch gelöscht)
 
 ### Auffälligkeiten / offene Punkte
 
