@@ -54,6 +54,82 @@
 
 ---
 
+## 2026-09-01 — Lauf 001 — Version 80.0 → Version 81.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift). Ein struktureller Neuzugang im 7-Tage-Fenster: die Gründung der *Rhine Group* am 24. August 2026 durch *Mario Draghi* (Ko-Vorsitz, ehemaliger EZB-Präsident, Autor des Draghi-Berichts 2024) und *Patrick Collison* (Ko-Vorsitz, Ko-Gründer und CEO von Stripe), mit *Luis Garicano* (früherer Europaabgeordneter, spanischer Ökonom) als Exekutivdirektor — eine multidisziplinäre Politikberatungs­struktur mit rund fünfundfünfzig Ökonominnen, Unternehmerinnen, Wissenschaftlerinnen und ehemaligen Regierungsvertreterinnen zur Umsetzung der rund einhundertsiebzig Empfehlungen des Draghi-Berichts *„The future of European competitiveness"* (September 2024). Arbeitsschwerpunkte: Künstliche Intelligenz und andere aufstrebende Technologien, Digitalplattformen, wissenschaftliche Forschung, Energie, Industrie, Verteidigung, Kapitalmärkte, Produktivität, digitale Infrastruktur. Kern­diagnose: nur vier der weltweit fünfzig größten Technologieunternehmen europäisch. Berichterstattung durch *Il Sole 24 Ore*, *Decode39*, *EU-Startups*, *Il Foglio*, *FIRSTonline*, *Irish Examiner*, *Dealroom.co* (alle 24./25. August 2026).
+- Einarbeitung als eine neue *„Fünfte Fortschreibung (Rhine-Group-Gründung 24. August 2026)"* in § 8.2 am Ende des LREF-/Warsh-Thread-Bereichs, direkt vor § 8.3; ergänzender Literatureintrag in § 11.3. Der bestehende Draghi-Bericht-Verweis in § 8.2 (Veredelungsstrategie) bleibt unverändert.
+- Zeitfenster: Standard 7 Tage (25. August – 1. September 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (30. August – 1. September 2026).
+- Anzahl Suchanfragen: 10 Web-Suchen (Cluster A/B/D/E/F/H/I durchsucht) plus zwei Primärquellen-Abrufe (WebFetch Il Sole 24 Ore Rhine-Group-Launch; WebFetch Decode39 Rhine-Group-Launch). NBER-Working-Paper 34854 (Acemoglu/Autor/Johnson, *„Building Pro-Worker Artificial Intelligence"*, Februar 2026), die *Bundesbank*-Monatsbericht-August-2026-Veröffentlichung vom 20. August 2026, das *Jahressteuergesetz 2026* mit Kabinettsbeschluss vom 12. August 2026 und die *Draghi*-Rimini-Meeting-Rede vom 22. August 2026 wurden gefunden, liegen aber außerhalb des 7-Tage-Fensters und sind für Folgeläufe vorgemerkt.
+- Prinzip *Breite vor Tiefe*: Der aufgenommene Datenpunkt adressiert ausschließlich die institutionelle Nachfolgeschicht des im Papier bereits verorteten *Draghi-Berichts* (§ 8.2, Veredelungsstrategie) und erweitert die im Vorlauf (Version 80.0) rekonstruierte *SPEECH/26/1765*-Rahmung (LREF-Rede, EU-*AI-Gigafactories*, *Fair-Labour-Mobility-Package*) um eine dauerhaftere multidisziplinäre Governance-Schicht. Nicht als eigener Neueintrag aufgenommen: *Bill-Gates*-Aufsatz *„The Turbulent AI Era Is Here"* (26. August 2026) — bereits in Version 79.0/80.0 vollständig als *„Bill Gates — GatesNotes-Memo"* in § 4.5 dokumentiert (Dublette); *Anthropic*-S-1-Public-Filing (bis 1. September 2026 nicht öffentlich; wiederholter Aufnahmekandidat); *OpenAI*/*Anthropic*/Google-Joint-Open-Letter zu KI-Cyberbedrohungen (27. August 2026, 116 Unterzeichner-Firmen) — außerhalb Suchkorridor (Cybersicherheit statt Steuer-/Arbeitsmarkt-Bezug, Negativliste Cluster D); *Salesforce*-Layoffs (Februar 2026) — außerhalb 7-Tage-Fenster und bereits strukturell in § 1.1 abgedeckt.
+- Lauf 001 vom 1. September 2026 ist der Folgelauf zu Lauf 001 vom 31. August 2026 (Version 79.0 → 80.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | D/H | *Il Sole 24 Ore*, *„Rhine Group: Draghi and Collison (Stripe) bring together experts to boost European competitiveness and innovation"*, 25. August 2026 | https://en.ilsole24ore.com/art/draghi-and-collison-stripe-set-to-boost-growth-in-europe-the-rhine-group-is-launched-AJRcert | übernommen (direkt verifiziert, Gründungsstruktur, Ko-Vorsitz, Exekutivdirektor, Mitgliederkreis, Arbeitsschwerpunkte und Kern­diagnose vollständig extrahiert) |
+| 2 | D/H | *Decode39*, *„Draghi's Rhine bet puts Italy inside Europe's growth fight"*, 25. August 2026 | https://decode39.com/16303/draghi-and-collison-launch-the-rhine-group-to-put-europe-back-on-a-growth-track/ | übernommen (direkt verifiziert, wörtliches Selbstbeschreibungszitat und Chatham-House-Rule-Arbeitsformat aus dieser Quelle) |
+| 3 | D/H | *EU-Startups*, *„What is the Rhine Group? And how is it addressing Europe's innovation gap?"*, 25. August 2026 | https://www.eu-startups.com/2026/08/what-is-the-rhine-group-and-how-is-it-addressing-europes-innovation-gap/ | übernommen (Sekundärrezeption, bestätigt Gründungsdatum 24. August 2026 und Mitgliederzahl ~55) |
+| 4 | D/H | *Il Foglio*, *„Economists and start-up founders to reform the EU: the Rhine Group is launched"*, 25. August 2026 | https://www.ilfoglio.it/en/economy/2026/08/25/news/economists-and-start-up-founders-to-reform-the-eu-the-rhine-group-is-launched--405532 | übernommen (Sekundärrezeption, bestätigt Ko-Vorsitz und italienische Gründungsmitglieder) |
+| 5 | D/H | *FIRSTonline*, *„Draghi launches Rhine Group, a new think tank to revitalize Europe through tech, finance, and politics"*, 25. August 2026 | https://www.firstonline.info/en/Draghi-launches-the-Rhine-Group--a-new-think-tank-to-relaunch-Europe-through-tech--finance--and-politics./ | übernommen (Sekundärrezeption, bestätigt Themenfelder Tech/Finance/Politics) |
+| 6 | D/H | *Irish Examiner*, *„Mario Draghi and Patrick Collison join to form Rhine Group think tank"*, 25. August 2026 | https://www.irishexaminer.com/business/economy/arid-41901469.html | übernommen (Sekundärrezeption) |
+| 7 | D/H | *Dealroom.co*, *„Rhine Group launches to advance European reforms"*, 25. August 2026 | https://app.dealroom.co/news/note/rhine-group-launches-to-advance-european-reforms | übernommen (Sekundärrezeption) |
+| 8 | D | *Bill Gates*, GatesNotes-Aufsatz *„The Turbulent AI Era Is Here. The Choices We Make Now Are Critical."*, 26. August 2026 | https://www.gatesnotes.com/what-comes-next-with-ai | verworfen (Dublette — vollständig in Version 79.0/80.0 in § 4.5 als *„Bill Gates — GatesNotes-Memo"* dokumentiert mit umfassender Sekundärrezeption Bloomberg/CNBC/Axios/TechCrunch/Fortune/CNN/Tom's-Hardware/Forbes u. a.) |
+| 9 | D/I | *Anthropic PBC*, *S-1 IPO Public Filing* (erwartet Ende August 2026; berichtete Zielvaluation bis 2 Billionen US-Dollar für Oktober 2026) | https://www.anthropic.com/news/confidential-draft-s1-sec | verworfen (bis 1. September 2026 nicht öffentlich; wiederholter Aufnahmekandidat) |
+| 10 | D | *OpenAI*/*Anthropic*/*Google*/Microsoft und 112 weitere Unterzeichner, *Open Letter on AI Cyber Defense*, 27. August 2026 | https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/ | verworfen (Negativliste Cluster D — reine Cybersicherheits-Positionierung ohne konkretes Reformpaket zur Steuer- oder Arbeitsmarkt-Dimension) |
+| 11 | A | Acemoglu, D., Autor, D. und Johnson, S., *„Building Pro-Worker Artificial Intelligence"*, NBER Working Paper 34854, Februar 2026 | https://www.nber.org/papers/w34854 | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat für einen konzentrierten Optimalsteuer-Lauf mit Cluster-A-Fokus) |
+| 12 | B | Bundeskabinett, *Jahressteuergesetz 2026 — Regierungsentwurf*, 12. August 2026 (Rücknahme der ursprünglich vorgesehenen KI-Nutzung der Finanzverwaltung nach BStBK-Stellungnahme Juni 2026) | https://www.bundesfinanzministerium.de/Content/DE/Pressemitteilungen/Finanzpolitik/2026/08/2026-08-12-jahressteuergesetz-2026.html | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat mit § 4.2-Bezug zur deutschen Rechtslage, Priorität mit Beginn der Bundestagsberatungen im September 2026 steigend) |
+| 13 | E | Deutsche Bundesbank, *Monatsbericht August 2026*, 20. August 2026 | https://publikationen.bundesbank.de/publikationen-de/berichte-studien/monatsberichte/monatsbericht-august-2026-1003902 | verworfen (außerhalb 7-Tage-Fenster; ohne Aufsatz mit spezifischer KI-Produktivitäts- oder Arbeitsmarkt-Thematik) |
+| 14 | A/H | Draghi, M., *Keynote am Meeting di Rimini 2026 („Turn skepticism into action")*, 22. August 2026 | https://www.meetingrimini.org/en/turn-skepticism-into-action-mario-draghis-speech-at-the-meeting/ | verworfen (außerhalb 7-Tage-Fenster; die im aufgenommenen Rhine-Group-Eintrag rekonstruierte institutionelle Nachfolgeschicht überlagert den Redetext ohne strukturell neuen Datenpunkt) |
+| 15 | F | Yahoo Finance / SkillSyncer / TechCrunch, aggregierte Tech-Layoff-Tracker-Zwischenstände (Ende August 2026) | https://finance.yahoo.com/sectors/technology/articles/2026-tech-layoffs-near-150-110000224.html | verworfen (Zwischenstände strukturell in § 1.1 abgedeckt; wiederholter Aufnahmekandidat für Q3-2026-Aktualisierung) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 8.2 (neuer Absatz *„Fünfte Fortschreibung (Rhine-Group-Gründung 24. August 2026)"* am Ende des LREF-/Warsh-Thread-Bereichs, direkt vor § 8.3) | Ergänzung | Neue Fortschreibung mit sekundärquellen­gestützter Rekonstruktion der Rhine-Group-Gründung am 24. August 2026 durch *Draghi* (Ko-Vorsitz) und *Collison* (Ko-Vorsitz) unter Exekutivdirektor *Garicano* mit rund 55 Mitgliedern und Chatham-House-Rule-Arbeitsformat zur Umsetzung der rund 170 Empfehlungen des *Draghi-Berichts* 2024; Arbeitsschwerpunkte KI und aufstrebende Technologien, Digitalplattformen und Forschung, Energie, Industrie und Verteidigung, Kapitalmärkte und Produktivität, digitale Infrastruktur; Kern­diagnose (nur 4 der 50 größten Tech-Unternehmen europäisch); Rückwirkung auf § 4.2 Claude.md (Konjunktivpflicht), § 4.5 (transatlantische Debattenkonstellation Sanders/OpenAI/Casar/Gates), § 8.2 (Erste Fortschreibung SPEECH/26/1765, Frontier-Marktstruktur), § 8.3 (wertschöpfungs­bezogene Zugriffsarchitektur) und § 10.2 | 1–7 |
+| 2 | § 11.3 (neuer Literatureintrag) | Ergänzung | Neuer Eintrag „Rhine Group (Ko-Vorsitz M. Draghi und P. Collison; Exekutivdirektor L. Garicano). (24. August 2026), *Launch of the Rhine Group — turning the Draghi report into action*" mit sieben Sekundärquellen-URLs (Il Sole 24 Ore, Decode39, EU-Startups, Il Foglio, FIRSTonline, Irish Examiner, Dealroom.co) | 1–7 |
+| 3 | Dokumentkopf, Aktualitätshinweis, `README.md` (Header + Zitiervorschlag), `Validierung-Ergebnisse.md` | Aktualisierung | Versionssprung 80.0 → 81.0 an vier Stellen konsistent nachgezogen; Stichtag von *31. August 2026* auf *1. September 2026*, Lauf-Kennung von *Lauf 001 vom 31. August 2026* auf *Lauf 001 vom 1. September 2026*, Stand-Angabe von „August 2026" auf „September 2026" | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | *Bill Gates*, GatesNotes-Aufsatz *„The Turbulent AI Era Is Here"* (26. August 2026) | D | Dublette — vollständig in Version 79.0/80.0 in § 4.5 dokumentiert |
+| 2 | Anthropic-S-1-Public-Filing | D/I | Bis 1. September 2026 nicht öffentlich; wiederholter Aufnahmekandidat |
+| 3 | OpenAI/Anthropic/Google-Joint-Open-Letter zu KI-Cyberbedrohungen (27. August 2026) | D | Negativliste — Cybersicherheits-Positionierung ohne konkretes Reform- oder Steuerpaket |
+| 4 | NBER Working Paper 34854 (Acemoglu/Autor/Johnson), *„Building Pro-Worker Artificial Intelligence"* (Februar 2026) | A | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat für konzentrierten Cluster-A-Lauf |
+| 5 | Bundeskabinett, Jahressteuergesetz 2026 — Regierungsentwurf (12. August 2026) | B | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat mit § 4.2-Bezug |
+| 6 | Deutsche Bundesbank, Monatsbericht August 2026 (20. August 2026) | E | Außerhalb 7-Tage-Fenster; ohne KI-spezifische Aufsatzsetzung |
+| 7 | Draghi, Rimini-Meeting-Rede (22. August 2026) | A/H | Außerhalb 7-Tage-Fenster; die aufgenommene Rhine-Group-Gründung überlagert den Redetext ohne strukturell neuen Datenpunkt |
+| 8 | Tech-Layoff-Tracker (Ende August 2026, Yahoo/SkillSyncer/TechCrunch) | F | Aggregierte Zahlen strukturell in § 1.1 abgedeckt; wiederholter Aufnahmekandidat für Q3-2026-Aktualisierung |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Verweis: Block „Validierung 1. September 2026 (Lauf 001 vom 1. September 2026) — Version 80.0 → Version 81.0" in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- E-Mail-Benachrichtigung Phase 5b versendet / Fallback-Datei geschrieben: Fallback-Datei `daily-mail.txt` geschrieben (kein Microsoft-Graph-`mail_send`-Tool in der Session verfügbar)
+- WhatsApp-Kurzzusammenfassung Phase 5b versendet / Fallback-Datei geschrieben: Fallback-Datei `daily-whatsapp.txt` geschrieben (kein `wa_send_message`-Tool in der Session verfügbar)
+- Branch auf main gemerged und gelöscht: [wird nach Phase 6 nachgetragen]
+
+### Auffälligkeiten / offene Punkte
+
+- Phase 5b: In der laufenden Session sind weder ein `mail_send`/`send_mail`/`send_message`/`outlook_send`-Werkzeug eines Microsoft-Graph-MCP-Servers noch ein `wa_send_message`-Werkzeug eines WhatsApp-MCP-Servers erreichbar. Der Routine-Aufruf am 1. September 2026 hat *email_to* und *whatsapp_to* als Parameter im Anweisungstext übergeben; die Empfängerdaten werden gemäß Prompt-Vorgabe nicht in Repository-Dateien geschrieben. Der vorbereitete E-Mail-Inhalt liegt in `daily-mail.txt`, die WhatsApp-Kurzzusammenfassung in `daily-whatsapp.txt` — beide gitignored gemäß `.gitignore`.
+- Die *Rhine Group* tritt zum Redaktionsschluss ausdrücklich als politik­beratende Struktur ohne eigene Legislativ­kompetenz und ohne veröffentlichte Publikationsagenda auf; die Konjunktivpflicht (§ 4.2 Claude.md) ist im neuen Absatz durchgehend eingehalten. Aufnahmekandidat für Folgeläufe ist die erste öffentlich zugängliche Reformveröffentlichung oder Positionsschrift der Gruppe.
+- Der im Vorlauf für den Herbst 2026 angekündigte *Fair-Labour-Mobility-Package* der Europäischen Kommission (LREF-Rede 27. August 2026 — SPEECH/26/1765) ist zum Redaktionsschluss weiterhin nicht als Legislativ­vorlage veröffentlicht; Aufnahmekandidat für Folgeläufe, sobald die Vorlage im Herbst 2026 präsentiert wird.
+- Bundeskabinett-Regierungsentwurf *Jahressteuergesetz 2026* (12. August 2026) — die Bundestagsberatungen beginnen nach der Sommerpause voraussichtlich im September 2026; Aufnahmekandidat mit § 4.2-Bezug zur deutschen Rechtslage, sobald die parlamentarische Behandlung eine ausreichende Datenlage bietet.
+- NBER Working Paper 34854 (Acemoglu/Autor/Johnson) *„Building Pro-Worker Artificial Intelligence"* (Februar 2026) — Aufnahmekandidat für einen konzentrierten Cluster-A-Lauf mit Optimalsteuer-Fokus; die Kategorien *labor-augmenting*, *capital-augmenting*, *automating*, *expertise-leveling* und *new task-creating* schließen an die im Papier verankerte Acemoglu-Manera-Restrepo-Argumentation an.
+- Anthropic-S-1-Public-Filing zum Redaktionsschluss weiterhin nicht öffentlich; wiederholter Aufnahmekandidat.
+- Oracle-Restrukturierung Ende August 2026 weiterhin ohne belastbare September-Zahlen — wiederholter Aufnahmekandidat.
+
+---
+
 ## 2026-08-31 — Lauf 001 — Version 79.0 → Version 80.0
 
 ### Recherchekorridor
