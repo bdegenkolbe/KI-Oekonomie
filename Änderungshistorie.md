@@ -54,6 +54,75 @@
 
 ---
 
+## 2026-09-02 — Lauf 001 — Version 81.0 → Version 82.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J (alle zehn Cluster gestreift). Ein struktureller Neuzugang im 7-Tage-Fenster (26. August – 2. September 2026): das *G20-Digital/Innovation-Ministerial* in *Chapel Hill*, *North Carolina*, das die *US-G20*-Präsidentschaft 2026 unter *Michael Kratsios* (OSTP) und *Howard Lutnick* (Commerce) am *1. September 2026* eröffnet und den Teilnehmerstaaten eine Selbstverpflichtung *„Carolina Principles"* vorgelegt hat (nach übereinstimmender Berichterstattung von *Al Jazeera* [2. September 2026], *Quartz* [1. September 2026], *Rappler*, *TechXplore*, *BusinessWorld Online*, *Geo.tv* und *Chapelboro*, jeweils 1./2. September 2026). Substanz der Selbstverpflichtung: „reserve new regulation for novel considerations", Bündelung von Fördermitteln auf Grundlagenforschung, Ausbau kommerzieller Chancen für aufstrebende Technologien; nach anonymer *White-House*-Quelle Aufruf an Mitgliedstaaten, *keine neuen Regulierungsorgane* für die KI-Aufsicht einzurichten. Nach US-Angabe habe auch China die Grundsätze unterzeichnet (Konjunktivpflicht nach § 4.2 Claude.md). Europäische Gegenposition: EU-Kommissions-Vizepräsidentin *Henna Virkkunen* und *EU-Kommissions*-Informationsanfragen an über dreißig KI-Unternehmen weltweit zu Sicherheit und Urheberrechts-Konformität.
+- Einarbeitung als ein neuer Absatz *„G20-Digital/Innovation-Ministerial in Chapel Hill — Carolina Principles (1./2. September 2026)"* am Ende des bestehenden §-4.5-Absatzstrangs, unmittelbar nach dem *No-Robot-Bosses-Act*-Absatz und vor dem Kapiteltrenner zu Kapitel 5; ergänzender Literatureintrag in § 11.3. Kein neuer Unterabschnitt; keine Umstrukturierung.
+- Zeitfenster: Standard 7 Tage (26. August – 2. September 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (31. August – 2. September 2026).
+- Anzahl Suchanfragen: 12 Web-Suchen (Cluster A/B/C/D/E/F/H/I durchsucht) plus drei Primärquellen-Abrufe (WebFetch Fortune-2026/09/01 zum AI-Token-Tax-Kontext / Casar-Bill, WebFetch Al-Jazeera 2. September 2026 zum G20-Chapel-Hill-Ministerial, WebFetch TechXplore zum G20-Chapel-Hill-Ministerial). Zusätzlich gefunden: *Anthropic Economic Policy Framework* (10. Juni 2026, drei-stufig, Korinek/Cowen/Marinescu/Horton — außerhalb 7-Tage-Fenster, wiederholter Aufnahmekandidat für konzentrierten Cluster-D-Lauf); *AI Workforce PREPARE Act* (S.3339, Banks/Hassan/Husted/Marshall, Dezember 2025, Roll-Call-Berichterstattung 29. Juli 2026 — außerhalb 7-Tage-Fenster, wiederholter Aufnahmekandidat); *Oracle*-August-2026-Layoffs (bereits in § 1.1 vollständig dokumentiert, Version 78.0/79.0/80.0 — Dublette).
+- Prinzip *Breite vor Tiefe*: Der aufgenommene Datenpunkt adressiert die in § 4.5 rekonstruierte transatlantische Debattenkonstellation (Sanders/OpenAI/Casar/Gates) um eine zeitgleiche institutionelle *Gegen-Bewegung* aus der US-Exekutive und schließt damit die im Vorlauf (Version 81.0, *Rhine Group*) verfestigte europäische Nachfolgeschicht des Draghi-Berichts inhaltlich um den transatlantischen Regulierungs-Antipol. Nicht als eigener Neueintrag aufgenommen: die genannten drei Aufnahmekandidaten außerhalb des 7-Tage-Fensters beziehungsweise mit vollständiger Dublette.
+- Lauf 001 vom 2. September 2026 ist der Folgelauf zu Lauf 001 vom 1. September 2026 (Version 80.0 → 81.0).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | D/C | *Al Jazeera*, *„US pushes looser approach to AI regulation, while EU pushes new law"*, 2. September 2026 | https://www.aljazeera.com/news/2026/9/2/us-pushes-looser-approach-to-ai-regulation-while-eu-pushes-new-law | übernommen (direkt verifiziert, Anwesenheitsliste, Musk- und Virkkunen-Zitate, EU-Kommissions-Informationsanfragen an > 30 Unternehmen, chinesische Signatur nach US-Angabe) |
+| 2 | D/C | *Quartz*, *„U.S. pushes G20 Carolina Principles AI regulation at summit"*, 1. September 2026 | https://qz.com/us-g20-carolina-principles-ai-regulation-north-carolina-090126 | übernommen (Substanz-Zusammenfassung der Selbstverpflichtung, Verpflichtungsplanken der Carolina Principles, Anti-Regulierungsorgane-Formulierung) |
+| 3 | D/C | *Rappler*, *„US urges hands-off approach to AI regulation at G20 tech meeting"*, September 2026 | https://www.rappler.com/technology/us-g20-meeting-urge-hands-off-approach-ai-regulations/ | übernommen (Sekundärrezeption, WebFetch 403 Forbidden, Kontext über Suchergebnis verifiziert) |
+| 4 | D/C | *TechXplore*, *„US to press G20 on light-touch AI regulation"*, September 2026 | https://techxplore.com/news/2026-09-g20-ai.html | übernommen (direkt verifiziert, Anwesenheitsliste Ministerien, Musk/Zuckerberg/Powell McCormick/Sacks/Altman/Huang/Hassabis, Bezug auf Bloomberg-Vorbericht und Kratsios-Repost) |
+| 5 | D/C | *BusinessWorld Online*, *„US urges hands-off approach to AI regulation at G20 tech meeting"*, 2. September 2026 | https://bworldonline.com/technology/2026/09/02/774057/us-urges-hands-off-approach-to-ai-regulation-at-g20-tech-meeting/ | übernommen (Sekundärrezeption, bestätigt Zwei-Tages-Struktur des Ministerials) |
+| 6 | D/C | *Geo.tv*, *„US urges hands-off approach to AI regulation at G20 tech meeting"*, September 2026 | https://www.geo.tv/latest/680187-us-urges-hands-off-approach-to-ai-regulation-at-g20-tech-meeting | übernommen (Sekundärrezeption) |
+| 7 | D/C | *Chapelboro.com*, *„Federal, AI Tech Leaders to Visit Chapel Hill for G20 Event; Town Warns of Increased Security"*, September 2026 | https://chapelboro.com/news/national/federal-ai-tech-leaders-to-visit-chapel-hill-for-g20-event-town-warns-of-increased-security | übernommen (Sekundärrezeption, bestätigt Veranstaltungsort und G20-Gipfel-Terminierung 14./15. Dezember 2026 in Miami) |
+| 8 | D | *Fortune*, *„A new bill would tax AI tokens to fund jobs if the technology causes mass unemployment"*, 1. September 2026 | https://fortune.com/2026/09/01/bill-tax-ai-tokens-fund-jobs-technology-unemployment/ | verworfen (Dublette — vollständig in Version 62.0/63.0 in § 4.5 als *AI Tax and Work Protection Act* / *H.R. 10044* dokumentiert; die Fortune-Fassung vom 1. September 2026 ist eine verzögerte Zweitverwertung des Casar-Presseaufrufs vom 7. August 2026 ohne inhaltlichen Neuwert) |
+| 9 | D | *Anthropic PBC*, *Economic Policy Framework* (drei-stufig, kalibriert an US-Arbeitslosenquote 5 % / 10 % / historisches Hoch), 10. Juni 2026 | https://www-cdn.anthropic.com/files/4zrzovbb/website/9ea607a5dd67c168093829b701f3a0a6d21156d5.pdf | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat für konzentrierten Cluster-D-Lauf mit § 4.5- und § 5.4-Bezug — dreistufiger Tarif konzeptionell komplementär zur *Casar*-*Anemployment-Trigger*-Konstruktion) |
+| 10 | D | US-Senat, *AI Workforce PREPARE Act* (S.3339, 119. Kongress) — Banks/Hassan/Husted/Marshall, Dezember 2025; Roll-Call-Sekundärrezeption 29. Juli 2026 | https://www.congress.gov/bill/119th-congress/senate-bill/3339/text | verworfen (außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat für Cluster-B/D-Lauf mit § 4.5-Bezug — bipartite Mass-Layoff-Disclosure-Pflicht komplementär zu Connecticut-*SB-5*-*WARN-AI-Disclosure*, § 4.5) |
+| 11 | F | *TheNextWeb* / *Yahoo Finance*, *„Oracle plans fresh August layoffs as its AI spending spree bites"* / *„Oracle planning new round of layoffs in August 2026"* | https://thenextweb.com/news/oracle-august-2026-layoffs-ai-capex | verworfen (Dublette — vollständig in § 1.1 und § 11.5 dokumentiert; keine neuen Zahlen gegenüber Vorlauf-Erfassung Version 78.0/79.0/80.0) |
+| 12 | A | IAB-Kurzbericht 08/2026 (Friedrich/Kagerl), *„Künstliche Intelligenz in deutschen Betrieben: Jeder vierte Betrieb nutzt mittlerweile generative KI"* | https://doku.iab.de/kurzber/2026/kb2026-08.pdf | verworfen (Publikationsdatum 5. Mai 2026, weit außerhalb 7-Tage-Fenster; bereits in § 1.1 strukturell abgedeckt) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 4.5 (neuer Absatz *„G20-Digital/Innovation-Ministerial in Chapel Hill — Carolina Principles (1./2. September 2026)"* am Ende des Absatzstrangs, direkt nach *No-Robot-Bosses-Act*, vor Kapiteltrenner zu Kapitel 5) | Ergänzung | Neuer Absatz mit sekundärquellen­gestützter Rekonstruktion der G20-Chapel-Hill-Selbstverpflichtung „Carolina Principles" der US-Regierung (Kratsios/Lutnick) mit Substanzplanken (Vorhalten neuer Regulierung für neuartige Erwägungen, Bündelung auf Grundlagenforschung, keine neuen KI-Regulierungsorgane), Anwesenheitsliste (Ministerien Japan/Deutschland/Frankreich/Indien/Südkorea; Musk/Zuckerberg/Powell McCormick/Sacks per Videokonferenz; Altman/Huang in Präsenz; Hassabis), Musk-Zitat „default legal as opposed to default illegal", nach US-Angabe chinesische Unterschrift (Konjunktivpflicht), europäisches Gegen-Framing durch Virkkunen und EU-Kommissions-Informationsanfragen an > 30 Unternehmen; Rückwirkung auf § 4.2 Claude.md (Konjunktivpflicht), § 4.3 (EU-AI-Act-Durchsetzung), § 4.5 (Trump-AI-Action-Plan, National Policy Framework, Sanders/OpenAI/Casar/Gates), § 5.1 und § 8.3 (wertschöpfungs­bezogene Anknüpfung), § 8.2 (Erste Fortschreibung, ex-ante/ex-post-Verlagerung) und § 10.2 (europäische Reformagenda). | 1–7 |
+| 2 | § 11.3 (neuer Literatureintrag) | Ergänzung | Neuer Eintrag „US-Regierung / G20-Präsidentschaft 2026 (Kratsios/Lutnick). (1./2. September 2026), *G20 Digital / Innovation Ministerial — „Carolina Principles" (Chapel Hill, North Carolina)*" mit sieben Sekundärquellen-URLs (Al Jazeera, Quartz, Rappler, TechXplore, BusinessWorld Online, Geo.tv, Chapelboro) | 1–7 |
+| 3 | Dokumentkopf, Aktualitätshinweis, `README.md` (Header + Zitiervorschlag), `Validierung-Ergebnisse.md` | Aktualisierung | Versionssprung 81.0 → 82.0 an vier Stellen konsistent nachgezogen; Stichtag von *1. September 2026* auf *2. September 2026*, Lauf-Kennung von *Lauf 001 vom 1. September 2026* auf *Lauf 001 vom 2. September 2026*, Stand-Angabe *Anfang September 2026* unverändert | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 1 | *Fortune*, *„A new bill would tax AI tokens to fund jobs"*, 1. September 2026 | D | Dublette — Casar-*AI Tax and Work Protection Act* / *H.R. 10044* seit Version 62.0/63.0 vollständig in § 4.5 dokumentiert |
+| 2 | *Anthropic Economic Policy Framework*, 10. Juni 2026 | D | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat |
+| 3 | US-Senat *AI Workforce PREPARE Act* (S.3339), Dezember 2025 (Roll Call 29. Juli 2026) | B/D | Außerhalb 7-Tage-Fenster; wiederholter Aufnahmekandidat |
+| 4 | *Oracle* August-2026-Layoff-Ankündigung (*TheNextWeb* / *Yahoo Finance*) | F | Dublette — bereits in § 1.1 und § 11.5 dokumentiert |
+| 5 | *IAB-Kurzbericht 08/2026* (Friedrich/Kagerl), 5. Mai 2026 | A | Außerhalb 7-Tage-Fenster; bereits in § 1.1 strukturell abgedeckt |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (siehe Block *Validierung 2. September 2026 (Lauf 001 vom 2. September 2026) — Version 81.0 → Version 82.0* in `Validierung-Ergebnisse.md`)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
+- E-Mail-Kanal (Phase 5b): Fallback-Datei `daily-mail.txt` im Repo-Root geschrieben (kein `mail_send`/`send_mail`/`outlook_send`-Tool in dieser Session erreichbar; Datei ist gitignored)
+- WhatsApp-Kanal (Phase 5b): Fallback-Datei `daily-whatsapp.txt` im Repo-Root geschrieben (kein `wa_send_message`-/`whatsapp`-Server-Tool in dieser Session erreichbar; Datei ist gitignored)
+- Branch auf main gemerged und gelöscht: (siehe Auffälligkeiten)
+
+### Auffälligkeiten / offene Punkte
+
+- **Phase 5b (Benachrichtigung):** Empfänger wurden über die Routine-Anweisung übergeben (E-Mail und WhatsApp). In der laufenden Session standen weder `mail_send`/`send_mail`/`outlook_send` aus einem MS-Graph-MCP noch `wa_send_message`/andere `send`-Tools aus einem `whatsapp`-MCP zur Verfügung; als Notlösung sind `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root abgelegt worden (beide gitignored, siehe `.gitignore`). Keine Empfängerangaben im Logbuch, in Commits oder im Abschlussbericht ausgeschrieben.
+- **Phase 6 (Commit/Merge/Cleanup):** Ergebnis wird nach Ausführung ergänzt.
+- **Anthropic Economic Policy Framework (10. Juni 2026, drei-stufig):** außerhalb 7-Tage-Fenster; als Aufnahmekandidat für einen konzentrierten Cluster-D-Lauf zur transatlantischen Anti-Regulierungs-/Umverteilungs-Sequenz vorgemerkt (Ergänzung zu Sanders/OpenAI/Casar/Gates und Carolina Principles).
+- **AI Workforce PREPARE Act (S.3339, Banks/Hassan/Husted/Marshall):** bipartite Mass-Layoff-Disclosure-Pflicht, außerhalb 7-Tage-Fenster; als Aufnahmekandidat mit § 4.5- und § 9.1-Bezug vorgemerkt.
+- **G20-Gipfel Miami 14./15. Dezember 2026:** offener Beobachtungstermin für die Verabschiedung/Verabschlossenheit der Carolina Principles auf Staats- und Regierungschef-Ebene.
+- **WebFetch-Fehler:** Rappler-URL und aicommission.org-URL lieferten *403 Forbidden* (proxy-vermittelt); Inhalte über parallele Web-Suchergebnisse und andere Sekundärquellen (Al Jazeera, Quartz, TechXplore, BusinessWorld Online, Geo.tv, Chapelboro) verifiziert — Belastbarkeit unverändert.
+
+---
+
 ## 2026-09-01 — Lauf 001 — Version 80.0 → Version 81.0
 
 ### Recherchekorridor
