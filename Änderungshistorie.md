@@ -110,7 +110,7 @@
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
 - E-Mail-Kanal (Phase 5b): Fallback-Datei `daily-mail.txt` im Repo-Root geschrieben (kein `mail_send`/`send_mail`/`outlook_send`-Tool in dieser Session erreichbar; Datei ist gitignored)
 - WhatsApp-Kanal (Phase 5b): Fallback-Datei `daily-whatsapp.txt` im Repo-Root geschrieben (kein `wa_send_message`-/`whatsapp`-Server-Tool in dieser Session erreichbar; Datei ist gitignored)
-- Branch auf main gemerged und gelöscht: (siehe Auffälligkeiten)
+- Branch auf main gemerged und gelöscht: Ja (Merge-Commit `543b69b`, Session-Branch `claude/determined-einstein-sy6ecw`; Remote-Branch-Löschung mit HTTP 403 abgelehnt — serverseitige Branch-Protection wie in den Vorläufen, lokaler Branch gelöscht)
 
 ### Auffälligkeiten / offene Punkte
 
