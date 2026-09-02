@@ -7,6 +7,58 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 2. September 2026 (Lauf 001 vom 2. September 2026) — Version 81.0 → Version 82.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel plus Executive Summary unverändert; § 4.5 erhält einen neuen Absatz *„G20-Digital/Innovation-Ministerial in Chapel Hill — Carolina Principles (1./2. September 2026)"* am Ende des bestehenden Absatzstrangs, direkt nach dem *No-Robot-Bosses-Act*-Absatz und vor dem Kapiteltrenner zu Kapitel 5; kein neuer Unterabschnitt. |
+| 2.1.2 Nummerierung | OK | Fünf Typen der Robotersteuer (§ 2.1), drei Säulen der Deutschland-These (§ 8), sieben Empfehlungen (§ 10.2) unverändert. |
+| 2.1.3 Querverweise | OK | Neuer Absatz enthält Verweise auf § 4.2 Claude.md (Konjunktivpflicht, dreifach: chinesische Unterschrift, ex-ante-/ex-post-Verlagerung, unveröffentlichter Framework-Text), § 4.3 (EU-AI-Act-Durchsetzung), § 4.5 (Trump-AI-Action-Plan, National Policy Framework, Sanders/OpenAI/Casar/Gates), § 5.1 und § 8.3 (wertschöpfungs­bezogene Anknüpfung), § 8.2 (Erste Fortschreibung, ordnungspolitische Verlagerung) und § 10.2 (europäische Reformagenda); alle Zielabschnitte existieren. |
+| 2.1.4 Roter Faden | OK | Der neue Absatz schließt an die im § 4.5 rekonstruierte Sequenz Sanders (Juni 2026) → OpenAI (Juli 2026) → Casar (August 2026) → Gates (August 2026) an und fügt eine zeitgleiche institutionelle *Gegen-Bewegung* aus der US-Exekutive hinzu, ohne die Deutschland-These (§ 8) zu präjudizieren. |
+| 2.1.5 Formatierung | OK | Fett-Lead-In *„G20-Digital/Innovation-Ministerial in Chapel Hill — Carolina Principles (1./2. September 2026)"* analog zu benachbarten Absatz-Einleitungen (Casar-Bill, Gates-Memo, No-Robot-Bosses-Act); Kursiv-Auszeichnungen konsistent (Institutionen, englische Fachbegriffe, Personennamen, Publikationstitel). |
+| 2.2.1 Sachliche Richtigkeit | OK | Datum 1./2. September 2026, Veranstaltungsort Chapel Hill (North Carolina), Ko-Ausrichter Kratsios (OSTP) / Lutnick (Commerce), Teilnehmer-Ministerien Japan/Deutschland/Frankreich/Indien/Südkorea sowie Anbieter-Teilnehmer Musk, Zuckerberg, Powell McCormick, Sacks, Altman, Huang, Hassabis übereinstimmend aus Al Jazeera, Quartz, TechXplore, BusinessWorld, Geo.tv und Chapelboro belegt; wörtliche Zitate („reserve new regulation for novel considerations", „should not treat emerging technologies as isolated policy problems", „default legal as opposed to default illegal") aus Al Jazeera und Quartz übernommen. |
+| 2.2.2 Redundanzprüfung | OK | Bestehende Absätze zu Trump-AI-Action-Plan, OpenAI-Strategiepapier, Sanders-/OpenAI-/Casar-/Gates-Sequenz und EU-AI-Act-Durchsetzung bleiben unverändert; der neue Absatz dokumentiert ausschließlich die *G20*-Chapel-Hill-Fortsetzung des *„light-touch"*-Rahmens und wird nicht in § 5, § 8.2, § 8.3 oder § 10.2 wiederholt (nur querverwiesen). |
+| 2.2.3 Argumentation | OK | Die vier Bemerkungspunkte (multilateraler „light-touch", zeitgleiche Gegen-Bewegung, ex-ante/ex-post-Verlagerung, „Regulatory Nihilism"-Institutionalisierung) sind in sich konsistent und schließen den bestehenden Argumentationsbogen in § 4.5 (transatlantische Debattenkonstellation) und § 8.3 (wertschöpfungs­orientierter Zugriff) ohne Bruch. |
+| 2.2.4 Ausgewogenheit | OK | Konjunktivpflicht (§ 4.2 Claude.md) mehrfach explizit angebracht (chinesische Unterschrift, Framework-Text und Unterzeichnerkreis unveröffentlicht); europäische Gegenposition (Virkkunen, EU-Kommissions-Informationsanfragen) mit gleichem Textgewicht dargestellt wie die US-Selbstverpflichtung. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe im neuen Absatz und Literatureintrag ohne Auffälligkeit. |
+| 2.3.2 Terminologie | OK | Begriffe *G20*, *Digital/Innovation-Ministerial*, *Carolina Principles*, *„light-touch"*, *Federal Preemption*, *ex-ante/ex-post*, *„Regulatory Nihilism"* konsistent zum bestehenden Vokabular. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neuer Literatureintrag „US-Regierung / G20-Präsidentschaft 2026 (Kratsios/Lutnick). (1./2. September 2026), *G20 Digital / Innovation Ministerial — „Carolina Principles" (Chapel Hill, North Carolina)*" in § 11.3 aufgenommen; sieben Sekundärquellen-URLs (Al Jazeera, Quartz, Rappler, TechXplore, BusinessWorld Online, Geo.tv, Chapelboro) hinterlegt. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-nahe Zitierweise mit vollständigen URLs; Datumsangabe im Format „DD. Monat YYYY" beziehungsweise „DD./DD. Monat YYYY"; Kursiv-Auszeichnung der Publikationstitel. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Publikationen der Sekundärquellen am 1./2. September 2026, unmittelbar nach Ministerial-Eröffnung; Konjunktivpflicht bei fehlender chinesischer Direktbestätigung sowie bei unveröffentlichtem Framework-Text explizit angebracht. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | aljazeera.com/news/2026/9/2/… und qz.com/us-g20-carolina-principles-… bei Recherche direkt erreichbar; parallele Rezeption durch TechXplore, BusinessWorld Online, Geo.tv und Chapelboro sichert die Belastbarkeit auch bei etwaigen Redirect-Änderungen. |
+| 2.4.5 Zitatgenauigkeit | OK | Wörtliche Zitate *„reserve new regulation for novel considerations"* (aus Quartz-Zusammenfassung), *„should not treat emerging technologies as isolated policy problems"* (aus Al Jazeera-Rezeption) und *„default legal as opposed to default illegal"* (aus Al Jazeera-Rezeption der Musk-Formel) wortgetreu übernommen. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | de la Feria et al. 2022 bleibt markiert; Sanders-Report (Oktober 2025) mit Version 5.0 vollständig verifiziert. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 82.0 an vier Stellen: Dokumentkopf `KI-Ökonomie.md` (Zeile 12), Aktualitätshinweis am Dokumentende, `README.md` (Header und Zitiervorschlag), Abschlussblock in `Validierung-Ergebnisse.md`. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Skripte vorhanden. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler festgestellt. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine Bereinigungen erforderlich. | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte (sofern vorhanden): n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine gefunden)
+- Neue Version: 82.0
+- PDF erstellt: Ja (nach `python3 build_pdf.py`)
+- Word erstellt: Ja (nach `python3 build_docx.py`)
+
+---
+
 ## Validierung 1. September 2026 (Lauf 001 vom 1. September 2026) — Version 80.0 → Version 81.0
 
 ### Prüfergebnis
