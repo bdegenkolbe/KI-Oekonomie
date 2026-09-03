@@ -117,12 +117,12 @@
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
 - E-Mail-Kanal (Phase 5b): Fallback-Datei `daily-mail.txt` im Repo-Root geschrieben (kein `mail_send`/`send_mail`/`outlook_send`-Tool in dieser Session erreichbar; Datei ist gitignored)
 - WhatsApp-Kanal (Phase 5b): Fallback-Datei `daily-whatsapp.txt` im Repo-Root geschrieben (kein `wa_send_message`-/`whatsapp`-Server-Tool in dieser Session erreichbar; Datei ist gitignored)
-- Branch auf main gemerged und gelöscht: Ergebnis wird nach Ausführung ergänzt
+- Branch auf main gemerged und gelöscht: Ja (Merge-Commit `ae9513c`, Session-Branch `claude/determined-einstein-k0k715`; Remote-Branch-Löschung mit HTTP 403 abgelehnt — serverseitige Branch-Protection wie in den Vorläufen, lokaler Branch gelöscht)
 
 ### Auffälligkeiten / offene Punkte
 
 - **Phase 5b (Benachrichtigung):** Empfänger wurden über die Routine-Anweisung übergeben (E-Mail und WhatsApp). In der laufenden Session standen weder `mail_send`/`send_mail`/`outlook_send` aus einem MS-Graph-MCP noch `wa_send_message`/andere `send`-Tools aus einem `whatsapp`-MCP zur Verfügung; als Notlösung sind `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root abgelegt worden (beide gitignored, siehe `.gitignore`). Keine Empfängerangaben im Logbuch, in Commits oder im Abschlussbericht ausgeschrieben.
-- **Phase 6 (Commit/Merge/Cleanup):** Ergebnis wird nach Ausführung ergänzt.
+- **Phase 6 (Commit/Merge/Cleanup):** PR #5 als Draft gegen `main` eröffnet und über lokalen `git merge --no-ff` in Merge-Commit `ae9513c` überführt (PR-State auf GitHub: closed / merged). Push auf `main` erfolgreich (Branch-Protection über bypass zugelassen). Lokaler Session-Branch `claude/determined-einstein-k0k715` gelöscht; Remote-Branch-Löschung mit HTTP 403 abgelehnt (serverseitige Branch-Protection, unverändert gegenüber Vorläufen).
 - **BMF-Monatsbericht August 2026 („AI Economy: Wirkungsszenarien und mögliche Effekte auf öffentliche Finanzen", 20. August 2026):** außerhalb 7-Tage-Fenster; vorgemerkt als wiederholter Aufnahmekandidat für einen konzentrierten Cluster-E-/-H-Lauf, da der BMF-Bericht ausdrücklich die Korinek-/Lockwood-Analysen zu Abgaben auf Rechenleistung / KI-Leistungen und staatlichen Beteiligungsfonds rezipiert und damit für § 3.5 (Optimalsteuerdiskussion), § 4.5 (institutionelle Rezeption), § 8.4 (Systemstabilität) und § 10.2 (Empfehlungen) unmittelbaren Bezug hat.
 - **Anthropic Economic Policy Framework (10. Juni 2026, drei-stufig):** außerhalb 7-Tage-Fenster; als Aufnahmekandidat für einen konzentrierten Cluster-D-Lauf zur transatlantischen Anti-Regulierungs-/Umverteilungs-Sequenz vorgemerkt (Ergänzung zu Sanders/OpenAI/Casar/Gates und Carolina Principles).
 - **AI Workforce PREPARE Act (S.3339, Banks/Hassan/Husted/Marshall):** bipartite Mass-Layoff-Disclosure-Pflicht, außerhalb 7-Tage-Fenster; als Aufnahmekandidat mit § 4.5- und § 9.1-Bezug vorgemerkt.
