@@ -7,6 +7,58 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 3. September 2026 (Lauf 001 vom 3. September 2026) — Version 82.0 → Version 83.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel plus Executive Summary unverändert; § 3.5 erhält einen neuen empirischen Ergänzungsabsatz *„AI-native Restrukturierung als Realfall (Reuters-Special-Report vom 26. August 2026 zum Meta Project OT)"* am Ende des bestehenden Absatzstrangs vor dem Kapiteltrenner zu Kapitel 4; kein neuer Unterabschnitt. |
+| 2.1.2 Nummerierung | OK | Fünf Typen der Robotersteuer (§ 2.1), drei Säulen der Deutschland-These (§ 8), sieben Empfehlungen (§ 10.2) unverändert. |
+| 2.1.3 Querverweise | OK | Neuer Absatz enthält Verweise auf § 4.2 Claude.md (Konjunktivpflicht), § 3.5 (McCrory-*„jagged capability"*-Auslegung, Ma-Sentiment-Sabotage-Kanal), § 1.1 (Tech-Layoff-Landkarte), § 5.1 und § 8.3 (wertschöpfungs­orientierte Bemessungsbasis), § 8.4 (Systemstabilität), § 9.1 (Kausalattributionsproblem einer engen Typ-5-Ersatzabgabe); alle Zielabschnitte existieren. |
+| 2.1.4 Roter Faden | OK | Der neue Absatz schließt an die in § 3.5 rekonstruierte Sequenz Brynjolfsson-J-Kurve → McCrory-„jagged capability" → ifo-Konjunkturumfrage → Ma-Sentiment-Sabotage → Goldman-/Bank-of-Korea-Kohortenbefund → FOMC-Minutes an und fügt einen dokumentierten Realfall aus einem der KI-nutzungs­intensivsten Foundation-Model-Betreiber hinzu, ohne die Deutschland-These (§ 8) zu präjudizieren. |
+| 2.1.5 Formatierung | OK | Fett-Lead-In *„Empirische Ergänzung USA — AI-native Restrukturierung als Realfall (Reuters-Special-Report vom 26. August 2026 zum Meta Project OT)"* analog zu benachbarten Absatz-Einleitungen (ifo-Konjunkturumfrage, Sentiment-Sabotage-Kanal, Kohorten-Dimension, FOMC-Minutes); Kursiv-Auszeichnungen konsistent (Reuters, Project OT, AI native, talent-dense, jagged capability, Publikationstitel). |
+| 2.2.1 Sachliche Richtigkeit | OK | Kernzahlen (Erste Welle 20. Mai 2026 mit rund achttausend Stellen ≈ zehn Prozent; Absage der zweiten Welle in der Nacht zum 19. Mai 2026; Zieltiefe bis zu sechzig Prozent bei einzelnen Teams; interne Meta-Produktivitätsdaten +220 % Code-Änderungen bei +36 % neuen Produktfunktionen; +40 % schwere Sicherheitsvorfälle; +70 % Feuerlöscharbeiten; Zuckerbergs Ankündigung Anfang Juli 2026, dass keine weiteren unternehmens­weiten Entlassungen im laufenden Jahr erwartet werden) übereinstimmend aus BNN Bloomberg (26. August 2026), TheNextWeb (31. August 2026), Engadget, IBTimes, MLQ News, CellCog, Yahoo Finance und weiteren Sekundärquellen belegt. |
+| 2.2.2 Redundanzprüfung | OK | Der bestehende Ma-Absatz zum Sentiment-Sabotage-Kanal und die McCrory-Auslegung bleiben unverändert; der neue Absatz dokumentiert ausschließlich den Realfall (Meta *Project OT*) und wird nicht in § 1.1, § 8.4, § 9.1 oder § 10.2 wiederholt (nur querverwiesen). |
+| 2.2.3 Argumentation | OK | Die drei aus dem Fall abgeleiteten Konsequenzen (Bestätigung der Ma-Sentiment-Sabotage-Auslegung; Präzisierung der McCrory-Aggregatlücke zur Implementierungslücke; Verschärfung der Typ-5-Ersatzabgabe-Kausalattributionsproblematik) sind in sich konsistent und schließen den bestehenden Argumentationsbogen ohne Bruch. |
+| 2.2.4 Ausgewogenheit | OK | Konjunktivpflicht (§ 4.2 Claude.md) explizit angebracht, da Meta-interne Zahlen nicht öffentlich publiziert sind und über die Reuters-Rekonstruktion referiert werden; keine Übernahme von Zuckerberg-Aussagen als Fakten. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe im neuen Absatz und Literatureintrag ohne Auffälligkeit. |
+| 2.3.2 Terminologie | OK | Begriffe *„AI native"*, *„talent-dense"*, *„jagged capability"*, *„Implementierungslücke"*, *Typ-5-Ersatzabgabe*, *wertschöpfungs­orientierte Bemessungsbasis* konsistent zum bestehenden Vokabular. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neuer Literatureintrag „Meta Platforms, Inc. / Reuters (Katie Paul) / …. (26.–31. August 2026), *Mark Zuckerberg had a bold plan to replace Meta staff with AI. Here's how it imploded / …*" in § 11.5 aufgenommen; zwölf Sekundärquellen-URLs hinterlegt. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-nahe Zitierweise mit vollständigen URLs; Datumsangabe im Format „DD. Monat YYYY" beziehungsweise „DD.–DD. Monat YYYY"; Kursiv-Auszeichnung der Publikationstitel. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Reuters-Special-Report vom 26. August 2026 als Primärquelle (Sekundärrezeption 26.–31. August 2026); breite parallele Rezeption bei mindestens zwölf unabhängigen Sekundärquellen sichert die Belastbarkeit. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | bnnbloomberg.ca/business/company-news/2026/08/26/… und thenextweb.com/news/meta-project-ot-ai-native-layoffs-cancelled bei Recherche direkt erreichbar; Reuters-URL primärquellenseitig nicht abrufbar (Zugriffsbeschränkung), Inhalt über breite Sekundärrezeption verifiziert. |
+| 2.4.5 Zitatgenauigkeit | OK | Interne Meta-Produktivitätszahlen (+220 % vs. +36 %, +40 % Sicherheitsvorfälle, +70 % Feuerlöscharbeiten) sowie die Zuckerberg-Aussage *„nicht mit weiteren unternehmens­weiten Entlassungen im laufenden Jahr"* aus der Reuters-Rekonstruktion und ihrer BNN-Bloomberg-/TheNextWeb-Sekundärrezeption wortgetreu übernommen. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | de la Feria et al. 2022 bleibt markiert; Sanders-Report (Oktober 2025) mit Version 5.0 vollständig verifiziert. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 83.0 an vier Stellen: Dokumentkopf `KI-Ökonomie.md` (Zeile 12), Aktualitätshinweis am Dokumentende, `README.md` (Header und Zitiervorschlag), Abschlussblock in `Validierung-Ergebnisse.md`. |
+| 2.6 Automatisierte Prüfung | n/a | Keine Skripte vorhanden. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler festgestellt. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| — | — | Keine Bereinigungen erforderlich. | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte (sofern vorhanden): n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine gefunden)
+- Neue Version: 83.0
+- PDF erstellt: Ja (nach `python3 build_pdf.py`)
+- Word erstellt: Ja (nach `python3 build_docx.py`)
+
+---
+
 ## Validierung 2. September 2026 (Lauf 001 vom 2. September 2026) — Version 81.0 → Version 82.0
 
 ### Prüfergebnis
