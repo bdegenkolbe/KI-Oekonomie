@@ -7,6 +7,54 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 4. September 2026 (Lauf 001 vom 4. September 2026) — Version 83.0 → Version 84.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel plus Executive Summary unverändert; § 4.3 erhält einen neuen Absatz *„Erste formale Auskunftsanfragen des AI Office an über dreißig GPAI-Anbieter (29. August 2026)"* unmittelbar nach dem Absatz *„Aktivierung der AI-Act-Durchsetzung zum 2. August 2026"*; kein neuer Unterabschnitt. |
+| 2.1.2 Nummerierung | OK | Fünf Typen der Robotersteuer (§ 2.1), drei Säulen der Deutschland-These (§ 8), sieben Empfehlungen (§ 10.2) unverändert. |
+| 2.1.3 Querverweise | OK | Neuer Absatz enthält Verweise auf § 4.2 Claude.md (Konjunktivpflicht), § 4.3 (transatlantische Asymmetrie zur US-Executive Order-Praxis), § 4.5 (Vergleichspunkt zur *Carolina-Principles*-Selbstverpflichtung vom 1./2. September 2026), § 5.1 und § 8.3 (Trainingsdatenzusammenfassung als methodische Grundlage einer wertschöpfungs­orientierten inländischen KI-Nutzungsabgabe), § 9.1 (Kausalattribution auf Anbieter-Ebene); alle Zielabschnitte existieren. |
+| 2.1.4 Roter Faden | OK | Der neue Absatz schließt inhaltlich an den bereits vorhandenen Absatz vom 2. August 2026 an (Aktivierungsstichtag → informell-bilaterale Krisenkommunikation 3. August 2026 → formale RFI 29. August 2026) und dokumentiert die operative Weiterentwicklung des EU-Durchsetzungsregimes ohne Präjudiz für die Deutschland-These (§ 8). |
+| 2.1.5 Formatierung | OK | Fett-Lead-In *„Erste formale Auskunftsanfragen des AI Office an über dreißig GPAI-Anbieter (29. August 2026):"* analog zum benachbarten Lead-In *„Aktivierung der AI-Act-Durchsetzung zum 2. August 2026:"*; Kursiv-Auszeichnungen konsistent (*AI Office*, *Requests for Information*, Publikations- und Personen­namen, § 4.2 Claude.md). |
+| 2.2.1 Sachliche Richtigkeit | OK | Die drei Kernangaben (Datum 29. August 2026, ≥ 30 GPAI-Empfänger, Art. 101 AI Act mit Bußgeldgerüst bis 15 Millionen Euro oder 3 % weltweiten Jahresumsatzes bzw. 7,5 Millionen/1,5 % bei geringeren, 35 Millionen/7 % bei schwerwiegenden Verstößen) sind über *Help Net Security*, *SuperPowerDaily*, *OOMeta AI* und *Tokenstead* triangulierbar; Empfängernamen (OpenAI, Anthropic, Google) über *Euractiv*-Rezeption belegt, offizielle Empfängerliste nicht veröffentlicht — Konjunktivpflicht nach § 4.2 Claude.md ist im Absatz kenntlich gemacht. |
+| 2.2.2 Redundanzprüfung | OK | Die AI-Act-Aktivierung (2. August 2026) und die bilaterale Krisenkommunikation (3. August 2026) waren bereits in § 4.3 dokumentiert; der neue Absatz stellt die dritte, förmliche Verwaltungs­stufe dar und dokumentiert damit keine Doppelung, sondern die operative Fortführung des bereits eingeführten Vorgangs. Der Vergleichspunkt zur *Carolina-Principles*-Selbstverpflichtung ist in § 4.5 eigenständig eingebettet; im § 4.3-Absatz nur als Querverweis referenziert. |
+| 2.2.3 Argumentation | OK | Die drei Steuerpolitik-Konsequenzen (operative Belastbarkeit der GPAI-Kategorie, Verstetigung der transatlantischen Asymmetrie, methodische Anschlussfähigkeit an eine inländische KI-Nutzungsabgabe) folgen dem in § 4.3 bereits etablierten Argumentationsmuster (Aufbau: Ereignis → Steuerbezug in drei Ableitungen). |
+| 2.2.4 Ausgewogenheit | OK | Der neue Absatz stellt sowohl die Sanktionsschärfe (Bußgeldgerüst, Marktzugangs­einschränkung) als auch die Grenzen der Kausalattribution (Auflösung auf Anbieter-, nicht auf Deployer-Ebene) dar; Kritikpunkte werden nicht ausgeblendet. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe im neuen Absatz und im § 11.3-Literatureintrag; keine Auffälligkeiten. |
+| 2.3.2 Terminologie | OK | *AI Office* (Erstverwendung mit voller Auszeichnung), *Requests for Information* (deutsch: *Auskunftsanfragen*, mit englischer Klammerauszeichnung), GPAI (bereits im Text eingeführt, hier durchgehend verwendet), Art. 101 AI Act (konsistent mit Vorabsatz). |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neuer Eintrag in § 11.3 „Institutionelle und politische Dokumente" angelegt; alle im Absatz genannten Institutionen (Europäische Kommission, AI Office, Virkkunen als Executive Vice-President) sind über den neuen Literatureintrag abgedeckt; die vier Sekundärquellen (Help Net Security, SuperPowerDaily, OOMeta AI, Tokenstead) sind mit vollständigen URLs referenziert. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-Anlehnung eingehalten (Institution / Nebenautor · Datum · Titel · beschreibende Zusammenfassung · vollständige URLs); Zitierstil analog zum G20-Carolina-Principles-Eintrag im gleichen Abschnitt. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Vier unabhängige Sekundärquellen mit konsistentem Kernsatz; Primärquelle (Kommissionspressemitteilung mit Empfängerliste) ist offiziell nicht veröffentlicht, die Auskunftsanfragen selbst sind vertraulich — die Belastbarkeit stützt sich auf die dokumentierte Virkkunen-Bestätigung und die *Euractiv*-Rezeption; Konjunktivpflicht im Absatz umgesetzt. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Vier neue URLs (Help Net Security, SuperPowerDaily, OOMeta AI, Tokenstead) sind über WebFetch beziehungsweise WebSearch im Lauf-Rahmen erreichbar gewesen; die AI-Jazeera-Cross-Referenz aus dem Vor-Lauf bleibt gültig. |
+| 2.4.5 Zitatgenauigkeit | OK | Die im neuen Absatz zitierten Kennzahlen (≥ 30 Empfänger, Bußgeldgerüst, zwei Auskunftsstränge) sind wörtlich aus mindestens zwei der vier Sekundärquellen belegbar. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Der de la Feria et al. 2022-Eintrag bleibt weiterhin als *verifizierungsbedürftig* markiert; keine Änderung im Lauf. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionssprung 83.0 → 84.0 an vier Stellen konsistent nachgezogen: (i) Dokumentkopf `KI-Ökonomie.md` Zeile 12, (ii) Aktualitätshinweis `KI-Ökonomie.md` Zeile 1228, (iii) `README.md` Header (Zeile 7) und Zitiervorschlag (Zeile 44), (iv) Abschlussblock in `Validierung-Ergebnisse.md` (dieser Eintrag). Haftungshinweis, CC-BY-4.0-Lizenz und Autoren-Angabe unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Keine dedizierten Skripte im Projekt; strukturelle Stichproben in Abschnitten 2.1.2 und 2.1.3 ersetzen den automatisierten Teil. |
+
+### Gefundene Fehler
+
+Keine.
+
+### Durchgeführte Bereinigungen
+
+Nicht erforderlich.
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: n/a (keine gefunden)
+- Neue Version: 84.0
+- PDF erstellt: Ja (`build_pdf.py`)
+- Word erstellt: Ja (`build_docx.py`)
+
+---
+
 ## Validierung 3. September 2026 (Lauf 001 vom 3. September 2026) — Version 82.0 → Version 83.0
 
 ### Prüfergebnis
