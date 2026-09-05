@@ -7,6 +7,54 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 5. September 2026 (Lauf 001 vom 5. September 2026) — Version 84.0 → Version 85.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel plus Executive Summary unverändert; § 4.5 erhält einen neuen Absatz *„SPD-Bundestagsfraktion — Klausurbeschluss zu KI-Gewinnen und Sozialstaatsfinanzierung (4. September 2026)"* unmittelbar vor dem Absatz *„G20-Digital/Innovation-Ministerial in Chapel Hill — Carolina Principles (1./2. September 2026)"*; kein neuer Unterabschnitt. |
+| 2.1.2 Nummerierung | OK | Fünf Typen der Robotersteuer (§ 2.1), drei Säulen der Deutschland-These (§ 8), sieben Empfehlungen (§ 10.2) unverändert. |
+| 2.1.3 Querverweise | OK | Neuer Absatz enthält Verweise auf § 4.2 Claude.md (Konjunktivpflicht), § 4.2 (Kontrast zur Regierungsantwort auf die AfD-Kleine-Anfrage vom 20. August 2026), § 4.3 (verfassungsrechtliche Gewerbesteuer-Anknüpfung), § 4.4 (Weimer-Plattform-Digitalabgabe), § 4.5 (Casar-*AI Tax and Work Protection Act*, Sanders-*American A.I. Sovereign Wealth Fund Act*), § 5.1 (Wertschöpfungsabgabe), § 5.4 und § 8.3 (Teilhabefonds), § 6.1 (Südkoreanische Deployer-Beitragsgesetzgebung), § 8.4 (Systemstabilität), § 9.1 (Kausalattribution auf Deployer-Ebene) und § 10.2 (Empfehlungen); alle Zielabschnitte existieren. |
+| 2.1.4 Roter Faden | OK | Der neue Absatz schließt inhaltlich an die im Vorlauf dokumentierte transatlantische Debattenkonstellation (Sanders → OpenAI → Casar → Gates → Carolina Principles) an und ergänzt sie um den ersten deutschen Fraktions-Beschluss einer regierungstragenden Partei; die Progression innerhalb § 4.5 (chronologisch geordnete Politikinitiativen mit US-Fokus, dann G20/Carolina, dann Deutschland/SPD, dann Kontrastposition Bloomberg) bleibt gewahrt. |
+| 2.1.5 Formatierung | OK | Fett-Lead-In *„SPD-Bundestagsfraktion — Klausurbeschluss zu KI-Gewinnen und Sozialstaatsfinanzierung (4. September 2026):"* analog zu den benachbarten Lead-Ins („G20-Digital/Innovation-Ministerial in Chapel Hill — *Carolina Principles* (1./2. September 2026):", „Bill Gates — GatesNotes-Memo…"); Kursiv-Auszeichnungen konsistent (*ms-aktuell.de*, *finanzen.at*, *Rheinische Post*, *Nachwuchsfonds*, § 4.2 Claude.md). |
+| 2.2.1 Sachliche Richtigkeit | OK | Die Kernangaben (Klausurtagung 3./4. September 2026 in Berlin, Fraktionsvorsitzender Miersch als Sprecher, vier Kerninstrumente einschließlich Gewerbesteuer-Bemessung bei Rechenzentren und KI-Ausbildungsgarantie mit branchenbezogenem Nachwuchsfonds) sind über sechs voneinander unabhängige deutschsprachige Rezeptionen (*ms-aktuell.de*, *finanzen.at*, *nachrichten-heute.net*, *it-fachportal.de*, *it-journal.de*, *city-news.de*) sowie das *Rheinische-Post*-Interview mit Miersch triangulierbar; der vollständige Papiertext ist zum Redaktionsschluss nicht öffentlich, was im Absatz durch Konjunktivpflicht nach § 4.2 Claude.md kenntlich gemacht ist. |
+| 2.2.2 Redundanzprüfung | OK | Die Themen Wertschöpfungsabgabe (§ 5.1), Weimer-Plattform-Digitalabgabe (§ 4.4), Casar-*AI Tax and Work Protection Act* (§ 4.5, August 2026), südkoreanische Deployer-Beitragsgesetzgebung (§ 6.1) und Teilhabefonds (§ 5.4, § 8.3) werden ausschließlich per Querverweis referenziert; der SPD-Vorstoß wird als eigenständiger, neuer innerdeutscher Referenzpunkt in § 4.5 eingeführt. |
+| 2.2.3 Argumentation | OK | Die vier Ableitungen (erste Positionierung einer regierungstragenden Fraktion; Gewerbesteuer-Anknüpfung als vollzugsnaher Zugriff ohne Art. 105 GG-Neusteuer; Deployer-Verpflichtung mit Nachwuchsfonds analog Casar/Südkorea, aber sozialpartnerschaftlich gefasst; Anschlussfähigkeit an die Deutschland-These durch Wertschöpfungs- statt Bestandsanknüpfung) folgen dem in § 4.5 etablierten Argumentationsmuster (Ereignis → Einordnung in vier Ableitungen). |
+| 2.2.4 Ausgewogenheit | OK | Der Absatz benennt sowohl die Bindungswirkung eines Fraktionsbeschlusses in einer Regierungskoalition als auch die Grenzen (kein Gesetzentwurf, Papiertext noch nicht vollständig öffentlich, Umsetzungsschritt offen); die Konjunktivpflicht wird explizit umgesetzt. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe im neuen Absatz und im § 11.3-Literatureintrag; keine Auffälligkeiten. |
+| 2.3.2 Terminologie | OK | *SPD-Bundestagsfraktion*, *Gewerbesteuer*, *Rechenzentren*, *Nachwuchsfonds*, *Berufseinstiegsprogramme*, *Deployer*, *Wertschöpfungsabgabe*, *Teilhabefonds* konsistent verwendet; Konjunktivkennzeichnung („nach den vorliegenden Rezeptionen") beachtet. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Neuer Eintrag in § 11.3 „Institutionelle und politische Dokumente" angelegt; alle im Absatz genannten Institutionen (SPD-Bundestagsfraktion, Miersch als Fraktionsvorsitzender, Rheinische Post als Interviewträger) sind über den neuen Literatureintrag abgedeckt; die sechs Sekundärquellen sind mit vollständigen URLs referenziert. |
+| 2.4.2 Formale Einheitlichkeit | OK | APA-Anlehnung eingehalten (Institution/Autoren · Datum · Titel/Beschreibung · zusammenfassende Einordnung · vollständige URLs); Zitierstil analog zum unmittelbar folgenden G20-Carolina-Principles-Eintrag. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Sechs unabhängige deutschsprachige Sekundärquellen mit konsistentem Kernsatz; Primärquelle (SPD-Fraktions-Papiertext) zum Redaktionsschluss nicht vollständig öffentlich, die substantiellen Aussagen stützen sich auf das Miersch-Interview mit der *Rheinischen Post* und die konvergente Berichterstattung; Konjunktivpflicht im Absatz umgesetzt. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Zwei der sechs neuen URLs (ms-aktuell.de, finanzen.at) sind über WebFetch im Lauf-Rahmen erreichbar gewesen und Substanz verifiziert; die weiteren vier URLs (nachrichten-heute.net, it-fachportal.de, it-journal.de, city-news.de) sind über WebSearch-Snippets als konvergente Sekundärquellen belegt. |
+| 2.4.5 Zitatgenauigkeit | OK | Das direkte Miersch-Zitat („KI könne Arbeitsplätze besser machen. Die Gewinne des Fortschritts müssten bei allen ankommen.") ist über *it-journal.de* wörtlich belegt; das Zitat zur Ausbildungsgarantie („Sinkt nach einer KI-Einführung die Zahl qualifizierter Einstiegsstellen deutlich, müsse der Betrieb bezahlte Berufseinstiegsprogramme, zusätzliche Ausbildungsplätze oder vergleichbare Lernstellen schaffen. Tue er das nicht, zahle er in einen branchenbezogenen Nachwuchsfonds ein.") ebenfalls aus *it-journal.de* übernommen; die Gewerbesteuer-Aussage („Deshalb werden wir die Bemessung der Gewerbesteuer hier ändern") aus *it-fachportal.de*. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Der de la Feria et al. 2022-Eintrag bleibt weiterhin als *verifizierungsbedürftig* markiert; keine Änderung im Lauf. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionssprung 84.0 → 85.0 an vier Stellen konsistent nachgezogen: (i) Dokumentkopf `KI-Ökonomie.md` Zeile 12, (ii) Aktualitätshinweis `KI-Ökonomie.md` Zeile 1232, (iii) `README.md` Header (Zeile 7) und Zitiervorschlag (Zeile 44), (iv) Abschlussblock in `Validierung-Ergebnisse.md` (dieser Eintrag). Haftungshinweis, CC-BY-4.0-Lizenz und Autoren-Angabe unverändert. |
+| 2.6 Automatisierte Prüfung | n/a | Keine dedizierten Skripte im Projekt; strukturelle Stichproben in Abschnitten 2.1.2 und 2.1.3 ersetzen den automatisierten Teil. |
+
+### Gefundene Fehler
+
+Keine.
+
+### Durchgeführte Bereinigungen
+
+Nicht erforderlich.
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK
+- Automatisierte Skripte: n/a
+
+### Abschluss
+
+- Alle Fehler behoben: n/a (keine gefunden)
+- Neue Version: 85.0
+- PDF erstellt: Ja (`build_pdf.py`)
+- Word erstellt: Ja (`build_docx.py`)
+
+---
+
 ## Validierung 4. September 2026 (Lauf 001 vom 4. September 2026) — Version 83.0 → Version 84.0
 
 ### Prüfergebnis
