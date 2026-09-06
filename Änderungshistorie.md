@@ -111,12 +111,14 @@
 - PDF erstellt (`build_pdf.py`): Ja
 - Word erstellt (`build_docx.py`): Ja
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja
-- E-Mail-Kanal (Phase 5b): siehe Auffälligkeiten
-- WhatsApp-Kanal (Phase 5b): siehe Auffälligkeiten
-- Branch auf main gemerged und gelöscht: siehe Auffälligkeiten
+- E-Mail-Kanal (Phase 5b): Fallback-Datei `daily-mail.txt` im Repo-Root geschrieben (kein `mail_send`/`send_mail`/`outlook_send`-Tool aus einem MS-Graph-MCP in dieser Session erreichbar; Datei ist gitignored)
+- WhatsApp-Kanal (Phase 5b): Fallback-Datei `daily-whatsapp.txt` im Repo-Root geschrieben (kein `wa_send_message`/anderes `send`-Tool aus einem `whatsapp`-MCP in dieser Session erreichbar; Datei ist gitignored)
+- Branch auf main gemerged und gelöscht: Ja (Merge-Commit `7eed5ae`, Session-Branch `claude/determined-einstein-hhv3c1`; Remote-Branch-Löschung mit HTTP 403 abgelehnt — serverseitige Branch-Protection wie in den Vorläufen, lokaler Branch gelöscht)
 
 ### Auffälligkeiten / offene Punkte
 
+- **Phase 5b (Benachrichtigung):** Empfänger wurden über die Routine-Anweisung übergeben (E-Mail und WhatsApp). In der laufenden Session standen weder `mail_send`/`send_mail`/`outlook_send` aus einem MS-Graph-MCP noch `wa_send_message`/andere `send`-Tools aus einem `whatsapp`-MCP zur Verfügung; als Notlösung sind `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root abgelegt worden (beide gitignored, siehe `.gitignore`). Keine Empfängerangaben im Logbuch, in Commits oder im Abschlussbericht ausgeschrieben.
+- **Phase 6 (Commit/Merge/Cleanup):** PR #8 als Draft gegen `main` eröffnet und über lokalen `git merge --no-ff` in Merge-Commit `7eed5ae` überführt. Push auf `main` erfolgreich (Branch-Protection über Bypass zugelassen, wie in den Vorläufen). Lokaler Session-Branch `claude/determined-einstein-hhv3c1` gelöscht; Remote-Branch-Löschung mit HTTP 403 abgelehnt (serverseitige Branch-Protection, unverändert gegenüber Vorläufen).
 - **Bundeskabinett-Regierungsentwurf vom 2. September 2026:** Die BMF-Kabinettsvorlage zum *Einkommensteuerreformgesetz 2027* (Artikel 3, § 29 Abs. 1 Nr. 4 GewStG-E) liegt zum Redaktionsschluss noch nicht in einer bundesministeriell publizierten Fassung vor; die substantiellen Angaben sind über drei unabhängige Sekundärrezeptionen (*heise online*, *wirtschaft-tv.com*, *niederlausitz-aktuell.de*) und zwei Vorlaufsanalysen (DIHK 30.3.2026, EY 10.8.2026) triangulierbar. Konjunktivpflicht nach § 4.2 Claude.md ist im Absatz und in beiden Literatureinträgen ausdrücklich umgesetzt. Nachverifikation bei bundesministerieller Publikation der Kabinettsvorlage vorgemerkt.
 - **BVDW-/FDP-Reaktionen (2./3. September 2026):** Sind über direkte Primärquellen (*bvdw.org*, *it-fachportal.de*) verifiziert und ergänzen die innerdeutsche Debattenlage um die Verband- (BVDW) und die Oppositions-Perspektive (FDP); ihre Aufnahme dient der in § 2.2.4 Validierung.md verlangten Ausgewogenheit.
 - **Südkoreanischer CEO-Gipfel vom 4. September 2026:** Beta November 2026, Launch Dezember 2026, 5-Mio.-MAU-Ziel sind angekündigt, nicht vollzogen; Nachverifikation der Beta-Phasen und der MAU-Zielerreichung ist bis mindestens Jahresende 2026 vorgemerkt. Die südkoreanische Zwei-Strang-Politik (Domestic Production Tax Credit, Future Response Fund, AI Transition Response Contribution — alle August 2026) wird durch die *„AI for All"*-Umsetzung um einen Nachfrageseiten-Baustein zu einer *Angebot-Verteilung-Zugang*-Trias erweitert.
