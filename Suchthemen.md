@@ -28,7 +28,7 @@
 
 ## Cluster B — Robotersteuer, Wertschöpfungsabgabe, KI-/Arbeitsregulierung (DE/EU/national) (→ Kap. 2, 4, 5.1, 9)
 
-**Schlüsselbegriffe (DE):** Robotersteuer, Maschinensteuer, Wertschöpfungsabgabe, Bemessungsgrundlage Sozialversicherung, Ersatzabgabe, EU-AI-Act, Hochrisiko-Klassifizierung, Delvaux-Bericht, Rahmenkompetenz Steuern, Art. 105 GG, Art. 14 GG, paritätische Finanzierung, KI-Kennzeichnung, KI-Transparenzpflicht, Mitbestimmung KI, Betriebsverfassungsgesetz, WARN-Notice, Massenentlassungsanzeige, Layoff-Disclosure.
+**Schlüsselbegriffe (DE):** Robotersteuer, Maschinensteuer, Wertschöpfungsabgabe, Bemessungsgrundlage Sozialversicherung, Ersatzabgabe, EU-AI-Act, Hochrisiko-Klassifizierung, Delvaux-Bericht, Rahmenkompetenz Steuern, Art. 105 GG, Art. 14 GG, paritätische Finanzierung, KI-Kennzeichnung, KI-Transparenzpflicht, Mitbestimmung KI, Betriebsverfassungsgesetz, WARN-Notice, Massenentlassungsanzeige, Layoff-Disclosure, Bundeshaushalt, Einzelplan, Haushaltswoche, Haushaltsausschuss, KI-Titelansätze, Digitaletat.
 
 **Schlüsselbegriffe (EN):** value-added levy, social-security contribution base, EU AI Act amendments, robot legal personality, automation levy, Sanders robot tax bill, AI worker protection, AI transparency obligation, mass-layoff disclosure, AI displacement reporting.
 
@@ -36,7 +36,7 @@
 
 **Bevorzugte Quellen:** EUR-Lex, BMF-/BMAS-/BMWK-Pressemitteilungen, Bundestags-Drucksachen, EP-Texts adopted, Stellungnahmen von Gewerkschaften und Arbeitgeberverbänden, deutsche steuer- und arbeitsrechtliche Fachzeitschriften (DStR, BB, FR, IStR, NZA, RdA), Verfassungsblog.
 
-**Trigger für Update:** neue Gesetzentwürfe, Bundestagsanfragen, EP-Resolutionen, BMF-Gutachten, Verfassungsgerichtsentscheidungen, neue IW-/DGB-Stellungnahmen mit konkreten Robotersteuer-/Wertschöpfungsabgabe-Vorschlägen, neue Mitbestimmungs- oder Disclosure-Pflichten beim KI-Einsatz, neue Massenentlassungsregeln mit KI-Bezug.
+**Trigger für Update:** neue Gesetzentwürfe, Bundestagsanfragen, EP-Resolutionen, BMF-Gutachten, Verfassungsgerichtsentscheidungen, neue IW-/DGB-Stellungnahmen mit konkreten Robotersteuer-/Wertschöpfungsabgabe-Vorschlägen, neue Mitbestimmungs- oder Disclosure-Pflichten beim KI-Einsatz, neue Massenentlassungsregeln mit KI-Bezug, KI-relevante Titelansätze im Bundeshaushalt (Einzelpläne der KI-zuständigen Ressorts) samt ihrer Veränderung im parlamentarischen Verfahren.
 
 **Negativliste:** rein populärwissenschaftliche Diskussionsbeiträge ohne politische oder rechtliche Konsequenz.
 
@@ -130,13 +130,13 @@
 
 ## Cluster I — Frontier-Modelle, Marktstruktur und KI-Renten (→ Kap. 8.2, 8.3)
 
-**Schlüsselbegriffe:** Frontier Model, Foundation Model, Modell-Eigentum, Compute-Konzentration, AI rents, Daten-Renten, Plattform-Renten, deflationäre Dynamik bei Software, deflationary effect, Inferenz-Preis, Token-Preis-Verfall, Open-Weight vs. Closed-Weight, Compute-Subvention, AI Act General Purpose AI, Vera-Rubin-Architektur, Hopper, Blackwell, Rubin, GPU-Generationen, Hyperscaler Lock-In, Cloud-Souveränität.
+**Schlüsselbegriffe:** Frontier Model, Foundation Model, Modell-Eigentum, Compute-Konzentration, AI rents, Daten-Renten, Plattform-Renten, deflationäre Dynamik bei Software, deflationary effect, Inferenz-Preis, Token-Preis-Verfall, Open-Weight vs. Closed-Weight, Compute-Subvention, AI Act General Purpose AI, Vera-Rubin-Architektur, Hopper, Blackwell, Rubin, GPU-Generationen, Hyperscaler Lock-In, Cloud-Souveränität, Modell-Distributionsplattform, Model Hub, Hardware-Neutralität, vertikale Integration, Fusionskontrolle (merger review), Hart-Scott-Rodino, self-preferencing, vertical foreclosure.
 
 **Relevante Akteure:** NVIDIA, AMD, Intel, OpenAI, Anthropic, Google DeepMind, Meta AI, xAI, Mistral, Aleph Alpha, DeepSeek, Qwen, Hugging Face; Investoren: Microsoft, Amazon, Google, SoftBank, MGX, Saudi PIF; Analysten: Epoch AI, SemiAnalysis, Stanford HAI AI Index, Stanford CRFM, AI Now Institute.
 
 **Bevorzugte Quellen:** Konzern-Earnings-Calls, SEC-Filings, Pressemitteilungen, Stanford HAI AI Index Report, Epoch AI Reports, SemiAnalysis Substack, CSIS, MERICS, FT, Bloomberg, The Information.
 
-**Trigger für Update:** neue Frontier-Modell-Releases mit Auswirkungen auf Inferenzpreise, neue Capex-Programme einzelner Hyperscaler, neue Open-Weight-Veröffentlichungen mit Marktrelevanz, neue Hardware-Generationen (Vera Rubin, Rubin Ultra, AMD MI400, Intel Gaudi-Nachfolger), neue Modelle der KI-Rentenverteilung (wer verdient an Frontier-Modellen).
+**Trigger für Update:** neue Frontier-Modell-Releases mit Auswirkungen auf Inferenzpreise, neue Capex-Programme einzelner Hyperscaler, neue Open-Weight-Veröffentlichungen mit Marktrelevanz, neue Hardware-Generationen (Vera Rubin, Rubin Ultra, AMD MI400, Intel Gaudi-Nachfolger), neue Modelle der KI-Rentenverteilung (wer verdient an Frontier-Modellen), Eigentümerwechsel oder Zusammenschlüsse auf der Modell-Distributionsebene (Model Hubs, Inferenz-Marktplätze) samt zugehöriger Fusionskontrollverfahren.
 
 **Negativliste:** Detail-Benchmarks ohne wirtschaftliche oder politische Implikation, allgemeine Produkt-Reviews.
 
