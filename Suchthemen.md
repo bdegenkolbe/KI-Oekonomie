@@ -28,7 +28,7 @@
 
 ## Cluster B — Robotersteuer, Wertschöpfungsabgabe, KI-/Arbeitsregulierung (DE/EU/national) (→ Kap. 2, 4, 5.1, 9)
 
-**Schlüsselbegriffe (DE):** Robotersteuer, Maschinensteuer, Wertschöpfungsabgabe, Bemessungsgrundlage Sozialversicherung, Ersatzabgabe, EU-AI-Act, Hochrisiko-Klassifizierung, Delvaux-Bericht, Rahmenkompetenz Steuern, Art. 105 GG, Art. 14 GG, paritätische Finanzierung, KI-Kennzeichnung, KI-Transparenzpflicht, Mitbestimmung KI, Betriebsverfassungsgesetz, WARN-Notice, Massenentlassungsanzeige, Layoff-Disclosure, Bundeshaushalt, Einzelplan, Haushaltswoche, Haushaltsausschuss, KI-Titelansätze, Digitaletat.
+**Schlüsselbegriffe (DE):** Robotersteuer, Maschinensteuer, Wertschöpfungsabgabe, Bemessungsgrundlage Sozialversicherung, Ersatzabgabe, EU-AI-Act, Hochrisiko-Klassifizierung, Delvaux-Bericht, Rahmenkompetenz Steuern, Art. 105 GG, Art. 14 GG, paritätische Finanzierung, KI-Kennzeichnung, KI-Transparenzpflicht, Mitbestimmung KI, Betriebsverfassungsgesetz, WARN-Notice, Massenentlassungsanzeige, Layoff-Disclosure, Bundeshaushalt, Einzelplan, Haushaltswoche, Haushaltsausschuss, KI-Titelansätze, Digitaletat, Fraktionsbeschluss, Klausurbeschluss, Beschlusspapier, KI-Nachwuchsgarantie, Nachwuchsfonds, Ausbildungsumlage, KI-Gutschein, Förderkonditionalität, Bundeszuschuss Rentenversicherung.
 
 **Schlüsselbegriffe (EN):** value-added levy, social-security contribution base, EU AI Act amendments, robot legal personality, automation levy, Sanders robot tax bill, AI worker protection, AI transparency obligation, mass-layoff disclosure, AI displacement reporting.
 
@@ -36,7 +36,7 @@
 
 **Bevorzugte Quellen:** EUR-Lex, BMF-/BMAS-/BMWK-Pressemitteilungen, Bundestags-Drucksachen, EP-Texts adopted, Stellungnahmen von Gewerkschaften und Arbeitgeberverbänden, deutsche steuer- und arbeitsrechtliche Fachzeitschriften (DStR, BB, FR, IStR, NZA, RdA), Verfassungsblog.
 
-**Trigger für Update:** neue Gesetzentwürfe, Bundestagsanfragen, EP-Resolutionen, BMF-Gutachten, Verfassungsgerichtsentscheidungen, neue IW-/DGB-Stellungnahmen mit konkreten Robotersteuer-/Wertschöpfungsabgabe-Vorschlägen, neue Mitbestimmungs- oder Disclosure-Pflichten beim KI-Einsatz, neue Massenentlassungsregeln mit KI-Bezug, KI-relevante Titelansätze im Bundeshaushalt (Einzelpläne der KI-zuständigen Ressorts) samt ihrer Veränderung im parlamentarischen Verfahren.
+**Trigger für Update:** neue Gesetzentwürfe, Bundestagsanfragen, EP-Resolutionen, BMF-Gutachten, Verfassungsgerichtsentscheidungen, neue IW-/DGB-Stellungnahmen mit konkreten Robotersteuer-/Wertschöpfungsabgabe-Vorschlägen, neue Mitbestimmungs- oder Disclosure-Pflichten beim KI-Einsatz, neue Massenentlassungsregeln mit KI-Bezug, KI-relevante Titelansätze im Bundeshaushalt (Einzelpläne der KI-zuständigen Ressorts, einschließlich Einzelplan 11 als sozialstaatliche Gegenprobe) samt ihrer Veränderung im parlamentarischen Verfahren; Fraktions- und Klausurbeschlüsse regierungstragender Bundestagsfraktionen mit KI-Fiskal- oder KI-Arbeitsmarktbezug — dabei ist stets der **Beschlusstext selbst** als Primärquelle zu beschaffen, weil die Presserezeption solcher Papiere erfahrungsgemäß Modalitäten verschiebt (Absichtserklärung wird zu Festlegung) und Eigenbegriffe umbenennt.
 
 **Negativliste:** rein populärwissenschaftliche Diskussionsbeiträge ohne politische oder rechtliche Konsequenz.
 
