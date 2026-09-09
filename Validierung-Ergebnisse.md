@@ -7,6 +7,67 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 9. September 2026 (Lauf 001 vom 9. September 2026) — Version 88.0 → Version 89.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel plus Zusammenfassung und Inhaltsverzeichnis unverändert (14 H2-Überschriften). Executive Summary vor Kapitel 1 erhalten und weiterhin mit explizitem Bezug auf die Deutschland-These. Keine leeren Abschnitte; kein neuer Unterabschnitt angelegt. |
+| 2.1.2 Nummerierung | OK | Kapitelnummerierung 1–11 lückenlos, 58 auflösbare Abschnittsanker. Zähler geprüft: „fünf Typen" (§ 2.1) zweimal genannt und mit fünf Typen belegt, „drei Säulen" der Deutschland-These unverändert, Empfehlungen in § 10.2 weiterhin sieben (Erstens bis Siebtens). Der im SPD-Absatz neu eingeführte lokale Zähler „sechs Instrumente" korrespondiert mit den sechs ausgeführten Punkten (Erstens bis Sechstens). |
+| 2.1.3 Querverweise | OK | 36 eindeutige `§X.Y`-Verweise, alle auf existierende Abschnitte auflösbar. Einzige Ausnahme im automatisierten Lauf ist „§ 29" — eine Rechtsnorm (§ 29 Abs. 1 Nr. 4 GewStG-E), kein Dokumentverweis. Die im Lauf neu gesetzten Verweise (§ 1.1, § 5.1, § 5.2, § 8.4, § 9.1) wurden einzeln gegengeprüft; § 5.2 trägt korrekt den Titel „Bürgerversicherung". |
+| 2.1.4 Roter Faden | OK | Beide Ergänzungen bleiben in § 4.5 (jüngste politische Initiativen) und damit in der Literaturrezeptions-/Sachstandsebene; die Deutschland-These in Kapitel 8 wird nur per Querverweis berührt, nicht erweitert. |
+| 2.1.5 Formatierung | OK | Anführungszeichen-Konvention eingehalten: 672 Paare „ (U+201E) / " (U+0022), null Vorkommen von U+201C — das im Vorlauf dokumentierte Fehlermuster ist nicht erneut aufgetreten. Tabellensyntax vollständig konsistent (automatisierter Spaltenzahl-Abgleich ohne Abweichung). Fett gesetzte Lead-Ins einheitlich. |
+| 2.2.1 Sachliche Richtigkeit | Abweichung (behoben) | Drei Zitatfehler im Absatz zum SPD-Klausurbeschluss, entstanden aus der Presserezeption des Vorlaufs — siehe „Gefundene Fehler" Nr. 1–3. Alle drei am Primärtext verifiziert und berichtigt. Die neu aufgenommenen Haushaltszahlen zu Einzelplan 11 sind gegen die Textarchiv-Meldung des Bundestages geprüft. |
+| 2.2.2 Redundanzprüfung | OK | Der SPD-Beschluss wird weiterhin an genau einer Stelle inhaltlich geführt (§ 4.5); § 4.4, § 5.1, § 5.2, § 5.4 und § 8.3 sind über Querverweise angebunden, ohne den Sachverhalt zu wiederholen. Die Einzelplan-11-Ergänzung ist bewusst in den bestehenden Haushaltsabsatz eingefügt statt als eigener Absatz, um keine zweite Haushaltsdarstellung aufzubauen. |
+| 2.2.3 Argumentation | OK | Die fünf Typen der Robotersteuer bleiben auseinandergehalten; der SPD-Vorstoß wird weiterhin nicht als „Robotersteuer" etikettiert, sondern nach Instrumenten differenziert. Neu eingezogen ist die Unterscheidung von Bürgerversicherung (Kreis-Erweiterung) und Wertschöpfungsabgabe (Bemessungs-Erweiterung); Acemoglu- und Thuemmel-Linien bleiben unberührt. |
+| 2.2.4 Ausgewogenheit | OK | Die FDP-Gegenposition (Hagen) bleibt im Nachbarabsatz erhalten. Die Berichtigung schwächt die SPD-Aussage zur Gewerbesteuer bewusst von einer Festlegung auf eine Absichtserklärung ab und stellt den „Prüf"-Vorbehalt zur Unternehmensbesteuerung ausdrücklich dar — eine Korrektur zugunsten der Quellentreue, nicht zugunsten einer Position. |
+| 2.3.1 Tippfehler und Grammatik | OK | Neue Passagen gegengelesen; keine Befunde. |
+| 2.3.2 Terminologie | Abweichung (behoben) | Die Bezeichnung „KI-Ausbildungsgarantie" war eine Prägung der Presserezeption; der Beschlusstext spricht durchgängig von „KI-Nachwuchsgarantie". An allen drei Fundstellen im Fließtext vereinheitlicht (Literaturverzeichnis-Eintrag mit Korrekturhinweis versehen). „Wertschöpfungsabgabe" durchgängig, keine Vermischung mit „Wertschöpfungssteuer". |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Beide im Fließtext neu belegten Sachverhalte haben einen Eintrag in § 11.3: der SPD-Beschluss als Primärquellen-Nachtrag im bestehenden Eintrag, Einzelplan 11 als Ergänzung des bestehenden Bundestags-Haushaltseintrags. Keine neue verwaiste Quelle, kein unbelegter Fließtextverweis. |
+| 2.4.2 Formale Einheitlichkeit | OK | Der neue Primärquellen-Nachweis folgt dem APA-nahen Muster (Körperschaft als Autor, Herausgeberangabe, Datum, kursiver Titel, Medienkennzeichnung [PDF], Ort, vollständige URL ohne Shortener). |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Der zentrale Sachverhalt des Laufs stützt sich jetzt auf das Beschlusspapier selbst statt auf sechs sekundäre Nachrichtenportale; die Sekundärquellen bleiben nach Phase 2 Schritt 5 des Daily-Prompts als zeitlich frühere Referenz erhalten. Die Haushaltszahlen stammen aus dem Textarchiv des Bundestages (Primärquelle). |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Die drei im Lauf neu aufgenommenen URLs (zwei spdfraktion.de-PDFs beziehungsweise die zugehörige Pressemitteilung, eine bundestag.de-Textarchiv-Meldung) wurden im Lauf selbst abgerufen und lieferten die zitierten Inhalte aus. Das PDF des Beschlusspapiers wurde vollständig heruntergeladen (rund 314 KB) und lokal in Text überführt, um die Wortlaute zu sichern. Die turnusmäßige Zehn-Prozent-Stichprobe des Gesamtverzeichnisses ist im Vorlauf vom 8. September 2026 (86 URLs) durchgeführt worden und wird turnusgemäß fortgeschrieben. |
+| 2.4.5 Zitatgenauigkeit | Abweichung (behoben) | Kern des Laufs. Drei als wörtliche Zitate gesetzte Passagen entsprachen nicht dem Primärtext (Nr. 1–3 unten). Nach der Berichtigung stimmen alle sechs im SPD-Absatz gesetzten Zitate wörtlich mit dem Beschlusspapier überein. Die übrigen Stichproben (Acemoglu/Manera/Restrepo, Thuemmel, IAB, Delvaux 2017, OpenAI 2026) unverändert korrekt. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Die Markierung zu de la Feria et al. 2022 bleibt unverändert bestehen. Neu dokumentiert ist eine *abgeschlossene* Verifikation: Der SPD-Klausurbeschluss war im Vorlauf ausdrücklich mit dem Vorbehalt „Papiertext liegt nicht vollständig öffentlich vor" geführt; dieser Vorbehalt ist mit dem Primärquellen-Nachweis erledigt und im Fließtext wie im Literaturverzeichnis entsprechend ersetzt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionssprung 88.0 → 89.0 an vier Stellen nachgezogen: Dokumentkopf `KI-Ökonomie.md`, Aktualitätshinweis am Dokumentende (zugleich Stichtag auf 9. September 2026 und Lauf-Kennung fortgeschrieben), `README.md` (Kopf und Zitiervorschlag), Abschlussblock dieses Protokolls. Autor (Björn Degenkolbe), Organisation (HIGL), Lizenzhinweis CC BY 4.0 und Haftungshinweis unverändert vorhanden. |
+| 2.6 Automatisierte Prüfung | n/a | Weiterhin keine dedizierten Prüfskripte im Repository. Ersetzt durch die manuellen beziehungsweise ad hoc skriptgestützten Stichproben zu Nummerierung (§ 2.1.2), Querverweisen (§ 2.1.3), Anführungszeichen- und Tabellenkonsistenz (§ 2.1.5) und Quellenzuordnung (§ 2.4.1). |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|--------|--------|---------|
+| 1 | § 4.5, Absatz „SPD-Bundestagsfraktion — Klausurbeschluss …" | Als wörtliches Zitat gesetzt: „Deshalb werden wir die Bemessung der Gewerbesteuer hier ändern". Der Beschlusstext lautet: „Deshalb streben wir hier eine Änderung der Bemessung der Gewerbesteuer an." Die Presseparaphrase verschob die Modalität von einer Absichtserklärung zu einer Festlegung. Dieselbe Fehlzitierung war zusätzlich im Absatz zum Kabinettsentwurf (Gewerbesteuer-Zerlegung) übernommen worden. | Mittel |
+| 2 | § 4.5, ebenda | Als wörtliches Zitat gesetzt: „large tech companies fairly taxed" — eine englische Paraphrase in einem deutschsprachigen Primärdokument. Der Beschlusstext lautet: „dass die großen Gewinner der KI-Revolution ihren fairen Beitrag leisten und große Technologiekonzerne endlich fair besteuert werden". | Mittel |
+| 3 | § 4.5, ebenda, sowie § 11.3 | Bezeichnung „KI-Ausbildungsgarantie" und Wiedergabe als unbedingte Pflicht. Der Beschlusstext verwendet den Begriff „KI-Nachwuchsgarantie" und formuliert bedingt und adressatenbeschränkt: „Für größere Unternehmen könnte eine gesetzliche KI-Nachwuchsgarantie gelten". | Mittel |
+| 4 | § 4.5, Absatz „Bundeshaushalt 2027 …" | Unvollständigkeit statt Fehler: Die Haushaltsdarstellung erfasste die Einzelpläne 24 und 09, nicht aber den mit Abstand größten und für die Sozialstaats-Argumentation einschlägigen Einzelplan 11. | Gering |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|--------|----------|----------|
+| 1 | Fehlzitat Gewerbesteuer | Wortlaut an beiden Fundstellen (§ 4.5, SPD-Absatz und Kabinettsentwurf-Absatz) durch den am Primärtext verifizierten Satz ersetzt; im SPD-Absatz zusätzlich der Prüfvorbehalt zur Unternehmensbesteuerung („etwa über eine angepasste Unternehmensbesteuerung") ergänzt, der die Aussage weiter relativiert. | Ja |
+| 2 | Englische Paraphrase | Durch den deutschen Originalwortlaut ersetzt. | Ja |
+| 3 | Begriff und Modalität der Nachwuchsgarantie | Begriff an allen Fundstellen auf „KI-Nachwuchsgarantie" vereinheitlicht; Zitat vollständig und mit der Bedingung „Für größere Unternehmen könnte … gelten" wiedergegeben; Literatureintrag um einen expliziten Korrekturhinweis ergänzt. | Ja |
+| 4 | Fehlender Einzelplan 11 | Bestehender Haushaltsabsatz um einen Ergänzungsblock mit den Zahlen des Regierungsentwurfs zu Einzelplan 11 erweitert und um die Einordnung, dass allein der Zuwachs des Bundeszuschusses zur Rentenversicherung die Summe der KI-Titel um ein Vielfaches übersteigt; Literatureintrag in § 11.3 entsprechend erweitert. | Ja |
+| 5 | Quellenlage des SPD-Beschlusses | Fließtext und Literatureintrag um den Primärquellen-Nachtrag ergänzt (Titel, Herausgeberin, zweites Beschlusspapier, PDF- und Pressemitteilungs-URLs); der Vorbehalt „Papiertext liegt nicht vollständig öffentlich vor" wurde durch die fortbestehende, aber anders begründete Konjunktivpflicht ersetzt (Fraktionsbeschluss, kein Gesetzentwurf). Die sechs Sekundärquellen des Vorlaufs bleiben nach Phase 2 Schritt 5 des Daily-Prompts erhalten. | Ja |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte (2.1.2 Zähler, 2.1.3 Querverweise, 2.1.5 Formatierung, 2.2.1, 2.3.2, 2.4.1, 2.4.2, 2.4.5, 2.5) erneut durchlaufen: OK.
+- Erneuter skriptgestützter Gesamtdurchlauf nach der Bereinigung: 11 Kapitel, 58 Abschnittsanker, 36 auflösbare `§X.Y`-Verweise, 672 ausgeglichene Anführungszeichenpaare, null U+201C, keine Tabellenabweichung.
+- Gegenprobe auf Restvorkommen der berichtigten Formulierungen: „large tech companies fairly taxed" und „werden wir die Bemessung der Gewerbesteuer hier ändern" sind vollständig entfallen (null Treffer). „KI-Ausbildungsgarantie" verbleibt mit genau einem Treffer — im Korrekturhinweis des Literatureintrags selbst („… statt *KI-Ausbildungsgarantie*"), wo die Nennung des ersetzten Begriffs beabsichtigt ist; in allen sachlichen Fundstellen des Fließtextes und des Literatureintrags steht jetzt „KI-Nachwuchsgarantie".
+- Automatisierte Skripte (dedizierte Prüfskripte im Repository): n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 89.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 8. September 2026 (Lauf 001 vom 8. September 2026) — Version 87.0 → Version 88.0
 
 ### Prüfergebnis
