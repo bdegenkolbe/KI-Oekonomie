@@ -14,13 +14,13 @@
 
 **Schlüsselbegriffe (DE):** Optimalsteuertheorie, Automatisierungssteuer, Robotersteuer, Substitutionselastizität, displacement effect, productivity effect, reinstatement effect, Lohnquote, Kapitalquote, Wohlfahrtswirkung, task-based framework, Aufgabenzerlegung, Hollowing-Out, Polarisierung des Arbeitsmarktes, Hantel-Ökonomie (Barbell-Economy), mittlere Einkommensschicht, Kompetenzbiografie.
 
-**Schlüsselbegriffe (EN):** optimal taxation, automation tax, robot tax, capital-labor substitution, task-based model, displacement, reinstatement effect, factor share, welfare analysis, AI taxation, hollowing out, labor market polarization, barbell economy, skill-biased technical change, task automation.
+**Schlüsselbegriffe (EN):** optimal taxation, automation tax, robot tax, capital-labor substitution, task-based model, displacement, reinstatement effect, factor share, welfare analysis, AI taxation, hollowing out, labor market polarization, barbell economy, skill-biased technical change, task automation, scenario model, labor share path, cognitive occupations, transformative AI, expectations survey.
 
-**Relevante Autorinnen/Autoren und Institutionen:** Daron Acemoglu, Andrea Manera, Pascual Restrepo, Uwe Thuemmel, Arnaud Costinot, Iván Werning, Pedro Teles, Sergio Rebelo, Pedro Guerreiro, Emanuel Gasteiger, Klaus Prettner, Ryo Nakatani, Rita de la Feria, David Autor, Anna Salomons, Erik Brynjolfsson, Anthropic Economic Index Team (Massenkoff/McCrory), Brookings AI Index, OECD Future of Work, ILO.
+**Relevante Autorinnen/Autoren und Institutionen:** Daron Acemoglu, Andrea Manera, Pascual Restrepo, Uwe Thuemmel, Arnaud Costinot, Iván Werning, Pedro Teles, Sergio Rebelo, Pedro Guerreiro, Emanuel Gasteiger, Klaus Prettner, Ryo Nakatani, Rita de la Feria, David Autor, Anna Salomons, Erik Brynjolfsson, Anton Korinek, Charles I. Jones, Anthropic Economic Index Team (Massenkoff/McCrory), The Anthropic Institute, Brookings AI Index, OECD Future of Work, ILO.
 
 **Bevorzugte Quellen:** NBER Working Papers, JEEA, Journal of Public Economics, AEJ: Macroeconomics, Brookings, IZA, CEPR, MPRA, arXiv:econ.GN, SSRN, OECD Working Papers, ILO World Employment Report.
 
-**Trigger für Update:** neue Working Paper, Replikationsstudien, Meta-Analysen, peer-reviewed Veröffentlichungen, die das Acemoglu-Manera-Restrepo- oder Thuemmel-Ergebnis bestätigen, modifizieren oder widerlegen; neue Aufgabenzerlegungen vom Typ Anthropic Economic Index (z. B. die referenzierten 950 Berufe / 19 000 Aufgaben); neue Polarisierungsbefunde zur „Hantel-Ökonomie".
+**Trigger für Update:** neue Working Paper, Replikationsstudien, Meta-Analysen, peer-reviewed Veröffentlichungen, die das Acemoglu-Manera-Restrepo- oder Thuemmel-Ergebnis bestätigen, modifizieren oder widerlegen; neue Aufgabenzerlegungen vom Typ Anthropic Economic Index (z. B. die referenzierten 950 Berufe / 19 000 Aufgaben); neue Polarisierungsbefunde zur „Hantel-Ökonomie"; neue Szenario- und Pfadmodelle zur Lohn- und Kapitalquote unter KI (einschließlich interaktiver Szenario-Werkzeuge und begleitender Erwartungsbefragungen). Bei Working Papern gilt dieselbe Verfahrensregel wie bei Beschlusspapieren in Cluster B: Der Volltext ist zu beschaffen, bevor Kennzahlen oder Einschränkungen zitiert werden — die Rezeption verkürzt insbesondere die von den Autoren selbst benannten Caveats.
 
 **Negativliste:** allgemeine Makroprognosen ohne Steuerbezug, Marketing-Whitepaper, LinkedIn-Posts ohne Primärquelle.
 
@@ -116,7 +116,7 @@
 
 ## Cluster H — Deutschland-These-Bezugspunkte (→ Kap. 8)
 
-**Schlüsselbegriffe:** dritter Produktionsfaktor, KI als Rohstoff, KI-Souveränität, Datenökonomie, Datentreuhand, Veredelungsstrategie, Bismarck-Sozialgesetzgebung, Systemstabilität, Generationenkapital, Datenraum Gesundheit, EU Data Act, Gaia-X, deutsche Industriepolitik 2030, Soziale Marktwirtschaft 2.0.
+**Schlüsselbegriffe:** dritter Produktionsfaktor, KI als Rohstoff, KI-Souveränität, digitale Souveränität, Souveränitätsprämie, Zahlungsbereitschaft für Souveränität, Abhängigkeitskartierung, Vendor-Lock-in, Datenökonomie, Datentreuhand, Veredelungsstrategie, Bismarck-Sozialgesetzgebung, Systemstabilität, Generationenkapital, Datenraum Gesundheit, EU Data Act, Gaia-X, deutsche Industriepolitik 2030, Soziale Marktwirtschaft 2.0.
 
 **Relevante Akteure:** Bundeskanzleramt, BMWK, Plattform Lernende Systeme, acatech, Stifterverband, Fraunhofer-Gesellschaft, Max-Planck-Institute (insb. Innovation und Wettbewerb), Mercator-Institute, MERICS, ZEW Mannheim, Deutsche Akademie der Technikwissenschaften, Bertelsmann-Stiftung.
 

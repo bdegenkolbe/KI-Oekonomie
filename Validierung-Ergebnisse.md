@@ -7,6 +7,64 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 10. September 2026 (Lauf 001 vom 10. September 2026) — Version 89.0 → Version 90.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel plus Zusammenfassung und Inhaltsverzeichnis unverändert (14 H2-Überschriften, 49 H3-Überschriften). Executive Summary vor Kapitel 1 erhalten und weiterhin mit explizitem Bezug auf die Deutschland-These. Keine leeren Abschnitte; kein neuer Unterabschnitt angelegt, Inhaltsverzeichnis daher unverändert. |
+| 2.1.2 Nummerierung | OK | Kapitelnummerierung 1–11 lückenlos, 47 numerierte Abschnittsanker (§X.Y) lückenlos je Kapitel. Zähler geprüft: „fünf Typen" (§ 2.1) zweimal genannt und mit fünf Typen belegt, „drei Säulen" der Deutschland-These unverändert, Empfehlungen in § 10.2 weiterhin sieben (Erstens bis Siebtens). Die neu eingefügte *Siebte Fortschreibung* in § 8.2 setzt die vorhandene Fortschreibungs-Zählung lückenlos fort. |
+| 2.1.3 Querverweise | OK | 33 eindeutige `§X.Y`-Verweise, sämtlich auf existierende Abschnitte auflösbar (skriptgestützter Abgleich gegen die Anker-Liste). Die im Lauf neu gesetzten Verweise (§ 3.1, § 4.2, § 4.3, § 5.1, § 5.2, § 5.3, § 5.4, § 8.2, § 8.3, § 9.2) wurden einzeln gegengeprüft. Kapitel-Verweise (1, 3, 5, 8, 10) unverändert korrekt. |
+| 2.1.4 Roter Faden | OK | Die Vertiefung liegt in § 3.3 (Literaturrezeption) und damit an der richtigen Stufe der Progression Kap. 3–6 → 7 → 8; die Deutschland-These wird nur per Querverweis berührt, nicht erweitert. Die knappe Ergänzung in § 8.2 bleibt innerhalb der dort geführten Souveränitäts- und Veredelungslinie und führt keine neue Argumentationsebene ein. |
+| 2.1.5 Formatierung | Abweichung (behoben) | Bei der Ersteinfügung des Literatureintrags zum *Capgemini*-Befund war das schließende Anführungszeichen als U+201C gesetzt worden und wich damit von der Dokumentkonvention „ (U+201E) / " (U+0022) ab — siehe „Gefundene Fehler" Nr. 2. Nach der Bereinigung: 686 ausgeglichene Paare, null Vorkommen von U+201C. Tabellensyntax konsistent (automatisierter Spaltenzahl-Abgleich ohne Abweichung), fett gesetzte Lead-Ins einheitlich. |
+| 2.2.1 Sachliche Richtigkeit | Abweichung (behoben) | Die Einschränkungsliste zum Anthropic-Institute-Arbeitspapier war in der Erstfassung aus der Sekundärrezeption der Explorer-Seite übernommen worden und traf die Caveats des Primärtextes nicht — siehe „Gefundene Fehler" Nr. 1. Sämtliche Zahlen des neuen § 3.3-Absatzes sind gegen die lokal aus dem PDF extrahierte Volltextfassung geprüft. Die *Capgemini*-Werte sind gegen die Pressemitteilung der Herausgeberin geprüft. |
+| 2.2.2 Redundanzprüfung | OK | Der Szenariobefund wird an genau einer Stelle inhaltlich geführt (§ 3.3); § 5.1, § 5.2, § 5.3, § 5.4 und § 8.3 sind über Querverweise angebunden, ohne den Sachverhalt zu wiederholen — insbesondere wird die Teilhabefrage in § 8.3 nicht erneut ausgeführt. Der *Capgemini*-Befund steht ausschließlich in § 8.2; die Aufgabenteilung Wertschöpfungsabgabe (§ 5.1 Einführung / § 8.5 These / § 10.2 Empfehlung) bleibt unberührt. |
+| 2.2.3 Argumentation | OK | Die fünf Typen der Robotersteuer bleiben auseinandergehalten; das Szenariomodell wird ausdrücklich nicht als Instrumentenvorschlag, sondern als Modellergebnis unter definierten Annahmen dargestellt. Acemoglu-Linie (relative Steuerlast) und Thuemmel-Linie (spezifische Robotersteuer als zweitbestes Instrument) bleiben unvermengt; die neue Position ist als methodische Fortschreibung des *task-based framework* (§ 3.1) eingeordnet, nicht als deren Bestätigung oder Widerlegung. Das Lohnquoten-Argument (§ 8.3) erhält eine quantitative Referenz, ohne die Argumentationslinie zu verändern. |
+| 2.2.4 Ausgewogenheit | OK | Beide Ergänzungen führen die Interessenlage der Herausgeber ausdrücklich mit: beim Arbeitspapier das Forschungsinstitut eines KI-Unternehmens samt dem Hinweis der Autoren, dass ihre Auffassungen nicht notwendig die des Unternehmens wiedergäben; bei der Souveränitätsstudie ein IT-Dienstleistungskonzern mit eigenem Geschäftsinteresse an souveränitätsbezogenen Angeboten. Die Einschränkungen des Modells sind aus dem Primärtext und nicht aus der Rezeption referiert; die Zahlungsbereitschaft von nur rund der Hälfte der Befragten ist als Befund *gegen* eine zu optimistische Lesart der Veredelungsstrategie ausgewiesen. |
+| 2.3.1 Tippfehler und Grammatik | Abweichung (behoben) | Zwei Schreibfehler in den neu verfassten Passagen („frikitionsbehafteten" in § 3.3, „frikionsbehaftetem" im Literatureintrag § 11.1) unmittelbar nach der Einfügung korrigiert — siehe „Gefundene Fehler" Nr. 3. |
+| 2.3.2 Terminologie | OK | *task-based framework* wird beim Auftreten in § 3.3 an die bereits in § 3.1 eingeführte Erklärung rückgebunden; *Lohnquote* und *Kapitalquote* sind im Dokument eingeführt; die englischen Fachausdrücke *modest change*, *substantial change*, *extreme change*, *resilient interdependence* und *universal basic capital* sind als Eigenbezeichnungen der Quellen kursiv gesetzt und im Satz erläutert. „Wertschöpfungsabgabe" durchgängig; das einzige Vorkommen von „Wertschöpfungssteuer" (§ 6.2) beschreibt unverändert den Charakter der italienischen IRAP und ist kein Terminologiebruch. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Beide im Fließtext neu belegten Sachverhalte haben genau einen Eintrag im Literaturverzeichnis: das Arbeitspapier in § 11.1 (Ökonomische Forschung), die Souveränitätsstudie in § 11.5 (journalistische und praxisorientierte Quellen). Keine verwaiste Quelle, kein unbelegter Fließtextverweis, keine Quelle gelöscht. |
+| 2.4.2 Formale Einheitlichkeit | OK | Beide Einträge folgen dem APA-nahen Muster (Autoren beziehungsweise Körperschaft, Datum, kursiver Titel, Reihen-/Arbeitspapierangabe, vollständige URLs ohne Shortener). Die Working-Paper-Kennzeichnung ist vollständig angegeben (The Anthropic Institute Working Paper No. 2026-02, Version 1.0). |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Der zentrale Befund des Laufs stützt sich auf den Volltext des Arbeitspapiers, nicht auf dessen Presserezeption — die im Vorlauf abgeleitete Verfahrensregel ist damit erneut angewandt worden. Die Souveränitätsstudie ist als Managementbefragung zu Absichten und nicht als Messung realisierter Entscheidungen gekennzeichnet; sie trägt keine zentrale Aussage des Papiers, sondern einen nachfrageseitigen Zusatzbefund. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Die drei im Lauf neu aufgenommenen URLs (Explorer-Seite und PDF-Volltext des Arbeitspapiers, Pressemitteilung der Souveränitätsstudie) sind im Lauf selbst abgerufen worden und lieferten die zitierten Inhalte aus; das PDF wurde vollständig heruntergeladen (rund 641 KB) und lokal in Text überführt. Die turnusmäßige Zehn-Prozent-Stichprobe des Gesamtverzeichnisses ist im Lauf vom 8. September 2026 (86 URLs) durchgeführt worden und wird turnusgemäß fortgeschrieben. |
+| 2.4.5 Zitatgenauigkeit | Abweichung (behoben) | Die sieben im neuen § 3.3-Absatz gesetzten englischen Zitate („not predictions", „no probabilities", „a software engineer may find it difficult to become an electrician", „nearly three times what cognitive workers lose in wages and employment, so the resources to compensate them exist", „not something growth delivers by itself", „others not yet designed", „Like every model, our framework is a stark simplification of a complex reality") sind sämtlich am extrahierten Volltext verifiziert. Die zunächst aus der Rezeption übernommene Einschränkungsliste ist berichtigt (Nr. 1). Die übrigen Stichproben (Acemoglu/Manera/Restrepo, Thuemmel, IAB, Delvaux 2017, OpenAI 2026) unverändert korrekt. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Die Markierung zu de la Feria et al. 2022 bleibt unverändert bestehen. Keine Markierung entfernt, keine neue verifizierungsbedürftige Markierung erforderlich, weil beide Neuaufnahmen am Primärdokument geprüft sind. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionssprung 89.0 → 90.0 an vier Stellen nachgezogen: Dokumentkopf `KI-Ökonomie.md`, Aktualitätshinweis am Dokumentende (zugleich Stichtag auf 10. September 2026 und Lauf-Kennung fortgeschrieben), `README.md` (Kopf und Zitiervorschlag), Abschlussblock dieses Protokolls. Gegenprobe: null Restvorkommen von „89.0" in beiden Dateien. Autor (Björn Degenkolbe), Organisation (HIGL), Lizenzhinweis CC BY 4.0, Haftungshinweis und KI-Offenlegung in `README.md` unverändert vorhanden. |
+| 2.6 Automatisierte Prüfung | n/a | Weiterhin keine dedizierten Prüfskripte im Repository. Ersetzt durch ad hoc skriptgestützte Stichproben zu Nummerierung (§ 2.1.2), Querverweisen (§ 2.1.3), Anführungszeichen- und Tabellenkonsistenz (§ 2.1.5) und Quellenzuordnung (§ 2.4.1). |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|--------|--------|---------|
+| 1 | § 3.3, neuer Absatz zum Anthropic-Institute-Arbeitspapier | Die Einschränkungsliste war aus der Sekundärrezeption der Explorer-Seite übernommen („Politikreaktionen, Konjunkturzyklen, Finanzmarktschocks und hochfähige Robotik"). Der Primärtext benennt unter *Caveats* katastrophische Risiken, politökonomische Faktoren, Konjunkturzyklen und mögliche Finanzmarktverwerfungen sowie — als eigenständige, für dieses Papier erhebliche Auslassung — das Fehlen von Preisrigiditäten und Nachfrage-Rückkopplung, die grobe Beschäftigtenheterogenität und die Beschränkung auf kognitive Aufgaben ohne rasche Robotikfortschritte, die die Autoren ausdrücklich als Hauptgrund für den Analysehorizont bis 2030 anführen. Dieselbe verkürzte Liste stand im Literatureintrag § 11.1. | Mittel |
+| 2 | § 11.5, neuer Eintrag *Capgemini Research Institute* | Schließendes Anführungszeichen als U+201C gesetzt; die Dokumentkonvention ist „ (U+201E) als öffnendes und " (U+0022) als schließendes Zeichen. | Gering |
+| 3 | § 3.3 und § 11.1, neue Passagen | Zwei Schreibfehler in derselben Wortbildung: „frikitionsbehafteten" beziehungsweise „frikionsbehaftetem" statt „friktionsbehaftet". | Gering |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|--------|----------|----------|
+| 1 | Verkürzte Einschränkungsliste | Fließtext in § 3.3 und Literatureintrag in § 11.1 durch die am Primärtext verifizierte Fassung ersetzt; die für dieses Papier erheblichste Auslassung (keine Robotik, daher Horizont nur bis 2030) ist ausdrücklich als solche kenntlich gemacht, weil sie die Reichweite des Befundes gegenüber Kapitel 2.2 und Cluster J begrenzt. Zusätzlich das Selbstzitat der Autoren zur Modellvereinfachung aufgenommen. | Ja |
+| 2 | Abweichendes Anführungszeichen | Auf die Dokumentkonvention zurückgeführt; Gegenprobe über den gesamten Text: null U+201C, 686 ausgeglichene Paare. | Ja |
+| 3 | Schreibfehler | An beiden Fundstellen korrigiert. | Ja |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte (2.1.5 Formatierung, 2.2.1 Sachliche Richtigkeit, 2.3.1 Tippfehler, 2.4.5 Zitatgenauigkeit, 2.5 Versionskonsistenz) erneut durchlaufen: OK.
+- Erneuter skriptgestützter Gesamtdurchlauf nach der Bereinigung: 11 Kapitel, 14 H2- und 49 H3-Überschriften, 47 numerierte Abschnittsanker, 33 auflösbare `§X.Y`-Verweise ohne Fehlziel, 686 ausgeglichene Anführungszeichenpaare, null U+201C, keine Tabellenabweichung.
+- Gegenprobe auf Restvorkommen: „89.0" in `KI-Ökonomie.md` und `README.md` null Treffer; „frikitions"/„frikions" null Treffer.
+- Automatisierte Skripte (dedizierte Prüfskripte im Repository): n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 90.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 9. September 2026 (Lauf 001 vom 9. September 2026) — Version 88.0 → Version 89.0
 
 ### Prüfergebnis
