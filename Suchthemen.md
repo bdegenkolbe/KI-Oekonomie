@@ -88,13 +88,13 @@
 
 ## Cluster F — Tech-Layoffs, Voluntary-Retirement-Programme und KI-Capex (→ Kap. 1.1, 8.3)
 
-**Schlüsselbegriffe:** AI-driven layoffs, voluntary retirement program (VRSAR), hyperscaler capex, AI infrastructure spending, Tech-Stellenstreichungen, Restrukturierung, Buyout-Programm, Massenentlassungsanzeige, Layoff-Tracker, Hiring Freeze, RIF (reduction in force).
+**Schlüsselbegriffe:** AI-driven layoffs, voluntary retirement program (VRSAR), hyperscaler capex, AI infrastructure spending, Tech-Stellenstreichungen, Restrukturierung, Buyout-Programm, Massenentlassungsanzeige, Layoff-Tracker, Hiring Freeze, RIF (reduction in force), Quartalszahlen, Kundenvorauszahlung (customer prepayments), kundengestellte Grafikprozessoren, Netto-Mittelabfluss für Investitionen (net cash capex), At-the-Market-Eigenkapitalprogramm, Auftragsbestand nicht erfüllter Leistungsverpflichtungen (remaining performance obligations, RPO), freier Cashflow.
 
 **Relevante Akteure:** Amazon, Microsoft, Meta, Oracle, Google/Alphabet, Apple, IBM, SAP, Salesforce, Intel, NVIDIA, xAI, Tesla, Uber, ByteDance, Alibaba, Tencent; Tracker: SkillSyncer, TrueUp, layoffs.fyi; Analysten: Goldman Sachs, Morgan Stanley, Anthropic Economic Index, Brookings AI Index, BCG, McKinsey Global Institute.
 
 **Bevorzugte Quellen:** SEC-8-K-Filings, Konzern-Pressemitteilungen, Bloomberg, Reuters, CNBC, Wall Street Journal, FT, Handelsblatt, Tracker-APIs/-Dashboards.
 
-**Trigger für Update:** neue Layoff-Ankündigung > 1.000 Stellen mit explizitem KI-Bezug, Quartalszahlen mit Capex-Revision, neuer Tracker-Stand mit > 10 % Veränderung gegenüber dem letzten Lauf, neue Goldman-/Anthropic-Auswertungen zu Verdrängungseffekten, neue Voluntary-Retirement-Programme.
+**Trigger für Update:** neue Layoff-Ankündigung > 1.000 Stellen mit explizitem KI-Bezug, Quartalszahlen mit Capex-Revision, neuer Tracker-Stand mit > 10 % Veränderung gegenüber dem letzten Lauf, neue Goldman-/Anthropic-Auswertungen zu Verdrängungseffekten, neue Voluntary-Retirement-Programme; ferner Quartalsveröffentlichungen, die die *Finanzierungsart* der Compute-Schicht offenlegen (Verhältnis von Brutto-Investitionen zu Netto-Mittelabfluss nach Kundenvorauszahlungen, Eigenkapitalplatzierungen über At-the-Market-Programme, negativer freier Cashflow trotz steigenden operativen Cashflows, RPO-Bestand gegenüber laufendem Umsatz) — diese Größen sind für die Frage der Bemessungsgrundlage (§ 8.3, § 9.2) aussagekräftiger als Umsatz- und Gewinnwachstum. Verfahrensregel: Die Unternehmens-Pressemitteilung auf der Investor-Relations-Seite ist als Primärquelle zu beschaffen; Zahlen aus der Ergebnispräsentation sind als solche zu kennzeichnen, weil Presse- und Analystenrezeption Brutto- und Nettogrößen des Investitionsvolumens regelmäßig vermischt.
 
 **Negativliste:** kleinere Restrukturierungen unter 500 Stellen ohne KI-Bezug, Frühpensionierungen ohne Programm-Charakter.
 
