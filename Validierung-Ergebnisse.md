@@ -7,6 +7,60 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 11. September 2026 (Lauf 001 vom 11. September 2026) — Version 90.0 → Version 91.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel plus Zusammenfassung und Inhaltsverzeichnis unverändert (14 H2-Überschriften, 49 H3-Überschriften). Executive Summary vor Kapitel 1 erhalten und weiterhin mit explizitem Bezug auf die Deutschland-These. Keine leeren Abschnitte; kein neuer Unterabschnitt angelegt, Inhaltsverzeichnis daher unverändert. Beide Einarbeitungen sind Absätze innerhalb bestehender Abschnitte (§ 8.2 und § 4.5). |
+| 2.1.2 Nummerierung | OK | Kapitelnummerierung 1–11 lückenlos (skriptgestützt geprüft), 47 numerierte Abschnittsanker lückenlos je Kapitel. Zähler geprüft: „fünf Typen" (§ 2.1) unverändert, „drei Säulen" der Deutschland-These unverändert, Empfehlungen in § 10.2 weiterhin sieben (Erstens bis Siebtens). Die neue *Achte Fortschreibung* in § 8.2 setzt die dortige Fortschreibungs-Zählung lückenlos fort; die Konstruktionsreihe der Compute-Finanzierungs­schicht läuft nach der Ergänzung ohne Lücke von (i) bis (viii). |
+| 2.1.3 Querverweise | OK | 33 eindeutige `§X.Y`-Verweise, sämtlich auf existierende Abschnitte auflösbar (skriptgestützter Abgleich gegen die Anker-Liste, null Fehlziele). Die im Lauf neu gesetzten Verweise (§ 1.1, § 4.2, § 4.5, § 5.1, § 8.3, § 9.1, § 9.2) einzeln gegengeprüft. Kapitel-Verweise sämtlich im Bereich 1–11. |
+| 2.1.4 Roter Faden | OK | Die Vertiefung liegt in § 8.2 und damit innerhalb der dort bereits geführten Linie zur Compute-Finanzierungs­schicht (Fortschreibungen zwei, drei, vier); sie führt keine neue Argumentationsebene ein, sondern ergänzt die bestehende Konstruktionsreihe um ein achtes Muster. Die knappe Ergänzung in § 4.5 schließt den bereits im Vorlauf angelegten Haushaltswochen-Absatz ab und bleibt auf der Ebene der Sachstandsfortschreibung. Die Deutschland-These selbst wird nur per Querverweis berührt, nicht erweitert. |
+| 2.1.5 Formatierung | OK | Skriptgestützter Gesamtdurchlauf ohne Befund: keine doppelten Leerzeilen, keine unmittelbar aufeinanderfolgenden Trennlinien, 687 ausgeglichene Anführungszeichenpaare, null Vorkommen von U+201C und U+201D (Dokumentkonvention „ U+201E / " U+0022 eingehalten), Fettungsmarkierungen paarig, fett gesetzte Lead-Ins einheitlich. |
+| 2.2.1 Sachliche Richtigkeit | OK | Sämtliche Zahlen der *Oracle*-Ergänzung sind gegen die Pressemitteilung auf der Investor-Relations-Seite des Unternehmens geprüft (Gesamtumsatz, Cloud-Dienste, Cloud-Infrastruktur, Betriebsergebnis GAAP und non-GAAP, Ergebnis je Aktie, Dividende, operativer Cashflow, freier Cashflow, Investitionen, Netto-Mittelabfluss, At-the-Market-Platzierung, neu gebuchte Verträge, RPO-Bestand, ausgelieferte Grafikprozessoren, Ausblick); die Angaben aus der Ergebnispräsentation sind als solche gekennzeichnet und über die Auswertung von *Investing.com* belegt, zusätzlich gegen eine zweite unabhängige Wiedergabe abgeglichen. Die Haushaltszahlen der § 4.5-Ergänzung stammen aus dem Textarchiv des Deutschen Bundestages zur Schlussrunde vom 11. September 2026. |
+| 2.2.2 Redundanzprüfung | OK | Der Quartalsbefund wird an genau einer Stelle inhaltlich geführt (§ 8.2, Achte Fortschreibung); § 4.5, § 5.1, § 8.3 und § 9.2 sind über Querverweise angebunden, ohne den Sachverhalt zu wiederholen. Die Haushaltsergänzung steht ausschließlich im bestehenden § 4.5-Absatz und wiederholt die Einzelplan-Zahlen des Vorlaufs nicht, sondern ergänzt die Gesamtgrößen. Die Aufgabenteilung Wertschöpfungsabgabe (§ 5.1 Einführung / § 8.5 These / § 10.2 Empfehlung) bleibt unberührt. |
+| 2.2.3 Argumentation | OK | Die fünf Typen der Robotersteuer bleiben auseinandergehalten. Die neue Passage argumentiert ausschließlich über die Bemessungsgrundlage und vermengt die Acemoglu-Linie (relative Steuerlast) nicht mit der Thuemmel-Linie (spezifische Robotersteuer als zweitbestes Instrument). Der Schluss von Quartalszahlen auf die Ungeeignetheit gewinnorientierter Anknüpfung ist als Beobachtung zur Bemessungsgrundlage und nicht als empirischer Nachweis formuliert. |
+| 2.2.4 Ausgewogenheit | OK | Die Unternehmensangaben sind durchgängig als solche kenntlich gemacht, Planzahlen im Konjunktiv nach § 4.2 `Claude.md` geführt. Die Passage übernimmt keine Wertung der Ertragslage, sondern liest die Zahlen ausschließlich auf ihre fiskalische Anknüpfbarkeit hin. Für den Haushaltsnachtrag ist ausdrücklich vermerkt, dass mit der Überweisung an den Haushaltsausschuss das parlamentarische Verfahren erst beginnt und sämtliche Titelansätze veränderlich bleiben. |
+| 2.3.1 Tippfehler und Grammatik | OK | Die neu verfassten Passagen einzeln gelesen; keine Schreibfehler festgestellt. Gezielte Nachsuche auf die in früheren Läufen aufgetretenen Fehlermuster (Wortbildungen mit „frikt…", Zahlenschreibweisen, Bindestrichsetzung bei Komposita) ohne Befund. |
+| 2.3.2 Terminologie | OK | Die englischen Fachausdrücke *remaining performance obligations* und *At-the-Market* sind bei Erstnennung kursiv gesetzt und im Satz erläutert; die Abkürzung RPO wird bei Erstnennung ausgeschrieben. „Wertschöpfungsabgabe" durchgängig; das einzige Vorkommen von „Wertschöpfungssteuer" (§ 6.2) beschreibt unverändert den Charakter der italienischen IRAP und ist kein Terminologiebruch. Brutto-Investitionen und Netto-Mittelabfluss sind sprachlich konsequent auseinandergehalten. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Der neu belegte Sachverhalt hat genau einen Eintrag im Literaturverzeichnis (§ 11.5, journalistische und praxisorientierte Quellen). Der Haushaltsnachtrag ist dem bereits vorhandenen Bundestags-Eintrag in § 11.3 zugeordnet und dort um Zahlen und vierte URL erweitert worden. Keine verwaiste Quelle, kein unbelegter Fließtextverweis, keine Quelle gelöscht. |
+| 2.4.2 Formale Einheitlichkeit | OK | Der neue Eintrag folgt dem APA-nahen Muster (Körperschaft, Datum, kursiver Titel, Gattungsangabe, vollständige URLs ohne Shortener). Die Trennung zwischen Primärangaben des Unternehmens und ergänzenden Angaben aus der Ergebnispräsentation ist im Eintrag selbst ausgewiesen. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Der Befund stützt sich auf die Pressemitteilung des Unternehmens und nicht auf deren Presserezeption; die im Vorlauf abgeleitete Verfahrensregel zur Primärquellenbeschaffung ist damit erneut angewandt worden. Der Vorgang trägt keine zentrale ökonomische Aussage des Papiers, sondern einen Strukturbefund zur Finanzierungsart der Compute-Schicht. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Die drei im Lauf berührten URLs (Oracle-Pressemitteilung, Auswertung der Ergebnispräsentation, Bundestags-Textarchiv zur Schlussrunde) sind im Lauf selbst abgerufen worden und lieferten die zitierten Inhalte aus. Ergänzend wurde eine Stichprobe von zwölf zufällig gezogenen Bestands-URLs maschinell angefragt: neun mit Status 200; drei antworteten auf die maschinelle Anfrage mit Status 403 (`cnbc.com`, `dol.gov`, `investing.com`) — in allen drei Fällen handelt es sich um eine Abwehr automatisierter Abrufe, nicht um einen toten Verweis; die Inhalte waren über den regulären Seitenabruf erreichbar. |
+| 2.4.5 Zitatgenauigkeit | OK | Der einzige wörtlich übernommene Titel (*„Oracle Announces Q1 Results Driven by Triple Digit Growth in Cloud Infrastructure Revenues"*) ist am Primärdokument geprüft. Sämtliche Zahlen sind gegen die Primärquelle abgeglichen; besonders geprüft wurde die in der Rezeption häufig vermischte Unterscheidung zwischen Brutto-Investitionen (28,5 Mrd. USD) und Netto-Mittelabfluss nach Kundenvorauszahlungen (18,0 Mrd. USD) sowie zwischen dem Umsatzziel (mindestens 90 Mrd. USD) und der Investitionsplanung (90 bis 95 Mrd. USD) für dasselbe Geschäftsjahr. Die übrigen turnusmäßigen Stichproben (Acemoglu/Manera/Restrepo, Thuemmel, IAB, Delvaux 2017, OpenAI 2026) unverändert korrekt. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Die Markierung zu de la Feria et al. 2022 bleibt unverändert bestehen. Keine Markierung entfernt, keine neue verifizierungsbedürftige Markierung erforderlich, weil beide Einarbeitungen am Primärdokument geprüft sind. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionssprung 90.0 → 91.0 an vier Stellen nachgezogen: Dokumentkopf `KI-Ökonomie.md`, Aktualitätshinweis am Dokumentende (zugleich Stichtag auf 11. September 2026 und Lauf-Kennung fortgeschrieben), `README.md` (Kopf und Zitiervorschlag), Abschlussblock dieses Protokolls. Gegenprobe: Die verbliebenen Treffer der Zeichenfolge „90.0" sind ausschließlich Zahlenangaben („90.000") sowie die beabsichtigte Sprungnotation „90.0 → 91.0" im Aktualitätshinweis. Autor (Björn Degenkolbe), Organisation (HIGL), Lizenzhinweis CC BY 4.0, Haftungshinweis und KI-Offenlegung in `README.md` unverändert vorhanden. |
+| 2.6 Automatisierte Prüfung | n/a | Weiterhin keine dedizierten Prüfskripte im Repository. Ersetzt durch ad hoc skriptgestützte Stichproben zu Nummerierung (§ 2.1.2), Querverweisen (§ 2.1.3), Anführungszeichen-, Leerzeilen- und Fettungskonsistenz (§ 2.1.5), Quellenzuordnung (§ 2.4.1) und URL-Erreichbarkeit (§ 2.4.4). |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|--------|--------|---------|
+| — | — | Keine Fehler festgestellt. Der skriptgestützte Gesamtdurchlauf (Gliederung, Nummerierung, Querverweise, Formatierung, Versionskonsistenz) und die manuelle Prüfung der beiden neuen Passagen ergaben keine Abweichung. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|--------|----------|----------|
+| — | — | Keine Bereinigung erforderlich. | — |
+
+### Nachprüfung
+
+- Sämtliche Prüfschritte nach Abschluss der Einarbeitung erneut durchlaufen: OK.
+- Skriptgestützter Gesamtdurchlauf: 11 Kapitel, 14 H2- und 49 H3-Überschriften, 47 numerierte Abschnittsanker, 33 auflösbare `§X.Y`-Verweise ohne Fehlziel, 687 ausgeglichene Anführungszeichenpaare, null U+201C und U+201D, keine doppelten Leerzeilen, keine doppelten Trennlinien.
+- Gegenprobe auf Restvorkommen: „90.0" nur noch in Zahlenangaben und in der Sprungnotation des Aktualitätshinweises; `README.md` ohne Restvorkommen der Altversion.
+- Automatisierte Skripte (dedizierte Prüfskripte im Repository): n/a.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine Fehler festgestellt)
+- Neue Version: 91.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 10. September 2026 (Lauf 001 vom 10. September 2026) — Version 89.0 → Version 90.0
 
 ### Prüfergebnis
