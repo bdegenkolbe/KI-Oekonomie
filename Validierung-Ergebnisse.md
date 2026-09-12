@@ -7,6 +7,58 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 12. September 2026 (Lauf 001 vom 12. September 2026) — Version 91.0 → Version 92.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel plus Zusammenfassung und Inhaltsverzeichnis unverändert (14 H2-Überschriften, 49 H3-Überschriften). Executive Summary vor Kapitel 1 erhalten und weiterhin mit explizitem Bezug auf die Deutschland-These. Keine leeren Abschnitte; kein neuer Unterabschnitt angelegt, Inhaltsverzeichnis daher unverändert. Alle drei Einarbeitungen sind Absätze innerhalb bestehender Abschnitte (§ 1.1, § 4.5, § 9.1). |
+| 2.1.2 Nummerierung | OK | Kapitelnummerierung 1–11 lückenlos (skriptgestützt geprüft), Unterabschnitte je Kapitel lückenlos (1.1–1.3, 2.1–2.3, 3.1–3.5, 4.1–4.5, 5.1–5.4, 6.1–6.4, 7.1–7.3, 8.1–8.7, 9.1–9.5, 10.1–10.3, 11.1–11.5). Zähler geprüft: „fünf Typen" (§ 2.1) unverändert bei fünf Typ-Lead-Ins, „drei Säulen" der Deutschland-These unverändert, Empfehlungen in § 10.2 weiterhin sieben (Erstens bis Siebtens). Die Ergänzung in § 9.1 nutzt eine eigene, in sich geschlossene Dreier-Zählung (Erstens bis Drittens) und berührt keinen geschützten Zähler. |
+| 2.1.3 Querverweise | OK | 34 eindeutige `§X.Y`-Verweise, sämtlich auf existierende Abschnitte auflösbar (skriptgestützter Abgleich gegen die Anker-Liste, null Fehlziele). Die im Lauf neu gesetzten Verweise (§ 1.1, § 4.2, § 4.3, § 4.4, § 4.5, § 5.1, § 8.5, § 9.1, § 9.4) einzeln gegengeprüft. Kapitel-Verweise sämtlich im Bereich 1–10, damit innerhalb von 1–11. |
+| 2.1.4 Roter Faden | OK | Die Vertiefung liegt in § 1.1 und schreibt die dort seit Mai 2026 geführte Trackerreihe fort; sie führt keine neue Argumentationsebene ein. Die Folgebeobachtung in § 9.1 bleibt innerhalb der dort bereits angelegten Anknüpfungspunkt-Systematik und präzisiert ausschließlich den bestehenden Spiegelstrich „Displacement-basiert". Die knappe Ergänzung in § 4.5 schließt unmittelbar an den dort bereits formulierten Agenda-Setting-Absatz zum OpenAI-Strategiepapier an. Die Deutschland-These wird nur per Querverweis (§ 8.5) berührt, nicht erweitert. |
+| 2.1.5 Formatierung | OK | Skriptgestützter Gesamtdurchlauf ohne Befund: keine doppelten Leerzeilen, keine unmittelbar aufeinanderfolgenden Trennlinien, 689 ausgeglichene Anführungszeichenpaare, null Vorkommen von U+201C und U+201D (Dokumentkonvention „ U+201E / " U+0022 eingehalten), 356 Fettungsmarkierungen und damit paarig, fett gesetzte Lead-Ins einheitlich, alle Tabellenzeilen mit Abschluss-Pipe. |
+| 2.2.1 Sachliche Richtigkeit | OK | Sämtliche Zahlen des Trackerstands sind am 12. September 2026 direkt an der Quelle abgerufen und gegengelesen worden (365 Ereignisse, 209.032 Betroffene, 820 Stellen pro Tag, 183 KI-attribuierte Ereignisse mit 172.044 Betroffenen, Monatsverteilung Januar bis September, Unternehmens-, Branchen- und Gründerangfolge, Vergleichswert 2025 mit 338 Ereignissen und 205.773 Betroffenen). Die Deltas gegenüber dem 22./23.-Juli-Stand sind nachgerechnet worden (+43 Ereignisse = +13,4 %; +3.200 Betroffene = +1,6 %; +10 KI-attribuierte Ereignisse = +5,8 %; +1.099 KI-attribuierte Betroffene = +0,6 %; Tagesrate 1.014 → 820 = −19,1 %). Die vom Tracker ausgewiesene Kennzahl „804 Betroffene je Ereignis" ist **nicht** übernommen worden, weil sie sich rechnerisch nicht aus 209.032/365 ergibt, sondern aus dem vom Tracker selbst genannten Teilbestand der Ereignisse mit berichteter Kopfzahl — die Einschränkung ist stattdessen als Methodenhinweis in § 11.5 vermerkt. Die Angaben zur *Uber*-Ankündigung (2. September 2026) sind an einer zweiten, unabhängig abrufbaren Wiedergabe der Reuters-/Bloomberg-Berichterstattung verifiziert worden. |
+| 2.2.2 Redundanzprüfung | OK | Der Trackerstand wird ausschließlich in § 1.1 vollständig geführt; § 9.1 nimmt nur die zwei für das Messproblem tragenden Größen auf und verweist im Übrigen zurück (§ 1.1). Der Erfassungsbefund erscheint an beiden Stellen mit unterschiedlicher Funktion (dort Sachstand, hier Instrumentenfolge) und ist durch Querverweis verbunden. Die § 4.5-Ergänzung wiederholt die Agenda-Setting-Kritik nicht, sondern fügt ihr die organisatorische Beobachtung hinzu. Keine neue Dopplung zur Wertschöpfungsabgabe (§ 5.1, § 7.2, § 8.5, § 10.2) oder zum Staatsfonds-Gedanken (§ 5.4, § 8.3, § 10.2) festgestellt. |
+| 2.2.3 Argumentation | OK | Die fünf Typen der Robotersteuer bleiben auseinandergehalten; die neue § 9.1-Passage spricht ausdrücklich vom displacement-basierten *Anknüpfungspunkt* und nicht von „der Robotersteuer". Die Acemoglu- und die Thuemmel-Linie sind nicht berührt. Der aus dem Trackerbefund gezogene Schluss ist auf die Messbarkeitsfrage begrenzt und wird nicht zu einer Aussage über das tatsächliche Ausmaß KI-bedingter Verdrängung ausgeweitet. |
+| 2.2.4 Ausgewogenheit | OK | Der Trackerbefund ist in beide Richtungen offen dargestellt: Rückgang des Volumenstroms einerseits, ausdrücklicher Hinweis auf die Erfassungslücke als Gegenargument andererseits — die Lücke wird als Erfassungs-, nicht als Sachverhalt gekennzeichnet. Die § 4.5-Ergänzung nennt sowohl die überparteiliche Zusammensetzung der Einstellungen als auch die kritische Einordnung der Strategie und ordnet beides ausdrücklich als journalistische Einordnung ein. Kein PR-Ton gegenüber OpenAI. |
+| 2.3.1 Tippfehler und Grammatik | OK | Die drei neuen Passagen und die beiden neuen Literatureinträge sind vollständig gegengelesen worden; keine Auffälligkeit. Bekannte Fehlermuster früherer Validierungen (Anführungszeichen-Konvention, Gedankenstrich statt Bindestrich, Prozentzeichen-Abstand) gezielt nachgesucht — ohne Befund. |
+| 2.3.2 Terminologie | OK | Neue Fachbegriffe beim ersten Auftreten erläutert beziehungsweise in der bereits eingeführten Form verwendet: „Layoff-Tracker" und „KI-Kausalquote" sind seit Version 60.0 eingeführt; „reverse federalism" ist an der Fundstelle in einem Nebensatz erklärt. „Wertschöpfungsabgabe" durchgängig, keine Variante „Wertschöpfungssteuer". „Künstliche Intelligenz (KI)" bei Erstnennung unverändert. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Beide neuen Quellen sind im Fließtext zitiert (SkillSyncer in § 1.1 und § 9.1; Axios in § 4.5) und mit je einem Eintrag in § 11.5 belegt. Keine im Fließtext genannte Quelle ohne Verzeichniseintrag, kein neuer Verzeichniseintrag ohne Fließtextbezug. Keine Quelle gelöscht. |
+| 2.4.2 Formale Einheitlichkeit | OK | Beide Einträge folgen dem im Verzeichnis etablierten, an APA angelehnten Muster (Urheber, Datum in Klammern, kursiver Titel, Erläuterung mit Aufnahmestelle und Rückwirkungen, vollständige URL ohne Kürzer oder Redirect). Der Trackereintrag ist wie die Vorgängerstände als Standangabe („Stand 12. September 2026") und nicht als Publikationsdatum geführt. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Der Trackerstand ist eine Primärabfrage der Quelle selbst, nicht eine Presserezeption; die Grenze der Quelle (Selbstauskunft der Unternehmen zur Kausalität, Ausschluss rein prozentual gemeldeter Fälle, Erfassungsverzug) ist sowohl im Fließtext als auch im Verzeichniseintrag ausgewiesen. Die Axios-Meldung ist als journalistische Einordnung gekennzeichnet und im Konjunktiv referiert; sie trägt keine zentrale ökonomische oder rechtliche Aussage des Papiers. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK mit Anmerkung | Beide neuen URLs geprüft: `skillsyncer.com/layoffs-tracker` antwortet mit HTTP 200 und liefert die zitierten Zahlen. `axios.com/2026/09/05/openai-state-policy-team` antwortet gegenüber automatisierten Abrufen mit HTTP 403 (serverseitige Abwehr); Datum, Autorin und sämtliche zitierten Inhalte sind über eine unabhängig abrufbare Volltext-Wiedergabe desselben Artikels verifiziert worden. Zusätzlich Zufallsstichprobe von zwölf Verzeichnis-URLs: neun erreichbar (HTTP 200/202), zwei mit HTTP 403 aus serverseitiger Abwehr (bloomberg.com, cnbc.com — beide bereits in Vorläufen als solche dokumentiert), eine ohne Verbindungsaufbau (roboticsandautomationnews.com). Keine 404-Antwort, kein Redirect auf eine Startseite. |
+| 2.4.5 Zitatgenauigkeit | OK | Stichprobe von fünf Kernaussagen erneut geprüft: Acemoglu/Manera/Restrepo (+4,02 % Beschäftigung, +0,78 Pp. Arbeitsanteil), Thuemmel (Wohlfahrtswirkung bei fallenden Roboterpreisen), IAB (1,6 Mio. Stellen / 4,5 Bio. EUR), Delvaux 2017 (Abstimmungsergebnis im EP-Plenum) und OpenAI 2026 (Stipendien bis 100.000 USD, 1 Mio. USD API-Credits, 32-Stunden-Woche) — sämtlich unverändert und korrekt. Die neuen Zahlen sind als Trackerstand beziehungsweise als journalistische Wiedergabe und nicht als Messergebnis gekennzeichnet. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Die Markierung bei de la Feria et al. (2022) bleibt unverändert bestehen; eine Verifikation ist in diesem Lauf nicht erfolgt und die Markierung daher nicht entfernt worden. Der Sanders-Report bleibt als seit Version 5.0 verifiziert geführt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Versionsnummer 92.0 an allen vier Stellen eingetragen: Dokumentkopf, Aktualitätshinweis am Dokumentende, `README.md` (Header und Zitiervorschlag) und Abschlussblock dieser Datei. Die verbliebene Zeichenfolge „91.0" im Hauptdokument ist eine historische Laufangabe innerhalb einer Fortschreibung („Der Lauf am 11. September 2026 (Version 90.0 → 91.0)") und bleibt bewusst stehen. Autorenname, Organisationszuordnung, Lizenzhinweis CC BY 4.0, Haftungshinweis und KI-Offenlegung in `README.md` unverändert. |
+| 2.6 Automatisierte Prüfung | n/a (manuelle Stichproben ausgeführt) | Dedizierte Prüfskripte existieren im Projekt weiterhin nicht. Ersatzweise ausgeführt: skriptgestützte Prüfung der Kapitel- und Abschnittsnummerierung, der Auflösbarkeit aller `§X.Y`-Verweise gegen die Anker-Liste, der Zähler, der Formatierungsartefakte (Leerzeilen, Trennlinien, Anführungszeichen, Fettungen, Tabellen-Pipes) sowie der Versionskonsistenz. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| — | — | Keine Fehler festgestellt. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|--------|----------|----------|
+| — | — | Keine Bereinigung erforderlich. | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK (2.1.2, 2.1.3, 2.1.5 und 2.5 nach Einarbeitung und Versionssprung erneut skriptgestützt ausgeführt — unverändert ohne Befund).
+- Automatisierte Skripte (sofern vorhanden): n/a — keine im Projekt vorhanden.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine aufgetreten)
+- Neue Version: 92.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 11. September 2026 (Lauf 001 vom 11. September 2026) — Version 90.0 → Version 91.0
 
 ### Prüfergebnis
