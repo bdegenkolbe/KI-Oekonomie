@@ -44,7 +44,29 @@ Compute und Strom / Kapital und Finanzierung / Regulierung und Genehmigung / Dat
 
 **K4 — Szenario-Archetyp** (genau einer, Definitionen unten)
 
-## Teil 3 — Begründung
+## Teil 3 — Fachteil: Wirkung in DEINEM Feld
+
+Dieser Teil ist der eigentliche Beitrag deiner Rolle. Die vierzehn Größen in Teil 1 kann jeder schätzen; was in Teil 3 steht, weiß nur, wer in diesem Feld arbeitet. Antworte ausschließlich über deinen eigenen Zuständigkeitsbereich — nicht über die Gesamtwirtschaft.
+
+**F1 — Aufgaben.** Nenne drei bis fünf konkrete Tätigkeiten oder Prozesse aus deinem Feld, die sich bis 2030 durch KI verändern. Je Tätigkeit: heutiger Anteil an der Arbeitszeit der betroffenen Beschäftigtengruppe (Schätzung in %), und die Einordnung *automatisiert* / *ergänzt* / *unverändert* / *neu entstanden*. Benenne die Tätigkeit so konkret, dass ein Fachfremder sie nicht hätte nennen können.
+
+**F2 — Das bindende Hemmnis.** Was blockiert die Transformation in deinem Feld tatsächlich? Recht, Haftung, Zulassung, Finanzierung, Vergütungssystematik, Qualifikation, Interoperabilität, Altsysteme, Mitbestimmung, Beschaffungszyklus, Berufsordnung, Aufsichtspraxis — genau eines als das bindende, mit Begründung, warum es die anderen dominiert. Dazu: Wie viele Jahre wirkt es, und was müsste passieren, damit es fällt?
+
+**F3 — Was bricht.** Welcher Prozess, welche Berufsrolle, welches Geschäftsmodell in deinem Feld hält der Veränderung bis 2030 nicht stand? Benenne es konkret, nicht als Kategorie.
+
+**F4 — Kosten und Nutzen, getrennt.** Wer in deinem Feld trägt die Umstellungskosten, und wer schöpft den Nutzen ab? Dass beides auseinanderfällt, ist der Normalfall — benenne die Lücke.
+
+**F5 — Frühindikator.** Woran würde man **2027 oder 2028 in deinem Feld** zuerst erkennen, welches Szenario eintritt? Eine messbare Größe, die regelmäßig veröffentlicht wird, mit Angabe wo. Keine allgemeinen Konjunkturindikatoren.
+
+**F6 — Fachquellen.** Mindestens zwei Quellen **aus deinem Fachgebiet**: Fachpresse, Verbandsveröffentlichung, Aufsichts- oder Behördenpublikation, Fachstudie, Register, Leitlinie, Tarifwerk, Gesetzblatt. Je Quelle: Herausgeber, Datum, URL und die eine Aussage, die du ihr entnimmst.
+
+### Recherchemandat — verbindlich
+
+Recherchiere **ausschließlich in deinem Fachgebiet**. Gesamtwirtschaftliche Größen — Industriestrompreis, Rechenzentrumsleistung, BIP, Lohnquote — sind **nicht** deine Aufgabe: Dafür gibt es die Bänke A (Makroökonomie), P (Energie und Netze) und Q (Rechenzentren und Compute). Wenn du als Ärztin, Jurist, Betriebsrat oder Kassenvorstand Strompreise nachschlägst, hast du die Zeit deiner Rolle verschwendet und den Stimmzettel unvollständig abgegeben.
+
+Die Frage, die dein Fachteil beantworten muss, lautet nicht „wie groß wird der KI-Effekt", sondern: **Was passiert konkret in meinem Feld, was geht dabei schief, und woran sieht man es zuerst?**
+
+## Teil 4 — Begründung
 
 - Drei Sätze zur Hauptbegründung, ausdrücklich aus der Rollenperspektive.
 - Die zwei Größen, bei denen die eigene Unsicherheit am größten ist, mit je einem Satz warum.
