@@ -7,6 +7,61 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 15. September 2026 (Lauf 001 vom 15. September 2026) — Version 94.0 → Version 95.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel plus Executive Summary vor Kapitel 1; Inhaltsverzeichnis mit 11 Einträgen deckungsgleich mit den Kapitelüberschriften; keine leeren Abschnitte. Die Zusammenfassung referenziert die Deutschland-These ausdrücklich. Kein neuer Abschnitt angelegt — die vier Ergänzungen sind Nachträge innerhalb bestehender Abschnitte (§ 1.1, § 8.3, § 9.2, § 11.5). |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos; Unterabschnitte je Kapitel lückenlos (1.1–1.3, 2.1–2.3, 3.1–3.5, 4.1–4.5, 5.1–5.4, 6.1–6.4, 7.1–7.3, 8.1–8.7, 9.1–9.5, 10.1–10.3, 11.1–11.5). Zähler geprüft: fünf Typen in § 2.1 (fünf `**Typ N`-Lead-Ins ausgezählt), drei Säulen der Deutschland-These, sieben Empfehlungen in § 10.2 (Erstens bis Siebtens ausgezählt) — alle unverändert. |
+| 2.1.3 Querverweise | OK | Maschinelle Prüfung aller `§X.Y`-Verweise gegen die tatsächlich vorhandenen Unterabschnitte: kein ungültiger Verweis. Die neuen Verweise (§ 1.1 → § 9.2; § 8.3 → § 5.1, § 8.5, § 9.2, § 9.3; § 9.2 → § 1.1, § 5.1, § 8.3, § 8.5, § 9.4; § 11.5 → § 8.3, § 9.2) zeigen sämtlich auf existierende Abschnitte. Die sensiblen Verweise aus Kapitel 8 auf § 3, § 5 und § 4.5 sind unverändert. |
+| 2.1.4 Roter Faden | OK | Die Ergänzungen folgen der bestehenden Arbeitsteilung: § 1.1 trägt den Sachverhalt (Trackerstände), § 8.3 die Rückwirkung auf die Teilhabearchitektur, § 9.2 die tatbestands- und verwaltungsbezogene Folgerung. Die Deutschland-These bleibt als eigenständige Position erkennbar; der neue § 8.3-Nachtrag stützt sie, ohne sie neu zu formulieren. |
+| 2.1.5 Formatierung | OK | Keine doppelten Leerzeilen, keine doppelten Trennlinien, keine unausgeglichenen Fettungen (maschinell geprüft: keine Zeile mit ungerader Anzahl `**`). Lead-In-Formatierung der Nachträge einheitlich zu den bestehenden Nachträgen desselben Blocks. |
+| 2.2.1 Sachliche Richtigkeit | OK | Sämtliche neuen Zahlen aus Direktabrufen am 15. September 2026 übernommen. Arithmetische Nachprüfung durchgeführt und bestanden: 598.943 + 39.751 = 638.694; 638.694 − 635.481 = 3.213; 123.223 − 122.186 = 1.037; 210.741 − 209.032 = 1.709; 173.465 − 172.044 = 1.421; 3.101 + 112 = 3.213; 210.741 / 258 = 816,8 (Tagesrate 817); Erfassungslücke 30. August bis 15. September 2026 = 16 Tage; Attributionsquoten des Zuwachses 83,1 %, 32,3 %, 0 %. Die Anthropic-Kennzahlen sind als berichtete, nicht als geprüfte Größen gekennzeichnet. |
+| 2.2.2 Redundanzprüfung | OK | Die Ertragskennzahlen werden in § 8.3 vollständig referiert und in § 9.2 nur in der für die Folgerung nötigen Kurzform mit Querverweis wiederholt — dieselbe Aufgabenteilung wie bei den Trackerständen (§ 1.1 Sachverhalt, § 9.2 Folgerung). Keine Dopplung gleicher Tiefe ohne Querverweis. |
+| 2.2.3 Argumentation | OK | Die Acemoglu- und die Thuemmel-Linie werden nicht berührt. Die fünf Typen aus § 2.1 bleiben unvermengt — die Ergänzungen betreffen die Bemessungsgrundlage, nicht die Typologie. Neu eingeführt ist die Symmetrie-Aussage (Definitionsabhängigkeit auf Verdrängungs- *und* Ertragsseite), die die bestehende Linie „Anknüpfung an Wertschöpfung statt an Verdrängung" fortführt, ohne sie umzudeuten. |
+| 2.2.4 Ausgewogenheit | OK | Der § 8.3-Nachtrag stellt ausdrücklich klar, dass der Befund **nicht** die Schlussfolgerung trägt, im Frontier-Segment seien keine abschöpfbaren Renten vorhanden. Die Grenzen der Quelle (nicht öffentliche Investorenkommunikation, kein testierter Abschluss, keine normierte Kennzahl) sind im Fließtext und im Literatureintrag benannt. Kein Marketing-Ton gegenüber dem genannten Anbieter. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe über die vier neuen Passagen; keine Auffälligkeiten. Bekanntes Fehlermuster „Wertschöpfungssteuer" gezielt nachgesucht: null Treffer im gesamten Dokument. |
+| 2.3.2 Terminologie | OK | Neue Fachbegriffe bei Erstnennung erläutert: *bereinigtes Betriebsergebnis* („adjusted operating income") als unternehmenseigene, nicht normierte Kennzahl; *Draft-S-1* und *Securities and Exchange Commission* waren bereits eingeführt. „Wertschöpfungsabgabe" durchgängig einheitlich. „Zuwachs" gegenüber „Bestand" durchgängig unterschieden. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Alle im neuen Fließtext genannten Quellen (*Financial Times*, *The Irish Times*, *Business Standard*, *Cryptonomist*, *Analytics Insight*, *CNBC*) sind im neuen Eintrag in § 11.5 nachgewiesen; die Zählwerke *SkillSyncer*, *AskTheRecruiter* und *DisplaceIndex* sind über die drei erweiterten Bestandseinträge in § 11.5 nachgewiesen. Keine Quelle gelöscht. |
+| 2.4.2 Formale Einheitlichkeit | OK | Der neue Eintrag folgt dem im Dokument etablierten Muster „Herausgeber/Redaktionen. (Datum). *Titel.* Beschreibung. URL". Vollständige URLs, kein Shortener (maschinelle Prüfung: die einzigen Treffer des Shortener-Musters sind `decrypt.co`-Adressen, also Falschtreffer des Suchmusters). Datumsangaben im Format „Tag. Monat JJJJ". |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Der neue Eintrag ist eine journalistische Quelle und steht folgerichtig in § 11.5, nicht in § 11.1. Er wird ausdrücklich nicht als Primärbeleg für eine ökonomische Kernaussage verwendet, sondern als datierter Beleg für eine Unternehmensangabe — entsprechend § 2.4.3 vierter Spiegelstrich. |
+| 2.4.4 URL-Prüfung (Stichprobe) | Abweichung (dokumentiert, nicht behoben) | Geprüft wurden die drei neuen URLs sowie die regelmäßig zu kontrollierende OpenAI-PDF-URL. Erreichbar: `irishtimes.com` (Volltext mit allen zitierten Kennzahlen), `skillsyncer.com`, `asktherecruiter.com`, `displaceindex.com`, `cdn.openai.com` (PDF ausgeliefert, Titel *Industrial Policy for the Intelligence Age*). Abgewiesen mit HTTP 403: `business-standard.com` und `cnbc.com` (serverseitige Abwehr automatisierter Anfragen). Beide sind im Literatureintrag ausdrücklich als Zweit- und Drittbeleg gekennzeichnet, die tragende Quelle ist die abgerufene *Irish-Times*-Fassung. Ferner weiterhin nicht auslesbar: `layoffs.fyi` (clientseitiges Nachladen) und `trueup.io` (HTTP 403). |
+| 2.4.5 Zitatgenauigkeit | OK | Die wörtlich übernommene Passage *„above 80 per cent before accounting for revenue shared with distribution partners, including Amazon, and the cost of training its models"* stimmt mit dem abgerufenen Text überein. Die Trackerzitate sind unverändert aus den Bestandseinträgen fortgeschrieben. Die berichteten Größen sind durchgängig als berichtet und nicht als gemessen gekennzeichnet. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Die Markierung bei de la Feria et al. (2022) bleibt unverändert bestehen; keine Verifikation erfolgt, keine Markierung entfernt. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 95.0 an allen vier Stellen identisch: Dokumentkopf, Aktualitätshinweis am Dokumentende, `README.md` (Header und Zitiervorschlag) und Abschlussblock dieses Protokolls. Autorenname und Organisation unverändert. Haftungshinweis und CC-BY-4.0-Lizenzhinweis am Dokumentende vorhanden; KI-Offenlegungshinweis in `README.md` unverändert. |
+| 2.6 Automatisierte Prüfung | n/a (durch manuelle Skriptprüfung ersetzt) | Es existieren weiterhin keine projekteigenen Prüfskripte. Ersatzweise sind im Lauf Ad-hoc-Prüfungen zu Kapitel- und Unterabschnittsnummerierung, Querverweisauflösung, Zählerständen, Fettungsbalance, Leerzeilen, URL-Inventar (903 URLs, 875 eindeutig) und Zahlenarithmetik ausgeführt worden. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|--------|--------|---------|
+| 1 | § 8.3, neuer Nachtrag | Zeitangabe „Drei Wochen nach der vorstehend referierten Berichterstattung" — der Abstand zwischen dem 21./22. August und dem 14. September 2026 beträgt gut drei Wochen, die Angabe war damit unpräzise nach unten gerundet | Gering |
+| 2 | § 11.5, neuer Eintrag | Zwei der drei angegebenen URLs waren im Direktabruf nicht erreichbar (HTTP 403), ohne dass der Eintrag dies auswies — Verstoß gegen § 2.4.4 `Validierung.md` | Mittel |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|--------|----------|----------|
+| 1 | Unpräzise Zeitangabe in § 8.3 | „Drei Wochen" in „Gut drei Wochen" geändert | Ja |
+| 2 | Fehlender Erreichbarkeitsvermerk in § 11.5 | Dem Eintrag ein Prüfvermerk nach § 2.4.4 hinzugefügt, der den erfolgreichen Abruf der *Irish-Times*-Fassung und die beiden HTTP-403-Abweisungen benennt und die beiden betroffenen Quellen ausdrücklich als Zweit- und Drittbeleg einordnet | Ja |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte (2.2.1, 2.4.2, 2.4.4) erneut durchlaufen: OK
+- Erneute maschinelle Prüfung von Nummerierung, Querverweisen, Zählern, Fettungsbalance und Leerzeilen nach den Bereinigungen: OK
+- Automatisierte Skripte (sofern vorhanden): n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (beide Befunde bereinigt; die HTTP-403-Abweisungen selbst bleiben als Umgebungsbefund bestehen und sind dokumentiert, nicht behebbar)
+- Neue Version: **95.0**
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 14. September 2026 (Lauf 001 vom 14. September 2026) — Version 93.0 → Version 94.0
 
 ### Prüfergebnis
