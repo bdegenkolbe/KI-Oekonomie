@@ -1,0 +1,3253 @@
+[
+ {
+  "agent_id": "A01",
+  "archetype": "ungebunden",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.4,
+    "lo": 0.7,
+    "hi": 5.6
+   },
+   {
+    "variable": "V2",
+    "point": 2.8,
+    "lo": 0.9,
+    "hi": 6.1
+   },
+   {
+    "variable": "V3",
+    "point": 7.4,
+    "lo": 3.4,
+    "hi": 13.5
+   },
+   {
+    "variable": "V4",
+    "point": 66,
+    "lo": 45,
+    "hi": 82
+   },
+   {
+    "variable": "V5",
+    "point": -1.3,
+    "lo": -3.6,
+    "hi": 0.3
+   },
+   {
+    "variable": "V6",
+    "point": 5.8,
+    "lo": 4.9,
+    "hi": 7.6
+   },
+   {
+    "variable": "V7",
+    "point": 44.6,
+    "lo": 43.1,
+    "hi": 46.5
+   },
+   {
+    "variable": "V8",
+    "point": 4.3,
+    "lo": 2.4,
+    "hi": 7.1
+   },
+   {
+    "variable": "V9",
+    "point": 15.8,
+    "lo": 11.2,
+    "hi": 22.4
+   },
+   {
+    "variable": "V10",
+    "point": 2.4,
+    "lo": 1.1,
+    "hi": 5
+   },
+   {
+    "variable": "V11",
+    "point": 16,
+    "lo": 6,
+    "hi": 34
+   },
+   {
+    "variable": "V12",
+    "point": 21,
+    "lo": 9,
+    "hi": 42
+   },
+   {
+    "variable": "V13",
+    "point": 72,
+    "lo": 50,
+    "hi": 88
+   },
+   {
+    "variable": "V14",
+    "point": 47,
+    "lo": 33,
+    "hi": 61
+   }
+  ],
+  "k1": [
+   "c: 78%",
+   "e: 41%",
+   "b: 34%",
+   "d: 15%",
+   "a: 12%",
+   "f: 9%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Fachkräfte und Qualifikation",
+  "reasoning": "Aus wachstumsökonomischer Sicht spräche die Evidenz für starke Substitution durchaus für einen hohen technischen Automatisierungsgrad je berührter Aufgabe — die ifo-Befragung vom Juni 2026 mit rund 50 % Lohnkompressionserwartung für Junioren ist ein Preissignal, kein Stimmungsbild, und ich setze V4 deshalb bewusst nahe am US-Wert von drei Vierteln, weil der Automatisierungs-Augmentierungs-Split technikgetrieben und nicht institutionell determiniert ist. Der Aggregateffekt bliebe gleichwohl klein: In einem aufgabenbasierten Rahmen ist der Beitrag zum Solow-Residuum das Produkt aus berührtem Aufgabenanteil, Verbreitung und Produktivitätsgewinn je Aufgabe, und da die deutsche Berufsstruktur einen deutlich höheren nicht-kognitiven Anteil aufweist als die US-Kalibrierung (BLS/O*NET), skaliere ich die 12 % des mittleren US-Szenarios auf rund 7,4 % herunter und den BIP-Niveaueffekt von +8,3 % auf gut ein Viertel davon — verstärkt durch das klassische Produktivitätsparadoxon, wonach der Aufbau komplementären Organisations- und Humankapitals die messbaren Rückflüsse typischerweise um Jahre verzögert (J-Kurve), während die Investitions- und Strompreiswirkung sofort anfällt (Timing-Asymmetrie, § 8.4). Alle Werte jenseits des Faktenkerns sind Schätzungen aus dieser Rollenperspektive und keine Modellprognose; sie stünden sämtlich im Konjunktiv, und die Korinek-Szenarien selbst sind ausdrücklich keine Prognosen.",
+  "uncertain": [
+   "V4 (Automatisierungsgrad, 66 %): Hier weiche ich bewusst nach OBEN vom erwartbaren Durchschnittsurteil des Panels ab (das wegen Mitbestimmung, Betriebsräten und Kündigungsschutz eher um 50 % läge). Mein Mandat ist die aggregierte Produktivität, nicht die betriebliche Verhandlungsordnung — ich behandle den Automatisierungsanteil als technische Eigenschaft der Aufgabe und nicht als Verhandlungsergebnis. Das ist meine Blindstelle, ich kompensiere sie nicht. Zweite bewusste Abweichung, nach UNTEN: V6 mit 5,8 % liegt unter dem erwartbaren Panelwert, weil das sinkende Erwerbspersonenpotenzial (IAB: erstmals −40.000 auf 48,62 Mio.) in meinem Rahmen den Verdrängungseffekt weitgehend absorbiert.",
+   "V10 (installierte Nennanschlussleistung, 2,4 GW) und V12 (Netto-Abfluss, 21 Mrd. EUR): Beides sind reine Schätzungen ohne belastbare Basisreihe in meinem Wissensanker. V10 hängt an Netzanschlusszeiten und Genehmigungsrecht, die ich fachlich nicht beurteile; V12 hängt daran, wie Inferenzpreise je Token bis 2030 fallen — bei stark fallenden Stückpreisen könnte das Volumen wachsen und der Abfluss dennoch stagnieren, weshalb das Intervall 9 bis 42 Mrd. EUR bewusst weit ist."
+  ],
+  "falsifier": "Ein bis 2028 in den amtlichen Volkswirtschaftlichen Gesamtrechnungen sichtbarer Anstieg des Trendwachstums der Arbeitsproduktivität je Stunde um mehr als einen Prozentpunkt gegenüber dem Vorkrisen-Trend, der sich nach Bereinigung um Kapitalintensivierung als TFP-Zuwachs ausweisen ließe — das würde mein Argument des Produktivitätsparadoxons und der J-Kurve widerlegen und V1 und V3 deutlich nach oben zwingen.",
+  "confidence": 0.47,
+  "sources": [
+   "Gemeinsamer Faktenkern, Arbeitspapier 'Die Besteuerung von Künstlicher Intelligenz und Robotik als Ersatz menschlicher Arbeit', Version 94.0, September 2026 (§§ 1.1, 3.3, 3.5, 4.2, 4.5, 5.1, 5.2, 8.2, 8.4, 8.6, 11.3) — einzige herangezogene Quelle",
+   "Korinek, Jones, Sacher, Cotter & McCrory, Economic Scenarios for Transformative AI, Anthropic Institute WP 2026-02, v1.0, September 2026 (über den Faktenkern referiert; ausdrücklich 'not predictions', 'no probabilities')",
+   "ifo Konjunkturperspektiven 07/2026, Ruffert, 12. August 2026 (über den Faktenkern referiert)",
+   "IAB-Kurzfristprognose vom 24. März 2026 (über den Faktenkern referiert)",
+   "KEINE eigene Netzrecherche durchgeführt. Sämtliche Angaben zu V1, V2, V3, V4, V5, V6, V7, V8, V9, V10, V11, V12, V13, V14, die über den Faktenkern hinausgehen, sind ausdrücklich als Schätzung der Rolle A01 gekennzeichnet und nicht empirisch gemessen."
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "A02",
+  "archetype": "S1",
+  "confidence": 53,
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 1.8,
+    "lo": 0.4,
+    "hi": 4.6
+   },
+   {
+    "variable": "V2",
+    "point": 2.1,
+    "lo": 0.5,
+    "hi": 5.2
+   },
+   {
+    "variable": "V3",
+    "point": 7.4,
+    "lo": 3.4,
+    "hi": 13
+   },
+   {
+    "variable": "V4",
+    "point": 41,
+    "lo": 25,
+    "hi": 60
+   },
+   {
+    "variable": "V5",
+    "point": -0.8,
+    "lo": -2.6,
+    "hi": 0.4
+   },
+   {
+    "variable": "V6",
+    "point": 6.1,
+    "lo": 5.2,
+    "hi": 7.6
+   },
+   {
+    "variable": "V7",
+    "point": 44.6,
+    "lo": 43.1,
+    "hi": 46.4
+   },
+   {
+    "variable": "V8",
+    "point": 4.5,
+    "lo": 2.5,
+    "hi": 7
+   },
+   {
+    "variable": "V9",
+    "point": 16.9,
+    "lo": 13.2,
+    "hi": 22
+   },
+   {
+    "variable": "V10",
+    "point": 2.2,
+    "lo": 1.1,
+    "hi": 4.4
+   },
+   {
+    "variable": "V11",
+    "point": 24,
+    "lo": 11,
+    "hi": 41
+   },
+   {
+    "variable": "V12",
+    "point": 11,
+    "lo": 5,
+    "hi": 26
+   },
+   {
+    "variable": "V13",
+    "point": 68,
+    "lo": 47,
+    "hi": 85
+   },
+   {
+    "variable": "V14",
+    "point": 53,
+    "lo": 40,
+    "hi": 66
+   }
+  ],
+  "k1": [
+   "c: 80%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Fachkräfte und Qualifikation",
+  "reasoning": "Aus arbeitsmarktökonomischer Sicht wiegt die Gegenevidenz schwerer als die Substitutionserzählung: Die Bundesregierung stellt am 20. August 2026 fest, es lägen keine belastbaren Hinweise auf systematischen KI-bedingten Beschäftigungsabbau vor, die IAB-Frühjahrsprognose vom 24. März 2026 zeigt Beschäftigungsaufbau von 180.000 in öffentlichen Diensten, Erziehung und Gesundheit gegen 140.000 Abbau in der Industrie, und das Erwerbspersonenpotenzial sinkt erstmals (−40.000 auf 48,62 Mio.) — bei schrumpfendem Arbeitsangebot wirkt Aufgabenautomatisierung zuerst entlastend im Matching und erst danach verdrängend, weshalb ich V6 mit 6,1 % (Schätzung) unter dem erwartbaren Panelmedian ansetze und die Lohnquote nur um 0,8 Prozentpunkte fallen lasse. Die US-Werte übertrage ich ausdrücklich nicht: Der deutsche Berufsbestand hat einen höheren Anteil nicht-kognitiver Tätigkeiten, Korinek et al. bilden konjunktivisch nur kognitive Aufgaben ab, Mitbestimmung und betriebliche Einführungsverfahren verschieben das Verhältnis von Automatisierung zu Augmentierung zugunsten der Augmentierung — deshalb V3 = 7,4 % statt der 12 % des mittleren US-Szenarios und V4 = 41 % statt drei Vierteln (beides Schätzung). Die Last trägt nach den ifo-Befunden vom 12. August 2026 (48,3 % bzw. 50,8 % Lohnkompression für Junioren unter fünf Jahren Berufserfahrung) die Einstiegskohorte in kognitiven Berufen, also die Schwelle in den Arbeitsmarkt und nicht der Bestand; fiskalisch bleibt es beim Beobachten und Qualifizieren, einzig die Zerlegung der Gewerbesteuer nach Anschlussleistung (Regierungsentwurf vom 18. August 2026, Kabinett 2. September 2026) dürfte in Kraft treten — Wertschöpfungsabgabe (ca. 17 %), Verbreiterung der Beitragsbemessung (ca. 41 %), Digitalabgabe (ca. 33 %), Teilhabefonds (ca. 24 %) und Vorleistungsabgabe (ca. 9 %) bleiben nach meiner subjektiven Einschätzung unter der Schwelle.",
+  "falsifier": "Ein IAB- oder BA-Befund, der in zwei aufeinanderfolgenden Jahren eine messbare, KI-zurechenbare Verringerung der Einstellungen in kognitiven Berufen zeigt — etwa ein Rückgang der sozialversicherungspflichtigen Neueinstellungen von Berufseinsteigern in Büro-, Verwaltungs- und akademischen Berufen um mehr als 10 % bei gleichzeitig unveränderter Vakanzquote in den übrigen Berufen: Das würde meine These widerlegen, dass das schrumpfende Erwerbspersonenpotenzial die Substitution auffängt, und V5/V6 deutlich nach unten bzw. oben verschieben.",
+  "uncertain": [
+   "V12 (Netto-Abfluss für importierte KI-Vorleistungen, 11 Mrd. EUR): Hier weiche ich bewusst nach UNTEN vom erwartbaren Durchschnittsurteil ab — meine Rolle rechnet in Beschäftigung, Löhnen und Matching, nicht in Kapital- und Lizenzströmen, und ich unterschätze globale Kapitalströme systematisch; die Abgrenzung zwischen Cloud-Vorleistung, konzerninterner Verrechnung und Lizenz ist in der Leistungsbilanz zudem statistisch nicht sauber trennbar, daher das weite Intervall 5 bis 26 Mrd. EUR (Schätzung).",
+   "V4 (Automatisierungsgrad der berührten Aufgaben, 41 %): Hier weiche ich bewusst nach UNTEN vom US-Anker (drei Viertel) ab; ob betriebliche Mitbestimmung, Haftungsfragen und Fachkräftemangel die Einführung tatsächlich in Richtung Augmentierung schieben oder ob der Kostendruck ab 2028 ins Gegenteil kippt, ist empirisch bis heute nicht messbar — die gesamte Szenariodivergenz entsteht laut Faktenkern ohnehin erst nach 2027, weshalb mein Intervall 25 bis 60 Prozentpunkte breit bleibt."
+  ],
+  "sources": [
+   "Industriestrompreis 2026: Entwicklung & Preistrends, Vattenfall Geschäftskunden, abgerufen 14.09.2026, https://www.vattenfall.de/geschaeftskunden/ves/magazin/energie/industriestrompreis (Durchschnitt kleine/mittlere Industrie 2026: 17,2 ct/kWh; Bandbreite 15-25 ct/kWh je nach Entlastung) — Grundlage für V9, Fortschreibung auf 2030 real ist eigene Schätzung",
+   "Industriestrompreise 2026: Deutschland im EU-Vergleich (Eurostat), industrie-fachwissen.de, abgerufen 14.09.2026, https://industrie-fachwissen.de/data/industriestrompreise-deutschland-eu-vergleich-eurostat-2026 (Deutschland 2. Halbjahr 2025: 22,64 ct/kWh, EU-Spitzengruppe) — Einordnung des Niveaus für V9",
+   "Alle übrigen Zahlen (V1-V8, V10-V14) sind eigene Schätzungen aus dem gemeinsamen Faktenkern (IAB-Frühjahrsprognose 24.03.2026, ifo Konjunkturperspektiven 07/2026 vom 12.08.2026, BT-Drs. 21/7620 vom 20.08.2026, Regierungsentwurf GewStG-E vom 18.08.2026, EuroHPC IP/26/1708 vom 30.07.2026) und ausdrücklich keine Modellprognose."
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "A03",
+  "archetype": "S1",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 1.3,
+    "lo": 0.2,
+    "hi": 3.6
+   },
+   {
+    "variable": "V2",
+    "point": 1.7,
+    "lo": 0.3,
+    "hi": 4.2
+   },
+   {
+    "variable": "V3",
+    "point": 7.5,
+    "lo": 3,
+    "hi": 14
+   },
+   {
+    "variable": "V4",
+    "point": 37,
+    "lo": 19,
+    "hi": 58
+   },
+   {
+    "variable": "V5",
+    "point": -0.7,
+    "lo": -2.4,
+    "hi": 0.6
+   },
+   {
+    "variable": "V6",
+    "point": 5.8,
+    "lo": 4.8,
+    "hi": 7.3
+   },
+   {
+    "variable": "V7",
+    "point": 43.6,
+    "lo": 42.4,
+    "hi": 45.3
+   },
+   {
+    "variable": "V8",
+    "point": 4.5,
+    "lo": 2.5,
+    "hi": 7
+   },
+   {
+    "variable": "V9",
+    "point": 15.7,
+    "lo": 11.5,
+    "hi": 21.5
+   },
+   {
+    "variable": "V10",
+    "point": 2.1,
+    "lo": 0.9,
+    "hi": 4.3
+   },
+   {
+    "variable": "V11",
+    "point": 13,
+    "lo": 5,
+    "hi": 29
+   },
+   {
+    "variable": "V12",
+    "point": 21,
+    "lo": 10,
+    "hi": 41
+   },
+   {
+    "variable": "V13",
+    "point": 68,
+    "lo": 46,
+    "hi": 86
+   },
+   {
+    "variable": "V14",
+    "point": 38,
+    "lo": 28,
+    "hi": 52
+   }
+  ],
+  "k1": [
+   "c: 72%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Nachfrage und Absatzmärkte",
+  "reasoning": "Als Konjunkturprognostiker arbeite ich mit Frühindikatoren, Auftragseingängen und Kapazitätsauslastung, und in genau diesen Reihen ist bis heute kein KI-induzierter Produktivitäts- oder Verdrängungsbruch messbar: Die IAB-Frühjahrsprognose vom 24. März 2026 (empirische Messung bzw. Kurzfristprognose) weist 0,8 % Wachstum, −90.000 Erwerbstätige und eine sektorale Zweiteilung aus, die sich vollständig aus Industrieschwäche, Iran-Krieg-Dämpfung (0,2–0,3 Pp) und Demografie erklären lässt, ohne KI als eigenständigen Term zu benötigen. Die ifo-Befragung vom Juni 2026 misst Erwartungen von Unternehmen, keine realisierten Lohn- oder Beschäftigungsgrößen, und die Bundesregierung bestätigt am 20. August 2026, dass belastbare Hinweise auf systematischen Abbau fehlen – ich gewichte deshalb die kurzfristig harte Evidenz (Investitionswelle wirkt zuerst preis- und kostenseitig, Produktivitätsrückfluss später) höher als die Szenariowerte des US-Modells, dessen substantial-/extreme-Pfade laut den Autoren ohnehin erst nach 2027 divergieren und dessen Kalibrierung (BLS/O*NET, höherer kognitiver Berufsanteil als in Deutschland) auf die deutsche Berufsstruktur nicht übertragbar wäre. Meine Zahlen liegen deshalb bewusst am unteren Rand: Bis 2028 sehe ich in meinen Reihen eine normale, langsam diffundierende Technologie, und die Extrapolation dieses Befundes auf 2030 ist der einzige methodisch saubere Weg, den mein Instrumentarium hergibt – mit dem offen ausgewiesenen Preis, dass mein Prognosehorizont vor der eigentlichen Szenariodivergenz endet.",
+  "uncertain": [
+   "V3 (KI-berührte Aufgaben): Meine Reihen messen Output, Auftragseingang und Auslastung, nicht Aufgabenstrukturen – ich habe für diese Größe keinen eigenen Frühindikator und leite sie nur indirekt aus Nutzungsquoten und der gegenüber den USA nicht-kognitiveren deutschen Berufsstruktur ab (Schätzung, weites Intervall 3–14 %).",
+   "V10 (Anschlussleistung KI-Rechenzentren): reine Schätzung ohne belastbare Anschlusswarteschlangen-Statistik; hier weiche ich bewusst nach UNTEN vom erwartbaren Panel-Durchschnitt ab (2,1 GW statt vermutlich 3–5 GW), weil Netzanschlusszeiten und Genehmigungsdauer in meinen Investitionsreihen regelmäßig die Realisierung angekündigter Projekte um Jahre strecken – ebenso weiche ich bei V1 nach unten (1,3 %) und bei V13 nach oben (68 %) ab, weil Schockhäufigkeit in meinem Horizont die größere gemessene BIP-Wirkung hat als KI-Diffusion."
+  ],
+  "falsifier": "Ein über zwei bis drei aufeinanderfolgende Quartale sichtbarer Bruch in den harten Kurzfristreihen – etwa ein Anstieg der gemessenen Stundenproduktivität im Dienstleistungssektor um mehr als 1,5 % p.a. bei gleichzeitig einbrechenden Neueinstellungen in kognitiven Berufsgruppen (Stellenindex, sozialversicherungspflichtige Zugänge unter 30-Jähriger) ohne konjunkturelle Erklärung – würde meine Extrapolation sofort widerlegen, weil dann die Substitution vor und nicht nach meinem Prognosehorizont einsetzte.",
+  "confidence": 0.38,
+  "sources": [
+   "SMARD-Modellwert Industriestrompreis Juni 2026: 16,26 ct/kWh ohne Entlastungen, 10,73 ct/kWh mit maximalen Entlastungen; Koalitionsausschuss 13.11.2025: subventionierter Industriestrompreis rund 5 ct/kWh, befristet 2026–2028, unter EU-Beihilfevorbehalt – abgerufen 14.09.2026, https://etalytics.com/de/resources/blog/how-has-the-industrial-electricity-price-in-germany-developed",
+   "Rechenzentren bislang nicht im Entlastungsmodell vorgesehen, Einbeziehung im Koalitionsvertrag angelegt – abgerufen 14.09.2026, https://www.germandatacenters.com/news/detail/industriestrompreis-koalitionsversprechen-einloesen-rechenzentren-ausdruecklich-einbeziehen/",
+   "Industriestrompreis 2026, Ausgestaltung und Geltungszeitraum – abgerufen 14.09.2026, https://www.sparkasse.de/aktuelles/industriestrompreis.html",
+   "V10, V11, V12, V3, V4, V6, V7, V13: keine abgerufene Quelle, ausdrücklich als eigene Schätzung gekennzeichnet; V1/V2/V5 als Modellprognose-Extrapolation aus dem Faktenkern (IAB 24.03.2026, ifo 12.08.2026, BT-Drs. 21/7620 vom 20.08.2026) gekennzeichnet."
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "A04",
+  "archetype": "ungebunden",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 1.7,
+    "lo": 0.4,
+    "hi": 4.3
+   },
+   {
+    "variable": "V2",
+    "point": 1.4,
+    "lo": 0.3,
+    "hi": 3.8
+   },
+   {
+    "variable": "V3",
+    "point": 7.4,
+    "lo": 3.8,
+    "hi": 13
+   },
+   {
+    "variable": "V4",
+    "point": 46,
+    "lo": 29,
+    "hi": 67
+   },
+   {
+    "variable": "V5",
+    "point": -0.8,
+    "lo": -2.7,
+    "hi": 0.5
+   },
+   {
+    "variable": "V6",
+    "point": 6.4,
+    "lo": 5.1,
+    "hi": 8.2
+   },
+   {
+    "variable": "V7",
+    "point": 44.8,
+    "lo": 43.2,
+    "hi": 46.9
+   },
+   {
+    "variable": "V8",
+    "point": 4.6,
+    "lo": 2.4,
+    "hi": 7.2
+   },
+   {
+    "variable": "V9",
+    "point": 16.8,
+    "lo": 11.9,
+    "hi": 22.6
+   },
+   {
+    "variable": "V10",
+    "point": 2.6,
+    "lo": 1.5,
+    "hi": 4.4
+   },
+   {
+    "variable": "V11",
+    "point": 19,
+    "lo": 8,
+    "hi": 36
+   },
+   {
+    "variable": "V12",
+    "point": 22,
+    "lo": 9,
+    "hi": 43
+   },
+   {
+    "variable": "V13",
+    "point": 74,
+    "lo": 56,
+    "hi": 89
+   },
+   {
+    "variable": "V14",
+    "point": 54,
+    "lo": 41,
+    "hi": 66
+   }
+  ],
+  "k1": [
+   "c: 82%",
+   "b: 44%",
+   "e: 37%",
+   "d: 29%",
+   "a: 11%",
+   "f: 8%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Kapital und Finanzierung",
+  "reasoning": "Aus geldpolitischer Sicht dominiert bis 2030 die im Faktenkern dokumentierte Timing-Asymmetrie: Der KI-Buildout erzeugt heute Preisdruck über Chips, Stahl, Elektronik und Netzanschlusskosten, während die Produktivitätsrückflüsse — wenn sie kommen — überwiegend jenseits des Prognosehorizonts anfallen; die US-Szenarien sind laut Autoren ausdrücklich keine Prognosen, und ihre Divergenz entstünde ohnehin erst nach 2027, weshalb ich das deutsche BIP-Niveau 2030 nur um gut anderthalb Prozent über dem Pfad ohne weitere Diffusion veranschlage (Schätzung, nicht Modellergebnis). Die Gegenevidenz wiegt bei mir schwerer als die Substitutionsevidenz: Die Bundesregierung stellt am 20. August 2026 fest, es lägen keine belastbaren Hinweise auf systematischen KI-bedingten Beschäftigungsabbau vor, das IAB misst für 2026 einen Beschäftigungsaufbau von 180.000 in öffentlichen Diensten, Erziehung und Gesundheit gegen 140.000 Abbau in der Industrie, und die deutsche Berufsstruktur mit höherem nicht-kognitivem Anteil sowie Mitbestimmung, Haftungs- und Dokumentationspflichten senken sowohl den Anteil berührter Aufgaben als auch den Automatisierungsgrad deutlich unter die US-Kalibrierung — die ifo-Lohnerwartungen vom Juni 2026 sind Erwartungsdaten, keine gemessenen Lohneffekte. Als Zentralbankökonom halte ich mich bei Verteilungsaussagen bewusst zurück und setze die Lohnquotenveränderung mit großem Intervall nahe null an; was ich dagegen klar sehe, ist der einnahmenseitige Druck auf die beitragsfinanzierten Systeme, der mit dem rein ausgabenseitigen GKV-Stabilisierungsgesetz nicht adressiert wäre, und das Finanzierungsproblem der europäischen Compute-Schicht, bei der den bis zu 10 Mrd. EUR öffentlicher Kofinanzierung der EuroHPC-Ausschreibung mindestens 20 Mrd. EUR Privatkapital gegenüberstehen müssten, das in Europa knapper ist als Strom.",
+  "falsifier": "Ein empirisch belastbarer Nachweis — nicht Erwartungsdaten — dass die Lohnsumme sozialversicherungspflichtig Beschäftigter in kognitiven Berufen in Deutschland zwischen 2027 und 2029 in mindestens zwei aufeinanderfolgenden Jahren real sinkt, während die gesamtwirtschaftliche Wertschöpfung wächst: Damit wäre die Substitution schneller als die von mir unterstellten Diffusionshemmnisse, V3, V4 und V5 wären zu konservativ und die Zuordnung zum fiskalischen Stressfall (S3) statt zu meiner verspäteten Normalisierung mit fiskalischem Rand wäre richtig.",
+  "confidence": 0.54,
+  "uncertain": [
+   "V12 (Netto-Abfluss für importierte KI-Vorleistungen, 22 Mrd. EUR): Es gibt keine saubere statistische Abgrenzung zwischen Cloud-, Lizenz- und API-Bezug in der Dienstleistungsbilanz, und die in § 5.1 offene Frage der Abzugsfähigkeit importierter Vorleistungen entscheidet mit darüber, wie viel überhaupt als Abfluss ausgewiesen würde — das Intervall 9 bis 43 Mrd. EUR ist bewusst weit und die Zahl ist eine Schätzung, keine Messung.",
+   "V9 (Industriestrompreis 2030 real, 16,8 ct/kWh): Der Wert hängt an drei unabhängig schwankenden Größen — Netzentgeltentwicklung, Gaspreis als Grenzpreissetzer und die politisch offene Frage staatlicher Strompreisentlastung für die Industrie —, weshalb ich real zwischen 11,9 und 22,6 ct/kWh nicht sinnvoll enger werden kann (Schätzung).",
+   "BEWUSSTE ABWEICHUNG vom erwartbaren Durchschnittsurteil bei V4 (Automatisierungsgrad 46 % statt der aus dem US-Szenario substantial nahegelegten drei Viertel) und bei K2: Während die Mehrheit des Panels wegen der ifo-Junior-Lohnerwartungen Berufseinsteiger in kognitiven Berufen als Hauptlastträger benennen dürfte, weiche ich nach oben in der fiskalischen Richtung ab und benenne öffentliche Haushalte und Beitragszahler — nicht weil die Lohneffekte ausblieben, sondern weil sie bis 2030 unterhalb der Messschwelle blieben, während der Beitragssatzpfad und das GKV-Konsolidierungsvolumen von rund 42,8 Mrd. EUR bis 2030 bereits gesetzlich verankert sind; zusätzlich weiche ich bei K3 nach unten von der erwartbaren Mehrheitsantwort Compute und Strom ab, weil bei einem Aufgabenanteil von gut sieben Prozent die Nachfrage nach Rechenleistung gar nicht an die physische Grenze stößt und stattdessen die Kapitalmobilisierung bindet."
+  ],
+  "sources": [
+   "Bitkom / Borderstep Institut, 'Rechenzentren in Deutschland: KI treibt das Wachstum' (Marktstudie, abgerufen 14.09.2026): IT-Anschlussleistung deutscher Rechenzentren 2,7 GW aktuell, rund 4,8-5,0 GW bis 2030; KI-spezifische Anschlussleistung von 530 MW auf rund 2.020 MW bis 2030; Stromverbrauch 2030 rund 30-37 TWh. https://www.bitkom.org/Presse/Presseinformation/Rechenzentren-Deutschland-KI-treibt-Wachstum — eigene Umrechnung der IT-Nennlast auf elektrische Nennanschlussleistung (Faktor rund 1,3-1,5) für V10 ist Schätzung.",
+   "Bitkom, 'Rechenzentren: Deutschland verliert den Anschluss' (Presseinformation, abgerufen 14.09.2026), zur Einordnung des internationalen Rückstands bei Anschlussleistung und Netzanschlusszeiten. https://www.bitkom.org/Presse/Presseinformation/Rechenzentren-Deutschland-verliert-Anschluss",
+   "Alle übrigen Zahlen zu V1, V2, V3, V4, V5, V6, V7, V8, V9, V11, V12, V13, V14: eigene Schätzung aus dem gemeinsamen Faktenkern (IAB-Frühjahrsprognose 24.03.2026; ifo Konjunkturperspektiven 07/2026 vom 12.08.2026; BT-Drs. 21/7620 vom 20.08.2026; GKV-Beitragssatzstabilisierungsgesetz; EuroHPC IP/26/1708 vom 30.07.2026; Regierungsentwurf § 29 Abs. 1 Nr. 4 GewStG-E vom 18.08.2026/02.09.2026), keine externe Einzelquelle."
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "A05",
+  "archetype": "ungebunden",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.7,
+    "lo": 0.9,
+    "hi": 5.8
+   },
+   {
+    "variable": "V2",
+    "point": 2.4,
+    "lo": 0.7,
+    "hi": 5.2
+   },
+   {
+    "variable": "V3",
+    "point": 7.4,
+    "lo": 4,
+    "hi": 12
+   },
+   {
+    "variable": "V4",
+    "point": 71,
+    "lo": 55,
+    "hi": 85
+   },
+   {
+    "variable": "V5",
+    "point": -1.7,
+    "lo": -3.6,
+    "hi": 0.2
+   },
+   {
+    "variable": "V6",
+    "point": 6.4,
+    "lo": 5.3,
+    "hi": 8.1
+   },
+   {
+    "variable": "V7",
+    "point": 44.6,
+    "lo": 43,
+    "hi": 46.9
+   },
+   {
+    "variable": "V8",
+    "point": 4.6,
+    "lo": 2.5,
+    "hi": 7.5
+   },
+   {
+    "variable": "V9",
+    "point": 16.2,
+    "lo": 12.4,
+    "hi": 21.6
+   },
+   {
+    "variable": "V10",
+    "point": 2.4,
+    "lo": 1.1,
+    "hi": 4.8
+   },
+   {
+    "variable": "V11",
+    "point": 18,
+    "lo": 7,
+    "hi": 34
+   },
+   {
+    "variable": "V12",
+    "point": 22,
+    "lo": 9,
+    "hi": 44
+   },
+   {
+    "variable": "V13",
+    "point": 68,
+    "lo": 47,
+    "hi": 85
+   },
+   {
+    "variable": "V14",
+    "point": 53,
+    "lo": 38,
+    "hi": 66
+   }
+  ],
+  "k1": [
+   "a: 16%",
+   "b: 31%",
+   "c: 84%",
+   "d: 22%",
+   "e: 41%",
+   "f: 12%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Kapital und Finanzierung",
+  "reasoning": "Aus optimalsteuerlicher Sicht ist die entscheidende deutsche Besonderheit nicht die Modellfähigkeit, sondern der Steuer- und Abgabenkeil: Arbeit trägt eine Gesamtbelastung von über vierzig Prozent auf die Lohnsumme, während Automatisierungskapital über Abschreibung, Fremdkapitalabzug und eine Abgeltungsbesteuerung deutlich milder belastet wird — im Sinne von Acemoglu/Manera/Restrepo wäre damit ein Teil der Substitution nicht produktivitäts-, sondern steuergetrieben, weshalb ich den Automatisierungsgrad V4 mit rund 71 Prozent bewusst über dem liege, was ein durchschnittlicher Beobachter für das mitbestimmte Deutschland ansetzen würde, obwohl ich die Aufgabenberührung V3 mit rund 7,4 Prozent wegen der weniger kognitiven Berufsstruktur, der Diffusionshemmnisse und der Position der Bundesregierung vom 20. August 2026 deutlich unter dem US-Mittelszenario halte (alles Modellrechnung und Schätzung, keine Messung). Daraus folgte modelltheoretisch eine moderate Wachstumswirkung (V1 rund +2,7 Prozent, hergeleitet als 0,074 × 0,57 Produktivitätsgewinn je berührter Aufgabe, zur Hälfte bis 2030 realisiert) bei gleichzeitig überproportionaler Erosion der Beitragsbemessungsgrundlage, weil die Substitution genau dort ansetzt, wo die Löhne verbeitragt werden — die Lohnquote sänke um etwa 1,7 Punkte, der Gesamtbeitragssatz stiege auf rund 44,6 Prozent, und dieser Anstieg verschärfte den Keil, der die Substitution erst begünstigt hat: eine positive Rückkopplung, die im US-Modell konstruktionsbedingt fehlt. Im Sinne von Thuemmel und Costinot/Werning wäre der optimale Steuersatz auf Automatisierung selbst klein und über die Zeit fallend, während der Ertrag einer Reform überwiegend aus der Verbreiterung der Bemessungsgrundlage käme — deshalb halte ich die Wertschöpfungsabgabe (K1 a, 16 Prozent) bis 2030 für unwahrscheinlich, die anschlussleistungsbasierte Gewerbesteuerzerlegung (K1 c, 84 Prozent) dagegen für nahezu gesetzt, weil sie verfassungsrechtlich keine neue Steuer ist, und nenne als bindende Restriktion Europas Kapital und Finanzierung statt Compute und Strom: Anschlussleistung ist eine Preisfrage, die Kapitalkosten und die Kapitalmarkttiefe sind die Mengenrestriktion hinter der Draghi-Diagnose, dass nur vier der fünfzig größten Technologieunternehmen europäisch sind.",
+  "falsifier": "Ein belastbarer empirischer Nachweis, dass die Lohnsumme der sozialversicherungspflichtigen Beschäftigung in Deutschland bis 2029 nominal weiter mit mindestens der Produktivitätsrate wächst und der Gesamtsozialversicherungsbeitragssatz unter 43,5 Prozent bleibt — dann wäre der von mir unterstellte Kanal einer steuerkeil-getriebenen Erosion der Beitragsbemessungsgrundlage widerlegt und die gesamte Argumentationskette von V4 über V5 zu V7 fiele in sich zusammen.",
+  "confidence": 53,
+  "uncertain": [
+   "V4 (Automatisierungsgrad, 71 % — hier weiche ich bewusst NACH OBEN vom erwartbaren Durchschnittsurteil ab): Der durchschnittliche Beobachter würde für Deutschland wegen Mitbestimmung, Kündigungsschutz und Betriebsräten eher 55 bis 65 Prozent und damit mehr Augmentierung ansetzen; meine Rolle verlangt die Gegenrichtung, weil der Abgabenkeil auf Arbeit die Substitution am Einstellungsrand subventioniert (konsistent mit der ifo-Beobachtung, dass die Lohnkompression gerade Berufseinsteiger trifft) — die Unsicherheit ist maximal, weil ich diesen Effekt ausschließlich aus Modellstruktur und nicht aus deutscher Vollzugsbeobachtung herleite, was genau meine Blindstelle ist.",
+   "V12 (Netto-Abfluss für importierte KI-Vorleistungen, 22 Mrd. EUR): Die Größe hängt an der in § 5.1 offenen und steuerlich ungeklärten Frage der Abzugsfähigkeit importierter KI-Vorleistungen sowie an Verrechnungspreisgestaltung innerhalb der Hyperscaler-Konzerne; ich habe weder eine belastbare Ausgangsmessung für 2026 noch ein Preismodell für Inferenz 2030, weshalb das Intervall von 9 bis 44 Mrd. EUR reine Schätzung ist. Zusätzlich abweichend nach UNTEN: V5 mit −1,7 Punkten liegt unter dem, was Panelteilnehmer mit Fokus auf institutionelle Lohnrigidität ansetzen dürften, aber klar über dem US-Mittelszenario von −4 Punkten."
+  ],
+  "sources": [
+   "BDEW-Strompreisanalyse, Bundesverband der Energie- und Wasserwirtschaft, Stand September 2026: durchschnittlicher Strompreis für kleine und mittlere Industriebetriebe 17,2 ct/kWh; subventionierter Industriestrompreis 5 ct/kWh für bis zu 2.000 Unternehmen auf 50 % des Verbrauchs ab 2026 — https://www.bdew.de/service/daten-und-grafiken/bdew-strompreisanalyse/ (abgerufen 14.09.2026). Verwendet ausschließlich als Ausgangswert für V9; die Fortschreibung auf 16,2 ct/kWh real 2030 ist eigene Schätzung (Netzentgeltdruck durch Rechenzentrumslast gegen Entlastung durch Netzausbau und Subventionsprogramm).",
+   "Alle übrigen Zahlen: eigene Schätzung bzw. Modellrechnung auf Basis des gemeinsamen Faktenkerns (Korinek/Jones/Sacher/Cotter/McCrory 2026; IAB-Kurzfristprognose 24.03.2026; ifo-Konjunkturperspektiven 07/2026 vom 12.08.2026; BT-Drs. 21/7620 vom 20.08.2026; Regierungsentwurf EStRefG 2027 vom 18.08.2026; EuroHPC IP/26/1708 vom 30.07.2026). Keine externen Quellen darüber hinaus abgerufen."
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "A06",
+  "archetype": "S1",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.6,
+    "lo": 0.8,
+    "hi": 5.9
+   },
+   {
+    "variable": "V2",
+    "point": 2.2,
+    "lo": 0.6,
+    "hi": 5.1
+   },
+   {
+    "variable": "V3",
+    "point": 7.4,
+    "lo": 3.4,
+    "hi": 13.2
+   },
+   {
+    "variable": "V4",
+    "point": 44,
+    "lo": 27,
+    "hi": 63
+   },
+   {
+    "variable": "V5",
+    "point": -0.6,
+    "lo": -2.3,
+    "hi": 0.7
+   },
+   {
+    "variable": "V6",
+    "point": 6.1,
+    "lo": 5,
+    "hi": 7.6
+   },
+   {
+    "variable": "V7",
+    "point": 44.8,
+    "lo": 43.3,
+    "hi": 46.9
+   },
+   {
+    "variable": "V8",
+    "point": 5.4,
+    "lo": 2.8,
+    "hi": 8.7
+   },
+   {
+    "variable": "V9",
+    "point": 16.4,
+    "lo": 11.8,
+    "hi": 22.3
+   },
+   {
+    "variable": "V10",
+    "point": 2.2,
+    "lo": 1,
+    "hi": 4.4
+   },
+   {
+    "variable": "V11",
+    "point": 17,
+    "lo": 7,
+    "hi": 34
+   },
+   {
+    "variable": "V12",
+    "point": 17.5,
+    "lo": 7.5,
+    "hi": 33
+   },
+   {
+    "variable": "V13",
+    "point": 63,
+    "lo": 44,
+    "hi": 81
+   },
+   {
+    "variable": "V14",
+    "point": 57,
+    "lo": 44,
+    "hi": 68
+   }
+  ],
+  "k1": [
+   "c: 72%",
+   "e: 38%",
+   "d: 29%",
+   "b: 22%",
+   "g: 17%",
+   "a: 12%",
+   "f: 8%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Regulierung und Genehmigung",
+  "reasoning": "Aus Sicht einer marktliberalen Denkfabrik wiegt die Gegenevidenz zur Substitutionsthese schwerer als die Erwartungsdaten: Die Bundesregierung stellt am 20. August 2026 fest, es lägen \"keine belastbaren Hinweise\" auf systematischen KI-bedingten Beschäftigungsabbau vor und ein empirischer Nachweis realer Gehaltseinbußen liege nicht vor, und das IAB misst für 2026 sektoral zweigeteilt Industrie −140.000 gegen öffentliche Dienste, Erziehung und Gesundheit +180.000 — die ifo-Zahlen vom 12. August 2026 (rund 50 Prozent Lohnkompressionserwartung für Junioren) sind demgegenüber Firmen*erwartungen* über fünf Jahre, keine Messung, und ihre sektorale Spreizung (Bau 39,0 Prozent gegen Dienstleistungen 53,3 Prozent) zeigt gerade, dass der deutsche Tätigkeitsmix mit höherem nicht-kognitivem Anteil die US-Kalibrierung von Korinek et al. (BLS, O*NET) nicht trägt; ich veranschlage deshalb den KI-berührten Aufgabenanteil (Schätzung) bei rund 7 statt der 12 Prozent des mittleren US-Szenarios. Der eigentliche Engpass wäre nicht die Modellfähigkeit und auch nicht primär Kapitalknappheit, sondern Genehmigungsdauer, Netzanschlussfristen, AI-Act-Compliance und ein Abgabenkeil, der bei einem Gesamtbeitragssatz in Richtung 45 Prozent (Schätzung, getrieben von Demografie, nicht von KI) jede Zusatzbelastung des Faktors Kapital in einer offenen Volkswirtschaft in Kapitalabfluss übersetzen könnte — der Weg wäre konsequent Entlastung des Faktors Arbeit, nicht dessen Substitution durch eine Wertschöpfungs- oder Compute-Abgabe. Die Zerlegungsänderung nach § 29 Abs. 1 Nr. 4 GewStG-E hielte ich für wahrscheinlich in Kraft, weil sie konstruktiv keine neue Steuer nach Art. 105 GG wäre, sondern reine Aufkommensverteilung; genau deshalb wäre sie aber auch kein Beleg für eine Trendwende hin zur Kapitalbelastung, sondern deren billigster Ersatz — alle Angaben zu V1 bis V14 sind Schätzungen, keine Modellprognosen, und das Papier selbst ordnet den Szenarien ausdrücklich \"no probabilities\" zu.",
+  "falsifier": "Eine amtliche Messung (Beschäftigungsstatistik der BA oder IAB-Betriebspanel) für die Jahre 2027 bis 2029, die einen Rückgang der sozialversicherungspflichtigen Beschäftigung in kognitiven Berufsgruppen von mehr als rund 300.000 Personen ausweist, der nach Sektor- und Konjunkturbereinigung nicht auf Industrieschwäche, Iran-Krieg oder Demografie zurückzuführen ist — das würde meinen niedrigen V3/V4-Ansatz und meine Lohnquotenschätzung von −0,6 Prozentpunkten unmittelbar widerlegen und die Bewertung in Richtung S5 verschieben.",
+  "confidence": 57,
+  "uncertain": [
+   "V10 (installierte KI-Anschlussleistung, 2,2 GW, Intervall 1,0 bis 4,4): Die Größe hängt fast vollständig an Genehmigungsdauern und Netzanschlusswarteschlangen, für die es keine belastbare öffentliche Zeitreihe gibt, und die EuroHPC-Vergabe (Angebotsfrist 12. November 2026, Vergabe Anfang 2027) entscheidet erst nach meinem Schätzzeitpunkt, wie viel der bis zu sieben AI Gigafactories in Deutschland landet.",
+   "V3 (KI-berührte Aufgaben, 7,4 Prozent): Für Deutschland existiert keine O*NET-äquivalente Aufgabendatenbank, die Zahl ist eine Übertragung mit strukturellem Abschlag und keine Messung; zugleich entsteht laut den Autoren nahezu die gesamte Szenariendivergenz erst nach 2027, also außerhalb jeder heute prüfbaren Evidenz.",
+   "BEWUSSTE ABWEICHUNG vom erwartbaren Durchschnittsurteil bei V5 (Lohnquote): Ich gehe mit −0,6 Prozentpunkten deutlich NACH OBEN (also weniger negativ) gegenüber dem, was ein Durchschnittsbeobachter aus dem US-Szenario substantial (−4 Punkte) ableiten würde, weil das sinkende Erwerbspersonenpotenzial (erstmals −40.000 auf 48,62 Millionen) und die deutsche Lohnsetzungsinstitution die Lohnquote stützen — diese Richtung folgt meiner Rolle und meiner Blindstelle, ich kompensiere sie nicht. Spiegelbildlich gehe ich bei V7 mit 44,8 Prozent deutlich NACH OBEN, weil die Beitragslast demografisch und nicht KI-getrieben steigt."
+  ],
+  "sources": [
+   "Industriestrompreis 2026 in Deutschland - Analyse und Aktuelles, levonova.energy, abgerufen 14.09.2026, https://levonova.energy/industriestrompreis/ (SMARD-Modell Juni 2026: 16,26 ct/kWh ohne Entlastungen, 10,73 ct/kWh mit maximalen Entlastungen; EU-genehmigter Industriestrompreis 5 ct/kWh fuer 2026 bis 2028, Budget 3,8 Mrd. EUR, nur Carbon-Leakage-Liste)",
+   "Entwicklung der Industriestrompreise in Deutschland 2020-2026, etalytics.com, abgerufen 14.09.2026, https://etalytics.com/de/resources/blog/how-has-the-industrial-electricity-price-in-germany-developed (Eurostat-Spanne 2025: 16 bis 23 ct/kWh)",
+   "Alle uebrigen quantitativen Angaben (V1 bis V8, V10 bis V14) sind eigene Schaetzungen aus dem gemeinsamen Faktenkern ohne externe Quelle und als solche zu werten; die Werte aus Korinek/Jones/Sacher/Cotter/McCrory, IAB (24.03.2026), ifo (12.08.2026), BT-Drs. 21/7620 (20.08.2026), GewStG-E (02.09.2026) und EuroHPC IP/26/1708 (30.07.2026) stammen aus dem Faktenkern."
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "A07",
+  "archetype": "S3",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 1.6,
+    "lo": 0.4,
+    "hi": 4.2
+   },
+   {
+    "variable": "V2",
+    "point": 1.3,
+    "lo": 0.3,
+    "hi": 3.6
+   },
+   {
+    "variable": "V3",
+    "point": 8.5,
+    "lo": 4,
+    "hi": 14
+   },
+   {
+    "variable": "V4",
+    "point": 61,
+    "lo": 42,
+    "hi": 78
+   },
+   {
+    "variable": "V5",
+    "point": -2.6,
+    "lo": -5.2,
+    "hi": -0.7
+   },
+   {
+    "variable": "V6",
+    "point": 6.9,
+    "lo": 5.6,
+    "hi": 8.6
+   },
+   {
+    "variable": "V7",
+    "point": 44.6,
+    "lo": 43.1,
+    "hi": 46.4
+   },
+   {
+    "variable": "V8",
+    "point": 4.5,
+    "lo": 2.5,
+    "hi": 7
+   },
+   {
+    "variable": "V9",
+    "point": 16.5,
+    "lo": 12,
+    "hi": 23
+   },
+   {
+    "variable": "V10",
+    "point": 2.1,
+    "lo": 1,
+    "hi": 4.5
+   },
+   {
+    "variable": "V11",
+    "point": 21,
+    "lo": 9,
+    "hi": 38
+   },
+   {
+    "variable": "V12",
+    "point": 18,
+    "lo": 7,
+    "hi": 34
+   },
+   {
+    "variable": "V13",
+    "point": 72,
+    "lo": 55,
+    "hi": 88
+   },
+   {
+    "variable": "V14",
+    "point": 53,
+    "lo": 40,
+    "hi": 64
+   }
+  ],
+  "k1": [
+   "c: 78%",
+   "e: 31%",
+   "b: 34%",
+   "d: 27%",
+   "a: 23%",
+   "f: 12%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Nachfrage und Absatzmärkte",
+  "reasoning": "Erstens gewichte ich die Substitutionsevidenz hoch: Die ifo-Erhebung vom Juni 2026 ist eine empirische Messung von Erwartungen (rund 3.000 KI-nutzende Firmen, 48,3 bzw. 50,8 Prozent Lohnkompression für Junioren unter fünf Jahren Berufserfahrung), und wenn diese Erwartungen auch nur zur Hälfte in Lohnabschlüssen und Einstiegsgehältern ankämen, entstünde die Verteilungswirkung an der Eintrittsschwelle des Arbeitsmarkts, nicht in der Gesamtbeschäftigung — genau dort, wo sie in Aggregatstatistiken jahrelang unsichtbar bliebe und die Bundesregierung in BT-Drs. 21/7620 zu Recht \"keine belastbaren Hinweise\" findet, weil das Instrument nicht auf Kohorteneffekte zielt; die US-Modellergebnisse von Korinek et al. (Lohnquote 56 Prozent im Szenario substantial) übertrage ich ausdrücklich nicht, weil die deutsche Lohnquote anders definiert ist (Arbeitnehmerentgelt am Volkseinkommen, Größenordnung um 71 Prozent; Schätzung), Flächentarif und Mitbestimmung Anpassungen verzögern und der höhere Anteil nicht-kognitiver Tätigkeiten die berührte Aufgabenmasse verkleinert — deshalb setze ich die Lohnquotenveränderung mit minus 2,6 Prozentpunkten deutlich unter den US-Wert, aber klar jenseits der Normalschwankung. Zweitens diskontiere ich die Wachstumsgewinne bewusst: Der Modellsatz von Korinek et al., der Aggregatgewinn sei \"nearly three times what cognitive workers lose\", ist eine Modellaussage unter Abstraktion von Preisrigiditäten und ohne Rückkopplung der Verdrängung auf die Nachfrage — wenn man diese Rückkopplung ernst nimmt, kappt die Lohnkompression am unteren Ende der kognitiven Einkommensverteilung, also bei Haushalten mit hoher Konsumquote, genau die Binnennachfrage, aus der der Produktivitätsgewinn sich in BIP übersetzen müsste; zusammen mit dem Nettoabfluss für importierte KI-Vorleistungen (meine Schätzung 18 Mrd. EUR jährlich) bleibt vom Produktivitätsgewinn im Inland wenig als messbares BIP-Niveau übrig, weshalb ich V1 mit 1,6 Prozent bewusst unterhalb dessen ansetze, was ein durchschnittlicher Makroökonom hier nennen würde. Drittens folgt daraus der fiskalische Kern: Die Sozialversicherung ist vollständig an die Lohnsumme gekoppelt, das GKV-Beitragssatzstabilisierungsgesetz beantwortet ein einnahmenseitiges Problem rein ausgabenseitig, und die einzige bis 2030 wahrscheinlich in Kraft tretende Maßnahme mit KI-Bezug wäre nach meiner Einschätzung die Gewerbesteuer-Zerlegung nach Anschlussleistung — die aber nur zwischen Gemeinden umverteilte und die Beitragsbemessungsgrundlage unberührt ließe; ein Gesamtbeitragssatz um 44,6 Prozent wäre dann nicht Folge der KI, sondern der Weigerung, die Bemessungsgrundlage zu verbreitern, solange der Nachweis fehlt.",
+  "uncertain": [
+   "V10 (installierte Anschlussleistung von KI-Rechenzentren): Ich bin Verteilungsforscherin, nicht Infrastrukturökonomin; mein Wert von 2,1 GW ist eine Schätzung ohne eigene Zeitreihe, und Netzanschlusszeiten sowie der Ausgang der EuroHPC-Vergabe Anfang 2027 könnten das Ergebnis um den Faktor zwei in beide Richtungen verschieben.",
+   "V5 (Lohnquote): Die Größe hängt davon ab, ob die von ifo gemessenen Lohnerwartungen sich in Abschlüssen realisieren oder ob das schrumpfende Erwerbspersonenpotenzial (IAB, minus 40.000 auf 48,62 Mio.) die Verhandlungsmacht der Beschäftigten trotz Substitution stützt — zwei gegenläufige Mechanismen, deren Nettowirkung ich nicht sauber trennen kann.",
+   "BEWUSSTE ABWEICHUNG vom Durchschnittsurteil bei V1 und V2: Ich setze die BIP-Niveauwirkung mit 1,6 bzw. 1,3 Prozent deutlich NACH UNTEN ab, weil ich den Nachfrageausfall aus der Lohnkompression und den Vorleistungsabfluss gegenrechne, die das US-Modell beide ausblendet; ein Wachstumsforscher derselben Bank käme hier plausibel auf das Drei- bis Vierfache. Zusätzlich weiche ich bei K3 ab: Nicht Compute und Strom, sondern Nachfrage und Absatzmärkte wären die bindende Restriktion."
+  ],
+  "falsifier": "Eine bis 2029 vorliegende, kohortenscharfe Auswertung der Verdienststatistik (Entgelte von Berufseinsteigern in kognitiven Berufen, ein bis drei Jahre nach Eintritt, nach Branche und Qualifikation), die zeigt, dass die Einstiegsentgelte in KI-intensiven Dienstleistungs- und Handelsbranchen relativ zu den Seniorentgelten NICHT auseinanderlaufen — dann wäre die ifo-Erwartungsmessung als Stimmungsgröße entwertet, meine Lohnquotenprojektion und damit der gesamte fiskalische Stresstest-Pfad hinfällig.",
+  "confidence": 0.53,
+  "sources": [
+   "Keine über den Faktenkern hinausgehende Quelle abgerufen. Alle Zahlen zu V1, V2, V3, V4, V9, V10, V11, V12, V13 sowie das Niveau der deutschen Lohnquote und des Gesamtsozialversicherungsbeitragssatzes 2026 sind eigene Schaetzungen aus der Rollenperspektive, nicht gemessene oder aus einer abgerufenen Publikation uebernommene Werte."
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "B01",
+  "archetype": "ungebunden",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.3,
+    "lo": 0.5,
+    "hi": 5.4
+   },
+   {
+    "variable": "V2",
+    "point": 2.7,
+    "lo": 0.8,
+    "hi": 5.9
+   },
+   {
+    "variable": "V3",
+    "point": 7.5,
+    "lo": 3.5,
+    "hi": 14
+   },
+   {
+    "variable": "V4",
+    "point": 46,
+    "lo": 29,
+    "hi": 63
+   },
+   {
+    "variable": "V5",
+    "point": -0.9,
+    "lo": -2.7,
+    "hi": 0.4
+   },
+   {
+    "variable": "V6",
+    "point": 6.1,
+    "lo": 4.9,
+    "hi": 7.9
+   },
+   {
+    "variable": "V7",
+    "point": 44.9,
+    "lo": 43.3,
+    "hi": 46.8
+   },
+   {
+    "variable": "V8",
+    "point": 5.5,
+    "lo": 3.5,
+    "hi": 8
+   },
+   {
+    "variable": "V9",
+    "point": 15.5,
+    "lo": 10.5,
+    "hi": 21.5
+   },
+   {
+    "variable": "V10",
+    "point": 3,
+    "lo": 1.8,
+    "hi": 5.2
+   },
+   {
+    "variable": "V11",
+    "point": 14,
+    "lo": 6,
+    "hi": 31
+   },
+   {
+    "variable": "V12",
+    "point": 22,
+    "lo": 11,
+    "hi": 44
+   },
+   {
+    "variable": "V13",
+    "point": 72,
+    "lo": 51,
+    "hi": 88
+   },
+   {
+    "variable": "V14",
+    "point": 41,
+    "lo": 28,
+    "hi": 56
+   }
+  ],
+  "k1": [
+   "c: 82%",
+   "d: 38%",
+   "e: 27%",
+   "b: 22%",
+   "a: 14%",
+   "f: 8%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Regulierung und Genehmigung",
+  "reasoning": "Aus finanzverfassungsrechtlicher Sicht ist die entscheidende Größe nicht die technische Substitutionsfähigkeit, sondern die Frage, welche Abgabentypen der Steuerfindungsrecht-Rahmen des Art. 105/106 GG und die Sonderabgabenrechtsprechung (Gruppenhomogenität, Sachnähe, Gruppenverantwortung, gruppennützige Verwendung — Linie Berufsausbildungsabgabe/Kohlepfennig) bis 2030 überhaupt zulassen; eine Wertschöpfungsabgabe als Ersatz lohnbasierter Arbeitgeberbeiträge wäre als Sonderabgabe mit Finanzierungszweck kaum rechtfertigungsfähig und als Steuer nicht typengerecht einzuordnen, weshalb ich (a) und (f) niedrig ansetze, während die Zerlegungsänderung nach § 29 Abs. 1 Nr. 4 GewStG-E konstruktiv gerade keine neue Steuer wäre und deshalb die mit Abstand höchste Realisierungswahrscheinlichkeit trüge. Bei den Realgrößen gewichte ich zuerst die Gegenevidenz: Die Bundesregierung stellte am 20. August 2026 fest, es lägen keine belastbaren Hinweise auf systematischen KI-bedingten Beschäftigungsabbau vor, das IAB misst für 2026 sogar Beschäftigungsaufbau in öffentlichen Diensten, Erziehung und Gesundheit (+180.000), und rechtliche Vollzugsschranken — Art. 14 KI-VO (menschliche Aufsicht bei Hochrisikosystemen), § 35a VwVfG (vollautomatisierte Verwaltungsakte nur bei ausdrücklicher Rechtsgrundlage und ohne Ermessen), Amtsermittlung und Begründungspflicht, Sozialdatenschutz nach §§ 67 ff. SGB X, Mitbestimmung nach § 87 Abs. 1 Nr. 6 BetrVG — begrenzen den Automatisierungsgrad juristisch, nicht technisch; deshalb liegen V3, V4 und V1 deutlich unter einer Übertragung des US-Szenarios substantial, das ohnehin US-kalibriert ist und einen höheren kognitiven Berufsanteil unterstellt. Alle Zahlen zu V1, V2, V3, V4, V5, V6, V9, V11, V12, V13 sind eigene Schätzungen ohne abgerufene Quelle und ausdrücklich keine Modellprognose; V7 ist eine Fortschreibungsschätzung aus geltendem Beitragsrecht und Demografie; V10 stützt sich auf die abgerufene Bitkom/Borderstep-Angabe von rund 2.020 MW KI-IT-Anschlussleistung 2030, die ich wegen des im Regierungsentwurf gewählten, weiteren Maßstabs der elektrischen Nennanschlussleistung (statt der vom Bitkom vorgeschlagenen IT-Nennlast) um den Infrastruktur- und Kühlungsanteil auf rund 3,0 GW heraufsetze — ein rein rechtlicher Definitionsaufschlag, dessen ökonomische Plausibilität ich ausdrücklich nicht beurteile.",
+  "falsifier": "Wenn das Bundesverfassungsgericht oder der Gesetzgeber bis 2028 einen tragfähigen Weg eröffnete, eine wertschöpfungs- oder computebezogene Abgabe innerhalb des Typenkatalogs des Art. 106 GG zu verorten — etwa durch eine Ergänzung des Art. 106 GG selbst oder durch eine Entscheidung, die eine an Rechenkapazität anknüpfende Abgabe als zulässige Verbrauchsteuer oder als verfassungskonforme Sonderabgabe qualifizierte —, bräche die Kernannahme meiner Schätzung zusammen: dann wäre (a) beziehungsweise (f) keine Randwahrscheinlichkeit mehr, K2 verschöbe sich von den öffentlichen Haushalten zur Kapitalseite, und V7 läge deutlich niedriger.",
+  "confidence": 41,
+  "uncertain": [
+   "V12 (Netto-Abfluss für importierte KI-Vorleistungen): Größte Unsicherheit, weil weder die Bemessungsgrundlage noch die Abzugsfähigkeit importierter KI-Vorleistungen (§ 5.1 des Papiers) geklärt ist und konzerninterne Verrechnungspreise sowie Lizenzschranke (§ 4j EStG) den ausgewiesenen Nettobetrag stark verschieben können; Intervall 11 bis 44 Mrd. EUR bewusst weit.",
+   "V9 (Industriestrompreis): Reine Schätzung ohne abgerufene Quelle, abhängig von beihilferechtlicher Genehmigungsfähigkeit eines subventionierten Industriestrompreises und von Netzentgeltverteilung — eine beihilferechtliche Frage, die ich einordnen kann, deren Preiswirkung ich als Jurist aber nicht kalibrieren kann.",
+   "BEWUSSTE ABWEICHUNG NACH UNTEN — V4 (Automatisierungsgrad, 46 %): Das US-Szenario substantial unterstellt drei Viertel Automatisierung; ich weiche deutlich nach unten ab, weil Art. 14 KI-VO, § 35a VwVfG, Berufs- und Haftungsrecht sowie § 87 Abs. 1 Nr. 6 BetrVG in Deutschland eine rechtlich erzwungene Augmentierungsquote erzeugen, die es in den USA so nicht gibt. Das ist eine Machbarkeitsaussage, keine ökonomische.",
+   "BEWUSSTE ABWEICHUNG NACH OBEN — V8 (Diffusionsverzug regulierter Sektoren, 5,5 Jahre): Ein durchschnittlicher Beobachter dürfte drei bis vier Jahre nennen; ich setze höher an, weil der Verzug in regulierten Sektoren nicht an Technik oder Budget hängt, sondern an Rechtsgrundlagenvorbehalt, Vergaberecht und Sozialdatenschutz — Schranken, die sich nur durch Gesetzgebung, nicht durch Lernkurven auflösen."
+  ],
+  "sources": [
+   "Bitkom e. V. / Borderstep Institut, Studie „Rechenzentren in Deutschland: Aktuelle Marktentwicklungen“, Presseinformation „Rechenzentren in Deutschland: KI treibt das Wachstum“, abgerufen am 14.09.2026 — IT-Anschlussleistung 2,7 GW heute auf 4,8 GW 2030, davon KI-Rechenzentren 530 MW heute auf 2.020 MW 2030 (rund 40 % Anteil), https://www.bitkom.org/Presse/Presseinformation/Rechenzentren-Deutschland-KI-treibt-Wachstum"
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "B02",
+  "archetype": "S6",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.7,
+    "lo": 0.8,
+    "hi": 6
+   },
+   {
+    "variable": "V2",
+    "point": 2.3,
+    "lo": 0.6,
+    "hi": 5.4
+   },
+   {
+    "variable": "V3",
+    "point": 8.4,
+    "lo": 4,
+    "hi": 15
+   },
+   {
+    "variable": "V4",
+    "point": 41,
+    "lo": 24,
+    "hi": 61
+   },
+   {
+    "variable": "V5",
+    "point": -1.3,
+    "lo": -3.6,
+    "hi": 0.4
+   },
+   {
+    "variable": "V6",
+    "point": 6.4,
+    "lo": 5.2,
+    "hi": 8.3
+   },
+   {
+    "variable": "V7",
+    "point": 44.3,
+    "lo": 42.6,
+    "hi": 46.6
+   },
+   {
+    "variable": "V8",
+    "point": 4.6,
+    "lo": 2.5,
+    "hi": 7.5
+   },
+   {
+    "variable": "V9",
+    "point": 17.3,
+    "lo": 11.5,
+    "hi": 23.5
+   },
+   {
+    "variable": "V10",
+    "point": 2.8,
+    "lo": 1.6,
+    "hi": 4.6
+   },
+   {
+    "variable": "V11",
+    "point": 14,
+    "lo": 6,
+    "hi": 30
+   },
+   {
+    "variable": "V12",
+    "point": 31,
+    "lo": 15,
+    "hi": 58
+   },
+   {
+    "variable": "V13",
+    "point": 68,
+    "lo": 45,
+    "hi": 88
+   },
+   {
+    "variable": "V14",
+    "point": 49,
+    "lo": 35,
+    "hi": 62
+   }
+  ],
+  "k1": [
+   "c: 82%",
+   "e: 34%",
+   "b: 27%",
+   "d: 22%",
+   "f: 13%",
+   "a: 11%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Compute und Strom",
+  "reasoning": "Ich beurteile 2030 vom geltenden Recht und vom Vollzug her, nicht vom wünschenswerten Ziel: Was bereits im Gesetzgebungsverfahren steht und konstruktiv nur eine Aufkommensverteilung nach Art. 106 Abs. 6 GG statt einer neuen Steuer nach Art. 105 GG ist — der Zerlegungsmaßstab 10:90 nach nicht redundanter elektrischer Nennanschlussleistung in § 29 Abs. 1 Nr. 4 GewStG-E —, dürfte kommen (subjektiv 82 %), während eine Wertschöpfungsabgabe trotz des italienischen IRAP-Präzedenzfalls (der zeigt, dass eine wertschöpfungsbasierte Bemessungsgrundlage unionsrechtlich tragfähig sein kann) in Deutschland bis 2030 kaum über den Prüfauftragsstatus hinauskäme (11 %) — Schätzungen, das parlamentarische Verfahren steht aus. Entscheidend ist für mich die Asymmetrie der Bemessungsgrundlagen: Der Bezug importierter KI-Vorleistungen (SaaS, API, Cloud) ist in aller Regel voll abzugsfähige Betriebsausgabe und unterliegt mangels Rechteüberlassung typischerweise keinem Steuerabzug nach § 50a EStG, während die inländische Gegenposition — die Lohnsumme — zugleich die alleinige Bemessungsgrundlage der paritätischen Sozialversicherung ist; deshalb schätze ich den Netto-Abfluss hoch (V12 31 Mrd. EUR) und den Anteil EU-kontrollierter Inferenz niedrig (V11 14 %), weil ich \"kontrolliert\" betriebsstättenrechtlich streng als Verfügungsmacht eines EU-Rechtsträgers lese und nicht als bloße EU-Belegenheit einer Hyperscaler-Region. Die US-Substitutionswerte übertrage ich bewusst gedämpft: Der Automatisierungsgrad von drei Vierteln der berührten Aufgaben setzt eine Verantwortungszurechnung voraus, die das deutsche Recht so nicht hergibt (Aufsichtspflicht § 130 OWiG, Dokumentations- und Aufsichtspflichten des AI Act für Hochrisikoanwendungen, Mitbestimmung bei technischen Überwachungseinrichtungen nach § 87 Abs. 1 Nr. 6 BetrVG), weshalb ich V4 auf 41 % und V3 auf 8,4 % setze — die Aufgaben würden berührt, aber die Letztverantwortung bliebe rechtlich personengebunden.",
+  "falsifier": "Wenn bis 2028 nachweisbar wäre, dass die großen Anbieter ihre Inferenz für europäische Produktivanwendungen in EU-Tochtergesellschaften mit eigener Verfügungsmacht über die Anlagen verlagern und die Entgelte dadurch als inländische bzw. EU-interne Wertschöpfung mit lokaler Betriebsstätten- und Gewerbesteuerpflicht anfallen, bräche meine Konstruktion zusammen: V11 läge dann deutlich über 30 %, V12 unter 15 Mrd. EUR, der Souveränitätsbruch (S6) wäre kein Befund mehr, und der fiskalische Zugriff über § 29 GewStG-E würde vom Randinstrument zur tragenden Bemessungsgrundlage.",
+  "uncertain": [
+   "V12 (Netto-Abfluss für importierte KI-Vorleistungen, 31 Mrd. EUR): Es gibt keine steuerliche Meldepflicht, die diesen Strom sauber erfasst — Cloud- und API-Entgelte laufen als gewöhnliche Betriebsausgaben ohne eigene Kennziffer, die Umsatzsteuer erfasst sie über Reverse Charge nach § 13b UStG zwar dem Betrag nach, aber ohne Abgrenzung des KI-Anteils; meine Zahl ist eine Schätzung mit weitem Intervall, nicht eine Messung.",
+   "V10 (nicht redundante elektrische Nennanschlussleistung, 2,8 GW): Hier weiche ich bewusst nach OBEN vom erwartbaren Durchschnittsurteil ab, das die publizierte IT-Anschlussleistung (Bitkom/Borderstep: rund 2.020 MW KI-Kapazität 2030) referieren würde — der Regierungsentwurf stellt ausdrücklich auf die elektrische Nennanschlussleistung ab und hat den Bitkom-Vorschlag der IT-Nennlast verworfen, weshalb die gesetzliche Bemessungsgröße um den Faktor der Gesamtanlagenleistung über der Branchenstatistik liegen dürfte; wer beide gleichsetzt, zerlegt systematisch falsch. Zusätzlich weiche ich bei V4 (41 %) nach unten und bei V8 (4,6 Jahre) nach oben vom Feld ab, jeweils aus Gründen der Verantwortungszurechnung und des Vergabe- und Aufsichtsrechts."
+  ],
+  "sources": [
+   "Bitkom e. V. / Borderstep Institut, 'Rechenzentren in Deutschland: KI treibt das Wachstum' bzw. 'Aktuelle Marktentwicklungen – Update 2025', abgerufen 14.09.2026: KI-Kapazitäten sollen sich bis 2030 von rund 530 MW auf rund 2.020 MW Anschlussleistung vervierfachen (rund 40 % des Gesamtmarkts), Gesamtmarkt rund 5.000 MW IT-Anschlussleistung — https://www.bitkom.org/Presse/Presseinformation/Rechenzentren-Deutschland-KI-treibt-Wachstum",
+   "hardwarewartung.com, 'Rechenzentren in Deutschland: Bis 2030 rund 5 GW mehr Leistung', abgerufen 14.09.2026 (Sekundärwiedergabe der Bitkom/Borderstep-Zahlen) — https://www.hardwarewartung.com/rechenzentren-in-deutschland-bis-2030-rund-5-gw-mehr-leistung/",
+   "Gemeinsamer Faktenkern, § 4.5: Regierungsentwurf BMF vom 18.08.2026, Kabinettbefassung 02.09.2026, Art. 3 Einkommensteuerreformgesetz 2027, § 29 Abs. 1 Nr. 4 GewStG-E (Zerlegung 10 % Arbeitslöhne / 90 % nicht redundante elektrische Nennanschlussleistung, erstmals Erhebungszeitraum 2027) — Konjunktiv, parlamentarisches Verfahren steht aus",
+   "OHNE ABGERUFENE QUELLE, ausdrücklich als Schätzung gekennzeichnet: V9 (Industriestrompreis 2030 real 17,3 ct/kWh) — hergeleitet aus der Persistenz der abgaben- und entgeltrechtlichen Preisbestandteile (Stromsteuer, Netzentgelte, KWKG-Umlage, Konzessionsabgabe) und der beihilferechtlichen Befristung von Entlastungen; V7 (Gesamtsozialversicherungsbeitragssatz 44,3 %) — fortgeschrieben aus dem Beitragssatzniveau 2026 von rund 42,3 % unter Berücksichtigung der rein ausgabenseitigen Wirkung des GKV-Beitragssatzstabilisierungsgesetzes; V12 (31 Mrd. EUR) — grobe Hochrechnung ohne steuerliche Meldebasis; EuGH-Rechtssache zur IRAP (Banca Popolare di Cremona, C-475/03) als Rechtsanker aus dem Gedächtnis, nicht nachgeschlagen"
+  ],
+  "confidence": 0.49,
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "B03",
+  "archetype": "ungebunden",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.4,
+    "lo": 0.7,
+    "hi": 5.2
+   },
+   {
+    "variable": "V2",
+    "point": 2,
+    "lo": 0.5,
+    "hi": 4.6
+   },
+   {
+    "variable": "V3",
+    "point": 8.5,
+    "lo": 4,
+    "hi": 14
+   },
+   {
+    "variable": "V4",
+    "point": 42,
+    "lo": 25,
+    "hi": 62
+   },
+   {
+    "variable": "V5",
+    "point": -0.9,
+    "lo": -2.8,
+    "hi": 0.7
+   },
+   {
+    "variable": "V6",
+    "point": 6.4,
+    "lo": 5.3,
+    "hi": 8.1
+   },
+   {
+    "variable": "V7",
+    "point": 44.6,
+    "lo": 43.1,
+    "hi": 46.6
+   },
+   {
+    "variable": "V8",
+    "point": 5.5,
+    "lo": 3.5,
+    "hi": 8
+   },
+   {
+    "variable": "V9",
+    "point": 15.2,
+    "lo": 10.5,
+    "hi": 21.5
+   },
+   {
+    "variable": "V10",
+    "point": 3,
+    "lo": 1.5,
+    "hi": 6.5
+   },
+   {
+    "variable": "V11",
+    "point": 14,
+    "lo": 6,
+    "hi": 28
+   },
+   {
+    "variable": "V12",
+    "point": 24,
+    "lo": 11,
+    "hi": 48
+   },
+   {
+    "variable": "V13",
+    "point": 72,
+    "lo": 52,
+    "hi": 88
+   },
+   {
+    "variable": "V14",
+    "point": 52,
+    "lo": 38,
+    "hi": 66
+   }
+  ],
+  "k1": [
+   "c: 72%",
+   "b: 34%",
+   "d: 26%",
+   "e: 21%",
+   "a: 11%",
+   "f: 6%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Regulierung und Genehmigung",
+  "reasoning": "Aus europarechtlicher Sicht wiegt die Gegenevidenz zu einer starken Substitutionswirkung schwerer als die ifo-Lohnerwartungen: Die Bundesregierung hat am 20. August 2026 ausdrücklich festgestellt, es lägen \"keine belastbaren Hinweise\" auf systematischen KI-bedingten Beschäftigungsabbau vor, das IAB misst für 2026 sogar einen Beschäftigungsaufbau von +180.000 in öffentlichen Diensten, Erziehung und Gesundheit, und die aufgabenbezogene Diffusion stößt in Europa auf eine zusätzliche Rechtsschicht (KI-VO-Pflichten zur menschlichen Aufsicht bei Hochrisikoanwendungen, DSGVO-Rechtsgrundlagen, Mitbestimmung nach § 87 BetrVG, sektorale Aufsicht), die ich deshalb beim Automatisierungsgrad V4 deutlich unter dem US-Wert von drei Vierteln ansetze - das ist kein Technologie-, sondern ein Zulässigkeitsargument. Zweitens: Die im US-Modell fehlende physische und fiskalische Schicht ist in Europa vor allem eine Rechtsschicht - der koalitionär zugesagte Industriestrompreis von rund fünf Cent steht unter EU-beihilferechtlichem Genehmigungsvorbehalt, ist bis 2028 befristet und schließt Rechenzentren als Dienstleistungsbetriebe bislang aus (abgerufene Quellen, siehe sources), sodass ich V9 hoch und V10 niedrig ansetze; die EuroHPC-Gigafactories sind Kofinanzierung unter Beihilfeaufsicht und Vergaberecht, nicht freie Industriepolitik. Drittens und aus meinem Mandat heraus divergierend: Die naheliegenden Finanzierungsantworten sind europarechtlich verstellt - eine Wertschöpfungsabgabe stünde im Konflikt mit dem Verbot umsatzsteuerähnlicher Abgaben (Art. 401 MwStSystRL), eine Digitalabgabe scheiterte bislang am Einstimmigkeitserfordernis (Art. 113/115 AEUV) und an handelspolitischer Retorsion, und eine Abgabe auf den Bezug importierter KI-Vorleistungen (K1 f) würde an der Dienstleistungsfreiheit (Art. 56 AEUV), an GATS und am DBA-Netz gemessen - weshalb ich erwarte, dass bis 2030 fiskalisch im Wesentlichen nur der rein national verteilungswirksame, beihilferechtlich neutrale Zerlegungsmaßstab des § 29 Abs. 1 Nr. 4 GewStG-E in Kraft träte (Konjunktiv: das parlamentarische Verfahren steht aus) und die Anpassungslast bei öffentlichen Haushalten und Beitragszahlern landete.",
+  "k2_note": "(genau eine Option gewählt)",
+  "uncertain": [
+   "V11 (Anteil in der EU betriebener und kontrollierter Inferenz): Die Unsicherheit ist zuerst eine Rechtsfrage, nicht eine Kapazitätsfrage - ob 'kontrolliert' juristisch bedeutet 'nicht dem Zugriff nach US-CLOUD-Act unterliegend' oder nur 'physisch in der EU belegen', verschiebt den Wert um mehr als das Doppelte; Souveränitätskonstrukte (Treuhand-, Joint-Venture-Modelle) sind in ihrer Belastbarkeit ungeklärt. Hier weiche ich bewusst NACH UNTEN vom erwartbaren Durchschnittsurteil ab (14 % statt der wohl konsensnahen 25-35 %), weil ich den strengen Kontrollbegriff anlege und die Gigafactory-Vergabe erst Anfang 2027 erfolgt.",
+   "V4 (Automatisierungsgrad der berührten Aufgaben): Ich setze 42 % und damit deutlich unter den drei Vierteln des US-Szenarios substantial - bewusst abweichend NACH UNTEN, weil ich die KI-VO-Aufsichtspflichten, Haftungsrecht und Mitbestimmung als harte Zulässigkeitsgrenze lese; genau hier wirkt meine Rollenblindstelle, da ich nationale Gestaltungsspielräume zur Öffnung eher unterschätze und die Vollzugspraxis der Aufsichtsbehörden nachsichtiger ausfallen könnte, als der Normtext nahelegt."
+  ],
+  "falsifier": "Wenn die Kommission bis Ende 2027 den deutschen Industriestrompreis beihilferechtlich freigäbe UND Rechenzentren ausdrücklich in den begünstigten Kreis einbezöge (oder wenn im Rat eine Digitalabgabe bzw. eine Wertschöpfungsabgabe trotz Art. 401 MwStSystRL und Einstimmigkeitserfordernis zustande käme), wäre meine Kernthese widerlegt, dass Europarecht die bindende Restriktion ist - dann wären V9 deutlich niedriger, V10 und V11 deutlich höher anzusetzen und K3 auf 'Compute und Strom' zu korrigieren.",
+  "confidence": 52,
+  "sources": [
+   "Industriestrompreis 2026 in Deutschland - Analyse und Aktuelles, levonova.energy, abgerufen 14.09.2026, https://levonova.energy/industriestrompreis/ (Koalitionsbeschluss 13.11.2025: rund 5 ct/kWh für energieintensive Unternehmen, Geltung 2026-2028, ausdrücklich unter EU-beihilferechtlichem Genehmigungsvorbehalt; SMARD-Modellwert Juni 2026: 16,26 ct/kWh ohne Entlastung, 10,73 ct/kWh mit maximaler Entlastung)",
+   "Industriestrompreis: Koalitionsversprechen einlösen - Rechenzentren ausdrücklich einbeziehen, German Datacenter Association, abgerufen 14.09.2026, https://www.germandatacenters.com/news/detail/industriestrompreis-koalitionsversprechen-einloesen-rechenzentren-ausdruecklich-einbeziehen/ (Rechenzentren als Dienstleistungsbetriebe bislang nicht im Entlastungsmodell; Verbandsangabe: Strompreise für Rechenzentren in Deutschland europaweit mit am höchsten, Senkungsbedarf mindestens 20 Prozent)",
+   "Industriestrompreis für Rechenzentren soll kommen, Computerwoche, abgerufen 14.09.2026, https://www.computerwoche.de/article/4018718/industriestrompreis-fur-rechenzentren-soll-kommen.html",
+   "HINWEIS ZUR KENNZEICHNUNG: V1-V8, V10-V14 sind eigene Schätzungen aus Rollenperspektive ohne externe Quelle, abgeleitet aus dem gemeinsamen Faktenkern (IAB-Frühjahrsprognose 24.03.2026, ifo Konjunkturperspektiven 07/2026 vom 12.08.2026, BT-Drs. 21/7620 vom 20.08.2026, EuroHPC IP/26/1708 vom 30.07.2026, Regierungsentwurf § 29 Abs. 1 Nr. 4 GewStG-E vom 18.08.2026). V9 stützt sich auf die oben abgerufenen Preisangaben. Modellergebnisse von Korinek et al. sind ausdrücklich keine Prognosen und wurden nicht auf Deutschland übertragen, sondern nur als Vergleichsmaßstab für V3/V4 herangezogen."
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "B04",
+  "archetype": "S3",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.4,
+    "lo": 0.5,
+    "hi": 5.6
+   },
+   {
+    "variable": "V2",
+    "point": 2.1,
+    "lo": 0.3,
+    "hi": 5.1
+   },
+   {
+    "variable": "V3",
+    "point": 7.5,
+    "lo": 3,
+    "hi": 14
+   },
+   {
+    "variable": "V4",
+    "point": 55,
+    "lo": 35,
+    "hi": 72
+   },
+   {
+    "variable": "V5",
+    "point": -2.3,
+    "lo": -4.6,
+    "hi": 0.2
+   },
+   {
+    "variable": "V6",
+    "point": 6.4,
+    "lo": 5.2,
+    "hi": 8.1
+   },
+   {
+    "variable": "V7",
+    "point": 45.1,
+    "lo": 43.3,
+    "hi": 47.4
+   },
+   {
+    "variable": "V8",
+    "point": 5.5,
+    "lo": 3,
+    "hi": 8
+   },
+   {
+    "variable": "V9",
+    "point": 16.5,
+    "lo": 11,
+    "hi": 23
+   },
+   {
+    "variable": "V10",
+    "point": 3.2,
+    "lo": 1.8,
+    "hi": 6
+   },
+   {
+    "variable": "V11",
+    "point": 18,
+    "lo": 8,
+    "hi": 35
+   },
+   {
+    "variable": "V12",
+    "point": 24,
+    "lo": 9,
+    "hi": 46
+   },
+   {
+    "variable": "V13",
+    "point": 72,
+    "lo": 54,
+    "hi": 88
+   },
+   {
+    "variable": "V14",
+    "point": 57,
+    "lo": 44,
+    "hi": 68
+   }
+  ],
+  "k1": [
+   "a: 18%",
+   "b: 38%",
+   "c: 76%",
+   "d: 29%",
+   "e: 41%",
+   "f: 12%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Fachkräfte und Qualifikation",
+  "reasoning": "Aus sozialrechtlicher Sicht ist die entscheidende Größe nicht die Lohnquote, sondern die beitragspflichtige Entgeltsumme unterhalb der Bemessungsgrenzen: Wenn die ifo-Messung vom Juni 2026 (rund 50 % der KI-nutzenden Unternehmen erwarten sinkende Einstiegslöhne) auch nur teilweise realisiert würde, träfe die Kompression genau das Segment, das voll beitragspflichtig ist, während die Zuwächse bei erfahrenen Akademikern (26 %) überwiegend oberhalb der BBG anfielen — die Beitragsbasis erodierte dann schneller als jede volkswirtschaftliche Lohnquote es anzeigt; das ist eine Schätzung der Wirkungsrichtung, keine Messung. Die Systematik des SGB reagiert auf eine solche Einnahmenlücke seit jeher zuerst mit Beitragssatzanhebung und ausgabenseitiger Deckelung, nicht mit einem Wechsel der Bemessungsgrundlage: das GKV-Beitragssatzstabilisierungsgesetz vom 10. Juli 2026 („Ausgaben an Einnahmen koppeln\", rund 42,8 Mrd. EUR bis 2030) und die Bundesregierungsantwort vom 20. August 2026 ohne jedes fiskalische Instrument sind dafür der beste verfügbare Beleg — deshalb setze ich V7 ausgehend vom heutigen Gesamtsatz von 42,3 % (18,6 + 14,6 + 2,9 + 3,6 + 2,6) auf 45,1 % und damit über das, was ein Durchschnittsbeobachter mit Reformhoffnung ansetzen würde. Eine Wertschöpfungsabgabe im Sinne von § 5.1 des Arbeitspapiers wäre zwar konstruierbar, sie bräche aber mit Paritätsprinzip und versicherungsrechtlicher Äquivalenz von Beitrag und Anwartschaft und würde meines Erachtens bis 2030 allenfalls angekündigt, nicht in Kraft gesetzt — anders die Zerlegung nach Anschlussleistung (§ 29 Abs. 1 Nr. 4 GewStG-E), die gerade deshalb Aussicht hätte, weil sie nach Art. 105 GG keine neue Steuer, sondern reine Aufkommensverteilung wäre (Konjunktiv: das parlamentarische Verfahren steht aus).",
+  "uncertain": [
+   "V5 (Lohnquote, −2,3 Pp): Der US-Wert von −4 Pp im Szenario substantial ist nicht übertragbar, weil Tarifbindung, Flächentarif und ein höherer Anteil nicht-kognitiver Tätigkeiten die Anpassung in Deutschland eher über Mengen (Einstellungsstopp, IAB: Industrie −140.000) als über Preise laufen lassen; ob sich die Erosion in der volkswirtschaftlichen Lohnquote oder nur in der beitragspflichtigen Entgeltsumme zeigt, kann ich nicht trennen — das Intervall reicht deshalb bis +0,2 Pp.",
+   "V12 (Netto-Abfluss KI-Vorleistungen, 24 Mrd. EUR): reine Schätzung außerhalb meiner Fachkompetenz; sie ist für mich nur deshalb relevant, weil importierte Lizenz- und Cloud-Vorleistungen als Betriebsausgabe voll abzugsfähig wären, aber keinerlei Beitragsäquivalent tragen — die in § 5.1 offene Frage der Abzugsfähigkeit ist für die Sozialfinanzierung die eigentlich brisante.",
+   "BEWUSSTE ABWEICHUNG NACH OBEN: V7 (45,1 %) und V8 (5,5 Jahre). Beim Beitragssatz weiche ich nach oben ab, weil ich — anders als ein reformoptimistischer Durchschnitt — unterstelle, dass die Systemtreue gewinnt und die Anpassung ausschließlich über den Satz läuft; beim Diffusionsverzug nach oben, weil Selbstverwaltung, Sozialdatenschutz nach SGB X und die Nichtdelegierbarkeit von Verwaltungsakten in der Sozialverwaltung eine autonome Aufgabenerledigung rechtlich sperren, nicht nur technisch verzögern.",
+   "BEWUSSTE ABWEICHUNG NACH UNTEN: K1 (b) mit 38 % — trotz des ausdrücklichen Prüfauftrags der Alterssicherungskommission (Kapitalerträge, Mieten) halte ich die Verbreiterung für unwahrscheinlicher als der Durchschnitt, weil sie das Versicherungsprinzip an der Wurzel trifft: Beiträge ohne korrespondierende Anwartschaft wären der Sache nach eine Steuer."
+  ],
+  "falsifier": "Wenn die Rechnungsergebnisse der Sozialversicherungsträger bis 2028 zeigten, dass die beitragspflichtige Entgeltsumme trotz KI-Diffusion weiter mindestens im Trend wächst — etwa weil der Beschäftigungsaufbau in Gesundheit, Erziehung und öffentlichen Diensten (IAB: +180.000) den Industrieabbau dauerhaft überkompensiert und die Lohnkompression bei Berufseinsteigern empirisch ausbleibt (die Bundesregierung sieht dafür am 20. August 2026 ausdrücklich „keine belastbaren Hinweise\") —, dann wäre mein zentraler Mechanismus widerlegt und V7 läge eher bei 43 als bei 45 Prozent.",
+  "confidence": 57,
+  "sources": [
+   "Beitragssätze in der Sozialversicherung 2026 (KV 14,6 %, durchschnittlicher Zusatzbeitrag 2,9 % festgesetzt am 10.11.2025, RV 18,6 %, PV 3,6 %, AV 2,6 % — Summe 42,3 %), Techniker Krankenkasse / AOK Firmenkunden, Stand 2026, abgerufen 14.09.2026, https://www.tk.de/firmenkunden/versicherung/beitraege-faq/beitragssaetze/aktuelle-beitragssaetze-in-der-sozialversicherung-2031554 und https://www.aok.de/fk/jahreswechsel/sv-beitraege-2026/",
+   "Alle übrigen Zahlen: gemeinsamer Faktenkern (Arbeitspapier V94.0, September 2026) oder ausdrücklich als eigene Schätzung gekennzeichnet — insbesondere V1, V2, V3, V4, V5, V6, V8, V9, V10, V11, V12, V13 sind Schätzungen ohne eigene Quelle."
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "command": "submit",
+  "agent_id": "B05",
+  "archetype": "ungebunden",
+  "confidence": 48,
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.3,
+    "lo": 0.6,
+    "hi": 5.4
+   },
+   {
+    "variable": "V2",
+    "point": 2.6,
+    "lo": 0.8,
+    "hi": 5.8
+   },
+   {
+    "variable": "V3",
+    "point": 8.4,
+    "lo": 4,
+    "hi": 15
+   },
+   {
+    "variable": "V4",
+    "point": 41,
+    "lo": 22,
+    "hi": 62
+   },
+   {
+    "variable": "V5",
+    "point": -1.4,
+    "lo": -3.6,
+    "hi": 0.3
+   },
+   {
+    "variable": "V6",
+    "point": 6.4,
+    "lo": 5.2,
+    "hi": 8.1
+   },
+   {
+    "variable": "V7",
+    "point": 43.9,
+    "lo": 42.4,
+    "hi": 45.8
+   },
+   {
+    "variable": "V8",
+    "point": 5.5,
+    "lo": 3,
+    "hi": 8
+   },
+   {
+    "variable": "V9",
+    "point": 16.8,
+    "lo": 12.5,
+    "hi": 23
+   },
+   {
+    "variable": "V10",
+    "point": 1.8,
+    "lo": 0.9,
+    "hi": 4
+   },
+   {
+    "variable": "V11",
+    "point": 19,
+    "lo": 8,
+    "hi": 41
+   },
+   {
+    "variable": "V12",
+    "point": 23,
+    "lo": 9,
+    "hi": 46
+   },
+   {
+    "variable": "V13",
+    "point": 72,
+    "lo": 55,
+    "hi": 88
+   },
+   {
+    "variable": "V14",
+    "point": 48,
+    "lo": 35,
+    "hi": 60
+   }
+  ],
+  "k1": [
+   "c: 78%",
+   "e: 34%",
+   "b: 27%",
+   "d: 14%",
+   "f: 12%",
+   "a: 9%",
+   "g: 8%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Regulierung und Genehmigung",
+  "reasoning": "Aus der Sicht der Finanzgerichtsbarkeit ist nicht die technische Leistungsfähigkeit der Modelle der Engpass, sondern die Abgrenzungsfestigkeit der Tatbestände, an die Wirtschaft und Fiskus anknüpfen müssten: Solange offen bleibt, wann eine KI-gestützte Verrichtung dem Unternehmen selbst, wann dem Anbieter und wann einer ausländischen Betriebsstätte zuzurechnen wäre, bleibt der autonome Betrieb haftungs- und dokumentationsseitig teuer, weshalb ich den Automatisierungsgrad (V4, Schätzung) deutlich unter dem US-Wert von drei Vierteln ansetze und auch V3 unterhalb der 12 Prozent des Szenarios substantial halte — der höhere Anteil nicht-kognitiver Tätigkeiten in Deutschland und die dokumentierte Gegenevidenz (Position der Bundesregierung vom 20. August 2026, IAB-Beschäftigungsaufbau von 180.000 in öffentlichen Diensten, Erziehung und Gesundheit) wiegen für mich schwerer als die ifo-Lohnerwartungen, die Erwartungen messen und keine realisierten Entgelte. Der Zerlegungsmaßstab des § 29 Abs. 1 Nr. 4 GewStG-E dürfte kommen, weil er konstruktiv keine neue Steuer nach Art. 105 GG wäre, sondern eine Aufkommensverteilung; genau deshalb erwarte ich aber ab dem Erhebungszeitraum 2027 eine Welle von Zerlegungsstreitigkeiten über \"nicht redundante elektrische Nennanschlussleistung\" (Redundanzabgrenzung N+1 gegen 2N, Mischnutzung Colocation, gestufte Anmeldeleistung, gemeindeübergreifende Campusstrukturen) mit entsprechenden Gestaltungsanreizen, die die ausgewiesene Bemessungsgröße nach unten drücken — das ist der Grund, warum ich V10 konservativ schätze. Die Hauptlast trügen nach meiner Einschätzung die öffentlichen Haushalte und Beitragszahler, weil die lohngekoppelte Finanzierung erodiert, während jeder Ersatztatbestand — Wertschöpfungsabgabe, Digitalabgabe, Abgabe auf importierte KI-Vorleistungen — an denselben Abgrenzungsfragen (Leistungsort, Lizenz gegen Dienstleistung gegen Cloud, Verrechnungspreis im Konzern) hängt und deshalb jahrelang justiziabel unsicher bliebe; sämtliche Zahlen sind Schätzungen aus dem Faktenkern, keine Modellprognose und keine empirische Messung.",
+  "falsifier": "Wenn bis Ende 2028 finanzgerichtlich oder durch eine bundeseinheitliche Verwaltungsanweisung geklärt wäre, wie \"nicht redundante elektrische Nennanschlussleistung\" und die Zurechnung importierter KI-Vorleistungen (Lizenz/API/Cloud) rechtssicher abzugrenzen sind, und die Zerlegungs- und Verrechnungspreisstreitigkeiten ausblieben, dann entfiele mein zentrales Bremsargument: Dann wären sowohl höhere Automatisierungsgrade (V4) als auch ein deutlich größerer, korrekt ausgewiesener Rechenzentrumsbestand (V10) und eine schnellere fiskalische Reaktion plausibel, und meine unterdurchschnittlichen Werte bei V3, V4 und V10 wären widerlegt.",
+  "uncertain": [
+   "V10 (installierte nicht redundante Anschlussleistung): Die Größe ist keine physikalische, sondern eine Rechtsgröße — sie hängt davon ab, wie Redundanz, Anmelde- gegen Nennleistung und Campus-Abgrenzung im Verfahren definiert werden; solange das ungeklärt ist, kann der ausgewiesene Wert um den Faktor vier schwanken, daher mein weites Intervall 0,9 bis 4,0 GW.",
+   "V12 (Netto-Abfluss für importierte KI-Vorleistungen): Der Wert ist messtechnisch von Verrechnungspreisgestaltungen im Konzern und von der in § 5.1 offenen Frage der Abzugsfähigkeit abhängig; je nachdem, ob konzerninterne Lizenzverrechnung als Vorleistungsbezug oder als Gewinnverlagerung erfasst wird, verschiebt sich derselbe ökonomische Sachverhalt um zweistellige Milliardenbeträge.",
+   "BEWUSSTE ABWEICHUNG vom erwartbaren Durchschnittsurteil, nach unten: V4 (Automatisierungsgrad) setze ich mit 41 Prozent deutlich unter den aus dem US-Szenario substantial ableitbaren Wert von rund 75 Prozent, weil Zurechenbarkeit, Begründungs- und Dokumentationspflichten in Deutschland den Menschen in der Entscheidungsschleife halten dürften; ebenso weiche ich bei K3 vom erwartbaren Panelkonsens 'Compute und Strom' ab und nenne 'Regulierung und Genehmigung' als bindende Restriktion."
+  ],
+  "sources": [],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "B06",
+  "archetype": "S6",
+  "confidence": 57,
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.7,
+    "lo": 0.6,
+    "hi": 6.2
+   },
+   {
+    "variable": "V2",
+    "point": 2.3,
+    "lo": 0.4,
+    "hi": 5.5
+   },
+   {
+    "variable": "V3",
+    "point": 8.5,
+    "lo": 4,
+    "hi": 15
+   },
+   {
+    "variable": "V4",
+    "point": 57,
+    "lo": 38,
+    "hi": 76
+   },
+   {
+    "variable": "V5",
+    "point": -1.4,
+    "lo": -3.4,
+    "hi": -0.2
+   },
+   {
+    "variable": "V6",
+    "point": 6.6,
+    "lo": 5.4,
+    "hi": 8.4
+   },
+   {
+    "variable": "V7",
+    "point": 45.3,
+    "lo": 43.6,
+    "hi": 47.8
+   },
+   {
+    "variable": "V8",
+    "point": 4.6,
+    "lo": 2.5,
+    "hi": 7
+   },
+   {
+    "variable": "V9",
+    "point": 16.8,
+    "lo": 12,
+    "hi": 23
+   },
+   {
+    "variable": "V10",
+    "point": 3.4,
+    "lo": 1.6,
+    "hi": 6.5
+   },
+   {
+    "variable": "V11",
+    "point": 13,
+    "lo": 6,
+    "hi": 27
+   },
+   {
+    "variable": "V12",
+    "point": 33,
+    "lo": 15,
+    "hi": 62
+   },
+   {
+    "variable": "V13",
+    "point": 72,
+    "lo": 55,
+    "hi": 88
+   },
+   {
+    "variable": "V14",
+    "point": 57,
+    "lo": 44,
+    "hi": 70
+   }
+  ],
+  "k1": [
+   "c: 85%",
+   "b: 55%",
+   "e: 45%",
+   "f: 30%",
+   "d: 25%",
+   "a: 18%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Compute und Strom",
+  "reasoning": "Aus der Sicht eines Konzern-Compliance-Juristen wäre die entscheidende Grösse 2030 nicht die Aufgabenautomatisierung, sondern die Frage, in welcher Jurisdiktion der KI-bezogene Residualgewinn anfiele: Solange importierte Lizenz-, API- und Cloud-Vorleistungen als abzugsfähiger Aufwand konzernintern verrechnet werden könnten (offene Frage in § 5.1 des Papiers) und Pillar 1 Amount A politisch weiter hinge, würde ein erheblicher Teil des in Deutschland erzeugten Produktivitätsgewinns die deutsche Bemessungsgrundlage nicht berühren — das drückt meine V1-Schätzung unter das, was die reine Aufgabenrechnung nahelegte, und hebt V12 (Schätzung: rund 33 Mrd. EUR Netto-Abfluss, weites Intervall wegen der Grauzone zwischen echtem Drittlizenzbezug und konzerninterner Verrechnung). Der am 2. September 2026 aufgerufene Zerlegungsmassstab nach nicht redundanter Nennanschlussleistung (§ 29 Abs. 1 Nr. 4 GewStG-E) wäre für mich die technisch sauberste, weil keine neue Steuer nach Art. 105 GG, zugleich aber der am leichtesten gestaltbare Anknüpfungspunkt — Redundanzabgrenzung, Anschlussteilung über mehrere Rechtsträger und die Wahl zwischen Miet-, Colocation- und Eigenbetriebsmodell verschöben Aufkommen, ohne dass sich physisch etwas änderte, weshalb ich V10 bewusst konservativ und V11 niedrig ansetze (vertragliche \"Souveränitäts\"-Konstruktionen über EU-Regionen US-kontrollierter Anbieter erfüllen aus meiner Prüfperspektive das Merkmal \"kontrolliert\" gerade nicht). Meine V5-Schätzung fällt weniger negativ aus als beim durchschnittlichen Beobachter, weil die in Deutschland gemessene Kapitalquote den KI-Kapitaleinkommensanteil systematisch untererfasste, wenn der Gewinn im IP-Holdingstaat anfiele — die Verteilungsverschiebung wäre real, in der deutschen VGR aber teilweise unsichtbar, und die Last landete dann über V7 bei Beitragszahlern und öffentlichen Haushalten. Alle Modellaussagen aus Korinek et al. stehen im Konjunktiv und sind ausdrücklich keine Prognosen; die US-Werte (12 % berührte Aufgaben, 75 % Automatisierungsgrad) übertrage ich nicht, sondern setze wegen des höheren Anteils nicht-kognitiver Tätigkeiten, Dokumentations- und Haftungsanforderungen sowie Mitbestimmung niedriger an.",
+  "falsifier": "Ein bis 2030 wirksam umgesetzter, unilateral oder EU-weit greifender Quellenabzug bzw. eine Abzugsbeschränkung auf grenzüberschreitende KI-Vorleistungen (oder ein tatsächlich in Kraft getretener Pillar-1-Amount-A-Mechanismus mit Nexus für digitale Dienstleistungsumsätze): Dann fiele der steuerlich wirksame Netto-Abfluss (V12) deutlich unter 25 Mrd. EUR, die Gestaltungsroute über konzerninterne Lizenzströme wäre geschlossen, und mein S6-Befund — Wertschöpfungsabfluss bei vorhandener Nutzung — wäre hinfällig; ebenso widerlegend wäre ein messbarer EU-Inferenzanteil über 30 % auf Infrastruktur mit echter gesellschaftsrechtlicher EU-Kontrolle.",
+  "uncertain": [
+   "V12 (Netto-Abfluss für importierte KI-Vorleistungen, 33 Mrd. EUR, 15-62): grösste Unsicherheit, weil die statistische Abgrenzung zwischen echtem Drittbezug, konzerninterner Lizenzverrechnung und eingebetteten Softwarekosten in keiner mir zugänglichen Quelle sauber getrennt ist - deshalb das breite Intervall.",
+   "V10 (installierte nicht redundante Nennanschlussleistung, 3,4 GW, 1,6-6,5): Unsicherheit weniger physisch als definitorisch - der Begriff 'nicht redundant' ist der Gestaltungshebel, und ob Genehmigungs- und Netzanschlusszeiten bis 2030 überhaupt mehr zulassen, ist offen.",
+   "BEWUSSTE ABWEICHUNG vom erwartbaren Durchschnittsurteil: V5 (Lohnquote nur -1,4 Pp statt der vom Panel vermutlich genannten -2 bis -4 Pp) - Richtung: weniger negativ. Begründung aus meiner Rolle: die Verteilungsverschiebung fände statt, würde in der deutschen VGR aber untererfasst, weil der KI-Residualgewinn in ausländischen IP-Holdings anfiele. Zweite, schwächere Abweichung: V4 (57 % statt der US-nahen 75 %) - Richtung: niedriger, wegen Haftungs- und Dokumentationszwang zum Human-in-the-Loop."
+  ],
+  "sources": [
+   "Keine externe Quelle abgerufen. Alle Werte ausserhalb des gemeinsamen Faktenkerns (V1, V2, V3, V4, V5, V6, V7, V8, V9, V10, V11, V12, V13) sind eigene Schaetzungen der Rolle und im reasoning als solche gekennzeichnet; Grundlage sind ausschliesslich die im Faktenkern belegten Sachverhalte (Korinek/Jones/Sacher/Cotter/McCrory, Anthropic Institute WP 2026-02, September 2026; IAB-Kurzfristprognose 24.03.2026; ifo Konjunkturperspektiven 07/2026 vom 12.08.2026; BT-Drs. 21/7620 vom 20.08.2026; Regierungsentwurf BMF vom 18.08.2026 / Kabinett 02.09.2026 zu § 29 Abs. 1 Nr. 4 GewStG-E; EuroHPC IP/26/1708 vom 30.07.2026)."
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "C01",
+  "archetype": "ungebunden",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 1.8,
+    "lo": 0.4,
+    "hi": 4.6
+   },
+   {
+    "variable": "V2",
+    "point": 2.2,
+    "lo": 0.5,
+    "hi": 5.2
+   },
+   {
+    "variable": "V3",
+    "point": 7.5,
+    "lo": 3.5,
+    "hi": 13
+   },
+   {
+    "variable": "V4",
+    "point": 38,
+    "lo": 20,
+    "hi": 60
+   },
+   {
+    "variable": "V5",
+    "point": -1.1,
+    "lo": -3,
+    "hi": 0.4
+   },
+   {
+    "variable": "V6",
+    "point": 6.4,
+    "lo": 5.3,
+    "hi": 8.2
+   },
+   {
+    "variable": "V7",
+    "point": 44.9,
+    "lo": 43.2,
+    "hi": 47
+   },
+   {
+    "variable": "V8",
+    "point": 4.5,
+    "lo": 2.5,
+    "hi": 7
+   },
+   {
+    "variable": "V9",
+    "point": 16.9,
+    "lo": 12.8,
+    "hi": 22.5
+   },
+   {
+    "variable": "V10",
+    "point": 2.2,
+    "lo": 1,
+    "hi": 4.6
+   },
+   {
+    "variable": "V11",
+    "point": 12,
+    "lo": 5,
+    "hi": 26
+   },
+   {
+    "variable": "V12",
+    "point": 24,
+    "lo": 11,
+    "hi": 45
+   },
+   {
+    "variable": "V13",
+    "point": 72,
+    "lo": 48,
+    "hi": 90
+   },
+   {
+    "variable": "V14",
+    "point": 48,
+    "lo": 35,
+    "hi": 62
+   }
+  ],
+  "k1": [
+   "c: 78%",
+   "e: 40%",
+   "b: 30%",
+   "d: 18%",
+   "f: 15%",
+   "a: 12%",
+   "g: 8%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Kapital und Finanzierung",
+  "reasoning": "Ich rechne diese Frage so, wie ich jedes Investitionsvorhaben rechne: Ein KI-Projekt muss meine Kapitalkosten verdienen, und in meinen eigenen Amortisationsrechnungen liegt die Rückflussdauer der bisher freigegebenen KI-Vorhaben (Instandhaltungsplanung, Angebotskalkulation, Rechnungs- und Reklamationsbearbeitung, technische Dokumentation) bei vier bis sechs Jahren, weil der Aufwand nicht im Lizenzpreis steckt, sondern in Datenaufbereitung, Prozessumbau, Freigabe- und Nachweispflichten und Mitbestimmung — deshalb schätze ich den gesamtwirtschaftlichen BIP-Effekt bis 2030 (V1 +1,8 %) deutlich unter dem mittleren US-Szenario an, denn dessen Kalibrierung unterstellt kognitive Aufgabenanteile, die ein Unternehmen mit Werksbelegschaft schlicht nicht hat; die Position der Bundesregierung vom 20. August 2026 (keine belastbaren Hinweise auf systematischen Abbau, KI verändere Aufgaben statt Berufsbilder) und der IAB-Beschäftigungsaufbau in öffentlichen Diensten und Gesundheit von +180.000 stützen diese vorsichtige Kalibrierung stärker als die ifo-Lohnerwartungen, die eine Erwartung von Unternehmen messen und keine realisierte Größe. Zugleich schlage ich beim Automatisierungsgrad (V4 38 % statt der US-Annahme von drei Vierteln) bewusst niedrig an, weil in einem testierungs-, produkthaftungs- und auditpflichtigen Industrieunternehmen jede KI-erzeugte Ausgabe in Kalkulation, Abschluss und Konstruktion einen menschlichen Freigabeschritt behält — das ist keine Technikskepsis, sondern eine Kontrollanforderung, die ich als Finanzvorstand nicht aufgeben darf. Den Netto-Abfluss für importierte KI-Vorleistungen (V12 24 Mrd. EUR) und den Anteil EU-kontrollierter Inferenz (V11 12 %) leite ich direkt aus meiner eigenen Kreditorenseite ab: Was ich an Lizenz-, API- und Cloud-Rechnungen zahle, geht praktisch vollständig an nicht-europäische Anbieter, auch wenn die Rechenzentrumsregion in der EU liegt — kontrolliert wird die Infrastruktur trotzdem nicht in Europa, und genau diese Rechnung ist in meiner GuV eine harte, indexierte Fixkostenposition, keine Modellannahme.",
+  "uncertain": [
+   "V12 (Netto-Abfluss importierte KI-Vorleistungen, 24 Mrd. EUR): Ich hochskaliere meine eigene Kreditorenstruktur (rund 0,27 % vom Umsatz KI-Vorleistung, davon etwa 85 % nicht-europäisch) auf die deutsche Unternehmenslandschaft — das ist methodisch eine Ein-Firmen-Extrapolation ohne belastbare Zahlungsbilanzstatistik, und ich weiche hier bewusst NACH OBEN vom erwartbaren Durchschnittsurteil ab, weil die meisten Beobachter nur den sichtbaren Lizenzblock sehen, während ich auch die eingebetteten KI-Anteile in ERP-, CAD-, MES- und Office-Verträgen mitrechne, die bei jeder Vertragsverlängerung stillschweigend im Preis landen.",
+   "V10 (installierte nicht redundante Anschlussleistung KI-Rechenzentren, 2,2 GW): Ich weiche hier bewusst NACH UNTEN ab — aus meiner eigenen Standortplanung kenne ich Netzanschlusszeiten für Mittel- und Hochspannungsanschlüsse, die regelmäßig jenseits von 48 Monaten liegen, und ich traue der angekündigten EuroHPC-Gigafactory-Pipeline nicht zu, bis 2030 physisch am Netz zu sein; wer hier hoch schätzt, rechnet Absichtserklärungen, ich rechne Inbetriebnahmen, und genau diese Differenz ist meine größte Unsicherheit, weil ein einziges realisiertes Großprojekt den Wert verdoppeln könnte.",
+   "V5 (Lohnquote, -1,1 Pp): liegt knapp an der Grenze, weil sich zwei gegenläufige Kräfte fast aufheben — steigende Kapitalintensität in meinem eigenen Haus gegen ein sinkendes Erwerbspersonenpotenzial (IAB: erstmals -40.000 auf 48,62 Mio.), das den Lohndruck von der Angebotsseite her stützt."
+  ],
+  "falsifier": "Wenn in den geprüften Konzernabschlüssen der Geschäftsjahre 2027 und 2028 ein breiter Rückgang der Personalaufwandsquote im verarbeitenden Gewerbe bei gleichzeitig konstanter oder steigender Ausbringungsmenge messbar wäre — also eine realisierte, testierte Margenverbesserung aus KI statt nur aktivierter Projektkosten und Absichtserklärungen —, dann wäre meine niedrige Kalibrierung von V1, V3 und V4 widerlegt, und zwar schneller und härter als durch jede Umfrage zu erwarteten Löhnen.",
+  "confidence": 48,
+  "sources": [
+   "BDEW-Strompreisanalyse Herbst 2026, Bundesverband der Energie- und Wasserwirtschaft, abgerufen am 14.09.2026: Durchschnittspreis für Lieferverträge kleiner und mittlerer Industriebetriebe (160.000 kWh bis 20 Mio. kWh/Jahr, Mittelspannung) 2026 rund 17,2 ct/kWh, -0,4 ct/kWh ggü. Vorjahr; Januar-Ausgabe 2026 wies für Neuverträge rund 16,0 ct/kWh aus. https://www.bdew.de/service/daten-und-grafiken/bdew-strompreisanalyse/ — Basis für V9; die Fortschreibung auf real 16,9 ct/kWh für 2030 ist meine Schätzung (entlastend: geplante Netzentgelt- und Industriestrompreisinstrumente; belastend: Rechenzentrumslast auf Netzentgelte, vgl. Faktenkern § F).",
+   "Alle übrigen Zahlen: Schätzung aus dem Faktenkern (IAB-Frühjahrsprognose 24.03.2026, ifo Konjunkturperspektiven 07/2026 vom 12.08.2026, BT-Drs. 21/7620 vom 20.08.2026, GKV-Beitragssatzstabilisierungsgesetz, EuroHPC IP/26/1708 vom 30.07.2026) und aus eigener Capex- und Amortisationsrechnung des Unternehmens — keine externe Quelle, ausdrücklich als Schätzung gekennzeichnet.",
+   "Zum Archetyp: Meine Werte binden an keinen der sieben Archetypen. V1 = +1,8 % und V3 = 7,5 % lägen im Bereich von S1/S7, V5 = -1,1 Pp verfehlt die S1-Schwelle (≥ -1 Pp) knapp, K1 umfasst mehr als nur (c), V12 = 24 Mrd. EUR verfehlt die S6-Schwelle (≥ 25) knapp, und K3 = Kapital und Finanzierung schließt S6 wie S7 aus. Das Ergebnis ist inhaltlich ein S7-naher Pfad, bei dem aber nicht Anschlussleistung, sondern die Hurdle Rate die Diffusion deckelt — deshalb ungebunden."
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "C02",
+  "archetype": "S3",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.8,
+    "lo": 0.9,
+    "hi": 6.4
+   },
+   {
+    "variable": "V2",
+    "point": 3.3,
+    "lo": 1.1,
+    "hi": 6.9
+   },
+   {
+    "variable": "V3",
+    "point": 8.6,
+    "lo": 4.4,
+    "hi": 14
+   },
+   {
+    "variable": "V4",
+    "point": 61,
+    "lo": 41,
+    "hi": 78
+   },
+   {
+    "variable": "V5",
+    "point": -2.3,
+    "lo": -4.6,
+    "hi": -0.4
+   },
+   {
+    "variable": "V6",
+    "point": 6.6,
+    "lo": 5.4,
+    "hi": 8.3
+   },
+   {
+    "variable": "V7",
+    "point": 44.6,
+    "lo": 43,
+    "hi": 46.9
+   },
+   {
+    "variable": "V8",
+    "point": 4.6,
+    "lo": 2.4,
+    "hi": 7.4
+   },
+   {
+    "variable": "V9",
+    "point": 15.8,
+    "lo": 11.2,
+    "hi": 21.4
+   },
+   {
+    "variable": "V10",
+    "point": 1.6,
+    "lo": 0.7,
+    "hi": 3.4
+   },
+   {
+    "variable": "V11",
+    "point": 17,
+    "lo": 7,
+    "hi": 34
+   },
+   {
+    "variable": "V12",
+    "point": 21,
+    "lo": 9,
+    "hi": 38
+   },
+   {
+    "variable": "V13",
+    "point": 72,
+    "lo": 54,
+    "hi": 88
+   },
+   {
+    "variable": "V14",
+    "point": 57,
+    "lo": 42,
+    "hi": 70
+   }
+  ],
+  "k1": [
+   "c: 82%",
+   "b: 44%",
+   "e: 33%",
+   "d: 27%",
+   "a: 18%",
+   "f: 12%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Datenzugang und Datenqualität",
+  "reasoning": "Aus Controllerinnensicht eines Dienstleistungskonzerns rechnet sich ein Automatisierungsbusinesscase erst, wenn eine Aufgabe autonom und nicht nur unterstützend erledigt wird - deshalb setze ich den Automatisierungsgrad (V4 = 61 %) bewusst über dem, was ein durchschnittlicher Beobachter für Deutschland ansetzen würde, halte die Zahl der überhaupt berührten Aufgaben (V3 = 8,6 %) aber deutlich unter dem US-Wert von 12 % aus dem Szenario substantial, weil die deutsche Berufsstruktur laut Faktenkern mehr nicht-kognitive Tätigkeiten enthält und in meinem Haus die Freigabe eines Prozesses regelmäßig nicht an der Modellfähigkeit, sondern an undokumentierten Prozessvarianten, Mitbestimmung und Datenqualität scheitert (daher K3). Die ifo-Erwartungen vom 12.08.2026 - im Dienstleistungssektor 53,3 % Lohnkompression bei Junioren - decken sich mit meiner eigenen Planung: Ich ersetze Einstiegsstellen nicht nach, die Personalkostenquote sinkt, und genau deshalb erwarte ich einen Rückgang der Lohnquote um rund 2,3 Prozentpunkte (Schätzung, kein Modellergebnis), während der Bund laut Antwort vom 20.08.2026 ausdrücklich keine fiskalische Antwort vorsieht und die GKV-Konsolidierung rein ausgabenseitig angelegt ist. Ausgehend vom Gesamtbeitragssatz 2026 von 42,3 % (14,6 + 2,9 + 18,6 + 2,6 + 3,6, abgerufene Quelle) und sinkender beitragspflichtiger Lohnsumme bei schrumpfendem Erwerbspersonenpotenzial komme ich auf 44,6 % im Jahr 2030 - für mich ist das die kostenrelevanteste Zahl des ganzen Stimmzettels, weil der Arbeitgeberanteil unmittelbar in meiner Deckungsbeitragsrechnung landet; V9 bis V12 sind reine Schätzungen ohne Quelle, wobei ich als Einkäuferin die jeweils günstigste Inferenz beziehe und deshalb den EU-kontrollierten Anteil (V11 = 17 %) niedrig und den Vorleistungsabfluss (V12 = 21 Mrd. EUR, rund 0,5 % des BIP) spürbar, aber unter der S6-Schwelle ansetze. Alle Angaben zu den US-Szenarien stehen im Konjunktiv und wären Modellergebnisse, keine Prognosen; meine eigenen Werte sind Schätzungen aus Businesscase-Logik, keine empirischen Messungen.",
+  "uncertain": [
+   "V4 (Automatisierungsgrad, 61 %): bewusste Abweichung nach OBEN gegenüber dem erwartbaren Durchschnittsurteil - meine Kalkulationsperspektive kennt nur autonome oder gar keine Entlastung, weil ein Assistenzsystem ohne Stellenwirkung in der Prozesskostenrechnung keinen Nutzen ausweist; ob Mitbestimmung, Haftung und Dokumentationspflichten diesen Grad zulassen, kann ich nicht beurteilen.",
+   "V10 (installierte Anschlussleistung, 1,6 GW): ebenfalls bewusste Abweichung nach UNTEN - ich glaube Capex-Ankündigungen erst, wenn Netzanschluss, Genehmigung und Amortisation stehen, und die EuroHPC-Vergabe Anfang 2027 lässt für Inbetriebnahmen bis 2030 wenig Zeit; die Spannweite 0,7 bis 3,4 GW bleibt entsprechend breit.",
+   "V12 (Netto-Abfluss KI-Vorleistungen, 21 Mrd. EUR): Ich sehe nur meine eigene Kostenstelle, nicht die gesamtwirtschaftliche Aggregation, und die Abgrenzung zwischen allgemeiner Cloud- und KI-spezifischer Vorleistung ist buchhalterisch nicht sauber trennbar."
+  ],
+  "falsifier": "Ein belastbarer Nachweis, dass in deutschen Dienstleistungskonzernen die Personalkostenquote je Vollzeitstelle bis 2029 trotz KI-Einsatz NICHT sinkt, weil Einführungs-, Kontroll- und Nacharbeitskosten den Automatisierungsnutzen auffressen (etwa eine Auswertung des Observatoriums KI in Arbeit und Gesellschaft oder von ai:conomics mit betrieblichen Ist-Kosten statt Erwartungswerten) - dann fielen mein V4, mein V5 und in der Folge mein V7 in sich zusammen, und die Zuordnung zu S3 wäre hinfällig.",
+  "confidence": 0.57,
+  "sources": [
+   "Aktuelle Beitragssätze in der Sozialversicherung 2026, Techniker Krankenkasse (Firmenkunden), abgerufen 14.09.2026, https://www.tk.de/firmenkunden/versicherung/beitraege-faq/beitragssaetze/aktuelle-beitragssaetze-in-der-sozialversicherung-2031554 - Ausgangswert 2026: KV 14,6 % + Ø-Zusatzbeitrag 2,9 %, RV 18,6 %, AV 2,6 %, PV 3,6 % = 42,3 %",
+   "Sozialversicherungsbeiträge, Rechengrößen und Beitragsrecht 2026, AOK Firmenkunden, abgerufen 14.09.2026, https://www.aok.de/fk/jahreswechsel/sv-beitraege-2026/ - Gegenprüfung derselben Sätze",
+   "Alle übrigen Zahlen (V1-V6, V8-V14) sind eigene Schätzungen aus Businesscase- und Prozesskostenlogik ohne abgerufene Quelle; Grundlage sind ausschließlich die Angaben des gemeinsamen Faktenkerns (ifo-Konjunkturumfrage 12.08.2026, IAB-Frühjahrsprognose 24.03.2026, BT-Drs. 21/7620 vom 20.08.2026, GewStG-E Art. 3 EStRefG 2027, EuroHPC IP/26/1708 vom 30.07.2026)."
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "C03",
+  "archetype": "S1",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 1.8,
+    "lo": 0.3,
+    "hi": 5.4
+   },
+   {
+    "variable": "V2",
+    "point": 1.4,
+    "lo": 0.1,
+    "hi": 4.6
+   },
+   {
+    "variable": "V3",
+    "point": 7,
+    "lo": 3,
+    "hi": 13.5
+   },
+   {
+    "variable": "V4",
+    "point": 34,
+    "lo": 18,
+    "hi": 58
+   },
+   {
+    "variable": "V5",
+    "point": -0.9,
+    "lo": -2.4,
+    "hi": 0.3
+   },
+   {
+    "variable": "V6",
+    "point": 6.2,
+    "lo": 5.1,
+    "hi": 8
+   },
+   {
+    "variable": "V7",
+    "point": 44.8,
+    "lo": 43.4,
+    "hi": 46.9
+   },
+   {
+    "variable": "V8",
+    "point": 5,
+    "lo": 3,
+    "hi": 8
+   },
+   {
+    "variable": "V9",
+    "point": 16.4,
+    "lo": 10.5,
+    "hi": 23
+   },
+   {
+    "variable": "V10",
+    "point": 2.3,
+    "lo": 1.1,
+    "hi": 5.2
+   },
+   {
+    "variable": "V11",
+    "point": 22,
+    "lo": 9,
+    "hi": 44
+   },
+   {
+    "variable": "V12",
+    "point": 21,
+    "lo": 7,
+    "hi": 39
+   },
+   {
+    "variable": "V13",
+    "point": 72,
+    "lo": 52,
+    "hi": 88
+   },
+   {
+    "variable": "V14",
+    "point": 47,
+    "lo": 34,
+    "hi": 60
+   }
+  ],
+  "k1": [
+   "c: 78%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Fachkräfte und Qualifikation",
+  "reasoning": "Aus der Kanzleipraxis mit arbeitsintensiven Mittelstandsmandaten sehe ich zuerst die Gegenevidenz: Die Bundesregierung stellt am 20. August 2026 ausdrücklich fest, es lägen keine belastbaren Hinweise auf systematischen KI-bedingten Beschäftigungsabbau vor, das IAB misst im Frühjahr 2026 Beschäftigungsaufbau in Gesundheit und öffentlichen Diensten von +180.000 gegen Industrie −140.000, und in meinen Mandaten scheitert Einführung nicht am Modell, sondern an Dokumentation, Datenqualität, Haftungsfragen und schlicht daran, dass Pflege, Handwerk, Logistik und Gastronomie physische Tätigkeiten sind, die Korinek et al. explizit nicht abbilden — deshalb schätze ich V3 mit 7 % deutlich unter den 12 % des US-Szenarios substantial und den Automatisierungsgrad V4 mit 34 % weit unter den dortigen drei Vierteln, weil der deutsche Mittelstand KI überwiegend assistierend einsetzt und die Berufsstruktur nicht-kognitiver ist. Die ifo-Erwartungen vom 12. August 2026 (rund 50 % erwarten Lohnkompression bei Berufseinsteigern) nehme ich ernst, lese sie aber als Erwartungswerte von Unternehmen, nicht als gemessene Lohnwirkung — sie treffen zuerst Einstiegsgehälter, nicht die Lohnquote insgesamt, weshalb V5 mit −0,9 Prozentpunkten moderat bleibt (Schätzung, keine Messung). Die eigentliche Belastung meiner Mandanten kommt nicht von der Substitution, sondern von der Abgabenseite: Der Gesamtbeitragssatz steigt demografisch getrieben Richtung 44,8 %, die Antwort des GKV-Stabilisierungsgesetzes ist rein ausgabenseitig, und der Zerlegungsmaßstab nach § 29 Abs. 1 Nr. 4 GewStG-E würde — Konjunktiv, das parlamentarische Verfahren steht aus — die Gewerbesteuerverteilung zwischen Gemeinden verschieben, ohne meinen lohnintensiven Betrieben einen Cent Entlastung zu bringen; solange Freibeträge, Hinzurechnungen und vor allem die Abzugsfähigkeit importierter KI-Vorleistungen ungeklärt sind, rate ich zu Abwarten statt zu Systemumbau.",
+  "falsifier": "Eine amtlich messbare, nicht nur erwartete Lohn- und Beschäftigungswirkung: wenn die Beschäftigungsstatistik bis 2028 in mindestens zwei kognitiv geprägten Branchen (etwa Steuer-, Rechts- und Unternehmensberatung oder Finanzdienstleistungen) einen Rückgang sozialversicherungspflichtiger Stellen von über 5 % bei gleichzeitig steigender Bruttowertschöpfung ausweist, ist meine These der betrieblich gebremsten Diffusion widerlegt und V3, V4 und V5 sind deutlich zu konservativ angesetzt.",
+  "confidence": 47,
+  "uncertain": [
+   "V12 (Netto-Abfluss für importierte KI-Vorleistungen, 21 Mrd. EUR): Hier ist meine Unsicherheit am größten, weil in der Buchführung meiner Mandanten Lizenz-, API- und Cloud-Aufwand heute nicht getrennt erfasst wird, sondern in sonstigen betrieblichen Aufwendungen und EDV-Kosten untergeht — es gibt schlicht keine saubere Bemessungsgrundlage, und die Frage der Abzugsfähigkeit ist offen; reine Schätzung.",
+   "V7 (Gesamtsozialversicherungsbeitragssatz 44,8 %): Bewusste Abweichung nach OBEN vom erwartbaren Durchschnittsurteil. Ein durchschnittlicher Beobachter dürfte um 43,5 % liegen; aus meiner Mandantenperspektive unterschätzt das die Gleichzeitigkeit von sinkendem Erwerbspersonenpotenzial (−40.000 auf 48,62 Mio.), stagnierender sozialversicherungspflichtiger Beschäftigung und einem rein ausgabenseitigen GKV-Gesetz, das ein einnahmenseitiges Problem nicht löst. Umgekehrt weiche ich bei V4 (34 %) bewusst nach UNTEN ab, weil die US-Kalibrierung drei Viertel Automatisierung unterstellt, meine Mandate KI aber fast ausschließlich assistierend einsetzen."
+  ],
+  "sources": [
+   "Gemeinsamer Faktenkern, Briefing Version 94.0, September 2026 (alle darin belegten Werte: IAB-Frühjahrsprognose 24.03.2026; ifo Konjunkturperspektiven 07/2026 vom 12.08.2026; BT-Drs. 21/7620 vom 20.08.2026; GKV-Beitragssatzstabilisierungsgesetz 10.07.2026; Regierungsentwurf § 29 Abs. 1 Nr. 4 GewStG-E vom 02.09.2026; EuroHPC IP/26/1708 vom 30.07.2026)",
+   "Korinek, Jones, Sacher, Cotter & McCrory, Economic Scenarios for Transformative AI, Anthropic Institute WP 2026-02, September 2026 (nur als Szenariorahmen, ausdrücklich keine Prognose, US-kalibriert)",
+   "Alle Werte zu V1, V2, V3, V4, V5, V6, V7, V8, V9, V10, V11, V12, V13 und V14 sind eigene Schätzungen aus der Rollenperspektive ohne zusätzlich abgerufene Quelle und als solche zu werten."
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "C04",
+  "archetype": "S6",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.3,
+    "lo": 0.6,
+    "hi": 5.1
+   },
+   {
+    "variable": "V2",
+    "point": 2.6,
+    "lo": 0.8,
+    "hi": 5.4
+   },
+   {
+    "variable": "V3",
+    "point": 7.8,
+    "lo": 3.5,
+    "hi": 14
+   },
+   {
+    "variable": "V4",
+    "point": 41,
+    "lo": 22,
+    "hi": 62
+   },
+   {
+    "variable": "V5",
+    "point": -1.4,
+    "lo": -3.2,
+    "hi": 0.3
+   },
+   {
+    "variable": "V6",
+    "point": 6.4,
+    "lo": 5.2,
+    "hi": 8.1
+   },
+   {
+    "variable": "V7",
+    "point": 44.3,
+    "lo": 42.8,
+    "hi": 46.4
+   },
+   {
+    "variable": "V8",
+    "point": 4.5,
+    "lo": 2.5,
+    "hi": 7
+   },
+   {
+    "variable": "V9",
+    "point": 17.8,
+    "lo": 13.5,
+    "hi": 23.5
+   },
+   {
+    "variable": "V10",
+    "point": 1.6,
+    "lo": 0.8,
+    "hi": 3.4
+   },
+   {
+    "variable": "V11",
+    "point": 12,
+    "lo": 5,
+    "hi": 26
+   },
+   {
+    "variable": "V12",
+    "point": 31,
+    "lo": 16,
+    "hi": 58
+   },
+   {
+    "variable": "V13",
+    "point": 72,
+    "lo": 52,
+    "hi": 88
+   },
+   {
+    "variable": "V14",
+    "point": 44,
+    "lo": 32,
+    "hi": 56
+   }
+  ],
+  "k1": [
+   "c: 80%",
+   "e: 40%",
+   "b: 45%",
+   "d: 30%",
+   "f: 22%",
+   "a: 18%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Compute und Strom",
+  "reasoning": "Ich beurteile die Szenarien aus der Perspektive dessen, was im handelsrechtlichen Jahresabschluss tatsächlich ankommt: Bruttowertschöpfung ist Gesamtleistung abzüglich Materialaufwand und bezogener Leistungen — jede zugekaufte Lizenz-, API- und Cloud-Vorleistung mindert die inländische Wertschöpfung buchungstechnisch unmittelbar und punktgenau, während der behauptete Produktivitätsgewinn aus KI in der GuV nicht isolierbar ist und in aller Regel im Personalaufwand, in sonstigen betrieblichen Aufwendungen und in Preiszugeständnissen an Kunden verschwindet, also nicht prüffest nachgewiesen werden kann; deshalb setze ich V1 und V2 deutlich unter dem, was aus dem US-Szenario substantial (dort modellhaft, im Konjunktiv, +8,3 % BIP-Niveau) mechanisch abzuleiten wäre, und gleichzeitig V12 hoch. Der zweite prüferische Befund betrifft V11: \"kontrolliert\" verstehe ich nicht geographisch, sondern im Sinne des Beherrschungsbegriffs der Konzernrechnungslegung (IFRS 10 / § 290 HGB) — eine EU-Region eines US-Hyperscalers ist in der EU belegen, aber nicht in der EU beherrscht, und in den von mir gesehenen Auftragsverarbeitungs- und Lizenzverträgen liegen Verfügungs-, Preis- und Modellwechselrechte beim Mutterunternehmen; unter dieser engen, aber belegbaren Abgrenzung falle ich klar unter die 15-Prozent-Schwelle. Drittens formalisiere ich bewusst dort, wo eine prüfbare Bemessungsgrundlage existiert: Die vorgeschlagene Zerlegung nach nicht redundanter elektrischer Nennanschlussleistung (§ 29 Abs. 1 Nr. 4 GewStG-E, Regierungsentwurf, parlamentarisches Verfahren steht aus, daher durchgängig Konjunktiv) wäre aus Prüfersicht der mit Abstand belastbarste Anknüpfungspunkt, weil Nennanschlussleistung aus Anschlussvertrag und Netzbetreiberbestätigung dokumentenbasiert nachvollziehbar ist — anders als \"KI-berührte Aufgaben\" (V3) oder \"Automatisierungsgrad\" (V4), die ich nur als Schätzung mit weitem Intervall führen kann und die ich eng definiere: berührt ist eine Aufgabe für mich erst, wenn der KI-Einsatz im Prozess dokumentiert und im IKS abgebildet ist, autonom erst, wenn keine menschliche Freigabe mehr im Ablauf steht — und genau diese Freigabe bleibt in prüfungs-, haftungs- und mitbestimmungsrelevanten Prozessen bis 2030 erhalten, weshalb V4 mit 41 % weit unter den 75 % des US-Modells liegt.",
+  "falsifier": "Ein prüffester Nachweis, dass in deutschen Jahresabschlüssen 2029/2030 die Bruttowertschöpfung je Beschäftigten in KI-nutzenden Unternehmen signifikant schneller steigt als der Aufwand für bezogene IT-/Lizenzleistungen wächst — also ein positiver, aus der GuV isolierbarer Netto-Wertschöpfungseffekt statt der von mir unterstellten Verschiebung von Personalaufwand zu Vorleistungsaufwand. Konkret widerlegend wäre eine Auswertung der Umsatzsteuer-Voranmeldungs- und Außenhandelsstatistik, die zeigt, dass der grenzüberschreitende Bezug digitaler Dienstleistungen (Reverse-Charge-Tatbestände) bis 2030 unter rund 15 Mrd. EUR bleibt, statt der von mir geschätzten rund 31 Mrd.",
+  "confidence": 44,
+  "uncertain": [
+   "V12 (Netto-Abfluss importierter KI-Vorleistungen, 31 Mrd. EUR): Es gibt keine buchhalterisch getrennte Erfassungspflicht für KI-Vorleistungen — sie stecken in 'sonstige betriebliche Aufwendungen' und in konzerninternen Verrechnungspreisen, weshalb die Größe erst nach einer eigenen Kontenrahmen- oder Reverse-Charge-Auswertung prüffest würde; mein Intervall 16 bis 58 Mrd. ist deshalb bewusst weit und die Zahl ist ausdrücklich Schätzung, nicht Messung.",
+   "V10 (installierte nicht redundante KI-Anschlussleistung, 1,6 GW): Die Abgrenzung zwischen KI-spezifischer und allgemeiner Rechenzentrumsleistung sowie zwischen Nennanschlussleistung und IT-Nennlast ist definitorisch ungeklärt (der Entwurf wählte die Nennanschlussleistung, nicht die vom Bitkom vorgeschlagene IT-Nennlast) — je nach Abgrenzung und nach Ausgang der EuroHPC-Vergabe schwankt die Zahl um den Faktor vier.",
+   "BEWUSSTE ABWEICHUNG VOM DURCHSCHNITTSURTEIL, V1 und V11 nach unten: Beim BIP-Effekt (V1 = +2,3 %) liege ich vermutlich deutlich unter dem Panelmedian, weil ich nur inländische Bruttowertschöpfung zähle und den Vorleistungsabzug ernst nehme, statt Bruttoproduktivitätsgewinne fortzuschreiben; bei V11 (12 %) weiche ich nach unten ab, weil ich 'kontrolliert' am Beherrschungsbegriff der Konzernrechnungslegung messe und nicht am Serverstandort — wer geographisch abgrenzt, kommt plausibel auf das Doppelte."
+  ],
+  "sources": [],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "C05",
+  "archetype": "S3",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.4,
+    "lo": 0.6,
+    "hi": 5.1
+   },
+   {
+    "variable": "V2",
+    "point": 2.1,
+    "lo": 0.4,
+    "hi": 4.6
+   },
+   {
+    "variable": "V3",
+    "point": 7.6,
+    "lo": 4,
+    "hi": 13
+   },
+   {
+    "variable": "V4",
+    "point": 63,
+    "lo": 45,
+    "hi": 78
+   },
+   {
+    "variable": "V5",
+    "point": -2.3,
+    "lo": -4.6,
+    "hi": -0.4
+   },
+   {
+    "variable": "V6",
+    "point": 7.1,
+    "lo": 5.8,
+    "hi": 8.9
+   },
+   {
+    "variable": "V7",
+    "point": 44.6,
+    "lo": 43.2,
+    "hi": 46.5
+   },
+   {
+    "variable": "V8",
+    "point": 5.2,
+    "lo": 3.5,
+    "hi": 8
+   },
+   {
+    "variable": "V9",
+    "point": 15.8,
+    "lo": 11.5,
+    "hi": 21
+   },
+   {
+    "variable": "V10",
+    "point": 2.2,
+    "lo": 1.1,
+    "hi": 4.2
+   },
+   {
+    "variable": "V11",
+    "point": 19,
+    "lo": 9,
+    "hi": 35
+   },
+   {
+    "variable": "V12",
+    "point": 21,
+    "lo": 9,
+    "hi": 41
+   },
+   {
+    "variable": "V13",
+    "point": 78,
+    "lo": 62,
+    "hi": 91
+   },
+   {
+    "variable": "V14",
+    "point": 47,
+    "lo": 33,
+    "hi": 61
+   }
+  ],
+  "k1": [
+   "c: 72%",
+   "b: 38%",
+   "e: 31%",
+   "d: 26%",
+   "a: 14%",
+   "f: 9%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Regulierung und Genehmigung",
+  "reasoning": "Aus der Sanierungspraxis heraus gewichte ich zuerst die Gegenevidenz: Die Bundesregierung sieht am 20. August 2026 \"keine belastbaren Hinweise\" auf systematischen KI-bedingten Abbau, das IAB misst für 2026 einen Beschäftigungsaufbau von +180.000 in öffentlichen Diensten, Erziehung und Gesundheit gegen −140.000 in der Industrie, und die deutsche Berufsstruktur ist stärker nicht-kognitiv als die US-Kalibrierung von Korinek et al. — deshalb setze ich V1 mit +2,4 % und V3 mit 7,6 % deutlich unter das US-Szenario *substantial* (+8,3 % bzw. 12 %), das nach Aussage der Autoren ohnehin keine Prognose sei und dessen Divergenz erst nach 2027 entstünde. Erst danach wiegt die Substitutionsevidenz: Wenn rund 50 % der befragten KI-nutzenden Unternehmen (ifo, 12. August 2026) über fünf Jahre sinkende Einstiegslöhne erwarten, dann ist das in meiner Erfahrung kein Umbausignal, sondern die betriebswirtschaftlich billigste Anpassung — Einstellungsstopp und natürliche Fluktuation statt Sozialplan, weil Sozialauswahl, Abfindungsstaffeln und Interessenausgleichsverfahren jede aktive Trennung von Stammbelegschaft teuer und langsam machen; genau deshalb trifft die Last die Berufseinsteiger, nicht die etablierte Wissensarbeit, und genau deshalb erodiert die Lohnquote (meine Schätzung: −2,3 Pp) schleichend statt im Bruch. Die bindende Restriktion in Europa ist aus meiner Mandatsperspektive nicht Strom, sondern Verfahren: Mitbestimmungspflicht bei Einführung technischer Überwachungseinrichtungen, Kündigungsschutz, Genehmigungsdauern für Netzanschluss und Anlagen — die Anpassungsgeschwindigkeit, nicht die Modellfähigkeit, ist der Engpass, und sie erzeugt die fiskalische Schere aus fallender Beitragsbasis und einem Gesamtbeitragssatz, den ich 2030 bei rund 44,6 % sehe (Schätzung; GKV-Beitragssatzstabilisierungsgesetz wirkt rein ausgabenseitig bis rund 42,8 Mrd. EUR bis 2030).",
+  "falsifier": "Wenn die deutsche Beschäftigungsstatistik bis 2028 zeigt, dass KI-intensive Betriebe ihre Stammbelegschaft netto halten oder ausbauen und gleichzeitig Einstiegsgehälter nicht kompressieren — also die ifo-Erwartung von rund 50 % Lohnkompression für Junioren sich nicht in gemessenen Entgelten der Entgeltstatistik niederschlägt —, dann ist meine Kernannahme falsch, dass Anpassung primär über Personalpfade und nicht über Aufgabenumbau läuft, und V5, V6 sowie K2 kippen.",
+  "uncertain": [
+   "V4 (Automatisierungsgrad, 63 %): Hier weiche ich bewusst nach OBEN vom erwartbaren Durchschnittsurteil ab. Das mittlere Panelurteil dürfte Augmentierung betonen; aus der Sanierungspraxis kenne ich aber kein Restrukturierungsgutachten, in dem ein Werkzeug gekauft wird, um Köpfe zu behalten — der Business Case ist der Wegfall der Stelle, nicht die Aufwertung. Die Unsicherheit ist dennoch groß, weil Haftung, Dokumentationspflichten und Betriebsvereinbarungen die autonome Ausführung faktisch deckeln können und ich keinen gemessenen deutschen Wert dafür habe.",
+   "V12 (Netto-Abfluss für importierte KI-Vorleistungen, 21 Mrd. EUR): reine Schätzung ohne belastbare Zahlungsbilanzabgrenzung — Lizenz-, API- und Cloud-Vorleistungen sind in der Statistik nicht sauber von sonstigen IT-Diensten getrennt, konzerninterne Verrechnungspreise verzerren zusätzlich, und die in § 5.1 des Arbeitspapiers offene Frage der Abzugsfähigkeit ist ungeklärt; deshalb das weite Intervall 9 bis 41 Mrd. EUR."
+  ],
+  "confidence": 0.47,
+  "sources": [
+   "Keine über den gemeinsamen Faktenkern hinausgehende Quelle abgerufen. Alle Angaben zu V1-V14 außerhalb des Faktenkerns sind ausdrücklich als eigene Schätzung gekennzeichnet, insbesondere V9 (Industriestrompreis real 2030), V10 (Nennanschlussleistung KI-Rechenzentren), V11 (EU-betriebene Inferenz), V12 (Netto-Abfluss KI-Vorleistungen), V6 (Arbeitslosenquote) und V7 (Gesamtsozialversicherungsbeitragssatz). Als belegte Bezugspunkte dienen ausschließlich: IAB-Kurzfristprognose 24.03.2026; ifo Konjunkturperspektiven 07/2026 (Ruffert, 12.08.2026); BT-Drs. 21/7620 vom 20.08.2026; GKV-Beitragssatzstabilisierungsgesetz (Bundestag 10.07.2026); Regierungsentwurf Einkommensteuerreformgesetz 2027, Art. 3 (BMF 18.08.2026, Kabinett 02.09.2026); EuroHPC IP/26/1708 vom 30.07.2026; Korinek/Jones/Sacher/Cotter/McCrory, Anthropic Institute WP 2026-02, 09/2026."
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "C06",
+  "archetype": "S2",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 4.1,
+    "lo": 1.6,
+    "hi": 7.8
+   },
+   {
+    "variable": "V2",
+    "point": 3.6,
+    "lo": 1.2,
+    "hi": 7.1
+   },
+   {
+    "variable": "V3",
+    "point": 9.3,
+    "lo": 4.8,
+    "hi": 15.5
+   },
+   {
+    "variable": "V4",
+    "point": 52,
+    "lo": 33,
+    "hi": 71
+   },
+   {
+    "variable": "V5",
+    "point": -1.7,
+    "lo": -3.6,
+    "hi": -0.2
+   },
+   {
+    "variable": "V6",
+    "point": 6.4,
+    "lo": 5.2,
+    "hi": 8.1
+   },
+   {
+    "variable": "V7",
+    "point": 44.6,
+    "lo": 43.1,
+    "hi": 46.4
+   },
+   {
+    "variable": "V8",
+    "point": 4.6,
+    "lo": 2.5,
+    "hi": 7
+   },
+   {
+    "variable": "V9",
+    "point": 15.8,
+    "lo": 10.5,
+    "hi": 23
+   },
+   {
+    "variable": "V10",
+    "point": 2.4,
+    "lo": 1.1,
+    "hi": 5
+   },
+   {
+    "variable": "V11",
+    "point": 16,
+    "lo": 7,
+    "hi": 33
+   },
+   {
+    "variable": "V12",
+    "point": 34,
+    "lo": 17,
+    "hi": 62
+   },
+   {
+    "variable": "V13",
+    "point": 72,
+    "lo": 55,
+    "hi": 88
+   },
+   {
+    "variable": "V14",
+    "point": 54,
+    "lo": 38,
+    "hi": 68
+   }
+  ],
+  "k1": [
+   "c: 78%",
+   "b: 44%",
+   "e: 35%",
+   "d: 30%",
+   "f: 24%",
+   "a: 15%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Regulierung und Genehmigung",
+  "reasoning": "Aus der Beschaffungsperspektive eines Konzerns ist KI-Leistung 2030 eine eingekaufte Vorleistung wie Fracht oder Standardsoftware: Rechenleistung waere am Weltmarkt in praktisch jeder Menge kontrahierbar, der Engpass liegt fuer mich nicht in der Kilowattstunde, sondern in Vertrag, Compliance-Freigabe und Auditierbarkeit — deshalb nenne ich als bindende Restriktion ausdruecklich Regulierung und Genehmigung und nicht Compute und Strom, obwohl die Mehrheit des Panels vermutlich anders votieren duerfte. Die Substitutionsevidenz wiegt in meinem Verantwortungsbereich schwer: Die ifo-Befragung vom Juni 2026 (rund 50 Prozent Lohnkompression fuer Junioren) deckt sich mit dem, was ich in den indirekten Funktionen budgetiere — Einkaufsanalytik, Rechnungspruefung, Ausschreibungsvorbereitung und Lieferantenscreening wandern in gekaufte Agentendienste, weshalb ich V3 auf rund 9 Prozent und den Automatisierungsgrad auf gut die Haelfte der beruehrten Aufgaben schaetze (Schaetzung, keine Messung); dagegen stehen die Position der Bundesregierung vom 20. August 2026, der IAB-Beschaeftigungsaufbau von 180.000 Stellen in oeffentlichen Diensten und Gesundheit sowie kollektive Lohnfindung und ein geringerer kognitiver Berufsanteil als in den USA, weshalb meine Lohnquotenschaetzung bei minus 1,7 Punkten bleibt und nicht beim US-Szenario substantial mit minus vier Punkten. Mein eigentlicher Befund ist kaufmaennisch und nicht makrooekonomisch: Der Produktivitaetsgewinn waere real, wuerde aber zu einem erheblichen Teil als Lizenz-, API- und Cloud-Entgelt exportiert — ich schaetze den jaehrlichen Netto-Abfluss 2030 auf rund 34 Mrd. EUR bei weiter Spanne (reine Schaetzung aus Vertragsvolumina, Preisgleitklauseln und Verbrauchswachstum, keine abgerufene Statistik), und die in Paragraf 5.1 offene Frage der Abzugsfaehigkeit importierter KI-Vorleistungen entschiede mit darueber, ob der Gewinn im Inland ueberhaupt als Bemessungsgrundlage ankaeme.",
+  "uncertain": [
+   "V10 (installierte nicht redundante Nennanschlussleistung, 2,4 GW): groesste Unsicherheit, weil ich Rechenzentrumskapazitaet aus meiner Rolle nur indirekt ueber Bezugsvertraege sehe und Netzanschlusszeiten wie das noch ausstehende parlamentarische Verfahren zu Paragraf 29 Abs. 1 Nr. 4 GewStG-E den Ausbau in beide Richtungen verschieben koennten; mein Punktwert liegt bewusst niedrig, weil ich inlaendische Kapazitaet fuer substituierbar halte.",
+   "V12 (Netto-Abfluss fuer importierte KI-Vorleistungen, 34 Mrd. EUR): hier weiche ich bewusst NACH OBEN vom erwartbaren Durchschnittsurteil ab — wer Cloud- und API-Vertraege nicht selbst verhandelt, unterschaetzt systematisch Preisgleitklauseln, Token-Verbrauchswachstum und die Buendelung in bestehende Softwareabonnements; zugleich ist die Abgrenzung zwischen KI-Vorleistung und allgemeinem IT-Bezug statistisch unscharf, daher das breite Intervall 17 bis 62 Mrd. EUR. Zweite bewusste Abweichung, diesmal nach unten: V9 (15,8 ct/kWh), weil ich Compute als global beschaffbare Commodity behandle und den Industriestrompreis daher nicht als Bremse meines Bezugs werte."
+  ],
+  "falsifier": "Wenn europaeische Anbieter oder die EuroHPC-Gigafactories bis 2028 vertragsfaehige, auditierbare Inferenzkapazitaet ohne Preisaufschlag gegenueber US-Hyperscalern liefern wuerden, sodass ein Konzern den Grossteil seiner produktiven Inferenz auf in der EU betriebene und kontrollierte Infrastruktur verlagern koennte (V11 deutlich ueber 35 Prozent), braeche meine Abfluss- und Abhaengigkeitsthese zusammen — und mit ihr die Begruendung, warum ich Regulierung statt Compute als bindende Restriktion nenne.",
+  "confidence": 0.54,
+  "sources": [
+   "Gemeinsamer Faktenkern, Arbeitspapier Version 94.0, September 2026 (Paragrafen 1.1, 3.5, 4.2, 4.5, 5.1, 8.2) — alle darueber hinausgehenden Zahlen dieses Stimmzettels sind Schaetzungen ohne zusaetzlich abgerufene Quelle und im reasoning als solche gekennzeichnet.",
+   "ifo Konjunkturperspektiven 07/2026 (Ruffert), 12. August 2026, Lohnerwartungen KI-nutzender Unternehmen — ueber den Faktenkern zitiert.",
+   "IAB-Kurzfristprognose vom 24. Maerz 2026, Erwerbstaetigkeit und Sektorspaltung — ueber den Faktenkern zitiert."
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "D01",
+  "archetype": "ungebunden",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.8,
+    "lo": 0.8,
+    "hi": 6.4
+   },
+   {
+    "variable": "V2",
+    "point": 3.3,
+    "lo": 1,
+    "hi": 7
+   },
+   {
+    "variable": "V3",
+    "point": 9.5,
+    "lo": 5,
+    "hi": 15
+   },
+   {
+    "variable": "V4",
+    "point": 38,
+    "lo": 22,
+    "hi": 56
+   },
+   {
+    "variable": "V5",
+    "point": -0.9,
+    "lo": -2.8,
+    "hi": 0.4
+   },
+   {
+    "variable": "V6",
+    "point": 6.1,
+    "lo": 5.2,
+    "hi": 7.6
+   },
+   {
+    "variable": "V7",
+    "point": 44.9,
+    "lo": 43.2,
+    "hi": 46.8
+   },
+   {
+    "variable": "V8",
+    "point": 3.4,
+    "lo": 1.8,
+    "hi": 6
+   },
+   {
+    "variable": "V9",
+    "point": 16.8,
+    "lo": 12.5,
+    "hi": 23
+   },
+   {
+    "variable": "V10",
+    "point": 2.2,
+    "lo": 1.1,
+    "hi": 4.5
+   },
+   {
+    "variable": "V11",
+    "point": 27,
+    "lo": 12,
+    "hi": 45
+   },
+   {
+    "variable": "V12",
+    "point": 19,
+    "lo": 9,
+    "hi": 38
+   },
+   {
+    "variable": "V13",
+    "point": 72,
+    "lo": 55,
+    "hi": 88
+   },
+   {
+    "variable": "V14",
+    "point": 53,
+    "lo": 40,
+    "hi": 66
+   }
+  ],
+  "k1": [
+   "c: 78%",
+   "e: 40%",
+   "b: 34%",
+   "d: 22%",
+   "a: 14%",
+   "f: 11%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Fachkräfte und Qualifikation",
+  "reasoning": "Aus der Sicht eines Universitätsklinikums ist KI 2030 kein Substitut, sondern ein Kompensat: Radiologie- und Pathologie-KI sowie Dokumentationsassistenz fangen bei uns den Wegfall von Personal auf, den die Demografie ohnehin erzwingt — deshalb setze ich die Arbeitslosigkeit (V6 6,1 %) und den Lohnquotenverlust (V5 −0,9 Pp) niedriger an, als es die Übertragung des US-Szenarios substantial nahelegen würde; die Kalibrierung von Korinek et al. kennt weder Arztvorbehalt noch Haftung noch MDR-Zulassung, und ihre Annahme, drei Viertel der berührten Aufgaben würden automatisiert, wäre auf einen Befundungs- oder Pflegeprozess nicht übertragbar, weil die ärztliche Freigabe rechtlich nicht delegierbar ist (daher V4 38 % statt 75 %). Die Last verschiebt sich bei uns nicht auf Beschäftigte, sondern auf die Beitrags- und Haushaltsseite: Das GKV-Beitragssatzstabilisierungsgesetz beantwortet ein einnahmenseitiges Problem rein ausgabenseitig, der Investitionsstau der Länder bleibt daneben unfinanziert, und deshalb hielte ich einen Gesamtsozialversicherungsbeitragssatz um 44,9 % 2030 für die realistischere Grösse als jede Lohnquotendramatik — der Gewerbesteuer-Zerlegungsmassstab nach Anschlussleistung (§ 29 Abs. 1 Nr. 4 GewStG-E) käme, sollte er das parlamentarische Verfahren überstehen, den Sozialkassen ohnehin nicht zugute. Bindend ist für mich nicht Compute, sondern Personal: Ein KI-System, das niemand validiert, betreibt und in Prozesse einbettet, erzeugt keine Versorgungsleistung — alle Angaben ausserhalb des Faktenkerns (V9 bis V13, V6, V7) sind eigene Schätzungen ohne abgerufene Quelle, nicht Messung und nicht Modellprognose.",
+  "falsifier": "Wenn bis 2028 ein autonom freigebendes KI-Befundungs- oder Dokumentationssystem MDR-Zulassung in Klasse IIb/III erhielte, haftungsrechtlich ohne ärztliche Gegenzeichnung betreibbar wäre und in Regelhäusern ausserhalb der Universitätsmedizin messbar Stellen ersetzte, wären mein niedriger Automatisierungsgrad (V4), mein kurzer Diffusionsverzug (V8) und meine stabile Lohnquote (V5) gleichzeitig widerlegt.",
+  "uncertain": [
+   "V10 (installierte Anschlussleistung, grösste Unsicherheit): Ich beurteile Netzanschluss- und Genehmigungsdauern nur aus der Erfahrung eigener Klinik-Bauprojekte heraus, nicht aus Energiewirtschaft — ob EuroHPC-Gigafactories in Deutschland landen, ist für mich reines Raten, daher das breite Intervall 1,1 bis 4,5 GW.",
+   "V12 (Netto-Abfluss für importierte KI-Vorleistungen, zweitgrösste Unsicherheit): Die Abgrenzung zwischen allgemeiner Cloud-Miete und KI-spezifischer Vorleistung ist statistisch ungeklärt, und die in § 5.1 offene Abzugsfähigkeitsfrage entscheidet mit, ob der Abfluss überhaupt sichtbar wird.",
+   "BEWUSSTE ABWEICHUNG NACH UNTEN — V4 (38 %) und V8 (3,4 Jahre): Ein durchschnittlicher Beobachter dürfte den Automatisierungsgrad nahe der US-Kalibrierung (75 %) und den Diffusionsverzug regulierter Sektoren bei fünf Jahren ansetzen; ich gehe in beiden Fällen deutlich darunter, weil ich Arztvorbehalt und Haftung als harte Automatisierungsgrenze sehe und weil in meinem Haus Radiologie-KI bereits Routine ist — letzteres ist ausdrücklich meine Blindstelle, Spitzenmedizin bildet die Fläche nicht ab.",
+   "BEWUSSTE ABWEICHUNG NACH OBEN — V11 (27 %) und V7 (44,9 %): Beim EU-Inferenzanteil liege ich über dem erwartbaren Mittel, weil Gesundheitsdaten (§ 203 StGB, DSGVO, EHDS) faktisch nicht in Nicht-EU-Inferenz laufen dürfen; beim Beitragssatz liege ich über dem Mittel, weil ich die einnahmenseitige Erosion der GKV täglich sehe und dem rein ausgabenseitigen Konsolidierungspfad bis 2030 nicht zutraue, ihn zu halten."
+  ],
+  "confidence": 53,
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "D02",
+  "archetype": "ungebunden",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.2,
+    "lo": 0.4,
+    "hi": 5.6
+   },
+   {
+    "variable": "V2",
+    "point": 1.7,
+    "lo": 0.2,
+    "hi": 4.8
+   },
+   {
+    "variable": "V3",
+    "point": 7,
+    "lo": 3,
+    "hi": 13
+   },
+   {
+    "variable": "V4",
+    "point": 34,
+    "lo": 18,
+    "hi": 56
+   },
+   {
+    "variable": "V5",
+    "point": -1.3,
+    "lo": -3.6,
+    "hi": 0.4
+   },
+   {
+    "variable": "V6",
+    "point": 6.3,
+    "lo": 5.2,
+    "hi": 8.1
+   },
+   {
+    "variable": "V7",
+    "point": 47.4,
+    "lo": 44.8,
+    "hi": 50.6
+   },
+   {
+    "variable": "V8",
+    "point": 6,
+    "lo": 3.5,
+    "hi": 9
+   },
+   {
+    "variable": "V9",
+    "point": 17,
+    "lo": 11.5,
+    "hi": 24
+   },
+   {
+    "variable": "V10",
+    "point": 2.9,
+    "lo": 1.1,
+    "hi": 6.4
+   },
+   {
+    "variable": "V11",
+    "point": 24,
+    "lo": 9,
+    "hi": 44
+   },
+   {
+    "variable": "V12",
+    "point": 19,
+    "lo": 7,
+    "hi": 42
+   },
+   {
+    "variable": "V13",
+    "point": 72,
+    "lo": 48,
+    "hi": 89
+   },
+   {
+    "variable": "V14",
+    "point": 44,
+    "lo": 29,
+    "hi": 58
+   }
+  ],
+  "k1": [
+   "c: 75%",
+   "b: 46%",
+   "e: 33%",
+   "d: 28%",
+   "a: 12%",
+   "f: 9%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Regulierung und Genehmigung",
+  "reasoning": "Aus der Praxis heraus sehe ich die Schranke nicht im Modell, sondern in der Zulassung: Solange es für KI-gestützte Anamnese, Triage oder Dokumentation keine EBM-Ziffer, keine gematik-Zulassung und keine haftungsklare Delegationsregel gibt, bleibt jede Anwendung assistierend und muss ärztlich gegengezeichnet werden - deshalb setze ich V4 mit 34 % deutlich unter das US-Szenario substantial (3/4 automatisiert, Faktenkern) und V8 mit sechs Jahren hoch, weil die DiGA- und TI-Erfahrung zeigt, wie lange der Weg von der technischen Verfügbarkeit bis zur abrechenbaren Regelleistung dauert. Die zweite Beobachtung ist fiskalisch und für mich als Vertragsarzt täglich spürbar: Das GKV-Beitragssatzstabilisierungsgesetz koppelt laut Faktenkern Ausgaben an Einnahmen und ist damit eine rein ausgabenseitige Antwort auf ein einnahmenseitiges Problem - ich erwarte deshalb Konjunktiv im Gesetzlichen, aber Indikativ in der Praxis: weiter steigende Zusatzbeiträge, härtere Budgetdeckel und mehr Regress statt Entlastung; ausgehend von rund 42,3 % Grundbeitragssätzen plus durchschnittlichem Zusatzbeitrag 2026 (GKV-Spitzenverband/TK, Stand 01.01.2026) schätze ich V7 auf 47,4 % und liege damit bewusst über dem, was ein durchschnittlicher Beobachter nennen würde. Die Makrogrößen V1, V2, V5, V9 und V12 sind ausdrücklich Schätzungen ohne eigene Rechnung - meine Rolle hat dort keine Nähe zur Datenlage, ich habe sie aus dem Faktenkern (IAB-Kurzfristprognose 24.03.2026, ifo 12.08.2026, Position der Bundesregierung vom 20.08.2026) plausibilisiert und die Intervalle entsprechend weit gelassen; die US-Werte übertrage ich nicht, weil der deutsche Aufgabenmix laut Faktenkern mehr nicht-kognitive Tätigkeit enthält und der Sektor, den ich kenne, laut IAB gerade Beschäftigung aufbaut (+180.000 öffentliche Dienste/Erziehung/Gesundheit).",
+  "uncertain": [
+   "V12 (Netto-Abfluss für importierte KI-Vorleistungen, 7-42 Mrd. EUR): Reine Schätzung - ich sehe in der Praxis nur die Lizenzkosten meines PVS-Anbieters und habe keinen Zugang zu Zahlungsbilanzdaten; das ist meine Blindstelle, ich kompensiere sie nicht.",
+   "V7 (Gesamtsozialversicherungsbeitragssatz 2030, Punkt 47,4 %): Hier weiche ich bewusst nach OBEN vom erwartbaren Durchschnittsurteil ab - wer die Konsolidierungswirkung des Stabilisierungsgesetzes (42,8 Mrd. EUR bis 2030 laut Faktenkern) für belastbar hält, landet bei 44 bis 45 %; ich halte die Ausgabenseite bei demografisch steigender Morbidität für nicht deckelbar und die Einnahmenseite bei erodierender Lohnquote für schwächer. Zusätzlich abweichend nach OBEN: V8 mit sechs Jahren statt der üblichen drei bis vier, weil Zulassung, Abrechnung und Haftung im Vertragsarztbereich seriell und nicht parallel laufen.",
+   "V11 (Anteil EU-betriebener Inferenz, Punkt 24 %): Abweichung nach OBEN gegenüber der Souveränitätsbruch-Erwartung, weil Gesundheitsdaten faktisch EU-Hosting erzwingen - ich weiß aber nicht, ob das für die Gesamtwirtschaft trägt."
+  ],
+  "falsifier": "Wenn der Bewertungsausschuss bis 2028 eine eigenständige EBM-Ziffer für autonome, nicht ärztlich gegengezeichnete KI-Leistungen (etwa Erst-Triage oder Befundvorbefundung) schaffen würde und die Haftung dabei auf den Hersteller überginge, wäre mein niedriger Automatisierungsgrad (V4 = 34 %) und mein hoher Diffusionsverzug (V8 = 6 Jahre) binnen zwei Jahren widerlegt - dann kippte auch mein Urteil zu K3.",
+  "confidence": 44,
+  "sources": [
+   "Beitragssätze in der Sozialversicherung 2026, Die Techniker (Firmenkunden), Stand 01.01.2026, https://www.tk.de/firmenkunden/versicherung/beitraege-faq/beitragssaetze/aktuelle-beitragssaetze-in-der-sozialversicherung-2031554 (abgerufen 14.09.2026): KV 14,6 %, RV 18,6 %, PV 3,6 %, AV 2,6 %, Summe 42,30 % ohne kassenindividuellen Zusatzbeitrag",
+   "Rechengrößen Beitragsrecht 2026, GKV-Spitzenverband, Faktenblatt vom 01.01.2026, https://www.gkv-spitzenverband.de/media/dokumente/presse/zahlen_und_grafiken/20260101_Faktenblatt_Rechengroessen_Beitragsrecht.pdf (abgerufen 14.09.2026)",
+   "Alle übrigen Zahlen: gemeinsamer Faktenkern (Arbeitspapier Version 94.0, September 2026) bzw. eigene, ausdrücklich als Schätzung gekennzeichnete Werte ohne externe Quelle - insbesondere V1, V2, V3, V4, V5, V6, V8, V9, V10, V11, V12, V13"
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "D03",
+  "archetype": "S1",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.1,
+    "lo": 0.4,
+    "hi": 5.5
+   },
+   {
+    "variable": "V2",
+    "point": 1.7,
+    "lo": 0.2,
+    "hi": 4.8
+   },
+   {
+    "variable": "V3",
+    "point": 7,
+    "lo": 3,
+    "hi": 13
+   },
+   {
+    "variable": "V4",
+    "point": 38,
+    "lo": 20,
+    "hi": 62
+   },
+   {
+    "variable": "V5",
+    "point": -0.6,
+    "lo": -2.4,
+    "hi": 0.7
+   },
+   {
+    "variable": "V6",
+    "point": 6.2,
+    "lo": 5.1,
+    "hi": 7.8
+   },
+   {
+    "variable": "V7",
+    "point": 45.3,
+    "lo": 43.4,
+    "hi": 47.6
+   },
+   {
+    "variable": "V8",
+    "point": 6,
+    "lo": 3.5,
+    "hi": 9
+   },
+   {
+    "variable": "V9",
+    "point": 18.3,
+    "lo": 13,
+    "hi": 24.5
+   },
+   {
+    "variable": "V10",
+    "point": 2.3,
+    "lo": 1,
+    "hi": 5
+   },
+   {
+    "variable": "V11",
+    "point": 22,
+    "lo": 8,
+    "hi": 38
+   },
+   {
+    "variable": "V12",
+    "point": 14,
+    "lo": 6,
+    "hi": 34
+   },
+   {
+    "variable": "V13",
+    "point": 72,
+    "lo": 50,
+    "hi": 90
+   },
+   {
+    "variable": "V14",
+    "point": 44,
+    "lo": 30,
+    "hi": 58
+   }
+  ],
+  "k1": [
+   "c: 72%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Fachkräfte und Qualifikation",
+  "reasoning": "Aus der Sicht der Pflegedirektion ist der Kern der Leistungserbringung physisch und am Bett gebunden — Mobilisation, Lagerung, Grundpflege, Notfallreaktion —, und genau diese Aufgaben bildet das US-Modell ausdrücklich nicht ab (nur kognitive Aufgaben, keine Robotik), weshalb ich die gesamtwirtschaftliche Berührungsquote für Deutschland mit seinem höheren Anteil nicht-kognitiver Tätigkeit deutlich unter dem US-Wert von 12 Prozent des Szenarios substantial ansetze (V3 = 7 Prozent, Schätzung); hinzu kommt, dass PPR 2.0 und Personaluntergrenzen den Personaleinsatz normativ fixieren, also selbst bei technischer Entlastung keine Stellenreduktion erlauben würden — die Untergrenze ist eine Mengenvorgabe, keine Effizienzgröße. Ich gewichte die Gegenevidenz zuerst: Die Bundesregierung sieht am 20. August 2026 keine belastbaren Hinweise auf systematischen KI-bedingten Beschäftigungsabbau, das IAB weist für öffentliche Dienste, Erziehung und Gesundheit einen Aufbau von 180.000 Stellen aus, und in meinem Haus scheitert Diffusion nicht am Modell, sondern an Dokumentationspflichten, Medizinprodukterecht, Datenschutzfreigaben und der Tatsache, dass jede Umstellung im Dreischichtbetrieb geschult werden müsste — daraus mein Verzug regulierter Sektoren von sechs Jahren (V8), deutlich über dem, was ein durchschnittlicher Beobachter ansetzen dürfte. Die Last trägt deshalb nicht die Wissensarbeit, sondern die Beitrags- und Haushaltsseite: Das GKV-Beitragssatzstabilisierungsgesetz beantwortet ein einnahmenseitiges Problem rein ausgabenseitig, und wenn die Lohnsumme selbst nur leicht erodiert (V5 = −0,6 Pp, Schätzung), steigt der Gesamtbeitragssatz dennoch über 45 Prozent (V7, Schätzung) — der Druck landet konjunktivisch als Leistungskürzung und Personalkostendeckel bei uns auf der Station. Zu V9 bis V12: Ich schätze aus Betreiberperspektive eines energieintensiven Hauses — Industriestrompreis real gut 18 ct/kWh, in Deutschland installierte nicht redundante KI-Anschlussleistung nur rund 2,3 GW, weil Netzanschlusszeiten und Genehmigungsdauer dieselbe Hürde sind, die wir bei jedem BHKW-Ersatz erleben; den EU-Anteil an Inferenz setze ich mit 22 Prozent etwas höher als rein marktgetrieben zu erwarten wäre, weil Gesundheits- und Sozialdaten regulatorisch auf EU-kontrollierte Infrastruktur gezwungen würden, und den Netto-Abfluss entsprechend moderat bei 14 Mrd. EUR (alle vier Werte Schätzungen ohne abgerufene Quelle).",
+  "uncertain": [
+   "V4 (Automatisierungsgrad der berührten Aufgaben): Ich weiche hier bewusst nach UNTEN vom erwartbaren Durchschnittsurteil ab (38 statt der aus dem US-Szenario abgeleiteten 75 Prozent), weil ich autonome Erledigung ohne pflegerische Gegenzeichnung in einem haftungsbewehrten Versorgungskontext nicht vergeben kann — das ist zugleich meine größte Unsicherheit, da ich Automatisierung indirekter Tätigkeiten wie Dokumentation, Abrechnung und Dienstplanung nach eigenem Rollenprofil eher unterschätze.",
+   "V10 (installierte KI-Anschlussleistung in Deutschland): Ich urteile hier fachfremd und stütze mich nur auf Analogien aus Netzanschluss- und Genehmigungsverfahren im Krankenhausbau, deshalb ein Intervall von 1,0 bis 5,0 GW; auch V12 hängt daran und liegt bei mir bewusst niedriger als beim Durchschnitt, weil ich wenig indirekten Softwarebezug unterstelle."
+  ],
+  "falsifier": "Ein belastbarer Nachweis, dass in deutschen Krankenhäusern zwischen 2027 und 2029 die indirekten Pflegetätigkeiten — Dokumentation, Übergabeberichte, MD-Prüfvorbereitung, Dienstplanung, Kodierunterstützung — so weit automatisiert wurden, dass der gemessene Anteil pflegeferner Zeit je Vollkraft um mehr als ein Drittel sinkt und Häuser daraufhin trotz PPR 2.0 Stellen abbauen statt sie ans Bett zu verlagern; das würde zugleich meine niedrigen Werte für V3 und V4 und meinen Sechs-Jahres-Verzug in V8 widerlegen.",
+  "confidence": 0.44,
+  "sources": [
+   "Keine externe Quelle abgerufen. Alle Angaben stützen sich auf den gemeinsamen Faktenkern (Korinek/Jones/Sacher/Cotter/McCrory 2026; IAB-Frühjahrsprognose 24.03.2026; ifo Konjunkturperspektiven 07/2026 vom 12.08.2026; BT-Drs. 21/7620 vom 20.08.2026; GKV-Beitragssatzstabilisierungsgesetz, Bundestag 10.07.2026; Regierungsentwurf EStRefG 2027 vom 02.09.2026; EuroHPC IP/26/1708 vom 30.07.2026). Alle darüber hinausgehenden Zahlen (V1 bis V14) sind ausdrücklich Schätzungen der Rolle, keine Messwerte und keine Modellprognosen."
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "D05",
+  "archetype": "ungebunden",
+  "confidence": 52,
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.3,
+    "lo": 0.6,
+    "hi": 5.8
+   },
+   {
+    "variable": "V2",
+    "point": 2.7,
+    "lo": 0.8,
+    "hi": 6.4
+   },
+   {
+    "variable": "V3",
+    "point": 7.4,
+    "lo": 3.5,
+    "hi": 13
+   },
+   {
+    "variable": "V4",
+    "point": 41,
+    "lo": 25,
+    "hi": 62
+   },
+   {
+    "variable": "V5",
+    "point": -0.9,
+    "lo": -3.1,
+    "hi": 0.4
+   },
+   {
+    "variable": "V6",
+    "point": 6.1,
+    "lo": 5,
+    "hi": 7.8
+   },
+   {
+    "variable": "V7",
+    "point": 45.3,
+    "lo": 43.6,
+    "hi": 47.4
+   },
+   {
+    "variable": "V8",
+    "point": 4.6,
+    "lo": 2.5,
+    "hi": 7.5
+   },
+   {
+    "variable": "V9",
+    "point": 17.5,
+    "lo": 12,
+    "hi": 24
+   },
+   {
+    "variable": "V10",
+    "point": 2.8,
+    "lo": 1.3,
+    "hi": 6
+   },
+   {
+    "variable": "V11",
+    "point": 26,
+    "lo": 12,
+    "hi": 45
+   },
+   {
+    "variable": "V12",
+    "point": 21,
+    "lo": 9,
+    "hi": 42
+   },
+   {
+    "variable": "V13",
+    "point": 72,
+    "lo": 50,
+    "hi": 90
+   },
+   {
+    "variable": "V14",
+    "point": 52,
+    "lo": 38,
+    "hi": 64
+   }
+  ],
+  "k1": [
+   "c: 78%",
+   "b: 45%",
+   "e: 35%",
+   "d: 30%",
+   "f: 15%",
+   "a: 12%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Fachkräfte und Qualifikation",
+  "reasoning": "Ich führe ein MVZ und rechne von der Personalkostenquote her: In meinem Haus liegt sie bei rund zwei Dritteln des Umsatzes (Schätzung aus eigener Betriebswirtschaft, nicht aus dem Faktenkern), und jeder Digitalisierungsschritt, den ich einkaufe, muss sich gegen genau diese Quote rechnen - bisher sehe ich Renditen in Dokumentation, Abrechnungsvorbereitung und Terminsteuerung, aber praktisch keine in der ärztlichen Leistung selbst, weil Haftung, Facharztstandard und Dokumentationspflicht die autonome Erledigung ausschließen; deshalb setze ich V4 mit 41 Prozent deutlich unter die drei Viertel des US-Szenarios substantial, das ausdrücklich Modellergebnis und keine Prognose sei. Die Gegenevidenz wiegt für mich schwerer als die Substitutionsevidenz: Die Bundesregierung sehe laut BT-Drs. 21/7620 keine belastbaren Hinweise auf systematischen KI-bedingten Beschäftigungsabbau, das IAB messe für 2026 sogar einen Aufbau von 180.000 Stellen in öffentlichen Diensten, Erziehung und Gesundheit - und das deckt sich exakt mit meiner Erfahrung, dass ich trotz jeder eingeführten Software keine MFA-Stelle streiche, sondern Vakanzen habe; die ifo-Lohnerwartungen von rund 50 Prozent für Berufseinsteiger halte ich für eine Erwartungsgröße, nicht für eine Messung, und sie betreffen Dienstleistungen und Handel stärker als approbationsgebundene Berufe. Fiskalisch bin ich dagegen pessimistischer als der Durchschnitt: Das GKV-Beitragssatzstabilisierungsgesetz koppele Ausgaben an Einnahmen und sei damit eine rein ausgabenseitige Antwort - für mich heißt das sinkende Punktwerte und gedeckelte Honorare bei weiter steigenden Personalkosten, weshalb ich V7 mit 45,3 Prozent hoch und die Hauptlast bei öffentlichen Haushalten und Beitragszahlern ansetze.",
+  "falsifier": "Wenn bis 2028 in der vertragsärztlichen Versorgung eine delegationsfähige, haftungsrechtlich abgesicherte KI-Leistung in den EBM aufgenommen würde, die ärztliche oder MFA-Arbeitszeit messbar ersetzt (statt nur unterstützt), und die Personalkostenquote in einer Kohorte von MVZ nachweislich um mehr als fünf Punkte fiele, wäre meine niedrige V4- und meine gedämpfte V3-Schätzung widerlegt - dann käme die Substitution auch im regulierten Sektor an, und mein Diffusionsverzug von 4,6 Jahren wäre zu hoch angesetzt.",
+  "uncertain": [
+   "V10 (installierte KI-Anschlussleistung): Ich bin Betriebswirt ambulanter Versorgung, kein Energie- oder Rechenzentrumsfachmann; mein Intervall 1,3 bis 6,0 GW ist bewusst breit, weil ich weder Netzanschlusswarteschlangen noch den Ausgang der EuroHPC-Vergabe Anfang 2027 beurteilen kann - reine Schätzung ohne abgerufene Quelle.",
+   "V7 (Gesamtsozialversicherungsbeitragssatz) - hier weiche ich bewusst nach OBEN vom erwartbaren Durchschnittsurteil ab: Ich setze 45,3 Prozent an, während ein durchschnittlicher Beobachter wohl bei 44 oder darunter landet, weil ich aus der Abrechnungspraxis sehe, dass die bis 2030 avisierten rund 42,8 Mrd. EUR Konsolidierung ausgabenseitig kaum erreichbar seien, ohne die ambulante Struktur selbst zu schwächen; zugleich weiche ich bei V11 nach OBEN ab (26 statt der im Panel zu erwartenden 15 bis 20 Prozent), weil Patientendaten faktisch nicht in Drittstaaten-Inferenz laufen dürfen und damit aus meinem Sektor eine harte Nachfrage nach EU-kontrollierter Infrastruktur kommt - meine Unsicherheit dabei ist hoch, weil 'EU-betrieben' und 'EU-kontrolliert' rechtlich auseinanderfallen können."
+  ],
+  "sources": [
+   "Keine über den gemeinsamen Faktenkern hinausgehende Quelle abgerufen. Alle Zahlen außerhalb des Faktenkerns (V1, V2, V3, V4, V5, V6, V7, V8, V9, V10, V11, V12, V13, V14 sowie die Personalkostenquote meines Hauses) sind eigene Schätzungen aus Rollenperspektive und im reasoning als solche gekennzeichnet.",
+   "Faktenkern-Bezüge, die ich verwende: IAB-Frühjahrsprognose 24.03.2026 (Sektorspreizung Industrie -140.000 / öffentliche Dienste, Erziehung, Gesundheit +180.000; Iran-Krieg-Dämpfung 0,2 bis 0,3 Pp); BT-Drs. 21/7620 vom 20.08.2026; ifo Konjunkturperspektiven 07/2026 vom 12.08.2026; GKV-Beitragssatzstabilisierungsgesetz, Bundestag 10.07.2026 (318 zu 284), rund 42,8 Mrd. EUR bis 2030; Regierungsentwurf BMF 18.08.2026 / Kabinett 02.09.2026 zu § 29 Abs. 1 Nr. 4 GewStG-E (10:90-Zerlegung); EuroHPC IP/26/1708 vom 30.07.2026; Korinek/Jones/Sacher/Cotter/McCrory, Anthropic Institute WP 2026-02, September 2026 (Szenarien ausdrücklich keine Prognosen)."
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "D04",
+  "archetype": "ungebunden",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.3,
+    "lo": 0.6,
+    "hi": 5.5
+   },
+   {
+    "variable": "V2",
+    "point": 1.9,
+    "lo": 0.4,
+    "hi": 4.8
+   },
+   {
+    "variable": "V3",
+    "point": 9,
+    "lo": 4,
+    "hi": 17
+   },
+   {
+    "variable": "V4",
+    "point": 34,
+    "lo": 16,
+    "hi": 62
+   },
+   {
+    "variable": "V5",
+    "point": -1.4,
+    "lo": -3.6,
+    "hi": 0.3
+   },
+   {
+    "variable": "V6",
+    "point": 6.4,
+    "lo": 5.2,
+    "hi": 8.3
+   },
+   {
+    "variable": "V7",
+    "point": 44.6,
+    "lo": 43.1,
+    "hi": 46.9
+   },
+   {
+    "variable": "V8",
+    "point": 5.5,
+    "lo": 3.5,
+    "hi": 8
+   },
+   {
+    "variable": "V9",
+    "point": 17.5,
+    "lo": 11.5,
+    "hi": 24
+   },
+   {
+    "variable": "V10",
+    "point": 3.2,
+    "lo": 1.4,
+    "hi": 6.5
+   },
+   {
+    "variable": "V11",
+    "point": 26,
+    "lo": 9,
+    "hi": 44
+   },
+   {
+    "variable": "V12",
+    "point": 21,
+    "lo": 9,
+    "hi": 42
+   },
+   {
+    "variable": "V13",
+    "point": 68,
+    "lo": 45,
+    "hi": 88
+   },
+   {
+    "variable": "V14",
+    "point": 46,
+    "lo": 32,
+    "hi": 60
+   }
+  ],
+  "k1": [
+   "c: 80%",
+   "b: 45%",
+   "e: 35%",
+   "d: 30%",
+   "a: 18%",
+   "f: 12%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Datenzugang und Datenqualität",
+  "reasoning": "Aus der Kodier- und Abrechnungsperspektive ist die Engstelle nicht das Modell, sondern die Primärdokumentation: automatisierte Kodierung trägt nur so weit, wie Arztbriefe, OP-Berichte und Pflegedokumentation strukturiert und vollständig sind, weshalb ich V3 unter dem US-Wert des Szenarios substantial (12 %) ansetze und als bindende Restriktion Datenzugang und Datenqualität nenne statt Compute und Strom. Der Automatisierungsgrad V4 liegt bei mir deutlich unter den drei Vierteln des US-Szenarios, weil das MD-Prüfverfahren und die Rechnungsverantwortung des Krankenhauses eine fallbezogene, namentlich verantwortete menschliche Freigabe erzwingen — KI erzeugt bei uns Kodiervorschläge und Prüfhinweise, die Kodierfachkraft zeichnet; dieser Strukturunterschied zur US-Kalibrierung wäre haftungs- und prüfrechtlicher, nicht technischer Natur (Einschätzung, keine Messung). Fiskalisch schließe ich vom Beobachteten auf das Übrige: Das GKV-Beitragssatzstabilisierungsgesetz beantwortete ein einnahmenseitiges Problem rein ausgabenseitig (rund 42,8 Mrd. EUR bis 2030), die Bundesregierung sah am 20. August 2026 keine belastbaren Hinweise auf KI-bedingten Beschäftigungsabbau und plante keine fiskalischen Instrumente — deshalb landete die Anpassungslast bis 2030 bei Beitragszahlern und öffentlichen Haushalten, und V7 stiege entsprechend (Schätzung, kein Modellergebnis).",
+  "falsifier": "Wenn Medizinischer Dienst bzw. GKV-Spitzenverband bis etwa 2028 ein Prüfverfahren akzeptierten, in dem KI-erzeugte Kodierung ohne fallbezogene menschliche Freigabe abrechnungsfähig ist, und Krankenhäuser daraufhin messbar Kodier- und Medizincontrolling-Personal abbauten, wären mein niedriger V4 und mein hoher V8 sofort widerlegt — und mit ihnen die Annahme, Regulierung deckele die Substitution in versorgungsnahen Sektoren.",
+  "uncertain": [
+   "V9 (Industriestrompreis): außerhalb meines Mandats — ich habe keinen eigenen Zugang zu Netzentgelt-, Beschaffungs- und Umlagepfaden, reine Schätzung mit sehr weitem Intervall; hier schlägt meine sektorspezifische Blindstelle voll durch.",
+   "V4 (Automatisierungsgrad): bewusste Abweichung nach UNTEN vom erwartbaren Durchschnittsurteil — wo ein gesamtwirtschaftlicher Beobachter die US-Relation von drei Vierteln teilweise übernähme, setze ich 34 %, weil ich Freigabe- und Prüfpflichten als dauerhafte Bremse lese; trägt dieser Mechanismus außerhalb des Abrechnungsrechts nicht, liege ich zu tief.",
+   "V11 (EU-Inferenzanteil): bewusste Abweichung nach OBEN (26 %) — Sozialdatenschutz, ärztliche Schweigepflicht und Auftragsverarbeitungsrecht erzwingen in meinem Sektor EU- oder On-Prem-Betrieb; ob dieser Zwang außerhalb von Gesundheit und Verwaltung trägt, kann ich nicht beurteilen."
+  ],
+  "sources": [],
+  "confidence": 0.46,
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "D06",
+  "archetype": "S1",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 1.4,
+    "lo": 0.3,
+    "hi": 4
+   },
+   {
+    "variable": "V2",
+    "point": 1.2,
+    "lo": 0.2,
+    "hi": 3.7
+   },
+   {
+    "variable": "V3",
+    "point": 6.5,
+    "lo": 2.5,
+    "hi": 13
+   },
+   {
+    "variable": "V4",
+    "point": 42,
+    "lo": 24,
+    "hi": 63
+   },
+   {
+    "variable": "V5",
+    "point": -0.8,
+    "lo": -2.7,
+    "hi": 0.4
+   },
+   {
+    "variable": "V6",
+    "point": 6.1,
+    "lo": 4.9,
+    "hi": 7.9
+   },
+   {
+    "variable": "V7",
+    "point": 44.4,
+    "lo": 42.6,
+    "hi": 46.8
+   },
+   {
+    "variable": "V8",
+    "point": 6.5,
+    "lo": 3.5,
+    "hi": 10
+   },
+   {
+    "variable": "V9",
+    "point": 16.5,
+    "lo": 11,
+    "hi": 24
+   },
+   {
+    "variable": "V10",
+    "point": 2.2,
+    "lo": 0.9,
+    "hi": 4.6
+   },
+   {
+    "variable": "V11",
+    "point": 19,
+    "lo": 7,
+    "hi": 38
+   },
+   {
+    "variable": "V12",
+    "point": 14.5,
+    "lo": 6,
+    "hi": 34
+   },
+   {
+    "variable": "V13",
+    "point": 72,
+    "lo": 52,
+    "hi": 88
+   },
+   {
+    "variable": "V14",
+    "point": 41,
+    "lo": 28,
+    "hi": 56
+   }
+  ],
+  "k1": [
+   "c: 72%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Datenzugang und Datenqualität",
+  "reasoning": "Aus der Versorgungsforschung kenne ich den Abstand zwischen technischer Verfügbarkeit und gemessener Wirkung: Bei den digitalen Gesundheitsanwendungen vergingen zwischen Zulassung, belastbarem Wirksamkeitsnachweis und relevanter Nutzung im Versorgungsalltag Jahre, und ein großer Teil der Anwendungen erreichte nie den Schritt von der vorläufigen zur endgültigen Aufnahme — deshalb halte ich die im US-Modell unterstellte Geschwindigkeit (Szenario substantial mit 12 % KI-berührter Aufgaben und drei Vierteln davon autonom) für deutsche Verhältnisse selbst als Konjunktivaussage für zu schnell und setze V3 auf 6,5 % und V4 auf 42 %; der Strukturunterschied, der das trägt, ist nicht die Modellfähigkeit, sondern Haftungs-, Dokumentations- und Nachweispflichten plus ein höherer Anteil physisch-interaktiver Tätigkeiten (Pflege, Bau, Logistik, Handwerk), die Korinek et al. ausdrücklich nicht abbilden. Empirisch gemessen ist bislang nur die Erwartungsgröße (ifo-Umfrage Juni 2026: rund die Hälfte der KI-nutzenden Unternehmen erwartet Lohnkompression bei Junioren) — das ist eine Erwartungsmessung, keine Wirkungsmessung, und die Bundesregierung stellte am 20. August 2026 fest, ein empirischer Nachweis realer Gehaltseinbußen liege nicht vor; zusammen mit dem IAB-Befund eines Beschäftigungsaufbaus von 180.000 in öffentlichen Diensten, Erziehung und Gesundheit ergibt das bis 2030 eine Lohnquote, die ich nur um 0,8 Prozentpunkte fallen sehe. Die Last der Anpassung entsteht in meinem Bild deshalb nicht am Arbeitsmarkt, sondern bei den öffentlichen Haushalten und Beitragszahlern: Das GKV-Beitragssatzstabilisierungsgesetz beantwortet ein einnahmenseitiges Problem rein ausgabenseitig und mit befristeten Effekten, weshalb ich den Gesamtbeitragssatz 2030 trotz Konsolidierung bei 44,4 % sehe — alle Zahlen jenseits des Faktenkerns sind Schätzungen, keine Modellrechnung.",
+  "falsifier": "Eine prospektiv oder an Routinedaten kontrollierte Evaluation aus einem regulierten deutschen Sektor (Klinik, Kostenträger, Verwaltung), die vor 2029 zeigt, dass KI-Systeme ganze Fallbearbeitungsstrecken ohne menschliche Freigabe übernehmen und dabei messbare Produktivitäts- und Personaleffekte in der Fläche erzeugen — das würde V3, V4 und vor allem meinen Diffusionsverzug V8 in einem Zug widerlegen.",
+  "confidence": 0.41,
+  "uncertain": [
+   "V9 (Industriestrompreis): liegt vollständig außerhalb meines Evidenzbereichs; ich habe keine belastbare Methodik, um Netzentgelt-, Beihilfe- und Rechenzentrumsnachfrage-Effekte zu trennen, daher das Intervall 11 bis 24 ct/kWh.",
+   "V10 (Anschlussleistung KI-Rechenzentren): abhängig von Netzanschlussfristen und Genehmigungsdauern, zu denen ich keine eigene Datengrundlage habe; der EuroHPC-Zuschlag Anfang 2027 könnte die obere Hälfte des Intervalls realisieren, Bauzeit und Netzanschluss könnten die Leistung aber weit hinter 2030 schieben.",
+   "BEWUSSTE ABWEICHUNG nach oben bei V8 (Diffusionsverzug regulierter Sektoren, 6,5 Jahre statt der wohl panelüblichen 3 bis 4): Die DiGA-Erfahrung ist mein direkter Beleg dafür, dass Evidenzanforderung, Erstattungsverfahren und Implementierungsarbeit sich addieren statt zu überlappen; spiegelbildlich weiche ich bei V4 (Automatisierungsgrad 42 %) bewusst nach unten ab, weil Haftung und Dokumentationspflicht die menschliche Freigabe im Prozess halten."
+  ],
+  "sources": [
+   "Keine externen Quellen abgerufen. Alle Angaben stützen sich auf den gemeinsamen Faktenkern (Korinek/Jones/Sacher/Cotter/McCrory, Anthropic Institute WP 2026-02, September 2026; ifo Konjunkturperspektiven 07/2026 vom 12.08.2026; BT-Drs. 21/7620 vom 20.08.2026; IAB-Kurzfristprognose vom 24.03.2026; GKV-Beitragssatzstabilisierungsgesetz, Bundestag 10.07.2026; EuroHPC IP/26/1708 vom 30.07.2026; Regierungsentwurf § 29 Abs. 1 Nr. 4 GewStG-E vom 18.08./02.09.2026). Alle Zahlen darüber hinaus (V1 bis V14) sind ausdrücklich als Schätzung gekennzeichnet, nicht als Modellprognose und nicht als empirische Messung."
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "E01",
+  "archetype": "S3",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.4,
+    "lo": 0.6,
+    "hi": 5.5
+   },
+   {
+    "variable": "V2",
+    "point": 2,
+    "lo": 0.4,
+    "hi": 5
+   },
+   {
+    "variable": "V3",
+    "point": 7.3,
+    "lo": 3.5,
+    "hi": 13
+   },
+   {
+    "variable": "V4",
+    "point": 44,
+    "lo": 25,
+    "hi": 65
+   },
+   {
+    "variable": "V5",
+    "point": -2.1,
+    "lo": -4,
+    "hi": -0.3
+   },
+   {
+    "variable": "V6",
+    "point": 6.4,
+    "lo": 5.4,
+    "hi": 8.1
+   },
+   {
+    "variable": "V7",
+    "point": 44.8,
+    "lo": 43.2,
+    "hi": 46.6
+   },
+   {
+    "variable": "V8",
+    "point": 4.5,
+    "lo": 2.5,
+    "hi": 7
+   },
+   {
+    "variable": "V9",
+    "point": 15.5,
+    "lo": 11,
+    "hi": 21
+   },
+   {
+    "variable": "V10",
+    "point": 2.2,
+    "lo": 1,
+    "hi": 4.5
+   },
+   {
+    "variable": "V11",
+    "point": 31,
+    "lo": 15,
+    "hi": 52
+   },
+   {
+    "variable": "V12",
+    "point": 18,
+    "lo": 8,
+    "hi": 38
+   },
+   {
+    "variable": "V13",
+    "point": 72,
+    "lo": 55,
+    "hi": 88
+   },
+   {
+    "variable": "V14",
+    "point": 52,
+    "lo": 38,
+    "hi": 65
+   }
+  ],
+  "k1": [
+   "c: 72%",
+   "b: 48%",
+   "e: 33%",
+   "d: 22%",
+   "a: 17%",
+   "f: 9%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Fachkräfte und Qualifikation",
+  "reasoning": "Als Vorstand einer gesetzlichen Krankenkasse gewichte ich zuerst die Gegenevidenz gegen eine starke Substitutionswirkung: Die Bundesregierung sieht in ihrer Antwort vom 20. August 2026 (BT-Drs. 21/7620) ausdrücklich keine belastbaren Hinweise auf systematischen KI-bedingten Beschäftigungsabbau, das IAB misst in der Frühjahrsprognose vom 24. März 2026 im Bereich öffentliche Dienste, Erziehung und Gesundheit sogar einen Aufbau von 180.000 Stellen, und in meinem Sektor bremsen Zulassung, Haftung, Datenschutz, MD-Prüfwesen und Selbstverwaltungsverfahren die Diffusion so stark, dass ich den Verzug regulierter Sektoren mit rund 4,5 Jahren (Schätzung) höher ansetze als ein durchschnittlicher Beobachter; entsprechend halte ich einen Beschäftigungseinbruch für unwahrscheinlich (V6 6,4 Prozent, Schätzung) und übertrage die US-Werte des Szenarios substantial ausdrücklich NICHT, weil die deutsche Berufsstruktur einen höheren Anteil nicht-kognitiver Tätigkeiten aufweist und Mitbestimmung, Dokumentationspflichten und Haftungsrecht den Automatisierungsgrad je berührter Aufgabe unter die im Modell unterstellten drei Viertel drücken dürften (Konjunktiv, da Modellergebnis). Für meine Kasse ist aber nicht die Beschäftigungszahl die kritische Größe, sondern die beitragspflichtige Entgeltsumme: Auch ganz ohne Stellenabbau könnte die Lohnquote über Kapitalvertiefung und den kapitalintensiven KI-Investitionszyklus um rund zwei Punkte erodieren (Schätzung), und sie erodiert für die GKV zusätzlich, weil Produktivitätsgewinne sich bei Beschäftigten oberhalb der Beitragsbemessungsgrenze und bei Kapitaleinkommen konzentrieren dürften, die gar nicht oder nur begrenzt verbeitragt werden - die Bemessungsgrundlage schrumpft also schneller als die volkswirtschaftliche Lohnquote, und genau das ist der Kanal, den das US-Modell mangels Sozialversicherungsarchitektur nicht abbildet. Da das GKV-Beitragssatzstabilisierungsgesetz (Bundestag 10. Juli 2026, 318 zu 284) mit rund 42,8 Mrd. EUR bis 2030 eine rein ausgabenseitige Antwort auf ein einnahmenseitig entstehendes Problem gibt und eine Wertschöpfungsabgabe bis 2030 aus meiner Sicht allenfalls angekündigt, nicht beschlossen wäre (Konjunktiv, Gesetzgebungsverfahren offen), rechne ich mit einem Gesamtsozialversicherungsbeitragssatz von rund 44,8 Prozent - das ist mein bewusst überdurchschnittlicher Wert und trägt die Zuordnung zu S3, Fiskalischer Stresstest: Wachstum entsteht, kommt aber in den Sicherungssystemen nicht an.",
+  "uncertain": [
+   "V10 (installierte nicht redundante Nennanschlussleistung von KI-Rechenzentren, 2,2 GW, Intervall 1,0 bis 4,5 GW): Der Wert hängt an Netzanschlusszeiten, Genehmigungsdauer und der EuroHPC-Vergabe Anfang 2027 (IP/26/1708 vom 30.07.2026) - lauter Größen außerhalb meines Fachgebiets; die Zahl ist reine Schätzung ohne abgerufene Quelle, daher das bewusst weite Intervall.",
+   "V7 (Gesamtsozialversicherungsbeitragssatz 44,8 Prozent): Hier weiche ich bewusst NACH OBEN vom erwartbaren Durchschnittsurteil ab, weil ich als Kassenvorstand die Einnahmenseite, den Defizitpfad bis 2030 (bis zu 40 Mrd. EUR) sowie die Pflege- und Rentendynamik stärker gewichte als die Kompensationswirkung des Stabilisierungsgesetzes; die Gegenrichtung wäre ein politisch erzwungener Deckel, dessen Durchhaltbarkeit ich für gering halte. Ebenfalls bewusst überdurchschnittlich und damit divergent: V8 (Diffusionsverzug 4,5 Jahre, nach oben) und V11 (31 Prozent EU-betriebene Inferenz, nach oben), letzteres weil Gesundheits- und Sozialdaten regulatorisch in der EU verarbeitet werden müssen und ich diesen Sektoreffekt aus meiner Kassenperspektive heraus auf die Gesamtwirtschaft hochrechne - das ist meine Blindstelle, und ich kompensiere sie nicht."
+  ],
+  "falsifier": "Wenn die beitragspflichtigen Entgelte in der GKV bis 2028 nominal mindestens so schnell wüchsen wie das nominale BIP - die verbeitragte Lohnsumme unterhalb der Beitragsbemessungsgrenze also stabil bliebe - und der durchschnittliche Zusatzbeitrag trotz des Defizitpfads bis 2030 nicht weiter stiege, wäre meine Kernthese der einnahmenseitigen Erosion (V5 und V7) und damit die Zuordnung zu S3 widerlegt, unabhängig davon, wie viele Aufgaben bis 2030 KI-berührt sind.",
+  "confidence": 52,
+  "sources": [
+   "Keine externe Recherche abgerufen. Alle Angaben über den gemeinsamen Faktenkern hinaus (V1 bis V6, V8 bis V14 sowie der Beitragssatzpfad in V7) sind eigene Schätzungen aus der Rollenperspektive und im reasoning als solche gekennzeichnet.",
+   "Belegt ausschließlich über den Faktenkern: BT-Drs. 21/7620, Antwort der Bundesregierung vom 20.08.2026.",
+   "IAB-Frühjahrsprognose vom 24.03.2026 (BIP 0,8 Prozent, Erwerbstätigkeit -90.000, öffentliche Dienste/Erziehung/Gesundheit +180.000).",
+   "ifo Konjunkturperspektiven 07/2026, Ruffert, 12.08.2026 (Lohnerwartungen KI-nutzender Unternehmen).",
+   "GKV-Beitragssatzstabilisierungsgesetz, Kabinett 29.04.2026, Bundestag und Bundesrat 10.07.2026 (Konsolidierung rund 42,8 Mrd. EUR bis 2030).",
+   "Regierungsentwurf BMF vom 18.08.2026, Artikel 3 Einkommensteuerreformgesetz 2027, § 29 Abs. 1 Nr. 4 GewStG-E (Zerlegung 10/90 nach Nennanschlussleistung), Kabinettbefassung 02.09.2026 - Verfahren offen, daher Konjunktiv.",
+   "EuroHPC-Ausschreibung IP/26/1708 vom 30.07.2026 (bis zu sieben AI Gigafactories, Vergabe Anfang 2027)."
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "E03",
+  "archetype": "ungebunden",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.4,
+    "lo": 0.6,
+    "hi": 5.5
+   },
+   {
+    "variable": "V2",
+    "point": 2.7,
+    "lo": 0.7,
+    "hi": 6.2
+   },
+   {
+    "variable": "V3",
+    "point": 7.5,
+    "lo": 3.5,
+    "hi": 14
+   },
+   {
+    "variable": "V4",
+    "point": 42,
+    "lo": 25,
+    "hi": 62
+   },
+   {
+    "variable": "V5",
+    "point": -0.9,
+    "lo": -2.6,
+    "hi": 0.4
+   },
+   {
+    "variable": "V6",
+    "point": 5.7,
+    "lo": 4.6,
+    "hi": 7.4
+   },
+   {
+    "variable": "V7",
+    "point": 45.3,
+    "lo": 43.6,
+    "hi": 47.2
+   },
+   {
+    "variable": "V8",
+    "point": 5.5,
+    "lo": 3,
+    "hi": 8
+   },
+   {
+    "variable": "V9",
+    "point": 17.2,
+    "lo": 12.5,
+    "hi": 24
+   },
+   {
+    "variable": "V10",
+    "point": 3.2,
+    "lo": 1.6,
+    "hi": 6.5
+   },
+   {
+    "variable": "V11",
+    "point": 22,
+    "lo": 10,
+    "hi": 42
+   },
+   {
+    "variable": "V12",
+    "point": 19,
+    "lo": 8,
+    "hi": 38
+   },
+   {
+    "variable": "V13",
+    "point": 68,
+    "lo": 48,
+    "hi": 85
+   },
+   {
+    "variable": "V14",
+    "point": 54,
+    "lo": 42,
+    "hi": 66
+   }
+  ],
+  "k1": [
+   "c: 72%",
+   "b: 55%",
+   "e: 40%",
+   "d: 35%",
+   "a: 18%",
+   "f: 12%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Fachkräfte und Qualifikation",
+  "reasoning": "Aus Sicht der umlagefinanzierten Sicherungssysteme wäre die dominante Größe bis 2030 nicht die KI-Substitution, sondern der demografisch bedingte Rückgang des Erwerbspersonenpotenzials, der im IAB-Kurzfristbefund (24. März 2026) mit erstmals −40.000 auf 48,62 Mio. bereits einsetzt; in einer Wirtschaft mit schrumpfendem Arbeitsangebot dürfte KI überwiegend als Lückenfüller (Augmentierung) und nicht als Verdrängungstechnologie eingesetzt werden, weshalb ich V4 und V5 bewusst unterhalb des erwartbaren Panelurteils ansetze und der Position der Bundesregierung vom 20. August 2026 (keine belastbaren Hinweise auf systematischen Abbau) mehr Gewicht gebe als den ifo-Erwartungswerten vom 12. August 2026, die Erwartungen und keine Messungen sind. Die US-Werte aus Korinek et al. (Szenario substantial: 12 % berührte Aufgaben, 3/4 automatisiert, Lohnquote −4 Pp) lassen sich nicht übertragen, weil erstens die deutsche Berufsstruktur einen höheren Anteil nicht-kognitiver Tätigkeiten aufweist, zweitens regulierte Sektoren (Gesundheit, Verwaltung, Finanzaufsicht) mit rund 40 % der Beschäftigung einen mehrjährigen Diffusionsverzug erzwingen und drittens Kündigungsschutz und Tarifbindung die im US-Modell unterstellte reibungslose Reallokation ausschließen — der IAB-Befund eines sektoralen Aufbaus von +180.000 in öffentlichen Diensten, Erziehung und Gesundheit bei −140.000 in der Industrie stützt das. Der Druck auf die Systeme entstünde in meinem Urteil daher primär demografisch und nicht KI-induziert: Ich schätze den Gesamtbeitragssatz 2030 auf rund 45,3 % (Schätzung, fortgeschrieben aus dem Ausgangsniveau von gut 42 % zuzüglich Alterung, Pflegedynamik und der lediglich ausgabenseitigen Logik des GKV-Beitragssatzstabilisierungsgesetzes vom 10. Juli 2026), während das Generationenkapital mit rund 10 Mrd. EUR Ersteinzahlung und 200-Mrd.-Ziel Mitte der 2030er bis 2030 quantitativ noch keine spürbare Entlastung liefern dürfte; eine Wertschöpfungsabgabe wäre die konsistente Antwort, käme aber nach meiner Einschätzung in dieser Legislatur allenfalls als Ankündigung.",
+  "uncertain": [
+   "V4 (Automatisierungsgrad, 42 %): Hier weiche ich bewusst nach UNTEN vom erwartbaren Durchschnittsurteil ab (Panel dürfte eher 55-70 % nennen), weil ein schrumpfendes Erwerbspersonenpotenzial betriebswirtschaftlich die Augmentierung gegenüber der Substitution begünstigt; die Größe ist zugleich empirisch praktisch unbeobachtet, da es in Deutschland keine Aufgabenstatistik gibt und die ifo-Angaben Erwartungen sind. Ergänzend weiche ich bei V7 bewusst nach OBEN ab (45,3 % statt eines glatteren 44er-Werts), weil ich Pflege- und Krankenversicherungsdynamik demografisch und nicht KI-getrieben lese.",
+   "V12 (Netto-Abfluss für importierte KI-Vorleistungen, 19 Mrd. EUR): Es existiert keine belastbare Statistik, die Lizenz-, API- und Cloudbezug KI-spezifisch abgrenzt, und der Wert hängt zusätzlich von der in § 5.1 offenen Abzugsfähigkeitsfrage sowie vom Ausgang der EuroHPC-Vergabe Anfang 2027 ab; für mein Mandat ist er dennoch zentral, weil abfließende Wertschöpfung beitragsfrei bleibt und die Lohnsummenbindung genau dort ins Leere läuft."
+  ],
+  "falsifier": "Ein über zwei aufeinanderfolgende Jahre (etwa 2028 und 2029) messbarer Rückgang der beitragspflichtigen Entgeltsumme je sozialversicherungspflichtig Beschäftigtem in kognitiv geprägten Berufsgruppen, der sich nach Alters- und Branchenstandardisierung nicht durch den demografischen Rückgang des Erwerbspersonenpotenzials erklären lässt — also ein Einbruch der Beitragsbasis pro Kopf statt nur der Kopfzahl. Das würde meine Kernannahme widerlegen, dass Knappheit an Arbeitskräften die KI-bedingte Lohn- und Lohnquotenwirkung bis 2030 weitgehend kompensiert, und V4, V5 und V7 gleichzeitig in Richtung des Szenarios substantial verschieben.",
+  "confidence": 0.54,
+  "sources": [
+   "Keine über den gemeinsamen Faktenkern hinausgehende Quelle abgerufen. Alle Zahlen zu V1-V14 sind eigene Schätzungen der Rolle, hergeleitet aus dem Faktenkern (IAB-Kurzfristprognose 24.03.2026; ifo Konjunkturperspektiven 07/2026 vom 12.08.2026; BT-Drs. 21/7620 vom 20.08.2026; GKV-Beitragssatzstabilisierungsgesetz, Bundestag 10.07.2026; Generationenkapital, Start Januar 2026; EuroHPC IP/26/1708 vom 30.07.2026; Regierungsentwurf § 29 Abs. 1 Nr. 4 GewStG-E vom 18.08.2026 / Kabinett 02.09.2026) und ausdrücklich nicht als Modellprognose oder empirische Messung zu lesen."
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "E02",
+  "archetype": "S3",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.4,
+    "lo": 0.4,
+    "hi": 5.6
+   },
+   {
+    "variable": "V2",
+    "point": 2,
+    "lo": 0.2,
+    "hi": 5.1
+   },
+   {
+    "variable": "V3",
+    "point": 8.5,
+    "lo": 4,
+    "hi": 15
+   },
+   {
+    "variable": "V4",
+    "point": 57,
+    "lo": 40,
+    "hi": 75
+   },
+   {
+    "variable": "V5",
+    "point": -2.3,
+    "lo": -4.6,
+    "hi": -0.2
+   },
+   {
+    "variable": "V6",
+    "point": 6.6,
+    "lo": 5.3,
+    "hi": 8.4
+   },
+   {
+    "variable": "V7",
+    "point": 45.6,
+    "lo": 43.7,
+    "hi": 47.9
+   },
+   {
+    "variable": "V8",
+    "point": 5.2,
+    "lo": 3,
+    "hi": 8
+   },
+   {
+    "variable": "V9",
+    "point": 15.5,
+    "lo": 11,
+    "hi": 21.5
+   },
+   {
+    "variable": "V10",
+    "point": 2.4,
+    "lo": 1.1,
+    "hi": 5.4
+   },
+   {
+    "variable": "V11",
+    "point": 26,
+    "lo": 12,
+    "hi": 45
+   },
+   {
+    "variable": "V12",
+    "point": 21,
+    "lo": 9,
+    "hi": 38
+   },
+   {
+    "variable": "V13",
+    "point": 74,
+    "lo": 52,
+    "hi": 91
+   },
+   {
+    "variable": "V14",
+    "point": 47,
+    "lo": 35,
+    "hi": 60
+   }
+  ],
+  "k1": [
+   "c: 78%",
+   "e: 42%",
+   "b: 38%",
+   "d: 18%",
+   "a: 12% (allenfalls als Ankuendigung, Kommissionsauftrag oder Pruefgesetz, nicht als beschlossene Abgabe)",
+   "f: 9%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Fachkräfte und Qualifikation",
+  "reasoning": "Aus Sicht der Einnahmenseite der Sozialversicherung ist nicht die Lohnquote die entscheidende Groesse, sondern die beitragspflichtige Entgeltsumme, und diese erodiert wegen der Beitragsbemessungsgrenzen asymmetrisch schneller: die von der ifo-Umfrage (Juni 2026, rund 3.000 KI-nutzende Unternehmen) gemessene Lohnkompression trifft mit rund 48 bis 51 Prozent vor allem Berufseinsteiger, deren Entgelte vollstaendig unterhalb der BBG liegen und damit eins zu eins beitragswirksam sind, waehrend die von 26 Prozent der Unternehmen erwarteten Zuwaechse fuer erfahrene Akademiker grossenteils oberhalb der BBG anfallen und beitragsfrei bleiben (Herleitung meinerseits, keine gemessene Groesse). Uebertraege ich die Richtung des Szenarios substantial - nicht dessen Niveau, weil die deutsche Berufsstruktur einen hoeheren Anteil nicht-kognitiver Taetigkeiten aufweist und die Diffusion in regulierten Sektoren langsamer verlaeuft -, so laege die Lohnquote 2030 schaetzungsweise rund 2,3 Prozentpunkte unter 2026, waehrend der Gesamtbeitragssatz ausgehend von 42,3 Prozent (2026, einschliesslich durchschnittlichem Zusatzbeitrag von 2,9 Prozent) auf schaetzungsweise 45,6 Prozent stiege, getragen von der Rentenversicherung, einem trotz GKV-Beitragssatzstabilisierungsgesetz weiter steigenden Zusatzbeitrag und der Pflegeversicherung. Die politische Antwort bliebe dabei nach heutigem Stand ausgabenseitig - der Leitsatz \"Ausgaben an Einnahmen koppeln\" und die Antwort der Bundesregierung vom 20. August 2026, es lägen \"keine belastbaren Hinweise\" auf KI-bedingten Beschaeftigungsabbau vor, deuten darauf hin, dass eine einnahmenseitige Reform, also die Verbreiterung der Bemessungsgrundlage oder die Ablösung versicherungsfremder Leistungen durch Steuermittel, erst nach 2030 beschlossen wuerde; das System selbst - paritaetische Beitragsfinanzierung mit Selbstverwaltung - halte ich dabei ausdruecklich fuer erhaltenswert und wuerde es gegen eine Ersetzung durch eine Wertschoepfungsabgabe verteidigen.",
+  "uncertain": [
+   "V5 (Lohnquote, -2,3 Pp): Die Gegenkraft des schrumpfenden Erwerbspersonenpotenzials (IAB: erstmals -40.000 auf 48,62 Mio.) koennte die Loehne stuetzen und die Verschiebung halbieren; umgekehrt bildet die Volkswirtschaftliche Gesamtrechnung Lizenz- und Cloud-Vorleistungsimporte als Vorleistung ab, sodass die Lohnquote die Erosion der Beitragsbasis systematisch unterzeichnet.",
+   "V12 (Netto-Abfluss fuer importierte KI-Vorleistungen, 21 Mrd. EUR): reine Schaetzung ohne belastbare Statistik, weil Lizenz-, API- und Cloud-Entgelte in der Dienstleistungsbilanz nicht KI-spezifisch ausgewiesen werden; das Intervall 9 bis 38 Mrd. EUR ist entsprechend weit.",
+   "BEWUSSTE ABWEICHUNG NACH OBEN: V7 (45,6 statt der erwartbaren Konsenszahl um 44) und V11 (26 statt der erwartbaren 12 bis 15 Prozent). V7 hoeher, weil ich die Beitragssatzwirkung der BBG-Asymmetrie und der nicht gegenfinanzierten versicherungsfremden Leistungen einpreise, die ein durchschnittlicher Beobachter unterschaetzt. V11 hoeher, weil der Sozialdatenschutz nach SGB X, die Vergabepraxis und die Anforderungen an Auftragsverarbeitung in GKV, Rentenversicherung und Verwaltung eine nachfrageseitige Untergrenze fuer in der EU betriebene und kontrollierte Inferenz erzwingen - ein Mechanismus, den rein angebotsseitige Compute-Betrachtungen uebersehen. BEWUSSTE ABWEICHUNG NACH UNTEN: K3 - ich halte nicht Compute und Strom, sondern Fachkraefte und Qualifikation fuer die bindende Restriktion, weil die Einnahmenbasis der Sozialversicherung an Koepfen haengt, nicht an Kilowatt."
+  ],
+  "falsifier": "Eine amtliche Messung der beitragspflichtigen Entgeltsumme (Schaetzerkreis GKV beziehungsweise Rechnungsergebnisse der Rentenversicherung) fuer 2028 oder 2029, die trotz fortschreitender KI-Diffusion ein reales Wachstum der beitragspflichtigen Entgelte im Trend der Jahre vor 2026 zeigt und damit keine Abkopplung der Beitragsbasis von der Wertschoepfung erkennen laesst; dann waere meine Kernannahme der asymmetrischen Erosion unterhalb der Beitragsbemessungsgrenzen widerlegt und V7 um schaetzungsweise 1,5 Prozentpunkte zu hoch angesetzt.",
+  "confidence": 47,
+  "sources": [
+   "Beitragssätze in der Sozialversicherung 2026 (KV 14,6 %, RV 18,6 %, PV 3,6 %, AV 2,6 %; durchschnittlicher Zusatzbeitrag 2,9 %; Gesamtsatz 42,3 %), Techniker Krankenkasse, abgerufen 14.09.2026, https://www.tk.de/firmenkunden/versicherung/beitraege-faq/beitragssaetze/aktuelle-beitragssaetze-in-der-sozialversicherung-2031554",
+   "Das ändert sich 2026 für gesetzlich Kranken- und Pflegeversicherte, vdek, abgerufen 14.09.2026, https://www.vdek.com/politik/was-aendert-sich/gesundheitswesen-2026/_jcr_content/par/publicationelement/file.res/Aenderungen_Gesundheitswesen_2026.pdf",
+   "Beitragsbemessungsgrenzen und Rechengrößen in der Sozialversicherung 2026, krankenkassen.de, abgerufen 14.09.2026, https://www.krankenkassen.de/gesetzliche-krankenkassen/system-gesetzliche-krankenversicherung/sozialversicherung-rechengroessen-beitragsbemessungsgrenze-versicherungspflichtgrenze/rechengroessen-2026/",
+   "SCHÄTZUNG OHNE QUELLE (als solche gekennzeichnet): V1, V2, V3, V4, V5, V6, V8, V9, V10, V11, V12, V13 sowie die Beitragssatzprojektion 2030 in V7 sind eigene Schätzungen aus dem Faktenkern und der Rollenperspektive, keine Modellprognose und keine empirische Messung."
+  ],
+  "_modell": "opus-5"
+ },
+ {
+  "agent_id": "E04",
+  "archetype": "S3",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.4,
+    "lo": 0.6,
+    "hi": 5.6
+   },
+   {
+    "variable": "V2",
+    "point": 2.1,
+    "lo": 0.5,
+    "hi": 5.2
+   },
+   {
+    "variable": "V3",
+    "point": 7.4,
+    "lo": 3.4,
+    "hi": 13.5
+   },
+   {
+    "variable": "V4",
+    "point": 52,
+    "lo": 34,
+    "hi": 71
+   },
+   {
+    "variable": "V5",
+    "point": -2.2,
+    "lo": -4.6,
+    "hi": 0.1
+   },
+   {
+    "variable": "V6",
+    "point": 6.4,
+    "lo": 5.2,
+    "hi": 8.3
+   },
+   {
+    "variable": "V7",
+    "point": 44.9,
+    "lo": 43.1,
+    "hi": 47.3
+   },
+   {
+    "variable": "V8",
+    "point": 5.3,
+    "lo": 2.8,
+    "hi": 8.5
+   },
+   {
+    "variable": "V9",
+    "point": 16.8,
+    "lo": 11.5,
+    "hi": 23.5
+   },
+   {
+    "variable": "V10",
+    "point": 2.6,
+    "lo": 1.1,
+    "hi": 6.2
+   },
+   {
+    "variable": "V11",
+    "point": 21,
+    "lo": 8,
+    "hi": 41
+   },
+   {
+    "variable": "V12",
+    "point": 17,
+    "lo": 6,
+    "hi": 38
+   },
+   {
+    "variable": "V13",
+    "point": 72,
+    "lo": 54,
+    "hi": 89
+   },
+   {
+    "variable": "V14",
+    "point": 53,
+    "lo": 39,
+    "hi": 66
+   }
+  ],
+  "k1": [
+   "c: 78%",
+   "b: 45%",
+   "e: 40%",
+   "d: 27%",
+   "a: 18%",
+   "f: 12%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Fachkräfte und Qualifikation",
+  "reasoning": "Aus Sicht der Pflegeversicherung ist KI zuerst ein Einnahmenrisiko und kaum eine Ausgabenentlastung: Pflege ist körpernahe, haftungsbewehrte, dokumentationspflichtige Arbeit, die das US-Modell von Korinek et al. ausdrücklich nicht abbildet (nur kognitive Aufgaben, keine Robotik) — die dort projizierte Produktivitätswelle ginge an rund einem Fünftel meines Ausgabenblocks vorbei, während der Personalbedarf demografisch weiter stiege. Deshalb schätze ich die KI-Berührung in Deutschland (V3 7,4 %, Schätzung) deutlich unter dem US-Wert von 12 % im Szenario substantial, den Automatisierungsgrad (V4 52 %, Schätzung) klar unter den dortigen drei Vierteln, und den Diffusionsverzug regulierter Sektoren (V8 5,3 Jahre, Schätzung) hoch, weil Heilberufe-, Haftungs- und Datenschutzrecht Einführungszyklen streckt. Der für mich entscheidende Zusammenhang wäre asymmetrisch: Selbst eine moderate Erosion der Lohnquote (V5 −2,2 Pp, Schätzung) träfe eine Finanzierungsarchitektur, die vollständig an der Lohnsumme hängt, sodass der Gesamtbeitragssatz von 42,3 % (2026, gemessen; GKV-Spitzenverband/vdek) bis 2030 auf rund 44,9 % stiege (Schätzung: PV +0,8 bis +1,0 Pp durch Leistungsdynamik und Personalkosten, KV +0,9 Pp trotz des Beitragssatzstabilisierungsgesetzes, RV +0,4 Pp, AV +0,2 Pp) — Wachstum, das in den Sicherungssystemen nicht ankäme.",
+  "uncertain": [
+   "V5 (Lohnquote, −2,2 Pp): Hier weiche ich bewusst nach UNTEN vom erwartbaren Durchschnittsurteil ab, das angesichts steigender Löhne in den nicht-kognitiven Berufen (US-Modell: +5,9 %) und des hohen deutschen Anteils körpernaher Arbeit eher −1 Pp nennen dürfte. Meine Rollenbegründung: Die Lohndynamik genau in meinem Sektor ist politisch gedeckelt — Beitragssatzstabilität und Eigenanteilsgrenzen begrenzen Tarifsteigerungen in der Pflege, der größte nicht-kognitive Beschäftigungsblock kann den kapitalseitigen Zuwachs also nicht ausgleichen. Das ist zugleich meine größte Unsicherheit, weil die Lohnquote empirisch träge ist und vier Jahre für 2 Punkte kurz sind.",
+   "V10 (KI-Anschlussleistung 2,6 GW): Außerhalb meiner Fachkompetenz; ich schätze niedrig, weil Netzanschlusszeiten und Genehmigungsdauer in Deutschland dieselbe Trägheit zeigen wie Bauvorhaben in der stationären Pflege — das ist eine Analogie, keine Messung, daher das weite Intervall 1,1 bis 6,2 GW."
+  ],
+  "falsifier": "Ein belastbarer empirischer Nachweis, dass KI-gestützte Dokumentation, Tourenplanung und Assistenzsysteme den Personalbedarf je versorgtem Pflegebedürftigen bis 2030 um mehr als zehn Prozent senken und die Pflegekassen diese Entlastung auch kassenwirksam realisieren — dann bräche meine Kernannahme zusammen, dass KI in der Pflege die Einnahmenseite belastet, ohne die Ausgabenseite zu entlasten, und V7 fiele in Richtung 43 %.",
+  "confidence": 53,
+  "sources": [
+   "Beitragsbemessungsgrenzen und Beitragssätze 2026, vdek, abgerufen 14.09.2026, https://www.vdek.com/vertragspartner/arbeitgeber/beitragssaetze.html",
+   "Rechengrößen SV 2026 (Faktenblatt), GKV-Spitzenverband, 01.01.2026, https://www.gkv-spitzenverband.de/media/dokumente/presse/zahlen_und_grafiken/20260101_Faktenblatt_Rechengroessen_Beitragsrecht.pdf",
+   "Sozialversicherungsbeiträge, Rechengrößen und Beitragsrecht 2026, AOK, abgerufen 14.09.2026, https://www.aok.de/fk/jahreswechsel/sv-beitraege-2026/"
+  ],
+  "_modell": "opus-5"
+ }
+]

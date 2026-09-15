@@ -1,0 +1,64 @@
+# Synthese Runde M: Übertragungswege
+
+*Verdichtung von zwanzig Rollenantworten. Detailliert ausgewertet werden konnten vier Felder — Unternehmenssteuerrecht, Krankenhauspflege, gesetzliche Krankenversicherung, Infrastrukturfinanzierung; die übrigen sechzehn gehen über die Aggregate ein. Alle Zahlen sind Schätzungen der Rollen, keine Messwerte.*
+
+## 1. Die Zeitachse des Kippens
+
+Die Verteilung der Kreuzungsjahre ist zweigipflig, nicht gleichmäßig: 2027 (1), 2028 (2), 2029 (3), 2030 (3), 2032 (3) — und dann ein zweiter Block von acht Feldern, die „nie" (3) oder „nicht vor 2035" (5) antworten. Zwölf Felder kippten also innerhalb des Betrachtungshorizonts, acht nicht.
+
+Das unterscheidende Merkmal ist **nicht die Automatisierbarkeit der Tätigkeit, sondern die Frage, ob die Stelle an Zeit oder an etwas anderem hängt**. Die Infrastrukturfinanzierung nennt 2028 und begründet es mit der Konzentration: Spreading, Covenant-Abgleich und Klauselprüfung machen 44 Prozent der Zeit aus und liegen fast vollständig auf Junior- und Marktfolgestellen — die Ersparnis fällt in ganzen Köpfen an, nicht in Zeitscheiben vieler Seniors. Die GKV nennt 2029 und begründet es mit einem Sprungmechanismus: Antragsvorprüfung (40 Prozent) und Servicecenter-Erstauskunft (30 Prozent) kippten nicht gestaffelt, sondern gemeinsam, weil dieselbe aufsichtsrechtliche Freigabe nach § 31a SGB X beide trüge; in einem Umstellungsschritt fiele mehr Arbeit weg, als ein ganzer Jahrgang abgeht (rund 3,7 Prozentpunkte).
+
+Die Krankenhauspflege antwortet „nie" und liefert den Gegenmechanismus präzise: 8,9 Prozent Zeitersparnis, aber nur ein Konversionsfaktor von rund einem Drittel, weil die PpUGV an der Kopfzahl je Schicht hängt und nicht am gemessenen Aufwand. Eine Nachtschicht mit Verhältniszahl 1:20 braucht eine Fachkraft, gleichgültig wie schnell dokumentiert wird. Dazu die physische Hälfte der Arbeitszeit.
+
+Der wichtigste Befund dieser Achse ist jedoch, dass der Kreuzungspunkt **keine Eigenschaft des Feldes, sondern der Schicht innerhalb des Feldes** ist. Das Unternehmenssteuerrecht nennt 2030 für die Zuarbeitsebene und ausdrücklich „nicht vor 2035" für Berufsträger mit Vorbehaltsaufgabe — deren Knappheit werde nicht technisch, sondern durch §§ 3, 33 StBerG und § 150 Abs. 7 AO erzeugt. Die Pflege spiegelt das: für die freigestellte Funktionsschicht (Pflegecontrolling, PPR-2.0-Beauftragte, rund 2.500 bis 4.000 VK) läge der Kreuzungspunkt bereits 2028, für die Gesamtgruppe nie. Die acht Spätantworten dürften daher zu einem erheblichen Teil Antworten über die geschützte Oberschicht eines Feldes sein, dessen Unterbau früher kippt.
+
+Kurz: **Früh kippt, wo die Arbeit dokumentgetrieben, in eigenen Stellen gebündelt und nur durch eine einzige regulatorische Freigabe gehalten ist. Spät oder nie kippt, wo Körperlichkeit, Kopfzahlbindung oder eine persönliche Verantwortungszuweisung die Stelle vom Zeitbedarf entkoppelt.**
+
+## 2. Was von der freigesetzten Lohnsumme übrig bleibt
+
+Im Mittel über zwanzig Felder verteilt sich die freigesetzte Größe fast gleichmäßig auf die vier Kanäle: Gewinn 25,7 / Preissenkung 27,4 / Abfluss ins außereuropäische Ausland 22,1 / neue Inlandsarbeit 24,9 Prozent. Diese Gleichmäßigkeit ist ein Artefakt der Mittelung. Die Spreizung ist extrem: Die Infrastrukturfinanzierung setzt 45 Prozent Gewinn und 15 Prozent Preissenkung an, die Pflege exakt umgekehrt 10 zu 55 — weil das Pflegebudget nach § 6a KHEntgG Selbstkostendeckung ist und eine eingesparte Pflegeminute am Bett beim Krankenhaus gar nicht als Gewinn ankommen *kann*. Der Gewinnkanal existiert nur dort, wo kein regulierter Kostenträger die Ersparnis abschöpft.
+
+Für die Bemessungsgrundlagen: **20,6 Prozent bleiben beitragspflichtig, rund 37,2 Prozent erreichen nur noch die Steuer, 42,2 Prozent verlassen beides.** Vier von fünf freigesetzten Euro erreichen die Sozialversicherung nicht mehr.
+
+Die größten Abflusskanäle sind die Pflege (77 Prozent) und die GKV (49 Prozent) — und hier ist eine Unterscheidung nötig, die das Vier-Kanal-Schema verdeckt. „Verlässt beides" bezeichnet zwei völlig verschiedene Vorgänge:
+
+- **Echter Auslandsabfluss** (Lizenz-, API-, Cloudentgelt): im Mittel 22,1 Prozent, in der Infrastrukturfinanzierung 20 Prozent, weil es für Dokumentenextraktion und Kreditanalyse-Copiloten keinen europäischen Anbieter in Kreditqualität gebe. Gedämpft wird er dort, wo Recht die Verarbeitung im Inland erzwingt: Die GKV setzt nur 20 Prozent an, weil § 80 SGB X die Auftragsverarbeitung von Sozialdaten faktisch auf EU-Verarbeitung begrenze — nur die Modelllizenz gehe hinaus, das Rechenzentrumsentgelt bleibe. Das Steuerrecht nennt mit 14 Prozent den niedrigsten Wert, weil die Kanzleisoftwareschicht genossenschaftlich und inländisch besetzt sei.
+- **Verwandlung in eine vermiedene Ausgabe eines steuerbefreiten Trägers**: die 55 Punkte Budgetkürzung der Pflege und die 15 Punkte Rücklagenaufbau der GKV. Diese Beträge bleiben im Land, werden aber weder Entgelt noch Gewinn. Die Pflege formuliert das als unbequeme Pointe ihres Feldes: Es entstehe „nirgendwo ein Kapitaleinkommen, das man stattdessen besteuern könnte."
+
+Die Steuerbefreiung der Träger — § 67 AO für den Krankenhaus-Zweckbetrieb, Körperschaftsstatus der Kassen — ist damit selbst ein Abflusskanal. Das ist kein Nebenbefund, sondern betrifft den beschäftigungsstärksten Teil des Panels.
+
+## 3. Der BBG-Effekt
+
+Dreizehn von zwanzig Rollen sagen, das verbleibende Entgelt rutsche über die Beitragsbemessungsgrenze; vier sehen es unterhalb bleiben, drei gegenläufig. Das ist das deutlichste Mehrheitsurteil der Runde.
+
+Die konkreteste Rechnung liefert die Infrastrukturfinanzierung. Heutige Lohnsummenverteilung: 40 Prozent Junior zu 70.000 Euro (voll beitragspflichtig), 35 Prozent Mittelbau zu 110.000, 25 Prozent Senior zu 200.000 — beitragspflichtige Quote 84,7 Prozent. Nach der Verdrängung, Verteilung 20/40/40: 76,8 Prozent. **Die beitragspflichtige Masse schrumpfte um rund 9 Prozent relativ, bei völlig unveränderter Lohnsumme.** Wird zusätzlich Lohnsumme abgebaut, kumuliert der Effekt multiplikativ. Die Lohnquote zeigt diesen Verlust nicht an.
+
+Die GKV ergänzt zwei Verschärfungen: Weg fielen Stellen zu 45.000 bis 55.000 Euro, neu entstünden Freigabe- und Governance-Rollen zu 75.000 bis 95.000 — und weil die KV-Bemessungsgrenze unter der RV-Grenze liegt, verlöre die Krankenversicherung die Beitragsmasse früher als die Rentenversicherung. Das Unternehmenssteuerrecht nennt den zweiten Austritt: Wegfielen Steuerfachangestellte zu 40.000 bis 55.000 Euro, bliebe der angestellte Berufsträger zu 80.000 bis 110.000 — und der sei über § 6 Abs. 1 Nr. 1 SGB VI zugunsten des Versorgungswerks befreit. Die Lohnsumme verschöbe sich also nicht nur über die Grenze, sondern aus dem System heraus.
+
+Die Pflege ist das aussagekräftige Gegenbeispiel: P7 bis P9 liegen mit 45.000 bis 60.000 Euro vollständig unterhalb, und entbehrlich würden gerade die höher eingruppierten freigestellten Stellen in P11 bis P13. Das Durchschnittsentgelt sänke. Die Pflege bleibe der zuverlässigste Beitragszahler je Euro — helfe der Finanzierungsseite aber nicht, weil die Selbstkostendeckung jeden Produktivitätsgewinn sofort abschöpfe.
+
+## 4. Die stärksten Gegenkräfte
+
+**Was trägt:** Die Prüfpfad-Gegenbuchung wird von allen vier Feldern unabhängig voneinander und aus je eigenem Recht hergeleitet — MaRisk AT 4.3.5 und AI-Act-Hochrisikoeinstufung in der Bank, § 31a SGB X in der GKV, § 153 AO und GoBD im Steuerrecht, Score-Validierung mit Abweichungsbegründung in der Pflege. Diese Konvergenz ist der belastbarste Einzelbefund der Runde. Sie ist aber **keine Entwarnung, sondern eine Verschärfung des Abschnitts 3**: Die zurückkehrende Arbeit ist höher eingruppiert. Sie rettet Beschäftigung und beschleunigt zugleich den Austritt aus der Beitragsbemessung.
+
+Ebenfalls tragfähig: das Gleichgewicht der Nicht-Automatisierung, das die GKV beschreibt — wer den telefonischen Erstkontakt zuerst automatisiere, verlöre überproportional junge, gesunde, wechselbereite Mitglieder, die der Morbi-RSA nur unvollständig ausgleiche. Fiele allein dieser Block, sänke M1 von 22 auf 14 Prozent. Das Argument trägt, ist aber instabil: Es kippt mit dem ersten Abweichler.
+
+**Was Beschwichtigung ist:** Erstens die Berufung auf regulatorische Kopfzahlbindung als dauerhaften Schutz — die Pflegedirektion widerlegt sich hier selbst und offen: Die PPBV messe mit der PPR 2.0 bereits Minutenwerte; würde die Untergrenze von Verhältniszahlen auf einen Aufwandsschlüssel umgestellt, schützten die fünfzig Prozent körpernahe Zeit nichts mehr. Regulierung ist änderbar, Physik nicht. Zweitens die Erwartung, neue Deklarationspflichten (E-Rechnung, Mindeststeuer, DAC7/8, der konjunktivische Zerlegungsmaßstab des § 29 Abs. 1 Nr. 4 GewStG-E) erzeugten dauerhaft Ersatzarbeit: Das sind überwiegend einmalige Umstellungslasten, sie verschöben den Punkt um Jahre, kehrten kein Vorzeichen um. Drittens das Anbieterinteresse — das Geschäftsmodell der Kanzleisoftware hänge am Buchungsvolumen — schützt nur, solange die Marktstruktur hält.
+
+Die unbequemste Gegenkraft nennt die Pflege selbst: Bis 2030 falle Beschäftigung in ihrem Feld vermutlich gar nicht wegen KI weg, sondern wegen Bettenabbau durch die Krankenhausreform; KI liefere dann nur die Begründung. Das ist ein **Attributionsproblem für die gesamte Konferenz**: Die Rollen können Kausalität nicht von Gleichzeitigkeit trennen.
+
+## 5. Folgen für die drei Hebel
+
+**Die Umstellung der Finanzierungsbasis von Lohn auf Wertschöpfung gewinnt am deutlichsten** — 13 von 20 BBG-Urteilen, 20,6 Prozent verbleibende Beitragspflicht und die 9-Prozent-Rechnung der Infrastrukturfinanzierung sind zusammen ein starkes Argument dafür, dass die Beitragsmasse schneller erodiert als die Lohnquote. Die Runde liefert aber auch die Einschränkung: Im Sozialsektor entsteht gar keine Wertschöpfung, an die eine solche Abgabe anknüpfen könnte. Die 55 Punkte der Pflege werden zu einer vermiedenen Kassenausgabe, die 15 Punkte der GKV zu einer Rücklage einer steuerbefreiten Körperschaft. Der Hebel greift in Bank, Kanzlei und Industrie — im beschäftigungsstärksten Teil des Panels liefe er leer. Die Präzisierung lautet: Bemessungsgrundlage müsste dort die *Einsparung*, nicht der *Gewinn* sein.
+
+**Die Veredelungsstrategie gewinnt mit verschobener Begründung.** 22,1 Prozent Auslandsabfluss rechtfertigen sie, aber die wirksamste Bremse in den Antworten ist nicht Industriepolitik, sondern Datenrechtsbindung: § 80 SGB X hält das Rechenzentrumsentgelt in Europa, die inländische Kanzleisoftwareschicht hält es in Deutschland. Zugleich verliert sie relativ, weil der größere Verlust — 42,2 Prozent verlassen beide Grundlagen — überwiegend binnenwirtschaftlich entsteht und von jeder Grenzbetrachtung verfehlt wird.
+
+**Der Teilhabefonds verliert an Begründung**, jedenfalls in einer kapitalanknüpfenden Ausgestaltung. Er erreicht konstruktiv nur Kanal (a), im Mittel 25,7 Prozent, und gerade dort nicht, wo der größte Personalbestand sitzt: Beim gemeinnützigen Krankenhaus und bei der Körperschaft des öffentlichen Rechts gibt es keinen Gewinn zu beteiligen. Die beiden größten Kanäle — Preissenkung (27,4) und Abfluss (22,1) — erreicht er gar nicht.
+
+## 6. Was diese Runde nicht zeigt
+
+Zwanzig Felder sind keine Volkswirtschaft, und dieses Panel ist systematisch verzerrt: Recht, Medizin, Sozialversicherung und Finanzwesen sind stark besetzt — also durchweg Felder, in denen Verrechtlichung als Bremse wirkt. Produzierendes Gewerbe, Handel, Logistik und Bau sind in den ausgewerteten Antworten nicht vertreten. Die Häufung von „nie" und „nicht vor 2035" (8 von 20) dürfte daher die Schutzwirkung von Recht überschätzen.
+
+Die Mittelwerte sind ungewichtet. Hinter ihnen stehen Bezugsgruppen zwischen rund 3.000 VZÄ (Spezialfinanzierung) und 350.000 VK (Krankenhauspflege) — eine Spanne von mehr als Faktor hundert, die in „25,7 Prozent Gewinn" verschwindet. Keine der drei M1-Größen ist gemessen; die Rollen kennzeichnen sie selbst als Schätzungen mit 80-Prozent-Intervallen, die teils die Hälfte des Punktwerts umfassen. Das Vier-Kanal-Schema erzwingt eine Summe von 100 und unterstellt eine einmalige Freisetzung ohne Rückkopplung über Nachfrage, Preise oder Beschäftigungsaufbau in nicht vertretenen Feldern.
+
+Die Agenten sind Sprachmodelle mit Rollendossiers. Die auffällige Übereinstimmung, die Divergenz entstehe erst nach 2027, ist eine Vorgabe des gemeinsamen Faktenkerns und kein unabhängiger Befund — sie darf nicht als Konvergenz gelesen werden. Die Rollen argumentieren zudem interessengeleitet, was Bremsgründe plausibler wirken lässt als Beschleunigungsgründe. Die Selbsteinschätzungen der Sicherheit liegen zwischen 45 und 75 von 100. Und „nie" heißt in mindestens einer Antwort ausdrücklich nur: nicht innerhalb eines Horizonts, für den eine Aussage verantwortbar wäre.

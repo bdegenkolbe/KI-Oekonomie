@@ -1,0 +1,2245 @@
+[
+ {
+  "agent_id": "A02",
+  "archetype": "S2",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 3,
+    "lo": 0.5,
+    "hi": 6
+   },
+   {
+    "variable": "V2",
+    "point": 2.5,
+    "lo": 0,
+    "hi": 5.5
+   },
+   {
+    "variable": "V3",
+    "point": 8,
+    "lo": 5,
+    "hi": 13
+   },
+   {
+    "variable": "V4",
+    "point": 55,
+    "lo": 40,
+    "hi": 70
+   },
+   {
+    "variable": "V5",
+    "point": -1.5,
+    "lo": -3.5,
+    "hi": 0.5
+   },
+   {
+    "variable": "V6",
+    "point": 6,
+    "lo": 5.2,
+    "hi": 7.2
+   },
+   {
+    "variable": "V7",
+    "point": 43.5,
+    "lo": 41.5,
+    "hi": 46.5
+   },
+   {
+    "variable": "V8",
+    "point": 4,
+    "lo": 2,
+    "hi": 6
+   },
+   {
+    "variable": "V9",
+    "point": 17,
+    "lo": 13,
+    "hi": 23
+   },
+   {
+    "variable": "V10",
+    "point": 3,
+    "lo": 1.2,
+    "hi": 6
+   },
+   {
+    "variable": "V11",
+    "point": 20,
+    "lo": 10,
+    "hi": 35
+   },
+   {
+    "variable": "V12",
+    "point": 20,
+    "lo": 8,
+    "hi": 40
+   },
+   {
+    "variable": "V13",
+    "point": 55,
+    "lo": 35,
+    "hi": 75
+   },
+   {
+    "variable": "V14",
+    "point": 55,
+    "lo": 40,
+    "hi": 70
+   }
+  ],
+  "k1": [
+   "c: 70%",
+   "b: 30%",
+   "e: 25%",
+   "a: 15%",
+   "d: 20%",
+   "f: 10%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Fachkräfte und Qualifikation",
+  "reasoning": "Aus arbeitsmarktökonomischer Sicht würde ich die Position der Bundesregierung (keine belastbaren Hinweise auf systematischen KI-bedingten Beschäftigungsabbau) und den IAB-Befund gegenläufiger Sektordynamik – Industrie schrumpft, Gesundheit und öffentliche Dienste wachsen – stärker gewichten als die ifo-Lohnerwartungen, weil Erwartungsdaten von Unternehmen noch keine gemessene Lohnwirkung seien; die tatsächliche Verdrängung dürfte durch Diffusionshemmnisse (Mitbestimmung, Tarifbindung, Fachkräftemangel als Bremse UND Puffer zugleich) gedämpft werden. Die deutsche Berufsstruktur mit höherem Anteil nicht-kognitiver, physisch gebundener Tätigkeiten würde eine direkte Übertragung der US-*substantial*-Werte (12 % berührte Aufgaben, −0,3 % Löhne kognitiv) verbieten; ich würde stattdessen von geringerer Aufgabenberührung, aber stärkerer sektoraler Spreizung zwischen exportorientierter Industrie/Tech und regulierten Bereichen ausgehen. Die ifo-Befunde zur erwarteten Lohnkompression bei Berufseinsteigern nehme ich ernst, ordne sie aber als firmenseitige Erwartung, nicht als gemessenen Effekt ein, und lasse die Substituierbarkeitsforschung erst mit Verzögerung in messbare Arbeitsmarktzahlen durchschlagen.",
+  "uncertain": [
+   "V10 (installierte Rechenzentrums-Anschlussleistung 2030): liegt außerhalb meines Wissensankers (IAB/ifo), Genehmigungs- und Netzausbautempo kann ich als Arbeitsmarktökonomin nicht belastbar schätzen, daher sehr weites Intervall.",
+   "V12 (Netto-Abfluss für importierte KI-Vorleistungen): meine Rolle ist bewusst deutschlandzentriert und unterschätzt globale Kapitalströme systematisch – diese Schätzung ist daher mit besonderer Vorsicht zu lesen und eher als Platzhalter denn als belastbare Größe zu verstehen."
+  ],
+  "falsifier": "Wenn die nächste IAB-Prognose (statt des bisherigen Musters Industrie minus / Gesundheit-öffentlicher Dienst plus) einen breiten, sektorübergreifenden Beschäftigungsabbau auch in Gesundheit und öffentlicher Verwaltung zeigen würde, wäre meine Einschätzung eines moderaten, diffusionsgebremsten Szenarios widerlegt.",
+  "confidence": 0.55,
+  "sources": [
+   "IAB Kurzfristprognose, 24. März 2026 (Faktenkern)",
+   "ifo Konjunkturperspektiven 07/2026, Ruffert, 12. August 2026 (Faktenkern)",
+   "Antwort der Bundesregierung auf Kleine Anfrage, BT-Drs. 21/7620, 20. August 2026 (Faktenkern)",
+   "BDEW-Strompreisanalyse April 2026, https://www.bdew.de/service/daten-und-grafiken/bdew-strompreisanalyse/ (Industriestrompreis 2026 ca. 16 ct/kWh, Basis für V9-Schätzung)"
+  ],
+  "_modell": "sonnet-5"
+ },
+ {
+  "agent_id": "A01",
+  "archetype": "S2",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 4,
+    "lo": 1,
+    "hi": 8
+   },
+   {
+    "variable": "V2",
+    "point": 3.5,
+    "lo": 0.5,
+    "hi": 7
+   },
+   {
+    "variable": "V3",
+    "point": 8,
+    "lo": 4,
+    "hi": 14
+   },
+   {
+    "variable": "V4",
+    "point": 65,
+    "lo": 45,
+    "hi": 80
+   },
+   {
+    "variable": "V5",
+    "point": -2,
+    "lo": -4,
+    "hi": 0
+   },
+   {
+    "variable": "V6",
+    "point": 6.3,
+    "lo": 5.5,
+    "hi": 7.5
+   },
+   {
+    "variable": "V7",
+    "point": 43.5,
+    "lo": 41.5,
+    "hi": 46
+   },
+   {
+    "variable": "V8",
+    "point": 4,
+    "lo": 2,
+    "hi": 6
+   },
+   {
+    "variable": "V9",
+    "point": 15,
+    "lo": 10,
+    "hi": 22
+   },
+   {
+    "variable": "V10",
+    "point": 3,
+    "lo": 1.5,
+    "hi": 6
+   },
+   {
+    "variable": "V11",
+    "point": 20,
+    "lo": 10,
+    "hi": 35
+   },
+   {
+    "variable": "V12",
+    "point": 15,
+    "lo": 5,
+    "hi": 30
+   },
+   {
+    "variable": "V13",
+    "point": 55,
+    "lo": 35,
+    "hi": 75
+   },
+   {
+    "variable": "V14",
+    "point": 55,
+    "lo": 40,
+    "hi": 70
+   }
+  ],
+  "k1": [
+   "c: 70%",
+   "d: 40%",
+   "b: 30%",
+   "a: 25%",
+   "e: 20%",
+   "f: 10%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Compute und Strom",
+  "reasoning": "Aus wachstumsökonomischer, aufgabenbasierter Sicht würde sich das US-Muster einer moderaten aggregierten Produktivitätsdividende nur gedämpft auf Deutschland übertragen, weil der Anteil kognitiver, KI-berührbarer Aufgaben hierzulande strukturell niedriger liegt als in den USA (höherer Anteil physisch-handwerklicher und regulierter Tätigkeiten) und die ifo-Lohnerwartungen primär die Einsteigerkohorte betreffen, nicht die Breite des Arbeitsmarkts. Das Solow-Residuum dürfte 2027–2030 messbar anziehen, doch die Diffusion verliefe zweigeteilt: exponierte Industrie- und Dienstleistungssektoren adoptierten rasch, während Gesundheit, öffentliche Verwaltung und Finanzaufsicht – wie der laufende IAB-Beschäftigungsaufbau bereits andeutet – mit mehrjährigem Verzug folgten, was Deutschland strukturell in Richtung eines Zwei-Geschwindigkeiten-Szenarios trägt. Verteilungs- und institutionenpolitische Rückkopplungen (Beitragssatzarchitektur, Mitbestimmung) würden hier bewusst nicht als eigenständiger Wachstumsbremser modelliert, sondern nachrangig behandelt.",
+  "falsifier": "Sollten die ifo-Betriebsbefragungen 2027/2028 zeigen, dass die erwartete Lohnkompression bei Berufseinsteigern ausbleibt oder sich die sektorale Diffusionsspreizung nicht materialisiert (z. B. weil Gesundheit und öffentliche Verwaltung ebenso schnell adoptieren wie die Exportindustrie), wären sowohl die Zwei-Geschwindigkeiten-These als auch die zugrunde liegenden V1/V5/V8-Schätzungen widerlegt.",
+  "confidence": 0.55,
+  "uncertain": [
+   "V12 (Netto-Abfluss importierte KI-Vorleistungen): liegt außerhalb aufgabenbasierter Wachstumsmodellierung und hängt von nicht antizipierbaren Lizenz- und Cloud-Preisstrategien der Hyperscaler ab - reine Schätzung ohne belastbare Zeitreihe.",
+   "V10 (installierte Rechenzentrums-Anschlussleistung): hängt von Genehmigungsverfahren, Netzausbau und der EuroHPC-Vergabe ab 2027 ab, die kein aufgabenbasiertes Modell erfasst und die Zahl in beide Richtungen erheblich verschieben kann."
+  ],
+  "sources": [
+   "Industriestrompreis-Marktübersicht Deutschland (Vattenfall Geschäftskunden Magazin u.a., Stand Januar 2026), https://www.vattenfall.de/geschaeftskunden/ves/magazin/energie/industriestrompreis - abgerufen 14.09.2026: Marktpreis für Großverbraucher ohne Förderung 15-25 ct/kWh, aktuellster Wert ca. 16 ct/kWh; subventionierter Industriestrompreis 5 ct/kWh nur für ca. 2.000 Carbon-Leakage-gelistete Unternehmen, 2026-2028, 50% des Verbrauchs.",
+   "Alle übrigen quantitativen Angaben über den Faktenkern hinaus (V1-V8, V10-V14) sind Schätzungen aus der Rollenperspektive ohne zusätzliche externe Quelle, entsprechend gekennzeichnet."
+  ],
+  "_modell": "sonnet-5"
+ },
+ {
+  "agent_id": "A03",
+  "archetype": "ungebunden",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 1.5,
+    "lo": -0.5,
+    "hi": 4
+   },
+   {
+    "variable": "V2",
+    "point": 1.3,
+    "lo": -0.5,
+    "hi": 3.5
+   },
+   {
+    "variable": "V3",
+    "point": 8,
+    "lo": 4,
+    "hi": 14
+   },
+   {
+    "variable": "V4",
+    "point": 60,
+    "lo": 40,
+    "hi": 75
+   },
+   {
+    "variable": "V5",
+    "point": -1.3,
+    "lo": -3,
+    "hi": 0.5
+   },
+   {
+    "variable": "V6",
+    "point": 6.3,
+    "lo": 5.3,
+    "hi": 7.6
+   },
+   {
+    "variable": "V7",
+    "point": 43.5,
+    "lo": 42,
+    "hi": 46.5
+   },
+   {
+    "variable": "V8",
+    "point": 4,
+    "lo": 2,
+    "hi": 6
+   },
+   {
+    "variable": "V9",
+    "point": 15,
+    "lo": 10,
+    "hi": 20
+   },
+   {
+    "variable": "V10",
+    "point": 2,
+    "lo": 1.2,
+    "hi": 3.2
+   },
+   {
+    "variable": "V11",
+    "point": 20,
+    "lo": 10,
+    "hi": 35
+   },
+   {
+    "variable": "V12",
+    "point": 18,
+    "lo": 8,
+    "hi": 30
+   },
+   {
+    "variable": "V13",
+    "point": 55,
+    "lo": 35,
+    "hi": 75
+   },
+   {
+    "variable": "V14",
+    "point": 35,
+    "lo": 20,
+    "hi": 50
+   }
+  ],
+  "k1": [
+   "c: 70%",
+   "b: 30%",
+   "a: 20%",
+   "d: 25%",
+   "e: 20%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Compute und Strom",
+  "reasoning": "Aus Sicht des Konjunkturprognostikers zeigen die verfügbaren Frühindikatoren (ifo-Lohnerwartungen Juni 2026, IAB-Frühjahrsprognose) bereits eine reale, aber graduelle Verschiebung — Lohnkompression bei Berufseinstiegern und ein sektoral zweigeteilter Arbeitsmarkt (Industrie schrumpft, Gesundheit/öffentlicher Dienst wächst) — ohne dass Auftragseingänge oder Kapazitätsauslastung einen strukturellen Bruch signalisieren, der über eine übliche Konjunkturdelle hinausginge. Mein Prognosehorizont reicht modellbedingt nur bis 2028, während laut Faktenkern nahezu die gesamte Szenariodivergenz der US-Studie erst danach entsteht; ich projiziere deshalb die 2028er-Indikatorik linear-vorsichtig auf 2030 fort, ohne die spätere Divergenzdynamik selbst abzubilden — das ist meine bewusst nicht kompensierte Blindstelle. Die physische Restriktion (Anschlussleistung, Industriestrompreis) wirkt aus meiner Perspektive schon heute dämpfend auf Investitionsentscheidungen und dürfte die Diffusion eher bremsen als beschleunigen, weshalb ich näher an einer moderaten als an einer extremen Verlaufsform lande, ohne mich auf einen der langfristig gebundenen Archetypen festzulegen.",
+  "uncertain": [
+   "V1 (BIP-Niveau 2030): liegt jenseits meines belastbaren Prognosehorizonts von 2028; jede Aussage für 2030 ist Extrapolation, nicht Modellprognose.",
+   "V5 (Lohnquote): die ifo-Umfrage zeigt Erwartungen, keine gemessenen Lohnabschlüsse — wie stark sich Erwartungen in tatsächliche Lohnquotenverschiebung bis 2030 übersetzen, kann ich mit Frühindikatoren nicht valide schätzen."
+  ],
+  "falsifier": "Ein abrupter, in Auftragseingängen und Kapazitätsauslastung bereits 2027/28 sichtbarer Einbruch bei kognitiven Dienstleistungsberufen (statt der bisher graduellen Verschiebung) würde meine moderate Fortschreibung widerlegen — genau ein solcher Bruch nach 2027 liegt konstruktionsbedingt außerhalb dessen, was mein Prognosehorizont erfassen kann.",
+  "confidence": 0.35,
+  "sources": [
+   "BDEW-Strompreisanalyse / SMARD-Modell Industriestrompreis Deutschland, Stand Juni 2026 (16,26 ct/kWh ohne Entlastungen, 10,73 ct/kWh mit maximalen Entlastungen) — abgerufen via Websuche 14.09.2026, z.B. https://www.bdew.de/service/daten-und-grafiken/bdew-strompreisanalyse/",
+   "Bitkom/JLL-Studie zu Rechenzentren in Deutschland: aktuelle Gesamtanschlussleistung ca. 3,06 GW (H1 2025/Anfang 2026 Marke 3,0 GW überschritten); KI-spezifische Anschlussleistung aktuell rund 530 MW, Projektion Vervierfachung auf ca. 2.020 MW bis 2030 — abgerufen via Websuche 14.09.2026, z.B. https://www.bitkom.org/Presse/Presseinformation/Rechenzentren-Deutschland-KI-treibt-Wachstum und https://www.hardwarewartung.com/rechenzentren-in-deutschland-bis-2030-rund-5-gw-mehr-leistung/",
+   "V2, V6, V7, V11, V12, V13, V14: eigene Schätzungen ohne zusätzliche Quelle über den Faktenkern hinaus, entsprechend gekennzeichnet."
+  ],
+  "_modell": "sonnet-5"
+ },
+ {
+  "agent_id": "A04",
+  "archetype": "S7",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 3,
+    "lo": 0.5,
+    "hi": 6
+   },
+   {
+    "variable": "V2",
+    "point": 2.2,
+    "lo": 0,
+    "hi": 5
+   },
+   {
+    "variable": "V3",
+    "point": 8,
+    "lo": 5,
+    "hi": 13
+   },
+   {
+    "variable": "V4",
+    "point": 60,
+    "lo": 45,
+    "hi": 75
+   },
+   {
+    "variable": "V5",
+    "point": -1,
+    "lo": -3,
+    "hi": 0.5
+   },
+   {
+    "variable": "V6",
+    "point": 6.3,
+    "lo": 5.3,
+    "hi": 7.8
+   },
+   {
+    "variable": "V7",
+    "point": 43.5,
+    "lo": 42,
+    "hi": 46
+   },
+   {
+    "variable": "V8",
+    "point": 4,
+    "lo": 2,
+    "hi": 6
+   },
+   {
+    "variable": "V9",
+    "point": 17,
+    "lo": 12,
+    "hi": 23
+   },
+   {
+    "variable": "V10",
+    "point": 2,
+    "lo": 1.2,
+    "hi": 3.5
+   },
+   {
+    "variable": "V11",
+    "point": 12,
+    "lo": 5,
+    "hi": 25
+   },
+   {
+    "variable": "V12",
+    "point": 20,
+    "lo": 8,
+    "hi": 40
+   },
+   {
+    "variable": "V13",
+    "point": 55,
+    "lo": 35,
+    "hi": 75
+   },
+   {
+    "variable": "V14",
+    "point": 45,
+    "lo": 30,
+    "hi": 60
+   }
+  ],
+  "k1": [
+   "c: 65%",
+   "b: 30%",
+   "e: 25%",
+   "a: 15%",
+   "d: 20%",
+   "f: 10%",
+   "g: 10%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Compute und Strom",
+  "reasoning": "Aus Sicht der Zentralbank-Makroökonomie dürfte die kurzfristig messbare Wirkung des KI-Ausbaus in Deutschland zunächst über Preise laufen – Chips und Stahl verteuern sich empirisch bereits jetzt, während die Produktivitätsrückflüsse dem Modell zufolge erst zeitversetzt und in geringerem Umfang als im US-Szenario \"substantial\" einträten, weil die deutsche Berufsstruktur einen höheren Anteil nicht-kognitiver, physisch gebundener Tätigkeiten aufweist und die Bundesregierung (Antwort vom 20. August 2026) bislang keine belastbaren Hinweise auf systematischen KI-bedingten Beschäftigungsabbau sieht. Die hier vorgelegten Schätzungen zu V9–V12 sind mangels eines etablierten europäischen Pendants zum US-Modell reine, bewusst weit gefasste Schätzungen, da Netzanschlusskapazität und Industriestrompreis nach unserer fachlichen Einschätzung die eigentliche bindende Restriktion der europäischen Diffusion darstellen dürften, nicht allein die Aufgabenautomatisierung. Verteilungswirkungen zwischen Lohn- und Kapitaleinkommen kommentieren wir aus institutioneller Zurückhaltung bewusst zurückhaltend mit engem Punktwert nahe der Referenz, aber weiten Bändern, da eine belastbare empirische Zuordnung für Deutschland derzeit nicht vorliegt.",
+  "falsifier": "Eine deutlich schnellere als von Bitkom prognostizierte installierte KI-Rechenzentrumsleistung (spürbar über den für 2030 erwarteten rund 2 GW bereits deutlich vor 2029) bei gleichzeitig stabilem oder fallendem Industriestrompreis würde die Kernannahme einer bindenden physischen Restriktion am schnellsten widerlegen.",
+  "confidence": 0.45,
+  "uncertain": [
+   "V12 (Netto-Abfluss importierte KI-Vorleistungen): keine belastbare deutsche Handelsstatistik speziell für KI-Lizenzen/API/Cloud vorhanden, reine Extrapolation aus globalen Capex-Größenordnungen.",
+   "V5 (Lohnquote): unklar, ob deutsche Mitbestimmung und Tarifbindung eine Verschiebung wie im US-Modell dämpfen oder nur zeitlich verzögern, da kein kalibriertes deutsches Aufgabenmodell existiert."
+  ],
+  "sources": [
+   "Bitkom e.V., Pressemitteilung 'Rechenzentren in Deutschland: KI treibt das Wachstum', 2026, https://www.bitkom.org/Presse/Presseinformation/Rechenzentren-Deutschland-KI-treibt-Wachstum (abgerufen 14. September 2026) – Basis für V10: aktuell rund 530 MW KI-Anschlussleistung, Prognose rund 2.020 MW (≈2 GW) bis 2030 bei rund 5 GW Gesamtkapazität",
+   "Marktpreisrecherche Industriestrompreis Deutschland (u.a. bnewable.de, levonova.energy), Stand Januar 2026, ca. 16 ct/kWh Marktpreis ohne Förderung, Spanne 15-25 ct/kWh je nach Abnahmemenge (abgerufen 14. September 2026) – Basis für V9"
+  ],
+  "_modell": "sonnet-5"
+ },
+ {
+  "agent_id": "A05",
+  "archetype": "S3",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 3.5,
+    "lo": 1,
+    "hi": 7
+   },
+   {
+    "variable": "V2",
+    "point": 2,
+    "lo": 0,
+    "hi": 5
+   },
+   {
+    "variable": "V3",
+    "point": 9,
+    "lo": 5,
+    "hi": 14
+   },
+   {
+    "variable": "V4",
+    "point": 65,
+    "lo": 45,
+    "hi": 80
+   },
+   {
+    "variable": "V5",
+    "point": -3,
+    "lo": -6,
+    "hi": -0.5
+   },
+   {
+    "variable": "V6",
+    "point": 6.3,
+    "lo": 5.3,
+    "hi": 7.8
+   },
+   {
+    "variable": "V7",
+    "point": 44,
+    "lo": 42,
+    "hi": 47
+   },
+   {
+    "variable": "V8",
+    "point": 4,
+    "lo": 2,
+    "hi": 6
+   },
+   {
+    "variable": "V9",
+    "point": 16,
+    "lo": 12,
+    "hi": 22
+   },
+   {
+    "variable": "V10",
+    "point": 1.5,
+    "lo": 0.5,
+    "hi": 3.5
+   },
+   {
+    "variable": "V11",
+    "point": 20,
+    "lo": 10,
+    "hi": 35
+   },
+   {
+    "variable": "V12",
+    "point": 18,
+    "lo": 8,
+    "hi": 35
+   },
+   {
+    "variable": "V13",
+    "point": 55,
+    "lo": 35,
+    "hi": 75
+   },
+   {
+    "variable": "V14",
+    "point": 55,
+    "lo": 40,
+    "hi": 70
+   }
+  ],
+  "k1": [
+   "c: 75%",
+   "b: 40%",
+   "a: 25%",
+   "d: 35%",
+   "e: 20%",
+   "f: 12%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Compute und Strom",
+  "reasoning": "Aus optimalsteuertheoretischer Sicht wäre zu erwarten, dass die im ifo-Konjunkturtest gemessenen Lohnerwartungen — rund die Hälfte der Unternehmen rechnet mit sinkenden Einstiegslöhnen — im Sinne des aufgabenbasierten Rahmens von Acemoglu/Restrepo einen realen Verdrängungseffekt bei kognitiven Routineaufgaben abbilden, der die Bemessungsgrundlage der lohnbasierten Sozialversicherung strukturell erodieren würde, sofern keine Verbreiterung der Beitragsbasis erfolgt. Die Gegenevidenz — die Position der Bundesregierung vom August 2026, der IAB-Beschäftigungsaufbau in Gesundheit und öffentlicher Verwaltung sowie regulatorische Diffusionshemmnisse — dämpfte dieses Bild für den Zeithorizont bis 2030 empirisch, sodass ein moderates, aber fiskalisch angespanntes Szenario plausibler erschiene als ein Extremszenario im Sinne Korineks. Die Gewerbesteuer-Zerlegung nach Anschlussleistung wäre aus Sicht der Optimalsteuertheorie ein pragmatischer erster Schritt zur Verbreiterung der Bemessungsgrundlage, während eine allgemeine Wertschöpfungsabgabe (Korinek/Lockwood-Logik) an geringer Vollzugsnähe und der offenen Abzugsfähigkeit importierter KI-Vorleistungen scheitern könnte — ein Aspekt, den ich hier bewusst nicht durch zusätzliche Modellannahmen kompensiere.",
+  "uncertain": [
+   "V12 (Netto-Abfluss importierte KI-Vorleistungen): größte Unsicherheit, da keine belastbare volkswirtschaftliche Gesamtrechnung für KI-Lizenz-, API- und Cloud-Importe existiert; Schätzung per Analogieschluss, ohne abgerufene Quelle.",
+   "V10 (installierte Rechenzentrums-Anschlussleistung): hängt vom Ausgang der erst Anfang 2027 zu vergebenden EuroHPC-Gigafactories und von im Faktenkern nicht bezifferten Netzanschlusszeiten ab."
+  ],
+  "falsifier": "Sollte die für den Erhebungszeitraum 2027 vorgesehene Gewerbesteuer-Zerlegung nach Anschlussleistung (§ 29 Abs. 1 Nr. 4 GewStG-E) im parlamentarischen Verfahren scheitern oder deutlich abgeschwächt werden, während gleichzeitig eine belastbare empirische Messung (nicht Modellprognose) bis 2028 einen Rückgang der deutschen Lohnquote um mehr als 2 Prozentpunkte zeigte, wäre meine Einschätzung eines moderat gestaltbaren fiskalischen Anpassungspfads widerlegt.",
+  "sources": [
+   "Keine über den Faktenkern hinausgehende Quelle abgerufen (Effort auf zügige Bearbeitung ausgelegt); V9-V13 sind ausdrücklich als rollenbasierte Schätzungen mit weiten Intervallen gekennzeichnet, nicht als empirische Messung."
+  ],
+  "confidence": 0.5,
+  "_modell": "sonnet-5"
+ },
+ {
+  "agent_id": "A06",
+  "archetype": "S2",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 3.5,
+    "lo": 1,
+    "hi": 6
+   },
+   {
+    "variable": "V2",
+    "point": 3,
+    "lo": 1,
+    "hi": 5.5
+   },
+   {
+    "variable": "V3",
+    "point": 9,
+    "lo": 6,
+    "hi": 13
+   },
+   {
+    "variable": "V4",
+    "point": 55,
+    "lo": 40,
+    "hi": 70
+   },
+   {
+    "variable": "V5",
+    "point": -1.5,
+    "lo": -3,
+    "hi": 0
+   },
+   {
+    "variable": "V6",
+    "point": 6,
+    "lo": 5,
+    "hi": 7.5
+   },
+   {
+    "variable": "V7",
+    "point": 43.5,
+    "lo": 42,
+    "hi": 46
+   },
+   {
+    "variable": "V8",
+    "point": 4,
+    "lo": 2,
+    "hi": 6
+   },
+   {
+    "variable": "V9",
+    "point": 15.5,
+    "lo": 11,
+    "hi": 21
+   },
+   {
+    "variable": "V10",
+    "point": 3,
+    "lo": 1,
+    "hi": 6
+   },
+   {
+    "variable": "V11",
+    "point": 20,
+    "lo": 10,
+    "hi": 35
+   },
+   {
+    "variable": "V12",
+    "point": 20,
+    "lo": 10,
+    "hi": 35
+   },
+   {
+    "variable": "V13",
+    "point": 55,
+    "lo": 35,
+    "hi": 75
+   },
+   {
+    "variable": "V14",
+    "point": 55,
+    "lo": 40,
+    "hi": 70
+   }
+  ],
+  "k1": [
+   "c: 65%",
+   "g: 35%",
+   "d: 25%",
+   "b: 20%",
+   "e: 20%",
+   "a: 15%",
+   "f: 10%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Compute und Strom",
+  "reasoning": "Aus Sicht einer marktliberalen Denkfabrik zeigt der Faktenkern - Regierungsposition vom August 2026 ohne belastbaren Nachweis systematischen Stellenabbaus, IAB-Beschäftigungsaufbau in Gesundheit und öffentlicher Verwaltung (+180.000), Diffusionsverzug regulierter Sektoren - dass für Deutschland eher ein moderates, sektoral gespaltenes Szenario (Substitution in Industrie/Tech-nahen Berufen, Wachstum in geschützten Diensten) zu erwarten wäre als ein abrupter Kapitalisierungsschock; die ifo-Lohnerwartungen für Berufseinsteiger nehmen wir dabei ernst, ordnen sie aber als Erwartungsumfrage, nicht als realisierte Messung ein. Die eigentliche Wachstumsbremse läge nicht in der Aufgabenautomatisierung selbst, sondern in Industriestrompreis, Netzanschlusszeiten für Rechenzentren und im internationalen Vergleich hohen Abgabenquoten auf den Faktor Arbeit - die richtige Antwort wäre daher Entlastung der Arbeit und Standortverbesserung (Netzausbau, Genehmigungsbeschleunigung), nicht eine zusätzliche Belastung des mobilen Faktors Kapital, der in einer offenen Volkswirtschaft abwandern könnte. Die Gewerbesteuer-Zerlegung nach Anschlussleistung halten wir für vertretbar, weil sie keine neue Steuer, sondern eine Verteilungsfrage bestehenden Aufkommens ist - eine Wertschöpfungsabgabe oder Digitalabgabe lehnen wir dagegen als Wettbewerbsnachteil ab.",
+  "uncertain": [
+   "V10 (installierte Rechenzentrums-Anschlussleistung 2030): hängt vollständig vom Ausgang der EuroHPC-Gigafactory-Vergabe (Entscheidung erst Anfang 2027) und von Netzanschlusszeiten ab, die heute nicht seriös vorhersehbar sind - reine Schätzung mit sehr weitem Band.",
+   "V12 (Netto-Abfluss für importierte KI-Vorleistungen): ohne etablierte Zahlungsbilanzstatistik für Lizenz-/API-/Cloud-Ausgaben ist dies eine Extrapolation aus der bekannten Marktkonzentration bei US-Hyperscalern, keine gemessene Größe."
+  ],
+  "falsifier": "Ein empirisch belastbarer, sektorübergreifender (nicht nur industrieller) Rückgang sozialversicherungspflichtiger Beschäftigung binnen der nächsten zwölf Monate würde die Einschätzung eines moderaten, auf Industrie konzentrierten Anpassungsprozesses widerlegen und für ein schnelleres, breiteres Substitutionsszenario sprechen.",
+  "confidence": 0.5,
+  "sources": [
+   "BDEW-Strompreisanalyse April 2026, BDEW, https://www.bdew.de/service/daten-und-grafiken/bdew-strompreisanalyse/ (abgerufen 14.09.2026, stützt V9-Ausgangswert ca. 16-17 ct/kWh)"
+  ],
+  "_modell": "sonnet-5"
+ },
+ {
+  "agent_id": "A07",
+  "archetype": "S3",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 3,
+    "lo": 1,
+    "hi": 6
+   },
+   {
+    "variable": "V2",
+    "point": 2.5,
+    "lo": 0,
+    "hi": 5
+   },
+   {
+    "variable": "V3",
+    "point": 10,
+    "lo": 6,
+    "hi": 15
+   },
+   {
+    "variable": "V4",
+    "point": 60,
+    "lo": 45,
+    "hi": 75
+   },
+   {
+    "variable": "V5",
+    "point": -3,
+    "lo": -6,
+    "hi": -1
+   },
+   {
+    "variable": "V6",
+    "point": 6.5,
+    "lo": 5.5,
+    "hi": 8
+   },
+   {
+    "variable": "V7",
+    "point": 44,
+    "lo": 42,
+    "hi": 47
+   },
+   {
+    "variable": "V8",
+    "point": 4,
+    "lo": 3,
+    "hi": 6
+   },
+   {
+    "variable": "V9",
+    "point": 18,
+    "lo": 14,
+    "hi": 23
+   },
+   {
+    "variable": "V10",
+    "point": 3,
+    "lo": 1,
+    "hi": 6
+   },
+   {
+    "variable": "V11",
+    "point": 20,
+    "lo": 10,
+    "hi": 35
+   },
+   {
+    "variable": "V12",
+    "point": 15,
+    "lo": 8,
+    "hi": 30
+   },
+   {
+    "variable": "V13",
+    "point": 55,
+    "lo": 35,
+    "hi": 75
+   },
+   {
+    "variable": "V14",
+    "point": 45,
+    "lo": 30,
+    "hi": 60
+   }
+  ],
+  "k1": [
+   "c: 70%",
+   "b: 40%",
+   "d: 35%",
+   "a: 20%",
+   "e: 25%",
+   "f: 15%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Compute und Strom",
+  "reasoning": "Aus Sicht der Verteilungsforschung wiegt die ifo-Umfrage schwerer als die Beteuerung der Bundesregierung vom August 2026: Wenn rund die Hälfte der KI-nutzenden Unternehmen sinkende Löhne für Berufseinsteiger erwartet, ist das ein Frühindikator für Lohnquotenerosion, der sich in amtlichen Beschäftigungsstatistiken erst mit Verzug zeigt – „keine belastbaren Hinweise\" heißt nicht „keine Wirkung\", sondern „noch nicht gemessen\". Die aggregierten Wachstumsgewinne (BIP-Niveau, Wertschöpfung) diskontiere ich bewusst gegenüber ihrer Verteilungswirkung, da das US-Modell selbst einräumt, dass die Mittel zur Kompensation zwar rechnerisch vorhanden wären, ihr tatsächliches Ankommen aber „not something growth delivers by itself\" sei – für Deutschland mit lohnbasierter Sozialversicherungsfinanzierung und ohne bislang beschlossene Wertschöpfungsabgabe ist dieses Transmissionsproblem eher größer als in den USA. Die IAB-Beschäftigungsgewinne in Gesundheit und öffentlichem Dienst wirken kompensatorisch auf die Erwerbstätigenzahl, aber nicht notwendigerweise auf die Lohnquote, weil diese Sektoren strukturell geringere Kapitalrenditen erzielen und daher als Verteilungsausgleich unzureichend bleiben.",
+  "falsifier": "Wenn bis 2028 eine Wertschöpfungsabgabe oder eine verbreiterte Beitragsbemessung tatsächlich in Kraft träte UND parallel die realen Tarif- und Effektivlöhne von Berufseinsteigern in kognitiven Berufen laut IAB/Destatis stabil blieben statt zu komprimieren, wäre meine Einschätzung widerlegt.",
+  "confidence": 0.45,
+  "uncertain": [
+   "V10: installierte Rechenzentrums-Anschlussleistung hängt von noch nicht getroffenen Investitions- und Genehmigungsentscheidungen ab (EuroHPC-Vergabe erst Anfang 2027) und ist daher kaum belastbar zu schätzen.",
+   "V12: Netto-Abfluss für importierte KI-Vorleistungen ist eine im Faktenkern nicht erhobene Größe ohne etablierte Messmethodik; meine Zahl ist eine grobe Schätzung aus der Größenordnung der Hyperscaler-Capex, keine abgeleitete Messung."
+  ],
+  "sources": [
+   "Alle Werte zu V9-V13 sind eigene Schätzungen der Rolle ohne live abgerufene Quelle (keine Websuche durchgeführt); sie stützen sich ausschließlich auf die im Faktenkern genannten Größenordnungen (Hyperscaler-Capex, EuroHPC-Gigafactories, IAB-Prognose vom 24.03.2026, ifo Konjunkturperspektiven 07/2026 vom 12.08.2026) und sind entsprechend Regel E.3 als Schätzung gekennzeichnet."
+  ],
+  "k2_note": "",
+  "_modell": "sonnet-5"
+ },
+ {
+  "agent_id": "B01",
+  "archetype": "ungebunden",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 1.5,
+    "lo": -1,
+    "hi": 5
+   },
+   {
+    "variable": "V2",
+    "point": 1.5,
+    "lo": -1,
+    "hi": 5
+   },
+   {
+    "variable": "V3",
+    "point": 8,
+    "lo": 4,
+    "hi": 14
+   },
+   {
+    "variable": "V4",
+    "point": 55,
+    "lo": 35,
+    "hi": 70
+   },
+   {
+    "variable": "V5",
+    "point": -1.5,
+    "lo": -4,
+    "hi": 0.5
+   },
+   {
+    "variable": "V6",
+    "point": 6.3,
+    "lo": 5.5,
+    "hi": 7.5
+   },
+   {
+    "variable": "V7",
+    "point": 43.5,
+    "lo": 41.5,
+    "hi": 46
+   },
+   {
+    "variable": "V8",
+    "point": 5,
+    "lo": 3,
+    "hi": 7
+   },
+   {
+    "variable": "V9",
+    "point": 16,
+    "lo": 11,
+    "hi": 22
+   },
+   {
+    "variable": "V10",
+    "point": 3,
+    "lo": 1.5,
+    "hi": 6
+   },
+   {
+    "variable": "V11",
+    "point": 20,
+    "lo": 10,
+    "hi": 35
+   },
+   {
+    "variable": "V12",
+    "point": 20,
+    "lo": 8,
+    "hi": 40
+   },
+   {
+    "variable": "V13",
+    "point": 55,
+    "lo": 35,
+    "hi": 75
+   },
+   {
+    "variable": "V14",
+    "point": 35,
+    "lo": 25,
+    "hi": 50
+   }
+  ],
+  "k1": [
+   "c: 75%",
+   "d: 40%",
+   "b: 25%",
+   "e: 20%",
+   "a: 15%",
+   "f: 10%",
+   "g: 10%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Regulierung und Genehmigung",
+  "reasoning": "Aus verfassungsrechtlicher Sicht wäre eine Wertschöpfungsabgabe als Ersatz lohnbezogener Arbeitgeberbeiträge entweder als Sonderabgabe an der strengen BVerfG-Doktrin (Homogenität der Gruppe, Sachnähe, gruppennützige Verwendung) zu messen — Kriterien, die eine gesamtwirtschaftliche KI-Wertschöpfung kaum erfüllen dürfte — oder müsste als eigenständige Steuer in die Typologie der Art. 105/106 GG eingeordnet werden, was die Ertragshoheit zwischen Bund und Ländern neu aufwerfen und das Äquivalenzprinzip der Sozialversicherung in Frage stellen würde; deshalb erscheint eine „beschlossene\" Wertschöpfungsabgabe bis 2030 legislativ unwahrscheinlich. Die Gewerbesteuer-Zerlegungsreform für Rechenzentren (§ 29 Abs. 1 Nr. 4 GewStG-E) ist demgegenüber verfassungsrechtlich deutlich robuster, weil sie keinen neuen Steuertypus schafft, sondern nur den Verteilungsmaßstab ändert — mit dem Windenergie-Präzedenzfall (1:9) als tragfähigem Vorbild für eine sachgerechte Differenzierung nach Art. 3 GG. Da meine Rolle Machbarkeit juristisch und nicht ökonomisch bewertet, folge ich bei rein wirtschaftlichen Größen (V1–V6, V9–V13) der Gegenevidenz-gewichteten Einschätzung des Panels mit bewusst weiten Intervallen, ohne diese Unsicherheit fachfremd zu kompensieren.",
+  "uncertain": [
+   "V10: Die installierte Nennanschlussleistung von KI-Rechenzentren hängt von Genehmigungsverfahren, Netzausbauzeiten und privaten Investitionsentscheidungen ab, die außerhalb meiner fachlichen Beurteilungskompetenz liegen.",
+   "V12: Der Netto-Abfluss für importierte KI-Vorleistungen ist eine originär ökonomische Größe (Handelsbilanz-Effekt, Preissetzung der Hyperscaler), zu der ich als Verfassungsjurist keine belastbare Prognose beisteuern kann."
+  ],
+  "falsifier": "Wenn der Bundesrat die Gewerbesteuer-Zerlegungsreform für Rechenzentren im parlamentarischen Verfahren scheitern lässt oder das BVerfG den 90-%-Anschlussleistungs-Maßstab als unzulässige Differenzierung nach Art. 3 GG verwirft, wäre meine zentrale Einschätzung zur schnellen und rechtssicheren Umsetzbarkeit dieses Instruments widerlegt.",
+  "confidence": 0.4,
+  "sources": [
+   "Industriestrompreis 2026: Entwicklung & Preistrends, Vattenfall Geschäftskunden VES Magazin, abgerufen 14.09.2026, https://www.vattenfall.de/geschaeftskunden/ves/magazin/energie/industriestrompreis",
+   "Wie hoch ist der Industriestrompreis in Deutschland 2026?, Bnewable, abgerufen 14.09.2026, https://bnewable.de/wissen/wie-hoch-ist-der-industriestrompreis-in-deutschland-2026/"
+  ],
+  "k2_raw": "",
+  "_modell": "sonnet-5"
+ },
+ {
+  "agent_id": "B02",
+  "archetype": "S3",
+  "confidence": 0.4,
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 3.5,
+    "lo": 0,
+    "hi": 7
+   },
+   {
+    "variable": "V2",
+    "point": 3,
+    "lo": 0,
+    "hi": 6
+   },
+   {
+    "variable": "V3",
+    "point": 9,
+    "lo": 5,
+    "hi": 14
+   },
+   {
+    "variable": "V4",
+    "point": 55,
+    "lo": 40,
+    "hi": 70
+   },
+   {
+    "variable": "V5",
+    "point": -2.5,
+    "lo": -5,
+    "hi": 0
+   },
+   {
+    "variable": "V6",
+    "point": 6.3,
+    "lo": 5.5,
+    "hi": 7.5
+   },
+   {
+    "variable": "V7",
+    "point": 44,
+    "lo": 42,
+    "hi": 47
+   },
+   {
+    "variable": "V8",
+    "point": 4.5,
+    "lo": 3,
+    "hi": 7
+   },
+   {
+    "variable": "V9",
+    "point": 15,
+    "lo": 11,
+    "hi": 20
+   },
+   {
+    "variable": "V10",
+    "point": 2,
+    "lo": 1.2,
+    "hi": 3
+   },
+   {
+    "variable": "V11",
+    "point": 18,
+    "lo": 10,
+    "hi": 28
+   },
+   {
+    "variable": "V12",
+    "point": 22,
+    "lo": 10,
+    "hi": 35
+   },
+   {
+    "variable": "V13",
+    "point": 55,
+    "lo": 35,
+    "hi": 75
+   },
+   {
+    "variable": "V14",
+    "point": 40,
+    "lo": 25,
+    "hi": 55
+   }
+  ],
+  "k1": [
+   "a: 20%",
+   "b: 30%",
+   "c: 75%",
+   "d: 25%",
+   "e: 20%",
+   "f: 10%",
+   "g: 10%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Compute und Strom",
+  "reasoning": "Aus Sicht der Zerlegungs- und Vollzugspraxis zeigt der Regierungsentwurf zu § 29 Abs. 1 Nr. 4 GewStG-E (10:90-Schlüssel Anschlussleistung), dass der Gesetzgeber Rechenzentrumskapazität als neue, vollzugstaugliche Bemessungsgrundlage anerkennt, ohne dass dafür verfassungsrechtlich eine neue Steuer nach Art. 105 GG geschaffen werden müsste – das dürfte der pragmatischste der diskutierten Hebel bleiben (Konjunktiv: Verfahren steht aus). Eine Umstellung der Sozialversicherungsfinanzierung von Lohn- auf Wertschöpfungsbasis ist dagegen bis 2030 rechtlich kaum zu erwarten, da weder die Alterssicherungskommission noch ein Referentenentwurf bis September 2026 eine bezifferte Regelung vorgelegt haben; die Beitragssätze dürften daher trotz erodierender Lohnquote strukturell weitersteigen. Vom geltenden Recht her – nicht vom Ziel gedacht – ist damit ein Auseinanderfallen von gesamtwirtschaftlichem Wachstum und einnahmenseitiger Reform der Sicherungssysteme das plausibelste Bild, während die Compute-Bemessung (§ 29 GewStG-E, IRAP-Vergleich als Vorbild einer produktionsfaktorbasierten Regionalsteuer) die einzige kurzfristig mehrheitsfähige fiskalische Neuerung bleibt.",
+  "falsifier": "Würde der Bundestag § 29 Abs. 1 Nr. 4 GewStG-E im parlamentarischen Verfahren ablehnen oder auf einen reinen Lohnsummenschlüssel zurückführen (statt 10:90 nach Anschlussleistung), wäre meine zentrale These zur Umsetzbarkeit einer Compute-basierten Bemessungsgrundlage widerlegt.",
+  "uncertain": [
+   "V12 (Netto-Abfluss für importierte KI-Vorleistungen): keine belastbare Zahlungsbilanzstatistik für KI-spezifische Lizenz-/Cloud-Ströme verfügbar, reine Schätzung ohne Quelle.",
+   "V11 (Anteil EU-betriebener Inferenz 2030): hängt vom Ausgang der EuroHPC-Gigafactory-Vergabe (Zuschlag erst Anfang 2027) und von nicht vorhersehbaren Kapazitätshochläufen der Hyperscaler ab."
+  ],
+  "sources": [
+   "Industriestrompreis Deutschland 2026 (SMARD-Modell Juni 2026: 16,26 ct/kWh ohne Entlastung, 10,73 ct/kWh mit maximaler Entlastung; Jahresdurchschnitt Anfang 2026 ca. 16-17,2 ct/kWh) - aggregierte Web-Rechercheergebnisse, abgerufen 14.09.2026, u.a. https://www.bdew.de/service/daten-und-grafiken/bdew-strompreisanalyse/ und https://etalytics.com/de/resources/blog/how-has-the-industrial-electricity-price-in-germany-developed",
+   "Installierte Rechenzentrumsleistung Deutschland: Gesamtleistung 2025 ca. 2.980 MW (+9% ggü. Vorjahr), davon KI-spezifische Anschlussleistung aktuell ca. 530 MW, Projektion auf ca. 2.020 MW KI-Leistung bzw. 5.000-6.000 MW Gesamtleistung bis 2030 - abgerufen 14.09.2026, u.a. https://www.hardwarewartung.com/rechenzentren-in-deutschland-bis-2030-rund-5-gw-mehr-leistung/ und https://www.intotheminds.com/blog/de/markt-rechenzentren/"
+  ],
+  "_modell": "sonnet-5"
+ },
+ {
+  "agent_id": "B04",
+  "archetype": "S3",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 3,
+    "lo": 0,
+    "hi": 6
+   },
+   {
+    "variable": "V2",
+    "point": 2.5,
+    "lo": 0,
+    "hi": 5
+   },
+   {
+    "variable": "V3",
+    "point": 9,
+    "lo": 5,
+    "hi": 14
+   },
+   {
+    "variable": "V4",
+    "point": 55,
+    "lo": 40,
+    "hi": 70
+   },
+   {
+    "variable": "V5",
+    "point": -2.5,
+    "lo": -5,
+    "hi": 0.3
+   },
+   {
+    "variable": "V6",
+    "point": 6.3,
+    "lo": 5.5,
+    "hi": 7.5
+   },
+   {
+    "variable": "V7",
+    "point": 45,
+    "lo": 43,
+    "hi": 47.5
+   },
+   {
+    "variable": "V8",
+    "point": 5,
+    "lo": 3,
+    "hi": 7
+   },
+   {
+    "variable": "V9",
+    "point": 18,
+    "lo": 14,
+    "hi": 23
+   },
+   {
+    "variable": "V10",
+    "point": 5,
+    "lo": 2,
+    "hi": 10
+   },
+   {
+    "variable": "V11",
+    "point": 20,
+    "lo": 10,
+    "hi": 35
+   },
+   {
+    "variable": "V12",
+    "point": 32,
+    "lo": 15,
+    "hi": 55
+   },
+   {
+    "variable": "V13",
+    "point": 55,
+    "lo": 35,
+    "hi": 75
+   },
+   {
+    "variable": "V14",
+    "point": 45,
+    "lo": 30,
+    "hi": 55
+   }
+  ],
+  "k1": [
+   "a: 15%",
+   "b: 35%",
+   "c: 65%",
+   "d: 30%",
+   "e: 20%",
+   "f: 15%",
+   "g: 10%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Compute und Strom",
+  "reasoning": "Aus sozialrechtlicher Sicht bleibt die paritätische, lohnbezogene Beitragsfinanzierung bis 2030 in ihrer Grundarchitektur unverändert, da weder eine Wertschöpfungsabgabe noch eine grundlegende Bemessungsumstellung bis dahin gesetzgeberisch abgeschlossen sein dürfte – die Alterssicherungskommission befindet sich noch im Prüfauftrag, nicht im Vollzug. Die von ifo als Modellprognose erwartete Lohnkompression bei Berufseinsteigern und die im US-Modell unterstellte Erosion der Lohnquote würden sich in Deutschland gedämpft, aber real in steigenden Gesamtsozialversicherungsbeiträgen niederschlagen, weil die Bemessungsgrundlage überwiegend an der Lohnsumme mit Beitragsbemessungsgrenzen hängt und das GKV-Beitragssatzstabilisierungsgesetz zeigt, dass die Politik bislang ausgabenseitig statt einnahmenseitig reagiert. Mein rollenbedingtes Vorurteil zugunsten von Systemkontinuität (Systemtreue vor Systemwechsel) wird hier bewusst nicht kompensiert – die Gegenevidenz aus der Regierungsantwort vom August 2026 und dem IAB-Beschäftigungsaufbau in Gesundheit und öffentlichem Dienst stützt ein Bild schleichender, nicht disruptiver Anpassung innerhalb des bestehenden Beitragsrechts.",
+  "uncertain": [
+   "V9 (Industriestrompreis): liegt außerhalb meines Fachgebiets als Sozialrechtlerin, keine abgerufene Quelle, hohe Abhängigkeit von noch unbeschlossenen Entlastungsmaßnahmen (Strompreispaket, Netzentgeltreform).",
+   "V12 (Netto-Abfluss importierte KI-Vorleistungen): keine belastbare fiskalische oder statistische Datengrundlage verfügbar, reine Schätzung ohne Quelle mit entsprechend weitem Intervall."
+  ],
+  "falsifier": "Würde der Gesetzgeber bis 2030 tatsächlich eine grundlegende Verbreiterung der Beitragsbemessungsgrundlage auf Kapitalerträge/Mieten oder gar eine Wertschöpfungsabgabe verabschieden und in Kraft setzen, wäre meine Kernannahme der Systemkontinuität in der paritätischen Finanzierung widerlegt.",
+  "confidence": 0.45,
+  "sources": [],
+  "_modell": "sonnet-5"
+ },
+ {
+  "agent_id": "B03",
+  "archetype": "S2",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 3.5,
+    "lo": 1,
+    "hi": 6
+   },
+   {
+    "variable": "V2",
+    "point": 2.5,
+    "lo": 0,
+    "hi": 5.5
+   },
+   {
+    "variable": "V3",
+    "point": 9,
+    "lo": 4,
+    "hi": 16
+   },
+   {
+    "variable": "V4",
+    "point": 55,
+    "lo": 40,
+    "hi": 70
+   },
+   {
+    "variable": "V5",
+    "point": -1,
+    "lo": -3,
+    "hi": 1
+   },
+   {
+    "variable": "V6",
+    "point": 6.3,
+    "lo": 5.5,
+    "hi": 7.5
+   },
+   {
+    "variable": "V7",
+    "point": 43.5,
+    "lo": 42,
+    "hi": 46
+   },
+   {
+    "variable": "V8",
+    "point": 5,
+    "lo": 3,
+    "hi": 7
+   },
+   {
+    "variable": "V9",
+    "point": 17,
+    "lo": 13,
+    "hi": 22
+   },
+   {
+    "variable": "V10",
+    "point": 2.5,
+    "lo": 1.2,
+    "hi": 5
+   },
+   {
+    "variable": "V11",
+    "point": 20,
+    "lo": 10,
+    "hi": 35
+   },
+   {
+    "variable": "V12",
+    "point": 20,
+    "lo": 10,
+    "hi": 35
+   },
+   {
+    "variable": "V13",
+    "point": 55,
+    "lo": 35,
+    "hi": 75
+   },
+   {
+    "variable": "V14",
+    "point": 55,
+    "lo": 40,
+    "hi": 65
+   }
+  ],
+  "k1": [
+   "c: 65%",
+   "b: 25%",
+   "d: 30%",
+   "e: 20%",
+   "a: 15%",
+   "f: 10%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Regulierung und Genehmigung",
+  "reasoning": "Aus binnenmarkt- und beihilferechtlicher Sicht wäre die eigentliche Bruchlinie bis 2030 nicht die Aufgabenautomatisierung selbst, sondern das Auseinanderfallen der Umsetzungsgeschwindigkeit zwischen exportstarken, wettbewerbsgetriebenen Sektoren und den durch Vergaberecht, Beihilfekontrolle, DMA/DSA-Vollzug und nationale Genehmigungsverfahren gebremsten regulierten Bereichen (Gesundheit, öffentliche Verwaltung, Finanzaufsicht) – ein Zwei-Geschwindigkeiten-Europa, das die von der Bundesregierung im August 2026 dokumentierte Abwesenheit belastbarer Verdrängungsevidenz und der IAB-Beschäftigungsaufbau in Gesundheit/öffentlichem Dienst stützen. Die Gewerbesteuer-Zerlegung nach Anschlussleistung (§ 29 GewStG-E) hielte ich für die politisch am ehesten mehrheitsfähige Maßnahme, weil sie konstruktiv keine neue Steuer im Sinne des Art. 105 GG ist und damit weder Einstimmigkeits- noch Beihilfeprobleme auf EU-Ebene aufwirft, während eine harmonisierte europäische Digital- oder Wertschöpfungsabgabe an denselben Hürden scheitern dürfte, an denen frühere DST-Versuche gescheitert sind. Bewusst ungeprüft lasse ich dabei, in welchem Umfang einzelne Mitgliedstaaten – auch Deutschland – über nationale Ausnahmetatbestände, Notifizierungsspielräume und abweichende Vergabepraxis faktisch mehr Handlungsspielraum behalten, als das EU-Rechtsrahmen-Bild nahelegt; das ist meine Rolle, nicht meine Kompensationsaufgabe.",
+  "uncertain": [
+   "V10 (installierte Rechenzentrums-Anschlussleistung): Als Rechtswissenschaftler kann ich keine belastbare Infrastruktur-Baurate schätzen; die EuroHPC-Vergabe ist erst für Anfang 2027 terminiert, Standort- und Netzanschlusszeiten in Deutschland sind unbekannt, daher sehr weites Intervall.",
+   "V12 (Netto-Abfluss importierte KI-Vorleistungen): Hängt von einer im Arbeitspapier selbst als offen bezeichneten steuerlichen Frage (Abzugsfähigkeit, § 5.1) sowie von Wechselkurs- und Lizenzpreisentwicklungen ab, zu denen keine belastbare Datenbasis vorliegt."
+  ],
+  "falsifier": "Wenn bis 2028 mehrere EuroHPC-Gigafactories in Deutschland und anderen Mitgliedstaaten mit vergleichbarer Genehmigungsgeschwindigkeit und ohne nennenswerte beihilferechtliche oder vergaberechtliche Verzögerung ans Netz gingen, wäre die These eines Zwei-Geschwindigkeiten-Europas mit Regulierung/Genehmigung als bindender Restriktion widerlegt.",
+  "confidence": 0.55,
+  "_modell": "sonnet-5"
+ },
+ {
+  "agent_id": "B05",
+  "archetype": "ungebunden",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2,
+    "lo": -1,
+    "hi": 5
+   },
+   {
+    "variable": "V2",
+    "point": 2.5,
+    "lo": -1,
+    "hi": 6
+   },
+   {
+    "variable": "V3",
+    "point": 9,
+    "lo": 5,
+    "hi": 15
+   },
+   {
+    "variable": "V4",
+    "point": 55,
+    "lo": 35,
+    "hi": 70
+   },
+   {
+    "variable": "V5",
+    "point": -1.5,
+    "lo": -3.5,
+    "hi": 0.5
+   },
+   {
+    "variable": "V6",
+    "point": 6.3,
+    "lo": 5.5,
+    "hi": 7.5
+   },
+   {
+    "variable": "V7",
+    "point": 44,
+    "lo": 42.5,
+    "hi": 46.5
+   },
+   {
+    "variable": "V8",
+    "point": 5,
+    "lo": 3,
+    "hi": 8
+   },
+   {
+    "variable": "V9",
+    "point": 16,
+    "lo": 10,
+    "hi": 22
+   },
+   {
+    "variable": "V10",
+    "point": 4.5,
+    "lo": 2.5,
+    "hi": 7
+   },
+   {
+    "variable": "V11",
+    "point": 20,
+    "lo": 10,
+    "hi": 35
+   },
+   {
+    "variable": "V12",
+    "point": 15,
+    "lo": 6,
+    "hi": 30
+   },
+   {
+    "variable": "V13",
+    "point": 55,
+    "lo": 35,
+    "hi": 75
+   },
+   {
+    "variable": "V14",
+    "point": 45,
+    "lo": 30,
+    "hi": 60
+   }
+  ],
+  "k1": [
+   "c: 70%",
+   "b: 30%",
+   "a: 20%",
+   "d: 25%",
+   "e: 20%",
+   "f: 10%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Compute und Strom",
+  "reasoning": "Aus Sicht der Finanzgerichtsbarkeit ist die Gewerbesteuer-Zerlegung nach Anschlussleistung (§ 29 Abs. 1 Nr. 4 GewStG-E) der einzige der diskutierten Ansätze mit einer halbwegs bestimmten, technisch messbaren Bemessungsgrundlage, während eine Wertschöpfungsabgabe auf „KI-berührte Aufgaben\" oder eine Abgabe auf importierte KI-Vorleistungen tatbestandlich kaum abgrenzungsfest zu fassen wären und absehbar Jahre an Auslegungsstreit vor den Finanzgerichten produzieren würden (Verrechnungspreisgestaltung, Servicegesellschaften im Ausland, Umqualifizierung von Lizenz- in Beratungsleistungen). Die im Auftrag gewichtete Gegenevidenz — fehlender empirischer Nachweis der Bundesregierung vom 20. August 2026, IAB-Beschäftigungsaufbau in Gesundheit/öffentlichem Dienst, regulatorische Diffusionsbremsen — spricht gegen einen kurzfristigen Zwang zu neuen, streitanfälligen Abgabetatbeständen und für ein evolutionäres Vorgehen über die bereits laufende Zerlegungsreform statt eines Systemwechsels. Meine Bewertung bleibt bewusst auf das Streitanfällige beschränkt; makroökonomische Niveaugrößen wie BIP- oder Lohnquoteneffekte beurteile ich nur als Rahmenbedingung, nicht aus eigener volkswirtschaftlicher Kompetenz — das ist meine Rollenblindstelle, die ich nicht kompensiere.",
+  "falsifier": "Träte bis Ende 2030 tatsächlich eine bundesweite Wertschöpfungsabgabe mit gerichtsfester, engmaschiger Legaldefinition von „KI-Wertschöpfung\" in Kraft und blieben dabei die Finanzgerichte auffallend unbelastet von Abgrenzungs- und Umgehungsverfahren (vergleichbar wenig wie bei etablierten Tatbeständen), wäre meine Einschätzung der strukturellen Abgrenzungsschwäche neuer KI-Steuertatbestände widerlegt.",
+  "confidence": 0.4,
+  "uncertain": [
+   "V3 (Anteil KI-berührter Aufgaben Deutschland): keine belastbare deutsche Aufgabenerhebung existiert, nur ifo-Lohnerwartungen als indirekter Proxy - reine Schätzung ohne validierte Quelle.",
+   "V12 (Netto-Abfluss für importierte KI-Vorleistungen): keine amtliche Statistik erfasst diese Größe gesondert; Schätzung ohne abgerufene Quelle, zugleich rechtlich zentral für die offene Abzugsfähigkeitsfrage nach § 5.1 des Arbeitspapiers."
+  ],
+  "k2_note": "",
+  "sources": [
+   "Industriestrompreis 2026 Marktpreise/geförderter Industriestrompreis - c-ober.de, Vattenfall, SMARD-Modell zusammengefasst, Webrecherche 14.09.2026 (aktuell: ca. 9,5-16,26 ct/kWh je nach Entlastung; Ziel-Förderpreis 5 ct/kWh 2026-2028) - als Schätzungsgrundlage für V9 verwendet, keine Primärquelle einzeln geprüft.",
+   "Rechenzentren in Deutschland: Bis 2030 rund 5 GW mehr Leistung - hardwarewartung.com, Webrecherche 14.09.2026 (Bestand Anfang 2026 ca. 3 GW, Prognose bis 2030 ca. 5 GW Gesamt-Rechenzentrumsleistung, nicht KI-spezifisch) - als Schätzungsgrundlage für V10 verwendet, keine Primärquelle einzeln geprüft."
+  ],
+  "_modell": "sonnet-5"
+ },
+ {
+  "agent_id": "B06",
+  "archetype": "S3",
+  "confidence": 40,
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 3,
+    "lo": 1,
+    "hi": 6
+   },
+   {
+    "variable": "V2",
+    "point": 2.5,
+    "lo": 0,
+    "hi": 5.5
+   },
+   {
+    "variable": "V3",
+    "point": 9,
+    "lo": 5,
+    "hi": 14
+   },
+   {
+    "variable": "V4",
+    "point": 55,
+    "lo": 40,
+    "hi": 70
+   },
+   {
+    "variable": "V5",
+    "point": -2,
+    "lo": -4,
+    "hi": 0
+   },
+   {
+    "variable": "V6",
+    "point": 6.5,
+    "lo": 5.5,
+    "hi": 8
+   },
+   {
+    "variable": "V7",
+    "point": 44,
+    "lo": 42,
+    "hi": 47
+   },
+   {
+    "variable": "V8",
+    "point": 4,
+    "lo": 2,
+    "hi": 6
+   },
+   {
+    "variable": "V9",
+    "point": 18,
+    "lo": 14,
+    "hi": 24
+   },
+   {
+    "variable": "V10",
+    "point": 4,
+    "lo": 1.5,
+    "hi": 8
+   },
+   {
+    "variable": "V11",
+    "point": 20,
+    "lo": 8,
+    "hi": 35
+   },
+   {
+    "variable": "V12",
+    "point": 20,
+    "lo": 8,
+    "hi": 35
+   },
+   {
+    "variable": "V13",
+    "point": 55,
+    "lo": 35,
+    "hi": 75
+   },
+   {
+    "variable": "V14",
+    "point": 40,
+    "lo": 25,
+    "hi": 55
+   }
+  ],
+  "k1": [
+   "a: 20%",
+   "b: 30%",
+   "c: 70%",
+   "d: 25%",
+   "e: 20%",
+   "f: 15%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Regulierung und Genehmigung",
+  "reasoning": "Aus Sicht der Konzern-Compliance ist die ifo-Evidenz zu Lohnkompression und die US-Substantial/Extreme-Bandbreite ernst zu nehmen, doch entscheidend ist nicht die Substitutionsrate selbst, sondern dass jede fiskalische Reaktion darauf (Wertschöpfungsabgabe, Zerlegung nach Anschlussleistung, Abgabe auf importierte KI-Vorleistungen) auf ein bestehendes System konzerninterner Lizenz-, API- und Cloud-Vorleistungsströme trifft, das gestaltbar bleibt, solange Pillar Two robust nur auf Ebene der Mindeststeuer, nicht aber auf Ebene der Verrechnungspreis-Dokumentation greift. Die Position der Bundesregierung vom August 2026 (keine belastbaren Hinweise, keine fiskalischen Instrumente) und der IAB-Beschäftigungsaufbau in Gesundheit und Verwaltung sprechen gegen eine schnelle gesetzgeberische Reaktion, was aus meiner Rolle heraus eher bedeutet, dass die Reformlücke wächst, während die Gestaltungsspielräume schon jetzt genutzt werden. Meine Einschätzung ist bewusst die der Ausgestaltung, nicht der Vermeidungsbekämpfung: Ich bewerte Steuerarbitrage und Verrechnungspreisspielräume als gegebene Handlungsoption des Konzerns, nicht als zu schließende Lücke.",
+  "falsifier": "Eine kurzfristig wirksame, breit durchgesetzte Mindestbesteuerung konzerninterner KI-Lizenz- und Cloud-Gebühren (robuste Pillar-Two-Anwendung plus deutsche Hinzurechnungsbesteuerung ohne Substanzausnahmen, tatsächlich vollzogen und nicht nur verabschiedet) würde die Gestaltungsspielräume, auf denen meine gesamte Einschätzung beruht, in kurzer Zeit entwerten.",
+  "uncertain": [
+   "V10 (installierte Rechenzentrums-Anschlussleistung): Es liegt keine belastbare Kapazitätsplanung für 2030 vor, die Größenordnung ist eine grobe eigene Schätzung ohne Quelle.",
+   "V12 (Netto-Abfluss für importierte KI-Vorleistungen): Die Zahl hängt von unternehmensinternen, nicht offengelegten Verrechnungspreisen und vom künftigen Durchsetzungsgrad des Pillar-Two- und Quellensteuerregimes ab, beides aus heutiger Sicht kaum belastbar zu quantifizieren."
+  ],
+  "sources": [
+   "Vattenfall, \"Industriestrompreis 2026: Entwicklung & Preistrends\", abgerufen 14. September 2026, https://www.vattenfall.de/geschaeftskunden/ves/magazin/energie/industriestrompreis (Basis für V9: allgemeine Bandbreite 15-25 ct/kWh 2026 für Großverbraucher, davon Fortschreibung auf 2030 als eigene Schätzung)",
+   "Alle übrigen quantitativen Angaben (V1-V8, V10-V14) sind eigene, rollenbasierte Schätzungen ohne zusätzliche abgerufene Quelle über den gemeinsamen Faktenkern hinaus und als solche gekennzeichnet."
+  ],
+  "_modell": "sonnet-5"
+ },
+ {
+  "agent_id": "C01",
+  "archetype": "S7",
+  "confidence": 0.55,
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.5,
+    "lo": 0.5,
+    "hi": 5
+   },
+   {
+    "variable": "V2",
+    "point": 3,
+    "lo": 1,
+    "hi": 6
+   },
+   {
+    "variable": "V3",
+    "point": 8,
+    "lo": 4,
+    "hi": 14
+   },
+   {
+    "variable": "V4",
+    "point": 55,
+    "lo": 35,
+    "hi": 70
+   },
+   {
+    "variable": "V5",
+    "point": -2,
+    "lo": -4,
+    "hi": -0.5
+   },
+   {
+    "variable": "V6",
+    "point": 6.3,
+    "lo": 5.5,
+    "hi": 7.5
+   },
+   {
+    "variable": "V7",
+    "point": 43.5,
+    "lo": 42,
+    "hi": 46
+   },
+   {
+    "variable": "V8",
+    "point": 4,
+    "lo": 2,
+    "hi": 6
+   },
+   {
+    "variable": "V9",
+    "point": 17,
+    "lo": 13,
+    "hi": 23
+   },
+   {
+    "variable": "V10",
+    "point": 3,
+    "lo": 1,
+    "hi": 6
+   },
+   {
+    "variable": "V11",
+    "point": 20,
+    "lo": 10,
+    "hi": 35
+   },
+   {
+    "variable": "V12",
+    "point": 20,
+    "lo": 10,
+    "hi": 35
+   },
+   {
+    "variable": "V13",
+    "point": 55,
+    "lo": 35,
+    "hi": 75
+   },
+   {
+    "variable": "V14",
+    "point": 55,
+    "lo": 40,
+    "hi": 70
+   }
+  ],
+  "k1": [
+   "c: 70%",
+   "a: 20%",
+   "b: 25%",
+   "d: 30%",
+   "e: 20%",
+   "f: 10%",
+   "g: 15%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Compute und Strom",
+  "reasoning": "Aus Sicht eines Finanzvorstands der Industrie wäre eine KI-Investition nur amortisationsfähig, wenn Kapitalbindung, Netzanschluss und Energiepreis planbar blieben, und genau diese physischen Restriktionen – nicht die im US-Modell unterstellte Aufgabensubstitution – wären in Deutschland die eigentliche Investitionsbremse. Die Position der Bundesregierung vom August 2026 (keine belastbaren Hinweise auf systematischen Beschäftigungsabbau) und der IAB-Beschäftigungsaufbau in Gesundheit und öffentlichem Dienst stützten die Einschätzung, dass die Diffusion in regulierten und personalintensiven Bereichen deutlich hinter dem technisch Möglichen zurückbliebe, während die ifo-Lohnkompression für Berufseinsteiger als konkretes, aber auf eine Kohorte begrenztes Signal ernst zu nehmen wäre. Rollengemäß bewerte ich hier ausschließlich die Investitions- und Amortisationslogik des eigenen Unternehmens; gesamtwirtschaftliche Verteilungsfragen oder die Tragfähigkeit der Sozialsysteme liegen bewusst außerhalb meines Mandats und werden nicht kompensiert.",
+  "uncertain": [
+   "V10 (installierte Rechenzentrums-Anschlussleistung): hängt von Netzausbau-, Genehmigungs- und EuroHPC-Vergabeentscheidungen ab, die außerhalb jeder betrieblichen Capex-Planung liegen und mir aus der Unternehmensperspektive kaum seriös zugänglich sind.",
+   "V12 (Netto-Abfluss für importierte KI-Vorleistungen): lässt sich ohne belastbare volkswirtschaftliche Markt- und Vertragsdaten zu Lizenz- und Cloud-Bezug nur sehr grob aus der Hochrechnung eigener Cloud-/API-Kosten schätzen."
+  ],
+  "falsifier": "Gingen bis 2030 mehrere Gigawatt AI-Rechenzentrumskapazität in Deutschland zu wettbewerbsfähigen Industriestrompreisen ans Netz und liefe ein signifikanter Anteil der europäischen Inferenz auf EU-kontrollierter Infrastruktur, wäre meine These der physischen Deckelung (S7) widerlegt.",
+  "sources": [
+   "BDEW-Strompreisanalyse / SMARD-Modell Juni 2026 (via Web-Recherche 14.09.2026): Industriestrompreis Deutschland ohne Entlastungen ca. 16,26 ct/kWh, mit maximalen Entlastungen 10,73 ct/kWh, Bandbreite 15-25 ct/kWh je nach Abnahmemenge und Vertrag, https://strom-report.com/strompreisentwicklung/ (Grundlage für V9-Schätzung); alle übrigen Werte zu V9-V12 sowie V1-V8, V13-V14 sind eigene, ausdrücklich als Schätzung gekennzeichnete Rollenprojektionen ohne separaten Quellenabruf."
+  ],
+  "_modell": "sonnet-5"
+ },
+ {
+  "agent_id": "C02",
+  "archetype": "S3",
+  "confidence": 0.55,
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 3.5,
+    "lo": 1,
+    "hi": 7
+   },
+   {
+    "variable": "V2",
+    "point": 3,
+    "lo": 0.5,
+    "hi": 6
+   },
+   {
+    "variable": "V3",
+    "point": 10,
+    "lo": 6,
+    "hi": 17
+   },
+   {
+    "variable": "V4",
+    "point": 70,
+    "lo": 55,
+    "hi": 85
+   },
+   {
+    "variable": "V5",
+    "point": -4,
+    "lo": -7,
+    "hi": -1.5
+   },
+   {
+    "variable": "V6",
+    "point": 6.5,
+    "lo": 5.5,
+    "hi": 8.5
+   },
+   {
+    "variable": "V7",
+    "point": 44.5,
+    "lo": 42.5,
+    "hi": 47
+   },
+   {
+    "variable": "V8",
+    "point": 4,
+    "lo": 2,
+    "hi": 6
+   },
+   {
+    "variable": "V9",
+    "point": 16,
+    "lo": 12,
+    "hi": 22
+   },
+   {
+    "variable": "V10",
+    "point": 3,
+    "lo": 1.5,
+    "hi": 6
+   },
+   {
+    "variable": "V11",
+    "point": 20,
+    "lo": 10,
+    "hi": 35
+   },
+   {
+    "variable": "V12",
+    "point": 20,
+    "lo": 10,
+    "hi": 35
+   },
+   {
+    "variable": "V13",
+    "point": 55,
+    "lo": 35,
+    "hi": 75
+   },
+   {
+    "variable": "V14",
+    "point": 55,
+    "lo": 40,
+    "hi": 70
+   }
+  ],
+  "k1": [
+   "c: 65%",
+   "a: 25%",
+   "b: 20%",
+   "d: 20%",
+   "e: 15%",
+   "f: 10%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Regulierung und Genehmigung",
+  "reasoning": "Aus Controlling-Sicht rechneten sich Automatisierungsbusinesscases im Dienstleistungskonzern über Prozesskostenrechnung meist schnell und würden primär über Personalkostenquote und Produktivität je Vollzeitstelle bewertet, weshalb ein substanzieller Automatisierungsgrad (V4) und eine spürbar sinkende Lohnquote (V5) als plausibel erscheinen — die ifo-Lohnerwartungen und Tech-Layoffs stützten diese Einschätzung stärker als die Position der Bundesregierung, die primär Beobachtung statt Instrumente anböte. Die Gegenevidenz (IAB-Beschäftigungsaufbau in Gesundheit/öffentlichen Diensten, Diffusionshemmnisse in regulierten Sektoren) würde in der kurzfristigen Kostenlogik nur als Verzögerung, nicht als Korrektur des Grundtrends verbucht. Die physische Schicht (Strom, Rechenzentrumskapazität) wird geschätzt, weil sie außerhalb des ureigenen Erfahrungshorizonts der Rolle liegt, ist aber für die europäische Souveränitätsfrage mitentscheidend, wie der Faktenkern (§ F) betont.",
+  "falsifier": "Wenn realisierte Automatisierungs-Business-Cases in Dienstleistungskonzernen systematisch die kalkulierten Paybackzeiten verfehlten (etwa durch Integrationskosten, Mitbestimmung/Betriebsrat oder regulatorische Auflagen), wäre die unterstellte schnelle, kostenwirksame Substitutionswirkung widerlegt.",
+  "uncertain": [
+   "V10 (installierte Rechenzentrums-Anschlussleistung): liegt außerhalb der Energie-/Infrastrukturexpertise der Rolle, reine Schätzung ohne belastbare Quelle für 2030.",
+   "V12 (Netto-Abfluss für importierte KI-Vorleistungen): hängt von Wechselkurs-, Preis- und Marktanteilsentwicklungen der Hyperscaler ab, die von der Controlling-Perspektive eines Dienstleistungskonzerns kaum belastbar prognostizierbar sind."
+  ],
+  "k3_note": "",
+  "sources": [
+   "ifo Konjunkturperspektiven 07/2026, Ruffert, 12. August 2026 (Faktenkern § 3.5) – Lohnerwartungen deutscher Unternehmen",
+   "IAB Frühjahrsprognose, 24. März 2026 (Faktenkern § 1.1) – sektorale Beschäftigungsentwicklung",
+   "BMF-Regierungsentwurf Einkommensteuerreformgesetz 2027, 18./2. September 2026 (Faktenkern § 4.5) – Gewerbesteuer-Zerlegung Rechenzentren",
+   "Web-Recherche Industriestrompreis Deutschland 2026 (u.a. BDEW-Strompreisanalyse April 2026, wattline.de, Stand ca. Januar/Juni 2026): ca. 16–17 ct/kWh ohne Entlastung als Ausgangswert für V9-Schätzung"
+  ],
+  "_modell": "sonnet-5"
+ },
+ {
+  "agent_id": "C03",
+  "archetype": "S6",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2,
+    "lo": 0,
+    "hi": 4
+   },
+   {
+    "variable": "V2",
+    "point": 2.2,
+    "lo": 0.3,
+    "hi": 4.5
+   },
+   {
+    "variable": "V3",
+    "point": 7,
+    "lo": 4,
+    "hi": 11
+   },
+   {
+    "variable": "V4",
+    "point": 60,
+    "lo": 45,
+    "hi": 75
+   },
+   {
+    "variable": "V5",
+    "point": -1.5,
+    "lo": -3.5,
+    "hi": 0.5
+   },
+   {
+    "variable": "V6",
+    "point": 6.3,
+    "lo": 5.5,
+    "hi": 7.5
+   },
+   {
+    "variable": "V7",
+    "point": 43.5,
+    "lo": 42,
+    "hi": 46
+   },
+   {
+    "variable": "V8",
+    "point": 4,
+    "lo": 2,
+    "hi": 6
+   },
+   {
+    "variable": "V9",
+    "point": 16,
+    "lo": 12,
+    "hi": 22
+   },
+   {
+    "variable": "V10",
+    "point": 3.5,
+    "lo": 1.5,
+    "hi": 6
+   },
+   {
+    "variable": "V11",
+    "point": 15,
+    "lo": 8,
+    "hi": 25
+   },
+   {
+    "variable": "V12",
+    "point": 28,
+    "lo": 15,
+    "hi": 45
+   },
+   {
+    "variable": "V13",
+    "point": 55,
+    "lo": 35,
+    "hi": 75
+   },
+   {
+    "variable": "V14",
+    "point": 55,
+    "lo": 40,
+    "hi": 70
+   }
+  ],
+  "k1": [
+   "c: 70%",
+   "b: 35%",
+   "d: 30%",
+   "a: 20%",
+   "e: 25%",
+   "f: 15%",
+   "g: 10%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Compute und Strom",
+  "reasoning": "Aus Sicht der laufenden Mandatspraxis liefern weder die IAB-Zahlen noch die Antwort der Bundesregierung vom 20. August 2026 einen belastbaren Beleg für einen branchenweiten Beschäftigungsabbau, weshalb ich die Substitutionswirkung für den deutschen Mittelstand vorsichtig und sektoral uneinheitlich einschätze und nicht auf US-Werte hochskaliere. Konkret berühren mich zwei Weichenstellungen unmittelbar: die geplante Gewerbesteuer-Zerlegung nach Anschlussleistung (§ 29 Abs. 1 Nr. 4 GewStG-E) für Standortgemeinden und die noch offene Frage der Abzugsfähigkeit importierter KI-Vorleistungen (Lizenzen, API, Cloud) als Betriebsausgabe, weil beide die Kostenstruktur arbeitsintensiver Betriebe direkt verändern, während die eigentliche Wertschöpfung als Vorleistung ins Ausland abfließt und die inländische Bemessungsgrundlage für Lohnsteuer und Sozialabgaben schrumpft. Ob das Sozialversicherungssystem grundsätzlich neu finanziert werden müsste, klammere ich bewusst aus – meine Aufgabe ist die Optimierung im geltenden Recht für meine Mandanten, nicht die Systemdebatte.",
+  "falsifier": "Würde bis 2028 tatsächlich eine breite Wertschöpfungsabgabe verabschiedet und stiege gleichzeitig der Anteil EU-betriebener und -kontrollierter Inferenz über 30 %, wäre meine Einschätzung eines fortschreitenden Souveränitätsbruchs mit Vorleistungsabfluss widerlegt.",
+  "confidence": 0.55,
+  "uncertain": [
+   "V11 (Anteil EU-betriebener Inferenz): schwer zu schätzen, weil 'Kontrolle' vs. bloßer Serverstandort in der Praxis kaum trennscharf ist und die Marktmacht der US-Hyperscaler laut Rhine-Group-Diagnose (nur 4 von 50 größten Techkonzernen europäisch) hoch bleibt.",
+   "V9 (Industriestrompreis 2030): stark abhängig von politisch noch nicht entschiedenen Entlastungsinstrumenten (Netzentgelte, Industriestrompreispaket) und vom Tempo des EuroHPC-Ausbaus, daher weites Intervall ohne abgerufene Quelle."
+  ],
+  "sources": [],
+  "_modell": "sonnet-5"
+ },
+ {
+  "agent_id": "C04",
+  "archetype": "S3",
+  "confidence": 55,
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 4,
+    "lo": 1,
+    "hi": 8
+   },
+   {
+    "variable": "V2",
+    "point": 3,
+    "lo": 0,
+    "hi": 7
+   },
+   {
+    "variable": "V3",
+    "point": 9,
+    "lo": 5,
+    "hi": 14
+   },
+   {
+    "variable": "V4",
+    "point": 65,
+    "lo": 50,
+    "hi": 80
+   },
+   {
+    "variable": "V5",
+    "point": -3,
+    "lo": -6,
+    "hi": -1
+   },
+   {
+    "variable": "V6",
+    "point": 6.5,
+    "lo": 5.5,
+    "hi": 8.5
+   },
+   {
+    "variable": "V7",
+    "point": 45,
+    "lo": 43,
+    "hi": 48
+   },
+   {
+    "variable": "V8",
+    "point": 4,
+    "lo": 2,
+    "hi": 6
+   },
+   {
+    "variable": "V9",
+    "point": 17,
+    "lo": 12,
+    "hi": 24
+   },
+   {
+    "variable": "V10",
+    "point": 2.5,
+    "lo": 1.5,
+    "hi": 4.5
+   },
+   {
+    "variable": "V11",
+    "point": 18,
+    "lo": 8,
+    "hi": 28
+   },
+   {
+    "variable": "V12",
+    "point": 25,
+    "lo": 12,
+    "hi": 45
+   },
+   {
+    "variable": "V13",
+    "point": 65,
+    "lo": 45,
+    "hi": 85
+   },
+   {
+    "variable": "V14",
+    "point": 55,
+    "lo": 40,
+    "hi": 70
+   }
+  ],
+  "k1": [
+   "c: 75%",
+   "b: 35%",
+   "a: 20%",
+   "d: 30%",
+   "e: 25%",
+   "f: 15%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Compute und Strom",
+  "reasoning": "Aus Sicht der Wirtschaftsprüfung ist die Gewerbesteuer-Zerlegung nach Anschlussleistung (§ 29 Abs. 1 Nr. 4 GewStG-E) die einzige der neuen Größen, die bereits heute eine prüffeste, physisch verifizierbare Bemessungsgrundlage liefert, während Lohnquote, Aufgabenanteil und Automatisierungsgrad im Jahresabschluss nur mittelbar über Personalaufwandsquote und Bruttowertschöpfung sichtbar würden und daher mit weiten Intervallen zu versehen sind. Die ifo-Lohnerwartungen (rund 50 % sinkende Löhne für Berufseinsteiger) lassen sich als Bilanzgröße antizipieren, bevor sie in der GuV real erscheinen, weshalb die Hauptlast der Anpassung bei dieser Gruppe verortet wird. Die Position der Bundesregierung vom August 2026 (\"keine belastbaren Hinweise\") wird zur Kenntnis genommen, ändert aber die Einschätzung nicht wesentlich, da Bilanzeffekte typischerweise der amtlichen Beschäftigungsstatistik vorauslaufen und die Sozialversicherungsbeitragssätze schon aus demografischen Gründen unter Druck stehen.",
+  "falsifier": "Wenn das Gesetzgebungsverfahren zur Gewerbesteuer-Zerlegung nach Anschlussleistung (Art. 3 Einkommensteuerreformgesetz 2027) im parlamentarischen Verfahren scheitert oder auf einen Umsatzschlüssel zurückfällt, entfiele die einzige bereits heute prüffeste fiskalische Bemessungsgrundlage für die KI-Infrastruktur, und die gesamte Einschätzung zu K1(c) sowie zum Archetyp wäre zu revidieren.",
+  "uncertain": [
+   "V11 (Anteil EU-kontrollierter Inferenz): keine belastbare Bilanz- oder Auditgröße verfügbar, da 'Kontrolle' juristisch-technisch (Serverstandort vs. Konzernmutter) nicht einheitlich definiert ist.",
+   "V12 (Netto-Abfluss KI-Vorleistungen): mangels eigener Bilanzposition für 'importierte KI-Vorleistungen' in HGB/IFRS-Abschlüssen ist dies eine reine Schätzgröße ohne testierfähige Quelle."
+  ],
+  "sources": [
+   "Industriestrompreis 2026 in Deutschland, Wattline/Vattenfall/etalytics u.a., diverse Abrufe September 2026 (Stand Januar/März 2026, Bandbreite 15-25 ct/kWh, Großverbraucher ca. 16 ct/kWh)"
+  ],
+  "_modell": "sonnet-5"
+ },
+ {
+  "agent_id": "C05",
+  "archetype": "S3",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.5,
+    "lo": 0,
+    "hi": 6
+   },
+   {
+    "variable": "V2",
+    "point": 2,
+    "lo": -1,
+    "hi": 5
+   },
+   {
+    "variable": "V3",
+    "point": 9,
+    "lo": 5,
+    "hi": 14
+   },
+   {
+    "variable": "V4",
+    "point": 65,
+    "lo": 50,
+    "hi": 80
+   },
+   {
+    "variable": "V5",
+    "point": -2.5,
+    "lo": -4.5,
+    "hi": -0.5
+   },
+   {
+    "variable": "V6",
+    "point": 6.5,
+    "lo": 5.5,
+    "hi": 8.5
+   },
+   {
+    "variable": "V7",
+    "point": 44.5,
+    "lo": 42.5,
+    "hi": 47
+   },
+   {
+    "variable": "V8",
+    "point": 5,
+    "lo": 3,
+    "hi": 7
+   },
+   {
+    "variable": "V9",
+    "point": 17,
+    "lo": 14,
+    "hi": 21
+   },
+   {
+    "variable": "V10",
+    "point": 4,
+    "lo": 2,
+    "hi": 7
+   },
+   {
+    "variable": "V11",
+    "point": 20,
+    "lo": 10,
+    "hi": 35
+   },
+   {
+    "variable": "V12",
+    "point": 15,
+    "lo": 5,
+    "hi": 30
+   },
+   {
+    "variable": "V13",
+    "point": 55,
+    "lo": 35,
+    "hi": 75
+   },
+   {
+    "variable": "V14",
+    "point": 45,
+    "lo": 30,
+    "hi": 60
+   }
+  ],
+  "k1": [
+   "c: 70%",
+   "b: 30%",
+   "a: 15%",
+   "d: 20%",
+   "e: 20%",
+   "f: 10%",
+   "g: 10%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Compute und Strom",
+  "reasoning": "Aus Sanierungspraxis betrachtet vollzieht sich der Anpassungsprozess bis 2030 nicht als abrupter Automatisierungsschock, sondern als schleichender, über Sozialpläne und Interessenausgleiche verhandelter Stellenabbau vor allem bei Berufseinsteigern im Backoffice – die ifo-Umfrage zu sinkenden Einstiegsgehältern (Schätzung auf Basis Faktenkern, Ruffert 12.08.2026) liest sich für mich wie ein klassisches Frühwarnsignal einer Restrukturierungswelle, nicht wie ein Politik- oder Wachstumssignal. Die Gegenevidenz der Bundesregierung (BT-Drs. 21/7620, 20.08.2026: „keine belastbaren Hinweise\") und der IAB-Beschäftigungsaufbau in Gesundheit/öffentlichem Dienst nehme ich ernst und gewichte sie zuerst, sehe aber gerade darin die Bestätigung, dass sich die Anpassungslast auf einzelne Belegschaftssegmente konzentriert statt gesamtwirtschaftlich sichtbar zu werden – für mich bleibt Anpassung strukturell ein Abbauprozess einzelner Funktionen, dessen Umbaupotenzial ich aus meiner Rolle heraus nicht bewerte. Bindend wird für die europäische Kapazität am Ende nicht die Aufgabenautomatisierung, sondern die reale Sanierungsfähigkeit der Sozialversicherungsfinanzierung: Beitragssätze, die weiter Richtung 44-45% laufen, während die Lohnquote erodiert, sind für mich ein klassischer Sanierungsfall auf Systemebene, der – wie bei Unternehmen auch – zu spät adressiert zu werden droht.",
+  "falsifier": "Wenn IAB- oder BA-Zahlen 2027/2028 einen abrupten, gesamtwirtschaftlich sichtbaren Anstieg der Arbeitslosigkeit in kognitiven Berufen um mehrere Prozentpunkte zeigen würden (statt eines schrittweisen, über Sozialpläne/Interessenausgleiche verhandelten Stellenabbaus bei Berufseinsteigern), wäre meine Einschätzung eines geordneten, sanierungsförmigen Anpassungspfads widerlegt.",
+  "confidence": 0.45,
+  "k1_": "placeholder",
+  "uncertain": [
+   "V10 (installierte KI-Rechenzentrums-Anschlussleistung 2030): außerhalb meiner Kernkompetenz als Restrukturierungsberater, keine belastbare Vergleichsbasis aus Sanierungsfällen, daher weites Intervall.",
+   "V12 (Netto-Abfluss für importierte KI-Vorleistungen): reine Schätzung ohne abgerufene Quelle, hängt stark von nicht vorhersehbaren Lizenz- und Cloud-Preisentwicklungen ab, die in keinem mir bekannten Sanierungsgutachten kalibriert sind."
+  ],
+  "sources": [
+   "ifo Konjunkturperspektiven 07/2026, Ruffert, 12.08.2026 (Faktenkern § 3.5) – Lohnkompressionserwartungen, hier als empirische Firmenbefragung, nicht als Prognose gekennzeichnet",
+   "IAB Kurzfristprognose vom 24.03.2026 (Faktenkern § 1.1) – sektorale Beschäftigungsverschiebung Industrie/öffentliche Dienste",
+   "Antwort der Bundesregierung auf BT-Drs. 21/7620 vom 20.08.2026 (Faktenkern § 4.2)",
+   "Regierungsentwurf BMF vom 18.08.2026 zu Art. 3 Einkommensteuerreformgesetz 2027, § 29 Abs. 1 Nr. 4 GewStG-E (Faktenkern § F)",
+   "V9-V12: eigene Schätzung ohne abgerufene Zusatzquelle, ausgewiesen als Schätzung gemäß Faktenkern § F"
+  ],
+  "_modell": "sonnet-5"
+ },
+ {
+  "agent_id": "D01",
+  "archetype": "ungebunden",
+  "confidence": 45,
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2,
+    "lo": -1,
+    "hi": 5
+   },
+   {
+    "variable": "V2",
+    "point": 2.5,
+    "lo": 0,
+    "hi": 6
+   },
+   {
+    "variable": "V3",
+    "point": 8,
+    "lo": 4,
+    "hi": 14
+   },
+   {
+    "variable": "V4",
+    "point": 40,
+    "lo": 25,
+    "hi": 55
+   },
+   {
+    "variable": "V5",
+    "point": -1.5,
+    "lo": -3,
+    "hi": 0.5
+   },
+   {
+    "variable": "V6",
+    "point": 6,
+    "lo": 5.3,
+    "hi": 7
+   },
+   {
+    "variable": "V7",
+    "point": 43,
+    "lo": 41.5,
+    "hi": 45.5
+   },
+   {
+    "variable": "V8",
+    "point": 4,
+    "lo": 2,
+    "hi": 6
+   },
+   {
+    "variable": "V9",
+    "point": 17,
+    "lo": 14,
+    "hi": 22
+   },
+   {
+    "variable": "V10",
+    "point": 3,
+    "lo": 1,
+    "hi": 6
+   },
+   {
+    "variable": "V11",
+    "point": 20,
+    "lo": 10,
+    "hi": 35
+   },
+   {
+    "variable": "V12",
+    "point": 20,
+    "lo": 8,
+    "hi": 40
+   },
+   {
+    "variable": "V13",
+    "point": 55,
+    "lo": 35,
+    "hi": 75
+   },
+   {
+    "variable": "V14",
+    "point": 45,
+    "lo": 30,
+    "hi": 60
+   }
+  ],
+  "k1": [
+   "a: 20%",
+   "b: 35%",
+   "c: 55%",
+   "d: 30%",
+   "e: 20%",
+   "f: 15%",
+   "g: 25%"
+  ],
+  "k2": "öffentliche Haushalte und Beitragszahler",
+  "k3": "Fachkräfte und Qualifikation",
+  "reasoning": "Aus meiner Sicht als Ärztliche Direktorin eines Universitätsklinikums zeigt sich KI bis 2030 vor allem als Assistenzwerkzeug in Radiologie und Pathologie sowie als Erleichterung der Dokumentationslast, nicht als Ersatz ärztlicher oder pflegerischer Tätigkeit – die IAB-Zahlen (plus 180.000 Stellen in Gesundheit/öffentlichen Diensten) und die Aussage der Bundesregierung, es gebe keine belastbaren Hinweise auf systematischen KI-bedingten Stellenabbau, decken sich mit meiner betrieblichen Erfahrung, dass Fachkräftemangel, nicht Automatisierung, die bindende Restriktion ist. Die eigentliche Anpassungslast trägt aus meiner Perspektive nicht die Belegschaft, sondern die Finanzierungsseite: Das GKV-Beitragssatzstabilisierungsgesetz zeigt, wie ausgabenseitige Konsolidierung ein einnahmenseitiges Problem – die lohnbasierte Beitragsfinanzierung bei stagnierender Erwerbstätigenzahl – nur verschiebt, während der Investitionsstau in der Fläche unverändert bleibt. Meine Einschätzung ist bewusst von der Spitzenmedizin eines Universitätsklinikums geprägt und daher für die Versorgung in der Fläche vermutlich zu optimistisch, was Diffusionsgeschwindigkeit und Automatisierungsgrad angeht – diese Verzerrung korrigiere ich absichtlich nicht.",
+  "falsifier": "Wenn belastbare, repräsentative Daten (etwa eine künftige IAB- oder Destatis-Erhebung) zeigten, dass die sozialversicherungspflichtige Beschäftigung im Gesundheits- und öffentlichen Sektor entgegen dem aktuellen Trend tatsächlich schrumpft statt wächst, wäre meine Kerneinschätzung – Fachkräftemangel und nicht Substitution als bindende Restriktion – widerlegt.",
+  "uncertain": [
+   "V10: Installierte KI-Rechenzentrums-Anschlussleistung liegt außerhalb meiner klinischen Fachkompetenz; ich kenne nur den eigenen IT-/Radiologie-KI-Bedarf, nicht die nationale Netzausbau- und Genehmigungsdynamik – daher sehr weites Intervall.",
+   "V12: Der Netto-Abfluss für importierte KI-Vorleistungen ist gesamtwirtschaftlich schwer zu schätzen; ich sehe nur den Ausschnitt meines eigenen Klinikbudgets für Cloud- und KI-Lizenzen US-amerikanischer Anbieter, was keine verlässliche Hochrechnung auf 83 Millionen Einwohner erlaubt."
+  ],
+  "_modell": "sonnet-5"
+ },
+ {
+  "agent_id": "C06",
+  "archetype": "S6",
+  "estimates": [
+   {
+    "variable": "V1",
+    "point": 2.5,
+    "lo": 0,
+    "hi": 6
+   },
+   {
+    "variable": "V2",
+    "point": 3,
+    "lo": 0,
+    "hi": 7
+   },
+   {
+    "variable": "V3",
+    "point": 9,
+    "lo": 5,
+    "hi": 14
+   },
+   {
+    "variable": "V4",
+    "point": 55,
+    "lo": 35,
+    "hi": 70
+   },
+   {
+    "variable": "V5",
+    "point": -2,
+    "lo": -4.5,
+    "hi": 0.5
+   },
+   {
+    "variable": "V6",
+    "point": 6.5,
+    "lo": 5.8,
+    "hi": 7.8
+   },
+   {
+    "variable": "V7",
+    "point": 43.5,
+    "lo": 42,
+    "hi": 46
+   },
+   {
+    "variable": "V8",
+    "point": 4,
+    "lo": 2,
+    "hi": 6
+   },
+   {
+    "variable": "V9",
+    "point": 16,
+    "lo": 10,
+    "hi": 22
+   },
+   {
+    "variable": "V10",
+    "point": 2,
+    "lo": 1.2,
+    "hi": 3
+   },
+   {
+    "variable": "V11",
+    "point": 12,
+    "lo": 6,
+    "hi": 20
+   },
+   {
+    "variable": "V12",
+    "point": 35,
+    "lo": 15,
+    "hi": 60
+   },
+   {
+    "variable": "V13",
+    "point": 55,
+    "lo": 30,
+    "hi": 75
+   },
+   {
+    "variable": "V14",
+    "point": 55,
+    "lo": 45,
+    "hi": 65
+   }
+  ],
+  "k1": [
+   "c: 55%",
+   "a: 25%",
+   "b: 30%",
+   "d: 30%",
+   "e: 20%",
+   "f: 15%",
+   "g: 20%"
+  ],
+  "k2": "Berufseinsteiger in kognitiven Berufen",
+  "k3": "Compute und Strom",
+  "reasoning": "Aus Einkaufssicht ist Compute für mich ein handelbares Gut, das man dort bezieht, wo Preis und Verfügbarkeit stimmen — für ein deutsches Konzernunternehmen heißt das faktisch: überwiegend über Cloud- und API-Verträge außereuropäischer, meist US-amerikanischer Anbieter, weil europäische Kapazität (nur vier der fünfzig größten Tech-Konzerne sind europäisch) mengenmäßig und preislich nicht mithält. Die ifo-Lohnerwartungen und die US-Substantial-Szenarien stützen eine reale, wenn auch in Deutschland strukturell gedämpfte Substitutionswirkung bei Berufseinsteigern, während die Regierungsposition vom August 2026 und die IAB-Beschäftigungsgewinne in Gesundheit/öffentlichem Dienst zeigen, dass diese Wirkung noch nicht flächendeckend und empirisch belastbar ist. Die für meine Rolle entscheidende Konsequenz liegt aber nicht primär in der Beschäftigung, sondern im Vorleistungsabfluss: steigende, meist dollar-denominierte Lizenz- und Cloud-Kosten fließen als Nettoabfluss ab, ohne dass in gleichem Maß europäische Wertschöpfung oder fiskalischer Zugriff entsteht — das ist der Kern des Souveränitätsbruch-Szenarios.",
+  "uncertain": [
+   "V12 (Netto-Abfluss importierte KI-Vorleistungen): Es gibt keine amtliche Statistik, die KI-spezifische Lizenz-/Cloud-Importe von übriger Digitalwirtschaft trennt — reine Schätzung mit sehr weiter Bandbreite.",
+   "V9 (Industriestrompreis 2030): Der subventionierte Zielpreis von 5 ct/kWh gilt nur 2026–2028 und nur für Carbon-Leakage-Branchen; ob eine Anschlussregelung bis 2030 kommt und wie sich Netzentgelte durch den KI-getriebenen Rechenzentrumsausbau entwickeln, ist offen."
+  ],
+  "falsifier": "Wenn bis 2029/2030 EuroHPC-Gigafactories in relevantem Umfang operativ sind und deutsche Konzerne einen signifikanten, nachweisbaren Anteil ihrer produktiven Inferenz von US-Hyperscaler-Verträgen auf europäisch kontrollierte Infrastruktur verlagern (belegbar an Vertragsvolumina), wäre meine Einschätzung eines dauerhaften Souveränitätsbruchs widerlegt.",
+  "confidence": 0.55,
+  "sources": [
+   "Industriestrompreis 2026: Entwicklung & Preistrends, Vattenfall/etalytics-Aggregation, Stand Januar 2026, https://etalytics.com/de/resources/blog/how-has-the-industrial-electricity-price-in-germany-developed (16 ct/kWh unsubventioniert; 5 ct/kWh EU-genehmigter Subventionspreis 2026-2028 für Carbon-Leakage-Liste, Budget 3,8 Mrd. EUR)",
+   "Rechenzentren in Deutschland: Bis 2030 rund 5 GW mehr Leistung, Bitkom-Daten via hardwarewartung.com, 2026, https://www.hardwarewartung.com/rechenzentren-in-deutschland-bis-2030-rund-5-gw-mehr-leistung/ (KI-Anschlussleistung von 530 MW auf 2.020 MW bis 2030, ca. 40% der Gesamtkapazität)"
+  ],
+  "_modell": "sonnet-5"
+ }
+]
