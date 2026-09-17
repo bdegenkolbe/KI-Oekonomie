@@ -7,6 +7,63 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 17. September 2026 (Lauf 001 vom 17. September 2026) — Version 96.0 → Version 97.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | 11 Kapitel plus Executive Summary vor Kapitel 1; Inhaltsverzeichnis mit 11 Einträgen deckungsgleich mit den Kapitelüberschriften; maschinelle Prüfung auf leere Abschnitte (Überschrift ohne Textkörper vor der nächsten gleich- oder höherrangigen Überschrift): keine |
+| 2.1.2 Nummerierung | OK | Kapitel 1–11 lückenlos und ohne Dopplung; Unterabschnitte je Kapitel lückenlos (1.1–1.3, 2.1–2.3, 3.1–3.5, 4.1–4.5, 5.1–5.4, 6.1–6.4, 7.1–7.3, 8.1–8.7, 9.1–9.5, 10.1–10.3, 11.1–11.5), maschinell gegen die erwartete Folge geprüft. Zähler nachgezählt: fünf Typ-Definitionen in § 2.1, drei Säulen der Deutschland-These, sieben Empfehlungen in § 10.2 (Erstens bis Siebtens). Der neue § 3.3-Absatz nimmt ausdrücklich auf die Fünfzahl Bezug, ohne sie zu verändern |
+| 2.1.3 Querverweise | OK | Maschinelle Auflösung aller `§X.Y`-Verweise gegen die vorhandenen Unterabschnitte: kein ungültiger Verweis. Der einzige scheinbare Treffer `§ 2.4` ist der viermalige Verweis auf `Validierung.md` § 2.4.4 und kein Dokumentverweis. Alle in diesem Lauf neu gesetzten Verweise (§ 1.1, § 2.1, § 3.3, § 3.5, § 4.2, § 4.3, § 5.1, § 5.3, § 5.4, § 8.3, § 9.1, § 9.2) zeigen auf existierende Abschnitte |
+| 2.1.4 Roter Faden | OK | Die etablierte Arbeitsteilung ist eingehalten: § 1.1 trägt den Sachverhalt (Trackerstände und die erstmals ausgelesenen Strukturmerkmale), § 9.2 die tatbestands- und verwaltungsbezogene Folgerung, § 11.5 den Nachweis. Der neue Cluster-A-Beitrag steht vollständig in § 3.3 (Literaturrezeption) und wirkt über je einen Satz mit Querverweis nach § 5.4 — keine Verlagerung von Literaturrezeption in Kapitel 8 |
+| 2.1.5 Formatierung | OK | Maschinell geprüft: keine Zeile mit ungerader Anzahl `**`, keine doppelten Leerzeilen, keine doppelten Trennlinien |
+| 2.2.1 Sachliche Richtigkeit | Abweichung | Ein Bestandsbefund aus dem Vorlauf (Fehler 1): Die Aussage in § 9.2, die Zählwerke veröffentlichten keine Revisionsregel, ist durch den Direktabruf vom 17. September 2026 widerlegt worden, soweit sie *alle* drei Register erfasst. Sämtliche in diesem Lauf neu aufgenommenen Zahlen sind nachgerechnet worden: 644.023 − 629.819 = 14.204 (−2,2 %); 590.566 + 39.253 = 629.819; 604.619 − 590.566 = 14.053 und 39.404 − 39.253 = 151, zusammen 14.204; 123.451 − 123.223 = 228; 3.117 − 3.107 = 10; 210.741 / 260 = 810,5 (ausgewiesen 811); 629.819 + 477.649 = 1.107.468; 66.853 + 47.883 = 114.736; 1.107.468 / 629.819 = 1,76; 123.451 / 66.853 = 1,85; 629.819 − 605.745 = 24.074; 188 / 383 = 49 %. Der 17. September 2026 ist der 260. Tag des Jahres 2026 (kein Schaltjahr), die Erfassungslücke seit dem 30. August 2026 beträgt 18 Tage — beides nachgerechnet |
+| 2.2.2 Redundanzprüfung | OK | Die Zweiteilung der Zählstufen wird in § 1.1 als Sachverhalt und in § 9.2 ausschließlich als abgeleitetes Verhältnis (1,76- beziehungsweise 1,85-Faches) geführt; der Literatureintrag in § 11.5 trägt den Nachweis. Der Growiec-Prettner-Szkróbka-Befund ist einmal ausgeführt (§ 3.3) und in § 5.4 nur als ein Satz mit Querverweis aufgenommen — keine Dopplung der Grundidee des Staatsfonds-/Basiskapital-Gedankens |
+| 2.2.3 Argumentation | OK | Die Trennung der fünf Typen aus § 2.1 ist gewahrt: Der neue § 3.3-Absatz stellt ausdrücklich fest, dass staatlich ausgegebene Berechtigungen für Rechenleistung und Roboter *mengensteuernde* Instrumente sind und sich der Typologie deshalb nicht zuordnen lassen, ohne diese zu verändern. Die Acemoglu- und die Thuemmel-Linie bleiben unvermengt. Der § 9.2-Nachtrag argumentiert durchgehend über die *Anknüpfung* des Steuertatbestands und nicht über das Ausmaß der Verdrängung; dieser Vorbehalt ist ausdrücklich wiederholt |
+| 2.2.4 Ausgewogenheit | OK | Der Korrekturenlog des Zählwerks ist ausdrücklich als Qualitätsmerkmal und nicht als Mangel gewürdigt („Ein Register, das seine Korrekturen offenlegt, ist belastbarer als eines, das es nicht tut"); die Vorlaufaussage wird eingeschränkt statt verteidigt. Beim neuen Literaturbeitrag sind die beiden tragenden Annahmen (Eintritt transformativer KI; Zielausrichtung) und der fehlende Begutachtungsstatus als Einschränkung benannt, ebenso die Abweichung des dort vorgeschlagenen Finanzierungswegs von der Wertschöpfungsabgabe der Deutschland-These |
+| 2.3.1 Tippfehler und Grammatik | OK | Neue Passagen gelesen; keine Auffälligkeiten. Zahlenschreibweise durchgehend deutsch (Punkt als Tausendertrenner, Komma als Dezimaltrenner) |
+| 2.3.2 Terminologie | OK | „Wertschöpfungsabgabe" durchgehend (69 Vorkommen), „Wertschöpfungssteuer" null Vorkommen. „Künstlicher Intelligenz (KI)" bleibt die einmalige Einführung der Abkürzung. Neu eingeführte Fachbegriffe im neuen § 3.3-Absatz sind erläutert: *universal basic capital* mit der deutschen Entsprechung „allgemeines Basiskapital", *transformative* KI als Annahme gekennzeichnet; *European Restructuring Monitor* in § 9.2 als „europäisches Beobachtungsinstrument" umschrieben |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Der einzige neue Fließtext-Beleg (Growiec/Prettner/Szkróbka) hat einen Eintrag in § 11.1 erhalten; die drei Zählwerke sind in § 11.5 fortgeschrieben. Keine im Fließtext genannte Quelle ohne Eintrag, kein neuer Eintrag ohne Fließtextbezug |
+| 2.4.2 Formale Einheitlichkeit | OK | Der neue § 11.1-Eintrag folgt dem APA-nahen Hausformat (Autoren, Datum, kursiver Titel, Preprint-Kennung mit Nummer und Fachklasse, Lizenz, Inhalt, Aufnahmestelle, Belastbarkeit, vollständige URL ohne Kürzungsdienst) |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Der neue Beitrag ist als Preprint ohne Begutachtung gekennzeichnet und durchgängig im Konjunktiv referiert (§ 4.2 `Claude.md`); die Trackerangaben sind unverändert als Selbstauskunft privater, kommerziell betriebener Aggregationen ohne amtlichen Auftrag eingeordnet — geprüft ist, *dass* sie diese Werte ausweisen, nicht deren Vollständigkeit |
+| 2.4.4 URL-Prüfung (Stichprobe) | Abweichung | Stichprobe von 88 der 878 eindeutigen URLs (10,0 %), maschinell abgerufen: 67 mit HTTP 200, 16 mit HTTP 403 und je einmal 202, 406 sowie zwei Zeitüberschreitungen — sämtlich bekannte Zugangssperren gegen automatisierte Abrufe (unter anderem CNBC, Axios, OECD, NVIDIA-Investor-Relations, openai.com) und keine inhaltlichen Ausfälle. Ein echter Ausfall (Fehler 2): der *TechNode*-Beleg im BYD-/Xiao-Di-Eintrag mit HTTP 404 und ohne Archivfassung |
+| 2.4.5 Zitatgenauigkeit | OK | Fünf Kernaussagen gegengeprüft: der Instrumentenkatalog des neuen Beitrags ist im englischen Wortlaut übernommen; die Formulierung *„never sums with it"* zur weit gefassten Trackerkennzahl ist am Direktabruf verifiziert; die Angaben zu Zähldefinition, Korrekturenlog und Abdeckungsgrenzen stammen sämtlich aus dem am 17. September 2026 heruntergeladenen Seitentext; die Bestandszahlen sind gegen den Direktabruf und zusätzlich gegen einen unabhängigen zweiten Abruf desselben Tages abgeglichen; Modellaussagen sind als Modellergebnisse und nicht als Fakten gekennzeichnet |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Die Markierung bei de la Feria et al. 2022 ist unverändert erhalten; in diesem Lauf ist keine Verifikationsmarkierung entfernt worden |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 97.0 an allen vier Stellen identisch: Dokumentkopf, Aktualitätshinweis am Dokumentende, `README.md` (Kopf und Zitiervorschlag) sowie dieser Block. Autor (Björn Degenkolbe) und Organisationszuordnung unverändert; Lizenzhinweis CC BY 4.0 in Dokument und `README.md` vorhanden; Haftungshinweis am Dokumentende erhalten; Hinweis zur Arbeit im Dialog mit Claude/Anthropic in `README.md` erhalten |
+| 2.6 Automatisierte Prüfung | n/a | Das Projekt enthält weiterhin keine dedizierten Prüfskripte. Ersatzweise wurden manuelle und ad hoc maschinelle Stichproben zu Nummerierung, Querverweisauflösung, Zählern, Fettungsbalance, Leerzeilen, leeren Abschnitten und URL-Erreichbarkeit ausgeführt |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|--------|--------|---------|
+| 1 | § 9.2, Nachtrag vom 16. September 2026 | Die Aussage „Verstärkt wird der Befund dadurch, dass die Zählwerke selbst keine Revisionsregel veröffentlichen" ist zu weit gefasst. Der Direktabruf vom 17. September 2026 belegt, dass eines der drei Register einen datierten Korrekturenlog mit Grund und Zeilenkennung je Änderung führt, korrigierte Zeilen in seiner Schnittstelle markiert und einen maschinenlesbaren Statusendpunkt bereitstellt | Mittel |
+| 2 | § 11.5, Sammeleintrag zu BYD / Xiao Di | Der *TechNode*-Beleg antwortet mit HTTP 404; im *Internet Archive* ist keine Momentaufnahme hinterlegt | Gering |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|--------|----------|----------|
+| 1 | Zu weit gefasste Aussage zur fehlenden Revisionsregel | Nach Phase 2 Ziffer 5 des Daily-Update-Prompts *nicht* gelöscht, sondern datiert und präzisiert: Die Aussage des Vorlaufs ist mit dem Zusatz „(Stand 16. September 2026; diese Aussage ist am 17. September 2026 zu präzisieren — siehe den folgenden Nachtrag)" versehen worden; der neue Nachtrag vom 17. September 2026 führt die Präzisierung ausdrücklich unter eigener Zwischenüberschrift und schränkt den Geltungsbereich auf die beiden übrigen Zählwerke ein | Ja |
+| 2 | Toter *TechNode*-Beleg | Prüfvermerk nach § 2.4.4 `Validierung.md` an den Eintrag angefügt (HTTP 404, keine Archivfassung); der Link bleibt nach § 4.5 `Claude.md` als zeitlich frühere Referenz erhalten, und es ist festgehalten, dass der Sachverhalt durch die acht übrigen, am selben Tag erreichbaren Belege desselben Eintrags unabhängig gedeckt ist. Keine Quelle gelöscht | Ja |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte (2.2.1, 2.4.1, 2.4.2, 2.4.4) nach den Bereinigungen erneut durchlaufen: OK
+- Erneute maschinelle Prüfung von Nummerierung, Querverweisauflösung, Zählern, Fettungsbalance, Leerzeilen und leeren Abschnitten: OK
+- Sämtliche Trackerarithmetik nach der Bereinigung erneut nachgerechnet (Summenproben, Differenzen, Tagesrate, Verhältniszahlen): OK
+- Gegenprobe der Leitzahlen über einen zweiten, unabhängigen Direktabruf derselben Seite am selben Tag: OK — identische Werte
+- Automatisierte Skripte (sofern vorhanden): n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (beide Befunde bereinigt; die HTTP-403-Abweisungen der Stichprobe bleiben als Umgebungs- und Anbieterbefund dokumentiert und sind aus dieser Umgebung nicht behebbar, ebenso die fehlende Archivfassung des toten Belegs)
+- Neue Version: **97.0**
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 16. September 2026 (Lauf 001 vom 16. September 2026) — Version 95.0 → Version 96.0
 
 ### Prüfergebnis
