@@ -87,4 +87,4 @@ Drei Bestandteile haben in beiden Läufen belastbar geliefert.
 
 Gemessen: 1,55 USD je Stimmzettel (Opus 5, mit Recherche), 0,46 USD je Prüfung (Sonnet 5). Der Container hat vier CPUs, die Nebenläufigkeit liegt damit bei zwei Agenten. Die Wanduhrzeit skaliert linear mit der Agentenzahl, nicht mit dem Modell — 40 Agenten brauchten 63 Minuten.
 
-Das ist die härteste Randbedingung für jede Diskussionsphase: Eine echte Mehrrunden-Diskussion mit zwanzig Teilnehmern wäre nicht nur teuer, sondern vor allem langsam. Konzept v2 löst das nicht durch Verzicht auf Diskussion, sondern durch ihre Form — schriftliche Kartenzüge auf einer gemeinsamen Tafel statt gesprochener Runden (siehe `11-Konzept-v2.md` § 3).
+Das ist die härteste Randbedingung für jede Diskussionsphase: Eine echte Mehrrunden-Diskussion mit zwanzig Teilnehmern wäre nicht nur teuer, sondern vor allem langsam. Konzept v2 löst das nicht durch Verzicht auf Diskussion, sondern durch ihre Form — schriftliche Kartenzüge auf einer gemeinsamen Tafel statt gesprochener Runden (siehe `11-Konzept-v2.md` § 4) und durch die Verdichtung der Diskussion auf die dreißig strittigsten Rollen (§ 5).
