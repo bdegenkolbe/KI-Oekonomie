@@ -41,7 +41,13 @@ Jede Rolle beantwortet fünf Größen und eine Gegenprobe — **nicht aus Makrop
 | **P4** | Ursachenanteil an **P3**: KI und Automatisierung / Demografie und Erwerbspersonenrückgang / Struktur- und Rechtsreform | drei Prozentwerte, Summe 100 | je 0–100 | je Ursache ein Satz, woran man sie erkennen würde |
 | **P5** | Verbleib des Effizienzgewinns: beim Leistungserbringer / weitergegeben als Preis oder Beitragssatz / abgeflossen als Lizenz-, Geräte- oder Cloudentgelt überwiegend außerhalb Deutschlands / finanziert zusätzliche Leistung im eigenen Feld | vier Prozentwerte, Summe 100 | je 0–100 | der Vertrag oder Abrechnungsweg, über den der jeweilige Anteil läuft |
 
-**P3₀ ist keine sechste Frage, sondern die Gegenprobe zu P4.** Wer den KI-Anteil an der Veränderung mit 60 % beziffert, muss dieselbe Zahl noch einmal treffen, wenn er die Welt ohne KI durchrechnet: Der aus P3 und P3₀ abgeleitete Anteil (P3 − P3₀) ÷ P3 muss zum P4-Wert für KI passen. Weicht beides um mehr als fünfzehn Punkte voneinander ab, ist die Attribution geraten und nicht hergeleitet — und das ist rechnerisch feststellbar, ohne dass jemand die Antwort beurteilen müsste (§ 6, *Attributionskonsistenz*).
+**P3₀ ist keine sechste Frage, sondern die Gegenprobe zu P4.** Wer den KI-Anteil an der Veränderung mit 60 % beziffert, muss dieselbe Zahl noch einmal treffen, wenn er die Welt ohne KI durchrechnet. Der KI-Beitrag ist P3 − P3₀, der Beitrag aller übrigen Ursachen ist P3₀, und der abgeleitete Anteil ist ihr Verhältnis am Gesamteffekt:
+
+> **|P3 − P3₀| ÷ (|P3 − P3₀| + |P3₀|)** muss zum P4-Wert für KI passen, Toleranz fünfzehn Punkte.
+
+Weicht beides stärker ab, ist die Attribution geraten und nicht hergeleitet — rechnerisch feststellbar, ohne dass jemand die Antwort beurteilen müsste (§ 6, *Attributionskonsistenz*).
+
+**Warum nicht der naheliegende Quotient (P3 − P3₀) ÷ P3.** Weil P3 die *Netto*veränderung ist und genau dort nahe null liegt, wo KI-Entlastung und Demografiebedarf sich aufheben — also im interessantesten Fall. Die Mechanikprobe hat das gemessen: Drei von zehn Feldern hatten einen Nenner unter 2,5 Punkten, und der Quotient sprang dort auf −200 bis −541 % (`15-Mechanikprobe.md` § 3). Die Formel oben ist gegen kleine Nenner unempfindlich und traf in denselben drei Feldern auf 0,3 Punkte genau.
 
 Die geschlossene Hemmnisliste zu **P2**: *Recht und Zulassung* · *Refinanzierung und Abrechnung* · *Haftung* · *Personalbindung und Tarif* · *Investitionsfähigkeit* · *Akzeptanz von Patienten oder Beschäftigten* · *Datenverfügbarkeit*. Freitext ist als Begründung erlaubt, nicht als Typ.
 
@@ -154,7 +160,7 @@ Gestrichen gegenüber Version 1: V1, V2, V3, V6, V7, V13, V14. Keine Rolle schä
 
 ### Runde 1b — Validierung
 
-Unverändert aus `06-Validierung.md`, aber auf Kartenebene: Existenz der Quelle, Deckung der Aussage, Mandatstreue, fachliche Plausibilität. Neu hinzu für `pflichtgroesse`-Karten: **Rechenweghaltbarkeit** — der genannte Rechenweg muss den genannten Wert aus der genannten Bezugsgröße reproduzieren. Für `einwand`-Karten: trägt die Rettungsbedingung, oder ist der Zug leer (§ 4.1)? Kleines Modell. Nur Karten mit Status `gueltig` oder `mit-vorbehalt` gehen weiter; zurückgewiesene und Leerzüge bleiben sichtbar.
+Unverändert aus `06-Validierung.md`, aber auf Kartenebene: Existenz der Quelle, Deckung der Aussage, Mandatstreue, fachliche Plausibilität. Neu hinzu für `pflichtgroesse`-Karten: **Rechenweghaltbarkeit** — der genannte Rechenweg muss den genannten Wert aus der genannten Bezugsgröße reproduzieren. Für `einwand`-Karten: trägt die Rettungsbedingung, oder ist der Zug leer (§ 4.1)? Der Prüfauftrag muss dabei den **Pflichtteil vom Freitext trennen**: P1 bis P5 sind von jeder Rolle verbindlich zu beantworten und deshalb nie ein Mandatsbruch, auch wenn sie über das engste Fachgebiet hinausreichen. Ohne diesen Hinweis beanstandet die Prüfinstanz die Pflichtfragen selbst — zweimal geschehen in der Mechanikprobe (`15-Mechanikprobe.md` § 5a). Kleines Modell. Nur Karten mit Status `gueltig` oder `mit-vorbehalt` gehen weiter; zurückgewiesene und Leerzüge bleiben sichtbar.
 
 **Gesetzte Fehler.** Ob die Prüfinstanz zu milde urteilt, war bisher offen (`07-Pilotbericht.md` § 6) — eine Instanz, die alles durchwinkt, ist von einer, die alles prüft, am Ergebnis nicht zu unterscheiden. Deshalb werden **zehn Prozent der vorgelegten Karten vorher maschinell verfälscht**: eine geänderte Ziffer, eine Quelle, die die Aussage nicht deckt, eine Rolle, die außerhalb ihres Mandats spricht. Welche Karten das sind, weiß die Auswertung und nicht die Prüfinstanz. Ihre **Trefferquote auf den gesetzten Fehlern** ist damit eine gemessene Zahl. Liegt sie unter 80 %, ist nicht eine Karte widerlegt, sondern die gesamte Validierung wertlos, und der Lauf bricht ab. Die verfälschten Karten werden nach der Prüfung durch ihre Originale ersetzt; sie gehen in kein inhaltliches Ergebnis ein.
 
@@ -228,7 +234,7 @@ Dazu vier **Gültigkeitsmaße**. Sie sagen nichts über den Inhalt, sondern dar�
 | **Prüfschärfe** | Anteil der maschinell gesetzten Fehler, die die Prüfinstanz gefunden hat (§ 5, Runde 1b) | unter 80 % ist die Validierung wertlos und der Lauf abzubrechen |
 | **Modellabhängigkeit** | mittlere Differenz zwischen den beiden Antworten derselben Rolle auf zwei Modellen, im Verhältnis zum Panel-IQR derselben Größe | über 1 misst die Größe das Modell und wird nicht berichtet |
 | **Gerüstabhängigkeit** | Abstand der Mediane zwischen Gerüst-A- und Gerüst-B-Hälfte, im Verhältnis zum Panel-IQR | über 1 wird die Größe getrennt nach Gerüst berichtet, nie zusammengefasst |
-| **Attributionskonsistenz** | Anteil der Rollen, bei denen (P3 − P3₀) ÷ P3 um höchstens 15 Punkte vom P4-Wert für KI abweicht | unter 80 % ist die Attribution des Panels geraten und als solche zu kennzeichnen |
+| **Attributionskonsistenz** | Anteil der Rollen, bei denen \|P3 − P3₀\| ÷ (\|P3 − P3₀\| + \|P3₀\|) um höchstens 15 Punkte vom P4-Wert für KI abweicht | unter 80 % ist die Attribution des Panels geraten und in den abweichenden Feldern als solche zu kennzeichnen |
 
 Keines dieser Maße lässt sich durch Höflichkeit erzeugen. Alle acht lassen sich aus dem Kartengraphen berechnen, ohne dass eine Instanz sie interpretieren muss. Drei von ihnen — Prüfschärfe, Modellabhängigkeit, Gerüstabhängigkeit — hätten den Fehlschlag des ersten Laufs **während** des Laufs angezeigt statt in der nachträglichen Rohdatenauswertung.
 
@@ -284,7 +290,9 @@ Hochgerechnet aus den gemessenen Stückkosten (1,55 USD je recherchierender Opus
 | Runde 6 — Strategiepapier, mehrstufig | 6 | 20 |
 | **Summe** | **533** | **rund 525** |
 
-**Die Wanduhrzeit ist das eigentliche Problem, nicht das Geld.** Der Container hat vier CPUs, die Nebenläufigkeit liegt damit bei zwei Agenten; das ist eine Eigenschaft der Umgebung und keine des Modells. 533 Aufrufe zu je rund drei Minuten ergeben **rund 13,3 Stunden**. Der Ansatz von drei Minuten gilt gleichförmig für alle Aufrufe und ist konservativ: Die 110 Prüfaufrufe und die zwanzig Kontrollarm-Aufrufe laufen auf einem kleinen Modell und deutlich schneller. Mit der Zwischenspeicherung aus § 8 zerfällt der Lauf in drei Abschnitte von rund 5,8, 4,5 und 3,0 Stunden, die nicht an einem Stück laufen müssen.
+**Die Wanduhrzeit ist das eigentliche Problem, nicht das Geld.** Der Container hat vier CPUs, die Nebenläufigkeit liegt damit bei zwei Agenten; das ist eine Eigenschaft der Umgebung und keine des Modells.
+
+Der frühere Ansatz von drei Minuten je Aufruf ist **gemessen widerlegt**: Die Mechanikprobe brauchte für 57 Aufrufe zwei Stunden und zwei Minuten, also **4,28 Minuten je Aufruf** bei Nebenläufigkeit zwei (`15-Mechanikprobe.md` § 5b). Hochgerechnet ergeben 533 Aufrufe damit **rund 19 Stunden** statt der zuvor angesetzten 13,3. Mit der Zwischenspeicherung aus § 8 zerfällt der Lauf in drei Abschnitte von rund 8,3, 6,4 und 4,3 Stunden, die nicht an einem Stück laufen müssen.
 
 **Was die Gültigkeitsmaße kosten.** Modellkontrollarm, zweites Szenariogerüst und gesetzte Fehler schlagen mit 31 Aufrufen und rund 25 USD zu Buche — fünf Prozent des Laufs. Dafür sind die drei Fragen, an denen der erste Lauf gescheitert ist, nicht mehr offen: ob die Zahlen das Modell messen, ob sie an einer Weltannahme hängen und ob die Prüfinstanz überhaupt prüft. Das ist der billigste Teil dieses Verfahrens und der einzige, der es von einer aufwendig verpackten Modellabfrage unterscheidet.
 
