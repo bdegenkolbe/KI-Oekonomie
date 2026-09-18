@@ -26,12 +26,16 @@
 | **Zwei Szenariogerüste, hälftig zugeteilt** | **geprüft** | Gerüstabhängigkeit 0,22–0,48 × Panel-IQR; alle zehn Rollen widersprachen dem Gerüst und rechneten dagegen |
 | **Gesetzte Fehler in der Validierung** | **geprüft** | 9 von 9 gefunden, dazu 28 ungesetzte Beanstandungen, überwiegend echt |
 | **Disjunkte VZÄ-Zerlegung über hundert Felder** | **nie erstellt** | in der Probe zehn Bezugsgrößen von Hand gesetzt, drei davon von den Rollen mit amtlicher Alternative bestritten |
+| **D, der Durchgriff, als berechnete Pflichtgröße** | **neu, nie als Vorgabe gelaufen** | in der Probe vom Panel selbst konstruiert, Spanne 0,30 bis 0,82; als Vorgabe mit fester Formel ungeprüft |
+| **Zahlenmatrix statt Volltafel (§ 4.3)** | **neu** | die Probe lief faktisch mit einer solchen Matrix und erzeugte daraus die fünf schärfsten Einwände — bei zehn Zeilen, nicht bei hundert |
+| **Status je Karte statt je Rolle** | **neu** | die Probe lief mit Rollenurteil und zeigte damit den Fehler; die Kartenvariante ist ungeprüft |
+| **Wiederaufsetzen über die Lauf-Kennung (§ 8)** | **nie ausgelöst** | Mechanik vorhanden und dokumentiert, aber kein Abbruch provoziert |
 | **Optionenrunde mit Kippbedingung** | **geprüft** | drei Hebel, abweichende Urteile zwischen 30 und 60 %, ein Hebel fünfmal `schadet` |
 | **Die acht Konvergenz- und Gültigkeitsmaße** | **berechnet** | sieben bestanden; **Attributionskonsistenz gerissen** und ihre Formel dabei als fehlerhaft erkannt (`15-Mechanikprobe.md` § 3) |
 | **Zwischenspeicherung, Wiederholung je Agent, Laufprotokoll** | **nie gelaufen** | bisherige Skripte schreiben erst am Ende |
 | Red Team, Synthese-Verifikations-Trennung | nie gelaufen | — |
 
-Die Mechanikprobe vom 18.09.2026 (`15-Mechanikprobe.md`) hat den größten Teil dieser Zeilen abgeräumt: zehn von elf prüfbaren Kriterien bestanden, 57 Aufrufe ohne einen Fehlschlag. Ungeprüft bleiben die Bankkorrektur des Streitindex, die Wiederaufsetzbarkeit und die disjunkte Zerlegung selbst.
+Die Mechanikprobe vom 18.09.2026 (`15-Mechanikprobe.md`) hat den größten Teil dieser Zeilen abgeräumt: zehn von elf prüfbaren Kriterien bestanden, 57 Aufrufe ohne einen Fehlschlag. Sie hat zugleich fünf Mängel am Konzept gefunden, die alle behoben sind — und **vier neue ungeprüfte Bestandteile erzeugt**, weil jede Behebung eine neue Mechanik einführt. Das ist der normale Preis einer Korrektur und der Grund, warum die Vollfassung der Probe mit achtzehn Rollen weiterhin vor Stufe 2 steht.
 
 ## 2. Das Risiko beim Sprung auf 110 Agenten
 
@@ -53,7 +57,7 @@ Das inhaltliche Risiko ist dadurch anders verteilt als vorher. Bisher galt: Läu
 
 ### Stufe 1 — Mechanikprobe (vor allem anderen)
 
-**Zuschnitt:** zwei Rechercheure, beide Szenariogerüste in verkürzter Form, eine Bezugsgrößen-Zerlegung — und **achtzehn Rollen aus drei Bänken zu je sechs**: Bank A (stationäre Versorgung), Bank D (Kostenträger und Selbstverwaltung), Bank J (Gesamtwirtschaft und Fiskus). Alle Phasen einmal: Eigenrecherche mit den sechs Pflichtgrößen, Validierung mit gesetzten Fehlern, Streitauswahl (neun von achtzehn), Gruppendiskussion in drei Gruppen zu je drei Rollen aus je einer Bank, zweite Pflichtgrößen-Erhebung, Optionenrunde mit drei Hebeln. Zwei der achtzehn Rollen laufen zusätzlich auf einem zweiten Modell.
+**Zuschnitt:** zwei Rechercheure, beide Szenariogerüste in verkürzter Form, eine Bezugsgrößen-Zerlegung — und **achtzehn Rollen aus drei Bänken zu je sechs**: Bank A (stationäre Versorgung), Bank D (Kostenträger und Selbstverwaltung), Bank J (Gesamtwirtschaft und Fiskus). Alle Phasen einmal: Eigenrecherche mit den sechs Pflichtgrößen, Validierung mit gesetzten Fehlern **und kartenweisem Status**, Streitauswahl einschließlich D, Gruppendiskussion in drei Gruppen zu je drei Rollen aus je einer Bank **mit der Zahlenmatrix nach § 4.3**, zweite Pflichtgrößen-Erhebung, Optionenrunde mit drei Hebeln. Zwei der achtzehn Rollen laufen zusätzlich auf einem zweiten Modell. Nach Runde 2 wird der Lauf **absichtlich abgebrochen und neu aufgesetzt**, um § 8 zu prüfen.
 
 **Aufwand:** 110 Aufrufe, **rund 105 USD, rund 3,9 Stunden** (Zeit nach der in der Probe gemessenen Rate von 4,28 Minuten je Aufruf).
 
@@ -61,7 +65,7 @@ Das inhaltliche Risiko ist dadurch anders verteilt als vorher. Bisher galt: Läu
 
 Der Zuschnitt ist auf Messbarkeit der Mechanik optimiert, nicht auf inhaltliche Breite; eine Arbeitnehmerperspektive fehlt. Die inhaltlichen Ergebnisse der Probe werden **verworfen** und gehen in kein Papier ein.
 
-**Vorab festgelegte Abbruchkriterien.** Jede Größe wird nach dem Lauf aus der Tafel berechnet, nicht beurteilt:
+**Sechzehn vorab festgelegte Abbruchkriterien.** Jede Größe wird nach dem Lauf aus der Tafel berechnet, nicht beurteilt. Die drei letzten sind erst durch die Zehnerprobe entstanden — sie prüfen die Mechanik, mit der deren Befunde behoben wurden:
 
 | Kriterium | Schwelle | Was es prüft |
 |---|---|---|
@@ -78,8 +82,11 @@ Der Zuschnitt ist auf Messbarkeit der Mechanik optimiert, nicht auf inhaltliche 
 | **Schemafestigkeit** | 100 % der Karten valide gegen das Kartenschema, Einheiten und Anteilssummen inbegriffen | ob die Tafel ohne Nacharbeit auswertbar bleibt |
 | **Adressierung** | 100 % der Einwände, Bedingungen, Bewertungen und Dissens-Karten tragen einen gültigen Bezug | ob der Kartengraph zusammenhängt |
 | **Wiederaufsetzbarkeit** | ein absichtlicher Abbruch nach Runde 2 und ein Neustart überspringen alle erfolgreichen Aufrufe und kosten nichts doppelt | ob § 8 des Konzepts trägt |
+| **Kartenweiser Filter** | keine Rolle verliert mehr als drei ihrer neun Karten; keine verliert alle sechs Pflichtgrößen | ob der Filter aus § 5 Runde 1b das Panel erhält statt es zu halbieren |
+| **Matrixtauglichkeit** | ≥ 60 % der Einwände richten sich gegen Karten, die der Angreifer nur als Zahlenzeile gesehen hat | ob die Zahlenmatrix als Angriffsfläche trägt — in der Zehnerprobe taten es 100 %, aber bei zehn Zeilen |
+| **Durchgriffsspreizung** | D streut über die achtzehn Rollen um mindestens den Faktor zwei | ob D als eigene Größe etwas misst oder nur P1 bis P3 wiederholt |
 
-**Was welcher Bruch bedeutet.** Reißt die **Prüfschärfe**, ist der Lauf sofort zu beenden — eine Instanz, die gesetzte Fehler nicht findet, macht jede Quellenangabe des Verfahrens wertlos. Reißen **Divergenzerhalt**, **Einwandhaltbarkeit** oder **Rechenweghaltbarkeit**, ist das Verfahren in dieser Form widerlegt. Reißt die **Modellabhängigkeit** bei mehr als zwei Größen, misst das Panel das Modell, und es hilft nur ein anderes Instrument, kein größerer Lauf. **Gerüstabhängigkeit** ist kein Abbruch, sondern eine Berichtsregel: Die betroffene Größe wird getrennt nach Gerüst berichtet. **Auswahlwirksamkeit** und **Optionenspreizung** entscheiden über den Verbleib je eines Bausteins. Die restlichen vier sind reparierbar, ohne das Konzept zu verwerfen.
+**Was welcher Bruch bedeutet.** Reißt die **Prüfschärfe**, ist der Lauf sofort zu beenden — eine Instanz, die gesetzte Fehler nicht findet, macht jede Quellenangabe des Verfahrens wertlos. Reißen **Divergenzerhalt**, **Einwandhaltbarkeit** oder **Rechenweghaltbarkeit**, ist das Verfahren in dieser Form widerlegt. Reißt der **kartenweise Filter** oder die **Matrixtauglichkeit**, ist der Lauf mit hundert Rollen nicht durchführbar — beide sind erst durch die Zehnerprobe überhaupt als Fragen sichtbar geworden. Reißt die **Modellabhängigkeit** bei mehr als zwei Größen, misst das Panel das Modell, und es hilft nur ein anderes Instrument, kein größerer Lauf. **Gerüstabhängigkeit** ist kein Abbruch, sondern eine Berichtsregel: Die betroffene Größe wird getrennt nach Gerüst berichtet. **Auswahlwirksamkeit** und **Optionenspreizung** entscheiden über den Verbleib je eines Bausteins. Die restlichen vier sind reparierbar, ohne das Konzept zu verwerfen.
 
 ### Stufe 2 — Voller Lauf
 

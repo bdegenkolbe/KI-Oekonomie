@@ -41,6 +41,16 @@ Jede Rolle beantwortet fünf Größen und eine Gegenprobe — **nicht aus Makrop
 | **P4** | Ursachenanteil an **P3**: KI und Automatisierung / Demografie und Erwerbspersonenrückgang / Struktur- und Rechtsreform | drei Prozentwerte, Summe 100 | je 0–100 | je Ursache ein Satz, woran man sie erkennen würde |
 | **P5** | Verbleib des Effizienzgewinns: beim Leistungserbringer / weitergegeben als Preis oder Beitragssatz / abgeflossen als Lizenz-, Geräte- oder Cloudentgelt überwiegend außerhalb Deutschlands / finanziert zusätzliche Leistung im eigenen Feld | vier Prozentwerte, Summe 100 | je 0–100 | der Vertrag oder Abrechnungsweg, über den der jeweilige Anteil läuft |
 
+**Aus P1, P2, P3 und P3₀ wird eine weitere Größe berechnet, nicht gefragt.**
+
+> **D — Durchgriff** = |P3 − P3₀| ÷ (P1 × P2 ÷ 100)
+
+Im Zähler steht die Veränderung des Personalbedarfs, die der KI zuzurechnen ist, in Prozentpunkten der Bezugsgruppe. Im Nenner steht die bis 2031 tatsächlich eingesparte Arbeitszeit, ebenfalls in Prozentpunkten derselben Bezugsgruppe. D ist damit dimensionslos und sagt, wie viel von der gesparten Stunde beim Stellenbedarf ankommt. Erlaubter Bereich 0 bis 1,5; oberhalb von 1,0 ist eine Begründung verpflichtend, weil dann mehr Bedarf verschwindet als Arbeitszeit.
+
+**D wird gerechnet, nicht geschätzt** — die Rolle kann ihn also nicht direkt setzen, und er kann nicht im Widerspruch zu ihren eigenen Zahlen stehen. Er erscheint in der Zahlenmatrix (§ 4.3), die alle sehen, und ist dort angreifbar wie jede andere Karte.
+
+**Warum D nicht fehlen darf.** In der Mechanikprobe hat das Panel diese Größe von sich aus erfunden, weil es sie brauchte: Fünf der zehn Einwände und die Mehrzahl der Dissenspunkte drehten sich um nichts anderes. Die gemessene Spanne reichte von 0,30 (Landhausarztpraxis, Intensivpflege) bis 0,82 (Medizinische Fachangestellte) — Faktor drei zwischen den Feldern. Und weil die Formel nicht festgelegt war, rechneten die Diskutanten teils mit |P3|, teils mit dem KI-Anteil und kamen für dieselbe Rolle auf 0,53 und auf 0,62; dieser Definitionsstreit hat einen halben Dissenspunkt gekostet (`15-Mechanikprobe.md` § 4). D ist zugleich das Bindeglied zwischen dem Arbeitszeitteil (P1, P2) und dem Stellenteil (P3) — also die Stelle, an der das Strategiepapier steht oder fällt.
+
 **P3₀ ist keine sechste Frage, sondern die Gegenprobe zu P4.** Wer den KI-Anteil an der Veränderung mit 60 % beziffert, muss dieselbe Zahl noch einmal treffen, wenn er die Welt ohne KI durchrechnet. Der KI-Beitrag ist P3 − P3₀, der Beitrag aller übrigen Ursachen ist P3₀, und der abgeleitete Anteil ist ihr Verhältnis am Gesamteffekt:
 
 > **|P3 − P3₀| ÷ (|P3 − P3₀| + |P3₀|)** muss zum P4-Wert für KI passen, Toleranz fünfzehn Punkte.
@@ -120,7 +130,26 @@ Eine `pflichtgroesse`-Karte trägt zusätzlich:
 
 `status` wird ausschließlich von der Validierungsinstanz gesetzt: `gueltig` · `mit-vorbehalt` · `zurueckgewiesen` · `leerzug`. Zurückgewiesene Karten werden **nicht gelöscht**, sondern bleiben mit Begründung auf der Tafel und werden im Dashboard ausgegraut. Eine Tafel, von der Fehler verschwinden, ist kein Protokoll.
 
-### 4.3 Einheitenzwang
+**Der Status gehört zur Karte, nicht zur Rolle.** Die Prüfinstanz urteilt je Karte und gibt kein Gesamturteil über einen Kartensatz ab. Das ist keine Feinheit: In der Mechanikprobe vergab eine Instanz, die je Rollensatz urteilte, **sechsmal »zurückgewiesen«, viermal »mit Vorbehalt« und kein einziges Mal »gültig«** — jede der zehn Rollen hatte mindestens zwei Beanstandungen, meist berechtigte, meist an einer einzelnen Quelle. Wer daraus einen Filter auf Rollenebene baut, verliert die Hälfte des Panels, ohne dass eine einzige Pflichtgröße widerlegt wäre (`15-Mechanikprobe.md` § 5c). Eine tote Quelle in Befund 1 darf Position, Rechenweg und Pflichtgrößen nicht mitreißen.
+
+### 4.3 Wer welchen Ausschnitt sieht
+
+Die Tafel ist bei hundert Rollen zu groß für jeden Auftrag. Gemessen an der Mechanikprobe: Zehn Rollen erzeugten 167 KB Runde-1-Antworten, hundert erzeugen rund **1.675 KB**; allein Positionen und Befunde sind rund 432 KB, allein die Rechenwege rund 563 KB. Ein Auftrag, der »die Tafel« enthält, ist nicht ausführbar.
+
+Die Lösung ist keine Kürzung der Karten, sondern eine **Zahlenmatrix**: eine Zeile je Rolle mit ID, Feld, Bank, Gerüst, P1, P2, P1 × P2, P3 in Prozent und in VZÄ, P3₀, **D**, P4-KI und P5-Abfluss. Hundert Zeilen sind rund 12 KB. Sie trägt alles, was zum Vergleichen und Angreifen nötig ist, und nichts, was nur zum Lesen schön wäre.
+
+| Runde | Wer | sieht |
+|---|---|---|
+| 1 | jede Rolle | nichts von den anderen — nur Faktenblätter, eigene Bezugsgröße, zugeteiltes Gerüst |
+| 1b | Prüfinstanz | genau einen Kartensatz, sonst nichts |
+| 2 | Gruppenmitglied und Gruppenleitung | die Karten der eigenen sechs **vollständig**, dazu die Zahlenmatrix aller hundert und die Streitfrage |
+| 3 | jede Rolle | die eigenen Karten, die Einwände gegen sie, alle Dissenspunkte, die Zahlenmatrix |
+| 4 | jede Rolle | die Hebelkarten und die Zahlenmatrix |
+| 5 | Red Team, Synthese, Verifikation | Volltexte, aber je Aufruf höchstens eine Bank; die Zusammenführung erfolgt über mehrere Aufrufe |
+
+Volltexte fremder Karten außerhalb der eigenen Gruppe stehen niemandem in Runde 2 bis 4 zur Verfügung. Das ist eine Einschränkung und wird als solche im Dashboard ausgewiesen: Ein Einwand gegen eine Karte, die der Angreifer nur als Zahlenzeile gesehen hat, ist etwas anderes als einer gegen den Volltext. Die Mechanikprobe zeigt allerdings, dass die Zahlenzeile trägt — dort entstanden die fünf schärfsten Einwände genau aus dem Vergleich von P1 × P2 gegen P3, also aus Zahlen, nicht aus Prosa.
+
+### 4.4 Einheitenzwang
 
 Jede Karte mit Zahlenwert trägt `einheit` als Aufzählungswert (`prozent` · `prozent_von_p1` · `prozent_vzae` · `prozentpunkte` · `jahre` · `eur_mrd` · `vzae` · `jahreszahl`) und einen erlaubten Wertebereich. Das behebt den Skalenbruch der ersten Fassung, bei dem achtzehn Agenten auf 0–1 und zwei auf 0–100 antworteten und die Auswertung eine Konvention raten musste. Anteilsvektoren (P4, P5) werden auf Summe 100 geprüft und bei Abweichung über drei Punkten zurückgewiesen, nicht normiert.
 
@@ -133,6 +162,13 @@ Zehn Rechercheure ohne Stimmrecht liefern je ein Faktenblatt (`14-Roster-2031.md
 **(0a) Bezugsgrößen als disjunkte Zerlegung.** R03 liefert für jedes der hundert Felder die Bezugsgruppe in Vollkräften mit Fundstelle — und zwar so, dass **jede Vollkraft genau einem Feld zugeordnet ist**. Das ist mehr als eine Zahlenliste: Wo zwei Rollen über dieselben Menschen sprechen (der Pflegedirektor in Bank A und die Intensivpflegekraft in Bank C, die Hausärztin in Bank B und der Verband in Bank F), weist R03 die Vollkräfte **einem** Feld als `primaer` zu und dem anderen als `geteilt mit <Feld>`. In die addierte Gesamtsumme gehen nur `primaer`-Felder ein; `geteilt`-Felder liefern ihr Urteil, aber kein Gewicht. Wo keine amtliche Zahl existiert, gilt `unbekannt`.
 
 Ausgewiesen wird zu jeder Summe dreierlei: wie viele Felder sie deckt, wie viele Vollkräfte das sind — und **der Rest**, also die Vollkräfte im deutschen Gesundheitswesen, die kein Feld dieses Rosters abdeckt. Ohne diese drei Angaben ist eine addierte VZÄ-Zahl eine Behauptung über ein Ganzes, von dem niemand weiß, wie viel davon gemessen wurde.
+
+**Wenn eine Rolle ihren Nenner bestreitet.** Das ist kein Randfall: In der Mechanikprobe haben drei von zehn Rollen die vorgegebene VZÄ-Zahl zurückgewiesen und die amtliche Alternative benannt, eine davon mit 18 % Abweichung. Ohne Verfahren rechnet die Rolle dann gegen einen Nenner, den sie für falsch hält, und der Streit verschwindet in einer Zahl, die die Zentraltabelle des Papiers trägt. Deshalb gilt:
+
+1. Die Rolle legt eine `bedingung`-Karte auf die Bezugsgröße, mit Gegenwert und Fundstelle.
+2. Sie rechnet P3 **gegen beide Werte** — der vorgegebene bleibt der Hauptwert, der eigene steht daneben.
+3. Die addierte Gesamtsumme wird in diesen Feldern als **Spanne** ausgewiesen, nicht als Zahl.
+4. R03 prüft die Gegenwerte nach dem Lauf einmal gesammelt; wo die Rolle recht hat, wird die Zerlegung für den nächsten Lauf korrigiert, nicht der laufende nachgerechnet.
 
 **(0b) Zwei Szenariogerüste statt einem.** R08 legt mit R01 und R05 **zwei** ausdrücklich gegensätzliche Rahmen für 2031 fest — je mit BIP-Pfad, Erwerbspersonenpotenzial, Beitragssatzkorridor, Tarifentwicklung, Zinsniveau und dem Stand von EU AI Act, MDR, EHDS und Krankenhausreform:
 
@@ -160,7 +196,9 @@ Gestrichen gegenüber Version 1: V1, V2, V3, V6, V7, V13, V14. Keine Rolle schä
 
 ### Runde 1b — Validierung
 
-Unverändert aus `06-Validierung.md`, aber auf Kartenebene: Existenz der Quelle, Deckung der Aussage, Mandatstreue, fachliche Plausibilität. Neu hinzu für `pflichtgroesse`-Karten: **Rechenweghaltbarkeit** — der genannte Rechenweg muss den genannten Wert aus der genannten Bezugsgröße reproduzieren. Für `einwand`-Karten: trägt die Rettungsbedingung, oder ist der Zug leer (§ 4.1)? Der Prüfauftrag muss dabei den **Pflichtteil vom Freitext trennen**: P1 bis P5 sind von jeder Rolle verbindlich zu beantworten und deshalb nie ein Mandatsbruch, auch wenn sie über das engste Fachgebiet hinausreichen. Ohne diesen Hinweis beanstandet die Prüfinstanz die Pflichtfragen selbst — zweimal geschehen in der Mechanikprobe (`15-Mechanikprobe.md` § 5a). Kleines Modell. Nur Karten mit Status `gueltig` oder `mit-vorbehalt` gehen weiter; zurückgewiesene und Leerzüge bleiben sichtbar.
+Unverändert aus `06-Validierung.md`, aber auf Kartenebene: Existenz der Quelle, Deckung der Aussage, Mandatstreue, fachliche Plausibilität. Neu hinzu für `pflichtgroesse`-Karten: **Rechenweghaltbarkeit** — der genannte Rechenweg muss den genannten Wert aus der genannten Bezugsgröße reproduzieren. Für `einwand`-Karten: trägt die Rettungsbedingung, oder ist der Zug leer (§ 4.1)? Der Prüfauftrag muss dabei den **Pflichtteil vom Freitext trennen**: P1 bis P5 sind von jeder Rolle verbindlich zu beantworten und deshalb nie ein Mandatsbruch, auch wenn sie über das engste Fachgebiet hinausreichen. Ohne diesen Hinweis beanstandet die Prüfinstanz die Pflichtfragen selbst — zweimal geschehen in der Mechanikprobe (`15-Mechanikprobe.md` § 5a). Kleines Modell. **Gefiltert wird je Karte, nie je Rolle:** Zurückgewiesene Einzelkarten scheiden aus der Weiterverarbeitung aus, alle übrigen Karten derselben Rolle bleiben im Verfahren, und die Rolle selbst bleibt in jedem Fall stimmberechtigt. Zurückgewiesene Karten und Leerzüge bleiben auf der Tafel sichtbar.
+
+Eine Rolle fällt nur dann ganz aus der Auswertung, wenn **alle sechs Pflichtgrößen** zurückgewiesen sind — dann fehlt ihr die gemeinsame Sprache. Wie oft das eintritt, ist auszuweisen; in der Mechanikprobe wäre es null von zehn Mal gewesen.
 
 **Gesetzte Fehler.** Ob die Prüfinstanz zu milde urteilt, war bisher offen (`07-Pilotbericht.md` § 6) — eine Instanz, die alles durchwinkt, ist von einer, die alles prüft, am Ergebnis nicht zu unterscheiden. Deshalb werden **zehn Prozent der vorgelegten Karten vorher maschinell verfälscht**: eine geänderte Ziffer, eine Quelle, die die Aussage nicht deckt, eine Rolle, die außerhalb ihres Mandats spricht. Welche Karten das sind, weiß die Auswertung und nicht die Prüfinstanz. Ihre **Trefferquote auf den gesetzten Fehlern** ist damit eine gemessene Zahl. Liegt sie unter 80 %, ist nicht eine Karte widerlegt, sondern die gesamte Validierung wertlos, und der Lauf bricht ab. Die verfälschten Karten werden nach der Prüfung durch ihre Originale ersetzt; sie gehen in kein inhaltliches Ergebnis ein.
 
@@ -168,13 +206,15 @@ Unverändert aus `06-Validierung.md`, aber auf Kartenebene: Existenz der Quelle,
 
 Nicht alle hundert diskutieren. Wer nahe am Median liegt, hat der Tafel in einer Diskussion wenig hinzuzufügen und erzeugt vor allem Karten desselben Typs. Ausgewählt werden **dreißig Rollen nach einer rechnerischen Regel, nicht nach Urteil**:
 
-> Für P1, P2 und P3 wird gegen den Median der **eigenen Bank** gerechnet: *d* = |*x* − Median(*g*, Bank)| ÷ max(IQR(*g*, Bank), Mindestspreizung(*g*)).
+> Für P1, P2, P3 und **D** wird gegen den Median der **eigenen Bank** gerechnet: *d* = |*x* − Median(*g*, Bank)| ÷ max(IQR(*g*, Bank), Mindestspreizung(*g*)).
 > Für P4 und P5 wird gegen den Median des **gesamten Panels** gerechnet, und an die Stelle des Betrags tritt die halbe Summe der absoluten Abweichungen vom Medianvektor.
-> Der **Streitindex** einer Rolle ist die Summe dieser fünf Werte. P3₀ geht nicht ein: Es ist die Gegenprobe zu P4 und keine eigene Streitfrage.
+> Der **Streitindex** einer Rolle ist die Summe dieser sechs Werte. P3₀ geht nicht ein: Es ist die Gegenprobe zu P4 und keine eigene Streitfrage.
+
+D geht ein, obwohl es aus P1, P2, P3 und P3₀ berechnet wird — das ist keine Doppelzählung. Eine Rolle kann bei allen vier Ausgangsgrößen nahe am Median liegen und trotzdem einen ungewöhnlichen Durchgriff haben, weil D ein Verhältnis ist. Und der Durchgriff ist nach der Mechanikprobe genau das, worüber gestritten wird.
 
 Die Trennung ist nicht kosmetisch. P1 bis P3 sind feldabhängig: Dass die Radiologie einen höheren automatisierbaren Arbeitszeitanteil nennt als die Intensivpflege, ist kein Streit, sondern der Unterschied der beiden Felder. Gegen den Panelmedian gemessen kämen genau die Rollen in die Diskussion, deren Feld ungewöhnlich ist — nicht die, deren *Urteil* ungewöhnlich ist. Innerhalb der Bank fällt der Feldeffekt weitgehend heraus, und übrig bleibt die Abweichung im Urteil. P4 und P5 dagegen sind Mechanismusfragen: Wie viel der Veränderung der KI zuzurechnen ist und wohin der Gewinn fließt, ist zwischen den Feldern unmittelbar vergleichbar, und dort ist die Abweichung vom Gesamtpanel genau das Gesuchte.
 
-Die Mindestspreizung je Größe (P1, P2: 5 Punkte; P3: 3 Punkte; P4, P5: 8 Punkte) ist vorab festgelegt und verhindert die Division durch null, in die der erste Lauf gelaufen wäre — dort war der IQR einer Variablen exakt null (`10-Instrumentenkritik.md` § 1). Bänke mit weniger als sechs Rollen (M, N) haben keinen belastbaren Bankmedian; für sie gilt der Median der nächstgrößeren verwandten Bank, vorab festgelegt: M rechnet gegen K, N gegen J.
+Die Mindestspreizung je Größe (P1, P2: 5 Punkte; P3: 3 Punkte; D: 0,10; P4, P5: 8 Punkte) ist vorab festgelegt und verhindert die Division durch null, in die der erste Lauf gelaufen wäre — dort war der IQR einer Variablen exakt null (`10-Instrumentenkritik.md` § 1). Bänke mit weniger als sechs Rollen (M, N) haben keinen belastbaren Bankmedian; für sie gilt der Median der nächstgrößeren verwandten Bank, vorab festgelegt: M rechnet gegen K, N gegen J.
 
 Besetzt werden zuerst **vierzehn Plätze, einer je Bank** (die Rolle mit dem höchsten Streitindex ihrer Bank), danach die **sechzehn** verbleibenden nach Streitindex über alle Bänke. Die Bankquote ist notwendig, weil sonst zwei streitfreudige Bänke die ganze Diskussion stellen und das Verfahren genau die feldübergreifende Deckung verliert, deretwegen es gebaut ist.
 
@@ -186,7 +226,7 @@ Jede Gruppe schließt mit einem `dissens`-Eintrag je offenem Streitpunkt, der dr
 
 ### Runde 3 — Pflichtgrößen zum zweiten Mal
 
-Alle hundert Rollen sehen jetzt sämtliche Dissens-Einträge, die Einwände gegen ihre eigenen Karten und die Streitfragen der fünf Gruppen. Jede Rolle liefert in einem Aufruf:
+Alle hundert Rollen sehen jetzt sämtliche Dissens-Einträge, die Einwände gegen ihre eigenen Karten, die Streitfragen der fünf Gruppen und die Zahlenmatrix (§ 4.3) — Volltexte fremder Karten nicht. Jede Rolle liefert in einem Aufruf:
 
 1. die sechs Pflichtgrößen **erneut**, mit Rechenweg — Änderung erlaubt, Begründung der Änderung verpflichtend, Nichtänderung ebenfalls zu begründen; das zugeteilte Szenariogerüst bleibt dasselbe wie in Runde 1, sonst wäre die Differenz nicht die Wirkung der Diskussion
 2. eine Antwort auf jeden Einwand, der gegen ihre Karten gelegt wurde (`einwand` oder `bedingung`)
@@ -196,7 +236,7 @@ Ein eigenes Plenum entfällt. Es hätte dasselbe geleistet und hundert Aufrufe z
 
 Eine `beschluss`-Karte entsteht am Ende dieser Runde, wenn eine Position keinen unbeantworteten Einwand mehr trägt. Sie führt das Stimmenverhältnis und die Gegenstimmen namentlich. Eine Position, die nie angegriffen wurde, wird **nicht** zum Beschluss — sie bleibt Position, und das Dashboard weist sie als ungeprüft aus.
 
-Gezählt wird pro Pflichtgröße: Median, Interquartilsabstand, **gewichtet nach Bezugsgruppe und ungewichtet nebeneinander** — und zwar für beide Erhebungen getrennt, je Bank und über das ganze Panel. Zusätzlich ausgewiesen wird das Produkt P1 × P2, der bis 2031 tatsächlich automatisierte Arbeitszeitanteil; es ist die Größe, die den Vergleich mit externen Automatisierungsstudien erlaubt, und es ist nicht dasselbe wie P3, weil entfallende Arbeitszeit und entfallender Personalbedarf auseinanderfallen können. P3 wird zusätzlich über alle Felder mit bekannter Bezugsgröße zu einer Summe in Vollkräften aggregiert, mit ausgewiesener Abdeckung («diese Summe deckt *n* von 100 Feldern und *m* Vollkräfte»).
+Gezählt wird pro Pflichtgröße: Median, Interquartilsabstand, **gewichtet nach Bezugsgruppe und ungewichtet nebeneinander** — und zwar für beide Erhebungen getrennt, je Bank und über das ganze Panel. Zusätzlich ausgewiesen werden das Produkt P1 × P2, der bis 2031 tatsächlich automatisierte Arbeitszeitanteil, und der Durchgriff **D**, der beide Teile verbindet. P1 × P2 erlaubt den Vergleich mit externen Automatisierungsstudien; D erklärt, warum daraus kein Stellenabbau folgen muss. Beide sind für Runde 1 und Runde 3 getrennt auszuweisen — eine Bewegung in D ist die aussagekräftigste Einzelbewegung des ganzen Verfahrens, weil sie genau die Größe betrifft, die die Diskussion trägt. P3 wird zusätzlich über alle Felder mit bekannter Bezugsgröße zu einer Summe in Vollkräften aggregiert, mit ausgewiesener Abdeckung («diese Summe deckt *n* von 100 Feldern und *m* Vollkräfte»).
 
 ### Runde 4 — Optionenrunde
 
@@ -246,6 +286,8 @@ Eine eigenständige HTML-Seite nach `Formatvorlage.md`, ohne externe Abhängigke
 
 **(2) Pflichtgrößen.** Je Größe ein Punktdiagramm der hundert Einzelwerte mit 80-%-Intervall, **Runde 1 und Runde 3 nebeneinander**, gewichtet und ungewichtet. Jeder Punkt klickbar auf den Rechenweg. Kein Balkendiagramm von Mittelwerten — die Spreizung ist der Befund (`10-Instrumentenkritik.md` § 2).
 
+**(2b) Durchgriff.** Die Zahlenmatrix aus § 4.3 als sortierbare Tabelle, dazu P1 × P2 gegen P3 als Streudiagramm mit D als Steigung. Wer wissen will, warum ein Feld viel Arbeitszeit spart und trotzdem keine Stellen verliert, liest es hier ab — und sieht sofort, welche Felder aus der Reihe fallen.
+
 **(3) Streit.** Die Dissenskarte: je Streitpunkt die beiden Positionen nebeneinander, die Bänke, die Entscheidungsgröße. Dazu die Streitindex-Rangliste, aus der die dreißig Diskutierenden hervorgegangen sind — die Auswahl ist damit nachprüfbar und nicht behauptet.
 
 **(4) Hebel.** Je Hebel eine Matrix aus hundert Feldern × drei Urteilen, Kippbedingungen als aufklappbare Liste. Sortierbar nach Anteil `schadet`, nicht nach Zustimmung.
@@ -260,13 +302,21 @@ Durchgehend sichtbar bleibt die Kennzeichnung nach § 10: Agenten sind Sprachmod
 
 ## 8. Lauffähigkeit
 
-Ein Lauf dieser Größe dauert länger als eine Sitzung (§ 9). Drei Anforderungen an das Workflow-Skript sind deshalb keine Option:
+Ein Lauf dieser Größe dauert länger als eine Sitzung (§ 9). Die Mechanikprobe hat gezeigt, welche Mechanik dafür tatsächlich zur Verfügung steht — und welche nicht.
 
-**Zwischenspeicherung je Phase.** Nach jeder Runde wird der vollständige Zwischenstand nach `rohdaten/lauf/<phase>.json` geschrieben, nicht erst am Ende. Die bisherigen Läufe schreiben am Ende; ein Abbruch nach elf Stunden verlöre alles.
+**Was es nicht gibt.** Ein Workflow-Skript hat **keinen Dateisystemzugriff**. Die frühere Fassung dieses Abschnitts verlangte, nach jeder Runde den Zwischenstand nach `rohdaten/lauf/<phase>.json` zu schreiben und im Laufprotokoll die Kosten je Aufruf zu führen. Beides ist aus dem Skript heraus nicht möglich. Die Anforderung stand da, ohne dass irgendjemand sie hätte erfüllen können.
 
-**Wiederholung je Agent.** Ein fehlgeschlagener Aufruf wird zweimal wiederholt; danach wird für diese Rolle ein Eintrag `status: luecke` mit Fehlertext geschrieben und der Lauf läuft weiter. Eine ausgefallene Rolle darf nicht neunundneunzig andere kosten — aber sie muss im Ergebnis sichtbar sein und aus allen Kennzahlen ausgewiesen herausfallen.
+**Was es gibt, und was die Probe bestätigt hat:**
 
-**Laufprotokoll.** `rohdaten/lauf/manifest.json` führt je Aufruf Phase, Rolle, Status, Modell, Kosten und den Hash der Aufgabenstellung. Ein Wiederaufsetzen überspringt alles, was mit unverändertem Hash bereits erfolgreich war. Das macht den Lauf über mehrere Sitzungen fortsetzbar und die Kostenangaben in § 9 nachprüfbar statt geschätzt.
+**Zwischenspeicherung je Aufruf statt je Phase.** Die Umgebung schreibt für jeden abgeschlossenen Agenten eine Zeile mit seiner vollständigen Rückgabe in ein Laufjournal. Das ist feiner als geplant: Verloren geht höchstens der eine Aufruf, der gerade lief, nicht eine ganze Phase.
+
+**Wiederaufsetzen über die Lauf-Kennung.** Ein Neustart mit derselben Kennung liefert jeden Aufruf, dessen Auftrag unverändert ist, aus dem Journal zurück und führt nur Neues oder Geändertes wirklich aus. Das trägt zugleich die Nachbearbeitung: Wer nur die Auswertung am Ende ändern will, ändert das Skript und lässt die 533 Agenten aus dem Zwischenspeicher laufen. Damit ist der Lauf über mehrere Sitzungen fortsetzbar, ohne dass eine eigene Speicherlogik nötig wäre.
+
+**Wiederholung je Agent.** Fehlgeschlagene Aufrufe werden von der Umgebung wiederholt; wer danach nicht antwortet, liefert einen leeren Wert zurück, und der Lauf läuft weiter. Diese Werte sind vor der Auswertung auszufiltern und ihre Zahl ist auszuweisen — eine ausgefallene Rolle darf nicht neunundneunzig andere kosten, muss aber im Ergebnis sichtbar bleiben. In der Mechanikprobe waren es null von 57.
+
+**Das Herausschreiben geschieht nach dem Lauf.** Rohdaten und Tafel werden aus der Rückgabe des Skripts nach `rohdaten/` geschrieben, nicht aus dem Skript heraus. Das ist ein Arbeitsschritt und keine Fußnote: Wird er vergessen, hängt alles am Journal der Sitzung.
+
+**Die Kosten bleiben eine Schätzung.** Die tatsächliche Abrechnung ist aus dem Lauf nicht auslesbar. Belastbar ist allein der Tokenverbrauch — die Mechanikprobe meldete 4,52 Mio Token für 57 Aufrufe, also rund 79.000 je Aufruf. Jede USD-Angabe in § 9 ist eine Hochrechnung aus früher gemessenen Stückkosten und als solche zu lesen.
 
 ## 9. Kosten und Laufzeit
 
@@ -311,10 +361,20 @@ Sechs Schwächen dieses Verfahrens waren in der vorigen Fassung nur benannt. Sie
 | P3 addiert sich über überlappende Bezugsgruppen nicht sauber | disjunkte Zuordnung durch R03, nur `primaer`-Felder gehen in die Summe, Deckung und Rest werden ausgewiesen (§ 5, Runde 0a) | die Zerlegung ist eine Entscheidung von R03 und an den Grenzen strittig; sie ist dokumentiert, nicht objektiv |
 | Die Attribution auf KI könnte geraten sein | Gegenprobe P3₀ und Attributionskonsistenz (§ 3, § 6) | Konsistenz ist nicht Richtigkeit: Eine Rolle kann sich zweimal im selben Sinn irren |
 
+Fünf weitere hat die Mechanikprobe aufgedeckt; sie sind in dieser Fassung behoben:
+
+| Befund der Probe | Änderung | Rest |
+|---|---|---|
+| Die Tafel ist bei hundert Rollen rund 1.675 KB groß und passt in keinen Auftrag | Zahlenmatrix als gemeinsamer Ausschnitt, Volltexte nur in der eigenen Gruppe (§ 4.3) | Einwände gegen eine bloße Zahlenzeile sind schwächer als gegen den Volltext; das ist auszuweisen |
+| Ein Urteil je Rollensatz hätte 60 % des Panels ausgeschlossen | Status gehört zur Karte, nicht zur Rolle (§ 4.2, § 5 Runde 1b) | eine Rolle mit sechs zurückgewiesenen Pflichtgrößen fällt weiterhin aus — zu Recht |
+| Das Panel stritt über eine Größe, die das Konzept nicht kannte | **D**, der Durchgriff, wird berechnet und ausgewiesen (§ 3) | D erbt die Unsicherheit aller vier Größen, aus denen er entsteht |
+| § 8 verlangte eine Zwischenspeicherung, die das Werkzeug nicht kann | auf die vorhandene Mechanik umgeschrieben (§ 8) | die Kosten bleiben eine Schätzung, weil die Abrechnung nicht auslesbar ist |
+| Drei von zehn Rollen bestritten ihren Nenner, ohne dass es ein Verfahren gab | `bedingung`-Karte, Rechnung gegen beide Werte, Summe als Spanne (§ 5 Runde 0a) | wo Haupt- und Gegenwert weit auseinanderliegen, wird die Zentraltabelle unscharf statt falsch |
+
 Was dadurch **nicht** behoben ist und sich mit diesem Verfahren auch nicht beheben lässt:
 
 **Die Agenten sind Sprachmodelle mit Rollendossiers, keine befragten Fachleute.** Das Ergebnis ist ein strukturiertes Argumentmodell mit benannten Quellen und offengelegten Dissenspunkten — keine Umfrage, keine Prognose und keine Legitimationsgrundlage für eine politische Entscheidung. Alle Mechanismen dieses Abschnitts machen die Grenzen des Modells messbar; sie verwandeln das Modell nicht in ein Panel.
 
 **Das Attributionsproblem bleibt sachlich offen.** P4 und P3₀ zwingen zur Bezifferung und machen Widersprüche sichtbar. Ob die Wirkung im Jahr 2031 der KI, der Demografie oder der Krankenhausreform zuzurechnen ist, kann kein Verfahren entscheiden, das keine Kontrollgruppe hat — und eine Volkswirtschaft ohne KI gibt es nicht zum Vergleich.
 
-**Die Gültigkeitsmaße können selbst reißen.** Prüfschärfe unter 80 % bricht den Lauf ab; Modellabhängigkeit über 1 verwirft eine Pflichtgröße; Gerüstabhängigkeit über 1 zwingt zur getrennten Berichterstattung. Das ist der Zweck dieser Maße und kein Fehler des Verfahrens — aber es heißt, dass ein Lauf über 525 USD mit dem Ergebnis enden kann, dass zwei der Pflichtgrößen nicht berichtbar sind. Genau dafür steht die Mechanikprobe in `13-Validierungsstand.md` § 3 davor.
+**Die Gültigkeitsmaße können selbst reißen.** Prüfschärfe unter 80 % bricht den Lauf ab; Modellabhängigkeit über 1 verwirft eine Pflichtgröße; Gerüstabhängigkeit über 1 zwingt zur getrennten Berichterstattung. Das ist der Zweck dieser Maße und kein Fehler des Verfahrens — aber es heißt, dass ein Lauf über 525 USD mit dem Ergebnis enden kann, dass zwei der Pflichtgrößen nicht berichtbar sind. Die Mechanikprobe hat diesen Fall schon einmal geliefert: Die Attributionskonsistenz riss, auch nach Korrektur der Formel (`15-Mechanikprobe.md` § 3). Genau dafür steht die Probe vor dem Lauf.

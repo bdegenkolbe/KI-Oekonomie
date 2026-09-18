@@ -71,6 +71,18 @@ Das ist der Ertrag der Probe. Die fehlerhafte Formel wäre im vollen Lauf über 
 
 **Die Optionenrunde hat geurteilt statt zugestimmt.** Hebel 2 bekam fünf Mal *schadet* und vier Mal *wirkt* — von Rollen, die alle dasselbe Modell sind. Hebel 1 spaltete das Panel exakt fünf zu fünf.
 
+**Das Panel hat eine Größe erfunden, die das Konzept nicht kannte.** Fünf der zehn Einwände und die Mehrzahl der Dissenspunkte drehten sich um den **Durchgriff von eingesparter Arbeitszeit auf Personalbedarf** — also um das Verhältnis von P1 × P2 zum KI-Anteil an P3:
+
+| Rolle | P1 × P2 | KI-Anteil an P3 | Durchgriff |
+|---|---|---|---|
+| F05 Medizinische Fachangestellte | 11,2 | −9,2 | **0,82** |
+| A05 Radiologie | 7,9 | −5,4 | 0,68 |
+| D01 Ersatzkasse | 25,0 | −13,2 | 0,53 |
+| B08 Apotheke | 18,9 | −8,6 | 0,46 |
+| B01 Landhausarztpraxis, C01 Intensivpflege | 13,7 / 10,0 | −4,1 / −3,0 | **0,30** |
+
+Faktor drei zwischen den Feldern. Weil die Größe nicht definiert war, rechneten die Diskutanten unterschiedlich: teils mit dem gesamten P3, teils nur mit dem KI-Anteil, und kamen für D01 auf 0,62 beziehungsweise 0,53. Dieser Definitionsstreit hat einen halben Dissenspunkt gekostet. Die Größe ist inzwischen als **D** mit fester Formel im Konzept (`11-Konzept-v2.md` § 3).
+
 ## 5. Zwei Mängel, die die Probe am Verfahren gefunden hat
 
 **(a) Die Prüfinstanz beanstandet die Pflichtfragen selbst.** Zwei der 28 zusätzlichen Beanstandungen lauten sinngemäß, die P5-Kategorien lägen außerhalb des Mandats der Rolle (A05, C01). Das ist ein Prompt-Fehler: Der Prüfinstanz wurde nicht mitgeteilt, dass P4 und P5 von jeder Rolle verbindlich zu beantworten sind. Sie hat konsequent geprüft, was ihr gesagt wurde. Zu beheben, indem der Prüfauftrag den Pflichtteil vom Freitext trennt.
@@ -85,6 +97,12 @@ Das ist der Ertrag der Probe. Die fehlerhafte Formel wäre im vollen Lauf über 
 
 Die Kostenschätzung bleibt eine Schätzung: Die tatsächliche Abrechnung ist aus dem Lauf nicht ablesbar. Belastbar ist allein der Tokenverbrauch — 4,52 Mio für 57 Aufrufe, also rund 79.000 Token je Aufruf. Für 533 Aufrufe wären das rund 42 Mio Token.
 
+**(c) Ein Prüfurteil je Rollensatz hätte das Panel halbiert.** Die Instanz vergab **sechsmal »zurückgewiesen«, viermal »mit Vorbehalt« und kein einziges Mal »gültig«**. Jede der zehn Rollen hatte mindestens zwei Beanstandungen, meist an einer einzelnen Quelle. Der Filter des Konzepts — nur `gueltig` oder `mit-vorbehalt` gehen weiter — hätte damit sechs von zehn Rollen ausgeschlossen, ohne dass eine einzige Pflichtgröße widerlegt gewesen wäre. Der Fehler liegt in der Granularität: Der Status gehört zur Karte, nicht zum Kartensatz. Behoben in `11-Konzept-v2.md` § 4.2 und § 5.
+
+**(d) Die Tafel passt bei hundert Rollen in keinen Auftrag.** Zehn Rollen erzeugten 167 KB Runde-1-Antworten; hundert erzeugen rund **1.675 KB**, allein Positionen und Befunde rund 432 KB, allein die Rechenwege rund 563 KB. Das Konzept sah vor, dass alle hundert Rollen in Runde 3 die Dissenspunkte und die Streitfragen sehen. Behoben durch die Zahlenmatrix und die Auszugsregel in `11-Konzept-v2.md` § 4.3 — bemerkenswerterweise lief die Zehnerprobe faktisch schon so, und die fünf schärfsten Einwände entstanden genau aus dem Zahlenvergleich, nicht aus Prosa.
+
+**(e) Für den Streit über die Bezugsgröße gab es kein Verfahren.** Drei der zehn Rollen bestritten die vorgegebene VZÄ-Zahl und nannten die amtliche Alternative, eine mit 18 % Abweichung. Sie rechneten dann gegen einen Nenner, den sie für falsch hielten, und der Streit verschwand. Bei hundert Feldern entscheidet dieser Nenner die addierte VZÄ-Summe. Behoben in `11-Konzept-v2.md` § 5, Runde 0a: Bedingungskarte, Rechnung gegen beide Werte, Summe als Spanne.
+
 ## 6. Was weiterhin ungeprüft ist
 
 - **Die Bankkorrektur des Streitindex.** Zehn Rollen erlauben keinen Bankmedian. Die Vollfassung der Probe mit achtzehn Rollen aus drei Bänken zu je sechs bleibt dafür notwendig.
@@ -94,4 +112,8 @@ Die Kostenschätzung bleibt eine Schätzung: Die tatsächliche Abrechnung ist au
 
 ## 7. Folgerung
 
-Die Mechanik trägt. Zehn von elf prüfbaren Kriterien sind bestanden, mehrere davon deutlich, und der eine Bruch war ein Fehler im Messgerät, nicht im Verfahren — gefunden für rund ein Zehntel dessen, was der volle Lauf kostet. Vor Stufe 2 sind drei Dinge zu erledigen: die Attributionsformel korrigieren, den Prüfauftrag um den Hinweis auf die Pflichtfragen ergänzen und die Zeitplanung auf 19 Stunden umstellen. Die Vollfassung der Probe mit achtzehn Rollen bleibt sinnvoll, weil sie das einzige unbestätigte Konstruktionsstück prüft — die Bankkorrektur.
+Die Mechanik trägt. Zehn von elf prüfbaren Kriterien sind bestanden, mehrere davon deutlich, und der eine Bruch war ein Fehler im Messgerät, nicht im Verfahren — gefunden für rund ein Zehntel dessen, was der volle Lauf kostet.
+
+**Sieben Änderungen sind daraus im Konzept umgesetzt:** die korrigierte Attributionsformel, der Hinweis an die Prüfinstanz auf die Pflichtfragen, die Zeitplanung auf 19 Stunden, der Durchgriff D als berechnete Größe, die Zahlenmatrix mit Auszugsregel, der kartenweise Status und das Verfahren für den bestrittenen Nenner. Dazu die ehrliche Umschreibung von § 8 auf die Lauffähigkeit, die das Werkzeug tatsächlich bietet.
+
+**Jede Behebung erzeugt neue ungeprüfte Mechanik.** Vier Bestandteile sind dadurch hinzugekommen, die es vor dieser Probe nicht gab: D als Vorgabe statt als Eigenkonstruktion, die Zahlenmatrix bei hundert statt zehn Zeilen, der kartenweise Filter und das Wiederaufsetzen. Sie sind der Grund, warum die Vollfassung der Probe mit achtzehn Rollen weiterhin vor Stufe 2 steht — zusammen mit der Bankkorrektur, dem einzigen Konstruktionsstück, das diese Probe von Anfang an nicht prüfen konnte.
