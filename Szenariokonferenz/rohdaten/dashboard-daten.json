@@ -1,0 +1,1322 @@
+[
+ {
+  "id": "B02",
+  "name": "Steuerrechtlerin",
+  "feld": "Unternehmenssteuerrecht",
+  "hemmnis": "Die gesetzliche Zuordnung von Erklärungs-, Berichtigungs- und Haftungsverantwortung auf eine natürliche Person: § 34 AO (Pflichten der Vertreter), § 150 Abs. 7 AO (eigenhändige Verantwortungsübernahme für die Angaben), § 153 AO (Berichtigungspflicht mit der Grenze zu § 370 AO) und die Vorbehaltsaufgaben nach §§ 3, 33 StBerG. Eine KI-Ausgabe kann nicht Erklärender sein; sie kann nicht haften und nicht zeichnen.",
+  "warumBindend": "Alle anderen Hemmnisse in meinem Feld - Datenqualität aus dem Lohn- und Rechnungswesen, Interoperabilität zwischen Kanzleisoftware und ERP, Altsysteme in den Finanzämtern, Qualifikation - sind durch Geld und Zeit auflösbar und lösen sich bis 2030 teilweise von selbst. …",
+  "wirkdauer": 6,
+  "aufloesung": "Es fiele, wenn der Gesetzgeber den Gedanken der ausschließlich automationsgestützten Veranlagung aus § 155 Abs. 4 AO spiegelbildlich auf die Erklärungsseite ausdehnte: eine Regelung, nach der ein zertifiziertes …",
+  "bricht": "Die volumenbasierte Gegenstandswertabrechnung der laufenden Deklaration nach StBVV hält nicht stand - konkret die Abrechnung der Gewerbesteuererklärung nebst Zerlegungserklärung nach § 24 StBVV und der Buchführung nach Tabelle C. Diese Gebühren sind an einen Gegenstandswert geknüpft, der mit der Betriebsgröße steigt, während der Zeitaufwand für die Erstellung auf Minuten fällt …",
+  "traegtKosten": "Drei Gruppen. Erstens mittelständische Steuerkanzleien und Konzernsteuerabteilungen, die Verfahrensdokumentation, Datenanbindung und eine völlig neue Belegführung für die Nennanschlussleistung je Betriebsstätte aufbauen müssten …",
+  "schoepftNutzen": "Die wenigen Standortgemeinden großer Anlagen; die Großkanzleien und Prüfungsgesellschaften, für die die neue Zerlegungs- und Betriebsstättenfrage ein skalierbares Beratungsprodukt wäre …",
+  "luecke": "Die Lücke ist keine Verteilungslücke, sondern eine Massenlücke. § 29 Abs. 1 Nr. 4 GewStG-E verteilte um; er erhöhte die Bemessungsgrundlage nicht um einen Euro. Der Gewerbeertrag entsteht dort, wo Funktionen, Risiken und immaterielle Werte liegen, also weit überwiegend außerhalb Deutschlands …",
+  "indikator": "Das Gewerbesteuer-Istaufkommen je Einwohner der zehn deutschen Gemeinden mit den größten Rechenzentrumskapazitäten (Frankfurt am Main, Hanau, Offenbach, Hattersheim, Norderstedt und vergleichbare) im Verhältnis zum Bundesdurchschnitt, gemessen vom Erhebungszeitraum 2027 an - also dem ersten Jahr …",
+  "schwelle": "Liegt der Zuwachs des Gewerbesteuer-Istaufkommens dieser Gemeindegruppe für den EZ 2027/2028 um mindestens 25 Prozent über dem bundesdurchschnittlichen Zuwachs, spricht das für ein Veredelungs- oder Zwei-Geschwindigkeiten-Bild mit realer inländischer Wertschöpfung an den Anlagen. …",
+  "quelleInd": "Statistisches Bundesamt, Realsteuervergleich (Fachserie 14 Reihe 10.1, jährlich, gemeindescharf) sowie die vierteljährliche Kassenstatistik der kommunalen Haushalte …",
+  "taetigkeiten": [
+   {
+    "t": "Erstellung und Plausibilisierung der Gewerbesteuer-Zerlegungserklärung nach §§ 28-31 GewStG: Zuordnung der Lohnkonten zu den einzelnen Betriebsstätten …",
+    "a": 9,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Betriebsstätten-Qualifikation von Colocation-Flächen und einzelnen Server-Racks nach § 12 AO: Prüfung, ob der Kunde über die konkret zugewiesene Käfig-/Rackfläche Verfügungsmacht und ein eig …",
+    "a": 5,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Leistungsort- und Reverse-Charge-Beurteilung von API-, Token- und Cloud-Bezügen nicht im Inland ansässiger Anbieter (§ 3a Abs. …",
+    "a": 7,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Anfertigung der Sachverhaltsdokumentation und Funktions-/Risikoanalyse nach § 90 Abs. 3 AO i.V.m. GAufzV für konzerninterne Compute- und Modellnutzungsentgelte (Kostenaufschlag auf Rechenzei …",
+    "a": 12,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Ermittlung, Belegführung und Verteidigung der nicht redundanten elektrischen Nennanschlussleistung je Betriebsstätte als Zerlegungsgröße nach § 29 Abs. 1 Nr. …",
+    "a": 0,
+    "e": "neu entstanden"
+   }
+  ],
+  "falsifikator": "Meine Einschätzung fiele am schnellsten, wenn Bund und Länder bis 2028 einen haftungsentlastenden automatisierten Erklärungsprozess einführten - konkret: eine Regelung, die den Gedanken der ausschließlich automationsgestützten Veranlagung aus § 155 Abs. …",
+  "kreuzungsjahr": "2030",
+  "sortJahr": 2030,
+  "kjBegruendung": "Rechenweg ueber Jahresstroeme, nicht Bestaende. Demografischer Abgang: rund 17 % ueber fuenf Jahre, weitgehend gleichmaessig, also rund 3,4 % je Jahr, zum Ende der Periode wegen der Babyboomer-Jahrgaenge leicht steigend auf rund 3,8 %. …",
+  "bbg": "Entgelt rutscht ueber die Beitragsbemessungsgrenze",
+  "beitrag": 20,
+  "steuer": 63,
+  "weg": 17,
+  "kanaele": [
+   40,
+   20,
+   14,
+   26
+  ],
+  "kiEntbehrlich": 18,
+  "demografisch": 17,
+  "einstieg": "Das Einstiegsentgelt der Steuerfachangestellten verloere den Knappheitsaufschlag der Jahre 2022-2026 und stagnierte nominal, waehrend der Berufseinstieg sich auf die Berufstraegerebene verschoebe - wer die Modellausgabe nach § 150 Abs. …",
+  "ausbildung": "Die 17.081 zum 01.01.2026 registrierten Ausbildungsverhaeltnisse zum Steuerfachangestellten braechen zuerst und am staerksten ein - Schaetzung minus 30 bis 45 % bis 2032 -, weil die Ausbildung ihre oekonomische Grundlage verliert: Sie finanziert sich ueber produktive Buchfuehrungs- und Voranmeldungsarbeit im zweiten und dritten Lehrjahr, also genau ueber den Taetigkeitsblock …",
+  "zuwanderung": "Fuer die Deklarationsberufe entfaellt er faktisch, aber er war nie vorhanden: Die Bindung an deutsches Verfahrens- und Steuerrecht, an die Sprache der Erklaerungsvordrucke und an die Berufszulassung nach StBerG hat Zuwanderung in dieses Feld ohnehin blockiert …",
+  "verhandlung": "Sie spaltet sich entlang der Vorbehaltsaufgabe: Berufstraeger mit Zeichnungs- und Haftungsverantwortung nach §§ 3, 33 StBerG, § 34 AO gewinnen, weil ihre Knappheit rechtlich und nicht technisch erzeugt wird und nicht wegautomatisiert werden kann …",
+  "gegenkraft": "Die staerkste Gegenposition gegen meine eigene Rechnung ist, dass die Rechtsordnung neue Deklarationspflichten schneller erzeugt, als die Technik alte abarbeitet - und zwar aus Gruenden, die mit Produktivitaet nichts zu tun haben. In einem einzigen Fuenfjahresfenster laufen zusammen: die E-Rechnungspflicht nach §§ 14, 27 UStG mit auslaufenden Uebergangsfristen …",
+  "quellen": 5,
+  "status": "gueltig"
+ },
+ {
+  "id": "D03",
+  "name": "Pflegedirektor",
+  "feld": "Krankenhauspflege",
+  "hemmnis": "Die Vergütungssystematik der stationären Pflege: das Pflegebudget nach § 6a KHEntgG als Selbstkostendeckung der Pflegepersonalkosten am Bett, kombiniert mit schichtbezogenen Verhältniszahlen der PpUGV, die an der Kopfzahl je Schicht hängen und nicht am gemessenen Arbeitsaufwand.",
+  "warumBindend": "Alle anderen genannten Hemmnisse (Haftung, Interoperabilität, Qualifikation, Mitbestimmung, Beschaffungszyklus) sind Reibungen, die Geld und Zeit lösen würden. Dieses hier löscht den Geschäftsfall selbst. …",
+  "wirkdauer": 5,
+  "aufloesung": "Konjunktiv, weil Gesetzeslage hypothetisch: Das Hemmnis fiele, wenn (a) der PPBV-Erfüllungsgrad als Ist-Soll-Quote gegen den gemessenen Pflegeaufwand an die Stelle der starren schichtbezogenen Verhältniszahl der PpUGV träte, sodass Entlastung indirekter Zeit rechnerisch als Erfüllungsgrad sichtbar würde …",
+  "bricht": "Die freigestellte Stelle 'Pflegecontrolling / PPR-2.0-Beauftragte' in Häusern der Grund- und Regelversorgung, die die Quartals- und Jahresmeldung nach PPBV heute noch aus drei getrennten Auszügen von Hand zusammenbaut: Belegungs- und Einstufungsdaten aus dem PDMS, geleistete Stunden und Ausfallzeiten aus dem Dienstplanprogramm, Personalstamm und Qualifikationsschlüssel aus der Entgeltabrechnung. …",
+  "traegtKosten": "Das einzelne Krankenhaus, und zwar dreifach: Lizenz- und Endgerätekosten der Sprachdokumentation sowie die HL7-/FHIR-Anbindung ans PDMS, die als Sachkosten nicht pflegebudgetfähig sind und nach Auslaufen der KHZG-Förderung ohne Gegenfinanzierung dastehen …",
+  "schoepftNutzen": "Die Kostenträger über die Budgetverhandlung, sobald eingesparte Pflegeminuten sich in einer niedrigeren Ist-Besetzung oder einem höheren Erfüllungsgrad niederschlagen, sowie die Anbieter der Dokumentations- und Dienstplansoftware …",
+  "luecke": "Die Lücke ist kein Verteilungsproblem, sondern ein Vorzeichenwechsel: Wer investiert, bekommt die Ersparnis nicht gutgeschrieben, sondern in der Folgeverhandlung abgezogen. …",
+  "indikator": "Der bundesweite Erfüllungsgrad der Pflegepersonalbesetzung nach PPBV, also die Ist-Soll-Quote der geleisteten Pflegepersonalstunden gegenüber dem aus den Pflegeaufwandskategorien errechneten Soll …",
+  "schwelle": "Kipppunkt zwischen den Szenarien in meinem Feld: Steigt der bundesweite Median-Erfüllungsgrad zwischen den Meldejahren 2026 und 2028 um mehr als 5 Prozentpunkte, während die Zahl der Pflegevollkräfte im selben Zeitraum um weniger als 2 Prozent zunimmt …",
+  "quelleInd": "Erfüllungsgrad: Auswertungen des InEK zur PPBV-Jahresmeldung (Meldefrist 30. Juni des Folgejahres, erstmals 30.06.2026 für das Jahr 2025) sowie die Berichterstattung des BMG zur Pflegepersonalbemessun …",
+  "taetigkeiten": [
+   {
+    "t": "Körpernahe Versorgung am Bett: Transfer und Mobilisation nach Sturzrisiko-Assessment, Lagerungswechsel nach Dekubitusprophylaxe-Standard (Expertenstandard DNQP), Grundpflege …",
+    "a": 50,
+    "e": "unveraendert"
+   },
+   {
+    "t": "Schichtwechsel-Übergabe am Stationsstützpunkt: mündliche Fallübergabe plus anschließendes Nachtragen der Verlaufsdokumentation in die elektronische Pflegekurve (PDMS) …",
+    "a": 8,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Stichzeitpunkt-Einstufung jedes Patienten in die Pflegeaufwandskategorien der allgemeinen und speziellen Pflege nach PPBV (PPR 2.0) und die daran hängende Soll-Ist-Quartalsmeldung an das InE …",
+    "a": 4,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Tägliche Ausfallmanagement-Disposition der Stationsleitung: Prüfung der PpUGV-Schichtbesetzung vor jeder Schicht, Springerabruf, Einspringen aus dem Frei …",
+    "a": 16,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Validierung KI-generierter Risiko- und Frühwarnscores (Sturz, Dekubitus, Delir, Sepsis) durch die Pflegefachkraft, einschließlich schriftlicher Abweichungsbegründung im PDMS …",
+    "a": 2,
+    "e": "neu entstanden"
+   }
+  ],
+  "falsifikator": "Meine Einschätzung wäre am schnellsten widerlegt, wenn die PPBV-Jahresauswertungen des InEK für die Meldejahre 2027 und 2028 zeigten, dass Krankenhäuser mit flächendeckend eingeführter KI-gestützter Sprachdokumentation ihren Erfüllungsgrad um mehr als 5 Prozentpunkte steigern …",
+  "kreuzungsjahr": "nie",
+  "sortJahr": 9999,
+  "kjBegruendung": "Rechnerisch: der demografische Abgang liegt bei rund 4 Prozent der VK pro Jahr (20 Prozent auf fuenf Jahre) und steigt nach 2030 eher noch, weil die Babyboomer-Jahrgaenge in der Pflege sichtbar staerker besetzt sind als die nachfolgenden und die Rentenspitze erst zwischen 2028 und 2034 voll durchlaeuft. …",
+  "bbg": "Entgelt bleibt unterhalb",
+  "beitrag": 16,
+  "steuer": 7,
+  "weg": 77,
+  "kanaele": [
+   10,
+   55,
+   20,
+   15
+  ],
+  "kiEntbehrlich": 3,
+  "demografisch": 20,
+  "einstieg": "Der Tarifeinstieg selbst faellt nicht, weil P7 Stufe 1 tarifgebunden ist; was faellt, sind die ausserhalb des Tarifs gewachsenen Halteinstrumente, also Willkommenspraemien von zwei- bis fuenftausend Euro, uebertarifliche Wechselschichtzulagen und die faktische Praemie fuers Einspringen aus dem Frei …",
+  "ausbildung": "Die Platzzahl faellt zunaechst gar nicht, weil die Ausbildungskosten nach dem Pflegeberufegesetz ueber den Ausgleichsfonds der Laender refinanziert werden und Ausbildung fuer das Einzelhaus damit nahezu kostenneutral ist …",
+  "zuwanderung": "Der Bedarf an koerpernaher Versorgung selbst sinkt nicht, weil er an der Zahl der Pflegetage und der Einstufung nach PPBV haengt und nicht an der Dokumentationszeit; was wegfiele, waeren die hausinternen Integrations- und Sprachkursbudgets sowie die Anerkennungsbegleitung fuer im Ausland erworbene Abschluesse, die heute allein aus Rekrutierungsnot finanziert werden …",
+  "verhandlung": "Sie kippt zuerst nicht beim Entgelt, sondern im Dienstplan: das heute durchsetzbare Nein zum Einspringen aus dem Frei und der Anspruch auf eine verlaessliche Vier-Wochen-Planung verloeren ihre Grundlage in dem Moment, in dem der Springerpool rechnerisch ueberbesetzt waere, und das waere fuer die Beschaeftigten frueher und deutlicher spuerbar als jede Lohnzahl.",
+  "gegenkraft": "Die staerkste Gegenposition zu meiner eigenen Antwort lautet: Meine Schutzbehauptung ist nicht physisch, sondern regulatorisch, und Regulierung ist aenderbar. Ich habe den Kreuzungspunkt auf nie gesetzt, weil die PpUGV an der Kopfzahl je Schicht haengt. Genau dieser Anker ist aber bereits konstruktiv untergraben: die PPBV misst mit der PPR 2.0 Minutenwerte je Einstufungskategorie. …",
+  "quellen": 4,
+  "status": "gueltig"
+ },
+ {
+  "id": "E01",
+  "name": "Kassenvorstand",
+  "feld": "Gesetzliche Krankenversicherung",
+  "hemmnis": "Sozialverwaltungsverfahrens- und Aufsichtsrecht: die Bindung des vollautomatisierten Verwaltungsakts an das Fehlen von Ermessen und Beurteilungsspielraum (§ 31a SGB X, flankiert von Art. 22 DSGVO) in Verbindung mit der Sozialdatenbindung der Auftragsverarbeitung (§ 80 SGB X) und der noch fehlenden gemeinsamen Pruefleitlinie von Bundesamt fuer Soziale Sicherung und Landesaufsichten fuer KI-gestuetzte Leistungsentscheidungen.",
+  "warumBindend": "Geld, Technik und Qualifikation sind in meinem Feld nicht das Nadeloehr. Die Verwaltungskosten liegen bei rund 12,6 Mrd. EUR im Jahr (GKV-Spitzenverband, Stand 2024); wir koennten eine dreistellige Millionensumme umschichten, ohne den Zusatzbeitrag zu beruehren. …",
+  "wirkdauer": 5,
+  "aufloesung": "Es faellt, wenn zwei Dinge zusammenkommen. Erstens muesste der Gesetzgeber - hypothetisch, ein solcher Entwurf liegt nicht vor - im SGB X klarstellen, dass beguenstigende gebundene Entscheidungen vollautomatisiert ergehen duerfen, einschliesslich einer Beweislast- und Korrekturregel fuer den maschinellen Fehlerfall. …",
+  "bricht": "Drei konkrete Dinge, keine Kategorien. Erstens: das erfolgsabhängige Honorarmodell der externen Abrechnungsprüf- und Kodierdienstleister, die Kassen heute pro geprüftem Krankenhausfall oder mit einem Anteil am realisierten Rechnungskürzungsbetrag abrechnen. Ihre Marge stammt allein aus der Lücke zwischen der Fallmenge und der menschlichen Prüfkapazität der Kasse. …",
+  "traegtKosten": "Die einzelne Kasse und damit ihre heutigen Beitragszahler. Die Umstellungskosten fallen im Verwaltungshaushalt an, der gesetzlich gedeckelt ist und durch das GKV-Beitragssatzstabilisierungsgesetz weiter eingeengt wird - ein Konsolidierungsvolumen von rund 16 bis 20 Mrd. …",
+  "schoepftNutzen": "Drei Gruppen, von denen keine die Kosten traegt. Erstens die Leistungserbringer: Wenn KI die Prozesskosten in Praxen, Kliniken, Apotheken und Pflegediensten senkt, schlaegt das nicht auf die Verguetung durch, weil EBM, DRG-Katalog …",
+  "luecke": "Die Luecke hat zwei Dimensionen, eine zeitliche und eine institutionelle. Zeitlich: Die Investition faellt in den Jahren 2027 bis 2029 an, der messbare Verwaltungskosteneffekt fruehestens 2030 - der Zusatzbeitrag, ueber den Mitglieder binnen zwei Monaten mit dem Sonderkuendigungsrecht abstimmen …",
+  "indikator": "Netto-Verwaltungskosten je Versicherten der GKV (2024: 169,54 EUR; 2023: 170,04 EUR), gelesen gegen die im selben Datensatz ausgewiesene Veraenderungsrate der beitragspflichtigen Einnahmen je Mitglied. …",
+  "schwelle": "Kippunkt auf der Kostenseite: Wenn die Netto-Verwaltungskosten je Versicherten in einem Berichtsjahr bis 2028 nominal um mehr als 2 Prozent sinken, obwohl die Tarifabschluesse im Kassenbereich bei rund 3 Prozent liegen und die Personalkosten rund 85 Prozent der Verwaltungskosten ausmachen …",
+  "quelleInd": "Amtliche GKV-Finanzstatistik: vierteljaehrliche Finanzergebnisse der GKV (Statistik KV45) und jaehrliche Rechnungsergebnisse (KJ1) des Bundesministeriums fuer Gesundheit, jeweils im Frueh- bzw. …",
+  "taetigkeiten": [
+   {
+    "t": "Auffaelligkeitsvorpruefung von Krankenhausabrechnungen nach § 275c SGB V: Selektion der Faelle fuer die MD-Pruefbeauftragung aus dem § 301-Datensatz - Plausibilisierung von Hauptdiagnose geg …",
+    "a": 40,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Aufbereitung und Plausibilisierung der Satzartenlieferung fuer den Jahresausgleich im Morbi-RSA: ICD-Validierung der ambulanten Diagnosen ueber vier Quartale …",
+    "a": 35,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Vorpruefung von Antraegen auf Hilfsmittel und haeusliche Krankenpflege: Abgleich der Verordnung mit dem Hilfsmittelverzeichnis und dem Praequalifikationsstatus des Leistungserbringers sowie …",
+    "a": 25,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Telefonische Erstauskunft im Servicecenter zur Beitragseinstufung freiwillig Versicherter und zu Statusfragen (Familienversicherung, Mehrfachbeschaeftigung …",
+    "a": 55,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Fachliche Freigabe und Stichprobenpruefung maschinell erzeugter Bescheidentwuerfe samt revisionsfester Dokumentation …",
+    "a": 0,
+    "e": "neu entstanden"
+   }
+  ],
+  "falsifikator": "Der eine Sachverhalt, der meine Einschätzung am schnellsten widerlegen würde: Wenn die amtliche GKV-Finanzstatistik (KV45/KJ1 des BMG) bis einschließlich 2028 zeigt, dass die beitragspflichtigen Einnahmen je Mitglied weiterhin mit mindestens 3 Prozent jährlich wachsen …",
+  "kreuzungsjahr": "2029",
+  "sortJahr": 2029,
+  "kjBegruendung": "Rechenweg als Jahresfluss, beide Groessen als Anteil der heutigen Beschaeftigung meines Feldes. Demografischer Abgang: 18,5 % ueber fuenf Jahre, weitgehend gleichmaessig rund 3,7 %/Jahr - Renteneintritte sind ein Jahrgangsstrom, sie beschleunigen nicht. …",
+  "bbg": "Entgelt rutscht ueber die Beitragsbemessungsgrenze",
+  "beitrag": 30,
+  "steuer": 21,
+  "weg": 49,
+  "kanaele": [
+   15,
+   30,
+   20,
+   35
+  ],
+  "kiEntbehrlich": 22,
+  "demografisch": 18.5,
+  "einstieg": "Der Einstiegslohn faellt nicht, er verschwindet als Kategorie: Die Kassen sind tarifgebunden und werden die Entgeltgruppen 5 bis 7 nicht absenken, sondern schlicht nicht mehr darin ausschreiben - die Stellenausschreibung beginnt dann bei der Freigabe- und Governance-Rolle in EG 9 aufwaerts, und der Berufseinstieg in die Sachbearbeitung endet ohne einen einzigen Tarifkonflikt.",
+  "ausbildung": "Die Ausbildung zum Sozialversicherungsfachangestellten - heute der mit Abstand groesste Ausbildungsberuf der GKV - duerfte binnen zweier Einstellungsjahrgaenge nach dem Kreuzungspunkt etwa halbiert werden, weil die Ausbildungskosten im gesetzlich gedeckelten Verwaltungshaushalt stehen und der praktische Einsatzbereich des zweiten und dritten Lehrjahres …",
+  "zuwanderung": "In meinem Feld geht er auf null, weil er nie hoch war - Sozialdatenzugang, Bescheiddeutsch und die lange Einarbeitung ins Sozialrecht haben ihn immer begrenzt; der Zuwanderungsbedarf der GKV verlagert sich damit vollstaendig auf die Leistungserbringerseite, also auf Pflege und Aerzte, wo er meine Ausgaben treibt und nicht meine Verwaltung entlastet.",
+  "verhandlung": "Sie spaltet sich scharf: Die verbleibende Sachbearbeitung verliert Lohnsetzungsmacht und wird zur Restgroesse eines Stellenplans, waehrend die geschaetzt 200 bis 400 Personen je Grosskasse, die die fachliche Freigabe und den aufsichtsfesten Nachweis nach § 31a SGB X tragen, massiv gewinnen - ohne ihre dokumentierte Entscheidung ergeht kein rechtssicherer Bescheid …",
+  "gegenkraft": "Drei Gegenkraefte, in aufsteigender Staerke - die dritte ist die, die ich als Kassenvorstand am wenigsten gern zugebe. ERSTENS: Der Pruefpfad frisst die Ersparnis. Wenn Bundesamt fuer Soziale Sicherung und Landesaufsichten ihre gemeinsame Leitlinie haftungsvermeidend ausgestalten - und das waere die naheliegende Ausgestaltung - …",
+  "quellen": 3,
+  "status": "gueltig"
+ },
+ {
+  "id": "F03",
+  "name": "Risikoanalystin",
+  "feld": "Infrastrukturfinanzierung",
+  "hemmnis": "Die eigene Bilanzkapazität gegenüber der Gruppe verbundener Kunden des Ankermieters — Großkredit- und internes Klumpenrisikolimit in Verbindung mit der Eigenmittelunterlegung von Spezialfinanzierungen — bei gleichzeitig fehlendem funktionierendem europäischen Take-out-Markt.",
+  "warumBindend": "In meinen Akten scheitern Transaktionen nicht am Genehmigungsrecht und nicht an der Nachfrage, sondern an der Frage, wie viel Exposure ich gegen DENSELBEN Ankermieter noch schreiben darf. …",
+  "wirkdauer": 4,
+  "aufloesung": "Es fiele, wenn Europa eine belastbare Weiterplatzierung bekäme, also ein regelmäßiger Markt für bewertete Rechenzentrums-Verbriefungen und Projektanleihen mit europäischem Recht — Originate-to-distribute statt Buy-and-hold. …",
+  "bricht": "Der spekulative Rechenzentrums-Projektentwickler ohne unterzeichneten Ankermieter: das Modell, eine Hülle mit Netzanschlusszusage und Baugenehmigung zu errichten, sie kurzfristig über eine endfällige Bankfinanzierung mit zwei- bis dreijähriger Laufzeit zu bauen und darauf zu setzen, sie nach Fertigstellung an einen Hyperscaler oder mehrere Colocation-Mieter zu vermieten. Dieses Modell trug, solange die Halle generisch war. …",
+  "traegtKosten": "Die Kosten der Umstellung trägt die Projektseite und ihr Umfeld: das Eigenkapital der Projektgesellschaft (Infrastrukturfonds, Versicherer, teils kommunale Minderheitsbeteiligung), das das Bau-, Ramp-up- und vor allem das Restwertrisiko der GPU-spezifischen Auslegung behält …",
+  "schoepftNutzen": "Den Nutzen schöpft der Ankermieter ab. Er erhält faktisch eine Finanzierung zu den Konditionen seiner eigenen Bonität, aber außerhalb seiner Bilanz, weil die Anleihe im Kern eine Bewertung seines Mietvertrags ist und das Rating an seiner Bonität und der Konzernmuttergarantie gedeckelt bleibt (Cliffo …",
+  "luecke": "Die Lücke ist eine Asymmetrie zwischen gedeckeltem Oberkurs und einbehaltenem Rand: Der fixe Eskalator schneidet die Projektseite vom Aufwärtspotenzial ab, falls die KI-Erträge stark steigen, während Nachvermietungsrisiko nach Grundmietzeit …",
+  "indikator": "Neuemissionsvolumen bewerteter europäischer Rechenzentrums-Verbriefungen und -Projektanleihen (Data-Centre-ABS, CMBS auf Einzelobjekt, Projektbonds) pro Halbjahr, zusammen mit der Spread-Basis bei Emission gegenüber der Senior-Unsecured-Kurve des garantierenden Ankermieters. …",
+  "schwelle": "Kipppunkt nach unten: Wenn in 2027 oder 2028 in zwei aufeinanderfolgenden Halbjahren weniger als zwei bewertete europäische Rechenzentrums-Transaktionen platziert werden ODER die Spread-Basis zum Ankermieter bei Emission über rund 150 Basispunkte steigt, ist der Take-out-Kanal zu …",
+  "quelleInd": "Emissionsvolumen und Tranchierung im vierteljährlichen AFME Securitisation Data Report (Association for Financial Markets in Europe) sowie in den öffentlich zugänglichen Presale- und New-Issue-Bericht …",
+  "taetigkeiten": [
+   {
+    "t": "Abgleich des unterzeichneten Mietvertrags gegen die Sizing-Annahmen im Zweitvotum der Marktfolge: Grundmietzeit gegen Tilgungsprofil und Balloon, Staffelmiete gegen Marktmietanpassung …",
+    "a": 18,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Nachrechnen des Base-Case-Cashflow-Modells der Projektgesellschaft und Fahren der Downside-Cases (Ramp-up-Verzug bis Rent Commencement, Curtailment-Abschlag auf die kontrahierte Leistung …",
+    "a": 22,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Quartalsweises Covenant-Monitoring: Abgleich des Compliance Certificate der SPV gegen die Financial-Covenant-Definitionen des Kreditvertrags …",
+    "a": 12,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Plausibilisierung der Restwertannahme: Prüfung, ob die Halle nach Ablauf der Grundmietzeit an einen zweiten Mieter vermietbar wäre …",
+    "a": 8,
+    "e": "unveraendert"
+   },
+   {
+    "t": "KI-gestütztes Erst-Screening eingehender Term Sheets und Leases gegen die interne Klauselbibliothek mit Red-Flag-Liste (fehlende SNDA, ungedeckelte Service Credits …",
+    "a": 4,
+    "e": "neu entstanden"
+   }
+  ],
+  "falsifikator": "Meine Einschätzung fiele, wenn in 2027 oder 2028 mindestens drei bewertete europäische Rechenzentrums-Verbriefungen oder Projektanleihen investment-grade platziert würden, deren garantierender Ankermieter eine EU-ansässige und EU-kontrollierte Gesellschaft ist …",
+  "kreuzungsjahr": "2028",
+  "sortJahr": 2028,
+  "kjBegruendung": "Verglichen werden Jahresstroeme, nicht Bestaende. Demografischer Abgang aus M1: 11 Prozent ueber 4,5 Jahre, also rund 2,4 Prozentpunkte je Jahr, praktisch konstant, weil die Altersverteilung in der Spezialfinanzierung keine Stufe hat. …",
+  "bbg": "Entgelt rutscht ueber die Beitragsbemessungsgrenze",
+  "beitrag": 15,
+  "steuer": 54,
+  "weg": 31,
+  "kanaele": [
+   45,
+   15,
+   20,
+   20
+  ],
+  "kiEntbehrlich": 19,
+  "demografisch": 11,
+  "einstieg": "Das Einstiegsgehalt im Analystenjahrgang Spezialfinanzierung (heute geschaetzt 55.000 bis 65.000 Euro plus Bonus) stagniert nominal und faellt real, weil nicht mehr fuer die Taetigkeit gezahlt wird, fuer die es bemessen war - drei Jahre Spreading, Datenraumarbeit und Covenant-Abgleich als bezahlte Lehrzeit -, waehrend sich die Spreizung zum Senior-Strukturierer weitet …",
+  "ausbildung": "Zuerst gestrichen wird nicht der Direkteinstieg, sondern der interne Aufstiegspfad Bankausbildung - Kreditsachbearbeitung - Analyst Spezialfinanzierung; er haengt vollstaendig an den automatisierten Taetigkeiten und bricht als erstes weg. …",
+  "zuwanderung": "Fuer die Analyse- und Marktfolgeschicht faellt der Bedarf praktisch auf null, weil genau diese Arbeit automatisiert wird; er bleibt und steigt fuer zwei enge Profile, fuer die es in Deutschland keinen Pool gibt und die KI nicht ersetzt …",
+  "verhandlung": "Das Feld zerfaellt in zwei Haelften: Wer das Votum unterschreibt und im Kreditkomitee sitzt, behaelt seine Position, weil Haftung und Kompetenzordnung nach MaRisk an einer namentlich benannten Person haengen und nicht auslagerbar sind …",
+  "gegenkraft": "Zwei Gegenkraefte, beide unbequem, weil sie meine eigene Rechnung an der Wurzel treffen. Erstens, die aufsichtliche Beweislastumkehr, und zwar nicht als Verzoegerung, sondern als dauerhafte Umkehrung des Vorzeichens. Die Kreditwuerdigkeitspruefung ist nach Anhang III AI Act eine Hochrisiko-Anwendung …",
+  "quellen": 3,
+  "status": "gueltig"
+ },
+ {
+  "id": "G05",
+  "name": "Referatsleiter BMAS",
+  "feld": "Arbeitsmarktpolitik",
+  "hemmnis": "Die kollektivrechtliche Zugangsvoraussetzung der betrieblichen Weiterbildungsfoerderung: Qualifizierungsgeld setzt voraus, dass der strukturwandelbedingte Qualifizierungsbedarf eines definierten Belegschaftsanteils (20 Prozent ab 250 Beschaeftigten, 10 Prozent darunter) in einer betriebsbezogenen Regelung oder einem Tarifvertrag festgehalten ist. …",
+  "warumBindend": "Es dominiert Finanzierung, Traegerangebot und Digitalisierungsstand, weil diese drei nachweislich nicht knapp sind: Fuer 2024 standen rund 200 Mio. EUR bereit, abgeflossen sind - empirische Messung, nicht Schaetzung - 108.035 EUR in 2024 und 442.408 EUR in 2025 …",
+  "wirkdauer": 4,
+  "aufloesung": "Es fiele, wenn der Gesetzgeber die kollektivvertragliche Betroffenheitsfeststellung durch einen an die Person und ihr Taetigkeitsprofil gebundenen Zugang ersetzte - etwa indem der Nachweis der Betroffenheit ueber ein aus der Beschaeftigtenstatistik abgeleitetes Taetigkeitsmerkmal gefuehrt werden koennte statt ueber eine Betriebs …",
+  "bricht": "Das Geschaeftsmodell des AZAV-zertifizierten Bildungstraegers, der sich ueberwiegend ueber Bildungsgutschein-finanzierte Umschulungen in kaufmaennisch-administrative Zielberufe traegt - Kaufmann/-frau fuer Bueromanagement, Finanzbuchhaltung, Lohn- und Gehaltsabrechnung, Sachbearbeitung im Versicherungs- und Gesundheitswesen - mit Vorbereitung auf die Externenpruefung nach Paragraph 45 Abs. 2 BBiG. …",
+  "traegtKosten": "Drei Traeger, deren Lasten heute nicht zusammengefuehrt werden: erstens die beitragsfinanzierte Bundesagentur ueber den Eingliederungstitel (Massnahmekosten, Arbeitsentgeltzuschuss, Qualifizierungsgeld) …",
+  "schoepftNutzen": "Den Produktivitaetsgewinn realisiert der einsetzende Betrieb, ueber die Gewinnmarge mittelbar die Kapitalseite, und - das ist die eigentliche Pointe des Falles - ein nicht foerdernder Wettbewerber, der die qualifizierte Kraft anschliessend abwirbt, ohne an den Kosten beteiligt gewesen zu sein. …",
+  "luecke": "Die Foerderung ist an den Betrieb und an eine Kollektivvereinbarung gebunden, der Nutzen ist aber betriebsuebergreifend und personengebunden. Daraus folgt eine doppelte Luecke: Wer den Nutzen abschoepft, muss die Betroffenheitsfeststellung nicht vorlegen …",
+  "indikator": "Zugang gemeldeter sozialversicherungspflichtiger Arbeitsstellen nach Berufen (KldB 2010), Berufshauptgruppe 71 (Unternehmensfuehrung, -organisation) und 72 (Finanzdienstleistungen, Rechnungswesen, Steuerberatung), gleitender Zwoelfmonatswert …",
+  "schwelle": "Kippt bei einem Rueckgang des gleitenden Zwoelfmonats-Zugangs in den Hauptgruppen 71/72 um mehr als 20 Prozent gegenueber dem Mittel 2025/2026 bei gleichzeitig stabilem oder steigendem Zugang in 81/83 - dann waere die Verschiebung berufsstrukturell und nicht konjunkturell …",
+  "quelleInd": "Statistik der Bundesagentur fuer Arbeit, monatliche Tabellen 'Gemeldete Arbeitsstellen nach Berufen' im Themenbereich Arbeitsmarkt (statistik.arbeitsagentur.de) …",
+  "taetigkeiten": [
+   {
+    "t": "Pruefung des Qualifizierungsgeld-Antrags im Arbeitgeber-Service: Abgleich der vorgelegten betriebsbezogenen Regelung oder des Tarifvertrags mit der Schwelle von 20 Prozent der Belegschaft (a …",
+    "a": 6,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Nachkodierung von Stellenanzeigen- und Taetigkeitstexten auf die Klassifikation der Berufe 2010 (KldB) in genau den Faellen …",
+    "a": 25,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Pruefung des Bildungsgutscheins vor Ausgabe gegen Zielberuf, AZAV-Zulassung, Massnahmekostensatz (B-DKS) und hinterlegte Eingliederungsquote des Traegers in der Massnahmedatenbank",
+    "a": 8,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Erstellung der Ressortabstimmungs- und Kabinettvorlagen sowie der Antwortentwuerfe auf Kleine Anfragen im Referat …",
+    "a": 18,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Bewertung, ob ein im gefoerderten Betrieb eingesetztes KI-System als Hochrisiko-System im Beschaeftigungskontext (Anhang III Nr. …",
+    "a": 5,
+    "e": "neu entstanden"
+   }
+  ],
+  "falsifikator": "Meine Einschaetzung faellt am schnellsten, wenn die monatliche BA-Statistik der gemeldeten Arbeitsstellen im Verlauf von 2027 zeigt, dass der gleitende Zwoelfmonats-Zugang in den Berufshauptgruppen 71 und 72 um mehr als 20 Prozent unter den Stand 2025/2026 faellt …",
+  "kreuzungsjahr": "nicht vor 2035",
+  "sortJahr": 2035,
+  "kjBegruendung": "Rechnerischer Vergleich der beiden Kurven aus M1, Angaben in Prozentpunkten der heutigen VZAE je Jahr (Schaetzung). Verdraengung, mit dem im Faktenkern festgehaltenen spaeten Anlauf - nahezu die gesamte Szenariodivergenz entsteht erst nach 2027: 2026 0,3; 2027 0,7; 2028 1,4; 2029 2,4; 2030 3,2 (Summe 8,0). …",
+  "bbg": "gegenlaeufig",
+  "beitrag": 31,
+  "steuer": 29,
+  "weg": 40,
+  "kanaele": [
+   5,
+   55,
+   15,
+   25
+  ],
+  "kiEntbehrlich": 8,
+  "demografisch": 17,
+  "einstieg": "Die Einstiegsentgelte fielen nominal nicht, weil der TV-BA sie setzt - der Effekt verschoebe sich in die Eingruppierung: Der Berufseinstieg faende nicht mehr auf der Taetigkeitsebene IV der Sachbearbeitung statt, sondern auf V oder VI im Servicebereich …",
+  "ausbildung": "Die Zahl der Studien- und Ausbildungsplaetze waere die erste Stellschraube, die gezogen wuerde, weil sie als einzige ohne Personalabbau, ohne Beteiligung des Personalrats und innerhalb eines Haushaltsjahres wirkt - eine Kuerzung der jaehrlichen Anfaengerzahlen an der Hochschule der BA um etwa ein Drittel waere der wahrscheinlichste erste sichtbare Schritt und wuerde die Altersl …",
+  "zuwanderung": "Im eigenen Feld naeherte sich der Zuwanderungsbedarf null, weil Laufbahn-, Sprach- und teils Staatsangehoerigkeitsvoraussetzungen die Rekrutierung ohnehin binnenmarktnah halten - der Zuwanderungsbezug meines Feldes bliebe ein Aufgaben-, kein Rekrutierungsposten: weniger eigene Stellen bei gleichzeitig steigender Zahl von Anerkennungs- …",
+  "verhandlung": "Die Beschaeftigten verloeren die Knappheitspraemie, die heute Wiederbesetzung erzwingt, und die Auseinandersetzung wanderte vom Entgelt in die Mitbestimmung - konkret in die Beteiligung bei der Einfuehrung technischer Einrichtungen zur Leistungs- und Verhaltenskontrolle nach Paragraph 75 Abs. …",
+  "gegenkraft": "Die staerkste Gegenkraft ist nicht die Technik und nicht der Personalrat, sondern die Rechtsform des Ergebnisses. Jede Leistungsentscheidung meines Feldes ist ein Verwaltungsakt mit Anhoerungs-, Begruendungs- und Ermessenspflicht und voller gerichtlicher Ueberpruefbarkeit; Artikel 22 DSGVO und die Hochrisikoeinstufung des Zugangs zu oeffentlichen Leistungen im AI Act verlangen wirksame menschliche Aufsicht. …",
+  "quellen": 4,
+  "status": "gueltig"
+ },
+ {
+  "id": "H02",
+  "name": "Kommissionsbeamtin",
+  "feld": "EU-Digitalpolitik",
+  "hemmnis": "Die haushalts- und genehmigungsrechtliche Zusagekette: Der ueberwiegende Teil der oeffentlichen Kofinanzierung fuer die AI Gigafactories liegt im naechsten Mehrjaehrigen Finanzrahmen (2028-2035), der 2027 noch nicht beschlossen ist, waehrend die Konsortien bereits Anfang 2027 langlaufende Vertraege zeichnen sollen - und die beihilferechtliche Genehmigung setzt eine definierte Mittelherkunft voraus.",
+  "warumBindend": "Chips, Standorte und Privatkapital sind nach Lage der Interessenbekundungen (77 Vorschlaege aus 16 Mitgliedstaaten an 60 Standorten) nicht der Engpass; kein Zweckvehikel unterschreibt jedoch eine Abnahme- und Betriebsverpflichtung ueber mehr als ein Jahrzehnt gegen eine Zusage, die haushaltsrechtlich noch nicht existiert …",
+  "wirkdauer": 4,
+  "aufloesung": "Es loeste sich auf, wenn (a) der naechste Finanzrahmen mit einer zweckgebundenen, mehrjaehrig verpflichtungsfaehigen Compute-Linie beschlossen wuerde und (b) bis dahin eine Ueberbrueckung durch ein Erstverlust- oder Garantieinstrument der Union - konstruktiv nach dem Muster der InvestEU-Garantie - die Zusagelucke zwischen Vergab …",
+  "bricht": "Das Betriebsmodell 'nationales HPC-Zentrum als Konsortialfuehrer mit Industrieanhang' haelt bis 2030 nicht stand - konkret die zeitscheibenbasierte Zuteilung von Rechenzeit durch Peer-Review-Gremien mit Stichtagen, Antragsbearbeitung von zehn Arbeitstagen fuer Large-Scale-Zugang und Zuteilungen mit Hoechstdauer von zwoelf Monaten. …",
+  "traegtKosten": "Die Umstellungskosten traegen die Mitgliedstaaten ueber ihre nationalen EuroHPC-Beitraege und die Standortregionen ueber Netzanschluss, Flaeche, Wasser und Verkehrsanbindung; hinzu kommt die Unionsseite mit bis zu 10 Mrd. …",
+  "schoepftNutzen": "Den unmittelbaren Nutzen schoepfen die Beschleuniger- und Systemlieferanten sowie die Anbieter des Softwarestapels ab, die zum ueberwiegenden Teil ausserhalb der Union sitzen, und die privaten Konsortialpartner, deren Investition durch die oeffentliche Abnahmezusage entrisikiert wird. …",
+  "luecke": "Die Union finanziert die Kapitalseite der Infrastruktur, erhaelt aber selbst keinen Ertragsanteil und keine Rechte am Modell- und Software-Bestand, der auf dieser Infrastruktur entsteht; die Beschaffungshebel der Union wirken auf Zugang, nicht auf Eigentum. …",
+  "indikator": "Anteil der an industrielle Nutzer (nicht Forschung/Akademie) vergebenen GPU-Stunden an den AI Factories, ergaenzt um die mittlere Zeit bis zur Kapazitaetszuteilung je Zugangsmodus - beides Kennzahlen …",
+  "schwelle": "Bliebe der industrielle Anteil im Bericht fuer 2027 unter 20 Prozent und die mittlere Zuteilungszeit im Large-Scale-Zugang bei zehn Arbeitstagen oder darueber, waere das Souveraenitaetsbruch-Muster wahrscheinlich: Europa baute Kapazitaet …",
+  "quelleInd": "EuroHPC Joint Undertaking, Consolidated Annual Activity Report (jaehrlich, in der Regel im zweiten Quartal fuer das Vorjahr) sowie die Zugangsstatistiken zu den AI-Factories-Zugangsmodi auf eurohpc-ju …",
+  "taetigkeiten": [
+   {
+    "t": "Erstellung und Pflege der Bewertungsraster fuer die Angebote der AI-Gigafactory-Konsortien (Ausschreibung mit Frist 12.11.2026) samt Abgleich der eingereichten Standort- …",
+    "a": 15,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Beihilferechtliche Vorabstimmung der nationalen Kofinanzierungsanteile mit der Wettbewerbsdienststelle (Notifizierungsentwuerfe, Abgrenzung AGVO/IPCEI, Beihilfeintensitaet je Standort)",
+    "a": 12,
+    "e": "unveraendert"
+   },
+   {
+    "t": "Redaktion und Konsolidierung der interinstitutionellen Vierspalten-Dokumente (Kommissionsvorschlag / Ratsallgemeine Ausrichtung / EP-Bericht / Kompromiss) zum Cloud and AI Development Act …",
+    "a": 18,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Beantwortung schriftlicher parlamentarischer Anfragen und Buergerbriefe zu Rechenzentren, Gigafactory-Standortwahl und AI Act im dienstwegegebundenen Freigabeverfahren (Entwurf …",
+    "a": 10,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Vierteljaehrliches Monitoring der Nutzungsdaten der 19 AI Factories und 13 Antennen (vergebene GPU-Stunden je Zugangsmodus, Wartezeiten …",
+    "a": 8,
+    "e": "neu entstanden"
+   }
+  ],
+  "falsifikator": "Wenn zur Angebotsfrist am 12. November 2026 weniger als fuenf Angebote mit belastbarem Netzanschluss- und Finanzierungsnachweis eingingen oder die Vergabe Anfang 2027 auf weniger als drei Standorte schrumpfte - erkennbar an der Vergabebekanntmachung des EuroHPC-Gemeinsamen Unternehmens - …",
+  "kreuzungsjahr": "2032",
+  "sortJahr": 2032,
+  "kjBegruendung": "Rechnerisch zunaechst: bis 2030 stehen rund 8 % KI-entbehrliche VZAe gegen rund 12 % demografischen Abgang, also 1,6 gegen 2,4 Prozentpunkte jaehrlich - die Kurven kreuzen sich bis 2030 NICHT. …",
+  "bbg": "Entgelt rutscht ueber die Beitragsbemessungsgrenze",
+  "beitrag": 2,
+  "steuer": 8,
+  "weg": 90,
+  "kanaele": [
+   5,
+   30,
+   30,
+   35
+  ],
+  "kiEntbehrlich": 8,
+  "demografisch": 12,
+  "einstieg": "Die Einstiegsbezuege der Gruppen AD5 und AST3 sind statutarisch festgesetzt und wuerden nicht sinken; die Absenkung liefe ueber die Statusgruppe statt ueber den Tarif, also ueber eine Verschiebung von Beamtenposten hin zu befristeten Vertragsbediensteten der Funktionsgruppen II und III und zu Dienstleistungsvertraegen - gleiche Arbeit, niedrigere Eingruppierung …",
+  "ausbildung": "Die Eintrittsschleuse - das Blue-Book-Praktikum in zwei Runden pro Jahr und die generalistischen AD5-Auswahlverfahren - wuerde nicht abgeschafft, sondern umgewidmet: weniger generalistische Reservelisten fuer Politikentwurf, mehr Fachprofile fuer Netzanschluss, Energiemarkt, Vergabe- und Beihilferecht, und eine sinkende Umwandlungsquote vom Praktikum in einen Vertrag …",
+  "zuwanderung": "Der fuer mein Feld einschlaegige Zustrom ist die Rekrutierung aus den Mitgliedstaaten unter dem Gebot geografischer Ausgewogenheit; er faellt dort weg, wo Textarbeit war, bleibt aber bei Rechenzentrums-, Netzanschluss- und Strommarktkompetenz bestehen …",
+  "verhandlung": "Formal bliebe sie durch die statutarische Unkuendbarkeit stark, real verlagerte sich Macht innerhalb des Feldes: von denen, die Texte erzeugen, zu den wenigen, die zeichnen, Vergabeentscheidungen verantworten und den Modellzugang kontrollieren - und die Ausweichdrohung der einzelnen Referentin schwaecht sich ab …",
+  "gegenkraft": "Die staerkste Gegenposition richtet sich gegen meine eigene Kreuzungsjahr-Antwort und lautet: In dieser Verwaltung bestimmt nicht die Entwurfszeit die Stellenzahl, sondern die Zahl der Freigabepunkte und der Rechtsbestand - und beide wachsen. Drei Punkte, der dritte ist der unbequemste. …",
+  "quellen": 4,
+  "status": "mit Vorbehalt"
+ },
+ {
+  "id": "I02",
+  "name": "Bürgermeisterin",
+  "feld": "Kommune mit Rechenzentrum",
+  "hemmnis": "Die kommunale Bauleitplanung als Ratsentscheidung: fehlende Privilegierung von Rechenzentren im Aussenbereich nach Paragraf 35 BauGB, verbunden mit der vollen Abwaegungspflicht nach Paragraf 1 Abs. 7 BauGB und der Planungshoheit nach Art. 28 Abs. 2 GG. Jeder Standort ist ein eigener Einzelfall mit eigenem Verfahren und eigener Ratsmehrheit.",
+  "warumBindend": "Es dominiert, weil es allen anderen Hemmnissen zeitlich vorgelagert ist und weil es sich nicht kaufen laesst. Kapital, Nachfrage, Bauunternehmen und in meinem Fall sogar ein Netzanschlussangebot lagen vor, bevor das Verfahren begann. Was fehlte, war eine Mehrheit. …",
+  "wirkdauer": 5,
+  "aufloesung": "Zweierlei muesste konjunktivisch zusammenkommen. Erstens eine bundes- oder landesrechtliche Verfahrensbeschleunigung mit gesetzlicher Zweckbestimmung fuer Rechenzentren - etwa eine Einstufung als Anlage im ueberragenden oeffentlichen Interesse nach dem Vorbild des Paragraf 2 EEG oder eine Teilprivilegierung im Aussenbereich mit …",
+  "bricht": "Zwei konkrete Dinge halten bis 2030 nicht stand. Erstens die Lohnsummenzerlegung nach Paragraf 29 Abs. 1 Nr. 1 GewStG als Verteilungslogik fuer kapitalintensive Betriebe - und mit ihr die Haushaltslage genau einer Gemeindeklasse: der Sitzgemeinde des Betreibers. …",
+  "traegtKosten": "Die Standortgemeinde und ihre Einwohner, und zwar sofort und oertlich. Verfahrenskosten fuer den vorhabenbezogenen Bebauungsplan mit Schall-, Artenschutz-, Wasser-, Verkehrs- und Klimagutachten (nach meiner Schaetzung 250.000 bis 600.000 EUR je Verfahren …",
+  "schoepftNutzen": "Erstens der Betreiber und sein Infrastrukturfonds. Zweitens nach geltendem Recht bis einschliesslich Erhebungszeitraum 2026 die Sitzgemeinde des Betreibers, die weder Flaeche noch Laerm noch Verfahren getragen hat. …",
+  "luecke": "Die Belastung ist sofort, oertlich, sichtbar und personenbezogen; der Ertrag ist verzoegert, anteilig, unsichtbar und durch den Finanzausgleich weitgehend nivelliert. Paragraf 29 Abs. 1 Nr. …",
+  "indikator": "Gewerbesteuer-Istaufkommen je Einwohner in Rechenzentrums-Standortgemeinden der Groessenklasse unter 20.000 Einwohnern im ersten Jahr der Neuzerlegung (Erhebungszeitraum 2027), gemessen als Vielfaches des Landesdurchschnitts derselben Gemeindegroessenklasse. …",
+  "schwelle": "Kippunkt: Weist eine Standortgemeinde mit mindestens 50 MW angeschlossener nicht redundanter Nennanschlussleistung im Erhebungszeitraum 2027 kein Gewerbesteuer-Istaufkommen je Einwohner von mindestens dem Zweifachen des Landesdurchschnitts ihrer Groessenklasse aus …",
+  "quelleInd": "Realsteuervergleich des Statistischen Bundesamtes (Statistischer Bericht, EVAS 71231, jaehrlich, Gemeindeebene ueber GENESIS-Online und das Statistikportal der Statistischen Aemter des Bundes und der …",
+  "taetigkeiten": [
+   {
+    "t": "Plausibilisierung der Gewerbesteuer-Zerlegungsbescheide des Betriebsfinanzamts gegen die beim Netzbetreiber angemeldete nicht redundante elektrische Nennanschlussleistung je Betriebsstaette …",
+    "a": 2,
+    "e": "neu entstanden"
+   },
+   {
+    "t": "Sichtung und Verbescheidung der Einwendungen aus der frueheren und der foermlichen Oeffentlichkeitsbeteiligung nach Paragraf 3 Abs. …",
+    "a": 12,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Fortschreibung der mittelfristigen Ergebnis- und Finanzplanung mit Simulation der Steuerkraftmesszahl und der Kreisumlage bei sprunghaften Gewerbesteuer-Vorauszahlungen eines einzigen Grossb …",
+    "a": 8,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Verhandlung und Abfassung des staedtebaulichen Vertrags nach Paragraf 11 BauGB - Folgekostenregelung, Abwaermeabnahmeverpflichtung gegenueber den Stadtwerken, Ausgleichsflaechen …",
+    "a": 6,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Ortstermine und Einwohnersprechstunde zu Kuehlanlagenlaerm, monatlichen Notstromdiesel-Probelaeufen und Trafobrummen in der angrenzenden Wohnbebauung - die Schlichtung am Gartenzaun …",
+    "a": 5,
+    "e": "unveraendert"
+   }
+  ],
+  "falsifikator": "Meine Einschaetzung faellt am schnellsten, wenn im parlamentarischen Verfahren zu Paragraf 29 Abs. 1 Nr. 4 GewStG-E eine laenderrechtliche Flankierung hinzukaeme, die die Rechenzentrums-Gewerbesteuer befristet aus der Steuerkraftmesszahl des kommunalen Finanzausgleichs herausnaehme - vergleichbar mit dem …",
+  "kreuzungsjahr": "nicht vor 2035",
+  "sortJahr": 2035,
+  "kjBegruendung": "Rechnerisch: bis 2030 rund 6 % KI-entbehrliche VZAe gegen rund 22 % demografische Abgaenge, bei 9 % heute unbesetzten Stellen. Das sind jaehrlich rund 1,4 % Verdraengung gegen rund 5,2 % Abgang - die Kurven laufen ueber den gesamten Zeitraum um den Faktor 3,7 auseinander. …",
+  "bbg": "gegenlaeufig",
+  "beitrag": 30,
+  "steuer": 32,
+  "weg": 38,
+  "kanaele": [
+   10,
+   30,
+   25,
+   35
+  ],
+  "kiEntbehrlich": 6,
+  "demografisch": 22,
+  "einstieg": "Die TVoeD-Tabellenwerte selbst faellt niemand an, weil sie tarifvertraglich und nicht marktlich gesetzt sind - was zuerst verschwindet, sind die Umgehungen des Tarifs: die Stufenvorweggewaehrung nach Paragraf 16 Abs. …",
+  "ausbildung": "Heute bilde ich Verwaltungsfachangestellte und duale Studierende deutlich ueber Bedarf aus, weil das der einzige verlaessliche Zugangsweg ist, und uebernehme faktisch jeden; endet der Mangel, faellt die Uebernahmequote auf den echten Bedarf, und der Ausbildungsplatz wird im Stellenplan zu genau der Position …",
+  "zuwanderung": "In der hoheitlichen Kernverwaltung war der Zuwanderungsbedarf nie gross, weil Beamtenstellen nach Paragraf 7 BeamtStG an die Staatsangehoerigkeit und alle Stellen faktisch an verhandlungssicheres Deutsch im Ratssaal und am Gartenzaun gebunden sind - er endet hier also nicht, er hat kaum begonnen …",
+  "verhandlung": "Die Verhandlungsposition der einzelnen Beschaeftigten ist tarifgebunden und bewegt sich erst ueber zwei Tarifrunden, aber der individuelle Hebel bricht sofort weg: Heute verhandelt meine Bauamtsleitung mit einem Gegenangebot der Kreisverwaltung oder eines Planungsbueros in der Tasche, und ich muss liefern …",
+  "gegenkraft": "Die staerkste Gegenposition zu meiner eigenen Antwort ist nicht, dass KI mehr kann als ich glaube, sondern dass sie in meinem Feld gar nicht die handelnde Kraft ist. Drei Einwaende, jeder einzelne stark genug, meine M4-Antwort umzuwerfen. Erstens der Haushalt: Meine gesamte Rechnung unterstellt, dass Stellen nur dann wegfallen, wenn die Aufgabe wegfaellt. In einer Kommune ist das falsch. Faellt Paragraf 29 Abs. …",
+  "quellen": 3,
+  "status": "gueltig"
+ },
+ {
+  "id": "J02",
+  "name": "ML-Engineer",
+  "feld": "Industrieanwendung",
+  "hemmnis": "Brownfield-Datenlücke: das Fehlen maschinenlesbarer, semantisch annotierter Prozess- und Fehlerdaten aus Bestandsanlagen — konkret fehlende Fehlerlabels je Anlage, Produkt und Werkzeugstand sowie uneinheitliche, undokumentierte Tag-Semantik in gewachsenen OT-Landschaften.",
+  "warumBindend": "Es dominiert Recht, Qualifikation, Finanzierung und Compute, weil alle anderen Hemmnisse mit Geld oder Zeit adressierbar sind: Modelle kann man einkaufen, Inferenz mieten, Juristen und MLOps-Leute bezahlen, Genehmigungen abwarten. …",
+  "wirkdauer": 6,
+  "aufloesung": "Es fiele, wenn die semantische Datenschnittstelle zur Lieferbedingung würde: verbindliche OPC-UA-Companion-Spec- und AAS-Konformität als Abnahmekriterium im Einkauf der grossen Anwenderindustrien …",
+  "bricht": "Zwei Dinge halten nicht bis 2030. Erstens das Geschäftsmodell des projektbasierten KI-Piloten: das sechs- bis zwölfwöchige Proof-of-Concept-Projekt auf einem exportierten CSV-Auszug, verkauft in Tagessätzen, mit Abschlussdemo im Notebook und ohne Betriebskostenposition im Angebot. …",
+  "traegtKosten": "Das anwendende Industrieunternehmen: Instrumentierung und Retrofit der Bestandsanlagen, Historian- und MES-Schnittstellenlizenzen, das Integrationsprojekt selbst und vor allem der Dauerbetrieb (Monitoring, Drift-Erkennung, Re-Training, Nachlabeln). …",
+  "schoepftNutzen": "Drei Stellen. Erstens der Modell- und Cloud-Anbieter, dessen Inferenz- und Plattformumsatz ab Tag eins planbar anfällt, unabhängig davon, ob der Anwendungsfall je einen Deckungsbeitrag erzeugt. Zweitens der Automatisierungs- und MES-Anbieter, der die Schnittstelle als Lizenzposition verkauft. …",
+  "luecke": "Der Datenerheber ist nicht der Datenverwerter. Die Lernkurve entsteht am Werkstück im deutschen Werk, monetarisiert wird sie als wiederkehrender Plattform- und Inferenzumsatz beim Anbieter und als Preisnachlass beim Abnehmer. …",
+  "indikator": "Der Anteil der Industrieunternehmen, die 'fehlende Expertise, um KI in bestehende Prozesse zu integrieren' als Hemmnis nennen, gemeinsam gelesen mit dem Anteil, der KI in der Produktion tatsächlich einsetzt (nicht plant) …",
+  "schwelle": "Kippt zu substantial/extreme, wenn bis zur Erhebung 2028 die Nennung des Integrationshemmnisses von 42 auf unter 25 Prozent fällt UND der produktive Einsatz in der Produktion über 65 Prozent steigt …",
+  "quelleInd": "Bitkom Research / Bitkom e. V., Presseinformation zur Industrie-4.0- bzw. KI-in-der-Produktion-Befragung, jeweils im Frühjahr (zuletzt 27.03.2025: 42 Prozent Einsatz, 42 Prozent Integrationshemmnis …",
+  "taetigkeiten": [
+   {
+    "t": "Schreiben und Pflegen von Konnektoren und Parsern für Maschinendaten aus SPS-Steuerungen und Historian-Tags ohne Semantik (Tag-Namen der Art 'M3_Temp_Ist_2') und deren Mapping auf OPC-UA-Com …",
+    "a": 25,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Labeln und Nachlabeln von Fehlerbildern für die optische Inline-Qualitätsprüfung, einschliesslich Schlichtung strittiger Pseudofehler zwischen Bildverarbeitung und Schichtführung an der Lini …",
+    "a": 20,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Manuelles Auslösen von Re-Training und Nachjustieren von Alarmschwellen nach Rezeptur-, Chargen- oder Werkzeugwechsel (Concept Drift bei Produktwechsel)",
+    "a": 15,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Bau von Notebook-Prototypen für Fachbereichs-PoCs auf exportierten CSV-Auszügen (Zeitreihenprognose, Ausschussklassifikation) bis zur Management-Demo",
+    "a": 15,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Erstellung des Modell-Freigabedossiers für die werksinterne Abnahme: Drift-Monitoring-Definition, definierte Rückfallebene auf die bisherige Regelung …",
+    "a": 10,
+    "e": "neu entstanden"
+   }
+  ],
+  "falsifikator": "Meine Einschätzung wäre am schnellsten widerlegt, wenn Modelle 2027/2028 brauchbare Fehlerklassifikation auf Bestandsanlagen OHNE anlagenspezifisches Labeling lieferten — also nachweisbare Zero-Shot- oder Few-Shot-Übertragung über Anlagen- …",
+  "kreuzungsjahr": "2029",
+  "sortJahr": 2029,
+  "kjBegruendung": "Pfadrechnung, nicht Endstandsvergleich. Demografische Linie: flach bei rund 1,6 % der Beschaeftigung pro Jahr (M1b: 8 % ueber fuenf Jahre), weil mein Feld jung ist - das ist der eigentliche Grund fuer ein frueheres Kreuzen und nicht eine starke KI-Wirkung. …",
+  "bbg": "Entgelt rutscht ueber die Beitragsbemessungsgrenze",
+  "beitrag": 25,
+  "steuer": 43,
+  "weg": 32,
+  "kanaele": [
+   30,
+   10,
+   35,
+   25
+  ],
+  "kiEntbehrlich": 10,
+  "demografisch": 8,
+  "einstieg": "Die bezahlte Einstiegsstufe meines Feldes - der Data Scientist, der auf einem CSV-Auszug ein Prognose- oder Klassifikationsnotebook bis zur Management-Demo baut - verschwindet als eigene Stelle, und damit faellt die heutige Einstiegspraemie von rund 10 bis 15 % gegenueber dem Einstieg in die normale Softwareentwicklung auf null oder kehrt sich um: Einstiegsentgelte von 60.000 b …",
+  "ausbildung": "Mein Feld hat keine duale Ausbildung; das Aequivalent sind Werkstudenten-, Praktikums- und Traineestellen sowie duale Data-Science-Studiengaenge, und genau diese werden zuerst gestrichen, weil ihre produktive Leistung - Prototypen bauen und Fehlerbilder labeln - der am klarsten automatisierte Block ist …",
+  "zuwanderung": "Der Zuwanderungsbedarf fuer das reine Modellprofil (Blue-Card-Rekrutierung von ML-Spezialisten ohne Anlagenbezug) faellt nach meiner Schaetzung um die Haelfte bis zwei Drittel, waehrend er fuer die Kombination OT-/SPS-/Verfahrenswissen plus ML nicht faellt, sondern ueberhaupt nicht durch Zuwanderung deckbar ist …",
+  "verhandlung": "Die Verhandlungsposition spaltet sich: Der generische ML-Engineer verliert sie, weil er mit Agenten-Tooling austauschbar wird und weil Gegenangebote aus dem Dienstleistersegment wegfallen, waehrend die Person, die die undokumentierte Tag-Semantik und die Fehlerhistorie einer konkreten Linie im Kopf hat, sie gewinnt - nur ist diese Person in der Regel nicht der ML-Engineer …",
+  "gegenkraft": "Die staerkste Gegenposition richtet sich gegen die Annahme, auf der meine gesamte Rechnung steht: dass die Brownfield-Datenluecke bis 2030 bindend bleibt. Sie koennte in drei Jahren verschwinden, und zwar genau dort, wo ich sie fuer haltbar erklaert habe. …",
+  "quellen": 3,
+  "status": "gueltig"
+ },
+ {
+  "id": "J04",
+  "name": "Robotik-Ingenieur",
+  "feld": "Systemintegration",
+  "hemmnis": "Der Sicherheitsnachweis fuer adaptiv lernende Robotersteuerungen: Eine Manipulationspolitik aus einem Vision-Language-Action-Modell laesst sich nach heutigem Stand nicht in einen Performance Level nach EN ISO 13849-1 ueberfuehren, weil dafuer eine deterministisch verifizierbare Fehlerrate je Sicherheitsfunktion verlangt wird. Ohne diesen Nachweis kaeme keine CE-Konformitaetserklaerung fuer die Zelle zustande.",
+  "warumBindend": "Die konkurrierenden Hemmnisse in meinem Feld - Qualifikation, Interoperabilitaet der Feldbusse, Altsteuerungen, Beschaffungszyklus, Mitbestimmung nach Paragraph 87 BetrVG - sind Geld- und Zeitprobleme; sie verteuern und verzoegern, aber sie verbieten nichts. …",
+  "wirkdauer": 7,
+  "aufloesung": "Normative Anerkennung eines Safety-Envelope-Architekturmusters: eine zertifizierte, deterministische Ueberwachungsschicht begrenzt Kraft, Geschwindigkeit, Impuls und Arbeitsraum hart in Hardware, waehrend die gelernte Planungsschicht darunter frei agieren darf und sicherheitstechnisch als nicht vertrauenswuerdig gilt. …",
+  "bricht": "Das Stundengeschaeft des mittelstaendischen Systemintegrators mit 30 bis 80 Beschaeftigten, der je Roboterzelle typischerweise zweihundert bis vierhundert Ingenieurstunden Online-Programmierung und Applikationsanpassung abrechnet und damit sein Deckungsbeitragsgeruest traegt. …",
+  "traegtKosten": "Zwei Parteien. Erstens der Betreiber: Umbau der Zelle, Stillstand der Linie waehrend der Umruestung, erneute Risikobeurteilung und Abnahme, in regulierten Fertigungen zusaetzlich die vollstaendige Requalifizierung der Anlage (IQ/OQ/PQ) nach jeder Aenderung an der Steuerung …",
+  "schoepftNutzen": "Der Anbieter der Steuerungs- und Modellschicht, ueberwiegend ausserhalb Europas, und zwar zunehmend ueber eine wiederkehrende Lizenz je Roboterarm und Jahr statt ueber den Einmalkauf. …",
+  "luecke": "Der Betreiber tauscht eine einmalige, aktivierbare und ueber Jahre abzuschreibende Investition gegen eine laufende, nicht aktivierbare Betriebskostenposition, deren Preis er nach der Umstellung nicht mehr kontrolliert, weil die Zelle ohne die Modellschicht nicht mehr laeuft. …",
+  "indikator": "Jaehrliche Neuinstallationen von Industrierobotern in Deutschland (Stueck pro Jahr), sekundaer der im selben Bericht ausgewiesene Anteil kollaborativer Installationen. …",
+  "schwelle": "Kippt nach oben, wenn die deutschen Neuinstallationen im Berichtsjahr 2027 oder 2028 ueber 34.000 Einheiten pro Jahr steigen, also mehr als ein Viertel ueber das Niveau 2024 und ueber den bisherigen Rekord hinaus - dann setzte die physische Substitution tatsaechlich ein und die Kapitalseite investie …",
+  "quelleInd": "International Federation of Robotics, World Robotics - Industrial Robots, jaehrlich im Oktober, mit Laenderkapitel Deutschland (ifr.org) …",
+  "taetigkeiten": [
+   {
+    "t": "Online-Teach-in am Handbediengeraet: Anfahren und Speichern der Bahnstuetzpunkte einer Roboterzelle, Orientierungskorrektur am Werkzeugmittelpunkt (TCP) …",
+    "a": 28,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Pflege der Greifpunkt- und CAD-Matching-Datenbank fuer Bin-Picking: Anlegen der Lagehypothesen je Bauteil, Definition kollisionsfreier Anfahrvektoren aus der Kiste …",
+    "a": 14,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Nachziehen der Pruefschwellen an der Machine-Vision-Station bei Chargen-, Material- oder Lieferantenwechsel (Pseudoausschuss-Tuning) einschliesslich Nachweis der Messmittelfaehigkeit fuer di …",
+    "a": 12,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Risikobeurteilung und Sicherheits-Validierungsbericht der Zelle nach EN ISO 10218-2: Zuordnung eines Performance Level je Sicherheitsfunktion …",
+    "a": 15,
+    "e": "unveraendert"
+   },
+   {
+    "t": "Teleoperations-Demonstrationsschichten am Zwillingsaufbau: Ein Mensch fuehrt die Manipulation per Fuehrungsgriff oder Exoskelett-Eingabe mehrere hundert Mal aus …",
+    "a": 6,
+    "e": "neu entstanden"
+   }
+  ],
+  "falsifikator": "Der eine Sachverhalt, der meine Einschaetzung am schnellsten widerlegte: eine Baumusterpruefbescheinigung einer notifizierten Stelle oder einer DGUV-Pruefstelle fuer eine Roboterapplikation, in der eine gelernte …",
+  "kreuzungsjahr": "2030",
+  "sortJahr": 2030,
+  "kjBegruendung": "Verglichen werden die JAHRESSTROEME, nicht die kumulierten Bestaende. Demografischer Abgang: 12,9 % ueber 4,5 Jahre entsprechen im Mittel 2,9 % pro Jahr; der Strom ist nahezu konstant, steigt gegen Ende des Jahrzehnts leicht auf rund 3,1 bis 3,2 % …",
+  "bbg": "gegenlaeufig",
+  "beitrag": 22,
+  "steuer": 38,
+  "weg": 40,
+  "kanaele": [
+   20,
+   25,
+   30,
+   25
+  ],
+  "kiEntbehrlich": 14,
+  "demografisch": 13,
+  "einstieg": "Das Einstiegsgehalt des Roboterprogrammierers beim mittelstaendischen Systemintegrator - heute grob 48.000 bis 55.000 EUR und getrieben von der Knappheitspraemie, nicht von der Produktivitaet des Berufsanfaengers - duerfte ab dem Kreuzungspunkt nominal stagnieren und damit real um 8 bis 12 % bis 2033 verlieren …",
+  "ausbildung": "Der Systemintegrator streicht die Ausbildung zuerst und aus einem sehr konkreten Grund: Mechatronik-Azubis und duale Studierende wurden in diesem Geschaeftsmodell ueber genau die abrechenbaren Teach-in- und Nachjustage-Stunden querfinanziert, die als erstes automatisiert werden - faellt die Stundenbasis, verliert der Ausbildungsplatz seine Deckungsbeitragsgrundlage …",
+  "zuwanderung": "Der Zuwanderungsbedarf fuer Roboterprogrammierer und Bildverarbeitungstechniker entfaellt bis etwa 2031 weitgehend, aber er entfaellt nicht dort, wo er wirklich weh tut: Die verbleibende Engpassrolle - Risikobeurteilung, Zuordnung des Performance Level, Nachlaufwegmessung …",
+  "verhandlung": "Die Verhandlungsposition kippt nicht im Feld als Ganzem, sondern spaltet sich innerhalb desselben Betriebes: Wer am Handbediengeraet Bahnstuetzpunkte anfaehrt, verliert sie vollstaendig, weil seine Leistung im Modell liegt und nicht mehr in seinen Haenden …",
+  "gegenkraft": "DIE STAERKSTE GEGENPOSITION IST NICHT DER SICHERHEITSNACHWEIS - DAS IST MEINE EIGENE THESE UND WAERE DIE BEQUEME ANTWORT. Die staerkste Gegenkraft ist die Stueckkostenrechnung je Zelle, und sie stellt sich gegen meinen Kreuzungspunkt 2030.\\n\\nDas Argument: Physische Automatisierung hat eine Grenzkostenstruktur, die Softwareautomatisierung nicht kennt. …",
+  "quellen": 4,
+  "status": "gueltig"
+ },
+ {
+  "id": "K02",
+  "name": "Datenschutzbeauftragte",
+  "feld": "Krankenhaus",
+  "hemmnis": "Die strafbewehrte Schweigepflicht nach § 203 StGB in Verbindung mit dem Fehlen eines aufsichtlich anerkannten Anonymisierungsstandards für klinische Freitexte (Arztbrief, Verlaufsbericht, Pflegedokumentation).",
+  "warumBindend": "Dieses Hemmnis dominiert Vergütung, Interoperabilität, Beschaffungszyklus und Qualifikation, weil es als einziges persönliche Strafbarkeit des Berufsgeheimnisträgers und der Geschäftsführung auslöst und nicht durch eine Risikoabwägung geheilt werden kann. …",
+  "wirkdauer": 5,
+  "aufloesung": "Es müsste dreierlei zusammenkommen, jeweils im Konjunktiv, weil nichts davon beschlossen ist: erstens ein ausdrücklicher bundesgesetzlicher Erlaubnistatbestand, der den Betrieb von KI-Systemen durch vertraglich gebundene Dienstleister der Mitwirkung im Sinne des § 203 Abs. 3 S. …",
+  "bricht": "Die nebenamtliche 0,2-VK-Stelle des Datenschutzbeauftragten in Häusern unter rund 400 Betten – typischerweise beim Leiter QM, IT oder Medizincontrolling angesiedelt – und das daran hängende Pauschalmandat externer DSB-Kanzleien mit vier bis acht Stunden im Monat, Musterverzeichnis und jährlichem Begehungsbericht. …",
+  "traegtKosten": "Die Krankenhäuser selbst, besonders kommunale und freigemeinnützige Häuser der Grund- und Regelversorgung: DSFA-Erstellung und Vorabkonsultation, Nachverhandlung sämtlicher AV-Verträge einschließlich § 203-Abs.-4-Zusatz über die gesamte Unterauftragnehmerkette, Aufbau des KI-Verzeichnisses …",
+  "schoepftNutzen": "Die KIS- und Assistenzsystemhersteller über Lizenzmodelle je Bett, je Fall oder je Dokument, die Cloud- und Modellanbieter über die Vorleistung, und mittelbar die Kostenträger: bessere Kodierqualität und kürzere Verweildauer schlagen im lernenden DRG-System binnen zwei bis drei Kalkulationsrunden au …",
+  "luecke": "Die Lücke ist zeitlich und institutionell zugleich. Zeitlich: Compliance- und Migrationskosten fallen sofort und dauerhaft an, der Erlöseffekt ist verzögert und wird durch die Kalkulationslogik anschließend nivelliert – für das einzelne Haus bleibt der Barwert der Umstellung nach meiner Schätzung ne …",
+  "indikator": "Kumulierte Zahl der im öffentlichen Antragsregister des Forschungsdatenzentrums Gesundheit dokumentierten Forschungsvorhaben mit positiver FDZ-Entscheidung, zusammen mit der medianen Dauer von Antragseingang bis Datenauslieferung. …",
+  "schwelle": "Kippt nach unten, wenn bis Ende 2028 kumuliert weniger als rund 500 Vorhaben mit positiver Entscheidung im Register stehen oder die mediane Zeit bis zur Datenauslieferung über neun Monaten bleibt: dann ist Datenzugang die bindende Restriktion …",
+  "quelleInd": "Antragsregister des FDZ Gesundheit beim BfArM, laufend unter https://portal.forschungsdatenzentrum-gesundheit.de/antragsregister (Übersicht: https://www.forschungsdatenzentrum-gesundheit.de/infoportal …",
+  "taetigkeiten": [
+   {
+    "t": "Zusammenstellung und Freigabe von Auskünften nach Art. 15 DSGVO zur Behandlungsakte: Zusammenführung aus KIS, PDMS, RIS/PACS, Labor-LIS und Papier-/Mikrofilmarchiv …",
+    "a": 20,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Erstellung und Fortschreibung der Datenschutz-Folgenabschätzung nach Art. 35 DSGVO je Modul und je Assistenzsystem, einschließlich Schwellwertanalyse, Risikomatrix …",
+    "a": 15,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Prüfung und Nachverhandlung von Auftragsverarbeitungsverträgen mit Zusatzvereinbarung nach § 203 Abs. 4 StGB (Verpflichtung der Beschäftigten des Dienstleisters und der gesamten Unterauftrag …",
+    "a": 12,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Zweckänderungsprüfung für die Sekundärnutzung von Behandlungsdaten im hauseigenen Datenintegrationszentrum: Abgleich von MII-Broad-Consent-Status …",
+    "a": 8,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Führung des Verzeichnisses eingesetzter KI-Systeme mit Rollenbestimmung Anbieter/Betreiber nach KI-VO, Nachweis der KI-Kompetenz der klinischen Nutzer nach Art. …",
+    "a": 2,
+    "e": "neu entstanden"
+   }
+  ],
+  "falsifikator": "Meine Einschätzung wäre am schnellsten widerlegt, wenn bis Ende 2027 ein bundesgesetzlicher Erlaubnistatbestand in Kraft träte, der den Betrieb von KI-Systemen durch vertraglich verpflichtete Dienstleister ausdrücklich der Mitwirkung im Sinne des § 203 Abs. 3 S. …",
+  "kreuzungsjahr": "nie",
+  "sortJahr": 9999,
+  "kjBegruendung": "Begründung strikt aus der Tätigkeitsstruktur, nicht aus Standesinteresse. Der Kreuzungspunkt setzt voraus, dass die Prüfarbeit mit dem geprüften Objekt schrumpft. In meinem Feld skaliert sie mit der ZAHL der Verarbeitungen und Systeme, und die steigt mit jeder Automatisierung. …",
+  "bbg": "Entgelt rutscht ueber die Beitragsbemessungsgrenze",
+  "beitrag": 26,
+  "steuer": 15,
+  "weg": 59,
+  "kanaele": [
+   25,
+   20,
+   22,
+   33
+  ],
+  "kiEntbehrlich": 8,
+  "demografisch": 21,
+  "einstieg": "Die Einstiegslöhne fielen nicht, sie stiegen nominal und verschwänden zugleich als Kategorie: Die Eintrittsstelle des Feldes war bisher die Auskunfts- und Verzeichnissachbearbeitung im Band TVöD EG 9, und genau diese entfällt zuerst …",
+  "ausbildung": "Es gibt in meinem Feld keine Ausbildung, die wegfallen könnte — der Zugang läuft über Zertifikatslehrgänge und die interne Umsetzung aus QM, IT oder Medizincontrolling, und weil die einfache Zuarbeit als Lernstrecke wegfällt, kappt die Automatisierung ab etwa 2029 den hausinternen Aufstiegspfad …",
+  "zuwanderung": "Der Zuwanderungsbedarf bliebe bei praktisch null, und zwar nicht wegen KI, sondern weil die Rolle deutsches Straf- und Sozialdatenschutzrecht, die Praxis der jeweiligen Landesaufsicht und deutschsprachige Kommunikation mit Patienten, Betriebsrat und Staatsanwaltschaft verlangt — Entlastung käme über Bündelung bei inländischen Konzernstäben und Kanzleien, nicht über Anwerbung.",
+  "verhandlung": "Die Verhandlungsposition der Beschäftigten stiege, weil die Benennung nach Art. 37 DSGVO nicht delegierbar und der Abberufungsschutz nach § 38 Abs. 2 BDSG stark ist: Ein Haus ohne benannten DSB ist ab dem ersten Tag aufsichtlich angreifbar, und die konkrete Folge wäre …",
+  "gegenkraft": "Die stärkste Gegenposition kommt nicht von der KI, sondern von der Krankenhausstruktur — und sie erzeugt denselben Beschäftigungseffekt schneller und sicherer. Erstens Konsolidierung: Mit Leistungsgruppen und Vorhaltefinanzierung nach dem KHVVG dürfte die Zahl der Standorte bis 2030 spürbar sinken (Schätzung 10 bis 20 % der 1.841 Häuser, im Konjunktiv, weil die Länderumsetzung offen ist) …",
+  "quellen": 4,
+  "status": "gueltig"
+ },
+ {
+  "id": "L04",
+  "name": "Vorstand IT-Dienstleister",
+  "feld": "Systemintegration IT",
+  "hemmnis": "Die Bindung an Rollenprofile und Tagessatztabellen in laufenden Rahmenverträgen und Vergabe-Preisblättern — Abrechnung nach Personentagen je Qualifikationsstufe (Junior-Entwickler, Senior Consultant, Architekt), festgeschrieben über Laufzeiten von 24 bis 48 Monaten plus Verlängerungsoptionen.",
+  "warumBindend": "Dieses Hemmnis dominiert Haftung, Altsysteme, Mitbestimmung und Qualifikation, weil es als einziges den Anreiz invertiert statt nur die Geschwindigkeit zu bremsen. Haftung, Altsysteme und Qualifikation verzögern die Einführung; ein Produktivitätsgewinn lohnt sich trotzdem, sobald sie überwunden sind. …",
+  "wirkdauer": 4,
+  "aufloesung": "Es fiele, wenn Neuausschreibungen Preisblätter mit einer ergebnis- oder nutzungsbasierten Komponente enthielten — etwa Preis je gelöstem Ticket, je abgenommenem Funktionsumfang oder je migriertem Objekt statt je Personentag. …",
+  "bricht": "Das Onshore-Offshore-Leverage-Modell im Application Management und im Testbetrieb: ein Onshore-Servicemanager oder -Architekt, der sechs bis zehn Offshore- beziehungsweise Nearshore-Bearbeiter führt, Abrechnung nach Ticketvolumen und Personentagen, Marge aus der Differenz zwischen Onshore-Verkaufstagessatz und Offshore-Kostentagessatz mal Anzahl der Junioren. …",
+  "traegtKosten": "Der IT-Dienstleister selbst: Lizenz- und Inferenzkosten für Coding-Assistenten und Agentenplattformen je Arbeitsplatz, Aufbau von Evaluations-, Absicherungs- und Nachweisinfrastruktur für die eigene Delivery, Requalifizierung von Test- und AMS-Personal …",
+  "schoepftNutzen": "Erstens der Auftraggeber: Bei Abrechnung nach Personentagen fällt ihm der Produktivitätsgewinn automatisch und ohne Neuverhandlung zu, weil die Rechnung mit der geleisteten Zeit sinkt. …",
+  "luecke": "Der Dienstleister finanziert Investition und importierte Vorleistung und realisiert die Ersparnis nicht — sie wandert zum Kunden und zum US-Vorleister. Größenordnung als Schätzung aus der Rolle …",
+  "indikator": "Umsatz je Mitarbeiter der Top-25-Unternehmen für IT-Beratung und Systemintegration in Deutschland, gelesen gemeinsam mit der ausgewiesenen Mitarbeiterzahl derselben Unternehmen …",
+  "schwelle": "Ausgangslage 2025: Markt plus 2,9 Prozent, Top-25 IT-Beratung und Systemintegration nur plus 1,5 Prozent organisch. Kippschwellen in den Listen 2027 und 2028: (1) Umsatz je Mitarbeiter wächst in beiden Jahren um mehr als 8 Prozent bei gleichzeitig sinkender oder stagnierender Mitarbeiterzahl …",
+  "quelleInd": "Lünendonk-Listen 'Führende IT-Beratungs- und Systemintegrationsunternehmen in Deutschland' sowie 'Führende IT-Service-Unternehmen in Deutschland', jährlich im Juni auf luenendonk.de …",
+  "taetigkeiten": [
+   {
+    "t": "Erstqualifizierung und Bearbeitung von Level-1-/Level-2-Tickets im Application-Management-Service nach SLA: Symptomaufnahme im ITSM-Werkzeug, Kategorisierung …",
+    "a": 45,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Ableitung von Testfällen aus Anforderungsdokumenten und manuelle Regressionstestdurchführung vor Release-Freigabe im SAP- und Java-Umfeld …",
+    "a": 55,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Überführung eines kundenseitigen Fachgrobkonzepts in Fachfeinkonzept und technische Spezifikation als Grundlage des Festpreis-Werkvertrags …",
+    "a": 20,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Angebotskalkulation für öffentliche Ausschreibungen: Aufwandsschätzung je Rollenprofil gegen die Tagessatztabelle des Preisblatts, Erstellung des Bid-Dokuments …",
+    "a": 25,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Betrieb und Abnahme von Agenten-Pipelines beim Kunden: Aufbau eines Evaluations-Harness, Regressionsprüfung bei Prompt- und Modellversionswechseln …",
+    "a": 0,
+    "e": "neu entstanden"
+   }
+  ],
+  "falsifikator": "Wenn die Lünendonk-Listen 2028 und 2029 zeigen, dass bei den Top-25-Unternehmen für IT-Beratung und Systemintegration Mitarbeiterzahl und Umsatz je Mitarbeiter über zwei aufeinanderfolgende Jahre gemeinsam steigen — Personal plus, Produktivität plus, organisches Wachstum deutlich über 5 Prozent …",
+  "kreuzungsjahr": "2028",
+  "sortJahr": 2028,
+  "kjBegruendung": "Rechenweg: Jaehrlicher demografischer Abgang meines Feldes rund 2,6 % der Beschaeftigung (11 % ueber 4,25 Jahre, siehe M1b) - der niedrigste Wert aller Felder, weil die Belegschaft jung ist (nur 0,9 % der IT-Beschaeftigten sind 65 oder aelter, bis 2040 scheiden nur 32,5 % aus, Bitkom). …",
+  "bbg": "Entgelt rutscht ueber die Beitragsbemessungsgrenze",
+  "beitrag": 22,
+  "steuer": 52,
+  "weg": 26,
+  "kanaele": [
+   15,
+   45,
+   22,
+   18
+  ],
+  "kiEntbehrlich": 18,
+  "demografisch": 11,
+  "einstieg": "Die Einstiegsgehaelter fallen in meinem Feld nicht nominal, sondern die Einstiegsstelle wird abgeschafft und neu definiert: Das Rollenprofil 'Junior-Entwickler' und 'Testanalyst' verschwindet aus dem Preisblatt, weil sich dafuer kein Tagessatz mehr durchsetzen laesst, und wird ersetzt durch einen 'Delivery Engineer' mit Vorqualifikation in Domaene …",
+  "ausbildung": "Ein grosser Systemintegrator finanziert Ausbildungs- und Trainee-Kohorten heute aus der Delivery-Bank - der Auszubildende ist im dritten Halbjahr im AMS-Ticketbetrieb oder im Regressionstest abrechenbar; faellt diese abrechenbare Einsatzstelle weg, wird die Ausbildung vom Investitionsobjekt zur reinen Vorfinanzierung ohne Gegenbuchung …",
+  "zuwanderung": "Der Zuwanderungsbedarf meines Feldes bricht zuerst dort weg, wo er heute am groessten ist - bei Standardentwicklung, Customizing und Test, also bei genau den Blue-Card- und ICT-Profilen, die wir bisher aus Indien, der Tuerkei und Suedosteuropa geholt oder ueber Nearshore-Standorte in Polen und Rumaenien gebunden haben …",
+  "verhandlung": "Die Verhandlungsposition spaltet sich innerhalb derselben Belegschaft auf: Wer eine Kundendomaene plus persoenlich zurechenbare Freigabeverantwortung fuer eine Agenten-Pipeline haelt, verhandelt 2030 besser als heute, weil er nicht ersetzbar und zugleich haftungsrelevant ist …",
+  "gegenkraft": "Die staerkste Gegenposition gegen meine eigene Rechnung ist nicht der Hinweis auf Datenschutz oder Bedenkentraegerei, sondern die Verifikationslast in Verbindung mit dem Bestand - und sie koennte den Kreuzungspunkt vollstaendig aufheben. Erstens: Jeder automatisierte Personentag erzeugt in einem regulierten Auftragsumfeld eine nicht automatisierbare Nachweisschicht. …",
+  "quellen": 3,
+  "status": "gueltig"
+ },
+ {
+  "id": "L06",
+  "name": "Geschäftsführerin",
+  "feld": "Maschinenbau-Mittelstand",
+  "hemmnis": "Der ausbleibende Inlandsauftrag - und damit der ausbleibende Datenrücklauf aus neuen, vernetzten Anlagen im Feld. Das Hemmnis ist Finanzierung und Investitionszyklus beim Kunden, nicht Recht oder Qualifikation.",
+  "warumBindend": "Industrial AI im Maschinenbau ist nicht Textarbeit, sondern Regelungs- und Zustandsarbeit an realen Anlagen. Die Modelle brauchen Betriebs- und Prozessdaten aus Maschinen, die beim Kunden erst gekauft, vernetzt und annotiert werden müssten. …",
+  "wirkdauer": 7,
+  "aufloesung": "Ein harter Inlandsimpuls auf der Nachfrageseite - konjunkturell (anziehender Auftragseingang aus Deutschland und der Eurozone) oder fiskalisch (eine degressive Sonderabschreibung oder Investitionsprämie auf vernetzungsfähige Produktionsanlagen, die den Austauschzyklus von 15 bis 20 Jahren auf 8 bis 10 verkürzen würde …",
+  "bricht": "Der abgerechnete Vor-Ort-Serviceeinsatz mit Anfahrtspauschale und Technikerstundensatz. Im Mittelstand meiner Größenordnung trägt das After-Sales-Geschäft einen erheblichen Teil des Deckungsbeitrags, und zwar über verkaufte Stunden, nicht über verkaufte Verfügbarkeit. …",
+  "traegtKosten": "Der Maschinenbauer als OEM: Vernetzungshardware und Edge-Rechner ab Werk, Datenkuratierung nach OPC-UA-Companion-Spezifikation und Asset Administration Shell, Modellbetrieb und -aktualisierung über die gesamte Maschinenlebensdauer von 15 bis 20 Jahren …",
+  "schoepftNutzen": "Erstens der Anwenderkunde, dessen Stillstandszeiten und Ausschuss sinken, ohne dass er die Entwicklungskosten trägt. Zweitens der Software-, Plattform- und Cloudanbieter, der pro Anlage und pro Jahr Lizenz- und Laufzeitentgelt vereinnahmt - unabhängig davon …",
+  "luecke": "Ich finanziere eine Verfügbarkeitssteigerung, die ich nicht bepreisen kann, weil der Kunde sie im Kaufpreis erwartet, und ich hafte produkthaftungsrechtlich zehn Jahre und länger für das Verhalten einer Funktion, deren Basismodell ich nicht kontrolliere und nicht einfriere. …",
+  "indikator": "Die Spreizung zwischen dem Auftragseingang des Fachzweigs Robotik und Automation und dem Auftragseingang des Maschinen- und Anlagenbaus insgesamt, jeweils real und jeweils getrennt nach Inland und Ausland. …",
+  "schwelle": "Kippt nach oben, wenn der Inlandsauftragseingang Robotik und Automation in 2027 und 2028 in zwei aufeinanderfolgenden gleitenden Dreimonatsvergleichen real um mehr als 10 Prozentpunkte über dem Inlandsauftragseingang des Gesamtmaschinenbaus liegt - das wäre die Entkopplung …",
+  "quelleInd": "VDMA e.V., monatliche und quartalsweise Auftragseingangsstatistik des Maschinen- und Anlagenbaus einschließlich der Fachzweigmeldungen des Fachverbands Robotik und Automation (vdma.eu …",
+  "taetigkeiten": [
+   {
+    "t": "Variantenpflege und Mehrsprachfassung der Betriebsanleitung je Maschinenkonfiguration nach Maschinenverordnung …",
+    "a": 45,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Erstqualifizierung eines Störungstickets im Service: Auslesen der SPS-Alarmliste und der Trace-Daten aus der Kundenanlage, Abgleich mit dem Fehlerkatalog …",
+    "a": 25,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Vorkalkulation eines Sondermaschinen-Angebots im Vertriebsinnendienst: Suche nach dem nächstähnlichen abgewickelten Projekt …",
+    "a": 30,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Risikobeurteilung nach EN ISO 12100 und Zusammenstellung der technischen Unterlagen zur CE-Konformitätserklärung je Maschinenvariante durch den Konstruktions- beziehungsweise Sicherheitsinge …",
+    "a": 12,
+    "e": "unveraendert"
+   },
+   {
+    "t": "Kuratierung, Benennung und Annotation der Maschinen-Betriebsdaten nach OPC-UA-Companion-Spezifikation und Asset Administration Shell …",
+    "a": 6,
+    "e": "neu entstanden"
+   }
+  ],
+  "falsifikator": "Wenn in der VDMA-Konjunkturstatistik 2027 und 2028 der Inlandsauftragseingang anzöge und gleichzeitig die Beschäftigung in Konstruktion, Arbeitsvorbereitung und Vertriebsinnendienst der Branche absolut zurückginge, wäre meine These widerlegt. …",
+  "kreuzungsjahr": "nicht vor 2035",
+  "sortJahr": 2035,
+  "kjBegruendung": "Rechnung in Jahresraten statt in Summen. Demografie: 13 % in fuenf Jahren sind rund 2,6 % pro Jahr, und die Rate steigt noch - der Jahrgang 1964 erreicht 2031 die Regelaltersgrenze, der Peak der Abgaenge in meiner Bezugsgruppe liegt bei rund 3,0 bis 3,2 % pro Jahr in den Jahren 2029 bis 2032 (Schaetzung auf Basis der 23 % Ueber- …",
+  "bbg": "Entgelt rutscht ueber die Beitragsbemessungsgrenze",
+  "beitrag": 17,
+  "steuer": 31,
+  "weg": 52,
+  "kanaele": [
+   25,
+   30,
+   25,
+   20
+  ],
+  "kiEntbehrlich": 6,
+  "demografisch": 13,
+  "einstieg": "Die M+E-Entgelttabelle bleibt formal unberuehrt, aber die Eingruppierung neuer Innendienstler rutscht um eine Entgeltgruppe nach unten, weil genau die Einarbeitungsaufgaben wegfallen, die heute die hoehere Eingruppierung nach zwei Jahren rechtfertigen - Vorkalkulation aus Altprojekten, Variantenpflege der Betriebsanleitung, Ticketvorsortierung …",
+  "ausbildung": "Ich wuerde die kaufmaennischen und redaktionellen Ausbildungs- und Studienplaetze - Industriekaufmann, technischer Produktdesigner, duales BWL - etwa halbieren und die gewerblich-technischen - Zerspanungsmechaniker, Mechatroniker, Elektroniker fuer Automatisierungstechnik - halten oder aufstocken …",
+  "zuwanderung": "Der Bedarf sinkt in Summe kaum, er dreht die Richtung: weniger Anwerbung von Konstruktions- und Kalkulationsingenieuren ueber die akademischen Wege, mehr von Montage-, Inbetriebnahme- und reisebereiten Servicekraeften mit anerkannter Berufsausbildung - und genau dort ist die Anerkennungspraxis langsam, was mein Engpass bleibt …",
+  "verhandlung": "Die Verhandlungsmacht spaltet sich innerhalb desselben Betriebs: In der Fertigung bleibt sie hoch, weil Streikfaehigkeit an der Montagelinie haengt und nicht am Innendienst; im Angestelltenbereich faellt sie, weil ein Kalkulator ohne knappen Arbeitsmarkt kein Gegenangebot mehr vorlegen kann - fuer mich als Geschaeftsfuehrerin ist diese Spreizung betrieblich der unangenehmste Te …",
+  "gegenkraft": "Die staerkste Gegenposition richtet sich gegen meine eigene Vorrunde, und sie ist unbequem: Mein bindendes Hemmnis ist vermutlich das falsche. Ich habe den ausbleibenden Inlandsauftrag und den fehlenden Datenruecklauf aus vernetzten Anlagen zum Engpass erklaert - aber die drei Taetigkeiten mit den groessten Hebeln in meiner eigenen Liste brauchen ueberhaupt keine Felddaten. …",
+  "quellen": 3,
+  "status": "gueltig"
+ },
+ {
+  "id": "M02",
+  "name": "Geschäftsführung Scale-up",
+  "feld": "Health-Tech",
+  "hemmnis": "Vergueetungssystematik: Es fehlt ein Erstattungstatbestand fuer prozessverbessernde KI im stationaeren Bereich. NUB nach Paragraf 6 Abs. 2 KHEntgG greift nur fuer Untersuchungs- und Behandlungsmethoden am Patienten, nicht fuer Versorgungsprozess-Software; DiGA nach Paragraf 33a SGB V ist ambulant und patientenseitig.",
+  "warumBindend": "Haftung, Interoperabilitaet, Qualifikation und Mitbestimmung sind in unseren Projekten loesbar, wenn auch teuer und langsam. Die Verguetung ist es nicht, weil sie das Vorzeichen der Investitionsrechnung dreht: Effizienzgewinne innerhalb einer DRG-Fallpauschale erzeugen keinen Mehrerloes …",
+  "wirkdauer": 4,
+  "aufloesung": "Am wirksamsten waere keine neue Foerderung, sondern eine Kopplung an die Abrechnungspruefung: eine Ermaessigung der zulaessigen MD-Pruefquote nach Paragraf 275c Abs. 4 SGB V fuer Haeuser, die eine zertifizierte automatisierte Kodier- und Dokumentationspruefung einsetzen. Das waere sofort Cash beim Haus und bliebe dort. …",
+  "bricht": "Die externe Kodierberatung im Tagessatz- und Kopfmodell: Dienstleister, die Kodierfachkraefte wochenweise in Kliniken entsenden oder Nachkodierung und Kodierrevision vor Rechnungslegung als Erloessicherung verkaufen, dazu die spezialisierte Personalvermittlung von Kodierfachkraeften. …",
+  "traegtKosten": "Das einzelne Krankenhaus, und zwar vollstaendig im Jahr null bis eins: Lizenz, Schnittstellenprojekt an ein KIS, dessen Hersteller die FHIR-Anbindung als kostenpflichtiges Zusatzmodul fuehrt, Datenschutzfolgenabschaetzung, Dienstvereinbarung bzw. Mitbestimmung nach Paragraf 87 Abs. 1 Nr. …",
+  "schoepftNutzen": "Die Kostentraeger. Bessere Kodier- und Dokumentationsqualitaet senkt Rechnungskuerzungen und Aufwandspauschalen zunaechst beim Haus, wird aber ueber Katalogpflege des InEK und die Landesbasisfallwertverhandlung in den Folgejahren eingepreist …",
+  "luecke": "Das Haus finanziert eine dauerhafte Kostenposition gegen einen befristeten Erloesvorteil. Die Investition ist permanent, der Nutzen laeuft bis zur naechsten Katalogpflege oder Basisfallwertrunde und wird dann sozialisiert. …",
+  "indikator": "Verteilung der Krankenhaeuser auf die Pruefquotenstufen nach Paragraf 275c Abs. 4 SGB V, konkret der Anteil der Haeuser in der niedrigsten zulaessigen Pruefquotenstufe je Quartal. …",
+  "schwelle": "Kippt nach oben, wenn der Anteil der Haeuser in der niedrigsten Pruefquotenstufe zwischen dem ersten Quartal 2027 und dem ersten Quartal 2028 um mehr als 10 Prozentpunkte steigt, obwohl die Quotensystematik gleichzeitig verschaerft wurde (mittlere Stufe 10 auf 15 Prozent …",
+  "quelleInd": "GKV-Spitzenverband, Bereich Krankenhaeuser / Abrechnungspruefung, quartalsweise je Krankenhaus und Krankenkasse veroeffentlichte hoechstzulaessige Zahl der Abrechnungspruefungen …",
+  "taetigkeiten": [
+   {
+    "t": "Kodierung von Haupt- und Nebendiagnosen (ICD-10-GM) und Prozeduren (OPS) einschliesslich Pruefung der DKR-Konformitaet vor Rechnungslegung …",
+    "a": 55,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Erstellung des vorlaeufigen Entlassbriefs aus Verlaufsdokumentation, Pflegebericht, Labor- und Radiologiebefunden durch Assistenzaerztinnen im Stationsalltag …",
+    "a": 12,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Zusammenstellung der Stellungnahme im MD-Pruefverfahren nach Paragraf 275c SGB V: Begruendung der Behandlungsnotwendigkeit und der ueberschrittenen Verweildauer aus der Fallakte durch das Me …",
+    "a": 25,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Beantwortung der Anforderungskataloge in VgV-Verhandlungsverfahren und Wettbewerblichen Dialogen auf Bieterseite: 800 bis 1.500 Einzelkriterien je Klinikvergabe …",
+    "a": 35,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Fuehrung der Technischen Dokumentation und der Post-Market-Surveillance-Berichte nach MDR Anhang II und III plus Nachweisfuehrung fuer die Hochrisiko-Einstufung nach AI Act durch Regulatory …",
+    "a": 40,
+    "e": "neu entstanden"
+   }
+  ],
+  "falsifikator": "Wenn der Gesetzgeber oder der GKV-Spitzenverband bis Ende 2027 eine Ermaessigung der zulaessigen Pruefquote nach Paragraf 275c Abs. 4 SGB V fuer Haeuser mit zertifizierter automatisierter Kodier- und Dokumentationspruefung einfuehrte - oder ersatzweise einen dauerhaften fallbezogenen Systemzuschlag fuer Versorgungsprozess-Softwa …",
+  "kreuzungsjahr": "2032",
+  "sortJahr": 2032,
+  "kjBegruendung": "Rechnung aus M1: Verdrängung 14 % über vier Jahre, also rund 3,5 Prozentpunkte p. a.; demografischer Abgang 18 % über vier Jahre, also rund 4,5 Prozentpunkte p. a. Bis 2030 kreuzen sich die Kurven in meinem Feld also NICHT - die Demografie liegt durchgehend vorn. …",
+  "bbg": "Entgelt rutscht ueber die Beitragsbemessungsgrenze",
+  "beitrag": 14,
+  "steuer": 14,
+  "weg": 72,
+  "kanaele": [
+   25,
+   35,
+   20,
+   20
+  ],
+  "kiEntbehrlich": 14,
+  "demografisch": 18,
+  "einstieg": "Der heutige Quereinstiegsaufschlag - eine examinierte Pflegekraft, die ins Medizincontrolling wechselt, verhandelt derzeit real eine bis zwei Entgeltstufen plus Wegfall von Schicht- und Wochenendbelastung heraus - verschwindet zuerst, weil er nie tariflich verankert, sondern reine Knappheitsprämie war …",
+  "ausbildung": "Es gibt in meinem Feld keine geschützte Ausbildung, sondern einen reinen Zertifikatskursmarkt (Kammern, TÜV-Akademie, private Weiterbildungsanbieter) - und weil die Häuser die Kursgebühr und die Freistellung heute selbst tragen, streichen sie diese Kostenübernahme, bevor sie eine einzige Stelle antasten …",
+  "zuwanderung": "In dieser Gruppe war er nie relevant und sinkt deshalb auch nicht messbar - DKR-Auslegung an einer deutschsprachigen Freitextakte ist eine Sprach- und Rechtsbarriere, die Anwerbung praktisch ausschließt; was passiert, ist eine Verlagerung: Die Häuser richten ihre Anwerbebudgets vollständig auf Pflege und ärztlichen Dienst aus, wo KI in meinem Feld gerade nicht substituiert.",
+  "verhandlung": "Sie kippt von der individuellen Knappheitsrente - heute wechselt eine erfahrene Kodierfachkraft binnen Wochen und nimmt bei jedem Wechsel Geld mit, weshalb Häuser außertariflich zahlen und Dienstleister Tagessätze durchsetzen - zurück in die kollektive Ebene, wo der einzige verbleibende Hebel die Mitbestimmung nach § 87 Abs. 1 Nr. …",
+  "gegenkraft": "Die stärkste Gegenposition dreht mein eigenes Hauptargument um. Ich behaupte, die fehlende Erstattung bremse die Verdrängung. Plausibler ist das Gegenteil: Weil es keinen Erstattungstatbestand gibt, muss das Haus die Lizenz vollständig aus dem eigenen Budget rechtfertigen - und der einzige Business Case, den ein defizitärer Kaufmännischer Direktor unterschreibt, ist eine eingesparte Personalstelle …",
+  "quellen": 4,
+  "status": "gueltig"
+ },
+ {
+  "id": "M04",
+  "name": "Geschäftsführer",
+  "feld": "Handwerksbetrieb",
+  "hemmnis": "Gebrochene Datenkette: kein maschinenlesbarer Gebaeudebestand und keine durchgaengigen Stammdaten zwischen Fachgrosshandel (Datanorm/IDS-Connect), Herstellerkatalog und Handwerkersoftware",
+  "warumBindend": "Es dominiert die uebrigen Hemmnisse, weil es den erzielbaren Nutzen unter die Investitionsschwelle drueckt, statt die Nutzung zu verbieten. Haftung ist nachrangig, weil ohnehin der Meister unterschreibt und die Fachunternehmererklaerung abgibt; Qualifikation ist nachrangig, weil meine Monteure ein Tablet bedienen koennen. …",
+  "wirkdauer": 8,
+  "aufloesung": "Es faellt, wenn zweierlei zusammenkommt: ein im Grosshandel verbindlicher, vollstaendiger Stammdatenstandard mit gepflegten Montagezeiten statt freiwilliger Datanorm-Teilbestueckung, und eine digitale Bestandsdokumentation, die bei Uebergabe oder Eigentuemerwechsel des Gebaeudes verpflichtend anfaellt. …",
+  "bricht": "Die kaufmaennische Teilzeitkraft im inhabergefuehrten 10- bis 50-Mann-Betrieb, die Stundenzettel abtippt, Rechnungen schreibt und den Zahlungseingang ueberwacht: Sie wird nicht entlassen, sondern nach Renteneintritt nicht mehr nachbesetzt - in meinem Betrieb faellt diese Entscheidung 2029. …",
+  "traegtKosten": "Der Betriebsinhaber, und zwar dreifach: nutzerbezogene Software-Abos statt einmaliger Lizenz, die Stammdaten- und Bestandsdatenpflege als Dauerlast, und die Doppelerfassung waehrend der Umstellung, die als unbezahlte Abendarbeit von Meister und Buerokraft geleistet wird. …",
+  "schoepftNutzen": "Die Softwareanbieter mit wiederkehrenden Abo-Erloesen, der Fachgrosshandel durch Bestellungen direkt aus dem Kalkulationssystem und die damit erkaufte Kundenbindung, und - am meisten - die oeffentlichen und gewerblichen Auftraggeber, die schneller und billiger Vergleichsangebote bekommen.",
+  "luecke": "Der Produktivitaetsgewinn im Buero wird ueber den Angebotspreis wegkonkurriert, weil Handwerksleistung im Preiswettbewerb vergeben wird, waehrend die Abokosten je Kopf und Monat dauerhaft und unabhaengig von der Auslastung beim Betrieb bleiben. …",
+  "indikator": "Die Zahl der neu abgeschlossenen Lehrvertraege im Handwerk, aufgeteilt nach kaufmaennischen Berufen (insbesondere Kaufmann/-frau fuer Bueromanagement im Handwerk) gegenueber den gewerblich-technischen Berufen - also die Schere zwischen beiden Reihen, nicht die Gesamtzahl.",
+  "schwelle": "Kippunkt: Faellt die Zahl der kaufmaennischen Neuvertraege im Handwerk kumuliert 2026 bis 2028 um mehr als 15 Prozent, waehrend die gewerblich-technischen Neuvertraege um weniger als 5 Prozent abweichen …",
+  "quelleInd": "ZDH-Lehrlingsstatistik (zdh-statistik.de, Neuvertraege und Lehrlingsbestand, jaehrlich zum 31.12. mit Halbjahreszwischenstand), gespiegelt im BIBB-Datenreport zum Berufsbildungsbericht.",
+  "taetigkeiten": [
+   {
+    "t": "Uebertrag des Baustellen-Aufmasses in kalkulierbare LV-Positionen: Aufmassblatt nach VOB/C-Abrechnungsregeln in Angebotspositionen aus dem Datanorm-/GAEB-Katalog des Fachgrosshandels umsetze …",
+    "a": 22,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Rueckfuehrung der handschriftlichen Regieberichte und Stundenzettel der Monteure in Rechnungsstellung und Lohnabrechnung, einschliesslich Klaerung von Fahrzeit- …",
+    "a": 14,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Antrags- und Nachweisfuehrung fuer BEG-Einzelmassnahmen beim Heizungstausch: Bestaetigung zum Antrag, Fachunternehmererklaerung, hydraulischer Abgleich Verfahren B …",
+    "a": 11,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Tagesdisposition der Monteurtouren mit Nachsteuerung bei Notdiensteinsatz, fehlendem Material aus der Abholung im Grosshandel und kurzfristiger Krankmeldung",
+    "a": 18,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Installationsarbeit im bewohnten Bestandsbau: Leitungssuche in unbekanntem Wandaufbau, Stemm- und Kernbohrarbeiten, Anschluss an nicht dokumentierte Altanlagen …",
+    "a": 62,
+    "e": "unveraendert"
+   }
+  ],
+  "falsifikator": "Meine Einschaetzung faellt am schnellsten, wenn die ZDH-Lehrlingsstatistik fuer die Jahrgaenge 2027 und 2028 zeigt, dass die kaufmaennischen Neuvertraege im Handwerk um mehr als 15 Prozent einbrechen, waehrend die gewerblich-technischen stabil bleiben - dann verschwinden in meinem Feld ganze Funktionen und nicht nur Handgriffe …",
+  "kreuzungsjahr": "nie",
+  "sortJahr": 9999,
+  "kjBegruendung": "Antwort: nie - bezogen auf mein Feld als Ganzes, und das ist die unbequeme Antwort in beide Richtungen. RECHNUNG: Der demografische Abgang liegt bei rund 17 % ueber fuenf Jahre, also rund 3,4 % je Jahr, und er beschleunigt sich nach 2030 …",
+  "bbg": "Entgelt bleibt unterhalb",
+  "beitrag": 26,
+  "steuer": 55,
+  "weg": 19,
+  "kanaele": [
+   28,
+   25,
+   14,
+   33
+  ],
+  "kiEntbehrlich": 2.5,
+  "demografisch": 17,
+  "einstieg": "Die gewerblichen Einstiegsloehne fallen nicht nominal - der SHK-Gesellentarif ist gebunden -, sondern real ueber zwei bis drei Tarifrunden, indem die uebertarifliche Zulage von heute 300 bis 500 EUR und der mitgenommene Firmenwagen fuer Monteure stillschweigend einkassiert werden …",
+  "ausbildung": "Ich bilde heute mit vier Azubis auf 38 Koepfe deutlich ueber Bedarf aus, weil Nachbesetzung ueber den Markt nicht mehr gelingt; endet der Mangel, streiche ich als erstes die Ausbildungsstelle zum Kaufmann fuer Bueromanagement - die gewerblichen Lehrstellen behalte ich …",
+  "zuwanderung": "Der Bedarf verschwindet nicht, er verschiebt sich vom Buero auf die Baustelle und steigt dort weiter; der Engpass ist dabei nicht die Zahl der Bewerber, sondern die Anerkennung auslaendischer Gesellenbriefe, die Eintragung in die Handwerksrolle und die Tatsache …",
+  "verhandlung": "Die Verhandlungsposition des Monteurs bleibt stark, weil sie an seiner koerperlichen Anwesenheit in einer fremden Wohnung haengt und nicht an einer Datenlage; die der kaufmaennischen Teilzeitkraft bricht zuerst und lautlos - sie wird nicht schlechter bezahlt und nicht entlassen, sondern nach Renteneintritt nicht mehr nachbesetzt, und wo niemand mehr sitzt …",
+  "gegenkraft": "GEGENKRAFT 1 - die stärkste, weil sie meinen Mechanismus selbst angreift, nicht nur mein Ergebnis: VORFERTIGUNG. Meine gesamte Antwort steht auf der Annahme, dass die Arbeit dort bleibt, wo sie heute ist - in der Wohnung, im unbekannten Wandaufbau. Genau das ist angreifbar. …",
+  "quellen": 3,
+  "status": "gueltig"
+ },
+ {
+  "id": "N01",
+  "name": "Gewerkschaftssekretärin",
+  "feld": "Dienstleistungssektor",
+  "hemmnis": "Die erzwingbare Mitbestimmung bei Einfuehrung und Anwendung von KI-Systemen nach § 87 Abs. 1 Nr. 6 BetrVG in Verbindung mit den tariflichen Rationalisierungsschutzregeln - konkret: kein produktiver Rollout ohne Rahmen-Betriebsvereinbarung, und keine Umsetzung ohne das im Rationalisierungsschutzabkommen vorgeschriebene Verfahren (Unterrichtung, Umsetzungsangebot, Einkommenssicherung).",
+  "warumBindend": "Es dominiert Haftung, Qualifikation und Altsysteme, weil es das einzige Hemmnis ist, das der Arbeitgeber nicht durch Geld, Zukauf oder eine Auslegungsentscheidung der Aufsicht aufloesen kann: es ist ein Verfahren mit eigener Zeitachse, das notfalls ueber die Einigungsstelle laeuft. …",
+  "wirkdauer": 4,
+  "aufloesung": "Es fiele, wenn an die Stelle der betrieblichen Einzelverhandlung ein Branchentarifvertrag Transformation traete, der den Rahmen einmal zentral setzt und den betrieblichen Verfahrensweg abkuerzt - genau das ist Gegenstand der laufenden Verhandlungen in der privaten Versicherungswirtschaft, bei denen die Arbeitgeberseite am 3. …",
+  "bricht": "Die tarifliche Sachbearbeiter-Laufbahn im Versicherungsinnendienst und im Sparkassen-Backoffice haelt nicht stand - und zwar nicht oben, sondern unten: Die Eingangs- und Aufbaustufen, in denen bisher Standardvorgaenge (einfache Schadenfaelle, Bestandsaenderungen, Mahn- und Wiedervorlagelaeufe) bearbeitet und dabei die Faelle gelernt wurden, aus denen spaeter die hoeheren Gehaltsgruppen erwachsen. …",
+  "traegtKosten": "Die Beschaeftigten selbst - durch Entwertung der Taetigkeitsmerkmale, auf denen ihre Eingruppierung beruht, durch Leistungsverdichtung auf die verbleibenden schwierigen Faelle (der Durchschnittsfall wird schwerer, die Taktzeit bleibt) und durch unbezahlte Anlern- und Korrekturzeit. …",
+  "schoepftNutzen": "Die Konzernebene ueber die Kostenquote beziehungsweise die Verwaltungskostenquote und damit die Kapitalseite; bei den oeffentlich-rechtlichen Instituten der Traeger ueber das Betriebsergebnis. …",
+  "luecke": "Die Luecke liegt nicht zwischen Arbeit und Kapital allein, sondern zwischen geschuetztem und ungeschuetztem Teil derselben Wertschoepfungskette. Beschaeftigungssicherung …",
+  "indikator": "Zahl der sozialversicherungspflichtig Beschaeftigten in der Wirtschaftsgruppe WZ 82.20 (Callcenter) sowie in WZ 65 (Versicherungen, Rueckversicherungen und Pensionskassen), quartalsweise …",
+  "schwelle": "Kippunkt: Rueckgang der sozialversicherungspflichtigen Beschaeftigung in WZ 82.20 um mehr als 8 Prozent kumuliert zwischen Q2/2026 und Q2/2028 bei gleichzeitig stabilem Auftragsvolumen der Auftraggeber - dann liegt starke Substitution vor (Richtung S3/S5). …",
+  "quelleInd": "Bundesagentur fuer Arbeit, Statistik: Beschaeftigte nach Wirtschaftszweigen (WZ 2008), quartalsweise; Ausbildungsvertraege: Berufsbildungsstatistik der statistischen Aemter bzw. BIBB-Erhebung zum 30. …",
+  "taetigkeiten": [
+   {
+    "t": "Erstbescheidung einfacher Kfz- und Sach-Schadenfaelle im Innendienst: Abgleich der Schadenmeldung mit dem Bedingungswerk, Pruefung der Deckungszusage …",
+    "a": 35,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Gespraechsnachbereitung im Kundenservicecenter (Wrap-up): Ticketanlage, Kategorisierung nach Anliegensschluessel …",
+    "a": 25,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Entwurf des Ablehnungs- oder Abhilfeschreibens im Widerspruchsverfahren des Leistungsfalls aus Akte, Gutachten und Bedingungswerk - Letztzeichnung bleibt beim Menschen wegen Haftung und Aufs …",
+    "a": 15,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Eingruppierungspruefung nach den Taetigkeitsmerkmalen des Manteltarifvertrags bzw. TVoeD-S: Abgleich der tatsaechlich ausgeuebten Taetigkeit mit den Tarifmerkmalen …",
+    "a": 10,
+    "e": "neu entstanden"
+   },
+   {
+    "t": "Pruefen, Korrigieren und Freigeben maschineller Vorschlaege einschliesslich Fehlerprotokoll und Rueckmeldung an die Fachredaktion des Modellbetreibers ('Anlernarbeit') - unbezahlte Lernzeit, …",
+    "a": 8,
+    "e": "neu entstanden"
+   }
+  ],
+  "falsifikator": "Meine Einschaetzung waere am schnellsten widerlegt, wenn die Berufsbildungsstatistik fuer 2027 und 2028 zeigte, dass die Neuabschluesse in den Ausbildungsberufen Kaufmann/Kauffrau fuer Versicherungen und Finanzanlagen sowie fuer Dialogmarketing stabil bleiben oder steigen …",
+  "kreuzungsjahr": "2030",
+  "sortJahr": 2030,
+  "kjBegruendung": "Rechenweg aus M1. Der demografische Abgang ist über den Zeitraum nahezu konstant und leicht steigend: rd. 3,0 % (2026), 3,1, 3,2, 3,3, 3,4 % (2030), Summe 16 %. Die KI-bedingte Entbehrlichkeit ist dagegen stark konvex …",
+  "bbg": "Entgelt bleibt unterhalb",
+  "beitrag": 22,
+  "steuer": 52,
+  "weg": 26,
+  "kanaele": [
+   45,
+   12,
+   18,
+   25
+  ],
+  "kiEntbehrlich": 12,
+  "demografisch": 16,
+  "einstieg": "Nicht der Tarifsatz fällt - er ist normativ gesichert -, sondern die Eingruppierung: Neu ausgeschriebene Stellen werden eine Gehaltsgruppe tiefer bewertet, weil das Tätigkeitsmerkmal 'selbständige Bearbeitung nach allgemeinen Richtlinien' durch 'Prüfen und Freigeben maschineller Vorschläge' ersetzt wird, was nach den Merkmalen des Manteltarifvertrags bzw. …",
+  "ausbildung": "Die Ausbildung zur Kauffrau für Versicherungen und Finanzanlagen und zur Bankkauffrau verliert ihr Lernfeld, weil genau die Standardvorgänge automatisiert werden, an denen bisher die Fallkenntnis erworben wurde - zuerst sinkt die Übernahmequote, dann die Zahl der Ausbildungsverträge, und zwar schätzungsweise um 20-30 % bis 2030, mit der Folge …",
+  "zuwanderung": "In meinem Feld war er wegen Sprach-, Bedingungswerks- und Aufsichtsanforderungen ohnehin klein und fällt als erster weg - das ist politisch gefährlich, weil daraus die Erzählung 'KI löst den Fachkräftemangel' gebaut wird, obwohl die Gruppen mit dem realen Mangel (Pflege, Handwerk …",
+  "verhandlung": "Die Tarifrunde verschiebt sich vom Entgelt zur Beschäftigungssicherung - Verlängerung des Rationalisierungsschutzes und der Einkommenssicherung gegen Nullrunden oder Laufzeitverlängerung -, was faktisch Reallohnverzicht für die Bestandsbelegschaft bedeutet …",
+  "gegenkraft": "Die stärkste Gegenposition richtet sich gegen mein eigenes Instrument, nicht gegen meine Zahlen. § 87 Abs. 1 Nr. 6 BetrVG und das Rationalisierungsschutzabkommen verhindern die Verdrängung nicht - sie verlagern sie an die Betriebsgrenze. Was betriebsverfassungsrechtlich erzwingbar ist, ist der Einsatz im Betrieb; nicht erzwingbar ist, dass die Arbeit im Betrieb bleibt. …",
+  "quellen": 4,
+  "status": "gueltig"
+ },
+ {
+  "id": "N04",
+  "name": "Berufseinsteigerin",
+  "feld": "Kognitiver Beruf",
+  "hemmnis": "Die Bindung von Zeichnungs-, Freigabe- und Vier-Augen-Befugnissen an nachgewiesene Berufsjahre statt an dokumentierte Verfahrensqualitaet - in Berufsordnungen, Pruefungsordnungen, Qualitaetsmanagement-Handbuechern und internen Freigabematrizen.",
+  "warumBindend": "Es dominiert Technik, Kosten und Mitbestimmung, weil es als einziges nicht verhandelbar ist: Ein Modell kann den Entwurf liefern, aber keine Unterschrift leisten, die berufsrechtlich Berufsjahre voraussetzt. …",
+  "wirkdauer": 6,
+  "aufloesung": "Es fiele, wenn Berufs- und Qualitaetsordnungen die Freigabebefugnis an einen dokumentierten, auditierbaren Pruefprozess koppelten statt an Berufsjahre - etwa ueber betriebliche Kompetenznachweise, die eine geprueft-und-freigegeben-Kette abbilden. …",
+  "bricht": "Die Leverage-Kalkulation des Projektgeschaefts: das Modell, in dem drei bis fuenf Juniorinnen mit abrechenbaren Stunden auf eine Seniorstelle gerechnet werden und der Kunde die Einarbeitung ueber den Juniortagessatz mitbezahlt. Konkret bricht die verkaufbare Juniorstunde fuer Recherche, Datenaufbereitung und Erstentwurf - kein Einkaufsleiter zahlt 2030 noch einen Tagessatz fuer einen Longlist-Steckbrief …",
+  "traegtKosten": "Meine Kohorte, und zwar unsichtbar: als verlaengerte Suchdauer zwischen Abschluss und erstem unbefristeten Vertrag, als zusaetzliche Praktikums- und Werkstudentenschleife nach dem Master, als Eingruppierung eine Entgeltstufe unter der formalen Qualifikation …",
+  "schoepftNutzen": "Der Arbeitgeber, unmittelbar und buchbar: entfallene Juniorstunden bei unveraendertem Tagessatz oder unveraenderter Projektpauschale. Und der Senior-Bestand: Laut ifo-Umfrage vom 12.08.2026 erwarten 26 Prozent der Unternehmen fuer Akademiker mit laengerer Berufserfahrung steigende Loehne …",
+  "luecke": "Die Ersparnis faellt sofort, konzentriert und als Bilanzposten an; die Kosten fallen verzoegert, individuell und ohne Buchungszeile an. Es gibt keine Position 'nicht erworbene Berufserfahrung' - deshalb erscheint die Umstellung in jeder betrieblichen Rechnung als reiner Gewinn. …",
+  "indikator": "Der Anteil der Unternehmen, die KI bereits fuer Aufgaben von Berufseinsteigern einsetzen (IST-Wert, nicht Planwert), aus der Randstad-ifo-Personalleiterbefragung. Ausgangswert: 14 Prozent im Erhebungsquartal Q4/2025, gegen 40 Prozent …",
+  "schwelle": "Kippt nach oben, wenn der IST-Anteil bis Ende 2028 auf 35 Prozent oder mehr steigt - dann ist der Plan realisiert und die Mengenverdraengung am Einstieg real, und die Akademiker-Arbeitslosenquote duerfte 4,0 Prozent ueberschreiten. …",
+  "quelleInd": "Randstad-ifo-Personalleiterbefragung, vierteljaehrlich veroeffentlicht vom ifo Institut unter ifo.de (Schwerpunkt Berufseinsteiger zuletzt publiziert am 19.01.2026) …",
+  "taetigkeiten": [
+   {
+    "t": "Erstellung des Wettbewerbs-Longlist-Steckbriefs fuer den Kickoff-Foliensatz aus Handelsregister-, Jahresabschluss- und Unternehmenswebsite-Quellen (Gesellschafter, Umsatzreihe, Standorte …",
+    "a": 12,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Abgleich der Rohdatenlieferung des Mandanten gegen das Zielschema der Auswertungsvorlage vor der eigentlichen Analyse: Spaltenmapping, Dublettenpruefung, Einheiten- und Periodenkonversion …",
+    "a": 15,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Protokollierung des woechentlichen Jour fixe mit Zuordnung offener Punkte zu Verantwortlichen und Fristen und Uebertragung in den Statusbericht fuer den Lenkungskreis",
+    "a": 8,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Erstfassung eines Kapitels des Ergebnisberichts aus Analyse-Output und Foliennotizen, die anschliessend vom Senior ueberarbeitet und gezeichnet wird - die Richtung dreht sich: der Einsteiger …",
+    "a": 18,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Belegpruefung von KI-Entwuerfen gegen die Primaerquelle mit namentlicher Abzeichnung im Qualitaetssicherungsvermerk (Zitatpruefung, Zahlenherkunft …",
+    "a": 0,
+    "e": "neu entstanden"
+   }
+  ],
+  "falsifikator": "Am schnellsten widerlegt mich die Randstad-ifo-Personalleiterbefragung selbst: Bliebe der IST-Anteil der Unternehmen, die KI fuer Aufgaben von Berufseinsteigern einsetzen, bis Ende 2028 unter 20 Prozent - also weit unter den 40 Prozent …",
+  "kreuzungsjahr": "2027",
+  "sortJahr": 2027,
+  "kjBegruendung": "Enges Mass, wortgetreu zur Frage: entbehrliche gegen demografisch abgehende Kraefte derselben Bezugsgruppe. Jaehrliche Entbehrlichkeitsrate: 22 Prozent verteilt ueber 2026 bis 2030, mit dem im Faktenkern festgehaltenen Profil, dass die Divergenz erst nach 2027 entsteht - angesetzt 2026 rund 2 Punkte, 2027 rund 4, 2028 rund 5 …",
+  "bbg": "Entgelt rutscht ueber die Beitragsbemessungsgrenze",
+  "beitrag": 16,
+  "steuer": 58,
+  "weg": 26,
+  "kanaele": [
+   40,
+   27,
+   18,
+   15
+  ],
+  "kiEntbehrlich": 22,
+  "demografisch": 4,
+  "einstieg": "Sie fallen nicht nominal, sondern ueber die Eingruppierung: Master-Absolventinnen werden eine Entgeltstufe unter ihrer formalen Qualifikation eingestellt und der Einstieg wird von der abrechenbaren Stunde entkoppelt, was bis 2030 real rund 8 bis 12 Prozent Kaufkraftverlust gegenueber 2026 bedeuten duerfte (Schaetzung) - konsistent mit den 50,8 Prozent der Unternehmen …",
+  "ausbildung": "Die Einstellungsjahrgaenge der Haeuser schrumpfen um etwa ein Drittel, und der Einstieg verschiebt sich vom Direkteinstieg nach dem Master auf eine vorgelagerte Auswahlstrecke aus Praktikum, Werkstudentenstelle und befristetem Projektvertrag - das Nadeloehr wandert vom Abschluss zum ersten unbefristeten Vertrag, und es wird privat finanziert.",
+  "zuwanderung": "In meinem Segment faellt er zuerst und vollstaendig weg: Die Rekrutierung auslaendischer Analystinnen fuer Recherche- und Datenaufbereitungsrollen endet, waehrend der Bedarf an Berufstraegern mit Zeichnungsbefugnis bestehen bleibt - das Fachkraefteeinwanderungsgesetz trifft dann auf ein Feld, in dem die inlaendische Absolventenkohorte selbst keine Einstiegsstelle findet …",
+  "verhandlung": "Sie bricht asymmetrisch: Der Senior mit Zeichnungsbefugnis gewinnt (26 Prozent der Unternehmen erwarten fuer erfahrene Akademiker steigende Loehne), meine Kohorte verliert dagegen ihr einziges Druckmittel, naemlich die glaubhafte Drohung mit dem Wechsel zum Wettbewerber - weil der Wettbewerber dieselbe Juniorstunde ebenfalls nicht mehr verkauft und die Aussenoption damit branch …",
+  "gegenkraft": "Die staerkste Gegenposition kommt ausgerechnet aus dem Hemmnis, das ich in der Vorrunde als bindend benannt habe - es wirkt in die andere Richtung, als ich dort unterstellt habe. Zeichnungs-, Freigabe- und Vier-Augen-Befugnisse haengen an nachgewiesenen Berufsjahren: an Anrechnungszeiten der Wirtschaftspruefungsordnung, an Pruefungsordnungen, an QM-Handbuechern und internen Freigabematrizen. …",
+  "quellen": 3,
+  "status": "gueltig"
+ },
+ {
+  "id": "O04",
+  "name": "Kommunale Spitzenverbände",
+  "feld": "Öffentliche Finanzen",
+  "hemmnis": "Haushaltsrecht und Finanzierung: KI-Einfuehrung in der kommunalen Verwaltung faellt als laufender Aufwand (Lizenz-, Cloud- und Beratungsentgelte) im Ergebnisplan an, nicht als aktivierbare Investition. Eine Kommune in der Haushaltssicherung darf freiwillige Aufwendungen faktisch nur mit Genehmigung der Kommunalaufsicht eingehen - und ein nicht ausgeglichener Ergebnisplan ist inzwischen der Regelfall, nicht die Ausnahme.",
+  "warumBindend": "Es dominiert Altsysteme, Qualifikation und Beschaffungszyklus, weil diese drei mit Geld aufloesbar waeren, das Geld aber die bindende Groesse ist. Empirische Messung: Die kommunalen Kern- und Extrahaushalte wiesen 2025 ein Finanzierungsdefizit von 31,9 Mrd. …",
+  "wirkdauer": 6,
+  "aufloesung": "Es fiele, wenn KI-Einfuehrung haushaltsrechtlich wie eine Investition behandelt wuerde - also aktivierbar, abschreibbar und kreditfinanzierbar - und wenn eine zweckgebundene investive Zuweisung (etwa eine Oeffnung des Sondervermoegens Infrastruktur fuer Verwaltungsdigitalisierung) die Anschubkosten ausserhalb des Ergebnisplans t …",
+  "bricht": "Die Ansiedlungskalkulation der kommunalen Wirtschaftsfoerderung nach dem Muster 'X Arbeitsplaetze am Standort ergeben Y Euro Zerlegungsanteil' - also die Beschlussvorlage, mit der seit Jahrzehnten Gewerbegebietsausweisungen, Erschliessungskosten und Grundstuecksverbilligungen im Gemeinderat begruendet werden. Sie bricht aus zwei Richtungen gleichzeitig. …",
+  "traegtKosten": "Die Standortgemeinde und der kreisangehoerige Raum. Sie traegt die Bauleitplanung und das immissionsschutzrechtliche Verfahren fuer Rechenzentren, die Erschliessung, den Personalaufwand in Bauaufsicht und Umweltamt (bei ohnehin gemessenem Personalmangel in den Bauverwaltungen …",
+  "schoepftNutzen": "Bund und Laender ueber Koerperschaft-, Einkommen- und Umsatzsteuer; die Sitzgemeinde der Konzernzentrale ueber den lohnsummenbasierten Zerlegungsanteil, solange dieser gilt …",
+  "luecke": "Die Luecke ist nicht nur zeitlich, sie ist bautechnisch in den Finanzausgleich eingebaut. Selbst wenn die Standortgemeinde den neuen Zerlegungsanteil bekaeme, behielte sie nach Gewerbesteuerumlage …",
+  "indikator": "Das Gewerbesteuer-Istaufkommen je Einwohner in der Gemeindegroessenklasse ab 500.000 Einwohner im Verhaeltnis zum Bundesdurchschnitt aller Gemeinden, aus dem jaehrlichen Statistischen Bericht 'Realsteuervergleich' (Istaufkommen und Grundbetraege nach Laendern und Gemeindegroessenklassen). …",
+  "schwelle": "Kipppunkt: Faellt das Verhaeltnis Grossstadt-Gewerbesteuer je Einwohner zum Bundesdurchschnitt in den Berichtsjahren 2027 und 2028 kumuliert um mehr als 8 Prozent, waehrend das bundesweite Gewerbesteuer-Istaufkommen nominal nicht sinkt …",
+  "quelleInd": "Statistisches Bundesamt, Statistischer Bericht 'Realsteuervergleich' (Kennziffer 71231), jaehrlich im Sommer fuer das Vorjahr …",
+  "taetigkeiten": [
+   {
+    "t": "Bearbeitung von Gewerbesteuer-Zerlegungsbescheiden nach §§ 28-34 GewStG: Abgleich des vom Betriebsfinanzamt zugewiesenen Zerlegungsanteils mit der eigenen Betriebsstaettenkartei …",
+    "a": 15,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Fortschreibung der Gewerbesteuer-Vorauszahlungen nach § 19 GewStG bei Herabsetzungsantraegen einzelner Grosszahler und Ableitung der daraus folgenden Monatsliquiditaetsplanung der Kaemmerei …",
+    "a": 10,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Erstellung und Fortschreibung des Haushaltssicherungskonzepts nach Gemeindehaushaltsrecht: Ergebnisplanfortschreibung ueber den mittelfristigen Finanzplanungszeitraum …",
+    "a": 12,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Massenbescheiderstellung im kommunalen Jobcenter zu den Kosten der Unterkunft und Heizung nach § 22 SGB II: Angemessenheitspruefung gegen das schluessige Konzept …",
+    "a": 25,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Fuehrung eines gemeindlichen Anschlussleistungs-Katasters: betriebsstaettenscharfe Erfassung und jaehrliche Fortschreibung der nicht redundanten elektrischen Nennanschlussleistung (Abgrenzun …",
+    "a": 0,
+    "e": "neu entstanden"
+   }
+  ],
+  "falsifikator": "Der Realsteuervergleich des Statistischen Bundesamtes fuer die Berichtsjahre 2027 und 2028 weist aus, dass das Gewerbesteuer-Istaufkommen je Einwohner in den Grossstaedten ab 500.000 Einwohnern relativ zum Bundesdurchschnitt stabil bleibt (Korridor plus/minus 3 Prozent) und das bundesweite Istaufkommen real waechst - dann versch …",
+  "kreuzungsjahr": "nicht vor 2035",
+  "sortJahr": 2035,
+  "kjBegruendung": "Rechnung aus M1: Der demografische Abgang betraegt rund 22 % ueber 4,5 Jahre, also rund 4,9 Prozentpunkte je Jahr, und er beschleunigt sich noch, weil die Jahrgaenge 1962 bis 1966 die Regelaltersgrenze erst zwischen 2029 und 2033 erreichen. …",
+  "bbg": "Entgelt bleibt unterhalb",
+  "beitrag": 23,
+  "steuer": 22,
+  "weg": 55,
+  "kanaele": [
+   20,
+   10,
+   35,
+   35
+  ],
+  "kiEntbehrlich": 5,
+  "demografisch": 22,
+  "einstieg": "Die Eingangsstufe bleibt nominal unveraendert, weil sie aus der Entgeltordnung des TVoeD folgt und nicht aus Knappheit; was verschwindet, sind die Knappheitsinstrumente - Vorweggewaehrung von Stufen nach § 16 Abs. 5 TVoeD, Fachkraeftezulage nach § 16 Abs. …",
+  "ausbildung": "Ausbildungsaufwand fuer Verwaltungsfachangestellte und den gehobenen nichttechnischen Dienst ist in der Haushaltssicherung als freiwillige Leistung ohne unmittelbaren Pflichtaufgabenbezug angreifbar und steht damit in der Streichliste jedes Haushaltssicherungskonzepts weit oben - ich erwarte …",
+  "zuwanderung": "In meinem Feld war er nie ein Instrument und wird es auch nach dem Kippen nicht sein: Hoheitliche Abgabenveranlagung und Vollstreckung sind ueber die Verbeamtungsvoraussetzungen an EU-Staatsangehoerigkeit und ueber die Bescheidfaehigkeit an Rechtsdeutsch auf C1-Niveau gebunden, so dass der Wegfall des Mangels hier nichts loest …",
+  "verhandlung": "Sie verschiebt sich nicht zwischen Beschaeftigten und Arbeitgeber, sondern innerhalb der Belegschaft: Die Massensachbearbeitung verliert ihr staerkstes Druckmittel, naemlich die Unersetzlichkeit im Bescheidlauf zu den gesetzlichen Stichtagen, waehrend die Pruef-, Fachverfahrens- und Zerlegungskompetenz an Verhandlungsmacht gewinnt …",
+  "gegenkraft": "Die staerkste Gegenposition richtet sich gegen meine eigene Bremse: Das Haushaltsrecht, das ich als bindendes Hemmnis anfuehre, kann von der Bremse zum Beschleuniger kippen - und zwar genau dann, wenn die Kommunalaufsicht ein Haushaltssicherungskonzept nur noch genehmigt, sofern es eine quantifizierte Effizienzrendite aus Digitalisierung ausweist. …",
+  "quellen": 4,
+  "status": "gueltig"
+ },
+ {
+  "id": "P01",
+  "name": "Vorstand ÜNB",
+  "feld": "Übertragungsnetz",
+  "hemmnis": "Die physische und verfahrensrechtliche Zeitkonstante des Höchstspannungs-Netzanschlusses: Planfeststellung beziehungsweise Genehmigung des Umspannwerks, Lieferzeit für Leistungstransformatoren und gasisolierte 380-kV-Schaltfelder, Bau und Inbetriebsetzung. Der Engpass ist nicht die Leitung, sondern das freie Schaltfeld am Netzverknüpfungspunkt.",
+  "warumBindend": "Er dominiert alle anderen Hemmnisse, weil er sie zeitlich umschließt: Kapital ist vorhanden (die Warteschlange der ÜNB umfasste im dritten Quartal 2025 nach Darstellung der GÖRG-Veröffentlichung 717 Anträge über kumuliert 270 GW), Modellfähigkeit ist vorhanden, Personal wäre beschaffbar. …",
+  "wirkdauer": 8,
+  "aufloesung": "Es fiele - im Konjunktiv, weil dies Vorschläge und keine beschlossene Rechtslage sind -, wenn dreierlei zusammenkäme: erstens eine Vorratsplanung standardisierter, vorgenehmigter Anschlussstandorte mit bereits bestelltem Schaltfeld, bei der der Kunde in ein fertiges Feld einzieht statt ein Verfahren auszulösen …",
+  "bricht": "Das Geschäftsmodell der spekulativen Anschlussreservierung bricht: der Projektentwickler, der ohne Realisierungsabsicht ein Anschlussbegehren einreicht, die Netzanschlusszusage als handelbaren Vermögenswert hält und sie mitsamt Grundstück an einen Rechenzentrums- oder Speicherbetreiber weiterverkauft. Dieses Modell lebte vom Windhundprinzip und von Kostenfreiheit des Antrags. …",
+  "traegtKosten": "Der Übertragungsnetzbetreiber finanziert Umspannwerk, Schaltfeld und Netzverstärkung vor und wälzt sie über die Netzentgelte auf die Gesamtheit der Netznutzer ab - also auf Haushalte und auf Industriekunden, die mit der KI-Last nichts zu tun haben. …",
+  "schoepftNutzen": "Der Rechenzentrumsbetreiber und der Modellanbieter, in der Regel ein nicht in Deutschland ansässiger Konzern. Eine 24/7-Grundlast mit hoher Benutzungsstundenzahl ist zudem der typische Kandidat für reduzierte individuelle Netzentgelte nach § 19 Abs. …",
+  "luecke": "Die Lücke ist doppelt. Erstens räumlich und personell: Kosten entstehen beim Netznutzerkollektiv und beim Bundeshaushalt, Nutzen fällt beim Anschlussnehmer und in der Lizenzkette an. Die Gewerbesteuer-Zerlegung nach Nennanschlussleistung (§ 29 Abs. 1 Nr. …",
+  "indikator": "Das je Verfahrensrunde des Reifegradverfahrens tatsächlich verbindlich zugesagte Anschlussleistungsvolumen für Rechenzentren in GW, getrennt nach Inbetriebsetzungsjahr - also nicht die beantragte, sondern die nach Clusterstudie angebotene und gegen Realisierungskaution angenommene Leistung. …",
+  "schwelle": "Kippunkt nach Abschluss der zweiten Verfahrensrunde, also im Lauf von 2027/2028: Liegen die kumuliert verbindlich zugesagten Rechenzentrums-Anschlussleistungen mit Inbetriebsetzung bis 2030 unter 1,5 GW, ist S7 - physische Deckelung - eingetreten …",
+  "quelleInd": "Gemeinsame Veröffentlichung der vier Übertragungsnetzbetreiber 50Hertz, Amprion, TenneT und TransnetBW zum Reifegradverfahren (Verfahrensdokumentation und Runden-Ergebnisse …",
+  "taetigkeiten": [
+   {
+    "t": "Erstellung der Netzverträglichkeitsprüfung je Anschlussbegehren: Lastfluss-, Kurzschlussstrom- und Stabilitätsrechnung am gewünschten Netzverknüpfungspunkt inklusive (n-1)-Nachweis und Prüfu …",
+    "a": 15,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Day-Ahead- und Intraday-Disposition des Redispatch nach § 13 EnWG: knotenscharfe Prognose der abzuregelnden Einspeisung und Auswahl der Gegengeschäfte in der Systemführung/Leitstelle",
+    "a": 30,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Anfertigung der Antrags- und Planfeststellungsunterlagen nach NABEG/EnLAG: Raumwiderstandsanalyse, Trassenkorridorvergleich …",
+    "a": 45,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Reifegradprüfung der Anschlussbegehren in der Clusterstudie: Abgleich von Flächensicherung, Baurechtsstand …",
+    "a": 10,
+    "e": "neu entstanden"
+   },
+   {
+    "t": "Erstellung des Kostenprüfungsantrags und der Netzentgeltkalkulation nach ARegV/StromNEV: Kostenstellenrechnung, Zuordnung auf Netz- und Umspannebenen …",
+    "a": 25,
+    "e": "ergaenzt"
+   }
+  ],
+  "falsifikator": "Wenn die erste und zweite Runde des Reifegradverfahrens bis Ende 2028 kumuliert mehr als 4 GW kautionsbewehrt zugesagte Rechenzentrums-Anschlussleistung mit Inbetriebsetzung bis 2030 ausweisen - oder wenn überbaubare beziehungsweise flexible Anschlussvereinbarungen mit vertraglicher Abregelbarkeit zum Regelfall werden …",
+  "kreuzungsjahr": "nicht vor 2035",
+  "sortJahr": 2035,
+  "kjBegruendung": "Rechnerisch aus M1: KI-Entbehrlichkeit 17 % über 4,5 Jahre entspricht rund 3,8 Prozentpunkten pro Jahr, demografischer und fluktuativer Abgang 21 % entspricht rund 4,7 Prozentpunkten pro Jahr. …",
+  "bbg": "Entgelt rutscht ueber die Beitragsbemessungsgrenze",
+  "beitrag": 22,
+  "steuer": 45,
+  "weg": 33,
+  "kanaele": [
+   25,
+   40,
+   15,
+   20
+  ],
+  "kiEntbehrlich": 17,
+  "demografisch": 21,
+  "einstieg": "Die heute gezahlte Knappheitsprämie von grob 10 bis 15 Prozent über Tarif, mit der wir Umwelt- und Genehmigungsplanerinnen aus Planungsbüros und Landesbehörden abwerben, entfällt zuerst und ohne Übergang, während sie für Systemführungs- und Schutztechnik-Einsteiger im selben Zeitraum weiter steigt - das Einstiegsgehalt meines Feldes spreizt sich also, statt zu fallen.",
+  "ausbildung": "Die gewerblich-technische Ausbildung - Elektronikerin für Betriebstechnik, Hochspannungsmonteur, Industriemechanikerin für Umspannwerksbau - bleibt konstant oder wächst, weil der Engpass das freie Schaltfeld ist und niemand ein Schaltfeld per Sprachmodell montiert …",
+  "zuwanderung": "Er verlagert sich, ohne zu sinken: Für Freileitungsmontage, Kabelgarnituren, Umspannwerks- und Sekundärtechnik bleiben wir und unsere Rahmenvertragspartner auf Zuwanderung über Blaue Karte und Westbalkanregelung angewiesen, während der Bedarf an ausländischen Genehmigungs- und Planungsfachkräften wegfällt - was die Rekrutierung nicht erleichtert …",
+  "verhandlung": "Sie kippt innerhalb desselben Unternehmens gegenläufig: Das Schichtpersonal der Systemführung gewinnt, weil es nach § 13 EnWG persönlich verantwortlich schaltet und weder delegierbar noch verlagerbar ist, die Genehmigungs- und Antragsbearbeitung verliert - der Ausgleich läuft bei uns aber nicht über Kündigungen, sondern über Nichtnachbesetzung und Versetzung …",
+  "gegenkraft": "Die stärkste Gegenposition trifft ausgerechnet den Block, den ich mit 45 Prozent als automatisiert ausgewiesen habe. Erstens juristisch: Eine Planfeststellung nach NABEG/EnLAG scheitert nicht an der Textmenge, sondern an Abwägungsausfall und Ermittlungsdefizit. …",
+  "quellen": 4,
+  "status": "gueltig"
+ },
+ {
+  "id": "Q04",
+  "name": "Projektentwickler",
+  "feld": "Rechenzentrumsstandorte",
+  "hemmnis": "Die kommunale Bauleitplanung: Rechenzentren sind in der BauNVO keine eigenstaendig geregelte Nutzung, jeder Grossstandort laeuft daher ueber einen projektbezogenen Bebauungsplan, dessen Aufstellungs- und Satzungsbeschluss eine einfache Mehrheit in der Gemeindevertretung braucht - und die kann bis zur Schlussabstimmung ohne Bindung kippen.",
+  "warumBindend": "Strom, Kapital und Flaeche lassen sich in meinem Feld umgehen oder einkaufen: In Birstein soll die Anlage ueber einen benachbarten Windpark und uebergangsweise ein BHKW versorgt werden, Eigenerzeugung und PPA sind Standardwerkzeuge, Kapital ist im Markt reichlich vorhanden, Bestandsflaechen in Gewerbegebieten gibt es. …",
+  "wirkdauer": 4,
+  "aufloesung": "Zwei Dinge muessten zusammenkommen - erstens eine baurechtliche Regelung, die Rechenzentren in Gewerbe- und Industriegebieten als Regelnutzung einordnet oder ihnen eine eigene Gebietskategorie gibt, so dass der Einzelfall-B-Plan entfaellt …",
+  "bricht": "Das Geschaeftsmodell des spekulativen Flaechensicherers - jener Projektentwickler, der zehn bis fuenfzehn Hektar Grundstuecksoptionen buendelt, sich vom Verteilnetzbetreiber eine unverbindliche Kapazitaetsauskunft geben laesst und das Paket aus Option plus Power Letter ohne Satzungsbeschluss an einen Hyperscaler oder einen Infrastrukturfonds weiterverkauft. …",
+  "traegtKosten": "Die Standortgemeinde traegt die Planungs- und Verfahrenskosten, das gebundene Personal im Bauamt ueber drei bis vier Jahre, den Flaechenverbrauch und das politische Kapital der Ratsmehrheit. …",
+  "schoepftNutzen": "Der Betreiber und der Ankermieter, in der Regel ein nicht-europaeischer Hyperscaler, sowie der Infrastruktur-Eigenkapitalgeber. Der Nutzen faellt dort an, wo die Rechenleistung verkauft wird, nicht dort, wo sie steht.",
+  "luecke": "Die Luecke ist zeitlich und rechtlich zugleich. Zeitlich: Die Gemeinde traegt Kosten in den Jahren eins bis vier, Gewerbesteuer entstuende fruehestens ab Jahr fuenf. Rechtlich: In genau diesen Anfangsjahren druecken die Abschreibungen auf IT-Hardware und Gebaeudetechnik den Gewerbeertrag gegen null …",
+  "indikator": "Netto-Zuwachs der in Deutschland installierten Rechenzentrums-Anschlussleistung in Megawatt pro Jahr, aufgeschluesselt nach KI-Kapazitaet - plus, als Vorlaufgroesse dazu, die Zahl der je Jahr in Kraft getretenen Bebauungsplaene mit Festsetzung Sondergebiet Rechenzentrum bzw. …",
+  "schwelle": "Referenz: 2025 wuchs die Gesamtleistung um 9 Prozent auf 2.980 MW, das sind rund 250 MW Zuwachs; der Bitkom-Zielpfad auf 5.000 MW bis 2030 verlangt im Mittel etwa 400 bis 450 MW pro Jahr. …",
+  "quelleInd": "Jaehrliche Studie Rechenzentren in Deutschland des Bitkom e. V., erstellt vom Borderstep Institut, Veroeffentlichung regelmaessig im November (zuletzt 10.11.2025) …",
+  "taetigkeiten": [
+   {
+    "t": "Standort-Screening: Abgleich von Flurstuecken aus ALKIS gegen Netzverknuepfungspunkt-Auskunft des Verteilnetzbetreibers …",
+    "a": 15,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Zusammenstellung und Vollstaendigkeitspruefung des BImSchG-Antragsordners fuer die Netzersatzanlagen (Diesel-Aggregate nach Nr. 1.2.1 bzw. 8.1 der 4. …",
+    "a": 10,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Auswertung der Stellungnahmen aus der fruehzeitigen Oeffentlichkeits- und Behoerdenbeteiligung nach Paragraf 3 Abs. 1 und Paragraf 4 Abs. …",
+    "a": 8,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Abwaermenachweis nach Paragraf 16 EnEfG (Abwaermeverwendungsquote, Eintrag in die Plattform fuer Abwaerme) und die Verhandlung des Waermeuebergabepunkts …",
+    "a": 6,
+    "e": "neu entstanden"
+   },
+   {
+    "t": "Vorbereitung der Buergerinformationsveranstaltung: Sichtachsen-Visualisierung der Baukoerperhoehe, Schallimmissionskarte fuer den Nachtzeitraum …",
+    "a": 7,
+    "e": "ergaenzt"
+   }
+  ],
+  "falsifikator": "Wenn im Jahr 2027 in Hessen und Brandenburg zusammen drei oder mehr Standorte mit je ueber 100 MW einen rechtskraeftigen Satzungsbeschluss erhalten, obwohl der Zerlegungsmassstab nach Paragraf 29 Abs. 1 Nr. …",
+  "kreuzungsjahr": "2032",
+  "sortJahr": 2032,
+  "kjBegruendung": "Zwei Marken, ich nenne beide und lege mich auf die zweite fest, weil danach gefragt ist, wann Mangel in Ueberschuss kippt. ERSTE MARKE, Kreuzung der Jahresfluesse: 2029. Der demografische Abgang liegt bei rund 11 Prozent ueber vier Jahre, also rund 2,75 Prozent je Jahr, weitgehend gleichmaessig. …",
+  "bbg": "Entgelt rutscht ueber die Beitragsbemessungsgrenze",
+  "beitrag": 21,
+  "steuer": 54,
+  "weg": 25,
+  "kanaele": [
+   45,
+   15,
+   18,
+   22
+  ],
+  "kiEntbehrlich": 15,
+  "demografisch": 11,
+  "einstieg": "Die heute ueblichen rund 55.000 bis 65.000 Euro Einstieg fuer den Junior-Projektentwickler mit Geografie-, Stadtplanungs- oder Immobilienabschluss faellen real um geschaetzt 10 bis 15 Prozent bis 2032, weil das Standort-Screening - bisher die Einstiegsaufgabe …",
+  "ausbildung": "In meinem Feld gibt es keine duale Ausbildung, sondern Werkstudenten- und Traineestellen, und genau deren Arbeitsinhalt - ALKIS-Abgleich, Flaechennutzungsplan-Auswertung, Verschlagwortung der Stellungnahmen aus der fruehzeitigen Beteiligung - ist der zuerst automatisierte …",
+  "zuwanderung": "Er faellt von niedrig auf praktisch null, weil das bindende Wissen meines Feldes nicht technisch ist, sondern Bauleitplanung, Kommunalrecht und die Faehigkeit, in einer Buergerversammlung auf Deutsch zu einer Kuehlwasserbilanz Rede und Antwort zu stehen …",
+  "verhandlung": "Sie spaltet sich innerhalb desselben Berufsbildes: Wer in einer Gemeinde einen Satzungsbeschluss tatsaechlich herbeifuehren kann, gewinnt Verhandlungsmacht, weil dieses Gut knapper wird und maschinell nicht herstellbar ist, waehrend die dokumentenproduzierende Mehrheit sie verliert - die Spreizung innerhalb des Feldes waechst schneller, als das Durchschnittsniveau faellt …",
+  "gegenkraft": "Die staerkste Gegenposition zu meiner eigenen Antwort ist der sondergesetzliche Zerlegungsmassstab: Sollte Paragraf 29 Abs. 1 Nr. 4 GewStG-E in der Fassung des Regierungsentwurfs vom 18. August 2026 in Kraft treten - Gewerbesteuerzerlegung zu 90 Prozent nach nicht redundanter elektrischer Nennanschlussleistung und nur noch zu 10 Prozent nach Arbeitsloehnen, erstmals fuer den Erhebungszeitraum 2027 …",
+  "quellen": 4,
+  "status": "mit Vorbehalt"
+ },
+ {
+  "id": "R03",
+  "name": "Handelsökonom",
+  "feld": "Außenhandel",
+  "hemmnis": "Die persönliche, straf- und bußgeldbewehrte Einzelfallverantwortung des Ausfuhrverantwortlichen (AWG/AWV, Art. 3 EU-Dual-Use-VO) für jede einzelne Klassifizierungs- und Freigabeentscheidung",
+  "warumBindend": "Es dominiert Qualifikation, Altsysteme und Interoperabilität, weil es nicht die Bearbeitungszeit je Vorgang begrenzt, sondern die Zeichnungsfähigkeit. Eine maschinelle Vorklassifizierung darf den Vorgang beschleunigen, sie kann die Unterschrift nicht ersetzen: Haftungsadressat bleibt eine benannte natürliche Person. …",
+  "wirkdauer": 6,
+  "aufloesung": "Es fiele, wenn die Aufsicht algorithmische Vorentscheidungen ausdrücklich als 'angemessene Sorgfalt' anerkennte — etwa wenn BAFA-Merkblatt und ICP-Anforderungen (Internal Compliance Programme) um einen Abschnitt ergänzt würden, der eine dokumentierte …",
+  "bricht": "Das Abrechnungsmodell der mittelständischen Verzollungsdienstleister und Speditionszollabteilungen, die je ATLAS-Zollanmeldung und je zusätzlicher Anmeldezeile eine Gebühr berechnen (Sammelverzollung als Margenprodukt). Die Zollanmeldung ist ein vollständig strukturierter Datensatz; Handelsrechnung, Packliste und Ursprungsnachweis liegen digital vor. …",
+  "traegtKosten": "Der exportierende Mittelständler im Maschinen- und Elektrotechnikbau mit typischerweise 300 bis 2.000 klassifizierungspflichtigen Artikelpositionen. Er trägt die einmalige Neuklassifizierung seiner gesamten Stückliste nach der Anhang-I-Aktualisierung (Delegierte VO (EU) 2025/2003 sowie die am 14.09. …",
+  "schoepftNutzen": "Erstens Konzerne mit eigener Exportkontrollabteilung, Sammel- und Globalgenehmigungen, die dieselbe Klassifizierungsarbeit über ein Vielfaches an Sendungen verteilen. Zweitens die Anbieter von Klassifizierungs-, Screening- und Zolltarifsoftware …",
+  "luecke": "Die Lücke verläuft nicht zwischen Kapital und Arbeit, sondern zwischen Betriebsgrößen. Der Compliance-Fixkostenblock wirkt wie ein nicht-tarifäres Handelshemmnis gegen die eigenen kleinen Exporteure: Er senkt nicht die Produktivität in der Fläche, er konzentriert die Exportfähigkeit. …",
+  "indikator": "Der monatliche Saldo der Position 'Telekommunikations-, EDV- und Informationsdienstleistungen' in der deutschen Dienstleistungsbilanz, im gleitenden Zwölfmonatsmittel. …",
+  "schwelle": "Ausgangslage, empirisch gemessen: Im Juli 2026 meldet die Bundesbank für diese Position erstmals einen Umschwung zu Nettoaufwendungen, der Saldo liegt also nahe null. Meine Schwellen sind Schätzungen: Steigt der Netto-Aufwandssaldo bis Ende 2028 im Zwölfmonatsmittel über rund 2,0 Mrd. …",
+  "quelleInd": "Deutsche Bundesbank, Zahlungsbilanzstatistik — monatliche Pressemitteilung 'Die deutsche Zahlungsbilanz im [Monat]' und die zugehörigen Tabellen zum Dienstleistungsverkehr (bundesbank.de/de/statistike …",
+  "taetigkeiten": [
+   {
+    "t": "Güterklassifizierung von Bauteilen und Baugruppen gegen Anhang I der EU-Dual-Use-VO bzw. die deutsche Ausfuhrliste …",
+    "a": 25,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Ursprungs- und Präferenzkalkulation je Artikel: Abgleich der Stückliste gegen die eingegangenen Lieferantenerklärungen und Zusammenstellung der Langzeit-Lieferantenerklärung (LLE) für das Fo …",
+    "a": 20,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Sanktionslisten- und Endverbleibsprüfung: Screening von Kunden, Zwischenhändlern und Frachtführern gegen die EU-Listen samt Transliterations- und Namensvarianten …",
+    "a": 15,
+    "e": "automatisiert"
+   },
+   {
+    "t": "Tarifierung von Neuteilen inklusive Verfassen des Begründungstextes für den Antrag auf verbindliche Zolltarifauskunft (vZTA) beim Hauptzollamt",
+    "a": 12,
+    "e": "ergaenzt"
+   },
+   {
+    "t": "Tariff-Engineering und laufende Exposure-Rechnung je Kundenauftrag: Neuberechnung der Section-232- und Antidumping-Belastung je Lieferweg …",
+    "a": 8,
+    "e": "neu entstanden"
+   }
+  ],
+  "falsifikator": "Der Saldo der Position 'Telekommunikations-, EDV- und Informationsdienstleistungen' in der Bundesbank-Zahlungsbilanz bliebe bis Ende 2028 im Zwölfmonatsmittel unterhalb von rund 0,8 Mrd. Euro je Monat oder kehrte in den Überschuss zurück, WÄHREND zugleich messbar breite KI-Nutzung in deutschen Betrieben stattfände. …",
+  "kreuzungsjahr": "2029",
+  "sortJahr": 2029,
+  "kjBegruendung": "Gegenueberstellung der Jahresscheiben. Demografischer Abgang konstant rund 2,9 Prozentpunkte der heutigen Beschaeftigung pro Jahr (Herleitung in M1). KI-Freisetzungspfad, so dass er auf die 26 % bis 2030 kumuliert: 2027 rund 0, 2028 rund 4, 2029 rund 9, 2030 rund 13 Prozentpunkte. …",
+  "bbg": "Entgelt rutscht ueber die Beitragsbemessungsgrenze",
+  "beitrag": 12,
+  "steuer": 52,
+  "weg": 36,
+  "kanaele": [
+   40,
+   18,
+   26,
+   16
+  ],
+  "kiEntbehrlich": 26,
+  "demografisch": 12.5,
+  "einstieg": "Nicht die Einstiegsloehne fallen, sondern die Einstiegsstelle verschwindet: Die Taetigkeit 'Erfassung der ATLAS-Anmeldezeile und Nachhalten der Lieferantenerklaerungen' -- heute der bezahlte Lernpfad mit geschaetzt 38-45 TEUR Einstieg -- ist genau der Block mit 70 bis 80 % Automatisierungsgrad …",
+  "ausbildung": "Die betriebliche Traegerschaft der Zoll-Zusatzqualifikation (IHK-Zertifikatslehrgaenge Zollfachkraft/Exportkontrolle, aufgesetzt auf die Ausbildung Kaufmann/-frau fuer Spedition und Logistikdienstleistung) bricht zuerst bei den mittelstaendischen Verzollungsdienstleistern weg …",
+  "zuwanderung": "In meinem Feld faellt praktisch kein Zuwanderungsbedarf weg, weil es ihn kaum gab: Die haftungstragenden Rollen setzen deutsche Rechts- und Sprachbindung, Zuverlaessigkeitspruefung und AEO-Bewilligungsfaehigkeit voraus und wurden nie ueber Zuwanderung besetzt -- der Engpass war ein Qualifizierungs-, kein Migrationsengpass, und er endet ohne migrationspolitische Wirkung.",
+  "verhandlung": "Sie spaltet sich innerhalb desselben Teams: Der Ausfuhrverantwortliche und der Bewilligungsinhaber gewinnen, weil ihre persoenliche Haftung nicht delegierbar ist und ihre Zahl sinkt, waehrend das Freigabevolumen je Kopf steigt …",
+  "gegenkraft": "Die staerkste Gegenposition zu meiner eigenen Rechnung: Handelspolitik erzeugt Pflichtvorgaenge schneller, als KI sie wegrationalisiert -- und zwar dauerhaft, nicht als Uebergangsphaenomen. Zwischen 2024 und 2026 sind aus US-Section-232-Ausweitungen, EU-Sanktionspaketen, der Foreign-Direct-Product-Logik bei Halbleitern und Beschleunigerkarten, CBAM …",
+  "quellen": 4,
+  "status": "gueltig"
+ }
+]
