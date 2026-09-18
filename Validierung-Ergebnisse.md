@@ -7,6 +7,61 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 18. September 2026 (Lauf 001 vom 18. September 2026) — Version 97.0 → Version 98.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Maschinell geprüft: 11 nummerierte Kapitel (1 bis 11) plus Zusammenfassung vor Kapitel 1; Inhaltsverzeichnis deckt alle Kapiteltitel ab. Kein leerer Abschnitt außer den Kapitelüberschriften, denen unmittelbar eine Unterüberschrift folgt — das entspricht der etablierten Dokumentstruktur |
+| 2.1.2 Nummerierung | OK | Kapitelnummerierung lückenlos, Unterabschnitte in jedem Kapitel lückenlos. Geschützte Zähler nachgezählt: fünf Typen in § 2.1 (fünf Lead-Ins `Typ 1` bis `Typ 5`), drei Säulen der Deutschland-These, sieben Empfehlungen in § 10.2 (`Erstens` bis `Siebtens`) — sämtlich unverändert |
+| 2.1.3 Querverweise | OK | Maschinelle Auflösung aller `§X.Y`-Verweise gegen die tatsächlich vorhandenen Unterabschnitte: kein ungültiger Verweis. Die einzige Treffermeldung (`§ 2.4.4`) verweist auf `Validierung.md`, nicht auf das Hauptdokument. Alle `Kapitel X`-Verweise liegen im Bereich 1 bis 11. Die in diesem Lauf neu gesetzten Verweise (§ 3.1, § 7.3, § 9.1 aus § 7.1; § 8.5 aus § 8.2; § 1.1, § 3.3, § 9.2 aus § 9.1; § 1.1, § 5.1, § 9.1 aus § 9.2; § 9.2 aus § 1.1) lösen sämtlich auf |
+| 2.1.4 Roter Faden | OK | Die etablierte Arbeitsteilung ist eingehalten: § 1.1 trägt den Sachverhalt (Trackerstände und die erstmals ausgelesene Erfassungsquote), § 9.2 die tatbestands- und verwaltungsbezogene Folgerung, § 11.5 den Nachweis. Der neue Gesundheitsbefund steht in § 7.1 (Sektoranwendung) und wird in § 9.1 nur querverwiesen; die handelsbasierte Standortmessung steht in § 8.2 (Rohstoff-Analogie) und verweist auf § 8.5 weiter, ohne die Veredelungsstrategie dort zu wiederholen |
+| 2.1.5 Formatierung | OK | Maschinell geprüft: keine Zeile mit ungerader Anzahl `**`, keine doppelten Leerzeilen, keine doppelten Trennlinien, alle Markdown-Tabellen spaltenkonsistent |
+| 2.2.1 Sachliche Richtigkeit | OK | Sämtliche in diesem Lauf aufgenommenen Zahlen sind am Direktabruf geprüft. Arithmetische Gegenproben: 589.570 + 41.250 = 630.820 (Summenprobe des Zählwerks geht exakt auf); 630.820 − 629.819 = 1.001 Zuwachs; 477.649 − 473.699 = 3.950 Rückgang der angekündigten Stufe; 1.107.468 − 1.104.519 = 2.949 Rückgang beider Stufen zusammen; 210.741 / 261 Tage = 807,4 (bestätigt die ausgewiesene Tagesrate 807 und den Nullzufluss); 630.820 − 604.622 = 26.198 (Differenz zur Übersichtstabelle, gegenüber 24.074 am Vortag gewachsen); 55 / 57 = 96,5 %, gerundet auf die vom Betreiber angegebenen 96 % |
+| 2.2.2 Redundanzprüfung | OK | Die Erfassungsquote wird in § 1.1 als Sachverhalt geführt und in § 9.2 ausschließlich in ihrer Folgerung (Vollständigkeit ist nur dort gemessen, wo eine Meldepflicht besteht) aufgenommen; die Zahlen selbst sind in § 9.2 nur so weit wiederholt, wie die Folgerung sie trägt. Der Anthropic-Befund steht ausschließlich in § 9.1; § 1.1 und § 9.2 nehmen ihn nicht auf. Der Staatsfonds- und der Wertschöpfungsabgabe-Gedanke sind an keiner Stelle neu ausgeführt, sondern nur querverwiesen (§ 5.1 aus § 9.2, § 8.5 aus § 8.2) |
+| 2.2.3 Argumentation | OK | Die fünf Typen aus § 2.1 bleiben getrennt: Der neue § 9.1-Nachtrag ordnet den Aufgabenautomatisierungsgrad ausdrücklich der displacement-basierten und die Rechenleistung der transaktionsbasierten Anknüpfung zu und vermengt beide nicht. Die Acemoglu- und die Thuemmel-Linie sind nicht berührt. Das aufgabenbasierte Argument aus § 3.1 wird in § 7.1 als Deutungsrahmen der Autoren zitiert, nicht als eigene Modellaussage |
+| 2.2.4 Ausgewogenheit | OK | Die gemessene Erfassungsquote von 96 % ist ausdrücklich als „sehr gutes Ergebnis" gewürdigt, bevor ihre Reichweitenbeschränkung dargestellt wird. Der Anthropic-Beitrag ist als Selbstauskunft gekennzeichnet, seine beiden Einwände gegen die eigene Messung (fehlende einheitliche Methodik; eigenes Modell als Prüfinstanz) sind übernommen. Beide Preprints sind mit dem fehlenden Begutachtungsstatus und den von den Autoren selbst benannten Einschränkungen versehen |
+| 2.3.1 Tippfehler und Grammatik | OK | Neue Passagen gelesen; keine Auffälligkeiten. Zahlenschreibweise durchgehend deutsch (Punkt als Tausendertrenner, Komma als Dezimaltrenner), auch bei den aus englischsprachigen Quellen übernommenen Werten |
+| 2.3.2 Terminologie | OK | „Wertschöpfungsabgabe" durchgehend, „Wertschöpfungssteuer" null Vorkommen (maschinell geprüft). Neu eingeführte Fachbegriffe sind bei Erstnennung erklärt: *automated insulin delivery* (AID), *risk-set coarsened exact matching*, ökonomische Komplexität, AECI/AIAP/AECP, Automatisierungsgrade AL0 bis AL5, *Item 2.05*. Die Abkürzung „Künstliche Intelligenz (KI)" bleibt einmalig eingeführt |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Drei neue Fließtext-Belege, drei neue beziehungsweise fortgeschriebene Einträge: *Rashidi/Ugolini/Fiorentini* und *Moon/Hwang/Hwang/Jeong* in § 11.1 (ökonomische Forschung), *Anthropic* in § 11.3 (institutionelle Dokumente), die drei Zählwerke in § 11.5 fortgeschrieben. Maschinell gegengeprüft: keine im Fließtext genannte neue Quelle ohne Eintrag, kein neuer Eintrag ohne Fundstelle im Fließtext |
+| 2.4.2 Formale Einheitlichkeit | OK | Die neuen Einträge folgen dem APA-nahen Hausformat (Autoren, Datum, kursiver Titel, Preprint-Kennung mit Nummer und Fachklasse, Inhalt, Aufnahmestelle, Belastbarkeit, vollständige URL ohne Kürzungsdienst). Datumsangaben einheitlich im Format „TT. Monat JJJJ" |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Beide neuen Beiträge sind als Preprint ohne Begutachtung gekennzeichnet und durchgängig im Konjunktiv referiert (§ 4.2 `Claude.md`); die Anthropic-Veröffentlichung ist als Unternehmensselbstauskunft ohne unabhängige Verifikation gekennzeichnet und ebenfalls im Konjunktiv referiert. Die Trackerangaben bleiben als Selbstauskunft privater, kommerziell betriebener Zählwerke gekennzeichnet |
+| 2.4.4 URL-Prüfung (Stichprobe) | Abweichung | Stichprobe von 88 der 881 eindeutigen URLs (10,0 %), maschinell abgerufen: 62 mit HTTP 200, 21 mit HTTP 403, einmal HTTP 429 und drei Verbindungsabbrüche. **Kein einziger HTTP-404-Befund** — sämtliche Abweichungen sind bekannte Zugangssperren gegen automatisierte Abrufe (CNBC, Bloomberg, Axios, qz.com, investing.com, Fast Company, Times of Israel, Oracle Investor Relations) und keine toten Verweise. Die sechs in diesem Lauf neu oder fortgeschrieben aufgenommenen URLs sind gesondert geprüft: sämtlich HTTP 200 |
+| 2.4.5 Zitatgenauigkeit | OK | Fünf Kernaussagen gegengeprüft: die Wirkungsschätzungen der AID-Studie (16,3 und 39,3 Prozentpunkte gegen eine Ausgangswahrscheinlichkeit von 55,2 %) sind im englischen Wortlaut der Zusammenfassung im Literatureintrag hinterlegt; der Vorbehalt der Autoren zur Fortschreibungsannahme ist wörtlich übernommen; die AECI-Werte sind aus Tabelle 1 der Volltextfassung ausgelesen; die Selbstkennzeichnung des Zählwerks als *„a floor and not a census"* ist am Direktabruf verifiziert; die Anthropic-Angaben (26 %, über 90 %, rund 30.000 Agenten, 6 % und 12 % Rechenleistung) sind dem Beitragstext entnommen. Modellergebnisse, Schätzungen und Selbstauskünfte sind jeweils als solche gekennzeichnet |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Die Markierung bei de la Feria et al. 2022 ist unverändert erhalten; in diesem Lauf ist keine Verifikationsmarkierung entfernt worden |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 98.0 an allen vier Stellen identisch: Dokumentkopf, Aktualitätshinweis am Dokumentende, `README.md` (Kopf und Zitiervorschlag) sowie dieser Block. Autor (Björn Degenkolbe) und Organisationszuordnung unverändert; Haftungshinweis und Lizenzhinweis CC BY 4.0 am Dokumentende vorhanden; der KI-Offenlegungshinweis in `README.md` ist erhalten |
+| 2.6 Automatisierte Prüfung | n/a | Das Projekt enthält weiterhin keine dedizierten Prüfskripte. Ersatzweise wurden ad hoc maschinelle Stichproben zu Nummerierung, Querverweisauflösung, Zählern, Fettungsbalance, Leerzeilen, leeren Abschnitten, Tabellenspalten und URL-Erreichbarkeit ausgeführt |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|--------|--------|---------|
+| 1 | § 11.1, neuer Eintrag *Moon, Hwang, Hwang & Jeong* | Die Zahl der spezialisierten Warenpositionen für Japan war im Entwurf des Literatureintrags mit „61 bzw. 64" doppeldeutig angegeben; Tabelle 1 der Quelle weist 64 aus (61 ist der Wert für Deutschland) | Gering |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|--------|----------|----------|
+| 1 | Doppeldeutige Positionszahl für Japan | Vor Aufnahme in das Hauptdokument auf „64 spezialisierte Positionen" korrigiert und gegen Tabelle 1 der Volltextfassung gegengeprüft; der deutsche Wert (61) steht unverändert an seiner eigenen Stelle | Ja |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte (2.2.1, 2.4.1, 2.4.2, 2.4.5) nach der Bereinigung erneut durchlaufen: OK
+- Erneute maschinelle Prüfung von Nummerierung, Querverweisauflösung, Zählern, Fettungsbalance, Leerzeilen, leeren Abschnitten und Tabellenspalten: OK
+- Sämtliche Trackerarithmetik nach der Einarbeitung nachgerechnet (Summenproben, Differenzen, Tagesrate, Erfassungsquote): OK
+- Gegenprobe der Leitzahlen über einen zweiten, unabhängigen Direktabruf derselben Seiten am selben Tag: OK — identische Werte
+- Automatisierte Skripte (sofern vorhanden): n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 98.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 17. September 2026 (Lauf 001 vom 17. September 2026) — Version 96.0 → Version 97.0
 
 ### Prüfergebnis
