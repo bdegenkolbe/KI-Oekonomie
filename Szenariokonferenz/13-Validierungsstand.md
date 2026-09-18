@@ -29,7 +29,7 @@
 | **D, der Durchgriff, als berechnete Pflichtgröße** | **neu, nie als Vorgabe gelaufen** | in der Probe vom Panel selbst konstruiert, Spanne 0,30 bis 0,82; als Vorgabe mit fester Formel ungeprüft |
 | **Zahlenmatrix statt Volltafel (§ 4.3)** | **neu** | die Probe lief faktisch mit einer solchen Matrix und erzeugte daraus die fünf schärfsten Einwände — bei zehn Zeilen, nicht bei hundert |
 | **Status je Karte statt je Rolle** | **neu** | die Probe lief mit Rollenurteil und zeigte damit den Fehler; die Kartenvariante ist ungeprüft |
-| **Wiederaufsetzen über die Lauf-Kennung (§ 8)** | **nie ausgelöst** | Mechanik vorhanden und dokumentiert, aber kein Abbruch provoziert |
+| **Wiederaufsetzen über die Lauf-Kennung (§ 8)** | **geprüft** | Probelauf am 18.09.: absichtlicher Abbruch nach zwei von sechs Aufrufen, Fortsetzung über dieselbe Lauf-Kennung in 54 Sekunden, die beiden fertigen Aufrufe kamen aus dem Zwischenspeicher |
 | **Europäische Vergleichsgrößen E1–E3** | **neu, nie gelaufen** | asymmetrisch, nur 18 Rollen; ohne sie könnte das Verfahren ein Drittel seines Zielbilds nicht liefern |
 | **Red Team mit sechs benannten Angriffsaufträgen** | **neu, nie gelaufen** | zuvor ein Absatz; Angriff 4 (»die Stille auf der Tafel«) adressiert das systematische Versagen dieses Verfahrenstyps |
 | **Synthese ohne Kartenanlagerecht, Verifikation über Kreuz** | **neu, nie gelaufen** | — |
@@ -89,7 +89,7 @@ Der Zuschnitt ist auf Messbarkeit der Mechanik optimiert, nicht auf inhaltliche 
 | **Topfdeckung** | A2 summiert bei 100 % der Rollen auf 100 einschließlich des Restwerts »gar kein Topf«, und dieser Restwert ist nicht durchgängig null | ob die Marktfrage ernsthaft beantwortet oder weggerundet wird |
 | **Schemafestigkeit** | 100 % der Karten valide gegen das Kartenschema, Einheiten und Anteilssummen inbegriffen | ob die Tafel ohne Nacharbeit auswertbar bleibt |
 | **Adressierung** | 100 % der Einwände, Bedingungen, Bewertungen und Dissens-Karten tragen einen gültigen Bezug | ob der Kartengraph zusammenhängt |
-| **Wiederaufsetzbarkeit** | ein absichtlicher Abbruch nach Runde 2 und ein Neustart überspringen alle erfolgreichen Aufrufe und kosten nichts doppelt | ob § 8 des Konzepts trägt |
+| **Wiederaufsetzbarkeit** | ~~ein absichtlicher Abbruch und ein Neustart überspringen alle erfolgreichen Aufrufe~~ | **vorab erfüllt** am 18.09. in einem eigenen Probelauf, siehe § 1 |
 | **Kartenweiser Filter** | keine Rolle verliert mehr als drei ihrer neun Karten; keine verliert alle sechs Pflichtgrößen | ob der Filter aus § 5 Runde 1b das Panel erhält statt es zu halbieren |
 | **Matrixtauglichkeit** | ≥ 60 % der Einwände richten sich gegen Karten, die der Angreifer nur als Zahlenzeile gesehen hat | ob die Zahlenmatrix als Angriffsfläche trägt — in der Zehnerprobe taten es 100 %, aber bei zehn Zeilen |
 | **Durchgriffsspreizung** | D streut über die achtzehn Rollen um mindestens den Faktor zwei | ob D als eigene Größe etwas misst oder nur P1 bis P3 wiederholt |
