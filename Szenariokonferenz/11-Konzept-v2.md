@@ -26,25 +26,28 @@ Die Diskussionsphase muss also so gebaut sein, dass Einigkeit teuer und Widerspr
 
 **(5) Die Gruppenleitung hat keine Stimme.** Sie clustert, protokolliert und stellt die Streitfrage — sie urteilt nicht. Ein moderierender Agent mit Meinung erzeugt die Einigung, die er protokolliert.
 
-## 3. Die fünf Pflichtgrößen
+## 3. Die Pflichtgrößen
 
 Das ist die tragende Änderung gegenüber der ersten Fassung dieses Konzepts. Ohne eine gemeinsame Größe zerfällt ein Lauf mit hundert Rollen in hundert Dossiers, die nebeneinanderliegen und sich nicht widersprechen können. Runde M hat funktioniert, weil sie **eine** Frage mit **einer** Einheit war.
 
-Jede Rolle beantwortet fünf Größen — **nicht aus Makroprojektionen, sondern hergeleitet aus dem eigenen Feld**, mit Rechenweg vor dem Ergebnis und mit der Bezugsgruppengröße, die die Recherchebank geliefert hat (§ 5.0). Stichjahr ist durchgehend **2031**.
+Jede Rolle beantwortet fünf Größen und eine Gegenprobe — **nicht aus Makroprojektionen, sondern hergeleitet aus dem eigenen Feld**, mit Rechenweg vor dem Ergebnis und mit der Bezugsgruppengröße, die die Recherchebank geliefert hat (§ 5, Runde 0a). Stichjahr ist durchgehend **2031**.
 
 | ID | Größe | Einheit | Wertebereich | Pflichtangaben |
 |---|---|---|---|---|
 | **P1** | Anteil der heute im eigenen Feld geleisteten Arbeitszeit, der bis 2031 technisch durch KI oder Automatisierung ersetzbar ist — unabhängig davon, ob es geschieht | Prozent | 0–100 | Rechenweg aus Tätigkeiten und Arbeitszeitanteilen, 80-%-Intervall |
 | **P2** | Anteil von **P1**, der bis 2031 im Regelbetrieb tatsächlich wirksam wird | Prozent von P1 | 0–100 | das bindende Hemmnis aus geschlossener Liste, 80-%-Intervall |
-| **P3** | Veränderung des Personal**bedarfs** im eigenen Feld bis 2031 | Prozent der VZÄ der Bezugsgruppe **und** absolute VZÄ | −100 bis +50 | Bezugsgröße in VZÄ nach R03, Rechenweg, 80-%-Intervall |
+| **P3** | Veränderung des Personal**bedarfs** im eigenen Feld bis 2031 | Prozent der VZÄ der Bezugsgruppe **und** absolute VZÄ | −100 bis +50 | Bezugsgröße in VZÄ nach R03 mit ihrer Zuordnungsart, Rechenweg, 80-%-Intervall |
+| **P3₀** | dieselbe Größe unter der Gegenannahme, dass KI und Automatisierung bis 2031 **stagnieren** | Prozent der VZÄ | −100 bis +50 | Rechenweg |
 | **P4** | Ursachenanteil an **P3**: KI und Automatisierung / Demografie und Erwerbspersonenrückgang / Struktur- und Rechtsreform | drei Prozentwerte, Summe 100 | je 0–100 | je Ursache ein Satz, woran man sie erkennen würde |
 | **P5** | Verbleib des Effizienzgewinns: beim Leistungserbringer / weitergegeben als Preis oder Beitragssatz / abgeflossen als Lizenz-, Geräte- oder Cloudentgelt überwiegend außerhalb Deutschlands / finanziert zusätzliche Leistung im eigenen Feld | vier Prozentwerte, Summe 100 | je 0–100 | der Vertrag oder Abrechnungsweg, über den der jeweilige Anteil läuft |
 
+**P3₀ ist keine sechste Frage, sondern die Gegenprobe zu P4.** Wer den KI-Anteil an der Veränderung mit 60 % beziffert, muss dieselbe Zahl noch einmal treffen, wenn er die Welt ohne KI durchrechnet: Der aus P3 und P3₀ abgeleitete Anteil (P3 − P3₀) ÷ P3 muss zum P4-Wert für KI passen. Weicht beides um mehr als fünfzehn Punkte voneinander ab, ist die Attribution geraten und nicht hergeleitet — und das ist rechnerisch feststellbar, ohne dass jemand die Antwort beurteilen müsste (§ 6, *Attributionskonsistenz*).
+
 Die geschlossene Hemmnisliste zu **P2**: *Recht und Zulassung* · *Refinanzierung und Abrechnung* · *Haftung* · *Personalbindung und Tarif* · *Investitionsfähigkeit* · *Akzeptanz von Patienten oder Beschäftigten* · *Datenverfügbarkeit*. Freitext ist als Begründung erlaubt, nicht als Typ.
 
-**Warum gerade diese fünf.** P3 ist die einzige Größe, die sich über hundert Felder **addieren** lässt, sobald jede Rolle ihre Bezugsgröße in Vollkräften nennt — sie trägt damit die Zentraltabelle des Strategiepapiers. P1 und P2 zerlegen sie in das technisch Mögliche und das tatsächlich Eintretende, und die Differenz beider ist genau die Stelle, an der der Pilotlauf seine belastbarsten Befunde hatte (`12-Gesamtauswertung.md` § 1, § 5). P4 macht aus dem Attributionsproblem eine Zahl statt eines Bekenntnisses: Wer behauptet, KI verändere das Gesundheitswesen bis 2031, muss beziffern, wie viel davon ohnehin Demografie und Krankenhausreform sind. P5 knüpft an die Frage an, die Runde M mit 13:4:3 beantwortet hat, und liefert dem Arbeitspapier den Abflusskanal, auf den seine Wertschöpfungsabgabe zielt.
+**Warum gerade diese fünf.** P3 ist die einzige Größe, die sich über hundert Felder **addieren** lässt, sobald jede Rolle ihre Bezugsgröße in Vollkräften nennt — sie trägt damit die Zentraltabelle des Strategiepapiers. Damit die Summe trägt, ist die Zuordnung der Vollkräfte **disjunkt** (§ 5, Runde 0a): Jede Vollkraft gehört genau einem Feld, und Felder, die über dieselben Menschen sprechen, sind als solche ausgewiesen und gehen nicht doppelt in die Summe ein. P1 und P2 zerlegen sie in das technisch Mögliche und das tatsächlich Eintretende, und die Differenz beider ist genau die Stelle, an der der Pilotlauf seine belastbarsten Befunde hatte (`12-Gesamtauswertung.md` § 1, § 5). P4 macht aus dem Attributionsproblem eine Zahl statt eines Bekenntnisses: Wer behauptet, KI verändere das Gesundheitswesen bis 2031, muss beziffern, wie viel davon ohnehin Demografie und Krankenhausreform sind. P5 knüpft an die Frage an, die Runde M mit 13:4:3 beantwortet hat, und liefert dem Arbeitspapier den Abflusskanal, auf den seine Wertschöpfungsabgabe zielt.
 
-**Die Pflichtgrößen werden zweimal beantwortet** — in Runde 1 isoliert und in Runde 3 nach der Diskussion (§ 5.3). Die Differenz zwischen beiden Erhebungen *ist* das Divergenzerhalt-Kriterium aus `13-Validierungsstand.md` § 3 und muss nicht mehr geschätzt werden.
+**Die Pflichtgrößen werden zweimal beantwortet** — in Runde 1 isoliert und in Runde 3 nach der Diskussion (§ 5, Runde 3). Die Differenz zwischen beiden Erhebungen *ist* das Divergenzerhalt-Kriterium aus `13-Validierungsstand.md` § 3 und muss nicht mehr geschätzt werden.
 
 ## 4. Die Tafel
 
@@ -58,7 +61,7 @@ Die Tafel ist kein Bild, sondern eine append-only-Liste typisierter Karten in `r
 | `befund` | jede Rolle, Runde 1 | nein | `quelle` (abgerufen, mit Datum und Fundstelle) |
 | `pflichtgroesse` | jede Rolle, Runde 1 **und** Runde 3 | nein | `groesse_id` (P1–P5), `einheit`, `rechenweg`, `bezugsgroesse_vzae`, `intervall_80` |
 | `zahl` | Rollen, jederzeit | optional | `groesse` mit Einheit, 80-%-Intervall, Rechenweg, Bezugsgruppe in VZÄ |
-| `einwand` | Rollen, Runde 2 und 3 | **ja** | `einwandtyp` (siehe unten) |
+| `einwand` | Rollen, Runde 2 und 3 | **ja** | `einwandtyp` (siehe unten), **`rettungsbedingung`** |
 | `bedingung` | Rollen, Runde 2 und 3 | **ja** (auf eigene Position oder auf das Szenariogerüst) | — |
 | `dissens` | Gruppenleitung, Runde 2 | **ja** (zwei Karten) | `entscheidungsgroesse` — was gemessen werden müsste |
 | `hebel` | Syntheseinstanz, Runde 4 | **ja** (auf Dissens- oder Positionskarten) | `adressat`, `rechtsgrundlage_oder_instrument`, betroffene Bänke |
@@ -66,6 +69,8 @@ Die Tafel ist kein Bild, sondern eine append-only-Liste typisierter Karten in `r
 | `beschluss` | Runde 5 | **ja** | Stimmenverhältnis, Gegenstimmen namentlich |
 
 `einwandtyp` ist eine geschlossene Liste: *Faktum bestritten* · *Geltungsbereich zu weit* · *Mechanismus fehlt* · *Gegenbeispiel aus meinem Feld* · *Quelle trägt die Aussage nicht* · *Größenordnung falsch* · *Rechenweg trägt das Ergebnis nicht*. Der letzte Typ ist neu und richtet sich ausdrücklich gegen `pflichtgroesse`-Karten.
+
+**Die Rettungsbedingung ist der Filter gegen den Pflichteinwand ohne Substanz.** Jeder Einwand muss benennen, was zutreffen müsste, damit die angegriffene Karte trotz des Einwands gilt. Eine Höflichkeitsformel kann das nicht leisten: Wer nichts Bestimmtes bestreitet, kann auch nicht angeben, was ihn widerlegen würde. Ein Einwand ohne belastbare Rettungsbedingung wird von der Prüfinstanz als **Leerzug** markiert; er bleibt auf der Tafel, zählt aber in keinem Konvergenzmaß mit (§ 6). Der Zwang aus § 2 Regel 4 erzeugt damit weiterhin schwache Einwände — sie verfälschen nur die Messung nicht mehr.
 
 ### 4.2 Schema
 
@@ -98,11 +103,16 @@ Eine `pflichtgroesse`-Karte trägt zusätzlich:
   "bezugsgroesse_vzae": 41800,
   "absolut_vzae": -5225,
   "rechenweg": "41 800 VZÄ Bezugsgruppe nach R03 · …",
-  "quelle_bezugsgroesse": "R03-Faktenblatt, Tabelle 4"
+  "quelle_bezugsgroesse": "R03-Faktenblatt, Tabelle 4",
+  "zuordnung": "primaer",
+  "geruest": "B",
+  "modell": "opus"
 }
 ```
 
-`status` wird ausschließlich von der Validierungsinstanz gesetzt: `gueltig` · `mit-vorbehalt` · `zurueckgewiesen`. Zurückgewiesene Karten werden **nicht gelöscht**, sondern bleiben mit Begründung auf der Tafel und werden im Dashboard ausgegraut. Eine Tafel, von der Fehler verschwinden, ist kein Protokoll.
+`zuordnung` ∈ {`primaer`, `geteilt`, `unbekannt`} entscheidet, ob die Karte in die addierte Gesamtsumme eingeht (§ 5, Runde 0a). `geruest` ∈ {`A`, `B`} hält fest, gegen welches der beiden Szenariogerüste gerechnet wurde, `modell` welches Modell geantwortet hat — beides wird in Runde 0 und 1 zugeteilt und ist die Grundlage der Gerüst- und Modellabhängigkeit in § 6.
+
+`status` wird ausschließlich von der Validierungsinstanz gesetzt: `gueltig` · `mit-vorbehalt` · `zurueckgewiesen` · `leerzug`. Zurückgewiesene Karten werden **nicht gelöscht**, sondern bleiben mit Begründung auf der Tafel und werden im Dashboard ausgegraut. Eine Tafel, von der Fehler verschwinden, ist kein Protokoll.
 
 ### 4.3 Einheitenzwang
 
@@ -114,11 +124,18 @@ Jede Karte mit Zahlenwert trägt `einheit` als Aufzählungswert (`prozent` · `p
 
 Zehn Rechercheure ohne Stimmrecht liefern je ein Faktenblatt (`14-Roster-2031.md` Teil 1). Drei Lieferungen sind für alles Weitere verbindlich:
 
-**(a) Bezugsgrößen.** R03 liefert für jedes der hundert Felder die Bezugsgruppe in Vollkräften mit Fundstelle. Ohne diesen Nenner ist P3 nicht addierbar, und hundert Rollen würden hundert verschiedene Grundgesamtheiten unterstellen. Wo R03 für ein Feld keine amtliche Zahl findet, wird das Feld als `bezugsgroesse: unbekannt` geführt — die Rolle rechnet dann nur relativ und geht in die Gesamtsumme nicht ein.
+**(0a) Bezugsgrößen als disjunkte Zerlegung.** R03 liefert für jedes der hundert Felder die Bezugsgruppe in Vollkräften mit Fundstelle — und zwar so, dass **jede Vollkraft genau einem Feld zugeordnet ist**. Das ist mehr als eine Zahlenliste: Wo zwei Rollen über dieselben Menschen sprechen (der Pflegedirektor in Bank A und die Intensivpflegekraft in Bank C, die Hausärztin in Bank B und der Verband in Bank F), weist R03 die Vollkräfte **einem** Feld als `primaer` zu und dem anderen als `geteilt mit <Feld>`. In die addierte Gesamtsumme gehen nur `primaer`-Felder ein; `geteilt`-Felder liefern ihr Urteil, aber kein Gewicht. Wo keine amtliche Zahl existiert, gilt `unbekannt`.
 
-**(b) Szenariogerüst.** R08 legt mit R01 und R05 einen gemeinsamen Rahmen für 2031 fest: BIP-Pfad, Erwerbspersonenpotenzial, Beitragssatzkorridor, Tarifentwicklung, Zinsniveau, Stand von EU AI Act, MDR, EHDS und Krankenhausreform. Alle Rollen rechnen gegen dasselbe Gerüst. Wer davon abweichen will, legt eine `bedingung`-Karte auf das Gerüst — das ist zulässig und wird ausgewertet. Ohne Gerüst streiten hundert Rollen über die Welt statt über die Frage, und die Streuung misst dann Weltbilder statt Fachurteile.
+Ausgewiesen wird zu jeder Summe dreierlei: wie viele Felder sie deckt, wie viele Vollkräfte das sind — und **der Rest**, also die Vollkräfte im deutschen Gesundheitswesen, die kein Feld dieses Rosters abdeckt. Ohne diese drei Angaben ist eine addierte VZÄ-Zahl eine Behauptung über ein Ganzes, von dem niemand weiß, wie viel davon gemessen wurde.
 
-**(c) Gegenwartswerte** mit Fundstelle, Erhebungsdatum und ausdrücklich benannten Lücken, je Domäne.
+**(0b) Zwei Szenariogerüste statt einem.** R08 legt mit R01 und R05 **zwei** ausdrücklich gegensätzliche Rahmen für 2031 fest — je mit BIP-Pfad, Erwerbspersonenpotenzial, Beitragssatzkorridor, Tarifentwicklung, Zinsniveau und dem Stand von EU AI Act, MDR, EHDS und Krankenhausreform:
+
+- **Gerüst A — Fortschreibung:** die amtlichen Projektionen treten ein, die Krankenhausreform wird wie beschlossen umgesetzt, der Rechtsrahmen gilt zum angekündigten Termin.
+- **Gerüst B — Gegenwelt:** schwächeres Wachstum, schnellerer Beitragssatzanstieg, verzögerter Vollzug des EU-Rechts, Krankenhausreform in Teilen gescheitert oder landesweise auseinanderlaufend.
+
+Die hundert Rollen werden hälftig zugeteilt, nach derselben Regel wie die Anker-Randomisierung: ungerade IDs rechnen gegen A, gerade gegen B. **Die Differenz der Pflichtgrößen zwischen beiden Hälften ist damit eine gemessene Größe** (§ 6, *Gerüstabhängigkeit*) und kein blinder Fleck. Ein einziges Gerüst hätte alle hundert Rollen in denselben Weltannahmen gleichgerichtet: Wäre eine Annahme falsch, irrte das Panel geschlossen und ohne Streuung — also in genau der Form, die im ersten Lauf als Konsens missdeutet worden wäre. Wer auch von seinem zugeteilten Gerüst abweichen will, legt zusätzlich eine `bedingung`-Karte darauf.
+
+**(0c) Gegenwartswerte** mit Fundstelle, Erhebungsdatum und ausdrücklich benannten Lücken, je Domäne.
 
 Damit wird zugleich der Konstruktionsfehler des ersten Laufs behoben: Dort recherchierten zwölf von 27 Rollen, und fast alle dasselbe, weil das Instrument nur zwei gegenwärtige Größen enthielt.
 
@@ -128,14 +145,18 @@ Jede der hundert Rollen arbeitet allein und sieht nichts von den anderen — nur
 
 - eine `position`-Karte: die These zum eigenen Feld bis 2031, mit dem Satz, der sie widerlegen würde
 - drei bis sechs `befund`-Karten, jede mit abgerufener Quelle, Datum und Fundstelle
-- fünf `pflichtgroesse`-Karten P1 bis P5, Rechenweg vor Ergebnis
+- sechs `pflichtgroesse`-Karten P1 bis P5 und P3₀, Rechenweg vor Ergebnis
 - optional weitere `zahl`-Karten zu Größen, die aus dem eigenen Feld hergeleitet sind
+
+**Modellkontrollarm.** Zehn der hundert Rollen — je eine aus zehn verschiedenen Bänken, vorab festgelegt — durchlaufen Runde 1 und Runde 3 ein zweites Mal mit **identischem Auftrag auf einem anderen Modell**. Die Differenz zwischen beiden Antworten derselben Rolle ist die **Modellabhängigkeit** (§ 6). Das schließt die Lücke, an der der erste Lauf gescheitert ist: Dort war erst in der nachträglichen Rohdatenauswertung erkennbar, dass eine Variable die Vorannahme des Modells statt das Urteil der Rollen maß. Übersteigt die Modellabhängigkeit die Streuung im Panel, misst die betreffende Pflichtgröße das Modell — und wird nicht berichtet, sondern verworfen.
 
 Gestrichen gegenüber Version 1: V1, V2, V3, V6, V7, V13, V14. Keine Rolle schätzt mehr das deutsche BIP 2031 oder ihre eigene Konfidenz. Was das Panel zu Makrogrößen zu sagen hat, entsteht aus der Aggregation von P3 über die Bezugsgruppen — oder gar nicht.
 
 ### Runde 1b — Validierung
 
-Unverändert aus `06-Validierung.md`, aber auf Kartenebene: Existenz der Quelle, Deckung der Aussage, Mandatstreue, fachliche Plausibilität. Neu hinzu für `pflichtgroesse`-Karten: **Rechenweghaltbarkeit** — der genannte Rechenweg muss den genannten Wert aus der genannten Bezugsgröße reproduzieren. Kleines Modell. Nur Karten mit Status `gueltig` oder `mit-vorbehalt` gehen weiter; zurückgewiesene bleiben sichtbar.
+Unverändert aus `06-Validierung.md`, aber auf Kartenebene: Existenz der Quelle, Deckung der Aussage, Mandatstreue, fachliche Plausibilität. Neu hinzu für `pflichtgroesse`-Karten: **Rechenweghaltbarkeit** — der genannte Rechenweg muss den genannten Wert aus der genannten Bezugsgröße reproduzieren. Für `einwand`-Karten: trägt die Rettungsbedingung, oder ist der Zug leer (§ 4.1)? Kleines Modell. Nur Karten mit Status `gueltig` oder `mit-vorbehalt` gehen weiter; zurückgewiesene und Leerzüge bleiben sichtbar.
+
+**Gesetzte Fehler.** Ob die Prüfinstanz zu milde urteilt, war bisher offen (`07-Pilotbericht.md` § 6) — eine Instanz, die alles durchwinkt, ist von einer, die alles prüft, am Ergebnis nicht zu unterscheiden. Deshalb werden **zehn Prozent der vorgelegten Karten vorher maschinell verfälscht**: eine geänderte Ziffer, eine Quelle, die die Aussage nicht deckt, eine Rolle, die außerhalb ihres Mandats spricht. Welche Karten das sind, weiß die Auswertung und nicht die Prüfinstanz. Ihre **Trefferquote auf den gesetzten Fehlern** ist damit eine gemessene Zahl. Liegt sie unter 80 %, ist nicht eine Karte widerlegt, sondern die gesamte Validierung wertlos, und der Lauf bricht ab. Die verfälschten Karten werden nach der Prüfung durch ihre Originale ersetzt; sie gehen in kein inhaltliches Ergebnis ein.
 
 ### Runde 2 — Gruppendiskussion der dreißig Strittigsten
 
@@ -143,7 +164,7 @@ Nicht alle hundert diskutieren. Wer nahe am Median liegt, hat der Tafel in einer
 
 > Für P1, P2 und P3 wird gegen den Median der **eigenen Bank** gerechnet: *d* = |*x* − Median(*g*, Bank)| ÷ max(IQR(*g*, Bank), Mindestspreizung(*g*)).
 > Für P4 und P5 wird gegen den Median des **gesamten Panels** gerechnet, und an die Stelle des Betrags tritt die halbe Summe der absoluten Abweichungen vom Medianvektor.
-> Der **Streitindex** einer Rolle ist die Summe dieser fünf Werte.
+> Der **Streitindex** einer Rolle ist die Summe dieser fünf Werte. P3₀ geht nicht ein: Es ist die Gegenprobe zu P4 und keine eigene Streitfrage.
 
 Die Trennung ist nicht kosmetisch. P1 bis P3 sind feldabhängig: Dass die Radiologie einen höheren automatisierbaren Arbeitszeitanteil nennt als die Intensivpflege, ist kein Streit, sondern der Unterschied der beiden Felder. Gegen den Panelmedian gemessen kämen genau die Rollen in die Diskussion, deren Feld ungewöhnlich ist — nicht die, deren *Urteil* ungewöhnlich ist. Innerhalb der Bank fällt der Feldeffekt weitgehend heraus, und übrig bleibt die Abweichung im Urteil. P4 und P5 dagegen sind Mechanismusfragen: Wie viel der Veränderung der KI zuzurechnen ist und wohin der Gewinn fließt, ist zwischen den Feldern unmittelbar vergleichbar, und dort ist die Abweichung vom Gesamtpanel genau das Gesuchte.
 
@@ -161,7 +182,7 @@ Jede Gruppe schließt mit einem `dissens`-Eintrag je offenem Streitpunkt, der dr
 
 Alle hundert Rollen sehen jetzt sämtliche Dissens-Einträge, die Einwände gegen ihre eigenen Karten und die Streitfragen der fünf Gruppen. Jede Rolle liefert in einem Aufruf:
 
-1. die fünf Pflichtgrößen **erneut**, mit Rechenweg — Änderung erlaubt, Begründung der Änderung verpflichtend, Nichtänderung ebenfalls zu begründen
+1. die sechs Pflichtgrößen **erneut**, mit Rechenweg — Änderung erlaubt, Begründung der Änderung verpflichtend, Nichtänderung ebenfalls zu begründen; das zugeteilte Szenariogerüst bleibt dasselbe wie in Runde 1, sonst wäre die Differenz nicht die Wirkung der Diskussion
 2. eine Antwort auf jeden Einwand, der gegen ihre Karten gelegt wurde (`einwand` oder `bedingung`)
 3. bei mindestens einem Dissenspunkt eine Stellungnahme aus der eigenen Feldsicht
 
@@ -198,7 +219,18 @@ Die 25-%-Regel aus `00-Konzept.md` § 3 entfällt. Sie setzte voraus, dass alle 
 | **Divergenzerhalt** | IQR jeder Pflichtgröße in Runde 3 im Verhältnis zum IQR derselben Größe in Runde 1; bei den Anteilsvektoren P4 und P5 komponentenweise | fällt er unter die Hälfte, hat die Diskussion homogenisiert statt aufgeklärt |
 | **Dissenskarte** | Liste der Streitpunkte mit benannter Entscheidungsgröße | der Befund, wenn es keinen gibt |
 
-Keines dieser Maße lässt sich durch Höflichkeit erzeugen. Alle vier lassen sich aus dem Kartengraphen berechnen, ohne dass eine Instanz sie interpretieren muss.
+Angriffsüberleben und feldübergreifende Deckung zählen **nur Einwände, die keine Leerzüge sind** (§ 4.1). Eine Position, die nur von substanzlosen Pflichteinwänden getroffen wurde, gilt nicht als geprüft, sondern als ungeprüft.
+
+Dazu vier **Gültigkeitsmaße**. Sie sagen nichts über den Inhalt, sondern darüber, ob die Zahlen überhaupt etwas über die Sache aussagen — und sie werden **je Pflichtgröße** berechnet und neben jedem berichteten Wert ausgewiesen:
+
+| Maß | Definition | Konsequenz |
+|---|---|---|
+| **Prüfschärfe** | Anteil der maschinell gesetzten Fehler, die die Prüfinstanz gefunden hat (§ 5, Runde 1b) | unter 80 % ist die Validierung wertlos und der Lauf abzubrechen |
+| **Modellabhängigkeit** | mittlere Differenz zwischen den beiden Antworten derselben Rolle auf zwei Modellen, im Verhältnis zum Panel-IQR derselben Größe | über 1 misst die Größe das Modell und wird nicht berichtet |
+| **Gerüstabhängigkeit** | Abstand der Mediane zwischen Gerüst-A- und Gerüst-B-Hälfte, im Verhältnis zum Panel-IQR | über 1 wird die Größe getrennt nach Gerüst berichtet, nie zusammengefasst |
+| **Attributionskonsistenz** | Anteil der Rollen, bei denen (P3 − P3₀) ÷ P3 um höchstens 15 Punkte vom P4-Wert für KI abweicht | unter 80 % ist die Attribution des Panels geraten und als solche zu kennzeichnen |
+
+Keines dieser Maße lässt sich durch Höflichkeit erzeugen. Alle acht lassen sich aus dem Kartengraphen berechnen, ohne dass eine Instanz sie interpretieren muss. Drei von ihnen — Prüfschärfe, Modellabhängigkeit, Gerüstabhängigkeit — hätten den Fehlschlag des ersten Laufs **während** des Laufs angezeigt statt in der nachträglichen Rohdatenauswertung.
 
 ## 7. Das Dashboard
 
@@ -212,7 +244,9 @@ Eine eigenständige HTML-Seite nach `Formatvorlage.md`, ohne externe Abhängigke
 
 **(4) Hebel.** Je Hebel eine Matrix aus hundert Feldern × drei Urteilen, Kippbedingungen als aufklappbare Liste. Sortierbar nach Anteil `schadet`, nicht nach Zustimmung.
 
-**(5) Attribution.** Die P4-Zerlegung über alle Felder, als gestapelte Anteile nach Bank — die Antwort auf die Frage, wie viel von 2031 überhaupt der KI zuzurechnen wäre.
+**(5) Attribution.** Die P4-Zerlegung über alle Felder, als gestapelte Anteile nach Bank — die Antwort auf die Frage, wie viel von 2031 überhaupt der KI zuzurechnen wäre. Daneben die Gegenprobe aus P3₀ und die Attributionskonsistenz je Rolle.
+
+**(5b) Gültigkeit.** Eine eigene Ansicht für die vier Maße aus § 6: Prüfschärfe mit der Liste der gesetzten Fehler und was die Prüfinstanz mit ihnen gemacht hat, Modellabhängigkeit als Gegenüberstellung der zehn doppelt gelaufenen Rollen, Gerüstabhängigkeit als zwei Verteilungen je Pflichtgröße, Attributionskonsistenz als Streudiagramm. Diese Ansicht steht **vor** den inhaltlichen Ansichten, nicht im Anhang: Wer die Zahlen liest, soll zuerst sehen, wie weit sie tragen.
 
 **(6) Zeitachse.** Der Verlauf über die Runden: wann welche Karte kam, welche Position wann angegriffen wurde, was überlebt hat, welche Zahl sich zwischen Runde 1 und Runde 3 bewegt hat. Das macht das Verfahren nachvollziehbar statt nur sein Ergebnis.
 
@@ -235,31 +269,44 @@ Hochgerechnet aus den gemessenen Stückkosten (1,55 USD je recherchierender Opus
 | Phase | Aufrufe | USD |
 |---|---|---|
 | Runde 0 — zehn Faktenblätter, mehrere Abrufe je Blatt | 10 | 30 |
-| Runde 0 — Szenariogerüst und Bezugsgrößen | 2 | 6 |
-| Runde 1 — Position, Befunde, fünf Pflichtgrößen, mit Eigenrecherche | 100 | 155 |
-| Runde 1b — Validierung, kleines Modell | 100 | 46 |
+| Runde 0 — disjunkte Bezugsgrößen, Gerüst A, Gerüst B | 3 | 9 |
+| Runde 1 — Position, Befunde, sechs Pflichtgrößen, mit Eigenrecherche | 100 | 155 |
+| Runde 1 — Modellkontrollarm, zehn Rollen auf zweitem Modell | 10 | 6 |
+| Runde 1b — Validierung mit gesetzten Fehlern, kleines Modell | 110 | 51 |
 | Streitauswahl nach § 5 Runde 2 | 0 (rechnerisch) | 0 |
 | Runde 2 — dreißig Rollen × zwei Kartenzüge | 60 | 60 |
 | Runde 2 — fünf Gruppenleitungen × Streitfrage und Dissensprotokoll | 10 | 6 |
 | Runde 3 — Pflichtgrößen zum zweiten Mal, Antwort auf Einwände | 100 | 100 |
+| Runde 3 — Modellkontrollarm | 10 | 6 |
 | Runde 4 — Hebelsatz aus der Tafel | 2 | 4 |
 | Runde 4 — Optionenbewertung je Rolle | 100 | 60 |
 | Runde 5 — Red Team, Synthese, Verifikation | 12 | 16 |
 | Runde 6 — Strategiepapier, mehrstufig | 6 | 20 |
-| **Summe** | **502** | **rund 500** |
+| **Summe** | **533** | **rund 525** |
 
-**Die Wanduhrzeit ist das eigentliche Problem, nicht das Geld.** Der Container hat vier CPUs, die Nebenläufigkeit liegt damit bei zwei Agenten; das ist eine Eigenschaft der Umgebung und keine des Modells. 502 Aufrufe zu je rund drei Minuten ergeben **rund 12,5 Stunden**. Mit der Zwischenspeicherung aus § 8 zerfällt das in drei Abschnitte von je rund vier Stunden, die nicht an einem Stück laufen müssen.
+**Die Wanduhrzeit ist das eigentliche Problem, nicht das Geld.** Der Container hat vier CPUs, die Nebenläufigkeit liegt damit bei zwei Agenten; das ist eine Eigenschaft der Umgebung und keine des Modells. 533 Aufrufe zu je rund drei Minuten ergeben **rund 13,3 Stunden**. Der Ansatz von drei Minuten gilt gleichförmig für alle Aufrufe und ist konservativ: Die 110 Prüfaufrufe und die zwanzig Kontrollarm-Aufrufe laufen auf einem kleinen Modell und deutlich schneller. Mit der Zwischenspeicherung aus § 8 zerfällt der Lauf in drei Abschnitte von rund 5,8, 4,5 und 3,0 Stunden, die nicht an einem Stück laufen müssen.
 
-Zum Vergleich der Entwurfsstand vor dieser Fassung: 538 Aufrufe, rund 590 USD, rund 13,5 Stunden — bei weniger Inhalt, weil die Optionenrunde und die zweite Quantifizierung fehlten. Der Gewinn kommt aus der Verdichtung der Diskussion auf dreißig Rollen und dem Wegfall des Plenums; er wird zu etwa zwei Dritteln wieder in die Optionenrunde investiert.
+**Was die Gültigkeitsmaße kosten.** Modellkontrollarm, zweites Szenariogerüst und gesetzte Fehler schlagen mit 31 Aufrufen und rund 25 USD zu Buche — fünf Prozent des Laufs. Dafür sind die drei Fragen, an denen der erste Lauf gescheitert ist, nicht mehr offen: ob die Zahlen das Modell messen, ob sie an einer Weltannahme hängen und ob die Prüfinstanz überhaupt prüft. Das ist der billigste Teil dieses Verfahrens und der einzige, der es von einer aufwendig verpackten Modellabfrage unterscheidet.
 
-## 10. Was auch Version 2 nicht leistet
+Zum Vergleich der Entwurfsstand vor dieser Fassung: 538 Aufrufe, rund 590 USD, rund 13,5 Stunden — bei deutlich weniger Inhalt, weil Optionenrunde, zweite Quantifizierung und sämtliche Gültigkeitsmaße fehlten.
 
-Unverändert gilt `00-Konzept.md` § 4: Die Agenten sind Sprachmodelle mit Rollendossiers, keine befragten Fachleute. Das Ergebnis ist ein strukturiertes Argumentmodell, keine Umfrage und keine Prognose.
+## 10. Was bleibt
 
-Dazu fünf Einschränkungen, die speziell für dieses Verfahren gelten:
+Sechs Schwächen dieses Verfahrens waren in der vorigen Fassung nur benannt. Sie sind jetzt jeweils durch einen Mechanismus ersetzt, der sie entweder beseitigt oder in eine Zahl verwandelt, die neben dem Ergebnis steht:
 
-- **Die Diskussion bleibt eine Simulation von Widerspruch.** Die Regeln aus § 2 erzwingen Einwände; sie garantieren nicht, dass die Einwände die stärksten verfügbaren sind. Ein Agent, der widersprechen *muss*, widerspricht — notfalls schwach.
-- **Die Validierungsinstanz ist selbst ein Sprachmodell.** Sie erkennt erfundene Quellen und falsche Zuschreibungen; sie garantiert nicht, dass eine auffindbare Quelle richtig gelesen wurde. Ob sie zu milde urteilt, ist nach wie vor offen (`07-Pilotbericht.md` § 6).
-- **Die Aggregation von P3 ist nur so gut wie die Bezugsgrößen.** Hundert Felder mit teils überlappenden Grundgesamtheiten addieren sich nicht sauber; die Doppelzählung zwischen etwa Bank A und Bank F ist zu prüfen und, wo sie nicht auflösbar ist, als Spanne auszuweisen. Eine Summe mit einer Kommastelle wäre hier eine Lüge.
-- **Das Szenariogerüst ist eine Setzung.** Es beseitigt eine Fehlerquelle und schafft eine neue: Alle hundert Rollen teilen jetzt dieselben Annahmen über die Welt, und wenn diese falsch sind, sind alle gleichgerichtet falsch. Die `bedingung`-Karten auf das Gerüst sind das einzige Gegenmittel und müssen in der Auswertung ausdrücklich vorkommen.
-- **Das Attributionsproblem wird beziffert, nicht gelöst.** P4 zwingt jede Rolle, den Anteil zu nennen, den sie der KI gegenüber Demografie und Strukturreform zuschreibt. Ob diese Zuschreibung stimmt, kann das Verfahren nicht entscheiden — es kann nur verhindern, dass die Frage unterschlagen wird, und es kann zeigen, ob hundert Felder sie unterschiedlich beantworten.
+| Schwäche | Mechanismus | Rest |
+|---|---|---|
+| Die Prüfinstanz könnte alles durchwinken | zehn Prozent gesetzte Fehler, Trefferquote als Abbruchkriterium (§ 5, Runde 1b) | gemessen wird die Schärfe gegenüber **gesetzten** Fehlertypen; unbekannte Fehlerarten bleiben unerfasst |
+| Alle hundert Rollen sind dasselbe Modell | Kontrollarm: zehn Rollen doppelt auf einem zweiten Modell, Modellabhängigkeit je Pflichtgröße (§ 5, Runde 1) | auch das zweite Modell ist ein Sprachmodell mit verwandten Vorannahmen; gleichgerichtete Irrtümer beider bleiben unsichtbar |
+| Ein Szenariogerüst macht das Panel gleichgerichtet falsch | zwei gegensätzliche Gerüste, hälftig zugeteilt, Gerüstabhängigkeit je Pflichtgröße (§ 5, Runde 0b) | zwei Setzungen sind nicht die Welt; eine Annahme, die **beide** Gerüste teilen, bleibt ungeprüft |
+| Erzwungene Einwände sind notfalls leer | Rettungsbedingung als Pflichtfeld, Leerzüge zählen in keinem Maß mit (§ 4.1) | der Zwang erzeugt weiterhin schwache Einwände; sie verfälschen nur die Messung nicht mehr |
+| P3 addiert sich über überlappende Bezugsgruppen nicht sauber | disjunkte Zuordnung durch R03, nur `primaer`-Felder gehen in die Summe, Deckung und Rest werden ausgewiesen (§ 5, Runde 0a) | die Zerlegung ist eine Entscheidung von R03 und an den Grenzen strittig; sie ist dokumentiert, nicht objektiv |
+| Die Attribution auf KI könnte geraten sein | Gegenprobe P3₀ und Attributionskonsistenz (§ 3, § 6) | Konsistenz ist nicht Richtigkeit: Eine Rolle kann sich zweimal im selben Sinn irren |
+
+Was dadurch **nicht** behoben ist und sich mit diesem Verfahren auch nicht beheben lässt:
+
+**Die Agenten sind Sprachmodelle mit Rollendossiers, keine befragten Fachleute.** Das Ergebnis ist ein strukturiertes Argumentmodell mit benannten Quellen und offengelegten Dissenspunkten — keine Umfrage, keine Prognose und keine Legitimationsgrundlage für eine politische Entscheidung. Alle Mechanismen dieses Abschnitts machen die Grenzen des Modells messbar; sie verwandeln das Modell nicht in ein Panel.
+
+**Das Attributionsproblem bleibt sachlich offen.** P4 und P3₀ zwingen zur Bezifferung und machen Widersprüche sichtbar. Ob die Wirkung im Jahr 2031 der KI, der Demografie oder der Krankenhausreform zuzurechnen ist, kann kein Verfahren entscheiden, das keine Kontrollgruppe hat — und eine Volkswirtschaft ohne KI gibt es nicht zum Vergleich.
+
+**Die Gültigkeitsmaße können selbst reißen.** Prüfschärfe unter 80 % bricht den Lauf ab; Modellabhängigkeit über 1 verwirft eine Pflichtgröße; Gerüstabhängigkeit über 1 zwingt zur getrennten Berichterstattung. Das ist der Zweck dieser Maße und kein Fehler des Verfahrens — aber es heißt, dass ein Lauf über 525 USD mit dem Ergebnis enden kann, dass zwei der Pflichtgrößen nicht berichtbar sind. Genau dafür steht die Mechanikprobe in `13-Validierungsstand.md` § 3 davor.
