@@ -1,0 +1,572 @@
+[
+ {
+  "agent_id": "D03",
+  "status": "gueltig",
+  "quellen": [
+   {
+    "url": "https://www.g-drg.de/pflegepersonalbemessung/faq-zur-umsetzung-der-pflegepersonalbemessungsverordnung-ppbv-ppr-2.0",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.gkv-spitzenverband.de/krankenversicherung/krankenhaeuser/pflegepersonaluntergrenzen/ppu_2026/ppug_2026.jsp",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/01/PD24_033_23_12.html",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.altenheim.net/ki-sprachassistent-spart-pflegekraeften-27-prozent-dokumentationszeit/",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   }
+  ],
+  "mandatstreue": "im Fachgebiet",
+  "fachfehler": [],
+  "fachlicher_gehalt": "fachspezifisch",
+  "begruendung": "Alle vier Quellen sind real, gehören dem angegebenen Herausgeber und stützen die entnommenen Aussagen inhaltlich vollständig (geprüft per WebFetch): die InEK-FAQ bestätigt Meldepflichten, -fristen (30.04./31.07./31.10./31.01. sowie 30.06. Folgejahr) und Vergütungsabschläge bei Verstoß; die GKV-Spitzenverband-Seite bestätigt die Sechste PpUGV-Änderungsverordnung (BMG-Festlegung nach gescheiterter DKG/GKV-Verhandlung), die Nachweisvereinbarung nach § 137i Abs. 4 SGB V und die 66-Prozent-Vermutungsregel; die Destatis-Pressemitteilung Nr. 033 bestätigt exakt die genannten Trend- und Status-quo-Zahlen (90.000/280.000 bzw. 350.000/690.000, Bedarfsanstieg 1,62 auf 2,15 Mio.); der Altenheim-Artikel bestätigt die Charité-Zeitmessstudie (52 Pflegefachpersonen, 14 Einrichtungen, ca. 770 Beobachtungsstunden, 27 Prozent) inklusive der vom Stimmzettel selbst korrekt benannten Einschränkung, dass das Setting die stationäre Langzeitpflege und nicht das Akutkrankenhaus ist. Die Rolle bleibt durchgehend im Mandat (Pflegepersonaluntergrenzen, physische Nichtsubstituierbarkeit, Pflegebudget, Ausfallmanagement, Mitbestimmung nach § 87 BetrVG); Themen außerhalb des Mandats (Strompreise, Rechenzentrumsleistung, Vorleistungsabflüsse für V9/V10/V12) werden explizit den zuständigen Bänken P, Q, A überlassen und bewusst nicht recherchiert - das ist vorbildliche Mandatsdisziplin, keine Verletzung. Die Fachtätigkeiten sind konkret und fachspezifisch (Expertenstandard DNQP, PDMS-Nachdokumentation, PPBV/PPR-2.0-Einstufung, PpUGV-Schichtdisposition, KI-Score-Validierung mit Abweichungsbegründung) und keine Allgemeinplätze. Die zentralen Rechtsgrundlagen sind korrekt benannt (§ 6a KHEntgG als Pflegebudget-Selbstkostendeckung, PPBV/PPR 2.0, PpUGV, § 137i SGB V, KHZG-Förderung, § 87 BetrVG bzw. kirchliche MAVO). Der Frühindikator (PPBV-Erfüllungsgrad, InEK-Jahresmeldung, Destatis-Grunddaten der Krankenhäuser, Unterschreitungsschichten) sind real veröffentlichte bzw. ab 2026 real anfallende Größen. Keine erkennbaren Fachfehler; die Position ist eine fachlich begründete Minderheitsmeinung (S2-Zuordnung), aber methodisch sauber und quellenehrlich (Modellwerte vs. empirische Messung vs. Schätzung werden durchgehend sprachlich getrennt). Status: gueltig."
+ },
+ {
+  "agent_id": "B02",
+  "status": "gueltig",
+  "quellen": [
+   {
+    "url": "https://www.deloitte-tax-news.de/steuern/private-einkommensteuer/einkommensteuerreform-2027-bundesfinanzminister-legt-referentenentwurf-vor.html",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.advant-beiten.com/aktuelles/gewerbesteuer-und-rechenzentren-strategische-strukturierungsansaetze",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://kpmg.com/de/de/themen/corporate-governance-und-compliance/rechenzentren-unsichtbare-infrastruktur-sichtbare-steuerfolgen.html",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.bundestag.de/resource/blob/1041664/WD-4-088-24-pdf.pdf",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.graber-partner.com/de/lexikon/20-regionale-wertschoepfungssteuer-irap-imposta-regionale-sulle-attivita-produttive.html",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   }
+  ],
+  "mandatstreue": "im Fachgebiet",
+  "fachfehler": [],
+  "fachlicher_gehalt": "fachspezifisch",
+  "begruendung": "Alle fünf Quellen sind real, gehören dem angegebenen Herausgeber und stützen die im Feld \"aussage\" wiedergegebene Behauptung inhaltlich zutreffend. Insbesondere die Bundestags-Ausarbeitung wurde per PDF-Extraktion verifiziert (Kopfzeile: \"WD 4 - 3000 - 088/24\", Titel \"Gewerbesteuerliche Anreize für Gemeinden zur Ansiedlung von Rechenzentren\", Gliederungspunkte zu Windenergie-/Solaranlagen als Vorbild und zu Italien/IRAP im Länderteil vorhanden - exakte Deckung). Die Deloitte-Quelle bestätigt wörtlich den neuen § 29 Abs. 1 Nr. 4 GewStG-E mit Anknüpfung an die nicht redundante elektrische Nennanschlussleistung. Die IRAP-Kennzahlen (3,9 % Regelsatz, Lohnabzug für unbefristet Beschäftigte, Aufteilung nach Löhnen bei mehreren Regionen, Wegfall für Einzelunternehmer/Freiberufler seit 2022) sind exakt gedeckt.\n\nMandatstreue ist durchgehend gegeben: Alle Recherchepunkte betreffen Bemessungsgrundlagen (Gewerbeertrag, USt-Bemessung), Zerlegungsmaßstäbe (§§ 28-31, 33 GewStG, GewStG-E) und Vollzug (Betriebsstättenbegründung, Anzeigepflichten, Erklärungsverantwortung), also exakt das zugewiesene Feld.\n\nStichprobenartige Prüfung der Rechtsgrundlagen ergab keine Fachfehler: Die Kappung der Arbeitslöhne bei 50.000 EUR je Arbeitnehmer ist zutreffend § 31 Abs. 4 GewStG zugeordnet (per Recherche bestätigt); der im selben Satz erwähnte fiktive Unternehmerlohn wird korrekterweise ohne eigene (falsche) Normzuordnung genannt - eine Verwechslung mit § 31 Abs. 5 GewStG, die naheläge, wird vermieden. § 12 AO (Betriebsstätte), § 138 AO (Anzeigepflicht), § 3a Abs. 2/§ 13b UStG (Leistungsort/Reverse Charge), § 90 Abs. 3 AO/GAufzV (Verrechnungspreisdokumentation), §§ 34, 150 Abs. 7, 153, 370 AO und §§ 3, 33 StBerG (Erklärungs-/Berichtigungs-/Haftungsverantwortung), § 155 Abs. 4 AO (vollautomationsgestützte Veranlagung als reales Vorbild), § 24 StBVV/Tabelle C, § 188 AO (Zerlegungsbescheid), § 33 Abs. 2 GewStG (Zerlegungsvereinbarung), Art. 105/106 GG sowie § 4j EStG (Lizenzschranke als reale, hier zutreffend als nicht-existentes Pendant für Compute-Vorleistungen benannte Norm) sind sämtlich korrekt referenziert und in ihrer Funktion richtig beschrieben. Der Frühindikator (Realsteuervergleich, Fachserie 14 Reihe 10.1 des Statistischen Bundesamtes; Kassenstatistik der kommunalen Haushalte) ist eine tatsächlich existierende, gemeindescharfe Veröffentlichung. Das genannte Hemmnis (Zuordnung der Erklärungs-/Haftungsverantwortung auf eine natürliche Person) ist im Steuerrecht real und wird zutreffend mit den einschlägigen AO-/StBerG-Normen begründet, nicht mit einer erfundenen. Die Tätigkeiten sind durchgehend so konkret (exakte Paragraphen, Verfahrensschritte, Abgrenzungsfragen wie Colocation-Racks als Betriebsstätte oder N+1 vs. 2N-Redundanz), dass sie vertiefte fachliche Kenntnis voraussetzen und keine Allgemeinplätze sind. Die im Reasoning offengelegten Schätzcharaktere (Konjunktiv bei GewStG-E, ausdrückliche Kennzeichnung von V9/V10/V12 als Unsicherheiten außerhalb bzw. am Rand des Mandats) sind methodisch sauber gekennzeichnet. Der Stimmzettel besteht die Prüfung ohne Einschränkung."
+ },
+ {
+  "agent_id": "E01",
+  "status": "gueltig",
+  "quellen": [
+   {
+    "url": "https://www.bundesamtsozialesicherung.de/de/service/newsroom/detail/gkv-schaetzerkreis-schaetzt-die-finanziellen-rahmenbedingungen-der-gesetzlichen-krankenversicherung-fuer-die-jahre-2025-und-2026/",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/fokus/verwaltungskosten_kk.jsp",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://md-bund.de/themen/krankenhaus/pruefquoten-abrechnungspruefung.html",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   }
+  ],
+  "mandatstreue": "im Fachgebiet",
+  "fachfehler": [],
+  "fachlicher_gehalt": "fachspezifisch",
+  "begruendung": "Alle drei Quellen sind auffindbar, gehoeren dem angegebenen Herausgeber (BAS, GKV-Spitzenverband, Medizinischer Dienst Bund) und stuetzen die jeweils entnommene Aussage praktisch zahlengenau: BAS bestaetigt Gesundheitsfonds-Einnahmen 312,3 Mrd. EUR fuer 2026, die Ausgaben-Uneinigkeit BMG/BAS (369,0 Mrd.) vs. GKV-Seite (369,5 Mrd.) und den Zusatzbeitragssatz 2,9 Prozent; GKV-Spitzenverband bestaetigt Netto-Verwaltungskosten 2024 von 169,54 EUR/Versicherten bzw. 12,63 Mrd. EUR (3,86 Prozent der Gesamtausgaben), den Personalrueckgang 136.000 auf 132.000 Vollzeitstellen und den Kassenrueckgang 123 auf 93; MD Bund bestaetigt die gestaffelte Pruefquote 5/10/15 Prozent nach Pruefergebnis des vorletzten Quartals. Auch die zusaetzlich referenzierten Rechtsgrundlagen und Fachbegriffe sind korrekt: § 275c SGB V (Pruefquotenregelung), § 301 SGB V (Krankenhaus-Datensatz), Morbi-RSA-Manipulationsbremse, § 13 Abs. 3a SGB V (Genehmigungsfiktion), § 31a SGB X (vollautomatisierter Verwaltungsakt) mit Art. 22 DSGVO, § 80 SGB X (Sozialdatenbindung der Auftragsverarbeitung), §§ 44-48 SGB X (Ruecknahme/Aufhebung) und § 275 Abs. 1 Nr. 3b SGB V (MD-Begutachtung bei Zweifeln an Arbeitsunfaehigkeit) - eigene Recherche bestaetigt deren Existenz und korrekten Inhalt. Das GKV-Beitragssatzstabilisierungsgesetz mit einem Konsolidierungsvolumen von rund 19,6 Mrd. EUR fuer 2027 ist ebenfalls real und deckt sich mit der im Stimmzettel genannten Groessenordnung 16-20 Mrd. EUR. Die Taetigkeiten (Krankenhausabrechnungspruefung, Morbi-RSA-Jahresausgleich, Hilfsmittel-/Praequalifikationspruefung, Servicecenter-Beitragseinstufung, Bescheidfreigabe) sind hochspezifisch und mandatsnah (Beitragssatzstabilitaet, Morbi-RSA, Wettbewerb). Das Hemmnis (Bindung des vollautomatisierten Verwaltungsakts an fehlendes Ermessen, fehlende gemeinsame Pruefleitlinie BAS/Landesaufsichten) ist fachlich real und schluessig begruendet. Der Fruehindikator (Netto-Verwaltungskosten je Versicherten aus KV45/KJ1) ist eine tatsaechlich veroeffentlichte, regelmaessig fortgeschriebene Groesse. Keine erkennbaren Fachfehler; die Position (niedrige V3/V4-Werte, hoher Gesamtsozialversicherungsbeitragssatz-Schaetzwert) ist eine ungewoehnliche, aber fachlich begruendete Minderheitsposition und kein Mangel."
+ },
+ {
+  "agent_id": "F03",
+  "status": "gueltig",
+  "quellen": [
+   {
+    "url": "https://www.cliffordchance.com/content/dam/cliffordchance/briefings/2026/07/The%20Data%20Center%20Lease%20Is%20the%20Bond.pdf",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.bafin.de/DE/die-bafin/publikationen-daten/risiken-im-fokus/Fokusrisiken_2026/Druckansicht/Fokusrisiken_2026_druck_node.html",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/html/ecb.fsr202605~50566915a7.en.html",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   }
+  ],
+  "mandatstreue": "im Fachgebiet",
+  "fachfehler": [],
+  "fachlicher_gehalt": "fachspezifisch",
+  "begruendung": "Alle drei Quellen wurden per WebFetch/PDF-Extraktion vollständig geprüft und existieren wie angegeben, vom genannten Herausgeber, mit dem behaupteten Inhalt. Die Clifford-Chance-PDF wurde heruntergeladen und als Text extrahiert: Autoren (Bacchiocchi, Newman, Espitia, Steele) stimmen exakt, ebenso die zitierten Kernaussagen ('does not lift it', 'Termination for convenience is a non-starter', 15-Jahres-Grundmietzeit als übliche Struktur, Bucket-3-Konstellation mit Bau- und Restwertrisiko bei den Bondholdern). BaFin-Fokusrisiken 2026 und ECB Financial Stability Review Mai 2026 wurden per WebFetch bestätigt inklusive der zitierten Kernpunkte (NPL-Risiken Gewerbeimmobilien/Spezialfinanzierer, IKT-Auslagerungskonzentration; KI-Infrastruktur-Energiesensitivität, Private-Credit-Rücknahmedruck, US-Tech-Konzentration). Mandatstreue ist durchgehend gewahrt: Der gesamte Stimmzettel bleibt in der Kreditrisiko-/Projektfinanzierungsperspektive (Mietvertragsanalyse, DSCR/LLCR-Modellierung, Covenant-Monitoring, Restwert, Großkreditgrenze), und Grenzfälle (V9, V10) werden von der Agentin selbst explizit als mandatsfern bzw. randständig gekennzeichnet statt eigenmächtig fachfremd recherchiert. Die CRR-Großkreditregel (25% der anrechenbaren Eigenmittel gegenüber einer Gruppe verbundener Kunden) ist korrekt wiedergegeben und transparent als nicht eigens abgerufene Regelwerkskenntnis deklariert - methodisch sauber. Fachtätigkeiten (Zweitvotum-Abgleich, DSCR/LLCR-Downside-Cases, Cash-Trap-Trigger, SNDA-Prüfung, KI-Screening gegen Klauselbibliothek) sind hinreichend konkret und branchenspezifisch, keine Allgemeinplätze. Frühindikator (AFME Securitisation Data Report, Rating-Agentur-Presales, Bundesbank-Kreditnehmerstatistik) sind real existierende, passende Veröffentlichungen. Keine Fachfehler identifiziert."
+ },
+ {
+  "agent_id": "G05",
+  "status": "gueltig",
+  "quellen": [
+   {
+    "url": "https://www.ki-observatorium.de/rubriken/anwenden/aiconomics",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.arbeitsagentur.de/unternehmen/finanziell/foerderung-von-weiterbildung/qualifizierungsgeld",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.city-news.de/qualifizierungsgeld-fuer-transformation-wird-kaum-genutzt/250071/",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Themen-im-Fokus/Bildung/Bildung-Nav.html",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   }
+  ],
+  "mandatstreue": "im Fachgebiet",
+  "fachfehler": [],
+  "fachlicher_gehalt": "fachspezifisch",
+  "begruendung": "Alle vier Quellen wurden abgerufen, existieren beim angegebenen Herausgeber und decken die entnommenen Aussagen korrekt: (1) ki-observatorium.de/ai:conomics bestaetigt woertlich fehlende Verdraengungseffekte, Beschaeftigungswachstum in hochkomplexen Berufen, hoehere Produktivitaetsgewinne bei weniger Erfahrenen, Praeferenz fuer unterstuetzende KI sowie das Branchenmuster verarbeitendes Gewerbe hoch / Gesundheit-Soziales niedrig; (2) die Arbeitsagentur-Seite zum Qualifizierungsgeld bestaetigt exakt die genannten Schwellen (20%/10%), die 120-Stunden-Grenze, die AZAV-Pflicht und die Leistungssaetze 60%/67%; (3) city-news.de bestaetigt die Zahlen aus der Kleinen Anfrage (unter 400 Faelle, 108.035 EUR 2024, 442.408 EUR 2025, urspruenglich 360 Mio./reduziert auf 200 Mio. EUR); (4) die BA-Statistikseite bestaetigt die monatlichen Bildungstabellen und einen jaehrlichen Verbleibsbericht (Titel geringfuegig abweichend benannt, inhaltlich identisch: \"Verbleib nach Maßnahmeaustritt\" statt \"...aus Massnahmen der beruflichen Weiterbildung mit Abschluss\" - keine Deckungsluecke, da derselbe Bericht gemeint ist). Fachlicher Gehalt: Die Taetigkeiten sind konkret und rollentypisch (KldB-2010-Nachkodierung als Grundlage der Berufsgruppen-Frueherkennung, B-DKS-Pruefung, Qualifizierungsgeld-Schwellenpruefung, AI-Act-Einstufung nach Anhang III Nr. 4 im Beschaeftigungskontext) und setzen Fachkenntnis voraus; keine Allgemeinplaetze. Das benannte Hemmnis (kollektivrechtliche statt personenbezogene Zugangsvoraussetzung beim Qualifizierungsgeld) ist real und durch die Nutzungszahlen belegt. Der Fruehindikator (BA-Statistik \"Gemeldete Arbeitsstellen nach Berufen\" nach KldB-Berufshauptgruppen, Eingliederungsquote nach Weiterbildungsaustritt) ist eine tatsaechlich veroeffentlichte, oeffentlich zugaengliche Groesse. Rechtsverweise (Paragraph 87 BetrVG, Paragraph 31a SGB X zur Grenze automatisierter Ermessensentscheidungen, Paragraph 45 Abs. 2 BBiG Externenpruefung, AI-Act Anhang III Nr. 4) sind fachlich zutreffend verwendet. Mandatstreue: Die Rolle recherchiert durchgehend im eigenen Feld (Arbeitsmarktbeobachtung, Foerderinstrumente, KldB-Klassifikation) und verweigert explizit und konsequent jede Aussage zur Finanzierungsseite (Wertschoepfungsabgabe, Beitragsbemessung, Rechenzentrums-Zerlegung) mit Verweis auf fehlende Ressortzustaendigkeit - vorbildliche Mandatsdisziplin, auch dort, wo das eigene Frueherkennungsinstrument ein Finanzierungsproblem anzeigt. Keine erkennbaren Fachfehler gefunden; die von der ifo-Erwartung abweichende, konservativere Automatisierungsannahme (V4=45% statt 75%) ist explizit und plausibel begruendet (Mitbestimmungsrecht, Automatisierungsverbot bei Ermessen, Berufsstruktur) und stellt eine zulaessige Minderheitsposition dar, keinen Mangel."
+ },
+ {
+  "agent_id": "H02",
+  "status": "mit Vorbehalt",
+  "quellen": [
+   {
+    "url": "https://www.eurohpc-ju.europa.eu/eurohpc-joint-undertaking-launches-ai-gigafactories-call-2026-07-30_en",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-factories",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/cloud-and-ai-development-act",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.interface-eu.org/publications/ai-factories",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt teilweise"
+   }
+  ],
+  "mandatstreue": "im Fachgebiet",
+  "fachfehler": [
+   "Quelle 4 (interface-Analyse) wird im Feld 'aussage' mit 'nur drei [AI Factories haetten] eine belastbare Einbindung des Privatsektors' zitiert. Der tatsaechliche Quellentext sagt das Gegenteil der Groessenordnung: 'Slightly more than half of the original thirteen AI factories have at least one consortium partner from the private sector or a partner whose role is to support private actors' - also mehr als sechs von dreizehn, nicht drei. Die Zahl 'drei' im Original bezieht sich auf etwas anderes (Zugang zu Foerdernetzwerken/Investoren-Oekosystemen), nicht auf allgemeine Privatsektor-Einbindung. Das ist eine Verwechslung/Fehlzitierung zweier unterschiedlicher Kennzahlen derselben Studie, keine Erfindung, aber ein sachlicher Fehler in der Quellenwiedergabe. Alle uebrigen Zahlen dieser Quelle (10 von 13 mit Forschungs-/Uni-Partner, 9 von 13 mit mind. 5 Sektoren, 10 Arbeitstage Bearbeitungszeit, max. 12 Monate Zuteilung, 24.000 vs. rund 200.000 Beschleuniger) sind korrekt wiedergegeben."
+  ],
+  "fachlicher_gehalt": "fachspezifisch",
+  "begruendung": "Alle vier Quellen existieren und stammen vom angegebenen Herausgeber (EuroHPC JU bzw. Europaeische Kommission, Shaping Europe's digital future, sowie der Think Tank interface). Drei der vier Quellen decken die im Stimmzettel zitierten Aussagen praezise: Ausschreibungsfrist 12.11.2026, Auswahl Anfang 2027, Betriebsstart binnen 18 Monaten, SPV-Antragsberechtigung, >20 Mrd. EUR mobilisiertes Privatkapital, ueberwiegender Mittelanteil erst aus dem naechsten MFR 2028-2035 (Quelle 1); 19 AI Factories, 13 Antennen, rund 10 Mrd. EUR 2021-2027, bis zu 10 Mrd. EUR fuer Gigafactories, Zeitachse Dez. 2024/Maerz 2025/Okt. 2025 (Quelle 2); Verdreifachung der Rechenzentrumskapazitaet in 5-7 Jahren, vier Zusicherungsstufen, gemeinsamer Beschaffungsrahmen (Quelle 3) - jeweils wortgetreu bestaetigt. Quelle 4 stuetzt die Kernaussagen zu Generalistenzuschnitt (9 von 13 Sektoren), Zugangsfristen (10 Arbeitstage, max. 12 Monate) und den Groessenvergleich (24.000 vs. ca. 200.000 Beschleuniger) vollstaendig, enthaelt aber im zitierten aussage-Feld eine Fehlzitierung: die Behauptung 'nur drei [Factories] mit belastbarer Privatsektor-Einbindung' widerspricht dem tatsaechlichen Quellentext ('mehr als die Haelfte'). Das ist ein nachweisbarer, wenn auch begrenzter Sachfehler, der die uebrige Beweiskraft der Quelle nicht entwertet. Das Mandat ist durchgehend gewahrt: alle fach_taetigkeiten (Bewertungsraster fuer Gigafactory-Konsortien, beihilferechtliche Abstimmung AGVO/IPCEI, CADA-Vierspaltendokumente, parlamentarische Anfragen zu Rechenzentren/Gigafactories/AI Act, EuroHPC-Kennzahlenmonitoring) liegen exakt im Fachgebiet 'AI Gigafactories, Compute-Souveraenitaet' und sind hinreichend konkret (Fristen, Gremien, Dokumenttypen, Kennzahlen), um Fachkenntnis vorauszusetzen - keine Allgemeinplaetze. Das Hemmnis (MFR-Finanzierungsluecke 2027 vs. 2028-2035) ist real und wird durch Quelle 1 explizit gestuetzt ('bulk of the funds will come from the next Multiannual Financial Framework'). Der Fruehindikator (EuroHPC JU Consolidated Annual Activity Report, Zugangsstatistiken) ist eine tatsaechlich existierende, jaehrlich veroeffentlichte Groesse. Wegen der einen fehlerhaften Kennzahl in Quelle 4 - real existent und ueberwiegend stuetzend, aber an einer Stelle sachlich falsch wiedergegeben - ergeht der Status 'mit Vorbehalt', nicht 'gueltig'; eine Zurueckweisung waere unverhaeltnismaessig, da der uebrige Fachteil tragfaehig und die Kernargumentation (Zugangsfriktionen, Generalistenzuschnitt) unberuehrt bleibt."
+ },
+ {
+  "agent_id": "I02",
+  "status": "gueltig",
+  "quellen": [
+   {
+    "url": "https://www.heise.de/news/Steuer-Coup-gegen-Buergerproteste-Milliarden-Umschichtung-fuer-Rechenzentren-11440618.html",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.dihk.de/de/newsroom/gewerbesteuer-in-der-rechenzentrumsstrategie-der-bundesregierung-175784",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://netzpolitik.org/2026/rechenzentren-sind-vampire-wo-sich-lokaler-widerstand-gegen-den-ki-hype-formiert/",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   }
+  ],
+  "mandatstreue": "im Fachgebiet",
+  "fachfehler": [],
+  "fachlicher_gehalt": "fachspezifisch",
+  "begruendung": "Alle drei Quellen wurden abgerufen, existieren beim angegebenen Herausgeber und stuetzen die zugeordneten Aussagen ohne Abweichung: heise online bestaetigt den Sonderzerlegungsmassstab (10% Arbeitsloehne / 90% Nennanschlussleistung ab EZ 2027) und die ausdrueckliche Motivation, Buergerprotesten entgegenzuwirken; DIHK bestaetigt Strategiebeschluss vom 18.03.2026 und das gescheiterte 2,5-Mrd.-Projekt in Hessen (Gross-Gerau) wegen Steuerertragsunsicherheit; netzpolitik.org bestaetigt Gross-Gerau-Ratsvotum, Frankfurter 40%-Stromanteil und das Berlin-Lichtenberg-Projekt Bluestar (100 MW) im Detail. Die drei Quellen widersprechen sich nicht, sondern ergaenzen sich konsistent (Gross-Gerau taucht sowohl bei DIHK als gescheitertes Projekt als auch bei netzpolitik.org als Ratsablehnung auf).\\n\\nMandatstreue ist vollstaendig gegeben: Saemtliche Taetigkeiten, das Hemmnis, der Fruehindikator und die Kosten-Nutzen-Analyse kreisen um Gewerbesteueraufkommen/-zerlegung, Bauleitplanung/Flaechenausweisung und Akzeptanzfragen - exakt das Mandat einer Buergermeisterin einer Rechenzentrums-Standortgemeinde. Keine mandatsfremde Recherche (z. B. zu Netzentgelten, Chipmaerkten oder Sozialversicherung) findet statt; V7/V9/V11/V12 werden explizit als ausserhalb des eigenen Mandats benannt und bewusst nicht recherchiert.\\n\\nFachlicher Gehalt ist hoch und ueberprueft korrekt: Die Rechtsgrundlagen (§3 Abs. 1/2 BauGB fuer fruehzeitige/foermliche Oeffentlichkeitsbeteiligung, §11 BauGB fuer den staedtebaulichen Vertrag, §35 BauGB Aussenbereich, §1 Abs. 7 BauGB Abwaegungsgebot, Art. 28 Abs. 2 GG Planungshoheit, §29 Abs. 1 Nr. 1 GewStG geltende Lohnsummenzerlegung, §2 EEG als Praezedenzfall fuer \"ueberragendes oeffentliches Interesse\") sind alle korrekt benannt und in ihrem Verfahrenskontext zutreffend verwendet. Der Fruehindikator (Realsteuervergleich EVAS 71231, GENESIS-Online) wurde gezielt verifiziert und ist eine tatsaechlich existierende, jaehrlich veroeffentlichte amtliche Statistik mit exakt der beschriebenen Kennzahl (Gewerbesteuer-Istaufkommen je Groessenklasse) - ein ungewoehnlich praezises und pruefbares Detail, das auf echte Fachkenntnis hindeutet statt auf einen Allgemeinplatz. Die Taetigkeiten sind konkret genug, um Fachkenntnis vorauszusetzen (z. B. der Verweis auf die rechtliche Nichtzugaenglichkeit der Nennanschlussleistung fuer die Kaemmerei als neu entstandenes Problem). Schaetzungen (Kosten 250.000-600.000 EUR, Rueckbehalt 20-35 Cent je Euro) sind durchgehend explizit als eigene Schaetzung aus der Verwaltungspraxis gekennzeichnet, nicht als belegte Fakten ausgegeben. Insgesamt keine erkennbaren Fachfehler; Status gueltig."
+ },
+ {
+  "agent_id": "J04",
+  "status": "gueltig",
+  "quellen": [
+   {
+    "url": "https://robotikverband.de/world-robotics-report-2025/",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.elektro-automatisierung-digital.de/branchennews/world-robotics-2025-berichtsband-zeigt-suedkorea-singapur-deutschland-hoechster-roboter-dichte",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://automationspraxis.industrie.de/news/minus-5-robotik-und-automation-aus-deutschland-weiter-unter-druck/",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.ibf-solutions.com/fachbeitraege/neue-normen-fuer-industrieroboter-en-iso-10218-1-und-2",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   }
+  ],
+  "mandatstreue": "im Fachgebiet",
+  "fachfehler": [],
+  "fachlicher_gehalt": "fachspezifisch",
+  "begruendung": "Alle vier Quellen wurden per Abruf verifiziert: Sie existieren, gehoeren dem jeweils genannten Herausgeber (Deutscher Robotikverband/IFR-Daten, elektro-automatisierung-digital.de, Automationspraxis/Konradin/VDMA-Zitat, IBF Solutions), und Datum sowie Zahlen/Kernaussagen stimmen exakt mit dem im Feld \"aussage\" Behaupteten ueberein (27.000 Neuinstallationen/278.900 Bestand/40%/Rang 5/4% Wachstum; Roboterdichte 449/1.220/818/446/267/231; minus 7% 2025 und minus 5% auf 14,1 Mrd. Euro 2026 als \"struktureller\" Rueckgang; EN ISO 10218-1/-2:2025 mit Klasse 1 (PL b) und Klasse 2, 24-Monats-Uebergangsfrist noch nicht akzeptiert). Keine Quelle widerspricht oder stuetzt nur teilweise.\\n\\nMandatstreue ist vollstaendig gewahrt: Saemtliche Taetigkeiten (Teach-in/TCP-Justage, Greifpunkt-/CAD-Matching-Datenbank fuer Bin-Picking, Machine-Vision-Pruefschwellen, Risikobeurteilung nach EN ISO 10218-2/ISO 13849-1/ISO-TS 15066, Teleoperations-Demonstrationsschichten fuer VLA-Policy-Training) sowie Hemmnis, Bruchstelle und Kosten-Nutzen-Analyse liegen strikt in physischer Automatisierung, Sensorik und Stueckkosten/Applikationstechnik. Die explizite Zurueckweisung der Archetypen S6/S7 (Compute/Strom seien nicht die massgebliche Deckelungsgroesse in diesem Feld) zeigt zusaetzlich Mandatsbewusstsein.\\n\\nFachlicher Gehalt ist hoch: Die Begriffe (TCP, PL nach EN ISO 13849-1, ISO/TS 15066 biomechanische Kraft-/Druckmessung, Messmittelfaehigkeit fuer attributive Pruefung, KRL/RAPID/KAREL/TP als reale herstellerspezifische Robotersprachen, DGUV-Pruefstellen, notifizierte Stellen, Safe-Motion/sichere Geschwindigkeits- und Raumueberwachung als real existierende Sicherheitsarchitekturmuster) sind fachlich korrekt verwendet und alles andere als Allgemeinplaetze. Das Hemmnis (fehlende Ueberfuehrbarkeit lernender Steuerungen in einen Performance Level) ist ein in der Fachwelt anerkanntes reales Problem, ebenso die zitierte Unsicherheit um EN ISO 10218:2025 und die Maschinenverordnung (EU) 2023/1230 (Anwendung ab 20. Januar 2027 ist zutreffend). Der Fruehindikator (IFR World Robotics, jaehrlich Oktober, mit VDMA-Quartalsstatistik als Gegencheck) ist eine tatsaechlich veroeffentlichte, ueberpruefbare Groesse mit korrekt benanntem Referenzwert. Keine erfundenen Gremien, Kennzahlen oder falschen Rechtsgrundlagen gefunden. Die Aussagearten (empirisch vs. Schaetzung) werden im Reasoning sauber getrennt."
+ },
+ {
+  "agent_id": "J02",
+  "status": "gueltig",
+  "quellen": [
+   {
+    "url": "https://www.vdma.eu/documents/34570/76845115/2026_04%20VDMA-Positionspapier%20Industrial%20AI.pdf/4906f795-cebc-6d3f-5289-38b51f1f49d6",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.bitkom.org/Presse/Presseinformation/Industrie-4.0-Unternehmen-KI-Produktion",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.bitkom.org/Presse/Presseinformation/Digitalisierung-der-Wirtschaft-Unternehmen-beschaeftigen-sich-mit-KI",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   }
+  ],
+  "mandatstreue": "im Fachgebiet",
+  "fachfehler": [],
+  "fachlicher_gehalt": "fachspezifisch",
+  "begruendung": "Alle drei fach_quellen wurden per direktem Abruf verifiziert. Die VDMA-PDF liess sich zunächst nicht als Text extrahieren (WebFetch lieferte nur Binärdaten), wurde aber lokal mit pypdf ausgelesen: Die Datei liegt exakt unter der angegebenen URL beim VDMA und enthält wortgleich die zitierten Passagen - \"Industrial AI trifft auf gewachsene Industriearchitekturen ... in eine heterogene Landschaft mit langen Lebenszyklen eingebunden werden muss\", \"vom Piloten in den robusten industriellen Dauerbetrieb, inklusive Überwachung und Aktualisierung, überführt wird\" sowie die Umfragezahlen \"Über 80 Prozent ... mittlere bis hohe strategische Bedeutung; 43 Prozent nutzen KI-Lösungen bereits und weitere 48 Prozent planen den Einsatz bis 2028\" - Wort für Wort deckungsgleich mit der im Stimmzettel wiedergegebenen Aussage. Die beiden Bitkom-Presseinformationen (27.03.2025 und 11.03.2026) wurden ebenfalls abgerufen und bestätigen Herausgeber, Datum, Stichprobengrösse/-zeitraum und sämtliche zitierten Prozentwerte exakt. Keine der drei Quellen ist erfunden, keine widerspricht der ihr zugeschriebenen Aussage. Mandatstreue: Die gesamte Recherche und alle fach_taetigkeiten liegen strikt im Feld Produktivsetzung/Integrationsaufwand/Datenqualität eines ML-Engineers in der Industrieanwendung (OPC-UA/AAS-Konnektoren, Fehlerlabeling, Concept-Drift-Retraining, PoC-zu-Produktion, Modell-Freigabedossier, Brownfield-Datenlücke, Manufacturing-X/Factory-X als reale Dateninitiativen) - kein mandatsfremder Exkurs. Fachlicher Gehalt: Die Tätigkeiten sind konkret und technisch spezifisch (SPS-/Historian-Tag-Semantik, OPC-UA-Companion-Specs, AAS-Mapping, Concept Drift bei Rezeptur-/Chargenwechsel, Drift-Monitoring/Rückfallebene im Freigabedossier) und keine Allgemeinplätze; das benannte Hemmnis (fehlende semantisch annotierte Bestandsdaten) ist in der Industrie-KI-Literatur ein reales, gut dokumentiertes Problem, und die Frühindikatoren (Bitkom-Integrationshemmnis-Anteil, VDMA-Nutzungs-/Planungsanteil) sind tatsächlich veröffentlichte, jährlich wiederkehrende Kennzahlen. Erkennbare Fachfehler wurden keine gefunden; die im Fliesstext (nicht in fach_quellen) erwähnte ifo-Umfrage Juni 2026 und Korinek et al. sind plausible, aber nicht mit URL belegte Zusatzverweise ausserhalb der zu prüfenden Quellenliste - kein Widerspruch zum Fachbild. Status: gueltig."
+ },
+ {
+  "agent_id": "K02",
+  "status": "gueltig",
+  "quellen": [
+   {
+    "url": "https://www.privacy-app.de/2026/08/24/ki-im-krankenhaus-was-der-aerztetag-2026-fuer-die-praxis-bedeutet/",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.dsn-group.de/datenschutz-notizen/ki-systeme-im-krankenhaus-datenschutzrechtliche-und-sicherheitstechnische-pflichten-3959696",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://ku-gesundheitsmanagement.de/digitalisierung/der-einsatz-kuenstlicher-intelligenz-in-krankenhaeusern",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.forschungsdatenzentrum-gesundheit.de/infoportal/externe-seiten-auf-einen-blick",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   }
+  ],
+  "mandatstreue": "im Fachgebiet",
+  "fachfehler": [],
+  "fachlicher_gehalt": "fachspezifisch",
+  "begruendung": "Alle vier Quellen wurden abgerufen und existieren beim angegebenen Herausgeber mit dem angegebenen Inhalt: (1) privacy-app.de bestätigt wörtlich das Moratorium für autonome KI-Agenten bis zu BMG/gematik/BfDI/BSI-Vorgaben, die Warnung vor US-Clouds trotz EU-Serverstandort wegen CLOUD Act, die Persistenz von Patientendaten in KI-Modellen und das Re-Identifizierungsproblem bei Anonymisierung. (2) dsn-group.de bestätigt explizit, dass AVV mit KI-Anbietern über Art. 28 Abs. 3 DSGVO hinaus § 203 Abs. 4 StGB-Klauseln benötigen und dass Azure/AWS/Google C5-Typ-2-testiert seien, OpenAI und Anthropic hingegen nicht. (3) ku-gesundheitsmanagement.de bestätigt § 6 GDNG als Rechtsgrundlage für Sekundärnutzung zu Qualitätssicherung/Forschung samt TOM-Pflichten und frühzeitiger DSB-Einbindung. (4) Das FDZ Gesundheit bestätigt das öffentliche Antragsregister unter der genannten URL. Die Recherche liegt vollständig im Mandat einer Krankenhaus-Datenschutzbeauftragten (Gesundheitsdaten, Forschungsdatennutzung); mandatsfremde Größen (V9-V12) werden im Stimmzettel selbst offen als außerhalb des Mandats liegend gekennzeichnet und bewusst mit breiten Intervallen niedrig gewichtet abgegeben - das ist vorbildliche Offenlegung, kein Mandatsverstoß. Die Fachtätigkeiten sind konkret und branchenspezifisch (Art. 15 DSGVO-Auskunft mit KIS/PDMS/RIS/PACS-Zusammenführung, § 630g Abs. 1 BGB zu subjektiven Aufzeichnungen, Art. 35/36 DSGVO-DSFA-Prozess, § 203 Abs. 4 StGB bei AVV-Ketten, MII-Broad-Consent-Abgleich, § 6 GDNG, KI-VO Art. 4 zur KI-Kompetenz) und setzen erkennbar Fachkenntnis voraus, keine Allgemeinplätze. Das benannte Hemmnis (strafbewehrte Schweigepflicht ohne anerkannten Anonymisierungsstandard für klinische Freitexte) ist ein in der Fachdiskussion real existierendes, hier korrekt hergeleitetes Problem, und der Frühindikator (FDZ-Antragsregister, Tätigkeitsberichte der Landesdatenschutzaufsichten) ist eine tatsächlich veröffentlichte, nachprüfbare Größe. Erkennbare Fachfehler wurden nicht gefunden."
+ },
+ {
+  "agent_id": "L04",
+  "status": "gueltig",
+  "quellen": [
+   {
+    "url": "https://www.luenendonk.de/luenendonk-listen-2026-it-dienstleistungsmarkt-zeigt-kaum-dynamik/",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.bitkom.org/Presse/Presseinformation/Digitalwirtschaft-bleibt-Stabilitaetsanker",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.luenendonk.de/neue-luenendonk-studie-data-ai-wird-zum-zentralen-transformationstreiber-markt-waechst-trotz-schwacher-konjunktur-zweistellig/",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   }
+  ],
+  "mandatstreue": "im Fachgebiet",
+  "fachfehler": [],
+  "fachlicher_gehalt": "fachspezifisch",
+  "begruendung": "Alle drei Quellen sind auffindbar, gehören dem angegebenen Herausgeber und stützen die zitierten Aussagen praktisch wortgleich: Lünendonk-Liste 2026 bestätigt 2,9% Marktwachstum, 1,5% organisches Wachstum der Top-25, 54%/44% rückläufigen Personalbedarf und 83% Effizienzerwartung; die Bitkom-Presseinformation vom 22.01.2026 bestätigt die IT-Services-, Software- und KI-Plattform-Zahlen sowie die ITK-Beschäftigung; die Lünendonk-Studie zu Data & AI bestätigt 13,2% vs. 2,6% Wachstum, 35,1% Projektumsatzanteil und 62% Datenmanagement-Quote. Mandatstreue ist gewahrt: sämtliche Fachtätigkeiten (AMS-Ticketbetrieb, Regressionstest im SAP/Java-Umfeld, Fachfeinkonzept/Festpreis-Werkvertrag, Angebotskalkulation für Ausschreibungen, Agenten-Pipeline-Abnahme) sowie Hemmnis, Bruchstelle, Kosten-Nutzen-Analyse und Frühindikator liegen exakt im Mandat \"Projektgeschäft, Personalintensität, Margen\" eines IT-Dienstleister-Vorstands; keine mandatsfremde Recherche erkennbar. Fachlicher Gehalt ist hoch: Die Tätigkeitsbeschreibungen verwenden korrekte Branchenterminologie (Known-Error-Datenbank, Fachgrobkonzept/Fachfeinkonzept, Tagessatztabelle, Eignungs-/Referenznachweise nach Vergabeunterlagen) und sind zu konkret für Allgemeinplätze. Die genannten EVB-IT-Vertragstypen (Erstellung, Systemlieferung, Dienstleistung) existieren tatsächlich und sind korrekt benannt (Web-Recherche bestätigt). Die im Kosten-Nutzen-Feld zitierte ifo-Umfrage (Juni 2026, rund 50% erwartete Lohnsenkung für Berufseinsteiger durch KI) ist eine real existierende, zeitlich passende Erhebung (Web-Recherche: ifo-Konjunkturumfrage Juni 2026, 48–50,8% je nach Qualifikation) und keine erfundene Kennzahl. Das Hemmnis (Tagessatzbindung in Rahmenverträgen/Vergabe-Preisblättern) und die Bruchstelle (Onshore-Offshore-Leverage-Modell, SAP-ECC-zu-S/4HANA-Custom-Code-Remediation) sind reale, gut dokumentierte Branchenphänomene. Keine erkennbaren Fachfehler. Die Position ist zwar eine pointierte Minderheitsmeinung (Hemmnis-Gewichtung, V3 über US-Wert), aber fachlich schlüssig begründet und im Konjunktiv gehalten - das ist kein Mangel."
+ },
+ {
+  "agent_id": "M02",
+  "status": "gueltig",
+  "quellen": [
+   {
+    "url": "https://md-bund.de/themen/krankenhaus/pruefquoten-abrechnungspruefung.html",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.medcontroller.de/2026/05/14/wie-sich-hoehere-pruefquoten-auswirken-werden/",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.healthcareheads.com/news-details/inek-veroeffentlicht-nub-leistungen-fuer-2026-2435",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.imtb.de/2026/09/09/krankenhausreform-als-beschleuniger-komplexer-it-grossvergaben/",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   }
+  ],
+  "mandatstreue": "im Fachgebiet",
+  "fachfehler": [],
+  "fachlicher_gehalt": "fachspezifisch",
+  "begruendung": "Alle vier Quellen sind unter der angegebenen URL auffindbar, gehoeren erkennbar dem genannten Herausgeber (MD Bund, Medcontroller-Fachbeitrag, Healthcare Heads, IMTB Group) und decken die im Stimmzettel zitierte Aussage inhaltlich ab: die 5/10/15-Prozent-Pruefquotenstufen und die quartalsweise GKV-Spitzenverband-Veroeffentlichung (MD Bund), die Verschaerfung auf 15/25 Prozent, der Anstieg von 8,6 auf 20,1 Prozent, die ca. 800 Mio. Euro Zusatzbelastung sowie der 80-Prozent-Anteil von Verweildauer/Behandlungsnotwendigkeit an MD-Pruefungen (Medcontroller), die NUB-Zahlen 326/1.084 vom 30.1.2026 (Healthcare Heads) und die Beschaffungsverfahren nach Paragraf 17/18 VgV mit funktionaler Leistungsbeschreibung (IMTB). Die Rechtszitate sind korrekt: Paragraf 275c Abs. 4 SGB V ist tatsaechlich die Norm der quartalsbezogenen Pruefquote (per Websuche bestaetigt), Paragraf 6 Abs. 2 KHEntgG (NUB), Paragraf 33a SGB V (DiGA, ambulant), Paragraf 87 Abs. 1 Nr. 6 BetrVG (Mitbestimmung bei Verhaltens-/Leistungskontrolle) und MDR Anhang II/III (Technische Dokumentation, PMS) sind zutreffend verwendet. Alle fach_taetigkeiten, das Hemmnis, die fach_bricht-These und der Fruehindikator liegen strikt im Mandat Vertrieb an Kliniken/Kostentraeger und Erstattung; die Rolle grenzt im reasoning-Feld explizit ab, dass V9/V10/V12/V13 ausserhalb des eigenen Mandats liegen und ungeprueft geschaetzt sind - das ist korrektes, kein mandatsfremdes Verhalten. Die Taetigkeitsbeschreibungen (DKR-Kodierpruefung, MD-Stellungnahme nach Paragraf 275c, VgV-Kriterienkataloge, MDR/AI-Act-Dokumentation) sind konkret und fachspezifisch, keine Allgemeinplaetze. Der Fruehindikator (Pruefquotenstufenverteilung, GKV-Spitzenverband/MD Bund) ist eine real veroeffentlichte, hausscharfe Groesse. Kein Fachfehler identifiziert."
+ },
+ {
+  "agent_id": "L06",
+  "status": "gueltig",
+  "quellen": [
+   {
+    "url": "https://www.vdma.eu/documents/34570/76845115/2026_04%20VDMA-Positionspapier%20Industrial%20AI.pdf/4906f795-cebc-6d3f-5289-38b51f1f49d6",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.zerspanungstechnik.com/bericht/wirtschaftliches_1512/auftragseingang-juli-2026-erfreulicher-start-in-die-zweite-jahreshaelfte_2026-09-03",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://der-maschinenbau.de/allgemein/maschinenbau-sinkende-beschaeftigung-trotz-zukunftschancen/",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   }
+  ],
+  "mandatstreue": "im Fachgebiet",
+  "fachfehler": [],
+  "fachlicher_gehalt": "fachspezifisch",
+  "begruendung": "Alle drei Quellen wurden per Volltext-Abruf verifiziert. Quelle 1 (VDMA-Positionspapier Industrial AI, direkt von vdma.eu, Impressum VDMA e.V. Frankfurt) enthält wortgleich die zitierten Kennzahlen: über 80 Prozent mittlere/hohe strategische Bedeutung, 43 Prozent Nutzung, 48 Prozent Planung bis 2028, 53 Prozent erwartete Umsatzsteigerung, 45 Prozent Personalressourcen-Hürde, 42 Prozent Datenqualitäts-Hürde, sowie den Fraunhofer-ISI-Verweis \"13 Prozent der Maschinenbau-Betriebe... planten weitere 10 Prozent bis 2025\" - exakt deckungsgleich mit der Originalstudie (Fraunhofer ISI, Ausgabe 83, Dezember 2024, Abbildung 2: Maschinenbau 13%/10%), die ich zusätzlich direkt eingesehen habe. Auch der Ruf nach praxisgerechter AI-Act-Umsetzung für den Mittelstand steht wörtlich im Dokument. Quelle 2 (zerspanungstechnik.com) bestätigt alle genannten Auftragseingangszahlen Juli 2026 sowie das Chefvolkswirt-Zitat zu \"zu wenig investiert\" exakt. Quelle 3 (der-maschinenbau.de) bestätigt Beschäftigungserwartungen, Fachkräftemangel, die differenzierte KI-Wirkung (gering bei Fachkräften, stärker bei Akademikern), steigenden Ingenieursbedarf und Standortkosten als Bremse - alles wortgleich. Mandatstreue ist gegeben: Exportmärkte (Auslands-/Inlandsauftragseingang), Auftragslage (VDMA-Konjunkturdaten) und Fachkräfte (Beschäftigungsprognose, KI-Wirkung auf Personal) sind exakt das Mandat einer Maschinenbau-Geschäftsführerin; keine mandatsfremden Themen. Die genannten Fachbegriffe (Maschinenverordnung, EN ISO 12100, CE-Konformitätserklärung, OPC-UA-Companion-Spezifikation, Asset Administration Shell) sind sämtlich real existierende und korrekt verwendete Normen/Standards - AAS und OPC-UA-Companion-Specs werden sogar wörtlich im VDMA-Papier selbst als zentrale Interoperabilitätsstandards benannt. Die Tätigkeitsbeschreibungen (Variantenpflege Betriebsanleitung, SPS-Alarmlisten-Erstqualifizierung, Vorkalkulation via Ähnlichkeitsprojekt, Risikobeurteilung, Datenannotation nach AAS) sind konkret und branchentypisch, keine Allgemeinplätze. Das Hemmnis (Investitionsstau/Inlandsnachfrage statt Recht/Qualifikation) ist durch die verifizierten VDMA-Auftragsdaten sauber belegt und stimmig mit der Fraunhofer-Kennzahl zur geringen KI-Durchdringung. Der Frühindikator (VDMA-Auftragseingangsstatistik nach Fachzweig, VDMA-KI-Umfrage) ist eine tatsächlich veröffentlichte, auffindbare Datenreihe. Keine Fachfehler identifiziert."
+ },
+ {
+  "agent_id": "M04",
+  "status": "gueltig",
+  "quellen": [
+   {
+    "url": "https://www.zdh.de/ueber-uns/fachbereich-wirtschaft-energie-umwelt/konjunkturberichte/zdh-konjunkturbericht-1/2026/",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://hero-software.de/insights/studie-digitalisierung-ki-handwerk",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.zdh.de/ueber-uns/fachbereich-wirtschaft-energie-umwelt/sonderumfragen/sonderumfrage-betriebsnachfolge-im-handwerk/",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   }
+  ],
+  "mandatstreue": "im Fachgebiet",
+  "fachfehler": [],
+  "fachlicher_gehalt": "fachspezifisch",
+  "begruendung": "Alle drei Quellen wurden per WebFetch abgerufen: sie existieren, gehoeren dem genannten Herausgeber (ZDH bzw. HERO Software/Statista) und die im Stimmzettel zitierten Zahlen stimmen praezise mit dem Seiteninhalt ueberein. ZDH-Konjunkturbericht 1/2026: Kapazitaetsauslastung 75%, Auftragsreichweite 8,9 Wochen, Auftragsbestandsindikator -19, Umsatzindikator -25, Beschaeftigungsindikator -9, Titel \"Konjunkturwende vertagt - Rezessionsrisiko waechst\" - alles exakt bestaetigt. HERO/Statista-Studie: 96% kennen KI-Tools, nur 2% nutzen sie taeglich, 16% der Kleinbetriebe investierten in 5 Jahren in Digitalisierung, CATI-Erhebung Sommer 2025 im Bauhandwerk - exakt bestaetigt. ZDH-Sonderumfrage Betriebsnachfolge: bis zu 125.000 Betriebe vor Uebergabe in 5 Jahren, fast jeder vierte Inhaber ueber 60, 57% nennen Nachfolgersuche als groesste Huerde, Erhebung Q3 2020 mit Ergebnisbericht 03/2021 und 47 Handwerkskammern - exakt bestaetigt.\\n\\nMandatstreue: Die Recherche bewegt sich durchgehend im Fachgebiet der Rolle (Auftragslage/Konjunktur im Handwerk, KI-Diffusion im Handwerksbetrieb, Personal-/Nachfolgeproblematik). Der kurze Exkurs zur Gewerbesteuer-Zerlegung fuer Rechenzentren in fach_kosten_nutzen ist erkennbar als Konjunktiv-Randbemerkung zur eigenen Kommunalsteuerbasis markiert, bleibt also im Rahmen betrieblicher Interessenwahrnehmung und wird nicht als belegte Tatsachenbehauptung mit Quelle vorgetragen.\\n\\nFachlicher Gehalt: Die genannten Taetigkeiten (VOB/C-Abrechnung, GAEB-/Datanorm-Kataloge, BEG-Einzelmassnahmen mit Bestaetigung zum Antrag, Fachunternehmererklaerung, hydraulischer Abgleich Verfahren B, Verwendungsnachweis gegenueber KfW/BAFA) sind real existierende, praezise benannte Fachbegriffe und Verfahren aus dem SHK-/Elektrohandwerk - keine Allgemeinplaetze. Das Hemmnis (fehlender Datenstandard zwischen Datanorm/IDS-Connect, Herstellerkatalog und Handwerkersoftware bei nicht dokumentiertem Gebaeudebestand) ist ein in der Branche tatsaechlich bekanntes Problem. Der Fruehindikator (ZDH-Lehrlingsstatistik/BIBB-Datenreport, Schere kaufmaennische vs. gewerblich-technische Neuvertraege) ist eine real veroeffentlichte, nachvollziehbare Groesse. Keine falschen Rechtsgrundlagen, erfundenen Gremien oder Kennzahlen gefunden. Die eigenen Schaetzwerte (V1-V8, V13) sind klar als Schaetzung aus betrieblicher Beobachtung gekennzeichnet und nicht mit einer Quelle unterlegt, was korrekt so deklariert ist."
+ },
+ {
+  "agent_id": "N01",
+  "status": "gueltig",
+  "quellen": [
+   {
+    "url": "https://www.verdi.de/nachrichten/ergo-versicherung-kuendigungsschutz-und-standortsicherung-bis-2030",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.agv-vers.de/tarifpolitik/tarifvertraege.html",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.versicherungsjournal.de/karriere-und-mitarbeiter/tarifgespraeche-agv-verweist-auf-grenzen-des-geforderten-tarifvertrags-transformation-156179",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.it-finanzmagazin.de/tausende-stellen-perspektivisch-gefaehrdet-wie-ki-die-personalstruktur-der-sparkassen-veraendert-240218/",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   }
+  ],
+  "mandatstreue": "im Fachgebiet",
+  "fachfehler": [],
+  "fachlicher_gehalt": "fachspezifisch",
+  "begruendung": "Alle vier Quellen sind real, gehoeren dem angegebenen Herausgeber und decken die entnommenen Aussagen, teils mit interpretativem Zusatz des Agenten, der aber klar als eigene Einordnung gekennzeichnet ist: (1) ver.di bestaetigt den am 18.02.2026 unterzeichneten Sozialrahmenvertrag bei ERGO, 17.000 Beschaeftigte, Ausschluss betriebsbedingter Kuendigungen bis Ende 2030, Sicherung der sieben genannten Standorte, sowie den parallel angekuendigten KI-bedingten Abbau von rund 1.000 Stellen in der Kundenbetreuung - Kernaussage exakt gedeckt. (2) Die AGV-Seite listet RSchA (Fassung 1.10.2024), Qualifizierungstarifvertrag (TVQ, 4.7.2025) sowie Gehalts- und Manteltarifvertrag (je 1.5.2026) exakt wie im Stimmzettel benannt. (3) Der VersicherungsJournal-Artikel vom 3.7.2026 behandelt genau die Tarifverhandlung, in der die Arbeitgeberseite auf rechtliche Grenzen eines \"Tarifvertrags Transformation\" verweist; der Volltext ist zwar bezahlpflichtig, doch das wird im Stimmzettel selbst offen vermerkt. (4) IT Finanzmagazin bestaetigt sowohl die rechnerischen rund 5.800 wegfallenden Vollzeitstellen bei den 340 Sparkassen als auch den demografisch bedingten Abgang von rund einem Viertel der Belegschaft bis 2030.\\n\\nMandatstreue ist vollstaendig gewahrt: Alle recherchierten Sachverhalte (Beschaeftigungssicherung/Sozialrahmenvertrag, Rationalisierungsschutz/Tarifbindung, Eingruppierungsmerkmale, demografischer Abbau ohne Schutzverfahren) liegen im Kernmandat einer Gewerkschaftssekretaerin fuer Beschaeftigungssicherung, Tarifbindung und Eingruppierung; keine mandatsfremden Recherchefelder erkennbar.\\n\\nFachlich sind die genannten Rechtsgrundlagen zutreffend: § 87 Abs. 1 Nr. 6 BetrVG erfasst tatsaechlich technische Einrichtungen zur Verhaltens- und Leistungsueberwachung und ist die einschlaegige, in Rechtsprechung und Praxis anerkannte Norm fuer KI-gestuetzte Assistenzsysteme; das Rationalisierungsschutzabkommen und die Einigungsstelle als Eskalationsinstanz sind real existierende Institutionen der Branche. Die genannten Fruehindikatoren (WZ 82.20 Callcenter, WZ 65 Versicherungen/Rueckversicherungen/Pensionskassen der amtlichen Wirtschaftszweigklassifikation WZ 2008, quartalsweise Beschaeftigtenstatistik der BA, sowie die jaehrliche BIBB-Berufsbildungsstatistik zum 30.9.) sind tatsaechlich veroeffentlichte, oeffentlich zugaengliche Reihen und passen exakt zum benannten Berufsfeld. Die Taetigkeitsbeschreibungen (Schadenerstbescheidung mit Vollmachtsgrenze, Wrap-up-Nachbearbeitung, Widerspruchsverfahren mit Letztzeichnungsvorbehalt, Eingruppierungspruefung nach TVoeD-S/Manteltarifvertrag, unbezahlte Anlernarbeit) sind konkret und branchenspezifisch, keine Allgemeinplaetze. Schaetzungen (12/9/55 Prozent, Wirkdauer, Schwellenwerte) sind durchgehend als Schaetzung der Interessenvertreterin und nicht als Messung gekennzeichnet, wie von der Rolle gefordert. Keine erkennbaren Fachfehler in Rechtsgrundlagen, Gremien, Verfahren oder Kennzahlen - Status gueltig."
+ },
+ {
+  "agent_id": "N04",
+  "status": "gueltig",
+  "quellen": [
+   {
+    "url": "https://www.ifo.de/en/press-release/2026-08-12/companies-germany-tend-expect-salaries-fall-due-use-artificial",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.ifo.de/en/facts/2026-01-19/focus-on-career-entrants-companies-looking-for-soft-skills-and-ai",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://statistik.arbeitsagentur.de/DE/Statischer-Content/Statistiken/Themen-im-Fokus/Berufe/AkademikerInnen/Allgemeiner-Teil/1-7-Arbeitslosigkeit.html",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   }
+  ],
+  "mandatstreue": "im Fachgebiet",
+  "fachfehler": [],
+  "fachlicher_gehalt": "fachspezifisch",
+  "begruendung": "Alle drei Quellen wurden abgerufen, existieren beim genannten Herausgeber und decken die entnommenen Zahlen praezise: (1) ifo-PM 12.08.2026 bestaetigt die 16,3%/26%-Werte fuer Akademiker mit wenig/viel Erfahrung sowie die ~50%/40%-Werte fuer Lohnrueckgangserwartungen bei Junior/Senior; die im Stimmzettel angehaengte Sektoraufschluesselung (53,3%/44,2% Dienstleistung, 39,0%/31,3% Bau) stammt exakt geprueft aus dem Rueckgangs-Datensatz fuer Beschaeftigte ohne Hochschulabschluss, nicht aus dem Akademiker-Zuwachs-Datensatz - die Zahlen selbst sind korrekt zitiert, die Zuordnung im Fliesstext ist an dieser Stelle etwas unpraezise formuliert, aber nicht erfunden oder falsch; kein eigenstaendiger Fachfehler, da keine Zahl falsch wiedergegeben wird. (2) Randstad-ifo 19.01.2026 deckt alle genannten Prozentwerte (14/40/63/30/65/19/16/66/61/47/27) exakt. (3) BA-Bericht deckt 335.000, +46.000/+16%, Quote 2,9->3,3%, Gesamtanstieg 6% exakt, Datenstand Juli 2026 bestaetigt. Mandatstreue ist vollstaendig gegeben: Recherche und Fachteil bleiben durchgehend bei Einstiegschancen, Einstiegsloehnen und Berufsperspektive von Hochschulabsolventen, keine mandatsfremde Ausweitung. Die fach_taetigkeiten sind konkret und praxisnah (Wettbewerbs-Steckbrief aus Handelsregister/Jahresabschluss, Spaltenmapping/Dublettenpruefung, Beleg- und Zitatpruefung gegen Primaerquelle mit Abzeichnung) und setzen echte Fachkenntnis aus Berufseinstiegspraxis in Beratung/Wirtschaftspruefung voraus, keine Allgemeinplaetze. Das Hemmnis (Bindung von Zeichnungs-/Freigabebefugnissen an Berufsjahre statt Verfahrensqualitaet) entspricht einem real existierenden Mechanismus in deutschen Berufs- und Pruefungsordnungen (z.B. WP-Bestellung, Vier-Augen-Prinzip in QM-Handbuechern) und ist plausibel, ohne falsche Rechtsgrundlage zu benennen. Der Fruehindikator ist eine tatsaechlich veroeffentlichte, quartalsweise erhobene Groesse derselben Quelle. Insgesamt keine erkennbaren Fachfehler, keine erfundenen Quellen oder Gremien; die Position ist eine gut belegte Minderheits-/Kohortenperspektive und besteht die Pruefung als gueltig."
+ },
+ {
+  "agent_id": "O04",
+  "status": "gueltig",
+  "quellen": [
+   {
+    "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/04/PD26_114_71137.html",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.kfw.de/%C3%9Cber-die-KfW/Newsroom/Aktuelles/Pressemitteilungen-Details_897920.html",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.statistik-bw.de/presse/pressemitteilungen/pressemitteilung/sinkende-steuereinnahmen-der-gemeinden/",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.dihk.de/de/newsroom/gewerbesteuer-in-der-rechenzentrumsstrategie-der-bundesregierung-175784",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   }
+  ],
+  "mandatstreue": "im Fachgebiet",
+  "fachlicher_gehalt": "fachspezifisch",
+  "fachfehler": [],
+  "begruendung": "Alle vier Quellen sind unter der angegebenen URL erreichbar, gehoeren zum genannten Herausgeber und decken die jeweils entnommene Aussage vollstaendig: Destatis PM 114 bestaetigt Finanzierungsdefizit 31,9 Mrd. EUR, 7,5% ungedeckte Ausgaben, Personalausgaben +6,8% auf 113,4 Mrd. EUR, Sozialleistungen +5,9% auf 90 Mrd. EUR (Eingliederungshilfe SGB IX +11,2% auf 25,2 Mrd. EUR), Sachinvestitionen +3,5% auf 53,9 Mrd. EUR - Zahlen decken sich exakt mit fach_quellen und dem Fachhemmnis. Das KfW-Kommunalpanel 2026 bestaetigt Investitionsrueckstand 231,2 Mrd. EUR (+7,2%), 30%/47% (Ost) unzureichende Unterhaltung, sowie Personalmangel in Bauverwaltungen als nichtfinanzielles Hemmnis - deckt exakt die Aussage in fach_kosten_nutzen. Das Statistische Landesamt BW bestaetigt die Spreizung Stadtkreise -18,3% vs. kreisangehoerige Gemeinden -2,5% sowie den Anteil-Rueckgang von 46,8 auf 43,9%. Der DIHK-Beitrag bestaetigt sowohl den geplanten Sonderzerlegungsmassstab fuer Rechenzentren (Vorbild Windenergie/Speicher) als auch den Fall Gross-Gerau (2,5-Mrd.-Vorhaben, gescheitert u.a. wegen Unsicherheit ueber Gewerbesteueraufkommen). Eine gezielte Zusatzrecherche bestaetigt zudem zwei Detailangaben, die ueber die vier genannten Quellen hinausgehen und die vom Stimmzettel selbst als Entwurf/Konjunktiv gekennzeichnet sind: Der Referentenentwurf zum EStReformG 2027 (BMF, 18.08.2026) sieht tatsaechlich einen neuen § 29 Abs. 1 Nr. 4 GewStG-E mit dem Aufteilungsschluessel 90% Nennanschlussleistung / 10% Arbeitsloehne vor - die im Stimmzettel genannten Prozentsaetze sind korrekt. Auch die Rechtsgrundlagen der Fachtaetigkeiten (§§ 28-34 und § 31 GewStG Zerlegung/Arbeitslohnsumme inkl. 50.000-EUR-Grenze fuer sonstige Verguetungen, § 19 GewStG Vorauszahlungen, § 22 SGB II KdU) sind zutreffend benannt; die Verschmelzung der 1.000-EUR-Abrundungsregel (§ 29 Abs. 3 GewStG) mit der 50.000-EUR-Kappungsgrenze fuer Sonderverguetungen in einer Taetigkeitsbeschreibung ist sprachlich verkuerzt, aber inhaltlich keine falsche Rechtsgrundlage und kein eigenstaendiger Fachfehler. Mandatstreue: Kernthemen (Gewerbesteuerzerlegung, Vorauszahlungen/Liquiditaetsplanung, Haushaltssicherungskonzept, Anschlussleistungskataster) liegen zentral im Mandat \"kommunale Finanzausstattung, Gewerbesteuerverteilung\". Die KdU-Bearbeitung nach SGB II (Jobcenter) ist mandatsnah, da sie unmittelbar an die im Fachteil selbst hergestellte fiskalische Kausalkette (Verdraengung -> Sozialkosten der Kommune) anknuepft und nicht isoliert steht. Die eigene Kennzeichnung von V9 als \"ausserhalb meines Mandats, grobe Schaetzung ohne eigene Recherche\" zeigt zudem reflektierte Mandatsdisziplin statt Uebergriff. Der Fachteil ist durchgehend konkret (Paragraphenketten, Verfahrensschritte, Betrag/Prozent-Schwellen) und setzt einschlaegige Fachkenntnis voraus, keine Allgemeinplaetze. Konjunktivkennzeichnung bei allen Entwurfs-/Vorschlagselementen (§ 29 Abs. 1 Nr. 4 GewStG-E, Wertschoepfungsabgabe, Teilhabefonds) ist korrekt gesetzt. Die Position ist eine fachlich begruendete, empirisch unterlegte Minderheits-/Verschaerfungssicht (S3 statt Panelkonsens S1/S2) mit offen benannten eigenen Unsicherheiten (V12 Hinzurechnung § 8 Nr. 1 GewStG, V10 Bauzeitabhaengigkeit) - das ist zulaessige, gut belegte Fachargumentation und kein Mangel."
+ },
+ {
+  "agent_id": "P01",
+  "status": "gueltig",
+  "quellen": [
+   {
+    "url": "https://www.goerg.de/de/aktuelles/veroeffentlichungen/27-02-2026/first-ready-statt-first-come-uebertragungsnetzbetreiber-stellen-neues-netzanschlussverfahren-vor",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.transnetbw.de/de/newsroom/pressemitteilungen/vorlaeufige-netzentgelte-fuer-2026",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.energieundrecht.com/blog/netzanschluss-rechenzentren-reifegradverfahren",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.eco.de/news/zwischen-ausbauzielen-und-netzrealitaet-der-anschluss-von-rechenzentren-auf-dem-pruefstand/",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   }
+  ],
+  "mandatstreue": "im Fachgebiet",
+  "fachfehler": [],
+  "fachlicher_gehalt": "fachspezifisch",
+  "begruendung": "Alle vier Quellen sind unter der angegebenen URL beim genannten Herausgeber auffindbar, und die per WebFetch abgerufenen Inhalte decken die zitierten Aussagen wortgenau: GÖRG bestätigt Reifegradverfahren ab 1.4.2026, 717 Anträge/270 GW (davon 545 Speicher/211 GW), Antragspauschale 50.000 EUR, Kaution 1.500 EUR/MW, Zehn-Monats-Zyklus und die vier Bewertungskriterien; TransnetBW bestätigt den Entgeltpfad 6,65 auf 2,86 ct/kWh unter Vorbehalt des Bundeszuschusses (§ 24c EnWG, Stichtag 5.12.2025); energieundrecht.com bestätigt Zyklusbündelung und fortbestehende Schaltfeldknappheit; eco.de bestätigt Kapazitätsknappheit und die beiden Politikbezugspunkte. Die Rechtsgrundlagen (§13 EnWG Redispatch, NABEG/EnLAG Planfeststellung, ARegV/StromNEV Kostenprüfung, §19 Abs.2 StromNEV individuelle Netzentgelte) sind korrekt benannt und praxisnah verwendet; der Regierungsentwurf zu § 29 GewStG-E wird explizit und korrekt als Konjunktiv/nicht beschlossen gekennzeichnet. Die Fachtätigkeiten (Lastfluss-/Kurzschlussstromrechnung, (n-1)-Nachweis, Schaltfeldverfügbarkeit, Clusterstudie, Kostenprüfungsantrag) sind konkret und setzen einschlägige Fachkenntnis voraus, keine Allgemeinplätze. Das Hemmnis (Schaltfeld-/Transformatorlieferzeit als bindender physischer Engpass) ist im Feld real und wird durch die Quellen gestützt, ebenso der Frühindikator (Reifegradverfahren-Runden, ÜNB-Veröffentlichung, Monitoringbericht/NEP). Die Kostenverteilungs- und Anreizregulierungs-Argumentation (Basisjahr-Abschöpfung, Sozialisierung über Netzentgelte) liegt im ureigenen Mandat eines ÜNB-Vorstands (Netzausbau, dessen Finanzierung und Netzentgeltkalkulation), auch wenn sie in volkswirtschaftliche Verteilungsfragen hineinreicht - dies ist als Rollenperspektive plausibel und sachlich verankert, kein Mandatsbruch. Keine erkennbaren Fachfehler (falsche Gremien, erfundene Kennzahlen, falsche Verfahrensabläufe) gefunden. Die abweichenden Schätzungen (V10, V3, V9, K2) sind explizit und nachvollziehbar begründet, als Minderheitsposition mit physischer Kapazitätslogik - das besteht die Prüfung."
+ },
+ {
+  "agent_id": "R03",
+  "status": "gueltig",
+  "quellen": [
+   {
+    "url": "https://policy.trade.ec.europa.eu/news/2026-update-eu-control-list-dual-use-items-2026-09-14_en",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.bafa.de/SharedDocs/Kurzmeldungen/DE/Aussenwirtschaft/Ausfuhrkontrolle/20260127_update_anhang_i.html",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://globaltaxnews.ey.com/news/2026-0209-us-section-232-proclamation-imposes-25-percent-tariff-on-certain-semiconductors",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.bundesbank.de/de/presse/pressemitteilungen/die-deutsche-zahlungsbilanz-im-juli-2026-1008248",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   }
+  ],
+  "mandatstreue": "im Fachgebiet",
+  "fachfehler": [],
+  "fachlicher_gehalt": "fachspezifisch",
+  "begruendung": "Alle vier Quellen wurden per WebFetch abgerufen: sie existieren, gehören den angegebenen Herausgebern (EU-Kommission GD Handel/Trade and Economic Security, BAFA, EY Global Tax News, Deutsche Bundesbank) und decken die im Feld 'aussage' behaupteten Inhalte inhaltsgetreu ab, einschliesslich Datumsangaben, Rechtsgrundlagen und Zahlen (25% Section-232-Zoll, 8,3 Mrd. Euro Dienstleistungsdefizit Juli 2026, EU-500er-Umstellung, Wegfall der 5.000-Euro-Freigrenze). Stichprobenhafte Recherche zu Rechts- und Verfahrensdetails bestätigt deren Korrektheit: 'GD Handel (Trade and Economic Security)' ist die seit 2023/24 tatsächlich gültige Bezeichnung der DG TRADE; vZTA-Anträge laufen in Deutschland tatsächlich über ein Hauptzollamt (Hannover), die Formulierung 'beim Hauptzollamt' ist also korrekt und kein Fachfehler; § 8 AWV als bisherige Rechtsgrundlage der 5.000-Euro-Freigrenze wird von der BAFA-Quelle selbst wörtlich bestätigt. Das Mandat (Zölle, Exportkontrollen, Lieferkettenverlagerung) wird durchgehend eingehalten; die Recherche bewegt sich konsequent auf Ausfuhrkontroll-, Zoll- und Handelsdaten (Dual-Use-Klassifizierung, Ursprungskalkulation, Sanktionsscreening, Section-232-Exposure, Zahlungsbilanz als Handelsindikator). Positiv fällt auf, dass der Agent V9/V10 selbst als ausserhalb seines Mandats benennt und zur Abwertung empfiehlt, sowie eine gefundene, aber nicht primär verifizierte Zusatzquelle (EU-US-Deckel bei 15%) bewusst nicht anführt - das ist vorbildliche Selbstdisziplin, kein Mangel. Die fach_taetigkeiten sind konkret und branchenspezifisch (BAFA-500er-Positionen, LLE, EUC-Screening, vZTA-Begründungstext, ATLAS-Anmeldezeilen) und keine Allgemeinplätze. Das Hemmnis (persönliche Zeichnungshaftung des Ausfuhrverantwortlichen nach AWG/AWV, Art. 3 EU-Dual-Use-VO) ist ein real existierendes, in der Exportkontroll-Compliance bekanntes Spannungsfeld. Der Fruehindikator (Bundesbank-Zahlungsbilanz, Position Telekommunikations-/EDV-/Informationsdienstleistungen, GENESIS-Tabelle 51000 als Gegenprobe) ist eine tatsächlich veröffentlichte, regelmässige Grösse. Keine Fachfehler identifiziert."
+ },
+ {
+  "agent_id": "Q04",
+  "status": "mit Vorbehalt",
+  "quellen": [
+   {
+    "url": "https://www.bitkom.org/Presse/Presseinformation/Rechenzentren-Deutschland-KI-treibt-Wachstum",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.datacenter-insider.de/buergerentscheid-zu-200-mw-rechenzentrum-in-birstein-gestoppt-a-bc8c1455c46f69f9229b4ef2c7864eb8/",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.dihk.de/de/newsroom/gewerbesteuer-in-der-rechenzentrumsstrategie-der-bundesregierung-175784",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   },
+   {
+    "url": "https://www.hardwarewartung.com/david-gegen-goliath-gross-gerau-erteilt-milliarden-rechenzentrum-eine-absage/",
+    "existenz": "auffindbar",
+    "deckung": "stuetzt die Aussage"
+   }
+  ],
+  "mandatstreue": "im Fachgebiet",
+  "fachfehler": [
+   "Die Netzersatzanlagen (Diesel-Notstromaggregate) werden Nr. 1.2.1 bzw. 8.1 der 4. BImSchV zugeordnet. Nach aktueller Anlage 1 der 4. BImSchV ist fuer Diesel-Notstromanlagen in Rechenzentren Nr. 1.4.1.2 einschlaegig (Genehmigungspflicht ab 1 MW Feuerungswaermeleistung); Nr. 8.1 betrifft Abfall- und Reststoffbehandlungsanlagen und ist fachfremd zu Verbrennungsmotoranlagen.",
+   "Die Meldung an die Plattform fuer Abwaerme wird Paragraf 16 EnEfG zugeschrieben. Tatsaechlich regelt Paragraf 16 EnEfG die Vermeidungs- und Verwendungspflicht fuer Abwaerme, waehrend die jaehrliche Datenuebermittlung an die Plattform fuer Abwaerme in Paragraf 17 EnEfG geregelt ist."
+  ],
+  "fachlicher_gehalt": "fachspezifisch",
+  "begruendung": "Alle vier Quellen sind auffindbar, gehoeren dem angegebenen Herausgeber und stuetzen die im Stimmzettel zugeschriebenen Aussagen vollstaendig: Bitkom/Borderstep (10.11.2025, 2.980 MW/+9%, 530 MW KI-Kapazitaet, Ziel 5.000 MW bzw. 2.020 MW KI 2030, Hinweis auf ca. sechs Monate laengere Genehmigungsverfahren, Pipeline Frankfurt/Brandenburg/Nierstein/Dummerstorf) deckt sich exakt; DataCenter-Insider (16.06.2026) bestaetigt Buergerbegehren-Zurueckweisung in Birstein, Projekt Frank Cube, 200 MW/11 ha, Windpark+Gas-BHKW, Abwaermenutzung; DIHK (30.03.2026) bestaetigt Zerlegungsmassstab-Vorschlag und Verweis auf Gross-Gerau; hardwarewartung.com (10.02.2026) bestaetigt 18:14-Abstimmung, 2,5 Mrd. EUR, 160 MW, Vantage Data Centers, sowie die genannten Ablehnungsgruende inkl. Abschreibungs-/Gewerbesteuerargument. Das Mandat (Flaechen, Genehmigung, kommunale Akzeptanz) wird durchgehend eingehalten: Screening, BImSchG-Antragsordner, Bauleitplanverfahren nach BauGB, Abwaerme-/Waermeuebergabe-Verhandlung und Buergerinformationsveranstaltung liegen alle im Kernfeld eines Standortentwicklers; auch die steuerlichen Ausfuehrungen (Zerlegungsmassstab, Abschreibungswirkung) dienen erkennbar der Erklaerung kommunalpolitischer Zustimmungsdynamik und sind kein mandatsfremder Abstecher. Die Taetigkeitsbeschreibungen sind durchgehend konkret und branchentypisch (ALKIS, Netzverknuepfungspunkt-Auskunft, Sichtachsen-Visualisierung, Schallimmissionskarte Nachtzeitraum), keine Allgemeinplaetze; das Hemmnis (Satzungsbeschluss ohne Bindungswirkung bis zur Schlussabstimmung) ist ein real bekanntes, in Fachkreisen dokumentiertes Bauplanungsrisiko fuer Rechenzentren mangels eigener BauNVO-Nutzungskategorie; der Fruehindikator (Bitkom/Borderstep-Jahresstudie, jaehrlich im November) ist eine tatsaechlich existierende, regelmaessig veroeffentlichte Groesse. Allerdings finden sich zwei konkrete, ueberpruefbare Fachfehler bei Rechtsgrundlagen: Die Diesel-Notstromaggregate werden der Ziffer 1.2.1 bzw. 8.1 der 4. BImSchV zugeordnet, waehrend die tatsaechlich einschlaegige Ziffer 1.4.1.2 ist (8.1 betrifft branchenfremd Abfallbehandlung); und die Meldepflicht an die Plattform fuer Abwaerme wird Paragraf 16 EnEfG statt richtig Paragraf 17 EnEfG zugeschrieben. Beide Fehler betreffen Nebendetails innerhalb ansonsten korrekt beschriebener Vorgaenge (Genehmigungspflicht fuer Notstromaggregate bzw. Abwaerme-Meldepflicht als solche bestehen tatsaechlich), sodass der Fachteil in der Substanz tragfaehig bleibt, aber mit Vorbehalt wegen der falsch benannten Rechtsgrundlagen zu werten ist."
+ }
+]
