@@ -210,16 +210,18 @@ Ausgewiesen wird zu jeder Summe dreierlei: wie viele Felder sie deckt, wie viele
 - **Gerüst A — Fortschreibung:** die amtlichen Projektionen treten ein, die Krankenhausreform wird wie beschlossen umgesetzt, der Rechtsrahmen gilt zum angekündigten Termin.
 - **Gerüst B — Gegenwelt:** schwächeres Wachstum, schnellerer Beitragssatzanstieg, verzögerter Vollzug des EU-Rechts, Krankenhausreform in Teilen gescheitert oder landesweise auseinanderlaufend.
 
-Die hundert Rollen werden hälftig zugeteilt — aber **nicht nach derselben Regel wie die Anker-Randomisierung**. Beide an die ID-Parität zu hängen, hieße Anker und Gerüst vollständig zu konfundieren: Zeigte die B-Hälfte höhere Werte, wäre nicht entscheidbar, ob das am Gerüst oder am Anker liegt, und die Gerüstabhängigkeit wäre als Maß wertlos. Stattdessen ein gekreuzter Plan nach dem Zahlenteil der ID modulo vier:
+Die hundert Rollen werden hälftig zugeteilt — aber **nicht nach derselben Regel wie die Anker-Randomisierung**. Beide an die ID-Parität zu hängen, hieße Anker und Gerüst vollständig zu konfundieren: Zeigte die B-Hälfte höhere Werte, wäre nicht entscheidbar, ob das am Gerüst oder am Anker liegt, und die Gerüstabhängigkeit wäre als Maß wertlos. Stattdessen ein gekreuzter Plan nach dem **laufenden Index über alle hundert Rollen** modulo vier — nicht nach dem Zahlenteil der ID:
 
 | Rest | Anker | Gerüst |
 |---|---|---|
-| 1 | Substitutionsevidenz zuerst | A |
-| 2 | Gegenevidenz zuerst | A |
-| 3 | Substitutionsevidenz zuerst | B |
-| 0 | Gegenevidenz zuerst | B |
+| 0 | Substitutionsevidenz zuerst | A |
+| 1 | Gegenevidenz zuerst | A |
+| 2 | Substitutionsevidenz zuerst | B |
+| 3 | Gegenevidenz zuerst | B |
 
-Damit sind bei hundert Rollen alle vier Zellen mit rund 25 besetzt, und Anker- und Gerüstwirkung lassen sich getrennt schätzen. **Die Differenz der Pflichtgrößen zwischen beiden Hälften ist damit eine gemessene Größe** (§ 6, *Gerüstabhängigkeit*) und kein blinder Fleck. Ein einziges Gerüst hätte alle hundert Rollen in denselben Weltannahmen gleichgerichtet: Wäre eine Annahme falsch, irrte das Panel geschlossen und ohne Streuung — also in genau der Form, die im ersten Lauf als Konsens missdeutet worden wäre. Wer auch von seinem zugeteilten Gerüst abweichen will, legt zusätzlich eine `bedingung`-Karte darauf.
+Damit sind alle vier Zellen mit **exakt 25** besetzt, und Anker- wie Gerüstwirkung lassen sich getrennt schätzen.
+
+**Warum der laufende Index und nicht die ID.** Die Bänke sind unterschiedlich groß, und die Nummerierung beginnt in jeder Bank wieder bei 01. Eine Bank mit sechs Rollen liefert die Reste 1, 2, 3, 0, 1, 2 — also viermal A und zweimal B. Über alle vierzehn Bänke summiert sich das: Beim Zuschnitt aus `14-Roster-2031.md` ergäbe die ID-Regel **57 zu 43** statt 50 zu 50, und Gerüst A bekäme systematisch mehr Rollen aus kleinen Bänken. Damit wäre die Gerüstabhängigkeit mit der Bankgröße konfundiert — derselbe Fehler wie beim Anker, nur subtiler. Der laufende Index über die nach ID sortierte Gesamtliste behebt das und balanciert zugleich innerhalb jeder Bank. **Die Differenz der Pflichtgrößen zwischen beiden Hälften ist damit eine gemessene Größe** (§ 6, *Gerüstabhängigkeit*) und kein blinder Fleck. Ein einziges Gerüst hätte alle hundert Rollen in denselben Weltannahmen gleichgerichtet: Wäre eine Annahme falsch, irrte das Panel geschlossen und ohne Streuung — also in genau der Form, die im ersten Lauf als Konsens missdeutet worden wäre. Wer auch von seinem zugeteilten Gerüst abweichen will, legt zusätzlich eine `bedingung`-Karte darauf.
 
 **(0c) Gegenwartswerte** mit Fundstelle, Erhebungsdatum und ausdrücklich benannten Lücken, je Domäne.
 
