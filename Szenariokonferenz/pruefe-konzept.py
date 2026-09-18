@@ -16,9 +16,9 @@ for z in zeilen[:-1]:
     auf+=int(a.group(1)) if a else 0
     usd+=int(u.group(1)) if u else 0
 print(f"Kostentabelle: {len(zeilen)-1} Posten, Aufrufe {auf}, USD {usd}")
-if "**533**" not in zeilen[-1]: fehler.append(f"Summenzeile Aufrufe != 533: {zeilen[-1]}")
-if auf!=533: fehler.append(f"Aufrufe addieren zu {auf}, nicht 533")
-if not 515<=usd<=535: fehler.append(f"USD addieren zu {usd}, ausserhalb 'rund 525'")
+if "**534**" not in zeilen[-1]: fehler.append(f"Summenzeile Aufrufe != 534: {zeilen[-1]}")
+if auf!=534: fehler.append(f"Aufrufe addieren zu {auf}, nicht 534")
+if not 535<=usd<=555: fehler.append(f"USD addieren zu {usd}, ausserhalb 'rund 545'")
 
 # --- 2. Wanduhrzeit ---
 m=re.search(r"\*\*(\d+,\d+) Minuten je Aufruf\*\*",K)
@@ -26,12 +26,12 @@ if not m: fehler.append("Konzept nennt keine gemessene Minutenrate je Aufruf")
 RATE=float(m.group(1).replace(",",".")) if m else 3.0
 std=auf/2*RATE/60
 print(f"Wanduhrzeit bei Nebenlaeufigkeit 2 und {RATE} min/Aufruf: {std:.2f} h")
-m2=re.search(r"ergeben 533 Aufrufe damit \*\*rund (\d+) Stunden\*\*",K)
+m2=re.search(r"ergeben 534 Aufrufe damit \*\*rund (\d+) Stunden\*\*",K)
 if not m2: fehler.append("Konzept nennt keine Gesamtstundenzahl fuer 533 Aufrufe")
 elif abs(std-int(m2.group(1)))>0.5: fehler.append(f"Konzept nennt {m2.group(1)} h, gerechnet {std:.2f} h")
 
 # --- 3. Sitzungsteilung im Validierungsstand ---
-phasen={"R0":13,"R1":110,"R1b":110,"R2":70,"R3":110,"R4":102,"R5":12,"R6":6}
+phasen={"R0":13,"R1":110,"R1b":110,"R2":70,"R3":110,"R4":103,"R5":12,"R6":6}
 if sum(phasen.values())!=auf: fehler.append(f"Phasensumme {sum(phasen.values())} != Tabelle {auf}")
 sitz={"A":["R0","R1","R1b"],"B":["R2","R3"],"C":["R4","R5","R6"]}
 for name,ph in sitz.items():
@@ -95,6 +95,10 @@ for d in glob.glob(SZ+"*.md"):
 
 # --- 10. Neue Bestandteile nach der Mechanikprobe ---
 pflicht = {
+    "Marktgroessen":       "### 3.2 Die Marktgr\u00f6\u00dfen",
+    "Leistungsprofile":    "Leistungsprofile",
+    "Ableitungsrichtung":  "vom Engpass zum Profil, nie vom Portfolio zum Profil",
+    "Interessenkonflikt":  "16-Marktschicht.md",
     "D-Formel":            "|P3 \u2212 P3\u2080| \u00f7 (P1 \u00d7 P2 \u00f7 100)",
     "Zahlenmatrix":        "Zahlenmatrix",
     "Auszugsregel":        "### 4.3 Wer welchen Ausschnitt sieht",
@@ -148,7 +152,8 @@ unter = set(re.findall(r"^### (\d+\.\d+) ", K, re.M))
 for m in re.finditer(r"\u00a7 (\d+\.\d+)", K):
     if m.group(1) not in unter:
         fehler.append(f"Konzept: interner Verweis auf \u00a7 {m.group(1)}, den es nicht gibt (vorhanden: {sorted(unter)})")
-for m in re.finditer(r"\u00a7 (\d+)(?![\.\d])", K):
+GESETZ = "(?!\\s*[a-z]?\\s+(?:SGB|AO|StGB|StBerG|StBVV|KHEntgG|KHVVG|BetrVG|GewStG|ApBetrO|VVG|PflBG|IfSG|NotSanG|DSGVO|GG|BGB|HGB|EBM|MDR))"
+for m in re.finditer("\u00a7 (\\d+)[a-z]?" + GESETZ + "(?![\\.\\d])", K):
     if int(m.group(1)) not in absch:
         fehler.append(f"Konzept: interner Verweis auf \u00a7 {m.group(1)}, den es nicht gibt")
 

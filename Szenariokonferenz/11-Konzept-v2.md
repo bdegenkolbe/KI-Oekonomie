@@ -83,6 +83,22 @@ Das Zielbild des Strategiepapiers heißt »Europa, Deutschland und das deutsche 
 
 **Was die drei Größen nicht leisten.** Sie ergeben kein europäisches Lagebild, sondern einen Abstand, einen Anteil und eine Rechtsdiagnose — je Gegenstand der 18 antwortenden Rollen. Der Europa-Teil des Strategiepapiers ist damit ausdrücklich ein **Vergleichskapitel** und keine eigenständige Prognose. Das ist eine Entscheidung und wird im Papier als solche benannt.
 
+### 3.2 Die Marktgrößen
+
+P1 bis P5 sagen, was in einem Feld geschieht. E1 bis E3 sagen, wo Deutschland dabei steht. Keine von beiden sagt, **ob dort ein Markt entsteht** — ob also jemand ein Budget, eine Rechtsgrundlage und einen Grund hätte, eine Leistung von außen einzukaufen. Ein Feld kann hochautomatisierbar sein und trotzdem kein Markt, weil niemand einen Topf hat oder weil kein Externer an die Daten darf.
+
+Drei Größen, beantwortet von **allen hundert Rollen für ihr eigenes Feld**. Sie kosten keinen zusätzlichen Aufruf; sie hängen an der Runde-1-Karte.
+
+| ID | Größe | Einheit | Pflichtangaben |
+|---|---|---|---|
+| **A1** | Beschaffungsfähigkeit: Darf und kann in Ihrem Feld 2031 eine Leistung von außen eingekauft werden? | geschlossene Liste: *frei beschaffbar* · *Vergaberecht* · *Auftragsverarbeitung nach § 80 SGB X* · *Zulassung oder Zertifizierung nötig* · *Entscheidung der Selbstverwaltung* · *faktisch nicht beschaffbar* | die konkrete Norm oder Vertragsform, an der es hängt |
+| **A2** | Zahlungsquelle: Aus welchem Topf würde sie 2031 bezahlt? | vier Prozentwerte, Summe 100: laufendes Budget des Leistungserbringers / Verwaltungskosten des Kostenträgers / gesetzlich gesetzter Erlöstatbestand / Fördermittel oder Projekt — **plus der Restwert »gar kein Topf«** | je Anteil der Abrechnungsweg |
+| **A3** | Engpass: Was ist 2031 in Ihrem Feld knapper — die Technik, die Daten, das Recht, das bedienende Personal oder die Entscheidung? | geschlossene Liste, eine Nennung plus eine Zweitnennung | wodurch der Engpass sichtbar würde |
+
+**A2 trägt den Restwert »gar kein Topf« ausdrücklich mit.** Das ist der wichtigste der fünf Werte: Ein Feld ohne Topf ist kein Markt, wie groß das Problem auch sei. Der Pilotlauf hat diese Frage in seinem Block F4 schon einmal gestellt — wer trägt die Kosten, wer schöpft den Nutzen, und was ist die Lücke dazwischen — und sie hat dort brauchbar funktioniert (`12-Gesamtauswertung.md`). A2 ist deren strengere Fassung.
+
+**A3 ist die Leistungsfrage.** Wer den Engpass löst, verkauft; wer etwas anderes löst, hält einen Vortrag. Aus den A3-Antworten werden in Runde 4 die Leistungsprofile abgeleitet (§ 5, Runde 4) — **nicht aus einem Portfolio**. Diese Richtung ist zwingend und in § 10 begründet.
+
 ## 4. Die Tafel
 
 Die Tafel ist kein Bild, sondern eine append-only-Liste typisierter Karten in `rohdaten/tafel.json`. Sie ist gleichzeitig Protokoll des Verfahrens **und** Datenquelle des Dashboards — es gibt keinen Übertragungsschritt zwischen beidem und damit keine Stelle, an der die Darstellung vom Protokoll abweichen könnte.
@@ -94,6 +110,7 @@ Die Tafel ist kein Bild, sondern eine append-only-Liste typisierter Karten in `r
 | `position` | jede Rolle, Runde 1 | nein | `feld`, `falsifikator` |
 | `befund` | jede Rolle, Runde 1 | nein | `quelle` (abgerufen, mit Datum und Fundstelle) |
 | `pflichtgroesse` | jede Rolle, Runde 1 **und** Runde 3; E1–E3 nur Bänke K, L, M | nein | `groesse_id` (P1–P5, P3₀, E1–E3), `einheit`, `rechenweg`, `bezugsgroesse_vzae`, `intervall_80` |
+| `marktgroesse` | jede Rolle, Runde 1 | nein | `groesse_id` (A1–A3), `norm_oder_abrechnungsweg`, bei A2 Anteilsvektor mit Restwert |
 | `zahl` | Rollen, jederzeit | optional | `groesse` mit Einheit, 80-%-Intervall, Rechenweg, Bezugsgruppe in VZÄ |
 | `einwand` | Rollen, Runde 2 und 3 | **ja** | `einwandtyp` (siehe unten), **`rettungsbedingung`** |
 | `bedingung` | Rollen, Runde 2 und 3 | **ja** (auf eigene Position oder auf das Szenariogerüst) | — |
@@ -216,6 +233,7 @@ Jede der hundert Rollen arbeitet allein und sieht nichts von den anderen — nur
 - drei bis sechs `befund`-Karten, jede mit abgerufener Quelle, Datum und Fundstelle
 - sechs `pflichtgroesse`-Karten P1 bis P5 und P3₀, Rechenweg vor Ergebnis
 - die Rollen der Bänke K, L und M zusätzlich drei `pflichtgroesse`-Karten E1 bis E3 (§ 3.1)
+- drei `marktgroesse`-Karten A1 bis A3 (§ 3.2)
 - optional weitere `zahl`-Karten zu Größen, die aus dem eigenen Feld hergeleitet sind
 
 **Modellkontrollarm.** Zehn der hundert Rollen — je eine aus zehn verschiedenen Bänken, vorab festgelegt — durchlaufen Runde 1 und Runde 3 ein zweites Mal mit **identischem Auftrag auf einem anderen Modell**. Die Differenz zwischen beiden Antworten derselben Rolle ist die **Modellabhängigkeit** (§ 6). Das schließt die Lücke, an der der erste Lauf gescheitert ist: Dort war erst in der nachträglichen Rohdatenauswertung erkennbar, dass eine Variable die Vorannahme des Modells statt das Urteil der Rollen maß. Übersteigt die Modellabhängigkeit die Streuung im Panel, misst die betreffende Pflichtgröße das Modell — und wird nicht berichtet, sondern verworfen.
@@ -273,6 +291,16 @@ Bis hierher bewertet das Verfahren an keiner Stelle eine Handlungsoption. Für e
 Die Syntheseinstanz leitet aus der Tafel **fünf bis acht Hebel** ab — jeder mit Adressat (Bund, Land, Selbstverwaltung, EU, Träger), Instrument (Gesetz, Richtlinie, Vergütungsregel, Investition, Tarifvertrag) und den betroffenen Bänken. Die Hebel werden nicht erfunden, sondern aus Dissens- und Positionskarten hergeleitet; jede `hebel`-Karte trägt die Kartennummern, auf denen sie beruht.
 
 Dann bewertet **jede der hundert Rollen jeden Hebel für ihr eigenes Feld** mit je einer `bewertung`-Karte: `wirkt` / `wirkt nicht` / `schadet`, dazu der Mechanismus, die Nebenwirkung und die Kippbedingung — der Umstand, unter dem das Urteil sich umkehrt. Ausgewertet wird nicht die Mehrheit, sondern **das Muster**: Ein Hebel, der in vierzig Feldern wirkt und in fünf schadet, ist etwas anderes als einer, der überall schwach wirkt, und beides ist im Balkendiagramm dasselbe.
+
+**Dazu sechs bis acht Leistungsprofile.** Ein Hebel ist etwas, das der Staat oder die Selbstverwaltung tut. Ein Leistungsprofil ist etwas, das ein Externer anbieten könnte. Die Syntheseinstanz leitet sie **aus den A3-Engpassangaben des Panels** ab, nicht aus einem Angebotskatalog: Wo dreißig Felder »Daten« als Engpass nennen, entsteht ein Profil, das Datenzugang löst; wo zwanzig »Recht« nennen, eines, das Konformität herstellt. Jedes Profil trägt die A3-Karten, auf denen es beruht, und die Bänke, für die es gilt.
+
+**Drei Konstruktionsregeln, ohne die der ganze Block wertlos wäre:**
+
+1. **Kein Anbietername, keine Marke, kein Produktname** erscheint in einem Leistungsprofil. Formuliert wird die Leistung, nicht der Anbieter: »eine Instanz, die aus Routinedaten die Wirksamkeit eines Produkts gegenüber einer Erstattungsentscheidung belegt« — nicht, wer das tut.
+2. **Die Richtung ist bindend: vom Engpass zum Profil, nie vom Portfolio zum Profil.** Die Syntheseinstanz kennt kein Portfolio. Sie kann daher nicht bestätigen, was jemand ohnehin verkauft.
+3. **Die Zuordnung zu tatsächlichen Anbietern geschieht erst nach dem Lauf, außerhalb der Tafel** und in einem eigenen Dokument (`16-Marktschicht.md`). Sie ist kein Ergebnis des Verfahrens, sondern eine Lesart davon.
+
+Bewertet wird wie bei den Hebeln, aber **nur von den Rollen der betroffenen Bänke** — so bleibt es bei einem Aufruf je Rolle und rund zwei bis drei zusätzlichen Urteilen je Karte. Die entscheidende Auswertung ist nicht, wie viele Felder ein Profil für wirksam halten, sondern **in welchen Feldern es schadet und warum**: Ein Profil, das in achtzig Feldern schwach wirkt und in fünf klar schadet, beschreibt ein Geschäft mit fünf ernsten Gegnern.
 
 ### Runde 5 — Red Team, Synthese, Verifikation
 
@@ -348,6 +376,8 @@ Eine eigenständige HTML-Seite nach `Formatvorlage.md`, ohne externe Abhängigke
 
 **(5) Attribution.** Die P4-Zerlegung über alle Felder, als gestapelte Anteile nach Bank — die Antwort auf die Frage, wie viel von 2031 überhaupt der KI zuzurechnen wäre. Daneben die Gegenprobe aus P3₀ und die Attributionskonsistenz je Rolle.
 
+**(5d) Markt.** Die drei Marktgrößen über alle hundert Felder: A1 als Karte der Beschaffungswege, A2 als gestapelte Anteile mit dem Restwert »gar kein Topf« zuoberst, A3 als Häufigkeit der fünf Engpässe nach Bank. Dazu die Leistungsprofile mit ihrem Urteilsmuster — sortiert nach Anteil `schadet`, nicht nach Zustimmung.
+
 **(5c) Europa.** Die drei Vergleichsgrößen der 18 antwortenden Rollen: E1 als Abstandsbalken je Gegenstand mit benanntem Vergleichsstaat, E2 gegen den P5-Abflusskanal derselben Felder gestellt — die Differenz zwischen »verlässt Deutschland« und »verlässt die EU« ist der eigentliche Befund —, E3 als Häufigkeit der sechs Rechtsakte. Durchgehend gekennzeichnet als Vergleich, nicht als Prognose.
 
 **(5b) Gültigkeit.** Eine eigene Ansicht für die vier Maße aus § 6: Prüfschärfe mit der Liste der gesetzten Fehler und was die Prüfinstanz mit ihnen gemacht hat, Modellabhängigkeit als Gegenüberstellung der zehn doppelt gelaufenen Rollen, Gerüstabhängigkeit als zwei Verteilungen je Pflichtgröße, Attributionskonsistenz als Streudiagramm. Diese Ansicht steht **vor** den inhaltlichen Ansichten, nicht im Anhang: Wer die Zahlen liest, soll zuerst sehen, wie weit sie tragen.
@@ -384,7 +414,7 @@ Hochgerechnet aus den gemessenen Stückkosten (1,55 USD je recherchierender Opus
 |---|---|---|
 | Runde 0 — zehn Faktenblätter, mehrere Abrufe je Blatt | 10 | 30 |
 | Runde 0 — disjunkte Bezugsgrößen, Gerüst A, Gerüst B | 3 | 9 |
-| Runde 1 — Position, Befunde, sechs Pflichtgrößen, mit Eigenrecherche | 100 | 155 |
+| Runde 1 — Position, Befunde, Pflicht-, Europa- und Marktgrößen, mit Eigenrecherche | 100 | 162 |
 | Runde 1 — Modellkontrollarm, zehn Rollen auf zweitem Modell | 10 | 6 |
 | Runde 1b — Validierung mit gesetzten Fehlern, kleines Modell | 110 | 51 |
 | Streitauswahl nach § 5 Runde 2 | 0 (rechnerisch) | 0 |
@@ -392,15 +422,17 @@ Hochgerechnet aus den gemessenen Stückkosten (1,55 USD je recherchierender Opus
 | Runde 2 — fünf Gruppenleitungen × Streitfrage und Dissensprotokoll | 10 | 6 |
 | Runde 3 — Pflichtgrößen zum zweiten Mal, Antwort auf Einwände | 100 | 100 |
 | Runde 3 — Modellkontrollarm | 10 | 6 |
-| Runde 4 — Hebelsatz aus der Tafel | 2 | 4 |
-| Runde 4 — Optionenbewertung je Rolle | 100 | 60 |
+| Runde 4 — Hebelsatz und Leistungsprofile aus der Tafel | 3 | 8 |
+| Runde 4 — Bewertung von Hebeln und Profilen je Rolle | 100 | 70 |
 | Runde 5 — Red Team, Synthese, Verifikation | 12 | 16 |
 | Runde 6 — Strategiepapier, mehrstufig | 6 | 20 |
-| **Summe** | **533** | **rund 525** |
+| **Summe** | **534** | **rund 545** |
 
 **Die Wanduhrzeit ist das eigentliche Problem, nicht das Geld.** Der Container hat vier CPUs, die Nebenläufigkeit liegt damit bei zwei Agenten; das ist eine Eigenschaft der Umgebung und keine des Modells.
 
-Der frühere Ansatz von drei Minuten je Aufruf ist **gemessen widerlegt**: Die Mechanikprobe brauchte für 57 Aufrufe zwei Stunden und zwei Minuten, also **4,28 Minuten je Aufruf** bei Nebenläufigkeit zwei (`15-Mechanikprobe.md` § 5b). Hochgerechnet ergeben 533 Aufrufe damit **rund 19 Stunden** statt der zuvor angesetzten 13,3. Mit der Zwischenspeicherung aus § 8 zerfällt der Lauf in drei Abschnitte von rund 8,3, 6,4 und 4,3 Stunden, die nicht an einem Stück laufen müssen.
+Der frühere Ansatz von drei Minuten je Aufruf ist **gemessen widerlegt**: Die Mechanikprobe brauchte für 57 Aufrufe zwei Stunden und zwei Minuten, also **4,28 Minuten je Aufruf** bei Nebenläufigkeit zwei (`15-Mechanikprobe.md` § 5b). Hochgerechnet ergeben 534 Aufrufe damit **rund 19 Stunden** statt der zuvor angesetzten 13,3. Mit der Zwischenspeicherung aus § 8 zerfällt der Lauf in drei Abschnitte von rund 8,3, 6,4 und 4,3 Stunden, die nicht an einem Stück laufen müssen.
+
+**Die Marktschicht kostet fast nichts.** A1 bis A3 hängen an der Runde-1-Karte, die Leistungsprofile an der Runde-4-Karte; hinzu kommt ein einziger Aufruf für ihre Ableitung. Zusammen rund 20 USD und ein Aufruf — für den Teil, der aus einem Lagebild eine Marktaussage macht. Das ist das günstigste Stück des ganzen Verfahrens.
 
 **Was die Gültigkeitsmaße kosten.** Modellkontrollarm, zweites Szenariogerüst und gesetzte Fehler schlagen mit 31 Aufrufen und rund 25 USD zu Buche — fünf Prozent des Laufs. Dafür sind die drei Fragen, an denen der erste Lauf gescheitert ist, nicht mehr offen: ob die Zahlen das Modell messen, ob sie an einer Weltannahme hängen und ob die Prüfinstanz überhaupt prüft. Das ist der billigste Teil dieses Verfahrens und der einzige, der es von einer aufwendig verpackten Modellabfrage unterscheidet.
 
@@ -428,6 +460,14 @@ Fünf weitere hat die Mechanikprobe aufgedeckt; sie sind in dieser Fassung behob
 | Das Panel stritt über eine Größe, die das Konzept nicht kannte | **D**, der Durchgriff, wird berechnet und ausgewiesen (§ 3) | D erbt die Unsicherheit aller vier Größen, aus denen er entsteht |
 | § 8 verlangte eine Zwischenspeicherung, die das Werkzeug nicht kann | auf die vorhandene Mechanik umgeschrieben (§ 8) | die Kosten bleiben eine Schätzung, weil die Abrechnung nicht auslesbar ist |
 | Drei von zehn Rollen bestritten ihren Nenner, ohne dass es ein Verfahren gab | `bedingung`-Karte, Rechnung gegen beide Werte, Summe als Spanne (§ 5 Runde 0a) | wo Haupt- und Gegenwert weit auseinanderliegen, wird die Zentraltabelle unscharf statt falsch |
+
+**Die Marktschicht bringt eine eigene, neue Gefahr mit, und es ist die gefährlichste des ganzen Konzepts.** Wer ein Verfahren baut, das den Markt vermisst, und selbst in diesem Markt Leistungen anbietet, hat einen Anreiz, das Ergebnis zu färben — und ein Sprachmodell, dem man ein Portfolio zeigt, findet dafür Gründe. Drei Sperren stehen dagegen:
+
+- **Die Ableitungsrichtung.** Leistungsprofile entstehen aus den A3-Engpassangaben des Panels, nie aus einem Angebotskatalog. Die Syntheseinstanz kennt kein Portfolio und kann deshalb keines bestätigen.
+- **Die Anonymität.** Kein Anbietername, keine Marke, kein Produktname erscheint auf der Tafel. Das Panel bewertet Leistungen, nicht Firmen.
+- **Die Trennung der Dokumente.** Das Strategiepapier 2031 behält seine drei Teile. Die Zuordnung von Profilen zu tatsächlichen Anbietern steht in `16-Marktschicht.md`, ist als interessengeleitete Lesart gekennzeichnet und geht in das Arbeitspapier nicht ein. Ein Papier, das den Markt analysiert und am Ende die Leistungen seines Verfassers empfiehlt, ist kein Arbeitspapier mehr, sondern ein Prospekt — und verliert genau die Glaubwürdigkeit, die es nützlich macht.
+
+Der Rest, der auch dann bleibt: Das Panel ist dasselbe Modell, das die Profile formuliert hat. Gegen eine Neigung, die eigene Formulierung wohlwollend zu lesen, hilft nur die Auswertungsregel aus § 5 Runde 4 — gezählt wird, **wo ein Profil schadet**, nicht wo es zustimmt.
 
 Was dadurch **nicht** behoben ist und sich mit diesem Verfahren auch nicht beheben lässt:
 
