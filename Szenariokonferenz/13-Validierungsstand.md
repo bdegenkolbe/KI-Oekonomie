@@ -96,6 +96,18 @@ Der Zuschnitt ist auf Messbarkeit der Mechanik optimiert, nicht auf inhaltliche 
 
 **Was welcher Bruch bedeutet.** Reißt die **Prüfschärfe**, ist der Lauf sofort zu beenden — eine Instanz, die gesetzte Fehler nicht findet, macht jede Quellenangabe des Verfahrens wertlos. Reißen **Divergenzerhalt**, **Einwandhaltbarkeit** oder **Rechenweghaltbarkeit**, ist das Verfahren in dieser Form widerlegt. Reißt die **Profilschärfe**, ist die Marktschicht auszuwerten, aber nicht zu verwenden — dann misst sie Höflichkeit gegenüber einer Formulierung. Reißt der **kartenweise Filter** oder die **Matrixtauglichkeit**, ist der Lauf mit hundert Rollen nicht durchführbar — beide sind erst durch die Zehnerprobe überhaupt als Fragen sichtbar geworden. Reißt die **Modellabhängigkeit** bei mehr als zwei Größen, misst das Panel das Modell, und es hilft nur ein anderes Instrument, kein größerer Lauf. **Gerüstabhängigkeit** ist kein Abbruch, sondern eine Berichtsregel: Die betroffene Größe wird getrennt nach Gerüst berichtet. **Auswahlwirksamkeit** und **Optionenspreizung** entscheiden über den Verbleib je eines Bausteins. Die restlichen vier sind reparierbar, ohne das Konzept zu verwerfen.
 
+### Stufe 1 wird übersprungen — Begründung
+
+**Entscheidung vom 18.09.2026: Die Vollfassung der Mechanikprobe mit achtzehn Rollen entfällt.** Der Lauf beginnt stattdessen direkt mit Sitzung A von Stufe 2. Das weicht vom obigen Plan ab und wird deshalb hier begründet, nicht stillschweigend getan.
+
+**Der Hauptgrund für die 18er-Probe ist anderweitig erfüllt.** Sie war nötig, weil die Bankkorrektur des Streitindex sechs Rollen je Bank braucht. Der Streitindex wird aber zwischen Runde 1b und Runde 2 gerechnet — also **genau am ersten Haltepunkt von Sitzung A**, und dort mit zehn statt drei Rollen je Bank. Das Konzept verlangt an dieser Stelle ohnehin, beide Rangfolgen nebeneinanderzustellen (`11-Konzept-v2.md` § 5, Runde 2). Die Prüfung findet statt, nur in einem Lauf, der zugleich Inhalt erzeugt.
+
+**Was dadurch ungeprüft in Sitzung B und C geht:** die Diskussionsmechanik bei hundert statt zehn Rollen, die Zahlenmatrix bei hundert Zeilen, der kartenweise Filter, die Leistungsprofile der Marktschicht und die gesamte Schlussphase. Die Diskussionsmechanik hat bei zehn Rollen bestanden — 0 % Fremdbezug, keine leere Rettungsbedingung, Divergenzerhalt 84 bis 108 %. Die übrigen sind das bewusst getragene Risiko dieser Entscheidung; es kostet im Schadensfall die Marktschicht oder eine Runde, nicht den Lauf.
+
+**Die Gegenrechnung, die dafür spricht:** Sitzung A prüft an echtem Inhalt, was die 18er-Probe an Wegwerfinhalt geprüft hätte — die Recherchebank, die disjunkte VZÄ-Zerlegung über hundert Felder, beide Gerüste über alle vierzehn Bänke, die Marktgrößen und alle vier Gültigkeitsmaße. Und sie kostet mit 233 Aufrufen und rund 250 USD nur gut das Doppelte der Probe, liefert dafür aber hundert recherchierte Felder statt achtzehn verworfener.
+
+**Schlussregel.** Die Zehnerprobe hat fünf Mängel gefunden, deren Behebung zehn neue ungeprüfte Bestandteile erzeugt hat. Dieser Regress endet nicht von allein. **Sitzung A ist die letzte Methodenschleife:** Was sie findet, wird behoben oder als Grenze ausgewiesen, löst aber keine weitere Probe mehr aus.
+
 ### Stufe 2 — Voller Lauf
 
 110 Agenten nach `14-Roster-2031.md`, rund 545 USD, rund 19 Stunden, **mit Zwischenspeicherung, Wiederholung je Agent und Laufprotokoll** nach `11-Konzept-v2.md` § 8. Das ist gegenüber den bisherigen Läufen eine Änderung am Workflow-Skript und keine Option: ohne sie kostet ein Abbruch in Stunde elf den ganzen Lauf.
