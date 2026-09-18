@@ -65,6 +65,24 @@ Die geschlossene Hemmnisliste zu **P2**: *Recht und Zulassung* · *Refinanzierun
 
 **Die Pflichtgrößen werden zweimal beantwortet** — in Runde 1 isoliert und in Runde 3 nach der Diskussion (§ 5, Runde 3). Die Differenz zwischen beiden Erhebungen *ist* das Divergenzerhalt-Kriterium aus `13-Validierungsstand.md` § 3 und muss nicht mehr geschätzt werden.
 
+### 3.1 Die europäischen Vergleichsgrößen
+
+Das Zielbild des Strategiepapiers heißt »Europa, Deutschland und das deutsche Gesundheitswesen 2031«. P1 bis P5 und D sind durchweg **deutsche Feldgrößen** — aus ihnen folgt keine einzige Aussage über Europa. Ohne einen eigenen Block könnte das Verfahren ein Drittel seines eigenen Ziels nicht liefern.
+
+**Die Antwort ist nicht ein zweiter, paralleler Apparat.** Hundert europäische Feldgrößen zu erheben würde den Lauf verdoppeln und die falsche Frage beantworten. Europa ist in diesem Papier kein eigener Gegenstand, sondern die **Bezugsgröße, gegen die sich die deutsche Besonderheit überhaupt zeigt** (`14-Roster-2031.md`, Vorbemerkung). Entsprechend wird es asymmetrisch erhoben: drei Größen, beantwortet nur von den Rollen, die es können.
+
+**Wer antwortet:** Bank K (Europa, 7), Bank M (Geopolitik, 4) und Bank L (Technik, 7) — **18 Rollen**. Ihre Faktenbasis sind R07 (europäischer Systemvergleich) und R09 (Compute, Energie, Souveränität). Die übrigen 82 Rollen beantworten die Größen nicht; eine Hausärztin hat zum niederländischen Finanzierungssystem nichts beizutragen, was nicht aus dem Faktenblatt abgeschrieben wäre. Genau dieser Fehler — Rollen zu Größen zu befragen, zu denen sie nichts wissen — hat den Makroteil des ersten Laufs entwertet (`10-Instrumentenkritik.md` § 1).
+
+| ID | Größe | Einheit | Wertebereich | Pflichtangaben |
+|---|---|---|---|---|
+| **E1** | Abstand Deutschlands zum am weitesten fortgeschrittenen der fünf Vergleichsstaaten (Niederlande, Dänemark, Frankreich, Estland, Vereinigtes Königreich) im eigenen Gegenstand, Stand 2031 | Jahre | −8 bis +8, negativ heißt Rückstand | der Vergleichsstaat, die Vergleichsgröße und woran der Abstand abgelesen wird |
+| **E2** | Anteil der Wertschöpfung des eigenen Gegenstands, der 2031 innerhalb der EU entsteht | Prozent | 0–100 | der Vertrag oder Lieferweg, über den der Rest abfließt |
+| **E3** | Welche EU-Regelung wirkt im eigenen Gegenstand bis 2031 stärker als jede nationale | geschlossene Liste | EU AI Act · MDR/IVDR · EHDS · DSGVO · Beihilfe- und Vergaberecht · keine | der konkrete Vollzugsakt, an dem die Wirkung eintritt |
+
+**E2 ist die Brücke.** Es ist dieselbe Frage wie der Abflusskanal in P5, nur eine Ebene höher: Wo P5 fragt, ob der Effizienzgewinn eines deutschen Feldes als Lizenz- oder Cloudentgelt das Land verlässt, fragt E2, ob er wenigstens in der EU bleibt. Beide Größen zusammen tragen den Teil des Arbeitspapiers, auf den seine Wertschöpfungsabgabe zielt. Ausgewertet wird die Differenz: Ein Feld, dessen Gewinn Deutschland verlässt, aber in der EU bleibt, ist ein anderer Fall als eines, dessen Gewinn den Kontinent verlässt.
+
+**Was die drei Größen nicht leisten.** Sie ergeben kein europäisches Lagebild, sondern einen Abstand, einen Anteil und eine Rechtsdiagnose — je Gegenstand der 18 antwortenden Rollen. Der Europa-Teil des Strategiepapiers ist damit ausdrücklich ein **Vergleichskapitel** und keine eigenständige Prognose. Das ist eine Entscheidung und wird im Papier als solche benannt.
+
 ## 4. Die Tafel
 
 Die Tafel ist kein Bild, sondern eine append-only-Liste typisierter Karten in `rohdaten/tafel.json`. Sie ist gleichzeitig Protokoll des Verfahrens **und** Datenquelle des Dashboards — es gibt keinen Übertragungsschritt zwischen beidem und damit keine Stelle, an der die Darstellung vom Protokoll abweichen könnte.
@@ -75,7 +93,7 @@ Die Tafel ist kein Bild, sondern eine append-only-Liste typisierter Karten in `r
 |---|---|---|---|
 | `position` | jede Rolle, Runde 1 | nein | `feld`, `falsifikator` |
 | `befund` | jede Rolle, Runde 1 | nein | `quelle` (abgerufen, mit Datum und Fundstelle) |
-| `pflichtgroesse` | jede Rolle, Runde 1 **und** Runde 3 | nein | `groesse_id` (P1–P5), `einheit`, `rechenweg`, `bezugsgroesse_vzae`, `intervall_80` |
+| `pflichtgroesse` | jede Rolle, Runde 1 **und** Runde 3; E1–E3 nur Bänke K, L, M | nein | `groesse_id` (P1–P5, P3₀, E1–E3), `einheit`, `rechenweg`, `bezugsgroesse_vzae`, `intervall_80` |
 | `zahl` | Rollen, jederzeit | optional | `groesse` mit Einheit, 80-%-Intervall, Rechenweg, Bezugsgruppe in VZÄ |
 | `einwand` | Rollen, Runde 2 und 3 | **ja** | `einwandtyp` (siehe unten), **`rettungsbedingung`** |
 | `bedingung` | Rollen, Runde 2 und 3 | **ja** (auf eigene Position oder auf das Szenariogerüst) | — |
@@ -140,7 +158,7 @@ Die Lösung ist keine Kürzung der Karten, sondern eine **Zahlenmatrix**: eine Z
 
 | Runde | Wer | sieht |
 |---|---|---|
-| 1 | jede Rolle | nichts von den anderen — nur Faktenblätter, eigene Bezugsgröße, zugeteiltes Gerüst |
+| 1 | jede Rolle | nichts von den anderen — nur Faktenblätter, eigene Bezugsgröße, zugeteiltes Gerüst; Bänke K, L, M zusätzlich die Faktenblätter R07 und R09 |
 | 1b | Prüfinstanz | genau einen Kartensatz, sonst nichts |
 | 2 | Gruppenmitglied und Gruppenleitung | die Karten der eigenen sechs **vollständig**, dazu die Zahlenmatrix aller hundert und die Streitfrage |
 | 3 | jede Rolle | die eigenen Karten, die Einwände gegen sie, alle Dissenspunkte, die Zahlenmatrix |
@@ -197,6 +215,7 @@ Jede der hundert Rollen arbeitet allein und sieht nichts von den anderen — nur
 - eine `position`-Karte: die These zum eigenen Feld bis 2031, mit dem Satz, der sie widerlegen würde
 - drei bis sechs `befund`-Karten, jede mit abgerufener Quelle, Datum und Fundstelle
 - sechs `pflichtgroesse`-Karten P1 bis P5 und P3₀, Rechenweg vor Ergebnis
+- die Rollen der Bänke K, L und M zusätzlich drei `pflichtgroesse`-Karten E1 bis E3 (§ 3.1)
 - optional weitere `zahl`-Karten zu Größen, die aus dem eigenen Feld hergeleitet sind
 
 **Modellkontrollarm.** Zehn der hundert Rollen — je eine aus zehn verschiedenen Bänken, vorab festgelegt — durchlaufen Runde 1 und Runde 3 ein zweites Mal mit **identischem Auftrag auf einem anderen Modell**. Die Differenz zwischen beiden Antworten derselben Rolle ist die **Modellabhängigkeit** (§ 6). Das schließt die Lücke, an der der erste Lauf gescheitert ist: Dort war erst in der nachträglichen Rohdatenauswertung erkennbar, dass eine Variable die Vorannahme des Modells statt das Urteil der Rollen maß. Übersteigt die Modellabhängigkeit die Streuung im Panel, misst die betreffende Pflichtgröße das Modell — und wird nicht berichtet, sondern verworfen.
@@ -257,11 +276,37 @@ Dann bewertet **jede der hundert Rollen jeden Hebel für ihr eigenes Feld** mit 
 
 ### Runde 5 — Red Team, Synthese, Verifikation
 
-Wie in `00-Konzept.md` § 2, mit zwei Ergänzungen: Das Red Team greift **den am breitesten getragenen Beschluss** an, zusätzlich die Tafel selbst (Welche Karte hat niemand angegriffen, obwohl sie angreifbar war?) und **den bestbewerteten Hebel**. Synthese und Verifikation bleiben getrennte Instanzen — wer das Ergebnis schreibt, prüft es nicht selbst.
+Bis hierher ist das Verfahren minutiös beschrieben und das Ergebnis gar nicht. Das ist die Stelle, an der ein Argumentmodell zu einem Papier wird, und sie braucht dieselbe Genauigkeit wie die Messung.
+
+**Das Red Team, sechs Instanzen, je ein Angriffsauftrag.** Keine allgemeine Kritik; jede Instanz greift genau eine Sache an und liefert entweder einen benannten Bruch oder die ausdrückliche Feststellung, keinen gefunden zu haben:
+
+| # | Angriffsgegenstand | Frage |
+|---|---|---|
+| 1 | der am breitesten getragene Beschluss | Was müsste gelten, damit er falsch ist — und ist das plausibel? |
+| 2 | der bestbewertete Hebel | Welches Feld schädigt er, das ihn nicht bewertet hat? |
+| 3 | die aggregierte P3-Summe | Wo überlappen Bezugsgruppen trotz der Zerlegung, und wie groß wäre die Doppelzählung? |
+| 4 | **die Stille auf der Tafel** | Welche Karte hat niemand angegriffen, obwohl sie angreifbar war? Diese Instanz legt selbst die fehlenden Einwände. |
+| 5 | die Gültigkeitsmaße | Welche berichtete Zahl trägt ein Maß, das sie eigentlich verwirft? |
+| 6 | die Besetzung | Welche Aussage des Papiers hinge anders aus, wenn eine der nicht besetzten Gruppen (`14-Roster-2031.md`, Schluss) am Tisch säße? |
+
+Angriff 4 ist der wichtigste, weil er das systematische Versagen dieses Verfahrenstyps adressiert: Sprachmodelle einigen sich schweigend. Eine unangegriffene Karte ist nach § 6 kein Konsens, sondern eine Lücke, und das Red Team füllt sie stellvertretend.
+
+**Die Synthese, drei Instanzen, getrennte Gegenstände** — Europa, Deutschland, Gesundheitswesen. Jede schreibt ihren Teil ausschließlich aus Karten; jeder Satz trägt die Kartennummern, auf denen er beruht. Eine Synthese-Instanz darf **keine Karte anlegen**: Was sie nicht vorfindet, kann sie nicht behaupten.
+
+**Die Verifikation, drei Instanzen, jede prüft einen fremden Teil.** Sie prüft drei Dinge und nichts sonst: Trägt jede Kartennummer die Aussage, unter der sie steht? Ist eine Zahl berichtet, deren Gültigkeitsmaß sie verwirft? Fehlt ein Dissenspunkt, der zu einer berichteten Aussage gehört? Eine Verifikationsinstanz schreibt nicht um, sondern meldet zurück — wer das Ergebnis schreibt, prüft es nicht selbst.
 
 ### Runde 6 — Strategiepapier 2031
 
-Aus der Tafel, nicht aus dem Gedächtnis: Jede Aussage trägt die Kartennummern, auf denen sie beruht. Was keine Karte hat, steht nicht drin. Drei Teile — Europa, Deutschland, deutsches Gesundheitswesen — mit der aggregierten P3-Tabelle als Rückgrat, der P4-Zerlegung als Attributionsvorbehalt und den bewerteten Hebeln als Schluss. Modellergebnisse und Gesetzentwürfe im Konjunktiv (`Claude.md` § 4.2).
+**Aufbau, drei Teile, in dieser Reihenfolge:**
+
+1. **Gültigkeit zuerst.** Vor jeder inhaltlichen Aussage steht, was der Lauf gemessen hat: Prüfschärfe, Modellabhängigkeit, Gerüstabhängigkeit, Attributionskonsistenz, dazu Abdeckung und Rest der VZÄ-Zerlegung und die Zahl der ausgefallenen Rollen. Wer die Zahlen liest, soll zuerst wissen, wie weit sie tragen. Diese Reihenfolge ist nicht Bescheidenheit, sondern die Lehre aus dem ersten Lauf, dessen Kernzahl sich nachträglich als Modellvorannahme herausstellte.
+2. **Deutschland und das Gesundheitswesen.** Rückgrat ist die über die `primaer`-Felder aggregierte **P3-Tabelle in Vollkräften**, daneben P1 × P2 als Arbeitszeiteffekt und **D** als Erklärung, warum beides auseinanderfällt. Die **P4-Zerlegung** steht als Attributionsvorbehalt unmittelbar daneben, nicht im Anhang. Dissenspunkte erscheinen mit ihrer Entscheidungsgröße im Fließtext, nicht als Fußnote: Was strittig ist, ist ein Befund.
+3. **Europa als Vergleichskapitel** aus E1 bis E3 (§ 3.1), ausdrücklich als Vergleich gekennzeichnet und nicht als Prognose.
+4. **Die Hebel** zum Schluss, jeder mit seinem Urteilsmuster über die Felder — wie viele *wirkt*, wie viele *schadet*, und in welchen Feldern —, mit den Kippbedingungen und mit dem, was das Red Team gegen ihn vorgebracht hat.
+
+**Zwei harte Regeln.** Was keine Kartennummer hat, steht nicht im Papier. Und: Modellergebnisse, Gesetzentwürfe und alle Aussagen über 2031 stehen im Konjunktiv (`Claude.md` § 4.2) — das Papier beschreibt, was ein strukturiertes Argumentmodell ergeben hat, nicht was sein wird.
+
+**Sechs Aufrufe, mehrstufig:** drei Syntheseteile, ein Zusammenzug, eine Verifikation des Zusammenzugs, eine Schlussfassung. Der Zusammenzug ist nötig, weil drei getrennt geschriebene Teile sich widersprechen können — und dieser Widerspruch ist zu benennen, nicht zu glätten.
 
 ## 6. Konvergenz — neu definiert
 
@@ -303,11 +348,15 @@ Eine eigenständige HTML-Seite nach `Formatvorlage.md`, ohne externe Abhängigke
 
 **(5) Attribution.** Die P4-Zerlegung über alle Felder, als gestapelte Anteile nach Bank — die Antwort auf die Frage, wie viel von 2031 überhaupt der KI zuzurechnen wäre. Daneben die Gegenprobe aus P3₀ und die Attributionskonsistenz je Rolle.
 
+**(5c) Europa.** Die drei Vergleichsgrößen der 18 antwortenden Rollen: E1 als Abstandsbalken je Gegenstand mit benanntem Vergleichsstaat, E2 gegen den P5-Abflusskanal derselben Felder gestellt — die Differenz zwischen »verlässt Deutschland« und »verlässt die EU« ist der eigentliche Befund —, E3 als Häufigkeit der sechs Rechtsakte. Durchgehend gekennzeichnet als Vergleich, nicht als Prognose.
+
 **(5b) Gültigkeit.** Eine eigene Ansicht für die vier Maße aus § 6: Prüfschärfe mit der Liste der gesetzten Fehler und was die Prüfinstanz mit ihnen gemacht hat, Modellabhängigkeit als Gegenüberstellung der zehn doppelt gelaufenen Rollen, Gerüstabhängigkeit als zwei Verteilungen je Pflichtgröße, Attributionskonsistenz als Streudiagramm. Diese Ansicht steht **vor** den inhaltlichen Ansichten, nicht im Anhang: Wer die Zahlen liest, soll zuerst sehen, wie weit sie tragen.
 
 **(6) Zeitachse.** Der Verlauf über die Runden: wann welche Karte kam, welche Position wann angegriffen wurde, was überlebt hat, welche Zahl sich zwischen Runde 1 und Runde 3 bewegt hat. Das macht das Verfahren nachvollziehbar statt nur sein Ergebnis.
 
 Durchgehend sichtbar bleibt die Kennzeichnung nach § 10: Agenten sind Sprachmodelle mit Rollendossiers.
+
+**Ein Prototyp existiert.** `mechanikprobe.html` setzt sechs dieser Ansichten gegen die echten Daten der Zehnerprobe um — Gültigkeit voran, dann Pflichtgrößen mit beiden Erhebungen, Durchgriff, Tafel, Streit und Hebel. Damit ist § 7 nicht mehr nur beschrieben, sondern einmal gebaut; für den vollen Lauf ist die Datenquelle zu tauschen und die Europa-Ansicht zu ergänzen.
 
 ## 8. Lauffähigkeit
 

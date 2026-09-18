@@ -30,12 +30,16 @@
 | **Zahlenmatrix statt Volltafel (§ 4.3)** | **neu** | die Probe lief faktisch mit einer solchen Matrix und erzeugte daraus die fünf schärfsten Einwände — bei zehn Zeilen, nicht bei hundert |
 | **Status je Karte statt je Rolle** | **neu** | die Probe lief mit Rollenurteil und zeigte damit den Fehler; die Kartenvariante ist ungeprüft |
 | **Wiederaufsetzen über die Lauf-Kennung (§ 8)** | **nie ausgelöst** | Mechanik vorhanden und dokumentiert, aber kein Abbruch provoziert |
+| **Europäische Vergleichsgrößen E1–E3** | **neu, nie gelaufen** | asymmetrisch, nur 18 Rollen; ohne sie könnte das Verfahren ein Drittel seines Zielbilds nicht liefern |
+| **Red Team mit sechs benannten Angriffsaufträgen** | **neu, nie gelaufen** | zuvor ein Absatz; Angriff 4 (»die Stille auf der Tafel«) adressiert das systematische Versagen dieses Verfahrenstyps |
+| **Synthese ohne Kartenanlagerecht, Verifikation über Kreuz** | **neu, nie gelaufen** | — |
+| **Strategiepapier mit Gültigkeit voran** | **neu, nie gelaufen** | — |
 | **Optionenrunde mit Kippbedingung** | **geprüft** | drei Hebel, abweichende Urteile zwischen 30 und 60 %, ein Hebel fünfmal `schadet` |
 | **Die acht Konvergenz- und Gültigkeitsmaße** | **berechnet** | sieben bestanden; **Attributionskonsistenz gerissen** und ihre Formel dabei als fehlerhaft erkannt (`15-Mechanikprobe.md` § 3) |
 | **Zwischenspeicherung, Wiederholung je Agent, Laufprotokoll** | **nie gelaufen** | bisherige Skripte schreiben erst am Ende |
 | Red Team, Synthese-Verifikations-Trennung | nie gelaufen | — |
 
-Die Mechanikprobe vom 18.09.2026 (`15-Mechanikprobe.md`) hat den größten Teil dieser Zeilen abgeräumt: zehn von elf prüfbaren Kriterien bestanden, 57 Aufrufe ohne einen Fehlschlag. Sie hat zugleich fünf Mängel am Konzept gefunden, die alle behoben sind — und **vier neue ungeprüfte Bestandteile erzeugt**, weil jede Behebung eine neue Mechanik einführt. Das ist der normale Preis einer Korrektur und der Grund, warum die Vollfassung der Probe mit achtzehn Rollen weiterhin vor Stufe 2 steht.
+Die Mechanikprobe vom 18.09.2026 (`15-Mechanikprobe.md`) hat den größten Teil dieser Zeilen abgeräumt: zehn von elf prüfbaren Kriterien bestanden, 57 Aufrufe ohne einen Fehlschlag. Sie hat zugleich fünf Mängel am Konzept gefunden, die alle behoben sind — und **vier neue ungeprüfte Bestandteile erzeugt**, weil jede Behebung eine neue Mechanik einführt. Zusammen mit den europäischen Vergleichsgrößen E1–E3 und der neu ausgearbeiteten Schlussphase sind das **acht** neue ungeprüfte Bestandteile. Das ist der normale Preis einer Korrektur und der Grund, warum die Vollfassung der Probe mit achtzehn Rollen weiterhin vor Stufe 2 steht — neben der Bankkorrektur, dem einzigen Stück, das diese Probe von Anfang an nicht prüfen konnte.
 
 ## 2. Das Risiko beim Sprung auf 110 Agenten
 
@@ -96,7 +100,9 @@ Empfohlene Teilung in drei Sitzungen: Runde 0 bis 1b (233 Aufrufe, rund 8,3 Stun
 
 ### Stufe 3 — Strategiepapier 2031
 
-Aus der Tafel, nicht aus dem Gedächtnis: Jede Aussage des Papiers trägt die Kartennummern, auf denen sie beruht. Was keine Karte hat, steht nicht drin. Jede berichtete Pflichtgröße trägt ihre vier Gültigkeitsmaße neben sich. Das ist zugleich die Prüfbarkeit, die das Arbeitspapier nach `Claude.md` § 4.2 ohnehin verlangt.
+Aufbau und Regeln stehen in `11-Konzept-v2.md` § 5, Runde 6: Gültigkeit vor Inhalt, Kartennummer an jedem Satz, Konjunktiv für alles, was 2031 betrifft, Europa ausdrücklich als Vergleichskapitel. Das ist zugleich die Prüfbarkeit, die das Arbeitspapier nach `Claude.md` § 4.2 ohnehin verlangt.
+
+**Ein Abnahmekriterium auch hier**, damit die Schlussphase nicht die einzige unkontrollierte bleibt: Die Verifikationsinstanzen prüfen jede Kartennummer gegen die Aussage, unter der sie steht. **Trägt weniger als 95 % der Belegstellen, geht das Papier zurück in die Synthese** statt in die Veröffentlichung.
 
 ## 4. Was auch ein gelungener Lauf nicht leistet
 
