@@ -152,6 +152,14 @@ for m in re.finditer(r"\u00a7 (\d+)(?![\.\d])", K):
     if int(m.group(1)) not in absch:
         fehler.append(f"Konzept: interner Verweis auf \u00a7 {m.group(1)}, den es nicht gibt")
 
+# --- 14. Anker und Geruest duerfen nicht an derselben Regel haengen ---
+R = open(SZ + "14-Roster-2031.md", encoding="utf-8").read()
+for datei, txt in (("11-Konzept-v2.md", K), ("14-Roster-2031.md", R)):
+    if "modulo vier" not in txt and "Ger\u00fcstzuteilung" in txt:
+        fehler.append(f"{datei}: Ger\u00fcstzuteilung nennt keinen von der Ankerparit\u00e4t getrennten Plan")
+if "ungerade IDs rechnen gegen" in K + R:
+    fehler.append("Ger\u00fcst h\u00e4ngt weiterhin an der ID-Parit\u00e4t - konfundiert mit dem Anker")
+
 print("\n=== BEFUNDE (erweitert) ===")
 
 print("\n".join(fehler) if fehler else "keine")

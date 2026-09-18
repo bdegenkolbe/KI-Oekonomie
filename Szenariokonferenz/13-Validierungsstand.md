@@ -17,7 +17,7 @@
 | Kontrollarm auf zweitem Modell | **einmal gelaufen** | Pilotlauf: zeigte Homogenisierung, wurde aber nicht als Maß ausgewertet |
 | Anker-Randomisierung nach ID-Parität | **validiert** | Pilotlauf, mechanisch fehlerfrei zugeteilt — dieselbe Mechanik trägt jetzt die Gerüstzuteilung |
 | Makroteil des Stimmzettels | **widerlegt** | V14: alle zwanzig Agenten derselbe Wert, IQR null (`10-Instrumentenkritik.md` § 1) |
-| Delphi-Revision | nie gelaufen | — |
+| Delphi-Revision | **entfallen** | durch die zweite Pflichtgrößen-Erhebung nach der Diskussion ersetzt (`11-Konzept-v2.md` § 5, Runde 3) |
 | **Tafel als Kartengraph** | **geprüft** | Mechanikprobe: 20 Kartensätze schemafest, 10 von 10 Einwänden mit gültigem Bezug |
 | **Die fünf Diskussionsregeln, Rettungsbedingung, Leerzug** | **geprüft** | 0 % Einwände gegen das eigene Feld, keine Rettungsbedingung unter 89 Wörtern, kein Leerzug |
 | **Gruppenphase mit Pflichtzügen** | **geprüft** | eine Gruppe, zwei Züge je Rolle, neun Dissenspunkte mit Entscheidungsgröße |
