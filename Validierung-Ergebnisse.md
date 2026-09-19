@@ -7,6 +7,60 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 19. September 2026 (Lauf 001 vom 19. September 2026) — Version 98.0 → Version 99.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Maschinell geprüft: 11 nummerierte Kapitel (1 bis 11) plus Zusammenfassung vor Kapitel 1; Inhaltsverzeichnis unverändert und weiterhin vollständig. Kein neuer Unterabschnitt angelegt, kein leerer Abschnitt entstanden — sämtliche Ergänzungen dieses Laufs sind Absätze innerhalb bestehender Unterabschnitte (§ 1.1, § 3.1, § 5.1, § 9.3) sowie Einträge im Literaturverzeichnis |
+| 2.1.2 Nummerierung | OK | Kapitelnummerierung lückenlos, Unterabschnitt-Nummerierung in jedem Kapitel lückenlos (Kap. 1: 1–3; Kap. 2: 1–3; Kap. 3: 1–5; Kap. 4: 1–5; Kap. 5: 1–4; Kap. 6: 1–4; Kap. 7: 1–3; Kap. 8: 1–7; Kap. 9: 1–5; Kap. 10: 1–3; Kap. 11: 1–5). Geschützte Zähler maschinell nachgezählt: fünf Typen in § 2.1 (fünf Lead-Ins `Typ 1` bis `Typ 5`), drei Säulen der Deutschland-These, sieben Empfehlungen in § 10.2 — sämtlich unverändert. **Besonders geprüft:** Die in § 5.1 neu aufgenommene *progressive Körperschaftsteuer auf den Gewinn je Beschäftigten* ist ausdrücklich *nicht* in die Typologie des § 2.1 eingeordnet, sondern als eigenständige Konstruktion außerhalb der fünf Typen referiert; der Zähler „fünf Typen" bleibt dadurch unberührt (§ 4.5 Claude.md) |
+| 2.1.3 Querverweise | OK | Maschinelle Auflösung aller `§X.Y`-Verweise gegen die tatsächlich vorhandenen Unterabschnitte: kein ungültiger Verweis. Die einzige Treffermeldung (`§ 2.4.4`, fünf Vorkommen) verweist auf `Validierung.md`, nicht auf das Hauptdokument — bekanntes und in früheren Läufen dokumentiertes Muster. Alle `Kapitel X`-Verweise liegen im Bereich 1 bis 11. Die in diesem Lauf neu gesetzten Verweise (§ 4.2, § 5.1 aus § 3.1; § 2.1, § 2.2, § 9.1, § 9.3 aus § 5.1; § 4.3, § 8.2, § 8.3, § 9.2 aus § 9.3; § 9.1 aus § 1.1; § 11.5 aus § 9.3) lösen sämtlich auf |
+| 2.1.4 Roter Faden | OK | Die etablierte Arbeitsteilung ist eingehalten: § 3.1 trägt den Forschungsbefund (RAND-Vorschriftenanalyse als Fortschreibung von Acemoglu/Manera/Restrepo), § 5.1 die Einordnung des daraus folgenden Instruments im Vergleich zur Wertschöpfungsabgabe, § 9.3 die Umsetzungs- und Arbitragefolgerung, § 1.1 den Trackersachverhalt. Keine Stelle wiederholt eine andere; alle vier Stellen sind untereinander querverwiesen. Die Deutschland-These bleibt unberührt — die RAND-Befunde sind ausdrücklich als US-Literaturrezeption geführt und in ihrer Übertragbarkeit auf Deutschland eingegrenzt |
+| 2.1.5 Formatierung | OK | Maschinell geprüft: keine Zeile mit ungerader Anzahl `**`, keine doppelten Leerzeilen, keine doppelten Trennlinien, alle Markdown-Tabellen spaltenkonsistent |
+| 2.2.1 Sachliche Richtigkeit | OK | Die vier RAND-Kennzahlen sind gegen den beschafften Volltext geprüft: 65 bzw. „rund zwei Drittel" des US-Bundesaufkommens aus dem Faktor Arbeit (Perspective, August 2026); 84 Prozent des Aufkommens 2024 aus Einkommen- oder Lohnsummensteuer (Research Report, 25. August 2026); Verdopplung des Körperschaftsteuersatzes als Paritätsbedingung (beide Arbeiten übereinstimmend); 20 gegenüber 37 Prozent Höchstsatz auf langfristige Veräußerungsgewinne gegenüber Arbeitseinkommen (Perspective). Die Verdrängungsschätzung von 10 bis 15 Prozent der Arbeitsstunden über zehn bis fünfzehn Jahre ist im Text ausdrücklich als von den Autoren *übernommene* Fremdschätzung (Acemoglu 2024, IWF 2024) gekennzeichnet, nicht als eigene RAND-Erhebung |
+| 2.2.2 Redundanzprüfung | OK | Kein Sachverhalt doppelt geführt. Geprüft insbesondere: Die Aufkommenserosion steht in § 3.1, das Instrument in § 5.1, die Umsetzbarkeit in § 9.3 — jede Stelle mit Querverweis auf die beiden anderen. Die Compute-Teilbarkeit steht ausschließlich in § 9.3 und verweist auf § 8.2 und § 8.3 weiter, ohne die dortigen Argumente zu wiederholen; § 8.2 ist in diesem Lauf nicht angefasst worden |
+| 2.2.3 Argumentation | OK | Die Acemoglu-Linie (Korrektur der relativen Steuerlast Arbeit/Kapital) und die Thuemmel-Linie (spezifische Robotersteuer als zweitbestes Instrument) bleiben getrennt; der RAND-Befund ist ausdrücklich als Fortschreibung der *ersten* Linie auf die Instrumentenebene eingeordnet und nicht mit der zweiten vermengt. Die in § 9.3 gezogene Doppelfolgerung (Teilbarkeit verschärft die Umgehbarkeit standortbezogener Tatbestände, verbessert aber die europäische Anschlussfähigkeit der Betriebsebene) ist in sich widerspruchsfrei, weil beide Teilaussagen dieselbe Schlussfolgerung stützen — Vorrang der wertschöpfungsbezogenen Zugriffslogik |
+| 2.2.4 Ausgewogenheit | OK | Die von den Autoren selbst benannten Einschränkungen sind vollständig mitgeführt: Verfassungswidrigkeit einer Bundesvermögensteuer, Erfordernis neuer Erhebungsinfrastruktur bei Mehrwert- und Vermögensteuer, Kapitalmobilität als Verlagerungsanreiz, Zweckbindung der Lohnsummenmittel an *Medicare* und *Social Security*, fehlende Quantifizierung der Standortwirkungen. Ferner ist der für die Deutschland-These ungünstige Gegenfall (KI-induzierte Deflation mindert auch das Körperschaftsteueraufkommen) ausdrücklich aufgenommen. Die Übertragbarkeit auf Deutschland ist in § 3.1 eingegrenzt statt behauptet |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe über die fünf neuen Textblöcke und die vier neuen Literatureinträge ohne Befund |
+| 2.3.2 Terminologie | OK | Neu eingeführte Fachbegriffe sind beim ersten Auftreten erklärt: Lohnsummensteuer mit englischem Originalbegriff (*employer payroll tax*), Wertaufstockung im Erbfall (*step-up in basis*), Zuschreibung ohne tatsächliche Ursächlichkeit (*AI washing*), Internationaler Währungsfonds beim ersten Auftreten ausgeschrieben. „Robotersteuer" steht weiterhin in Anführungszeichen, wo der populäre Oberbegriff gemeint ist; „Wertschöpfungsabgabe" durchgängig, keine Vermischung mit „Wertschöpfungssteuer" |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Alle vier in diesem Lauf im Fließtext genannten neuen Quellen haben einen Eintrag im Literaturverzeichnis: Price & Wenger sowie Price & Suresh in § 11.1, das RAND-Interview und die Rechenzentrums-Berichterstattung in § 11.5. Keine Quelle gelöscht, keine bestehende Quelle ersetzt |
+| 2.4.2 Formale Einheitlichkeit | OK | Zitierstil angelehnt an APA, vollständige URLs ohne Kürzungsdienst oder Weiterleitungsadresse; Working-Paper- und Perspective-Angaben als solche gekennzeichnet (RAND PE-A4392-3, RR-A4980-1, WR-A4443-1). Datumsangaben im Format des Dokuments |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Für die ökonomische Kernaussage ist die Primärquelle beschafft und im Volltext ausgewertet worden (Verfahrensregel Cluster A, `Suchthemen.md`): RAND Perspective PE-A4392-3 und RAND Working Paper WR-A4443-1 als PDF-Direktabruf, Research Report RR-A4980-1 über die Verlagsseite. Die Interviewfassung ist ausdrücklich als journalistische Aufbereitung in § 11.5 geführt und nicht als Forschungsquelle in § 11.1 |
+| 2.4.4 URL-Prüfung (Stichprobe) | Abweichung (ohne Fehler im Dokument) | Stichprobe von 28 URLs (rund 3 % des Bestands von 889, davon sämtliche vier in diesem Lauf neu aufgenommenen Adressen). Sämtliche RAND-Adressen liefern Statuscode 200 und führen unmittelbar zur zitierten Quelle. Die Adressen von *CNBC*, *Quartz* und *Invezz* liefern Statuscode 403 — Zugriffssperre gegenüber automatisierten Abrufen, kein 404; die Adressen bestehen. Dasselbe Muster zeigen bestandsgeführte Adressen von *Axios*, *Forbes* und *congress.gov* sowie eine Ratenbegrenzung (429) bei *VentureBeat*. Kein toter Link in der Stichprobe. Konsequenz für den Fließtext: Die Rechenzentrums-Angaben sind mit einem ausdrücklichen Prüfvermerk versehen und nur für eine qualitative Folgerung verwendet worden (siehe „Gefundene Fehler" Nr. 1) |
+| 2.4.5 Zitatgenauigkeit | OK | Fünf Kernaussagen gegengeprüft: (a) 84 Prozent des US-Bundesaufkommens 2024 aus Einkommen- oder Lohnsummensteuer — wörtlich im Research Report belegt; (b) Verdopplung des Körperschaftsteuersatzes als Paritätsbedingung — in beiden RAND-Arbeiten übereinstimmend, in der Fußnote der Perspective mit dem Nominalsatz von 21 Prozent präzisiert; (c) das Zahlenbeispiel zur Gewinnprogression je Beschäftigten — wörtlich aus der Interviewfassung; (d) Acemoglu-Effekte in § 3.1 (+4,02 % Beschäftigung, +0,78 Pp. Arbeitsanteil) unverändert und vom Neuzugang unberührt; (e) die Trackerstände zum 19. September 2026 aus Direktabruf aller drei Zählwerke, mit drei intern aufgehenden Summenproben (591.040 + 42.827 = 633.867; 633.867 + 477.766 = 1.111.633; 66.861 + 47.883 = 114.744) und einer Rechenprobe zur Tagesrate (210.741 / 262 = 804,4). Modellergebnisse sind als solche gekennzeichnet und nicht als Prognosen dargestellt |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Die Markierung bei de la Feria et al. 2022 ist unverändert erhalten; in diesem Lauf ist keine Verifikation erfolgt und keine Markierung entfernt worden |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 99.0 an allen vier Stellen: Dokumentkopf, Aktualitätshinweis am Dokumentende, `README.md` (Versionszeile und Zitiervorschlag), Abschlussblock dieses Protokolls. Kein Vorkommen von „98.0" mehr im Hauptdokument. Autorenname (Björn Degenkolbe), Organisation (HIGL – Health Innovators Group Leipzig), Haftungshinweis und Lizenzhinweis CC BY 4.0 unverändert vorhanden; KI-Offenlegung in `README.md` unverändert |
+| 2.6 Automatisierte Prüfung | OK | Kein dediziertes Prüfskript im Repository; die maschinellen Stichproben zu Gliederung, Nummerierung, Zählern, Querverweisauflösung, Fettungs-Parität, Tabellenkonsistenz und Versionsvorkommen sind für diesen Lauf ad hoc ausgeführt worden und oben dokumentiert |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| 1 | § 9.3, § 11.5 (Rechenzentrums-Berichterstattung) | Die drei Fundstellen zur Verkleinerung der Rechenzentrumsabschlüsse waren im Direktabruf nicht lesbar (Statuscode 403). Ohne Kennzeichnung hätte der Fließtext eine Volltextprüfung suggeriert, die nicht stattgefunden hat | Mittel |
+| 2 | § 11.1 (Price & Wenger) | Die Abkürzung „IWF" war beim ersten Auftreten nicht ausgeschrieben (Verstoß gegen § 2.3.2 `Validierung.md`) | Gering |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| 1 | Fehlende Kennzeichnung der Belegtiefe | Prüfvermerk nach § 2.4.4 `Validierung.md` in den Literatureintrag aufgenommen (Statuscode 403 statt 404, Stützung auf übereinstimmende Inhaltszusammenfassungen dreier Fundstellen, Volltextprüfung für Folgelauf vorgemerkt); im Fließtext des § 9.3 ergänzender Satz, der die Folgerung ausdrücklich auf das *Ob* der Kleinteiligkeit stützt und nicht auf die Megawattzahl | Ja |
+| 2 | Nicht ausgeschriebene Abkürzung | „Internationaler Währungsfonds — International Monetary Fund, IWF" beim ersten Auftreten eingesetzt | Ja |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen: OK (2.3.2 Terminologie, 2.4.3 Aktualität und Belastbarkeit, 2.4.4 URL-Prüfung erneut geprüft; 2.1.3 Querverweise und 2.1.5 Formatierung nach den Bereinigungen maschinell wiederholt — kein ungültiger Verweis, keine Fettungs- oder Leerzeilenartefakte)
+- Automatisierte Skripte (sofern vorhanden): n/a — kein Prüfskript im Repository; Ersatz durch die oben dokumentierten maschinellen Stichproben
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 99.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 18. September 2026 (Lauf 001 vom 18. September 2026) — Version 97.0 → Version 98.0
 
 ### Prüfergebnis
