@@ -135,7 +135,7 @@ Ebenso bei den Hemmnissen: Refinanzierung 29, Recht und Zulassung 23, Investitio
 
 **Ursachenzerlegung (P4, Mediane):** KI 40 %, Strukturreform 28,5 %, Demografie 20 %.
 
-**Europa (48 antwortende Rollen):** Abstand zum jeweiligen Vergleichsstaat im Median **0 Jahre** bei einer Spanne von −7 bis +15; EU-Anteil an der eingesetzten Technik im Median 30 %.
+**Europa:** Geantwortet haben 48 Rollen, zuständig waren nach `11-Konzept-v2.md` § 3.1 nur die **18** der Bänke K, L und M. Deren Werte: Abstand zum Vergleichsstaat im Median **−4 Jahre**, Spanne −7 bis −1 — **alle achtzehn sehen Deutschland im Rückstand**; EU-Anteil an der Wertschöpfung im Median **55 %**. Die dreißig nicht zuständigen Rollen verschieben beide Werte erheblich (Median +3 Jahre und 10 %), weil vierzehn von ihnen keinen Vergleichsstaat nannten und zugleich eine Null eintrugen. Ein Panelmedian über alle 48 ist deshalb kein Ergebnis, sondern ein Mischwert; maßgeblich ist K/L/M (`24-Teil-2-Europa.md` § 1).
 
 **Die Validierung** hat 226 Beanstandungen auf 100 Karten gelegt, davon 70 zurückgewiesen; nur 7 Karten blieben ohne Beanstandung. Schwerpunkt sind die Belege (Befunde 4 und 5 mit zusammen 51 Nennungen), nicht die Pflichtgrößen. Rund vierzig davon sind die gesetzten Fehler; die übrigen rund 190 sind echte Funde und der eigentliche Ertrag der Prüfung.
 

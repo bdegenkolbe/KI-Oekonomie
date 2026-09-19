@@ -17,8 +17,8 @@ Die Reihenfolge ist bindend und folgt `11-Konzept-v2.md` § 5, Runde 6.
 | Teil | Gegenstand | Rückgrat | Gefüllt aus | Stand |
 |---|---|---|---|---|
 | **0 Gültigkeit** | wie weit die Zahlen tragen | Prüfschärfe, Modellabhängigkeit, Gerüstabhängigkeit, Attributionskonsistenz, Abdeckung und Rest der Zerlegung, Ausfälle | Sitzung A, Runde 1b | **füllbar** |
-| **1 Deutschland und Gesundheitswesen** | was bis 2031 geschieht | P3-Summe in Vollkräften, daneben P1 × P2 und D, daneben die P4-Zerlegung | Runde 1 und 3 | **entsperrt** — Tabelle in `rohdaten/p3-tabelle.json`, § 5b |
-| **2 Europa** | wo Deutschland steht | E1 Abstand in Jahren, E2 EU-Anteil, E3 Regelungslücke | Sitzung A, Bänke K/L/M | teilweise |
+| **1 Deutschland und Gesundheitswesen** | was bis 2031 geschieht | P3-Summe in Vollkräften, daneben P1 × P2 und D, daneben die P4-Zerlegung | Runde 1 und 3 | **Entwurf**, § 5b |
+| **2 Europa** | wo Deutschland steht | E1 Abstand in Jahren, E2 EU-Anteil, E3 Regelungslücke | Sitzung A, Bänke K/L/M | **Entwurf**, § 5c |
 | **3 Hebel** | was man tun könnte | fünf bis acht Hebel mit Urteilsmuster, Kippbedingung und Red-Team-Einwand | Sitzung C, Runde 4 und 5 | offen |
 
 **Eine Berichtsregel aus Sitzung A, nach dem Kontrollarm eingegrenzt:** Der Durchgriff **D** ist für Felder **ohne amtliche Bezugsgröße** nur als Spannweite und als Erklärungsfigur zu führen, nicht als Zahl. Für die verankerten Felder der Zentraltabelle gilt das nicht: Dort liegt Ds Modellabhängigkeit bei 0,53 (`17-Sitzung-A.md` § 3.3a).
@@ -134,6 +134,16 @@ Die Spreizung innerhalb der Tabelle ist das Eigentliche: Apotheken −12 %, medi
 
 **Die Feldschwelle des neunzehnten Kriteriums war fehlspezifiziert.** Sie verlangte 60 von 100 Feldern mit primärer Bezugsgröße. Die amtliche Statistik löst das deutsche Gesundheitswesen in **17 Einrichtungsarten** auf; mit der Untergliederung der Krankenhäuser nach Dienstarten sind höchstens rund 21 disjunkte Zellen erreichbar. 60 primäre Felder kann es nicht geben — kein korrekt ausgeführter Lauf hätte die Schwelle je erfüllt. Erreicht sind 16 von höchstens 21. Maßgeblich bleibt die Deckung, und die ist mit 73,6 % erfüllt. Das ist im Papier als Korrektur eines eigenen Fehlers auszuweisen, nicht als bestandenes Kriterium.
 
+## 5c. Was die Entwürfe gezeigt haben
+
+Teil 1 und Teil 2 sind aus den Daten der ersten Erhebung geschrieben worden, ohne einen einzigen zusätzlichen Aufruf. Der Zweck war zu prüfen, ob das Papier als Papier trägt, bevor Geld dafür ausgegeben wird, die Zahlen zu verbessern. Drei Befunde:
+
+**Es trägt.** Beide Teile lassen sich vollständig aus Karten schreiben; keine Aussage brauchte eine Behauptung ohne Beleg. Die Struktur aus Zentraltabelle, Arbeitszeiteffekt, Attributionsvorbehalt, Durchgriffskanälen und Dissens hält.
+
+**Ein Fehler ist dabei aufgefallen, der sonst ins Papier gewandert wäre.** Die europäischen Größen wurden von 48 Rollen beantwortet, zuständig waren 18. Der Panelmedian über alle 48 ergibt »0 Jahre Abstand«, der Median der Zuständigen **−4 Jahre bei ausnahmslos negativem Vorzeichen**. Vierzehn nicht zuständige Rollen hatten keinen Vergleichsstaat genannt und zugleich eine Null eingetragen — dieselbe Pathologie wie bei der Bezugsgröße null. Ohne den Entwurf wäre der Mischwert in Teil 2 gelandet.
+
+**Der größte Einzeleffekt steht nicht dort, wo die Debatte ihn vermutet.** Nicht im Krankenhaus, sondern bei den **Arztpraxen**: +3 % Personalbedarf mit KI gegen +19 % ohne, eine Differenz von rund 75.000 Vollkräften in einem Feld. Das ist die Zahl, an der Runde 2 sich abarbeiten sollte.
+
 ## 6. Wie viele Rollen das Papier braucht
 
 Aus den 110 Antworten empirisch gemessen, je 200 bis 400 zufällige Reihenfolgen.
@@ -170,8 +180,8 @@ Die Zuordnung von Leistungsprofilen zu tatsächlichen Anbietern steht in `16-Mar
 |---|---|
 | Sitzung A | **abgeschlossen** am 19.09.2026, 223 Aufrufe, 0 Ausfälle, 9 h 46 min — Auswertung in `17-Sitzung-A.md` |
 | Teil 0 | **geschrieben** — `22-Teil-0-Gueltigkeit.md` |
-| Teil 1 | **entsperrt** — 16 Felder, 3.242.842 VZÄ, 73,6 % Deckung; Zentraltabelle gerechnet |
-| Teil 2 | 48 Rollen haben E1 bis E3 beantwortet; auswertbar |
+| Teil 1 | **Entwurf geschrieben** — `23-Teil-1-Deutschland.md`; belastbar erst nach Runde 3 |
+| Teil 2 | **Entwurf geschrieben** — `24-Teil-2-Europa.md`; maßgeblich sind die 18 zuständigen Rollen, nicht die 48 antwortenden |
 | Teil 3 | erfordert Sitzung C, nicht begonnen |
 | Register | `19-Falsifikatoren.md` (92 von 100 entscheidbar) und `20-Durchgriffskanaele.md` (59 gedeckte Normen von 342) liegen vor |
 | Quellenprüfung | `21-Quellenpruefung.md` — 140 Kennzahlen geprüft, 15 Beanstandungen, 7 hart, keine nicht existierende Quelle |
