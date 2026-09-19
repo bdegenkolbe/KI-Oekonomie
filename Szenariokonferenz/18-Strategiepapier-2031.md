@@ -166,6 +166,22 @@ Das ist ein Ergebnis über das Instrument und gehört in Teil 0: Für den **Medi
 
 Gemessen am heutigen Stand: 7 % und 42 %. Das Kriterium ist gerissen, und zwar vor Sitzung B, also an der billigsten Stelle.
 
+## 7a. Wann Schluss ist
+
+Ein Verfahren, das sich selbst prüft, kann sich unbegrenzt weiterprüfen. Drei Fehlersuchen haben drei Klassen von Fehlern gefunden, und die ehrliche Erwartung ist, dass weitere existieren. Ohne eine vorab festgelegte Abschlussregel endet das Papier nie — deshalb steht sie hier, vor dem Ende, und nicht danach.
+
+**Das Papier ist fertig, wenn fünf Bedingungen zugleich erfüllt sind:**
+
+1. **Alle vier Teile sind geschrieben**, und jeder Satz trägt die Kartennummern, auf denen er beruht. Was keine Kartennummer hat, steht nicht im Papier.
+2. **Teil 0 führt jedes gerissene Kriterium** mit Wert, Ursache und Konsequenz — nicht im Anhang, sondern vor der ersten inhaltlichen Aussage.
+3. **Der Kernzahlen-Abgleich nach `Pruefprofil.md` § 2 ist ohne Abweichung**, über alle Dokumente.
+4. **Das Falsifikatorenregister liegt bei**, als Prüfplan mit Jahr, Schwelle und Quelle je Gegenprobe.
+5. **Keine offene Korrektur.** Was gefunden wurde, ist behoben oder ausdrücklich als offen ausgewiesen.
+
+**Was ausdrücklich NICHT Bedingung ist:** dass keine Fehler mehr existieren, dass die Deckung 100 % erreicht, dass jedes Kriterium hält, oder dass ein weiterer Lauf nichts mehr fände. Ein Papier, das erst erscheint, wenn es unangreifbar ist, erscheint nicht. Ein Papier, das seine Angreifbarkeit ausweist, ist brauchbar.
+
+**Danach keine weiteren Läufe.** Was dann noch zu verbessern wäre — eine zweite Modellfamilie, die fehlenden 51 % Deckung, die fachliche Gegenlesung —, gehört in eine nächste Fassung mit eigener Begründung, nicht in diese.
+
 ## 8. Was das Papier nicht sein wird
 
 Unverändert aus `13-Validierungsstand.md`, Stufe 3, und hier wiederholt, weil es in Teil 0 wörtlich stehen muss: Die Agenten bleiben Sprachmodelle mit Rollendossiers. Ein Strategiepapier aus diesem Verfahren wäre ein **strukturiertes Argumentmodell mit benannten Quellen, gemessenen Gültigkeitsgrenzen und offengelegten Dissenspunkten** — keine Expertenbefragung, keine Prognose und keine Legitimationsgrundlage für eine politische Entscheidung.
