@@ -21,6 +21,15 @@ Die Reihenfolge ist bindend und folgt `11-Konzept-v2.md` § 5, Runde 6.
 | **2 Europa** | wo Deutschland steht | E1 Abstand in Jahren, E2 EU-Anteil, E3 Regelungslücke | Sitzung A, Bänke K/L/M | teilweise |
 | **3 Hebel** | was man tun könnte | fünf bis acht Hebel mit Urteilsmuster, Kippbedingung und Red-Team-Einwand | Sitzung C, Runde 4 und 5 | offen |
 
+Dazu zwei Register, die nicht eigene Teile sind, sondern quer zu allen vieren liegen:
+
+| Register | Was es enthält | Gefüllt aus | Stand |
+|---|---|---|---|
+| **Durchgriffskanäle** (`20-Durchgriffskanaele.md`) | die Rechtsnormen, die mindestens drei Rollen aus mindestens zwei Bänken unabhängig genannt haben | Sitzung A, Extraktion ohne Aufruf | **füllbar** |
+| **Falsifikatoren** (`19-Falsifikatoren.md`) | die datierten und bezifferten Gegenproben des Panels, nach Prüfjahr geordnet | Sitzung A, Extraktion ohne Aufruf | **füllbar** |
+
+Das Kanalregister gehört neben die P3-Tabelle in Teil 1: Es beantwortet, *woran* die Ersparnis hängen bleibt, während die Tabelle beantwortet, *wie viel* hängen bleibt. Das Falsifikatorenregister steht am Schluss und gilt für das ganze Papier — es ist sein Prüfplan, nicht sein Anhang.
+
 Gültigkeit steht vorn, nicht im Anhang. Das ist die Lehre aus dem ersten Lauf, dessen Kernzahl sich nachträglich als Modellvorannahme herausstellte.
 
 ## 3. Was Sitzung A für Teil 0 und Teil 1 schon liefert
@@ -91,6 +100,22 @@ Die sieben Felder sind fünf Krankenhaus-Dienstarten, die stationäre und die am
 
 **Die Rollen werden nicht erneut befragt.** Sobald ein Feld seine Bezugsgröße hat, ergibt sich die absolute Zahl aus dem bereits vorliegenden P3-Prozentwert mal der Bezugsgröße. Das ist eine Nachrechnung, keine Neuerhebung — 0 USD und wenige Sekunden. Nur für Felder, die auch nach der Reparatur ohne Grundlage bleiben, entfällt die absolute Zahl dauerhaft; sie erscheinen in Teil 1 mit Prozentwert und ohne Vollkräftezeile, und Teil 0 weist ihre Zahl aus.
 
+## 5a. Die Nacharbeit — dreizehn Aufrufe
+
+Zwischen dem Ende von Sitzung A und einer etwaigen Sitzung B liegt ein Fenster, in dem sich mit rund zwei Prozent der Kosten von Sitzung A die einzige unkontrollierte Stelle des Verfahrens schließen lässt. Erzeugt wird der Lauf von `baue-nacharbeit.py` aus der Rückgabe von Sitzung A.
+
+**Zehn Aufrufe: die Recherchebank prüfen.** Die Prüfinstanz der Runde 1b kontrolliert Rollenkarten gegen die Quellen, die *diese* zitieren. Die zehn Faktenblätter aus Runde 0 hat sie nie angefasst — obwohl **64 von 110 Rollen** aus ihnen zitieren und **114 von 543 Befunden** auf sie zurückgehen. Ein Fehler in einem Faktenblatt sitzt damit gleichzeitig in bis zu neunzehn Karten und ist dort nicht auffindbar, weil er auf jeder Karte als korrekt zitierte Quelle erscheint.
+
+Der Befund, an dem das sichtbar wurde: Die Verordnung (EU) 2026/1744 erscheint 42-mal in den Rollenantworten und geht auf **einen Satz in Faktenblatt R05** zurück. Ob sie trägt, was R05 ihr zuschreibt, hat nie jemand geprüft. Dasselbe gilt für das KI-MIG, an das elf Rollen aus sieben Bänken Aufsichtszuständigkeit und Bußgeldrahmen hängen.
+
+Geprüft wird je Kennzahl auf Existenz, Deckung, Stand und Abgrenzung. Eine Quelle, die sich nicht abrufen lässt, geht nach »nicht abrufbar« und nicht in die Beanstandungen — sie ist weder belegt noch widerlegt.
+
+**Drei Aufrufe: die Bezugsgrößen reparieren**, nach § 5. Rahmen, Abbildung, Prüfung der Abbildung.
+
+**Null Aufrufe: die beiden Register**, erzeugt von `extrahiere-register.py` aus derselben Rückgabe.
+
+Damit sind alle vier Gültigkeitsmaße, die Zentraltabelle und der Prüfplan des Papiers beieinander — für rund zehn USD und gut eine Stunde.
+
 ## 6. Wie viele Rollen das Papier braucht
 
 Aus den 110 Antworten empirisch gemessen, je 200 bis 400 zufällige Reihenfolgen.
@@ -131,4 +156,6 @@ Die Zuordnung von Leistungsprofilen zu tatsächlichen Anbietern steht in `16-Mar
 | Teil 2 | 51 von 110 Rollen haben E1 bis E3 beantwortet; auswertbar |
 | Teil 3 | erfordert Sitzung C, nicht begonnen |
 
-Nächste Schritte in dieser Reihenfolge: Sitzung A zu Ende laufen lassen, die vier Gültigkeitsmaße berechnen und Teil 0 schreiben, die Zerlegung nach § 5 reparieren und die absolute Spalte nachrechnen, erst danach über Sitzung B entscheiden.
+Nächste Schritte in dieser Reihenfolge: Sitzung A zu Ende laufen lassen; die Rückgabe nach `rohdaten/sitzung-a.json` schreiben; die beiden Register erzeugen (`extrahiere-register.py`, null Aufrufe); die Nacharbeit starten (`baue-nacharbeit.py`, dreizehn Aufrufe); die vier Gültigkeitsmaße berechnen und Teil 0 schreiben; die absolute Spalte aus P3-Prozent mal Bezugsgröße nachrechnen. Erst danach über Sitzung B entscheiden.
+
+**Drei Korrekturen für Sitzung B**, kostenlos und vor dem nächsten Lauf einzutragen: die Nullbasis abfangen, statt sie an hundert Rollen weiterzureichen; den Ankereffekt bei P1 (sechs Punkte zwischen den beiden Fragereihenfolgen) als Methodenunsicherheit mitführen; die Faktenblätter als prüfpflichtig kennzeichnen, damit die Lücke aus § 5a nicht wiederkehrt.
