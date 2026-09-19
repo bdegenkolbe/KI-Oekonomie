@@ -99,7 +99,7 @@ Gelaufen sind deshalb die **sieben Rollen, deren Bezugsgröße vor und nach der 
 
 ### 3.4 Was die Brüche nicht berühren
 
-Alle Größen außer der absoluten Vollkräftespalte sind Verhältniszahlen und hängen nicht an der Basis. Gerüstabhängigkeit (0,00 bis 0,11), Attributionskonsistenz (100 %) und Rechenweghaltbarkeit (94,2 %) sind unabhängig gemessen und erfüllt. Die Gerüstunabhängigkeit ist dabei das stärkste Einzelergebnis des Laufs: Die Hälfte des Panels rechnete gegen ein optimistisches, die andere gegen ein pessimistisches Weltszenario, und die Mediane unterscheiden sich um null bis anderthalb Punkte. Die Zahlen hängen am Fach, nicht an der vorgesetzten Weltannahme.
+Alle Größen außer der absoluten Vollkräftespalte sind Verhältniszahlen und hängen nicht an der Basis. Gerüstabhängigkeit (0,00 bis 0,11) und Rechenweghaltbarkeit (94,2 %) sind unabhängig gemessen und erfüllt. Die Attributionskonsistenz zählt hier nicht mit: Sie ist als zirkulär zurückgezogen (§ 2). Die Gerüstunabhängigkeit ist dabei das stärkste Einzelergebnis des Laufs: Die Hälfte des Panels rechnete gegen ein optimistisches, die andere gegen ein pessimistisches Weltszenario, und die Mediane unterscheiden sich um null bis anderthalb Punkte. Die Zahlen hängen am Fach, nicht an der vorgesetzten Weltannahme.
 
 Dass die beiden Gerüste sich tatsächlich unterscheiden, ist nachgeprüft und nicht unterstellt: reales BIP +1,0 gegen +0,1 % p.a. mit zwei Rezessionsjahren, Erwerbspersonenpotenzial 48,0 gegen 46,8 Mio, GKV-Beitragssatz 18,7 gegen 19,2 %, Tarifentwicklung +3,2 gegen +4,3 % p.a., Krankenhausreform vollständig umgesetzt gegen in Teilen gescheitert, EU AI Act im Vollzug gegen verzögert und schwach durchgesetzt. Ohne diesen Nachweis wäre der Befund wertlos gewesen.
 
@@ -148,10 +148,8 @@ Ebenso bei den Hemmnissen: Refinanzierung 29, Recht und Zulassung 23, Investitio
 
 ## 6. Was jetzt zu tun ist
 
-1. **Nacharbeit** nach `18-Strategiepapier-2031.md` § 5a — läuft: zehn Quellenprüfungen der nie kontrollierten Recherchebank, drei Aufrufe für die Bezugsgrößen.
-2. ~~Kontrollarm wiederholen~~ — gelaufen, § 3.3a. Offen bleibt die Messung auf den Feldern ohne amtliche Bezugsgröße; sie gehört mit korrigiertem Prompt in Sitzung B.
-3. ~~Absolute Spalte nachrechnen~~ — gerechnet, `rohdaten/p3-tabelle.json` und `18-Strategiepapier-2031.md` § 5b.
-4. ~~Teil 0 des Strategiepapiers~~ — geschrieben, `22-Teil-0-Gueltigkeit.md`.
-5. Erst danach über Sitzung B entscheiden.
+**Erledigt.** Die Nacharbeit ist gelaufen (`21-Quellenpruefung.md`), der Kontrollarm ebenfalls (§ 3.3a), die absolute Spalte ist nachgerechnet (`rohdaten/p3-tabelle.json`), und Teil 0, Teil 1 und Teil 2 des Strategiepapiers sind geschrieben.
+
+**Offen.** Die Modellabhängigkeit auf den Feldern ohne amtliche Bezugsgröße ist ungemessen und gehört mit korrigiertem Prompt in Sitzung B. Die Zentraltabelle deckt 48,9 % und wächst nur durch Zuschneiden, nicht durch Hinzunehmen (`23-Teil-1-Deutschland.md` § 9). Elf Rollen mit einem Durchgriff über 1,0 schulden ihren Mechanismus. Und Sitzung B selbst entscheidet die Frage, für die das aufwendigste Drittel des Konzepts gebaut ist: ob die Diskussion Erkenntnis erzeugt oder homogenisiert.
 
 **Drei Korrekturen für jede weitere Sitzung**, kostenlos: die Nullbasis abfangen statt sie an hundert Rollen weiterzureichen; die Faktenblätter als prüfpflichtig kennzeichnen; die gesetzten Fehler vor dem Setzen darauf prüfen, ob sie den Wert überhaupt verändern — ein Fehler, der nichts verändert, misst nicht die Prüfinstanz, sondern verdirbt ihre Messung.

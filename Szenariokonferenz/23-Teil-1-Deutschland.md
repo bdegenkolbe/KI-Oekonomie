@@ -84,6 +84,8 @@ Sie hat sechs Feldern die **ganze Einrichtungsart** zugewiesen, obwohl die Rolle
 
 Rund ein Sechstel der Arbeitszeit würde bis 2031 tatsächlich frei. Davon erreichte **gut die Hälfte** den Personalbedarf. Die andere Hälfte verschwindet in Vorhaltung, Schichtfloors und Mindestbesetzung: Ein 24/7-Dienstplan spart bei zehn Prozent weniger Schreibarbeit keine zehn Prozent Personal, weil Nacht, Wochenende und Bereitschaft nicht teilbar sind.
 
+**Elf Rollen geben ein D über 1,0 an** — sie behaupten damit, dass mehr Personalbedarf verschwindet als Arbeitszeit frei wird. Das ist möglich, etwa über Standortschließung oder Konsolidierung, aber es verlangt nach § 3 des Konzepts eine Begründung. **Nur zwei der elf nennen einen Mechanismus.** Keine liegt außerhalb des erlaubten Bereichs von 1,5, und die Werte gehen nicht in die Zentraltabelle ein; für Runde 3 sind sie gezielt anzugreifen.
+
 Die Spannweite von D reicht über den Faktor sieben — von 0,32 in der Pflege bis 0,79 in der Gesundheitsindustrie. Wo eine Kopfzahl gesetzlich oder organisatorisch gebunden ist, kommt die gesparte Stunde nicht an. Wo Arbeit in Stückzahlen anfällt, kommt sie an.
 
 **P1 × P2 ist die Größe, die mit externen Automatisierungsstudien vergleichbar ist. D ist die Größe, die erklärt, warum aus ihr kein Stellenabbau folgt.** Beide gehören zusammen berichtet; einzeln ist jede von beiden irreführend.
@@ -174,3 +176,7 @@ Dazwischen steht, mit dem höchsten Streitindex des ganzen Panels, das Feld des 
 2. **Ob D sich bewegt.** Die aussagekräftigste Einzelbewegung des Verfahrens, weil D genau die Größe ist, um die gestritten wird.
 3. **Ob die Pflegefelder ihr niedriges P1 halten**, wenn ihnen die Rechnung der verarbeitenden Felder vorliegt.
 4. **Ob die Felder ohne amtliche Bezugsgröße** mit dem korrigierten Auftrag (`11-Konzept-v2.md` § 5, Runde 0a) belastbare Werte liefern — davon hängt ab, ob die Zentraltabelle über 48,9 % hinauswächst. Vorrangig ist dabei die Lücke bei den Arztpraxen: 470.000 Vollkräfte ohne sprechendes Feld.
+
+   **Ein bequemer Weg dorthin ist versperrt.** 32 der 84 nicht-primären Felder nennen selbst einen Zahlenwert; zusammen mit der primären Summe übersteigen sie den amtlichen Rahmen um rund 194.000 Vollkräfte. Die Werte überlappen einander und die Tabelle — jeder müsste einzeln disjunkt gemacht werden. Die Tabelle wächst nicht durch Hinzunehmen, sondern nur durch Zuschneiden.
+
+5. **Ob die elf Rollen mit D über 1,0** ihren Mechanismus nachliefern oder ihren Wert senken.
