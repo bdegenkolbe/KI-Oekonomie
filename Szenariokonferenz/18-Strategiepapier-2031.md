@@ -17,7 +17,7 @@ Die Reihenfolge ist bindend und folgt `11-Konzept-v2.md` § 5, Runde 6.
 | Teil | Gegenstand | Rückgrat | Gefüllt aus | Stand |
 |---|---|---|---|---|
 | **0 Gültigkeit** | wie weit die Zahlen tragen | Prüfschärfe, Modellabhängigkeit, Gerüstabhängigkeit, Attributionskonsistenz, Abdeckung und Rest der Zerlegung, Ausfälle | Sitzung A, Runde 1b | **füllbar** |
-| **1 Deutschland und Gesundheitswesen** | was bis 2031 geschieht | P3-Summe in Vollkräften, daneben P1 × P2 und D, daneben die P4-Zerlegung | Runde 1 und 3 | **blockiert**, § 4 |
+| **1 Deutschland und Gesundheitswesen** | was bis 2031 geschieht | P3-Summe in Vollkräften, daneben P1 × P2 und D, daneben die P4-Zerlegung | Runde 1 und 3 | **entsperrt** — Tabelle in `rohdaten/p3-tabelle.json`, § 5b |
 | **2 Europa** | wo Deutschland steht | E1 Abstand in Jahren, E2 EU-Anteil, E3 Regelungslücke | Sitzung A, Bänke K/L/M | teilweise |
 | **3 Hebel** | was man tun könnte | fünf bis acht Hebel mit Urteilsmuster, Kippbedingung und Red-Team-Einwand | Sitzung C, Runde 4 und 5 | offen |
 
@@ -118,6 +118,22 @@ Geprüft wird je Kennzahl auf Existenz, Deckung, Stand und Abgrenzung. Eine Quel
 
 Damit sind alle vier Gültigkeitsmaße, die Zentraltabelle und der Prüfplan des Papiers beieinander — für rund zehn USD und gut eine Stunde.
 
+## 5b. Die Zentraltabelle — Stand nach der Reparatur
+
+Die Reparatur hat die Deckung von 42 % auf **73,6 %** gehoben, ohne einen einzigen Wert zu schätzen: von 7 auf 16 primäre Felder, von 1.843.170 auf **3.242.842 Vollkräfte**. Die Prüfinstanz hat je Einrichtungsart nachgerechnet; keine wird überschritten, eine einzige Beanstandung blieb (H06 trägt den vollen Rahmenwert, obwohl die eigene Herleitung enger fasst).
+
+Damit lässt sich die Zentraltabelle von Teil 1 rechnen — P3-Prozent mal Bezugsgröße, ohne erneute Befragung:
+
+| | mit KI | ohne KI |
+|---|---|---|
+| Personalbedarf 2031 auf 3,24 Mio Vollkräften | **+78.084** | **+335.938** |
+
+Gelesen als Satz, den Teil 1 tragen könnte: Auf drei Vierteln des deutschen Gesundheitspersonals stiege der Personalbedarf bis 2031 auch mit KI, nämlich um rund 78.000 Vollkräfte; ohne KI stiege er um rund 336.000. KI nähme dem Anstieg also etwa **258.000 Vollkräfte**, ohne ihn umzukehren. Alle Angaben sind Modellergebnisse und stehen im Konjunktiv (`Claude.md` § 4.2).
+
+Die Spreizung innerhalb der Tabelle ist das Eigentliche: Apotheken −12 %, medizinische Laboratorien −15 %, Verwaltung −6 % gegen stationäre Pflege +12 %, ambulante Pflege +15 % und Rettungsdienste +19 %. Der Rückgang läge dort, wo verarbeitet wird, der Anstieg dort, wo am Menschen gearbeitet wird.
+
+**Die Feldschwelle des neunzehnten Kriteriums war fehlspezifiziert.** Sie verlangte 60 von 100 Feldern mit primärer Bezugsgröße. Die amtliche Statistik löst das deutsche Gesundheitswesen in **17 Einrichtungsarten** auf; mit der Untergliederung der Krankenhäuser nach Dienstarten sind höchstens rund 21 disjunkte Zellen erreichbar. 60 primäre Felder kann es nicht geben — kein korrekt ausgeführter Lauf hätte die Schwelle je erfüllt. Erreicht sind 16 von höchstens 21. Maßgeblich bleibt die Deckung, und die ist mit 73,6 % erfüllt. Das ist im Papier als Korrektur eines eigenen Fehlers auszuweisen, nicht als bestandenes Kriterium.
+
 ## 6. Wie viele Rollen das Papier braucht
 
 Aus den 110 Antworten empirisch gemessen, je 200 bis 400 zufällige Reihenfolgen.
@@ -154,10 +170,11 @@ Die Zuordnung von Leistungsprofilen zu tatsächlichen Anbietern steht in `16-Mar
 |---|---|
 | Sitzung A | **abgeschlossen** am 19.09.2026, 223 Aufrufe, 0 Ausfälle, 9 h 46 min — Auswertung in `17-Sitzung-A.md` |
 | Teil 0 | Gültigkeitsmaße liegen vor; zwei Kriterien gerissen (Bezugsgrößendeckung, Modellabhängigkeit), beide auf denselben Defekt zurückführbar |
-| Teil 1 | blockiert bis zur Reparatur nach § 5; Nacharbeit läuft |
+| Teil 1 | **entsperrt** — 16 Felder, 3.242.842 VZÄ, 73,6 % Deckung; Zentraltabelle gerechnet |
 | Teil 2 | 48 Rollen haben E1 bis E3 beantwortet; auswertbar |
 | Teil 3 | erfordert Sitzung C, nicht begonnen |
 | Register | `19-Falsifikatoren.md` (92 von 100 entscheidbar) und `20-Durchgriffskanaele.md` (59 gedeckte Normen von 342) liegen vor |
+| Quellenprüfung | `21-Quellenpruefung.md` — 140 Kennzahlen geprüft, 15 Beanstandungen, 7 hart, keine nicht existierende Quelle |
 
 Nächste Schritte in dieser Reihenfolge: die Nacharbeit abwarten; den Modellkontrollarm auf bereinigter Bezugsgröße wiederholen (zehn Aufrufe — erst danach steht fest, ob die Modellabhängigkeit wirklich gerissen ist, `17-Sitzung-A.md` § 3.3); die absolute Spalte aus P3-Prozent mal Bezugsgröße nachrechnen; Teil 0 aus `17-Sitzung-A.md` schreiben. Erst danach über Sitzung B entscheiden.
 

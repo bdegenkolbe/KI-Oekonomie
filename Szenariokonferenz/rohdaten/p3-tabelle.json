@@ -1,0 +1,146 @@
+[
+ {
+  "id": "B08",
+  "einrichtungsart": "Apotheken",
+  "vzae": 136000,
+  "p3_prozent": -12,
+  "p3_vzae": -16320,
+  "p3_null_prozent": -4,
+  "p3_null_vzae": -5440
+ },
+ {
+  "id": "A06",
+  "einrichtungsart": "Krankenhäuser",
+  "vzae": 166255.6,
+  "p3_prozent": -7.9,
+  "p3_vzae": -13134,
+  "p3_null_prozent": -5.5,
+  "p3_null_vzae": -9144
+ },
+ {
+  "id": "D03",
+  "einrichtungsart": "Verwaltung",
+  "vzae": 190000,
+  "p3_prozent": -6,
+  "p3_vzae": -11400,
+  "p3_null_prozent": 4,
+  "p3_null_vzae": 7600
+ },
+ {
+  "id": "E06",
+  "einrichtungsart": "Medizinische und zahnmedizinische Laboratorien",
+  "vzae": 66000,
+  "p3_prozent": -15,
+  "p3_vzae": -9900,
+  "p3_null_prozent": 3,
+  "p3_null_vzae": 1980
+ },
+ {
+  "id": "E01",
+  "einrichtungsart": "Pharmazeutische Industrie",
+  "vzae": 160000,
+  "p3_prozent": -6,
+  "p3_vzae": -9600,
+  "p3_null_prozent": 26,
+  "p3_null_vzae": 41600
+ },
+ {
+  "id": "E02",
+  "einrichtungsart": "Medizintechnische und augenoptische Industrie",
+  "vzae": 160000,
+  "p3_prozent": -5,
+  "p3_vzae": -8000,
+  "p3_null_prozent": 3,
+  "p3_null_vzae": 4800
+ },
+ {
+  "id": "A09",
+  "einrichtungsart": "Krankenhäuser",
+  "vzae": 112027,
+  "p3_prozent": -5.9,
+  "p3_vzae": -6610,
+  "p3_null_prozent": -3,
+  "p3_null_vzae": -3361
+ },
+ {
+  "id": "E07",
+  "einrichtungsart": "Großhandel und Handelsvermittlung des Gesundheitswesens",
+  "vzae": 123000,
+  "p3_prozent": -4,
+  "p3_vzae": -4920,
+  "p3_null_prozent": 6,
+  "p3_null_vzae": 7380
+ },
+ {
+  "id": "A01",
+  "einrichtungsart": "Krankenhäuser",
+  "vzae": 180418,
+  "p3_prozent": -2.1,
+  "p3_vzae": -3789,
+  "p3_null_prozent": 2.5,
+  "p3_null_vzae": 4510
+ },
+ {
+  "id": "A02",
+  "einrichtungsart": "Krankenhäuser",
+  "vzae": 70542.5,
+  "p3_prozent": -1.7,
+  "p3_vzae": -1199,
+  "p3_null_prozent": 6.5,
+  "p3_null_vzae": 4585
+ },
+ {
+  "id": "H06",
+  "einrichtungsart": "Gesundheitsschutz",
+  "vzae": 39000,
+  "p3_prozent": 6,
+  "p3_vzae": 2340,
+  "p3_null_prozent": 11,
+  "p3_null_vzae": 4290
+ },
+ {
+  "id": "F07",
+  "einrichtungsart": "Rettungsdienste",
+  "vzae": 70000,
+  "p3_prozent": 19,
+  "p3_vzae": 13300,
+  "p3_null_prozent": 21,
+  "p3_null_vzae": 14700
+ },
+ {
+  "id": "B07",
+  "einrichtungsart": "Arztpraxen",
+  "vzae": 470000,
+  "p3_prozent": 3,
+  "p3_vzae": 14100,
+  "p3_null_prozent": 19,
+  "p3_null_vzae": 89300
+ },
+ {
+  "id": "A08",
+  "einrichtungsart": "Krankenhäuser",
+  "vzae": 408599.4,
+  "p3_prozent": 4,
+  "p3_vzae": 16344,
+  "p3_null_prozent": 5.2,
+  "p3_null_vzae": 21247
+ },
+ {
+  "id": "B09",
+  "einrichtungsart": "Ambulante Pflege",
+  "vzae": 311000,
+  "p3_prozent": 15.2,
+  "p3_vzae": 47272,
+  "p3_null_prozent": 19,
+  "p3_null_vzae": 59090
+ },
+ {
+  "id": "C02",
+  "einrichtungsart": "Stationäre und teilstationäre Pflege",
+  "vzae": 580000,
+  "p3_prozent": 12,
+  "p3_vzae": 69600,
+  "p3_null_prozent": 16,
+  "p3_null_vzae": 92800
+ }
+]
