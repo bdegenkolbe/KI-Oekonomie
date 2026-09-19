@@ -127,7 +127,16 @@
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (98.0 → 99.0 an allen vier Stellen)
 - E-Mail-Benachrichtigung versendet: Nein — kein Versandwerkzeug in der Sitzung erreichbar; Inhalt als `daily-mail.txt` im Repo-Root abgelegt (siehe Auffälligkeiten)
 - WhatsApp-Benachrichtigung versendet: Nein — kein Versandwerkzeug in der Sitzung erreichbar; Zusammenfassung als `daily-whatsapp.txt` im Repo-Root abgelegt (siehe Auffälligkeiten)
-- Branch auf main gemerged und gelöscht: Ja
+- Branch auf main gemerged und gelöscht: Teilweise — Merge auf `main` ausgeführt und gepusht, lokaler Session-Branch gelöscht; die Löschung des Remote-Branches ist fehlgeschlagen (siehe Branch-Status)
+
+### Branch-Status
+
+- Session-Branch: `claude/clever-ramanujan-z5144k`
+- Commit auf dem Session-Branch: `08fd152`
+- Pull Request: [#24](https://github.com/bdegenkolbe/KI-Oekonomie/pull/24), als Entwurf angelegt und durch den Merge auf `main` als *merged* geschlossen
+- Merge-Commit auf `main`: `9eb02d8` (`--no-ff`), erfolgreich nach `origin/main` gepusht
+- Lokaler Branch: gelöscht
+- Remote-Branch: **nicht gelöscht.** Der Löschvorgang ist sowohl in der Form `git push origin --delete` als auch mit ausdrücklicher Refspec mit HTTP-Statuscode 403 abgewiesen worden; die für diese Sitzung bereitgestellten Zugangsdaten erlauben Pushes, aber keine Branch-Löschung. Der Branch ist vollständig in `main` enthalten und damit inhaltlich gegenstandslos; er kann beim nächsten Lauf mit erweiterten Rechten oder manuell entfernt werden.
 
 ### Auffälligkeiten / offene Punkte
 
