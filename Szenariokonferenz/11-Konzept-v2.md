@@ -292,6 +292,8 @@ Besetzt werden zuerst **vierzehn Plätze, einer je Bank** (die Rolle mit dem hö
 
 Die dreißig sitzen in **fünf Gruppen à sechs, quer zu den Bänken** geschnitten: in jeder Gruppe eine Leistungserbringer-, eine Kostenträger-, eine Aufsichts-, eine Arbeitnehmer- und eine gesamtwirtschaftliche Perspektive. Die Gruppenleitung clustert die validierten Karten und formuliert daraus **die Streitfrage der Gruppe** — sie wird nicht vorgegeben, sie wird gefunden. Dann zwei Kartenzüge je Rolle mit den Pflichtzügen aus § 2 Regel 4.
 
+**Beide Züge einer Rolle entstehen in einem Aufruf**, nicht in zweien. Das halbiert die teuerste Einzelposition der Runde und hat einen Nebeneffekt, der auszuweisen ist: Die Rolle sieht beim Formulieren des zweiten Zuges ihren ersten. Das verhindert, dass beide dieselbe Karte mit demselben Argument treffen — und mindert zugleich ihre Unabhängigkeit voneinander. Für die Einwandhaltbarkeit, die je Zug gemessen wird, ändert sich nichts.
+
 **Die siebzig Nichtdiskutierenden sind nicht ausgeschlossen.** Ihre Karten aus Runde 1 liegen auf der Tafel und dürfen angegriffen werden; wer angegriffen wurde, antwortet in Runde 3, die er ohnehin durchläuft. Die Diskussion ist damit kein geschlossener Kreis, sondern eine Verdichtung.
 
 Jede Gruppe schließt mit einem `dissens`-Eintrag je offenem Streitpunkt, der drei Dinge benennt: die beiden unvereinbaren Karten, welche Bänke sich gegenüberstehen, und **die Entscheidungsgröße** — was man messen müsste, um den Streit zu beenden. Letzteres ist der eigentliche Ertrag der Runde: Nicht die Einigung, sondern die Benennung dessen, woran die Uneinigkeit hängt.
@@ -447,7 +449,7 @@ Hochgerechnet aus den gemessenen Stückkosten (1,55 USD je recherchierender Opus
 | Runde 1 — Modellkontrollarm, zehn Rollen auf zweitem Modell | 10 | 6 |
 | Runde 1b — Validierung mit gesetzten Fehlern, kleines Modell | 100 | 46 |
 | Streitauswahl nach § 5 Runde 2 | 0 (rechnerisch) | 0 |
-| Runde 2 — dreißig Rollen × zwei Kartenzüge | 60 | 60 |
+| Runde 2 — dreißig Rollen × zwei Kartenzüge | 30 | 30 |
 | Runde 2 — fünf Gruppenleitungen × Streitfrage und Dissensprotokoll | 10 | 6 |
 | Runde 3 — Pflichtgrößen zum zweiten Mal, Antwort auf Einwände | 100 | 100 |
 | Runde 3 — Modellkontrollarm | 10 | 6 |
@@ -455,11 +457,11 @@ Hochgerechnet aus den gemessenen Stückkosten (1,55 USD je recherchierender Opus
 | Runde 4 — Bewertung von Hebeln und Profilen je Rolle | 100 | 70 |
 | Runde 5 — Red Team, Synthese, Verifikation | 12 | 16 |
 | Runde 6 — Strategiepapier, mehrstufig | 6 | 20 |
-| **Summe** | **534** | **rund 545** |
+| **Summe** | **504** | **rund 515** |
 
 **Die Wanduhrzeit ist das eigentliche Problem, nicht das Geld.** Der Container hat vier CPUs, die Nebenläufigkeit liegt damit bei zwei Agenten; das ist eine Eigenschaft der Umgebung und keine des Modells.
 
-Der frühere Ansatz von drei Minuten je Aufruf ist **gemessen widerlegt**: Die Mechanikprobe brauchte für 57 Aufrufe zwei Stunden und zwei Minuten, also **4,28 Minuten je Aufruf** bei Nebenläufigkeit zwei (`15-Mechanikprobe.md` § 5b). Hochgerechnet ergeben 534 Aufrufe damit **rund 19 Stunden** statt der zuvor angesetzten 13,3. Mit der Zwischenspeicherung aus § 8 zerfällt der Lauf in drei Abschnitte von rund 8,3, 6,4 und 4,3 Stunden, die nicht an einem Stück laufen müssen. **Gemessen an Sitzung A**: 223 Aufrufe in 9 h 46 min, also 5,26 Minuten je Aufruf — ein Fünftel über dem Ansatz, weil die Rollen mit Eigenrecherche länger brauchen als die Probe.
+Der frühere Ansatz von drei Minuten je Aufruf ist **gemessen widerlegt**: Die Mechanikprobe brauchte für 57 Aufrufe zwei Stunden und zwei Minuten, also **4,28 Minuten je Aufruf** bei Nebenläufigkeit zwei (`15-Mechanikprobe.md` § 5b). Hochgerechnet ergeben 504 Aufrufe damit **rund 18 Stunden** statt der zuvor angesetzten 13,3. Mit der Zwischenspeicherung aus § 8 zerfällt der Lauf in drei Abschnitte von rund 8,3, 6,4 und 4,3 Stunden, die nicht an einem Stück laufen müssen. **Gemessen an Sitzung A**: 223 Aufrufe in 9 h 46 min, also 5,26 Minuten je Aufruf — ein Fünftel über dem Ansatz, weil die Rollen mit Eigenrecherche länger brauchen als die Probe.
 
 **Die Marktschicht kostet fast nichts.** A1 bis A3 hängen an der Runde-1-Karte, die Leistungsprofile an der Runde-4-Karte; hinzu kommt ein einziger Aufruf für ihre Ableitung. Zusammen rund 20 USD und ein Aufruf — für den Teil, der aus einem Lagebild eine Marktaussage macht. Das ist das günstigste Stück des ganzen Verfahrens.
 

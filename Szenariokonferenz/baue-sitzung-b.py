@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
 """Erzeugt workflow-sitzung-b.js: Runde 2 (Gruppendiskussion) und Runde 3 (zweite Erhebung).
 
-180 Aufrufe: 5 Streitfragen + 60 Kartenzuege + 5 Dissensprotokolle + 100 Rollen + 10 Kontrollarm.
+150 Aufrufe: 5 Streitfragen + 30 Kartenzuege + 5 Dissensprotokolle + 100 Rollen + 10 Kontrollarm.
+
+Abweichung von der Kostentabelle des Konzepts, bewusst: Dort stehen 60
+Kartenzug-Aufrufe (30 Rollen mal zwei Zuege), hier sind es 30 - beide Zuege
+einer Rolle entstehen in einem Aufruf. Beide Zuege existieren und werden
+einzeln ausgewertet; die Rolle sieht beim Schreiben des zweiten Zuges ihren
+ersten, was Doppelungen verhindert und die Unabhaengigkeit der beiden Zuege
+mindert. Ersparnis rund 30 Aufrufe.
 
 Alle Korrekturen aus Sitzung A und ihren drei Fehlersuchen sind eingebaut:
   - Bezugsgroesse null wird nie weitergereicht (17-Sitzung-A Paragraf 3)
@@ -102,7 +109,10 @@ def main():
                         ('__MATRIX__', matrix), ('__GER__', ger)):
         js = js.replace(marke, json.dumps(wert, ensure_ascii=False))
     ZIEL.write_text(js, encoding='utf-8')
-    print(f'{ZIEL.name}: {5 + len(auswahl)*2 + 5 + len(rollen) + 10} Aufrufe, {round(len(js)/1024)} KB')
+    n = 5 + len(auswahl) + 5 + len(rollen) + 10
+    print(f'{ZIEL.name}: {n} Aufrufe, {round(len(js)/1024)} KB')
+    print('  Hinweis: Die Kostentabelle des Konzepts setzt 60 Kartenzug-Aufrufe an (30 Rollen mal zwei Zuege).')
+    print('  Dieses Skript erzeugt BEIDE Zuege einer Rolle in EINEM Aufruf - also 30 statt 60.')
     print('Gruppen:', ' | '.join(','.join(g) for g in grp))
     ohne = [r['id'] for r in rollen if not r['vzae']]
     print(f'Rollen ohne amtliche Bezugsgroesse: {len(ohne)} - erhalten den korrigierten Auftrag')
