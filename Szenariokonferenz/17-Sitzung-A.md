@@ -25,7 +25,7 @@ Die Wiederaufsetzbarkeit nach `11-Konzept-v2.md` § 8 hat damit ihren Ernstfall 
 | **Attributionskonsistenz** | ≥ 80 % | **100 %**, mediane Abweichung 1,9 Punkte | erfüllt |
 | **Gerüstabhängigkeit** | ≤ 1 bei ≥ 4 von 6 | P1 0,09 · P2 0,00 · P3 0,03 · P3₀ 0,11 | erfüllt, deutlich |
 | **Modellabhängigkeit** | < 1 bei ≥ 4 von 6 | **3 von 6** wie vorab definiert; auf verankerten Rollen **6 von 6**, keine Größe über 0,86 | **gerissen**, Ursache behoben, § 3.3 und § 3.3a |
-| **Bezugsgrößendeckung** | ≥ 60 % Felder, ≥ 70 % Rahmen | **7 %** und **42 %** | **gerissen**, § 3.1 |
+| **Bezugsgrößendeckung** | ≥ 70 % des Rahmens | **42 %**; nach Reparatur und Zuschnittkorrektur **48,9 %** | **gerissen**, § 3.1 und `23-Teil-1-Deutschland.md` § 3 |
 | **Topfdeckung** | A2 summiert bei 100 % auf 100, Rest nicht durchgängig null | 100 von 100; Restwert »gar kein Topf« Median 30 %, bei keiner Rolle null | erfüllt |
 | **Schemafestigkeit** | 100 % | P4, P5 und A2 summieren bei 100 von 100 Rollen auf 100 | erfüllt |
 | **Auswahlwirksamkeit** | ≥ 2 von 30 | **8 von 30** Unterschieden zwischen Bank- und Panelmedian | erfüllt |

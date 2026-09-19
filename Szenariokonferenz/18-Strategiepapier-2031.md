@@ -120,17 +120,17 @@ Damit sind alle vier Gültigkeitsmaße, die Zentraltabelle und der Prüfplan des
 
 ## 5b. Die Zentraltabelle — Stand nach der Reparatur
 
-Die Reparatur hat die Deckung von 42 % auf **73,6 %** gehoben, ohne einen einzigen Wert zu schätzen: von 7 auf 16 primäre Felder, von 1.843.170 auf **3.242.842 Vollkräfte**. Die Prüfinstanz hat je Einrichtungsart nachgerechnet; keine wird überschritten, eine einzige Beanstandung blieb (H06 trägt den vollen Rahmenwert, obwohl die eigene Herleitung enger fasst).
+Die Reparatur hat die Deckung von 42 % auf zunächst scheinbar 73,6 % gehoben. **Nach der Korrektur des Zuschnitts (`23-Teil-1-Deutschland.md` § 3) sind es 48,9 %**: 16 primäre Felder mit zusammen 2.155.154 Vollkräften. Sechs Felder hatten die ganze Einrichtungsart zugewiesen bekommen, obwohl die Rolle über einen engeren Ausschnitt rechnete und ihren Gegenwert belegt genannt hatte — im Extremfall um den Faktor 339. Die Prüfinstanz der Abbildung hat das nicht gefunden, weil ihr Auftrag auf Überschreitungen des Rahmens zielte und nicht auf den Zuschnitt des Feldes.
 
 Damit lässt sich die Zentraltabelle von Teil 1 rechnen — P3-Prozent mal Bezugsgröße, ohne erneute Befragung:
 
 | | mit KI | ohne KI |
 |---|---|---|
-| Personalbedarf 2031 auf 3,24 Mio Vollkräften | **+78.084** | **+335.938** |
+| Personalbedarf 2031 auf 2,16 Mio Vollkräften | **+102.065** | **+187.714** |
 
-Gelesen als Satz, den Teil 1 tragen könnte: Auf drei Vierteln des deutschen Gesundheitspersonals stiege der Personalbedarf bis 2031 auch mit KI, nämlich um rund 78.000 Vollkräfte; ohne KI stiege er um rund 336.000. KI nähme dem Anstieg also etwa **258.000 Vollkräfte**, ohne ihn umzukehren. Alle Angaben sind Modellergebnisse und stehen im Konjunktiv (`Claude.md` § 4.2).
+Gelesen als Satz, den Teil 1 tragen könnte: Auf knapp der Hälfte des deutschen Gesundheitspersonals stiege der Personalbedarf bis 2031 auch mit KI, nämlich um rund 102.000 Vollkräfte; ohne KI stiege er um rund 188.000. KI nähme dem Anstieg also etwa **86.000 Vollkräfte**, ohne ihn umzukehren. Alle Angaben sind Modellergebnisse und stehen im Konjunktiv (`Claude.md` § 4.2).
 
-Die Spreizung innerhalb der Tabelle ist das Eigentliche: Apotheken −12 %, medizinische Laboratorien −15 %, Verwaltung −6 % gegen stationäre Pflege +12 %, ambulante Pflege +15 % und Rettungsdienste +19 %. Der Rückgang läge dort, wo verarbeitet wird, der Anstieg dort, wo am Menschen gearbeitet wird.
+Die Spreizung innerhalb der Tabelle ist das Eigentliche: Apotheken −12 %, fachärztliche Labore −15 %, medizinisch-technischer Dienst −7,9 % gegen stationäre Pflege +12 %, ambulante Pflege +15 % und Rettungsdienste +19 %. Der Rückgang läge dort, wo verarbeitet wird, der Anstieg dort, wo am Menschen gearbeitet wird. Vier Zeilen — beide Pflegesektoren, der Krankenhaus-Pflegedienst und der Rettungsdienst — tragen 1,37 der 2,16 Mio Vollkräfte und den gesamten Zuwachs.
 
 **Die Feldschwelle des neunzehnten Kriteriums war fehlspezifiziert.** Sie verlangte 60 von 100 Feldern mit primärer Bezugsgröße. Die amtliche Statistik löst das deutsche Gesundheitswesen in **17 Einrichtungsarten** auf; mit der Untergliederung der Krankenhäuser nach Dienstarten sind höchstens rund 21 disjunkte Zellen erreichbar. 60 primäre Felder kann es nicht geben — kein korrekt ausgeführter Lauf hätte die Schwelle je erfüllt. Erreicht sind 16 von höchstens 21. Maßgeblich bleibt die Deckung, und die ist mit 73,6 % erfüllt. Das ist im Papier als Korrektur eines eigenen Fehlers auszuweisen, nicht als bestandenes Kriterium.
 
@@ -142,7 +142,7 @@ Teil 1 und Teil 2 sind aus den Daten der ersten Erhebung geschrieben worden, ohn
 
 **Ein Fehler ist dabei aufgefallen, der sonst ins Papier gewandert wäre.** Die europäischen Größen wurden von 48 Rollen beantwortet, zuständig waren 18. Der Panelmedian über alle 48 ergibt »0 Jahre Abstand«, der Median der Zuständigen **−4 Jahre bei ausnahmslos negativem Vorzeichen**. Vierzehn nicht zuständige Rollen hatten keinen Vergleichsstaat genannt und zugleich eine Null eingetragen — dieselbe Pathologie wie bei der Bezugsgröße null. Ohne den Entwurf wäre der Mischwert in Teil 2 gelandet.
 
-**Der größte Einzeleffekt steht nicht dort, wo die Debatte ihn vermutet.** Nicht im Krankenhaus, sondern bei den **Arztpraxen**: +3 % Personalbedarf mit KI gegen +19 % ohne, eine Differenz von rund 75.000 Vollkräften in einem Feld. Das ist die Zahl, an der Runde 2 sich abarbeiten sollte.
+**Ein Fehler von zwei Größenordnungen ist dabei aufgefallen — und zwar erst auf eine Rückfrage nach der Herkunft einer einzelnen Zahl.** Sechs der sechzehn Felder hatten die ganze Einrichtungsart zugewiesen bekommen, obwohl die Rolle über einen engeren Ausschnitt rechnete. Der größte Posten der alten Tabelle, +89.300 Vollkräfte in der Spalte »ohne KI«, stammte aus einem Feld von rund viertausend Menschen. Die korrigierten Werte stehen in `23-Teil-1-Deutschland.md` § 2 und § 3; die Deckung fällt von 73,6 % auf 48,9 % und das Kriterium reißt erneut. Dass der Entwurf das aufgedeckt hat, ist genau sein Zweck gewesen — dass drei Prüfstufen es vorher nicht taten, ist der eigentliche Befund.
 
 ## 6. Wie viele Rollen das Papier braucht
 

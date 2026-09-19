@@ -25,7 +25,8 @@ Alle Aussagen über 2031 stehen im Konjunktiv. Was keine Kartennummer trägt, st
 | **Attributionskonsistenz** | ob die Ursachenzuschreibung aus den eigenen Zahlen folgt | ≥ 80 % | **100 %**, mediane Abweichung 1,9 Punkte |
 | **Gerüstabhängigkeit** | ob die Zahlen am Fach hängen oder an der Weltannahme | ≤ 1 bei ≥ 4 von 6 | **0,00 – 0,11** |
 | **Modellabhängigkeit** | ob das Panel die Rollen misst oder das Modell | < 1 bei ≥ 4 von 6 | **gerissen** (3 von 6); auf verankerten Rollen 6 von 6 |
-| **Bezugsgrößendeckung** | ob die Zentraltabelle gebaut werden kann | ≥ 70 % des Rahmens | **73,6 %** nach Reparatur; 42 % im Erstlauf |
+| **Bezugsgrößendeckung** | ob die Zentraltabelle gebaut werden kann | ≥ 70 % des Rahmens | **48,9 %** nach Reparatur und Zuschnittkorrektur; 42 % im Erstlauf — **gerissen** |
+| **Zuschnittstreue** | ob die Tabelle das Richtige zählt | 100 % der Felder | **10 von 16** — sechs Felder trugen die ganze Einrichtungsart statt ihres Ausschnitts |
 | **Topfdeckung** | ob die Marktfrage beantwortet oder weggerundet wird | Rest nicht durchgängig null | erfüllt, Median 30 % |
 | **Schemafestigkeit** | ob die Anteilssummen halten | 100 % | **100 von 100** |
 | **Auswahlwirksamkeit** | ob die Bankkorrektur etwas bewirkt | ≥ 2 von 30 | **8 von 30** |
@@ -34,7 +35,7 @@ Alle Aussagen über 2031 stehen im Konjunktiv. Was keine Kartennummer trägt, st
 
 ## Die vier Einschränkungen, die beim Lesen mitzudenken sind
 
-**1. Die Zentraltabelle deckt drei Viertel, nicht alles.** Sie steht auf 16 Feldern mit zusammen 3.242.842 Vollkräften, also 73,6 % des amtlichen Rahmens von 4,4 Mio. Nicht enthalten sind 1,16 Mio Vollkräfte, für die kein Feld primär spricht. Die Prozentwerte der übrigen 84 Felder sind feldintern gültig, aber **nicht gewichtbar und nicht summierbar**: Ihre Rollen haben sich die Bezugsgruppe teils selbst zugeschnitten. Der Median »+3 % Personalbedarf« ist ein ungewichteter Median über unterschiedlich geschnittene Grundgesamtheiten und liest sich als »das typische Feld«, nicht als »das deutsche Gesundheitswesen«.
+**1. Die Zentraltabelle deckt knapp die Hälfte, nicht alles.** Sie steht auf 16 Feldern mit zusammen 2.155.154 Vollkräften, also 48,9 % des amtlichen Rahmens von 4,4 Mio. Nicht enthalten sind 2,25 Mio Vollkräfte, für die kein Feld primär spricht — darunter die 470.000 Vollkräfte der Arztpraxen, für die nach der Zuschnittkorrektur keine Rolle dieses Rosters mehr primär spricht. Vier Zeilen der Tabelle, beide Pflegesektoren, der Krankenhaus-Pflegedienst und der Rettungsdienst, stellen 1,37 der 2,16 Mio Vollkräfte; die Tabelle ist damit im Kern eine Aussage über die Pflege. Die Prozentwerte der übrigen 84 Felder sind feldintern gültig, aber **nicht gewichtbar und nicht summierbar**: Ihre Rollen haben sich die Bezugsgruppe teils selbst zugeschnitten. Der Median »+3 % Personalbedarf« ist ein ungewichteter Median über unterschiedlich geschnittene Grundgesamtheiten und liest sich als »das typische Feld«, nicht als »das deutsche Gesundheitswesen«.
 
 **2. Die Modellabhängigkeit ist nur dort widerlegt, wo die Aufgabe wohldefiniert war.** Wie vorab definiert ist das Kriterium gerissen. Die Ursache ist identifiziert: 93 von 100 Feldern erhielten im Erstlauf die Bezugsgröße null, und zwei Modelle lösen die Anweisung »rechne einen Prozentwert gegen null« verschieden auf. Auf den sieben Rollen, deren Bezugsgröße unverändert und belegt ist, liegen alle sechs Pflichtgrößen unter 0,86. Das sind aber ausschließlich Krankenhaus- und Pflegerollen und ausschließlich der verankerte Teil des Panels — also eine **Untergrenze**. Für die unverankerten Felder ist die Frage offen.
 
@@ -47,6 +48,8 @@ Alle Aussagen über 2031 stehen im Konjunktiv. Was keine Kartennummer trägt, st
 **Hundert Rollen sind für die Zahl zu viel und für die Kanäle zu wenig.** Die Mediane der Pflichtgrößen sind ab rund **30** Rollen stabil, die benannten Institutionen ab rund **50** erschöpft. Die zitierten Rechtsnormen sättigen **gar nicht**: Bei 110 Antworten bringen zehn weitere Rollen noch 23,8 Normen, die keine andere genannt hat. Das sagt, wozu die Bank da ist — sie mittelt keine Schätzung, sie sammelt Kanäle.
 
 **Ein Fehler, der nichts verändert, misst nichts.** Zehn der vierzig maschinell gesetzten Prüffehler vervierfachten eine Null und entstanden deshalb nie. Die Prüfschärfe stand dadurch scheinbar genau auf der Schwelle. Seither ist die Wirksamkeit der gesetzten Fehler ein eigenes Kriterium.
+
+**Ein Verarbeitungsfehler ist teurer als ein Erkenntnisfehler.** Sechs von sechzehn Feldern der Zentraltabelle trugen zunächst die ganze Einrichtungsart statt des Ausschnitts, über den die Rolle rechnete — im Extremfall um den Faktor 339. Jede dieser Rollen hatte ihren richtigen Wert mit Fundstelle genannt; die Angaben wurden der Zuordnung nie vorgelegt. Drei Prüfstufen haben den Fehler nicht gefunden, weil keine danach gefragt war; aufgefallen ist er auf die Rückfrage eines Lesers nach der Herkunft einer einzelnen Zahl. Das ist das stärkste Argument dieses Papiers für seine eigene Nachprüfbarkeit — und gegen jedes Vertrauen in die Zahl allein.
 
 **Eine Schwelle kann falsch sein.** Das Kriterium der Bezugsgrößendeckung verlangte 60 von 100 Feldern mit primärer Bezugsgröße. Die amtliche Statistik löst das deutsche Gesundheitswesen in 17 Einrichtungsarten auf, mit der Untergliederung der Krankenhäuser in höchstens rund 21 disjunkte Zellen. Kein korrekt ausgeführter Lauf hätte die Schwelle je erfüllen können. Sie ist als Fehlspezifikation ausgewiesen; maßgeblich ist die Deckung.
 

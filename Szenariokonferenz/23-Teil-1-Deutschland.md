@@ -8,47 +8,68 @@
 
 Hundert Felder des deutschen Gesundheitswesens haben dieselbe Frage für ihr eigenes Feld gerechnet. Sie kommen zu einem Ergebnis, das weder der Entlastungs- noch der Freisetzungserzählung entspricht:
 
-> **Künstliche Intelligenz nähme dem Personalbedarf bis 2031 nicht seinen Anstieg, sondern rund drei Viertel davon.**
+> **Künstliche Intelligenz nähme dem Personalbedarf bis 2031 nicht seinen Anstieg, sondern rund die Hälfte davon.**
 
-Auf den 3,24 Mio Vollkräften, für die eine belegte Bezugsgröße vorliegt, stiege der Personalbedarf bis 2031 um **+78.084 Vollkräfte**. Unter der Gegenannahme, dass KI und Automatisierung stagnieren, stiege er um **+335.938**. Die Differenz von rund **258.000 Vollkräften** ist der gesamte Beitrag der Technik — er dämpft, er kehrt nicht um.
+Auf den 2,16 Mio Vollkräften, für die eine belegte und im Zuschnitt geprüfte Bezugsgröße vorliegt, stiege der Personalbedarf bis 2031 um **+102.065 Vollkräfte**. Unter der Gegenannahme, dass KI und Automatisierung stagnieren, stiege er um **+187.714**. Die Differenz von rund **86.000 Vollkräften** ist der gesamte Beitrag der Technik — er dämpft, er kehrt nicht um.
 
 ## 2. Die Zentraltabelle
 
-Personalbedarf 2031 gegenüber heute, je Feld mit primärer, disjunkter Bezugsgröße. Deckung: 16 von 100 Feldern, **73,6 %** des amtlichen Rahmens von 4,4 Mio Vollzeitäquivalenten.
+Personalbedarf 2031 gegenüber heute. Deckung: **2.155.154 Vollkräfte, 48,9 %** des amtlichen Rahmens von 4,4 Mio Vollzeitäquivalenten.
 
-| Feld | Einrichtungsart | Vollkräfte | P3 | 2031 | ohne KI |
+Sechs Zeilen tragen eine **korrigierte** Bezugsgröße (mit \*): Dort hatte die Abbildung der Nacharbeit dem Feld die ganze Einrichtungsart zugewiesen, während die Rolle nachweislich über einen engeren Ausschnitt rechnete. Maßgeblich ist der von der Rolle selbst belegte Gegenwert (§ 3).
+
+| Feld | Bezugsgruppe | Vollkräfte | P3 | 2031 | ohne KI |
 |---|---|---:|---:|---:|---:|
 | B08 | Apotheken | 136.000 | −12,0 % | −16.320 | −5.440 |
 | A06 | Krankenhäuser, med.-techn. Dienst | 166.256 | −7,9 % | −13.134 | −9.144 |
-| D03 | Verwaltung GKV/PKV | 190.000 | −6,0 % | −11.400 | +7.600 |
-| E06 | Medizinische Laboratorien | 66.000 | −15,0 % | −9.900 | +1.980 |
-| E01 | Pharmazeutische Industrie | 160.000 | −6,0 % | −9.600 | +41.600 |
-| E02 | Medizintechnik und Augenoptik | 160.000 | −5,0 % | −8.000 | +4.800 |
 | A09 | Krankenhäuser, Funktionsdienst | 112.027 | −5,9 % | −6.610 | −3.361 |
-| E07 | Großhandel | 123.000 | −4,0 % | −4.920 | +7.380 |
 | A01 | Krankenhäuser, ärztlicher Dienst | 180.418 | −2,1 % | −3.789 | +4.510 |
+| E06 \* | fachärztliche Labore außerhalb der Krankenhäuser | 22.000 | −15,0 % | −3.300 | +660 |
+| E02 \* | Medizintechnik Bildgebung | 28.000 | −5,0 % | −1.400 | +840 |
 | A02 | Krankenhäuser, Verwaltungsdienst | 70.542 | −1,7 % | −1.199 | +4.585 |
+| E07 \* | vollversorgender Pharmagroßhandel | 24.000 | −4,0 % | −960 | +1.440 |
+| E01 \* | Market Access Deutschland | 2.750 | −6,0 % | −165 | +715 |
+| D03 \* | Kernhaushalt GKV-Spitzenverband | 561 | −6,0 % | −34 | +22 |
+| B07 \* | Sicherstellungsbereich der 17 KVen | 4.000 | +3,0 % | +120 | +760 |
 | H06 | Gesundheitsschutz, ÖGD | 39.000 | +6,0 % | +2.340 | +4.290 |
 | F07 | Rettungsdienste | 70.000 | +19,0 % | +13.300 | +14.700 |
-| B07 | Arztpraxen | 470.000 | +3,0 % | +14.100 | +89.300 |
 | A08 | Krankenhäuser, Pflegedienst | 408.599 | +4,0 % | +16.344 | +21.247 |
 | B09 | Ambulante Pflege | 311.000 | +15,2 % | +47.272 | +59.090 |
 | C02 | Stationäre Pflege | 580.000 | +12,0 % | +69.600 | +92.800 |
-| | **Summe** | **3.242.842** | **+2,4 %** | **+78.084** | **+335.938** |
+| | **Summe** | **2.155.154** | | **+102.065** | **+187.714** |
 
-**Die Spreizung ist das Eigentliche.** Zehn Felder verlören Bedarf, zusammen −84.872 Vollkräfte; sechs gewännen, zusammen +162.956. Der Rückgang läge fast vollständig dort, wo **verarbeitet** wird — Apotheken, Labore, Kassenverwaltung, medizinisch-technischer Dienst, Großhandel. Der Anstieg läge dort, wo **am Menschen** gearbeitet wird: Pflege stationär und ambulant, Rettungsdienst, Arztpraxen.
+**Die Spreizung ist das Eigentliche.** Zehn Felder verlören Bedarf, sechs gewännen. Der Rückgang läge fast vollständig dort, wo **verarbeitet** wird — Apotheken, medizinisch-technischer Dienst, Funktionsdienst, Labore, Großhandel. Der Anstieg läge dort, wo **am Menschen** gearbeitet wird: Pflege stationär und ambulant, Rettungsdienst, Krankenhaus-Pflegedienst.
 
-Das ist keine Nuance, sondern der politische Kern. Die beiden Bewegungen heben sich in der Summe fast auf, aber sie betreffen verschiedene Menschen, verschiedene Qualifikationen und verschiedene Orte. Eine Apothekerin in Gelsenkirchen wird nicht zur Pflegefachkraft in Cottbus, weil eine Bundestabelle sich ausgleicht.
+Das ist der politische Kern. Die beiden Bewegungen dämpfen sich in der Summe, aber sie betreffen verschiedene Menschen, verschiedene Qualifikationen und verschiedene Orte. Eine Apothekerin in Gelsenkirchen wird nicht zur Pflegefachkraft in Cottbus, weil eine Bundestabelle sich ausgleicht.
 
-**Die stärkste Einzelbewegung steht bei den Arztpraxen.** Ihr Bedarf stiege mit KI um +3 %, ohne KI um +19 % — eine Differenz von rund **75.000 Vollkräften** in einem einzigen Feld. Dort, und nicht im Krankenhaus, läge nach diesem Modell der größte Entlastungseffekt der Technik.
+**Vier Zeilen tragen fast alles.** Stationäre Pflege, ambulante Pflege, Krankenhaus-Pflegedienst und Rettungsdienst stellen zusammen **1,37 Mio** der 2,16 Mio Vollkräfte und den gesamten Zuwachs. Die Tabelle ist damit im Wesentlichen eine Aussage über die **Pflege** — alle übrigen zwölf Felder zusammen bewegen weniger als ein Viertel davon.
 
-## 3. Was die Tabelle nicht sagt
+## 3. Die Korrektur der Bezugsgrößen — und was sie über das Verfahren sagt
 
-**Sie deckt drei Viertel, nicht alles.** 1,16 Mio Vollkräfte gehören zu keinem primären Feld — Zahnarztpraxen, Praxen sonstiger Gesundheitsberufe, Reha, Einzelhandel und der Teil der Krankenhausbeschäftigten, für den kein Feld spricht. Für sie liegt kein Wert vor, und der Rest darf nicht als Differenz zugerechnet werden.
+In der ersten Fassung dieser Tabelle standen 3.242.842 Vollkräfte, 73,6 % Deckung und ein KI-Beitrag von 258.000 Vollkräften. Das war **falsch**, und der Fehler stammt nicht aus dem Panel, sondern aus der Abbildung der Nacharbeit.
 
-**Die übrigen 84 Felder sind nicht gewichtbar.** Sie haben Prozentwerte geliefert, aber keine belegte Bezugsgröße; ihre Rollen haben sich die Bezugsgruppe teils selbst zugeschnitten. Ihr Median von **+3,0 %** ist ein ungewichteter Median über unterschiedlich geschnittene Grundgesamtheiten und liest sich als »das typische Feld«. Dass er dem gewichteten Wert der Tabelle (**+2,4 %**) so nahe kommt, ist ein Indiz, kein Beleg.
+Sie hat sechs Feldern die **ganze Einrichtungsart** zugewiesen, obwohl die Rolle über einen engeren Ausschnitt rechnete — und in jedem dieser Fälle hatte die Rolle ihren eigenen Wert mit Fundstelle im Feld `bezugsgroesse_bestritten` genannt:
 
-**Es ist die erste Erhebung.** Keine Rolle hat bisher einen Einwand gesehen.
+| Feld | zugewiesen | selbst belegt | Faktor |
+|---|---:|---:|---:|
+| D03 GKV-Spitzenverband | 190.000 (alle Sozialversicherungsverwaltung) | 561 | 339× |
+| B07 Kassenärztliche Vereinigung | 470.000 (alle Arztpraxen) | 4.000 | 118× |
+| E01 Market Access Pharma | 160.000 (pharmazeutische Industrie) | 2.750 | 58× |
+| E02 Medizintechnik Bildgebung | 160.000 (Medizintechnik gesamt) | 28.000 | 5,7× |
+| E07 Pharmagroßhandel | 123.000 (Großhandel gesamt) | 24.000 | 5,1× |
+| E06 Labordiagnostik | 66.000 (alle Laboratorien) | 22.000 | 3,0× |
+
+**Der auffälligste Fall war zugleich der größte Posten der alten Tabelle.** B07 ist die Kassenärztliche Vereinigung. Ihre Rechnung beschreibt den **Sicherstellungsapparat der KVen** — Akutleitstelle, Terminservicestelle, Bedarfsplanung, Nachbesetzungsverfahren —, nicht das Personal der Arztpraxen. Multipliziert mit 470.000 statt 4.000 ergab das +89.300 Vollkräfte in der Spalte »ohne KI«, also **27 % der damaligen Gesamtsumme**, aus einem Feld von rund viertausend Menschen.
+
+**Drei Ursachen, alle im Verfahren, nicht im Panel:**
+
+1. **Die Abbildung kannte die Gegenwerte nicht.** 95 von 100 Rollen hatten ihre Bezugsgröße bestritten und einen belegten Gegenwert genannt. Diese Angaben wurden der Abbildung nicht vorgelegt — obwohl `11-Konzept-v2.md` § 5, Runde 0a, ihre gesammelte Auswertung ausdrücklich vorsieht.
+2. **Mandatsreichweite wurde mit Bezugsgruppe verwechselt.** Die Begründung der Abbildung für B07 lautete wörtlich, das Mandat reiche »über die gesamte vertragsärztliche Versorgung«. Das stimmt — und ist das falsche Kriterium. Wofür jemand zuständig ist, ist nicht, für wie viele Menschen er spricht.
+3. **Die Prüfung der Abbildung prüfte die falsche Richtung.** Ihr Auftrag war, Überschreitungen der Einrichtungsart zu finden. B07 überschreitet nichts — es füllt die Einrichtungsart exakt aus. Der Fehler war eine Untererfüllung des *Feldes*, keine Übererfüllung des *Rahmens*, und danach war nicht gefragt.
+
+**Die Folge für das Kriterium:** Die Bezugsgrößendeckung liegt korrigiert bei **48,9 %** statt 73,6 % und reißt die Schwelle von 70 % erneut. Die Reparatur hat die Deckung real von 42 % auf 48,9 % gehoben — deutlich weniger, als sie zu leisten schien.
+
+**Was das Verfahren richtig gemacht hat:** Jede der sechs Rollen hat ihren korrekten Wert genannt, mit Quelle, im dafür vorgesehenen Feld. Die Information war vorhanden und belegt. Sie wurde nicht ausgewertet. Das ist ein Verarbeitungsfehler, kein Erkenntnisfehler — und er wäre beim Schreiben dieses Teils nur deshalb aufgefallen, weil jemand nach der Herkunft einer einzelnen Zahl gefragt hat.
 
 ## 4. Der Arbeitszeiteffekt — und warum er nicht durchschlägt
 
@@ -145,4 +166,4 @@ Dazwischen steht, mit dem höchsten Streitindex des ganzen Panels, das Feld des 
 1. **Ob die Diskussion Erkenntnis erzeugt oder homogenisiert.** Der Divergenzerhalt — der Interquartilsabstand nach der Diskussion im Verhältnis zu dem davor — ist das entscheidende Maß. Fällt er unter die Hälfte, hat das Verfahren geglättet statt aufgeklärt.
 2. **Ob D sich bewegt.** Die aussagekräftigste Einzelbewegung des Verfahrens, weil D genau die Größe ist, um die gestritten wird.
 3. **Ob die Pflegefelder ihr niedriges P1 halten**, wenn ihnen die Rechnung der verarbeitenden Felder vorliegt.
-4. **Ob die Felder ohne amtliche Bezugsgröße** mit dem korrigierten Auftrag (`11-Konzept-v2.md` § 5, Runde 0a) belastbare Werte liefern — davon hängt ab, ob die Zentraltabelle über 73,6 % hinauswächst.
+4. **Ob die Felder ohne amtliche Bezugsgröße** mit dem korrigierten Auftrag (`11-Konzept-v2.md` § 5, Runde 0a) belastbare Werte liefern — davon hängt ab, ob die Zentraltabelle über 48,9 % hinauswächst. Vorrangig ist dabei die Lücke bei den Arztpraxen: 470.000 Vollkräfte ohne sprechendes Feld.
