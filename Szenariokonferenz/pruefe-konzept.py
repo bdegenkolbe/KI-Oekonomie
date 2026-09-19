@@ -16,8 +16,8 @@ for z in zeilen[:-1]:
     auf+=int(a.group(1)) if a else 0
     usd+=int(u.group(1)) if u else 0
 print(f"Kostentabelle: {len(zeilen)-1} Posten, Aufrufe {auf}, USD {usd}")
-if "**534**" not in zeilen[-1]: fehler.append(f"Summenzeile Aufrufe != 534: {zeilen[-1]}")
-if auf!=534: fehler.append(f"Aufrufe addieren zu {auf}, nicht 534")
+if "**504**" not in zeilen[-1]: fehler.append(f"Summenzeile Aufrufe != 504: {zeilen[-1]}")
+if auf!=504: fehler.append(f"Aufrufe addieren zu {auf}, nicht 504")
 if not 505<=usd<=525: fehler.append(f"USD addieren zu {usd}, ausserhalb 'rund 515'")
 
 # --- 2. Wanduhrzeit ---
@@ -70,9 +70,12 @@ if f"**{eng+recht} Stimmen im Gesundheitswesen und seinem Recht, {100-eng-recht}
 # --- 6. Streitauswahl: 14 Baenke + 16 = 30, 5 Gruppen a 6 ---
 if len(baenke)!=14: fehler.append(f"{len(baenke)} Baenke, Bankquote im Konzept nennt 14")
 if 14+16!=30 or 5*6!=30: fehler.append("Streitauswahl-Arithmetik")
-if phasen["R2"]!=30*2+5*2: fehler.append("Runde-2-Aufrufe passen nicht zu 30 Rollen und 5 Gruppen")
+# 30 Rollen mit je EINEM Aufruf fuer beide Zuege, dazu 5 Gruppen mit Streitfrage und Protokoll
+if phasen["R2"]!=30+5*2: fehler.append("Runde-2-Aufrufe passen nicht zu 30 Rollen und 5 Gruppen")
 if phasen["R1"]!=100+10 or phasen["R3"]!=100+10: fehler.append("Kontrollarm fehlt in R1/R3")
-if phasen["R1b"]!=110: fehler.append("Validierung deckt Kontrollarm nicht ab")
+# Der Kontrollarm wird bewusst nicht validiert: Er misst die Modellabhaengigkeit,
+# nicht die Kartenqualitaet, und eine Pruefung wuerde ihn nur teurer machen.
+if phasen["R1b"]!=100: fehler.append("Validierung deckt nicht genau den Hauptarm ab")
 # Stufe 1: Bankmedian braucht >=6 Rollen je Bank
 import math
 if 18//3<6: fehler.append("Stufe 1: weniger als 6 Rollen je Bank")
