@@ -54,6 +54,92 @@
 
 ---
 
+## 2026-09-19 — Lauf 001 — Version 98.0 → Version 99.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J. Vertieft worden sind nach der Regel „Breite vor Tiefe" genau zwei Cluster: **A** (Fortschreibung des Acemoglu-Manera-Restrepo-Befunds auf die Ebene einzelner Steuervorschriften, verbunden mit einer Szenarienrechnung zur Aufkommenswirkung) und **I** (Verkleinerung der nachgefragten Rechenzentrumseinheiten und die daraus folgende Teilbarkeit der Inferenzschicht). Knapp ergänzt worden ist **F** (Fortschreibung des Mehr-Tracker-Abgleichs mit einem neuen Flussbefund). Die Cluster B, C, D, E, G, H und J sind abgefragt worden und haben keinen validen Treffer im Zeitfenster geliefert; ihre Treffer waren entweder Dubletten bereits eingespielter Sachverhalte oder lagen außerhalb des Zeitfensters.
+- Zeitfenster: Standard 7 Tage (12.–19. September 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (17.–19. September 2026). Die RAND-Interviewfassung datiert auf den 17. September 2026 und liegt im 7-Tage-Fenster; die beiden zugrunde liegenden RAND-Arbeiten (August 2026) liegen außerhalb, sind aber als Primärquellen der in-window liegenden Veröffentlichung beschafft und ausgewertet worden. Die Rechenzentrums-Berichterstattung datiert auf den 18. September 2026 und liegt im 48-Stunden-Fenster. Alle drei Trackerstände sind am Stichtag selbst erhoben worden.
+- Anzahl Suchanfragen: 22 Websuchen und 16 Direktabrufe (davon 7 über die Kommandozeile, nachdem der Standardabruf an Anbietersperren gescheitert war).
+- Einarbeitung als (i) neuer Absatz *Nachtrag (Trackerstände 19. September 2026)* am Ende des Gegenprobe-Blocks in § 1.1; (ii) neuer Absatz *Fortschreibung auf Instrumentenebene (RAND, August/September 2026)* am Ende von § 3.1; (iii) neuer Absatz *Spiegelbildliche Konstruktion aus der US-Debatte* am Ende von § 5.1; (iv) neuer Absatzblock *Nachtrag (September 2026)* in § 9.3. Literaturverzeichnis: zwei neue Einträge in § 11.1, zwei neue Einträge in § 11.5, drei bestehende Trackereinträge in § 11.5 um den Stand 19. September 2026 erweitert. **Keine** Quelle gelöscht, keine bestehende Quelle ersetzt. Kein neuer Unterabschnitt, keine Umstrukturierung, Inhaltsverzeichnis unverändert.
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | A/B/D | RAND Corporation (Irving, D., Redaktion; Price, C. C.), *Preserving Jobs and Tax Revenue in the Age of AI: Q&A with Carter Price*, Commentary, 17. September 2026 | https://www.rand.org/pubs/commentary/2026/09/preserving-jobs-and-tax-revenue-in-the-age-of-ai-qa.html | übernommen |
+| 2 | A | Price, C. C. & Wenger, J. B., *Tax Policy Options to Promote Employment and Mitigate Federal Revenue Impacts in the Age of AI*, RAND Perspective PE-A4392-3, August 2026 (Primärquelle zu 1, Volltext beschafft) | https://www.rand.org/pubs/perspectives/PEA4392-3.html | übernommen |
+| 3 | A | Price, C. C. & Suresh, A., *Federal Revenue When AI Replaces Labor*, RAND Research Report RR-A4980-1, 25. August 2026; Vorfassung Working Paper WR-A4443-1, November 2025 (Volltext beschafft) | https://www.rand.org/pubs/research_reports/RRA4980-1.html | übernommen |
+| 4 | I | CNBC / Quartz / Invezz, *Anthropic and OpenAI hunt for smaller data center deals*, 18. September 2026 | https://www.cnbc.com/2026/09/18/anthropic-openai-small-ai-data-center-deals.html | übernommen (mit Prüfvermerk) |
+| 5 | F | AskTheRecruiter, *AI Layoff Tracker*, Direktabruf Stand 19. September 2026 | https://asktherecruiter.com/blog/ai-layoff-tracker/ | übernommen (Fortschreibung) |
+| 6 | F | SkillSyncer, *2026 Tech Layoffs Tracker*, Direktabruf Stand 19. September 2026 | https://skillsyncer.com/layoffs-tracker | übernommen (Fortschreibung) |
+| 7 | F | DisplaceIndex, *AI Layoffs Tracker 2026*, Direktabruf Stand 19. September 2026 | https://displaceindex.com/trends/ai-layoffs-tracker/ | übernommen (Fortschreibung) |
+| 8 | A | Kleven, H. & Zidar, O., *Automation and Optimal Taxation: A Task-Based Theory*, NBER Working Paper 35747 | https://www.nber.org/papers/w35747 | Dublette (Lauf vom 18. September 2026) |
+| 9 | A | Growiec, J., Prettner, K. & Szkróbka, M., *Redistributive Policies for the Times of Transformative AI*, arXiv 2609.14750 | https://arxiv.org/abs/2609.14750 | Dublette |
+| 10 | A | Cunningham, T. et al., *The Economics of Recursive Self-Improvement*, arXiv 2609.15802 | https://arxiv.org/abs/2609.15802 | Dublette |
+| 11 | H | Moon, D. et al., *Mapping AI Economic Complexity*, arXiv 2609.17200 | https://arxiv.org/abs/2609.17200 | Dublette |
+| 12 | G | Rashidi, M. et al., *Complements or Substitutes?*, arXiv 2609.12976 | https://arxiv.org/abs/2609.12976 | Dublette |
+| 13 | B | Deutscher Bundestag, Antwort der Bundesregierung auf die Kleine Anfrage zu den Auswirkungen Künstlicher Intelligenz auf den Arbeitsmarkteinstieg, Drucksache 21/7620 (hib-Meldung vom 21. August 2026) | https://www.bundestag.de/presse/hib/kurzmeldungen-1205528 | Dublette |
+| 14 | B | Deutscher Bundestag, *Haushalt 2027: Digitaletat steigt auf 1,44 Milliarden Euro*, 8. September 2026 | https://www.bundestag.de/dokumente/textarchiv/2026/kw37-de-digitales-1194742 | Dublette |
+| 15 | G | Cuocolo, R. & Huisman, M., *The augmentation myth: AI, economics, and workforce substitution in radiology*, European Radiology 36(9), 6928–6930 | https://link.springer.com/article/10.1007/s00330-026-12568-7 | verworfen |
+| 16 | G | Fahrni, G. & Rotzinger, D. C., *Letter to the Editor: The economic sustainability of AI in radiology*, European Radiology 36(9), 6931–6933, nebst Erwiderung 6934–6935 | https://link.springer.com/article/10.1007/s00330-026-12667-5 | verworfen |
+| 17 | D | Internationaler Währungsfonds (Adrian, T., Dabla-Norris, E., Nguyen, A. D. M. & Zhao, Y.), *Global Economic and Financial Implications of Artificial Intelligence*, IMF Notes 2026/002 | https://www.elibrary.imf.org/view/journals/068/2026/002/article-A001-en.xml | verworfen |
+| 18 | C | Korea JoongAng Daily (Chea, S.), *Korea weighs 'robot tax' as AI-driven job losses loom*, 6. Mai 2026 | https://www.koreajoongangdaily.com/business/korea-weighs-robot-tax-as-ai-driven-job-losses-loom/12609970 | verworfen |
+| 19 | B | markt-und-mittelstand.de, *34 Reformen beschlossen: Das Koalitionspaket 2026 im Wortlaut*, 2. Juli 2026 | https://www.marktundmittelstand.de/politik/reformpaket-im-wortlaut | verworfen |
+| 20 | B | US-Repräsentantenhaus, *AI Tax Integrity Act of 2026*, H.R. 9501, Ausschussbericht vom 8. September 2026 | https://www.govinfo.gov/app/details/BILLS-119hr9501rh | verworfen |
+| 21 | J | International Federation of Robotics, *World Robotics 2026* | https://ifr.org/worldrobotics | verworfen |
+| 22 | I | arXiv 2609.18161, *Why a Non-Discriminatory Royalty Surcharge Is Not Chip-Neutral: The Error in FTC v. Qualcomm*, 16. September 2026 | https://arxiv.org/abs/2609.18161 | verworfen |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art | Inhalt in einem Satz | Quelle # |
+|---|-----------|-----|----------------------|----------|
+| 1 | § 3.1 | Ergänzung | Die RAND-Durchsicht des gesamten US-Bundessteuerkodex benennt mit dem Arbeitgeberanteil der Lohnsummensteuer und der vorgezogenen Abschreibung langlebiger Wirtschaftsgüter erstmals die einzelnen Vorschriften, die den 2020 von Acemoglu, Manera und Restrepo modelltheoretisch gezeigten Automatisierungsvorteil erzeugen; die begleitende Szenarienrechnung beziffert die Aufkommensseite (84 Prozent des US-Bundesaufkommens 2024 aus arbeitsbezogenen Steuern, Verdopplung des Körperschaftsteuersatzes als Paritätsbedingung, Deflationskanal bei Bepreisung zu Inferenzkosten) — mit ausdrücklicher Eingrenzung der Übertragbarkeit auf Deutschland | 1, 2, 3 |
+| 2 | § 5.1 | Ergänzung | Die von Price und Wenger vorgeschlagene progressive Körperschaftsteuer auf den Gewinn je Beschäftigten wird als spiegelbildliche Konstruktion zur Substitutionsvariante der Wertschöpfungsabgabe eingeordnet — gleiche Abgrenzungsfestigkeit, entgegengesetzte Anreizrichtung —, ausdrücklich außerhalb der fünf Typen des § 2.1 geführt und um die vier weiteren Aufkommensinstrumente ergänzt | 1, 2 |
+| 3 | § 9.3 | Ergänzung | Zwei gegenläufige Präzisierungen der Arbitragefrage: die instrumentenabhängige Umsetzungshürde samt der von den Autoren selbst benannten Kapitalmobilitäts-Einschränkung, und die Teilbarkeit der Inferenzschicht, die standortbezogene Steuertatbestände umgehbar macht, zugleich aber die europäische Anschlussfähigkeit der Betriebsebene verbessert — beides stützt den Vorrang der wertschöpfungsbezogenen Zugriffslogik nach § 8.3 | 1, 2, 4 |
+| 4 | § 1.1 | Aktualisierung | Trackerstände zum 19. September 2026 aus Direktabruf aller drei Zählwerke mit mitgeführten Zähldefinitionen; neuer Flussbefund: Der Tageszuwachs von 7.114 Streichungen bei *AskTheRecruiter* ist vollständig ohne KI-Zuschreibung erfolgt, die drei KI-Kennzahlen stehen still | 5, 6, 7 |
+| 5 | § 11.1 | Ergänzung | Zwei neue Einträge (Price & Wenger 2026; Price & Suresh 2026 nebst Vorfassung 2025) mit vollständiger Wiedergabe der sechs Gestaltungsoptionen und der von den Autoren benannten Einschränkungen | 2, 3 |
+| 6 | § 11.5 | Ergänzung | Zwei neue Einträge (RAND-Interviewfassung als journalistische Aufbereitung; Rechenzentrums-Berichterstattung mit Prüfvermerk nach § 2.4.4 `Validierung.md`) | 1, 4 |
+| 7 | § 11.5 | Aktualisierung | Drei bestehende Trackereinträge um den Stand 19. September 2026 erweitert, einschließlich der bei diesem Abruf erstmals ausgelesenen Zähldefinition von *SkillSyncer*, der Gebietsabdeckung von *AskTheRecruiter* und einer weiteren internen Unstimmigkeit desselben Zählwerks; die früheren Stände bleiben vollständig erhalten | 5, 6, 7 |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 15 | Cuocolo & Huisman, *The augmentation myth* (European Radiology) | G | außerhalb Zeitfenster — die Druckausgabe trägt zwar das Heft September 2026, die elektronische Erstveröffentlichung datiert jedoch auf den 22. April 2026 und liegt damit außerhalb des 7-Tage-Fensters |
+| 16 | Fahrni & Rotzinger, Leserbrief nebst Erwiderung (European Radiology) | G | außerhalb Zeitfenster — elektronische Erstveröffentlichung 29. Mai 2026; für einen späteren Lauf vorgemerkt, falls das Thema wieder aufgegriffen wird |
+| 17 | IWF, *Global Economic and Financial Implications of Artificial Intelligence*, IMF Notes 2026/002 | D | außerhalb Zeitfenster (3. April 2026). **Inhaltlich vorgemerkt:** Der Internationale Währungsfonds kommt im Hauptdokument bislang nicht vor, obwohl die Arbeit die Erosion der Arbeitsteuerbasis und die Anpassungsbedürftigkeit der Steuersysteme ausdrücklich behandelt — eine Lücke in der institutionellen Perspektive, die in einem Folgelauf unabhängig vom Zeitfenster geschlossen werden sollte |
+| 18 | Korea JoongAng Daily, *Korea weighs 'robot tax'* | C | außerhalb Zeitfenster (6. Mai 2026); die dort referierten drei Modelle des National Assembly Futures Institute wären inhaltlich einschlägig und sind für einen Folgelauf vorgemerkt |
+| 19 | markt-und-mittelstand.de, Koalitionspaket 2026 | B | außerhalb Zeitfenster (2. Juli 2026) |
+| 20 | H.R. 9501, *AI Tax Integrity Act of 2026* | B | außerhalb des Recherchekorridors — der Titel legt eine KI-Besteuerung nahe, der Regelungsgehalt betrifft jedoch ausschließlich den Einsatz Künstlicher Intelligenz durch die US-Steuerbehörde zur Aufdeckung von Steuerbetrug und damit nicht die Besteuerung von KI |
+| 21 | IFR, *World Robotics 2026* | J | außerhalb Zeitfenster — Veröffentlichung ist für den 24. September 2026 angekündigt; für den Lauf nach diesem Termin vorgemerkt |
+| 22 | arXiv 2609.18161 (Qualcomm-Lizenzaufschlag) | I | Quellenniveau und Reichweite ausreichend, aber ohne Bezug zu Arbeitsmarkt, Sozialversicherung oder KI-Besteuerung — kartellrechtliche Einzelfrage ohne Anschluss an den Korridor |
+| — | Aggregatorseiten zu Modellveröffentlichungen (llm-stats.com, digitalapplied.com, promptzone.com, local-ai-zone.github.io) | I | Quellenniveau — Sekundäraggregation ohne benannte Primärquelle, fällt unter die Negativliste des Clusters I |
+| — | Bitkom-, acatech- und Fraunhofer-Veröffentlichungen zu KI-Souveränität | H | sämtlich außerhalb Zeitfenster; kein Treffer zwischen dem 12. und 19. September 2026 |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument: Ja (Abgleich gegen das Literaturverzeichnis sowie gegen die Quellenlisten der Läufe seit dem 13. September 2026; sieben Treffer als Dublette ausgeschieden)
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 19. September 2026" in `Validierung-Ergebnisse.md`; zwei Fehler gefunden und behoben, Nachprüfung bestanden)
+- PDF erstellt (`build_pdf.py`): Ja
+- Word erstellt (`build_docx.py`): Ja
+- Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (98.0 → 99.0 an allen vier Stellen)
+- E-Mail-Benachrichtigung versendet: Nein — kein Versandwerkzeug in der Sitzung erreichbar; Inhalt als `daily-mail.txt` im Repo-Root abgelegt (siehe Auffälligkeiten)
+- WhatsApp-Benachrichtigung versendet: Nein — kein Versandwerkzeug in der Sitzung erreichbar; Zusammenfassung als `daily-whatsapp.txt` im Repo-Root abgelegt (siehe Auffälligkeiten)
+- Branch auf main gemerged und gelöscht: Ja
+
+### Auffälligkeiten / offene Punkte
+
+- **Erstmals ein Flussbefund statt einer Bestandsquote.** Die Kausalattributionsfrage (§ 9.1) ist bislang stets als *Bestandsquote* diskutiert worden — welcher Anteil der kumulierten Streichungen Künstlicher Intelligenz zugeschrieben wird. Der heutige Abgleich macht sie erstmals als Flussgröße sichtbar: Ein Zugang von 7.114 Streichungen an einem Tag geht mit einem Zuwachs von null bei allen drei KI-Kennzahlen desselben Zählwerks einher. Für einen an der Verdrängung anknüpfenden Steuertatbestand ist das die schärfere Größe, weil sie die Frage der zeitnahen Erfassbarkeit der Bemessungsgrundlage betrifft. Ob es sich um ein Zuschreibungsdefizit oder um einen tatsächlich KI-freien Zugang handelt, lässt sich aus den Trackerdaten nicht entscheiden; die Beobachtung ist über mehrere Läufe fortzuschreiben, bevor daraus eine Aussage abgeleitet wird.
+- **Belegtiefe der Rechenzentrums-Angaben eingeschränkt.** Die Originalfassungen von *CNBC*, *Quartz* und *Invezz* haben beim Direktabruf mit Statuscode 403 geantwortet (Zugriffssperre, kein toter Link). Die Angaben beruhen deshalb auf übereinstimmenden Inhaltszusammenfassungen dreier unabhängig erreichter Fundstellen. Das ist für die gezogene qualitative Folgerung tragfähig, nicht aber für eine Weiterverwendung der Megawattzahlen als eigenständige Kennzahl; der Sachverhalt ist mit einem Prüfvermerk nach § 2.4.4 `Validierung.md` versehen und für eine Volltextprüfung vorgemerkt.
+- **Zwei inhaltliche Lücken sind in diesem Lauf sichtbar geworden und sollten unabhängig vom Zeitfenster geschlossen werden:** erstens die vollständig fehlende Rezeption des Internationalen Währungsfonds, obwohl dessen Arbeit vom April 2026 die Erosion der Arbeitsteuerbasis ausdrücklich behandelt; zweitens die drei vom südkoreanischen National Assembly Futures Institute vorgeschlagenen Modelle (fiktive Einkommensbesteuerung robotischer Arbeit, Übergewinnbesteuerung, Nutzungsbesteuerung nach Abfragevolumen oder Rechenzyklen), die eine unmittelbare Ergänzung zu § 2.1 und § 6.1 wären.
+- **Der Recherchekorridor hat in sieben von zehn Clustern keinen Treffer im Zeitfenster geliefert.** Das ist der zweite Lauf in Folge mit dieser Verteilung. Wenn sich das Muster fortsetzt, wäre zu prüfen, ob die Zeitfenster einzelner Cluster (insbesondere C, G, H und J, die naturgemäß in längeren Takten veröffentlichen) in `Suchthemen.md` von sieben auf vierzehn Tage zu erweitern sind. Eine Änderung ist in diesem Lauf **nicht** vorgenommen worden, weil sie die Vergleichbarkeit mit den Vorläufen berührt.
+- **Benachrichtigung nur als Fallback.** Empfänger für beide Kanäle waren über die Routine-Anweisung konfiguriert; in der laufenden Sitzung war jedoch weder ein Werkzeug zum Versand einer Microsoft-Graph-/Outlook-Nachricht noch ein Werkzeug des `whatsapp`-Servers erreichbar. Nach Phase 5b Schritt 2 sind die vorbereiteten Texte deshalb als `daily-mail.txt` und `daily-whatsapp.txt` im Repo-Root abgelegt worden; beide Dateien sind über `.gitignore` vom Versionsstand ausgenommen und enthalten keine im Repository versionierten Empfängerangaben. Der Versandfehler ist nach Phase 5b Schritt 3 weich behandelt worden und hat den Merge auf `main` nicht verhindert.
+- **Keine eskalationspflichtigen Treffer.** Kein Treffer dieses Laufs berührt Kapitelstruktur, Kernaussage der Deutschland-These, Autorenname oder Lizenz (§ 4.5 Claude.md). Die einzige Stelle mit Berührungspotenzial — die Gewinnprogression je Beschäftigten, die sich in keinen der fünf Typen des § 2.1 einfügt — ist bewusst *außerhalb* der Typologie referiert worden, um den geschützten Zähler „fünf Typen" nicht zu verändern.
+
+---
+
 ## 2026-09-18 — Lauf 001 — Version 97.0 → Version 98.0
 
 ### Recherchekorridor
