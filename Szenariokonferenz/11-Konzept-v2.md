@@ -194,7 +194,19 @@ Jede Karte mit Zahlenwert trägt `einheit` als Aufzählungswert (`prozent` · `p
 
 Zehn Rechercheure ohne Stimmrecht liefern je ein Faktenblatt (`14-Roster-2031.md` Teil 1). Drei Lieferungen sind für alles Weitere verbindlich:
 
-**(0a) Bezugsgrößen als disjunkte Zerlegung.** R03 liefert für jedes der hundert Felder die Bezugsgruppe in Vollkräften mit Fundstelle — und zwar so, dass **jede Vollkraft genau einem Feld zugeordnet ist**. Das ist mehr als eine Zahlenliste: Wo zwei Rollen über dieselben Menschen sprechen (der Pflegedirektor in Bank A und die Intensivpflegekraft in Bank C, die Hausärztin in Bank B und der Verband in Bank F), weist R03 die Vollkräfte **einem** Feld als `primaer` zu und dem anderen als `geteilt mit <Feld>`. In die addierte Gesamtsumme gehen nur `primaer`-Felder ein; `geteilt`-Felder liefern ihr Urteil, aber kein Gewicht. Wo keine amtliche Zahl existiert, gilt `unbekannt`.
+**(0a) Bezugsgrößen als disjunkte Zerlegung.** R03 liefert für jedes der hundert Felder die Bezugsgruppe in Vollkräften mit Fundstelle — und zwar so, dass **jede Vollkraft genau einem Feld zugeordnet ist**.
+
+**Erst der Rahmen, dann die Unterteilung.** Maßgeblich ist die **Einrichtungsgliederung der Gesundheitspersonalrechnung** des Statistischen Bundesamtes: Sie zerlegt das gesamte Gesundheitspersonal in siebzehn Einrichtungsarten und weist dazu Vollzeitäquivalente aus. Krankenhaus- und Pflegestatistik unterteilen **innerhalb** einer Einrichtungsart weiter; ihre Summe darf deren Rahmenwert nicht überschreiten. In Sitzung A ist R03 den umgekehrten Weg gegangen und hat sich auf die Sektorstatistiken gestützt, die nur ihren eigenen Sektor zerlegen — Ergebnis waren sieben von hundert Feldern und 42 % Deckung; die Reparatur über den richtigen Rahmen brachte sechzehn Felder und 48,9 % (`17-Sitzung-A.md` § 3.1, `23-Teil-1-Deutschland.md` § 3). Die Vorgabe des Rahmens ist deshalb Teil des Auftrags, keine Empfehlung.
+
+**Mandatsreichweite ist nicht Bezugsgruppe.** Wofür ein Feld zuständig ist, sagt nicht, für wie viele Menschen es spricht. Eine Kassenärztliche Vereinigung hat einen Sicherstellungsauftrag über die gesamte vertragsärztliche Versorgung und einen Personalkörper von rund viertausend Vollkräften; ein Spitzenverband vertritt Millionen Versicherte und hat ein Haus mit fünfhundert Stellen. In Sitzung A hat die Zuordnung sechs Feldern die ganze Einrichtungsart zugewiesen, im Extremfall um den Faktor 339 zu groß, und die Zentraltabelle damit um mehr als die Hälfte überzeichnet (`23-Teil-1-Deutschland.md` § 3). Maßgeblich ist, **über wessen Arbeitszeit die Rolle rechnet**, nicht, worüber sie entscheidet.
+
+**Gegenwerte sind nicht addierbar.** Die Bezugsgruppen, die Rollen ersatzweise selbst benennen, überlappen einander und die primären Felder — das ist bei `geteilt`-Feldern so gewollt. In Sitzung A nannten 32 der 84 nicht-primären Felder einen eigenen Wert; ihre Summe von 2,44 Mio VZÄ zusammen mit der primären Summe übersteigt den amtlichen Rahmen um rund 194.000 Vollkräfte. Die Zentraltabelle lässt sich deshalb **nicht** dadurch vergrößern, dass man die Gegenwerte hinzunimmt: Jeder muss einzeln gegen den Rahmen disjunkt gemacht werden, sonst entsteht Doppelzählung.
+
+**Die Gegenwerte der Rollen sind der Zuordnung vorzulegen.** Wo Rollen ihre Bezugsgröße bestreiten und einen belegten Gegenwert nennen, ist diese Sammlung vollständig in den Auftrag der nächsten Zuordnung einzuspeisen — nicht erst nachgelagert zu prüfen. In Sitzung A lagen 95 solcher Gegenwerte vor, mit Fundstelle, und keiner davon wurde der Reparatur vorgelegt. Die Information war da und belegt; sie wurde nicht gelesen.
+
+**Die Prüfung der Zuordnung prüft beide Richtungen.** Eine Zuordnung kann den Rahmen überschreiten — das findet eine Summenprobe. Sie kann aber auch das Feld überschreiten, ohne den Rahmen zu berühren, indem sie einer Rolle genau die Einrichtungsart zuweist, in der sie sitzt. Danach ist ausdrücklich zu fragen, sonst bleibt der teurere der beiden Fehler unsichtbar.
+
+**Eine Bezugsgröße von null wird nie an eine Rolle weitergereicht.** Die Anweisung »rechne einen Prozentwert gegen null« ist nicht erfüllbar, und zwei Modelle lösen sie verschieden auf — in Sitzung A hat genau das die Modellabhängigkeit gerissen, die Hälfte der gesetzten Prüffehler unwirksam gemacht und die Zentraltabelle verhindert (`17-Sitzung-A.md` § 3). Für Felder mit `zuordnung: unbekannt` lautet der Auftrag deshalb ausdrücklich anders: *Für dein Feld weist die amtliche Statistik keine Vollzeitäquivalente aus. Nenne P3 als Prozentwert gegen eine von dir selbst benannte und belegte Bezugsgruppe, benenne diese Bezugsgruppe im Feld `bezugsgruppe_eigen`, und lass die absolute Vollkräftezahl leer.* Eine leere absolute Zahl ist eine Auskunft; eine Null ist eine falsche. Das ist mehr als eine Zahlenliste: Wo zwei Rollen über dieselben Menschen sprechen (der Pflegedirektor in Bank A und die Intensivpflegekraft in Bank C, die Hausärztin in Bank B und der Verband in Bank F), weist R03 die Vollkräfte **einem** Feld als `primaer` zu und dem anderen als `geteilt mit <Feld>`. In die addierte Gesamtsumme gehen nur `primaer`-Felder ein; `geteilt`-Felder liefern ihr Urteil, aber kein Gewicht. Wo keine amtliche Zahl existiert, gilt `unbekannt`.
 
 Ausgewiesen wird zu jeder Summe dreierlei: wie viele Felder sie deckt, wie viele Vollkräfte das sind — und **der Rest**, also die Vollkräfte im deutschen Gesundheitswesen, die kein Feld dieses Rosters abdeckt. Ohne diese drei Angaben ist eine addierte VZÄ-Zahl eine Behauptung über ein Ganzes, von dem niemand weiß, wie viel davon gemessen wurde.
 
@@ -205,21 +217,27 @@ Ausgewiesen wird zu jeder Summe dreierlei: wie viele Felder sie deckt, wie viele
 3. Die addierte Gesamtsumme wird in diesen Feldern als **Spanne** ausgewiesen, nicht als Zahl.
 4. R03 prüft die Gegenwerte nach dem Lauf einmal gesammelt; wo die Rolle recht hat, wird die Zerlegung für den nächsten Lauf korrigiert, nicht der laufende nachgerechnet.
 
+**(0c) Quellenprüfung der Recherchebank.** Zehn Aufrufe, je einer pro Faktenblatt, **vor** der Rollenrunde. Geprüft wird jede Kennzahl auf Existenz, Deckung, Stand und Abgrenzung; eine nicht abrufbare Quelle gilt als weder belegt noch widerlegt und wird gesondert ausgewiesen.
+
+Der Grund ist eine Lücke in der Validierung: Die Prüfinstanz der Runde 1b kontrolliert Rollenkarten gegen die Quellen, die **diese** angeben. Ein Fehler aus einem Faktenblatt erscheint auf jeder Karte als korrekt zitierte Quelle und ist dort nicht auffindbar — er sitzt gleichzeitig in so vielen Karten, wie das Blatt Leser hatte. In Sitzung A waren das bis zu neunzehn (`21-Quellenpruefung.md`). Zehn Aufrufe, die hundert Karten absichern, sind die billigste Stelle des ganzen Verfahrens.
+
 **(0b) Zwei Szenariogerüste statt einem.** R08 legt mit R01 und R05 **zwei** ausdrücklich gegensätzliche Rahmen für 2031 fest — je mit BIP-Pfad, Erwerbspersonenpotenzial, Beitragssatzkorridor, Tarifentwicklung, Zinsniveau und dem Stand von EU AI Act, MDR, EHDS und Krankenhausreform:
 
 - **Gerüst A — Fortschreibung:** die amtlichen Projektionen treten ein, die Krankenhausreform wird wie beschlossen umgesetzt, der Rechtsrahmen gilt zum angekündigten Termin.
 - **Gerüst B — Gegenwelt:** schwächeres Wachstum, schnellerer Beitragssatzanstieg, verzögerter Vollzug des EU-Rechts, Krankenhausreform in Teilen gescheitert oder landesweise auseinanderlaufend.
 
-Die hundert Rollen werden hälftig zugeteilt — aber **nicht nach derselben Regel wie die Anker-Randomisierung**. Beide an die ID-Parität zu hängen, hieße Anker und Gerüst vollständig zu konfundieren: Zeigte die B-Hälfte höhere Werte, wäre nicht entscheidbar, ob das am Gerüst oder am Anker liegt, und die Gerüstabhängigkeit wäre als Maß wertlos. Stattdessen ein gekreuzter Plan nach dem Zahlenteil der ID modulo vier:
+Die hundert Rollen werden hälftig zugeteilt — aber **nicht nach derselben Regel wie die Anker-Randomisierung**. Beide an die ID-Parität zu hängen, hieße Anker und Gerüst vollständig zu konfundieren: Zeigte die B-Hälfte höhere Werte, wäre nicht entscheidbar, ob das am Gerüst oder am Anker liegt, und die Gerüstabhängigkeit wäre als Maß wertlos. Stattdessen ein gekreuzter Plan nach dem **laufenden Index über alle hundert Rollen** modulo vier — nicht nach dem Zahlenteil der ID:
 
 | Rest | Anker | Gerüst |
 |---|---|---|
-| 1 | Substitutionsevidenz zuerst | A |
-| 2 | Gegenevidenz zuerst | A |
-| 3 | Substitutionsevidenz zuerst | B |
-| 0 | Gegenevidenz zuerst | B |
+| 0 | Substitutionsevidenz zuerst | A |
+| 1 | Gegenevidenz zuerst | A |
+| 2 | Substitutionsevidenz zuerst | B |
+| 3 | Gegenevidenz zuerst | B |
 
-Damit sind bei hundert Rollen alle vier Zellen mit rund 25 besetzt, und Anker- und Gerüstwirkung lassen sich getrennt schätzen. **Die Differenz der Pflichtgrößen zwischen beiden Hälften ist damit eine gemessene Größe** (§ 6, *Gerüstabhängigkeit*) und kein blinder Fleck. Ein einziges Gerüst hätte alle hundert Rollen in denselben Weltannahmen gleichgerichtet: Wäre eine Annahme falsch, irrte das Panel geschlossen und ohne Streuung — also in genau der Form, die im ersten Lauf als Konsens missdeutet worden wäre. Wer auch von seinem zugeteilten Gerüst abweichen will, legt zusätzlich eine `bedingung`-Karte darauf.
+Damit sind alle vier Zellen mit **exakt 25** besetzt, und Anker- wie Gerüstwirkung lassen sich getrennt schätzen.
+
+**Warum der laufende Index und nicht die ID.** Die Bänke sind unterschiedlich groß, und die Nummerierung beginnt in jeder Bank wieder bei 01. Eine Bank mit sechs Rollen liefert die Reste 1, 2, 3, 0, 1, 2 — also viermal A und zweimal B. Über alle vierzehn Bänke summiert sich das: Beim Zuschnitt aus `14-Roster-2031.md` ergäbe die ID-Regel **57 zu 43** statt 50 zu 50, und Gerüst A bekäme systematisch mehr Rollen aus kleinen Bänken. Damit wäre die Gerüstabhängigkeit mit der Bankgröße konfundiert — derselbe Fehler wie beim Anker, nur subtiler. Der laufende Index über die nach ID sortierte Gesamtliste behebt das und balanciert zugleich innerhalb jeder Bank. **Die Differenz der Pflichtgrößen zwischen beiden Hälften ist damit eine gemessene Größe** (§ 6, *Gerüstabhängigkeit*) und kein blinder Fleck. Ein einziges Gerüst hätte alle hundert Rollen in denselben Weltannahmen gleichgerichtet: Wäre eine Annahme falsch, irrte das Panel geschlossen und ohne Streuung — also in genau der Form, die im ersten Lauf als Konsens missdeutet worden wäre. Wer auch von seinem zugeteilten Gerüst abweichen will, legt zusätzlich eine `bedingung`-Karte darauf.
 
 **(0c) Gegenwartswerte** mit Fundstelle, Erhebungsdatum und ausdrücklich benannten Lücken, je Domäne.
 
@@ -242,7 +260,15 @@ Gestrichen gegenüber Version 1: V1, V2, V3, V6, V7, V13, V14. Keine Rolle schä
 
 ### Runde 1b — Validierung
 
-Unverändert aus `06-Validierung.md`, aber auf Kartenebene: Existenz der Quelle, Deckung der Aussage, Mandatstreue, fachliche Plausibilität. Neu hinzu für `pflichtgroesse`-Karten: **Rechenweghaltbarkeit** — der genannte Rechenweg muss den genannten Wert aus der genannten Bezugsgröße reproduzieren. Für `einwand`-Karten: trägt die Rettungsbedingung, oder ist der Zug leer (§ 4.1)? Der Prüfauftrag muss dabei den **Pflichtteil vom Freitext trennen**: P1 bis P5 sind von jeder Rolle verbindlich zu beantworten und deshalb nie ein Mandatsbruch, auch wenn sie über das engste Fachgebiet hinausreichen. Ohne diesen Hinweis beanstandet die Prüfinstanz die Pflichtfragen selbst — zweimal geschehen in der Mechanikprobe (`15-Mechanikprobe.md` § 5a). Kleines Modell. **Gefiltert wird je Karte, nie je Rolle:** Zurückgewiesene Einzelkarten scheiden aus der Weiterverarbeitung aus, alle übrigen Karten derselben Rolle bleiben im Verfahren, und die Rolle selbst bleibt in jedem Fall stimmberechtigt. Zurückgewiesene Karten und Leerzüge bleiben auf der Tafel sichtbar.
+Unverändert aus `06-Validierung.md`, aber auf Kartenebene: Existenz der Quelle, Deckung der Aussage, Mandatstreue, fachliche Plausibilität. Neu hinzu für `pflichtgroesse`-Karten: **Rechenweghaltbarkeit** — der genannte Rechenweg muss den genannten Wert aus der genannten Bezugsgröße reproduzieren. Für `einwand`-Karten: trägt die Rettungsbedingung, oder ist der Zug leer (§ 4.1)? Der Prüfauftrag muss dabei den **Pflichtteil vom Freitext trennen**: P1 bis P5 sind von jeder Rolle verbindlich zu beantworten und deshalb nie ein Mandatsbruch, auch wenn sie über das engste Fachgebiet hinausreichen. Ohne diesen Hinweis beanstandet die Prüfinstanz die Pflichtfragen selbst — zweimal geschehen in der Mechanikprobe (`15-Mechanikprobe.md` § 5a). **Die Begründungspflicht für D über 1,0 ist zu prüfen.** § 3 verlangt sie: Wer einen Durchgriff über 1,0 angibt, behauptet, dass mehr Personalbedarf verschwindet als Arbeitszeit frei wird, und muss den Mechanismus nennen — Standortschließung, Konsolidierung, Skaleneffekt. In Sitzung A hatten **elf Rollen D über 1,0 und nur zwei davon eine erkennbare Begründung**. Die Prüfinstanz hat das nicht beanstandet, weil es nicht in ihrem Auftrag stand. Die Prüfung ist aufzunehmen: D aus P1, P2, P3 und P3₀ nachrechnen, und bei Werten über 1,0 den Mechanismus im Rechenweg verlangen.
+
+**Fünfte Prüfung: Quellenunabhängigkeit.** Die vier bisherigen Prüfungen fragen, ob eine Quelle existiert, ob sie die Aussage trägt, ob die Rolle in ihrem Mandat bleibt und ob der Rechenweg aufgeht. Keine fragt, **ob die Quelle ein Interesse an der Aussage hat**. Genau daran ist in Sitzung A eine Karte durchgegangen, deren Prognose zu vier Fünfteln auf Veröffentlichungen der Organisation beruhte, deren Wachstum sie vorhersagt (`22-Teil-0-Gueltigkeit.md`).
+
+Die Prüfinstanz weist deshalb je Karte aus, wie viele Befunde auf einer Quelle stehen, die die **eigene Interessenvertretung** des Feldes ist — Verband, Kammer, Selbstverwaltungskörperschaft oder Unternehmen desselben Feldes. Ab **der Hälfte der Befunde** wird die Karte als `interessengestützt` gekennzeichnet. Die Kennzeichnung ist **keine Zurückweisung**: Eine Kammer ist oft die einzige Stelle, die eine Zahl über ihr Feld überhaupt erhebt. Sie ist ein Lesehinweis und macht aus einem Verdacht eine Zahl.
+
+**Jeder gesetzte Fehler ist vor dem Setzen auf Wirksamkeit zu prüfen.** Ein Fehler, der den Wert nicht verändert, misst nicht die Prüfinstanz, sondern verdirbt ihre Messung: In Sitzung A vervierfachten zehn der vierzig gesetzten Fehler eine Null und entstanden deshalb nie, was die Prüfschärfe von tatsächlich 97 % auf scheinbar 80 % drückte — genau auf die Abbruchschwelle (`17-Sitzung-A.md` § 3.2). Die Regel lautet: Wert vor und nach der Verfälschung vergleichen; sind sie gleich, wird der Fehler auf eine andere Karte gesetzt und nicht mitgezählt.
+
+Kleines Modell. **Gefiltert wird je Karte, nie je Rolle:** Zurückgewiesene Einzelkarten scheiden aus der Weiterverarbeitung aus, alle übrigen Karten derselben Rolle bleiben im Verfahren, und die Rolle selbst bleibt in jedem Fall stimmberechtigt. Zurückgewiesene Karten und Leerzüge bleiben auf der Tafel sichtbar.
 
 Eine Rolle fällt nur dann ganz aus der Auswertung, wenn **alle sechs Pflichtgrößen** zurückgewiesen sind — dann fehlt ihr die gemeinsame Sprache. Wie oft das eintritt, ist auszuweisen; in der Mechanikprobe wäre es null von zehn Mal gewesen.
 
@@ -266,6 +292,8 @@ Besetzt werden zuerst **vierzehn Plätze, einer je Bank** (die Rolle mit dem hö
 
 Die dreißig sitzen in **fünf Gruppen à sechs, quer zu den Bänken** geschnitten: in jeder Gruppe eine Leistungserbringer-, eine Kostenträger-, eine Aufsichts-, eine Arbeitnehmer- und eine gesamtwirtschaftliche Perspektive. Die Gruppenleitung clustert die validierten Karten und formuliert daraus **die Streitfrage der Gruppe** — sie wird nicht vorgegeben, sie wird gefunden. Dann zwei Kartenzüge je Rolle mit den Pflichtzügen aus § 2 Regel 4.
 
+**Beide Züge einer Rolle entstehen in einem Aufruf**, nicht in zweien. Das halbiert die teuerste Einzelposition der Runde und hat einen Nebeneffekt, der auszuweisen ist: Die Rolle sieht beim Formulieren des zweiten Zuges ihren ersten. Das verhindert, dass beide dieselbe Karte mit demselben Argument treffen — und mindert zugleich ihre Unabhängigkeit voneinander. Für die Einwandhaltbarkeit, die je Zug gemessen wird, ändert sich nichts.
+
 **Die siebzig Nichtdiskutierenden sind nicht ausgeschlossen.** Ihre Karten aus Runde 1 liegen auf der Tafel und dürfen angegriffen werden; wer angegriffen wurde, antwortet in Runde 3, die er ohnehin durchläuft. Die Diskussion ist damit kein geschlossener Kreis, sondern eine Verdichtung.
 
 Jede Gruppe schließt mit einem `dissens`-Eintrag je offenem Streitpunkt, der drei Dinge benennt: die beiden unvereinbaren Karten, welche Bänke sich gegenüberstehen, und **die Entscheidungsgröße** — was man messen müsste, um den Streit zu beenden. Letzteres ist der eigentliche Ertrag der Runde: Nicht die Einigung, sondern die Benennung dessen, woran die Uneinigkeit hängt.
@@ -281,6 +309,8 @@ Alle hundert Rollen sehen jetzt sämtliche Dissens-Einträge, die Einwände gege
 Ein eigenes Plenum entfällt. Es hätte dasselbe geleistet und hundert Aufrufe zusätzlich gekostet — die Kreuztischwirkung entsteht hier dadurch, dass jede Rolle die Dissenspunkte *aller* fünf Gruppen vor sich hat.
 
 Eine `beschluss`-Karte entsteht am Ende dieser Runde, wenn eine Position keinen unbeantworteten Einwand mehr trägt. Sie führt das Stimmenverhältnis und die Gegenstimmen namentlich. Eine Position, die nie angegriffen wurde, wird **nicht** zum Beschluss — sie bleibt Position, und das Dashboard weist sie als ungeprüft aus.
+
+**P1 wird ankerbereinigt berichtet.** Die Reihenfolge der Fragen bewegt P1 messbar: Rollen, die zuerst nach Substitution gefragt wurden, nannten in Sitzung A 44 %, Rollen mit der umgekehrten Reihenfolge 38 % — 0,33 Panel-IQR. Der gekreuzte Aufbau neutralisiert das im Panelwert, sofern P1 als **Mittel der beiden Ankerhälften** berichtet wird und nicht als Median über alle. Dazu gehört die Angabe der Methodenunsicherheit von rund **±3 Punkten**; P1 ist keine Punktzahl. Für die übrigen Pflichtgrößen war der Effekt null (`17-Sitzung-A.md` § 2).
 
 Gezählt wird pro Pflichtgröße: Median, Interquartilsabstand, **gewichtet nach Bezugsgruppe und ungewichtet nebeneinander** — und zwar für beide Erhebungen getrennt, je Bank und über das ganze Panel. Zusätzlich ausgewiesen werden das Produkt P1 × P2, der bis 2031 tatsächlich automatisierte Arbeitszeitanteil, und der Durchgriff **D**, der beide Teile verbindet. P1 × P2 erlaubt den Vergleich mit externen Automatisierungsstudien; D erklärt, warum daraus kein Stellenabbau folgen muss. Beide sind für Runde 1 und Runde 3 getrennt auszuweisen — eine Bewegung in D ist die aussagekräftigste Einzelbewegung des ganzen Verfahrens, weil sie genau die Größe betrifft, die die Diskussion trägt. P3 wird zusätzlich über alle Felder mit bekannter Bezugsgröße zu einer Summe in Vollkräften aggregiert, mit ausgewiesener Abdeckung («diese Summe deckt *n* von 100 Feldern und *m* Vollkräfte»).
 
@@ -414,11 +444,12 @@ Hochgerechnet aus den gemessenen Stückkosten (1,55 USD je recherchierender Opus
 |---|---|---|
 | Runde 0 — zehn Faktenblätter, mehrere Abrufe je Blatt | 10 | 30 |
 | Runde 0 — disjunkte Bezugsgrößen, Gerüst A, Gerüst B | 3 | 9 |
+| Runde 0c — Quellenprüfung der zehn Faktenblätter, kleines Modell | 10 | 5 |
 | Runde 1 — Position, Befunde, Pflicht-, Europa- und Marktgrößen, mit Eigenrecherche | 100 | 162 |
 | Runde 1 — Modellkontrollarm, zehn Rollen auf zweitem Modell | 10 | 6 |
-| Runde 1b — Validierung mit gesetzten Fehlern, kleines Modell | 110 | 51 |
+| Runde 1b — Validierung mit gesetzten Fehlern, kleines Modell | 100 | 46 |
 | Streitauswahl nach § 5 Runde 2 | 0 (rechnerisch) | 0 |
-| Runde 2 — dreißig Rollen × zwei Kartenzüge | 60 | 60 |
+| Runde 2 — dreißig Rollen × zwei Kartenzüge | 30 | 30 |
 | Runde 2 — fünf Gruppenleitungen × Streitfrage und Dissensprotokoll | 10 | 6 |
 | Runde 3 — Pflichtgrößen zum zweiten Mal, Antwort auf Einwände | 100 | 100 |
 | Runde 3 — Modellkontrollarm | 10 | 6 |
@@ -426,11 +457,11 @@ Hochgerechnet aus den gemessenen Stückkosten (1,55 USD je recherchierender Opus
 | Runde 4 — Bewertung von Hebeln und Profilen je Rolle | 100 | 70 |
 | Runde 5 — Red Team, Synthese, Verifikation | 12 | 16 |
 | Runde 6 — Strategiepapier, mehrstufig | 6 | 20 |
-| **Summe** | **534** | **rund 545** |
+| **Summe** | **504** | **rund 515** |
 
 **Die Wanduhrzeit ist das eigentliche Problem, nicht das Geld.** Der Container hat vier CPUs, die Nebenläufigkeit liegt damit bei zwei Agenten; das ist eine Eigenschaft der Umgebung und keine des Modells.
 
-Der frühere Ansatz von drei Minuten je Aufruf ist **gemessen widerlegt**: Die Mechanikprobe brauchte für 57 Aufrufe zwei Stunden und zwei Minuten, also **4,28 Minuten je Aufruf** bei Nebenläufigkeit zwei (`15-Mechanikprobe.md` § 5b). Hochgerechnet ergeben 534 Aufrufe damit **rund 19 Stunden** statt der zuvor angesetzten 13,3. Mit der Zwischenspeicherung aus § 8 zerfällt der Lauf in drei Abschnitte von rund 8,3, 6,4 und 4,3 Stunden, die nicht an einem Stück laufen müssen.
+Der frühere Ansatz von drei Minuten je Aufruf ist **gemessen widerlegt**: Die Mechanikprobe brauchte für 57 Aufrufe zwei Stunden und zwei Minuten, also **4,28 Minuten je Aufruf** bei Nebenläufigkeit zwei (`15-Mechanikprobe.md` § 5b). Hochgerechnet ergeben 504 Aufrufe damit **rund 18 Stunden** statt der zuvor angesetzten 13,3. Mit der Zwischenspeicherung aus § 8 zerfällt der Lauf in drei Abschnitte von rund 8,3, 6,4 und 4,3 Stunden, die nicht an einem Stück laufen müssen. **Gemessen an Sitzung A**: 223 Aufrufe in 9 h 46 min, also 5,26 Minuten je Aufruf — ein Fünftel über dem Ansatz, weil die Rollen mit Eigenrecherche länger brauchen als die Probe.
 
 **Die Marktschicht kostet fast nichts.** A1 bis A3 hängen an der Runde-1-Karte, die Leistungsprofile an der Runde-4-Karte; hinzu kommt ein einziger Aufruf für ihre Ableitung. Zusammen rund 20 USD und ein Aufruf — für den Teil, der aus einem Lagebild eine Marktaussage macht. Das ist das günstigste Stück des ganzen Verfahrens.
 

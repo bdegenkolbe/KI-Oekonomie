@@ -164,6 +164,17 @@ for datei, txt in (("11-Konzept-v2.md", K), ("14-Roster-2031.md", R)):
         fehler.append(f"{datei}: Ger\u00fcstzuteilung nennt keinen von der Ankerparit\u00e4t getrennten Plan")
 if "ungerade IDs rechnen gegen" in K + R:
     fehler.append("Ger\u00fcst h\u00e4ngt weiterhin an der ID-Parit\u00e4t - konfundiert mit dem Anker")
+if "laufenden Index" not in K or "laufenden Index" not in R:
+    fehler.append("Zuteilung nennt nicht den laufenden Index - ID-Regel waere mit der Bankgroesse konfundiert")
+import json as _j, os as _os
+_rp = SZ + "rohdaten/roster.json"
+if _os.path.exists(_rp):
+    _r = _j.load(open(_rp, encoding="utf-8"))["rollen"]
+    from collections import Counter as _C
+    _z = _C((x["geruest"], x["anker_reihenfolge"]) for x in _r)
+    print("Roster-Zellen:", dict(_z))
+    if len(_r) != 100: fehler.append(f"roster.json hat {len(_r)} Rollen")
+    if set(_z.values()) != {25}: fehler.append(f"Zellen nicht 25/25/25/25: {dict(_z)}")
 
 print("\n=== BEFUNDE (erweitert) ===")
 

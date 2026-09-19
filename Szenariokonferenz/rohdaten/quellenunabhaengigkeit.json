@@ -1,0 +1,1002 @@
+[
+ {
+  "id": "A01",
+  "bank": "A",
+  "befunde": 5,
+  "eigen": 1,
+  "anteil": 0.2,
+  "interessengestuetzt": false,
+  "p3": -2.1,
+  "p3_null": 2.5
+ },
+ {
+  "id": "A02",
+  "bank": "A",
+  "befunde": 5,
+  "eigen": 2,
+  "anteil": 0.4,
+  "interessengestuetzt": false,
+  "p3": -1.7,
+  "p3_null": 6.5
+ },
+ {
+  "id": "A03",
+  "bank": "A",
+  "befunde": 5,
+  "eigen": 1,
+  "anteil": 0.2,
+  "interessengestuetzt": false,
+  "p3": 1,
+  "p3_null": 5
+ },
+ {
+  "id": "A04",
+  "bank": "A",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -6,
+  "p3_null": 22
+ },
+ {
+  "id": "A05",
+  "bank": "A",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 2,
+  "p3_null": 18
+ },
+ {
+  "id": "A06",
+  "bank": "A",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -7.9,
+  "p3_null": -5.5
+ },
+ {
+  "id": "A07",
+  "bank": "A",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -12,
+  "p3_null": 5
+ },
+ {
+  "id": "A08",
+  "bank": "A",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 4,
+  "p3_null": 5.2
+ },
+ {
+  "id": "A09",
+  "bank": "A",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -5.9,
+  "p3_null": -3
+ },
+ {
+  "id": "A10",
+  "bank": "A",
+  "befunde": 5,
+  "eigen": 1,
+  "anteil": 0.2,
+  "interessengestuetzt": false,
+  "p3": 11,
+  "p3_null": 14
+ },
+ {
+  "id": "B01",
+  "bank": "B",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 11.7,
+  "p3_null": 19
+ },
+ {
+  "id": "B02",
+  "bank": "B",
+  "befunde": 5,
+  "eigen": 1,
+  "anteil": 0.2,
+  "interessengestuetzt": false,
+  "p3": 5,
+  "p3_null": 12
+ },
+ {
+  "id": "B03",
+  "bank": "B",
+  "befunde": 5,
+  "eigen": 1,
+  "anteil": 0.2,
+  "interessengestuetzt": false,
+  "p3": 5,
+  "p3_null": 11
+ },
+ {
+  "id": "B04",
+  "bank": "B",
+  "befunde": 5,
+  "eigen": 2,
+  "anteil": 0.4,
+  "interessengestuetzt": false,
+  "p3": 12.3,
+  "p3_null": 14
+ },
+ {
+  "id": "B05",
+  "bank": "B",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -2,
+  "p3_null": 7
+ },
+ {
+  "id": "B06",
+  "bank": "B",
+  "befunde": 5,
+  "eigen": 2,
+  "anteil": 0.4,
+  "interessengestuetzt": false,
+  "p3": -16,
+  "p3_null": 6
+ },
+ {
+  "id": "B07",
+  "bank": "B",
+  "befunde": 5,
+  "eigen": 4,
+  "anteil": 0.8,
+  "interessengestuetzt": true,
+  "p3": 3,
+  "p3_null": 19
+ },
+ {
+  "id": "B08",
+  "bank": "B",
+  "befunde": 5,
+  "eigen": 4,
+  "anteil": 0.8,
+  "interessengestuetzt": true,
+  "p3": -12,
+  "p3_null": -4
+ },
+ {
+  "id": "B09",
+  "bank": "B",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 15.2,
+  "p3_null": 19
+ },
+ {
+  "id": "B10",
+  "bank": "B",
+  "befunde": 4,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 3,
+  "p3_null": 13
+ },
+ {
+  "id": "C01",
+  "bank": "C",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 2.8,
+  "p3_null": 5
+ },
+ {
+  "id": "C02",
+  "bank": "C",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 12,
+  "p3_null": 16
+ },
+ {
+  "id": "C03",
+  "bank": "C",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -4,
+  "p3_null": 10
+ },
+ {
+  "id": "C04",
+  "bank": "C",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 9,
+  "p3_null": 11
+ },
+ {
+  "id": "C05",
+  "bank": "C",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 22,
+  "p3_null": 26
+ },
+ {
+  "id": "C06",
+  "bank": "C",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 26,
+  "p3_null": 31
+ },
+ {
+  "id": "C07",
+  "bank": "C",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 6,
+  "p3_null": 7
+ },
+ {
+  "id": "C08",
+  "bank": "C",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 50,
+  "p3_null": 50
+ },
+ {
+  "id": "D01",
+  "bank": "D",
+  "befunde": 5,
+  "eigen": 2,
+  "anteil": 0.4,
+  "interessengestuetzt": false,
+  "p3": -15,
+  "p3_null": -7
+ },
+ {
+  "id": "D02",
+  "bank": "D",
+  "befunde": 5,
+  "eigen": 2,
+  "anteil": 0.4,
+  "interessengestuetzt": false,
+  "p3": -8,
+  "p3_null": 6.5
+ },
+ {
+  "id": "D03",
+  "bank": "D",
+  "befunde": 5,
+  "eigen": 1,
+  "anteil": 0.2,
+  "interessengestuetzt": false,
+  "p3": -6,
+  "p3_null": 4
+ },
+ {
+  "id": "D04",
+  "bank": "D",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 3,
+  "p3_null": 15
+ },
+ {
+  "id": "D05",
+  "bank": "D",
+  "befunde": 5,
+  "eigen": 1,
+  "anteil": 0.2,
+  "interessengestuetzt": false,
+  "p3": -8.6,
+  "p3_null": 6
+ },
+ {
+  "id": "D06",
+  "bank": "D",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 12,
+  "p3_null": 29
+ },
+ {
+  "id": "D07",
+  "bank": "D",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 4,
+  "p3_null": 20
+ },
+ {
+  "id": "D08",
+  "bank": "D",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 4,
+  "p3_null": 26
+ },
+ {
+  "id": "D09",
+  "bank": "D",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -4,
+  "p3_null": 3
+ },
+ {
+  "id": "E01",
+  "bank": "E",
+  "befunde": 5,
+  "eigen": 1,
+  "anteil": 0.2,
+  "interessengestuetzt": false,
+  "p3": -6,
+  "p3_null": 26
+ },
+ {
+  "id": "E02",
+  "bank": "E",
+  "befunde": 5,
+  "eigen": 3,
+  "anteil": 0.6,
+  "interessengestuetzt": true,
+  "p3": -5,
+  "p3_null": 3
+ },
+ {
+  "id": "E03",
+  "bank": "E",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -7,
+  "p3_null": 6
+ },
+ {
+  "id": "E04",
+  "bank": "E",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 38,
+  "p3_null": 23
+ },
+ {
+  "id": "E05",
+  "bank": "E",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 12,
+  "p3_null": 40
+ },
+ {
+  "id": "E06",
+  "bank": "E",
+  "befunde": 5,
+  "eigen": 2,
+  "anteil": 0.4,
+  "interessengestuetzt": false,
+  "p3": -15,
+  "p3_null": 3
+ },
+ {
+  "id": "E07",
+  "bank": "E",
+  "befunde": 5,
+  "eigen": 2,
+  "anteil": 0.4,
+  "interessengestuetzt": false,
+  "p3": -4,
+  "p3_null": 6
+ },
+ {
+  "id": "E08",
+  "bank": "E",
+  "befunde": 5,
+  "eigen": 1,
+  "anteil": 0.2,
+  "interessengestuetzt": false,
+  "p3": 16,
+  "p3_null": 31
+ },
+ {
+  "id": "E09",
+  "bank": "E",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -6,
+  "p3_null": 12
+ },
+ {
+  "id": "F01",
+  "bank": "F",
+  "befunde": 5,
+  "eigen": 1,
+  "anteil": 0.2,
+  "interessengestuetzt": false,
+  "p3": 3,
+  "p3_null": 6.3
+ },
+ {
+  "id": "F02",
+  "bank": "F",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 4,
+  "p3_null": 8
+ },
+ {
+  "id": "F03",
+  "bank": "F",
+  "befunde": 4,
+  "eigen": 1,
+  "anteil": 0.25,
+  "interessengestuetzt": false,
+  "p3": 3,
+  "p3_null": 7
+ },
+ {
+  "id": "F04",
+  "bank": "F",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 3,
+  "p3_null": 6
+ },
+ {
+  "id": "F05",
+  "bank": "F",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 6,
+  "p3_null": 14
+ },
+ {
+  "id": "F06",
+  "bank": "F",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -3.8,
+  "p3_null": -2.2
+ },
+ {
+  "id": "F07",
+  "bank": "F",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 19,
+  "p3_null": 21
+ },
+ {
+  "id": "G01",
+  "bank": "G",
+  "befunde": 5,
+  "eigen": 1,
+  "anteil": 0.2,
+  "interessengestuetzt": false,
+  "p3": 24,
+  "p3_null": 26
+ },
+ {
+  "id": "G02",
+  "bank": "G",
+  "befunde": 5,
+  "eigen": 1,
+  "anteil": 0.2,
+  "interessengestuetzt": false,
+  "p3": 14,
+  "p3_null": 30
+ },
+ {
+  "id": "G03",
+  "bank": "G",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 12,
+  "p3_null": 22
+ },
+ {
+  "id": "G04",
+  "bank": "G",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 18,
+  "p3_null": 9
+ },
+ {
+  "id": "G05",
+  "bank": "G",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 12,
+  "p3_null": 16
+ },
+ {
+  "id": "G06",
+  "bank": "G",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 12,
+  "p3_null": 15
+ },
+ {
+  "id": "H01",
+  "bank": "H",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 14,
+  "p3_null": 20
+ },
+ {
+  "id": "H02",
+  "bank": "H",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 8,
+  "p3_null": 14
+ },
+ {
+  "id": "H03",
+  "bank": "H",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -4,
+  "p3_null": 6
+ },
+ {
+  "id": "H04",
+  "bank": "H",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 2,
+  "p3_null": 13
+ },
+ {
+  "id": "H05",
+  "bank": "H",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 11,
+  "p3_null": 24
+ },
+ {
+  "id": "H06",
+  "bank": "H",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 6,
+  "p3_null": 11
+ },
+ {
+  "id": "H07",
+  "bank": "H",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 12,
+  "p3_null": 15
+ },
+ {
+  "id": "H08",
+  "bank": "H",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -1,
+  "p3_null": 12
+ },
+ {
+  "id": "I01",
+  "bank": "I",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 3,
+  "p3_null": 9
+ },
+ {
+  "id": "I02",
+  "bank": "I",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 18,
+  "p3_null": 26
+ },
+ {
+  "id": "I03",
+  "bank": "I",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 1,
+  "p3_null": 12
+ },
+ {
+  "id": "I04",
+  "bank": "I",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 18,
+  "p3_null": 24
+ },
+ {
+  "id": "I05",
+  "bank": "I",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 12,
+  "p3_null": 21
+ },
+ {
+  "id": "I06",
+  "bank": "I",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -4,
+  "p3_null": 6
+ },
+ {
+  "id": "J01",
+  "bank": "J",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 1.1,
+  "p3_null": 2.7
+ },
+ {
+  "id": "J02",
+  "bank": "J",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -1.5,
+  "p3_null": 1.5
+ },
+ {
+  "id": "J03",
+  "bank": "J",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -12.9,
+  "p3_null": 2.1
+ },
+ {
+  "id": "J04",
+  "bank": "J",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -8.4,
+  "p3_null": 7
+ },
+ {
+  "id": "J05",
+  "bank": "J",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -2,
+  "p3_null": 18
+ },
+ {
+  "id": "J06",
+  "bank": "J",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -2,
+  "p3_null": 7
+ },
+ {
+  "id": "J07",
+  "bank": "J",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 9,
+  "p3_null": 13
+ },
+ {
+  "id": "J08",
+  "bank": "J",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -8,
+  "p3_null": 3
+ },
+ {
+  "id": "K01",
+  "bank": "K",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -1.1,
+  "p3_null": 2.6
+ },
+ {
+  "id": "K02",
+  "bank": "K",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 8,
+  "p3_null": 20
+ },
+ {
+  "id": "K03",
+  "bank": "K",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 4,
+  "p3_null": 8
+ },
+ {
+  "id": "K04",
+  "bank": "K",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -4,
+  "p3_null": 4.4
+ },
+ {
+  "id": "K05",
+  "bank": "K",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -13.9,
+  "p3_null": 4.5
+ },
+ {
+  "id": "K06",
+  "bank": "K",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -8,
+  "p3_null": 6
+ },
+ {
+  "id": "K07",
+  "bank": "K",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -4,
+  "p3_null": 8
+ },
+ {
+  "id": "L01",
+  "bank": "L",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 8,
+  "p3_null": 25
+ },
+ {
+  "id": "L02",
+  "bank": "L",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 8,
+  "p3_null": 14
+ },
+ {
+  "id": "L03",
+  "bank": "L",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 12,
+  "p3_null": 28
+ },
+ {
+  "id": "L04",
+  "bank": "L",
+  "befunde": 5,
+  "eigen": 3,
+  "anteil": 0.6,
+  "interessengestuetzt": true,
+  "p3": 18,
+  "p3_null": 6
+ },
+ {
+  "id": "L05",
+  "bank": "L",
+  "befunde": 5,
+  "eigen": 1,
+  "anteil": 0.2,
+  "interessengestuetzt": false,
+  "p3": 11,
+  "p3_null": 26
+ },
+ {
+  "id": "L06",
+  "bank": "L",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 12,
+  "p3_null": 20
+ },
+ {
+  "id": "L07",
+  "bank": "L",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 26,
+  "p3_null": 32
+ },
+ {
+  "id": "M01",
+  "bank": "M",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 3,
+  "p3_null": 8.5
+ },
+ {
+  "id": "M02",
+  "bank": "M",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -4,
+  "p3_null": 9.2
+ },
+ {
+  "id": "M03",
+  "bank": "M",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 14,
+  "p3_null": 40
+ },
+ {
+  "id": "M04",
+  "bank": "M",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": 8,
+  "p3_null": 20
+ },
+ {
+  "id": "N01",
+  "bank": "N",
+  "befunde": 5,
+  "eigen": 0,
+  "anteil": 0.0,
+  "interessengestuetzt": false,
+  "p3": -29,
+  "p3_null": 10
+ }
+]
