@@ -21,7 +21,7 @@ Die Reihenfolge ist bindend und folgt `11-Konzept-v2.md` § 5, Runde 6.
 | **2 Europa** | wo Deutschland steht | E1 Abstand in Jahren, E2 EU-Anteil, E3 Regelungslücke | Sitzung A, Bänke K/L/M | teilweise |
 | **3 Hebel** | was man tun könnte | fünf bis acht Hebel mit Urteilsmuster, Kippbedingung und Red-Team-Einwand | Sitzung C, Runde 4 und 5 | offen |
 
-**Eine Berichtsregel aus Sitzung A:** Der Durchgriff **D** ist im Papier nicht als Zahl zu führen, sondern als Spannweite und als Erklärungsfigur. Seine Modellabhängigkeit liegt bei 1,23 und lässt sich als einzige nicht auf den Bezugsgrößendefekt zurückführen (`17-Sitzung-A.md` § 3.3).
+**Eine Berichtsregel aus Sitzung A, nach dem Kontrollarm eingegrenzt:** Der Durchgriff **D** ist für Felder **ohne amtliche Bezugsgröße** nur als Spannweite und als Erklärungsfigur zu führen, nicht als Zahl. Für die verankerten Felder der Zentraltabelle gilt das nicht: Dort liegt Ds Modellabhängigkeit bei 0,53 (`17-Sitzung-A.md` § 3.3a).
 
 Dazu zwei Register, die nicht eigene Teile sind, sondern quer zu allen vieren liegen:
 
@@ -169,7 +169,7 @@ Die Zuordnung von Leistungsprofilen zu tatsächlichen Anbietern steht in `16-Mar
 | | |
 |---|---|
 | Sitzung A | **abgeschlossen** am 19.09.2026, 223 Aufrufe, 0 Ausfälle, 9 h 46 min — Auswertung in `17-Sitzung-A.md` |
-| Teil 0 | Gültigkeitsmaße liegen vor; zwei Kriterien gerissen (Bezugsgrößendeckung, Modellabhängigkeit), beide auf denselben Defekt zurückführbar |
+| Teil 0 | **geschrieben** — `22-Teil-0-Gueltigkeit.md` |
 | Teil 1 | **entsperrt** — 16 Felder, 3.242.842 VZÄ, 73,6 % Deckung; Zentraltabelle gerechnet |
 | Teil 2 | 48 Rollen haben E1 bis E3 beantwortet; auswertbar |
 | Teil 3 | erfordert Sitzung C, nicht begonnen |
