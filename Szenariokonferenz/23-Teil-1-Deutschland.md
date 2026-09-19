@@ -69,6 +69,8 @@ Sie hat sechs Feldern die **ganze Einrichtungsart** zugewiesen, obwohl die Rolle
 
 **Die Folge für das Kriterium:** Die Bezugsgrößendeckung liegt korrigiert bei **48,9 %** statt 73,6 % und reißt die Schwelle von 70 % erneut. Die Reparatur hat die Deckung real von 42 % auf 48,9 % gehoben — deutlich weniger, als sie zu leisten schien.
 
+**Ein zweiter Vorbehalt zu demselben Feld.** B07 ist zugleich eine der vier Karten, die als `interessengestützt` gekennzeichnet sind: Vier ihrer fünf Befunde stehen auf Veröffentlichungen der KBV oder einer KV, darunter deren eigene Stellungnahme zu einem Gesetzentwurf, der die Aufgaben der KVen erweitert. Die +19 % sind damit die Schätzung einer Organisation über ihren eigenen künftigen Umfang. Nach der Zuschnittkorrektur trägt diese Karte noch 0,4 % der Tabelle; vor ihr waren es 27 %. Beide Fehler hingen zusammen — eine interessengestützte Schätzung wurde durch einen Zuordnungsfehler auf das Hundertfache ihres Gewichts gehoben.
+
 **Was das Verfahren richtig gemacht hat:** Jede der sechs Rollen hat ihren korrekten Wert genannt, mit Quelle, im dafür vorgesehenen Feld. Die Information war vorhanden und belegt. Sie wurde nicht ausgewertet. Das ist ein Verarbeitungsfehler, kein Erkenntnisfehler — und er wäre beim Schreiben dieses Teils nur deshalb aufgefallen, weil jemand nach der Herkunft einer einzelnen Zahl gefragt hat.
 
 ## 4. Der Arbeitszeiteffekt — und warum er nicht durchschlägt

@@ -32,6 +32,7 @@ Alle Aussagen über 2031 stehen im Konjunktiv. Was keine Kartennummer trägt, st
 | **Auswahlwirksamkeit** | ob die Bankkorrektur etwas bewirkt | ≥ 2 von 30 | **8 von 30** |
 | **Durchgriffsspreizung** | ob D etwas Eigenes misst | Faktor ≥ 2 | 0,00 – 1,41 |
 | **Quellenprüfung** | ob die Recherchebank trägt | — | 140 Kennzahlen, 15 Beanstandungen, **keine nicht existierende Quelle** |
+| **Quellenunabhängigkeit** | ob das Panel misst oder Positionen wiedergibt | ≤ 10 % der Karten | **4 von 100** gekennzeichnet; 8,4 % der Befunde aus der eigenen Interessenvertretung |
 
 ## Die vier Einschränkungen, die beim Lesen mitzudenken sind
 
@@ -41,7 +42,11 @@ Alle Aussagen über 2031 stehen im Konjunktiv. Was keine Kartennummer trägt, st
 
 **3. Die Fragereihenfolge bewegt P1.** Rollen, die zuerst nach Substitution gefragt wurden, nennen 44 %; Rollen, die zuerst nach Gegenevidenz gefragt wurden, 38 %. Der gekreuzte Aufbau neutralisiert das im Panelmedian, aber **P1 ist mit rund ±3 Punkten Methodenunsicherheit zu lesen**, nicht als Punktwert.
 
-**4. Zwei Quellenfehler tragen weiter.** Die Zahl der Leistungsgruppen nach Anlage 1 zu § 135e SGB V ist **61, nicht 65**: Die Nummern 3, 16, 47 und 65 sind im Primärtext als »nicht belegt« gekennzeichnet. 24 Rollenantworten nennen die 65. Und drei Angaben zum Länderstand der Krankenhausreform aus Faktenblatt R02 stehen nicht an ihrer Fundstelle; sie sind in keinem Teil dieses Papiers verwendbar. Beides betrifft Kontextangaben, keine Pflichtgröße.
+**4. Vier Karten stehen überwiegend auf Quellen der eigenen Interessenvertretung.** Sie sind als `interessengestützt` gekennzeichnet. Der auffälligste Fall ist die Kassenärztliche Vereinigung, deren Prognose eines um 19 % steigenden Eigenbedarfs zu vier Fünfteln auf Veröffentlichungen der KBV und einer KV beruht — darunter die Stellungnahme der KBV zu einem Gesetzentwurf, der die Aufgaben der KVen erweitert. Das ist kein Grund, die Karte zu verwerfen: Eine Selbstverwaltungskörperschaft ist oft die einzige Stelle, die über ihr Feld überhaupt Zahlen erhebt. Es ist ein Grund, sie als das zu lesen, was sie ist.
+
+**Systematisch ist es nicht.** 42 von 498 Befunden (8,4 %) stammen aus der eigenen Interessenvertretung. Die vier gekennzeichneten Karten sagen mit einem P3-Median von **−1,0 %** *weniger* Personalbedarf voraus als die übrigen (+3,0 %), und ihr KI-Effekt ist von dem der übrigen nicht zu unterscheiden (−8,0 gegen −8,1 Punkte). Eine der vier ist eine Apothekerin, die auf ABDA-Zahlen gestützt einen Rückgang von 12 % für ihr eigenes Feld prognostiziert. Die Bankmediane laufen ebenfalls gegen die Erwartung: Die Technikbank sieht den zweithöchsten Zuwachs, die Industrie den stärksten Rückgang.
+
+**5. Zwei Quellenfehler tragen weiter.** Die Zahl der Leistungsgruppen nach Anlage 1 zu § 135e SGB V ist **61, nicht 65**: Die Nummern 3, 16, 47 und 65 sind im Primärtext als »nicht belegt« gekennzeichnet. 24 Rollenantworten nennen die 65. Und drei Angaben zum Länderstand der Krankenhausreform aus Faktenblatt R02 stehen nicht an ihrer Fundstelle; sie sind in keinem Teil dieses Papiers verwendbar. Beides betrifft Kontextangaben, keine Pflichtgröße.
 
 ## Was das Verfahren über sich selbst gelernt hat
 
