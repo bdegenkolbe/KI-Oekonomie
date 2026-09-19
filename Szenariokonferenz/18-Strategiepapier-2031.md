@@ -21,6 +21,8 @@ Die Reihenfolge ist bindend und folgt `11-Konzept-v2.md` § 5, Runde 6.
 | **2 Europa** | wo Deutschland steht | E1 Abstand in Jahren, E2 EU-Anteil, E3 Regelungslücke | Sitzung A, Bänke K/L/M | teilweise |
 | **3 Hebel** | was man tun könnte | fünf bis acht Hebel mit Urteilsmuster, Kippbedingung und Red-Team-Einwand | Sitzung C, Runde 4 und 5 | offen |
 
+**Eine Berichtsregel aus Sitzung A:** Der Durchgriff **D** ist im Papier nicht als Zahl zu führen, sondern als Spannweite und als Erklärungsfigur. Seine Modellabhängigkeit liegt bei 1,23 und lässt sich als einzige nicht auf den Bezugsgrößendefekt zurückführen (`17-Sitzung-A.md` § 3.3).
+
 Dazu zwei Register, die nicht eigene Teile sind, sondern quer zu allen vieren liegen:
 
 | Register | Was es enthält | Gefüllt aus | Stand |
@@ -150,12 +152,13 @@ Die Zuordnung von Leistungsprofilen zu tatsächlichen Anbietern steht in `16-Mar
 
 | | |
 |---|---|
-| Sitzung A | läuft, 172 von 233 Aufrufen, Runde 1 vollständig, Prüfungen zu 43 % |
-| Teil 0 | füllbar nach Abschluss von Sitzung A |
-| Teil 1 | blockiert bis zur Reparatur nach § 5 |
-| Teil 2 | 51 von 110 Rollen haben E1 bis E3 beantwortet; auswertbar |
+| Sitzung A | **abgeschlossen** am 19.09.2026, 223 Aufrufe, 0 Ausfälle, 9 h 46 min — Auswertung in `17-Sitzung-A.md` |
+| Teil 0 | Gültigkeitsmaße liegen vor; zwei Kriterien gerissen (Bezugsgrößendeckung, Modellabhängigkeit), beide auf denselben Defekt zurückführbar |
+| Teil 1 | blockiert bis zur Reparatur nach § 5; Nacharbeit läuft |
+| Teil 2 | 48 Rollen haben E1 bis E3 beantwortet; auswertbar |
 | Teil 3 | erfordert Sitzung C, nicht begonnen |
+| Register | `19-Falsifikatoren.md` (92 von 100 entscheidbar) und `20-Durchgriffskanaele.md` (59 gedeckte Normen von 342) liegen vor |
 
-Nächste Schritte in dieser Reihenfolge: Sitzung A zu Ende laufen lassen; die Rückgabe nach `rohdaten/sitzung-a.json` schreiben; die beiden Register erzeugen (`extrahiere-register.py`, null Aufrufe); die Nacharbeit starten (`baue-nacharbeit.py`, dreizehn Aufrufe); die vier Gültigkeitsmaße berechnen und Teil 0 schreiben; die absolute Spalte aus P3-Prozent mal Bezugsgröße nachrechnen. Erst danach über Sitzung B entscheiden.
+Nächste Schritte in dieser Reihenfolge: die Nacharbeit abwarten; den Modellkontrollarm auf bereinigter Bezugsgröße wiederholen (zehn Aufrufe — erst danach steht fest, ob die Modellabhängigkeit wirklich gerissen ist, `17-Sitzung-A.md` § 3.3); die absolute Spalte aus P3-Prozent mal Bezugsgröße nachrechnen; Teil 0 aus `17-Sitzung-A.md` schreiben. Erst danach über Sitzung B entscheiden.
 
 **Drei Korrekturen für Sitzung B**, kostenlos und vor dem nächsten Lauf einzutragen: die Nullbasis abfangen, statt sie an hundert Rollen weiterzureichen; den Ankereffekt bei P1 (sechs Punkte zwischen den beiden Fragereihenfolgen) als Methodenunsicherheit mitführen; die Faktenblätter als prüfpflichtig kennzeichnen, damit die Lücke aus § 5a nicht wiederkehrt.
