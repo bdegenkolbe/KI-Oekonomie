@@ -22,8 +22,8 @@ Alle Aussagen über 2031 stehen im Konjunktiv. Was keine Kartennummer trägt, st
 |---|---|---|---|
 | **Prüfschärfe** | ob die Validierung prüft oder durchwinkt | ≥ 80 % | **97 %** bereinigt (29 von 30); 80 % roh |
 | **Rechenweghaltbarkeit** | ob die Zahlen hergeleitet oder gesetzt sind | ≥ 90 % | **94,2 %** bereinigt |
-| **Attributionskonsistenz** | ob die Ursachenzuschreibung aus den eigenen Zahlen folgt | ≥ 80 % | **100 %**, mediane Abweichung 1,9 Punkte |
-| **Gerüstabhängigkeit** | ob die Zahlen am Fach hängen oder an der Weltannahme | ≤ 1 bei ≥ 4 von 6 | **0,00 – 0,11** |
+| ~~Attributionskonsistenz~~ | **zurückgezogen** — Formel und Toleranz stehen im Rollenauftrag; die 100 % messen Anweisungstreue, nicht Herleitung | — | als Schemaprüfung geführt |
+| **Gerüstabhängigkeit** | ob die Zahlen am Fach hängen oder an der Weltannahme | ≤ 1 bei ≥ 4 von 6 | **0,00 – 0,11**; Gegenläufigkeit der beiden Gerüste belegt |
 | **Modellabhängigkeit** | ob das Panel die Rollen misst oder das Modell | < 1 bei ≥ 4 von 6 | **gerissen** (3 von 6); auf verankerten Rollen 6 von 6 |
 | **Bezugsgrößendeckung** | ob die Zentraltabelle gebaut werden kann | ≥ 70 % des Rahmens | **48,9 %** nach Reparatur und Zuschnittkorrektur; 42 % im Erstlauf — **gerissen** |
 | **Zuschnittstreue** | ob die Tabelle das Richtige zählt | 100 % der Felder | **10 von 16** — sechs Felder trugen die ganze Einrichtungsart statt ihres Ausschnitts |
@@ -46,7 +46,17 @@ Alle Aussagen über 2031 stehen im Konjunktiv. Was keine Kartennummer trägt, st
 
 **Systematisch ist es nicht.** 42 von 498 Befunden (8,4 %) stammen aus der eigenen Interessenvertretung. Die vier gekennzeichneten Karten sagen mit einem P3-Median von **−1,0 %** *weniger* Personalbedarf voraus als die übrigen (+3,0 %), und ihr KI-Effekt ist von dem der übrigen nicht zu unterscheiden (−8,0 gegen −8,1 Punkte). Eine der vier ist eine Apothekerin, die auf ABDA-Zahlen gestützt einen Rückgang von 12 % für ihr eigenes Feld prognostiziert. Die Bankmediane laufen ebenfalls gegen die Erwartung: Die Technikbank sieht den zweithöchsten Zuwachs, die Industrie den stärksten Rückgang.
 
-**5. Zwei Quellenfehler tragen weiter.** Die Zahl der Leistungsgruppen nach Anlage 1 zu § 135e SGB V ist **61, nicht 65**: Die Nummern 3, 16, 47 und 65 sind im Primärtext als »nicht belegt« gekennzeichnet. 24 Rollenantworten nennen die 65. Und drei Angaben zum Länderstand der Krankenhausreform aus Faktenblatt R02 stehen nicht an ihrer Fundstelle; sie sind in keinem Teil dieses Papiers verwendbar. Beides betrifft Kontextangaben, keine Pflichtgröße.
+**5. Zwei der berichteten Gütemaße haben sich bei genauem Hinsehen aufgelöst.**
+
+Die **Attributionskonsistenz** von 100 % ist zurückgezogen. Der Rollenauftrag enthält den Satz: »Gegenprobe, vor dem Antworten nachrechnen: |P3 − P3_NULL| geteilt durch (|P3 − P3_NULL| + |P3_NULL|) muss zu deinem P4-Wert für KI passen, Toleranz 15 Punkte.« Das Kriterium prüft danach genau diese Formel mit genau dieser Toleranz. Gemessen wurde also, ob hundert Rollen eine Rechenanweisung befolgen — sie tun es. Über die Frage, ob die Ursachenzuschreibung aus der Sache folgt, sagt das nichts. Das Maß ist als Schemaprüfung geführt und wäre nur ohne die Anweisung im Prompt aussagekräftig.
+
+Die **Durchgriffskanäle** sind zur Hälfte nicht das, wofür sie ausgegeben wurden. Von den 59 feldübergreifend gedeckten Normen standen **16 bereits in einem Faktenblatt** der Recherchebank — darunter fünf der sechs meistgenannten: § 80 SGB X, § 203 StGB, § 12b KHG, § 6b KHEntgG und die KI-Verordnung. Für sie misst »von n Rollen aus m Bänken unabhängig genannt« nur, wie viele Rollen dasselbe Blatt gelesen haben. **43 Normen bleiben unabhängig**, und die am breitesten getragenen unter ihnen sind nicht Gesundheits-, sondern **Vergaberecht**: § 99 GWB (31 Rollen aus 10 Bänken) und § 21 VgV (19 aus 9). Das ist der belastbarere Befund und ein anderer als der ursprünglich berichtete.
+
+Teilweise Entwarnung zu § 80 SGB X: Es steht zwar wörtlich in der Antwortliste zur Marktgröße A1, aber nur 15 Rollen haben es dort angekreuzt — **90 leiten es im Freitext her**. Vorgelegt, aber eigenständig durchdacht.
+
+**6. Die Anteilswerte sind auf fünf Punkte genau, nicht auf einen.** 93 bis 97 % aller Werte in P4, P5 und A2 sind Vielfache von fünf. Ein Median von »30 %« ist als »etwa ein Drittel« zu lesen; die zweite Stelle trägt nicht.
+
+**7. Zwei Quellenfehler tragen weiter.** Die Zahl der Leistungsgruppen nach Anlage 1 zu § 135e SGB V ist **61, nicht 65**: Die Nummern 3, 16, 47 und 65 sind im Primärtext als »nicht belegt« gekennzeichnet. 24 Rollenantworten nennen die 65. Und drei Angaben zum Länderstand der Krankenhausreform aus Faktenblatt R02 stehen nicht an ihrer Fundstelle; sie sind in keinem Teil dieses Papiers verwendbar. Beides betrifft Kontextangaben, keine Pflichtgröße.
 
 ## Was das Verfahren über sich selbst gelernt hat
 

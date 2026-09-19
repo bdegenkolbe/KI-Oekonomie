@@ -22,7 +22,7 @@ Die Wiederaufsetzbarkeit nach `11-Konzept-v2.md` § 8 hat damit ihren Ernstfall 
 |---|---|---|---|
 | **Prüfschärfe** | ≥ 80 % | **80 %** roh (32 von 40), **97 %** bereinigt (29 von 30) | erfüllt, § 3.2 |
 | **Rechenweghaltbarkeit** | ≥ 90 % | 89,2 % roh, **94,2 %** bereinigt um die gesetzten Fehler | erfüllt |
-| **Attributionskonsistenz** | ≥ 80 % | **100 %**, mediane Abweichung 1,9 Punkte | erfüllt |
+| ~~Attributionskonsistenz~~ | ≥ 80 % | 100 % — **zurückgezogen**: Formel und Toleranz stehen im Rollenauftrag, gemessen wurde Anweisungstreue | Schemaprüfung, kein Gültigkeitsmaß |
 | **Gerüstabhängigkeit** | ≤ 1 bei ≥ 4 von 6 | P1 0,09 · P2 0,00 · P3 0,03 · P3₀ 0,11 | erfüllt, deutlich |
 | **Modellabhängigkeit** | < 1 bei ≥ 4 von 6 | **3 von 6** wie vorab definiert; auf verankerten Rollen **6 von 6**, keine Größe über 0,86 | **gerissen**, Ursache behoben, § 3.3 und § 3.3a |
 | **Bezugsgrößendeckung** | ≥ 70 % des Rahmens | **42 %**; nach Reparatur und Zuschnittkorrektur **48,9 %** | **gerissen**, § 3.1 und `23-Teil-1-Deutschland.md` § 3 |
@@ -100,6 +100,8 @@ Gelaufen sind deshalb die **sieben Rollen, deren Bezugsgröße vor und nach der 
 ### 3.4 Was die Brüche nicht berühren
 
 Alle Größen außer der absoluten Vollkräftespalte sind Verhältniszahlen und hängen nicht an der Basis. Gerüstabhängigkeit (0,00 bis 0,11), Attributionskonsistenz (100 %) und Rechenweghaltbarkeit (94,2 %) sind unabhängig gemessen und erfüllt. Die Gerüstunabhängigkeit ist dabei das stärkste Einzelergebnis des Laufs: Die Hälfte des Panels rechnete gegen ein optimistisches, die andere gegen ein pessimistisches Weltszenario, und die Mediane unterscheiden sich um null bis anderthalb Punkte. Die Zahlen hängen am Fach, nicht an der vorgesetzten Weltannahme.
+
+Dass die beiden Gerüste sich tatsächlich unterscheiden, ist nachgeprüft und nicht unterstellt: reales BIP +1,0 gegen +0,1 % p.a. mit zwei Rezessionsjahren, Erwerbspersonenpotenzial 48,0 gegen 46,8 Mio, GKV-Beitragssatz 18,7 gegen 19,2 %, Tarifentwicklung +3,2 gegen +4,3 % p.a., Krankenhausreform vollständig umgesetzt gegen in Teilen gescheitert, EU AI Act im Vollzug gegen verzögert und schwach durchgesetzt. Ohne diesen Nachweis wäre der Befund wertlos gewesen.
 
 ## 4. Was das Panel sagt
 

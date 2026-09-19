@@ -88,6 +88,26 @@ def kanaele(runde1):
             baenke[n].add(a.get('bank'))
     return rollen, baenke
 
+
+def aus_recherchebank(faktenblaetter):
+    """Normen, die den Rollen im Material der Recherchebank bereits vorlagen.
+
+    Eine Norm, die in einem Faktenblatt steht, ist vom Panel nicht unabhaengig
+    gefunden, sondern ihm vorgelegt worden. Feldueber greifende Deckung misst
+    fuer sie nur, wie viele Rollen dasselbe Blatt gelesen haben.
+    """
+    out = set()
+    for f in (faktenblaetter or []):
+        for m in NORM.finditer(json.dumps(f, ensure_ascii=False)):
+            if m.group(3):
+                out.add(f'VO (EU) {m.group(3)}')
+            elif m.group(4):
+                out.add(f'Art. {m.group(4)} {m.group(5)}')
+            elif m.group(2) and m.group(2).split()[0] not in UNGESETZ:
+                gesetz = re.sub(r'\s+', ' ', m.group(2)).strip()
+                out.add('§ ' + m.group(1) + ' ' + gesetz)
+    return out
+
 def main():
     d, runde1 = lade()
     # ---------- Register 1
@@ -119,8 +139,10 @@ def main():
 
     # ---------- Register 2
     rollen, baenke = kanaele(runde1)
+    vorgelegt = aus_recherchebank(d.get('faktenblaetter') if isinstance(d, dict) else None)
     gedeckt = sorted(((len(rollen[n]), len(baenke[n]), n) for n in rollen
                       if len(rollen[n]) >= 3 and len(baenke[n]) >= 2), reverse=True)
+    unab = [g for g in gedeckt if g[2] not in vorgelegt]
     einmal = sum(1 for n in rollen if len(rollen[n]) == 1)
     u = ['# Durchgriffskanäle — die feldübergreifend gedeckten Rechtsnormen', '',
          '*Welche Norm die Ersparnis konkret aufhält. Aufgenommen ist nur, was mindestens drei Rollen '
@@ -128,10 +150,19 @@ def main():
          '(`11-Konzept-v2.md` § 6, feldübergreifende Deckung), angewandt auf Normen statt auf Befunde.*', '',
          '---', '',
          f'**{len(rollen)} verschiedene Normen genannt, davon {einmal} von nur einer Rolle. '
-         f'{len(gedeckt)} sind feldübergreifend gedeckt.** Die Einzelnennungen sind nicht falsch, aber '
-         'ungeprüft: Sie tragen keine unabhängige Bestätigung und gehen deshalb nicht in das Papier ein.', '',
+         f'{len(gedeckt)} sind feldübergreifend gedeckt — aber nur {len(unab)} davon unabhängig.** '
+         f'Die übrigen {len(gedeckt)-len(unab)} standen bereits in einem Faktenblatt der Recherchebank und '
+         'lagen den Rollen damit vor; für sie misst die feldübergreifende Deckung nur, wie viele Rollen '
+         'dasselbe Blatt gelesen haben. Die Einzelnennungen sind nicht falsch, aber ungeprüft.', '',
+         '## Unabhängig hergeleitet', '',
+         'Diese Normen standen in keinem Faktenblatt. Sie sind der eigentliche Ertrag des Panels.', '',
          '| Rollen | Bänke | Norm |', '|---|---|---|']
-    u += [f'| {r} | {b} | {n} |' for r, b, n in gedeckt]
+    u += [f'| {r} | {b} | {n} |' for r, b, n in unab]
+    u += ['', '## Vorgelegt — aus der Recherchebank', '',
+          'Breit getragen, aber nicht unabhängig gefunden. Sie gehören ins Papier, jedoch nicht mit der '
+          'Begründung, das Panel habe sie aus mehreren Bänken hergeleitet.', '',
+          '| Rollen | Bänke | Norm |', '|---|---|---|']
+    u += [f'| {r} | {b} | {n} |' for r, b, n in gedeckt if n in vorgelegt]
     u += ['', '## Vorbehalt', '',
           'Die Norm ist gedeckt, ihre **Auslegung** ist es nicht. Dass eine Norm aus vielen Bänken genannt '
           'wird, heißt, dass sie in vielen Feldern als Engpass wahrgenommen würde — nicht, dass die dort '
@@ -142,7 +173,9 @@ def main():
     (BASIS / '20-Durchgriffskanaele.md').write_text('\n'.join(u) + '\n', encoding='utf-8')
 
     print(f'19-Falsifikatoren.md      {len(voll)} von {len(z)} datiert und beziffert')
-    print(f'20-Durchgriffskanaele.md  {len(gedeckt)} gedeckt von {len(rollen)} genannt, {einmal} Einzelnennungen')
+    print(f'20-Durchgriffskanaele.md  {len(gedeckt)} gedeckt von {len(rollen)} genannt, '
+          f'davon {len(unab)} unabhaengig und {len(gedeckt)-len(unab)} aus der Recherchebank, '
+          f'{einmal} Einzelnennungen')
 
 if __name__ == '__main__':
     main()

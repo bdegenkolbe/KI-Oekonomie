@@ -98,7 +98,9 @@ Auf die Frage, woher die Veränderung des Personalbedarfs rührt, antwortet das 
 
 Das ist der wichtigste Vorbehalt dieses Teils und gehört neben jede Zahl, nicht in den Anhang: **Weniger als die Hälfte der Bewegung wäre der Technik zuzurechnen.** Wer 2031 einen veränderten Personalbedarf sieht und ihn der KI zuschreibt, schreibt ihr mindestens zur Hälfte etwas zu, das aus Krankenhausreform und Alterung ohnehin gekommen wäre.
 
-Die Zuschreibung ist hier keine Behauptung, sondern nachgerechnet: Die Attributionskonsistenz — ob der genannte KI-Anteil zur eigenen Differenz zwischen P3 und P3₀ passt — liegt bei **100 von 100** Rollen innerhalb der Toleranz, mit einer medianen Abweichung von 1,9 Punkten.
+Die Zuschreibung ist rechnerisch konsistent — aber das ist weniger wert, als es klingt: Der Rollenauftrag verlangt diese Gegenprobe ausdrücklich, mit Formel und Toleranz. Dass 100 von 100 Rollen sie einhalten, belegt Anweisungstreue, nicht Herleitung (`22-Teil-0-Gueltigkeit.md` § 5).
+
+Und die Anteile sind auf fünf Punkte genau, nicht auf einen: 93 bis 97 % aller Werte in P4, P5 und A2 sind Vielfache von fünf. »40 %« ist als »gut ein Drittel bis knapp die Hälfte« zu lesen.
 
 ## 6. Wo die Ersparnis hängen bleibt
 
@@ -114,17 +116,20 @@ Auf die Frage, was 2031 im eigenen Feld knapper wäre, antworten hundert Rollen:
 
 Eine einzige Rolle von hundert hält die Technik für den Engpass. Dasselbe Bild beim bindenden Hemmnis: Refinanzierung und Abrechnung 29, Investitionsfähigkeit 24, Recht und Zulassung 23, Datenverfügbarkeit 15, Haftung 7. **Vier von fünf Feldern nennen ein Geld- oder Rechtshemmnis, keines ein Könnenshemmnis.**
 
-Das ist die Deutschland-These des Arbeitspapiers, und das Panel liefert sie nicht als Behauptung, sondern als Liste: `20-Durchgriffskanaele.md` führt **59 Rechtsnormen**, die mindestens drei Rollen aus mindestens zwei Bänken unabhängig voneinander genannt haben. Die am breitesten getragenen:
+Das ist die Deutschland-These des Arbeitspapiers, und das Panel liefert sie als Liste: `20-Durchgriffskanaele.md` führt 59 feldübergreifend gedeckte Rechtsnormen. **Davon sind 43 unabhängig** — die übrigen 16 standen bereits in einem Faktenblatt und lagen den Rollen damit vor, darunter fünf der sechs meistgenannten.
+
+**Die breitesten unabhängigen Kanäle sind Vergaberecht, nicht Gesundheitsrecht:**
 
 | Norm | Rollen | Bänke |
 |---|---|---|
-| § 80 SGB X — Auftragsverarbeitung von Sozialdaten | 93 | 14 |
-| § 203 StGB — Verletzung von Privatgeheimnissen | 47 | 14 |
-| § 12b KHG — Transformationsfonds | 41 | 13 |
-| § 6b KHEntgG — Vorhaltevergütung | 41 | 12 |
-| VO (EU) 2024/1689 — KI-Verordnung | 32 | 11 |
+| § 99 GWB — öffentlicher Auftraggeber | 31 | 10 |
+| § 21 VgV — Verhandlungsverfahren | 19 | 9 |
+| § 17 VgV — Verfahrensablauf | 11 | 7 |
+| § 35 SGB I — Sozialgeheimnis | 10 | 7 |
 
-Dass § 80 SGB X von 93 der 100 Felder und aus allen vierzehn Bänken genannt wird, ist der dichteste Einzelbefund des ganzen Laufs. Die Norm regelt, unter welchen Bedingungen ein Dritter Sozialdaten im Auftrag verarbeiten darf — also die Frage, ob eine externe Leistung überhaupt an die Daten kommt, an denen sie ansetzen müsste.
+Dass zehn von vierzehn Bänken unabhängig voneinander beim **Vergaberecht** landen, ist der dichteste eigenständige Befund des Laufs — und er passt zur Engpassantwort: 47 von 100 Feldern nennen das Vergaberecht als Beschaffungsweg. Nicht das Gesundheitsrecht entscheidet, ob eine Leistung eingekauft werden kann, sondern allgemeines Binnenmarktrecht.
+
+**Vorgelegt, aber eigenständig durchdacht:** § 80 SGB X — die Auftragsverarbeitung von Sozialdaten — erscheint bei 93 von 100 Feldern. Die Norm stand in Faktenblatt R05 und steht zugleich wörtlich in der Antwortliste zur Marktgröße A1. Aber nur 15 Rollen haben sie dort angekreuzt; **90 leiten sie im Freitext her**. Sie ist damit kein unabhängiger Fund, aber auch kein bloßes Echo.
 
 ## 7. Wohin der Gewinn ginge, und woraus er bezahlt würde
 
