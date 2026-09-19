@@ -1,6 +1,6 @@
 # Strategiepapier 2031 — Teil 1: Deutschland und das Gesundheitswesen
 
-*Entwurf aus der ersten Erhebung. Die zweite Erhebung (Runde 3) steht aus; erst die Bewegung zwischen beiden ist das Ergebnis. Alle Zahlen sind Modellergebnisse und stehen im Konjunktiv (`Claude.md` § 4.2). Gültigkeitsgrenzen in `22-Teil-0-Gueltigkeit.md`.*
+*Fassung nach der zweiten Erhebung (`25-Sitzung-B.md`). Die Zahlen sind damit Ergebnisse und nicht mehr Eingaben. Alle Zahlen sind Modellergebnisse und stehen im Konjunktiv (`Claude.md` § 4.2). Gültigkeitsgrenzen in `22-Teil-0-Gueltigkeit.md`.*
 
 ---
 
@@ -8,9 +8,11 @@
 
 Hundert Felder des deutschen Gesundheitswesens haben dieselbe Frage für ihr eigenes Feld gerechnet. Sie kommen zu einem Ergebnis, das weder der Entlastungs- noch der Freisetzungserzählung entspricht:
 
-> **Künstliche Intelligenz nähme dem Personalbedarf bis 2031 nicht seinen Anstieg, sondern rund die Hälfte davon.**
+> **Künstliche Intelligenz nähme dem Personalbedarf bis 2031 nicht seinen Anstieg, sondern gut ein Drittel davon.**
 
-Auf den 2,16 Mio Vollkräften, für die eine belegte und im Zuschnitt geprüfte Bezugsgröße vorliegt, stiege der Personalbedarf bis 2031 um **+102.065 Vollkräfte**. Unter der Gegenannahme, dass KI und Automatisierung stagnieren, stiege er um **+187.714**. Die Differenz von rund **86.000 Vollkräften** ist der gesamte Beitrag der Technik — er dämpft, er kehrt nicht um.
+Auf den 2,16 Mio Vollkräften, für die eine belegte und im Zuschnitt geprüfte Bezugsgröße vorliegt, stiege der Personalbedarf bis 2031 um **+123.684 Vollkräfte**. Unter der Gegenannahme, dass KI und Automatisierung stagnieren, stiege er um **+201.717**. Die Differenz von rund **78.000 Vollkräften** ist der gesamte Beitrag der Technik — er dämpft, er kehrt nicht um.
+
+Nach der Diskussion fällt dieser Beitrag kleiner aus als davor: In der ersten Erhebung waren es 86.000 Vollkräfte, in der zweiten 78.000. Die Richtung ist über beide Spalten konsistent — mehr Bedarf, weniger KI-Wirkung.
 
 ## 2. Die Zentraltabelle
 
@@ -20,29 +22,29 @@ Sechs Zeilen tragen eine **korrigierte** Bezugsgröße (mit \*): Dort hatte die 
 
 | Feld | Bezugsgruppe | Vollkräfte | P3 | 2031 | ohne KI |
 |---|---|---:|---:|---:|---:|
-| B08 | Apotheken | 136.000 | −12,0 % | −16.320 | −5.440 |
-| A06 | Krankenhäuser, med.-techn. Dienst | 166.256 | −7,9 % | −13.134 | −9.144 |
-| A09 | Krankenhäuser, Funktionsdienst | 112.027 | −5,9 % | −6.610 | −3.361 |
-| A01 | Krankenhäuser, ärztlicher Dienst | 180.418 | −2,1 % | −3.789 | +4.510 |
-| E06 \* | fachärztliche Labore außerhalb der Krankenhäuser | 22.000 | −15,0 % | −3.300 | +660 |
-| E02 \* | Medizintechnik Bildgebung | 28.000 | −5,0 % | −1.400 | +840 |
-| A02 | Krankenhäuser, Verwaltungsdienst | 70.542 | −1,7 % | −1.199 | +4.585 |
-| E07 \* | vollversorgender Pharmagroßhandel | 24.000 | −4,0 % | −960 | +1.440 |
-| E01 \* | Market Access Deutschland | 2.750 | −6,0 % | −165 | +715 |
-| D03 \* | Kernhaushalt GKV-Spitzenverband | 561 | −6,0 % | −34 | +22 |
-| B07 \* | Sicherstellungsbereich der 17 KVen | 4.000 | +3,0 % | +120 | +760 |
-| H06 | Gesundheitsschutz, ÖGD | 39.000 | +6,0 % | +2.340 | +4.290 |
+| A06 | Krankenhäuser, med.-techn. Dienst | 166.256 | −8,2 % | −13.633 | −9.144 |
+| B08 | Apotheken | 136.000 | −10,0 % | −13.600 | −4.080 |
+| A09 | Krankenhäuser, Funktionsdienst | 112.027 | −7,8 % | −8.738 | −4.481 |
+| E06 \* | fachärztliche Labore außerhalb der Krankenhäuser | 22.000 | −10,3 % | −2.266 | +1.672 |
+| A01 | Krankenhäuser, ärztlicher Dienst | 180.418 | −0,8 % | −1.443 | +5.413 |
+| E07 \* | vollversorgender Pharmagroßhandel | 24.000 | −6,0 % | −1.440 | +1.440 |
+| E02 \* | Medizintechnik Bildgebung | 28.000 | −3,7 % | −1.036 | +1.680 |
+| A02 | Krankenhäuser, Verwaltungsdienst | 70.542 | −1,3 % | −889 | +6.349 |
+| D03 \* | Kernhaushalt GKV-Spitzenverband | 561 | −9,7 % | −54 | +16 |
+| B07 \* | Sicherstellungsbereich der 17 KVen | 4.000 | +3,0 % | +120 | +640 |
+| E01 \* | Market Access Deutschland | 2.750 | +8,0 % | +220 | +605 |
+| H06 | Gesundheitsschutz, ÖGD | 39.000 | +7,0 % | +2.730 | +5.070 |
 | F07 | Rettungsdienste | 70.000 | +19,0 % | +13.300 | +14.700 |
-| A08 | Krankenhäuser, Pflegedienst | 408.599 | +4,0 % | +16.344 | +21.247 |
-| B09 | Ambulante Pflege | 311.000 | +15,2 % | +47.272 | +59.090 |
-| C02 | Stationäre Pflege | 580.000 | +12,0 % | +69.600 | +92.800 |
-| | **Summe** | **2.155.154** | | **+102.065** | **+187.714** |
+| A08 | Krankenhäuser, Pflegedienst | 408.599 | +4,3 % | +17.570 | +21.247 |
+| B09 | Ambulante Pflege | 311.000 | +15,3 % | +47.583 | +59.090 |
+| C02 | Stationäre Pflege | 580.000 | +14,7 % | +85.260 | +101.500 |
+| | **Summe** | **2.155.154** | | **+123.684** | **+201.717** |
 
 **Die Spreizung ist das Eigentliche.** Zehn Felder verlören Bedarf, sechs gewännen. Der Rückgang läge fast vollständig dort, wo **verarbeitet** wird — Apotheken, medizinisch-technischer Dienst, Funktionsdienst, Labore, Großhandel. Der Anstieg läge dort, wo **am Menschen** gearbeitet wird: Pflege stationär und ambulant, Rettungsdienst, Krankenhaus-Pflegedienst.
 
 Das ist der politische Kern. Die beiden Bewegungen dämpfen sich in der Summe, aber sie betreffen verschiedene Menschen, verschiedene Qualifikationen und verschiedene Orte. Eine Apothekerin in Gelsenkirchen wird nicht zur Pflegefachkraft in Cottbus, weil eine Bundestabelle sich ausgleicht.
 
-**Vier Zeilen tragen fast alles.** Stationäre Pflege, ambulante Pflege, Krankenhaus-Pflegedienst und Rettungsdienst stellen zusammen **1,37 Mio** der 2,16 Mio Vollkräfte und den gesamten Zuwachs. Die Tabelle ist damit im Wesentlichen eine Aussage über die **Pflege** — alle übrigen zwölf Felder zusammen bewegen weniger als ein Viertel davon.
+**Vier Zeilen tragen fast alles.** Stationäre Pflege, ambulante Pflege, Krankenhaus-Pflegedienst und Rettungsdienst stellen zusammen **1,37 Mio** der 2,16 Mio Vollkräfte und den gesamten Zuwachs. Die stationäre Pflege allein hat ihren Beitrag in der zweiten Erhebung um 15.660 Vollkräfte erhöht — mehr als die Summe aller Rückgänge der Tabelle. Die Tabelle ist damit im Wesentlichen eine Aussage über die **Pflege** — alle übrigen zwölf Felder zusammen bewegen weniger als ein Viertel davon.
 
 ## 3. Die Korrektur der Bezugsgrößen — und was sie über das Verfahren sagt
 
@@ -94,9 +96,12 @@ Die Spannweite von D reicht über den Faktor sieben — von 0,32 in der Pflege b
 
 Auf die Frage, woher die Veränderung des Personalbedarfs rührt, antwortet das Panel im Median:
 
-| KI und Automatisierung | Struktur- und Rechtsreform | Demografie |
-|---|---|---|
-| **40 %** | **28,5 %** | **20 %** |
+| | KI und Automatisierung | Struktur- und Rechtsreform | Demografie |
+|---|---|---|---|
+| erste Erhebung | 40 % | 28,5 % | 20 % |
+| **nach der Diskussion** | **35,5 %** | **31,5 %** | **22 %** |
+
+**Die Diskussion hat die Zuschreibung von der Technik weg verschoben.** Das ist die stärkste Medianbewegung der zweiten Erhebung und stützt die Deutschland-These aus einer zweiten Richtung: Wer hundert Felder über ihre eigenen Zahlen streiten lässt, bekommt nicht mehr KI-Wirkung heraus, sondern weniger.
 
 Das ist der wichtigste Vorbehalt dieses Teils und gehört neben jede Zahl, nicht in den Anhang: **Weniger als die Hälfte der Bewegung wäre der Technik zuzurechnen.** Wer 2031 einen veränderten Personalbedarf sieht und ihn der KI zuschreibt, schreibt ihr mindestens zur Hälfte etwas zu, das aus Krankenhausreform und Alterung ohnehin gekommen wäre.
 

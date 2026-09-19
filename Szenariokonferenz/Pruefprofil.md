@@ -16,6 +16,7 @@ Kein Einzeldokument, sondern ein **Satz von zehn zusammenhängenden Dokumenten**
 | `21-Quellenpruefung.md` | Prüfung der Recherchebank | ein neuer Prüflauf stattfindet |
 | `22-Teil-0-Gueltigkeit.md` | Teil 0 des Papiers | ein Gütemaß sich ändert |
 | `23-Teil-1-Deutschland.md`, `24-Teil-2-Europa.md` | Teil 1 und 2 des Papiers | die Zentraltabelle sich ändert |
+| `25-Sitzung-B.md` | Auswertung der zweiten Erhebung | Runde 2 oder 3 neu laufen |
 
 ## 2. Kernzahlen — bei jeder Änderung in allen Dokumenten nachziehen
 
@@ -23,9 +24,12 @@ Kein Einzeldokument, sondern ein **Satz von zehn zusammenhängenden Dokumenten**
 |---|---|---|
 | Basis der Zentraltabelle | 2.155.154 VZÄ | 13, 18, 22, 23 |
 | Deckung des Rahmens | 48,9 % | 11, 13, 17, 18, 22, 23 |
-| Personalbedarf 2031 mit KI | +102.065 | 18, 23 |
-| dasselbe ohne KI | +187.714 | 18, 23 |
-| KI-Beitrag | rund 86.000 | 18, 23 |
+| Personalbedarf 2031 mit KI | +123.684 | 18, 23, 25 |
+| dasselbe ohne KI | +201.717 | 18, 23, 25 |
+| KI-Beitrag | rund 78.000 | 18, 23, 25 |
+| Divergenzerhalt | 6 von 6, niedrigster Wert 0,81 | 13, 17, 18, 22, 25 |
+| Einwandhaltbarkeit | 100 % | 13, 22, 25 |
+| Fremdbezug | 8 % | 13, 22, 25 |
 | Prüfschärfe bereinigt | 97 % | 11, 17, 22, 23 |
 | Rechenweghaltbarkeit bereinigt | 94,2 % | 17, 22 |
 | Aufrufe Sitzung A | 223 | 11, 13, 17, 18, 22 |
@@ -51,7 +55,9 @@ Unbeabsichtigt wäre: dieselbe Zahl mit unterschiedlichem Wert, oder eine Bewert
 
 ## 6. Bekannte Fehlermuster
 
-1. **Zurückgezogene Maße bleiben irgendwo stehen.** Die Attributionskonsistenz wurde in drei Dokumenten geführt; nach dem Rückzug stand sie in `17` § 3.4 noch als erfüllt. Bei jedem Rückzug alle Fundstellen durchsuchen.
+1. **Zurückgezogene Maße bleiben irgendwo stehen.** Die Attributionskonsistenz wurde in drei Dokumenten geführt; nach dem Rückzug stand sie in `17` § 3.4 noch als erfüllt. Inzwischen sind drei Maße zurückgezogen (Attributionskonsistenz, Modellabhängigkeit in Runde 3, vorgelegte Durchgriffskanäle). Bei jedem Rückzug alle Fundstellen durchsuchen.
+
+   **Das gemeinsame Muster aller drei:** Der Sollwert stand im Prompt oder der Ausgangswert lag beiden Vergleichsarmen vor. Ein Gütemaß, dessen Ergebnis sich aus der Anweisung ableiten lässt, misst Befolgung. Bei jedem neuen Maß zuerst prüfen, ob sein Sollwert irgendwo im Auftrag steht.
 2. **Zahlen aus einer verworfenen Fassung.** Nach der Zuschnittkorrektur standen 73,6 % noch in `11` und `18` als geltender Wert.
 3. **Zählwörter im Fließtext.** »Dreiundzwanzig Abbruchkriterien« gegen die Tabellenlänge.
 4. **Abgehakte Aufgabenlisten.** Durchgestrichene To-do-Punkte sind Dokumenthistorie und gehören ersetzt durch eine Aussage über den aktuellen Stand.

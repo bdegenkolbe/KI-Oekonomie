@@ -124,11 +124,12 @@ Die Reparatur hat die Deckung von 42 % auf zunächst scheinbar 73,6 % gehoben. *
 
 Damit lässt sich die Zentraltabelle von Teil 1 rechnen — P3-Prozent mal Bezugsgröße, ohne erneute Befragung:
 
-| | mit KI | ohne KI |
-|---|---|---|
-| Personalbedarf 2031 auf 2,16 Mio Vollkräften | **+102.065** | **+187.714** |
+| Personalbedarf 2031 auf 2,16 Mio Vollkräften | mit KI | ohne KI | KI-Beitrag |
+|---|---:|---:|---:|
+| erste Erhebung | +102.065 | +187.714 | −86.000 |
+| **nach der Diskussion** | **+123.684** | **+201.717** | **−78.000** |
 
-Gelesen als Satz, den Teil 1 tragen könnte: Auf knapp der Hälfte des deutschen Gesundheitspersonals stiege der Personalbedarf bis 2031 auch mit KI, nämlich um rund 102.000 Vollkräfte; ohne KI stiege er um rund 188.000. KI nähme dem Anstieg also etwa **86.000 Vollkräfte**, ohne ihn umzukehren. Alle Angaben sind Modellergebnisse und stehen im Konjunktiv (`Claude.md` § 4.2).
+Gelesen als Satz, den Teil 1 trägt: Auf knapp der Hälfte des deutschen Gesundheitspersonals stiege der Personalbedarf bis 2031 auch mit KI, nämlich um rund 124.000 Vollkräfte; ohne KI stiege er um rund 202.000. KI nähme dem Anstieg also etwa **78.000 Vollkräfte**, ohne ihn umzukehren — nach der Diskussion weniger als davor. Alle Angaben sind Modellergebnisse und stehen im Konjunktiv (`Claude.md` § 4.2).
 
 Die Spreizung innerhalb der Tabelle ist das Eigentliche: Apotheken −12 %, fachärztliche Labore −15 %, medizinisch-technischer Dienst −7,9 % gegen stationäre Pflege +12 %, ambulante Pflege +15 % und Rettungsdienste +19 %. Der Rückgang läge dort, wo verarbeitet wird, der Anstieg dort, wo am Menschen gearbeitet wird. Vier Zeilen — beide Pflegesektoren, der Krankenhaus-Pflegedienst und der Rettungsdienst — tragen 1,37 der 2,16 Mio Vollkräfte und den gesamten Zuwachs.
 
@@ -195,9 +196,10 @@ Die Zuordnung von Leistungsprofilen zu tatsächlichen Anbietern steht in `16-Mar
 | | |
 |---|---|
 | Sitzung A | **abgeschlossen** am 19.09.2026, 223 Aufrufe, 0 Ausfälle, 9 h 46 min — Auswertung in `17-Sitzung-A.md` |
+| Sitzung B | **abgeschlossen** am 19.09.2026, 150 Aufrufe, 0 Ausfälle, 6 h 16 min — Auswertung in `25-Sitzung-B.md`; Divergenzerhalt 6 von 6 |
 | Teil 0 | **geschrieben** — `22-Teil-0-Gueltigkeit.md` |
-| Teil 1 | **Entwurf geschrieben** — `23-Teil-1-Deutschland.md`; belastbar erst nach Runde 3 |
-| Teil 2 | **Entwurf geschrieben** — `24-Teil-2-Europa.md`; maßgeblich sind die 18 zuständigen Rollen, nicht die 48 antwortenden |
+| Teil 1 | **geschrieben** — `23-Teil-1-Deutschland.md`, mit den Werten der zweiten Erhebung |
+| Teil 2 | **geschrieben** — `24-Teil-2-Europa.md`; maßgeblich sind die 18 zuständigen Rollen. E1 bis E3 werden in Runde 3 nicht erneut erhoben, der Teil bleibt auf der ersten Erhebung |
 | Teil 3 | erfordert Sitzung C, nicht begonnen |
 | Register | `19-Falsifikatoren.md` (92 von 100 entscheidbar) und `20-Durchgriffskanaele.md` (59 gedeckte Normen von 342) liegen vor |
 | Quellenprüfung | `21-Quellenpruefung.md` — 140 Kennzahlen geprüft, 15 Beanstandungen, 7 hart, keine nicht existierende Quelle |

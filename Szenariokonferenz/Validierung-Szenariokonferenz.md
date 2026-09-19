@@ -50,3 +50,43 @@
 Vier Befunde behoben, zwei als Fehlalarm des Prüfskripts dokumentiert. Nachprüfung der betroffenen Schritte bestanden: Skriptlauf ohne neue Befunde, Kernzahlen-Abgleich ohne Abweichung.
 
 **Der Satz ist in sich widerspruchsfrei.** Was er behauptet, ist damit nicht belegt — die Gültigkeitsgrenzen stehen in `22-Teil-0-Gueltigkeit.md` und sind erheblich.
+
+---
+
+## Lauf 2 — 19.09.2026, nach Sitzung B
+
+**Anlass:** Zweite Erhebung abgeschlossen (150 Aufrufe, 0 Ausfälle, 6 h 16 min). Zentraltabelle, Teil 0 und Teil 1 tragen neue Werte.
+**Umfang:** Standardlauf. Kernzahlen nach Prüfprofil § 2 über alle betroffenen Dokumente, dazu die neuen Größen aus Sitzung B.
+
+### Befunde
+
+| # | Schwere | Ort | Beschreibung | Behandlung |
+|---|---|---|---|---|
+| 1 | Mittel | `18-Strategiepapier-2031.md` § 5b | Zentraltabelle trug noch +102.065 / +187.714 aus der ersten Erhebung, ohne Kennzeichnung als Vorwert | behoben: beide Erhebungen nebeneinander, Runde 3 als geltender Wert |
+
+Keine weiteren Abweichungen. Die Werte der ersten Erhebung stehen an allen übrigen Fundstellen ausdrücklich als Vorwerte.
+
+### Neue Kernzahlen im Prüfprofil nachzutragen
+
+| Größe | Sollwert nach Sitzung B | Steht in |
+|---|---|---|
+| Personalbedarf 2031 mit KI | +123.684 | 18, 23, 25 |
+| dasselbe ohne KI | +201.717 | 18, 23, 25 |
+| KI-Beitrag | rund 78.000 | 18, 23, 25 |
+| Divergenzerhalt | 6 von 6, niedrigster Wert 0,81 | 13, 17, 18, 22, 25 |
+| Einwandhaltbarkeit | 100 % | 13, 22, 25 |
+| Fremdbezug | 8 % | 13, 22, 25 |
+
+Unverändert: Basis 2.155.154 VZÄ, Deckung 48,9 %.
+
+### Inhaltliche Prüfung
+
+**Zurückgezogene Maße (bekanntes Fehlermuster 1).** Ein drittes Maß ist in diesem Lauf zurückgezogen worden: die Modellabhängigkeit der Runde 3. Alle Fundstellen geprüft — `13`, `22` und `25` führen sie als zurückgezogen, `17` bezieht sich ausschließlich auf Sitzung A und bleibt gültig.
+
+**Konjunktivregel.** Stichprobe in `23` und `25`: eingehalten. Die Sitzungsbefunde selbst (Aufrufzahlen, Gütemaße, Laufzeit) stehen korrekt im Indikativ.
+
+**Nicht geprüft.** Die 32 Dissenspunkte und 60 Kartenzüge im Einzelnen auf sachliche Richtigkeit. Die Rechenwege der zweiten Erhebung — eine Validierungsrunde ist für Runde 3 nicht vorgesehen und hat nicht stattgefunden.
+
+### Ergebnis
+
+Ein Befund behoben. Nachprüfung bestanden: Skriptlauf ohne neue Befunde, Kernzahlen-Abgleich ohne Abweichung. Der Satz umfasst jetzt elf Dokumente und bleibt widerspruchsfrei.

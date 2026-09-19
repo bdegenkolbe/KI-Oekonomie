@@ -1,18 +1,5 @@
 [
  {
-  "id": "B08",
-  "rolle": "Apothekerin einer Offizinapotheke",
-  "einrichtungsart": "Apotheken",
-  "vzae_rahmen": 136000,
-  "vzae": 136000,
-  "korrigiert": false,
-  "begruendung": null,
-  "p3_prozent": -12,
-  "p3_vzae": -16320,
-  "p3_null_prozent": -4,
-  "p3_null_vzae": -5440
- },
- {
   "id": "A06",
   "rolle": "Leiter Labormedizin",
   "einrichtungsart": "Krankenhäuser",
@@ -20,10 +7,27 @@
   "vzae": 166255.6,
   "korrigiert": false,
   "begruendung": null,
-  "p3_prozent": -7.9,
-  "p3_vzae": -13134,
+  "p3_prozent": -8.2,
+  "p3_vzae": -13633,
   "p3_null_prozent": -5.5,
-  "p3_null_vzae": -9144
+  "p3_null_vzae": -9144,
+  "p3_prozent_runde1": -7.9,
+  "p3_null_prozent_runde1": -5.5
+ },
+ {
+  "id": "B08",
+  "rolle": "Apothekerin einer Offizinapotheke",
+  "einrichtungsart": "Apotheken",
+  "vzae_rahmen": 136000,
+  "vzae": 136000,
+  "korrigiert": false,
+  "begruendung": null,
+  "p3_prozent": -10,
+  "p3_vzae": -13600,
+  "p3_null_prozent": -3,
+  "p3_null_vzae": -4080,
+  "p3_prozent_runde1": -12,
+  "p3_null_prozent_runde1": -4
  },
  {
   "id": "A09",
@@ -33,23 +37,12 @@
   "vzae": 112027,
   "korrigiert": false,
   "begruendung": null,
-  "p3_prozent": -5.9,
-  "p3_vzae": -6610,
-  "p3_null_prozent": -3,
-  "p3_null_vzae": -3361
- },
- {
-  "id": "A01",
-  "rolle": "Ärztliche Direktorin eines Maximalversorgers",
-  "einrichtungsart": "Krankenhäuser",
-  "vzae_rahmen": 180418,
-  "vzae": 180418,
-  "korrigiert": false,
-  "begruendung": null,
-  "p3_prozent": -2.1,
-  "p3_vzae": -3789,
-  "p3_null_prozent": 2.5,
-  "p3_null_vzae": 4510
+  "p3_prozent": -7.8,
+  "p3_vzae": -8738,
+  "p3_null_prozent": -4,
+  "p3_null_vzae": -4481,
+  "p3_prozent_runde1": -5.9,
+  "p3_null_prozent_runde1": -3
  },
  {
   "id": "E06",
@@ -59,36 +52,27 @@
   "vzae": 22000,
   "korrigiert": true,
   "begruendung": "fachärztliche Labore außerhalb der Krankenhäuser",
-  "p3_prozent": -15,
-  "p3_vzae": -3300,
-  "p3_null_prozent": 3,
-  "p3_null_vzae": 660
+  "p3_prozent": -10.3,
+  "p3_vzae": -2266,
+  "p3_null_prozent": 7.6,
+  "p3_null_vzae": 1672,
+  "p3_prozent_runde1": -15,
+  "p3_null_prozent_runde1": 3
  },
  {
-  "id": "E02",
-  "rolle": "Medizintechnikhersteller Bildgebung",
-  "einrichtungsart": "Medizintechnische und augenoptische Industrie",
-  "vzae_rahmen": 160000,
-  "vzae": 28000,
-  "korrigiert": true,
-  "begruendung": "Medizintechnik Bildgebung",
-  "p3_prozent": -5,
-  "p3_vzae": -1400,
-  "p3_null_prozent": 3,
-  "p3_null_vzae": 840
- },
- {
-  "id": "A02",
-  "rolle": "Kaufmännischer Geschäftsführer eines kommunalen Grund- und Regelversorgers",
+  "id": "A01",
+  "rolle": "Ärztliche Direktorin eines Maximalversorgers",
   "einrichtungsart": "Krankenhäuser",
-  "vzae_rahmen": 70542.5,
-  "vzae": 70542.5,
+  "vzae_rahmen": 180418,
+  "vzae": 180418,
   "korrigiert": false,
   "begruendung": null,
-  "p3_prozent": -1.7,
-  "p3_vzae": -1199,
-  "p3_null_prozent": 6.5,
-  "p3_null_vzae": 4585
+  "p3_prozent": -0.8,
+  "p3_vzae": -1443,
+  "p3_null_prozent": 3,
+  "p3_null_vzae": 5413,
+  "p3_prozent_runde1": -2.1,
+  "p3_null_prozent_runde1": 2.5
  },
  {
   "id": "E07",
@@ -98,23 +82,42 @@
   "vzae": 24000,
   "korrigiert": true,
   "begruendung": "vollversorgender Pharmagroßhandel",
-  "p3_prozent": -4,
-  "p3_vzae": -960,
+  "p3_prozent": -6,
+  "p3_vzae": -1440,
   "p3_null_prozent": 6,
-  "p3_null_vzae": 1440
+  "p3_null_vzae": 1440,
+  "p3_prozent_runde1": -4,
+  "p3_null_prozent_runde1": 6
  },
  {
-  "id": "E01",
-  "rolle": "Pharmaunternehmen, Market Access Deutschland",
-  "einrichtungsart": "Pharmazeutische Industrie",
+  "id": "E02",
+  "rolle": "Medizintechnikhersteller Bildgebung",
+  "einrichtungsart": "Medizintechnische und augenoptische Industrie",
   "vzae_rahmen": 160000,
-  "vzae": 2750,
+  "vzae": 28000,
   "korrigiert": true,
-  "begruendung": "Market Access Deutschland, Mitte aus 2.000 bis 3.500",
-  "p3_prozent": -6,
-  "p3_vzae": -165,
-  "p3_null_prozent": 26,
-  "p3_null_vzae": 715
+  "begruendung": "Medizintechnik Bildgebung",
+  "p3_prozent": -3.7,
+  "p3_vzae": -1036,
+  "p3_null_prozent": 6,
+  "p3_null_vzae": 1680,
+  "p3_prozent_runde1": -5,
+  "p3_null_prozent_runde1": 3
+ },
+ {
+  "id": "A02",
+  "rolle": "Kaufmännischer Geschäftsführer eines kommunalen Grund- und Regelversorgers",
+  "einrichtungsart": "Krankenhäuser",
+  "vzae_rahmen": 70542.5,
+  "vzae": 70542.5,
+  "korrigiert": false,
+  "begruendung": null,
+  "p3_prozent": -1.26,
+  "p3_vzae": -889,
+  "p3_null_prozent": 9,
+  "p3_null_vzae": 6349,
+  "p3_prozent_runde1": -1.7,
+  "p3_null_prozent_runde1": 6.5
  },
  {
   "id": "D03",
@@ -124,10 +127,12 @@
   "vzae": 561,
   "korrigiert": true,
   "begruendung": "Kernhaushalt GKV-Spitzenverband, 560,93 Stellen",
-  "p3_prozent": -6,
-  "p3_vzae": -34,
-  "p3_null_prozent": 4,
-  "p3_null_vzae": 22
+  "p3_prozent": -9.7,
+  "p3_vzae": -54,
+  "p3_null_prozent": 2.8,
+  "p3_null_vzae": 16,
+  "p3_prozent_runde1": -6,
+  "p3_null_prozent_runde1": 4
  },
  {
   "id": "B07",
@@ -139,8 +144,25 @@
   "begruendung": "Sicherstellungsbereich der 17 KVen",
   "p3_prozent": 3,
   "p3_vzae": 120,
-  "p3_null_prozent": 19,
-  "p3_null_vzae": 760
+  "p3_null_prozent": 16,
+  "p3_null_vzae": 640,
+  "p3_prozent_runde1": 3,
+  "p3_null_prozent_runde1": 19
+ },
+ {
+  "id": "E01",
+  "rolle": "Pharmaunternehmen, Market Access Deutschland",
+  "einrichtungsart": "Pharmazeutische Industrie",
+  "vzae_rahmen": 160000,
+  "vzae": 2750,
+  "korrigiert": true,
+  "begruendung": "Market Access Deutschland, Mitte aus 2.000 bis 3.500",
+  "p3_prozent": 8,
+  "p3_vzae": 220,
+  "p3_null_prozent": 22,
+  "p3_null_vzae": 605,
+  "p3_prozent_runde1": -6,
+  "p3_null_prozent_runde1": 26
  },
  {
   "id": "H06",
@@ -150,10 +172,12 @@
   "vzae": 39000,
   "korrigiert": false,
   "begruendung": null,
-  "p3_prozent": 6,
-  "p3_vzae": 2340,
-  "p3_null_prozent": 11,
-  "p3_null_vzae": 4290
+  "p3_prozent": 7,
+  "p3_vzae": 2730,
+  "p3_null_prozent": 13,
+  "p3_null_vzae": 5070,
+  "p3_prozent_runde1": 6,
+  "p3_null_prozent_runde1": 11
  },
  {
   "id": "F07",
@@ -166,7 +190,9 @@
   "p3_prozent": 19,
   "p3_vzae": 13300,
   "p3_null_prozent": 21,
-  "p3_null_vzae": 14700
+  "p3_null_vzae": 14700,
+  "p3_prozent_runde1": 19,
+  "p3_null_prozent_runde1": 21
  },
  {
   "id": "A08",
@@ -176,10 +202,12 @@
   "vzae": 408599.4,
   "korrigiert": false,
   "begruendung": null,
-  "p3_prozent": 4,
-  "p3_vzae": 16344,
+  "p3_prozent": 4.3,
+  "p3_vzae": 17570,
   "p3_null_prozent": 5.2,
-  "p3_null_vzae": 21247
+  "p3_null_vzae": 21247,
+  "p3_prozent_runde1": 4,
+  "p3_null_prozent_runde1": 5.2
  },
  {
   "id": "B09",
@@ -189,10 +217,12 @@
   "vzae": 311000,
   "korrigiert": false,
   "begruendung": null,
-  "p3_prozent": 15.2,
-  "p3_vzae": 47272,
+  "p3_prozent": 15.3,
+  "p3_vzae": 47583,
   "p3_null_prozent": 19,
-  "p3_null_vzae": 59090
+  "p3_null_vzae": 59090,
+  "p3_prozent_runde1": 15.2,
+  "p3_null_prozent_runde1": 19
  },
  {
   "id": "C02",
@@ -202,9 +232,11 @@
   "vzae": 580000,
   "korrigiert": false,
   "begruendung": null,
-  "p3_prozent": 12,
-  "p3_vzae": 69600,
-  "p3_null_prozent": 16,
-  "p3_null_vzae": 92800
+  "p3_prozent": 14.7,
+  "p3_vzae": 85260,
+  "p3_null_prozent": 17.5,
+  "p3_null_vzae": 101500,
+  "p3_prozent_runde1": 12,
+  "p3_null_prozent_runde1": 16
  }
 ]

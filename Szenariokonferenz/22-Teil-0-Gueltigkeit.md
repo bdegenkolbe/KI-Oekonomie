@@ -2,7 +2,7 @@
 
 *Der erste Teil des Papiers, vor jeder inhaltlichen Aussage. Wer die Zahlen liest, soll zuerst wissen, wie weit sie tragen. Diese Reihenfolge ist nicht Bescheidenheit, sondern die Lehre aus dem ersten Lauf, dessen Kernzahl sich nachträglich als Modellvorannahme herausstellte.*
 
-*Stand 19.09.2026, nach Sitzung A, Quellenprüfung und Kontrollarm. Alle Zahlen des Papiers sind Erstwerte der Runde 1; die zweite Erhebung steht aus.*
+*Stand 19.09.2026, nach Sitzung A, Quellenprüfung, Kontrollarm und Sitzung B. Die Zahlen des Papiers stammen aus der zweiten Erhebung (`25-Sitzung-B.md`).*
 
 ---
 
@@ -23,6 +23,7 @@ Alle Aussagen über 2031 stehen im Konjunktiv. Was keine Kartennummer trägt, st
 | **Prüfschärfe** | ob die Validierung prüft oder durchwinkt | ≥ 80 % | **97 %** bereinigt (29 von 30); 80 % roh |
 | **Rechenweghaltbarkeit** | ob die Zahlen hergeleitet oder gesetzt sind | ≥ 90 % | **94,2 %** bereinigt |
 | ~~Attributionskonsistenz~~ | **zurückgezogen** — Formel und Toleranz stehen im Rollenauftrag; die 100 % messen Anweisungstreue, nicht Herleitung | — | als Schemaprüfung geführt |
+| ~~Modellabhängigkeit Runde 3~~ | **zurückgezogen** — beide Arme bekommen dieselben Runde-1-Werte vorgelegt; der Kontrollarm hat sie in 20 von 20 Fällen exakt reproduziert | — | misst Verankerung, nicht Modell |
 | **Gerüstabhängigkeit** | ob die Zahlen am Fach hängen oder an der Weltannahme | ≤ 1 bei ≥ 4 von 6 | **0,00 – 0,11**; Gegenläufigkeit der beiden Gerüste belegt |
 | **Modellabhängigkeit** | ob das Panel die Rollen misst oder das Modell | < 1 bei ≥ 4 von 6 | **gerissen** (3 von 6); auf verankerten Rollen 6 von 6 |
 | **Bezugsgrößendeckung** | ob die Zentraltabelle gebaut werden kann | ≥ 70 % des Rahmens | **48,9 %** nach Reparatur und Zuschnittkorrektur; 42 % im Erstlauf — **gerissen** |
@@ -30,6 +31,9 @@ Alle Aussagen über 2031 stehen im Konjunktiv. Was keine Kartennummer trägt, st
 | **Topfdeckung** | ob die Marktfrage beantwortet oder weggerundet wird | Rest nicht durchgängig null | erfüllt, Median 30 % |
 | **Schemafestigkeit** | ob die Anteilssummen halten | 100 % | **100 von 100** |
 | **Auswahlwirksamkeit** | ob die Bankkorrektur etwas bewirkt | ≥ 2 von 30 | **8 von 30** |
+| **Divergenzerhalt** | ob die Diskussion aufklärt oder homogenisiert | ≥ 0,5 bei ≥ 5 von 6 | **6 von 6**, niedrigster Wert 0,81 |
+| **Einwandhaltbarkeit** | ob der Einwandzwang echte Einwände erzeugt | ≥ 80 % | **100 %** — 0 von 60 Zügen ohne Rettungsbedingung |
+| **Fremdbezug** | ob die Gruppen quer schneiden | ≤ 20 % | **8 %** |
 | **Durchgriffsspreizung** | ob D etwas Eigenes misst | Faktor ≥ 2 | 0,00 – 1,41 |
 | **Quellenprüfung** | ob die Recherchebank trägt | — | 140 Kennzahlen, 15 Beanstandungen, **keine nicht existierende Quelle** |
 | **Quellenunabhängigkeit** | ob das Panel misst oder Positionen wiedergibt | ≤ 10 % der Karten | **4 von 100** gekennzeichnet; 8,4 % der Befunde aus der eigenen Interessenvertretung |
