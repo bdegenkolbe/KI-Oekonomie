@@ -19,7 +19,7 @@ Die Reihenfolge ist bindend und folgt `11-Konzept-v2.md` § 5, Runde 6.
 | **0 Gültigkeit** | wie weit die Zahlen tragen | Prüfschärfe, Modellabhängigkeit, Gerüstabhängigkeit, Attributionskonsistenz, Abdeckung und Rest der Zerlegung, Ausfälle | Sitzung A, Runde 1b | **füllbar** |
 | **1 Deutschland und Gesundheitswesen** | was bis 2031 geschieht | P3-Summe in Vollkräften, daneben P1 × P2 und D, daneben die P4-Zerlegung | Runde 1 und 3 | **Entwurf**, § 5b |
 | **2 Europa** | wo Deutschland steht | E1 Abstand in Jahren, E2 EU-Anteil, E3 Regelungslücke | Sitzung A, Bänke K/L/M | **Entwurf**, § 5c |
-| **3 Hebel** | was man tun könnte | fünf bis acht Hebel mit Urteilsmuster, Kippbedingung und Red-Team-Einwand | Sitzung C, Runde 4 und 5 | offen |
+| **3 Hebel** | was man tun könnte | fünf bis acht Hebel mit Urteilsmuster, Kippbedingung und Red-Team-Einwand | Sitzung C, Runde 4 und 5 | **läuft** seit 20.09.2026 |
 
 **Eine Berichtsregel aus Sitzung A, nach dem Kontrollarm eingegrenzt:** Der Durchgriff **D** ist für Felder **ohne amtliche Bezugsgröße** nur als Spannweite und als Erklärungsfigur zu führen, nicht als Zahl. Für die verankerten Felder der Zentraltabelle gilt das nicht: Dort liegt Ds Modellabhängigkeit bei 0,53 (`17-Sitzung-A.md` § 3.3a).
 
@@ -200,10 +200,12 @@ Die Zuordnung von Leistungsprofilen zu tatsächlichen Anbietern steht in `16-Mar
 | Teil 0 | **geschrieben** — `22-Teil-0-Gueltigkeit.md` |
 | Teil 1 | **geschrieben** — `23-Teil-1-Deutschland.md`, mit den Werten der zweiten Erhebung |
 | Teil 2 | **geschrieben** — `24-Teil-2-Europa.md`; maßgeblich sind die 18 zuständigen Rollen. E1 bis E3 werden in Runde 3 nicht erneut erhoben, der Teil bleibt auf der ersten Erhebung |
-| Teil 3 | erfordert Sitzung C, nicht begonnen |
+| Teil 3 | **Sitzung C läuft** seit 20.09.2026 — 118 Aufrufe: 3 Ableitung, 100 Bewertung, 6 Red Team, 3 Verifikation, 6 Papier. Erzeugt von `baue-sitzung-c.py` |
 | Register | `19-Falsifikatoren.md` (92 von 100 entscheidbar) und `20-Durchgriffskanaele.md` (59 gedeckte Normen von 342) liegen vor |
 | Quellenprüfung | `21-Quellenpruefung.md` — 140 Kennzahlen geprüft, 15 Beanstandungen, 7 hart, keine nicht existierende Quelle |
 
-Nächste Schritte in dieser Reihenfolge: die Nacharbeit abwarten; den Modellkontrollarm auf bereinigter Bezugsgröße wiederholen (zehn Aufrufe — erst danach steht fest, ob die Modellabhängigkeit wirklich gerissen ist, `17-Sitzung-A.md` § 3.3); die absolute Spalte aus P3-Prozent mal Bezugsgröße nachrechnen; Teil 0 aus `17-Sitzung-A.md` schreiben. Erst danach über Sitzung B entscheiden.
+**Sitzung C, 118 statt der geplanten 121 Aufrufe.** Die Kostentabelle des Konzepts hat die drei Syntheseinstanzen doppelt geführt — einmal in Runde 5, einmal als »drei Syntheteile« in Runde 6. Es sind dieselben drei. Korrigiert in `11-Konzept-v2.md` § 5 und § 9 sowie in `13-Validierungsstand.md`; die Summe des Gesamtverfahrens sinkt von 504 auf 501 Aufrufe. Zweite bewusste Abweichung: Teil 0, 1 und 2 sind geschrieben und geprüft und werden in Runde 6 **nicht neu geschrieben** — die korrigierten Zahlen der Zentraltabelle sollen nicht ein zweites Mal durch ein Modell laufen. Runde 6 schreibt Teil 3 und den Rahmen; die drei Verifikationsinstanzen prüfen stattdessen die bestehenden Teile gegen die Karten.
+
+Nach Sitzung C: Schlussredaktion, Validierung nach `Pruefprofil.md`, dann greift die Abschlussregel in § 7a und es folgt kein weiterer Lauf.
 
 **Drei Korrekturen für Sitzung B**, kostenlos und vor dem nächsten Lauf einzutragen: die Nullbasis abfangen, statt sie an hundert Rollen weiterzureichen; den Ankereffekt bei P1 (sechs Punkte zwischen den beiden Fragereihenfolgen) als Methodenunsicherheit mitführen; die Faktenblätter als prüfpflichtig kennzeichnen, damit die Lücke aus § 5a nicht wiederkehrt.

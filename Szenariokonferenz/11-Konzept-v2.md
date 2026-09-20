@@ -351,6 +351,8 @@ Angriff 4 ist der wichtigste, weil er das systematische Versagen dieses Verfahre
 
 **Die Synthese, drei Instanzen, getrennte Gegenstände** — Europa, Deutschland, Gesundheitswesen. Jede schreibt ihren Teil ausschließlich aus Karten; jeder Satz trägt die Kartennummern, auf denen er beruht. Eine Synthese-Instanz darf **keine Karte anlegen**: Was sie nicht vorfindet, kann sie nicht behaupten.
 
+Diese drei Syntheseinstanzen sind **dieselben**, die in Runde 6 als »drei Syntheseteile« stehen; sie werden nicht zweimal aufgerufen. Die Kostentabelle in § 9 hat sie bis zum 20.09.2026 doppelt geführt.
+
 **Die Verifikation, drei Instanzen, jede prüft einen fremden Teil.** Sie prüft drei Dinge und nichts sonst: Trägt jede Kartennummer die Aussage, unter der sie steht? Ist eine Zahl berichtet, deren Gültigkeitsmaß sie verwirft? Fehlt ein Dissenspunkt, der zu einer berichteten Aussage gehört? Eine Verifikationsinstanz schreibt nicht um, sondern meldet zurück — wer das Ergebnis schreibt, prüft es nicht selbst.
 
 ### Runde 6 — Strategiepapier 2031
@@ -455,13 +457,15 @@ Hochgerechnet aus den gemessenen Stückkosten (1,55 USD je recherchierender Opus
 | Runde 3 — Modellkontrollarm | 10 | 6 |
 | Runde 4 — Hebelsatz und Leistungsprofile aus der Tafel | 3 | 8 |
 | Runde 4 — Bewertung von Hebeln und Profilen je Rolle | 100 | 70 |
-| Runde 5 — Red Team, Synthese, Verifikation | 12 | 16 |
+| Runde 5 — Red Team und Verifikation | 9 | 12 |
 | Runde 6 — Strategiepapier, mehrstufig | 6 | 20 |
-| **Summe** | **504** | **rund 515** |
+| **Summe** | **501** | **rund 510** |
+
+**Korrektur an dieser Tabelle, 20.09.2026.** Die Zeile für Runde 5 stand zuvor mit zwölf Aufrufen: sechs Red-Team-, drei Synthese- und drei Verifikationsinstanzen. Die drei Syntheseinstanzen waren darin **doppelt gezählt** — es sind dieselben drei, die in Runde 6 als »drei Syntheseteile« stehen. Runde 5 hat neun Aufrufe, die Summe sinkt auf 501, Sitzung C auf 118. Das ist derselbe Fehlertyp wie die zuvor korrigierte Doppelzählung der Kartenzüge (30 Rollen × zwei Züge als 60 Aufrufe statt 30): eine Phase in zwei Zeilen geführt und in beiden voll angesetzt.
 
 **Die Wanduhrzeit ist das eigentliche Problem, nicht das Geld.** Der Container hat vier CPUs, die Nebenläufigkeit liegt damit bei zwei Agenten; das ist eine Eigenschaft der Umgebung und keine des Modells.
 
-Der frühere Ansatz von drei Minuten je Aufruf ist **gemessen widerlegt**: Die Mechanikprobe brauchte für 57 Aufrufe zwei Stunden und zwei Minuten, also **4,28 Minuten je Aufruf** bei Nebenläufigkeit zwei (`15-Mechanikprobe.md` § 5b). Hochgerechnet ergeben 504 Aufrufe damit **rund 18 Stunden** statt der zuvor angesetzten 13,3. Mit der Zwischenspeicherung aus § 8 zerfällt der Lauf in drei Abschnitte von rund 8,3, 5,4 und 4,3 Stunden, die nicht an einem Stück laufen müssen. **Gemessen an Sitzung A**: 223 Aufrufe in 9 h 46 min, also 5,26 Minuten je Aufruf — ein Fünftel über dem Ansatz, weil die Rollen mit Eigenrecherche länger brauchen als die Probe.
+Der frühere Ansatz von drei Minuten je Aufruf ist **gemessen widerlegt**: Die Mechanikprobe brauchte für 57 Aufrufe zwei Stunden und zwei Minuten, also **4,28 Minuten je Aufruf** bei Nebenläufigkeit zwei (`15-Mechanikprobe.md` § 5b). Hochgerechnet ergeben 501 Aufrufe damit **rund 18 Stunden** statt der zuvor angesetzten 13,3. Mit der Zwischenspeicherung aus § 8 zerfällt der Lauf in drei Abschnitte von rund 8,3, 5,4 und 4,2 Stunden, die nicht an einem Stück laufen müssen. **Gemessen an Sitzung A**: 223 Aufrufe in 9 h 46 min, also 5,26 Minuten je Aufruf — ein Fünftel über dem Ansatz, weil die Rollen mit Eigenrecherche länger brauchen als die Probe.
 
 **Die Marktschicht kostet fast nichts.** A1 bis A3 hängen an der Runde-1-Karte, die Leistungsprofile an der Runde-4-Karte; hinzu kommt ein einziger Aufruf für ihre Ableitung. Zusammen rund 20 USD und ein Aufruf — für den Teil, der aus einem Lagebild eine Marktaussage macht. Das ist das günstigste Stück des ganzen Verfahrens.
 
