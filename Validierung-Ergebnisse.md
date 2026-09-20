@@ -7,6 +7,63 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 20. September 2026 (Lauf 001 vom 20. September 2026) — Version 99.0 → Version 100.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Maschinell geprüft: 11 nummerierte Kapitel (1 bis 11) plus Zusammenfassung vor Kapitel 1; Inhaltsverzeichnis stimmt in Anzahl, Reihenfolge und Wortlaut mit den Kapitelüberschriften überein (maschineller Abgleich der elf Einträge). Kein neuer Unterabschnitt angelegt, keine Überschrift ohne Inhalt |
+| 2.1.2 Nummerierung | OK | Kapitelnummerierung lückenlos; Unterabschnitt-Nummerierung in jedem Kapitel lückenlos (Kap. 1: 1–3; Kap. 2: 1–3; Kap. 3: 1–5; Kap. 4: 1–5; Kap. 5: 1–4; Kap. 6: 1–4; Kap. 7: 1–3; Kap. 8: 1–7; Kap. 9: 1–5; Kap. 10: 1–3; Kap. 11: 1–5). Geschützte Zähler unverändert: fünf Typen in § 2.1 (maschinell nachgezählt: Typ 1 bis Typ 5), drei Säulen der Deutschland-These, sieben Empfehlungen in § 10.2 (maschinell nachgezählt: Erstens bis Siebtens) |
+| 2.1.3 Querverweise | OK | Maschinelle Auflösung aller `§X.Y`-Verweise gegen die tatsächlich vorhandenen Unterabschnitte: kein ungültiger Verweis. Die Treffermeldung `§ 2.4.4` bezeichnet durchgängig den Prüfschritt dieses Prüfprozesses und ist als solche gekennzeichnet (`§ 2.4.4 Validierung.md`), nicht als Verweis in das Hauptdokument. Die in diesem Lauf neu gesetzten Verweise (§ 3.3 → § 3.4, § 5.1, § 5.3, § 8.2, § 9.3; § 8.2 → § 2.2, § 4.5, § 8.3; § 1.1 → § 9.1, § 9.2) zeigen sämtlich auf bestehende Unterabschnitte |
+| 2.1.4 Roter Faden | OK | Arbeitsteilung eingehalten: § 3.3 trägt die institutionelle Positionsbestimmung des Internationalen Währungsfonds als Literatur- und Erwartungsbefund, § 8.2 die industriepolitische Regierungsentsprechung zur ersten Säule, § 1.1 den fortlaufenden Trackerabgleich. Die Deutschland-These bleibt als eigenständige Position erkennbar; die neue *Elfte Fortschreibung* führt ausdrücklich aus, dass eine Regierungsempfehlung die These stützt, ohne sie zu ersetzen |
+| 2.1.5 Formatierung | OK | Maschinell geprüft: keine Zeile mit ungerader Anzahl `**`, keine doppelten Leerzeilen, keine doppelten Trennlinien, alle Markdown-Tabellen spaltenkonsistent |
+| 2.2.1 Sachliche Richtigkeit | Abweichung (behoben) | Eine im Lauf vom 19. September 2026 getroffene Feststellung hat sich beim vollständigeren Auslesen derselben Quelle als Fehldeutung erwiesen (siehe *Gefundene Fehler* Nr. 1). Alle übrigen Zahlen dieses Laufs sind gegen den Direktabruf geprüft; sämtliche Summen- und Rechenproben gehen auf (591.783 + 43.791 = 635.574; 635.574 + 483.866 = 1.119.440; 1.119.440 − 1.111.633 = 7.807 = 1.707 + 6.100; 66.861 + 47.883 = 114.744; 210.741 / 263 Tage = 801,3; 7.114 + 7.807 = 14.921) |
+| 2.2.2 Redundanzprüfung | OK | Kein Sachverhalt doppelt geführt. Geprüft insbesondere: Der Kapitalmobilitäts-Einwand des Fonds ist in § 3.3 als Befund referiert und auf die bereits bestehende Darstellung in § 9.3 verwiesen, statt sie zu wiederholen; die Entkopplung der sozialen Sicherung vom Erwerbsstatus ist mit einem Querverweis auf § 5.3 abgehandelt und dort nicht erneut ausgeführt; die Veredelungsstrategie wird in der *Elften Fortschreibung* fortgeschrieben, nicht neu eingeführt |
+| 2.2.3 Argumentation | OK | Die drei Zugriffslogiken bleiben getrennt: Maschine (§ 2.1), Wertschöpfung (§ 5.1) und — neu hinzugetreten — Rente als Bemessungsgrundlage (§ 3.3, Internationaler Währungsfonds). Die Ablehnung einer pauschalen Robotersteuer durch den Fonds ist ausdrücklich von der Gegenposition in § 3.4 abgegrenzt, weil beide im positiven Teil auseinanderfallen. Die fünf Typen des § 2.1 sind nicht verändert worden |
+| 2.2.4 Ausgewogenheit | OK | Die Einschränkungen der neuen Quellen sind vollständig mitgeführt: beim Internationalen Währungsfonds das Fehlen eigener Punktschätzungen, die Chatham-House-Regel und die ausdrückliche Zurechnung der Ansichten zu den Verfasserinnen und Verfassern statt zum Fonds; beim Strategiekreis der Umstand, dass die inhaltlichen Angaben von einer beteiligten Einrichtung und nicht von der amtlichen Meldung stammen; beim fünften Zählwerk der Prüfvermerk zur Überschrift-Zählkriterium-Diskrepanz. Die industriepolitische Leerstelle in § 8.2 ist mit dem fairnesshalber mitgeführten Hinweis versehen, dass es sich um Empfehlungen eines Beratungsgremiums und nicht um Beschlusslage handelt |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe über die vier neuen Textblöcke (§ 1.1, § 3.3 zwei Absätze, § 8.2 zwei Absätze) und die drei neuen sowie drei fortgeschriebenen Literatureinträge ohne Befund |
+| 2.3.2 Terminologie | Abweichung (behoben) | Die Chatham-House-Regel war bei ihrem ersten Auftreten nicht erläutert (siehe *Gefundene Fehler* Nr. 3). Übrige neue Fachbegriffe sind beim ersten Auftreten erklärt: *runaway diffusion* als „entfesselte Verbreitung", *Important Projects of Common European Interest* mit deutscher Auflösung und Abkürzung IPCEI, *WARN notices* als Massenentlassungsanzeigen, „blunt robot taxes" im englischen Original mit deutscher Wiedergabe. Schreibweise „Wertschöpfungsabgabe" durchgängig, kein Vorkommen von „Wertschöpfungssteuer" |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Alle drei in diesem Lauf im Fließtext genannten neuen Quellen haben einen Eintrag im Literaturverzeichnis: Internationaler Währungsfonds (IMF Note 2026/002) und Bundeskanzleramt/acatech in § 11.3 als institutionelle und politische Dokumente, *Job Security Meter* in § 11.5 als praxisorientiertes Zählwerk. Keine neue Fließtextnennung ohne Eintrag, kein neuer Eintrag ohne Fließtextnennung |
+| 2.4.2 Formale Einheitlichkeit | OK | Zitierstil angelehnt an APA, vollständige URLs ohne Kürzungsdienst (maschinell geprüft: kein Vorkommen von `bit.ly` oder `tinyurl`) und ohne Weiterleitungsadresse; Note-Nummer und ISBN des Fondspapiers als solche gekennzeichnet, Trackerstände jeweils mit Stichtag geführt |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Für die institutionelle Kernaussage ist die Primärquelle beschafft und im Volltext über alle 30 Seiten ausgewertet worden; die Zahlen der Zählwerke stammen sämtlich aus Direktabrufen am Stichtag, nicht aus Suchergebnis-Zusammenfassungen (Verfahrensregel Cluster F, `Suchthemen.md`). Für den Strategiekreis liegt die amtliche Meldung vor, sie trägt jedoch nur die Terminankündigung — die inhaltliche Quellenlage ist im Literatureintrag offengelegt |
+| 2.4.4 URL-Prüfung (Stichprobe) | Abweichung (ohne Fehler im Dokument) | Stichprobe von 12 URLs, darunter sämtliche sechs in diesem Lauf neu aufgenommenen oder fortgeschriebenen Adressen. Sechs Direktabrufe erfolgreich (drei Zählwerke, *Job Security Meter*, acatech, bundeskanzler.de). Die IMF-eLibrary-Nachweisseite antwortet mit HTTP 403 (Zugriffssperre, kein toter Link); der Volltext ist über die frei ausgelieferte PDF-Adresse auf imf.org vollständig beschafft worden. Beide Adressen sind im Literatureintrag geführt und der Befund ist dort als Prüfvermerk hinterlegt (siehe *Gefundene Fehler* Nr. 2) |
+| 2.4.5 Zitatgenauigkeit | OK | Fünf Kernaussagen gegengeprüft: (a) „Avoiding blunt ‚robot taxes'" — wörtlich im Volltext des Fondspapiers; (b) „Erosion of the labor tax base will necessitate adaptation of tax systems" — wörtlich; (c) die Zurechnung der Probleme zu Ländern, die KI-Dienste konsumieren statt produzieren — wörtlich („most acute for countries that primarily consume AI services, rather than produce them"); (d) „companies in 2026" als Label der Jahresansicht bei *AskTheRecruiter* — wörtlich ausgelesen und Grundlage der Berichtigung; (e) industrielle Künstliche Intelligenz als „besondere Chance", Deutschland als KI-Nation zu etablieren — sinngemäß aus dem acatech-Bericht, im Dokument als Ergebnis des Gremiums und nicht als amtliche Feststellung referiert. Modellcharakter, Szenariencharakter und Empfehlungscharakter sind jeweils gekennzeichnet |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Die Markierung bei de la Feria et al. 2022 ist unverändert erhalten; in diesem Lauf ist keine Verifikation erfolgt und keine Markierung entfernt worden |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 100.0 an allen vier Stellen: Dokumentkopf, Aktualitätshinweis am Dokumentende, `README.md` (Versionszeile und Zitiervorschlag), Abschlussblock dieses Protokolls. Kein Restvorkommen von „99.0" im Hauptdokument. Autorenname und Organisation unverändert, Haftungshinweis und Lizenzhinweis CC BY 4.0 am Dokumentende vollständig erhalten, KI-Offenlegung in `README.md` unverändert |
+| 2.6 Automatisierte Prüfung | OK | Kein dediziertes Prüfskript im Repository; die maschinellen Stichproben zu Gliederung, Inhaltsverzeichnis-Abgleich, Nummerierung, Zählern, Querverweisauflösung, Fettungs-Parität, Tabellenkonsistenz, Leerzeilen und URL-Form ersetzen den automatisierten Teil nach § 2.6 `Validierung.md` |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|---|---|---|
+| 1 | § 1.1 (Nachtrag 19. September 2026), § 11.5 (Eintrag *AskTheRecruiter*) | Die im Vorlauf vermerkte Beobachtung, das Zählwerk führe „eine Allzeitzahl von 2.026 Unternehmen" und damit eine Allzeitgröße unterhalb des Bestands einer einzelnen Jahresansicht, beruht auf einer Fehldeutung des Feldbezeichners. Die Angabe trägt das Label „companies in 2026" und ist die Jahresansicht; die tatsächlichen Allzeitangaben lauten 39.591 Unternehmen, 81 Länder und 65.698 Einträge und liegen sämtlich über dem Jahresbestand | Mittel |
+| 2 | § 11.3 (Eintrag Internationaler Währungsfonds) | Die als Nachweis geführte Adresse der IMF-eLibrary ist nicht frei abrufbar (HTTP 403); ohne Kennzeichnung hätte der Eintrag einen Nachweis behauptet, der auf diesem Weg nicht führbar ist | Gering |
+| 3 | § 3.3 (Absatz Internationaler Währungsfonds) | Der Fachbegriff „Chatham-House-Regel" war beim ersten Auftreten nicht erläutert (Verstoß gegen § 4.1 `Claude.md` und § 2.3.2 dieses Prüfprozesses) | Gering |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|---|---|---|
+| 1 | Fehldeutung der Allzeitangabe | In § 1.1 ist ein ausdrücklich als **Berichtigung zum Stand vom 19. September 2026** gekennzeichneter Absatz eingefügt worden, der die Fehldeutung benennt, die zutreffenden Allzeitangaben nachträgt und die daraus gezogene Folgerung zurücknimmt; die fortbestehende, erst dadurch sichtbare Unstimmigkeit zweier Zahlen für dieselbe Jahresgröße (2.026 gegenüber 3.152) ist vermerkt, aber nicht als Kennzahl weiterverwendet. Im Literatureintrag in § 11.5 ist die Berichtigung wortgleich nachgeführt. Der frühere Eintrag bleibt nach § 4.5 `Claude.md` und Phase 2 Nr. 5 des Daily-Prompts unverändert als zeitlich frühere Referenz erhalten | Ja |
+| 2 | Nicht frei abrufbare Nachweisadresse | Der Literatureintrag in § 11.3 führt beide Adressen (Nachweisseite und frei ausgelieferte PDF-Fassung) und trägt einen **Prüfvermerk nach § 2.4.4 `Validierung.md`**, der den Statuscode, die Unterscheidung von Zugriffssperre und totem Link und die Beschaffung des Volltextes über die zweite Adresse festhält | Ja |
+| 3 | Fehlende Begriffserläuterung | In § 3.3 ist die Chatham-House-Regel beim ersten Auftreten um eine Kurzerläuterung ergänzt worden („Inhalte dürfen wiedergegeben, aber keiner namentlich benannten Person zugeordnet werden") | Ja |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen (2.2.1 Sachliche Richtigkeit, 2.3.2 Terminologie, 2.4.4 URL-Prüfung, 2.4.1 Vollständigkeit und Zuordnung, 2.1.3 Querverweise, 2.1.5 Formatierung): OK — keine neu eingeführte Abweichung. Sämtliche Summen- und Rechenproben nach der Bereinigung erneut ausgeführt und aufgegangen
+- Maschinelle Nachprüfung nach der Bereinigung: 11 Kapitel, Unterabschnitte lückenlos, Inhaltsverzeichnis deckungsgleich, kein ungültiger `§X.Y`-Verweis, Zähler unverändert (5 / 3 / 7), keine ungerade Fettungs-Parität, keine doppelten Leerzeilen, keine doppelten Trennlinien, alle Tabellen spaltenkonsistent, kein Restvorkommen der alten Versionsnummer
+- Automatisierte Skripte: n/a — im Repository nicht vorhanden
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 100.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 19. September 2026 (Lauf 001 vom 19. September 2026) — Version 98.0 → Version 99.0
 
 ### Prüfergebnis
