@@ -848,7 +848,11 @@ ${ZWEI_REGELN}
 
 SPRACHE: Deutsch, Fliesstext, kurze Saetze. Keine Aufzaehlung, wo ein Satz reicht; eine Tabelle nur, wo sie mehr traegt als der Satz. Keine Fuellwoerter, keine Beschwoerung von Bedeutung, kein "es ist wichtig zu betonen". Zahlen mit Tausenderpunkt. Kartennummern in Klammern hinter der Aussage, nicht als Fussnote.
 
-WAS EINEN ABSATZ WERTLOS MACHT: dass er sagt, etwas sei komplex, vielschichtig oder differenziert zu betrachten. Sage stattdessen, WAS strittig ist, ZWISCHEN WEM, und WORAN es sich entscheidet.`
+WAS EINEN ABSATZ WERTLOS MACHT: dass er sagt, etwas sei komplex, vielschichtig oder differenziert zu betrachten. Sage stattdessen, WAS strittig ist, ZWISCHEN WEM, und WORAN es sich entscheidet.
+
+KEINE UNGEPRUEFTEN ALLAUSSAGEN. Das ist die charakteristische Schwaeche dieses Laufs, zweimal gemessen: Die Ableitung hat wiederholt behauptet, eine Karte sei "die einzige", "alle acht" Karten beschrieben dasselbe, "sechs korrigieren aus demselben Grund" - und die Pruefung hat jedes Mal Gegenbeispiele gefunden. Schreibe deshalb nie "die einzige", "alle", "saemtlich", "ausnahmslos", "keine andere", wenn du es nicht an den Karten ausgezaehlt hast. "Mehrere", "unter anderem", "darunter" sind zulaessig und kosten nichts. Eine Zahl ist besser als ein Superlativ: "sieben von hundert" traegt, "die einzige" traegt nur, wenn du die anderen 99 geprueft hast.
+
+DIE BEANSTANDUNGEN DER PRUEFINSTANZ SIND BINDEND. Unter den Unterlagen findest du die Beanstandungen an der Herleitung der Hebel und Profile. Jede harte Beanstandung betrifft einen Satz, den du NICHT uebernehmen darfst - weder woertlich noch sinngemaess. Wo ein Hebel oder ein Profil trotz einer harten Beanstandung im Satz bleibt, schreibst du seine Begruendung so um, dass sie nur noch das behauptet, was die Karten tragen; wo das nichts uebrig laesst, faellt die Begruendung und nicht die Beanstandung.`
 
 const KAPITEL = [
   { id: 'K1', titel: 'Die Hebel',
@@ -920,7 +924,7 @@ ${KANAELE}
 WAS DAS RED TEAM GEFUNDEN HAT:
 ${RTTEXT}
 
-DIE BEANSTANDUNGEN AN DER HERLEITUNG DER HEBEL UND PROFILE:
+DIE BEANSTANDUNGEN AN DER HERLEITUNG DER HEBEL UND PROFILE - die harten sind bindend, siehe Schreibauftrag:
 ${JSON.stringify((pruefung4b && pruefung4b.beanstandungen) || [], null, 1)}
 Luecke laut Pruefinstanz: ${(pruefung4b && pruefung4b.fehlend) || '-'}
 Was die Nachbesserung geaendert hat: ${(nachbesserung && nachbesserung.geaendert) || '-'}
