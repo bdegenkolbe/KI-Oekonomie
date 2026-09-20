@@ -2,8 +2,8 @@
 """Erzeugt workflow-sitzung-c.js: Runde 4 (Hebel und Leistungsprofile),
 Runde 5 (Red Team und Verifikation), Runde 6 (Papier).
 
-118 Aufrufe:
-    3   Runde 4a  Hebelsatz, Leistungsprofile, Pruefung der Herleitung
+120 Aufrufe:
+    5   Runde 4a  Hebelsatz, Leistungsprofile, Pruefung, Nachbesserung, zweite Pruefung
   100   Runde 4b  jede Rolle bewertet jeden Hebel und die Profile ihrer Bank
     6   Runde 5a  Red Team, sechs Angriffsauftraege
     3   Runde 5b  Verifikation der drei geschriebenen Teile, je ein fremder Teil
@@ -38,6 +38,12 @@ QUELLEN = {'sa': ROH / 'sitzung-a.json', 'sb': ROH / 'sitzung-b.json',
            'rost': ROH / 'roster.json'}
 DOKS = {'teil0': '22-Teil-0-Gueltigkeit.md', 'teil1': '23-Teil-1-Deutschland.md',
         'teil2': '24-Teil-2-Europa.md', 'kanaele': '20-Durchgriffskanaele.md'}
+
+
+def einzeilig(x):
+    """Absaetze zu einer Zeile. Die Kartenbloecke im Prompt sind zeilenweise
+    aufgebaut; ein Absatz im Antworttext zerlegte sonst die Karte."""
+    return ' '.join(str(x or '').split())
 
 
 def durchgriff(a):
@@ -88,9 +94,17 @@ def main():
         # Doppelung kostete 120 KB Skript.
         rollen[-1]['_gross'] = {
             'engpass2': a3.get('a3_zweitnennung', ''),
-            'sichtbar': str(a3.get('a3_woran_sichtbar', ''))[:400],
+            'sichtbar': einzeilig(a3.get('a3_woran_sichtbar', ''))[:400],
             'a1_norm': str(a1.get('a1_norm', ''))[:200],
-            'position': str(a1['position'])[:800],
+            'position': einzeilig(a1['position'])[:800],
+            # Runde 1 zum Vergleich und die Begruendung der Bewegung. Ohne beides
+            # leitet die Syntheseinstanz aus zurueckgezogenen Aussagen ab - genau
+            # das ist im ersten Anlauf am 20.09. passiert (sieben von acht Hebeln).
+            'r1': {'p1': a1['p1'], 'p2': a1['p2'], 'p3': a1['p3'],
+                   'p3_null': a1['p3_null'], 'd': durchgriff(a1)},
+            # Zeilenumbrueche raus: sonst zerfaellt jede Karte im Prompt in
+            # mehrere Bloecke und die Zuordnung Karte-zu-Begruendung geht verloren.
+            'aenderung': einzeilig(t.get('aenderung', ''))[:900],
         }
 
     gross = {r['id']: r.pop('_gross') for r in rollen}
@@ -98,10 +112,27 @@ def main():
         r['einrichtungsart'] = r['einrichtungsart'][:60]
 
     # ------------------------------------------------- Grundlage der Hebelableitung
-    zeilen = [f"{r['id']} {r['bank']} {r['rolle']} | P3 {r['p3']} (ohne KI {r['p3_null']}) | "
-              f"D {r['d']} | Hemmnis {r['hemmnis']} | Engpass {r['engpass']}\n"
-              f"   POSITION: {gross[r['id']]['position'][:420]}" for r in rollen]
+    def bewegung(r):
+        o = gross[r['id']]['r1']
+        teile = []
+        for k, name in (('p1', 'P1'), ('p2', 'P2'), ('p3', 'P3'), ('p3_null', 'P3_0'), ('d', 'D')):
+            neu_, alt_ = (r[k], o[k])
+            if neu_ != alt_:
+                teile.append(f'{name} {alt_} -> {neu_}')
+        return ', '.join(teile) if teile else 'keine Kernzahl bewegt'
+
+    zeilen = []
+    for r in rollen:
+        g = gross[r['id']]
+        zeilen.append(
+            f"{r['id']} {r['bank']} {r['rolle']}\n"
+            f"   RUNDE 3, MASSGEBLICH: P1 {r['p1']} | P2 {r['p2']} | P3 {r['p3']} | "
+            f"P3_0 {r['p3_null']} | D {r['d']} | Hemmnis {r['hemmnis']} | Engpass {r['engpass']}\n"
+            f"   BEWEGUNG gegenueber Runde 1: {bewegung(r)}\n"
+            f"   WAS SICH GEAENDERT HAT UND WARUM (Runde 3): {g['aenderung']}\n"
+            f"   ERSTPOSITION aus Runde 1, in Teilen ueberholt: {g['position'][:380]}")
     hebelbasis = '\n\n'.join(zeilen)
+    bewegt = sum(1 for r in rollen if bewegung(r) != 'keine Kernzahl bewegt')
 
     dissens = '\n\n'.join(
         f"GRUPPE {n + 1} - Streitfrage: {d['streitfrage']}\n" + '\n'.join(
@@ -111,9 +142,18 @@ def main():
             for x in d['dissens'])
         for n, d in enumerate(D['sb']['dissens']))
 
-    zaehl = lambda schl: ', '.join(
-        f'{k} {v}' for k, v in collections.Counter(
-            str(r[schl]).strip() for r in rollen).most_common(12))
+    def norm(x):
+        x = str(x).strip().lower()
+        for a, b in (('\u00e4', 'ae'), ('\u00f6', 'oe'), ('\u00fc', 'ue'), ('\u00df', 'ss')):
+            x = x.replace(a, b)
+        return x
+
+    def zaehl(schl):
+        # Schreibweisen zusammenfuehren: 'Investitionsfaehigkeit' und
+        # 'Investitionsfaehigkeit' mit Umlaut waren zwei Eintraege und haben das
+        # zweithaeufigste Hemmnis des Panels unter das dritte sortiert.
+        c = collections.Counter(norm(r[schl]) for r in rollen)
+        return ', '.join(f'{k} {v}' for k, v in c.most_common(12))
 
     profilbasis = 'ENGPASSANGABEN ALLER HUNDERT ROLLEN (A3), nach Bank:\n\n' + '\n'.join(
         f"{r['id']} {r['bank']} ({r['bankName']}) {r['rolle']}\n"
@@ -137,7 +177,7 @@ def main():
 
     js = VORLAGE
     ersetzungen = (
-        ('__ROLLEN__', rollen), ('__HEBELBASIS__', hebelbasis), ('__PROFILBASIS__', profilbasis),
+        ('__ROLLEN__', rollen), ('__BEWEGT__', bewegt), ('__HEBELBASIS__', hebelbasis), ('__PROFILBASIS__', profilbasis),
         ('__DISSENS__', dissens), ('__KERN__', kern), ('__KANAELE__', D['kanaele']),
         ('__TEIL0__', D['teil0']), ('__TEIL1__', D['teil1']), ('__TEIL2__', D['teil2']),
         ('__BAENKE__', BANK),
@@ -149,8 +189,8 @@ def main():
         js = js.replace(marke, json.dumps(wert, ensure_ascii=False))
     ZIEL.write_text(js, encoding='utf-8')
 
-    print(f'{ZIEL.name}: 118 Aufrufe, {round(len(js) / 1024)} KB')
-    print(f'  Runde 4a   3  Hebelsatz, Leistungsprofile, Pruefung der Herleitung')
+    print(f'{ZIEL.name}: 120 Aufrufe, {round(len(js) / 1024)} KB')
+    print(f'  Runde 4a   5  Hebelsatz, Leistungsprofile, Pruefung, Nachbesserung, zweite Pruefung')
     print(f'  Runde 4b {len(rollen):3d}  Bewertung je Rolle')
     print(f'  Runde 5    9  sechs Red Team, drei Verifikation')
     print(f'  Runde 6    6  drei Kapitel, Zusammenzug, Verifikation, Schlussfassung')
@@ -158,6 +198,7 @@ def main():
           f'{kern["mit_ki"]:+d} mit KI / {kern["ohne_ki"]:+d} ohne KI / '
           f'KI-Beitrag {kern["ki_beitrag"]:+d}')
     print(f'  Rollen mit amtlicher Bezugsgroesse: {sum(1 for r in rollen if r["vzae"])} von {len(rollen)}')
+    print(f'  Rollen, die in Runde 3 eine Kernzahl bewegt haben: {bewegt} von {len(rollen)}')
 
 
 VORLAGE = r'''export const meta = {
@@ -172,6 +213,7 @@ VORLAGE = r'''export const meta = {
 }
 
 const ROLLEN = __ROLLEN__
+const BEWEGT = __BEWEGT__
 const HEBELBASIS = __HEBELBASIS__
 const PROFILBASIS = __PROFILBASIS__
 const DISSENS = __DISSENS__
@@ -185,7 +227,7 @@ const VERTEILUNG = __VERTEILUNG__
 
 /* Der Gueltigkeitsstand, kurz. Er steht in jedem Prompt, der eine Zahl berichtet -
    nicht als Nachwort, sondern als Bedingung. */
-const GUELTIG = `GEMESSENE GUELTIGKEIT DES LAUFS (23 vorab festgelegte Abbruchkriterien, Stand nach Sitzung B und vier Fehlersuchen):
+const GUELTIG = `GEMESSENE GUELTIGKEIT DES LAUFS (24 vorab festgelegte Abbruchkriterien, Stand nach Sitzung B und fuenf Fehlersuchen):
   ERFUELLT: Pruefschaerfe 97 % bereinigt (29 von 30; die rohen 80 % waren ein Artefakt - zehn der vierzig gesetzten Fehler multiplizierten eine Null und existierten nie) | Rechenweghaltbarkeit 94,2 % | Geruestabhaengigkeit 0,00-0,11 | Schemafestigkeit 100 von 100 | Divergenzerhalt 6 von 6, niedrigster Wert 0,81 | Einwandhaltbarkeit 100 % | Fremdbezug 8 % | Quellenunabhaengigkeit 4 von 100 Karten interessengekennzeichnet
   GERISSEN: Bezugsgroessendeckung 48,9 % statt 70 % | Modellabhaengigkeit 3 von 6 (auf den verankerten Rollen 6 von 6) | Zuschnittstreue 10 von 16
   ZURUECKGEZOGEN, weil sie nichts messen: Attributionskonsistenz (Formel und Toleranz stehen woertlich im Rollenauftrag - gemessen wurde Anweisungstreue) | Modellabhaengigkeit in Runde 3 (beide Arme sahen dieselben Runde-1-Werte, der Kontrollarm reproduzierte sie in 20 von 20 Faellen exakt)
@@ -267,7 +309,13 @@ DIE SPERRE, die das Verfahren ueberhaupt erst begruendet: Eine von hundert Rolle
 
 ${VERTEILUNG}
 
-DIE DISSENSPUNKTE DER FUENF GRUPPEN - hier zerfaellt das Panel, und hier liegen die Hebel:
+DIE WICHTIGSTE REGEL DIESES AUFRUFS - lies sie, bevor du irgendeine Zahl abschreibst:
+
+DIE WERTE DER RUNDE 3 SIND MASSGEBLICH, NICHT DIE DER RUNDE 1. Zwischen beiden Erhebungen lag die Gruppendiskussion, und ${BEWEGT} von hundert Rollen haben danach mindestens eine Kernzahl geaendert. Mehrere haben die Aussage, an der ein Streitpunkt haengt, AUSDRUECKLICH ZURUECKGEZOGEN - mit Begruendung, in ihrer eigenen Karte. Ein Hebel, der auf einer zurueckgezogenen Aussage steht, ist wertlos, und zwar unabhaengig davon, wie gut er klingt.
+
+Die Dissensprotokolle unten zitieren durchgaengig die ERSTWERTE der Runde 1. Sie sind das Protokoll einer Diskussion, die stattgefunden hat - eine Quelle fuer Streitpunkte, KEINE Zahlenquelle. Fuer jede Karte, die du zitierst, gilt: Gleiche die Zahl gegen die Zeile "RUNDE 3, MASSGEBLICH" derselben Rolle ab und lies den Absatz "WAS SICH GEAENDERT HAT UND WARUM". Wo beides auseinanderfaellt, gewinnt Runde 3. Wo eine Rolle ihre Aussage zurueckgenommen hat, ist sie zurueckgenommen.
+
+DIE DISSENSPUNKTE DER FUENF GRUPPEN - hier zerfiel das Panel, und hier liegen die Hebel. Die Zahlen darin sind Runde-1-Stand:
 
 ${DISSENS}
 
@@ -281,11 +329,14 @@ ${HEBELBASIS}
 
 ${GUELTIG}
 
-VIER REGELN:
-1. Jeder Hebel nennt eine GROESSE, die er bewegen soll - P1, P2, P3, D, P4 oder P5. Ein Hebel, der keine der erhobenen Groessen bewegt, gehoert nicht in dieses Papier.
-2. Jeder Hebel nennt die RECHTSGRUNDLAGE, die geaendert oder geschaffen wuerde. "Man muesste" ist kein Instrument.
-3. Kein Hebel darf ein Leistungsprofil sein. Wenn ein Externer es anbieten koennte, ist es kein Hebel.
-4. Halte fest, welche naheliegenden Hebel du NICHT aufgenommen hast, weil keine Karte sie traegt. Diese Liste ist so wichtig wie die Hebel selbst.`,
+SIEBEN REGELN:
+1. JEDE ZAHL, DIE DU ZITIERST, IST EINE RUNDE-3-ZAHL. Wenn du eine Zahl aus einem Dissensprotokoll uebernimmst, ohne sie gegen die Runde-3-Zeile abzugleichen, ist der Hebel ungueltig.
+2. Jeder Hebel nennt eine GROESSE, die er bewegen soll - P1, P2, P3, D, P4 oder P5. Ein Hebel, der keine der erhobenen Groessen bewegt, gehoert nicht in dieses Papier.
+3. Jeder Hebel nennt die RECHTSGRUNDLAGE, die geaendert oder geschaffen wuerde. "Man muesste" ist kein Instrument.
+4. Kein Hebel darf ein Leistungsprofil sein. Wenn ein Externer es anbieten koennte, ist es kein Hebel.
+5. JEDE KARTE, DIE EINEN BESTANDTEIL DES HEBELS TRAEGT, GEHOERT IN DIE KARTENLISTE - auch eine Gegeneinwandkarte, aus der ein einzelner Bestandteil stammt. Eine Herleitung, die eine nicht gelistete Karte braucht, ist unvollstaendig.
+6. DIE HAEUFIGSTEN HEMMNISSE DES PANELS musst du abdecken oder ihr Fehlen begruenden. Wenn eine der drei groessten Hemmniskategorien in keinem Hebel vorkommt, steht die Begruendung dafuer unter "nicht_hergeleitet" - eine Luecke ohne Begruendung ist ein Fehler, keine Auswahl.
+7. Halte fest, welche naheliegenden Hebel du NICHT aufgenommen hast, weil keine Karte sie traegt. Diese Liste ist so wichtig wie die Hebel selbst.`,
     { label: 'Hebelsatz', phase: 'Hebelsatz', schema: S_HEBEL }),
 
   () => agent(
@@ -296,9 +347,13 @@ DEINE AUFGABE: Leite aus den A3-Engpassangaben des Panels SECHS BIS ACHT LEISTUN
 Ein Leistungsprofil ist etwas, das ein EXTERNER anbieten koennte - im Unterschied zum Hebel, den der Staat oder die Selbstverwaltung zieht.
 
 DREI KONSTRUKTIONSREGELN, ohne die der ganze Block wertlos waere:
-1. KEIN ANBIETERNAME, KEINE MARKE, KEIN PRODUKTNAME. Formuliert wird die Leistung, nicht der Anbieter. Also: "eine Instanz, die aus Routinedaten die Wirksamkeit eines Produkts gegenueber einer Erstattungsentscheidung belegt" - nicht, wer das tut. Ein Profil mit einem Namen darin ist ungueltig.
+1. KEIN ANBIETERNAME, KEINE MARKE, KEIN PRODUKTNAME. Formuliert wird die Leistung, nicht der Anbieter - also die Taetigkeit und ihr Ergebnis, nie wer sie ausuebt. Ein Profil mit einem Namen darin ist ungueltig; ebenso eine Umschreibung, die nur auf einen einzigen Marktteilnehmer passen kann.
+   Zur Bauform, bewusst aus einem fremden Feld genommen, damit du sie nicht abschreibst: "eine Instanz, die den Nachweis der Wartungsfaehigkeit einer Anlage gegenueber der Genehmigungsbehoerde fuehrt" - Taetigkeit, Gegenstand, Adressat der Leistung, kein Name. Uebertrage die BAUFORM auf die Engpaesse unten, nicht den Inhalt: ein Profil, das die Formulierung dieses Beispiels wiederholt, ist nicht aus den Karten abgeleitet, sondern aus diesem Auftrag.
 2. DIE RICHTUNG IST BINDEND: vom Engpass zum Profil, nie vom Portfolio zum Profil. Wo dreissig Felder "Daten" als Engpass nennen, entsteht ein Profil, das Datenzugang loest; wo zwanzig "Recht" nennen, eines, das Konformitaet herstellt. Du kannst nicht bestaetigen, was jemand ohnehin verkauft, weil du es nicht kennst - und genau darin liegt der Wert dieser Ableitung.
-3. Jedes Profil traegt die A3-Kartennummern, auf denen es beruht, und die Baenke, fuer die es gilt.
+3. Jedes Profil traegt die A3-Kartennummern, auf denen es beruht, und die Baenke, fuer die es gilt. Dabei gilt hart:
+   - JEDE zitierte Karte muss den Engpass, den du nennst, TATSAECHLICH als A3-Erstnennung tragen. Eine Karte mit einem anderen Erstengpass ist entweder zu streichen oder als Zweitnennung ausdruecklich so zu kennzeichnen.
+   - EINE PANELSTATISTIK IST KEIN BELEG FUER DIE HERLEITUNG. Die Karten sind der Beleg. Wenn du eine Panelzahl nennst ("29 Nennungen"), muss sie zu den Karten passen, die du zitierst - sonst belegst du deinen Engpass mit einer Statistik, deren Faelle gar nicht in deiner Kartenliste stehen.
+   - DIE BAENKELISTE MUSS VOLLSTAENDIG SEIN. Jede Bank, aus der eine zitierte Karte stammt, gehoert hinein. Die Baenkeangabe ist das Mass fuer die feldeuebergreifende Deckung; eine unvollstaendige Liste schoent sie.
 
 DIE HAERTESTE FRAGE, die du je Profil beantworten musst: Wenn dieser Engpass so breit genannt wird - warum loest ihn heute niemand? Wer darauf keine Antwort hat, beschreibt kein Geschaeft, sondern einen Wunsch. Moegliche Antworten: es gibt keinen Rechnungsempfaenger (30 von 100 Rollen nennen "gar kein Topf" als Finanzierungsquelle), die Rechtslage verbietet es, die Daten sind nicht abtretbar, die Ersparnis faellt bei jemand anderem an als die Kosten.
 
@@ -310,8 +365,8 @@ ${GUELTIG}`,
     { label: 'Leistungsprofile', phase: 'Hebelsatz', schema: S_PROFIL }),
 ])
 
-const HEBEL = (hebelsatz && hebelsatz.hebel) || []
-const PROFILE = (profilsatz && profilsatz.profile) || []
+let HEBEL = (hebelsatz && hebelsatz.hebel) || []
+let PROFILE = (profilsatz && profilsatz.profile) || []
 log(`Runde 4a: ${HEBEL.length} Hebel, ${PROFILE.length} Leistungsprofile`)
 
 /* ------------------------------------------- Runde 4a - Pruefung der Herleitung */
@@ -338,7 +393,7 @@ const S_PRUEF4 = {
   required: ['beanstandungen', 'gedeckt', 'fehlend'],
 }
 
-const pruefung4 = await agent(
+const promptPruef = (H, P) =>
 `Du bist die Pruefinstanz der Runde 4. Du pruefst die Herleitung von Hebeln und Leistungsprofilen gegen die Karten, aus denen sie hergeleitet sein sollen. Du schreibst nichts um - du meldest zurueck.
 
 PRUEFE GENAU FUENF DINGE, sonst nichts:
@@ -349,10 +404,10 @@ PRUEFE GENAU FUENF DINGE, sonst nichts:
 5. INTERESSE? Hat die zitierte Quelle oder die zitierte Rolle ein eigenes Interesse an genau der Aussage, die ihr zugeschrieben wird? Das macht die Aussage nicht falsch, aber sie ist zu kennzeichnen.
 
 DIE HEBEL:
-${JSON.stringify(HEBEL, null, 1)}
+${JSON.stringify(H, null, 1)}
 
 DIE LEISTUNGSPROFILE:
-${JSON.stringify(PROFILE, null, 1)}
+${JSON.stringify(P, null, 1)}
 
 DIE DISSENSPUNKTE, aus denen die Hebel stammen sollen:
 ${DISSENS}
@@ -360,11 +415,91 @@ ${DISSENS}
 DIE ENGPASSANGABEN, aus denen die Profile stammen sollen:
 ${PROFILBASIS}
 
-Nenne zum Schluss, welcher breit belegte Engpass oder Dissens in KEINEM Hebel und KEINEM Profil vorkommt. Eine Luecke ist ein Befund.`,
+Nenne zum Schluss, welcher breit belegte Engpass oder Dissens in KEINEM Hebel und KEINEM Profil vorkommt. Eine Luecke ist ein Befund.`
+
+/* Die Pruefung braucht zusaetzlich die Runde-3-Lage, sonst kann sie nicht
+   feststellen, ob eine zitierte Karte ihre Aussage inzwischen zurueckgezogen hat.
+   Genau das war der Befund des ersten Anlaufs. */
+const PRUEFKONTEXT = `
+
+DIE HUNDERT KARTEN MIT IHREN RUNDE-3-WERTEN, DER BEWEGUNG GEGENUEBER RUNDE 1 UND DER BEGRUENDUNG:
+${HEBELBASIS}`
+
+const pruefung4 = await agent(promptPruef(HEBEL, PROFILE) + PRUEFKONTEXT,
   { label: 'Pruefung der Herleitung', phase: 'Hebelsatz', schema: S_PRUEF4 })
 
 const HART = ((pruefung4 && pruefung4.beanstandungen) || []).filter(b => b.schwere === 'hart')
 log(`Pruefung Runde 4a: ${(pruefung4 && pruefung4.beanstandungen || []).length} Beanstandungen, davon ${HART.length} hart`)
+
+/* --------------------------------------------- Runde 4a - die Nachbesserung */
+
+const befundtext = pr => ((pr && pr.beanstandungen) || []).map(b =>
+  `[${b.schwere.toUpperCase()}] ${b.gegenstand} (${b.art})\n   ${b.was}`).join('\n\n')
+
+const S_NACH = {
+  type: 'object',
+  properties: {
+    hebel: S_HEBEL.properties.hebel,
+    profile: S_PROFIL.properties.profile,
+    geaendert: { type: 'string', description: 'was du je Beanstandung geaendert hast' },
+    nicht_geaendert: { type: 'string', description: 'welche Beanstandung du zurueckweist und warum - mit Beleg' },
+  },
+  required: ['hebel', 'profile', 'geaendert', 'nicht_geaendert'],
+}
+
+const nachbesserung = await agent(
+`Du bist die Syntheseinstanz der Runde 4. Deine Ableitung ist geprueft worden, und die Pruefung hat Beanstandungen erhoben. Du lieferst jetzt den BEREINIGTEN Satz aus Hebeln und Leistungsprofilen.
+
+DIE BEANSTANDUNGEN:
+
+${befundtext(pruefung4)}
+
+WAS IN KEINEM HEBEL UND KEINEM PROFIL VORKOMMT:
+${(pruefung4 && pruefung4.fehlend) || '(nichts gemeldet)'}
+
+WAS GEDECKT IST UND SO BLEIBEN KANN:
+${((pruefung4 && pruefung4.gedeckt) || []).join('\n')}
+
+DEINE AUFGABE, und sie ist eng:
+
+1. JEDE HARTE BEANSTANDUNG WIRD BEHOBEN. Bei "karte_traegt_nicht" heisst das: entweder du ersetzt die Zahl durch den Runde-3-Wert und schreibst die Herleitung darauf um, oder du tauschst die tragende Karte gegen eine, die die Aussage wirklich traegt, oder du streichst den Hebel. Einen Hebel zu streichen ist eine vollwertige Antwort - fuenf getragene Hebel sind mehr wert als acht, von denen drei auf zurueckgezogenen Aussagen stehen.
+2. DIE LUECKE WIRD GESCHLOSSEN ODER BEGRUENDET. Wenn ein breit belegtes Hemmnis in keinem Hebel vorkommt, leite einen Hebel dafuer ab - aber nur, wenn die Karten ihn tragen. Wenn sie es nicht tun, sage das unter "nicht_geaendert" mit Beleg.
+3. EINE BEANSTANDUNG ZURUECKWEISEN IST ERLAUBT, aber nur mit Beleg aus den Karten. "Ich sehe das anders" ist keine Zurueckweisung.
+4. Was gedeckt ist, laesst du stehen. Du schreibst nicht um, was haelt.
+
+DU LIEFERST DEN VOLLSTAENDIGEN SATZ, nicht nur die Aenderungen: alle Hebel und alle Profile, die danach gelten sollen, im selben Format wie zuvor.
+
+${GUELTIG}
+
+=============== DEINE BISHERIGEN HEBEL ===============
+${JSON.stringify(HEBEL, null, 1)}
+
+=============== DEINE BISHERIGEN PROFILE ===============
+${JSON.stringify(PROFILE, null, 1)}
+
+=============== DIE DISSENSPUNKTE (Zahlen darin sind Runde-1-Stand) ===============
+${DISSENS}
+
+=============== DIE DURCHGRIFFSKANAELE ===============
+${KANAELE}
+
+=============== DIE ENGPASSANGABEN ===============
+${PROFILBASIS}
+
+=============== DIE HUNDERT KARTEN, RUNDE 3 MASSGEBLICH ===============
+${HEBELBASIS}`,
+  { label: 'Nachbesserung', phase: 'Hebelsatz', schema: S_NACH })
+
+if (nachbesserung && nachbesserung.hebel && nachbesserung.hebel.length) HEBEL = nachbesserung.hebel
+if (nachbesserung && nachbesserung.profile && nachbesserung.profile.length) PROFILE = nachbesserung.profile
+log(`Nachbesserung: ${HEBEL.length} Hebel, ${PROFILE.length} Profile`)
+
+const pruefung4b = await agent(promptPruef(HEBEL, PROFILE) + PRUEFKONTEXT,
+  { label: 'Pruefung nach der Nachbesserung', phase: 'Hebelsatz', schema: S_PRUEF4 })
+
+const HART2 = ((pruefung4b && pruefung4b.beanstandungen) || []).filter(b => b.schwere === 'hart')
+log(`Zweite Pruefung: ${(pruefung4b && pruefung4b.beanstandungen || []).length} Beanstandungen, davon ${HART2.length} hart (vorher ${HART.length})`)
+if (HART2.length) log(`ACHTUNG: ${HART2.map(b => b.gegenstand).join(', ')} tragen weiterhin einen harten Befund - er gehoert ausgewiesen, nicht verschwiegen`)
 
 /* ==================================================== Runde 4b - die Bewertung */
 
@@ -786,8 +921,10 @@ WAS DAS RED TEAM GEFUNDEN HAT:
 ${RTTEXT}
 
 DIE BEANSTANDUNGEN AN DER HERLEITUNG DER HEBEL UND PROFILE:
-${JSON.stringify((pruefung4 && pruefung4.beanstandungen) || [], null, 1)}
-Luecke laut Pruefinstanz: ${(pruefung4 && pruefung4.fehlend) || '-'}`
+${JSON.stringify((pruefung4b && pruefung4b.beanstandungen) || [], null, 1)}
+Luecke laut Pruefinstanz: ${(pruefung4b && pruefung4b.fehlend) || '-'}
+Was die Nachbesserung geaendert hat: ${(nachbesserung && nachbesserung.geaendert) || '-'}
+Welche Beanstandung sie zurueckgewiesen hat: ${(nachbesserung && nachbesserung.nicht_geaendert) || '-'}`
 
 const kapitel = await parallel(KAPITEL.map(k => () => agent(
 `Du schreibst das Kapitel "${k.titel}" von Teil 3 des Strategiepapiers 2031.
@@ -1042,6 +1179,8 @@ return {
   profile: PROFILE,
   nicht_hergeleitet: (hebelsatz && hebelsatz.nicht_hergeleitet) || '',
   pruefung_herleitung: pruefung4,
+  nachbesserung,
+  pruefung_nach_nachbesserung: pruefung4b,
   bewertungen: B,
   muster, musterP,
   red_team: RT,

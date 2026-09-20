@@ -145,6 +145,34 @@ Teil 1 und Teil 2 sind aus den Daten der ersten Erhebung geschrieben worden, ohn
 
 **Ein Fehler von zwei Größenordnungen ist dabei aufgefallen — und zwar erst auf eine Rückfrage nach der Herkunft einer einzelnen Zahl.** Sechs der sechzehn Felder hatten die ganze Einrichtungsart zugewiesen bekommen, obwohl die Rolle über einen engeren Ausschnitt rechnete. Der größte Posten der alten Tabelle, +89.300 Vollkräfte in der Spalte »ohne KI«, stammte aus einem Feld von rund viertausend Menschen. Die korrigierten Werte stehen in `23-Teil-1-Deutschland.md` § 2 und § 3; die Deckung fällt von 73,6 % auf 48,9 % und das Kriterium reißt erneut. Dass der Entwurf das aufgedeckt hat, ist genau sein Zweck gewesen — dass drei Prüfstufen es vorher nicht taten, ist der eigentliche Befund.
 
+## 5d. Der fünfte Fehler — und der erste, den das Verfahren selbst gefunden hat
+
+Sitzung C ist am 20.09.2026 nach fünf von 118 Aufrufen angehalten worden. Die Prüfinstanz der Runde 4a hatte **sieben der acht abgeleiteten Hebel mit einem harten Befund** zurückgewiesen, alle desselben Typs: Die Syntheseinstanz hatte aus Karten abgeleitet, deren Aussage die betreffende Rolle in Runde 3 verändert oder **ausdrücklich zurückgezogen** hatte.
+
+Drei Beispiele, gegen die Rohdaten geprüft:
+
+| Karte | Runde 1 | Runde 3 | Was die Rolle selbst schreibt |
+|---|---|---|---|
+| D06 | D 0,94 | **D 0,60** | »mein Durchgriff von 0,94 war kein Sachbefund, sondern eine Buchungskonvention … Zähler und Nenner standen auf verschiedenen Mengen« |
+| C06 | D 1,11 | **D 1,000** | »Damit fällt mein Durchgriff von 1,11 auf 1,000 … Meine Karte enthält keine These über Konsolidierung« |
+| L07 | P3 +26 | **P3 +9,5** | die Begründung widerlegt genau die Schlussfigur, die der Hebel aus ihr zog |
+
+**Die Ursache lag im Zuschnitt des Auftrags, nicht im Modell.** Der Ableitungsauftrag reichte die Runde-3-Werte nur als Kopfzeile weiter, die Prosa dagegen als Runde-1-Position — und die Dissensprotokolle aus Sitzung B zitieren durchgängig Runde-1-Zahlen, weil sie zu einem Zeitpunkt geschrieben wurden, als es keine anderen gab. Das Feld, in dem die Rücknahmen stehen (`aenderung` aus Runde 3), kam im Auftrag überhaupt nicht vor. Die Syntheseinstanz las also die ausführlichere, aber überholte Fassung. **92 von 100 Rollen haben in Runde 3 mindestens eine Kernzahl bewegt**; die Wahrscheinlichkeit, dass eine aus Runde-1-Prosa gezogene Herleitung noch trägt, war entsprechend klein.
+
+Das ist derselbe Fehlertyp wie der Zuschnittfehler aus § 5c: **ein Verarbeitungsschritt, dem das Material vorenthalten wurde, das ihn korrigiert hätte.** Dort waren es die 95 dokumentierten Gegenwerte, hier die Änderungsbegründungen der zweiten Erhebung.
+
+**Der Unterschied zu den vier vorigen Fehlern ist der Zeitpunkt.** Bezugsgrößendefekt, Prüfschärfe-Artefakt, Zuschnittfehler und fehlende Interessenprüfung wurden alle *nach* einem vollständigen Lauf gefunden, drei davon erst auf eine Rückfrage hin. Diesen hat die eingebaute Prüfstufe gefunden, nach fünf Aufrufen und vor den hundert Bewertungen, die sonst auf einer widerrufenen Grundlage gelaufen wären. Das ist der Zweck der Stufe, und es ist das erste Mal, dass sie ihn erfüllt hat.
+
+**Behoben durch drei Änderungen an Runde 4a**, alle in `baue-sitzung-c.py`:
+
+1. Jede Karte führt im Auftrag ihre **Bewegung zwischen beiden Erhebungen** und die Begründung dafür mit.
+2. Die Vorrangregel steht als erste Regel im Auftrag: Runde 3 ist maßgeblich, das Dissensprotokoll ist eine Quelle für Streitpunkte und **keine Zahlenquelle**.
+3. Auf die Prüfung folgen eine **Nachbesserung** und eine **zweite Prüfung**. Runde 4a hat damit fünf statt drei Aufrufe, Sitzung C 120 statt 118.
+
+Zwei kleinere Befunde derselben Prüfung sind mitbehoben: Ein Leistungsprofil hatte die **Beispielformulierung aus dem Auftrag selbst** zum Profil gemacht — das Beispiel steht jetzt in einem fachfremden Gegenstand, damit es nicht abschreibbar ist; und ein Profil belegte seinen Engpass mit einer Panelstatistik, während keine der zitierten Karten diesen Engpass trug — die Kartendeckung ist jetzt ausdrücklich gefordert.
+
+**Eine Lücke hat dieselbe Prüfung ebenfalls gefunden und sie bleibt bestehen, bis die Nachbesserung sie schließt:** Die **Investitionsfähigkeit** ist mit 24 von 100 Karten das zweithäufigste Hemmnis des Panels und Gegenstand von drei Dissenspunkten — und kam in keinem der acht Hebel und keinem Profil vor. Dass sie zuvor als drittes Hemmnis geführt wurde, lag an zwei Schreibweisen desselben Wortes, die getrennt gezählt wurden. Auch das ist korrigiert.
+
 ## 6. Wie viele Rollen das Papier braucht
 
 Aus den 110 Antworten empirisch gemessen, je 200 bis 400 zufällige Reihenfolgen.
@@ -200,11 +228,11 @@ Die Zuordnung von Leistungsprofilen zu tatsächlichen Anbietern steht in `16-Mar
 | Teil 0 | **geschrieben** — `22-Teil-0-Gueltigkeit.md` |
 | Teil 1 | **geschrieben** — `23-Teil-1-Deutschland.md`, mit den Werten der zweiten Erhebung |
 | Teil 2 | **geschrieben** — `24-Teil-2-Europa.md`; maßgeblich sind die 18 zuständigen Rollen. E1 bis E3 werden in Runde 3 nicht erneut erhoben, der Teil bleibt auf der ersten Erhebung |
-| Teil 3 | **Sitzung C läuft** seit 20.09.2026 — 118 Aufrufe: 3 Ableitung, 100 Bewertung, 6 Red Team, 3 Verifikation, 6 Papier. Erzeugt von `baue-sitzung-c.py` |
+| Teil 3 | **Sitzung C neu gestartet** am 20.09.2026 nach dem Befund in § 5d — 120 Aufrufe: 5 Ableitung und Nachbesserung, 100 Bewertung, 6 Red Team, 3 Verifikation, 6 Papier |
 | Register | `19-Falsifikatoren.md` (92 von 100 entscheidbar) und `20-Durchgriffskanaele.md` (59 gedeckte Normen von 342) liegen vor |
 | Quellenprüfung | `21-Quellenpruefung.md` — 140 Kennzahlen geprüft, 15 Beanstandungen, 7 hart, keine nicht existierende Quelle |
 
-**Sitzung C, 118 statt der geplanten 121 Aufrufe.** Die Kostentabelle des Konzepts hat die drei Syntheseinstanzen doppelt geführt — einmal in Runde 5, einmal als »drei Syntheteile« in Runde 6. Es sind dieselben drei. Korrigiert in `11-Konzept-v2.md` § 5 und § 9 sowie in `13-Validierungsstand.md`; die Summe des Gesamtverfahrens sinkt von 504 auf 501 Aufrufe. Zweite bewusste Abweichung: Teil 0, 1 und 2 sind geschrieben und geprüft und werden in Runde 6 **nicht neu geschrieben** — die korrigierten Zahlen der Zentraltabelle sollen nicht ein zweites Mal durch ein Modell laufen. Runde 6 schreibt Teil 3 und den Rahmen; die drei Verifikationsinstanzen prüfen stattdessen die bestehenden Teile gegen die Karten.
+**Sitzung C, 120 statt der geplanten 121 Aufrufe.** Die Kostentabelle des Konzepts hat die drei Syntheseinstanzen doppelt geführt — einmal in Runde 5, einmal als »drei Syntheseteile« in Runde 6. Es sind dieselben drei. Korrigiert in `11-Konzept-v2.md` § 5 und § 9 sowie in `13-Validierungsstand.md`; die Summe des Gesamtverfahrens sinkt von 504 auf 501 und steigt mit der Nachbesserungsschleife aus § 5d auf 503 Aufrufe. Zweite bewusste Abweichung: Teil 0, 1 und 2 sind geschrieben und geprüft und werden in Runde 6 **nicht neu geschrieben** — die korrigierten Zahlen der Zentraltabelle sollen nicht ein zweites Mal durch ein Modell laufen. Runde 6 schreibt Teil 3 und den Rahmen; die drei Verifikationsinstanzen prüfen stattdessen die bestehenden Teile gegen die Karten.
 
 Nach Sitzung C: Schlussredaktion, Validierung nach `Pruefprofil.md`, dann greift die Abschlussregel in § 7a und es folgt kein weiterer Lauf.
 
