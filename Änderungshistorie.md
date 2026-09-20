@@ -130,11 +130,16 @@
 - Versionsnummer in Hauptdokument, README, Validierung-Ergebnisse aktualisiert: Ja (99.0 → 100.0 an allen vier Stellen)
 - E-Mail-Benachrichtigung versendet: Nein — kein Versandwerkzeug in der Sitzung erreichbar; Inhalt als `daily-mail.txt` im Repo-Root abgelegt (2.967 Zeichen, Grenze 5.000; siehe Auffälligkeiten)
 - WhatsApp-Benachrichtigung versendet: Nein — kein Versandwerkzeug in der Sitzung erreichbar; Zusammenfassung als `daily-whatsapp.txt` im Repo-Root abgelegt (766 Zeichen, Grenze 1.000; siehe Auffälligkeiten)
-- Branch auf main gemerged und gelöscht: PLATZHALTER_MERGE
+- Branch auf main gemerged und gelöscht: Teilweise — Merge auf `main` ausgeführt und gepusht, lokaler Session-Branch gelöscht; die Löschung des Remote-Branches ist erneut fehlgeschlagen (siehe Branch-Status)
 
 ### Branch-Status
 
-PLATZHALTER_BRANCH
+- Session-Branch: `claude/clever-ramanujan-2sf3hz`
+- Commit auf dem Session-Branch: `5cbc708`
+- Pull Request: [#25](https://github.com/bdegenkolbe/KI-Oekonomie/pull/25), als Entwurf angelegt und durch den Merge auf `main` geschlossen
+- Merge-Commit auf `main`: `525ad64` (`--no-ff`), erfolgreich nach `origin/main` gepusht
+- Lokaler Branch: gelöscht
+- Remote-Branch: **nicht gelöscht.** Der Löschvorgang ist wie schon im Vorlauf mit HTTP-Statuscode 403 abgewiesen worden; die für diese Sitzung bereitgestellten Zugangsdaten erlauben Pushes, aber keine Branch-Löschung. Der Branch ist vollständig in `main` enthalten und damit inhaltlich gegenstandslos. Das ist nunmehr der zweite Lauf in Folge mit demselben Befund; die verbliebenen Remote-Branches (`claude/clever-ramanujan-z5144k`, `claude/clever-ramanujan-2sf3hz`) wären bei Gelegenheit mit erweiterten Rechten oder manuell zu entfernen.
 
 ### Auffälligkeiten / offene Punkte
 
