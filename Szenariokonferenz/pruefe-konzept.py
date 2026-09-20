@@ -16,9 +16,9 @@ for z in zeilen[:-1]:
     auf+=int(a.group(1)) if a else 0
     usd+=int(u.group(1)) if u else 0
 print(f"Kostentabelle: {len(zeilen)-1} Posten, Aufrufe {auf}, USD {usd}")
-if "**534**" not in zeilen[-1]: fehler.append(f"Summenzeile Aufrufe != 534: {zeilen[-1]}")
-if auf!=534: fehler.append(f"Aufrufe addieren zu {auf}, nicht 534")
-if not 535<=usd<=555: fehler.append(f"USD addieren zu {usd}, ausserhalb 'rund 545'")
+if "**504**" not in zeilen[-1]: fehler.append(f"Summenzeile Aufrufe != 504: {zeilen[-1]}")
+if auf!=504: fehler.append(f"Aufrufe addieren zu {auf}, nicht 504")
+if not 505<=usd<=525: fehler.append(f"USD addieren zu {usd}, ausserhalb 'rund 515'")
 
 # --- 2. Wanduhrzeit ---
 m=re.search(r"\*\*(\d+,\d+) Minuten je Aufruf\*\*",K)
@@ -26,12 +26,15 @@ if not m: fehler.append("Konzept nennt keine gemessene Minutenrate je Aufruf")
 RATE=float(m.group(1).replace(",",".")) if m else 3.0
 std=auf/2*RATE/60
 print(f"Wanduhrzeit bei Nebenlaeufigkeit 2 und {RATE} min/Aufruf: {std:.2f} h")
-m2=re.search(r"ergeben 534 Aufrufe damit \*\*rund (\d+) Stunden\*\*",K)
+m2=re.search(r"ergeben 504 Aufrufe damit \*\*rund (\d+) Stunden\*\*",K)
 if not m2: fehler.append("Konzept nennt keine Gesamtstundenzahl fuer 533 Aufrufe")
 elif abs(std-int(m2.group(1)))>0.5: fehler.append(f"Konzept nennt {m2.group(1)} h, gerechnet {std:.2f} h")
 
 # --- 3. Sitzungsteilung im Validierungsstand ---
-phasen={"R0":13,"R1":110,"R1b":110,"R2":70,"R3":110,"R4":103,"R5":12,"R6":6}
+# Phasen so, wie die Kostentabelle sie fuehrt. R0 enthaelt die Quellenpruefung (0c),
+# R1b nur den Hauptarm (der Kontrollarm wird nicht validiert), R2 beide Zuege je Rolle
+# in einem Aufruf (siehe Konzept Paragraf 5, Runde 2).
+phasen={"R0":23,"R1":110,"R1b":100,"R2":40,"R3":110,"R4":103,"R5":12,"R6":6}
 if sum(phasen.values())!=auf: fehler.append(f"Phasensumme {sum(phasen.values())} != Tabelle {auf}")
 sitz={"A":["R0","R1","R1b"],"B":["R2","R3"],"C":["R4","R5","R6"]}
 for name,ph in sitz.items():
@@ -67,9 +70,12 @@ if f"**{eng+recht} Stimmen im Gesundheitswesen und seinem Recht, {100-eng-recht}
 # --- 6. Streitauswahl: 14 Baenke + 16 = 30, 5 Gruppen a 6 ---
 if len(baenke)!=14: fehler.append(f"{len(baenke)} Baenke, Bankquote im Konzept nennt 14")
 if 14+16!=30 or 5*6!=30: fehler.append("Streitauswahl-Arithmetik")
-if phasen["R2"]!=30*2+5*2: fehler.append("Runde-2-Aufrufe passen nicht zu 30 Rollen und 5 Gruppen")
+# 30 Rollen mit je EINEM Aufruf fuer beide Zuege, dazu 5 Gruppen mit Streitfrage und Protokoll
+if phasen["R2"]!=30+5*2: fehler.append("Runde-2-Aufrufe passen nicht zu 30 Rollen und 5 Gruppen")
 if phasen["R1"]!=100+10 or phasen["R3"]!=100+10: fehler.append("Kontrollarm fehlt in R1/R3")
-if phasen["R1b"]!=110: fehler.append("Validierung deckt Kontrollarm nicht ab")
+# Der Kontrollarm wird bewusst nicht validiert: Er misst die Modellabhaengigkeit,
+# nicht die Kartenqualitaet, und eine Pruefung wuerde ihn nur teurer machen.
+if phasen["R1b"]!=100: fehler.append("Validierung deckt nicht genau den Hauptarm ab")
 # Stufe 1: Bankmedian braucht >=6 Rollen je Bank
 import math
 if 18//3<6: fehler.append("Stufe 1: weniger als 6 Rollen je Bank")
@@ -164,6 +170,17 @@ for datei, txt in (("11-Konzept-v2.md", K), ("14-Roster-2031.md", R)):
         fehler.append(f"{datei}: Ger\u00fcstzuteilung nennt keinen von der Ankerparit\u00e4t getrennten Plan")
 if "ungerade IDs rechnen gegen" in K + R:
     fehler.append("Ger\u00fcst h\u00e4ngt weiterhin an der ID-Parit\u00e4t - konfundiert mit dem Anker")
+if "laufenden Index" not in K or "laufenden Index" not in R:
+    fehler.append("Zuteilung nennt nicht den laufenden Index - ID-Regel waere mit der Bankgroesse konfundiert")
+import json as _j, os as _os
+_rp = SZ + "rohdaten/roster.json"
+if _os.path.exists(_rp):
+    _r = _j.load(open(_rp, encoding="utf-8"))["rollen"]
+    from collections import Counter as _C
+    _z = _C((x["geruest"], x["anker_reihenfolge"]) for x in _r)
+    print("Roster-Zellen:", dict(_z))
+    if len(_r) != 100: fehler.append(f"roster.json hat {len(_r)} Rollen")
+    if set(_z.values()) != {25}: fehler.append(f"Zellen nicht 25/25/25/25: {dict(_z)}")
 
 print("\n=== BEFUNDE (erweitert) ===")
 
