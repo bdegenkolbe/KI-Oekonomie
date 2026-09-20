@@ -90,3 +90,41 @@ Unverändert: Basis 2.155.154 VZÄ, Deckung 48,9 %.
 ### Ergebnis
 
 Ein Befund behoben. Nachprüfung bestanden: Skriptlauf ohne neue Befunde, Kernzahlen-Abgleich ohne Abweichung. Der Satz umfasst jetzt elf Dokumente und bleibt widerspruchsfrei.
+
+---
+
+## Lauf 3 — 20.09.2026, nach Sitzung C
+
+**Anlass:** Sitzung C abgeschlossen (120 Aufrufe, 0 Ausfälle). Zwei neue Dokumente, drei korrigierte. Erstmals hat der Lauf selbst eine Verifikation der bereits geschriebenen Teile enthalten.
+
+### Mechanische Prüfung
+
+`validate_doc.py --skip refs` über die geänderten und neuen Dokumente: `27`, `24` ohne Befund; `22`, `23` nur Hinweise (durchgestrichene Einträge, absichtlich als Korrekturspur stehengelassen). In `26` acht Befunde der Kategorie Nummerierung — sämtlich **Fehlalarme**: Das Dokument nummeriert je Kapitel neu, der Prüfer liest die Datei flach. Nicht behoben, begründet stehengelassen.
+
+`pruefe-konzept.py`: keine Befunde.
+
+### Kernzahlen-Abgleich
+
+Neu aufgenommen ins Prüfprofil: Abbruchkriterien **24** statt 23, KI-Beitrag als **Spanne 50.600 bis 105.400**, Deckung als **Obergrenze 48,9 % mit unterer Grenze 44,3 %**, Aufrufe Sitzung C 120.
+
+Ein Selbstwiderspruch gefunden und behoben: `13` führte die Bezugsgrößendeckung in derselben Tabellenzeile als »erneut gerissen« und schloss mit »und die ist erfüllt«. Das ist dasselbe Muster wie der Befund aus Lauf 2 (`17` § 3.4) — ein Satz, der bei einer Korrektur nicht mitgezogen wurde.
+
+Das Zahlwort im Fließtext von `13` stand auf »Dreiundzwanzig« und ist auf »Vierundzwanzig« nachgezogen. Das Prüfskript hat es nicht gemeldet, weil seine Zahlwortliste bei siebzehn endet — eine Lücke des Prüfers, kein Zufall: Sie wächst mit jedem neuen Kriterium.
+
+### Inhaltliche Prüfung
+
+**Die Verifikation des Laufs hat 36 harte Befunde gegen `22`, `23` und `24` erhoben.** Jeder prüfbare ist gegen die Rohdaten nachgerechnet und **bestätigt** worden. Das dominierende Muster: `23` führte über weite Strecken Werte der ersten Erhebung, obwohl der Kopf die Fassung nach der zweiten auswies. Alle betroffenen Stellen sind korrigiert und als Korrektur gekennzeichnet — Einzelheiten in `27-Sitzung-C.md` § 5.
+
+**Ein Befund ist von anderer Art als alle bisherigen.** In `24` stand ein Satz ohne jede Grundlage: vier Rollen seien vom vorgegebenen Vergleichsrahmen abgewichen. Gegen die Rohdaten nannten alle achtzehn zuständigen Rollen einen der fünf vorgegebenen Staaten. Das ist kein Übertragungs- und kein Aktualitätsfehler, sondern eine Erfindung. Sie ist gestrichen.
+
+**Neues Fehlermuster für § 6 des Prüfprofils.** *Aktualitätsverlust bei mehreren vorliegenden Ständen:* Liegen zu derselben Größe ein älterer ausführlicher und ein neuerer knapper Stand vor, wird der ältere verwendet — unabhängig davon, welcher als maßgeblich gekennzeichnet ist. Dreimal in diesem Lauf aufgetreten: in der Hebelableitung, in `23` und in `22`. Gegenmittel: Der neuere Stand muss die Bewegung und ihre Begründung mitführen, nicht nur den Wert.
+
+**Konjunktivregel.** Drei Indikative in `23` über Modellergebnisse für 2031 gefunden und behoben, darunter der Satz, der die Kernaussage des Teils trägt.
+
+**Nicht geprüft.** Die 800 Hebel- und 259 Profilurteile im Einzelnen. Die Zuschnittfrage zu A06, A09 und H06 — sie ist als offen ausgewiesen und begrenzt die Deckung nach unten auf 44,3 %.
+
+### Ergebnis
+
+Zwölf Befunde behoben, einer davon eine Erfindung, einer ein Selbstwiderspruch. Nachprüfung bestanden: Skriptläufe ohne neue Befunde, Kernzahlen-Abgleich ohne Abweichung. Der Satz umfasst jetzt **dreizehn Dokumente** und bleibt widerspruchsfrei.
+
+**Die Abschlussregel (`18-Strategiepapier-2031.md` § 7a) ist damit erfüllt**, mit einer benannten Ausnahme: Bedingung 5 — keine offene Korrektur — gilt nur, weil die offene Zuschnittfrage ausdrücklich als offen ausgewiesen ist, wie es die Regel zulässt.

@@ -19,7 +19,7 @@ Die Reihenfolge ist bindend und folgt `11-Konzept-v2.md` § 5, Runde 6.
 | **0 Gültigkeit** | wie weit die Zahlen tragen | Prüfschärfe, Modellabhängigkeit, Gerüstabhängigkeit, Attributionskonsistenz, Abdeckung und Rest der Zerlegung, Ausfälle | Sitzung A, Runde 1b | **füllbar** |
 | **1 Deutschland und Gesundheitswesen** | was bis 2031 geschieht | P3-Summe in Vollkräften, daneben P1 × P2 und D, daneben die P4-Zerlegung | Runde 1 und 3 | **Entwurf**, § 5b |
 | **2 Europa** | wo Deutschland steht | E1 Abstand in Jahren, E2 EU-Anteil, E3 Regelungslücke | Sitzung A, Bänke K/L/M | **Entwurf**, § 5c |
-| **3 Hebel** | was man tun könnte | fünf bis acht Hebel mit Urteilsmuster, Kippbedingung und Red-Team-Einwand | Sitzung C, Runde 4 und 5 | **läuft** seit 20.09.2026 |
+| **3 Hebel** | was man tun könnte | acht Hebel und sieben Leistungsprofile mit Urteilsmuster, Kippbedingung und Red-Team-Einwand | Sitzung C, Runde 4 und 5 | **geschrieben** — `26-Strategiepapier-2031.md` |
 
 **Eine Berichtsregel aus Sitzung A, nach dem Kontrollarm eingegrenzt:** Der Durchgriff **D** ist für Felder **ohne amtliche Bezugsgröße** nur als Spannweite und als Erklärungsfigur zu führen, nicht als Zahl. Für die verankerten Felder der Zentraltabelle gilt das nicht: Dort liegt Ds Modellabhängigkeit bei 0,53 (`17-Sitzung-A.md` § 3.3a).
 
@@ -173,6 +173,16 @@ Zwei kleinere Befunde derselben Prüfung sind mitbehoben: Ein Leistungsprofil ha
 
 **Eine Lücke hat dieselbe Prüfung ebenfalls gefunden und sie bleibt bestehen, bis die Nachbesserung sie schließt:** Die **Investitionsfähigkeit** ist mit 24 von 100 Karten das zweithäufigste Hemmnis des Panels und Gegenstand von drei Dissenspunkten — und kam in keinem der acht Hebel und keinem Profil vor. Dass sie zuvor als drittes Hemmnis geführt wurde, lag an zwei Schreibweisen desselben Wortes, die getrennt gezählt wurden. Auch das ist korrigiert.
 
+## 5e. Der sechste Befund — die eigenen Texte
+
+Sitzung C hat drei Verifikationsinstanzen auf die bereits geschriebenen Teile 0, 1 und 2 angesetzt. Ergebnis: **53 Befunde, davon 36 harte.** Jeder prüfbare ist gegen die Rohdaten nachgerechnet und bestätigt worden.
+
+Der Befund ist einheitlich: **Teil 1 führte über weite Strecken die Werte der ersten Erhebung, obwohl er die Fassung nach der zweiten auswies** — dieselbe Fehlerklasse, die den Lauf nach fünf Aufrufen angehalten hatte, diesmal in von Hand geschriebenem Text. Elf Rollen mit D über 1,0 statt drei; ein Spreizungsfaktor von sieben, der rechnerisch 2,5 ergibt und tatsächlich 33 beträgt; zehn verlierende Felder statt neun; P1, P1 × P2 und D aus Runde 1. Dazu in Teil 2 **ein frei erfundener Satz** über vier Rollen, die vom Vergleichsrahmen abgewichen seien — keine einzige ist das.
+
+**Das ist der Befund, der von diesem Lauf bleibt.** Das Panel hat sich in Runde 3 selbst korrigiert, mehrfach gegen das eigene Interesse und mit benannter Ursache. Der geschriebene Text hat das nicht getan, bis eine fremde Instanz ihn dazu zwang. Die Fehlerquote liegt nicht dort, wo man sie vermutet.
+
+Alles ist korrigiert und als Korrektur ausgewiesen; die Einzelheiten stehen in `27-Sitzung-C.md` § 5.
+
 ## 6. Wie viele Rollen das Papier braucht
 
 Aus den 110 Antworten empirisch gemessen, je 200 bis 400 zufällige Reihenfolgen.
@@ -228,7 +238,7 @@ Die Zuordnung von Leistungsprofilen zu tatsächlichen Anbietern steht in `16-Mar
 | Teil 0 | **geschrieben** — `22-Teil-0-Gueltigkeit.md` |
 | Teil 1 | **geschrieben** — `23-Teil-1-Deutschland.md`, mit den Werten der zweiten Erhebung |
 | Teil 2 | **geschrieben** — `24-Teil-2-Europa.md`; maßgeblich sind die 18 zuständigen Rollen. E1 bis E3 werden in Runde 3 nicht erneut erhoben, der Teil bleibt auf der ersten Erhebung |
-| Teil 3 | **Sitzung C neu gestartet** am 20.09.2026 nach dem Befund in § 5d — 120 Aufrufe: 5 Ableitung und Nachbesserung, 100 Bewertung, 6 Red Team, 3 Verifikation, 6 Papier |
+| Teil 3 | **geschrieben** — `26-Strategiepapier-2031.md` enthält Rahmen, Teil 3 und das Schlusskapitel. Sitzung C **abgeschlossen** am 20.09.2026, 120 Aufrufe, 0 Ausfälle, 5 h 50 min — Auswertung in `27-Sitzung-C.md` |
 | Register | `19-Falsifikatoren.md` (92 von 100 entscheidbar) und `20-Durchgriffskanaele.md` (59 gedeckte Normen von 342) liegen vor |
 | Quellenprüfung | `21-Quellenpruefung.md` — 140 Kennzahlen geprüft, 15 Beanstandungen, 7 hart, keine nicht existierende Quelle |
 

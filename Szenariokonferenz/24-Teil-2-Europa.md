@@ -4,6 +4,8 @@
 
 ---
 
+**Zu den Kartennummern.** Dieser Teil führte in seiner ersten Fassung keine einzige — sämtliche Zahlen waren Aggregate über die achtzehn zuständigen Karten der Bänke K, L und M. Das verletzt die Regel des Papiers, dass keine Aussage ohne Kartennummer stehen darf. Die tragenden Karten sind: **K01–K07, L01–L07, M01–M04** — also die vollständigen Bänke K (Europa und internationale Systeme), L (Technik, KI, Infrastruktur) und M (Geopolitik, Handel, Versorgungssicherheit). Wo im Folgenden ein Median oder eine Spanne steht, ist er über genau diese achtzehn Karten gebildet, sofern nichts anderes vermerkt ist.
+
 ## 1. Wer geantwortet hat — und eine Korrektur
 
 Die drei europäischen Größen sind **asymmetrisch erhoben**: Sie werden nur von den achtzehn Rollen der Bänke K (Europa), L (Technik) und M (Geopolitik) beantwortet. Eine Hausärztin hat zum niederländischen Finanzierungssystem nichts beizutragen, was nicht aus dem Faktenblatt abgeschrieben wäre; genau dieser Fehler hatte den Makroteil des ersten Laufs entwertet (`10-Instrumentenkritik.md` § 1).
@@ -70,5 +72,5 @@ Das **Beihilfe- und Vergaberecht** mit vier Nennungen ist der unauffälligste un
 
 - **Achtzehn Rollen.** Das ist kein europäisches Lagebild, sondern ein Abstand, ein Anteil und eine Rechtsdiagnose, je Gegenstand von achtzehn Feldern. Der Teil ist ausdrücklich ein Vergleichskapitel.
 - **Keine europäischen Feldgrößen.** P1 bis P5 wurden nirgendwo für ein anderes Land erhoben. Aussagen der Form »in Dänemark wären es X Prozent« sind aus diesem Verfahren nicht ableitbar und stehen nicht in diesem Papier.
-- **Die Vergleichsstaaten sind vorgegeben** (Niederlande, Dänemark, Frankreich, Estland, Vereinigtes Königreich). Vier Rollen wichen davon ab und nannten die Vereinigten Staaten, Japan oder Österreich; ihre Angaben sind im Median enthalten, weil sie ihren Gegenstand besser treffen als ein erzwungener Fehlvergleich — aber der Vergleichsrahmen ist dadurch nicht mehr einheitlich.
+- **Die Vergleichsstaaten sind vorgegeben** (Niederlande, Dänemark, Frankreich, Estland, Vereinigtes Königreich). **Korrektur, 20.09.2026:** Hier stand, vier Rollen seien davon abgewichen und hätten die Vereinigten Staaten, Japan oder Österreich genannt. Das ist gegen die Rohdaten **falsch** — alle achtzehn zuständigen Rollen nannten einen der fünf vorgegebenen Staaten: Dänemark 9, Frankreich 4, Niederlande 2, Vereinigtes Königreich 2, Estland 1. Der Satz war eine Erfindung dieses Teils und ist von der dritten Verifikationsinstanz der Sitzung C gefunden worden. Die eigentliche Einschränkung ist eine andere und bleibt bestehen: Der Vergleichsrahmen ist **einheitlich, aber eng** — fünf Staaten, von einer Hand vorgegeben, und neun der achtzehn Karten messen gegen denselben.
 - **Erste Erhebung, keine Diskussion.** Wie Teil 1.
