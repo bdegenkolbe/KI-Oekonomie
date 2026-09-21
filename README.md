@@ -4,7 +4,7 @@
 
 Autor: Björn Degenkolbe
 Stand: September 2026
-Version: 100.0
+Version: 101.0
 
 ---
 
