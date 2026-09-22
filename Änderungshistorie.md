@@ -129,7 +129,11 @@
 ### Branch-Status
 
 - Session-Branch: `claude/clever-ramanujan-6sk814`
-- Die Angaben zu Commit, Pull Request, Merge und Branch-Cleanup werden nach Abschluss der Phase 6 nachgetragen.
+- Commit auf dem Session-Branch: `846eedf`
+- Pull Request: [#28](https://github.com/bdegenkolbe/KI-Oekonomie/pull/28), als Entwurf angelegt und durch den Merge auf `main` geschlossen
+- Merge-Commit auf `main`: `4b7b2a7` (`--no-ff`), erfolgreich nach `origin/main` gepusht
+- Lokaler Branch: gelöscht
+- Remote-Branch: **nicht gelöscht.** Der Löschvorgang ist wie in den drei Vorläufen mit HTTP-Statuscode 403 abgewiesen worden; die für diese Sitzung bereitgestellten Zugangsdaten erlauben Pushes auf `main` und auf Feature-Branches, aber keine Branch-Löschung. Der Branch ist vollständig in `main` enthalten und damit inhaltlich gegenstandslos. Das ist der vierte Lauf in Folge mit demselben Befund. Der Bestand nicht gelöschter Remote-Branches ist damit auf fünfzehn angewachsen; sie wären bei Gelegenheit mit erweiterten Rechten oder manuell zu entfernen.
 
 ### Auffälligkeiten / offene Punkte
 
