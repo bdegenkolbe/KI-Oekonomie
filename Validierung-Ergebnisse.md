@@ -7,6 +7,61 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 22. September 2026 (Lauf 001 vom 22. September 2026) — Version 101.0 → Version 102.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Maschinell geprüft: 11 nummerierte Kapitel (1 bis 11) plus Zusammenfassung vor Kapitel 1; das Inhaltsverzeichnis stimmt in Anzahl, Reihenfolge und Titel mit den Kapitelüberschriften überein. Die Zusammenfassung referenziert die Deutschland-These ausdrücklich. Keine Überschrift ohne Inhalt; die Ergänzungen dieses Laufs sind sämtlich als Absatzblöcke in bestehende Unterabschnitte eingefügt worden, kein neuer Unterabschnitt |
+| 2.1.2 Nummerierung | OK | Kapitelnummerierung lückenlos; Unterabschnitt-Nummerierung in jedem Kapitel lückenlos (Kap. 1: 1–3; Kap. 2: 1–3; Kap. 3: 1–5; Kap. 4: 1–5; Kap. 5: 1–4; Kap. 6: 1–4; Kap. 7: 1–3; Kap. 8: 1–7; Kap. 9: 1–5; Kap. 10: 1–3; Kap. 11: 1–5), keine Dopplungen. Geschützte Zähler nachgezählt: fünf Typen der Robotersteuer in § 2.1 (Typ 1 bis Typ 5 ausgezeichnet), drei Säulen der Deutschland-These in Kapitel 8, sieben Empfehlungen in § 10.2 (Erstens bis Siebtens). Alle drei Zähler unverändert |
+| 2.1.3 Querverweise | OK | Maschinelle Auflösung aller `§X.Y`-Verweise gegen die tatsächlich vorhandenen Unterabschnitte: kein ungültiger Verweis. Die Treffer auf `§ 2.4.4` verweisen ausweislich des unmittelbar folgenden Dateinamens auf `Validierung.md` und nicht auf das Hauptdokument; sie sind deshalb keine Fehlverweise. Alle `Kapitel X`-Verweise liegen im Bereich 1 bis 11. Die in diesem Lauf neu gesetzten Verweise (§ 9.2 aus § 1.1; § 4.4, § 9.5 aus § 5.1; § 5.1, § 6.3 aus § 6.2; § 5.1, § 6.1, § 6.3, § 9.3, § 9.5 aus § 6.4) sind einzeln gegengeprüft |
+| 2.1.4 Roter Faden | OK | Arbeitsteilung eingehalten: § 1.1 trägt den laufenden Trackerbefund als empirische Ausgangslage, § 5.1 den internationalen Befund zur Anknüpfungsgröße der Sozialbeiträge, § 6.2 und § 6.4 die vergleichende Länderpraxis. Die Folgerungen für Bemessungsgrundlage und Verwaltungsvollzug bleiben in § 9.2 und § 9.3, die für den Implementationspfad in § 9.5; an keiner Stelle wird die Deutschland-These aus Kapitel 8 vorweggenommen |
+| 2.1.5 Formatierung | OK | Maschinell geprüft: keine doppelten Trennlinien, keine leeren Abschnitte, Markdown-Tabellen syntaktisch unverändert. Die fett gesetzten Lead-Ins der neuen Blöcke folgen dem bestehenden Muster (Aktualisierung mit Datum in Klammern, Nachtrag mit Trackerdatum in Kursiv) |
+| 2.2.1 Sachliche Richtigkeit | OK | Sämtliche in diesem Lauf eingespielten Zahlen sind gegen die Primärquelle geprüft: die Werte des OECD-Berichts gegen die unmittelbar bezogene Volltext-PDF-Fassung (76 Seiten, 92 Jurisdiktionen), die Trackerstände gegen den Direktabruf der jeweiligen Seite. Alle Summen- und Rechenproben der neuen Trackerangaben gehen auf (AskTheRecruiter: 600.125 + 44.103 = 644.228; 644.228 + 475.951 = 1.120.179; +14.754 − 7.613 = +7.141; 66.861 + 47.883 = 114.744. SkillSyncer: Monatssumme 225.122, Ereignissumme 519, Tagesrate 225.122 / 265 = 849,5). Die IRAP-Sätze, die Digitalsteuer-Sätze und die Beitragssätze sind wörtlich aus dem Primärtext übernommen |
+| 2.2.2 Redundanzprüfung | OK | Der OECD-Bericht wird an drei Stellen verwendet, jeweils mit getrenntem Gegenstand und ohne Wiederholung: § 5.1 wertet allein den Sozialbeitrags-Abschnitt aus (Anknüpfungsgröße), § 6.2 allein die IRAP-Satzänderung, § 6.4 allein die Digitalsteuer- und Umsatzsteuerbefunde. Die Grundidee der Wertschöpfungsabgabe wird in § 6.2 nicht wiederholt, sondern per Querverweis auf § 5.1 geführt; die Staatsfonds-Logik ist nicht berührt. Der Trackerbefund bleibt wie bisher in § 1.1 und verweist für die Folgerung auf § 9.2 |
+| 2.2.3 Argumentation | OK | Die vier Argumentationslinien bleiben konsistent. Der Befund zu den Sozialbeiträgen stützt das Lohnquoten-Argument empirisch, ohne es zu einer politischen Empfehlung zu verdichten; die Feststellung, dass keine der 92 Jurisdiktionen die Anknüpfungsgröße gewechselt hat, ist als Beobachtung und nicht als Wertung gefasst. Acemoglu- und Thuemmel-Linien sind nicht berührt. Die Typologie des § 2.1 bleibt gewahrt: Die italienische IRAP wird ausdrücklich als Äquivalent in der Bemessungsgrundlage und nicht in der Zielsetzung geführt, die Digitalsteuer ausdrücklich nicht als Automatisierungssteuer |
+| 2.2.4 Ausgewogenheit | OK | Der OECD-Befund wird in beide Richtungen ausgewertet — stützend für die Prämisse des Finanzierungsdrucks, dämpfend für die Erwartung eines internationalen Trends zur Robotersteuer. Die Abweichung zwischen Zusammenfassung und Sachteil desselben Berichts ist offengelegt statt geglättet, und es wird ausdrücklich nur die Richtungsaussage verwendet, nicht die Trendstärke. Bei den Trackerbefunden ist die Deutungsoffenheit (Zugang oder Umbuchung) als offen gekennzeichnet |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe über die neu eingefügten Absätze; keine Auffälligkeit. Bekannte Fehlermuster früherer Validierungen gezielt nachgesucht, ohne Treffer |
+| 2.3.2 Terminologie | OK | „Wertschöpfungsabgabe" durchgängig, kein Vorkommen von „Wertschöpfungssteuer" (maschinell geprüft: 0). Fremdsprachige Bezeichnungen bei Erstnennung erläutert (*Digital Services Tax*, *Intergenerational Equity Mechanism*). Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung ist im Fließtext ausgeschrieben |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Der OECD-Bericht ist in § 11.3 (institutionelle und politische Dokumente) nachgewiesen und im Fließtext an drei Stellen zitiert; die vier Trackerstände sind in § 11.5 fortgeschrieben. Keine im Fließtext genannte neue Quelle ohne Verzeichniseintrag, kein neuer Verzeichniseintrag ohne Fundstelle im Fließtext |
+| 2.4.2 Formale Einheitlichkeit | OK | Die neuen Einträge folgen dem APA-nahen Hausstil (Institution, Datum, kursiver Titel, Ort/Verlag beziehungsweise Standangabe, Auswertungshinweis, vollständige URL). Keine Kurz-URL, kein Weiterleitungslink |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Für den OECD-Bericht ist die Primärfassung beschafft und ausgewertet worden; die Sekundärrezeption dient nur der Auffindung. Die Trackerstände beruhen sämtlich auf Direktabruf am Stichtag, nicht auf Suchergebnis-Zusammenfassungen |
+| 2.4.4 URL-Prüfung (Stichprobe) | Abweichung (behoben) | Stichprobe von 91 der 905 URLs des Literaturverzeichnisses (10,05 Prozent, deterministisch gezogen) sowie zusätzlich sämtliche in diesem Lauf neu aufgenommenen URLs. Ergebnis: 66 mit Statuscode 200, 20 mit 403 (Zugangsschranken von Nachrichtenanbietern, kein Linkbruch), je einmal 429, 202 und ein Verbindungsfehler, **zwei echte 404**. Beide sind behoben, siehe Bereinigungen. Die Publikations- und die Presseseite der OECD antworten maschinell mit 403; die Volltext-PDF-Fassung ist mit 200 erreichbar und im Verzeichniseintrag zusätzlich angegeben |
+| 2.4.5 Zitatgenauigkeit | OK | Fünf Kernaussagen gegengeprüft: (1) OECD-Zusammenfassung zu Basisverbreiterung und Satzerhöhungen bei Sozialbeiträgen, (2) OECD-Sachteil 3.2.5 zur Ausgewogenheit der Reformen, (3) IRAP-Sätze 4,65 → 6,65 und 5,90 → 7,90 Prozent, (4) türkische Digitalsteuersätze 7,5 → 5 → 2,5 Prozent, (5) deutscher Zusatzbeitrag +0,2 Prozentpunkte auf 1,45 Prozent. Alle fünf stimmen wörtlich mit dem Primärtext überein. Die Trackerzahlen sind als Anzeigewerte gekennzeichnet und nicht als Messgrößen der KI-bedingten Verdrängung referiert |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Die Markierung bei de la Feria et al. (2022) besteht unverändert fort; in diesem Lauf ist keine Verifikation erfolgt und keine Markierung entfernt worden |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 102.0 an allen vier Stellen: Dokumentkopf, Aktualitätshinweis am Dokumentende, `README.md`, Abschlussblock dieses Protokolls. Kein Restvorkommen von „101.0" im Hauptdokument. Autorenname und Organisation unverändert, Haftungshinweis und Lizenzhinweis CC BY 4.0 am Dokumentende vollständig erhalten, KI-Offenlegung in `README.md` unverändert |
+| 2.6 Automatisierte Prüfung | n/a | Im Repository sind keine Prüfskripte vorhanden. Ersatzweise sind die manuellen Stichproben zu Nummerierung (§ 2.1.2), Querverweisen (§ 2.1.3) und Quellenzuordnung (§ 2.4.1) maschinell über Ad-hoc-Auswertungen des Markdown-Quelltextes durchgeführt worden |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|--------|--------|---------|
+| 1 | § 11.5, Sammelnachweis zur Modellreihe *Astra* | Der zuletzt genannte Nachweis (digg.com) antwortet mit HTTP-Statuscode 404 und ist nicht mehr erreichbar | Gering |
+| 2 | § 11.5, Eintrag zur Anleihefinanzierung eines Halbleiterherstellers | Die zweitgenannte Übernahme (finance.yahoo.com) antwortet mit HTTP-Statuscode 404 und ist nicht mehr erreichbar | Gering |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|--------|----------|----------|
+| 1 | Nicht mehr erreichbarer Sammelnachweis | Prüfvermerk nach § 2.4.4 `Validierung.md` mit Datum der Stichprobe ergänzt; die URL bleibt nach § 4.5 `Claude.md` als zeitlich frühere Referenz erhalten, die Belegkette wird von den vorangehenden, weiterhin erreichbaren Nachweisen desselben Eintrags getragen | Ja |
+| 2 | Nicht mehr erreichbare Zweitübernahme | Prüfvermerk nach § 2.4.4 `Validierung.md` mit Datum der Stichprobe ergänzt; zugleich vermerkt, dass der Erstabdruck durch eine Zugangsschranke geschützt (HTTP 403), inhaltlich aber unverändert nachgewiesen ist. Keine Quelle gelöscht | Ja |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen (2.4.1 Vollständigkeit und Zuordnung, 2.4.2 Formale Einheitlichkeit, 2.4.4 URL-Prüfung, 2.5 Versionskonsistenz): OK
+- Maschinelle Nachprüfung nach der Bereinigung: 11 Kapitel, Unterabschnitte lückenlos, Inhaltsverzeichnis deckungsgleich, kein ungültiger `§X.Y`-Verweis, Zähler unverändert, keine doppelten Trennlinien, „Wertschöpfungssteuer" null Vorkommen, „101.0" null Vorkommen, „102.0" an beiden Stellen des Hauptdokuments: OK
+- Automatisierte Skripte: n/a — im Repository nicht vorhanden
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 102.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 21. September 2026 (Lauf 001 vom 21. September 2026) — Version 100.0 → Version 101.0
 
 ### Prüfergebnis
