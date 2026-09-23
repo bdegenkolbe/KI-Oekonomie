@@ -7,6 +7,63 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 23. September 2026 (Lauf 001 vom 23. September 2026) — Version 102.0 → Version 103.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Maschinell geprüft: 11 nummerierte Kapitel (1 bis 11) plus Zusammenfassung vor Kapitel 1; das Inhaltsverzeichnis stimmt in Anzahl (11 Einträge) und Titeln mit den Kapitelüberschriften überein; die Zusammenfassung referenziert die Deutschland-These ausdrücklich; keine Überschrift ohne Inhalt. |
+| 2.1.2 Nummerierung | OK | Kapitelnummerierung lückenlos; Unterabschnitt-Nummerierung in jedem Kapitel lückenlos (Kap. 1: 1–3; Kap. 2: 1–3; Kap. 3: 1–5; Kap. 4: 1–5; Kap. 5: 1–4; Kap. 6: 1–4; Kap. 7: 1–3; Kap. 8: 1–7; Kap. 9: 1–5; Kap. 10: 1–3; Kap. 11: 1–5). Zähler unverändert: fünf Typ-Marker in § 2.1, drei Säulen der Deutschland-These, sieben Empfehlungen in § 10.2 (maschinell gezählt: Erstens bis Siebtens). |
+| 2.1.3 Querverweise | OK | Maschinelle Auflösung aller `§X.Y`-Verweise gegen die vorhandenen Unterabschnitte: kein ungültiger Verweis. Die Treffer auf `§ 2.4.4` verweisen ausweislich des unmittelbaren Kontexts durchgängig auf `Validierung.md`, nicht auf einen Unterabschnitt des Hauptdokuments; die in diesem Lauf neu gesetzten Verweise (§ 2.2, § 3.3, § 5.1, § 6.1, § 9.1, § 9.2, § 10.2, § 11.1, § 11.3, § 11.5) sind einzeln aufgelöst worden. Kein `Kapitel X`-Verweis außerhalb 1 bis 11. |
+| 2.1.4 Roter Faden | OK | Arbeitsteilung eingehalten: § 1.1 trägt den Trackerbefund als empirische Ausgangslage, § 6.1 die Präzisierung der einzigen umgesetzten Maßnahme des Typs 2, § 9.2 die daraus gezogene Folgerung für Messbarkeit und Bestimmtheit. Die Deutschland-These bleibt unberührt; die Progression Literaturrezeption → sektorale Anwendung → eigene Position → Umsetzung ist unverändert. |
+| 2.1.5 Formatierung | OK | Maschinell geprüft: keine doppelten Trennlinien, keine Dreifach-Leerzeilen, ausgeglichene Fettungen und Kursivierungen, Markdown-Tabellen syntaktisch unverändert (Spaltenzahl je Tabelle konsistent). Die fett gesetzten Lead-Ins der neuen Blöcke folgen dem Hausstil. |
+| 2.2.1 Sachliche Richtigkeit | OK | Sämtliche Trackerzahlen stammen aus dem Direktabruf des Stichtags und sind im Rohtext der Seiten einzeln nachgewiesen worden; alle Summen- und Rechenproben gehen auf (597.526 + 44.303 = 641.829; 641.829 + 469.791 = 1.111.620; −2.399 − 6.160 = −8.559; 66.861 + 47.883 = 114.744; SkillSyncer-Monatswerte 225.122 und 519). Die südkoreanischen Abzugssätze sind aus zwei voneinander unabhängigen Quellen übereinstimmend belegt. |
+| 2.2.2 Redundanzprüfung | OK | Der Trackerbefund wird nur in § 1.1 dargestellt und in § 9.2 ausschließlich ausgewertet, nicht wiederholt. Die Präzisierung zu Südkorea steht allein in § 6.1; § 2.1 (Typ 2) und § 10.2 werden per Querverweis angebunden, ohne den Sachverhalt erneut auszuführen. Die Zähldefinition des sechsten Zählwerks steht im Wortlaut nur in § 11.5, in § 1.1 und § 9.2 jeweils in ihrer Auswertung. |
+| 2.2.3 Argumentation | OK | Die Trennung der fünf Typen ist in § 6.1 ausdrücklich durchgehalten: Die referierte Untersuchung wird als Befund zu Typ 2 (Rücknahme einer Vergünstigung) ausgewiesen und nicht mit den in § 3.3/§ 3.5 referierten Modellergebnissen zu Typ 1 vermengt; die abweichende Wortwahl der Untersuchung (*robot tax*) ist als Beispiel für die in § 2.1 gewarnte Vermengung gekennzeichnet. Acemoglu- und Thuemmel-Linien bleiben getrennt. |
+| 2.2.4 Ausgewogenheit | OK | Der Befund zur südkoreanischen Reform stützt die Wirksamkeit einer Anreizkorrektur und wird gleichwohl in seiner Reichweite ausdrücklich begrenzt (Typ 2, nicht Typ 1; keine Effektgrößen wegen nicht beschaffbaren Volltextes). Der Meinungsbeitrag, der die Angabe geliefert hat, ist als solcher gekennzeichnet; seine wertenden Teile sind nicht übernommen worden. |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe über die neu eingefügten Absätze; keine Auffälligkeit. Bekannte Fehlermuster früherer Validierungen gezielt nachgesucht, ohne Treffer. |
+| 2.3.2 Terminologie | OK | „Wertschöpfungsabgabe" durchgängig, kein Vorkommen von „Wertschöpfungssteuer" (maschinell geprüft: 0). Englischsprachige Zähldefinitionen sind im Wortlaut zitiert und anschließend im Deutschen aufgelöst. Die Bezeichnung „Zählwerk" für die Layoff-Tracker ist wie in den Vorläufen einheitlich verwendet. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Drei neue Nachweise in der jeweils sachlich zuständigen Sektion: Kang/Lee/Quach in § 11.1 (ökonomische Forschung), Windfall Trust in § 11.3 (institutionelle und politische Dokumente), Crimi und *layoffs.fyi* in § 11.5 (journalistische und praxisorientierte Quellen). Alle vier sind im Fließtext zitiert; die vier Trackerstände sind als eigene datierte Einträge in § 11.5 geführt. Kein Fließtextzitat ohne Verzeichniseintrag. |
+| 2.4.2 Formale Einheitlichkeit | OK | Die neuen Einträge folgen dem APA-nahen Hausstil (Autor/Institution, Datum beziehungsweise Standangabe, kursiver Titel, Auswertungshinweis, vollständige URL ohne Kürzungsdienst). Das Arbeitspapier von Kang/Lee/Quach ist als SSRN Working Paper mit Nummer gekennzeichnet. |
+| 2.4.3 Aktualität und Belastbarkeit | Abweichung (offengelegt) | Der Volltext der zentralen Wirkungsuntersuchung (SSRN 5005128) war nicht zu beschaffen; die Befunde sind deshalb nur nach zwei abrufbaren Sekundärquellen und ausdrücklich ohne Effektgrößen und ohne die Vorbehalte der Verfasser referiert. Die Einschränkung ist an beiden Fundstellen (§ 6.1, § 11.1) als Prüfvermerk offengelegt; die Beschaffung ist vorgemerkt. Die Trackerstände beruhen sämtlich auf Direktabruf am Stichtag. |
+| 2.4.4 URL-Prüfung (Stichprobe) | Abweichung (behoben) | Stichprobe von 95 der 908 URLs des Literaturverzeichnisses (10,5 Prozent; 91 deterministisch gezogen, zuzüglich sämtlicher in diesem Lauf neu aufgenommener URLs). Ergebnis: 70 erreichbar (HTTP 200/202), 20 mit HTTP 403 (Zugangsschranken etablierter Nachrichten- und Verlagsangebote, kein toter Link), 1 mit HTTP 429 und 1 mit HTTP 406 (beides Drosselung beziehungsweise Kennungsprüfung, bei Wiederholung unverändert), 3 mit HTTP 404. Von den drei nicht erreichbaren war einer bereits am 17. September 2026 vermerkt; für die beiden übrigen sind Prüfvermerke ergänzt worden. |
+| 2.4.5 Zitatgenauigkeit | OK | Fünf Kernaussagen gegengeprüft: (1) der Wortlaut der Zähldefinition von *layoffs.fyi* gegen den Seitenquelltext, (2) der Wortlaut der Gleichbasis-Zusicherung der Übersichtstafel gegen den Seitenquelltext, (3) die vier KI-Kennzahlen gegen ihre Fundstellen im Rohtext, (4) die südkoreanischen Abzugssätze gegen zwei unabhängige Quellen, (5) die Richtung der drei Befunde von Kang/Lee/Quach gegen beide Sekundärquellen. Die Untersuchungsergebnisse sind als empirische Auswertung eines natürlichen Experiments und nicht als Modellprognose oder politische Empfehlung dargestellt. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Die Markierung bei de la Feria et al. (2022) besteht unverändert fort; in diesem Lauf ist keine Verifikation erfolgt und keine Markierung entfernt worden. Zwei neue, ausdrücklich befristete Prüfvermerke sind hinzugekommen (SSRN-Volltext, *layoffs.fyi*-Kennzahlen). |
+| 2.5 Versionskonsistenz und Lizenz | Abweichung (behoben) | Der Zitiervorschlag in `README.md` führte noch Version 100.0, während die Versionszeile derselben Datei 102.0 nannte — eine seit zwei Läufen bestehende Abweichung. Beide Stellen sind auf 103.0 gesetzt worden. Version 103.0 steht nun an allen vier Stellen: Dokumentkopf, Aktualitätshinweis am Dokumentende, `README.md` (Versionszeile und Zitiervorschlag), Abschlussblock dieses Protokolls. Kein Restvorkommen von 102.0. Autor, Organisation, Lizenzhinweis CC BY 4.0, Haftungshinweis und KI-Offenlegung unverändert vorhanden. |
+| 2.6 Automatisierte Prüfung | n/a | Im Repository sind keine Prüfskripte vorhanden. Ersatzweise sind die manuellen Stichproben zu Nummerierung (§ 2.1.2), Querverweisen (§ 2.1.3) und Quellenzuordnung (§ 2.4.1) skriptgestützt durchgeführt worden. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|--------|--------|---------|
+| 1 | `README.md`, Zitiervorschlag | Die Versionsangabe im Zitiervorschlag lautete 100.0, während die Versionszeile derselben Datei 102.0 nannte; die Abweichung bestand seit zwei Läufen | Mittel |
+| 2 | § 11.3, Sammelnachweis zum Gesetzentwurf zur Besteuerung von KI-Unternehmen | Der dritte Nachweis (aicommission.org) antwortet mit HTTP-Statuscode 404 und ist nicht mehr erreichbar | Gering |
+| 3 | § 11.5, Eintrag zum Rechenzentrums-Gemeinschaftsunternehmen | Die vierte Übernahme (finance.yahoo.com) antwortet mit HTTP-Statuscode 404 und ist nicht mehr erreichbar | Gering |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|--------|----------|----------|
+| 1 | Abweichende Versionsangabe im Zitiervorschlag | Versionszeile und Zitiervorschlag in `README.md` gemeinsam auf 103.0 gesetzt; Form und Wortlaut des Zitiervorschlags im Übrigen unverändert (§ 4.5 `Claude.md` berührt, weshalb die Berichtigung im Abschlussbericht ausdrücklich ausgewiesen wird) | Ja |
+| 2 | Nicht mehr erreichbarer Sammelnachweis | Prüfvermerk nach § 2.4.4 `Validierung.md` mit Datum der Stichprobe ergänzt; die URL bleibt nach § 4.5 `Claude.md` als zeitlich frühere Referenz erhalten, der Vorgang ist durch die übrigen Nachweise desselben Eintrags vollständig belegt | Ja |
+| 3 | Nicht mehr erreichbare Übernahme | Prüfvermerk nach § 2.4.4 `Validierung.md` ergänzt, zugleich auf den erreichbaren parallelen Beleg desselben Anbieters verwiesen; die URL bleibt erhalten | Ja |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen (2.1.5 Formatierung, 2.4.1 Vollständigkeit und Zuordnung, 2.4.2 Formale Einheitlichkeit, 2.4.4 URL-Prüfung, 2.5 Versionskonsistenz): OK
+- Maschinelle Nachprüfung nach der Bereinigung: 11 Kapitel, Unterabschnitte lückenlos, Inhaltsverzeichnis deckungsgleich, kein ungültiger `§X.Y`-Verweis, Zähler unverändert, keine doppelten Trennlinien, ausgeglichene Auszeichnungen, Version 103.0 ohne Restvorkommen von 102.0
+- Automatisierte Skripte: n/a — im Repository nicht vorhanden
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 103.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 22. September 2026 (Lauf 001 vom 22. September 2026) — Version 101.0 → Version 102.0
 
 ### Prüfergebnis
