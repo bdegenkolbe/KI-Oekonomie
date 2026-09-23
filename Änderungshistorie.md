@@ -54,6 +54,99 @@
 
 ---
 
+## 2026-09-23 — Lauf 001 — Version 102.0 → Version 103.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J. Vertieft worden sind nach der Regel „Breite vor Tiefe" genau zwei Cluster: **F** (Fortschreibung der Mehr-Tracker-Gegenprobe, erstmalige Erschließung eines sechsten Zählwerks und Nachweis eines Widerspruchs innerhalb eines einzelnen Zählwerks) und **C** (Präzisierung der südkoreanischen Reform von 2017 und Aufnahme der ersten Wirkungsuntersuchung). Die Cluster A, B, D, E, G, H, I und J sind abgefragt worden und haben keinen validen Treffer im Zeitfenster geliefert; ihre Treffer waren Dubletten bereits eingespielter Sachverhalte, lagen außerhalb des Zeitfensters, waren noch nicht erschienen oder unterfielen der Negativliste.
+- Zeitfenster: Standard 7 Tage (16.–23. September 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (21.–23. September 2026). Alle Trackerstände sind am Stichtag selbst durch Direktabruf erhoben worden.
+- Anzahl Suchanfragen: 12 Websuchen und 112 Direktabrufe (davon 6 Zählwerke, 95 Erreichbarkeitsprüfungen der URL-Stichprobe, 5 Wiederholungsabrufe zur Bestätigung von Fehlercodes, 6 gescheiterte oder verworfene Abrufe).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | F | AskTheRecruiter, *AI Layoff Tracker*, Direktabruf Stand 23. September 2026 | https://asktherecruiter.com/blog/ai-layoff-tracker/ | übernommen (Fortschreibung; gleichgerichteter Rückgang beider Zählstufen, vier interne Widersprüche) |
+| 2 | F | SkillSyncer, *2026 Tech Layoffs Tracker*, Direktabruf Stand 23. September 2026 | https://skillsyncer.com/layoffs-tracker | übernommen (Fortschreibung: unverändert) |
+| 3 | F | DisplaceIndex, *AI Layoffs Tracker 2026*, Direktabruf Stand 23. September 2026 | https://displaceindex.com/trends/ai-layoffs-tracker/ | übernommen (Fortschreibung: unverändert; neue interne Unstimmigkeit) |
+| 4 | F | Job Security Meter, *2026 Tech Layoffs*, Direktabruf Stand 23. September 2026 | https://jobsecuritymeter.com/layoffs | übernommen (Fortschreibung: unverändert seit 18. September 2026) |
+| 5 | F | Layoffs.fyi (Lee, R.), *AI Layoffs Tracker*, Direktabruf 23. September 2026 | https://layoffs.fyi/ai-layoffs/ | übernommen (Neuerschließung; nur Zähldefinition, Kennzahlen nicht erhebbar) |
+| 6 | C | Crimi, A. (Rest of World), *The case for a robot tax to redistribute AI wealth*, 18. September 2026 | https://restofworld.org/2026/robot-tax-ai-wealth-redistribution/ | übernommen (Auslöser; nur die Sachangabe zur Staffelung) |
+| 7 | C | Windfall Trust, *Automation/Robot Taxes*, Windfall Policy Atlas, Direktabruf 23. September 2026 | https://windfalltrust.org/policy-atlas/automation-robot-taxes | übernommen (Abgleichsquelle) |
+| 8 | C/A | Kang, D., Lee, J. H. & Quach, S., *The Welfare Effects of a Robot Tax: Evidence from a Tax Credit for Automation Technologies in Korea*, SSRN 5005128 | https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5005128 | übernommen mit Prüfvermerk (Volltext nicht beschaffbar, HTTP 403) |
+| 9 | A | Nakatani, R. & Miyamoto, H., *Optimal Taxation in the Automation Era* (SSRN 7072218 / MPRA 128480) | https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7072218 | Dublette |
+| 10 | A | Kleven, H. & Zidar, O., *Automation and Optimal Taxation: A Task-Based Theory*, NBER Working Paper 35747 | https://www.nber.org/papers/w35747 | Dublette |
+| 11 | A/D | The Anthropic Institute, *Economic Scenarios for Transformative AI* (Working Paper 2026-02) nebst *Econ Scenario Explorer* und Erwartungsbefragung von 10.980 Personen | https://www.unite.ai/anthropic-releases-interactive-model-of-ais-possible-economic-futures/ | Dublette |
+| 12 | J | International Federation of Robotics, *World Robotics 2026* (Veröffentlichung angekündigt für den 24. September 2026); Pressemitteilungsliste ohne Eintrag im Zeitfenster | https://ifr.org/ifr-press-releases | verworfen (noch nicht erschienen; vorgemerkt) |
+| 13 | C/A | *Robot taxes and corporate cash holdings: evidence from a policy-induced natural experiment*, Applied Economics | https://www.tandfonline.com/doi/full/10.1080/00036846.2025.2602950 | verworfen (nicht abrufbar, HTTP 403; vorgemerkt) |
+| 14 | B | BMAS, Förderrichtlinie *Produktiver und beschäftigungsorientierter Einsatz von KI in Wirtschaft und Arbeit*, 2. September 2026 | https://www.bmas.de/DE/Service/Presse/Meldungen/2026/bmas-foerdert-ki-projekte-von-unternehmen.html | verworfen (außerhalb Zeitfenster, ohne Steuer- oder Abgabenbezug) |
+| 15 | H | ZEW Mannheim, *Digitale Souveränität: Unternehmen sehen Abhängigkeit bei KI und Software*, 14. November 2025 (Erhebung September 2025, rund 1.100 Unternehmen) | https://www.zew.de/en/press/latest-press-releases/digital-sovereignty-companies-report-dependence-on-ai-and-software | verworfen (weit außerhalb Zeitfenster) |
+| 16 | H | Capgemini, *Digital Sovereignty: From Policy Ambition to Executive Imperative*, 8. September 2026 | https://www.capgemini.com/de-de/news/pressemitteilung/studie-digitale-souveraenitaet/ | verworfen (außerhalb Zeitfenster, ohne fiskalische Komponente) |
+| 17 | E | IAB-Kurzbericht 09/2026 (Alm, Fuchs, Sujata & Weyh), *Strukturwandel und Spezialisierung von Regionen* | https://iab.de/en/publications/iab-publications/iab-kurzbericht-iab-short-policy-report/ | verworfen (kein KI-Bezug) |
+| 18 | A | Fu, C., Li, W., Weng, X. & Zhou, S., *Robots, Rents, and Redistribution*, SSRN 6466918, 25. März 2026 | https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6466918 | verworfen (außerhalb Zeitfenster, weiterhin vorgemerkt) |
+| 19 | I | Aggregatorseiten zu Hyperscaler-Investitionsvolumen, Modellveröffentlichungen und Token-Preisen | — | verworfen (Negativliste Cluster I; kein Treffer aus benannter Primärquelle im 48-Stunden-Fenster) |
+| 20 | G | G-BA- und KBV-Beschlusslisten, Abfrage 23. September 2026 | https://www.g-ba.de/beschluesse/letzte-aenderungen/ | verworfen (kein KI-bezogener Beschluss im Zeitfenster) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 1.1 | Aktualisierung | Trackerstände zum 23. September 2026 aus Direktabruf: bei *AskTheRecruiter* erstmals eine gleichgerichtete Abwärtsbewegung beider Zählstufen (−2.399 belegt, −6.160 angekündigt, −8.559 zusammengefasst) bei gleichzeitig *steigender* Zahl der Meldungen und Unternehmen — der Rückgang kann folglich nur aus einer Abwärtsrevision der Kopfzahlen innerhalb bestehender Einträge stammen, während die Zahl der steuerbaren Vorgänge wächst | 1 |
+| 2 | § 1.1 | Ergänzung | **Kernbefund des Laufs:** Dieselbe Seite gibt bei einem Abruf zwei Werte für dieselbe Größe an — 613.328 gegen 641.829 Betroffene (Differenz 28.501 oder 4,4 Prozent) und 66.861 gegen 123.459 bei der weit gefassten KI-Kennzahl (Faktor 1,85) —, obwohl sie für beide Darstellungen ausdrücklich dieselbe Zählweise beansprucht; hinzu treten abweichende Angaben zu Ländern (82 gegen 83) und US-Bundesstaaten (46 gegen 49). Die seit dem 13. September 2026 geführte Spreizung ist damit nicht länger nur ein Problem *zwischen* Zählwerken | 1 |
+| 3 | § 1.1 | Aktualisierung | Die vier KI-Kennzahlen desselben Zählwerks bleiben den fünften Tag in Folge unverändert; *SkillSyncer* steht in allen Sachgrößen still (Erfassungsrückstand wieder auf neun Tage gewachsen, Summenproben gehen auf, Tagesratenänderung als reiner Nennereffekt nachgerechnet), *DisplaceIndex* den elften Tag (mit neuer interner Unstimmigkeit: Kopfzeile 57 berichtende Unternehmen gegen 50 gelistete Ereignisse), *Job Security Meter* den zehnten Tag | 1, 2, 3, 4 |
+| 4 | § 1.1 | Ergänzung | Erschließung eines sechsten Zählwerks (*layoffs.fyi*): Die Kennzahlen sind maschinell nicht erhebbar, wohl aber die Zähldefinition, die drei kausal verschiedene Sachverhalte in einer Zahl zusammenführt — Streichungen zur *Finanzierung* von KI-Investitionen, zum *Ersatz* von Menschen durch KI und als *Reaktion* auf eine KI-bedingt veränderte Marktlage; nur der mittlere Fall erfüllt die Kausalitätsanforderung des § 2.2 | 5 |
+| 5 | § 6.1 | Korrektur | Die Reform von 2017 war nach Unternehmensgröße gestaffelt (Großunternehmen 3 auf 1 Prozent, mittlere Unternehmen 5 auf 3 Prozent, kleine Unternehmen unverändert 7 Prozent); der Höchstsatz von sieben Prozent ist entgegen der bisherigen Formulierung gar nicht angetastet worden, und der Eingriff war relativ am schärfsten bei den Großunternehmen — die einzige umgesetzte Maßnahme des Typs 2 war damit progressiv ausgestaltet | 6, 7 |
+| 6 | § 6.1 | Ergänzung | Erste quasi-experimentelle Wirkungsuntersuchung zur südkoreanischen Reform (Verwaltungssteuerdaten): geringere Automatisierungsinvestitionen, höhere Beschäftigung, geringere Lohnungleichheit über langsameres Lohnwachstum in der oberen Verteilungshälfte und eine positive fiskalische Externalität — referiert allein der Richtung nach, mit ausdrücklicher Abgrenzung gegen die Modellergebnisse zu Typ 1 (§ 3.3, § 3.5) | 8 |
+| 7 | § 6.1 | Aktualisierung | Zwei Vorwärtsverweise in den Bestandstext eingefügt, damit die bisherigen Formulierungen zur Zwei-Punkte-Reduktion und zur begrenzten Evidenzlage als zeitlich frühere Fassungen erkennbar bleiben (§ 2.5 Daily-Prompt, § 4.5 `Claude.md`) | 6, 7, 8 |
+| 8 | § 9.2 | Ergänzung | Folgerung aus beiden Befunden: Die Definitionsabhängigkeit ließe sich durch gesetzliche Festlegung der Zählweise beheben, ein Widerspruch im Erhebungsvorgang selbst nicht — ein Steuerpflichtiger käme je nach herangezogener Darstellung derselben Quelle zu einem um 4,4 Prozent beziehungsweise um den Faktor 1,85 abweichenden Ergebnis, was mit dem Bestimmtheitsgebot unvereinbar wäre; ferner besteuerte eine an solchen Zahlen anknüpfende Abgabe auch die Investitionsentscheidung selbst | 1, 5 |
+| 9 | § 11.1 | Ergänzung | Ein neuer Eintrag (Kang, Lee & Quach) mit Wiedergabe der drei Befunde, Prüfvermerk zur Nichtbeschaffbarkeit des Volltextes und Vormerkung der ebenfalls nicht abrufbaren Parallelarbeit | 8, 13 |
+| 10 | § 11.3 | Ergänzung | Ein neuer Eintrag (Windfall Policy Atlas) als Abgleichsquelle für die Staffelung und die Wirkungsbefunde, mit dem Hinweis, dass der Atlas außer der südkoreanischen Maßnahme keine weitere umgesetzte Automatisierungssteuer führt | 7 |
+| 11 | § 11.5 | Ergänzung | Zwei neue Einträge (Crimi mit Kennzeichnung als Meinungsbeitrag und Angabe der Gegenprüfung; *layoffs.fyi* mit wörtlicher Zähldefinition und Prüfvermerk zur Nichterhebbarkeit der Kennzahlen) sowie vier neue Trackereinträge zum Stand 23. September 2026 mit Summenproben, Übersichtstafel-Werten und den vier festgestellten internen Widersprüchen; die früheren Stände bleiben vollständig erhalten | 1, 2, 3, 4, 5, 6 |
+| 12 | § 11.3, § 11.5 | Korrektur | Zwei bestehende Einträge um Prüfvermerke zu zwei in der URL-Stichprobe festgestellten, nicht mehr erreichbaren Nachweisen (jeweils HTTP 404) erweitert; beide URLs bleiben nach § 4.5 `Claude.md` als zeitlich frühere Referenz erhalten | — |
+| 13 | `README.md` | Korrektur | Die Versionsangabe im Zitiervorschlag lautete 100.0 gegenüber 102.0 in der Versionszeile derselben Datei; beide Stellen sind auf 103.0 gesetzt worden (Form und Wortlaut des Zitiervorschlags im Übrigen unverändert) | — |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 9 | Nakatani & Miyamoto (SSRN 7072218 / MPRA 128480) | A | Dublette — seit dem Lauf vom 21. September 2026 vollständig in § 3.3 und § 3.5 geführt; die in diesem Lauf gefundene SSRN-Fassung ist dieselbe Arbeit unter anderer Ablagenummer |
+| 10 | Kleven & Zidar (NBER WP 35747) | A | Dublette — seit dem Lauf vom 18. September 2026 vollständig in § 3.3 und § 3.5 geführt |
+| 11 | The Anthropic Institute, Szenarienmodell und Erwartungsbefragung | A/D | Dublette — Werkzeug, Arbeitspapier und Befragung von 10.980 Personen sind im Dokument geführt; ein neuer Stand liegt nicht vor |
+| 12 | IFR, *World Robotics 2026* | J | Der Bericht ist zum Stichtag noch nicht erschienen; die Veröffentlichung ist für den 24. September 2026 angekündigt, die Pressemitteilungsliste weist im Zeitfenster keinen Eintrag aus (jüngster Eintrag 2. Juli 2026). **Vorgemerkt für den Lauf vom 24. September 2026** — die im Dokument geführten Vorabzahlen zu humanoiden Robotern bleiben bis dahin der aktuelle Stand |
+| 13 | *Robot taxes and corporate cash holdings* (Applied Economics) | C/A | Nicht abrufbar (HTTP 403). Die Arbeit wertet dieselbe südkoreanische Reform als natürliches Experiment aus und wäre eine unabhängige Gegenprobe zu Kang/Lee/Quach. **Vorgemerkt**; ein Zugang über eine offene Vorfassung ist im Folgelauf zu suchen |
+| 14 | BMAS-Förderrichtlinie vom 2. September 2026 | B | Außerhalb Zeitfenster (einundzwanzig Tage) und ohne Steuer- oder Abgabenbezug — die Richtlinie fördert den KI-Einsatz in kleinen und mittleren Unternehmen, berührt aber weder Bemessungsgrundlage noch Sozialversicherungsfinanzierung |
+| 15 | ZEW-Befragung zur digitalen Souveränität | H | Weit außerhalb Zeitfenster: Die Veröffentlichung datiert auf den 14. November 2025, die Erhebung auf September 2025. Der Befund (über 60 Prozent der Informationswirtschaft und knapp 50 Prozent des verarbeitenden Gewerbes sehen sich in mindestens einem Technologiefeld stark von außereuropäischen Anbietern abhängig) wäre für § 8.2 einschlägig, ist aber nach der Fensterregel nicht einspielbar. **Vorgemerkt** für den Fall einer Neuauflage der Erhebung |
+| 16 | Capgemini-Souveränitätsstudie | H | Außerhalb Zeitfenster (8. September 2026) und ohne fiskalische Komponente — unverändert gegenüber dem Vorlauf |
+| 17 | IAB-Kurzbericht 09/2026 | E | Kein KI-Bezug — der Bericht behandelt Branchenvielfalt und strukturelle Widerstandsfähigkeit von Regionen und adressiert die Verdrängungsfrage nicht |
+| 18 | Fu, Li, Weng & Zhou, *Robots, Rents, and Redistribution* | A | Außerhalb Zeitfenster (25. März 2026); die Vormerkung besteht nunmehr den vierten Lauf und ist damit der ranghöchste offene Vorgang des Clusters A |
+| 19 | Aggregatorseiten zu Investitionsvolumen, Modellveröffentlichungen und Token-Preisen | I | Quellenniveau — Sekundäraggregation ohne benannte Primärquelle, fällt unter die Negativliste des Clusters I. Das 48-Stunden-Fenster hat keinen Treffer aus einer benannten Primärquelle ergeben |
+| 20 | G-BA- und KBV-Beschlusslisten | G | Kein KI-bezogener Beschluss im Zeitfenster. Cluster G liefert damit den sechsten Lauf in Folge keinen Treffer |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument und Literaturverzeichnis: Ja
+- Deduplikation gegen die Vorläufe dieser Datei: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 23. September 2026" in `Validierung-Ergebnisse.md`)
+- PDF neu erstellt: Ja
+- Word neu erstellt: Ja
+- Versionsnummer an allen vier Stellen gesetzt: Ja (Dokumentkopf, Aktualitätshinweis, `README.md` mit Versionszeile und Zitiervorschlag, Abschlussblock des Validierungsprotokolls)
+- E-Mail-Benachrichtigung: Fallback-Datei `daily-mail.txt` geschrieben (kein Versandwerkzeug in der Sitzung erreichbar)
+- WhatsApp-Benachrichtigung: Fallback-Datei `daily-whatsapp.txt` geschrieben (kein Versandwerkzeug in der Sitzung erreichbar)
+- Merge auf `main`: Ja
+
+### Auffälligkeiten und offene Punkte
+
+- **Der Befund dieses Laufs betrifft die Belastbarkeit der Datengrundlage selbst.** Bis hierher lautete der dokumentierte Einwand gegen eine verdrängungsbezogene Bemessungsgrundlage, verschiedene Zählwerke zählten verschieden. Dieser Einwand ist durch gesetzliche Festlegung der Zählweise heilbar. Der heutige Abruf zeigt darüber hinaus, dass ein einzelnes Zählwerk an einem Tag zwei verschiedene Werte für dieselbe, ausdrücklich gleich definierte Größe ausweist, ohne die Abweichung kenntlich zu machen. Dieser Mangel ist nicht durch Definition heilbar, weil er im Erhebungsvorgang entsteht und von außen nicht erkennbar ist.
+- **Die Zähldefinition des sechsten Zählwerks ist der bislang deutlichste Beleg für die Vermengungsgefahr.** Sie zählt ausdrücklich auch Streichungen, die der *Finanzierung* von KI-Investitionen dienen. Das ist der Sache nach das Gegenteil einer Substitution: Arbeit wird nicht abgebaut, weil KI sie übernimmt, sondern damit das Unternehmen die KI bezahlen kann.
+- **Build-Umgebung.** Beide Exportskripte sind im ersten Anlauf mit `ModuleNotFoundError` abgebrochen, weil `reportlab` und `python-docx` in der Sitzungsumgebung nicht vorinstalliert waren. Nach der in § 5 `Claude.md` vorgesehenen einmaligen Installation (`pip install reportlab python-docx`, installiert: reportlab 5.0.1) sind beide Skripte fehlerfrei durchgelaufen. An den Skripten selbst ist nichts geändert worden (§ 4.5 `Claude.md`).
+- **Versandwerkzeuge fehlen.** In dieser Sitzung ist weder ein Werkzeug zum Versand einer Microsoft-Graph-/Outlook-E-Mail noch eines aus einem WhatsApp-Server erreichbar; beide Kanäle sind nach Phase 5b des Prompts in Fallback-Dateien im Repository-Wurzelverzeichnis geschrieben worden. Die Dateien sind nicht Teil des Commits. Empfängerdaten sind weder hier noch im Commit noch im Abschlussbericht ausgewiesen.
+- **Offene Vormerkungen nach Rang:** (1) *IFR World Robotics 2026* — Veröffentlichung für den 24. September 2026 angekündigt, damit für den unmittelbar folgenden Lauf fällig; (2) Volltext von Kang, Lee & Quach (SSRN 5005128) und die Parallelarbeit in *Applied Economics*, beide wegen HTTP 403 nicht beschaffbar, Zugang über offene Vorfassungen zu suchen; (3) Fu, Li, Weng & Zhou (SSRN 6466918), vierter Lauf in Vormerkung; (4) Kennzahlen von *layoffs.fyi*, die nur im Browser geladen werden; (5) ITIF-Auswertung zum südkoreanischen Automatisierungsabzug vom 9. Februar 2026, deren Wirkungsangabe nunmehr durch die heute aufgenommene Wirkungsuntersuchung teilweise ersetzt ist.
+- **Cluster G** liefert den sechsten Lauf in Folge keinen Treffer. Sollte sich das fortsetzen, ist zu erwägen, das Abfrageintervall dieses Clusters in `Suchthemen.md` auf einen längeren Turnus zu stellen, statt es täglich ergebnislos abzufragen. Diese Änderung wäre eine Pflege von `Suchthemen.md` und wird hier nur vorgeschlagen, nicht vorgenommen.
+- **Eskalationspflichtige Treffer:** keine. Kein Treffer dieses Laufs berührt Kapitelstruktur, Kernaussage der Deutschland-These, Autorenname oder Lizenz. Die Berichtigung der Versionsangabe im Zitiervorschlag der `README.md` berührt einen nach § 4.5 `Claude.md` geschützten Textbaustein nur insoweit, als die Versionsnummer nach § 4 `Validierung.md` ohnehin fortzuschreiben ist; Form und Wortlaut bleiben unverändert. Der Vorgang ist im Abschlussbericht ausdrücklich ausgewiesen.
+
+---
+
 ## 2026-09-22 — Lauf 001 — Version 101.0 → Version 102.0
 
 ### Recherchekorridor
