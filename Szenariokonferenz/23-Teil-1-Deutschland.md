@@ -10,7 +10,7 @@ Hundert Felder des deutschen Gesundheitswesens haben dieselbe Frage für ihr eig
 
 > **Künstliche Intelligenz nähme dem Personalbedarf bis 2031 nicht seinen Anstieg, sondern gut ein Drittel davon.**
 
-Auf den 2,16 Mio Vollkräften, für die eine belegte und im Zuschnitt geprüfte Bezugsgröße vorliegt, stiege der Personalbedarf bis 2031 um **+123.684 Vollkräfte**. Unter der Gegenannahme, dass KI und Automatisierung stagnieren, stiege er um **+201.717**. Die Differenz von rund **78.000 Vollkräften** ist der gesamte Beitrag der Technik — er dämpft, er kehrt nicht um.
+Auf den 2,16 Mio Vollkräften, für die eine belegte und im Zuschnitt geprüfte Bezugsgröße vorliegt, stiege der Personalbedarf bis 2031 um **+123.684 Vollkräfte**. Unter der Gegenannahme, dass KI und Automatisierung stagnieren, stiege er um **+201.717**. Die Differenz von rund **78.000 Vollkräften** wäre der gesamte Beitrag der Technik — sie dämpfte, sie kehrte nicht um. Nach dem vierten Red-Team-Angriff (`27-Sitzung-C.md` § 4) ist diese Zahl ein Punkt in einer Spanne von rund **50.600 bis 105.400 Vollkräften**: Der Gegenpfad P3₀, der sie erzeugt, ist in den vier tragenden Zeilen nie angegriffen worden.
 
 Nach der Diskussion fällt dieser Beitrag kleiner aus als davor: In der ersten Erhebung waren es 86.000 Vollkräfte, in der zweiten 78.000. Die Richtung ist über beide Spalten konsistent — mehr Bedarf, weniger KI-Wirkung.
 
@@ -40,11 +40,11 @@ Sechs Zeilen tragen eine **korrigierte** Bezugsgröße (mit \*): Dort hatte die 
 | C02 | Stationäre Pflege | 580.000 | +14,7 % | +85.260 | +101.500 |
 | | **Summe** | **2.155.154** | | **+123.684** | **+201.717** |
 
-**Die Spreizung ist das Eigentliche.** Zehn Felder verlören Bedarf, sechs gewännen. Der Rückgang läge fast vollständig dort, wo **verarbeitet** wird — Apotheken, medizinisch-technischer Dienst, Funktionsdienst, Labore, Großhandel. Der Anstieg läge dort, wo **am Menschen** gearbeitet wird: Pflege stationär und ambulant, Rettungsdienst, Krankenhaus-Pflegedienst.
+**Die Spreizung ist das Eigentliche.** Neun Felder verlören Bedarf, sieben gewännen. Der Rückgang läge fast vollständig dort, wo **verarbeitet** wird — Apotheken, medizinisch-technischer Dienst, Funktionsdienst, Labore, Großhandel. Der Anstieg läge dort, wo **am Menschen** gearbeitet wird: Pflege stationär und ambulant, Rettungsdienst, Krankenhaus-Pflegedienst.
 
 Das ist der politische Kern. Die beiden Bewegungen dämpfen sich in der Summe, aber sie betreffen verschiedene Menschen, verschiedene Qualifikationen und verschiedene Orte. Eine Apothekerin in Gelsenkirchen wird nicht zur Pflegefachkraft in Cottbus, weil eine Bundestabelle sich ausgleicht.
 
-**Vier Zeilen tragen fast alles.** Stationäre Pflege, ambulante Pflege, Krankenhaus-Pflegedienst und Rettungsdienst stellen zusammen **1,37 Mio** der 2,16 Mio Vollkräfte und den gesamten Zuwachs. Die stationäre Pflege allein hat ihren Beitrag in der zweiten Erhebung um 15.660 Vollkräfte erhöht — mehr als die Summe aller Rückgänge der Tabelle. Die Tabelle ist damit im Wesentlichen eine Aussage über die **Pflege** — alle übrigen zwölf Felder zusammen bewegen weniger als ein Viertel davon.
+**Vier Zeilen tragen fast alles.** Stationäre Pflege, ambulante Pflege, Krankenhaus-Pflegedienst und Rettungsdienst stellen zusammen **1,37 Mio** der 2,16 Mio Vollkräfte und den gesamten Zuwachs. Die stationäre Pflege allein hat ihren Beitrag in der zweiten Erhebung um 15.660 Vollkräfte erhöht — gut ein Drittel der Summe aller Rückgänge (43.099 Vollkräfte). Die Tabelle ist damit im Wesentlichen eine Aussage über die **Pflege** — alle übrigen zwölf Felder zusammen bewegen weniger als ein Viertel davon.
 
 ## 3. Die Korrektur der Bezugsgrößen — und was sie über das Verfahren sagt
 
@@ -71,26 +71,32 @@ Sie hat sechs Feldern die **ganze Einrichtungsart** zugewiesen, obwohl die Rolle
 
 **Die Folge für das Kriterium:** Die Bezugsgrößendeckung liegt korrigiert bei **48,9 %** statt 73,6 % und reißt die Schwelle von 70 % erneut. Die Reparatur hat die Deckung real von 42 % auf 48,9 % gehoben — deutlich weniger, als sie zu leisten schien.
 
-**Ein zweiter Vorbehalt zu demselben Feld.** B07 ist zugleich eine der vier Karten, die als `interessengestützt` gekennzeichnet sind: Vier ihrer fünf Befunde stehen auf Veröffentlichungen der KBV oder einer KV, darunter deren eigene Stellungnahme zu einem Gesetzentwurf, der die Aufgaben der KVen erweitert. Die +19 % sind damit die Schätzung einer Organisation über ihren eigenen künftigen Umfang. Nach der Zuschnittkorrektur trägt diese Karte noch 0,4 % der Tabelle; vor ihr waren es 27 %. Beide Fehler hingen zusammen — eine interessengestützte Schätzung wurde durch einen Zuordnungsfehler auf das Hundertfache ihres Gewichts gehoben.
+**Ein zweiter Vorbehalt zu demselben Feld.** B07 ist zugleich eine der vier Karten, die als `interessengestützt` gekennzeichnet sind: Vier ihrer fünf Befunde stehen auf Veröffentlichungen der KBV oder einer KV, darunter deren eigene Stellungnahme zu einem Gesetzentwurf, der die Aufgaben der KVen erweitert. Die **+16 %** in der Spalte »ohne KI« sind damit die Schätzung einer Organisation über ihren eigenen künftigen Umfang. (In Runde 1 standen hier +19 %; die Karte hat den Wert in der zweiten Erhebung auf 16 gesenkt.) Nach der Zuschnittkorrektur trägt diese Karte noch 0,4 % der Tabelle; vor ihr waren es 27 %. Beide Fehler hingen zusammen — eine interessengestützte Schätzung wurde durch einen Zuordnungsfehler auf das Hundertfache ihres Gewichts gehoben.
 
 **Was das Verfahren richtig gemacht hat:** Jede der sechs Rollen hat ihren korrekten Wert genannt, mit Quelle, im dafür vorgesehenen Feld. Die Information war vorhanden und belegt. Sie wurde nicht ausgewertet. Das ist ein Verarbeitungsfehler, kein Erkenntnisfehler — und er wäre beim Schreiben dieses Teils nur deshalb aufgefallen, weil jemand nach der Herkunft einer einzelnen Zahl gefragt hat.
 
 ## 4. Der Arbeitszeiteffekt — und warum er nicht durchschlägt
 
-| | |
-|---|---|
-| **P1** technisch ersetzbare Arbeitszeit | **41,3 %** ankerbereinigt, ±3 Punkte Methodenunsicherheit |
-| **P2** davon bis 2031 wirksam | **40 %** |
-| **P1 × P2** tatsächlich automatisierte Arbeitszeit | **15,8 %** (Q1 9,9 – Q3 22,5) |
-| **D** Durchgriff auf den Personalbedarf | **0,53** |
+| | nach der Diskussion | erste Erhebung |
+|---|---|---|
+| **P1** technisch ersetzbare Arbeitszeit | **41,8 %** ankerbereinigt, ±3 Punkte Methodenunsicherheit | 41,3 % |
+| **P2** davon bis 2031 wirksam | **40,5 %** | 40 % |
+| **P1 × P2** tatsächlich automatisierte Arbeitszeit | **16,4 %** (Q1 10,1 – Q3 23,1) | 15,8 % |
+| **D** Durchgriff auf den Personalbedarf | **0,51** | 0,53 |
 
-Rund ein Sechstel der Arbeitszeit würde bis 2031 tatsächlich frei. Davon erreichte **gut die Hälfte** den Personalbedarf. Die andere Hälfte verschwindet in Vorhaltung, Schichtfloors und Mindestbesetzung: Ein 24/7-Dienstplan spart bei zehn Prozent weniger Schreibarbeit keine zehn Prozent Personal, weil Nacht, Wochenende und Bereitschaft nicht teilbar sind.
+**Korrektur, 20.09.2026.** Diese Tabelle führte bis zur Verifikation der Sitzung C die Werte der **ersten** Erhebung, obwohl der Teil die Fassung nach der zweiten ausweist. Die dritte Verifikationsinstanz hat den Abstand gefunden und beziffert; die maßgeblichen Werte stehen jetzt links, die überholten rechts. Der Unterschied ist klein — und genau deshalb wäre er ohne Nachrechnen nicht aufgefallen.
 
-**Elf Rollen geben ein D über 1,0 an** — sie behaupten damit, dass mehr Personalbedarf verschwindet als Arbeitszeit frei wird. Das ist möglich, etwa über Standortschließung oder Konsolidierung, aber es verlangt nach § 3 des Konzepts eine Begründung. **Nur zwei der elf nennen einen Mechanismus.** Keine liegt außerhalb des erlaubten Bereichs von 1,5, und die Werte gehen nicht in die Zentraltabelle ein; für Runde 3 sind sie gezielt anzugreifen.
+**Ein zweiter Vorbehalt, aus dem fünften Red-Team-Angriff.** P1 × P2 ist ein **ungewichteter** Panelmedian über hundert Felder, von denen 82 keine Bezugsgröße tragen. Auf die 2,16 Mio Vollkräfte mit belegter Bezugsgröße gewichtet ergäben sich **8,4 %** statt 16,4 % — Faktor 1,87. Der Satz »rund ein Sechstel der Arbeitszeit« gilt für das ungewichtete Panel, nicht für das gewichtete Personal.
 
-Die Spannweite von D reicht über den Faktor sieben — von 0,32 in der Pflege bis 0,79 in der Gesundheitsindustrie. Wo eine Kopfzahl gesetzlich oder organisatorisch gebunden ist, kommt die gesparte Stunde nicht an. Wo Arbeit in Stückzahlen anfällt, kommt sie an.
+Rund ein Sechstel der Arbeitszeit würde bis 2031 tatsächlich frei. Davon erreichte **gut die Hälfte** den Personalbedarf. Die andere Hälfte verschwände in Vorhaltung, Schichtfloors und Mindestbesetzung: Ein 24/7-Dienstplan spart bei zehn Prozent weniger Schreibarbeit keine zehn Prozent Personal, weil Nacht, Wochenende und Bereitschaft nicht teilbar sind.
+
+**In der ersten Erhebung gaben elf Rollen ein D über 1,0 an** — sie behaupteten damit, dass mehr Personalbedarf verschwindet als Arbeitszeit frei wird. Das ist möglich, etwa über Standortschließung oder Konsolidierung, aber es verlangt nach § 3 des Konzepts eine Begründung, und nur zwei der elf nannten einen Mechanismus. **Nach der Diskussion sind es drei**: M03 (1,42), E05 (1,41) und E07 (1,04); C06 liegt exakt bei 1,000. Alle drei nennen einen Mechanismus. Acht Rollen haben ihren Wert selbst nach unten korrigiert, mehrere mit einer benannten Ursache — C06 nennt eine Rundung, C08 einen Populationswechsel zwischen Zähler und Nenner, D06 eine Buchungskonvention. Das ist die stärkste Einzelbewegung der zweiten Erhebung.
+
+Die Spannweite von D reicht über den Faktor **33** — von 0,04 (J01) bis 1,42 (M03). Über die Bankmediane gerechnet bleibt der Faktor **2,1**: 0,29 in der Pflege und Langzeitversorgung gegen 0,62 in der Gesundheitsindustrie und bei den Kostenträgern. Wo eine Kopfzahl gesetzlich oder organisatorisch gebunden ist, kommt die gesparte Stunde nicht an. Wo Arbeit in Stückzahlen anfällt, kommt sie an.
 
 **P1 × P2 ist die Größe, die mit externen Automatisierungsstudien vergleichbar ist. D ist die Größe, die erklärt, warum aus ihr kein Stellenabbau folgt.** Beide gehören zusammen berichtet; einzeln ist jede von beiden irreführend.
+
+**Was an D strittig bleibt.** Ob ein Durchgriff nahe null ein Befund über die Arbeit ist oder nur über ihre Bemessung, ist im Panel offen: A08 rechnet gegen die Bemessungsnorm, D06 gegen die Automatisierungsnorm (Gruppe 2, unentschieden). Es geht dabei um die größte Zeile der Zentraltabelle, 408.599 Vollzeitäquivalente. Ebenso offen ist, ob die Vorhaltung ein Boden ist, unter den kein Personalbedarf fällt (F07), oder ein Verhandlungsergebnis (K05).
 
 ## 5. Der Attributionsvorbehalt
 
@@ -121,7 +127,11 @@ Auf die Frage, was 2031 im eigenen Feld knapper wäre, antworten hundert Rollen:
 | Recht | 8 |
 | **Technik** | **1** |
 
-Eine einzige Rolle von hundert hält die Technik für den Engpass. Dasselbe Bild beim bindenden Hemmnis: Refinanzierung und Abrechnung 29, Investitionsfähigkeit 24, Recht und Zulassung 23, Datenverfügbarkeit 15, Haftung 7. **Vier von fünf Feldern nennen ein Geld- oder Rechtshemmnis, keines ein Könnenshemmnis.**
+Eine einzige Rolle von hundert hält die Technik für den Engpass. Dasselbe Bild beim bindenden Hemmnis: Refinanzierung und Abrechnung 29, Investitionsfähigkeit 24, Recht und Zulassung 23, Datenverfügbarkeit 15, Haftung 7.
+
+**Korrektur, 20.09.2026 — der Satz, der hier stand, ist gestrichen.** Er lautete: »Vier von fünf Feldern nennen ein Geld- oder Rechtshemmnis, **keines ein Könnenshemmnis**.« Der erste Red-Team-Angriff hat ihn widerlegt, und zwar an der eigenen Mechanik: Die Hemmnisliste im Rollenauftrag war **abschließend** und lautete »Recht und Zulassung | Refinanzierung und Abrechnung | Haftung | Personalbindung und Tarif | Investitionsfähigkeit | Akzeptanz von Patienten oder Beschäftigten | Datenverfügbarkeit«. Ein Könnenshemmnis war nicht wählbar. Der mögliche Wertebereich der Aussage betrug damit 0 bis 0 von 100 — sie konnte gar nicht anders ausfallen und ist kein Befund, sondern ein Abdruck der Frage.
+
+**Was übrig bleibt, und es ist weniger.** Die Engpassliste (A3) enthielt »Technik« als wählbare Antwort, und genau eine von hundert Rollen hat sie gewählt — dieser Teil des Befundes steht. Auch er steht jedoch auf einer geschlossenen Liste von fünf Vorgaben, gegen die »Technik« mit vier nicht-technischen Optionen konkurrierte. Und dieselben hundert Rollen beziffern an anderer Stelle sehr wohl eine technische Schranke: A08 die fehlende Produktzulassung am Bett, E08 und L03 die Taktzeit der Benannten Stellen, mindestens acht Karten aus drei Bänken den fehlenden vorab genehmigten Änderungsplan. Der belastbare Satz lautet deshalb: **Gefragt nach dem knappsten Gut, wählte fast niemand die Technik — gefragt nach konkreten Schranken, nannten viele technische.** Beides gehört nebeneinander.
 
 Das ist die Deutschland-These des Arbeitspapiers, und das Panel liefert sie als Liste: `20-Durchgriffskanaele.md` führt 59 feldübergreifend gedeckte Rechtsnormen. **Davon sind 43 unabhängig** — die übrigen 16 standen bereits in einem Faktenblatt und lagen den Rollen damit vor, darunter fünf der sechs meistgenannten.
 
@@ -171,13 +181,13 @@ Die zehn Rollen mit dem höchsten Streitindex, also dem größten Abstand zum Pa
 
 Zwei Pole. Am einen Ende die **körpernahe Pflege** mit sehr niedrigem P1 (14 bis 18 %) und trotzdem steigendem Bedarf — sie bestreitet nicht die Technik, sondern ihre Anwendbarkeit auf Arbeit am Bett. Am anderen Ende die **verarbeitenden Felder** mit hohem P1 und fallendem Bedarf.
 
-Dazwischen steht, mit dem höchsten Streitindex des ganzen Panels, das Feld des **Verfassers selbst**: P1 79, P2 92, P3 −29. Die Rolle, die das Arbeitspapier schreibt, hält ihr eigenes Feld für das am stärksten exponierte der ganzen Bank. Das ist kein Kuriosum, sondern gehört in das Papier, weil es dessen eigene Voraussetzung betrifft.
+Dazwischen steht, mit dem höchsten Streitindex des ganzen Panels, das Feld des **Verfassers selbst**: P1 79, P2 92, P3 −26 (in der ersten Erhebung −29, in der zweiten von der Karte selbst zurückgenommen). Die Rolle, die das Arbeitspapier schreibt, hält ihr eigenes Feld für das am stärksten exponierte der ganzen Bank. Das ist kein Kuriosum, sondern gehört in das Papier, weil es dessen eigene Voraussetzung betrifft.
 
-**Kein Dissenspunkt ist bisher ausgetragen.** Die Gruppendiskussion der dreißig strittigsten Rollen ist Runde 2 und hat nicht stattgefunden. Bis dahin ist dieser Abschnitt eine Streitanzeige, kein Streitergebnis.
+**Nachtrag nach Sitzung B.** Als dieser Abschnitt geschrieben wurde, hatte die Gruppendiskussion noch nicht stattgefunden; er war eine Streitanzeige. Inzwischen sind fünf Gruppen mit je sechs bis sieben Streitpunkten ausgetragen, jeder mit benannter Entscheidungsgröße, Quelle und Messzeitpunkt (`25-Sitzung-B.md`). Die Tabelle in diesem Abschnitt führt weiterhin die **Erstwerte der Runde 1** — sie ist die Auswahlgrundlage der Diskussion und wird deshalb nicht nachgezogen; die maßgeblichen Werte stehen in § 2 und § 4.
 
 ## 9. Was Runde 3 klären müsste
 
-1. **Ob die Diskussion Erkenntnis erzeugt oder homogenisiert.** Der Divergenzerhalt — der Interquartilsabstand nach der Diskussion im Verhältnis zu dem davor — ist das entscheidende Maß. Fällt er unter die Hälfte, hat das Verfahren geglättet statt aufgeklärt.
+1. ~~**Ob die Diskussion Erkenntnis erzeugt oder homogenisiert.**~~ **Beantwortet:** Der Divergenzerhalt ist mit **6 von 6** erfüllt, niedrigster Wert 0,81 — die Diskussion hat nicht homogenisiert (`25-Sitzung-B.md` § 2).
 2. **Ob D sich bewegt.** Die aussagekräftigste Einzelbewegung des Verfahrens, weil D genau die Größe ist, um die gestritten wird.
 3. **Ob die Pflegefelder ihr niedriges P1 halten**, wenn ihnen die Rechnung der verarbeitenden Felder vorliegt.
 4. **Ob die Felder ohne amtliche Bezugsgröße** mit dem korrigierten Auftrag (`11-Konzept-v2.md` § 5, Runde 0a) belastbare Werte liefern — davon hängt ab, ob die Zentraltabelle über 48,9 % hinauswächst. Vorrangig ist dabei die Lücke bei den Arztpraxen: 470.000 Vollkräfte ohne sprechendes Feld.

@@ -4,7 +4,7 @@
 
 ## 1. Prüfgegenstand
 
-Kein Einzeldokument, sondern ein **Satz von zehn zusammenhängenden Dokumenten** plus Rohdaten und Prüfskripte. Die Besonderheit dieses Satzes: Die Dokumente berichten **dieselben Kennzahlen mehrfach**, und die Zahlen ändern sich, wenn ein Fehler gefunden wird. Der wichtigste Prüfschritt ist deshalb die dokumentübergreifende Zahlenkonsistenz, nicht die Binnenstruktur.
+Kein Einzeldokument, sondern ein **Satz von zwölf zusammenhängenden Dokumenten** plus Rohdaten und Prüfskripte. Die Besonderheit dieses Satzes: Die Dokumente berichten **dieselben Kennzahlen mehrfach**, und die Zahlen ändern sich, wenn ein Fehler gefunden wird. Der wichtigste Prüfschritt ist deshalb die dokumentübergreifende Zahlenkonsistenz, nicht die Binnenstruktur.
 
 | Dokument | Funktion | Ändert sich, wenn … |
 |---|---|---|
@@ -17,6 +17,8 @@ Kein Einzeldokument, sondern ein **Satz von zehn zusammenhängenden Dokumenten**
 | `22-Teil-0-Gueltigkeit.md` | Teil 0 des Papiers | ein Gütemaß sich ändert |
 | `23-Teil-1-Deutschland.md`, `24-Teil-2-Europa.md` | Teil 1 und 2 des Papiers | die Zentraltabelle sich ändert |
 | `25-Sitzung-B.md` | Auswertung der zweiten Erhebung | Runde 2 oder 3 neu laufen |
+| `26-Strategiepapier-2031.md` | Rahmen, Teil 3 und Schlusskapitel — das Zielprodukt | Sitzung C neu läuft oder eine Kernzahl sich ändert |
+| `27-Sitzung-C.md` | Auswertung der Optionenrunde | Runde 4 bis 6 neu laufen |
 
 ## 2. Kernzahlen — bei jeder Änderung in allen Dokumenten nachziehen
 
@@ -35,7 +37,10 @@ Kein Einzeldokument, sondern ein **Satz von zehn zusammenhängenden Dokumenten**
 | Aufrufe Sitzung A | 223 | 11, 13, 17, 18, 22 |
 | unabhängige Durchgriffskanäle | 43 von 59 | 11, 19, 20, 22, 23 |
 | datierte Falsifikatoren | 92 von 100 | 17, 18, 19, 22, 23 |
-| Abbruchkriterien | 23 | 13 (Tabelle **und** Zahlwort im Fließtext) |
+| Abbruchkriterien | **24** | 13 (Tabelle **und** Zahlwort im Fließtext), 26, 27 |
+| KI-Beitrag als Spanne | rund 50.600 bis 105.400 | 23, 26, 27 |
+| Deckung als Obergrenze | 48,9 %, untere Grenze 44,3 % | 13, 22, 26, 27 |
+| Aufrufe Sitzung C | 120, 0 Ausfälle | 18, 27 |
 
 ## 3. Terminologie — festgelegt, nicht verhandelbar
 

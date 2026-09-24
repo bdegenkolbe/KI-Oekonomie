@@ -16,8 +16,8 @@ for z in zeilen[:-1]:
     auf+=int(a.group(1)) if a else 0
     usd+=int(u.group(1)) if u else 0
 print(f"Kostentabelle: {len(zeilen)-1} Posten, Aufrufe {auf}, USD {usd}")
-if "**504**" not in zeilen[-1]: fehler.append(f"Summenzeile Aufrufe != 504: {zeilen[-1]}")
-if auf!=504: fehler.append(f"Aufrufe addieren zu {auf}, nicht 504")
+if "**503**" not in zeilen[-1]: fehler.append(f"Summenzeile Aufrufe != 503: {zeilen[-1]}")
+if auf!=503: fehler.append(f"Aufrufe addieren zu {auf}, nicht 503")
 if not 505<=usd<=525: fehler.append(f"USD addieren zu {usd}, ausserhalb 'rund 515'")
 
 # --- 2. Wanduhrzeit ---
@@ -26,15 +26,15 @@ if not m: fehler.append("Konzept nennt keine gemessene Minutenrate je Aufruf")
 RATE=float(m.group(1).replace(",",".")) if m else 3.0
 std=auf/2*RATE/60
 print(f"Wanduhrzeit bei Nebenlaeufigkeit 2 und {RATE} min/Aufruf: {std:.2f} h")
-m2=re.search(r"ergeben 504 Aufrufe damit \*\*rund (\d+) Stunden\*\*",K)
-if not m2: fehler.append("Konzept nennt keine Gesamtstundenzahl fuer 533 Aufrufe")
+m2=re.search(r"ergeben 503 Aufrufe damit \*\*rund (\d+) Stunden\*\*",K)
+if not m2: fehler.append("Konzept nennt keine Gesamtstundenzahl fuer 503 Aufrufe")
 elif abs(std-int(m2.group(1)))>0.5: fehler.append(f"Konzept nennt {m2.group(1)} h, gerechnet {std:.2f} h")
 
 # --- 3. Sitzungsteilung im Validierungsstand ---
 # Phasen so, wie die Kostentabelle sie fuehrt. R0 enthaelt die Quellenpruefung (0c),
 # R1b nur den Hauptarm (der Kontrollarm wird nicht validiert), R2 beide Zuege je Rolle
 # in einem Aufruf (siehe Konzept Paragraf 5, Runde 2).
-phasen={"R0":23,"R1":110,"R1b":100,"R2":40,"R3":110,"R4":103,"R5":12,"R6":6}
+phasen={"R0":23,"R1":110,"R1b":100,"R2":40,"R3":110,"R4":105,"R5":9,"R6":6}
 if sum(phasen.values())!=auf: fehler.append(f"Phasensumme {sum(phasen.values())} != Tabelle {auf}")
 sitz={"A":["R0","R1","R1b"],"B":["R2","R3"],"C":["R4","R5","R6"]}
 for name,ph in sitz.items():

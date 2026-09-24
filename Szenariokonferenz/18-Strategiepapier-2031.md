@@ -19,7 +19,7 @@ Die Reihenfolge ist bindend und folgt `11-Konzept-v2.md` § 5, Runde 6.
 | **0 Gültigkeit** | wie weit die Zahlen tragen | Prüfschärfe, Modellabhängigkeit, Gerüstabhängigkeit, Attributionskonsistenz, Abdeckung und Rest der Zerlegung, Ausfälle | Sitzung A, Runde 1b | **füllbar** |
 | **1 Deutschland und Gesundheitswesen** | was bis 2031 geschieht | P3-Summe in Vollkräften, daneben P1 × P2 und D, daneben die P4-Zerlegung | Runde 1 und 3 | **Entwurf**, § 5b |
 | **2 Europa** | wo Deutschland steht | E1 Abstand in Jahren, E2 EU-Anteil, E3 Regelungslücke | Sitzung A, Bänke K/L/M | **Entwurf**, § 5c |
-| **3 Hebel** | was man tun könnte | fünf bis acht Hebel mit Urteilsmuster, Kippbedingung und Red-Team-Einwand | Sitzung C, Runde 4 und 5 | offen |
+| **3 Hebel** | was man tun könnte | acht Hebel und sieben Leistungsprofile mit Urteilsmuster, Kippbedingung und Red-Team-Einwand | Sitzung C, Runde 4 und 5 | **geschrieben** — `26-Strategiepapier-2031.md` |
 
 **Eine Berichtsregel aus Sitzung A, nach dem Kontrollarm eingegrenzt:** Der Durchgriff **D** ist für Felder **ohne amtliche Bezugsgröße** nur als Spannweite und als Erklärungsfigur zu führen, nicht als Zahl. Für die verankerten Felder der Zentraltabelle gilt das nicht: Dort liegt Ds Modellabhängigkeit bei 0,53 (`17-Sitzung-A.md` § 3.3a).
 
@@ -145,6 +145,44 @@ Teil 1 und Teil 2 sind aus den Daten der ersten Erhebung geschrieben worden, ohn
 
 **Ein Fehler von zwei Größenordnungen ist dabei aufgefallen — und zwar erst auf eine Rückfrage nach der Herkunft einer einzelnen Zahl.** Sechs der sechzehn Felder hatten die ganze Einrichtungsart zugewiesen bekommen, obwohl die Rolle über einen engeren Ausschnitt rechnete. Der größte Posten der alten Tabelle, +89.300 Vollkräfte in der Spalte »ohne KI«, stammte aus einem Feld von rund viertausend Menschen. Die korrigierten Werte stehen in `23-Teil-1-Deutschland.md` § 2 und § 3; die Deckung fällt von 73,6 % auf 48,9 % und das Kriterium reißt erneut. Dass der Entwurf das aufgedeckt hat, ist genau sein Zweck gewesen — dass drei Prüfstufen es vorher nicht taten, ist der eigentliche Befund.
 
+## 5d. Der fünfte Fehler — und der erste, den das Verfahren selbst gefunden hat
+
+Sitzung C ist am 20.09.2026 nach fünf von 118 Aufrufen angehalten worden. Die Prüfinstanz der Runde 4a hatte **sieben der acht abgeleiteten Hebel mit einem harten Befund** zurückgewiesen, alle desselben Typs: Die Syntheseinstanz hatte aus Karten abgeleitet, deren Aussage die betreffende Rolle in Runde 3 verändert oder **ausdrücklich zurückgezogen** hatte.
+
+Drei Beispiele, gegen die Rohdaten geprüft:
+
+| Karte | Runde 1 | Runde 3 | Was die Rolle selbst schreibt |
+|---|---|---|---|
+| D06 | D 0,94 | **D 0,60** | »mein Durchgriff von 0,94 war kein Sachbefund, sondern eine Buchungskonvention … Zähler und Nenner standen auf verschiedenen Mengen« |
+| C06 | D 1,11 | **D 1,000** | »Damit fällt mein Durchgriff von 1,11 auf 1,000 … Meine Karte enthält keine These über Konsolidierung« |
+| L07 | P3 +26 | **P3 +9,5** | die Begründung widerlegt genau die Schlussfigur, die der Hebel aus ihr zog |
+
+**Die Ursache lag im Zuschnitt des Auftrags, nicht im Modell.** Der Ableitungsauftrag reichte die Runde-3-Werte nur als Kopfzeile weiter, die Prosa dagegen als Runde-1-Position — und die Dissensprotokolle aus Sitzung B zitieren durchgängig Runde-1-Zahlen, weil sie zu einem Zeitpunkt geschrieben wurden, als es keine anderen gab. Das Feld, in dem die Rücknahmen stehen (`aenderung` aus Runde 3), kam im Auftrag überhaupt nicht vor. Die Syntheseinstanz las also die ausführlichere, aber überholte Fassung. **92 von 100 Rollen haben in Runde 3 mindestens eine Kernzahl bewegt**; die Wahrscheinlichkeit, dass eine aus Runde-1-Prosa gezogene Herleitung noch trägt, war entsprechend klein.
+
+Das ist derselbe Fehlertyp wie der Zuschnittfehler aus § 5c: **ein Verarbeitungsschritt, dem das Material vorenthalten wurde, das ihn korrigiert hätte.** Dort waren es die 95 dokumentierten Gegenwerte, hier die Änderungsbegründungen der zweiten Erhebung.
+
+**Der Unterschied zu den vier vorigen Fehlern ist der Zeitpunkt.** Bezugsgrößendefekt, Prüfschärfe-Artefakt, Zuschnittfehler und fehlende Interessenprüfung wurden alle *nach* einem vollständigen Lauf gefunden, drei davon erst auf eine Rückfrage hin. Diesen hat die eingebaute Prüfstufe gefunden, nach fünf Aufrufen und vor den hundert Bewertungen, die sonst auf einer widerrufenen Grundlage gelaufen wären. Das ist der Zweck der Stufe, und es ist das erste Mal, dass sie ihn erfüllt hat.
+
+**Behoben durch drei Änderungen an Runde 4a**, alle in `baue-sitzung-c.py`:
+
+1. Jede Karte führt im Auftrag ihre **Bewegung zwischen beiden Erhebungen** und die Begründung dafür mit.
+2. Die Vorrangregel steht als erste Regel im Auftrag: Runde 3 ist maßgeblich, das Dissensprotokoll ist eine Quelle für Streitpunkte und **keine Zahlenquelle**.
+3. Auf die Prüfung folgen eine **Nachbesserung** und eine **zweite Prüfung**. Runde 4a hat damit fünf statt drei Aufrufe, Sitzung C 120 statt 118.
+
+Zwei kleinere Befunde derselben Prüfung sind mitbehoben: Ein Leistungsprofil hatte die **Beispielformulierung aus dem Auftrag selbst** zum Profil gemacht — das Beispiel steht jetzt in einem fachfremden Gegenstand, damit es nicht abschreibbar ist; und ein Profil belegte seinen Engpass mit einer Panelstatistik, während keine der zitierten Karten diesen Engpass trug — die Kartendeckung ist jetzt ausdrücklich gefordert.
+
+**Eine Lücke hat dieselbe Prüfung ebenfalls gefunden und sie bleibt bestehen, bis die Nachbesserung sie schließt:** Die **Investitionsfähigkeit** ist mit 24 von 100 Karten das zweithäufigste Hemmnis des Panels und Gegenstand von drei Dissenspunkten — und kam in keinem der acht Hebel und keinem Profil vor. Dass sie zuvor als drittes Hemmnis geführt wurde, lag an zwei Schreibweisen desselben Wortes, die getrennt gezählt wurden. Auch das ist korrigiert.
+
+## 5e. Der sechste Befund — die eigenen Texte
+
+Sitzung C hat drei Verifikationsinstanzen auf die bereits geschriebenen Teile 0, 1 und 2 angesetzt. Ergebnis: **53 Befunde, davon 36 harte.** Jeder prüfbare ist gegen die Rohdaten nachgerechnet und bestätigt worden.
+
+Der Befund ist einheitlich: **Teil 1 führte über weite Strecken die Werte der ersten Erhebung, obwohl er die Fassung nach der zweiten auswies** — dieselbe Fehlerklasse, die den Lauf nach fünf Aufrufen angehalten hatte, diesmal in von Hand geschriebenem Text. Elf Rollen mit D über 1,0 statt drei; ein Spreizungsfaktor von sieben, der rechnerisch 2,5 ergibt und tatsächlich 33 beträgt; zehn verlierende Felder statt neun; P1, P1 × P2 und D aus Runde 1. Dazu in Teil 2 **ein frei erfundener Satz** über vier Rollen, die vom Vergleichsrahmen abgewichen seien — keine einzige ist das.
+
+**Das ist der Befund, der von diesem Lauf bleibt.** Das Panel hat sich in Runde 3 selbst korrigiert, mehrfach gegen das eigene Interesse und mit benannter Ursache. Der geschriebene Text hat das nicht getan, bis eine fremde Instanz ihn dazu zwang. Die Fehlerquote liegt nicht dort, wo man sie vermutet.
+
+Alles ist korrigiert und als Korrektur ausgewiesen; die Einzelheiten stehen in `27-Sitzung-C.md` § 5.
+
 ## 6. Wie viele Rollen das Papier braucht
 
 Aus den 110 Antworten empirisch gemessen, je 200 bis 400 zufällige Reihenfolgen.
@@ -200,10 +238,12 @@ Die Zuordnung von Leistungsprofilen zu tatsächlichen Anbietern steht in `16-Mar
 | Teil 0 | **geschrieben** — `22-Teil-0-Gueltigkeit.md` |
 | Teil 1 | **geschrieben** — `23-Teil-1-Deutschland.md`, mit den Werten der zweiten Erhebung |
 | Teil 2 | **geschrieben** — `24-Teil-2-Europa.md`; maßgeblich sind die 18 zuständigen Rollen. E1 bis E3 werden in Runde 3 nicht erneut erhoben, der Teil bleibt auf der ersten Erhebung |
-| Teil 3 | erfordert Sitzung C, nicht begonnen |
+| Teil 3 | **geschrieben** — `26-Strategiepapier-2031.md` enthält Rahmen, Teil 3 und das Schlusskapitel. Sitzung C **abgeschlossen** am 20.09.2026, 120 Aufrufe, 0 Ausfälle, 5 h 50 min — Auswertung in `27-Sitzung-C.md` |
 | Register | `19-Falsifikatoren.md` (92 von 100 entscheidbar) und `20-Durchgriffskanaele.md` (59 gedeckte Normen von 342) liegen vor |
 | Quellenprüfung | `21-Quellenpruefung.md` — 140 Kennzahlen geprüft, 15 Beanstandungen, 7 hart, keine nicht existierende Quelle |
 
-Nächste Schritte in dieser Reihenfolge: die Nacharbeit abwarten; den Modellkontrollarm auf bereinigter Bezugsgröße wiederholen (zehn Aufrufe — erst danach steht fest, ob die Modellabhängigkeit wirklich gerissen ist, `17-Sitzung-A.md` § 3.3); die absolute Spalte aus P3-Prozent mal Bezugsgröße nachrechnen; Teil 0 aus `17-Sitzung-A.md` schreiben. Erst danach über Sitzung B entscheiden.
+**Sitzung C, 120 statt der geplanten 121 Aufrufe.** Die Kostentabelle des Konzepts hat die drei Syntheseinstanzen doppelt geführt — einmal in Runde 5, einmal als »drei Syntheseteile« in Runde 6. Es sind dieselben drei. Korrigiert in `11-Konzept-v2.md` § 5 und § 9 sowie in `13-Validierungsstand.md`; die Summe des Gesamtverfahrens sinkt von 504 auf 501 und steigt mit der Nachbesserungsschleife aus § 5d auf 503 Aufrufe. Zweite bewusste Abweichung: Teil 0, 1 und 2 sind geschrieben und geprüft und werden in Runde 6 **nicht neu geschrieben** — die korrigierten Zahlen der Zentraltabelle sollen nicht ein zweites Mal durch ein Modell laufen. Runde 6 schreibt Teil 3 und den Rahmen; die drei Verifikationsinstanzen prüfen stattdessen die bestehenden Teile gegen die Karten.
+
+Nach Sitzung C: Schlussredaktion, Validierung nach `Pruefprofil.md`, dann greift die Abschlussregel in § 7a und es folgt kein weiterer Lauf.
 
 **Drei Korrekturen für Sitzung B**, kostenlos und vor dem nächsten Lauf einzutragen: die Nullbasis abfangen, statt sie an hundert Rollen weiterzureichen; den Ankereffekt bei P1 (sechs Punkte zwischen den beiden Fragereihenfolgen) als Methodenunsicherheit mitführen; die Faktenblätter als prüfpflichtig kennzeichnen, damit die Lücke aus § 5a nicht wiederkehrt.
