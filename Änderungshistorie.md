@@ -54,6 +54,99 @@
 
 ---
 
+## 2026-09-24 — Lauf 001 — Version 103.0 → Version 104.0
+
+### Recherchekorridor
+
+- Genutzte Cluster aus `Suchthemen.md`: A, B, C, D, E, F, G, H, I, J. Vertieft worden sind nach der Regel „Breite vor Tiefe" genau zwei Cluster: **F** (Fortschreibung der Mehr-Tracker-Gegenprobe mit zwei eigenen Konsistenzproben) und **B** (Referentenentwurf zu den Sozialversicherungsrechengrößen 2027 als nationale Gegenprobe zum OECD-Befund). Knapp ergänzt worden ist Cluster **J/G** (Positionspapier zur Servicerobotik). Die Cluster A, C, D, E, H und I sind abgefragt worden und haben keinen validen Treffer im Zeitfenster geliefert.
+- Zeitfenster: Standard 7 Tage (17.–24. September 2026); Cluster F und I zusätzlich im 48-Stunden-Fenster (22.–24. September 2026). Alle Trackerstände sind am Stichtag selbst durch Direktabruf erhoben worden.
+- Anzahl Suchanfragen: 11 Websuchen und 115 Direktabrufe (davon 4 Zählwerke, 98 Erreichbarkeitsprüfungen der URL-Stichprobe, 3 Wiederholungsabrufe zur Bestätigung von Fehlercodes, 3 Kontrollabrufe zur Prüfung der Pfadauflösung einer Verbandsseite, 2 gescheiterte Abrufe über die arXiv-Programmierschnittstelle).
+
+### Gefundene Quellen
+
+| # | Cluster | Quelle (Autor/Institution, Titel, Datum) | URL | Bewertung |
+|---|---------|-----------------------------------------|-----|-----------|
+| 1 | F | AskTheRecruiter, *AI Layoff Tracker*, Direktabruf Stand 24. September 2026 | https://asktherecruiter.com/blog/ai-layoff-tracker/ | übernommen (Fortschreibung; Abwärtsbewegung beider Zählstufen, Blocksprung der KI-Zuschreibung, vier fortbestehende interne Widersprüche) |
+| 2 | F | SkillSyncer, *2026 Tech Layoffs Tracker*, Direktabruf Stand 24. September 2026 | https://skillsyncer.com/layoffs-tracker | übernommen (Fortschreibung: unverändert; zwei neue interne Widersprüche aus eigener Konsistenzprobe) |
+| 3 | F | DisplaceIndex, *AI Layoffs Tracker 2026*, Direktabruf Stand 24. September 2026 | https://displaceindex.com/trends/ai-layoffs-tracker/ | übernommen (Fortschreibung: unverändert, zwölfter Tag) |
+| 4 | F | Job Security Meter, *2026 Tech Layoffs*, Direktabruf Stand 24. September 2026 | https://jobsecuritymeter.com/layoffs | übernommen (Fortschreibung: unverändert seit 18. September 2026) |
+| 5 | B/E | BMAS, *Referentenentwurf zur Sozialversicherungsrechengrößen-Verordnung 2027*, 21. September 2026 | https://www.bmas.de/DE/Service/Presse/Meldungen/2026/referentenentwurf-zur-sozialversicherungsrechengroessen-verordnung-2027.html | übernommen (Primärquelle; vollständige Rechengrößentabelle und Wortlaut zur Ermessensfreiheit) |
+| 6 | J/G | International Federation of Robotics, *Service Robots' Impact Human Life — New IFR Position Paper published*, 24. September 2026 | https://ifr.org/ifr-press-releases/news/service-robots-impact-human-life | übernommen (Pressemitteilung; Positionspapier selbst nur nach Registrierung) |
+| 7 | J | International Federation of Robotics, *World Robotics 2026* (Veröffentlichung für den 24. September 2026 angekündigt), Direktabruf der Statistikseite | https://ifr.org/worldrobotics/ | übernommen als Negativbefund (Bericht am angekündigten Tag nicht erschienen; Vormerkung bleibt) |
+| 8 | A/D | Growiec, J., Prettner, K. & Szkróbka, M., *Redistributive Policies for the Times of Transformative AI*, arXiv 2609.14750, 13. September 2026 | https://arxiv.org/abs/2609.14750 | Dublette |
+| 9 | A | Kleven, H. & Zidar, O., *Automation and Optimal Taxation: A Task-Based Theory*, NBER Working Paper 35747 (Besprechung im TaxProf Blog, 15. September 2026) | https://www.nber.org/papers/w35747 | Dublette |
+| 10 | B | SPD-Bundestagsfraktion, Beschlusspapier *Damit Fortschritt bei allen ankommt: gute Arbeit im KI-Zeitalter*, Anfang September 2026 | — | Dublette |
+| 11 | A | arXiv, Kategorie econ.GN, systematische Abfrage der Einreichungen vom 17. bis 24. September 2026 (22 Arbeiten) | https://arxiv.org/list/econ.GN/2026-09 | verworfen (keine Arbeit mit Automatisierungs-, Verdrängungs- oder Steuerbezug im Zeitfenster) |
+| 12 | D | Anthropic, *Economic Policy Framework* nebst *Policy on the AI Exponential*, Juni 2026 | https://www.anthropic.com/policy-on-the-ai-exponential | verworfen (außerhalb Zeitfenster; vorgemerkt) |
+| 13 | D | Brookings (de Souza Briggs, X.), *Getting to all-of-the-above: A framework of solutions for AI's coming impacts on work and workers*, 29. Juni 2026 | https://www.brookings.edu/articles/ai-workforce-policy-framework/ | verworfen (außerhalb Zeitfenster; vorgemerkt) |
+| 14 | G | G-BA, Beschlussliste „Letzte Änderungen", Direktabruf 24. September 2026 | https://www.g-ba.de/beschluesse/letzte-aenderungen/ | verworfen (im Zeitfenster kein KI-bezogener Beschluss; Beschlüsse vom 18., 21., 22. und 24. September betreffen Medizinprodukte, DMP-Anforderungen und Haushaltsfragen) |
+| 15 | C | KPMG Korea, *Korean Tax Brief* 2026-08 zum Tax Incentive Limitation Act; Übersichten zur polnischen Robotisierungs-Entlastung mit Auslauf Ende 2026 | https://assets.kpmg.com/content/dam/kpmgsites/kr/pdf/2026/tkc/korean-tax-brief/korea-tax-brief-202608-eng.pdf.coredownload.inline.pdf | verworfen (außerhalb Zeitfenster; keine Änderung gegenüber dem dokumentierten Stand) |
+| 16 | H | Capgemini, *Digital Sovereignty: From Policy Ambition to Executive Imperative*, 8. September 2026; ZEW-Befragung vom 14. November 2025 | https://www.capgemini.com/de-de/news/pressemitteilung/studie-digitale-souveraenitaet/ | verworfen (außerhalb Zeitfenster, unverändert gegenüber den Vorläufen) |
+| 17 | I | Aggregatorseiten zu Hyperscaler-Investitionsvolumen (720 bis 800 Mrd. USD für 2026), Modellveröffentlichungen und Token-Preisen | — | verworfen (Negativliste Cluster I; kein Treffer aus benannter Primärquelle im 48-Stunden-Fenster) |
+| 18 | E | IAB-Prognosemeldungen und Destatis-Erwerbstätigenzahlen, Abfrage 24. September 2026 | https://iab.de/ | verworfen (im Zeitfenster keine neue Veröffentlichung mit KI-Bezug) |
+
+### Eingearbeitete Änderungen
+
+| # | Stelle (§) | Art (Ergänzung / Aktualisierung / Korrektur) | Inhalt in einem Satz | Quelle # |
+|---|-----------|----------------------------------------------|----------------------|----------|
+| 1 | § 1.1 | Aktualisierung | Trackerstände zum 24. September 2026 aus Direktabruf: bei *AskTheRecruiter* setzt sich die gleichgerichtete Abwärtsbewegung beider Zählstufen fort (−56 belegt, −1.898 angekündigt, −1.954 zusammengefasst), während die Zahl der Meldungen erneut steigt (+48 Einträge, +40 Unternehmen) — den zweiten Tag in Folge wächst die Zahl der steuerbaren Vorgänge, während die Bemessungsgrundlage sinkt | 1 |
+| 2 | § 1.1 | Ergänzung | **Erster Kernbefund des Laufs:** Der fünftägige Stillstand der KI-Zuschreibung endet nicht als Zufluss, sondern als Block — alle vier KI-Kennzahlen bewegen sich um exakt denselben Betrag von 2.500, den die Übersichtstafel vollständig der laufenden Woche und null dem Abruftag zuweist | 1 |
+| 3 | § 1.1 | Aktualisierung | Der am Vortag festgestellte Selbstwiderspruch derselben Seite besteht fort und hat seine Form geändert: 612.940 gegen 641.773 Betroffene (28.833 oder 4,7 % statt 4,4 %), die weit gefasste KI-Kennzahl nunmehr in *allen sechs* Zeitspalten betragsgleich mit der strengen Zuschreibung gegen 125.959 in der Kachel (Faktor 1,82), Länderzahl 82 gegen 81 bei umgekehrtem Vorzeichen gegenüber dem Vortag | 1 |
+| 4 | § 1.1 | Ergänzung | **Zweiter Kernbefund des Laufs (eigene Konsistenzproben an *SkillSyncer*):** Der ausgewiesene Durchschnitt von 658 Betroffenen je Ereignis ist mit den eigenen Kopfzahlen unvereinbar (225.122 ÷ 519 = 434), und die Gründeübersicht summiert sich auf 527.144 Betroffene bei einer Gesamtzahl von 225.122 — das 2,34-Fache; die Quote von 41 % misst damit nachweislich die Mitnennung und nicht die Ursächlichkeit | 2 |
+| 5 | § 1.1 | Aktualisierung | *SkillSyncer* steht den dritten Tag still, der Erfassungsrückstand wächst auf zehn Tage, obwohl die Seite „Last updated: September 24, 2026" ausweist; *DisplaceIndex* steht den zwölften Tag still, *Job Security Meter* unverändert beim Stand 18. September 2026 | 2, 3, 4 |
+| 6 | § 2.2 | Ergänzung | Der für den 24. September 2026 angekündigte Bericht *World Robotics 2026* ist am angekündigten Tag nicht erschienen; die Vorabzahlen bleiben der aktuelle Stand, und es ist methodisch vermerkt, dass der Pressebereich der Verbandsseite jeden beliebigen Unterpfad mit der jeweils jüngsten Meldung beantwortet (nachgewiesen durch Abruf eines absichtlich nicht vergebenen Pfades) | 6, 7 |
+| 7 | § 5.1 | Ergänzung | **Dritter Kernbefund des Laufs:** Der Referentenentwurf der Sozialversicherungsrechengrößen-Verordnung 2027 belegt den OECD-Befund am deutschen Fall — die Rechengrößen werden nach dem Wortlaut des Ministeriums jährlich „gemäß der Lohnentwicklung im vergangenen Jahr" fortgeschrieben, „Ermessensspielräume bestehen dabei nicht"; Grundlage ist eine Lohnentwicklung von 4,38 % für 2025 | 5 |
+| 8 | § 5.1 | Ergänzung | Dreifache Folgerung: die Anpassung verläuft vollständig entlang der Lohnanknüpfung; sie ist gesetzlich zwingend und ermessensfrei, weshalb ein Substitutionseffekt die Einnahmebasis ohne Entscheidungsakt gleichgerichtet nach unten führte; die zusätzliche Anhebung um 300 Euro monatlich in der Krankenversicherung zeigt, dass der Finanzierungsbedarf gegenwärtig durch Ausweitung des beitragspflichtigen Lohnanteils nach oben gedeckt wird, nicht durch Verbreiterung der Bemessungsgrundlage | 5 |
+| 9 | § 7.1 | Ergänzung | Das Positionspapier der IFR zur professionellen Servicerobotik ist als Branchenposition referiert: Arbeitskräftemangel und demografischer Wandel seien der stärkste Treiber, Roboter ersetzten keine Beschäftigten, sondern übernähmen wiederkehrende, belastende oder gefährliche Aufgaben — ausdrücklich als Positionierung und nicht als Messung gekennzeichnet, weil ein verdrängungsbezogener Steuertatbestand gerade den Nachweis verlangte, den der Verband für seinen Sektor bestreitet | 6 |
+| 10 | § 9.2 | Ergänzung | Folgerung aus beiden Trackerbefunden: Die Dauerhaftigkeit und der Vorzeichenwechsel der Doppelbezifferung bedeuten, dass die Quelle keinen bestimmten Wert trägt, an den ein Tatbestand anknüpfen könnte; der Faktor 2,34 beziffert erstmals den Abstand zwischen der vom Tatbestand verlangten Ursache und der von der Datengrundlage gelieferten Nennung unter mehreren | 1, 2 |
+| 11 | § 11.3 | Ergänzung | Zwei neue Einträge (BMAS-Referentenentwurf mit vollständiger Rechengrößentabelle und Verfahrensstand; IFR-Positionspapier mit Prüfvermerk zur Registrierungsschranke und zur Pfadauflösung der Verbandsseite) sowie Fortschreibung des bestehenden Prüfvermerks zum Vorabbericht *World Robotics 2026* | 5, 6, 7 |
+| 12 | § 11.5 | Ergänzung | Vier neue Trackereinträge zum Stand 24. September 2026 mit Summenproben, Übersichtstafel-Werten und den festgestellten internen Widersprüchen; die früheren Stände bleiben vollständig erhalten | 1, 2, 3, 4 |
+
+### Verworfene Treffer (mit Begründung)
+
+| # | Quelle | Cluster | Begründung |
+|---|--------|---------|------------|
+| 8 | Growiec, Prettner & Szkróbka (arXiv 2609.14750) | A/D | Dublette — die Arbeit ist seit einem früheren Lauf vollständig in § 3, § 5.4 und § 11.1 geführt; eine zweite Fassung liegt nicht vor (geprüft: nur v1 vom 13. September 2026) |
+| 9 | Kleven & Zidar (NBER WP 35747) | A | Dublette — seit dem Lauf vom 18. September 2026 in § 3.3 und § 3.5 geführt; die im Zeitfenster gefundene Blogbesprechung vom 15. September 2026 fügt der Sache nichts hinzu und liegt zudem außerhalb des Fensters |
+| 10 | SPD-Fraktionsbeschluss *Damit Fortschritt bei allen ankommt* | B | Dublette — der Beschlusstext ist bereits eingearbeitet; ein neuer Stand liegt nicht vor |
+| 11 | arXiv econ.GN, Einreichungen 17.–24. September 2026 | A | Systematische Abfrage über die Programmierschnittstelle ergab 22 Arbeiten, keine davon mit Automatisierungs-, Verdrängungs- oder Steuerbezug. Cluster A liefert damit im Zeitfenster keinen Treffer — nicht wegen fehlender Suche, sondern nachweislich mangels einschlägiger Veröffentlichung |
+| 12 | Anthropic, *Economic Policy Framework* (Juni 2026) | D | Außerhalb Zeitfenster. Inhaltlich hoch einschlägig (dreistufiger, an der Arbeitslosenquote indexierter Plan mit universellen prädistributiven Kapitalkonten, Abgaben auf KI-Nutzung und KI-Staatsfonds) und für § 5.4 und § 8.3 anschlussfähig. **Vorgemerkt** — ranghöchster offener Vorgang des Clusters D |
+| 13 | Brookings, *Getting to all-of-the-above* (29. Juni 2026) | D | Außerhalb Zeitfenster; benennt Robotersteuer, Token-Steuer, Angleichung der steuerlichen Behandlung von Arbeit und Kapital sowie öffentliche Vermögensfonds in einem Ordnungsrahmen aus Bremsen, Lenkung, Puffern und Strukturwechseln. **Vorgemerkt** |
+| 14 | G-BA-Beschlussliste | G | Kein KI-bezogener Beschluss im Zeitfenster. Cluster G liefert damit den siebten Lauf in Folge keinen Treffer |
+| 15 | KPMG Korea Tax Brief 2026-08; polnische Robotisierungs-Entlastung | C | Außerhalb Zeitfenster und ohne Änderung gegenüber dem im Dokument geführten Stand; der Auslauf der polnischen Entlastung zum Jahresende 2026 ist bereits dokumentiert |
+| 16 | Capgemini-Souveränitätsstudie; ZEW-Befragung | H | Außerhalb Zeitfenster, unverändert gegenüber den Vorläufen; die ZEW-Vormerkung für den Fall einer Neuauflage bleibt bestehen |
+| 17 | Aggregatorseiten zu Investitionsvolumen, Modellveröffentlichungen und Token-Preisen | I | Quellenniveau — Sekundäraggregation ohne benannte Primärquelle, fällt unter die Negativliste des Clusters I. Das 48-Stunden-Fenster hat keinen Treffer aus einer benannten Primärquelle ergeben |
+| 18 | IAB- und Destatis-Veröffentlichungen | E | Im Zeitfenster keine neue Veröffentlichung mit KI-Bezug |
+
+### Verarbeitungsschritte
+
+- Recherche abgeschlossen: Ja
+- Deduplikation gegen Hauptdokument und Literaturverzeichnis: Ja
+- Deduplikation gegen die Vorläufe dieser Datei: Ja
+- Validierung gemäß `Validierung.md` ausgeführt: Ja (Block „Validierung 24. September 2026" in `Validierung-Ergebnisse.md`)
+- PDF neu erstellt: Ja
+- Word neu erstellt: Ja
+- Versionsnummer an allen vier Stellen gesetzt: Ja (Dokumentkopf, Aktualitätshinweis, `README.md` mit Versionszeile und Zitiervorschlag, Abschlussblock des Validierungsprotokolls)
+- E-Mail-Benachrichtigung: Fallback-Datei `daily-mail.txt` geschrieben (kein Versandwerkzeug in der Sitzung erreichbar)
+- WhatsApp-Benachrichtigung: Fallback-Datei `daily-whatsapp.txt` geschrieben (kein Versandwerkzeug in der Sitzung erreichbar)
+- Merge auf `main`: Ja
+
+### Auffälligkeiten und offene Punkte
+
+- **Der Befund zur Zuschreibung hat diesen Lauf eine Größe bekommen.** Bisher war dokumentiert, dass Zählwerke Künstliche Intelligenz als Mitgrund und als Hauptursache vermengen. Die eigene Summenprobe an der Gründeübersicht eines Zählwerks beziffert das nun: 527.144 zugeordnete Betroffene bei 225.122 tatsächlich Betroffenen, also im Mittel mehr als zwei Gründe je Person. Die verbreitet zitierte Quote von 41 Prozent ist damit keine Ursächlichkeits-, sondern eine Mitnennungsquote, und sie lässt sich aus den veröffentlichten Zahlen nicht in eine Ursächlichkeitsquote überführen. Für einen an der Verdrängung anknüpfenden Steuertatbestand ist das die unmittelbar entscheidende Größe.
+- **Der Rhythmus der Zuschreibung ist auffälliger als ihr Niveau.** Nach fünf Tagen vollständigen Stillstands springen alle vier KI-Kennzahlen desselben Zählwerks an einem Tag um exakt 2.500 — ein runder Betrag, vollständig der laufenden Woche und nicht dem Abruftag zugeschrieben. Das stützt die seit dem 19. September 2026 verfolgte Beobachtung, dass die Zuschreibung dem Erfassungsrhythmus und nicht dem Ereignis folgt.
+- **Die nationale Gegenprobe ist deutlicher ausgefallen als erwartet.** Der Referentenentwurf formuliert die Lohnanknüpfung nicht als politische Wahl, sondern als ermessensfreie gesetzliche Pflicht. Damit ist die in § 5.1 geführte Argumentation um einen Punkt präziser: Die Finanzierungsbasis reagiert auf eine Verdrängung menschlicher Arbeit nicht neutral, sondern gleichgerichtet — sie schrumpft automatisch mit, ohne dass ein Entscheidungsakt dazwischentritt.
+- **Methodischer Hinweis zu Verbandsseiten.** Der Pressebereich der IFR beantwortet jeden beliebigen Unterpfad mit der jeweils jüngsten Meldung; ein zunächst vielversprechend wirkender Pfad zum Bericht *World Robotics 2026* lieferte deshalb den Text des Servicerobotik-Positionspapiers. Geprüft worden ist das durch Abruf eines absichtlich nicht vergebenen Pfades. Gegenläufig dazu war die Übersichtsseite der Pressemitteilungen veraltet (jüngster Eintrag 2. Juli 2026). Für künftige Läufe gilt: Für die Feststellung, ob eine angekündigte Statistik erschienen ist, ist die Statistikseite selbst heranzuziehen, nicht die Pressestruktur.
+- **Cluster A ist nachweislich leer, nicht ungeprüft.** Die Abfrage der Programmierschnittstelle von arXiv über das Kommandozeilenwerkzeug scheiterte in dieser Umgebung zweimal ohne Rückgabe; die Abfrage ist deshalb über das Abrufwerkzeug wiederholt worden und hat sämtliche 22 Einreichungen der Kategorie econ.GN im Zeitfenster geliefert. Keine davon berührt Automatisierung, Verdrängung oder Besteuerung.
+- **Build-Umgebung.** Beide Exportskripte sind im ersten Anlauf mit `ModuleNotFoundError` abgebrochen, weil `reportlab` und `python-docx` in der Sitzungsumgebung nicht vorinstalliert waren. Nach der in § 5 `Claude.md` vorgesehenen einmaligen Installation (installiert: reportlab 5.0.1) sind beide Skripte fehlerfrei durchgelaufen. An den Skripten selbst ist nichts geändert worden (§ 4.5 `Claude.md`).
+- **URL-Stichprobe ohne neuen Befund.** Von 98 geprüften URLs (10,7 Prozent des Verzeichnisses) antworten drei mit HTTP 404; alle drei sind bereits in früheren Läufen mit Prüfvermerk versehen und bei Wiederholungsabruf unverändert. Neue Defekte sind nicht aufgetreten.
+- **Versandwerkzeuge fehlen.** In dieser Sitzung ist weder ein Werkzeug zum Versand einer Microsoft-Graph-/Outlook-E-Mail noch eines aus einem WhatsApp-Server erreichbar; die Empfängerangaben lagen dagegen vor (Auflösungsstufe 1 nach Phase 5b: Routine-Anweisung). Beide Kanäle sind deshalb nach Phase 5b des Prompts in Fallback-Dateien im Repository-Wurzelverzeichnis geschrieben worden. Die Dateien sind über `.gitignore` vom Commit ausgenommen. Empfängerdaten sind weder hier noch im Commit noch im Abschlussbericht ausgewiesen.
+- **Offene Vormerkungen nach Rang:** (1) *IFR World Robotics 2026* — am angekündigten Tag nicht erschienen, für den Folgelauf erneut vorgemerkt; (2) Anthropic *Economic Policy Framework* (Juni 2026) mit universellen prädistributiven Kapitalkonten, Abgaben auf KI-Nutzung und KI-Staatsfonds — inhaltlich der ranghöchste offene Vorgang, aber außerhalb jedes Fensters, weshalb die Aufnahme eine Entscheidung des Autors über eine einmalige Fensterausnahme voraussetzt; (3) Volltext von Kang, Lee & Quach (SSRN 5005128) und die Parallelarbeit in *Applied Economics*, beide wegen HTTP 403 nicht beschaffbar; (4) Fu, Li, Weng & Zhou (SSRN 6466918); (5) Kennzahlen von *layoffs.fyi*, die nur im Browser geladen werden; (6) Brookings-Ordnungsrahmen vom 29. Juni 2026.
+- **Cluster G** liefert den siebten Lauf in Folge keinen Treffer. Der im Vorlauf unterbreitete Vorschlag, das Abfrageintervall dieses Clusters in `Suchthemen.md` auf einen längeren Turnus zu stellen, wird hiermit wiederholt; er bleibt ein Vorschlag und ist nicht umgesetzt worden.
+- **Eskalationspflichtige Treffer:** keine. Kein Treffer dieses Laufs berührt Kapitelstruktur, Kernaussage der Deutschland-These, Autorenname oder Lizenz.
+
+---
+
 ## 2026-09-23 — Lauf 001 — Version 102.0 → Version 103.0
 
 ### Recherchekorridor
