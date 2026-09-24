@@ -7,6 +7,59 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 24. September 2026 (Lauf 001 vom 24. September 2026) — Version 103.0 → Version 104.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Maschinell geprüft: 11 nummerierte Kapitel (1 bis 11) plus Zusammenfassung vor Kapitel 1; das Inhaltsverzeichnis stimmt in Anzahl (11 Einträge) und Titeln mit den Kapitelüberschriften überein; die Zusammenfassung referenziert die Deutschland-These ausdrücklich; keine Überschrift ohne Inhalt. In diesem Lauf ist kein Abschnitt neu angelegt oder umbenannt worden. |
+| 2.1.2 Nummerierung | OK | Kapitelnummerierung lückenlos; Unterabschnitt-Nummerierung in jedem Kapitel lückenlos (Kap. 1: 1–3; Kap. 2: 1–3; Kap. 3: 1–5; Kap. 4: 1–5; Kap. 5: 1–4; Kap. 6: 1–4; Kap. 7: 1–3; Kap. 8: 1–7; Kap. 9: 1–5; Kap. 10: 1–3; Kap. 11: 1–5). Zähler unverändert und maschinell nachgezählt: fünf Typ-Marker in § 2.1, drei Säulen der Deutschland-These, sieben Empfehlungen in § 10.2 (Erstens bis Siebtens). |
+| 2.1.3 Querverweise | OK | Maschinelle Auflösung aller `§X.Y`-Verweise gegen die vorhandenen Unterabschnitte: kein ungültiger Verweis. Einziger Treffer ohne Entsprechung im Hauptdokument ist `§ 2.4.x`; der unmittelbare Kontext weist diese Verweise durchgängig als Verweise auf `Validierung.md` aus (neun Vorkommen `§ 2.4.4`, zwei `§ 2.4.3`). Die in diesem Lauf neu gesetzten Verweise (§ 2.2, § 2.3, § 4.2 `Claude.md`, § 5.1, § 7.1, § 8.1, § 9.1, § 9.2) sind einzeln aufgelöst worden. Kein `Kapitel X`-Verweis außerhalb 1 bis 11. |
+| 2.1.4 Roter Faden | OK | Arbeitsteilung eingehalten: § 1.1 trägt die Trackerstände als empirische Ausgangslage, § 9.2 zieht daraus die Folgerung für Messbarkeit und Bestimmtheit, ohne die Zahlen zu wiederholen; § 5.1 führt den nationalen Befund zur Bemessungsgrundlage unmittelbar neben dem internationalen OECD-Befund; § 7.1 und § 2.2 teilen sich die Behandlung des Verbandspapiers nach Sektorfrage und Definitionsfrage. Die Deutschland-These bleibt unberührt; die Progression Literaturrezeption → sektorale Anwendung → eigene Position → Umsetzung ist unverändert. |
+| 2.1.5 Formatierung | OK | Maschinell geprüft: keine doppelten Trennlinien, keine Doppel-Leerzeilen, ausgeglichene Fettungen (kein Vorkommen mit ungerader Anzahl `**`), ausgeglichene deutsche Anführungszeichen, Markdown-Tabellen syntaktisch unverändert (Spaltenzahl je Tabelle konsistent). Die fett gesetzten Lead-Ins der neuen Blöcke folgen dem Hausstil. |
+| 2.2.1 Sachliche Richtigkeit | OK | Sämtliche Trackerzahlen stammen aus dem Direktabruf des Stichtags und sind im Rohtext der Seiten einzeln nachgewiesen worden; alle Summen- und Rechenproben gehen auf (596.458 + 45.315 = 641.773; 641.773 + 467.893 = 1.109.666; −56 − 1.898 = −1.954; 69.361 + 47.883 = 117.244; SkillSyncer-Monatswerte 225.122 und 519; Tagesrate 225.122 ÷ 267 = 843,2). Die Rechengrößen der Sozialversicherung sind der amtlichen Tabelle der ministeriellen Meldung entnommen und einzeln gegengelesen. Zwei Abweichungen sind nicht Rechenfehler dieses Papiers, sondern Befunde der Quelle und als solche ausgewiesen (Durchschnitt 658 gegen 434 je Ereignis; Gründesumme 527.144 gegen Gesamtzahl 225.122). |
+| 2.2.2 Redundanzprüfung | OK | Die Trackerstände werden nur in § 1.1 dargestellt und in § 9.2 ausschließlich ausgewertet. Der BMAS-Vorgang steht allein in § 5.1; § 8.1 wird per Querverweis angebunden, ohne die Faktorverschiebung erneut auszuführen. Das Verbandspapier steht inhaltlich in § 7.1, in § 2.2 erscheint nur der für die Definitionsfrage erhebliche Umstand, dass an diesem Tag nicht die angekündigte Statistik, sondern ein Positionspapier veröffentlicht worden ist. |
+| 2.2.3 Argumentation | OK | Die fünf Typen sind durchgehalten: Der BMAS-Vorgang betrifft die Bemessungsgrundlage der Sozialversicherung und ist ausdrücklich nicht als Maßnahme eines der fünf Typen referiert; das Verbandspapier ist als Positionierung und nicht als Messung gekennzeichnet. Die Trennung von Erfassung und Zuschreibung (§ 9.2) wird durch den quantifizierten Mitnennungsfaktor 2,34 fortgeführt, nicht neu begründet. Acemoglu- und Thuemmel-Linien bleiben getrennt. |
+| 2.2.4 Ausgewogenheit | OK | Das Verbandspapier ist mit seiner Kernaussage vollständig referiert und zugleich als interessengeleitet eingeordnet, ohne abwertende Wortwahl; der Gegenbeleg aus dem Versorgungsalltag bleibt als die belastbarere Evidenz benannt. Die BMAS-Werte sind im Konjunktiv referiert und der Verfahrensstand (Referentenentwurf, Kabinett und Bundesrat ausstehend) ist genannt. Die Trackerbefunde sind auch dort ausgewiesen, wo sie die eigene Argumentation nicht stützen (Vorzeichenwechsel der Länderabweichung). |
+| 2.3.1 Tippfehler und Grammatik | OK | Stichprobe über die neu eingefügten Absätze; keine Auffälligkeit. Bekannte Fehlermuster früherer Validierungen gezielt nachgesucht, ohne Treffer. |
+| 2.3.2 Terminologie | OK | „Wertschöpfungsabgabe" durchgängig, kein Vorkommen von „Wertschöpfungssteuer" (maschinell geprüft: 0). Die sozialversicherungsrechtlichen Begriffe sind in der amtlichen Bezeichnung geführt (Bezugsgröße, Beitragsbemessungsgrenze, Jahresarbeitsentgeltgrenze, Versicherungspflichtgrenze, Durchschnittsentgelt). Englischsprachige Zitate sind im Wortlaut wiedergegeben und im Deutschen aufgelöst. Die Bezeichnung „Zählwerk" für die Layoff-Tracker ist wie in den Vorläufen einheitlich verwendet. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Zwei neue Nachweise in der sachlich zuständigen Sektion § 11.3 (BMAS-Referentenentwurf und IFR-Positionspapier — beide institutionelle Dokumente); vier Trackerstände als eigene datierte Einträge in § 11.5. Alle sechs sind im Fließtext zitiert (§ 5.1, § 7.1, § 2.2, § 1.1, § 9.2). Kein Fließtextzitat ohne Verzeichniseintrag; kein neuer Verzeichniseintrag ohne Fließtextbezug. |
+| 2.4.2 Formale Einheitlichkeit | OK | Die neuen Einträge folgen dem APA-nahen Hausstil (Autor/Institution, Datum beziehungsweise Standangabe, kursiver Titel, Auswertungshinweis, vollständige URL ohne Kürzungsdienst). Die Paragraphen des SGB V sind in der neuen Quellenangabe einheitlich ausgeschrieben („§ 6 Absatz 6 SGB V"). |
+| 2.4.3 Aktualität und Belastbarkeit | Abweichung (offengelegt) | Das IFR-Positionspapier selbst ist nur nach Registrierung abrufbar und war nicht zu beschaffen; referiert ist ausschließlich die frei zugängliche Pressemitteilung, die Einschränkung ist an beiden Fundstellen (§ 7.1, § 11.3) als Prüfvermerk offengelegt. Der BMAS-Vorgang ist aus der Primärquelle des Ministeriums erhoben. Sämtliche Trackerstände beruhen auf Direktabruf am Stichtag; Abweichungen zwischen Suchergebnis-Zusammenfassungen und Direktabruf sind zugunsten des Direktabrufs aufgelöst worden (so bei der Allzeit-Unternehmenszahl, die eine Zusammenfassung mit 2.026 statt 41.185 wiedergab). |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | Stichprobe von 98 der 913 URLs des Literaturverzeichnisses (10,7 Prozent; deterministisch gezogen, zuzüglich sämtlicher in diesem Lauf neu aufgenommener URLs). Ergebnis: 73 erreichbar (HTTP 200/202), 20 mit HTTP 403 (Zugangsschranken etablierter Nachrichten- und Verlagsangebote, kein toter Link), 1 mit HTTP 429 und 1 mit HTTP 406 (Drosselung beziehungsweise Kennungsprüfung), 3 mit HTTP 404. Alle drei nicht erreichbaren URLs sind bereits in früheren Läufen (17. und 23. September 2026) mit Prüfvermerk versehen worden und bei Wiederholungsabruf unverändert; neue Defekte sind nicht aufgetreten, weshalb dieser Schritt ohne Bereinigungsbedarf abschließt. |
+| 2.4.5 Zitatgenauigkeit | OK | Fünf Kernaussagen gegengeprüft: (1) der Wortlaut „Ermessensspielräume bestehen dabei nicht" und die Fortschreibungsformel gegen den Seitenquelltext der ministeriellen Meldung, (2) sämtliche neun Rechengrößen gegen die amtliche Tabelle, (3) die Gleichbasis-Zusicherung der Übersichtstafel („the same basis as the headline figure above") gegen den Seitenquelltext, (4) die vier KI-Kennzahlen und beide Mengengrößen gegen ihre Fundstellen im Rohtext, (5) die Kernaussagen des Verbandspapiers gegen den Wortlaut der Pressemitteilung. Die BMAS-Werte sind als Entwurfswerte im Konjunktiv, die Verbandsaussagen als Positionierung gekennzeichnet; keine Modellprognose ist als Tatsache dargestellt. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Die Markierung bei de la Feria et al. (2022) besteht unverändert fort; in diesem Lauf ist keine Verifikation erfolgt und keine Markierung entfernt worden. Ein neuer befristeter Prüfvermerk ist hinzugekommen (IFR-Positionspapier, nur nach Registrierung abrufbar); der Prüfvermerk zum ausstehenden Bericht *World Robotics 2026* ist fortgeschrieben statt entfernt worden, weil der Bericht auch am angekündigten Tag nicht erschienen ist. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 104.0 steht an allen vier Stellen: Dokumentkopf, Aktualitätshinweis am Dokumentende, `README.md` (Versionszeile und Zitiervorschlag), Abschlussblock dieses Protokolls. Kein Restvorkommen von 103.0 im Hauptdokument. Die im Vorlauf berichtigte Abweichung zwischen Versionszeile und Zitiervorschlag der `README.md` ist nicht wieder aufgetreten. Autor, Organisation, Lizenzhinweis CC BY 4.0, Haftungshinweis und KI-Offenlegung unverändert vorhanden. |
+| 2.6 Automatisierte Prüfung | n/a | Im Repository sind keine Prüfskripte vorhanden. Ersatzweise sind die manuellen Stichproben zu Nummerierung (§ 2.1.2), Querverweisen (§ 2.1.3), Formatierung (§ 2.1.5), Quellenzuordnung (§ 2.4.1) und URL-Erreichbarkeit (§ 2.4.4) skriptgestützt durchgeführt worden. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|--------|--------|---------|
+| — | — | In diesem Lauf sind keine Fehler des Hauptdokuments festgestellt worden. Die drei in der URL-Stichprobe erneut bestätigten HTTP-404-Antworten sind bereits in früheren Läufen als Prüfvermerk dokumentiert und werden hier nur nachgehalten. | — |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|--------|----------|----------|
+| — | — | Keine Bereinigung erforderlich. | — |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen (2.1.5 Formatierung, 2.4.1 Vollständigkeit und Zuordnung, 2.4.2 Formale Einheitlichkeit, 2.5 Versionskonsistenz): OK
+- Maschinelle Nachprüfung: 11 Kapitel, Unterabschnitte lückenlos, Inhaltsverzeichnis deckungsgleich, kein ungültiger `§X.Y`-Verweis, Zähler unverändert (fünf Typen, drei Säulen, sieben Empfehlungen), keine doppelten Trennlinien, ausgeglichene Auszeichnungen, Version 104.0 ohne Restvorkommen von 103.0
+- Automatisierte Skripte: n/a — im Repository nicht vorhanden
+
+### Abschluss
+
+- Alle Fehler behoben: Ja (keine festgestellt)
+- Neue Version: 104.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 23. September 2026 (Lauf 001 vom 23. September 2026) — Version 102.0 → Version 103.0
 
 ### Prüfergebnis
