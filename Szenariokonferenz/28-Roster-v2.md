@@ -43,11 +43,17 @@ Robotikrollen, die genau dort ansetzen, wo das Papier aufhört —, die **Gegenp
 am Ende an.
 
 **Station 3 wird doppelt gerechnet**, mit und ohne den amerikanischen Preisschock: Section-232-Zölle
-auf patentierte Arzneimittel und Wirkstoffe (Proklamation vom 2. April 2026, zweite Stufe seit dem
-29. September 2026), Meistbegünstigung über die CMMI-Modelle GENEROUS, GLOBE und GUARD, und der
+auf patentierte Arzneimittel und Wirkstoffe (Proclamation 11020 vom 2. April 2026, Federal Register
+2026-06956 — Basissatz 100 % ad valorem, länderspezifisch 15 % für die Europäische Union und 10 % für
+das Vereinigte Königreich; erste Stufe seit dem 31. Juli 2026 für die in Annex III gelisteten
+Unternehmen, zweite Stufe **ab dem 29. September 2026** für alle übrigen, also vier Tage nach dem
+Aufsetzen dieser Sitzung), Meistbegünstigung über die CMMI-Modelle GENEROUS, GLOBE und GUARD, und der
 Umstand, dass der deutsche AMNOG-Erstattungsbetrag die einzige öffentlich zugängliche
 Nettopreisreferenz Europas ist. Jede Rolle der Station liefert beide Werte und die Differenz. Nur so
 lässt sich trennen, was KI bewirkt und was die US-Politik bewirkt.
+
+Die genauen Tarifstufen, Stichtage und der Stand der MFN-Vereinbarungen kommen aus Faktenblatt N01
+dieser Sitzung, nicht aus dem Aufsetzen — dort sind sie mit Fundstelle und Abrufdatum belegt.
 
 ---
 
