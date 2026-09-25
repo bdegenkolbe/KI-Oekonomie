@@ -8,17 +8,27 @@ zurueckuebersetzt.
 
 BEWUSST KEINE HEURISTIK. Eine Regel der Form "ersetze jedes ue durch ue mit
 Umlaut" erfindet Umlaute, wo keine hingehoeren: aus Termintreue wird
-Termintreu-Umlaut, aus Neuentstehung Neu-Umlaut-ntstehung, aus
-Hochrisikoeinstufung Hochrisiko-Umlaut-instufung. Genau das ist in der
-ersten Fassung passiert und in einer Codepruefung des PR aufgefallen.
+Termintreu-Umlaut, aus neuen ne-Umlaut-n, aus Hochrisikoeinstufung
+Hochrisiko-Umlaut-instufung. Das ist in zwei aufeinanderfolgenden Fassungen
+passiert — erst mit einer Schutzliste, dann mit einer Tabelle, die aus
+derselben Heuristik erzeugt und nur stichprobenartig geprueft war. Beide
+Male hat es eine Codepruefung gefunden, nicht die eigene Kontrolle.
 
-Stattdessen eine gepruefte Tabelle: Jedes Wort, das umgeschrieben wird,
-steht hier einzeln drin. Was nicht drinsteht, bleibt unveraendert. Damit
-kann die Umwandlung nichts erfinden; sie kann hoechstens etwas auslassen,
-und das faellt beim Lesen auf, statt falsch dazustehen.
+Deshalb jetzt zweistufig:
 
-Kommen neue Rollen oder neue Prompttexte hinzu, meldet die Selbstpruefung
-unten die fehlenden Woerter (python3 lesbar.py).
+1. Eine Tabelle. Jedes Wort, das umgeschrieben wird, steht einzeln drin.
+   Was nicht drinsteht, bleibt unveraendert. Die Umwandlung kann damit
+   nichts erfinden; sie kann hoechstens etwas auslassen, und das faellt
+   beim Lesen auf, statt falsch dazustehen.
+
+2. Eine Freigabeliste fuer die gefaehrliche Teilmenge. Genau dort, wo die
+   umgewandelte Silbe an eine Vokalgrenze stoesst, sitzen die Artefakte.
+   Jeder solche Eintrag muss in GEPRUEFT_AN_VOKALGRENZE stehen. Kommt ein
+   neuer hinzu, schlaegt die Selbstpruefung fehl, bis ihn jemand angesehen
+   und eingetragen hat. Ein vergessener Eintrag ist dann ein lautes
+   Versagen und kein stilles.
+
+Selbstpruefung: python3 lesbar.py
 """
 import re
 
@@ -35,7 +45,7 @@ WOERTERBUCH = {
     'Anhaengsel': 'Anhängsel',
     'Arbeitsvorgaengen': 'Arbeitsvorgängen',
     'Aufkommenselastizitaeten': 'Aufkommenselastizitäten',
-    'Aussengeschaeft': 'Aussengeschäft',
+    'Aussengeschaeft': 'Außengeschäft',
     'Aussenmarkt': 'Außenmarkt',
     'Begruende': 'Begründe',
     'Begruendung': 'Begründung',
@@ -65,7 +75,7 @@ WOERTERBUCH = {
     'Domaenen': 'Domänen',
     'Einsatzfaehigkeit': 'Einsatzfähigkeit',
     'Entwicklerkapazitaet': 'Entwicklerkapazität',
-    'Ergebnisgroessen': 'Ergebnisgrössen',
+    'Ergebnisgroessen': 'Ergebnisgrößen',
     'Erloessicherung': 'Erlössicherung',
     'Erstattungsbetraege': 'Erstattungsbeträge',
     'Erstattungsfaehigkeit': 'Erstattungsfähigkeit',
@@ -95,7 +105,7 @@ WOERTERBUCH = {
     'Gesundheitsoekonomin': 'Gesundheitsökonomin',
     'Gewaehrleistung': 'Gewährleistung',
     'Groesse': 'Größe',
-    'Groessenordnung': 'Grössenordnung',
+    'Groessenordnung': 'Größenordnung',
     'Grossauftragsgeschaeft': 'Großauftragsgeschäft',
     'Grosshandelszuschlag': 'Großhandelszuschlag',
     'Grosskunden': 'Großkunden',
@@ -129,7 +139,7 @@ WOERTERBUCH = {
     'Laender': 'Länder',
     'Laenderhaushalt': 'Länderhaushalt',
     'Landeszufuehrungsbetraege': 'Landeszuführungsbeträge',
-    'Leitgroesse': 'Leitgrösse',
+    'Leitgroesse': 'Leitgröße',
     'Lieferfaehigkeit': 'Lieferfähigkeit',
     'Liquiditaet': 'Liquidität',
     'Liquiditaetsplanung': 'Liquiditätsplanung',
@@ -174,8 +184,8 @@ WOERTERBUCH = {
     'Quellenpruefung': 'Quellenprüfung',
     'Rabattvertraege': 'Rabattverträge',
     'Rahmenvertraege': 'Rahmenverträge',
-    'Rechengroesse': 'Rechengrösse',
-    'Rechtmaessigkeit': 'Rechtmässigkeit',
+    'Rechengroesse': 'Rechengröße',
+    'Rechtmaessigkeit': 'Rechtmäßigkeit',
     'Rueckhalt': 'Rückhalt',
     'Ruecklagen': 'Rücklagen',
     'Rueckwirkung': 'Rückwirkung',
@@ -197,14 +207,14 @@ WOERTERBUCH = {
     'Systemstabilitaet': 'Systemstabilität',
     'Tarifsekretaer': 'Tarifsekretär',
     'Tarifvertraege': 'Tarifverträge',
-    'Teamgroesse': 'Teamgrösse',
+    'Teamgroesse': 'Teamgröße',
     'Traegerbonitaet': 'Trägerbonität',
     'Traegers': 'Trägers',
     'Traegerschaft': 'Trägerschaft',
     'Traegerwechsel': 'Trägerwechsel',
     'Traegerzuschuss': 'Trägerzuschuss',
     'Uebergabe': 'Übergabe',
-    'Uebergabegroessen': 'Übergabegrössen',
+    'Uebergabegroessen': 'Übergabegrößen',
     'Uebertragbarkeit': 'Übertragbarkeit',
     'Uebertragung': 'Übertragung',
     'Uebertragungsbrueche': 'Übertragungsbrüche',
@@ -245,8 +255,8 @@ WOERTERBUCH = {
     'gegenueber': 'gegenüber',
     'geschaetzt': 'geschätzt',
     'ggue': 'ggü',
-    'groessten': 'grössten',
-    'groesster': 'grösster',
+    'groessten': 'größten',
+    'groesster': 'größter',
     'gross': 'groß',
     'grossen': 'großen',
     'haelt': 'hält',
@@ -261,7 +271,6 @@ WOERTERBUCH = {
     'mittelstaendischen': 'mittelständischen',
     'nachgeprueft': 'nachgeprüft',
     'naechste': 'nächste',
-    'neuen': 'neün',
     'oeffentlich': 'öffentlich',
     'oeffentliche': 'öffentliche',
     'oeffentlichen': 'öffentlichen',
@@ -297,52 +306,131 @@ WOERTERBUCH = {
     'zweckmaessige': 'zweckmäßige',
 }
 
+# Eintraege, deren umgewandelte Silbe an eine Vokalgrenze stoesst. Jeder hier
+# wurde einzeln angesehen. Neue Eintraege dieser Art muessen hier nachgetragen
+# werden, sonst schlaegt die Selbstpruefung fehl.
+GEPRUEFT_AN_VOKALGRENZE = {
+    'Aemtern',
+    'Aerztliche',
+    'Europaeischen',
+    'Europaeischer',
+    'Koerperschaftsteuer',
+    'Krankenhaeuser',
+    'Makrooekonom',
+    'Makrooekonomie',
+    'Oekonom',
+    'Steuerschaetzung',
+    'Uebergabe',
+    'Uebergabegroessen',
+    'Uebertragbarkeit',
+    'Uebertragung',
+    'Uebertragungsbrueche',
+    'Uebrige',
+    'europaeischen',
+    'ggue',
+    'oeffentlich',
+    'oeffentliche',
+    'oeffentlichen',
+    'oeffentlicher',
+    'ueber',
+    'ueberkonfident',
+    'uebernehmen',
+    'ueberschaetzt',
+    'uebersieht',
+    'ueberspringt',
+    'uebertraegt',
+    'ueberzogener',
+}
+
+_WORT = re.compile(r"[A-Za-z\u00c4\u00d6\u00dc\u00e4\u00f6\u00fc\u00df-]+")
+
 
 def lesbar(text):
     """Ersetzt bekannte transliterierte Woerter; laesst alles andere stehen."""
-    return re.sub(r"[A-Za-z\u00c4\u00d6\u00dc\u00e4\u00f6\u00fc\u00df-]+",
-                  lambda m: WOERTERBUCH.get(m.group(0), m.group(0)), str(text))
+    return _WORT.sub(lambda m: WOERTERBUCH.get(m.group(0), m.group(0)), str(text))
 
 
-def _fehlende(texte):
-    """Woerter mit Transliterationsmuster, die (noch) nicht in der Tabelle stehen."""
-    tok = set()
-    for t in texte:
-        tok |= set(re.findall(r"[A-Za-z\u00c4\u00d6\u00dc\u00e4\u00f6\u00fc\u00df-]+", str(t)))
-    return sorted(w for w in tok
-                  if re.search(r"ae|oe|ue", w) and w not in WOERTERBUCH)
+def _an_vokalgrenze(wort):
+    """Steht eine Transliterationssilbe neben einem Vokal? Dort sitzen die Artefakte."""
+    for m in re.finditer(r"[aouAOU]e", wort):
+        i = m.start()
+        davor = wort[i - 1] if i > 0 else ""
+        danach = wort[i + 2] if i + 2 < len(wort) else ""
+        if davor.lower() in "aeiou" or danach.lower() in "aeiou":
+            return True
+    return False
+
+
+def _falte(wort):
+    """Echte Umlaute zurueck nach ASCII — fuer die Rundlaufprobe."""
+    for a, b in (("\u00e4", "ae"), ("\u00f6", "oe"), ("\u00fc", "ue"),
+                 ("\u00c4", "Ae"), ("\u00d6", "Oe"), ("\u00dc", "Ue"), ("\u00df", "ss")):
+        wort = wort.replace(a, b)
+    return wort
+
+
+def pruefe():
+    """Gibt die Liste der Beanstandungen zurueck; leer heisst in Ordnung."""
+    fehler = []
+
+    # 1. Die Wortformen, an denen die Heuristik gescheitert ist, duerfen nicht
+    #    in der Tabelle stehen — auch nicht gebeugt.
+    for w in ("neue", "neuen", "neuer", "neues", "Neue", "Neuen",
+              "Treue", "Termintreue", "Rollentreue", "Neuentstehung",
+              "Hochrisikoeinstufung", "Steuerberaterin", "Zulassungsdauer",
+              "zuerst", "Firmenkundenbetreuer", "Zweitquellen", "Launchsequenz",
+              "querfinanzieren", "Verfahrensdauer", "Neuerung"):
+        if lesbar(w) != w:
+            fehler.append("Falle veraendert: %s -> %s" % (w, lesbar(w)))
+
+    # 2. Jeder Eintrag an einer Vokalgrenze braucht eine Freigabe.
+    for k in WOERTERBUCH:
+        if _an_vokalgrenze(k) and k not in GEPRUEFT_AN_VOKALGRENZE:
+            fehler.append("an Vokalgrenze, aber nicht freigegeben: %s -> %s"
+                          % (k, WOERTERBUCH[k]))
+
+    # 3. Rundlaufprobe: der Wert muss, zurueckgefaltet, wieder den Schluessel ergeben.
+    for k, v in WOERTERBUCH.items():
+        if _falte(v) != k:
+            fehler.append("Rundlauf gebrochen: %s -> %s -> %s" % (k, v, _falte(v)))
+
+    # 4. Kein Wert darf noch eine Transliteration enthalten, die ein Umlaut sein muesste.
+    for k, v in WOERTERBUCH.items():
+        if "ss" in v and re.search(r"(gr|Gr)oess|maessig|aussen|Aussen", k):
+            fehler.append("scharfes s fehlt: %s -> %s" % (k, v))
+    return fehler
 
 
 if __name__ == "__main__":
-    import importlib.util, sys
+    import importlib.util, sys, os
+    HIER = os.path.dirname(os.path.abspath(__file__))
+    sys.path.insert(0, HIER)
+
+    fehler = pruefe()
+    print("Tabelleneintraege: %d, davon an einer Vokalgrenze freigegeben: %d"
+          % (len(WOERTERBUCH), len(GEPRUEFT_AN_VOKALGRENZE)))
+    if fehler:
+        print("\nBEANSTANDUNGEN (%d):" % len(fehler))
+        for f in fehler:
+            print("  " + f)
+    else:
+        print("Selbstpruefung ohne Beanstandung.")
+
+    # 5. Vollstaendigkeit gegen die tatsaechlichen Quellen
     from roster_d import ROLLEN, STATIONEN
-    spec = importlib.util.spec_from_file_location("bsd", "baue-sitzung-d.py")
+    spec = importlib.util.spec_from_file_location("bsd", os.path.join(HIER, "baue-sitzung-d.py"))
     bsd = importlib.util.module_from_spec(spec); spec.loader.exec_module(bsd)
-
-    # 1. Die Faelle, an denen die alte Heuristik gescheitert ist
-    fallen = ["Termintreue", "Rollentreue", "Neuentstehung", "Hochrisikoeinstufung",
-              "neue Aufgaben", "Steuerberaterin", "Zulassungsdauer", "zuerst",
-              "Firmenkundenbetreuer", "Zweitquellen", "Launchsequenz", "querfinanzieren"]
-    fehler = [t for t in fallen if lesbar(t) != t]
-    print("Fallen, die unveraendert bleiben muessen: %s"
-          % ("alle ok" if not fehler else "VERAENDERT: %s" % fehler))
-
-    # 2. Die Tabelle darf selbst keine Transliterationsreste enthalten
-    reste = [v for v in WOERTERBUCH.values() if re.search(r"ae|oe|ue", v)
-             and v not in ("Steuer", "Neuerung")]
-    reste = [v for v in reste if not re.search(r"steuer|teuer|neuer|treuer|dauer|quer|quel|quen", v.lower())]
-    print("Tabellenwerte mit Transliterationsrest: %s" % (reste or "keine"))
-
-    # 3. Vollstaendigkeit gegen die tatsaechlichen Quellen
     texte = [" ".join(map(str, r)) for r in ROLLEN]
     texte += [str(x) for v in STATIONEN.values() for x in v if x]
     texte += [bsd.FRAGEBOGEN, bsd.REGELN, bsd.KEINE_DOPPELUNG, bsd.HIGL_LAGE]
     texte += [str(x) for t in bsd.RECHERCHE for x in t]
     texte += [str(x) for t in bsd.ANGRIFFE for x in t]
     texte += [str(x) for t in bsd.KAPITEL for x in t]
-    offen = _fehlende(texte)
-    # Woerter, in denen ae/oe/ue echt sind, gehoeren nicht in die Tabelle
-    print("Nicht abgedeckte Woerter mit ae/oe/ue: %d" % len(offen))
+    tok = set()
+    for t in texte:
+        tok |= set(_WORT.findall(str(t)))
+    offen = sorted(w for w in tok if re.search(r"ae|oe|ue", w) and w not in WOERTERBUCH)
+    print("\nNicht in der Tabelle, mit ae/oe/ue (dort ist die Folge echt): %d" % len(offen))
     for w in offen:
-        print("   %s" % w)
-    print("Tabelleneintraege: %d" % len(WOERTERBUCH))
+        print("  %s" % w)
+    sys.exit(1 if fehler else 0)

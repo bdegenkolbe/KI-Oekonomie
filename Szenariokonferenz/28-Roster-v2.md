@@ -79,7 +79,7 @@ ausgleicht. Jede Rolle ist eine Funktionsbeschreibung, keine reale Person.
 | S0-02 | Partnerin einer Wirtschaftsprüfungsgesellschaft | Prüfungssicherheit und Mandatsrentabilität | Prüfungsstandards, Honorarstruktur, Personalpyramide | das Geschäftsmodell lebt von der Pyramide, die KI zuerst angreift |
 | S0-03 | Fachanwalt für Arbeitsrecht | Mandatsvolumen und Rechtsfortbildung | Kündigungsschutz, Betriebsverfassung, Tarifrecht | sieht Recht als Bremse und unterschätzt dessen Umgehbarkeit |
 | S0-04 | Steuerberaterin einer mittelständischen Kanzlei | Kanzleiauslastung und Mandantenbindung | DATEV-Prozesse, Buchführungsroutine, Fristenkontrolle | das am weitesten standardisierte freie Berufsfeld, argumentiert dagegen |
-| S0-05 | Softwarearchitekt in einem Großunternehmen | Systemqualität und Entwicklungsgeschwindigkeit | Codebasis, Deploymentfrequenz, Teamgrösse | überschätzt die Übertragbarkeit von Coding-Gewinnen auf andere Felder |
+| S0-05 | Softwarearchitekt in einem Großunternehmen | Systemqualität und Entwicklungsgeschwindigkeit | Codebasis, Deploymentfrequenz, Teamgröße | überschätzt die Übertragbarkeit von Coding-Gewinnen auf andere Felder |
 | S0-06 | Entwicklungsingenieurin Maschinenbau | Produktreife und Entwicklungszyklus | Konstruktion, Simulation, Normung | hält physische Prüfschritte für unersetzbar, ohne es zu quantifizieren |
 | S0-07 | Vertriebsleiter B2B-Dienstleistung | Auftragseingang und Marge | Pipeline, Abschlussquoten, Kundenbindung | verwechselt Beziehungsarbeit mit Nichtautomatisierbarkeit |
 | S0-08 | Sachbearbeiterin in der öffentlichen Verwaltung | Verfahrenssicherheit und Aktenlage | Verwaltungsverfahren, Fachverfahren, Schriftformerfordernis | unterschätzt, wie viel der eigenen Arbeit regelbasiert ist |
@@ -123,7 +123,7 @@ ausgleicht. Jede Rolle ist eine Funktionsbeschreibung, keine reale Person.
 | S1-13 | Haushaltsreferent für Bundeszuschüsse Gesundheit | Zuschusshöhe und Haushaltsdeckel | Bundeshaushalt, Schuldenregel, Zuschusslinie | nimmt die Deckelung als gegeben statt als Entscheidung |
 | | *Finanzierungsökonomie* | | | |
 | S1-14 | Gesundheitsökonomin für Finanzierungssysteme | Systemvergleich Beitrag gegen Steuer | Finanzierungsmix, Umverteilungswirkung, Traglastinzidenz | modelliert ohne Politökonomie |
-| S1-15 | Sozialrechtler SGB V | Rechtmässigkeit der Finanzierungsinstrumente | Beitragsrecht, Verfassungsrecht, Rechtsprechung | Rechtsfragen vor Wirkungsfragen |
+| S1-15 | Sozialrechtler SGB V | Rechtmäßigkeit der Finanzierungsinstrumente | Beitragsrecht, Verfassungsrecht, Rechtsprechung | Rechtsfragen vor Wirkungsfragen |
 | S1-16 | Arbeitgebervertreter in der Sozialversicherung | Lohnzusatzkosten begrenzen | Arbeitgeberanteil, Sozialabgabenquote, Standortkosten | jede Lösung, die Arbeit entlastet, gilt als gut |
 | S1-17 | Versichertenvertreterin im Verwaltungsrat | Leistungsanspruch und Zuzahlungslast | Selbstverwaltung, Leistungskatalog, Zuzahlungsregeln | verteidigt Leistungsbreite ohne Finanzierungsvorschlag |
 
@@ -199,7 +199,7 @@ ausgleicht. Jede Rolle ist eine Funktionsbeschreibung, keine reale Person.
 | S4-03 | Geschäftsführung 4K ANALYTICS | Ergebnis und Plattformwachstum | Kassengeschäft, Lizenzmodell, Produktfahrplan | liest die Konzentration auf zwei Großkunden als Stärke |
 | S4-04 | Produkt- und Plattformverantwortung 4K ANALYTICS | Produktreife und Skalierung | Datenpipelines, Auswertungslogiken, Releasezyklen | unterschätzt, wie schnell die Auswertungsschicht zur Ware wird |
 | S4-05 | Geschäftsführung GREENBAY Software | Auslastung und Stundensatz | Entwicklerkapazität, Projektverträge, interne Verrechnung | das eigene Geschäftsmodell ist das erste Ziel der Agenten |
-| S4-06 | Entwicklungsleitung GREENBAY Software | Lieferfähigkeit und Codequalität | Teamgrösse, Technologiestack, Wiederverwendung | liest den Produktivitätsgewinn als Kapazitätsgewinn statt als Preisverfall |
+| S4-06 | Entwicklungsleitung GREENBAY Software | Lieferfähigkeit und Codequalität | Teamgröße, Technologiestack, Wiederverwendung | liest den Produktivitätsgewinn als Kapazitätsgewinn statt als Preisverfall |
 | S4-07 | Leitung GREENBAY research (Auftragsforschung) | Studienauslastung und Rekrutierung | DiGA-Studien, Kassenprojekte, Verbundpartner | deutet die Abhängigkeit von einem Auftraggeber als Partnerschaft |
 | S4-08 | Geschäftsführung GREENBAY healthcare | Marktzugang und Produktportfolio | Versorgungsverträge, Kassenkontakte | Markenwirkung vor Zahlungsbereitschaft |
 | S4-09 | Geschäftsführung CLINIBOTS | Absatz der Klinikdatenauswertung | Paragraf 21 KHEntgG, Qualitätsberichte, eigene Auswertungssystematik | öffentlicher Rohstoff, private Auswertung — genau die angreifbare Stelle |
@@ -300,9 +300,9 @@ D3  Wechselabschlag: um wie viel Prozent sinkt das Entgelt einer Person, die aus
 D4  Politökonomie: welche Institution in deinem Feld kann den Effekt verzögern, und um wie viele
     Jahre? Das Modell hat keine Politökonomie. Institution benennen.
 
-## Teil C — Die Ergebnisgrössen, vergleichbar mit der Tabelle des Papiers
+## Teil C — Die Ergebnisgrößen, vergleichbar mit der Tabelle des Papiers
 
-E1  Lohnquote in deinem Feld 2031, in Prozentpunkten gegenüber 2025. Leitgrösse des Papiers:
+E1  Lohnquote in deinem Feld 2031, in Prozentpunkten gegenüber 2025. Leitgröße des Papiers:
     minus 4 Punkte im Szenario substantial, minus 15 im Szenario extreme.
 E2  Beschäftigung in deinem Feld 2031, in Prozent gegenüber 2025.
 E3  Wer bekommt den Effizienzgewinn: Kapitaleigner, Kunden, Beschäftigte, Staat und
@@ -328,7 +328,7 @@ S1  Welche heute bezahlte Leistung des HIGL-Verbunds würdest du 2031 nicht mehr
 S2  Welche Leistung würdest du 2031 kaufen, die es heute nicht gibt, und was wärest du bereit,
     dafür zu zahlen?
 S3  Was muss bis wann entschieden sein, damit S2 trägt? Eine Entscheidung, eine Frist, eine
-    Grössenordnung der Kosten.
+    Größenordnung der Kosten.
 ```
 
 ---
@@ -359,10 +359,10 @@ S3  Was muss bis wann entschieden sein, damit S2 trägt? Eine Entscheidung, eine
 
 | # | Titel | Auftrag |
 |---|---|---|
-| 1 | Die Kette hält nicht | Prüfe die fünf Übergabegrössen gegeneinander. Wo ist der Wert, den eine Station weitergibt, nicht derselbe, den die nächste entgegennimmt? Wo wurde eine Größe stillschweigend umdefiniert? Jede Bruchstelle mit Station, Größe und Betrag. |
+| 1 | Die Kette hält nicht | Prüfe die fünf Übergabegrößen gegeneinander. Wo ist der Wert, den eine Station weitergibt, nicht derselbe, den die nächste entgegennimmt? Wo wurde eine Größe stillschweigend umdefiniert? Jede Bruchstelle mit Station, Größe und Betrag. |
 | 2 | Die Lohnquote ist nicht der Kanal | Die ganze Kette hängt daran, dass eine fallende Lohnquote die beitragspflichtigen Entgelte senkt. Greife das an: Beitragsbemessungsgrenze, Verschiebung zwischen Beschäftigungsformen, Mindestbeiträge, Bundeszuschuss, steigende Beschäftigung bei fallender Quote. Zeige, unter welchen Bedingungen der Kanal bricht. |
 | 3 | Der US-Schock wirkt umgekehrt | Die Kette unterstellt, dass die US-Preispolitik den deutschen Preisdruck erhöht. Begründe das Gegenteil: höhere deutsche Preise, weil Hersteller den Referenzpunkt schützen; Marktrücknahmen; verzögerte Markteintritte; Verlagerung in vertrauliche Erstattungsbeträge. Was davon ist belegbar? |
-| 4 | HIGL profitiert, statt zu verlieren | Die HIGL-Station rechnet mit sinkenden Preisen für Evidenz und Analytik. Begründe die Gegenthese: Wenn der deutsche Erstattungsbetrag zur amerikanischen Rechengrösse wird, steigt der Einsatz je Dossier erheblich. Was folgt daraus für Umsatz, Preis und Wettbewerb? |
+| 4 | HIGL profitiert, statt zu verlieren | Die HIGL-Station rechnet mit sinkenden Preisen für Evidenz und Analytik. Begründe die Gegenthese: Wenn der deutsche Erstattungsbetrag zur amerikanischen Rechengröße wird, steigt der Einsatz je Dossier erheblich. Was folgt daraus für Umsatz, Preis und Wettbewerb? |
 | 5 | Das Anthropic-Papier trägt die Übertragung nicht | Das Modell ist vollständig an US-Daten kalibriert, bildet nur kognitive Aufgaben ab, kennt keine Preisrigiditäten und keine Politökonomie, und die Autoren nennen die Szenarien ausdrücklich keine Prognosen. Zeige, an welchen Stellen die Konferenz dieses Modell trägt, wo es das nicht aushält — und welche Ergebnisse dadurch ungültig werden. |
 
 ---
