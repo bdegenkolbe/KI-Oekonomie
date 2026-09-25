@@ -7,6 +7,67 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 25. September 2026 (Lauf 001 vom 25. September 2026) — Version 104.0 → Version 105.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Maschinell geprüft: 11 nummerierte Kapitel (1 bis 11) plus Zusammenfassung vor Kapitel 1; Inhaltsverzeichnis stimmt in Anzahl und Titeln mit den Kapitelüberschriften überein; die Zusammenfassung referenziert die Deutschland-These ausdrücklich; keine Überschrift ohne Inhalt. In diesem Lauf ist kein Abschnitt neu angelegt oder umbenannt worden. |
+| 2.1.2 Nummerierung | OK | Kapitelnummerierung lückenlos; Unterabschnitt-Nummerierung in jedem Kapitel lückenlos und maschinell gegen die Sollfolge geprüft (Kap. 1: 1–3; 2: 1–3; 3: 1–5; 4: 1–5; 5: 1–4; 6: 1–4; 7: 1–3; 8: 1–7; 9: 1–5; 10: 1–3; 11: 1–5). Zähler unverändert und nachgezählt: fünf Typ-Marker in § 2.1, drei Säulen der Deutschland-These, sieben Empfehlungen in § 10.2. |
+| 2.1.3 Querverweise | OK | Maschinelle Auflösung aller `§X.Y`-Verweise gegen die vorhandenen Unterabschnitte: kein ungültiger Verweis. Einziger Treffer ohne Entsprechung im Hauptdokument bleibt `§ 2.4.x`; der Kontext weist diese Verweise durchgängig als Verweise auf `Validierung.md` aus. Die in diesem Lauf neu gesetzten Verweise (§ 2.1, § 2.2, § 5.1, § 8.2, § 9.1, § 9.2, § 11.3, § 11.5) sind einzeln aufgelöst worden. Kein `Kapitel X`-Verweis außerhalb 1 bis 11. |
+| 2.1.4 Roter Faden | OK | Arbeitsteilung eingehalten: § 1.1 trägt die Trackerstände als empirische Ausgangslage, § 9.2 zieht daraus die Folgerungen für Periodisierung und Bestimmtheit, ohne die Zahlen zu wiederholen; § 2.2 führt den IFR-Bericht unter der Definitionsfrage, § 8.1 unter der Faktorfrage — beide Stellen teilen sich den Gegenstand nach Funktion und dublieren die Zahlen nicht. Die Deutschland-These bleibt unberührt; die Progression Literaturrezeption → sektorale Anwendung → eigene Position → Umsetzung ist unverändert. |
+| 2.1.5 Formatierung | OK | Maschinell geprüft: keine doppelten Trennlinien, keine Doppel-Leerzeilen, ausgeglichene Fettungen (kein Vorkommen mit ungerader Anzahl `**`), ausgeglichene Anführungszeichen (792 öffnende gegen 792 schließende Marken nach der Hauskonvention `U+201E` … `U+0022`), Markdown-Tabellen syntaktisch unverändert. *Methodischer Hinweis:* Die Erstprüfung der Anführungszeichen hat 250 Zeilen als unausgeglichen gemeldet; Ursache war ein fehlerhaft angesetztes Prüfzeichenpaar im Prüfskript (erwartet `U+201C` als schließende Marke), nicht ein Befund am Dokument. Nach Berichtigung des Skripts: keine Abweichung. |
+| 2.2.1 Sachliche Richtigkeit | OK | Alle in diesem Lauf eingearbeiteten Zahlen stammen aus Direktabruf am Stichtag beziehungsweise aus der Pressemitteilung des Herausgebers und sind mit Summen- und Rechenproben hinterlegt (AskTheRecruiter: 597.954 + 44.781 = 642.735; 642.735 + 472.093 = 1.114.828; +962 + 4.200 = +5.162; 69.361 + 47.883 = 117.244. SkillSyncer: 213 ÷ 519 = 41,0 %; 179.542 ÷ 225.122 = 79,8 %; 225.122 ÷ 268 = 840,0. IFR: 7.000 ÷ 600.000 ≈ 12 je 1.000). Die IFR-Kernzahlen sind gegen eine herausgeberunabhängige Fachquelle desselben Datums gegengeprüft. |
+| 2.2.2 Redundanzprüfung | OK | Die IFR-Zahlen stehen einmal in § 2.2 (Definitionsfrage, Größenverhältnis humanoid zu industriell) und einmal in § 8.1 (Länderverteilung, Faktorfrage); die Länderwerte erscheinen im Fließtext nur in § 8.1, die Bestands- und Installationsgrößen nur in § 2.2. Die Trackerzahlen stehen ausschließlich in § 1.1 und § 11.5; § 9.2 referiert sie nur als Folgerung. Keine Dopplung gleicher Tiefe ohne Querverweis festgestellt. |
+| 2.2.3 Argumentation | OK | Die fünf Typen der Robotersteuer bleiben auseinandergehalten; § 2.2 und § 8.1 benennen ausdrücklich, dass ein an der Menschenähnlichkeit beziehungsweise am Gerätebestand ansetzender Tatbestand (Typ 1 und Typ 2 nach § 2.1) andere Größen erfasste als eine Wertschöpfungsanknüpfung. Acemoglu- und Thuemmel-Argumentation bleiben getrennt. Der neue Befund in § 9.2 unterscheidet sauber zwischen Bezugsgrößenfrage und Kausalitätsfrage und setzt die zweite nicht an die Stelle der ersten. |
+| 2.2.4 Ausgewogenheit | OK | Die IFR-Zahlen sind als Erhebung, die Werte für 2026 und 2029 ausdrücklich als Prognose des Herausgebers gekennzeichnet. Der deutsche Rückgang um 8 % ist nicht als Substitutionsbefund ausgegeben, sondern als konjunkturabhängige Investitionsgröße eingeordnet. Die Trackerbefunde sind als Eigenschaften der Datenquelle und nicht als Messung der Verdrängung referiert. |
+| 2.3.1 Tippfehler und Grammatik | OK | Die in diesem Lauf neu geschriebenen 37 Zeilen sind einzeln durchgesehen worden; ein beim Entwurf entstandener Tippfehler („beansprukt") ist vor dem Schreiben berichtigt worden. |
+| 2.3.2 Terminologie | OK | „Wertschöpfungsabgabe" durchgängig; „Künstliche Intelligenz (KI)" bei Erstnennung; neue Fachbegriffe sind an Ort und Stelle erklärt (Bezugsgröße gegen Kausalitätsmaßstab; operativer Bestand gegen jährliche Neuinstallationen). Die *International Federation of Robotics* ist im Dokument bereits eingeführt und ausgeschrieben. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Jede in diesem Lauf im Fließtext genannte Quelle hat einen Eintrag in Kapitel 11: IFR-Pressemitteilung in § 11.3, Fachmeldung zur Gegenprobe und vier Trackerstände in § 11.5. Umgekehrt ist jeder neue Eintrag im Fließtext zitiert. |
+| 2.4.2 Formale Einheitlichkeit | OK | Alle neuen Einträge folgen dem APA-angelehnten Hausstil mit vollständiger URL ohne Kürzung oder Weiterleitung; Datumsangaben im Format „TT. Monat JJJJ" beziehungsweise „Stand TT. Monat JJJJ" bei Trackerständen. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Für die Robotikzahlen ist die Mitteilung des Herausgebers Primärquelle, die Fachmeldung dient allein der Erscheinungs- und Wertgegenprobe. Der Volltext des Berichts ist kostenpflichtig; der Prüfvermerk weist das aus. Trackerstände sind sämtlich Direktabruf am Stichtag. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | 101 von 915 URLs des Literaturverzeichnisses geprüft (11,0 %). Erstdurchgang ohne Browser-Kennung: 70× HTTP 200, 26× 403, 2× 404, 1× 406, 1× 202, 1 Verbindungsabbruch, 1 Abruf durch ein Klammerzeichen in der URL nicht ausgeführt. **Wiederholungsabruf mit Browser-Kennung löst die Befunde überwiegend auf:** Die beiden 404-Fälle antworten mit 200 beziehungsweise 403, der Verbindungsabbruch mit 200. Die verbleibenden 403-Antworten stammen durchgängig von kommerziellen Nachrichtenseiten mit Botabwehr und sind Zugriffsentscheidungen gegenüber einem automatisierten Abruf, kein Beleg für einen toten Verweis. Die nach `Validierung.md` § 2.4.4 gesondert zu prüfende OpenAI-Quelle: Landingpage 403 (Botabwehr), die im selben Eintrag geführte PDF-Adresse antwortet mit 200 — der Eintrag trägt damit eine erreichbare Primäradresse. Neue Defekte sind nicht festgestellt. |
+| 2.4.5 Zitatgenauigkeit | OK | Fünf Kernaussagen stichprobenartig gegen die Quelle geprüft: IFR-Bestand 5 Millionen und +9 %; IFR-Neuinstallationen über 600.000 und +11 %; China 354.000 und 59 %; Deutschland rund 25.000, −8 %, 41 % der EU-Installationen; Zitat der IFR-Präsidentin („more than double the number seven years ago"). Alle fünf in Mitteilung und unabhängiger Fachmeldung gleichlautend. Prognosewerte sind als Prognose gekennzeichnet. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Die Markierung zu de la Feria et al. (2022) bleibt unverändert bestehen; eine Verifikation ist in diesem Lauf nicht erfolgt. Der Prüfvermerk zum Vorabbericht *World Robotics 2026* ist fortgeschrieben und die dortige Vormerkung als erledigt gekennzeichnet, weil der Bericht erschienen ist; die Vorabzahl zur humanoiden Robotik behält ihren Vorabbericht-Charakter. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 105.0 an allen vier Stellen gesetzt (Dokumentkopf, Aktualitätshinweis am Dokumentende, `README.md` mit Versionszeile und Zitiervorschlag, Abschlussblock dieses Protokolls); maschinell geprüft: kein Vorkommen von „104.0" mehr in Hauptdokument oder `README.md`. Autorenname, Organisationszuordnung, Lizenzhinweis CC BY 4.0, Haftungshinweis und KI-Offenlegung in `README.md` unverändert vorhanden. |
+| 2.6 Automatisierte Prüfung | n/a | Das Projekt enthält weiterhin keine dedizierten Prüfskripte im Repository. Die Struktur-, Zähler-, Querverweis-, Formatierungs- und Versionsprüfungen dieses Laufs sind mit einem Wegwerfskript außerhalb des Repositoriums ausgeführt worden; die URL-Stichprobe ebenso. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|--------|--------|---------|
+| 1 | § 2.2, Nachtrag vom 24. September 2026 | Der Befund des Vorlaufs, der Bericht *World Robotics 2026* sei am angekündigten Tag nicht erschienen, trifft nicht zu. Der Bericht ist am 24. September 2026 erschienen; unzutreffend war die Statistikseite des Herausgebers, auf die der Vorlauf sich gestützt hatte. | Mittel |
+| 2 | § 11.3, Prüfvermerk zum Vorabbericht | Der Prüfvermerk führte die Vormerkung „Bericht nicht erschienen" fort und war damit nach dem Erscheinen des Berichts überholt. | Mittel |
+| 3 | Verfahrensregel aus dem Vorlauf (§ 2.2) | Die Regel, für die Feststellung des Erscheinens einer angekündigten Statistik sei die Statistikseite und nicht die Pressestruktur heranzuziehen, ist in dieser Form unzutreffend — gerade die Statistikseite hat den Sachverhalt falsch wiedergegeben. | Mittel |
+| 4 | Prüfverfahren § 2.1.5 (Prüfskript, nicht Dokument) | Das Prüfskript setzte `U+201C` als schließende Anführungsmarke an, während das Dokument durchgängig `U+0022` verwendet; dadurch wurden 250 Zeilen fälschlich als unausgeglichen gemeldet. | Gering |
+| 5 | Prüfverfahren § 2.4.4 (Prüfverfahren, nicht Dokument) | Die URL-Stichprobe ohne Browser-Kennung erzeugt falsche Defektmeldungen: Zwei als 404 und ein als Verbindungsabbruch gemeldeter Verweis antworten bei Wiederholung mit Browser-Kennung erreichbar. | Gering |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|--------|----------|----------|
+| 1 | Unzutreffender Nichterscheinensbefund in § 2.2 | Neuer Nachtrag vom 25. September 2026 in § 2.2 mit ausdrücklicher Berichtigung. Der Befund des Vortages ist nach Phase 2 Ziffer 5 des Laufprompts **nicht gelöscht**, sondern als zeitlich frühere Referenz erhalten und in seinem zutreffenden Teil (Zustand der Statistikseite) stehen geblieben. | Ja |
+| 2 | Überholter Prüfvermerk in § 11.3 | Zweiter Nachtrag zum Prüfvermerk ergänzt; Vormerkung als erledigt gekennzeichnet; eigener Eintrag zur Pressemitteilung des Herausgebers angelegt. Der Vorabbericht-Charakter der humanoiden Zahl bleibt erhalten. | Ja |
+| 3 | Unzutreffende Verfahrensregel | Regel in § 2.2 berichtigt: Keine der beiden Seiten des Herausgebers entscheidet die Erscheinungsfrage allein; sie ist an einer herausgeberunabhängigen Quelle gegenzuprüfen. Die Gegenprobe ist in diesem Lauf ausgeführt und in § 11.5 belegt. | Ja |
+| 4 | Fehlerhaftes Prüfzeichenpaar im Prüfskript | Skript berichtigt und Prüfung wiederholt; Ergebnis ohne Abweichung. Am Dokument war nichts zu ändern. | Ja |
+| 5 | Falsche Defektmeldungen der URL-Stichprobe | Wiederholungsabruf aller Nicht-200-Fälle mit Browser-Kennung ausgeführt und das Ergebnis in Prüfschritt 2.4.4 protokolliert. Am Dokument war nichts zu ändern; für künftige Läufe gilt, die Stichprobe mit Browser-Kennung zu fahren und 403-Antworten kommerzieller Nachrichtenseiten nicht als Defekt zu werten. | Ja |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen (2.1.5, 2.2.1, 2.4.4, 2.4.6, 2.5): OK
+- Struktur-, Zähler- und Querverweisprüfung nach allen Änderungen wiederholt: OK, keine neuen Abweichungen
+- Automatisierte Skripte (im Repository): n/a
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 105.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 24. September 2026 (Lauf 001 vom 24. September 2026) — Version 103.0 → Version 104.0
 
 ### Prüfergebnis
