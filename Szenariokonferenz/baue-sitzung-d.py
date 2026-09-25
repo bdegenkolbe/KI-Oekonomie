@@ -416,6 +416,9 @@ const S_TEXT = __S_TEXT__
 const S_VERIF = __S_VERIF__
 
 const RAHMEN = REGELN + '\n' + KEINE_DOPPELUNG + '\n' + BESTAND
+// Ohne den Bestand (rund 60.000 Zeichen) — fuer die Aufrufe, die ohnehin die ganze
+// Kette im Prompt tragen und die Quellenlage nicht erneut brauchen.
+const RAHMEN_KURZ = REGELN + '\n' + KEINE_DOPPELUNG
 
 function karte(r) {
   return 'DEINE ROLLE\n' +
@@ -511,6 +514,45 @@ function kurzkarte(x) {
     '   S1 faellt weg: ' + x.s1_faellt_weg + '\n' +
     '   S2 neu: ' + x.s2_neu + '\n' +
     '   S3: ' + x.s3_entscheidung + ' bis ' + x.s3_frist + ', ' + x.s3_groessenordnung + '\n'
+}
+
+// Die Karten sind im Median rund 32.000 Zeichen lang. Wer 83 davon in einen Prompt
+// legt, sprengt das Kontextfenster — genau daran sind die fuenf Red-Team-Aufrufe
+// gescheitert. minikarte haelt die Zahlen vollstaendig und kappt die Fliesstexte.
+function kappen(s, n) {
+  const t = String(s === null || s === undefined ? '' : s)
+  if (t.length <= n) return t
+  return t.slice(0, n).replace(/\s+\S*$/, '') + ' […gekuerzt; ' + t.length + ' Zeichen im Rohsatz]'
+}
+
+function zahlenzeile(x) {
+  return x.id + ' | Szenario ' + x.szenario +
+    ' | K1 ' + x.k1 + ' (' + x.k1_u + '-' + x.k1_o + ')' +
+    ' | K2 ' + x.k2 + ' | K3 ' + x.k3 + ' | K4 ' + x.k4_automatisiert + ' | K5 ' + x.k5_neue_aufgaben +
+    ' | D1 ' + x.d1_physisch + ' | D2 ' + x.d2_preisdurchgriff + ' | D3 ' + x.d3_wechselabschlag +
+    ' | D4 ' + x.d4_verzoegerung_jahre + 'J' +
+    ' | E1 ' + x.e1_lohnquote_pp + 'Pp | E2 ' + x.e2_beschaeftigung_prozent + '%' +
+    ' | E3 K' + x.e3_kapital + '/Ku' + x.e3_kunden + '/B' + x.e3_beschaeftigte + '/S' + x.e3_staat
+}
+
+function minikarte(x, n) {
+  return zahlenzeile(x) + '\n' +
+    '   UEBERGABE: ' + kappen(x.uebergabe_wert, n) +
+    (x.uebergabe_wert_ohne_us ? '\n   OHNE US: ' + kappen(x.uebergabe_wert_ohne_us, n) : '') +
+    (x.us_effekt_isoliert ? '\n   US-EFFEKT ISOLIERT: ' + kappen(x.us_effekt_isoliert, n) : '') +
+    (x.us_mechanismus ? '\n   US-MECHANISMUS: ' + kappen(x.us_mechanismus, n) : '') + '\n' +
+    '   MECHANISMUS: ' + kappen(x.mechanismus, n) + '\n' +
+    '   HEMMNIS: ' + kappen(x.hemmnis, Math.round(n / 2)) + '\n' +
+    '   EINGANG: ' + (x.eingang_akzeptiert ? 'angenommen' : 'BESTRITTEN — ' + kappen(x.eingang_einwand, n)) + '\n' +
+    '   2030 AUF 2031: ' + kappen(x.jahr_2030_auf_2031, Math.round(n / 2)) + '\n' +
+    '   S1 faellt weg: ' + kappen(x.s1_faellt_weg, Math.round(n / 2)) + '\n' +
+    '   S2 neu: ' + kappen(x.s2_neu, Math.round(n / 2)) + '\n' +
+    '   S3: ' + kappen(x.s3_entscheidung, Math.round(n / 2)) + ' bis ' + x.s3_frist + '\n'
+}
+
+function alleKarten(erg, kette, n) {
+  return kette.map(s => '## ' + s + '\n' +
+    (erg[s] || []).map(c => minikarte(c, n)).join('\n')).join('\n\n')
 }
 
 function promptVerdichtung(s, karten, eingang) {
@@ -625,6 +667,17 @@ const gegenrollen = ROLLEN.filter(r => r.station === 'GP')
 const stand = revisionen.map(u => u.station + ': ' + u.wert_zentral + ' ' + u.einheit +
   ' — ' + u.herleitung).join('\n')
 
+// Gekuerzte Fassungen fuer die Aufrufe, die die GANZE Kette auf einmal sehen muessen.
+const standKurz = revisionen.map(u => u.station + ': ' + u.wert_zentral + ' ' + kappen(u.einheit, 300) +
+  '\n   ' + kappen(u.herleitung, 2500)).join('\n\n')
+const kettenbildKurz = uebergaben.filter(Boolean).map(u =>
+  u.station + ' gibt weiter: ' + u.wert_zentral + ' ' + kappen(u.einheit, 300) +
+  ' (' + u.wert_unten + ' bis ' + u.wert_oben + ')\n' +
+  '   Herleitung: ' + kappen(u.herleitung, 2500) + '\n' +
+  '   Eingang bestritten von: ' + kappen((u.eingang_bestritten_von || []).join(', '), 1200) + '\n' +
+  '   Dissens: ' + kappen((u.dissens || []).join(' | '), 1500) + '\n' +
+  '   Vorbehalte: ' + kappen((u.vorbehalte || []).join(' | '), 1500)).join('\n\n')
+
 const [gegen, redteam] = await parallel([
   () => parallel(gegenrollen.map(r => () =>
     agent(promptQuer(r) + '\n\n# DER STAND DER KETTE, DEN DU ANGREIFST\n\n' + stand,
@@ -633,13 +686,16 @@ const [gegen, redteam] = await parallel([
     agent('Du bist Red Team der Szenariokonferenz. Dein Auftrag ist ausschliesslich, die folgende\n' +
       'Position zu widerlegen. Du bist keine Rolle und schuldest niemandem Ausgewogenheit.\n\n' +
       'ANGRIFF ' + a[0] + ': ' + a[1] + '\n\n' + a[2] + '\n\n' +
-      '# DER STAND DER KETTE\n\n' + stand + '\n\n' +
-      '# DIE UEBERGABEN IM EINZELNEN\n\n' + kettenbild + '\n\n' +
-      '# WAS DIE STATIONEN GESAGT HABEN (Auszug)\n\n' +
-      KETTE.map(s => '## ' + s + '\n' + (ergebnisse[s] || []).map(kurzkarte).join('\n')).join('\n\n') + '\n\n' +
+      '# DER STAND DER KETTE\n\n' + standKurz + '\n\n' +
+      '# DIE UEBERGABEN IM EINZELNEN\n\n' + kettenbildKurz + '\n\n' +
+      '# WAS DIE STATIONEN GESAGT HABEN\n\n' +
+      'Die Karten sind hier gekuerzt wiedergegeben: die Zahlen vollstaendig, die Fliesstexte auf das\n' +
+      'Noetige. Wo dir ein gekuerzter Text fuer einen Befund nicht reicht, sage das unter befunde\n' +
+      'statt zu raten.\n\n' +
+      alleKarten(ergebnisse, KETTE, 200) + '\n\n' +
       'Ein Befund ist hart, wenn er die Kette ungueltig macht; mittel, wenn er eine Zahl verschiebt;\n' +
       'weich, wenn er nur eine Formulierung trifft. Nenne zu jedem Befund den Beleg. Sage am Ende,\n' +
-      'ob die angegriffene Position standhaelt — auch wenn dein Auftrag war, sie zu widerlegen.\n\n' + RAHMEN,
+      'ob die angegriffene Position standhaelt — auch wenn dein Auftrag war, sie zu widerlegen.\n\n' + RAHMEN_KURZ,
       { label: 'Red Team ' + a[0] + ': ' + a[1], phase: 'Angriff', schema: S_ANGRIFF })))
 ])
 const gegenK = (gegen || []).filter(Boolean)
@@ -649,7 +705,7 @@ phase('Papier')
 const BEFUNDE = redteamK.map(a => '## Angriff ' + a.n + ': ' + a.titel +
   ' — haelt stand: ' + a.haelt_stand + '\n' +
   a.befunde.map(b => '- [' + b.schwere + '] ' + b.stelle + ': ' + b.befund + ' (Beleg: ' + b.beleg + ') Folge: ' + b.folge).join('\n')).join('\n\n')
-const GEGENBLOCK = gegenK.map(kurzkarte).join('\n')
+const GEGENBLOCK = gegenK.map(c => minikarte(c, 900)).join('\n')
 
 const kapitel = (await parallel(KAPITEL.map((k, i) => () =>
   agent('Du schreibst Kapitel ' + k[0] + ' des Strategiepapiers 2031 der Szenariokonferenz.\n\n' +
@@ -660,10 +716,13 @@ const kapitel = (await parallel(KAPITEL.map((k, i) => () =>
     'die Szenarien ausdruecklich keine Prognosen und ordnen ihnen keine Wahrscheinlichkeiten zu.\n' +
     'Beides gehoert in den Text, nicht in eine Fussnote.\n\n' +
     '# DIE KARTEN DEINER STATION\n\n' +
-    (ergebnisse[KETTE[i]] || []).map(kurzkarte).join('\n') + '\n\n' +
+    'Die Zahlen sind vollstaendig, die Fliesstexte gekuerzt. Wo dir ein gekuerzter Text fuer eine\n' +
+    'Aussage nicht reicht, schreibe die Aussage nicht — nimm die Frage unter offen auf.\n\n' +
+    (ergebnisse[KETTE[i]] || []).map(c => minikarte(c, 900)).join('\n') + '\n\n' +
     '# DIE UEBERGABEN DER GANZEN KETTE\n\n' + revisionen.map(u =>
-      u.station + ': ' + u.wert_zentral + ' ' + u.einheit + ' (' + u.wert_unten + ' bis ' + u.wert_oben + ')\n' +
-      '   ' + u.herleitung + '\n   Dissens: ' + (u.dissens || []).join(' | ')).join('\n\n') + '\n\n' +
+      u.station + ': ' + u.wert_zentral + ' ' + kappen(u.einheit, 400) + ' (' + u.wert_unten + ' bis ' + u.wert_oben + ')\n' +
+      '   ' + kappen(u.herleitung, 3500) + '\n   Dissens: ' + kappen((u.dissens || []).join(' | '), 2000) +
+      '\n   Vorbehalte: ' + kappen((u.vorbehalte || []).join(' | '), 2000)).join('\n\n') + '\n\n' +
     '# WAS DAS RED TEAM GEFUNDEN HAT\n\n' + BEFUNDE + '\n\n' +
     '# DIE GEGENPOSITION\n\n' + GEGENBLOCK + '\n\n' +
     'AUFTRAG\n' +
@@ -693,11 +752,16 @@ const verifikation = await agent(
   'Du pruefst den Entwurf des Strategiepapiers 2031 gegen die Rohdaten. Du bist keine Rolle und\n' +
   'schuldest dem Text nichts.\n\n' +
   '# DER ENTWURF\n\n' + (zusammenzug ? zusammenzug.markdown : '') + '\n\n' +
-  '# DIE UEBERGABEN\n\n' + revisionen.map(u => u.station + ': ' + u.wert_zentral + ' ' + u.einheit +
-    ' (' + u.wert_unten + ' bis ' + u.wert_oben + ') — ' + u.herleitung).join('\n') + '\n\n' +
-  '# DIE KARTEN\n\n' + KETTE.map(s => '## ' + s + '\n' +
-    (ergebnisse[s] || []).map(kurzkarte).join('\n')).join('\n\n') + '\n\n' +
-  '# DIE QUERBANK UND DIE GEGENPOSITION\n\n' + QUERBLOCK + '\n' + GEGENBLOCK + '\n\n' +
+  '# DIE UEBERGABEN\n\n' + revisionen.map(u => u.station + ': ' + u.wert_zentral + ' ' +
+    kappen(u.einheit, 400) + ' (' + u.wert_unten + ' bis ' + u.wert_oben + ')\n   ' +
+    kappen(u.herleitung, 3500)).join('\n\n') + '\n\n' +
+  '# DIE KARTEN\n\n' +
+  'Zahlen vollstaendig, Fliesstexte gekuerzt. Eine Zahl im Entwurf, die du hier nicht findest, ist\n' +
+  'ein harter Befund. Eine FORMULIERUNG, die du hier nicht wiederfindest, ist es nicht — die Texte\n' +
+  'sind gekuerzt; pruefe Formulierungen nur gegen das, was hier vollstaendig steht.\n\n' +
+  alleKarten(ergebnisse, KETTE, 150) + '\n\n' +
+  '# DIE QUERBANK UND DIE GEGENPOSITION\n\n' +
+  quer.map(c => minikarte(c, 150)).join('\n') + '\n' + GEGENBLOCK + '\n\n' +
   'AUFTRAG\n' +
   'Pruefe jede Zahl im Entwurf gegen die Karten und Uebergaben. Suche insbesondere:\n' +
   '  - Zahlen, die im Entwurf stehen und in keiner Karte,\n' +
@@ -707,7 +771,7 @@ const verifikation = await agent(
   '  - US-Werte, die ohne Begruendung auf Deutschland uebertragen wurden,\n' +
   '  - Aussagen ueber den US-Schock, die den Schalter mit und ohne nicht trennen.\n' +
   'Ein Befund ist hart, wenn eine Aussage falsch ist; mittel, wenn sie ungedeckt ist; weich, wenn sie\n' +
-  'nur unscharf formuliert ist. Gib die Freigabe nur, wenn kein harter Befund offen ist.\n\n' + RAHMEN,
+  'nur unscharf formuliert ist. Gib die Freigabe nur, wenn kein harter Befund offen ist.\n\n' + RAHMEN_KURZ,
   { label: 'Verifikation', phase: 'Papier', schema: S_VERIF })
 
 const schluss = await agent(
