@@ -10,6 +10,9 @@ Szenarien ausdrücklich **keine Wahrscheinlichkeiten** zu. Die Autoren nennen di
 Grund, nicht über 2030 hinauszurechnen. Genau dort setzt diese Sitzung an: Der Horizont bleibt 2031,
 und jede Rolle beantwortet das Jahr 2030 auf 2031 gesondert.
 
+*Ergebnisse des Laufs: `29-Strategiepapier-2031.md` (Schlussfassung) und `30-Sitzung-D.md`
+(Bericht über Abbruch, Gegenprüfung und verweigerte Freigabe).*
+
 ---
 
 ## Warum eine Kette und keine Bänke
@@ -86,7 +89,7 @@ ausgleicht. Jede Rolle ist eine Funktionsbeschreibung, keine reale Person.
 | | *Übrige Berufe* | | | |
 | S0-12 | Produktionsleiter Serienfertigung | Taktzeit, Ausschussquote, Verfügbarkeit | Anlagenpark, Schichtmodelle, Instandhaltung | sieht Robotik als Investitionsfrage, nicht als Arbeitsmarktfrage |
 | S0-13 | Handwerksmeister Sanitär-Heizung-Klima | Auftragsbestand und Nachwuchs | Kalkulation, Gewährleistung, Montagezeiten | hält das eigene Feld pauschal für unautomatisierbar |
-| S0-14 | Disponentin in der Speditionslogistik | Auslastung und Termintreü | Tourenplanung, Laderaum, Lenkzeiten | der Dispositionskern ist genau die Aufgabe, die Agenten übernehmen |
+| S0-14 | Disponentin in der Speditionslogistik | Auslastung und Termintreue | Tourenplanung, Laderaum, Lenkzeiten | der Dispositionskern ist genau die Aufgabe, die Agenten übernehmen |
 | S0-15 | Filialleiter im Lebensmitteleinzelhandel | Umsatz je Quadratmeter und Personalkosten | Warenwirtschaft, Schichtplanung, Inventur | unterschätzt Kassen- und Regalautomatisierung als Beschäftigungsfrage |
 | S0-16 | Leiterin eines Betriebs personennaher Dienstleistungen | Auslastung und Personalbindung | Stundenverrechnung, Fluktuation, Mindestlohn | die Lohnuntergrenze wirkt stärker als die Produktivität |
 | | *Gesamtwirtschaftlicher Rahmen* | | | |
@@ -214,7 +217,7 @@ ausgleicht. Jede Rolle ist eine Funktionsbeschreibung, keine reale Person.
 | EU-03 | Versicherungsökonom Niederlande | reguliertes Wettbewerbsmodell | Zorgverzekeringswet, Risikoausgleich, Eigenrisiko | behandelt die Marktlösung als Normalfall |
 | EU-04 | Digitalisierungsverantwortliche Estland | staatliche Datenplattform | X-Road, elektronische Patientenakte, digitale Identität | überspringt die Skalierungsfrage |
 | EU-05 | Gesundheitsökonom Vereinigtes Königreich | steuerfinanziertes System unter Budgetdruck | NHS-Budget, Wartelisten, Personalplanung | Budgetrestriktion als einzige Variable |
-| EU-06 | Referentin der Europäischen Kommission für den AI Act | Durchsetzung und Hochrisiköinstufung | VO (EU) 2024/1689, Fristen, Konformitätsbewertung | Rechtsakt vor Marktwirkung |
+| EU-06 | Referentin der Europäischen Kommission für den AI Act | Durchsetzung und Hochrisikoeinstufung | VO (EU) 2024/1689, Fristen, Konformitätsbewertung | Rechtsakt vor Marktwirkung |
 | EU-07 | Referent für den europäischen Gesundheitsdatenraum | Sekundärnutzung von Gesundheitsdaten | EHDS, Governance, nationale Zugangsstellen | verwechselt Datenverfügbarkeit mit Datennutzbarkeit |
 | EU-08 | Referentin für das EU-Pharmapaket | Versorgungssicherheit und Innovationsanreize | Revision des Arzneimittelrechts, Unterlagenschutz, Anreizsystem | Binnenmarktlogik vor globaler Preiskaskade |
 
@@ -279,8 +282,8 @@ K2  Verbreitung der TATSAECHLICHEN Nutzung bis 2031, in Prozent der Betriebe ode
 K3  Produktivitätsgewinn je berührter Aufgabe, in Prozent. US-Referenz: plus 57 Prozent. Mit Intervall.
 K4  Von dem, was KI berührt: welcher Anteil wird AUTOMATISIERT statt augmentiert, in Prozent.
     US-Referenz: drei Viertel automatisiert.
-K5  Neüntstehung von Aufgaben: wie viel Prozent der wegfallenden Arbeitszeit wird bis 2031 durch
-    neü Aufgaben in deinem Feld ersetzt.
+K5  Neuentstehung von Aufgaben: wie viel Prozent der wegfallenden Arbeitszeit wird bis 2031 durch
+    neue Aufgaben in deinem Feld ersetzt.
 
 Dazu: ordne dein Feld einem der drei Szenarien zu — modest, substantial oder extreme.
 
@@ -344,7 +347,7 @@ S3  Was muss bis wann entschieden sein, damit S2 trägt? Eine Entscheidung, eine
    Strukturunterschied wie wirkt.
 6. Keine unbelegten Allaussagen. Sätze der Form "alle", "kein", "immer", "nie" nur mit Beleg.
 7. Keine Imitation realer benannter Personen. Du sprichst als Rolle, nicht als Person.
-8. Rollentreü vor Konsens. Deine Interessenlage darf und soll dein Urteil färben; deine Blindstelle
+8. Rollentreue vor Konsens. Deine Interessenlage darf und soll dein Urteil färben; deine Blindstelle
    wird dir genannt, damit die Auswertung sie prüfen kann, nicht damit du sie ausgleichst.
 9. Du antwortest in deinem Feld. Zusätzlich nennst du GENAU EINE feldfremde Behauptung, von der du
    annimmst, dass sie falsch sein könnte — das ersetzt die früher verbotene Sicht über den Tellerrand.
@@ -388,5 +391,5 @@ Station den Wert der vorherigen nicht annimmt.
 
 ---
 
-*Erzeugt aus `roster_d.py` und `baue-sitzung-d.py`; Lesefassung über `lesbar.py`. Der ausführbare
-Lauf ist `workflow-sitzung-d.js`.*
+*Erzeugt von `baue-roster-md.py` aus `roster_d.py` und `baue-sitzung-d.py`; Lesefassung über die
+geprüfte Tabelle in `lesbar.py`. Der ausführbare Lauf ist `workflow-sitzung-d.js`.*

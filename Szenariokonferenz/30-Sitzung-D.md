@@ -170,9 +170,37 @@ Beispiele für die Art der Korrektur:
    Modellsignal enthält und die Szenariowahl ein importierter US-Wert ist, steht jetzt im Papier.
    Beheben ließe es sich nur durch eine eigene deutsche Kalibrierung des Modells — das ist eine andere
    Arbeit als diese Konferenz.
+4. **Das Red Team hat zwei Generationen derselben Übergaben gesehen.** Eine Codeprüfung des Pull
+   Requests hat es gefunden, nachdem der Lauf schon durch war: Der Block *Stand der Kette* wurde aus
+   den überarbeiteten Übergaben gebaut, der Block *Die Übergaben im Einzelnen* aus den
+   ursprünglichen — beide standen unbeschriftet nebeneinander. Die **Punktwerte sind davon nicht
+   betroffen**; sie sind in beiden Fassungen identisch (1.790, 420, 140, 800, +5/−15). Betroffen sind
+   die *Herleitungstexte*, die sich in allen fünf Übergaben geändert haben. Damit kann ein Teil der
+   Argumentation von Angriff „14" — der Widersprüche zwischen benachbarten Stationen *nach* der
+   Überarbeitung behauptet — auf dem Text vor der Überarbeitung beruhen. Der Angriff selbst war sich
+   dessen an einer Stelle bewusst und schrieb ausdrücklich „und beide Fassungen sind die
+   überarbeiteten"; an den übrigen Stellen ist es nicht nachprüfbar. Im Skript ist der Fehler
+   behoben (beide Blöcke kommen jetzt aus den überarbeiteten Übergaben und sind als solche
+   beschriftet), für diesen Lauf bleibt er eine Einschränkung.
+
+## 8. Was die Codeprüfung sonst gefunden hat
+
+Cursor Bugbot hat den Pull Request geprüft und drei Befunde gemeldet. Alle drei wurden gegen den Code
+nachgeprüft:
+
+| Befund | Urteil | Folge |
+|---|---|---|
+| Red Team sieht gemischte Kettenversionen | **zutreffend** | behoben; Einschränkung für diesen Lauf, siehe § 7 Nr. 4 |
+| `weitergabe` erreicht die Folgestation nie | **zutreffend** | Das Schema verlangte das Feld, der Prompt erklärte es nicht, und `eingangsblock` gab es nicht aus. Die Stationen haben sich beholfen, indem sie ihr Größenpaar in `wert_zentral` schrieben — deshalb kam es durch, aber über den falschen Kanal. Behoben: Der Verdichtungsauftrag erklärt das Feld jetzt, und die Folgestation bekommt es wörtlich vorgelegt. |
+| Umlautumwandlung verunstaltet deutsche Wörter | **teils zutreffend** | Die Heuristik in `lesbar.py` erfand Umlaute: *Termintreue* wurde zu *Termintreü*, *Neuentstehung* zu *Neüntstehung*, *Hochrisikoeinstufung* zu *Hochrisiköinstufung*. Fünf Artefakte unter 253 Wörtern, im veröffentlichten Roster sichtbar. Ersetzt durch eine geprüfte Tabelle mit 272 Einträgen: Was nicht darin steht, bleibt unverändert — die Umwandlung kann nichts mehr erfinden. Die zweite Hälfte des Befunds, `SCHARF` greife nach der Umschreibung nicht mehr, trifft nicht zu; die Schlüssel passen. |
+
+Bemerkenswert ist die Art der ersten beiden Befunde: Beide betreffen die Mechanik der Übergabe
+zwischen den Stationen — also genau das, was diese Sitzung an den *Inhalten* sichtbar machen sollte.
+Das Verfahren hatte denselben Fehlertyp im eigenen Gerüst, den es im Gegenstand gesucht hat.
 
 ---
 
-*Rohdaten: `rohdaten/sitzung-d.json` (5,9 MB). Roster: `28-Roster-v2.md`. Papier:
+*Rohdaten: `rohdaten/sitzung-d.json` (5,9 MB). Roster: `28-Roster-v2.md`, erzeugt von
+`baue-roster-md.py`. Papier:
 `29-Strategiepapier-2031.md`. Lauf: `workflow-sitzung-d.js`, erzeugt aus `baue-sitzung-d.py` und
 `roster_d.py`.*

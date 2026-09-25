@@ -440,6 +440,8 @@ function eingangsblock(e) {
     '  Groesse:    ' + e.einheit + '\n' +
     '  Wert:       ' + e.wert_zentral + '   (80 % von ' + e.wert_unten + ' bis ' + e.wert_oben + ')\n' +
     '  Herleitung: ' + e.herleitung + '\n' +
+    '  Wie damit zu rechnen ist (Wortlaut der abgebenden Station):\n    ' +
+    String(e.weitergabe || '(nicht angegeben)') + '\n' +
     '  Vorbehalte: ' + (e.vorbehalte || []).join(' | ') + '\n' +
     '  Dissens in der abgebenden Station: ' + (e.dissens || []).join(' | ') + '\n'
 }
@@ -571,7 +573,11 @@ function promptVerdichtung(s, karten, eingang) {
     '3. Wer den Eingangswert bestritten hat, kommt namentlich unter eingang_bestritten_von. Wenn die\n' +
     '   Mehrheit ihn bestreitet, musst du das in der Weitergabe beruecksichtigen, nicht glaetten.\n' +
     '4. Unter vorbehalte steht, was die naechste Station wissen muss, bevor sie mit dem Wert rechnet.\n' +
-    '5. Keine Zahl ohne Mechanismus. Eine geglaettete Zahl, die keine Karte stuetzt, ist ein Fehler.\n\n' +
+    '5. Unter weitergabe steht in zwei bis drei Saetzen, WIE die naechste Station mit dem Wert zu\n' +
+    '   rechnen hat: welche Bezugsgroesse, welches Basisjahr, welche Abgrenzung, und — wenn diese\n' +
+    '   Station ein Groessenpaar weitergibt — dass beide Groessen nur zusammen gelten. Dieser Text\n' +
+    '   wird der naechsten Station woertlich vorgelegt; was hier nicht steht, erfaehrt sie nicht.\n' +
+    '6. Keine Zahl ohne Mechanismus. Eine geglaettete Zahl, die keine Karte stuetzt, ist ein Fehler.\n\n' +
     RAHMEN
 }
 
@@ -668,9 +674,13 @@ const stand = revisionen.map(u => u.station + ': ' + u.wert_zentral + ' ' + u.ei
   ' — ' + u.herleitung).join('\n')
 
 // Gekuerzte Fassungen fuer die Aufrufe, die die GANZE Kette auf einmal sehen muessen.
+// BEIDE aus revisionen, also aus dem Stand NACH der Kettenpruefung. Die erste Fassung
+// baute standKurz aus revisionen und kettenbildKurz aus uebergaben und legte beide
+// unbeschriftet nebeneinander — das Red Team verglich dadurch zwei Generationen
+// derselben Uebergabe miteinander.
 const standKurz = revisionen.map(u => u.station + ': ' + u.wert_zentral + ' ' + kappen(u.einheit, 300) +
   '\n   ' + kappen(u.herleitung, 2500)).join('\n\n')
-const kettenbildKurz = uebergaben.filter(Boolean).map(u =>
+const kettenbildKurz = revisionen.filter(Boolean).map(u =>
   u.station + ' gibt weiter: ' + u.wert_zentral + ' ' + kappen(u.einheit, 300) +
   ' (' + u.wert_unten + ' bis ' + u.wert_oben + ')\n' +
   '   Herleitung: ' + kappen(u.herleitung, 2500) + '\n' +
@@ -686,8 +696,9 @@ const [gegen, redteam] = await parallel([
     agent('Du bist Red Team der Szenariokonferenz. Dein Auftrag ist ausschliesslich, die folgende\n' +
       'Position zu widerlegen. Du bist keine Rolle und schuldest niemandem Ausgewogenheit.\n\n' +
       'ANGRIFF ' + a[0] + ': ' + a[1] + '\n\n' + a[2] + '\n\n' +
-      '# DER STAND DER KETTE\n\n' + standKurz + '\n\n' +
-      '# DIE UEBERGABEN IM EINZELNEN\n\n' + kettenbildKurz + '\n\n' +
+      '# DER STAND DER KETTE (Fassung NACH der Kettenpruefung)\n\n' + standKurz + '\n\n' +
+      '# DIESELBEN UEBERGABEN IM EINZELNEN (ebenfalls NACH der Kettenpruefung, mit\n' +
+      '# Dissens, bestrittenen Eingaengen und Vorbehalten)\n\n' + kettenbildKurz + '\n\n' +
       '# WAS DIE STATIONEN GESAGT HABEN\n\n' +
       'Die Karten sind hier gekuerzt wiedergegeben: die Zahlen vollstaendig, die Fliesstexte auf das\n' +
       'Noetige. Wo dir ein gekuerzter Text fuer einen Befund nicht reicht, sage das unter befunde\n' +
