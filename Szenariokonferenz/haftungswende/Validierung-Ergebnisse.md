@@ -72,3 +72,15 @@ Auftrag: Text ohne KI-Slang, einfach lesbar, mit rotem Faden; Zweck ist ein stra
 
 - Alle Fehler behoben: Ja
 - Neue Fassung: 2.0 (Versionsstellen synchronisiert: Ja)
+
+## Nachtrag 26.09.2026 — Fassung 2.0 — Umfang: Schnellprüfung (Prüfwerkzeug)
+
+Anlass: Hinweis von Cursor Bugbot, die Lesefassung `Die-Haftungswende.md` verliere Links, Listenmarken und Nummerierung; `validate_doc.py` könne dadurch echte Fehler übersehen.
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| Automatisierte Prüfung | Abweichung → behoben | Befund zutreffend: Der Konverter v1 ließ Links fallen, reihte Inhaltsverzeichnis und Kernaussagen ohne Trennung aneinander und gab Kapitel ohne Nummer aus. Die Querverweisprüfung (`refs`) war im Hauptlauf deshalb abgeschaltet. |
+
+**Bereinigung:** `als_markdown.py` baut jetzt einen Dokumentbaum und gibt Kapitel als `## N Titel`, Begriffe als `####`-Überschriften, Links als Markdown-Anker, Listen mit Marken und Abbildungen mit Nummer, Titel, Unterzeile, Tabelle oder Platzhalter und Quelle aus. Neuer Prüflauf `pruefe.py` mit allen Checks.
+
+**Nachprüfung:** `python3 pruefe.py` → 21 Abbildungen, 16 Begriffe, 25 interne Links, 0 Befunde, 5 Hinweise (Leerfeld-Striche in Tabellen). Gegenprobe mit absichtlich gebrochenen Verweisen (Kapitel 9, § 6.2, Abbildung 27): alle drei gemeldet. Am Papier selbst keine Änderung nötig.

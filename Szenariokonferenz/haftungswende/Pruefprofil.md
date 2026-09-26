@@ -34,6 +34,10 @@ Das Papier schafft einen **strategischen Rahmen**: Richtung, Voraussetzungen, Ha
 - Projektspezifische Stilregeln: keine Gedankenstriche im Fließtext (in Tabellen als Leerfeld zulässig); keine Zuspitzungsformeln „nicht X, sondern Y“ als Stilmittel; kein Verfahrensjargon der Konferenz im Fließtext
 - KI-Slang-Liste: `slang-liste.txt` (für `validate_doc.py --slang-liste`)
 
+## Automatisierte Prüfung
+- `python3 pruefe.py` erzeugt die Lesefassung, ruft `validate_doc.py` mit **allen** Checks auf (auch Querverweise) und filtert nur §-Treffer mit Gesetzesbezug in derselben Zeile (SGB, KHEntgG). Zusätzlich: Abbildungsnummern fortlaufend, Abbildungsverweise gültig, verbotener Verfahrensjargon, jeder Begriff verlinkt. Exit-Code 1 bei Befund.
+- Lesefassung: Kapitel als nummerierte Überschriften (`## N Titel`), Begriffe als `####`-Überschriften, Inhaltsverzeichnis und Begriffslinks als Markdown-Anker
+
 ## Quellen
 - Zitierstil: Kurzangaben in Bildunterschriften, Verzeichnis im Anhang
 - Pflichtstichproben: 1.790/1.550 Mrd. € (29-Strategiepapier K1); 420 vs. 331,062 Mrd. € (Ü1); 12 % Preisdurchgriff Leistungserbringer (Rohdaten D2); 14 von 18 positiv (S3-Karten); 52 % Kundenkonzentration 4K (baue-sitzung-d.py, brutto fakturiert)
@@ -49,6 +53,7 @@ Das Papier schafft einen **strategischen Rahmen**: Richtung, Voraussetzungen, Ha
 - Gestaltung: eigene Vorlage in `baue.py` (IBM Plex Sans / Source Serif 4), nicht die Aptos-Standardvorlage
 
 ## Bekannte Fehlermuster
+- Lesefassung verlor Links, Listenmarken und Kapitelnummern (Konverter v1); Querverweisprüfung war deshalb abgeschaltet. Seit Konverter v2 läuft sie mit.
 - Begriffslinks brechen die Deklination („Der Europäischer …“, „Die Beitragspflichtige …“): beim Einsetzen von `B()` die gebeugte Form übergeben
 - Anteile ohne Mehrheit als „überwiegend“ bezeichnet (40 % Kundenanteil)
 - Bezugsgröße der Kundenkonzentration: brutto fakturiert, nicht Netto-Außenumsatz

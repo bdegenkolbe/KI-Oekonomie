@@ -1,104 +1,81 @@
-HIGL-Verbund · Strategiepapier · September 2026
+**HIGL-Verbund · Strategiepapier · September 2026**
 
 # Die Haftungswende
 
-Was Künstliche Intelligenz bis 2031 für Europa, Deutschland, das Gesundheitswesen und die Gesellschaften des HIGL-Verbunds bedeutet
+*Was Künstliche Intelligenz bis 2031 für Europa, Deutschland, das Gesundheitswesen und die Gesellschaften des HIGL-Verbunds bedeutet*
 
-**Stand** 26. September 2026, Fassung 2.0
+- **Stand:** 26. September 2026, Fassung 2.0
+- **Zweck:** Strategischer Rahmen für die Gesellschaften des Verbunds
+- **Grundlage:** Szenariokonferenz mit 100 Fachrollen; Ist-Werte aus den DATEV-Kontenblättern 2025
+- **Für:** Gesellschafter und Geschäftsführungen
 
-**Zweck** Strategischer Rahmen für die Gesellschaften des Verbunds
+**Inhalt**
 
-**Grundlage** Szenariokonferenz mit 100 Fachrollen; Ist-Werte aus den DATEV-Kontenblättern 2025
-
-**Für** Gesellschafter und Geschäftsführungen
-
-Inhalt
-
-1. ·Auf einen Blick*Leitfrage, Kernaussagen, Rahmen*
-
-2. 1Europa*Der Gewinn kommt an, der Preis folgt ihm kaum*
-
-3. 2Deutschland*Die Beitragsbasis wächst weiter*
-
-4. 3Gesundheitswesen*Mehr Leistungen, knappere Preise*
-
-5. 4Pharma und USA*Mehr Druck, mehr Bedarf an Evidenz*
-
-6. 5Unser Markt*Auswertung wird billig, Haftung wird wertvoll*
-
-7. 6Die Gesellschaften*Wer wo steht*
-
-8. 7Der strategische Rahmen*Richtung, Voraussetzungen, Handlungsfelder, Zeitfenster*
-
-9. AAnhang*Methode, Grenzen, Begriffe, Quellen*
+- [Auf einen Blick](#auf-einen-blick): Leitfrage, Kernaussagen, Rahmen
+- 1 [Europa](#1-der-produktivitatsgewinn-kame-nach-europa-im-preis-zeigte-er-sich-kaum): Der Gewinn kommt an, der Preis folgt ihm kaum
+- 2 [Deutschland](#2-die-beitragsbasis-wuchse-weiter-ki-veranderte-sie-kaum): Die Beitragsbasis wächst weiter
+- 3 [Gesundheitswesen](#3-mehr-leistungen-knappere-preise): Mehr Leistungen, knappere Preise
+- 4 [Pharma und USA](#4-die-us-preispolitik-erhohte-den-druck-auf-hersteller-und-den-bedarf-an-evidenz): Mehr Druck, mehr Bedarf an Evidenz
+- 5 [Unser Markt](#5-auswertung-wurde-billig-haftung-wurde-wertvoll): Auswertung wird billig, Haftung wird wertvoll
+- 6 [Die Gesellschaften](#6-die-gesellschaften-entwickelten-sich-sehr-unterschiedlich): Wer wo steht
+- 7 [Der strategische Rahmen](#7-der-strategische-rahmen): Richtung, Voraussetzungen, Handlungsfelder, Zeitfenster
+- A [Anhang](#anhang-methode-grenzen-begriffe-quellen): Methode, Grenzen, Begriffe, Quellen
 
 Alle Werte für 2031 sind Ergebnisse einer Modellrechnung, keine Prognosen, und stehen deshalb im Konjunktiv. Gemessen sind die Ist-Werte 2025 aus den Buchungsdaten und die amtlichen Kennzahlen mit Quellenangabe.
 
-Zusammenfassung
+---
 
 ## Auf einen Blick
 
-KI macht Analyse schneller und billiger. Für einen Verbund, der von Analyse lebt, ist das Chance und Risiko zugleich. Dieses Papier ordnet ein, wo bis 2031 Wert entstünde und welche Richtung sich daraus für die Gesellschaften ableitet.
+*KI macht Analyse schneller und billiger. Für einen Verbund, der von Analyse lebt, ist das Chance und Risiko zugleich. Dieses Papier ordnet ein, wo bis 2031 Wert entstünde und welche Richtung sich daraus für die Gesellschaften ableitet.*
 
 **Leitfrage.** Wo entsteht im Gesundheitswesen bis 2031 Wert, wenn KI Analyse billig macht, und wie sollte sich der Verbund dazu aufstellen?
 
 Das Papier folgt dem Geld: von der Gesamtwirtschaft über die Krankenversicherung, die Krankenhäuser und die Pharmaindustrie bis zum Markt, in dem der Verbund verkauft. Jedes Kapitel endet mit der Frage, was der Befund für den Verbund bedeutet. Kapitel 7 fasst diese Folgerungen zu einem strategischen Rahmen zusammen. Beschlüsse trifft das Papier nicht; es beschreibt die Richtung und die Voraussetzungen, an denen sich die Gesellschaften ausrichten können.
 
-**1** **Europa** Der Produktivitätsgewinn käme auch in Europa an. Im Gesundheitswesen würde er sich aber kaum im Preis zeigen, weil Preise dort über Budgets und Gesetze festgelegt werden.
+- **Europa:** Der Produktivitätsgewinn käme auch in Europa an. Im Gesundheitswesen würde er sich aber kaum im Preis zeigen, weil Preise dort über Budgets und Gesetze festgelegt werden.
+- **Deutschland:** Die Löhne, auf die Krankenkassenbeiträge erhoben werden, würden bis 2031 auf rund 1.790 Mrd. € steigen. Der Anteil, der auf KI zurückgeht, wäre mit rund 10 Mrd. € klein.
+- **Gesundheitswesen:** Die Krankenkassen würden 2031 rund 27 Prozent mehr ausgeben als 2025, für die einzelne Leistung aber nur 13 Prozent mehr zahlen. Die Kunden des Verbunds hätten mehr Arbeit und weniger Spielraum.
+- **Pharma und USA:** Die US-Preispolitik setzt Hersteller unter Druck. Nach den meisten Einschätzungen würde das die Nachfrage nach Evidenz aus Deutschland erhöhen, im Median um rund 9 Prozent.
+- **Unser Markt:** Der Wert würde sich verschieben: weg von der Standardauswertung, die KI günstig erledigt, hin zu Ergebnissen, für die jemand haftet. Ihr Anteil stiege von 30 auf 68 Prozent.
+- **Die Gesellschaften:** WIG2 und GREENBAY Software würden wachsen, 4K ANALYTICS und CLINIBOTS stünden unter Druck. Der Verbund als Ganzes läge bei plus 5 Prozent Umsatz, aber mit sinkender Marge.
 
-**2** **Deutschland** Die Löhne, auf die Krankenkassenbeiträge erhoben werden, würden bis 2031 auf rund 1.790 Mrd. € steigen. Der Anteil, der auf KI zurückgeht, wäre mit rund 10 Mrd. € klein.
-
-**3** **Gesundheitswesen** Die Krankenkassen würden 2031 rund 27 Prozent mehr ausgeben als 2025, für die einzelne Leistung aber nur 13 Prozent mehr zahlen. Die Kunden des Verbunds hätten mehr Arbeit und weniger Spielraum.
-
-**4** **Pharma und USA** Die US-Preispolitik setzt Hersteller unter Druck. Nach den meisten Einschätzungen würde das die Nachfrage nach Evidenz aus Deutschland erhöhen, im Median um rund 9 Prozent.
-
-**5** **Unser Markt** Der Wert würde sich verschieben: weg von der Standardauswertung, die KI günstig erledigt, hin zu Ergebnissen, für die jemand haftet. Ihr Anteil stiege von 30 auf 68 Prozent.
-
-**6** **Die Gesellschaften** WIG2 und GREENBAY Software würden wachsen, 4K ANALYTICS und CLINIBOTS stünden unter Druck. Der Verbund als Ganzes läge bei plus 5 Prozent Umsatz, aber mit sinkender Marge.
-
-Der strategische Rahmen in Kürze
+**Der strategische Rahmen in Kürze**
 
 ### Vom Auswerten zum Einstehen
 
 Der Verbund würde seinen Wert künftig weniger aus Rechenarbeit ziehen als aus Ergebnissen, für die er einsteht. Dafür braucht es drei Voraussetzungen, die nur zusammen wirken: eine nachvollziehbare Auswertungsstrecke, einen Abnahmestandard und eine Verantwortung mit Versicherungsdeckung. Wie viel davon abhängt, zeigen die beiden Pfade, die die Modellrechnung unterscheidet:
 
-**+5 %** Umsatz 2031, Pfad A: Verbund kann haften
+- **+5 %** Umsatz 2031, Pfad A: Verbund kann haften
+- **−30 %** Umsatz 2031, Pfad B: Verbund bleibt bei der Standardauswertung
+- **5,1 Mio. €** Abstand beim Außenumsatz
+- **Ende 2027** bis dahin sollte klar sein, ob Versicherungsdeckung zu bekommen ist
 
-**−30 %** Umsatz 2031, Pfad B: Verbund bleibt bei der Standardauswertung
+**Abbildung 1: Vom Gesamtmarkt bis zum Verbund: Aus einem Produktivitätsgewinn würde ein Margenthema**
 
-**5,1 Mio. €** Abstand beim Außenumsatz
-
-**Ende 2027** bis dahin sollte klar sein, ob Versicherungsdeckung zu bekommen ist
-
-Abbildung 1
-
-Vom Gesamtmarkt bis zum Verbund: Aus einem Produktivitätsgewinn würde ein Margenthema
-
-Zentralwerte 2031 je Stufe der Wirkungskette
+*Zentralwerte 2031 je Stufe der Wirkungskette*
 
 *[Diagramm: Wirkungskette von der Gesamtwirtschaft bis zum HIGL-Verbund]*
 
 Quelle: Szenariokonferenz Sitzung D, Werte je Stufe; Basis 2025: GKV-Statistik KV45 und KJ1, DATEV-Kontenblätter des Verbunds. Umsatzangabe bezogen auf 14,48 Mio. € Außenumsatz 2025.
 
-Kapitel 1
+---
 
-## Der Produktivitätsgewinn käme nach Europa, im Preis zeigte er sich kaum
+## 1 Der Produktivitätsgewinn käme nach Europa, im Preis zeigte er sich kaum
 
-Die Studie, auf der diese Arbeit aufbaut, rechnet für die USA. Ihre Grundmechanik lässt sich auf Europa übertragen, ihre Preisbildung nicht. Das bestimmt, wer im Gesundheitswesen vom Gewinn profitiert.
+*Die Studie, auf der diese Arbeit aufbaut, rechnet für die USA. Ihre Grundmechanik lässt sich auf Europa übertragen, ihre Preisbildung nicht. Das bestimmt, wer im Gesundheitswesen vom Gewinn profitiert.*
 
 ### Ausgangspunkt: drei Szenarien für die USA
 
-Die Studie *Economic Scenarios for Transformative AI* (Korinek, Jones, Sacher, Cotter und McCrory, Working Paper 2026-02) beschreibt drei Szenarien bis 2030. Im mittleren Szenario *substantial* läge das Bruttoinlandsprodukt (BIP) 2030 um 8,3 Prozent über einem Pfad ohne KI, das Wachstum bei 5,4 statt rund 2 Prozent im Jahr. Im extremen Szenario wären es 32 Prozent und 15 Prozent Wachstum. Der Anteil der Arbeitseinkommen am Volkseinkommen, die Lohnquote, fiele von rund 60 auf 56 Prozent, im extremen Fall auf 45.
+Die Studie *Economic Scenarios for Transformative AI* (Korinek, Jones, Sacher, Cotter und McCrory, Working Paper 2026-02) beschreibt drei [Szenarien](#szenario) bis 2030. Im mittleren Szenario *substantial* läge das Bruttoinlandsprodukt (BIP) 2030 um 8,3 Prozent über einem Pfad ohne KI, das Wachstum bei 5,4 statt rund 2 Prozent im Jahr. Im extremen Szenario wären es 32 Prozent und 15 Prozent Wachstum. Der Anteil der Arbeitseinkommen am Volkseinkommen, die Lohnquote, fiele von rund 60 auf 56 Prozent, im extremen Fall auf 45.
 
 Zwei Befunde der Studie sind für dieses Papier wichtig. Die Löhne in Wissensberufen würden im mittleren Szenario leicht sinken, um 0,3 Prozent; die Löhne in allen übrigen Berufen stiegen um 5,9 Prozent. Die Studie beschreibt also eine Verschiebung zwischen Tätigkeiten, keinen allgemeinen Stellenabbau. Außerdem verlaufen die drei Szenarien bis 2027 fast gleich und trennen sich erst danach. Wer sich vorbereiten will, kann nicht abwarten, welches eintritt.
 
 Die Autoren betonen, dass ihre Szenarien keine Vorhersagen sind, und geben keine Wahrscheinlichkeiten an. Die Fachrollen der Szenariokonferenz haben trotzdem fast einhellig das mittlere Szenario gewählt (Abbildung 2). Die Zahlen dieses Papiers beschreiben deshalb im Kern einen Pfad, nicht die ganze Bandbreite.
 
-Abbildung 2
+**Abbildung 2: 73 von 83 Einschätzungen wählten das mittlere Szenario**
 
-73 von 83 Einschätzungen wählten das mittlere Szenario
-
-Szenarien der US-Studie und ihre Wahl in der Szenariokonferenz
+*Szenarien der US-Studie und ihre Wahl in der Szenariokonferenz*
 
 | Szenario der US-Studie (bis 2030) | BIP ggü. Basis | Wachstum p. a. | Lohnquote | gewählt von |
 |---|---|---|---|---|
@@ -113,11 +90,9 @@ Quelle: Korinek u. a., Economic Scenarios for Transformative AI, WP 2026-02; Sze
 
 Die Studie nennt selbst, was ihr Modell nicht abbildet: festgelegte Preise, Haushaltsjahre, gedeckelte Budgets und politische Aushandlung. Diese Faktoren bestimmen aber, wie ein Produktivitätsgewinn im europäischen Gesundheitswesen ankommt. Die Einschätzungen aller Stufen der Wirkungskette zeigen vier Unterschiede.
 
-Abbildung 3
+**Abbildung 3: An vier Punkten weicht die europäische Lage von den Annahmen der US-Studie ab**
 
-An vier Punkten weicht die europäische Lage von den Annahmen der US-Studie ab
-
-Annahmen der US-Studie und Lage im europäischen Gesundheitswesen
+*Annahmen der US-Studie und Lage im europäischen Gesundheitswesen*
 
 | Punkt | Annahme der US-Studie | Lage im europäischen Gesundheitswesen | Kennzahl |
 |---|---|---|---|
@@ -128,15 +103,13 @@ Annahmen der US-Studie und Lage im europäischen Gesundheitswesen
 
 Quelle: Sitzung D, Mediane zu Preisdurchgriff und Verzögerung; Engpassangaben der Fachrollen aus dem Verbund; Verbleib der Wertschöpfung in der EU aus dem Bestand der Szenariokonferenz (18 Einschätzungen, mittlere Hälfte 42 bis 68 Prozent).
 
-**Der Preis ist der wichtigste Unterschied.** Die Kennzahl dafür ist der Preisdurchgriff: Welcher Anteil eines Produktivitätsgewinns zeigt sich im Preis? In der deutschen Gesamtwirtschaft läge er bei 52 Prozent, bei Krankenhäusern, Praxen und Pflege bei 12 Prozent. Dort folgt der Preis der Budgetformel. Ein Krankenhaus, das mit KI günstiger dokumentiert, erhält dafür weder mehr noch weniger Geld. Die Ersparnis bleibt im Haus und deckt andere Kosten.
+**Der Preis ist der wichtigste Unterschied.** Die Kennzahl dafür ist der [Preisdurchgriff](#preisdurchgriff): Welcher Anteil eines Produktivitätsgewinns zeigt sich im Preis? In der deutschen Gesamtwirtschaft läge er bei 52 Prozent, bei Krankenhäusern, Praxen und Pflege bei 12 Prozent. Dort folgt der Preis der Budgetformel. Ein Krankenhaus, das mit KI günstiger dokumentiert, erhält dafür weder mehr noch weniger Geld. Die Ersparnis bleibt im Haus und deckt andere Kosten.
 
 **Europa ist dabei kein einheitlicher Raum.** In Frankreich steuert der Staat Preise über Fallpauschalen und einen nationalen Ausgabendeckel; er würde einen Effizienzgewinn in ein bis zwei Tarifrunden zurückholen. Der Preisdurchgriff läge bei 70 Prozent, allerdings zugunsten der Kostenträger. In den Niederlanden kaufen Versicherer selektiv ein, der Wert läge bei 55 Prozent. In steuerfinanzierten Systemen wie Dänemark und dem Vereinigten Königreich würde der Gewinn eher in kürzeren Wartezeiten aufgehen; dort lägen die Werte bei 15 und 20 Prozent.
 
-Abbildung 4
+**Abbildung 4: Deutschland läge mit 12 Prozent am unteren Rand: Im Krankenhaus käme ein Effizienzgewinn kaum beim Preis an**
 
-Deutschland läge mit 12 Prozent am unteren Rand: Im Krankenhaus käme ein Effizienzgewinn kaum beim Preis an
-
-Anteil eines Produktivitätsgewinns, der sich 2031 im Preis zeigen würde, Median in Prozent
+*Anteil eines Produktivitätsgewinns, der sich 2031 im Preis zeigen würde, Median in Prozent*
 
 *[Diagramm: Preisdurchgriff im europäischen Vergleich]*
 
@@ -144,33 +117,31 @@ Quelle: Sitzung D, Europa-Einschätzungen EU-01 bis EU-08 und Mediane der Stufen
 
 ### Die Regeln, die bis 2031 zählen
 
-**Die KI-Verordnung** würde KI im Gesundheitswesen vor allem verlangsamen, weil sie Nachweise fordert, für die die Maßstäbe noch fehlen: Die harmonisierten Normen zu den Pflichten für Hochrisikosysteme (Artikel 8 bis 15) liegen noch nicht vor. Wann die Pflichten für die Fälle aus Anhang III beginnen, ist unter den Fachrollen umstritten: zehn nennen den 2. Dezember 2027, zwei den 2. August 2028. Das deutsche Durchführungsgesetz gilt seit dem 29. Juli 2026.
+**Die [KI-Verordnung](#ki-verordnung)** würde KI im Gesundheitswesen vor allem verlangsamen, weil sie Nachweise fordert, für die die Maßstäbe noch fehlen: Die harmonisierten Normen zu den Pflichten für Hochrisikosysteme (Artikel 8 bis 15) liegen noch nicht vor. Wann die Pflichten für die Fälle aus Anhang III beginnen, ist unter den Fachrollen umstritten: zehn nennen den 2. Dezember 2027, zwei den 2. August 2028. Das deutsche Durchführungsgesetz gilt seit dem 29. Juli 2026.
 
-**Der Europäische Gesundheitsdatenraum** öffnet ab März 2031 die zweite Stufe der Datennutzung für Forschung, mit Bildgebung, Laborwerten, Entlassbriefen und Genomdaten. Für alle, die mit Gesundheitsdaten arbeiten, wäre das der größte Nachfrageschub bis 2031. Der Engpass läge in der Bearbeitungskapazität der Zugangsstellen.
+**Der [Europäische Gesundheitsdatenraum](#europaischer-gesundheitsdatenraum)** öffnet ab März 2031 die zweite Stufe der Datennutzung für Forschung, mit Bildgebung, Laborwerten, Entlassbriefen und Genomdaten. Für alle, die mit Gesundheitsdaten arbeiten, wäre das der größte Nachfrageschub bis 2031. Der Engpass läge in der Bearbeitungskapazität der Zugangsstellen.
 
 **Die Wettbewerbsfähigkeit Europas** bleibt der Hintergrund. Nach dem Draghi-Bericht sind nur vier der fünfzig größten Technologieunternehmen der Welt europäisch. Von einem KI-Effizienzgewinn im Gesundheitswesen blieben nach den Einschätzungen rund 55 Prozent in der EU, in einer Spanne von 42 bis 68 Prozent. Der Rest ginge an die Anbieter der Modelle und der Rechenleistung.
 
-Was das für den Verbund heißt
+> **Was das für den Verbund heißt**
+>
+> Der Verbund verkauft an Kunden, deren Preise kaum auf Produktivität reagieren. Seine Kunden könnten mit KI sparen, hätten dafür aber nicht mehr Budget. Der eigene Markt des Verbunds funktioniert anders: Dort herrscht Wettbewerb, und ein Effizienzgewinn würde an die Kunden weitergegeben (Kapitel 5). Beides zusammen heißt: Mit billigerer Standardarbeit allein ließe sich kein höherer Preis erzielen.
 
-Der Verbund verkauft an Kunden, deren Preise kaum auf Produktivität reagieren. Seine Kunden könnten mit KI sparen, hätten dafür aber nicht mehr Budget. Der eigene Markt des Verbunds funktioniert anders: Dort herrscht Wettbewerb, und ein Effizienzgewinn würde an die Kunden weitergegeben (Kapitel 5). Beides zusammen heißt: Mit billigerer Standardarbeit allein ließe sich kein höherer Preis erzielen.
+---
 
-Kapitel 2
+## 2 Die Beitragsbasis wüchse weiter, KI veränderte sie kaum
 
-## Die Beitragsbasis wüchse weiter, KI veränderte sie kaum
-
-Für die Finanzierung des Gesundheitswesens zählt vor allem die Summe der Löhne, auf die Beiträge erhoben werden. Sie würde bis 2031 weiter steigen, getragen von Recht und Lohnentwicklung.
+*Für die Finanzierung des Gesundheitswesens zählt vor allem die Summe der Löhne, auf die Beiträge erhoben werden. Sie würde bis 2031 weiter steigen, getragen von Recht und Lohnentwicklung.*
 
 ### Die Einnahmenbasis der Krankenkassen
 
-Die beitragspflichtigen Entgelte der Mitglieder der gesetzlichen Krankenversicherung (GKV) lagen 2025 bei 1.550 Mrd. €. Bis 2031 würden sie auf rund 1.790 Mrd. € steigen, in einer Spanne von 1.680 bis 1.930. Das entspräche 2,4 Prozent im Jahr. Treiber sind die Lohnentwicklung, die Zahl der Beschäftigten und die Beitragsbemessungsgrenze. Keiner dieser Treiber stammt aus der US-Studie.
+Die [beitragspflichtigen Entgelte](#beitragspflichtige-entgelte) der Mitglieder der gesetzlichen Krankenversicherung (GKV) lagen 2025 bei 1.550 Mrd. €. Bis 2031 würden sie auf rund 1.790 Mrd. € steigen, in einer Spanne von 1.680 bis 1.930. Das entspräche 2,4 Prozent im Jahr. Treiber sind die Lohnentwicklung, die Zahl der Beschäftigten und die Beitragsbemessungsgrenze. Keiner dieser Treiber stammt aus der US-Studie.
 
 Vier Einschätzungen beziffern, wie viel davon auf KI zurückgeht: rund 10 Mrd. €, also 0,56 Prozent. Allein die gesetzlich beschlossene Anhebung der Bemessungsgrenze zum 1. Januar 2027 brächte mit 15 bis 22 Mrd. € ungefähr das Doppelte. Die 1.790 Mrd. € sind daher vor allem eine Fortschreibung deutscher Regeln und Löhne. Der Einfluss von KI auf die Einnahmen bliebe bis 2031 gering.
 
-Abbildung 5
+**Abbildung 5: Die Wirkung der KI auf die Beitragsbasis wäre die kleinste der bezifferten Größen**
 
-Die Wirkung der KI auf die Beitragsbasis wäre die kleinste der bezifferten Größen
-
-Bewegungen der beitragspflichtigen Entgelte bis 2031, Mrd. €
+*Bewegungen der beitragspflichtigen Entgelte bis 2031, Mrd. €*
 
 *[Diagramm: Bewegungen der beitragspflichtigen Entgelte]*
 
@@ -182,11 +153,9 @@ Das Institut für Arbeitsmarkt- und Berufsforschung (IAB) rechnet damit, dass du
 
 Das passt zur US-Studie: Unter Druck gerieten vor allem die Einstiegsstufen der Wissensberufe. Gewinnen würden Tätigkeiten, bei denen Menschen vor Ort sein müssen. Im Gesundheitswesen ist das der größere Teil der Arbeit: Der Anteil körperlich gebundener Tätigkeiten läge bei den Leistungserbringern bei 45 Prozent, in der Gesamtwirtschaft bei 10 Prozent.
 
-Abbildung 6
+**Abbildung 6: Die Lohnquote würde sinken, im gewählten Szenario um vier Punkte**
 
-Die Lohnquote würde sinken, im gewählten Szenario um vier Punkte
-
-Anteil der Arbeitseinkommen am Volkseinkommen 2030 je Szenario, US-Studie
+*Anteil der Arbeitseinkommen am Volkseinkommen 2030 je Szenario, US-Studie*
 
 *[Diagramm: Lohnquote je Szenario]*
 
@@ -196,25 +165,23 @@ Quelle: Korinek u. a., WP 2026-02. Die Lohnquote lässt sich nicht direkt auf di
 
 Jede Fachrolle hat angegeben, wie sich ein Effizienzgewinn in ihrem Bereich auf Kapitalgeber, Kunden, Beschäftigte und Staat verteilen würde (Abbildung 7). In der Gesamtwirtschaft teilten sich Kapital und Kunden den Gewinn etwa hälftig. Bei den Kranken- und Pflegekassen ginge gut ein Drittel an den Staat, über Beitragssätze, Zuschüsse und Aufsicht. Im Markt des Verbunds erhielten die Kunden mit 40 Prozent den größten Anteil.
 
-Abbildung 7
+**Abbildung 7: Im Markt des Verbunds bekämen die Kunden mit 40 Prozent den größten Anteil des Effizienzgewinns**
 
-Im Markt des Verbunds bekämen die Kunden mit 40 Prozent den größten Anteil des Effizienzgewinns
-
-Verteilung eines Effizienzgewinns 2031, Median je Stufe in Prozent
+*Verteilung eines Effizienzgewinns 2031, Median je Stufe in Prozent*
 
 *[Diagramm: Verteilung des Effizienzgewinns je Stufe]*
 
 Quelle: Sitzung D, alle 83 Einschätzungen entlang der Wirkungskette; je Einschätzung ergeben die vier Anteile 100. Die Mediane ergeben je Zeile nicht zwingend 100.
 
-Was das für den Verbund heißt
+> **Was das für den Verbund heißt**
+>
+> Die Finanzierung des Gesundheitswesens bräche bis 2031 nicht weg; die Einnahmen würden weiter wachsen. Der Druck auf die Kunden des Verbunds käme von der Ausgabenseite (Kapitel 3). Für den eigenen Markt heißt die Verteilung: Vom Effizienzgewinn aus KI erhielten die Kunden den größten Anteil, der Anbieter behielte nur einen Teil.
 
-Die Finanzierung des Gesundheitswesens bräche bis 2031 nicht weg; die Einnahmen würden weiter wachsen. Der Druck auf die Kunden des Verbunds käme von der Ausgabenseite (Kapitel 3). Für den eigenen Markt heißt die Verteilung: Vom Effizienzgewinn aus KI erhielten die Kunden den größten Anteil, der Anbieter behielte nur einen Teil.
+---
 
-Kapitel 3
+## 3 Mehr Leistungen, knappere Preise
 
-## Mehr Leistungen, knappere Preise
-
-Die Krankenkassen würden 2031 deutlich mehr ausgeben als heute. Beim einzelnen Krankenhaus und bei der einzelnen Praxis käme davon weniger an, als ihre Kosten stiegen. Die Kunden des Verbunds hätten mehr Arbeit und weniger Spielraum.
+*Die Krankenkassen würden 2031 deutlich mehr ausgeben als heute. Beim einzelnen Krankenhaus und bei der einzelnen Praxis käme davon weniger an, als ihre Kosten stiegen. Die Kunden des Verbunds hätten mehr Arbeit und weniger Spielraum.*
 
 ### Gesetzliche Krankenversicherung: Die Ausgaben wachsen schneller als die Preise
 
@@ -224,11 +191,9 @@ Die Kosten der Leistungserbringer würden nach den Einschätzungen um 18 bis 26 
 
 Der steuerfinanzierte Anteil würde sinken. Die Bundesmittel entsprachen 2025 noch 4,8 Prozent der Leistungsausgaben, 2031 wären es bei nahezu unverändertem Zuschuss rund 3,7 Prozent. Die Finanzreserven der Kassen lagen Ende 2025 bei 5,1 Mrd. €, das reicht für gut fünf Tage Ausgaben. Für Investitionen, die sich erst nach drei Jahren rechnen, hätten die Kassen damit wenig Spielraum, zumal ihre Verwaltungskosten ab 2027 an den Einnahmenzuwachs gebunden sind.
 
-Abbildung 8
+**Abbildung 8: Die Ausgaben würden doppelt so schnell steigen wie die Vergütung je Leistung; real verlöre jede Leistung an Wert**
 
-Die Ausgaben würden doppelt so schnell steigen wie die Vergütung je Leistung; real verlöre jede Leistung an Wert
-
-Veränderung 2031 gegenüber 2025 in Prozent, Zentralwerte
+*Veränderung 2031 gegenüber 2025 in Prozent, Zentralwerte*
 
 *[Diagramm: Ausgaben, Vergütung und Kosten in der GKV 2031]*
 
@@ -240,47 +205,43 @@ Die private Krankenversicherung (PKV) zählte 2025 rund 8,79 Millionen Vollversi
 
 ### Krankenhäuser: Die Reform wirkt erst ab 2030 voll
 
-Das Krankenhausreformanpassungsgesetz (KHAG) gilt seit dem 15. April 2026. Es ordnet die Versorgung in 61 Leistungsgruppen und führt eine Vorhaltevergütung ein. Sie läuft 2026 und 2027 budgetneutral, wird 2028 und 2029 schrittweise eingeführt und wirkt ab 2030 voll. Das Institut für das Entgeltsystem im Krankenhaus (InEK) rechnet für 2026 bis 2029 mit den Daten von 2024.
+Das Krankenhausreformanpassungsgesetz (KHAG) gilt seit dem 15. April 2026. Es ordnet die Versorgung in 61 Leistungsgruppen und führt eine [Vorhaltevergütung](#vorhaltevergutung) ein. Sie läuft 2026 und 2027 budgetneutral, wird 2028 und 2029 schrittweise eingeführt und wirkt ab 2030 voll. Das Institut für das Entgeltsystem im Krankenhaus (InEK) rechnet für 2026 bis 2029 mit den Daten von 2024.
 
 Bis 2030 hätte ein Krankenhaus damit kaum eine Möglichkeit, einen KI-Effizienzgewinn in höhere Erlöse umzusetzen. Der Gewinn bliebe als Kostenentlastung im Haus. Deshalb läge der Preisdurchgriff bei den Leistungserbringern am niedrigsten in der ganzen Wirkungskette (Abbildung 9).
 
-Abbildung 9
+**Abbildung 9: Der Preis folgte der Produktivität vor allem dort, wo Wettbewerb herrscht: im Markt des Verbunds mit 58 Prozent**
 
-Der Preis folgte der Produktivität vor allem dort, wo Wettbewerb herrscht: im Markt des Verbunds mit 58 Prozent
-
-Preisdurchgriff 2031 je Stufe der Wirkungskette, Median in Prozent
+*Preisdurchgriff 2031 je Stufe der Wirkungskette, Median in Prozent*
 
 *[Diagramm: Preisdurchgriff je Stufe]*
 
 Quelle: Sitzung D, alle 83 Einschätzungen, Median je Stufe. Bis zur Wirkung vergingen auf allen Stufen im Median drei Jahre.
 
-Was das für den Verbund heißt
+> **Was das für den Verbund heißt**
+>
+> Kassen, Krankenhäuser und Hersteller hätten 2031 mehr Fälle, knappere Budgets und strengere Nachweispflichten. Sie würden weniger Auswertung um ihrer selbst willen einkaufen und mehr Ergebnisse, auf die sie sich vor Aufsicht, Schiedsstelle oder Gericht berufen können. Das ist die Nachfrage, auf die sich der Verbund ausrichten müsste.
 
-Kassen, Krankenhäuser und Hersteller hätten 2031 mehr Fälle, knappere Budgets und strengere Nachweispflichten. Sie würden weniger Auswertung um ihrer selbst willen einkaufen und mehr Ergebnisse, auf die sie sich vor Aufsicht, Schiedsstelle oder Gericht berufen können. Das ist die Nachfrage, auf die sich der Verbund ausrichten müsste.
+---
 
-Kapitel 4
+## 4 Die US-Preispolitik erhöhte den Druck auf Hersteller und den Bedarf an Evidenz
 
-## Die US-Preispolitik erhöhte den Druck auf Hersteller und den Bedarf an Evidenz
-
-Die amerikanische Arzneimittelpolitik schmälert die Margen der Hersteller. Zugleich macht sie den deutschen Erstattungsbetrag zum Vergleichspreis für den größten Markt der Welt. Für Anbieter von Evidenz überwöge nach den meisten Einschätzungen der zweite Effekt.
+*Die amerikanische Arzneimittelpolitik schmälert die Margen der Hersteller. Zugleich macht sie den deutschen Erstattungsbetrag zum Vergleichspreis für den größten Markt der Welt. Für Anbieter von Evidenz überwöge nach den meisten Einschätzungen der zweite Effekt.*
 
 ### Was in den USA beschlossen ist
 
 Mit der Proklamation 11020 vom 2. April 2026 hat die US-Regierung Zölle auf patentgeschützte Arzneimittel eingeführt. Der Regelsatz liegt bei 100 Prozent, für Erzeugnisse aus der EU bei 15 Prozent, aus dem Vereinigten Königreich bei 10 Prozent. Für 17 namentlich genannte Unternehmen gilt der Zoll seit dem 31. Juli 2026, für alle übrigen ab dem 29. September 2026. Hersteller mit einer Preisvereinbarung und Produktion in den USA zahlen bis zum 20. Januar 2029 keinen Zoll; wer nur die Produktion verlagert, zahlt 20 Prozent und ab dem 2. April 2030 den vollen Satz. Generika sind ausgenommen, laut Text allerdings nur »at this time«; eine Überprüfung ist binnen eines Jahres vorgesehen.
 
-Hinzu kommen 26 Vereinbarungen zur Meistbegünstigung mit Herstellern, die zusammen rund 89 Prozent des Markts für Markenarzneimittel abdecken, sowie drei Erstattungsmodelle: GENEROUS für Medicaid seit Januar 2026, GLOBE für Medicare Part B, angekündigt für Oktober 2026 (eine endgültige Regelung lag zum Stand dieses Papiers nicht vor), und GUARD für Medicare Part D ab Januar 2027.
+Hinzu kommen 26 Vereinbarungen zur [Meistbegünstigung](#meistbegunstigung) mit Herstellern, die zusammen rund 89 Prozent des Markts für Markenarzneimittel abdecken, sowie drei Erstattungsmodelle: GENEROUS für Medicaid seit Januar 2026, GLOBE für Medicare Part B, angekündigt für Oktober 2026 (eine endgültige Regelung lag zum Stand dieses Papiers nicht vor), und GUARD für Medicare Part D ab Januar 2027.
 
 ### Warum Deutschland dabei besonders betroffen ist
 
-Bei der Meistbegünstigung orientiert sich der US-Preis an den Preisen anderer Länder. Deutschland gehört zu beiden US-Vergleichsgruppen und ist das einzige große EU-Land, dessen verhandelte Nettopreise öffentlich sind. Der Erstattungsbetrag gilt ab dem siebten Monat bundesweit. Jeder Euro, den ein Hersteller in Deutschland nachgibt, könnte ihn damit auch in den USA Geld kosten.
+Bei der Meistbegünstigung orientiert sich der US-Preis an den Preisen anderer Länder. Deutschland gehört zu beiden US-Vergleichsgruppen und ist das einzige große EU-Land, dessen verhandelte Nettopreise öffentlich sind. Der [Erstattungsbetrag](#erstattungsbetrag) gilt ab dem siebten Monat bundesweit. Jeder Euro, den ein Hersteller in Deutschland nachgibt, könnte ihn damit auch in den USA Geld kosten.
 
 § 130b Abs. 1c SGB V erlaubt derzeit einen vertraulichen Erstattungsbetrag. Diese Regel läuft am 30. Juni 2028 aus, wenn der Gesetzgeber nicht handelt. Ohne Referentenentwurf bis Mitte 2027 wäre das Auslaufen praktisch nicht mehr aufzuhalten. Die Fachrollen halten das Auslaufen für den wahrscheinlicheren Fall, mit rund 65 Prozent. Sieben von achtzehn nennen diese Frage als diejenige, die ihre Einschätzung am stärksten beeinflusst.
 
-Abbildung 10
+**Abbildung 10: Der US-Druck verschärft sich bis 2030 in mehreren Stufen; die deutsche Frist fällt in die Mitte**
 
-Der US-Druck verschärft sich bis 2030 in mehreren Stufen; die deutsche Frist fällt in die Mitte
-
-Oben: Rechtsstand in den USA; unten: Fristen in Deutschland
+*Oben: Rechtsstand in den USA; unten: Fristen in Deutschland*
 
 *[Diagramm: Zeitplan der US-Arzneimittelpolitik und der deutschen Frist]*
 
@@ -292,39 +253,35 @@ Wer einen Preis verteidigen muss, braucht bessere Begründungen. 14 der 18 Einsc
 
 Die Einschätzungen nennen vier Wirkungswege. Drei wirken nach oben: Hersteller würden mehr in die Begründung eines Erstattungsbetrags investieren, der zugleich US-Vergleichspreis ist; der vertrauliche Erstattungsbetrag setzt eine Forschungsabteilung in Deutschland voraus; und die Proklamation macht den Nachweis, wo ein Wirkstoff hergestellt wird, zu einer Geldfrage. Einer wirkt nach unten: Sinkt die US-Marge, sparen Hersteller zuerst bei Abteilungen ohne eigene Erlöse, und dazu gehören Evidenzabteilungen.
 
-Sicher ist die Richtung nicht. Sieben der achtzehn Einschätzungen halten auch einen Effekt von null für möglich. Für Generika, Medizinprodukte und digitale Gesundheitsanwendungen spielt die US-Politik derzeit keine Rolle. Der Effekt würde den Markt deshalb eher aufteilen als insgesamt vergrößern: Er stärkte Anbieter, die Herstellern in der Nutzenbewertung helfen, und schwächte jene, deren Leistung beim Hersteller als reiner Kostenblock gilt.
+Sicher ist die Richtung nicht. Sieben der achtzehn Einschätzungen halten auch einen Effekt von null für möglich. Für Generika, Medizinprodukte und digitale Gesundheitsanwendungen spielt die US-Politik derzeit keine Rolle. Der Effekt würde den Markt deshalb eher aufteilen als insgesamt vergrößern: Er stärkte Anbieter, die Herstellern in der [Nutzenbewertung](#nutzenbewertung) helfen, und schwächte jene, deren Leistung beim Hersteller als reiner Kostenblock gilt.
 
-Abbildung 11
+**Abbildung 11: 14 von 18 Einschätzungen sähen einen positiven US-Effekt auf die Nachfrage nach Evidenz, im Median +9 Prozent**
 
-14 von 18 Einschätzungen sähen einen positiven US-Effekt auf die Nachfrage nach Evidenz, im Median +9 Prozent
-
-Effekt der US-Arzneimittelpolitik auf das Volumen des deutschen Evidenzmarkts 2031, je Einschätzung in Prozent
+*Effekt der US-Arzneimittelpolitik auf das Volumen des deutschen Evidenzmarkts 2031, je Einschätzung in Prozent*
 
 *[Diagramm: Effekt der US-Politik je Einschätzung]*
 
 Quelle: Sitzung D, Einschätzungen S3-01 bis S3-18; Differenz zwischen dem Wert mit und ohne US-Politik, bezogen auf den Wert ohne. Median der Eurodifferenzen +65 Mio. €, Durchschnitt +50 Mio. €.
 
-Was das für den Verbund heißt
+> **Was das für den Verbund heißt**
+>
+> Die Nutzenbewertung würde für Hersteller wichtiger. Wer dort mit belastbarer Evidenz aus deutschen Versorgungsdaten auftreten kann, hätte bessere Chancen. Voraussetzung wäre, dass solche Evidenz im Verfahren nach § 35a SGB V anerkannt wird, auch wenn sie mit KI erzeugt wurde. Für maschinell erzeugte Ergebnisse fehlt dafür bislang eine Regel; acht der achtzehn Einschätzungen sehen darin den wichtigsten Engpass.
 
-Die Nutzenbewertung würde für Hersteller wichtiger. Wer dort mit belastbarer Evidenz aus deutschen Versorgungsdaten auftreten kann, hätte bessere Chancen. Voraussetzung wäre, dass solche Evidenz im Verfahren nach § 35a SGB V anerkannt wird, auch wenn sie mit KI erzeugt wurde. Für maschinell erzeugte Ergebnisse fehlt dafür bislang eine Regel; acht der achtzehn Einschätzungen sehen darin den wichtigsten Engpass.
+---
 
-Kapitel 5
+## 5 Auswertung würde billig, Haftung würde wertvoll
 
-## Auswertung würde billig, Haftung würde wertvoll
-
-Der Markt, in dem der Verbund verkauft, würde wachsen, aber über die Menge und nicht über den Preis. Zugleich teilte er sich in zwei Leistungsarten, die sich gegenläufig entwickeln.
+*Der Markt, in dem der Verbund verkauft, würde wachsen, aber über die Menge und nicht über den Preis. Zugleich teilte er sich in zwei Leistungsarten, die sich gegenläufig entwickeln.*
 
 ### Mehr Aufträge zu niedrigeren Preisen
 
 Der Markt für extern beauftragte Evidenz und Analytik im deutschen Gesundheitswesen läge 2031 bei rund 800 Mio. €, in einer Spanne von 550 bis 1.150 Mio. €. Die Menge der Aufträge stiege um rund die Hälfte, der Preis je Leistung fiele um ein Viertel. Die Menge würde von den Nachweispflichten aus Kapitel 3 und 4 getrieben, von der zweiten Stufe des Gesundheitsdatenraums und vom Druck auf die Kassen, ihre Ausgaben zu begründen.
 
-Die Marktgröße ist die unsicherste Zahl dieses Papiers. Der einzige öffentlich verfügbare Vergleichswert für Deutschland ist die Schätzung eines Marktforschungsinstituts für den Teilmarkt Real-World-Evidence: 204,2 Mio. US-Dollar im Jahr 2023. Sechzehn der achtzehn Einschätzungen zur Pharmaindustrie nennen die Marktgröße als ihren schwächsten Punkt.
+Die Marktgröße ist die unsicherste Zahl dieses Papiers. Der einzige öffentlich verfügbare Vergleichswert für Deutschland ist die Schätzung eines Marktforschungsinstituts für den Teilmarkt [Real-World-Evidence](#real-world-evidence): 204,2 Mio. US-Dollar im Jahr 2023. Sechzehn der achtzehn Einschätzungen zur Pharmaindustrie nennen die Marktgröße als ihren schwächsten Punkt.
 
-Abbildung 12
+**Abbildung 12: Der Markt würde über die Menge wachsen: die Hälfte mehr Aufträge, ein Viertel billiger je Auftrag**
 
-Der Markt würde über die Menge wachsen: die Hälfte mehr Aufträge, ein Viertel billiger je Auftrag
-
-Markt für extern beauftragte Evidenz und Analytik im deutschen Gesundheitswesen 2031
+*Markt für extern beauftragte Evidenz und Analytik im deutschen Gesundheitswesen 2031*
 
 | Größe 2031 | Zentralwert | 80-%-Intervall | Lesart |
 |---|---|---|---|
@@ -339,41 +296,37 @@ Quelle: Sitzung D, Stufen Pharma und Markt des Verbunds. Einziger öffentlicher 
 
 Die zwölf Fachrollen aus dem Verbund beschreiben die Entwicklung übereinstimmend: Was vor allem Rechenzeit kostet, verliert an Wert; was eine Unterschrift braucht, gewinnt. Das Papier unterscheidet deshalb zwei Leistungsarten.
 
-Die Standardauswertung umfasst Datenaufbereitung, Kohortenbildung, Literaturübersichten, Standardmodelle, Kennzahlenberichte und Foliensätze. Solche Leistungen könnte ein Kunde 2031 mit eigenen Werkzeugen in einem Bruchteil der Zeit selbst erstellen. Ihr Preis würde mit ihren Kosten fallen.
+Die [Standardauswertung](#standardauswertung) umfasst Datenaufbereitung, Kohortenbildung, Literaturübersichten, Standardmodelle, Kennzahlenberichte und Foliensätze. Solche Leistungen könnte ein Kunde 2031 mit eigenen Werkzeugen in einem Bruchteil der Zeit selbst erstellen. Ihr Preis würde mit ihren Kosten fallen.
 
-Eine Leistung mit Haftung ist ein Ergebnis, für das der Anbieter einsteht: vor dem Gemeinsamen Bundesausschuss, einer Schiedsstelle, einer Aufsicht oder einem Gericht. Ihr Preis ergibt sich aus der Zusicherung, nicht aus dem Aufwand. Sie setzt drei Dinge voraus: eine nachvollziehbare Auswertungsstrecke, einen Abnahmestandard und jemanden, der das Ergebnis unterschreibt.
+Eine [Leistung mit Haftung](#leistung-mit-haftung) ist ein Ergebnis, für das der Anbieter einsteht: vor dem Gemeinsamen Bundesausschuss, einer Schiedsstelle, einer Aufsicht oder einem Gericht. Ihr Preis ergibt sich aus der Zusicherung, nicht aus dem Aufwand. Sie setzt drei Dinge voraus: eine nachvollziehbare Auswertungsstrecke, einen Abnahmestandard und jemanden, der das Ergebnis unterschreibt.
 
-Abbildung 13
+**Abbildung 13: Der Wertanteil der Leistung mit Haftung stiege von 30 auf 68 Prozent**
 
-Der Wertanteil der Leistung mit Haftung stiege von 30 auf 68 Prozent
-
-Anteil am Umsatz des Evidenzmarkts nach Leistungsart
+*Anteil am Umsatz des Evidenzmarkts nach Leistungsart*
 
 *[Diagramm: Wertanteile von Standardauswertung und Leistung mit Haftung]*
 
 Quelle: Sitzung D, zwölf Einschätzungen aus dem Verbund; Aufteilung nachgerechnet und bestätigt.
 
-Was das für den Verbund heißt
+> **Was das für den Verbund heißt**
+>
+> Ein Anbieter, der den Wechsel zur Leistung mit Haftung schafft, könnte seinen Umsatz leicht steigern. Sein [Deckungsbeitrag](#deckungsbeitrag) würde trotzdem zunächst sinken, um rund 15 Prozent gegenüber 2025, weil die Zusicherung vorab Geld kostet: Versicherung, Abnahmeverfahren, Qualifikation und neue Vertragsformen. Das Wachstum läge im Umsatz, die Aufgabe in der Marge.
 
-Ein Anbieter, der den Wechsel zur Leistung mit Haftung schafft, könnte seinen Umsatz leicht steigern. Sein Deckungsbeitrag würde trotzdem zunächst sinken, um rund 15 Prozent gegenüber 2025, weil die Zusicherung vorab Geld kostet: Versicherung, Abnahmeverfahren, Qualifikation und neue Vertragsformen. Das Wachstum läge im Umsatz, die Aufgabe in der Marge.
+---
 
-Kapitel 6
+## 6 Die Gesellschaften entwickelten sich sehr unterschiedlich
 
-## Die Gesellschaften entwickelten sich sehr unterschiedlich
-
-Im Durchschnitt würde der Verbund bis 2031 leicht wachsen. Dahinter stünden gegenläufige Entwicklungen. Wie es einer Gesellschaft ginge, hinge davon ab, wie viel ihres Umsatzes schon heute an Ergebnissen hängt, für die sie einsteht.
+*Im Durchschnitt würde der Verbund bis 2031 leicht wachsen. Dahinter stünden gegenläufige Entwicklungen. Wie es einer Gesellschaft ginge, hinge davon ab, wie viel ihres Umsatzes schon heute an Ergebnissen hängt, für die sie einsteht.*
 
 ### Die Ausgangslage 2025
 
-Die sieben Gesellschaften mit eigenen Buchungsdaten erzielten 2025 zusammen 17,57 Mio. € Netto-Erlöse. Ein Teil davon sind Leistungen zwischen den Gesellschaften; der Außenumsatz lag bei rund 14,48 Mio. €. Alle Werte für 2031 beziehen sich auf diesen Außenumsatz.
+Die sieben Gesellschaften mit eigenen Buchungsdaten erzielten 2025 zusammen 17,57 Mio. € Netto-Erlöse. Ein Teil davon sind Leistungen zwischen den Gesellschaften; der [Außenumsatz](#außenumsatz) lag bei rund 14,48 Mio. €. Alle Werte für 2031 beziehen sich auf diesen Außenumsatz.
 
 WIG2 und 4K ANALYTICS stehen zusammen für 89 Prozent des Außenumsatzes, und beide hängen stark an einzelnen Kunden. Bei 4K entfallen auf die IKK classic (2,12 Mio. €) und IQVIA (1,91 Mio. €) zusammen 52 Prozent des extern fakturierten Volumens. Bei WIG2 steht der größte Kunde, die ZEG, mit 1,65 Mio. € für 25 Prozent. Die Kundenbeträge sind Bruttobeträge aus der Debitorenbuchhaltung; sie lassen sich deshalb nicht direkt mit den Netto-Erlösen in Abbildung 14 verrechnen.
 
-Abbildung 14
+**Abbildung 14: WIG2 und 4K ANALYTICS tragen 89 Prozent des Außenumsatzes**
 
-WIG2 und 4K ANALYTICS tragen 89 Prozent des Außenumsatzes
-
-Netto-Erlöse 2025 je Gesellschaft in Mio. €, darunter der Anteil des Innenumsatzes
+*Netto-Erlöse 2025 je Gesellschaft in Mio. €, darunter der Anteil des Innenumsatzes*
 
 *[Diagramm: Netto-Erlöse 2025 je Gesellschaft]*
 
@@ -389,21 +342,19 @@ Quelle: DATEV-Kontenblätter 2025, Erlöskonten, gemessen. GREENBAY healthcare i
 
 **iLoc** lässt sich nicht bewerten, weil 99,6 Prozent ihres Umsatzes innerhalb des Verbunds entstehen. Ohne Außenmarkt würde ein Effizienzgewinn nur die interne Umlage senken. **GREENBAY research** (plus 10 Prozent) und **INNO3** (unverändert) lägen dazwischen.
 
-Abbildung 15
+**Abbildung 15: Die Gesellschaften lägen bis zu 80 Prozentpunkte auseinander; der Verbundwert beschreibt keine von ihnen**
 
-Die Gesellschaften lägen bis zu 80 Prozentpunkte auseinander; der Verbundwert beschreibt keine von ihnen
-
-Umsatz 2031 gegenüber 2025 mit 80-%-Intervall, rechts die Veränderung des Deckungsbeitrags (DB), Pfad A
+*Umsatz 2031 gegenüber 2025 mit 80-%-Intervall, rechts die Veränderung des Deckungsbeitrags (DB), Pfad A*
 
 *[Diagramm: Umsatz 2031 je Gesellschaft]*
 
 Quelle: Sitzung D, Stufe Markt des Verbunds. Pfad A: Der Verbund kann für seine Ergebnisse haften (Kapitel 7). Werte auf fünf Prozentpunkte genau zu lesen.
 
-Offene Stelle: GREENBAY healthcare
-
-GREENBAY healthcare ist in diesem Papier nicht bewertet. Die Gesellschaft ist eine Teilbetriebsausgründung der 4K ANALYTICS GmbH und hat deshalb keinen eigenen Mandanten in den Buchungsdaten, aus denen die Ausgangslage gebildet wurde. Sie beschäftigt 45 Personen und bietet mit *hAIppokrates* (ein Rahmenwerk für Sprachmodelle im klinischen Umfeld), *Copertino* (Dokumentation der Tariftreue) und der angekündigten *GREENBAY Suite* Produkte an, die nach diesem Papier an Wert gewinnen würden.
-
-Der Wert für 4K beschreibt deshalb ein Geschäft, aus dem der wachsende Teil bereits ausgegliedert ist. Die plus 5 Prozent für den Verbund wären eher zu niedrig als zu hoch. Wie viel, lässt sich erst sagen, wenn die Erlös- und Kostenzahlen 2025 von GREENBAY healthcare getrennt vorliegen.
+> **Offene Stelle: GREENBAY healthcare**
+>
+> GREENBAY healthcare ist in diesem Papier nicht bewertet. Die Gesellschaft ist eine Teilbetriebsausgründung der 4K ANALYTICS GmbH und hat deshalb keinen eigenen Mandanten in den Buchungsdaten, aus denen die Ausgangslage gebildet wurde. Sie beschäftigt 45 Personen und bietet mit *hAIppokrates* (ein Rahmenwerk für Sprachmodelle im klinischen Umfeld), *Copertino* (Dokumentation der Tariftreue) und der angekündigten *GREENBAY Suite* Produkte an, die nach diesem Papier an Wert gewinnen würden.
+>
+> Der Wert für 4K beschreibt deshalb ein Geschäft, aus dem der wachsende Teil bereits ausgegliedert ist. Die plus 5 Prozent für den Verbund wären eher zu niedrig als zu hoch. Wie viel, lässt sich erst sagen, wenn die Erlös- und Kostenzahlen 2025 von GREENBAY healthcare getrennt vorliegen.
 
 ### Der wichtigste Engpass wäre die Haftung
 
@@ -411,11 +362,9 @@ Sieben der zwölf Fachrollen aus dem Verbund sehen in der Haftung den wichtigste
 
 Keine der zwölf Fachrollen hält die dafür nötige Versicherungsdeckung für verfügbar oder die Frage für gelöst. Eine gibt an, dass derzeit kein einziges Deckungsangebot vorliege.
 
-Abbildung 16
+**Abbildung 16: Aus Sicht des Verbunds stünde die Haftung an erster Stelle**
 
-Aus Sicht des Verbunds stünde die Haftung an erster Stelle
-
-Wichtigster Engpass für den Wechsel zur Leistung mit Haftung
+*Wichtigster Engpass für den Wechsel zur Leistung mit Haftung*
 
 | Wichtigster Engpass | Fachrollen aus dem Verbund | Frühere Befragung |
 |---|---|---|
@@ -427,25 +376,23 @@ Wichtigster Engpass für den Wechsel zur Leistung mit Haftung
 
 Quelle: Sitzung D, Einschätzungen S4-01 bis S4-12; frühere Befragung aus dem Bestand der Szenariokonferenz, Zahl der Nennungen. Die Spalten haben unterschiedliche Grundgesamtheiten und sind nicht direkt vergleichbar.
 
-Was das für den Verbund heißt
+> **Was das für den Verbund heißt**
+>
+> Eine einheitliche Verbundstrategie würde den Gesellschaften nicht gerecht. WIG2 wäre bereits nahe an der Leistung mit Haftung, 4K ANALYTICS und CLINIBOTS stünden vor einem Umbau, bei GREENBAY Software ist die Einordnung offen, und GREENBAY healthcare fehlt in der Rechnung. Der Rahmen in Kapitel 7 gibt deshalb eine gemeinsame Richtung vor und lässt jeder Gesellschaft ihren eigenen Weg dorthin.
 
-Eine einheitliche Verbundstrategie würde den Gesellschaften nicht gerecht. WIG2 wäre bereits nahe an der Leistung mit Haftung, 4K ANALYTICS und CLINIBOTS stünden vor einem Umbau, bei GREENBAY Software ist die Einordnung offen, und GREENBAY healthcare fehlt in der Rechnung. Der Rahmen in Kapitel 7 gibt deshalb eine gemeinsame Richtung vor und lässt jeder Gesellschaft ihren eigenen Weg dorthin.
+---
 
-Kapitel 7
+## 7 Der strategische Rahmen
 
-## Der strategische Rahmen
-
-Die Kapitel 1 bis 6 führen zu einer gemeinsamen Richtung für den Verbund. Dieses Kapitel beschreibt sie, benennt die Voraussetzungen und die Handlungsfelder und zeigt, in welchem Zeitfenster sich die wichtigsten Fragen klären.
+*Die Kapitel 1 bis 6 führen zu einer gemeinsamen Richtung für den Verbund. Dieses Kapitel beschreibt sie, benennt die Voraussetzungen und die Handlungsfelder und zeigt, in welchem Zeitfenster sich die wichtigsten Fragen klären.*
 
 ### Vom Befund zum Rahmen
 
 Jedes Kapitel hat mit einer Folgerung für den Verbund geendet. Zusammen ergeben sie ein Bild: Die Finanzierung des Gesundheitswesens trägt, die Nachfrage nach Evidenz wächst, aber der Preis für reine Auswertung fällt. Wert entsteht dort, wo jemand für ein Ergebnis einsteht.
 
-Abbildung 17
+**Abbildung 17: Die sechs Kapitel führen zu einer Richtung: vom Auswerten zum Einstehen**
 
-Die sechs Kapitel führen zu einer Richtung: vom Auswerten zum Einstehen
-
-Befunde und Folgerungen je Kapitel
+*Befunde und Folgerungen je Kapitel*
 
 | Kapitel | Befund | Folgerung für den Rahmen |
 |---|---|---|
@@ -468,11 +415,9 @@ Die Modellrechnung unterscheidet zwei Pfade. In **Pfad A** kann der Verbund für
 
 In Euro lägen die Pfade 2031 rund 5,1 Mio. € Außenumsatz auseinander: plus 0,7 Mio. € in Pfad A, minus 4,3 Mio. € in Pfad B. Die Pfade sind getrennt gerechnet und keine Ränder derselben Unsicherheit. Sie zeigen, wie viel von der Richtung abhängt, nicht, welcher Pfad eintritt.
 
-Abbildung 18
+**Abbildung 18: Zwischen den beiden Pfaden lägen 2031 rund 5,1 Mio. € Außenumsatz**
 
-Zwischen den beiden Pfaden lägen 2031 rund 5,1 Mio. € Außenumsatz
-
-Veränderung 2031 gegenüber 2025 in Prozent, bezogen auf 14,48 Mio. € Außenumsatz
+*Veränderung 2031 gegenüber 2025 in Prozent, bezogen auf 14,48 Mio. € Außenumsatz*
 
 *[Diagramm: Umsatz und Deckungsbeitrag 2031 in beiden Pfaden]*
 
@@ -480,11 +425,9 @@ Quelle: Sitzung D, Stufe Markt des Verbunds, getrennt gerechnete Pfade.
 
 ### Drei Voraussetzungen, die nur zusammen wirken
 
-**Eine nachvollziehbare Auswertungsstrecke.** Jedes Ergebnis, für das der Verbund einsteht, müsste vom Rohdatum bis zur Aussage prüfbar sein, einschließlich der eingesetzten Modelle und ihres Versionsstands.
-
-**Ein Abnahmestandard.** Schriftlich festgelegt, was ein Ergebnis erfüllen muss, bevor es das Haus verlässt, und wer die Abnahme erklärt. Er müsste zu dem passen, was Aufsicht und Nutzenbewertung als Nachweis anerkennen.
-
-**Eine Verantwortung mit Versicherungsdeckung.** Eine Gesellschaft oder Person, die das Ergebnis vertraglich zusichert, und ein Berufshaftpflichtversicherer, der diese Zusicherung deckt.
+1. **Eine nachvollziehbare Auswertungsstrecke.** Jedes Ergebnis, für das der Verbund einsteht, müsste vom Rohdatum bis zur Aussage prüfbar sein, einschließlich der eingesetzten Modelle und ihres Versionsstands.
+2. **Ein Abnahmestandard.** Schriftlich festgelegt, was ein Ergebnis erfüllen muss, bevor es das Haus verlässt, und wer die Abnahme erklärt. Er müsste zu dem passen, was Aufsicht und Nutzenbewertung als Nachweis anerkennen.
+3. **Eine Verantwortung mit Versicherungsdeckung.** Eine Gesellschaft oder Person, die das Ergebnis vertraglich zusichert, und ein Berufshaftpflichtversicherer, der diese Zusicherung deckt.
 
 Fehlt eine der drei, trägt die Leistung mit Haftung nicht: Ein Abnahmestandard ohne Versicherung ist ein Versprechen ohne Deckung, und eine Versicherung ist ohne nachvollziehbare Auswertungsstrecke nicht zu bekommen.
 
@@ -492,11 +435,9 @@ Fehlt eine der drei, trägt die Leistung mit Haftung nicht: Ein Abnahmestandard 
 
 Innerhalb der Richtung lassen sich fünf Handlungsfelder unterscheiden. Sie gelten für alle Gesellschaften; welches Gewicht sie jeweils haben, hängt von der Ausgangslage ab (Kapitel 6). Die Leitfragen helfen, die eigene Position zu bestimmen.
 
-Abbildung 19
+**Abbildung 19: Fünf Handlungsfelder mit je einer Leitfrage für die Gesellschaften**
 
-Fünf Handlungsfelder mit je einer Leitfrage für die Gesellschaften
-
-Handlungsfelder des strategischen Rahmens
+*Handlungsfelder des strategischen Rahmens*
 
 | Handlungsfeld | Worum es geht | Leitfrage für jede Gesellschaft |
 |---|---|---|
@@ -512,11 +453,9 @@ Quelle: abgeleitet aus Kapitel 3 bis 6 dieses Papiers.
 
 Die Szenarien der US-Studie trennen sich erst nach 2027. Die Fragen, die über 2031 entscheiden, klären sich aber früher, weil sie an Gesetzgebungs-, Verfahrens- und Vergabetakten hängen, die der Verbund nicht steuert. Abbildung 20 zeigt diese äußeren Termine und darüber Orientierungsmarken, bis wann die Gesellschaften ihre Position geklärt haben sollten, damit Vorbereitungen noch wirken können. Die Marken sind keine Beschlusstermine; beschlossen wird in den dafür zuständigen Gremien.
 
-Abbildung 20
+**Abbildung 20: Die Orientierungsmarken des Verbunds liegen zwischen Mitte 2027 und Ende 2028, vor den wichtigsten äußeren Terminen**
 
-Die Orientierungsmarken des Verbunds liegen zwischen Mitte 2027 und Ende 2028, vor den wichtigsten äußeren Terminen
-
-Oben: Orientierungsmarken des Rahmens; unten: äußere Termine
+*Oben: Orientierungsmarken des Rahmens; unten: äußere Termine*
 
 *[Diagramm: Zeitfenster des strategischen Rahmens]*
 
@@ -524,11 +463,9 @@ Quelle: Sitzung D; Rechtsstand nach Proclamation 11020, KHAG, VO (EU) 2024/1689 
 
 Welche Richtung sich tatsächlich durchsetzt, zeigen einige Signale, die sich beobachten lassen. Sie machen den Rahmen überprüfbar: Treten sie anders ein als hier angenommen, wäre der Rahmen anzupassen.
 
-Abbildung 21
+**Abbildung 21: Sechs Signale zeigen, ob die Annahmen des Rahmens tragen**
 
-Sechs Signale zeigen, ob die Annahmen des Rahmens tragen
-
-Beobachtungspunkte bis 2031
+*Beobachtungspunkte bis 2031*
 
 | Signal | Zeitpunkt | Was es anzeigen würde |
 |---|---|---|
@@ -541,11 +478,11 @@ Beobachtungspunkte bis 2031
 
 Quelle: Kapitel 1, 4 und 6 dieses Papiers; Sitzung D.
 
-Anhang
+---
 
-## Methode, Grenzen, Begriffe, Quellen
+## Anhang: Methode, Grenzen, Begriffe, Quellen
 
-Woher die Zahlen kommen, wie sie zu lesen sind und wo sie nicht tragen.
+*Woher die Zahlen kommen, wie sie zu lesen sind und wo sie nicht tragen.*
 
 ### Wie die Zahlen entstanden sind
 
@@ -563,54 +500,82 @@ Grundlage ist eine Szenariokonferenz, deren vierte Sitzung am 25. September 2026
 
 **Die Ergebnisse der Konferenz sind nicht abschließend geprüft.** Eine interne Gegenprüfung fand sieben Rechen- und Zählfehler; alle wurden korrigiert, die Korrekturen aber nicht erneut geprüft. Für den Rückgang des Deckungsbeitrags nennen die Unterlagen drei Werte, 6,3, 15 und 25 Prozent; dieses Papier verwendet 15.
 
-**Lesart.** Werte für 2031 sind auf ihre Rundungsstufe genau zu lesen: 1.790 Mrd. € auf 10 Mrd., 420 Mrd. € auf 5 Mrd., 800 Mio. € auf 50 Mio., die Werte der Gesellschaften auf 5 Prozentpunkte. Spannen sind 80-Prozent-Intervalle, Mittelwerte der Einschätzungen sind Mediane.
+**Lesart.** Werte für 2031 sind auf ihre Rundungsstufe genau zu lesen: 1.790 Mrd. € auf 10 Mrd., 420 Mrd. € auf 5 Mrd., 800 Mio. € auf 50 Mio., die Werte der Gesellschaften auf 5 Prozentpunkte. Spannen sind [80-Prozent-Intervalle](#80-prozent-intervall), Mittelwerte der Einschätzungen sind [Mediane](#median).
 
 ### Begriffe
 
-80-Prozent-Intervall: Spanne, in der ein Wert nach Einschätzung der Fachrollen mit 80 Prozent Wahrscheinlichkeit läge. Je breiter, desto unsicherer.
+#### 80-Prozent-Intervall
 
-Außenumsatz: Umsatz mit Kunden außerhalb des Verbunds. Innenumsatz sind Leistungen zwischen den Gesellschaften; er fällt in der Verbundsicht heraus.
+Spanne, in der ein Wert nach Einschätzung der Fachrollen mit 80 Prozent Wahrscheinlichkeit läge. Je breiter, desto unsicherer.
 
-Beitragspflichtige Entgelte: Die Löhne und Gehälter, auf die Beiträge zur gesetzlichen Krankenversicherung erhoben werden, begrenzt durch die Beitragsbemessungsgrenze. Sie sind die Einnahmenbasis der GKV.
+#### Außenumsatz
 
-Deckungsbeitrag: Umsatz abzüglich der direkt zurechenbaren Kosten. Er zeigt, was eine Leistung zur Deckung der Fixkosten und zum Gewinn beiträgt.
+Umsatz mit Kunden außerhalb des Verbunds. Innenumsatz sind Leistungen zwischen den Gesellschaften; er fällt in der Verbundsicht heraus.
 
-Erstattungsbetrag: Preis eines neuen Arzneimittels, den Hersteller und GKV-Spitzenverband nach § 130b SGB V auf Grundlage der Nutzenbewertung vereinbaren. In Deutschland ist er öffentlich.
+#### Beitragspflichtige Entgelte
 
-Europäischer Gesundheitsdatenraum: Englisch *European Health Data Space* (EHDS): EU-Rahmen, der die Nutzung von Gesundheitsdaten für Forschung und Versorgung über Zugangsstellen regelt.
+Die Löhne und Gehälter, auf die Beiträge zur gesetzlichen Krankenversicherung erhoben werden, begrenzt durch die Beitragsbemessungsgrenze. Sie sind die Einnahmenbasis der GKV.
 
-KI-Verordnung: Verordnung (EU) 2024/1689. Für Hochrisikosysteme, etwa in Medizin und Sozialverwaltung, gelten Pflichten zu Datenqualität, Dokumentation, menschlicher Aufsicht und Konformitätsnachweis.
+#### Deckungsbeitrag
 
-Leistung mit Haftung: Analyseergebnis, für das der Anbieter einsteht, etwa vor dem Gemeinsamen Bundesausschuss, einer Schiedsstelle, einer Aufsicht oder einem Gericht. Ihr Preis ergibt sich aus der Zusicherung, nicht aus dem Aufwand.
+Umsatz abzüglich der direkt zurechenbaren Kosten. Er zeigt, was eine Leistung zur Deckung der Fixkosten und zum Gewinn beiträgt.
 
-Median: Mittlerer Wert einer Reihe: Die Hälfte der Einschätzungen liegt darüber, die Hälfte darunter. Anders als der Durchschnitt wird er von Ausreißern kaum verschoben.
+#### Erstattungsbetrag
 
-Meistbegünstigung: Englisch *most favoured nation* (MFN): Der US-Preis richtet sich nach dem niedrigsten Preis in einer Gruppe von Vergleichsländern.
+Preis eines neuen Arzneimittels, den Hersteller und GKV-Spitzenverband nach § 130b SGB V auf Grundlage der Nutzenbewertung vereinbaren. In Deutschland ist er öffentlich.
 
-Nutzenbewertung: Verfahren nach § 35a SGB V, in dem der Gemeinsame Bundesausschuss den Zusatznutzen eines neuen Arzneimittels feststellt. Das Ergebnis bestimmt den Erstattungsbetrag.
+#### Europäischer Gesundheitsdatenraum
 
-Preisdurchgriff: Anteil eines Produktivitätsgewinns, der beim Preis ankommt. 100 Prozent hieße: Lässt sich eine Leistung um ein Fünftel billiger herstellen, sinkt auch ihr Preis um ein Fünftel. Niedrige Werte bedeuten, dass der Preis anderen Regeln folgt, etwa einer Budgetformel.
+Englisch *European Health Data Space* (EHDS): EU-Rahmen, der die Nutzung von Gesundheitsdaten für Forschung und Versorgung über Zugangsstellen regelt.
 
-Real-World-Evidence: Erkenntnisse aus Versorgungsdaten, etwa Abrechnungsdaten, Registern oder Patientenakten, im Unterschied zu Daten aus klinischen Studien.
+#### KI-Verordnung
 
-Standardauswertung: Analyseleistung, deren Wert im Aufwand liegt: Datenaufbereitung, Kohortenbildung, Literaturübersicht, Standardmodell, Kennzahlenbericht, Foliensatz. KI kann sie zunehmend schneller und billiger erzeugen.
+Verordnung (EU) 2024/1689. Für Hochrisikosysteme, etwa in Medizin und Sozialverwaltung, gelten Pflichten zu Datenqualität, Dokumentation, menschlicher Aufsicht und Konformitätsnachweis.
 
-Szenario: Einer von drei Entwicklungspfaden der US-Studie: *modest* (gering), *substantial* (deutlich), *extreme* (sehr stark). Die Autoren ordnen ihnen keine Wahrscheinlichkeiten zu.
+#### Leistung mit Haftung
 
-Vorhaltevergütung: Teil der Krankenhausvergütung nach der Krankenhausreform, der für das Bereitstellen einer Leistungsgruppe gezahlt wird, unabhängig von der Fallzahl.
+Analyseergebnis, für das der Anbieter einsteht, etwa vor dem Gemeinsamen Bundesausschuss, einer Schiedsstelle, einer Aufsicht oder einem Gericht. Ihr Preis ergibt sich aus der Zusicherung, nicht aus dem Aufwand.
+
+#### Median
+
+Mittlerer Wert einer Reihe: Die Hälfte der Einschätzungen liegt darüber, die Hälfte darunter. Anders als der Durchschnitt wird er von Ausreißern kaum verschoben.
+
+#### Meistbegünstigung
+
+Englisch *most favoured nation* (MFN): Der US-Preis richtet sich nach dem niedrigsten Preis in einer Gruppe von Vergleichsländern.
+
+#### Nutzenbewertung
+
+Verfahren nach § 35a SGB V, in dem der Gemeinsame Bundesausschuss den Zusatznutzen eines neuen Arzneimittels feststellt. Das Ergebnis bestimmt den Erstattungsbetrag.
+
+#### Preisdurchgriff
+
+Anteil eines Produktivitätsgewinns, der beim Preis ankommt. 100 Prozent hieße: Lässt sich eine Leistung um ein Fünftel billiger herstellen, sinkt auch ihr Preis um ein Fünftel. Niedrige Werte bedeuten, dass der Preis anderen Regeln folgt, etwa einer Budgetformel.
+
+#### Real-World-Evidence
+
+Erkenntnisse aus Versorgungsdaten, etwa Abrechnungsdaten, Registern oder Patientenakten, im Unterschied zu Daten aus klinischen Studien.
+
+#### Standardauswertung
+
+Analyseleistung, deren Wert im Aufwand liegt: Datenaufbereitung, Kohortenbildung, Literaturübersicht, Standardmodell, Kennzahlenbericht, Foliensatz. KI kann sie zunehmend schneller und billiger erzeugen.
+
+#### Szenario
+
+Einer von drei Entwicklungspfaden der US-Studie: *modest* (gering), *substantial* (deutlich), *extreme* (sehr stark). Die Autoren ordnen ihnen keine Wahrscheinlichkeiten zu.
+
+#### Vorhaltevergütung
+
+Teil der Krankenhausvergütung nach der Krankenhausreform, der für das Bereitstellen einer Leistungsgruppe gezahlt wird, unabhängig von der Fallzahl.
 
 ### Quellen
 
-- Korinek, A., Jones, C., Sacher, S., Cotter, T., McCrory, B.: *Economic Scenarios for Transformative AI* . The Anthropic Institute, Working Paper 2026-02.
-
-- Szenariokonferenz, Sitzung D, Rohdaten und Verfahrensbericht: rohdaten/sitzung-d.json, 30-Sitzung-D.md; ausführliche Fassung mit allen Herleitungen: 29-Strategiepapier-2031.md.
-
-- Gemeinsamer Faktenstand der Szenariokonferenz (01-Briefing.md): IAB-Prognosen März 2026, ifo-Konjunkturumfrage Juni 2026, BT-Drs. 21/7620, Draghi-Bericht.
-
+- Korinek, A., Jones, C., Sacher, S., Cotter, T., McCrory, B.: *Economic Scenarios for Transformative AI*. The Anthropic Institute, Working Paper 2026-02.
+- Szenariokonferenz, Sitzung D, Rohdaten und Verfahrensbericht: `rohdaten/sitzung-d.json`, `30-Sitzung-D.md`; ausführliche Fassung mit allen Herleitungen: `29-Strategiepapier-2031.md`.
+- Gemeinsamer Faktenstand der Szenariokonferenz (`01-Briefing.md`): IAB-Prognosen März 2026, ifo-Konjunkturumfrage Juni 2026, BT-Drs. 21/7620, Draghi-Bericht.
 - GKV-Statistik KV45 und KJ1 2025; PKV-Verband, Zahlenbericht und Beitragsanpassung 2026.
-
 - Proclamation 11020, Federal Register 2026-06956; SGB V §§ 35a, 71, 130b; KHEntgG § 21; Krankenhausreformanpassungsgesetz; VO (EU) 2024/1689; Verordnung über den Europäischen Gesundheitsdatenraum.
-
 - DATEV-Kontenblätter 2025 der Gesellschaften des HIGL-Verbunds.
 
 Erstellt mit Unterstützung von Künstlicher Intelligenz. Die Zahlen für 2031 sind Modellergebnisse und keine Prognosen; die Ist-Werte 2025 sind aus den Buchungsdaten gemessen. Das Papier beschreibt einen strategischen Rahmen und ersetzt keine Beschlüsse der zuständigen Gremien. HIGL-Verbund, Puschstraße 6a, 04103 Leipzig. Stand 26. September 2026, Fassung 2.0.
+
