@@ -7,6 +7,61 @@ Jede Validierung wird als eigener Block protokolliert. Die Historie wird nicht g
 
 ---
 
+## Validierung 26. September 2026 (Lauf 001 vom 26. September 2026) — Version 105.0 → Version 106.0
+
+### Prüfergebnis
+
+| Prüfschritt | Ergebnis | Auffälligkeiten |
+|---|---|---|
+| 2.1.1 Gliederung | OK | Maschinell geprüft: 11 nummerierte Kapitel (1 bis 11) plus Zusammenfassung (Executive Summary) vor Kapitel 1 und Inhaltsverzeichnis; die Zusammenfassung nennt die Deutschland-These ausdrücklich. Keine Überschrift ohne Inhalt: Der automatische Test meldet zwölf Kapitelüberschriften, denen unmittelbar eine Unterüberschrift folgt — das ist die reguläre Bauform (`## N. Kapitel` gefolgt von `### N.1`) und keine Abweichung; der Test ist entsprechend eingeordnet worden. |
+| 2.1.2 Nummerierung | OK | Kapitelnummerierung lückenlos 1–11. Unterabschnitte maschinell gegen die Sollfolge geprüft (Kap. 1: 1–3; 2: 1–3; 3: 1–5; 4: 1–5; 5: 1–4; 6: 1–4; 7: 1–3; 8: 1–7; 9: 1–5; 10: 1–3; 11: 1–5) — keine Lücke, keine Dopplung. Zähler geprüft: fünf Typ-Lead-Ins in § 2.1 (Typ 1 bis Typ 5), drei Säulen der Deutschland-These, sieben Empfehlungen in § 10.2 (Erstens bis Siebtens ausgezählt). |
+| 2.1.3 Querverweise | OK | Maschinelle Auflösung aller `§X.Y`-Verweise gegen die vorhandenen Unterabschnitte (41 verschiedene Verweisziele): kein ungültiger Verweis auf das Hauptdokument. Die einzigen Treffer ohne Entsprechung sind `§ 2.4.3` und `§ 2.4.4` — sie verweisen auf `Validierung.md` und sind als solche im Fließtext gekennzeichnet. Alle `Kapitel X`-Verweise treffen ein existierendes Kapitel. Die neuen Verweise dieses Laufs (§ 1.1 → § 9.2; § 2.2 → § 2.1, § 1.1, § 9.1; § 9.2 → § 1.1, § 2.2, § 2.1, § 5.1) sind einzeln nachgeprüft. |
+| 2.1.4 Roter Faden | OK | Arbeitsteilung eingehalten: § 1.1 trägt die Trackerstände als empirische Ausgangslage, § 2.2 die Definitionsfrage, § 9.2 zieht daraus die Folgerungen für Veranlagungszeitraum und Bemessungsgrundlage. Der Ertrag des Laufs ist bewusst auf drei Stellen verteilt worden, ohne die Befunde zu wiederholen; § 9.2 referiert die Zahlen nur, soweit die Folgerung sie trägt. Die Deutschland-These bleibt unberührt. |
+| 2.1.5 Formatierung | OK | Maschinell geprüft: keine doppelten Trennlinien, keine Doppel-Leerzeilen, keine Zeile mit ungerader Anzahl `**`, keine Zeile mit unausgeglichenen Anführungszeichen (Prüfung gegen `U+201E`/`U+0022` gemäß der im Vorlauf berichtigten Prüfregel), keine Tabelle mit inkonsistenter Spaltenzahl. |
+| 2.2.1 Sachliche Richtigkeit | OK | Sämtliche neu eingetragenen Zahlen stammen aus dem Direktabruf der Quellen am Stichtag und sind gegen die Rohfassung der Seiten geprüft. Rechenproben dieses Laufs: 667.833 + 45.431 = 713.264; 713.264 + 472.958 = 1.186.222; +70.529 + 865 = +71.394 = 1.186.222 − 1.114.828; 713.264 − 681.210 = 32.054 (4,49 %); 713.264 − 684.466 = 28.798 (4,04 %); 46.000 ÷ 90.186 = 51,0 %; 225.122 ÷ 269 = 836,9; 225.122 ÷ 519 = 433,8; 225.122 ÷ 658 = 342,1; 527.144 ÷ 225.122 = 2,342; 238 ÷ 1.001 = 23,8 %. Alle Proben gehen auf. |
+| 2.2.2 Redundanzprüfung | OK | Die drei Ergänzungen berühren verschiedene Gegenstände: § 1.1 den Erhebungsbefund, § 2.2 die Definitionsfrage, § 9.2 die daraus folgende Bemessungsgrundlagenfrage. Die Definitionsangaben der Pressekonferenz-Unterlage stehen nur in § 2.2; § 9.2 nimmt aus derselben Quelle allein die Stichprobenangabe auf, die dort eine eigene Folgerung trägt. Die Wertschöpfungsanknüpfung wird in § 9.2 wie bisher als Querverweis auf § 5.1 geführt und nicht erneut entfaltet. |
+| 2.2.3 Argumentation | OK | Die Typenunterscheidung des § 2.1 wird in beiden neuen Stellen ausdrücklich mitgeführt (Typ 1 und Typ 2 in § 2.2 und § 9.2). Die Modellergebnisse der Optimalsteuerliteratur werden nicht berührt. Der Befund zur Ausschlussliste des Herausgebers wird als Aussage über die Statistik und nicht als Aussage über die Wirkung der Technik geführt. |
+| 2.2.4 Ausgewogenheit | OK | Die Angaben der International Federation of Robotics sind durchgängig als Angaben des Herausgebers und nicht als unabhängige Messung gekennzeichnet; die Prognosewerte sind als Prognose ausgewiesen. Die Trackerbefunde sind als Eigenschaften der Zählwerke und nicht als Aussagen über die Verdrängung selbst formuliert. |
+| 2.3.1 Tippfehler und Grammatik | OK | Neue Abschnitte gelesen; keine Auffälligkeit. Englische Zitatteile sind in Anführungszeichen gesetzt und deutsch erläutert (RPA, full-size humanoids). |
+| 2.3.2 Terminologie | OK | „Wertschöpfungsabgabe" durchgängig (77 Vorkommen), „Wertschöpfungssteuer" kein Vorkommen. Neue Fachbegriffe bei Erstnennung erklärt: robotergestützte Prozessautomatisierung (robotic process automation, RPA), Meldedatum gegen Wirksamkeitsdatum. |
+| 2.4.1 Vollständigkeit und Zuordnung | OK | Die in diesem Lauf neu im Fließtext herangezogene Quelle (Unterlage der Pressekonferenz zu *World Robotics 2026*) ist in § 11.3 aufgenommen; die vier Trackerstände zum 26. September 2026 sind in § 11.5 aufgenommen. Keine im Fließtext genannte neue Quelle ohne Eintrag. |
+| 2.4.2 Formale Einheitlichkeit | OK | Neue Einträge im APA-nahen Stil mit Urheber, Datum, kursivem Titel, Ort/Herausgeber und vollständiger URL; keine Kurz-URL, kein Weiterleitungslink. |
+| 2.4.3 Aktualität und Belastbarkeit | OK | Für den Definitionsbefund ist die Primärunterlage des Herausgebers beschafft worden (Dateistand 23. September 2026, Pressekonferenz 24. September 2026) und nicht die Presserezeption. Für die Trackerstände gilt unverändert der Direktabruf am Stichtag. |
+| 2.4.4 URL-Prüfung (Stichprobe) | OK | 97 von 916 verschiedenen URLs des Literaturverzeichnisses geprüft (10,6 %), Abruf mit Browser-Kennung gemäß der im Vorlauf berichtigten Prüfregel. Ergebnis: 68 × 200, 1 × 202, 27 × 403, 1 Verbindungsabbruch. Der Verbindungsabbruch (ms-aktuell.de) antwortet bei Wiederholung mit vollständigem Kopfzeilensatz mit 200. Die 403-Antworten stammen sämtlich von Seiten mit Botabwehr (openai.com, Bloomberg, CNBC, Axios, Quartz, congress.gov, IMF, SSRN-DOI-Auflösung u. a.) und sind Zugriffsentscheidungen gegenüber einem automatisierten Abruf, kein Nachweis eines defekten Verweises. Die nach `Validierung.md` § 2.4.4 gesondert zu prüfende OpenAI-Quelle: Landingpage 403 (Botabwehr), die im Literaturverzeichnis geführte PDF-Adresse antwortet mit 200 und liefert 4,04 MB `application/pdf`. Kein Verweis ohne erreichbare Adresse oder erreichbare Alternative im selben Eintrag. |
+| 2.4.5 Zitatgenauigkeit | OK | Fünf Kernaussagen stichprobenartig gegen die Quelle geprüft: (1) Arbeitsdefinition „Robots are physical machines that can perform tasks with some autonomy." und die Ausschlussliste — wörtlich aus der Folie „What Counts as a Robot?"; (2) Stichprobenvorbehalt der Serviceroboterzahlen (238 von 1.001 Herstellern, keine Hochrechnung, jährlich wechselnde Zusammensetzung, ausdrückliche Abratung vom Wellenvergleich) — wörtlich aus der Fußnote der betreffenden Folie; (3) Fußnote „full-size humanoids, height above 140cm"; (4) Legende der Übersichtstafel „An entry is one layoff reported by one employer." und der dort geführte Sammeleintrag „Dax-Konzerne" mit 46.000; (5) Hinweis derselben Seite, die Zählung nach Meldedatum und die nach Wirksamkeitsdatum seien „not meant to match". Prognosen sind als Prognosen des Herausgebers gekennzeichnet. |
+| 2.4.6 Verifizierungsbedürftige Einträge | OK | Die Markierung zu de la Feria et al. (2022) ist unverändert erhalten; in diesem Lauf ist keine Verifikation erfolgt und keine Markierung entfernt worden. |
+| 2.5 Versionskonsistenz und Lizenz | OK | Version 106.0 an allen vier Stellen gesetzt (Dokumentkopf, Aktualitätshinweis am Dokumentende einschließlich Schnittdatum 26. September 2026, `README.md` mit Versionszeile und Zitiervorschlag, Abschlussblock dieses Protokolls). Autor Björn Degenkolbe und Organisation HIGL – Health Innovators Group Leipzig unverändert; CC BY 4.0 an vier Stellen vorhanden; Haftungshinweis am Dokumentende erhalten; KI-Offenlegung in `README.md` erhalten. |
+| 2.6 Automatisierte Prüfung | OK | Kein projekteigenes Prüfskript im Repositorium. Für diesen Lauf sind die Prüfungen zu Gliederung, Nummerierung, Zählern, Querverweisauflösung, Formatierung, Tabellensyntax, Terminologie und URL-Erreichbarkeit maschinell ausgeführt worden; die Ergebnisse sind in den Zeilen oben vermerkt. |
+
+### Gefundene Fehler
+
+| # | Stelle | Fehler | Schwere |
+|---|--------|--------|---------|
+| 1 | § 1.1, Nachtrag vom 25. September 2026 | Die dort gezogene Folgerung, Ereigniszahl und Betroffenenzahl des zweiten Zählwerks stammten aus verschiedenen Beständen, ist durch eine eigene Summenprobe an der Monatsgliederung dieses Laufs widerlegt: Die Monatswerte ergeben in Betroffenen genau 225.122 und in Ereignissen genau 519. | Mittel |
+| 2 | Prüfschritt 2.1.1 (Verfahren, nicht Hauptdokument) | Der maschinelle Test auf leere Abschnitte meldet jede Kapitelüberschrift, der unmittelbar eine Unterüberschrift folgt, als Abweichung, obwohl das die reguläre Bauform des Dokuments ist. | Gering |
+
+### Durchgeführte Bereinigungen
+
+| # | Fehler | Maßnahme | Erledigt |
+|---|--------|----------|----------|
+| 1 | Unzutreffende Folgerung zu den Beständen des zweiten Zählwerks | Die Folgerung ist im Nachtrag vom 26. September 2026 ausdrücklich berichtigt worden; der Befund des Vortages bleibt nach Phase 2 Ziffer 5 als zeitlich frühere Referenz erhalten. An seine Stelle tritt der belegte Befund, dass allein die Kachel „Durchschnitt je Ereignis" falsch rechnet und einem Nenner von rund 342 Ereignissen entspräche. Der Literatureintrag in § 11.5 trägt die Berichtigung ebenfalls. | Ja |
+| 2 | Falschmeldung des Tests auf leere Abschnitte | Der Test ist in der Auswertung eingeordnet und die Einordnung hier dokumentiert; für künftige Läufe gilt, dass eine Kapitelüberschrift mit unmittelbar folgender Unterüberschrift kein leerer Abschnitt ist. | Ja |
+
+### Nachprüfung
+
+- Betroffene Prüfschritte erneut durchlaufen (2.1.1, 2.1.3, 2.2.1, 2.2.2, 2.4.1, 2.4.5, 2.5): OK
+- Rechenproben nach der Bereinigung wiederholt: OK
+- Automatisierte Skripte (sofern vorhanden): n/a — kein projekteigenes Prüfskript; die in 2.6 genannten Prüfungen sind nach der Bereinigung erneut ausgeführt worden.
+
+### Abschluss
+
+- Alle Fehler behoben: Ja
+- Neue Version: 106.0
+- PDF erstellt: Ja
+- Word erstellt: Ja
+
+---
+
 ## Validierung 25. September 2026 (Lauf 001 vom 25. September 2026) — Version 104.0 → Version 105.0
 
 ### Prüfergebnis

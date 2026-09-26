@@ -4,7 +4,7 @@
 
 Autor: Björn Degenkolbe
 Stand: September 2026
-Version: 105.0
+Version: 106.0
 
 ---
 
@@ -41,7 +41,7 @@ Das Papier gibt den Stand Ende September 2026 wieder. Für Anmerkungen, Korrektu
 
 ## Zitiervorschlag
 
-> Degenkolbe, B. (2026). *Die Besteuerung von Künstlicher Intelligenz und Robotik als Ersatz menschlicher Arbeit — Ökonomische, rechtliche und sozialpolitische Perspektiven.* Arbeitspapier, Version 105.0, September 2026.
+> Degenkolbe, B. (2026). *Die Besteuerung von Künstlicher Intelligenz und Robotik als Ersatz menschlicher Arbeit — Ökonomische, rechtliche und sozialpolitische Perspektiven.* Arbeitspapier, Version 106.0, September 2026.
 
 ---
 
