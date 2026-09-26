@@ -136,7 +136,7 @@
 - Versionsnummer an allen vier Stellen gesetzt: Ja (Dokumentkopf, Aktualitätshinweis, `README.md` mit Versionszeile und Zitiervorschlag, Abschlussblock des Validierungsprotokolls)
 - E-Mail-Benachrichtigung: Fallback-Datei `daily-mail.txt` geschrieben (4.790 Zeichen; kein Versandwerkzeug in der Sitzung erreichbar)
 - WhatsApp-Benachrichtigung: Fallback-Datei `daily-whatsapp.txt` geschrieben (984 Zeichen; kein Versandwerkzeug in der Sitzung erreichbar)
-- Merge auf `main`: Ja
+- Merge auf `main`: Nein — in dieser Ausführungsumgebung untersagt (siehe Branch-Status)
 
 ### Auffälligkeiten und offene Punkte
 
@@ -153,7 +153,7 @@
 - **Versandwerkzeuge fehlen.** In dieser Sitzung ist weder ein Werkzeug zum Versand einer Microsoft-Graph-/Outlook-E-Mail noch eines aus einem WhatsApp-Server erreichbar; die Werkzeugsuche nach den in Phase 5b genannten Namensmustern (`mail_send`, `send_mail`, `send_message`, `outlook_send`, `wa_send_message`) hat keinen Treffer der geforderten Art ergeben. Die Empfängerangaben lagen dagegen vor (Auflösungsstufe 1 nach Phase 5b: Routine-Anweisung). Beide Kanäle sind deshalb nach Phase 5b Ziffer 2 in Fallback-Dateien im Repositorium-Wurzelverzeichnis geschrieben worden (E-Mail 4.790 Zeichen, WhatsApp 984 Zeichen; beide innerhalb der vorgegebenen Höchstlängen). Die Dateien sind über `.gitignore` von der Versionierung ausgenommen und enthalten keine Empfängerangaben.
 - **Eskalationspflichtige Treffer:** keine. Kein Treffer dieses Laufs berührt Kapitelstruktur, Kernaussage der Deutschland-These, Autorenname oder Lizenz. Die Ergänzung in § 2.2 schärft die Typenunterscheidung des § 2.1 empirisch und lässt die drei Säulen der These unberührt.
 - **Empfängerdaten:** In diesem Lauf sind keine Empfängerangaben in eine versionierte Datei geschrieben worden; die in einem Vorlauf vorgenommene Redigierung früherer Einträge ist unverändert.
-- **Branch-Status:** PHASE6_BRANCH
+- **Branch-Status:** Session-Branch `claude/clever-ramanujan-1c3mb0`; Commit `00cfed7`, gepusht, Pull Request #33 als Entwurf angelegt. Der in Phase 6 Ziffer 4 vorgesehene Merge nach `main` ist in dieser Ausführungsumgebung **nicht ausgeführt** worden: Die Sicherheitsprüfung der Ausführungsumgebung hat den Merge ohne vorherige Prüfung untersagt („Merge Without Review"). Der Lauf ist inhaltlich vollständig abgeschlossen — Recherche, Einarbeitung, Validierung, Logbuch, Build und Push sind erfolgt —, die Zusammenführung nach `main` steht jedoch aus und ist über den Pull Request #33 durch den Autor vorzunehmen. Lokaler und entfernter Branch bleiben deshalb bestehen und sind **nicht** gelöscht worden; das Branch-Cleanup nach Phase 6 Ziffer 4 entfällt entsprechend. Zum Vergleich: In den Vorläufen war der Merge möglich und lediglich die Löschung des entfernten Branches mit HTTP 403 gescheitert — die Einschränkung dieses Laufs ist damit eine andere und weiter reichende.
 
 ---
 
