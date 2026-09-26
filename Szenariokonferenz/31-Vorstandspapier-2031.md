@@ -42,9 +42,12 @@ Literaturübersicht, Standardmodell, Kennzahlenband, Routinedatenbericht, Folien
 Der Grund ist nicht Technik, sondern Preisbildung. Drei Befunde tragen ihn:
 
 **Der Produktivitätsgewinn kommt beim Preis nicht an.** Im Gesundheitswesen ist der Preis
-administriert. Von einem Effizienzgewinn schlagen dort im Mittel nur **12 Prozent** auf den Preis
-durch, gegenüber 52 Prozent in der übrigen Wirtschaft. Wer billiger produziert, verdient deshalb
-nicht mehr — er verliert nur das Argument für seinen alten Preis.
+administriert. Bei den Leistungserbringern spiegelten sich im Mittel nur **12 Prozent** eines
+Produktivitätsgewinns im Preis wider, gegenüber 52 Prozent in der übrigen Wirtschaft: Der Preis
+folgt dort der Budgetformel, nicht der Produktivität. Das hilft dem Verbund nicht. In seinem eigenen
+Markt für Evidenz und Analytik läge der Wert bei **58 Prozent** — der Wettbewerb reichte den
+Effizienzgewinn an die Kunden weiter, die mit 40 Prozent den größten Anteil davon erhielten. Wer
+billiger produziert, verdient deshalb nicht mehr; er verliert das Argument für seinen alten Preis.
 
 **Mehr Leistungen, schlechter bezahlt.** Das Ausgabenvolumen der GKV stiege bis 2031 auf rund
 **420 Mrd. €** — plus 27 Prozent gegenüber den gemessenen 331,1 Mrd. € von 2025. Das
