@@ -15,11 +15,19 @@ Die Zwischenmarke ist **31. Dezember 2027**: eine schriftliche Vorabstimmung mit
 Berufshaftpflichtversicherer. Wird sie gerissen, ist negativ zu entscheiden und nicht zu
 verschieben — die nachfolgenden Verfahrenstakte lassen kein weiteres Jahr zu.
 
-**Was auf dem Spiel steht:** Bei einem Außenumsatz von 14,5 Mio. € (2025) spannt das Ergebnis 2031
-zwischen **−5,1 Mio. €** und **+5,8 Mio. €**. Der Punktwert liegt bei +0,7 Mio. € Umsatz, bei einem
-Deckungsbeitrag, der um rund ein Sechstel fiele. Die Spanne ist zum größeren Teil keine Unsicherheit
-über den Markt, sondern die Differenz zweier Szenarien, die genau von dieser einen Unterschrift
-getrennt werden.
+**Was auf dem Spiel steht.** Die beiden Ausgänge sind nicht die Ränder einer Unsicherheit, sondern
+zwei getrennt gerechnete Szenarien — das eine mit Grundsatzentscheidung und Versicherungsdeckung,
+das andere ohne:
+
+| Bezogen auf 14,48 Mio. € Außenumsatz (2025) | Umsatz 2031 | in Euro | Deckungsbeitrag |
+|---|---:|---:|---:|
+| **mit** Entscheidung und Deckung | +5 % | +0,7 Mio. € | −15 % |
+| **ohne** | **−30 %** (−45…−20) | **−4,3 Mio. €** | **−60 %** |
+
+**Die Entscheidung ist rund 5,1 Mio. € Außenumsatz wert** — 35 Prozentpunkte Abstand zwischen den
+Szenarien, beim Deckungsbeitrag 45 Punkte. Das ist etwa die halbe Breite des ausgewiesenen
+Unsicherheitsintervalls und liegt quer dazu, nicht darin: Auch wer die Marktunsicherheit
+wegdenkt, steht noch vor diesen beiden Ausgängen.
 
 ---
 
@@ -38,9 +46,13 @@ administriert. Von einem Effizienzgewinn schlagen dort im Mittel nur **12 Prozen
 durch, gegenüber 52 Prozent in der übrigen Wirtschaft. Wer billiger produziert, verdient deshalb
 nicht mehr — er verliert nur das Argument für seinen alten Preis.
 
-**Die Kassen sind gedeckelt.** Die Leistungsausgaben der GKV lägen 2031 bei rund 420 Mrd. € — plus
-13 Prozent nominal gegenüber 2025, gegen die Kostenentwicklung der Leistungserbringer aber real
-zwischen minus 4 und minus 10 Prozent. Der Einkauf wird härter, nicht weicher.
+**Mehr Leistungen, schlechter bezahlt.** Das Ausgabenvolumen der GKV stiege bis 2031 auf rund
+**420 Mrd. €** — plus 27 Prozent gegenüber den gemessenen 331,1 Mrd. € von 2025. Das
+**Vergütungsniveau je Leistungseinheit** stiege im selben Zeitraum aber nur um **13 Prozent**
+(nach der zweiten zulässigen Lesart des § 71 Abs. 3 SGB V um 16 Prozent; Intervall +8 bis +20) —
+und damit gegen die Kostenentwicklung der Leistungserbringer real um **minus 4 bis minus 10
+Prozent**. Das Volumen wächst, der Preis je Einheit hält nicht mit. Der Einkauf wird härter, nicht
+weicher.
 
 **Knapp wird nicht das Rechnen, sondern das Einstehen.** Sieben der zwölf befragten Rollen aus dem
 Verbund nennen die **Haftung** als das bindende Hemmnis — und weichen damit ausdrücklich von der
