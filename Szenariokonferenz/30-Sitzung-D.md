@@ -183,6 +183,27 @@ Beispiele für die Art der Korrektur:
    behoben (beide Blöcke kommen jetzt aus den überarbeiteten Übergaben und sind als solche
    beschriftet), für diesen Lauf bleibt er eine Einschränkung.
 
+5. **GREENBAY healthcare ist aus dem Verfahren gefallen** — und zwar vollständig: Die Gesellschaft
+   kommt im Strategiepapier **null mal** vor, in der Verdichtung der Station 4 null mal, und in der
+   eigenen Rolle S4-08 zwar fünfmal, aber ohne eine einzige Zahl. Die Tabelle, die S4-08 selbst
+   lieferte, führt sieben Gesellschaften und die eigene nicht darunter.
+
+   Die Ursache liegt im Aufsetzen, nicht im Lauf: Der Block `HIGL_LAGE`, der jeder Rolle die
+   Ist-Lage mitgab, ist aus den DATEV-Buchungsdaten gebaut. GREENBAY healthcare ist eine
+   **Teilbetriebsausgründung der 4K ANALYTICS GmbH** und hat dort keinen eigenen Mandanten; sie kam
+   deshalb in der Ist-Lage nicht vor, die Rolle bekam keine Zahlen und konnte keine weitergeben.
+   Niemand hat den Ausfall gemeldet, weil keine Prüfung die Gesellschaften der Station gegen eine
+   Sollliste hält.
+
+   Das ist derselbe Fehlertyp, den diese Sitzung an den Gelenken sichtbar machen sollte — eine
+   Größe, die stillschweigend verschwindet —, diesmal beim Eingang statt bei der Übergabe.
+
+   Folge für die Lesart: Der 4K-Wert von −10 Prozent beschreibt ein Geschäft, aus dem der wachsende
+   Teil bereits herausgelöst ist; er überzeichnet den Verlust der verbleibenden Einheit und
+   unterschlägt zugleich den Gegenpol. Die Verbundzahl +5 Prozent ist dadurch eher zu niedrig als zu
+   hoch. Zu schließen ist die Lücke durch die Erlös- und Kostenzahlen 2025 von GREENBAY healthcare,
+   getrennt vom 4K-Mandanten.
+
 ## 8. Was die Codeprüfung sonst gefunden hat
 
 Cursor Bugbot hat den Pull Request geprüft und drei Befunde gemeldet. Alle drei wurden gegen den Code
