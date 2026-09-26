@@ -59,14 +59,16 @@ def hbalken(zeilen, vmax, einheit="%", label="", links=270, hervor=None, ref=Non
         if unter:
             b.append(_t(links - 14, y + 33, unter, "t-muted", 11, "end"))
         b.append(f'<rect x="{links}" y="{y+6}" width="{w:.1f}" height="22" class="{cls}" rx="2"/>')
-        b.append(_t(links + w + 8, y + 22, de(wert, d) + einheit, "t-ink", 13, "start", 700))
+        stellen = d if float(wert).is_integer() else max(d, 1)
+        b.append(_t(links + w + 8, y + 22, de(wert, stellen) + einheit, "t-ink", 13, "start", 700))
     return svg(h, "".join(b), label)
 
 
 def punkte_intervall(zeilen, xmin, xmax, label="", links=250, fett=None):
     """Punkt mit 80-%-Intervall. zeilen: [(name, wert|None, lo, hi, notiz)]."""
     fett = fett or set()
-    rechts = W - 40
+    spalte = W - 150          # Beginn der Beschriftungsspalte rechts neben der Achse
+    rechts = spalte - 24
     breite = rechts - links
     zh = 40
     top = 30
@@ -91,8 +93,9 @@ def punkte_intervall(zeilen, xmin, xmax, label="", links=250, fett=None):
         b.append(f'<line x1="{sx(lo):.1f}" y1="{y}" x2="{sx(hi):.1f}" y2="{y}" class="{scls}" stroke-width="3" stroke-linecap="round" opacity="0.45"/>')
         r = 8 if name in fett else 6.5
         b.append(f'<circle cx="{sx(wert):.1f}" cy="{y}" r="{r}" class="{cls}"/>')
-        tx = sx(hi) + 10
-        b.append(_t(tx, y + 5, de(wert, 0, vz=True) + " %" + (f"   {notiz}" if notiz else ""), "t-ink", 12.5, "start", 700))
+        b.append(_t(spalte, y + 5, de(wert, 0, vz=True) + " %", "t-ink", 12.5, "start", 700))
+        if notiz:
+            b.append(_t(spalte + 52, y + 5, notiz, "t-muted", 12, "start", 500))
     return svg(h, "".join(b), label)
 
 

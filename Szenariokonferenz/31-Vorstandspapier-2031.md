@@ -95,7 +95,7 @@ Außenumsatzes. WIG2 gewänne rund +1,3 Mio. €, 4K verlöre rund −0,6 Mio. �
 
 **4K ist die exponierte Gesellschaft.** Ihr Geschäft ist die Auswertungsschicht — genau der
 Wertanteil, der von 70 auf 32 Prozent fällt. Dazu kommt die Kundenkonzentration: zwei Adressen
-tragen 52 Prozent des Außenumsatzes, die drei größten 61 Prozent.
+tragen 52 Prozent des extern fakturierten Volumens, die drei größten 61 Prozent.
 
 **CLINIBOTS ist eine eigene Entscheidung, keine Nuance.** Minus 60 Prozent Umsatz, minus 80 Prozent
 Deckungsbeitrag. Das Produkt verarbeitet öffentlich zugängliche Rohdaten (§ 21 KHEntgG,

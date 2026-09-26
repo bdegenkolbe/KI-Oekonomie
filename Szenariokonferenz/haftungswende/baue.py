@@ -547,7 +547,7 @@ TEILE.append(kapitel(6, "higl", "Achtzig Punkte Spreizung: Der Verbund liefe aus
  f'''<div class="prose">
 <h3>Die Ausgangslage 2025</h3>
 <p>Die sieben Gesellschaften mit eigenen Buchungsdaten erzielten 2025 zusammen 17,57 Mio. € Netto-Erlöse. Ein Teil davon ist Innenumsatz zwischen den Gesellschaften; der Außenumsatz lag bei rund 14,48 Mio. €. Alle Werte für 2031 beziehen sich auf diesen Außenumsatz.</p>
-<p>Zwei Gesellschaften tragen den Verbund: WIG2 und 4K ANALYTICS stehen zusammen für 89 Prozent des Außenumsatzes. Beide sind konzentriert. Bei 4K tragen zwei Kunden, die IKK classic mit 2,12 Mio. € und IQVIA mit 1,91 Mio. €, zusammen 52 Prozent des Außenumsatzes. Bei WIG2 steht der größte Kunde, die ZEG, mit 1,65 Mio. € für 25 Prozent.</p>
+<p>Zwei Gesellschaften tragen den Verbund: WIG2 und 4K ANALYTICS stehen zusammen für 89 Prozent des Außenumsatzes. Beide sind konzentriert. Bei 4K tragen zwei Kunden, die IKK classic mit 2,12 Mio. € und IQVIA mit 1,91 Mio. €, zusammen 52 Prozent des extern fakturierten Volumens. Bei WIG2 steht der größte Kunde, die ZEG, mit 1,65 Mio. € für 25 Prozent. Die Kundenbeträge sind brutto fakturiert (Debitorensicht) und deshalb nicht mit den Netto-Erlösen der Abbildung zu verrechnen; die Anteile beziehen sich auf das extern fakturierte Volumen derselben Gesellschaft.</p>
 </div>
 ''' + abb("WIG2 und 4K ANALYTICS trügen 89 Prozent des Außenumsatzes",
           "Netto-Erlöse 2025 je Gesellschaft in Mio. €, darunter der Anteil des Innenumsatzes",
