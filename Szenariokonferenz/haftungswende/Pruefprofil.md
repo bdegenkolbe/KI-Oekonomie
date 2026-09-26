@@ -53,6 +53,7 @@ Das Papier schafft einen **strategischen Rahmen**: Richtung, Voraussetzungen, Ha
 - Gestaltung: eigene Vorlage in `baue.py` (IBM Plex Sans / Source Serif 4), nicht die Aptos-Standardvorlage
 
 ## Bekannte Fehlermuster
+- Anker ohne Umlaute (`slugify()` in validate_doc.py zerlegt ä/ö/ü per NFKD); Anker folgen der GitHub-Regel, Prüfung in `pruefe.py`
 - Lesefassung verlor Links, Listenmarken und Kapitelnummern (Konverter v1); Querverweisprüfung war deshalb abgeschaltet. Seit Konverter v2 läuft sie mit.
 - Begriffslinks brechen die Deklination („Der Europäischer …“, „Die Beitragspflichtige …“): beim Einsetzen von `B()` die gebeugte Form übergeben
 - Anteile ohne Mehrheit als „überwiegend“ bezeichnet (40 % Kundenanteil)

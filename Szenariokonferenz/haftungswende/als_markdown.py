@@ -54,11 +54,17 @@ class Baum(HTMLParser):
 
 
 def slug(text):
-    """Wie slugify() in validate_doc.py, damit Anker und Prüfung übereinstimmen."""
-    text = re.sub(r"[`*_]", "", text).strip().lower()
-    text = unicodedata.normalize("NFKD", text)
-    text = re.sub(r"[^\w\säöüß-]", "", text, flags=re.UNICODE)
-    return re.sub(r"[\s]+", "-", text).strip("-")
+    """Anker nach der Regel von GitHub: Kleinschreibung, Umlaute bleiben,
+    Satzzeichen fallen weg, jedes Leerzeichen wird ein Bindestrich.
+
+    Bewusst NICHT wie slugify() in validate_doc.py: Dort zerlegt NFKD die
+    Umlaute, bevor sie geschützt werden, sodass aus »ä« ein »a« wird. Solche
+    Anker funktionieren in keiner üblichen Markdown-Ansicht. pruefe.py prüft
+    die Anker deshalb selbst mit dieser Funktion.
+    """
+    text = unicodedata.normalize("NFC", re.sub(r"[`*]", "", text)).strip().lower()
+    text = re.sub(r"[^\w\- ]", "", text, flags=re.UNICODE)
+    return text.replace(" ", "-")
 
 
 def text_roh(k):

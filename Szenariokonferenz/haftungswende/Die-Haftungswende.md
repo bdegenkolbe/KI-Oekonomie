@@ -12,11 +12,11 @@
 **Inhalt**
 
 - [Auf einen Blick](#auf-einen-blick): Leitfrage, Kernaussagen, Rahmen
-- 1 [Europa](#1-der-produktivitatsgewinn-kame-nach-europa-im-preis-zeigte-er-sich-kaum): Der Gewinn kommt an, der Preis folgt ihm kaum
-- 2 [Deutschland](#2-die-beitragsbasis-wuchse-weiter-ki-veranderte-sie-kaum): Die Beitragsbasis wächst weiter
+- 1 [Europa](#1-der-produktivitätsgewinn-käme-nach-europa-im-preis-zeigte-er-sich-kaum): Der Gewinn kommt an, der Preis folgt ihm kaum
+- 2 [Deutschland](#2-die-beitragsbasis-wüchse-weiter-ki-veränderte-sie-kaum): Die Beitragsbasis wächst weiter
 - 3 [Gesundheitswesen](#3-mehr-leistungen-knappere-preise): Mehr Leistungen, knappere Preise
-- 4 [Pharma und USA](#4-die-us-preispolitik-erhohte-den-druck-auf-hersteller-und-den-bedarf-an-evidenz): Mehr Druck, mehr Bedarf an Evidenz
-- 5 [Unser Markt](#5-auswertung-wurde-billig-haftung-wurde-wertvoll): Auswertung wird billig, Haftung wird wertvoll
+- 4 [Pharma und USA](#4-die-us-preispolitik-erhöhte-den-druck-auf-hersteller-und-den-bedarf-an-evidenz): Mehr Druck, mehr Bedarf an Evidenz
+- 5 [Unser Markt](#5-auswertung-würde-billig-haftung-würde-wertvoll): Auswertung wird billig, Haftung wird wertvoll
 - 6 [Die Gesellschaften](#6-die-gesellschaften-entwickelten-sich-sehr-unterschiedlich): Wer wo steht
 - 7 [Der strategische Rahmen](#7-der-strategische-rahmen): Richtung, Voraussetzungen, Handlungsfelder, Zeitfenster
 - A [Anhang](#anhang-methode-grenzen-begriffe-quellen): Methode, Grenzen, Begriffe, Quellen
@@ -119,7 +119,7 @@ Quelle: Sitzung D, Europa-Einschätzungen EU-01 bis EU-08 und Mediane der Stufen
 
 **Die [KI-Verordnung](#ki-verordnung)** würde KI im Gesundheitswesen vor allem verlangsamen, weil sie Nachweise fordert, für die die Maßstäbe noch fehlen: Die harmonisierten Normen zu den Pflichten für Hochrisikosysteme (Artikel 8 bis 15) liegen noch nicht vor. Wann die Pflichten für die Fälle aus Anhang III beginnen, ist unter den Fachrollen umstritten: zehn nennen den 2. Dezember 2027, zwei den 2. August 2028. Das deutsche Durchführungsgesetz gilt seit dem 29. Juli 2026.
 
-**Der [Europäische Gesundheitsdatenraum](#europaischer-gesundheitsdatenraum)** öffnet ab März 2031 die zweite Stufe der Datennutzung für Forschung, mit Bildgebung, Laborwerten, Entlassbriefen und Genomdaten. Für alle, die mit Gesundheitsdaten arbeiten, wäre das der größte Nachfrageschub bis 2031. Der Engpass läge in der Bearbeitungskapazität der Zugangsstellen.
+**Der [Europäische Gesundheitsdatenraum](#europäischer-gesundheitsdatenraum)** öffnet ab März 2031 die zweite Stufe der Datennutzung für Forschung, mit Bildgebung, Laborwerten, Entlassbriefen und Genomdaten. Für alle, die mit Gesundheitsdaten arbeiten, wäre das der größte Nachfrageschub bis 2031. Der Engpass läge in der Bearbeitungskapazität der Zugangsstellen.
 
 **Die Wettbewerbsfähigkeit Europas** bleibt der Hintergrund. Nach dem Draghi-Bericht sind nur vier der fünfzig größten Technologieunternehmen der Welt europäisch. Von einem KI-Effizienzgewinn im Gesundheitswesen blieben nach den Einschätzungen rund 55 Prozent in der EU, in einer Spanne von 42 bis 68 Prozent. Der Rest ginge an die Anbieter der Modelle und der Rechenleistung.
 
@@ -205,7 +205,7 @@ Die private Krankenversicherung (PKV) zählte 2025 rund 8,79 Millionen Vollversi
 
 ### Krankenhäuser: Die Reform wirkt erst ab 2030 voll
 
-Das Krankenhausreformanpassungsgesetz (KHAG) gilt seit dem 15. April 2026. Es ordnet die Versorgung in 61 Leistungsgruppen und führt eine [Vorhaltevergütung](#vorhaltevergutung) ein. Sie läuft 2026 und 2027 budgetneutral, wird 2028 und 2029 schrittweise eingeführt und wirkt ab 2030 voll. Das Institut für das Entgeltsystem im Krankenhaus (InEK) rechnet für 2026 bis 2029 mit den Daten von 2024.
+Das Krankenhausreformanpassungsgesetz (KHAG) gilt seit dem 15. April 2026. Es ordnet die Versorgung in 61 Leistungsgruppen und führt eine [Vorhaltevergütung](#vorhaltevergütung) ein. Sie läuft 2026 und 2027 budgetneutral, wird 2028 und 2029 schrittweise eingeführt und wirkt ab 2030 voll. Das Institut für das Entgeltsystem im Krankenhaus (InEK) rechnet für 2026 bis 2029 mit den Daten von 2024.
 
 Bis 2030 hätte ein Krankenhaus damit kaum eine Möglichkeit, einen KI-Effizienzgewinn in höhere Erlöse umzusetzen. Der Gewinn bliebe als Kostenentlastung im Haus. Deshalb läge der Preisdurchgriff bei den Leistungserbringern am niedrigsten in der ganzen Wirkungskette (Abbildung 9).
 
@@ -231,7 +231,7 @@ Quelle: Sitzung D, alle 83 Einschätzungen, Median je Stufe. Bis zur Wirkung ver
 
 Mit der Proklamation 11020 vom 2. April 2026 hat die US-Regierung Zölle auf patentgeschützte Arzneimittel eingeführt. Der Regelsatz liegt bei 100 Prozent, für Erzeugnisse aus der EU bei 15 Prozent, aus dem Vereinigten Königreich bei 10 Prozent. Für 17 namentlich genannte Unternehmen gilt der Zoll seit dem 31. Juli 2026, für alle übrigen ab dem 29. September 2026. Hersteller mit einer Preisvereinbarung und Produktion in den USA zahlen bis zum 20. Januar 2029 keinen Zoll; wer nur die Produktion verlagert, zahlt 20 Prozent und ab dem 2. April 2030 den vollen Satz. Generika sind ausgenommen, laut Text allerdings nur »at this time«; eine Überprüfung ist binnen eines Jahres vorgesehen.
 
-Hinzu kommen 26 Vereinbarungen zur [Meistbegünstigung](#meistbegunstigung) mit Herstellern, die zusammen rund 89 Prozent des Markts für Markenarzneimittel abdecken, sowie drei Erstattungsmodelle: GENEROUS für Medicaid seit Januar 2026, GLOBE für Medicare Part B, angekündigt für Oktober 2026 (eine endgültige Regelung lag zum Stand dieses Papiers nicht vor), und GUARD für Medicare Part D ab Januar 2027.
+Hinzu kommen 26 Vereinbarungen zur [Meistbegünstigung](#meistbegünstigung) mit Herstellern, die zusammen rund 89 Prozent des Markts für Markenarzneimittel abdecken, sowie drei Erstattungsmodelle: GENEROUS für Medicaid seit Januar 2026, GLOBE für Medicare Part B, angekündigt für Oktober 2026 (eine endgültige Regelung lag zum Stand dieses Papiers nicht vor), und GUARD für Medicare Part D ab Januar 2027.
 
 ### Warum Deutschland dabei besonders betroffen ist
 

@@ -84,3 +84,13 @@ Anlass: Hinweis von Cursor Bugbot, die Lesefassung `Die-Haftungswende.md` verlie
 **Bereinigung:** `als_markdown.py` baut jetzt einen Dokumentbaum und gibt Kapitel als `## N Titel`, Begriffe als `####`-Überschriften, Links als Markdown-Anker, Listen mit Marken und Abbildungen mit Nummer, Titel, Unterzeile, Tabelle oder Platzhalter und Quelle aus. Neuer Prüflauf `pruefe.py` mit allen Checks.
 
 **Nachprüfung:** `python3 pruefe.py` → 21 Abbildungen, 16 Begriffe, 25 interne Links, 0 Befunde, 5 Hinweise (Leerfeld-Striche in Tabellen). Gegenprobe mit absichtlich gebrochenen Verweisen (Kapitel 9, § 6.2, Abbildung 27): alle drei gemeldet. Am Papier selbst keine Änderung nötig.
+
+## Nachtrag 26.09.2026 — Fassung 2.0 — Umfang: Schnellprüfung (Anker)
+
+Anlass: Hinweis von Cursor Bugbot, die Anker der Lesefassung verlören Umlaute (`produktivitatsgewinn`) und passten nicht zu den Überschriften in üblichen Markdown-Ansichten.
+
+**Befund zutreffend.** Die Anker waren absichtlich wie `slugify()` in `validate_doc.py` gebildet. Diese Funktion zerlegt Umlaute per NFKD, bevor sie geschützt werden, und bildet sie so auf Grundbuchstaben ab. Der Fehler liegt damit auch im Skill-Skript; ungeändert gelassen, da nicht Teil dieses Repositorys.
+
+**Bereinigung:** `slug()` in `als_markdown.py` folgt der GitHub-Regel (Umlaute bleiben). `pruefe.py` prüft Markdown-Anker selbst mit dieser Regel und blendet die Ankerprüfung von `validate_doc.py` aus, weil sie gültige Umlaut-Anker verwerfen würde.
+
+**Nachprüfung:** 0 Befunde. Gegenprobe mit zwei gebrochenen Links (Inhaltsverzeichnis, Begriff): beide gemeldet.

@@ -6,6 +6,9 @@
    der projekteigenen Slang-Liste auf. §-Treffer, die in derselben Zeile ein
    Gesetz nennen (SGB, KHEntgG), sind Normzitate und keine internen Verweise;
    sie werden herausgefiltert, alle anderen Befunde bleiben stehen.
+   Markdown-Anker prüft dieser Lauf selbst nach der Regel von GitHub
+   (Umlaute bleiben erhalten); die Ankerprüfung von validate_doc.py bildet
+   Umlaute auf Grundbuchstaben ab und würde gültige Anker verwerfen.
 3. Prüft zusätzlich, was validate_doc.py nicht kennt: Abbildungsverweise im
    Fließtext, verbotenen Verfahrensjargon und dass jeder Begriff im Anhang
    im Text verlinkt ist.
@@ -41,6 +44,9 @@ for z in lauf.stdout.splitlines():
     nr, art, text = int(m.group(1)), m.group(2), m.group(3)
     if art == "Querverweis" and text.startswith("§") and NORM.search(zeilen[nr - 1]):
         continue
+    if art == "Querverweis" and text.startswith("Anker #"):
+        continue          # Anker prüft dieser Lauf selbst, siehe unten
+
     (hinweise if "Hinweis" in art else befunde).append(f"Zeile {nr} [{art}] {text}")
 
 # ---------------------------------------------------------------- eigene Checks
@@ -64,8 +70,14 @@ for i, z in enumerate(zeilen, 1):
         if re.search(v, z):
             befunde.append(f"Zeile {i} [Wortschatz] „{re.search(v, z).group(0)}“ ist laut Prüfprofil zu ersetzen")
 
-begriffe = [z[5:].strip() for z in zeilen if z.startswith("#### ")]
 from als_markdown import slug
+ueberschriften = {slug(re.sub(r"^#+\s+", "", z)) for z in zeilen if re.match(r"^#{1,6}\s", z)}
+for i, z in enumerate(zeilen, 1):
+    for ziel in re.findall(r"\]\(#([^)]+)\)", z):
+        if ziel not in ueberschriften:
+            befunde.append(f"Zeile {i} [Anker] #{ziel} hat kein Überschriften-Ziel")
+
+begriffe = [z[5:].strip() for z in zeilen if z.startswith("#### ")]
 for b in begriffe:
     if f"](#{slug(b)})" not in volltext:
         befunde.append(f"[Glossar] Begriff „{b}“ wird im Text nicht verlinkt")
