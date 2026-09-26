@@ -22,7 +22,7 @@ const fs = require('fs');
     await p.emulateMedia({ media: 'print', colorScheme: 'light' });
     await p.pdf({ path: pdf, format: 'A4', printBackground: true, preferCSSPageSize: true, displayHeaderFooter: true,
       headerTemplate: '<div></div>',
-      footerTemplate: '<div style="width:100%;font:8px Arial,sans-serif;color:#627089;padding:0 14mm;display:flex;justify-content:space-between"><span>Die Haftungswende · HIGL-Verbund · Stand 26.09.2026</span><span><span class="pageNumber"></span> / <span class="totalPages"></span></span></div>' });
+      footerTemplate: '<div style="width:100%;font:8px Arial,sans-serif;color:#627089;padding:0 14mm;display:flex;justify-content:space-between"><span>Die Haftungswende · HIGL-Verbund · Fassung 2.0 · Stand 26.09.2026</span><span><span class="pageNumber"></span> / <span class="totalPages"></span></span></div>' });
   }
   await b.close();
 })();

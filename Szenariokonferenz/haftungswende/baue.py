@@ -144,6 +144,14 @@ aside.einordnung p:last-child{margin-bottom:0;}
 .empfehlung li .wer{font-size:.82rem;color:var(--muted);display:block;margin-top:.3em;}
 .fuss{font-size:.8rem;color:var(--muted);}
 
+a.begriff{color:inherit;text-decoration:underline dotted var(--muted);text-underline-offset:3px;}
+a.begriff:hover{color:var(--accent);}
+dl.glossar{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:0 32px;margin:.6em 0 1.4em;}
+dl.glossar div{padding:.55em 0;border-top:1px solid var(--rule);break-inside:avoid;}
+dl.glossar dt{font-weight:700;font-size:.92rem;}
+dl.glossar dd{margin:.2em 0 0;font-size:.88rem;color:var(--ink-2);}
+aside.folgerung{border-top-color:var(--accent);}
+aside.folgerung .eyebrow{color:var(--accent);}
 @media (max-width:520px){ body{font-size:15.5px;} .inhalt li{grid-template-columns:2.4em 1fr;} .inhalt li em{display:none;} }
 @media (prefers-reduced-motion:reduce){ *{scroll-behavior:auto;} }
 @page{size:A4;margin:14mm 15mm 16mm;}
@@ -166,7 +174,9 @@ aside.einordnung p:last-child{margin-bottom:0;}
   .entscheidung{margin:1.2em 0;padding:14px 18px;}
   .empfehlung li{padding:.55em 0;}
   table{font-size:8.6pt;}
-  #methode ul,#methode .fuss{font-size:8.4pt;}
+  #methode ul,#methode .fuss,dl.glossar dd{font-size:8.4pt;}
+  dl.glossar dt{font-size:8.8pt;}
+  a.begriff{text-decoration:none;}
   #methode h3{margin-top:1em;}
   .wrap{max-width:none;padding:0;}
   .blatt{border:0;margin:0;padding:0;break-before:page;}
@@ -199,6 +209,33 @@ def einordnung(titel, text):
 
 TEILE = []
 
+# Begriffe, die im Anhang erklärt werden. Erstnennung im Text verlinkt über B().
+GLOSSAR = [
+    ("preisdurchgriff", "Preisdurchgriff", "Anteil eines Produktivitätsgewinns, der beim Preis ankommt. 100 Prozent hieße: Lässt sich eine Leistung um ein Fünftel billiger herstellen, sinkt auch ihr Preis um ein Fünftel. Niedrige Werte bedeuten, dass der Preis anderen Regeln folgt, etwa einer Budgetformel."),
+    ("standardauswertung", "Standardauswertung", "Analyseleistung, deren Wert im Aufwand liegt: Datenaufbereitung, Kohortenbildung, Literaturübersicht, Standardmodell, Kennzahlenbericht, Foliensatz. KI kann sie zunehmend schneller und billiger erzeugen."),
+    ("haftung", "Leistung mit Haftung", "Analyseergebnis, für das der Anbieter einsteht, etwa vor dem Gemeinsamen Bundesausschuss, einer Schiedsstelle, einer Aufsicht oder einem Gericht. Ihr Preis ergibt sich aus der Zusicherung, nicht aus dem Aufwand."),
+    ("szenario", "Szenario", "Einer von drei Entwicklungspfaden der US-Studie: <em>modest</em> (gering), <em>substantial</em> (deutlich), <em>extreme</em> (sehr stark). Die Autoren ordnen ihnen keine Wahrscheinlichkeiten zu."),
+    ("intervall", "80-Prozent-Intervall", "Spanne, in der ein Wert nach Einschätzung der Fachrollen mit 80 Prozent Wahrscheinlichkeit läge. Je breiter, desto unsicherer."),
+    ("median", "Median", "Mittlerer Wert einer Reihe: Die Hälfte der Einschätzungen liegt darüber, die Hälfte darunter. Anders als der Durchschnitt wird er von Ausreißern kaum verschoben."),
+    ("entgelte", "Beitragspflichtige Entgelte", "Die Löhne und Gehälter, auf die Beiträge zur gesetzlichen Krankenversicherung erhoben werden, begrenzt durch die Beitragsbemessungsgrenze. Sie sind die Einnahmenbasis der GKV."),
+    ("vorhalte", "Vorhaltevergütung", "Teil der Krankenhausvergütung nach der Krankenhausreform, der für das Bereitstellen einer Leistungsgruppe gezahlt wird, unabhängig von der Fallzahl."),
+    ("erstattungsbetrag", "Erstattungsbetrag", "Preis eines neuen Arzneimittels, den Hersteller und GKV-Spitzenverband nach § 130b SGB V auf Grundlage der Nutzenbewertung vereinbaren. In Deutschland ist er öffentlich."),
+    ("nutzenbewertung", "Nutzenbewertung", "Verfahren nach § 35a SGB V, in dem der Gemeinsame Bundesausschuss den Zusatznutzen eines neuen Arzneimittels feststellt. Das Ergebnis bestimmt den Erstattungsbetrag."),
+    ("mfn", "Meistbegünstigung", "Englisch <em>most favoured nation</em> (MFN): Der US-Preis richtet sich nach dem niedrigsten Preis in einer Gruppe von Vergleichsländern."),
+    ("kivo", "KI-Verordnung", "Verordnung (EU) 2024/1689. Für Hochrisikosysteme, etwa in Medizin und Sozialverwaltung, gelten Pflichten zu Datenqualität, Dokumentation, menschlicher Aufsicht und Konformitätsnachweis."),
+    ("ehds", "Europäischer Gesundheitsdatenraum", "Englisch <em>European Health Data Space</em> (EHDS): EU-Rahmen, der die Nutzung von Gesundheitsdaten für Forschung und Versorgung über Zugangsstellen regelt."),
+    ("rwe", "Real-World-Evidence", "Erkenntnisse aus Versorgungsdaten, etwa Abrechnungsdaten, Registern oder Patientenakten, im Unterschied zu Daten aus klinischen Studien."),
+    ("db", "Deckungsbeitrag", "Umsatz abzüglich der direkt zurechenbaren Kosten. Er zeigt, was eine Leistung zur Deckung der Fixkosten und zum Gewinn beiträgt."),
+    ("aussenumsatz", "Außenumsatz", "Umsatz mit Kunden außerhalb des Verbunds. Innenumsatz sind Leistungen zwischen den Gesellschaften; er fällt in der Verbundsicht heraus."),
+]
+_GL = {k: t for k, t, _ in GLOSSAR}
+def B(schluessel, text=None):
+    """Begriff bei Erstnennung mit dem Glossar verlinken."""
+    return f'<a class="begriff" href="#g-{schluessel}">{text or _GL[schluessel]}</a>'
+
+def folgerung(text):
+    return f'<aside class="einordnung folgerung"><span class="eyebrow">Was das für den Verbund heißt</span>{text}</aside>'
+
 # ====================================================================== Titel
 TEILE.append(f'''
 <section class="blatt titelblatt titel">
@@ -206,25 +243,25 @@ TEILE.append(f'''
 <h1>Die Haftungswende</h1>
 <p class="unter">Was Künstliche Intelligenz bis 2031 für Europa, Deutschland, das Gesundheitswesen und die Gesellschaften des HIGL-Verbunds bedeutet</p>
 <div class="meta">
-<div><b>Stand</b>26. September 2026</div>
-<div><b>Grundlage</b>Szenariokonferenz, Sitzung D: 100 Fachrollen, 83 Urteile entlang der Kette</div>
-<div><b>Ist-Werte</b>DATEV-Kontenblätter 2025</div>
-<div><b>Für</b>Gesellschafterversammlung und Geschäftsführungen</div>
+<div><b>Stand</b>26. September 2026, Fassung 2.0</div>
+<div><b>Zweck</b>Strategischer Rahmen für die Gesellschaften des Verbunds</div>
+<div><b>Grundlage</b>Szenariokonferenz mit 100 Fachrollen; Ist-Werte aus den DATEV-Kontenblättern 2025</div>
+<div><b>Für</b>Gesellschafter und Geschäftsführungen</div>
 </div>
 <div class="inhalt" style="margin-top:3em">
 <div class="eyebrow">Inhalt</div>
 <ol>
-<li><span>·</span><a href="#blick">Auf einen Blick</a><em>Die Kernaussagen und die Entscheidung</em></li>
-<li><span>1</span><a href="#europa">Europa</a><em>Der Gewinn kommt an, der Preis folgt ihm nicht</em></li>
-<li><span>2</span><a href="#deutschland">Deutschland</a><em>Die Lohnsumme schrumpft nicht, sie verschiebt sich</em></li>
-<li><span>3</span><a href="#gesundheit">Gesundheitswesen</a><em>Mehr Leistungen, schlechter bezahlt</em></li>
-<li><span>4</span><a href="#pharma">Pharma und die USA</a><em>Der Zollfahrplan trifft auf den offenen Preis</em></li>
-<li><span>5</span><a href="#evidenz">Der Markt für Evidenz</a><em>Rechnen wird billig, Einstehen wird knapp</em></li>
-<li><span>6</span><a href="#higl">Die Gesellschaften des Verbunds</a><em>Achtzig Punkte Spreizung</em></li>
-<li><span>7</span><a href="#entscheidung">Die Entscheidung</a><em>Ein Beschluss, drei Bausteine, fünf Fristen</em></li>
-<li><span>A</span><a href="#methode">Methode, Grenzen, Quellen</a><em>Was die Zahlen hergeben und was nicht</em></li>
+<li><span>·</span><a href="#blick">Auf einen Blick</a><em>Leitfrage, Kernaussagen, Rahmen</em></li>
+<li><span>1</span><a href="#europa">Europa</a><em>Der Gewinn kommt an, der Preis folgt ihm kaum</em></li>
+<li><span>2</span><a href="#deutschland">Deutschland</a><em>Die Beitragsbasis wächst weiter</em></li>
+<li><span>3</span><a href="#gesundheit">Gesundheitswesen</a><em>Mehr Leistungen, knappere Preise</em></li>
+<li><span>4</span><a href="#pharma">Pharma und USA</a><em>Mehr Druck, mehr Bedarf an Evidenz</em></li>
+<li><span>5</span><a href="#evidenz">Unser Markt</a><em>Auswertung wird billig, Haftung wird wertvoll</em></li>
+<li><span>6</span><a href="#higl">Die Gesellschaften</a><em>Wer wo steht</em></li>
+<li><span>7</span><a href="#rahmen">Der strategische Rahmen</a><em>Richtung, Voraussetzungen, Handlungsfelder, Zeitfenster</em></li>
+<li><span>A</span><a href="#methode">Anhang</a><em>Methode, Grenzen, Begriffe, Quellen</em></li>
 </ol>
-<p class="fuss" style="margin-top:2em">Alle Werte für 2031 sind Ergebnisse einer Modellrechnung und stehen deshalb im Konjunktiv. Sie sind keine Prognosen. Gemessen sind nur die Ist-Werte 2025 aus den Buchungsdaten und die amtlichen Kennzahlen mit Quellenangabe.</p>
+<p class="fuss" style="margin-top:2em">Alle Werte für 2031 sind Ergebnisse einer Modellrechnung, keine Prognosen, und stehen deshalb im Konjunktiv. Gemessen sind die Ist-Werte 2025 aus den Buchungsdaten und die amtlichen Kennzahlen mit Quellenangabe.</p>
 </div>
 </section>
 ''')
@@ -236,199 +273,199 @@ KETTE = kette([
     ("LEISTUNGSERBRINGER", "+13 %", "Vergütung je Einheit|real −4 bis −10 %"),
     ("ARZNEI, MEDIZINPRODUKTE", "140 Mrd. €", "Nachfrage 2031"),
     ("EVIDENZMARKT", "800 Mio. €", "extern beauftragt|550 bis 1.150"),
-    ("HIGL-VERBUND", "+5 % / −15 %", "Umsatz / Deckungs-|beitrag, mit Entscheidung"),
+    ("HIGL-VERBUND", "+5 % / −15 %", "Umsatz / Deckungs-|beitrag, Pfad A"),
 ], "Wirkungskette von der Gesamtwirtschaft bis zum HIGL-Verbund")
 
 TEILE.append(kapitel("", "blick", "Auf einen Blick",
- "Künstliche Intelligenz macht die Arbeit des Verbunds billiger. Das ist 2031 nicht die gute Nachricht, sondern das Problem: Was billig wird, lässt sich nicht mehr teuer verkaufen. Bezahlt wird dann, wer für ein Ergebnis einsteht.",
- f'''
+ "KI macht Analyse schneller und billiger. Für einen Verbund, der von Analyse lebt, ist das Chance und Risiko zugleich. Dieses Papier ordnet ein, wo bis 2031 Wert entstünde und welche Richtung sich daraus für die Gesellschaften ableitet.",
+ f'''<div class="prose">
+<p><strong>Leitfrage.</strong> Wo entsteht im Gesundheitswesen bis 2031 Wert, wenn KI Analyse billig macht, und wie sollte sich der Verbund dazu aufstellen?</p>
+<p>Das Papier folgt dem Geld: von der Gesamtwirtschaft über die Krankenversicherung, die Krankenhäuser und die Pharmaindustrie bis zum Markt, in dem der Verbund verkauft. Jedes Kapitel endet mit der Frage, was der Befund für den Verbund bedeutet. Kapitel 7 fasst diese Folgerungen zu einem strategischen Rahmen zusammen. Beschlüsse trifft das Papier nicht; es beschreibt die Richtung und die Voraussetzungen, an denen sich die Gesellschaften ausrichten können.</p>
+</div>
 <ul class="kernaussagen">
-<li><b>1</b><div><strong>Europa bekäme den Produktivitätsgewinn, aber nicht in voller Höhe als Preis.</strong><span>Das zugrunde liegende US-Modell rechnet mit freien Preisen. In Europa sind Gesundheitspreise administriert; in Deutschland spiegelten sich bei den Leistungserbringern nur {DURCHGRIFF["S2"]} Prozent eines Gewinns im Preis wider.</span></div></li>
-<li><b>2</b><div><strong>Die Lohnsumme schrumpfte nicht, sie verschöbe sich.</strong><span>Die beitragspflichtigen Entgelte stiegen bis 2031 auf rund 1.790 Mrd. €. Der KI-Effekt darin wäre mit rund 10 Mrd. € die kleinste bezifferte Bewegung.</span></div></li>
-<li><b>3</b><div><strong>Die GKV gäbe mehr aus und zahlte je Leistung schlechter.</strong><span>Die Leistungsausgaben stiegen um knapp 27 Prozent auf 420 Mrd. €, das Vergütungsniveau je Einheit nur um 13 Prozent. Der Einkauf würde härter, nicht weicher.</span></div></li>
-<li><b>4</b><div><strong>Die US-Pharmapolitik wirkte auf den Verbund eher positiv.</strong><span>{US_POS} von 18 Fachurteilen sehen einen positiven Effekt auf die Evidenznachfrage, im Median {de(US_MEDIAN,0,vz=True)} Prozent: Wer Preise gegenüber den USA verteidigen muss, braucht Daten aus Deutschland.</span></div></li>
-<li><b>5</b><div><strong>Der Wert verschöbe sich vom Rechnen zum Einstehen.</strong><span>Der Anteil der beschreibenden Leistung fiele von rund 70 auf 32 Prozent, der Anteil der haftenden stiege von 30 auf 68 Prozent.</span></div></li>
-<li><b>6</b><div><strong>Die Gesellschaften liefen auseinander.</strong><span>WIG2 und GREENBAY Software gewännen je rund 20 Prozent, 4K ANALYTICS verlöre 10, CLINIBOTS 60. Der Verbundwert von plus 5 Prozent beschreibt keine einzige Gesellschaft.</span></div></li>
-<li><b>7</b><div><strong>Knapp wäre nicht die Technik, sondern die Haftung.</strong><span>Sieben von zwölf Fachurteilen aus dem Verbund nennen sie als bindendes Hemmnis. Keines bezeichnet die dafür nötige Versicherungsdeckung als verfügbar.</span></div></li>
+<li><b>1</b><div><strong>Europa</strong><span>Der Produktivitätsgewinn käme auch in Europa an. Im Gesundheitswesen würde er sich aber kaum im Preis zeigen, weil Preise dort über Budgets und Gesetze festgelegt werden.</span></div></li>
+<li><b>2</b><div><strong>Deutschland</strong><span>Die Löhne, auf die Krankenkassenbeiträge erhoben werden, würden bis 2031 auf rund 1.790 Mrd. € steigen. Der Anteil, der auf KI zurückgeht, wäre mit rund 10 Mrd. € klein.</span></div></li>
+<li><b>3</b><div><strong>Gesundheitswesen</strong><span>Die Krankenkassen würden 2031 rund 27 Prozent mehr ausgeben als 2025, für die einzelne Leistung aber nur 13 Prozent mehr zahlen. Die Kunden des Verbunds hätten mehr Arbeit und weniger Spielraum.</span></div></li>
+<li><b>4</b><div><strong>Pharma und USA</strong><span>Die US-Preispolitik setzt Hersteller unter Druck. Nach den meisten Einschätzungen würde das die Nachfrage nach Evidenz aus Deutschland erhöhen, im Median um rund 9 Prozent.</span></div></li>
+<li><b>5</b><div><strong>Unser Markt</strong><span>Der Wert würde sich verschieben: weg von der Standardauswertung, die KI günstig erledigt, hin zu Ergebnissen, für die jemand haftet. Ihr Anteil stiege von 30 auf 68 Prozent.</span></div></li>
+<li><b>6</b><div><strong>Die Gesellschaften</strong><span>WIG2 und GREENBAY Software würden wachsen, 4K ANALYTICS und CLINIBOTS stünden unter Druck. Der Verbund als Ganzes läge bei plus 5 Prozent Umsatz, aber mit sinkender Marge.</span></div></li>
 </ul>
-
 <div class="entscheidung">
-<div class="eyebrow">Die Entscheidung</div>
-<h3>Bis zum 30. Juni 2028 wäre zu beschließen, ob der Verbund die Haftung für seine Analyseergebnisse übernimmt.</h3>
-<p>Versichert, vertraglich zugesichert, mit einem Abnahmeverfahren dahinter. Der Beschluss ist binär. Zwischenmarke ist der 31. Dezember 2027: eine schriftliche Vorabstimmung mit mindestens einem Berufshaftpflichtversicherer. Wird sie gerissen, wäre negativ zu entscheiden und nicht zu verschieben.</p>
+<div class="eyebrow">Der strategische Rahmen in Kürze</div>
+<h3>Vom Auswerten zum Einstehen</h3>
+<p>Der Verbund würde seinen Wert künftig weniger aus Rechenarbeit ziehen als aus Ergebnissen, für die er einsteht. Dafür braucht es drei Voraussetzungen, die nur zusammen wirken: eine nachvollziehbare Auswertungsstrecke, einen Abnahmestandard und eine Verantwortung mit Versicherungsdeckung. Wie viel davon abhängt, zeigen die beiden Pfade, die die Modellrechnung unterscheidet:</p>
 <div class="zahlen">
-<div><b>+5 %</b><span>Umsatz 2031 mit Entscheidung</span></div>
-<div><b>−30 %</b><span>Umsatz 2031 ohne Entscheidung</span></div>
+<div><b>+5 %</b><span>Umsatz 2031, Pfad A: Verbund kann haften</span></div>
+<div><b>−30 %</b><span>Umsatz 2031, Pfad B: Verbund bleibt bei der Standardauswertung</span></div>
 <div><b>5,1 Mio. €</b><span>Abstand beim Außenumsatz</span></div>
-<div><b>45 Punkte</b><span>Abstand beim Deckungsbeitrag</span></div>
+<div><b>Ende 2027</b><span>bis dahin sollte klar sein, ob Versicherungsdeckung zu bekommen ist</span></div>
 </div>
 </div>
-''' + abb("Die Kette: Von der Gesamtwirtschaft bis zum Verbund wird aus einem Produktivitätsgewinn ein Margenproblem",
-          "Zentralwerte 2031 je Glied der Wirkungskette",
+''' + abb("Vom Gesamtmarkt bis zum Verbund: Aus einem Produktivitätsgewinn würde ein Margenthema",
+          "Zentralwerte 2031 je Stufe der Wirkungskette",
           KETTE,
-          "Quelle: Szenariokonferenz Sitzung D, Übergabewerte Ü0 bis Ü4; Basis 2025: GKV-Statistik KV45 und KJ1, DATEV-Kontenblätter des Verbunds. Umsatzangabe bezogen auf 14,48 Mio. € Außenumsatz 2025.")))
+          "Quelle: Szenariokonferenz Sitzung D, Werte je Stufe; Basis 2025: GKV-Statistik KV45 und KJ1, DATEV-Kontenblätter des Verbunds. Umsatzangabe bezogen auf 14,48 Mio. € Außenumsatz 2025.")))
 
 # ====================================================================== Kapitel 1 Europa
 SZEN_TAB = '''<div class="tabelle"><table>
-<thead><tr><th>Szenario (US-Modell, bis 2030)</th><th class="z">BIP ggü. Basis</th><th class="z">Wachstum p.a.</th><th class="z">Lohnquote</th><th>Wahl in der Kette</th></tr></thead>
+<thead><tr><th>Szenario der US-Studie (bis 2030)</th><th class="z">BIP ggü. Basis</th><th class="z">Wachstum p. a.</th><th class="z">Lohnquote</th><th>gewählt von</th></tr></thead>
 <tbody>
 <tr><td>Basis ohne transformative KI</td><td class="z">—</td><td class="z">rund 2 %</td><td class="z">rund 60 %</td><td>—</td></tr>
-<tr><td><em>modest</em></td><td class="z">gering</td><td class="z">knapp über Basis</td><td class="z">knapp unter 60 %</td><td>''' + str(SZEN["modest"]) + ''' von ''' + str(N_KETTE) + '''</td></tr>
-<tr class="hervor"><td><em>substantial</em></td><td class="z">+8,3 %</td><td class="z">5,4 %</td><td class="z">rund 56 %</td><td>''' + str(SZEN["substantial"]) + ''' von ''' + str(N_KETTE) + '''</td></tr>
-<tr><td><em>extreme</em></td><td class="z">+32 %</td><td class="z">15 %</td><td class="z">rund 45 %</td><td>''' + str(SZEN["extreme"]) + ''' von ''' + str(N_KETTE) + '''</td></tr>
+<tr><td><em>modest</em> (gering)</td><td class="z">gering</td><td class="z">knapp über Basis</td><td class="z">knapp unter 60 %</td><td>''' + str(SZEN["modest"]) + ''' von ''' + str(N_KETTE) + '''</td></tr>
+<tr class="hervor"><td><em>substantial</em> (deutlich)</td><td class="z">+8,3 %</td><td class="z">5,4 %</td><td class="z">rund 56 %</td><td>''' + str(SZEN["substantial"]) + ''' von ''' + str(N_KETTE) + '''</td></tr>
+<tr><td><em>extreme</em> (sehr stark)</td><td class="z">+32 %</td><td class="z">15 %</td><td class="z">rund 45 %</td><td>''' + str(SZEN["extreme"]) + ''' von ''' + str(N_KETTE) + '''</td></tr>
 </tbody></table></div>'''
 
-BRUECHE = '''<div class="tabelle"><table>
-<thead><tr><th>Übertragungsbruch</th><th>Was das US-Modell annimmt</th><th>Was in Europa gilt</th><th class="z">Kennzahl</th></tr></thead>
+UNTERSCHIEDE = '''<div class="tabelle"><table>
+<thead><tr><th>Punkt</th><th>Annahme der US-Studie</th><th>Lage im europäischen Gesundheitswesen</th><th class="z">Kennzahl</th></tr></thead>
 <tbody>
-<tr><td><strong>Preis</strong></td><td>Ein Produktivitätsgewinn senkt den Preis oder erhöht die Marge, je nach Wettbewerb.</td><td>Gesundheitspreise folgen Budgetformeln, Fallpauschalen und Verhandlungsterminen.</td><td class="z">''' + str(DURCHGRIFF["S2"]) + ''' % statt ''' + str(DURCHGRIFF["S0"]) + ''' %</td></tr>
-<tr><td><strong>Zeit</strong></td><td>Anpassung, sobald die Technik es erlaubt.</td><td>Tarifrunden, Kündigungsschutz, Vergabeverfahren und Haushaltsjahre verzögern.</td><td class="z">3 Jahre</td></tr>
-<tr><td><strong>Haftung</strong></td><td>Kein eigener Kostenblock.</td><td>KI-Verordnung, Medizinprodukterecht und Berufsrecht verlangen einen, der einsteht.</td><td class="z">7 von 12</td></tr>
-<tr><td><strong>Ort</strong></td><td>Der Gewinn bleibt in der Volkswirtschaft.</td><td>Modelle und Rechenzentren liegen überwiegend außerhalb Europas; ein Teil der Wertschöpfung fließt ab.</td><td class="z">55 % Verbleib</td></tr>
+<tr><td><strong>Preis</strong></td><td>Ein Produktivitätsgewinn senkt den Preis oder erhöht die Marge.</td><td>Preise folgen Budgets, Fallpauschalen und Verhandlungsterminen.</td><td class="z">''' + str(DURCHGRIFF["S2"]) + ''' % statt ''' + str(DURCHGRIFF["S0"]) + ''' %</td></tr>
+<tr><td><strong>Zeit</strong></td><td>Anpassung, sobald die Technik es erlaubt.</td><td>Tarifrunden, Vergabeverfahren und Haushaltsjahre verzögern.</td><td class="z">rund 3 Jahre</td></tr>
+<tr><td><strong>Haftung</strong></td><td>Kein eigener Kostenfaktor.</td><td>KI-Verordnung, Medizinprodukte- und Berufsrecht verlangen jemanden, der einsteht.</td><td class="z">7 von 12</td></tr>
+<tr><td><strong>Ort</strong></td><td>Der Gewinn bleibt im Land.</td><td>Modelle und Rechenzentren liegen überwiegend außerhalb Europas.</td><td class="z">55 % bleiben in der EU</td></tr>
 </tbody></table></div>'''
 
 EUROPA = hbalken([
-    ("Frankreich", 70, "T2A-Fallpauschalen, ONDAM-Deckel"),
+    ("Frankreich", 70, "Fallpauschalen, nationaler Ausgabendeckel"),
     ("Niederlande", 55, "Versicherer kaufen selektiv ein"),
-    ("Deutschland, Gesamtwirtschaft", DURCHGRIFF["S0"], "Station 0"),
+    ("Deutschland, Gesamtwirtschaft", DURCHGRIFF["S0"], "alle Branchen"),
     ("EU-Gesundheitsdatenraum", 35, "Durchsatz der Zugangsstellen"),
     ("KI-Verordnung", 25, "fehlende harmonisierte Normen"),
     ("Estland", 20, "Haftung nach Art. 14 KI-VO"),
     ("Vereinigtes Königreich", 20, "Effizienzabschlag, nachlaufend"),
     ("EU-Arzneimittelpaket", 20, "Unterlagenschutz, Verfahrensdauer"),
     ("Dänemark", 15, "steuerfinanziert, Wartezeitgarantie"),
-    ("Deutschland, Leistungserbringer", DURCHGRIFF["S2"], "Station 2"),
+    ("Deutschland, Leistungserbringer", DURCHGRIFF["S2"], "Krankenhäuser, Praxen, Pflege"),
 ], 80, " %", "Preisdurchgriff im europäischen Vergleich", links=300,
    hervor={"Deutschland, Leistungserbringer", "Deutschland, Gesamtwirtschaft"})
 
-TEILE.append(kapitel(1, "europa", "Der Produktivitätsgewinn käme nach Europa, der Preis folgte ihm nicht",
- "Das Modell, auf dem diese Arbeit aufsetzt, beschreibt die USA. Seine Mechanik ließe sich übertragen, seine Preisbildung nicht. An vier Stellen bricht die Übertragung, und jede davon verschiebt, wer vom Gewinn profitiert.",
+TEILE.append(kapitel(1, "europa", "Der Produktivitätsgewinn käme nach Europa, im Preis zeigte er sich kaum",
+ "Die Studie, auf der diese Arbeit aufbaut, rechnet für die USA. Ihre Grundmechanik lässt sich auf Europa übertragen, ihre Preisbildung nicht. Das bestimmt, wer im Gesundheitswesen vom Gewinn profitiert.",
  f'''<div class="prose">
-<h3>Der Ausgangspunkt: drei Szenarien, keines davon eine Prognose</h3>
-<p>Die Studie <em>Economic Scenarios for Transformative AI</em> (Korinek, Jones, Sacher, Cotter und McCrory, Working Paper 2026-02) rechnet für die USA drei Pfade bis 2030. Im mittleren, <em>substantial</em> genannten Pfad läge das Bruttoinlandsprodukt 2030 um 8,3 Prozent über dem Pfad ohne transformative KI, das Wachstum bei 5,4 statt rund 2 Prozent im Jahr. Im extremen Pfad wären es 32 Prozent und 15 Prozent Wachstum. Die Lohnquote fiele von rund 60 auf 56 Prozent, im extremen Fall auf 45.</p>
-<p>Zwei Befunde der Studie sind für alles Weitere wichtig. Erstens: Die Löhne kognitiver Berufe fielen im mittleren Pfad leicht, um 0,3 Prozent, die der übrigen Berufe stiegen um 5,9 Prozent. Die Studie beschreibt also keinen Arbeitsplatzabbau, sondern eine Umschichtung zu den Tätigkeiten, die KI nicht übernimmt. Zweitens: Die Pfade liefen bis 2027 fast gleich und trennten sich erst danach. Wer heute entscheiden muss, kann nicht abwarten, welcher Pfad eintritt.</p>
-<p>Die Autoren bezeichnen ihre Szenarien ausdrücklich als <em>not predictions</em> und ordnen ihnen keine Wahrscheinlichkeiten zu. Die Fachurteile dieser Arbeit haben trotzdem fast einhellig den mittleren Pfad gewählt.</p>
+<h3>Ausgangspunkt: drei Szenarien für die USA</h3>
+<p>Die Studie <em>Economic Scenarios for Transformative AI</em> (Korinek, Jones, Sacher, Cotter und McCrory, Working Paper 2026-02) beschreibt drei {B("szenario", "Szenarien")} bis 2030. Im mittleren Szenario <em>substantial</em> läge das Bruttoinlandsprodukt (BIP) 2030 um 8,3 Prozent über einem Pfad ohne KI, das Wachstum bei 5,4 statt rund 2 Prozent im Jahr. Im extremen Szenario wären es 32 Prozent und 15 Prozent Wachstum. Der Anteil der Arbeitseinkommen am Volkseinkommen, die Lohnquote, fiele von rund 60 auf 56 Prozent, im extremen Fall auf 45.</p>
+<p>Zwei Befunde der Studie sind für dieses Papier wichtig. Die Löhne in Wissensberufen würden im mittleren Szenario leicht sinken, um 0,3 Prozent; die Löhne in allen übrigen Berufen stiegen um 5,9 Prozent. Die Studie beschreibt also eine Verschiebung zwischen Tätigkeiten, keinen allgemeinen Stellenabbau. Außerdem verlaufen die drei Szenarien bis 2027 fast gleich und trennen sich erst danach. Wer sich vorbereiten will, kann nicht abwarten, welches eintritt.</p>
+<p>Die Autoren betonen, dass ihre Szenarien keine Vorhersagen sind, und geben keine Wahrscheinlichkeiten an. Die Fachrollen der Szenariokonferenz haben trotzdem fast einhellig das mittlere Szenario gewählt (Abbildung 2). Die Zahlen dieses Papiers beschreiben deshalb im Kern einen Pfad, nicht die ganze Bandbreite.</p>
 </div>
-''' + abb(f"{SZEN['substantial']} von {N_KETTE} Fachurteilen wählten den mittleren Pfad: die Kette rechnet faktisch mit einem einzigen Szenario",
-          "Szenarien der Studie für die USA und ihre Wahl in der Kette",
+''' + abb(f"{SZEN['substantial']} von {N_KETTE} Einschätzungen wählten das mittlere Szenario",
+          "Szenarien der US-Studie und ihre Wahl in der Szenariokonferenz",
           SZEN_TAB,
-          "Quelle: Korinek u. a., Economic Scenarios for Transformative AI, WP 2026-02; Szenariowahl der 83 Kettenurteile aus Sitzung D (Stationen 0 bis 4). Die einzige empirische Verankerung des mittleren Pfads ist die Medianantwort einer Befragung von 10.980 US-Erwachsenen (Morning Consult, August 2026).") +
+          "Quelle: Korinek u. a., Economic Scenarios for Transformative AI, WP 2026-02; Szenariowahl der 83 Einschätzungen entlang der Wirkungskette. Das mittlere Szenario stützt sich empirisch auf eine Befragung von 10.980 US-Erwachsenen (Morning Consult, August 2026).") +
  f'''<div class="prose">
-<h3>Vier Brüche zwischen dem US-Modell und Europa</h3>
-<p>Das Modell kennt nach eigener Grenzenliste keine Preisrigiditäten, keine Haushaltsjahre, keine gedeckelten Kostenzeilen und keine Politökonomie. Genau diese Dinge bestimmen aber, wie ein Produktivitätsgewinn im europäischen Gesundheitswesen ankommt. Die Fachurteile aller Stationen laufen unabhängig voneinander auf dieselben vier Brüche hinaus.</p>
+<h3>Wo die US-Rechnung nicht auf Europa passt</h3>
+<p>Die Studie nennt selbst, was ihr Modell nicht abbildet: festgelegte Preise, Haushaltsjahre, gedeckelte Budgets und politische Aushandlung. Diese Faktoren bestimmen aber, wie ein Produktivitätsgewinn im europäischen Gesundheitswesen ankommt. Die Einschätzungen aller Stufen der Wirkungskette zeigen vier Unterschiede.</p>
 </div>
-''' + abb("Das Modell rechnet mit freien Preisen, sofortiger Anpassung, ohne Haftung und ohne Abfluss. Keine der vier Annahmen trägt in Europa",
-          "Übertragungsbrüche zwischen US-Modell und europäischem Gesundheitswesen",
-          BRUECHE,
-          "Quelle: Sitzung D, Mediane D2 (Preisdurchgriff) und D4 (Verzögerung) je Station; Hemmnisangaben Station 4; EU-Verbleib der Wertschöpfung aus dem Bestand, Teil 2 § 3 (18 Urteile, Quartile 42 und 68 Prozent).") +
+''' + abb("An vier Punkten weicht die europäische Lage von den Annahmen der US-Studie ab",
+          "Annahmen der US-Studie und Lage im europäischen Gesundheitswesen",
+          UNTERSCHIEDE,
+          "Quelle: Sitzung D, Mediane zu Preisdurchgriff und Verzögerung; Engpassangaben der Fachrollen aus dem Verbund; Verbleib der Wertschöpfung in der EU aus dem Bestand der Szenariokonferenz (18 Einschätzungen, mittlere Hälfte 42 bis 68 Prozent).") +
  f'''<div class="prose">
-<p><strong>Der Preisbruch ist der wichtigste.</strong> Die Kennzahl dafür heißt Preisdurchgriff: Welcher Anteil eines Produktivitätsgewinns spiegelt sich im Preis wider? In der deutschen Gesamtwirtschaft läge er bei {DURCHGRIFF["S0"]} Prozent. Bei den Leistungserbringern, also Krankenhäusern, Praxen und Pflege, läge er bei {DURCHGRIFF["S2"]} Prozent. Der Preis folgt dort nicht der Produktivität, sondern der Budgetformel. Ein Krankenhaus, das mit KI günstiger dokumentiert, bekommt dafür nicht weniger und nicht mehr Geld; es bekommt dasselbe, und die Ersparnis bleibt im Haus oder deckt andere Kosten.</p>
-<p><strong>Europa ist dabei kein einheitlicher Raum.</strong> Wo Preise über Fallpauschalen und einen nationalen Ausgabendeckel gesteuert werden, wie in Frankreich, holt der Staat einen Effizienzgewinn in ein bis zwei Tarifrunden zurück: Der Durchgriff läge bei 70 Prozent, allerdings zu Gunsten des Kostenträgers, nicht des Patienten. In den Niederlanden kaufen Versicherer selektiv ein, der Wert läge bei 55 Prozent. In steuerfinanzierten Systemen wie Dänemark und dem Vereinigten Königreich versickerte der Gewinn dagegen in Wartezeiten und Budgetmechanik; dort lägen die Werte bei 15 und 20 Prozent.</p>
+<p><strong>Der Preis ist der wichtigste Unterschied.</strong> Die Kennzahl dafür ist der {B("preisdurchgriff")}: Welcher Anteil eines Produktivitätsgewinns zeigt sich im Preis? In der deutschen Gesamtwirtschaft läge er bei {DURCHGRIFF["S0"]} Prozent, bei Krankenhäusern, Praxen und Pflege bei {DURCHGRIFF["S2"]} Prozent. Dort folgt der Preis der Budgetformel. Ein Krankenhaus, das mit KI günstiger dokumentiert, erhält dafür weder mehr noch weniger Geld. Die Ersparnis bleibt im Haus und deckt andere Kosten.</p>
+<p><strong>Europa ist dabei kein einheitlicher Raum.</strong> In Frankreich steuert der Staat Preise über Fallpauschalen und einen nationalen Ausgabendeckel; er würde einen Effizienzgewinn in ein bis zwei Tarifrunden zurückholen. Der Preisdurchgriff läge bei 70 Prozent, allerdings zugunsten der Kostenträger. In den Niederlanden kaufen Versicherer selektiv ein, der Wert läge bei 55 Prozent. In steuerfinanzierten Systemen wie Dänemark und dem Vereinigten Königreich würde der Gewinn eher in kürzeren Wartezeiten aufgehen; dort lägen die Werte bei 15 und 20 Prozent.</p>
 </div>
-''' + abb(f"Deutschland stünde mit {DURCHGRIFF['S2']} Prozent am unteren Rand: Ein Effizienzgewinn im Krankenhaus kommt beim Preis kaum an",
-          "Anteil eines Produktivitätsgewinns, der sich 2031 im Preis widerspiegelte, Median in Prozent",
+''' + abb(f"Deutschland läge mit {DURCHGRIFF['S2']} Prozent am unteren Rand: Im Krankenhaus käme ein Effizienzgewinn kaum beim Preis an",
+          "Anteil eines Produktivitätsgewinns, der sich 2031 im Preis zeigen würde, Median in Prozent",
           EUROPA,
-          "Quelle: Sitzung D, Europabank (Urteile EU-01 bis EU-08) und Mediane D2 der Stationen 0 und 2. Länderwerte je ein Fachurteil, daher als Richtung zu lesen, nicht als Messung.") +
+          "Quelle: Sitzung D, Europa-Einschätzungen EU-01 bis EU-08 und Mediane der Stufen Gesamtwirtschaft und Leistungserbringer. Länderwerte beruhen auf je einer Einschätzung und zeigen die Richtung, keine Messung.") +
  f'''<div class="prose">
-<h3>Die Regeln, die 2027 bis 2031 zählen</h3>
-<p><strong>Die KI-Verordnung</strong> (VO (EU) 2024/1689) wäre der größte einzelne Bremsfaktor, nicht weil sie verbietet, sondern weil sie verlangt, was es noch nicht gibt. Die Pflichten für Hochrisikosysteme setzen harmonisierte Normen zu Artikel 8 bis 15 voraus, die bislang fehlen. Der Geltungsbeginn für die Hochrisikofälle aus Anhang III ist in den Fachurteilen selbst strittig: Zehn datieren ihn auf den 2. Dezember 2027, zwei auf den 2. August 2028. Das deutsche Durchführungsgesetz ist seit dem 29. Juli 2026 in Kraft.</p>
-<p><strong>Der Europäische Gesundheitsdatenraum</strong> öffnete ab März 2031 die zweite Tranche der Sekundärnutzung, mit Bildgebung, Laborwerten, Entlassbriefen und Genomdaten. Das wäre das größte Nachfrageereignis des Horizonts für jeden, der mit Gesundheitsdaten arbeitet. Engpass wäre nicht der Zugang auf dem Papier, sondern der Bescheidungsdurchsatz der Zugangsstellen.</p>
-<p><strong>Die Wettbewerbsfähigkeit Europas</strong> bleibt das Hintergrundthema. Der Draghi-Bericht zählt unter den fünfzig größten Technologieunternehmen der Welt vier europäische. Für die Wertschöpfung heißt das: Rund 55 Prozent eines KI-Effizienzgewinns im Gesundheitswesen verblieben nach den Fachurteilen in der EU, die Spanne reicht von 42 bis 68 Prozent. Der Rest ginge an die Anbieter der Modelle und der Rechenleistung.</p>
+<h3>Die Regeln, die bis 2031 zählen</h3>
+<p><strong>Die {B("kivo")}</strong> würde KI im Gesundheitswesen vor allem verlangsamen, weil sie Nachweise fordert, für die die Maßstäbe noch fehlen: Die harmonisierten Normen zu den Pflichten für Hochrisikosysteme (Artikel 8 bis 15) liegen noch nicht vor. Wann die Pflichten für die Fälle aus Anhang III beginnen, ist unter den Fachrollen umstritten: zehn nennen den 2. Dezember 2027, zwei den 2. August 2028. Das deutsche Durchführungsgesetz gilt seit dem 29. Juli 2026.</p>
+<p><strong>Der {B("ehds", "Europäische Gesundheitsdatenraum")}</strong> öffnet ab März 2031 die zweite Stufe der Datennutzung für Forschung, mit Bildgebung, Laborwerten, Entlassbriefen und Genomdaten. Für alle, die mit Gesundheitsdaten arbeiten, wäre das der größte Nachfrageschub bis 2031. Der Engpass läge in der Bearbeitungskapazität der Zugangsstellen.</p>
+<p><strong>Die Wettbewerbsfähigkeit Europas</strong> bleibt der Hintergrund. Nach dem Draghi-Bericht sind nur vier der fünfzig größten Technologieunternehmen der Welt europäisch. Von einem KI-Effizienzgewinn im Gesundheitswesen blieben nach den Einschätzungen rund 55 Prozent in der EU, in einer Spanne von 42 bis 68 Prozent. Der Rest ginge an die Anbieter der Modelle und der Rechenleistung.</p>
 </div>
-''' + einordnung("Was das für den Verbund heißt",
- "<p>Der Verbund verkauft in einen der Märkte, in denen der Preis am wenigsten der Produktivität folgt. Er kann dort mit KI billiger produzieren, bekäme dafür aber nicht mehr Geld. Umgekehrt steht er in seinem eigenen Markt im Wettbewerb, und dort würde der Gewinn weitergereicht (Kapitel 5).</p>")))
+''' + folgerung(f"<p>Der Verbund verkauft an Kunden, deren Preise kaum auf Produktivität reagieren. Seine Kunden könnten mit KI sparen, hätten dafür aber nicht mehr Budget. Der eigene Markt des Verbunds funktioniert anders: Dort herrscht Wettbewerb, und ein Effizienzgewinn würde an die Kunden weitergegeben (Kapitel 5). Beides zusammen heißt: Mit billigerer Standardarbeit allein ließe sich kein höherer Preis erzielen.</p>")))
 
 # ====================================================================== Kapitel 2 Deutschland
 LOHNQUOTE = hbalken([
-    ("Basis ohne transformative KI", 60, "US-Modell"),
-    ("substantial", 56, f"{SZEN['substantial']} von {N_KETTE} Urteilen"),
-    ("extreme", 45, f"{SZEN['extreme']} von {N_KETTE} Urteilen"),
+    ("Basis ohne transformative KI", 60, "US-Studie"),
+    ("substantial", 56, f"gewählt von {SZEN['substantial']} von {N_KETTE}"),
+    ("extreme", 45, f"gewählt von {SZEN['extreme']} von {N_KETTE}"),
 ], 80, " %", "Lohnquote je Szenario", links=280, hervor={"substantial"})
 
 MECHANIK = hbalken([
     ("Zuwachs 2025 bis 2031 insgesamt", 240, "1.550 auf 1.790 Mrd. €, 2,4 % p. a."),
-    ("Anhebung Bemessungsgrenze 2027", 18.5, "verkündetes Recht, 15 bis 22"),
-    ("Jahresscheibe 2030 auf 2031", 42, "36 bis 50, jenseits des Modells"),
-    ("KI-Effekt", 10, "vier Urteile, 0,56 % des Werts"),
-], 320, " Mrd. €", "Rechtsmechanik gegen KI-Effekt", links=300, hervor={"KI-Effekt"}, d=0)
+    ("Anhebung Bemessungsgrenze 2027", 18.5, "geltendes Recht, 15 bis 22"),
+    ("Jahr 2030 auf 2031", 42, "36 bis 50, jenseits der Studie"),
+    ("Wirkung der KI", 10, "vier Einschätzungen, 0,56 %"),
+], 320, " Mrd. €", "Bewegungen der beitragspflichtigen Entgelte", links=300, hervor={"Wirkung der KI"}, d=0)
 
-E3_ZEILEN = ["Gesamtwirtschaft", "GKV und PKV", "Leistungserbringer", "Pharma und USA", "HIGL-Verbund"]
+E3_ZEILEN = ["Gesamtwirtschaft", "Kranken- und Pflegekassen", "Leistungserbringer", "Pharma", "Markt des Verbunds"]
 E3_WERTE = [E3[s] for s in ("S0", "S1", "S2", "S3", "S4")]
 WAERME = waermefeld(E3_ZEILEN, ["Kapital", "Kunden", "Beschäftigte", "Staat"], E3_WERTE,
-                    "Verteilung des Effizienzgewinns je Station", vmax=40)
+                    "Verteilung des Effizienzgewinns je Stufe", vmax=40)
 
-TEILE.append(kapitel(2, "deutschland", "Die Lohnsumme schrumpfte nicht, sie verschöbe sich",
- "Für die Finanzierung des Gesundheitswesens zählt nicht das Bruttoinlandsprodukt, sondern die beitragspflichtige Lohnsumme. Sie stiege bis 2031 weiter, getragen von Recht und Fortschreibung. Die KI verändert, wer sie verdient, kaum, wie viel.",
+TEILE.append(kapitel(2, "deutschland", "Die Beitragsbasis wüchse weiter, KI veränderte sie kaum",
+ "Für die Finanzierung des Gesundheitswesens zählt vor allem die Summe der Löhne, auf die Beiträge erhoben werden. Sie würde bis 2031 weiter steigen, getragen von Recht und Lohnentwicklung.",
  f'''<div class="prose">
-<h3>Die Beitragsbasis wüchse, und fast nichts davon käme aus der KI</h3>
-<p>Die beitragspflichtigen Arbeitsentgelte der GKV-Mitglieder lagen 2025 bei 1.550 Mrd. €. Bis 2031 stiegen sie auf rund 1.790 Mrd. € (Spanne 1.680 bis 1.930), in der Abgrenzung ohne Renten. Das entspräche 2,4 Prozent im Jahr. Die Faktoren dafür sind das Entgelt je Beschäftigtem, die Beschäftigungsentwicklung und die Beitragsbemessungsgrenze. Keiner davon ist eine Größe des KI-Modells.</p>
-<p>Den KI-Effekt beziffern vier Fachurteile unabhängig gegen einen Pfad ohne KI. Er läge bei rund 10 Mrd. €, 0,56 Prozent des Werts. Allein die Anhebung der Bemessungsgrenze zum 1. Januar 2027 bewegte mit 15 bis 22 Mrd. € ungefähr das Doppelte. Die Aussage »das Modell ergibt für Deutschland 1.790 Mrd. €« wäre deshalb falsch. Richtig ist: Die deutsche Rechts- und Fortschreibungsmechanik ergibt 1.790 Mrd. €, und der KI-Effekt ist darin die kleinste Bewegung.</p>
+<h3>Die Einnahmenbasis der Krankenkassen</h3>
+<p>Die {B("entgelte", "beitragspflichtigen Entgelte")} der Mitglieder der gesetzlichen Krankenversicherung (GKV) lagen 2025 bei 1.550 Mrd. €. Bis 2031 würden sie auf rund 1.790 Mrd. € steigen, in einer Spanne von 1.680 bis 1.930. Das entspräche 2,4 Prozent im Jahr. Treiber sind die Lohnentwicklung, die Zahl der Beschäftigten und die Beitragsbemessungsgrenze. Keiner dieser Treiber stammt aus der US-Studie.</p>
+<p>Vier Einschätzungen beziffern, wie viel davon auf KI zurückgeht: rund 10 Mrd. €, also 0,56 Prozent. Allein die gesetzlich beschlossene Anhebung der Bemessungsgrenze zum 1. Januar 2027 brächte mit 15 bis 22 Mrd. € ungefähr das Doppelte. Die 1.790 Mrd. € sind daher vor allem eine Fortschreibung deutscher Regeln und Löhne. Der Einfluss von KI auf die Einnahmen bliebe bis 2031 gering.</p>
 </div>
-''' + abb("Der KI-Effekt auf die Beitragsbasis wäre die kleinste der bezifferten Bewegungen",
+''' + abb("Die Wirkung der KI auf die Beitragsbasis wäre die kleinste der bezifferten Größen",
           "Bewegungen der beitragspflichtigen Entgelte bis 2031, Mrd. €",
           MECHANIK,
-          "Quelle: Sitzung D, Station 0 und Übergabe Ü0; Basis KV45 2025: 1.550,0 Mrd. €. Anhebung der Bemessungsgrenze: Mitte der Spanne 15 bis 22 Mrd. € aus zehn Urteilen. KI-Effekt: vier Urteile gegen einen Referenzpfad ohne KI.") +
+          "Quelle: Sitzung D, Stufe Gesamtwirtschaft; Basis KV45 2025: 1.550,0 Mrd. €. Anhebung der Bemessungsgrenze: Mitte der Spanne 15 bis 22 Mrd. € aus zehn Einschätzungen. Wirkung der KI: vier Einschätzungen gegen einen Pfad ohne KI.") +
  f'''<div class="prose">
-<h3>Umschichtung statt Abbau</h3>
-<p>Das Institut für Arbeitsmarkt- und Berufsforschung rechnet im KI-Szenario mit dem Wegfall oder der Neuentstehung von rund 1,6 Millionen Stellen in fünfzehn Jahren. Schon die Kurzfristprognose vom März 2026 ist zweigeteilt: minus 140.000 Beschäftigte in der Industrie, plus 180.000 in öffentlichen Diensten, Erziehung und Gesundheit. In der ifo-Umfrage unter rund 3.000 KI-nutzenden Unternehmen erwartet etwa die Hälfte über fünf Jahre sinkende Löhne für Berufseinsteiger. Die Bundesregierung sieht nach eigener Antwort vom August 2026 »keine belastbaren Hinweise« auf einen systematischen KI-bedingten Beschäftigungsabbau.</p>
-<p>Das Bild passt zur Lohnkomposition des US-Modells: Unter dem kognitiven Druck stünden die Einstiegsstufen der Wissensberufe, gewinnen würden die Tätigkeiten, bei denen Menschen körperlich, räumlich oder persönlich präsent sein müssen. Im deutschen Gesundheitswesen ist das der größere Teil der Beschäftigung. Der Anteil physisch gebundener Tätigkeit läge bei den Leistungserbringern bei {de(med("S2","d1_physisch"))} Prozent, in der Gesamtwirtschaft bei {de(med("S0","d1_physisch"))} Prozent.</p>
+<h3>Tätigkeiten verschieben sich</h3>
+<p>Das Institut für Arbeitsmarkt- und Berufsforschung (IAB) rechnet damit, dass durch KI in fünfzehn Jahren rund 1,6 Millionen Stellen wegfallen oder neu entstehen. Schon seine Kurzfristprognose vom März 2026 ist zweigeteilt: 140.000 Beschäftigte weniger in der Industrie, 180.000 mehr in öffentlichen Diensten, Erziehung und Gesundheit. In einer Umfrage des ifo Instituts unter rund 3.000 Unternehmen, die KI nutzen, erwartet etwa die Hälfte in den nächsten fünf Jahren sinkende Löhne für Berufseinsteiger. Die Bundesregierung sieht nach ihrer Antwort vom August 2026 »keine belastbaren Hinweise« auf einen systematischen Stellenabbau durch KI.</p>
+<p>Das passt zur US-Studie: Unter Druck gerieten vor allem die Einstiegsstufen der Wissensberufe. Gewinnen würden Tätigkeiten, bei denen Menschen vor Ort sein müssen. Im Gesundheitswesen ist das der größere Teil der Arbeit: Der Anteil körperlich gebundener Tätigkeiten läge bei den Leistungserbringern bei {de(med("S2","d1_physisch"))} Prozent, in der Gesamtwirtschaft bei {de(med("S0","d1_physisch"))} Prozent.</p>
 </div>
-''' + abb("Die Lohnquote fiele, aber im gewählten Pfad nur um vier Punkte",
-          "Anteil der Arbeitseinkommen am Volkseinkommen 2030 je Szenario, US-Modell",
+''' + abb("Die Lohnquote würde sinken, im gewählten Szenario um vier Punkte",
+          "Anteil der Arbeitseinkommen am Volkseinkommen 2030 je Szenario, US-Studie",
           LOHNQUOTE,
-          "Quelle: Korinek u. a., WP 2026-02. Die Lohnquote verlässt die Kette ohne verwendbaren Kanal zur deutschen Beitragsbasis und ist deshalb nur als Plausibilitätsaussage zu lesen.") +
+          "Quelle: Korinek u. a., WP 2026-02. Die Lohnquote lässt sich nicht direkt auf die deutsche Beitragsbasis übertragen und dient hier nur zur Einordnung.") +
  f'''<div class="prose">
 <h3>Wer den Effizienzgewinn bekäme</h3>
-<p>Jedes Fachurteil hat angegeben, wie sich ein Effizienzgewinn in seinem Feld auf Kapital, Kunden, Beschäftigte und Staat verteilte. Das Muster ist deutlicher als jede Einzelzahl. In der Gesamtwirtschaft teilten sich Kapital und Kunden den Gewinn etwa hälftig. Bei den Kassen ginge ein gutes Drittel an den Staat, weil Beitragssätze, Zuschüsse und Aufsicht ihn abschöpfen. Im Markt des Verbunds läge der Kundenanteil mit {E3["S4"][1]} Prozent am höchsten: Wer im Wettbewerb anbietet, gibt den Gewinn an den Kunden weiter.</p>
+<p>Jede Fachrolle hat angegeben, wie sich ein Effizienzgewinn in ihrem Bereich auf Kapitalgeber, Kunden, Beschäftigte und Staat verteilen würde (Abbildung 7). In der Gesamtwirtschaft teilten sich Kapital und Kunden den Gewinn etwa hälftig. Bei den Kranken- und Pflegekassen ginge gut ein Drittel an den Staat, über Beitragssätze, Zuschüsse und Aufsicht. Im Markt des Verbunds erhielten die Kunden mit {E3["S4"][1]} Prozent den größten Anteil.</p>
 </div>
 ''' + abb(f"Im Markt des Verbunds bekämen die Kunden mit {E3['S4'][1]} Prozent den größten Anteil des Effizienzgewinns",
-          "Verteilung eines Effizienzgewinns 2031, Median je Station in Prozent",
+          "Verteilung eines Effizienzgewinns 2031, Median je Stufe in Prozent",
           WAERME,
-          "Quelle: Sitzung D, Frage E3 in allen 83 Kettenurteilen; je Urteil summieren sich die vier Anteile auf 100. Die Mediane summieren sich je Zeile nicht zwingend auf 100.")))
+          "Quelle: Sitzung D, alle 83 Einschätzungen entlang der Wirkungskette; je Einschätzung ergeben die vier Anteile 100. Die Mediane ergeben je Zeile nicht zwingend 100.") +
+ folgerung("<p>Die Finanzierung des Gesundheitswesens bräche bis 2031 nicht weg; die Einnahmen würden weiter wachsen. Der Druck auf die Kunden des Verbunds käme von der Ausgabenseite (Kapitel 3). Für den eigenen Markt heißt die Verteilung: Vom Effizienzgewinn aus KI erhielten die Kunden den größten Anteil, der Anbieter behielte nur einen Teil.</p>")))
 
 # ====================================================================== Kapitel 3 Gesundheitswesen
 GKV = gruppen([
-    ("Ausgabenvolumen", [26.9]),
-    ("Vergütung je Einheit", [13]),
+    ("Ausgaben", [26.9]),
+    ("Vergütung je Leistung", [13]),
     ("Kosten der Erbringer", [22]),
     ("Vergütung real", [-7]),
 ], [("Veränderung 2031 gegenüber 2025", "f-accent")], -20, 40,
-   "Ausgabenvolumen, Vergütung und Kosten der GKV 2031", " %")
+   "Ausgaben, Vergütung und Kosten in der GKV 2031", " %")
 
 KETTE_DG = hbalken([
-    ("Gesamtwirtschaft", DURCHGRIFF["S0"], "Station 0"),
-    ("GKV und PKV", DURCHGRIFF["S1"], "Station 1"),
-    ("Leistungserbringer", DURCHGRIFF["S2"], "Station 2"),
-    ("Pharma und USA", DURCHGRIFF["S3"], "Station 3"),
-    ("HIGL-Verbund, eigener Markt", DURCHGRIFF["S4"], "Station 4"),
-], 80, " %", "Preisdurchgriff je Station", links=300, hervor={"Leistungserbringer", "HIGL-Verbund, eigener Markt"})
+    ("Gesamtwirtschaft", DURCHGRIFF["S0"], ""),
+    ("Kranken- und Pflegekassen", DURCHGRIFF["S1"], ""),
+    ("Leistungserbringer", DURCHGRIFF["S2"], ""),
+    ("Pharma", DURCHGRIFF["S3"], ""),
+    ("Markt des Verbunds", DURCHGRIFF["S4"], ""),
+], 80, " %", "Preisdurchgriff je Stufe", links=300, hervor={"Leistungserbringer", "Markt des Verbunds"})
 
-TEILE.append(kapitel(3, "gesundheit", "Mehr Leistungen, schlechter bezahlt",
- "Die gesetzliche Krankenversicherung gäbe 2031 deutlich mehr aus als heute. Beim einzelnen Krankenhaus, der einzelnen Praxis käme davon weniger an als die Kosten stiegen. Für Anbieter von Analyse heißt das: Die Kunden hätten mehr Arbeit und weniger Spielraum.",
+TEILE.append(kapitel(3, "gesundheit", "Mehr Leistungen, knappere Preise",
+ "Die Krankenkassen würden 2031 deutlich mehr ausgeben als heute. Beim einzelnen Krankenhaus und bei der einzelnen Praxis käme davon weniger an, als ihre Kosten stiegen. Die Kunden des Verbunds hätten mehr Arbeit und weniger Spielraum.",
  f'''<div class="prose">
-<h3>Die GKV: Volumen wächst, Preis hält nicht mit</h3>
-<p>Die Leistungsausgaben der GKV lagen 2025 bei gemessenen 331,1 Mrd. €. Bis 2031 stiegen sie auf rund 420 Mrd. €, ein Plus von 26,9 Prozent; mit Verwaltung und sonstigen Ausgaben wären es rund 436 Mrd. €. Das Wachstum käme aus Alter, Morbidität und Menge. Das Vergütungsniveau je Leistungseinheit stiege im selben Zeitraum nur um 13 Prozent, nach der zweiten zulässigen Lesart des § 71 Abs. 3 SGB V um 16 Prozent (Spanne +8 bis +20).</p>
-<p>Gegen die Kostenentwicklung der Leistungserbringer, die in den Fachurteilen implizit bei plus 18 bis 26 Prozent läge, wäre das real ein Minus von 4 bis 10 Prozent je Einheit. Die beiden Lesarten unterscheiden sich allein darin, welche Grundlohnrate zählt: 2,4 Prozent im Jahr auf die gesamte Entgeltmasse oder 2,7 Prozent je Mitglied nach dem Wortlaut des Gesetzes.</p>
-<p>Der steuerfinanzierte Anteil fiele. Die Bundesmittel entsprachen 2025 noch 4,8 Prozent der Leistungsausgaben, 2031 wären es bei nominal nahezu eingefrorenem Zuschuss rund 3,7 Prozent. Jeder Euro wäre damit stärker beitragsfinanziert als heute. Die Finanzreserven der Kassen lagen Ende 2025 bei 5,1 Mrd. €, das sind 0,18 Monatsausgaben. Spielraum für Investitionen, die sich erst im dritten Jahr rechneten, hätten die Kassen damit kaum, zumal ihre Verwaltungskosten ab 2027 an den Einnahmenzuwachs gebunden wären.</p>
+<h3>Gesetzliche Krankenversicherung: Die Ausgaben wachsen schneller als die Preise</h3>
+<p>Die Leistungsausgaben der GKV lagen 2025 bei 331,1 Mrd. €. Bis 2031 würden sie auf rund 420 Mrd. € steigen, ein Plus von 26,9 Prozent; mit Verwaltung und sonstigen Ausgaben wären es rund 436 Mrd. €. Das Wachstum käme aus Alterung, Krankheitslast und Menge. Die Vergütung je Leistung stiege im selben Zeitraum nur um 13 Prozent. Nach einer zweiten zulässigen Lesart des § 71 Abs. 3 SGB V wären es 16 Prozent, in einer Spanne von 8 bis 20 Prozent. Die beiden Lesarten unterscheiden sich darin, ob der Zuwachs der Einnahmen auf alle Mitglieder zusammen (2,4 Prozent im Jahr) oder je Mitglied (2,7 Prozent) gerechnet wird.</p>
+<p>Die Kosten der Leistungserbringer würden nach den Einschätzungen um 18 bis 26 Prozent steigen. Real, also nach Abzug dieser Kostensteigerung, sänke die Vergütung je Leistung damit um 4 bis 10 Prozent.</p>
+<p>Der steuerfinanzierte Anteil würde sinken. Die Bundesmittel entsprachen 2025 noch 4,8 Prozent der Leistungsausgaben, 2031 wären es bei nahezu unverändertem Zuschuss rund 3,7 Prozent. Die Finanzreserven der Kassen lagen Ende 2025 bei 5,1 Mrd. €, das reicht für gut fünf Tage Ausgaben. Für Investitionen, die sich erst nach drei Jahren rechnen, hätten die Kassen damit wenig Spielraum, zumal ihre Verwaltungskosten ab 2027 an den Einnahmenzuwachs gebunden sind.</p>
 </div>
-''' + abb("Das Volumen stiege doppelt so schnell wie der Preis je Leistung; real verlöre jede Einheit an Wert",
+''' + abb("Die Ausgaben würden doppelt so schnell steigen wie die Vergütung je Leistung; real verlöre jede Leistung an Wert",
           "Veränderung 2031 gegenüber 2025 in Prozent, Zentralwerte",
           GKV,
-          "Quelle: Sitzung D, Übergabe Ü1 (420 Mrd. € gegen 331,062 Mrd. € KJ1 2025) und Stationen 1 und 2. Kosten der Erbringer: Mitte der implizierten Spanne +18 bis +26 Prozent; Vergütung real: Mitte der Spanne −4 bis −10 Prozent.") +
+          "Quelle: Sitzung D, Stufen Kranken- und Pflegekassen sowie Leistungserbringer (420 Mrd. € gegen 331,062 Mrd. € laut KJ1 2025). Kosten der Erbringer: Mitte der Spanne 18 bis 26 Prozent; Vergütung real: Mitte der Spanne −4 bis −10 Prozent.") +
  f'''<div class="prose">
-<h3>Die private Krankenversicherung: stabil im Bestand, teuer im Beitrag</h3>
-<p>Die PKV zählte 2025 rund 8,79 Millionen Vollversicherte, 0,5 Prozent mehr als im Vorjahr. Zum 1. Januar 2026 stiegen die Beiträge im Schnitt um 12,6 Prozent, für 81 Prozent der Versicherten; im Jahr davor waren es 13,9 Prozent. Die Alterungsrückstellungen wuchsen auf 355,4 Mrd. €. Größter Kostentreiber waren die Pflegekosten im Krankenhaus mit plus 17,6 Prozent. Die PKV hätte damit einen stärkeren Anreiz als die GKV, Effizienzgewinne tatsächlich zu heben, aber einen kleineren Hebel: Sie verhandelt keine Krankenhauspreise.</p>
+<h3>Private Krankenversicherung: stabiler Bestand, steigende Beiträge</h3>
+<p>Die private Krankenversicherung (PKV) zählte 2025 rund 8,79 Millionen Vollversicherte, 0,5 Prozent mehr als im Vorjahr. Zum 1. Januar 2026 stiegen die Beiträge im Schnitt um 12,6 Prozent, für 81 Prozent der Versicherten; im Jahr davor waren es 13,9 Prozent. Die Alterungsrückstellungen wuchsen auf 355,4 Mrd. €. Größter Kostentreiber waren die Pflegekosten im Krankenhaus mit einem Plus von 17,6 Prozent. Die PKV hätte damit einen starken Anreiz, Effizienzgewinne zu nutzen, aber wenig Einfluss: Sie verhandelt keine Krankenhauspreise.</p>
 
-<h3>Die Krankenhäuser: eine Reform, die bis 2030 budgetneutral läuft</h3>
-<p>Das Krankenhausreformanpassungsgesetz ist seit dem 15. April 2026 in Kraft. Es ordnet die Versorgung in 61 Leistungsgruppen und führt eine Vorhaltevergütung ein, die 2026 und 2027 budgetneutral läuft, 2028 und 2029 konvergiert und erst ab 2030 voll wirkt. Das Institut für das Entgeltsystem rechnet für die Jahre 2026 bis 2029 mit den Daten von 2024.</p>
-<p>Für die Frage dieses Papiers ist das entscheidend: Bis 2030 gäbe es für ein Krankenhaus kaum einen Weg, einen KI-Effizienzgewinn in höhere Erlöse zu übersetzen. Der Gewinn bliebe als Kostenentlastung im Haus. Genau deshalb läge der Preisdurchgriff bei den Leistungserbringern mit {DURCHGRIFF["S2"]} Prozent am tiefsten in der ganzen Kette.</p>
+<h3>Krankenhäuser: Die Reform wirkt erst ab 2030 voll</h3>
+<p>Das Krankenhausreformanpassungsgesetz (KHAG) gilt seit dem 15. April 2026. Es ordnet die Versorgung in 61 Leistungsgruppen und führt eine {B("vorhalte")} ein. Sie läuft 2026 und 2027 budgetneutral, wird 2028 und 2029 schrittweise eingeführt und wirkt ab 2030 voll. Das Institut für das Entgeltsystem im Krankenhaus (InEK) rechnet für 2026 bis 2029 mit den Daten von 2024.</p>
+<p>Bis 2030 hätte ein Krankenhaus damit kaum eine Möglichkeit, einen KI-Effizienzgewinn in höhere Erlöse umzusetzen. Der Gewinn bliebe als Kostenentlastung im Haus. Deshalb läge der Preisdurchgriff bei den Leistungserbringern am niedrigsten in der ganzen Wirkungskette (Abbildung 9).</p>
 </div>
-''' + abb(f"Der Preis folgte der Produktivität nur dort, wo Wettbewerb herrscht: im Markt des Verbunds mit {DURCHGRIFF['S4']} Prozent",
-          "Preisdurchgriff 2031 je Station der Kette, Median in Prozent",
+''' + abb(f"Der Preis folgte der Produktivität vor allem dort, wo Wettbewerb herrscht: im Markt des Verbunds mit {DURCHGRIFF['S4']} Prozent",
+          "Preisdurchgriff 2031 je Stufe der Wirkungskette, Median in Prozent",
           KETTE_DG,
-          "Quelle: Sitzung D, Frage D2 in allen 83 Kettenurteilen, Median je Station. Die Verzögerung bis zur Wirkung (D4) läge in allen fünf Stationen bei drei Jahren.") +
- einordnung("Was das für den Verbund heißt",
- "<p>Die Kunden des Verbunds, Kassen, Krankenhäuser und Hersteller, hätten 2031 mehr Fälle, knappere Budgets und strengere Nachweispflichten. Sie kauften weniger Auswertung als Selbstzweck und mehr Ergebnisse, auf die sie sich vor Aufsicht, Schiedsstelle oder Gericht berufen können.</p>")))
+          "Quelle: Sitzung D, alle 83 Einschätzungen, Median je Stufe. Bis zur Wirkung vergingen auf allen Stufen im Median drei Jahre.") +
+ folgerung("<p>Kassen, Krankenhäuser und Hersteller hätten 2031 mehr Fälle, knappere Budgets und strengere Nachweispflichten. Sie würden weniger Auswertung um ihrer selbst willen einkaufen und mehr Ergebnisse, auf die sie sich vor Aufsicht, Schiedsstelle oder Gericht berufen können. Das ist die Nachfrage, auf die sich der Verbund ausrichten müsste.</p>")))
 
 # ====================================================================== Kapitel 4 Pharma und USA
 ZOLL = zeitstrahl([
@@ -440,78 +477,74 @@ ZOLL = zeitstrahl([
     (2030.25, "2. Apr. 2030", "Onshoring-Satz 100 %", "intern", 1, "end"),
     (2027.5, "30. Juni 2027", "Frist Referentenentwurf", "extern", 0, "start"),
     (2028.5, "30. Juni 2028", "§ 130b Abs. 1c läuft aus", "extern", 0, "start"),
-], 2026, 2030.8, "Zeitplan der US-Arzneimittelpolitik und der deutschen Weiche", achse=170)
+], 2026, 2030.8, "Zeitplan der US-Arzneimittelpolitik und der deutschen Frist", achse=170)
 
-US_WOLKE = punktwolke(US_EFFEKT, -15, 30, US_MEDIAN, "Isolierter US-Effekt je Fachurteil", schritt=5)
+US_WOLKE = punktwolke(US_EFFEKT, -15, 30, US_MEDIAN, "Effekt der US-Politik je Einschätzung", schritt=5)
 
-TEILE.append(kapitel(4, "pharma", "Der Zollfahrplan träfe auf den einzigen offenen Preis Europas",
- "Die amerikanische Arzneimittelpolitik drückt auf die Margen der Hersteller. Zugleich macht sie den deutschen Erstattungsbetrag zur Referenz für den größten Markt der Welt. Für Anbieter von Evidenz überwöge nach den Fachurteilen der zweite Effekt.",
+TEILE.append(kapitel(4, "pharma", "Die US-Preispolitik erhöhte den Druck auf Hersteller und den Bedarf an Evidenz",
+ "Die amerikanische Arzneimittelpolitik schmälert die Margen der Hersteller. Zugleich macht sie den deutschen Erstattungsbetrag zum Vergleichspreis für den größten Markt der Welt. Für Anbieter von Evidenz überwöge nach den meisten Einschätzungen der zweite Effekt.",
  f'''<div class="prose">
-<h3>Was in Washington beschlossen ist</h3>
-<p>Mit der Proklamation 11020 vom 2. April 2026 hat die US-Regierung Zölle auf patentgeschützte Arzneimittel nach Section 232 eingeführt. Der Grundsatz liegt bei 100 Prozent, für Erzeugnisse aus der EU bei 15 Prozent, aus dem Vereinigten Königreich bei 10 Prozent. Für 17 namentlich genannte Unternehmen gilt der Zoll seit dem 31. Juli 2026, für alle übrigen ab dem 29. September 2026. Wer eine Meistbegünstigungsvereinbarung geschlossen und Produktion in die USA verlegt hat, zahlt bis zum 20. Januar 2029 null; wer nur verlagert, zahlt 20 Prozent, ab dem 2. April 2030 den vollen Satz. Generika sind ausgenommen, ausdrücklich nur »at this time«, mit einer Überprüfung binnen eines Jahres.</p>
-<p>Daneben stehen 26 Meistbegünstigungsvereinbarungen mit Herstellern, die rund 89 Prozent des Markts für Markenarzneimittel abdecken, und drei Erstattungsmodelle: GENEROUS für Medicaid seit Januar 2026, GLOBE für Medicare Part B, angekündigt für Oktober 2026 (eine endgültige Regel war zum Stand dieses Papiers nicht auffindbar), und GUARD für Medicare Part D ab Januar 2027.</p>
+<h3>Was in den USA beschlossen ist</h3>
+<p>Mit der Proklamation 11020 vom 2. April 2026 hat die US-Regierung Zölle auf patentgeschützte Arzneimittel eingeführt. Der Regelsatz liegt bei 100 Prozent, für Erzeugnisse aus der EU bei 15 Prozent, aus dem Vereinigten Königreich bei 10 Prozent. Für 17 namentlich genannte Unternehmen gilt der Zoll seit dem 31. Juli 2026, für alle übrigen ab dem 29. September 2026. Hersteller mit einer Preisvereinbarung und Produktion in den USA zahlen bis zum 20. Januar 2029 keinen Zoll; wer nur die Produktion verlagert, zahlt 20 Prozent und ab dem 2. April 2030 den vollen Satz. Generika sind ausgenommen, laut Text allerdings nur »at this time«; eine Überprüfung ist binnen eines Jahres vorgesehen.</p>
+<p>Hinzu kommen 26 Vereinbarungen zur {B("mfn")} mit Herstellern, die zusammen rund 89 Prozent des Markts für Markenarzneimittel abdecken, sowie drei Erstattungsmodelle: GENEROUS für Medicaid seit Januar 2026, GLOBE für Medicare Part B, angekündigt für Oktober 2026 (eine endgültige Regelung lag zum Stand dieses Papiers nicht vor), und GUARD für Medicare Part D ab Januar 2027.</p>
 
-<h3>Warum Deutschland dabei eine Sonderrolle hat</h3>
-<p>Meistbegünstigung heißt: Der amerikanische Preis orientiert sich an den Preisen anderer Länder. Deutschland ist in beiden amerikanischen Referenzkörben enthalten und das einzige große EU-Land, dessen verhandelte Nettopreise öffentlich sind. Der Erstattungsbetrag nach § 130b SGB V gilt ab dem siebten Monat bundesweit einheitlich. Jeder Euro, den ein Hersteller in Deutschland nachgibt, kostete ihn damit potenziell auch in den USA.</p>
-<p>Die Vertraulichkeitsoption nach § 130b Abs. 1c SGB V, die einen nicht öffentlichen Erstattungsbetrag erlaubt, läuft am 30. Juni 2028 aus, wenn der Gesetzgeber nicht handelt. Ohne Referentenentwurf bis zum 30. Juni 2027 wäre das Auslaufen praktisch entschieden. Die Fachurteile schätzen diese Unterlassung als den wahrscheinlicheren Ausgang ein, mit rund 65 Prozent. Sieben von achtzehn nennen genau diese Weiche als die Entscheidung, die ihren Wert am stärksten bewegt.</p>
+<h3>Warum Deutschland dabei besonders betroffen ist</h3>
+<p>Bei der Meistbegünstigung orientiert sich der US-Preis an den Preisen anderer Länder. Deutschland gehört zu beiden US-Vergleichsgruppen und ist das einzige große EU-Land, dessen verhandelte Nettopreise öffentlich sind. Der {B("erstattungsbetrag")} gilt ab dem siebten Monat bundesweit. Jeder Euro, den ein Hersteller in Deutschland nachgibt, könnte ihn damit auch in den USA Geld kosten.</p>
+<p>§ 130b Abs. 1c SGB V erlaubt derzeit einen vertraulichen Erstattungsbetrag. Diese Regel läuft am 30. Juni 2028 aus, wenn der Gesetzgeber nicht handelt. Ohne Referentenentwurf bis Mitte 2027 wäre das Auslaufen praktisch nicht mehr aufzuhalten. Die Fachrollen halten das Auslaufen für den wahrscheinlicheren Fall, mit rund 65 Prozent. Sieben von achtzehn nennen diese Frage als diejenige, die ihre Einschätzung am stärksten beeinflusst.</p>
 </div>
-''' + abb("Zwischen 2026 und 2030 verschärfte sich der US-Druck in sechs Stufen; die deutsche Weiche fiele dazwischen, im Juni 2028",
-          "Oben: US-Rechtsstand; unten: deutsche Frist",
+''' + abb("Der US-Druck verschärft sich bis 2030 in mehreren Stufen; die deutsche Frist fällt in die Mitte",
+          "Oben: Rechtsstand in den USA; unten: Fristen in Deutschland",
           ZOLL,
-          "Quelle: Proclamation 11020 (Federal Register 2026-06956); Faktenblatt N01 der Sitzung D; § 130b Abs. 1c SGB V. Frist Referentenentwurf rückwärts gerechnet aus dem Gesetzgebungstakt.") +
+          "Quelle: Proclamation 11020 (Federal Register 2026-06956); Faktenblatt N01 der Sitzung D; § 130b Abs. 1c SGB V. Frist für den Referentenentwurf rückwärts aus dem üblichen Gesetzgebungsablauf gerechnet.") +
  f'''<div class="prose">
-<h3>Mehr Preisdruck, mehr Nachfrage nach Evidenz</h3>
-<p>Das Vorzeichen läuft der Erwartung zuwider. Derselbe Vorgang, der den Preis unter Druck setzt, erhöhte die Zahlungsbereitschaft für die Analyse, die ihn verteidigt. {US_POS} der 18 Fachurteile der Pharmastation sehen einen positiven Effekt auf das Volumen des deutschen Evidenzmarkts, vier einen negativen. Der Median läge bei {de(US_MEDIAN,0,vz=True)} Prozent, in Euro bei rund 65 Mio.</p>
-<p>Die Urteile nennen vier Kanäle. Der stärkste wirkt nach oben: Wer einen Erstattungsbetrag verhandelt, der zugleich Referenzpreis für die USA ist, investiert mehr in die Begründung. Nach oben wirken auch die Vertraulichkeitsoption, die eine Forschungsabteilung in Deutschland voraussetzt, und der Nachweis des Wirkstoffursprungs, den die Proklamation zu einer Geldgröße macht. Nach unten wirkt die Marge: Ein Hersteller mit sinkendem US-Ergebnis kürzt zuerst die Stäbe ohne eigenen Erlös, und dazu gehören Evidenzabteilungen.</p>
-<p><strong>Gesichert ist das Vorzeichen nicht.</strong> Sieben der achtzehn Urteile führen ein Intervall, das die Null einschließt. Und in drei Segmenten wirkte der Schock gegenwärtig gar nicht: bei Generika, bei Medizinprodukten und bei digitalen Gesundheitsanwendungen. Der US-Effekt ist damit kein Niveaueffekt, sondern ein Spaltungsverstärker: Er stärkt die Anbieter, die Preise im Nutzenbewertungsverfahren verteidigen helfen, und schwächt die, deren Leistung ein Kostenblock beim Hersteller ist.</p>
+<h3>Mehr Preisdruck, mehr Bedarf an Evidenz</h3>
+<p>Wer einen Preis verteidigen muss, braucht bessere Begründungen. {US_POS} der 18 Einschätzungen zur Pharmaindustrie erwarten deshalb, dass die US-Politik den deutschen Markt für Evidenz vergrößert; vier erwarten das Gegenteil. Der Median läge bei {de(US_MEDIAN,0,vz=True)} Prozent, in Euro bei rund 65 Mio.</p>
+<p>Die Einschätzungen nennen vier Wirkungswege. Drei wirken nach oben: Hersteller würden mehr in die Begründung eines Erstattungsbetrags investieren, der zugleich US-Vergleichspreis ist; der vertrauliche Erstattungsbetrag setzt eine Forschungsabteilung in Deutschland voraus; und die Proklamation macht den Nachweis, wo ein Wirkstoff hergestellt wird, zu einer Geldfrage. Einer wirkt nach unten: Sinkt die US-Marge, sparen Hersteller zuerst bei Abteilungen ohne eigene Erlöse, und dazu gehören Evidenzabteilungen.</p>
+<p>Sicher ist die Richtung nicht. Sieben der achtzehn Einschätzungen halten auch einen Effekt von null für möglich. Für Generika, Medizinprodukte und digitale Gesundheitsanwendungen spielt die US-Politik derzeit keine Rolle. Der Effekt würde den Markt deshalb eher aufteilen als insgesamt vergrößern: Er stärkte Anbieter, die Herstellern in der {B("nutzenbewertung")} helfen, und schwächte jene, deren Leistung beim Hersteller als reiner Kostenblock gilt.</p>
 </div>
-''' + abb(f"{US_POS} von 18 Urteilen sähen einen positiven US-Effekt auf die Nachfrage nach Evidenz, im Median {de(US_MEDIAN,0,vz=True)} Prozent",
-          "Isolierter Effekt der US-Arzneimittelpolitik auf das Volumen des deutschen Evidenzmarkts 2031, je Fachurteil in Prozent",
+''' + abb(f"{US_POS} von 18 Einschätzungen sähen einen positiven US-Effekt auf die Nachfrage nach Evidenz, im Median {de(US_MEDIAN,0,vz=True)} Prozent",
+          "Effekt der US-Arzneimittelpolitik auf das Volumen des deutschen Evidenzmarkts 2031, je Einschätzung in Prozent",
           US_WOLKE,
-          "Quelle: Sitzung D, Station 3, Urteile S3-01 bis S3-18; Differenz zwischen dem Wert mit und ohne US-Politik, bezogen auf den Wert ohne. Median der Eurodifferenzen +65 Mio. €, Mittel +50 Mio. €.") +
- einordnung("Was das für den Verbund heißt",
- "<p>Die Nutzenbewertung wird für Hersteller wichtiger, nicht unwichtiger. Wer dort mit belastbarer Evidenz aus deutschen Versorgungsdaten auftreten kann, gewönne. Dafür müsste diese Evidenz aber im Verfahren nach § 35a SGB V verwendbar sein, und genau dafür fehlt bislang eine Anerkennungsregel für maschinell erzeugte Ergebnisse. Acht der achtzehn Urteile nennen diese fehlende Regel als bindendes Hemmnis.</p>")))
+          "Quelle: Sitzung D, Einschätzungen S3-01 bis S3-18; Differenz zwischen dem Wert mit und ohne US-Politik, bezogen auf den Wert ohne. Median der Eurodifferenzen +65 Mio. €, Durchschnitt +50 Mio. €.") +
+ folgerung("<p>Die Nutzenbewertung würde für Hersteller wichtiger. Wer dort mit belastbarer Evidenz aus deutschen Versorgungsdaten auftreten kann, hätte bessere Chancen. Voraussetzung wäre, dass solche Evidenz im Verfahren nach § 35a SGB V anerkannt wird, auch wenn sie mit KI erzeugt wurde. Für maschinell erzeugte Ergebnisse fehlt dafür bislang eine Regel; acht der achtzehn Einschätzungen sehen darin den wichtigsten Engpass.</p>")))
 
 # ====================================================================== Kapitel 5 Evidenzmarkt
 WERT = gestapelt([
-    ("2025", [(70, "beschreibend", "f-accent2"), (30, "haftend", "f-accent")]),
-    ("2031", [(32, "beschreibend", "f-accent2"), (68, "haftend", "f-accent")]),
-], "Wertanteile beschreibender und haftender Leistung")
+    ("2025", [(70, "Standardauswertung", "f-accent2"), (30, "mit Haftung", "f-accent")]),
+    ("2031", [(32, "Standardauswertung", "f-accent2"), (68, "mit Haftung", "f-accent")]),
+], "Wertanteile von Standardauswertung und Leistung mit Haftung")
 
 MARKT = '''<div class="tabelle"><table>
 <thead><tr><th>Größe 2031</th><th class="z">Zentralwert</th><th class="z">80-%-Intervall</th><th>Lesart</th></tr></thead>
 <tbody>
 <tr class="hervor"><td>Extern beauftragte Evidenz und Analytik, Deutschland</td><td class="z">800 Mio. €</td><td class="z">550 bis 1.150</td><td>auf 50 Mio. € genau zu lesen</td></tr>
-<tr><td>Preisindex je Leistungseinheit (2025 = 100)</td><td class="z">75</td><td class="z">55 bis 95</td><td>ein Viertel billiger</td></tr>
-<tr><td>Mengenfaktor gegenüber 2025</td><td class="z">rund 1,5</td><td class="z">1,25 bis 1,80</td><td>die Hälfte mehr Aufträge</td></tr>
-<tr><td>Preisdurchgriff im eigenen Markt</td><td class="z">''' + str(DURCHGRIFF["S4"]) + ''' %</td><td class="z">—</td><td>der Gewinn geht an den Kunden</td></tr>
+<tr><td>Preisindex je Leistung (2025 = 100)</td><td class="z">75</td><td class="z">55 bis 95</td><td>ein Viertel billiger</td></tr>
+<tr><td>Menge gegenüber 2025</td><td class="z">rund 1,5-fach</td><td class="z">1,25 bis 1,80</td><td>die Hälfte mehr Aufträge</td></tr>
+<tr><td>Preisdurchgriff im Markt des Verbunds</td><td class="z">''' + str(DURCHGRIFF["S4"]) + ''' %</td><td class="z">—</td><td>der Gewinn geht an die Kunden</td></tr>
 </tbody></table></div>'''
 
-TEILE.append(kapitel(5, "evidenz", "Rechnen würde billig, Einstehen würde knapp",
- "Der Markt, in dem der Verbund verkauft, wüchse. Aber er wüchse über die Menge, nicht über den Preis, und er teilte sich in zwei Leistungen mit entgegengesetzter Richtung.",
+TEILE.append(kapitel(5, "evidenz", "Auswertung würde billig, Haftung würde wertvoll",
+ "Der Markt, in dem der Verbund verkauft, würde wachsen, aber über die Menge und nicht über den Preis. Zugleich teilte er sich in zwei Leistungsarten, die sich gegenläufig entwickeln.",
  f'''<div class="prose">
-<h3>Die Menge stiege, der Preis fiele</h3>
-<p>Der Markt für extern beauftragte Evidenz und Analytik im deutschen Gesundheitswesen läge 2031 bei rund 800 Mio. €, mit einer Spanne von 550 bis 1.150 Mio. €. Die Menge stiege um rund die Hälfte, der Preis je Leistungseinheit fiele um ein Viertel. Treiber der Menge wären die Nachweispflichten aus Kapitel 3 und 4, die zweite Tranche des Gesundheitsdatenraums und der Druck auf Kassen, ihre Ausgaben zu begründen.</p>
-<p>Die Marktgröße selbst ist die schwächste Zahl dieser Arbeit. Der einzige öffentlich verfügbare Wert für Deutschland ist ein Marktvolumen für Real-World-Evidence von 204,2 Mio. US-Dollar für 2023. Sechzehn der achtzehn Urteile der Pharmastation nennen die Marktgröße als ihren schwächsten Punkt.</p>
+<h3>Mehr Aufträge zu niedrigeren Preisen</h3>
+<p>Der Markt für extern beauftragte Evidenz und Analytik im deutschen Gesundheitswesen läge 2031 bei rund 800 Mio. €, in einer Spanne von 550 bis 1.150 Mio. €. Die Menge der Aufträge stiege um rund die Hälfte, der Preis je Leistung fiele um ein Viertel. Die Menge würde von den Nachweispflichten aus Kapitel 3 und 4 getrieben, von der zweiten Stufe des Gesundheitsdatenraums und vom Druck auf die Kassen, ihre Ausgaben zu begründen.</p>
+<p>Die Marktgröße ist die unsicherste Zahl dieses Papiers. Der einzige öffentlich verfügbare Vergleichswert für Deutschland ist die Schätzung eines Marktforschungsinstituts für den Teilmarkt {B("rwe")}: 204,2 Mio. US-Dollar im Jahr 2023. Sechzehn der achtzehn Einschätzungen zur Pharmaindustrie nennen die Marktgröße als ihren schwächsten Punkt.</p>
 </div>
-''' + abb("Der Markt wüchse über die Menge: die Hälfte mehr Aufträge, ein Viertel billiger je Auftrag",
+''' + abb("Der Markt würde über die Menge wachsen: die Hälfte mehr Aufträge, ein Viertel billiger je Auftrag",
           "Markt für extern beauftragte Evidenz und Analytik im deutschen Gesundheitswesen 2031",
           MARKT,
-          "Quelle: Sitzung D, Übergabe Ü3 und Station 4 (Preisdurchgriff D2). Einziger öffentlicher Vergleichswert: RWE-Marktvolumen Deutschland 204,2 Mio. USD (2023).") +
+          "Quelle: Sitzung D, Stufen Pharma und Markt des Verbunds. Einziger öffentlicher Vergleichswert: Marktforschungsschätzung für den Teilmarkt Real-World-Evidence in Deutschland, 204,2 Mio. USD (2023), laut Faktenblättern der Sitzung D.") +
  f'''<div class="prose">
-<h3>Zwei Leistungen, zwei Richtungen</h3>
-<p>Alle zwölf Fachurteile aus dem Verbund führen denselben Satz: <strong>Was an der Rechenzeit hängt, fällt; was an einer Unterschrift hängt, steigt.</strong> Die Trennlinie verläuft nicht zwischen guter und schlechter Analytik, sondern zwischen beschreibender und verantworteter Leistung.</p>
-<p><strong>Beschreibend</strong> heißt: Datenaufbereitung, Kohortenbildung, Literaturübersicht, Standardmodell, Kennzahlenband, Routinedatenbericht, Foliensatz. Diese Leistungen kann ein Kunde 2031 mit eigenen Werkzeugen in einem Bruchteil der Zeit selbst erzeugen. Ihr Preis fiele mit ihren Kosten.</p>
-<p><strong>Haftend</strong> heißt: ein Ergebnis, für das der Anbieter einsteht, vor dem Gemeinsamen Bundesausschuss, einer Schiedsstelle, einer Aufsicht oder einem Gericht. Diese Leistung zieht ihren Preis aus der Zusicherung, nicht aus dem Aufwand. Sie setzt drei Dinge voraus: eine nachvollziehbare Auswertungsstrecke, einen Abnahmestandard und eine Person oder Gesellschaft, die zeichnet.</p>
+<h3>Zwei Leistungsarten mit entgegengesetzter Entwicklung</h3>
+<p>Die zwölf Fachrollen aus dem Verbund beschreiben die Entwicklung übereinstimmend: Was vor allem Rechenzeit kostet, verliert an Wert; was eine Unterschrift braucht, gewinnt. Das Papier unterscheidet deshalb zwei Leistungsarten.</p>
+<p>Die {B("standardauswertung")} umfasst Datenaufbereitung, Kohortenbildung, Literaturübersichten, Standardmodelle, Kennzahlenberichte und Foliensätze. Solche Leistungen könnte ein Kunde 2031 mit eigenen Werkzeugen in einem Bruchteil der Zeit selbst erstellen. Ihr Preis würde mit ihren Kosten fallen.</p>
+<p>Eine {B("haftung")} ist ein Ergebnis, für das der Anbieter einsteht: vor dem Gemeinsamen Bundesausschuss, einer Schiedsstelle, einer Aufsicht oder einem Gericht. Ihr Preis ergibt sich aus der Zusicherung, nicht aus dem Aufwand. Sie setzt drei Dinge voraus: eine nachvollziehbare Auswertungsstrecke, einen Abnahmestandard und jemanden, der das Ergebnis unterschreibt.</p>
 </div>
-''' + abb("Der Wertanteil der haftenden Leistung stiege von 30 auf 68 Prozent",
+''' + abb("Der Wertanteil der Leistung mit Haftung stiege von 30 auf 68 Prozent",
           "Anteil am Umsatz des Evidenzmarkts nach Leistungsart",
           WERT,
-          "Quelle: Sitzung D, Station 4, zwölf Urteile aus dem Verbund; Aufteilung nachgerechnet und bestätigt.") +
- f'''<div class="prose">
-<p>Weil die haftende Schicht ihren Preis aus einer Zusicherung zieht, stiege der Umsatz eines Anbieters, der den Wechsel schafft, leicht. Sein Deckungsbeitrag fiele trotzdem, um rund 15 Prozent seines Werts von 2025, weil die Zusicherung vorher Geld kostet: Versicherung, Abnahmeverfahren, Qualifikation und eine andere Vertragsform. Der Umsatz 2031 wäre nicht das Problem. Die Marge wäre es.</p>
-</div>
-'''))
+          "Quelle: Sitzung D, zwölf Einschätzungen aus dem Verbund; Aufteilung nachgerechnet und bestätigt.") +
+ folgerung(f"<p>Ein Anbieter, der den Wechsel zur Leistung mit Haftung schafft, könnte seinen Umsatz leicht steigern. Sein {B('db')} würde trotzdem zunächst sinken, um rund 15 Prozent gegenüber 2025, weil die Zusicherung vorab Geld kostet: Versicherung, Abnahmeverfahren, Qualifikation und neue Vertragsformen. Das Wachstum läge im Umsatz, die Aufgabe in der Marge.</p>")))
 
 # ====================================================================== Kapitel 6 HIGL
 NETTO = [("WIG2", 6823084, 4), ("4K ANALYTICS", 6502941, 4), ("GREENBAY Software", 1952412, 52),
@@ -527,13 +560,13 @@ AUSBLICK = punkte_intervall([
     ("INNO3", 0, -20, 25, "DB −10 %"),
     ("4K ANALYTICS", -10, -40, 15, "DB −30 %"),
     ("CLINIBOTS", -60, -90, -10, "DB −80 %"),
-    ("iLoc", None, 0, 0, "nicht marktbewertbar: 99,6 % Innenumsatz"),
+    ("iLoc", None, 0, 0, "nicht am Markt bewertbar: 99,6 % Innenumsatz"),
     ("GREENBAY healthcare", None, 0, 0, "nicht bewertet: keine eigenen Buchungsdaten"),
     ("Verbund", 5, -35, 40, "DB −15 %"),
 ], -100, 60, "Umsatz 2031 je Gesellschaft", links=190, fett={"Verbund"})
 
-HEMMNIS = '''<div class="tabelle"><table>
-<thead><tr><th>Bindendes Hemmnis</th><th class="z">Verbund, Sitzung D</th><th class="z">Früheres Panel</th></tr></thead>
+ENGPASS = '''<div class="tabelle"><table>
+<thead><tr><th>Wichtigster Engpass</th><th class="z">Fachrollen aus dem Verbund</th><th class="z">Frühere Befragung</th></tr></thead>
 <tbody>
 <tr class="hervor"><td>Haftung</td><td class="z">7 von 12</td><td class="z">7 Nennungen</td></tr>
 <tr><td>Refinanzierung</td><td class="z">4 von 12</td><td class="z">29 Nennungen</td></tr>
@@ -542,123 +575,180 @@ HEMMNIS = '''<div class="tabelle"><table>
 <tr><td>Recht</td><td class="z">—</td><td class="z">23 Nennungen</td></tr>
 </tbody></table></div>'''
 
-TEILE.append(kapitel(6, "higl", "Achtzig Punkte Spreizung: Der Verbund liefe auseinander",
- "Im Mittel wüchse der Verbund bis 2031 leicht. Das Mittel verdeckt, dass seine Gesellschaften in entgegengesetzte Richtungen liefen. Welche gewinnt, hängt daran, wie viel ihres Umsatzes heute schon an einer Zusicherung hängt.",
+TEILE.append(kapitel(6, "higl", "Die Gesellschaften entwickelten sich sehr unterschiedlich",
+ "Im Durchschnitt würde der Verbund bis 2031 leicht wachsen. Dahinter stünden gegenläufige Entwicklungen. Wie es einer Gesellschaft ginge, hinge davon ab, wie viel ihres Umsatzes schon heute an Ergebnissen hängt, für die sie einsteht.",
  f'''<div class="prose">
 <h3>Die Ausgangslage 2025</h3>
-<p>Die sieben Gesellschaften mit eigenen Buchungsdaten erzielten 2025 zusammen 17,57 Mio. € Netto-Erlöse. Ein Teil davon ist Innenumsatz zwischen den Gesellschaften; der Außenumsatz lag bei rund 14,48 Mio. €. Alle Werte für 2031 beziehen sich auf diesen Außenumsatz.</p>
-<p>Zwei Gesellschaften tragen den Verbund: WIG2 und 4K ANALYTICS stehen zusammen für 89 Prozent des Außenumsatzes. Beide sind konzentriert. Bei 4K tragen zwei Kunden, die IKK classic mit 2,12 Mio. € und IQVIA mit 1,91 Mio. €, zusammen 52 Prozent des extern fakturierten Volumens. Bei WIG2 steht der größte Kunde, die ZEG, mit 1,65 Mio. € für 25 Prozent. Die Kundenbeträge sind brutto fakturiert (Debitorensicht) und deshalb nicht mit den Netto-Erlösen der Abbildung zu verrechnen; die Anteile beziehen sich auf das extern fakturierte Volumen derselben Gesellschaft.</p>
+<p>Die sieben Gesellschaften mit eigenen Buchungsdaten erzielten 2025 zusammen 17,57 Mio. € Netto-Erlöse. Ein Teil davon sind Leistungen zwischen den Gesellschaften; der {B("aussenumsatz")} lag bei rund 14,48 Mio. €. Alle Werte für 2031 beziehen sich auf diesen Außenumsatz.</p>
+<p>WIG2 und 4K ANALYTICS stehen zusammen für 89 Prozent des Außenumsatzes, und beide hängen stark an einzelnen Kunden. Bei 4K entfallen auf die IKK classic (2,12 Mio. €) und IQVIA (1,91 Mio. €) zusammen 52 Prozent des extern fakturierten Volumens. Bei WIG2 steht der größte Kunde, die ZEG, mit 1,65 Mio. € für 25 Prozent. Die Kundenbeträge sind Bruttobeträge aus der Debitorenbuchhaltung; sie lassen sich deshalb nicht direkt mit den Netto-Erlösen in Abbildung 14 verrechnen.</p>
 </div>
-''' + abb("WIG2 und 4K ANALYTICS trügen 89 Prozent des Außenumsatzes",
+''' + abb("WIG2 und 4K ANALYTICS tragen 89 Prozent des Außenumsatzes",
           "Netto-Erlöse 2025 je Gesellschaft in Mio. €, darunter der Anteil des Innenumsatzes",
           UMSATZ,
           "Quelle: DATEV-Kontenblätter 2025, Erlöskonten, gemessen. GREENBAY healthcare ist eine Teilbetriebsausgründung der 4K ANALYTICS GmbH und hat keinen eigenen Mandanten in den Buchungsdaten.") +
  f'''<div class="prose">
 <h3>Der Ausblick je Gesellschaft</h3>
-<p><strong>WIG2 und GREENBAY Software gewännen</strong>, je rund 20 Prozent Umsatz. Die Fachurteile ordnen WIG2 der haftenden Schicht zu; der Wert wäre eher vorsichtig, denn die ganze WIG2-Spanne läge unter dem Zentralwert dieser Schicht. Bei GREENBAY Software ist die Zuordnung strittig: Wer sie der haftenden Schicht zurechnet, käme auf plus 40 bis 60 Prozent, wer der beschreibenden, auf minus 25. Der Übergabewert von plus 20 Prozent löst diesen Streit nicht auf; die Spanne liegt 85 Punkte breit.</p>
-<p><strong>4K ANALYTICS verlöre</strong> rund 10 Prozent Umsatz und 30 Prozent Deckungsbeitrag. Ihr Geschäft ist die Auswertungsschicht, also genau der Wertanteil, der von 70 auf 32 Prozent fiele. Die Kundenkonzentration verschärfte das: Kürzte einer der beiden großen Kunden sein Budget für Auswertung, träfe das die Gesellschaft überproportional. In Euro stünden sich damit ein Plus von rund 1,3 Mio. € bei WIG2 und ein Minus von rund 0,6 Mio. € bei 4K gegenüber.</p>
-<p><strong>CLINIBOTS stünde vor einer eigenen Entscheidung.</strong> Minus 60 Prozent Umsatz, minus 80 Prozent Deckungsbeitrag. Das Produkt verarbeitet öffentlich zugängliche Rohdaten, etwa nach § 21 KHEntgG und aus den Qualitätsberichten, zu einer Auswertung. Das ist die angreifbarste Stelle im gesamten Portfolio. Der Betrag ist klein, rund 49.000 €; die Frage ist, ob die Gesellschaft ein Geschäftsmodell für 2031 hat.</p>
-<p><strong>iLoc ist nicht zu bewerten</strong>, und das ist keine Bewertung mit null. 99,6 Prozent ihres Volumens sind Innenumsatz. Ohne Außenmarkt wird ein Produktivitätsgewinn nicht zu einem Preis, sondern zu einer Umlagezeile.</p>
+<p><strong>WIG2 und GREENBAY Software</strong> würden jeweils um rund 20 Prozent wachsen. Die Fachrollen ordnen WIG2 der Leistung mit Haftung zu; der Wert ist eher vorsichtig, denn die gesamte Spanne für WIG2 liegt unter dem Mittelwert dieser Leistungsart. Bei GREENBAY Software ist die Zuordnung offen: Als Anbieter von Leistung mit Haftung käme die Gesellschaft auf plus 40 bis 60 Prozent, als Anbieter von Standardauswertung auf minus 25 Prozent. Die angegebenen plus 20 Prozent klären diese Frage nicht.</p>
+<p><strong>4K ANALYTICS</strong> würde rund 10 Prozent Umsatz und 30 Prozent Deckungsbeitrag verlieren. Ihr Geschäft liegt überwiegend in der Standardauswertung, deren Wertanteil von 70 auf 32 Prozent fiele. Die Abhängigkeit von zwei Kunden verstärkt das Risiko. In Euro stünden einem Plus von rund 1,3 Mio. € bei WIG2 ein Minus von rund 0,6 Mio. € bei 4K gegenüber.</p>
+<p><strong>CLINIBOTS</strong> läge bei minus 60 Prozent Umsatz und minus 80 Prozent Deckungsbeitrag. Das Produkt wertet öffentlich zugängliche Daten aus, etwa nach § 21 KHEntgG und aus den Qualitätsberichten der Krankenhäuser. Diese Art von Auswertung könnte KI am leichtesten ersetzen. Der Betrag ist mit rund 49.000 € klein; offen ist, welches Geschäftsmodell die Gesellschaft 2031 trägt.</p>
+<p><strong>iLoc</strong> lässt sich nicht bewerten, weil 99,6 Prozent ihres Umsatzes innerhalb des Verbunds entstehen. Ohne Außenmarkt würde ein Effizienzgewinn nur die interne Umlage senken. <strong>GREENBAY research</strong> (plus 10 Prozent) und <strong>INNO3</strong> (unverändert) lägen dazwischen.</p>
 </div>
-''' + abb("Die Gesellschaften lägen 80 Punkte auseinander; der Verbundwert beschriebe keine von ihnen",
-          "Umsatz 2031 gegenüber 2025 mit 80-%-Intervall, rechts die Veränderung des Deckungsbeitrags (DB)",
+''' + abb("Die Gesellschaften lägen bis zu 80 Prozentpunkte auseinander; der Verbundwert beschreibt keine von ihnen",
+          "Umsatz 2031 gegenüber 2025 mit 80-%-Intervall, rechts die Veränderung des Deckungsbeitrags (DB), Pfad A",
           AUSBLICK,
-          "Quelle: Sitzung D, Station 4 und Übergabe Ü4. Szenario mit Grundsatzentscheidung und Versicherungsdeckung (Kapitel 7). Werte auf fünf Punkte genau zu lesen.") +
- einordnung("Die Lücke: GREENBAY healthcare",
- "<p>GREENBAY healthcare ist nicht bewertet. Die Gesellschaft ist eine Teilbetriebsausgründung der 4K ANALYTICS GmbH und hat deshalb keinen eigenen Mandanten in den Buchungsdaten, aus denen die Ausgangslage gebildet wurde. Sie beschäftigt 45 Personen und führt mit <em>hAIppokrates</em> (ein Sprachmodell-Rahmenwerk für das klinische Umfeld), <em>Copertino</em> (Tariftreue-Dokumentation) und der angekündigten <em>GREENBAY Suite</em> genau das Portfolio, das nach der Logik dieses Papiers auf der Gewinnerseite stünde.</p><p>Der 4K-Wert von minus 10 Prozent beschreibt deshalb ein Geschäft, aus dem der wachsende Teil bereits herausgelöst wurde. Die Verbundzahl von plus 5 Prozent wäre eher zu niedrig als zu hoch. Um wie viel, lässt sich erst sagen, wenn die Erlös- und Kostenzahlen 2025 von GREENBAY healthcare getrennt vorliegen.</p>") +
+          "Quelle: Sitzung D, Stufe Markt des Verbunds. Pfad A: Der Verbund kann für seine Ergebnisse haften (Kapitel 7). Werte auf fünf Prozentpunkte genau zu lesen.") +
+ einordnung("Offene Stelle: GREENBAY healthcare",
+ "<p>GREENBAY healthcare ist in diesem Papier nicht bewertet. Die Gesellschaft ist eine Teilbetriebsausgründung der 4K ANALYTICS GmbH und hat deshalb keinen eigenen Mandanten in den Buchungsdaten, aus denen die Ausgangslage gebildet wurde. Sie beschäftigt 45 Personen und bietet mit <em>hAIppokrates</em> (ein Rahmenwerk für Sprachmodelle im klinischen Umfeld), <em>Copertino</em> (Dokumentation der Tariftreue) und der angekündigten <em>GREENBAY Suite</em> Produkte an, die nach diesem Papier an Wert gewinnen würden.</p><p>Der Wert für 4K beschreibt deshalb ein Geschäft, aus dem der wachsende Teil bereits ausgegliedert ist. Die plus 5 Prozent für den Verbund wären eher zu niedrig als zu hoch. Wie viel, lässt sich erst sagen, wenn die Erlös- und Kostenzahlen 2025 von GREENBAY healthcare getrennt vorliegen.</p>") +
  f'''<div class="prose">
-<h3>Das bindende Hemmnis wäre die Haftung</h3>
-<p>Sieben der zwölf Fachurteile aus dem Verbund nennen die Haftung als das Hemmnis, das den Wechsel zur haftenden Leistung bindet. Sie weichen damit begründet vom früheren Panel ab, das Refinanzierung, Investitionsfähigkeit und Recht vorn sah und die Haftung hinten. Die Begründung ist einheitlich: Für einen Anbieter ist nicht die Kaufentscheidung des Kunden die knappe Größe, sondern die Frage, ob jemand für das Ergebnis geradesteht.</p>
-<p>Keines der zwölf Urteile bezeichnet die dafür nötige Versicherungsdeckung als verfügbar oder die Frage als gelöst. Eines beziffert die Zahl heute vorliegender Deckungsangebote mit null.</p>
+<h3>Der wichtigste Engpass wäre die Haftung</h3>
+<p>Sieben der zwölf Fachrollen aus dem Verbund sehen in der Haftung den wichtigsten Engpass auf dem Weg zur Leistung mit Haftung. Eine frühere Befragung hatte Refinanzierung, Investitionsfähigkeit und Recht vorn gesehen. Die Begründung der Fachrollen ist einheitlich: Für einen Anbieter entscheidet weniger, ob der Kunde kauft, als ob jemand für das Ergebnis geradesteht.</p>
+<p>Keine der zwölf Fachrollen hält die dafür nötige Versicherungsdeckung für verfügbar oder die Frage für gelöst. Eine gibt an, dass derzeit kein einziges Deckungsangebot vorliege.</p>
 </div>
-''' + abb("Aus Sicht des Verbunds stünde die Haftung vorn, nicht das Geld",
-          "Bindendes Hemmnis für den Wechsel zur haftenden Leistung",
-          HEMMNIS,
-          "Quelle: Sitzung D, Station 4 (S4-01 bis S4-12); früheres Panel aus dem Bestand der Szenariokonferenz, Zahl der Nennungen. Beide Spalten sind wegen unterschiedlicher Grundgesamtheit nicht direkt vergleichbar.")))
+''' + abb("Aus Sicht des Verbunds stünde die Haftung an erster Stelle",
+          "Wichtigster Engpass für den Wechsel zur Leistung mit Haftung",
+          ENGPASS,
+          "Quelle: Sitzung D, Einschätzungen S4-01 bis S4-12; frühere Befragung aus dem Bestand der Szenariokonferenz, Zahl der Nennungen. Die Spalten haben unterschiedliche Grundgesamtheiten und sind nicht direkt vergleichbar.") +
+ folgerung("<p>Eine einheitliche Verbundstrategie würde den Gesellschaften nicht gerecht. WIG2 wäre bereits nahe an der Leistung mit Haftung, 4K ANALYTICS und CLINIBOTS stünden vor einem Umbau, bei GREENBAY Software ist die Einordnung offen, und GREENBAY healthcare fehlt in der Rechnung. Der Rahmen in Kapitel 7 gibt deshalb eine gemeinsame Richtung vor und lässt jeder Gesellschaft ihren eigenen Weg dorthin.</p>")))
 
-# ====================================================================== Kapitel 7 Entscheidung
-SCHALTER = gruppen([
+# ====================================================================== Kapitel 7 Strategischer Rahmen
+PFADE = gruppen([
     ("Umsatz 2031", [5, -30]),
     ("Deckungsbeitrag 2031", [-15, -60]),
-], [("mit Entscheidung und Deckung", "f-accent"), ("ohne", "f-loss")], -60, 20,
-   "Umsatz und Deckungsbeitrag 2031 mit und ohne Entscheidung", " %")
+], [("Pfad A: Verbund kann haften", "f-accent"), ("Pfad B: nur Standardauswertung", "f-loss")], -60, 20,
+   "Umsatz und Deckungsbeitrag 2031 in beiden Pfaden", " %")
+
+FADEN = '''<div class="tabelle"><table>
+<thead><tr><th>Kapitel</th><th>Befund</th><th>Folgerung für den Rahmen</th></tr></thead>
+<tbody>
+<tr><td>1 Europa</td><td>Im Gesundheitswesen zeigt sich ein Effizienzgewinn kaum im Preis.</td><td>Billigere Standardarbeit allein bringt keinen höheren Preis.</td></tr>
+<tr><td>2 Deutschland</td><td>Die Beitragsbasis wächst weiter; im Markt des Verbunds erhielten die Kunden den größten Anteil eines Effizienzgewinns.</td><td>Die Finanzierung trägt; der Wettbewerb gibt Effizienz weiter.</td></tr>
+<tr><td>3 Gesundheitswesen</td><td>Mehr Leistungen, real sinkende Vergütung, strengere Nachweise.</td><td>Kunden kaufen belastbare Ergebnisse, keine Auswertung um ihrer selbst willen.</td></tr>
+<tr><td>4 Pharma und USA</td><td>Preisdruck erhöht den Bedarf an Evidenz für die Nutzenbewertung.</td><td>Wachstum liegt bei Ergebnissen, die in Verfahren bestehen.</td></tr>
+<tr><td>5 Unser Markt</td><td>Wertanteil der Leistung mit Haftung steigt von 30 auf 68 Prozent.</td><td>Die Richtung: vom Auswerten zum Einstehen.</td></tr>
+<tr><td>6 Die Gesellschaften</td><td>Große Unterschiede; wichtigster Engpass ist die Haftung.</td><td>Gemeinsame Richtung, eigene Wege je Gesellschaft.</td></tr>
+</tbody></table></div>'''
+
+FELDER = '''<div class="tabelle"><table>
+<thead><tr><th>Handlungsfeld</th><th>Worum es geht</th><th>Leitfrage für jede Gesellschaft</th></tr></thead>
+<tbody>
+<tr><td><strong>Nachweisfähigkeit</strong></td><td>Ergebnisse so erzeugen und dokumentieren, dass sie vor Aufsicht, Nutzenbewertung und Gericht bestehen, auch wenn KI beteiligt ist.</td><td>Welche unserer Ergebnisse könnten wir heute unterschreiben, und was fehlt bei den übrigen?</td></tr>
+<tr><td><strong>Versicherbarkeit</strong></td><td>Klären, zu welchen Bedingungen Berufshaftpflichtversicherer Zusicherungen für Analyseergebnisse decken.</td><td>Für welche Leistungen bräuchten wir Deckung, und in welcher Höhe?</td></tr>
+<tr><td><strong>Portfolio</strong></td><td>Standardauswertung automatisieren und günstiger anbieten; Leistung mit Haftung gezielt aufbauen.</td><td>Welcher Anteil unseres Umsatzes hängt heute an einer Zusicherung, welcher an reinem Aufwand?</td></tr>
+<tr><td><strong>Kundenbasis</strong></td><td>Abhängigkeit von einzelnen Kunden verringern, vor allem dort, wo Budgets für Auswertung unter Druck geraten.</td><td>Was geschähe, wenn unser größter Kunde sein Auswertungsbudget halbiert?</td></tr>
+<tr><td><strong>Datengrundlage</strong></td><td>Kennzahlen einheitlich definieren und fehlende Zahlen nachtragen, vor allem für GREENBAY healthcare.</td><td>Welche Größen messen wir, und sind sie über die Gesellschaften hinweg vergleichbar?</td></tr>
+</tbody></table></div>'''
+
+SIGNALE = '''<div class="tabelle"><table>
+<thead><tr><th>Signal</th><th class="z">Zeitpunkt</th><th>Was es anzeigen würde</th></tr></thead>
+<tbody>
+<tr><td>Referentenentwurf zu § 130b Abs. 1c SGB V</td><td class="z">bis Mitte 2027</td><td>Ob deutsche Erstattungsbeträge vertraulich bleiben können; ohne Entwurf gewönne die Evidenz für die Nutzenbewertung an Gewicht.</td></tr>
+<tr><td>Deckungsangebote von Berufshaftpflichtversicherern</td><td class="z">bis Ende 2027</td><td>Ob Pfad A offensteht.</td></tr>
+<tr><td>Harmonisierte Normen und Beginn der Hochrisikopflichten der KI-Verordnung</td><td class="z">Dez. 2027 oder Aug. 2028</td><td>Welche Nachweise für KI-gestützte Ergebnisse verlangt werden.</td></tr>
+<tr><td>Anerkennungsregel für maschinell erzeugte Evidenz in der Nutzenbewertung</td><td class="z">offen</td><td>Ob KI-gestützte Evidenz im Verfahren nach § 35a SGB V verwendbar wird.</td></tr>
+<tr><td>Überprüfung der US-Ausnahme für Generika; endgültige Regel zu GLOBE</td><td class="z">2026 bis 2027</td><td>Ob der US-Druck weitere Segmente erfasst.</td></tr>
+<tr><td>Bearbeitungsdauer der Zugangsstellen im Gesundheitsdatenraum</td><td class="z">vor März 2031</td><td>Wie schnell die zusätzliche Datennachfrage ab 2031 bedient werden kann.</td></tr>
+</tbody></table></div>'''
 
 PLAN = zeitstrahl([
-    (2027.49, "30. Juni 2027", "Konventionen, § 130b", "intern", 3, "start"),
-    (2027.99, "31. Dez. 2027", "Zwischenmarke Versicherer", "intern", 2, "start"),
-    (2028.49, "30. Juni 2028", "Gesellschafterbeschluss", "intern", 1, "start"),
-    (2028.99, "31. Dez. 2028", "Amtliche Größen", "intern", 0, "start"),
+    (2027.49, "Mitte 2027", "Kennzahlen einheitlich", "intern", 3, "start"),
+    (2027.99, "Ende 2027", "Versicherbarkeit geklärt", "intern", 2, "start"),
+    (2028.49, "Mitte 2028", "Richtung je Gesellschaft", "intern", 1, "start"),
+    (2028.99, "Ende 2028", "Datenlücken geschlossen", "intern", 0, "start"),
     (2026.74, "29. Sept. 2026", "US-Zoll für alle", "extern", 0, "start"),
     (2027.92, "2. Dez. 2027", "KI-VO Anhang III", "extern", 2, "start"),
     (2028.5, "30. Juni 2028", "§ 130b Abs. 1c endet", "extern", 1, "start"),
     (2029.05, "20. Jan. 2029", "Ende US-Nullsatz", "extern", 0, "start"),
     (2030.0, "2030", "Vorhaltevergütung voll", "extern", 1, "start"),
-    (2031.2, "März 2031", "EHDS, zweite Tranche", "extern", 0, "end"),
-], 2026, 2031.6, "Zeitplan der Entscheidung", achse=170)
+    (2031.2, "März 2031", "EHDS, zweite Stufe", "extern", 0, "end"),
+], 2026, 2031.6, "Zeitfenster des strategischen Rahmens", achse=170)
 
-TEILE.append(kapitel(7, "entscheidung", "Ein Beschluss, drei Bausteine, fünf Fristen",
- "Die Szenarien liefen bis 2027 fast gleich. Die Fristen, die über 2031 entscheiden, liegen trotzdem davor, weil sie an Verfahrens-, Rechts- und Vergabetakten hängen, die der Verbund nicht steuert.",
+TEILE.append(kapitel(7, "rahmen", "Der strategische Rahmen",
+ "Die Kapitel 1 bis 6 führen zu einer gemeinsamen Richtung für den Verbund. Dieses Kapitel beschreibt sie, benennt die Voraussetzungen und die Handlungsfelder und zeigt, in welchem Zeitfenster sich die wichtigsten Fragen klären.",
  f'''<div class="prose">
-<h3>Zwei Ausgänge, kein dritter</h3>
-<p>Die Werte der Kapitel 5 und 6 gelten für ein Szenario, in dem der Verbund eine Grundsatzentscheidung trifft und Versicherungsdeckung erhält. Das Gegenszenario ist getrennt gerechnet. Ohne Entscheidung fiele der Außenumsatz bis 2031 um rund 30 Prozent (Spanne minus 45 bis minus 20), der Deckungsbeitrag um 60 Prozent. Mit Entscheidung stiege der Umsatz um 5 Prozent, der Deckungsbeitrag fiele um 15.</p>
-<p>In Euro läge der Außenumsatz 2031 mit Entscheidung um rund 0,7 Mio. € über dem Stand von 2025, ohne um rund 4,3 Mio. € darunter. <strong>Die Entscheidung wäre damit rund 5,1 Mio. € Außenumsatz wert</strong>, 35 Punkte beim Umsatz und 45 beim Deckungsbeitrag. Das ist nicht der Rand einer Unsicherheit, sondern ein eigener Zustand: Auch wer die Marktunsicherheit wegdenkt, stünde noch vor diesen beiden Ausgängen.</p>
+<h3>Vom Befund zum Rahmen</h3>
+<p>Jedes Kapitel hat mit einer Folgerung für den Verbund geendet. Zusammen ergeben sie ein Bild: Die Finanzierung des Gesundheitswesens trägt, die Nachfrage nach Evidenz wächst, aber der Preis für reine Auswertung fällt. Wert entsteht dort, wo jemand für ein Ergebnis einsteht.</p>
 </div>
-''' + abb("Die Entscheidung wäre rund 5,1 Mio. € Außenumsatz und 45 Punkte Deckungsbeitrag wert",
+''' + abb("Die sechs Kapitel führen zu einer Richtung: vom Auswerten zum Einstehen",
+          "Befunde und Folgerungen je Kapitel",
+          FADEN,
+          "Quelle: Kapitel 1 bis 6 dieses Papiers.") +
+ f'''<div class="prose">
+<h3>Die Richtung: vom Auswerten zum Einstehen</h3>
+<p>Der Verbund würde seinen Wert künftig weniger aus Rechenarbeit ziehen als aus Ergebnissen, für die er einsteht. Die Standardauswertung verschwände nicht; sie würde billiger, stärker automatisiert und wäre eher Grundlage als Produkt. Das Produkt wäre das verantwortete Ergebnis.</p>
+<h3>Zwei Pfade zur Orientierung</h3>
+<p>Die Modellrechnung unterscheidet zwei Pfade. In <strong>Pfad A</strong> kann der Verbund für seine Ergebnisse haften, mit Versicherungsdeckung und Abnahmeverfahren. Der Außenumsatz stiege bis 2031 um rund 5 Prozent, der Deckungsbeitrag sänke um 15 Prozent. In <strong>Pfad B</strong> bliebe der Verbund bei der Standardauswertung. Der Außenumsatz fiele um rund 30 Prozent (Spanne minus 45 bis minus 20), der Deckungsbeitrag um 60 Prozent.</p>
+<p>In Euro lägen die Pfade 2031 rund 5,1 Mio. € Außenumsatz auseinander: plus 0,7 Mio. € in Pfad A, minus 4,3 Mio. € in Pfad B. Die Pfade sind getrennt gerechnet und keine Ränder derselben Unsicherheit. Sie zeigen, wie viel von der Richtung abhängt, nicht, welcher Pfad eintritt.</p>
+</div>
+''' + abb("Zwischen den beiden Pfaden lägen 2031 rund 5,1 Mio. € Außenumsatz",
           "Veränderung 2031 gegenüber 2025 in Prozent, bezogen auf 14,48 Mio. € Außenumsatz",
-          SCHALTER,
-          "Quelle: Sitzung D, Übergabe Ü4 mit Szenarioschalter. Die beiden Balkenpaare sind getrennt gerechnete Szenarien, keine Intervallränder.") +
+          PFADE,
+          "Quelle: Sitzung D, Stufe Markt des Verbunds, getrennt gerechnete Pfade.") +
  f'''<div class="prose">
-<h3>Was zu beschließen wäre</h3>
-<p>Der Beschluss hätte drei Bausteine, und sie wirkten nur zusammen. Ein Abnahmestandard ohne Versicherung ist ein Versprechen ohne Deckung; eine Versicherung ohne nachvollziehbare Auswertungsstrecke ist nicht zu bekommen; beides ohne eine Stelle, die zeichnet, ist keine Haftung.</p>
+<h3>Drei Voraussetzungen, die nur zusammen wirken</h3>
 <ol class="empfehlung">
-<li><div><strong>Eine nachvollziehbare Auswertungsstrecke.</strong> Jedes Ergebnis, für das der Verbund einsteht, müsste vom Rohdatum bis zur Aussage prüfbar sein, einschließlich der eingesetzten Modelle und ihres Änderungsstands.<span class="wer">Produkt und Regulatory</span></div></li>
-<li><div><strong>Ein Abnahmestandard.</strong> Schriftlich festgelegt, was ein Ergebnis erfüllen muss, bevor es das Haus verlässt, und wer die Abnahme erklärt. Er müsste zu dem passen, was Aufsicht und Nutzenbewertung als Konformitätsnachweis anerkennen.<span class="wer">Geschäftsführungen der Gesellschaften</span></div></li>
-<li><div><strong>Eine zeichnende Verantwortung mit Deckung.</strong> Eine Gesellschaft oder Person, die das Ergebnis vertraglich zusichert, und ein Berufshaftpflichtversicherer, der diese Zusicherung deckt.<span class="wer">Gesellschafter</span></div></li>
+<li><div><strong>Eine nachvollziehbare Auswertungsstrecke.</strong> Jedes Ergebnis, für das der Verbund einsteht, müsste vom Rohdatum bis zur Aussage prüfbar sein, einschließlich der eingesetzten Modelle und ihres Versionsstands.</div></li>
+<li><div><strong>Ein Abnahmestandard.</strong> Schriftlich festgelegt, was ein Ergebnis erfüllen muss, bevor es das Haus verlässt, und wer die Abnahme erklärt. Er müsste zu dem passen, was Aufsicht und Nutzenbewertung als Nachweis anerkennen.</div></li>
+<li><div><strong>Eine Verantwortung mit Versicherungsdeckung.</strong> Eine Gesellschaft oder Person, die das Ergebnis vertraglich zusichert, und ein Berufshaftpflichtversicherer, der diese Zusicherung deckt.</div></li>
 </ol>
-
-<h3>Fünf Empfehlungen</h3>
-<ol class="empfehlung">
-<li><div><strong>Bis 30. Juni 2027 die Herleitungskonventionen festlegen</strong> und zur § 130b-Weiche Position beziehen. Bezugsgröße, Zuschnitt, Einheit, Basisjahr, Preisstufe und Deflator je Kennzahl. Die Kette dieser Arbeit ist an vier Gelenken nicht am Rechnen gescheitert, sondern daran, dass niemand vorher gesagt hat, was gezählt wird.<span class="wer">Controlling; Geschäftsführung und Verbände</span></div></li>
-<li><div><strong>Bis 31. Dezember 2027 die Zwischenmarke erreichen:</strong> eine schriftliche Vorabstimmung mit mindestens einem Berufshaftpflichtversicherer. Parallel klären, welcher Konformitätsnachweis einen KI-gestützten Leistungsbescheid nach § 31a SGB X und ein maschinell erzeugtes Ergebnis im Verfahren nach § 35a SGB V trägt.<span class="wer">Geschäftsführung; Produkt und Regulatory</span></div></li>
-<li><div><strong>Bis 30. Juni 2028 binär beschließen.</strong> Wurde die Zwischenmarke gerissen, wäre negativ zu entscheiden und nicht zu verschieben, weil die nachfolgenden Verfahrenstakte kein weiteres Jahr zuließen.<span class="wer">Gesellschafter</span></div></li>
-<li><div><strong>4K ANALYTICS und CLINIBOTS je eine eigene Antwort geben.</strong> Bei 4K ist die Kundenkonzentration das drängendere Thema als der Modellwert; bei CLINIBOTS die Frage, ob es ein Geschäftsmodell für 2031 gibt.<span class="wer">Geschäftsführungen der beiden Gesellschaften</span></div></li>
-<li><div><strong>GREENBAY healthcare vor dem Beschluss nachbewerten.</strong> Die Gesellschaft mit dem Portfolio, das gewinnen würde, ist in dieser Rechnung nicht enthalten. Nötig sind die Erlös- und Kostenzahlen 2025, getrennt vom 4K-Mandanten.<span class="wer">Controlling</span></div></li>
-</ol>
+<p>Fehlt eine der drei, trägt die Leistung mit Haftung nicht: Ein Abnahmestandard ohne Versicherung ist ein Versprechen ohne Deckung, und eine Versicherung ist ohne nachvollziehbare Auswertungsstrecke nicht zu bekommen.</p>
+<h3>Fünf Handlungsfelder</h3>
+<p>Innerhalb der Richtung lassen sich fünf Handlungsfelder unterscheiden. Sie gelten für alle Gesellschaften; welches Gewicht sie jeweils haben, hängt von der Ausgangslage ab (Kapitel 6). Die Leitfragen helfen, die eigene Position zu bestimmen.</p>
 </div>
-''' + abb("Vier Fristen lägen im Haus, sechs außerhalb; die Vorbereitung müsste 2027 beginnen, nicht 2028",
-          "Oben: Fristen des Verbunds; unten: äußere Takte, an denen sie hängen",
+''' + abb("Fünf Handlungsfelder mit je einer Leitfrage für die Gesellschaften",
+          "Handlungsfelder des strategischen Rahmens",
+          FELDER,
+          "Quelle: abgeleitet aus Kapitel 3 bis 6 dieses Papiers.") +
+ f'''<div class="prose">
+<h3>Zeitfenster und Signale</h3>
+<p>Die Szenarien der US-Studie trennen sich erst nach 2027. Die Fragen, die über 2031 entscheiden, klären sich aber früher, weil sie an Gesetzgebungs-, Verfahrens- und Vergabetakten hängen, die der Verbund nicht steuert. Abbildung 20 zeigt diese äußeren Termine und darüber Orientierungsmarken, bis wann die Gesellschaften ihre Position geklärt haben sollten, damit Vorbereitungen noch wirken können. Die Marken sind keine Beschlusstermine; beschlossen wird in den dafür zuständigen Gremien.</p>
+</div>
+''' + abb("Die Orientierungsmarken des Verbunds liegen zwischen Mitte 2027 und Ende 2028, vor den wichtigsten äußeren Terminen",
+          "Oben: Orientierungsmarken des Rahmens; unten: äußere Termine",
           PLAN,
-          "Quelle: Sitzung D, Station 4 und Kettenprüfung; Rechtsstand nach Proclamation 11020, KHAG, VO (EU) 2024/1689 und EHDS-Verordnung. Der Geltungsbeginn der Anhang-III-Pflichten ist strittig (2. Dezember 2027 oder 2. August 2028).") +
- '<p class="zitat">Die einzige Frist, die allein im Haus liegt, ist der Gesellschafterbeschluss. Alle anderen hängen an Dritten.</p>'))
+          "Quelle: Sitzung D; Rechtsstand nach Proclamation 11020, KHAG, VO (EU) 2024/1689 und EHDS-Verordnung. Der Beginn der Hochrisikopflichten nach Anhang III ist umstritten (2. Dezember 2027 oder 2. August 2028).") +
+ f'''<div class="prose">
+<p>Welche Richtung sich tatsächlich durchsetzt, zeigen einige Signale, die sich beobachten lassen. Sie machen den Rahmen überprüfbar: Treten sie anders ein als hier angenommen, wäre der Rahmen anzupassen.</p>
+</div>
+''' + abb("Sechs Signale zeigen, ob die Annahmen des Rahmens tragen",
+          "Beobachtungspunkte bis 2031",
+          SIGNALE,
+          "Quelle: Kapitel 1, 4 und 6 dieses Papiers; Sitzung D.")))
 
 # ====================================================================== Anhang
-TEILE.append(kapitel(None, "methode", "Methode, Grenzen, Quellen",
+GLOSSAR_HTML = '<dl class="glossar">' + "".join(
+    f'<div id="g-{k}"><dt>{t}</dt><dd>{e}</dd></div>' for k, t, e in sorted(GLOSSAR, key=lambda g: g[1].lower())) + '</dl>'
+
+TEILE.append(kapitel(None, "methode", "Methode, Grenzen, Begriffe, Quellen",
  "Woher die Zahlen kommen, wie sie zu lesen sind und wo sie nicht tragen.",
  f'''<div class="prose">
 <h3>Wie die Zahlen entstanden sind</h3>
-<p>Grundlage ist eine Szenariokonferenz, deren vierte Sitzung am 25. September 2026 lief. Hundert Fachrollen, verteilt auf fünf Stationen und drei Querbänke, haben die Studie von Korinek u. a. entlang einer Wirkungskette auf Deutschland übertragen: von der Gesamtwirtschaft über die Finanzierung von GKV und PKV und die Leistungserbringer bis zu Pharma und den Gesellschaften des Verbunds. Jede Station übergab einen Zentralwert mit Intervall an die nächste. {N_KETTE} Urteile bilden die Kette, dazu acht Urteile zu Europa und sechs zur Technik.</p>
-<p><strong>Die Fachrollen sind KI-Agenten, keine befragten Menschen.</strong> Jede Rolle wurde von einem Sprachmodell eingenommen, mit einem festen Fragebogen, dem gemeinsamen Faktenkern und den Übergaben der Vorstation als Eingabe. Die Urteile sind deshalb als strukturierte Modellrechnung zu lesen, nicht als Expertenbefragung. Die Ist-Werte 2025 des Verbunds stammen aus den DATEV-Kontenblättern und sind gemessen.</p>
+<p>Grundlage ist eine Szenariokonferenz, deren vierte Sitzung am 25. September 2026 stattfand. Hundert Fachrollen haben die US-Studie von Korinek u. a. auf Deutschland übertragen, entlang einer Wirkungskette mit fünf Stufen: Gesamtwirtschaft, Kranken- und Pflegekassen, Leistungserbringer, Pharma und der Markt des Verbunds. Jede Stufe gab einen Zentralwert mit Spanne an die nächste weiter. {N_KETTE} Einschätzungen bilden diese Kette, dazu acht Einschätzungen zu Europa und sechs zur Technik.</p>
+<p><strong>Die Fachrollen sind KI-Agenten, keine befragten Menschen.</strong> Jede Rolle wurde von einem Sprachmodell eingenommen, mit einem festen Fragebogen, einem gemeinsamen Faktenstand und den Ergebnissen der vorigen Stufe. Die Einschätzungen sind deshalb als strukturierte Modellrechnung zu lesen, nicht als Expertenbefragung. Die Ist-Werte 2025 des Verbunds stammen aus den DATEV-Kontenblättern und sind gemessen.</p>
 
-<h3>Vier Grenzen, die jeder Leser kennen sollte</h3>
-<p><strong>Die Endzahlen sind Rechtsfolge- und Vertragsaussagen, keine Modellaussagen.</strong> Die Studie liefert den Rahmen, in dem die Fragen gestellt werden, nicht die Antworten. Die 420 Mrd. € GKV-Ausgaben folgen aus deutscher Rechts- und Fortschreibungsmechanik.</p>
-<p><strong>Die Szenariowahl ist importiert.</strong> {round(100*SZEN["substantial"]/N_KETTE)} Prozent der Urteile wählten den mittleren Pfad, obwohl die Autoren ihren Szenarien keine Wahrscheinlichkeiten zuordnen. Ein anderes Szenario verschöbe die Zahlen, nach Einschätzung der Kette aber nicht die Richtung der Aussage.</p>
-<p><strong>Das Modell rechnet bis 2030, diese Arbeit bis 2031.</strong> Die zusätzliche Jahresscheibe bewegte auf der Einnahmenseite rund 42 Mrd. €, das Vier- bis Fünffache des gesamten KI-Effekts auf die Beitragsbasis.</p>
-<p><strong>Die Schlussfassung der Konferenz hat keine zweite Freigabe erhalten.</strong> Eine interne Gegenprüfung fand sieben harte Rechen- und Zählfehler; alle wurden eingearbeitet, die Einarbeitung wurde nicht erneut geprüft. Für den Deckungsbeitrag zirkulieren drei Werte, 6,3, 15 und 25 Prozent Rückgang; maßgeblich ist 15.</p>
+<h3>Grenzen</h3>
+<p><strong>Die Endzahlen folgen vor allem aus deutschem Recht und deutschen Verträgen.</strong> Die US-Studie liefert den Rahmen der Fragen, nicht die Antworten. Die 420 Mrd. € GKV-Ausgaben etwa ergeben sich aus der Fortschreibung deutscher Regeln.</p>
+<p><strong>Die Wahl des Szenarios stammt aus den USA.</strong> {round(100*SZEN["substantial"]/N_KETTE)} Prozent der Einschätzungen wählten das mittlere Szenario, obwohl die Autoren keine Wahrscheinlichkeiten angeben. Ein anderes Szenario würde die Zahlen verschieben, nach Einschätzung der Fachrollen aber nicht die Richtung.</p>
+<p><strong>Die Studie rechnet bis 2030, dieses Papier bis 2031.</strong> Das zusätzliche Jahr bewegt auf der Einnahmenseite rund 42 Mrd. €, das Vier- bis Fünffache der gesamten KI-Wirkung auf die Beitragsbasis.</p>
+<p><strong>Die Ergebnisse der Konferenz sind nicht abschließend geprüft.</strong> Eine interne Gegenprüfung fand sieben Rechen- und Zählfehler; alle wurden korrigiert, die Korrekturen aber nicht erneut geprüft. Für den Rückgang des Deckungsbeitrags nennen die Unterlagen drei Werte, 6,3, 15 und 25 Prozent; dieses Papier verwendet 15.</p>
+<p><strong>Lesart.</strong> Werte für 2031 sind auf ihre Rundungsstufe genau zu lesen: 1.790 Mrd. € auf 10 Mrd., 420 Mrd. € auf 5 Mrd., 800 Mio. € auf 50 Mio., die Werte der Gesellschaften auf 5 Prozentpunkte. Spannen sind {B("intervall", "80-Prozent-Intervalle")}, Mittelwerte der Einschätzungen sind {B("median", "Mediane")}.</p>
 
-<p><strong>Lesart.</strong> Werte für 2031 stehen im Konjunktiv und sind auf ihre Ableseeinheit genau zu lesen: 1.790 Mrd. € auf 10 Mrd., 420 Mrd. € auf 5 Mrd., 800 Mio. € auf 50 Mio., die Verbundwerte auf 5 Prozentpunkte. Intervalle sind 80-Prozent-Intervalle. Mediane stammen aus den Urteilen der jeweiligen Station und sind auf ganze Zahlen gerundet.</p>
-
+<h3>Begriffe</h3>
+</div>
+{GLOSSAR_HTML}
+<div class="prose">
 <h3>Quellen</h3>
 <ul>
 <li>Korinek, A., Jones, C., Sacher, S., Cotter, T., McCrory, B.: <em>Economic Scenarios for Transformative AI</em>. The Anthropic Institute, Working Paper 2026-02.</li>
 <li>Szenariokonferenz, Sitzung D, Rohdaten und Verfahrensbericht: <code>rohdaten/sitzung-d.json</code>, <code>30-Sitzung-D.md</code>; ausführliche Fassung mit allen Herleitungen: <code>29-Strategiepapier-2031.md</code>.</li>
-<li>Gemeinsamer Faktenkern der Szenariokonferenz (<code>01-Briefing.md</code>): IAB-Prognosen März 2026, ifo-Konjunkturumfrage Juni 2026, BT-Drs. 21/7620, Draghi-Bericht.</li>
+<li>Gemeinsamer Faktenstand der Szenariokonferenz (<code>01-Briefing.md</code>): IAB-Prognosen März 2026, ifo-Konjunkturumfrage Juni 2026, BT-Drs. 21/7620, Draghi-Bericht.</li>
 <li>GKV-Statistik KV45 und KJ1 2025; PKV-Verband, Zahlenbericht und Beitragsanpassung 2026.</li>
-<li>Proclamation 11020, Federal Register 2026-06956; SGB V §§ 35a, 71, 130b; SGB X § 31a; KHEntgG § 21; Krankenhausreformanpassungsgesetz; VO (EU) 2024/1689; Verordnung über den Europäischen Gesundheitsdatenraum.</li>
+<li>Proclamation 11020, Federal Register 2026-06956; SGB V §§ 35a, 71, 130b; KHEntgG § 21; Krankenhausreformanpassungsgesetz; VO (EU) 2024/1689; Verordnung über den Europäischen Gesundheitsdatenraum.</li>
 <li>DATEV-Kontenblätter 2025 der Gesellschaften des HIGL-Verbunds.</li>
 </ul>
-<p class="fuss" style="margin-top:2.4em;border-top:1px solid var(--rule);padding-top:1em">Erstellt mit Unterstützung von Künstlicher Intelligenz. Die Zahlen für 2031 sind Modellergebnisse und keine Prognosen; die Ist-Werte 2025 sind aus den Buchungsdaten gemessen. HIGL-Verbund, Puschstraße 6a, 04103 Leipzig. Stand 26. September 2026.</p>
+<p class="fuss" style="margin-top:2.4em;border-top:1px solid var(--rule);padding-top:1em">Erstellt mit Unterstützung von Künstlicher Intelligenz. Die Zahlen für 2031 sind Modellergebnisse und keine Prognosen; die Ist-Werte 2025 sind aus den Buchungsdaten gemessen. Das Papier beschreibt einen strategischen Rahmen und ersetzt keine Beschlüsse der zuständigen Gremien. HIGL-Verbund, Puschstraße 6a, 04103 Leipzig. Stand 26. September 2026, Fassung 2.0.</p>
 </div>
 '''))
+
 
 # ====================================================================== Ausgabe
 HTML = (f'<title>Die Haftungswende</title>\n<meta name="description" content="Strategiepapier des HIGL-Verbunds: Auswirkungen von KI bis 2031 auf Europa, Deutschland, das Gesundheitswesen und die Gesellschaften des Verbunds.">\n'

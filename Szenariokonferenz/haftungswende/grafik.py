@@ -124,8 +124,8 @@ def punktwolke(werte, xmin, xmax, median, label="", schritt=5):
     b.append(_t(xm + 8, 26, f"Median {de(median,0,vz=True)} %", "t-ink", 12.5, "start", 700))
     neg = sum(1 for _, v in werte if v < 0)
     pos = sum(1 for _, v in werte if v > 0)
-    b.append(_t(sx(xmin) + 4, 26, f"{neg} Urteile negativ", "t-muted", 12, "start", 600))
-    b.append(_t(sx(xmax) - 4, 26, f"{pos} Urteile positiv", "t-muted", 12, "end", 600))
+    b.append(_t(sx(xmin) + 4, 26, f"{neg} Einschätzungen negativ", "t-muted", 12, "start", 600))
+    b.append(_t(sx(xmax) - 4, 26, f"{pos} Einschätzungen positiv", "t-muted", 12, "end", 600))
     return svg(basis + 40, "".join(b), label)
 
 

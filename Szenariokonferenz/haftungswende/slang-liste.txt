@@ -1,0 +1,26 @@
+# Projektspezifische Muster für »Die Haftungswende« (validate_doc.py --slang-liste)
+# Zuspitzungsformeln
+nicht [^.]{1,60}, sondern
+\bDas ist (kein|keine|nicht)\b
+\bgenau (das|der|die|dort)\b
+\bDer Satz, der\b
+\bWer [a-zäöü]+ [^.]{0,40}, (der|die|das|bekommt|verliert|verdient)\b
+# Verfahrensjargon der Szenariokonferenz, im Fließtext zu vermeiden
+\bÜbertragungsbr\w*
+\bSpaltungsverst\w*
+\bhaftende[nr]? Schicht\b
+\bbeschreibende[nr]? Schicht\b
+\bKettenurteil\w*
+\bFachurteil\w*
+\bAbleseeinheit\w*
+\bÜbergabewert\w*
+\bbindende[sn]? Hemmnis\w*
+\bPunkte Spreizung\b
+# Entscheidungsvokabular (Papier ist ein strategischer Rahmen, keine Beschlussvorlage)
+\bbinär\w*
+\bzu beschließen\b
+\bGesellschafterbeschluss\w*
+\bZwischenmarke\b
+\bnegativ zu entscheiden\b
+# Satzzeichen
+—
